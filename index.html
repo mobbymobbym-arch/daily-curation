@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joyce's Daily Curation | 每日新聞策展 v3.0</title>
+    <title>Joyce's Daily Curation | 每日新聞策展 v3.1</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -41,18 +41,30 @@
         
         .section-header { display: flex; align-items: center; gap: 15px; margin: 60px 0 30px 0; padding-bottom: 10px; border-bottom: 3px solid; }
         
-        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; }
         
         .news-card {
-            background: var(--card-bg); border-radius: 16px; padding: 25px; box-shadow: var(--shadow);
+            background: var(--card-bg); border-radius: 16px; padding: 30px; box-shadow: var(--shadow);
             display: flex; flex-direction: column; position: relative; border: 1px solid rgba(0,0,0,0.05);
+            height: auto; /* 確保高度自適應 */
         }
         .news-card:hover { transform: translateY(-5px); }
 
         .source-tag { font-size: 0.65rem; font-weight: 800; padding: 3px 8px; border-radius: 4px; margin-bottom: 15px; display: inline-block; }
         
-        .title-cn { font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; line-height: 1.4; display: block; }
-        .title-en { font-size: 0.85rem; color: var(--secondary-text); font-style: italic; margin-bottom: 20px; flex-grow: 1; display: block; }
+        .title-cn { font-size: 1.3rem; font-weight: 700; margin-bottom: 12px; line-height: 1.4; display: block; }
+        
+        /* 核心修正：英文標題完整顯示，不截斷 */
+        .title-en { 
+            font-size: 0.95rem; 
+            color: var(--secondary-text); 
+            font-style: italic; 
+            margin-bottom: 25px; 
+            flex-grow: 1; 
+            display: block; 
+            overflow: visible; 
+            white-space: normal; 
+        }
         
         .link-btn { text-decoration: none; font-weight: 600; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 8px; }
 
@@ -72,13 +84,14 @@
     </style>
 </head>
 <body>
+    <div id="progress-bar"></div>
     <nav>
         <a href="#techmeme-section">Techmeme</a>
         <a href="#wsj-section">WSJ Technology</a>
     </nav>
 
     <header>
-        <h1>Joyce's Daily Curation</h1>
+        <h1>Joyce's Daily</h1>
         <p>2026年2月11日 · 全球科技動態彙整</p>
     </header>
 
@@ -92,93 +105,107 @@
         <div class="news-grid">
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #01</span>
-                <span class="title-cn">xAI 共同創辦人 Jimmy Ba 離職；消息：創始團隊已流失過半</span>
-                <span class="title-en">xAI co-founder Jimmy Ba is leaving xAI, the sixth co-founder to depart...</span>
-                <a href="https://www.ft.com/content/3d4a9683-b70a-4953-b21b-b3ea07d693a3" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">xAI 共同創辦人 Jimmy Ba 即將離職；消息：這已是第六位離職的創始成員，且近期有多位研究員集體出走</span>
+                <span class="title-en">xAI co-founder Jimmy Ba is leaving xAI, the sixth co-founder to depart; sources and social media posts: more than half a dozen researchers left in recent weeks</span>
+                <a href="https://www.ft.com/content/3d4a9683-b70a-4953-b21b-b3ea07d693a3" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #02</span>
-                <span class="title-cn">xAI 推理負責人 Tony Wu 辭職，48 小時內第二位離職創辦人</span>
-                <span class="title-en">xAI co-founder Tony Wu says he has resigned...</span>
-                <a href="https://www.theinformation.com/briefings/another-cofounder-elon-musks-xai-resigns" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">xAI 推理技術負責人 Tony Wu 辭職，曾直接向 Elon Musk 報告，是 48 小時內第二位離職的共同創辦人</span>
+                <span class="title-en">xAI co-founder Tony Wu says he has resigned, following co-founder Igor Babuschkin's exit in August 2025; Wu was in charge of reasoning and reported to Elon Musk</span>
+                <a href="https://www.theinformation.com/briefings/another-cofounder-elon-musks-xai-resigns" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #03</span>
-                <span class="title-cn">GPT-5.3 與 Claude 4.6 已可獨立處理應用開發全生命週期</span>
-                <span class="title-en">GPT-5.3-Codex and Claude Opus 4.6 can handle the full app development lifecycle...</span>
-                <a href="https://shumer.dev/something-big-is-happening" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">GPT-5.3 與 Claude 4.6 震撼登場：已具備獨立處理應用開發全生命週期的能力，象徵知識工作將在五年內迎來劇變</span>
+                <span class="title-en">GPT-5.3-Codex and Claude Opus 4.6 can handle the full app development lifecycle on their own, a sign of what's coming for most knowledge work within five years</span>
+                <a href="https://shumer.dev/something-big-is-happening" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #04</span>
-                <span class="title-cn">OpenAI 高層解釋為何 ChatGPT 即將引入廣告</span>
-                <span class="title-en">Q&A with Fidji Simo on ChatGPT ads...</span>
-                <a href="https://sources.news/p/openais-fidji-simo-on-ads-in-chatgpt" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">OpenAI 高層 Fidji Simo 解釋為何 ChatGPT 即將引入廣告，以及新模型如何終止 Sam Altman 的「Code Red」</span>
+                <span class="title-en">Q&A with Fidji Simo on ChatGPT ads, OpenAI's efforts to ship a new model soon to end Sam Altman's Code Red, Anthropic's Super Bowl ads, Sora, Jony Ive, and more</span>
+                <a href="https://sources.news/p/openais-fidji-simo-on-ads-in-chatgpt" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #05</span>
-                <span class="title-cn">ChatGPT 深度研究工具升級至 GPT-5.2</span>
-                <span class="title-en">OpenAI updates ChatGPT's deep research tool with GPT-5.2...</span>
-                <a href="https://the-decoder.com/openais-deep-research-now-runs-on-gpt-5-2-and-lets-users-search-specific-websites/" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">OpenAI 更新 ChatGPT 深度研究工具，升級至 GPT-5.2 並新增搜尋特定網站功能</span>
+                <span class="title-en">OpenAI updates ChatGPT's deep research tool with GPT-5.2, a full-screen report view, and an option to focus research on specific websites</span>
+                <a href="https://the-decoder.com/openais-deep-research-now-runs-on-gpt-5-2-and-lets-users-search-specific-websites/" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #06</span>
-                <span class="title-cn">Cloudflare 第四季營收大增 34%，股價狂飆</span>
-                <span class="title-en">Cloudflare reports Q4 revenue up 34% YoY...</span>
-                <a href="https://siliconangle.com/2026/02/10/cloudflare-crushes-analysts-expectations-revenue-stock-soars-late-trading/" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">Cloudflare 第四季營收大增 34% 至 6.14 億美元，高於預期並上調全年展望，盤後股價大漲 14%</span>
+                <span class="title-en">Cloudflare reports Q4 revenue up 34% YoY to $614.5M, vs. $591.3M est., and forecasts full-year and Q1 revenue above estimates; NET jumps 14%+ after hours</span>
+                <a href="https://siliconangle.com/2026/02/10/cloudflare-crushes-analysts-expectations-revenue-stock-soars-late-trading/" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #07</span>
-                <span class="title-cn">OpenAI 解雇反對成人模式的副總裁 Ryan Beiermeister</span>
-                <span class="title-en">Sources: OpenAI fired VP Ryan Beiermeister for alleged sexual discrimination...</span>
-                <a href="https://www.wsj.com/tech/ai/openai-executive-who-opposed-adult-mode-fired-for-sexual-discrimination-3159c61b" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">OpenAI 解雇反對「成人模式」的副總裁 Ryan Beiermeister，理由涉嫌性別歧視</span>
+                <span class="title-en">Sources: OpenAI fired VP Ryan Beiermeister in January for alleged sexual discrimination; she had earlier raised concerns about the upcoming launch of adult mode</span>
+                <a href="https://www.wsj.com/tech/ai/openai-executive-who-opposed-adult-mode-fired-for-sexual-discrimination-3159c61b" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #08</span>
-                <span class="title-cn">字節跳動計畫 2026 年生產 10 萬顆自研 AI 晶片</span>
-                <span class="title-en">ByteDance plans to produce at least 100,000 in-house AI chips...</span>
-                <a href="https://www.reuters.com/world/asia-pacific/bytedance-developing-ai-chip-manufacturing-talks-with-samsung-sources-say-2026-02-11/" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">字節跳動計畫 2026 年生產 10 萬顆自研 AI 推理晶片，並與三星洽談代工製造以應對限制</span>
+                <span class="title-en">Sources: ByteDance plans to produce at least 100,000 units of its in-house AI inference chip in 2026, and is in talks with Samsung to manufacture it</span>
+                <a href="https://www.reuters.com/world/asia-pacific/bytedance-developing-ai-chip-manufacturing-talks-with-samsung-sources-say-2026-02-11/" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #09</span>
-                <span class="title-cn">前 SafeMoon 執行長因加密詐騙被判 8 年徒刑</span>
-                <span class="title-en">Ex-SafeMoon CEO sentenced to 100 months in prison...</span>
-                <a href="https://www.theblock.co/post/389309/mansions-and-sports-cars-former-safemoon-ceo-sentenced-to-8-years-in-prison-for-crypto-scheme" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">前 SafeMoon 執行長 Braden John Karony 因加密貨幣詐騙被判處 8 年徒刑，並沒收 750 萬美元及房產</span>
+                <span class="title-en">Ex-SafeMoon CEO Braden John Karony is sentenced to 100 months in prison for defrauding investors and is ordered to forfeit ~$7.5M and two residential properties</span>
+                <a href="https://www.theblock.co/post/389309/mansions-and-sports-cars-former-safemoon-ceo-sentenced-to-8-years-in-prison-for-crypto-scheme" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #10</span>
-                <span class="title-cn">YouTube 辯稱自己是娛樂服務而非社交網路</span>
-                <span class="title-en">YouTube argues it is an entertainment service like Netflix...</span>
-                <a href="https://www.nytimes.com/2026/02/10/technology/youtube-social-media-addiction-trial.html" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">YouTube 在社交媒體成癮案中辯稱自己是娛樂服務而非社交網路，與 Netflix 性質相似</span>
+                <span class="title-en">In opening statements in a social media addiction trial in Los Angeles, YouTube argues it is an entertainment service like Netflix rather than a social network</span>
+                <a href="https://www.nytimes.com/2026/02/10/technology/youtube-social-media-addiction-trial.html" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #11</span>
-                <span class="title-cn">Mistral AI 年化營收突破 4 億美元</span>
-                <span class="title-en">Mistral CEO says annualized revenue run rate was north of $400M...</span>
-                <a href="https://t.co/JBh6MtDCyc" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">法國 AI 巨頭 Mistral 年化營收突破 4 億美元，較一年前爆發性成長，目標 2026 年底達 10 億美元 ARR</span>
+                <span class="title-en">Mistral CEO Arthur Mensch says the startup's annualized revenue run rate was “north of $400M”, up from $20M a year ago, and it is set to hit $1B ARR by 2026-end</span>
+                <a href="https://t.co/JBh6MtDCyc" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #12</span>
-                <span class="title-cn">Robinhood 營收低於預期，加密業務下滑</span>
-                <span class="title-en">Robinhood reports Q4 revenue below est., crypto revenue down 38%...</span>
-                <a href="https://www.wsj.com/finance/stocks/robinhood-earnings-q4-2025-hood-stock-fd4f6c37" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">Robinhood 第四季營收成長但低於預期，加密貨幣營收大跌 38%，盤後股價重挫超過 5%</span>
+                <span class="title-en">Robinhood reports Q4 revenue up 27% YoY to $1.28B, below est., crypto revenue down 38% to $221M, below est., and net income down 34%; HOOD drops 5%+ after hours</span>
+                <a href="https://www.wsj.com/finance/stocks/robinhood-earnings-q4-2025-hood-stock-fd4f6c37" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #13</span>
-                <span class="title-cn">《紐約客》深度專訪 Anthropic 核心高管</span>
-                <span class="title-en">A profile of Anthropic and its key executives, and a look at Project Vend...</span>
-                <a href="https://www.newyorker.com/magazine/2026/02/16/what-is-claude-anthropic-doesnt-know-either" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">《紐約客》專訪 Anthropic 核心團隊，探討其 AI 系統的心智以及內部的「Claudius」實驗</span>
+                <span class="title-en">A profile of Anthropic and its key executives like Chris Olah, and a look at Project Vend, an internal “Claudius” experiment to run the office vending machine</span>
+                <a href="https://www.newyorker.com/magazine/2026/02/16/what-is-claude-anthropic-doesnt-know-either" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #14</span>
-                <span class="title-cn">Alphabet 大舉借債近 320 億美元應對 AI 競爭</span>
-                <span class="title-en">Alphabet raised almost $32B in debt in less than 24 hours...</span>
-                <a href="https://www.bloomberg.com/news/articles/2026-02-10/alphabet-begins-selling-multi-tranche-debut-swiss-franc-bond-mlgb76p8" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">Alphabet 在不到 24 小時內大舉借債近 320 億美元，發行 100 年期債券以資助龐大的 AI 擴張計畫</span>
+                <span class="title-en">Alphabet raised almost $32B in debt in less than 24 hours; it sold sterling- and Swiss franc-denominated offerings following Monday's $20B dollar debt sale</span>
+                <a href="https://www.bloomberg.com/news/articles/2026-02-10/alphabet-begins-selling-multi-tranche-debut-swiss-franc-bond-mlgb76p8" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
+
             <div class="news-card techmeme-card">
                 <span class="source-tag techmeme-tag">Techmeme #15</span>
-                <span class="title-cn">Discord 放寬年齡驗證，多數人無需臉部掃描</span>
-                <span class="title-en">Discord says majority can continue using without face scan...</span>
-                <a href="https://www.theverge.com/tech/876575/discord-age-verification-vast-majority-users-inference" class="link-btn" style="color: var(--techmeme-accent);">Read More</a>
+                <span class="title-cn">Discord 放寬青少年保護政策：絕大多數用戶將無需臉部掃描或 ID 驗證即可照常使用</span>
+                <span class="title-en">Discord says that the “vast majority of people can continue using Discord exactly as they do today” without needing to use a face scan or ID to verify their age</span>
+                <a href="https://www.theverge.com/tech/876575/discord-age-verification-vast-majority-users-inference" class="link-btn" style="color: var(--techmeme-accent);">Read Original Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
 
@@ -190,62 +217,62 @@
         <div class="news-grid">
             <div class="news-card wsj-card">
                 <span class="source-tag wsj-tag">WSJ EXCLUSIVE</span>
-                <span class="title-cn">OpenAI 反對「成人模式」的高管因性別歧視被解雇</span>
-                <span class="title-en">OpenAI Executive Who Opposed Adult Mode Fired for Sexual Discrimination</span>
+                <span class="title-cn">OpenAI 高管因性別歧視被解雇，曾對「成人模式」色情內容表示擔憂</span>
+                <span class="title-en">OpenAI Executive Who Opposed ‘Adult Mode’ Fired for Sexual Discrimination: Ryan Beiermeister had earlier raised concerns about the upcoming launch of erotic content</span>
                 <a href="https://www.wsj.com/tech/ai/openai-executive-who-opposed-adult-mode-fired-for-sexual-discrimination-3159c61b" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
-                <span class="source-tag wsj-tag">WSJ AI</span>
-                <span class="title-cn">揭秘 OpenAI 為何殺掉 GPT-4o 語音模型</span>
-                <span class="title-en">Inside OpenAI’s Decision to Kill the AI Model That People Loved Too Much</span>
+                <span class="source-tag wsj-tag">WSJ INSIDE DECISION</span>
+                <span class="title-cn">揭秘 OpenAI 為何決定砍掉那款「人們愛過頭了」的 AI 模型</span>
+                <span class="title-en">Inside OpenAI’s Decision to Kill the AI Model That People Loved Too Much: ChatGPT’s 4o model was beloved but controversial for its sycophancy and real-world harms</span>
                 <a href="https://www.wsj.com/tech/ai/chatgpt-4o-openai-315138b8" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
-                <span class="source-tag wsj-tag">WSJ SPACEX</span>
-                <span class="title-cn">馬斯克御用銀行家回歸，助陣 SpaceX IPO</span>
-                <span class="title-en">Elon Musk’s Go-To Banker Is Back in Action for the SpaceX IPO</span>
+                <span class="source-tag wsj-tag">WSJ FINANCE</span>
+                <span class="title-cn">馬斯克御用銀行家重回摩根士丹利，助陣 SpaceX IPO 盛事</span>
+                <span class="title-en">Elon Musk’s Go-To Banker Is Back in Action for the SpaceX IPO: Michael Grimes is leaving government to return to Morgan Stanley for the biggest IPO ever</span>
                 <a href="https://www.wsj.com/tech/elon-musks-go-to-banker-is-back-in-action-for-the-spacex-ipo-1dac530a" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
-                <span class="source-tag wsj-tag">WSJ TRADING</span>
-                <span class="title-cn">「鏟子與鋤頭」策略依然統治 AI 科技貿易</span>
-                <span class="title-en">Picks and Shovels Still Rule the AI Tech Trade</span>
+                <span class="source-tag wsj-tag">WSJ MARKET</span>
+                <span class="title-cn">「鏟子與鋤頭」策略依然統治 AI 科技貿易：記憶體晶片成投資寵兒</span>
+                <span class="title-en">Picks and Shovels Still Rule the AI Tech Trade: Investors have punished big-spending tech giants while betting on memory chips</span>
                 <a href="https://www.wsj.com/tech/ai/picks-and-shovels-still-rule-the-ai-tech-trade-0bc1ddf1" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
-                <span class="source-tag wsj-tag">WSJ FINANCE</span>
+                <span class="source-tag wsj-tag">WSJ REPORT</span>
                 <span class="title-cn">為何 AI 機器人的理財建議不可信：他們是「反社會者」</span>
-                <span class="title-en">Why AI Chatbots Can’t Be Trusted for Financial Advice: They’re Sociopaths</span>
+                <span class="title-en">Why AI Chatbots Can’t Be Trusted for Financial Advice: They’re Sociopaths; MIT professor hopes to teach them how to act in users' best interest</span>
                 <a href="https://www.wsj.com/tech/ai/ai-chatbot-financial-advice-mit-2dc76348" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
-                <span class="source-tag wsj-tag">WSJ GAMING</span>
-                <span class="title-cn">電動遊戲歷史關鍵時刻：Pong 並非第一個</span>
-                <span class="title-en">Key Moments in the History of Videogames</span>
+                <span class="source-tag wsj-tag">WSJ HISTORY</span>
+                <span class="title-cn">電子遊戲史關鍵時刻：不，「Pong」並不是第一個遊戲</span>
+                <span class="title-en">Key Moments in the History of Videogames: How videogames became the world’s most profitable pastime—from “Spacewar” to “Roblox”</span>
                 <a href="https://www.wsj.com/tech/video-game-history-key-moments-fcf77baf" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
                 <span class="source-tag wsj-tag">WSJ INVESTIGATION</span>
-                <span class="title-cn">這家神秘日本公司正統治 AI 產業的關鍵利基</span>
-                <span class="title-en">A Critical AI Niche Is Dominated by One Little-Known Japanese Company</span>
+                <span class="title-cn">一家鮮為人知的日本前絲綢廠，正統治著 AI 產業的關鍵玻璃纖維利基市場</span>
+                <span class="title-en">A Critical AI Niche Is Dominated by One Little-Known Japanese Company: The century-old former silk spinner pioneered a cloth-like material from glass fibers</span>
                 <a href="https://www.wsj.com/tech/a-critical-ai-niche-is-dominated-by-one-little-known-japanese-company-d9101853" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
-                <span class="source-tag wsj-tag">WSJ FEUD</span>
-                <span class="title-cn">艾普斯坦島郵件重啟馬斯克與 Hoffman 恩怨</span>
-                <span class="title-en">Epstein Island Emails Reignite Feud Between Elon Musk and Reid Hoffman</span>
+                <span class="source-tag wsj-tag">WSJ BUSINESS</span>
+                <span class="title-cn">艾普斯坦島郵件再次點燃馬斯克與 Reid Hoffman 之間的恩怨</span>
+                <span class="title-en">Epstein Island Emails Reignite Feud Between Elon Musk and Reid Hoffman: FBI documents show tech billionaires exchanging friendly messages long after conviction</span>
                 <a href="https://www.wsj.com/business/epstein-island-emails-reignite-feud-between-elon-musk-and-reid-hoffman-a48703ff" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
                 <span class="source-tag wsj-tag">WSJ ROBOTICS</span>
-                <span class="title-cn">中國全力以赴在人形機器人領域挑戰美國</span>
-                <span class="title-en">China Is Going All-In to Beat the U.S. on Humanoid Robots</span>
+                <span class="title-cn">中國全力以赴，力爭在人形機器人領域擊敗美國</span>
+                <span class="title-en">China Is Going All-In to Beat the U.S. on Humanoid Robots: Elon Musk warned that most of the revolution could belong to China</span>
                 <a href="https://www.wsj.com/tech/china-is-going-all-in-to-beat-the-u-s-on-humanoid-robots-b9c434d2" class="link-btn">Original Article</a>
             </div>
             <div class="news-card wsj-card">
                 <span class="source-tag wsj-tag">WSJ SPOTLIGHT</span>
-                <span class="title-cn">175 年歷史玻璃廠為何突然成為 AI 巨星？</span>
-                <span class="title-en">Why a 175-Year-Old Glassmaker Is Suddenly an AI Superstar</span>
+                <span class="title-cn">康寧：為什麼這家 175 年歷史的玻璃製造商突然成為了 AI 巨星？</span>
+                <span class="title-en">Why a 175-Year-Old Glassmaker Is Suddenly an AI Superstar: The fiber-optic business is powering its stock to all-time highs</span>
                 <a href="https://www.wsj.com/tech/corning-fiber-optics-ai-e045ba3b" class="link-btn">Original Article</a>
             </div>
         </div>
@@ -253,7 +280,7 @@
     </div>
 
     <footer>
-        <p>由 Doraemon-Mobby 🔔 精心策展 · Powered by OpenClaw</p>
+        <p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · 無截斷完整版</p>
     </footer>
 </body>
 </html>
