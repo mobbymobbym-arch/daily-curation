@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce's Daily Curation | 每日新聞策展</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #f0f2f5;
+            --header-bg: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            --card-bg: #ffffff;
+            --primary-text: #1f2937;
+            --secondary-text: #4b5563;
+            --accent-color: #2563eb;
+            --tag-ai: #8b5cf6;
+            --tag-law: #ef4444;
+            --tag-business: #10b981;
+            --tag-gadget: #f59e0b;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0f172a;
+                --header-bg: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+                --card-bg: #1e293b;
+                --primary-text: #f1f5f9;
+                --secondary-text: #94a3b8;
+                --accent-color: #60a5fa;
+                --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-text);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 頂部進度條 */
+        #progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background: var(--accent-color);
+            z-index: 1000;
+        }
+
+        header {
+            background: var(--header-bg);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            clip-path: ellipse(150% 100% at 50% 0%);
+            margin-bottom: -40px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 0;
+            letter-spacing: -2px;
+        }
+
+        header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .date-container {
+            margin-top: 25px;
+        }
+
+        .date-badge {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 0 20px 80px 20px;
+        }
+
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .news-card {
+            background-color: var(--card-bg);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .news-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 6px;
+            height: 100%;
+            background: var(--accent-color);
+        }
+
+        .news-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .meta-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .category-tag {
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 4px 12px;
+            border-radius: 6px;
+            letter-spacing: 1px;
+        }
+
+        .tag-ai { background: rgba(139, 92, 246, 0.1); color: var(--tag-ai); }
+        .tag-law { background: rgba(239, 68, 68, 0.1); color: var(--tag-law); }
+        .tag-business { background: rgba(16, 185, 129, 0.1); color: var(--tag-business); }
+
+        .news-title-cn {
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .news-title-en {
+            font-size: 1.05rem;
+            color: var(--secondary-text);
+            font-family: 'Georgia', serif;
+            line-height: 1.5;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        .action-row {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .btn-primary {
+            text-decoration: none;
+            color: white;
+            background: var(--accent-color);
+            padding: 10px 20px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+            gap: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            border-top: 1px solid var(--secondary-text);
+            margin-top: 50px;
+            opacity: 0.6;
+        }
+
+        /* 增加一些裝飾性圖示背景 */
+        .card-icon {
+            position: absolute;
+            right: -20px;
+            bottom: -20px;
+            font-size: 8rem;
+            opacity: 0.03;
+            transform: rotate(-15deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="progress-bar"></div>
+    
+    <header>
+        <h1>Joyce's Daily</h1>
+        <p class="subtitle">Global Tech Curation by Mobby 🔔</p>
+        <div class="date-container">
+            <span class="date-badge"><i class="far fa-calendar-alt"></i> 2026年2月11日</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="news-list">
+            
+            <!-- 1. Jimmy Ba -->
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-ai"><i class="fas fa-robot"></i> AI 人才戰</span>
+                    <span style="font-size: 0.8rem; opacity: 0.5;">#01</span>
+                </div>
+                <span class="news-title-cn">xAI 核心成員 Jimmy Ba 離職，馬斯克創始團隊已流失過半</span>
+                <span class="news-title-en">xAI co-founder Jimmy Ba is leaving xAI, the sixth co-founder to depart; more than half a dozen researchers left in recent weeks.</span>
+                <div class="action-row">
+                    <a href="https://www.ft.com/content/3d4a9683-b70a-4953-b21b-b3ea07d693a3" class="btn-primary" target="_blank">
+                        閱讀完整報導 <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <i class="fas fa-user-slash card-icon"></i>
+            </div>
+
+            <!-- 2. YouTube -->
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-law"><i class="fas fa-gavel"></i> 科技法律</span>
+                    <span style="font-size: 0.8rem; opacity: 0.5;">#02</span>
+                </div>
+                <span class="news-title-cn">YouTube 展開「成癮案」防禦：我們是娛樂平台，不是社交網路</span>
+                <span class="news-title-en">YouTube argues it is an entertainment service like Netflix rather than a social network in Los Angeles trial opening.</span>
+                <div class="action-row">
+                    <a href="https://www.nytimes.com/2026/02/10/technology/youtube-social-media-addiction-trial.html" class="btn-primary" target="_blank">
+                        閱讀完整報導 <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <i class="fab fa-youtube card-icon"></i>
+            </div>
+
+            <!-- 3. ByteDance -->
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-business"><i class="fas fa-microchip"></i> 晶片基建</span>
+                    <span style="font-size: 0.8rem; opacity: 0.5;">#03</span>
+                </div>
+                <span class="news-title-cn">字節跳動攜手三星，預計 2026 年生產 10 萬顆 AI 晶片</span>
+                <span class="news-title-en">ByteDance plans to produce 100,000 in-house AI inference chips in 2026, in talks with Samsung for manufacturing.</span>
+                <div class="action-row">
+                    <a href="https://www.reuters.com/world/asia-pacific/bytedance-developing-ai-chip-manufacturing-talks-with-samsung-sources-say-2026-02-11/" class="btn-primary" target="_blank">
+                        閱讀完整報導 <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <i class="fas fa-network-wired card-icon"></i>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>由 Doraemon-Mobby 🔔 精心策展 · Powered by OpenClaw</p>
+        </footer>
+    </div>
+
+    <script>
+        // 簡單的進度條腳本
+        window.onscroll = function() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("progress-bar").style.width = scrolled + "%";
+        };
+    </script>
+</body>
+</html>
