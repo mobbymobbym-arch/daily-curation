@@ -32,253 +32,162 @@
             }
         }
 
-        * {
-            box-sizing: border-box;
-            transition: all 0.3s ease;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--primary-text);
-            margin: 0;
-            padding: 0;
-        }
-
-        /* 頂部進度條 */
-        #progress-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 0%;
-            height: 4px;
-            background: var(--accent-color);
-            z-index: 1000;
-        }
-
-        header {
-            background: var(--header-bg);
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-            clip-path: ellipse(150% 100% at 50% 0%);
-            margin-bottom: -40px;
-        }
-
-        header h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            margin: 0;
-            letter-spacing: -2px;
-        }
-
-        header .subtitle {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-top: 10px;
-        }
-
-        .date-container {
-            margin-top: 25px;
-        }
-
-        .date-badge {
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(5px);
-            padding: 8px 20px;
-            border-radius: 50px;
-            font-size: 0.9rem;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        }
-
-        .container {
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 0 20px 80px 20px;
-        }
-
-        .news-list {
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-        }
-
-        .news-card {
-            background-color: var(--card-bg);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: var(--shadow);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .news-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 6px;
-            height: 100%;
-            background: var(--accent-color);
-        }
-
-        .news-card:hover {
-            transform: scale(1.02);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-
-        .meta-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-
-        .category-tag {
-            font-size: 0.75rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            padding: 4px 12px;
-            border-radius: 6px;
-            letter-spacing: 1px;
-        }
-
+        * { box-sizing: border-box; transition: all 0.3s ease; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg-color); color: var(--primary-text); margin: 0; padding: 0; }
+        #progress-bar { position: fixed; top: 0; left: 0; width: 0%; height: 4px; background: var(--accent-color); z-index: 1000; }
+        header { background: var(--header-bg); color: white; padding: 80px 20px; text-align: center; clip-path: ellipse(150% 100% at 50% 0%); margin-bottom: -40px; }
+        header h1 { font-size: 3rem; font-weight: 800; margin: 0; letter-spacing: -2px; }
+        header .subtitle { font-size: 1.2rem; opacity: 0.9; margin-top: 10px; }
+        .date-container { margin-top: 25px; }
+        .date-badge { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(5px); padding: 8px 20px; border-radius: 50px; font-size: 0.9rem; border: 1px solid rgba(255, 255, 255, 0.3); }
+        .container { max-width: 850px; margin: 0 auto; padding: 0 20px 80px 20px; }
+        .news-list { display: flex; flex-direction: column; gap: 25px; }
+        .news-card { background-color: var(--card-bg); border-radius: 20px; padding: 40px; box-shadow: var(--shadow); border: 1px solid rgba(255, 255, 255, 0.05); position: relative; overflow: hidden; }
+        .news-card::before { content: ''; position: absolute; top: 0; left: 0; width: 6px; height: 100%; background: var(--accent-color); }
+        .news-card:hover { transform: scale(1.02); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+        .meta-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+        .category-tag { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; padding: 4px 12px; border-radius: 6px; letter-spacing: 1px; }
         .tag-ai { background: rgba(139, 92, 246, 0.1); color: var(--tag-ai); }
         .tag-law { background: rgba(239, 68, 68, 0.1); color: var(--tag-law); }
         .tag-business { background: rgba(16, 185, 129, 0.1); color: var(--tag-business); }
-
-        .news-title-cn {
-            font-size: 1.6rem;
-            font-weight: 700;
-            line-height: 1.4;
-            margin-bottom: 15px;
-            display: block;
-        }
-
-        .news-title-en {
-            font-size: 1.05rem;
-            color: var(--secondary-text);
-            font-family: 'Georgia', serif;
-            line-height: 1.5;
-            margin-bottom: 25px;
-            display: block;
-        }
-
-        .action-row {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .btn-primary {
-            text-decoration: none;
-            color: white;
-            background: var(--accent-color);
-            padding: 10px 20px;
-            border-radius: 12px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .btn-primary:hover {
-            opacity: 0.9;
-            gap: 15px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 60px 20px;
-            border-top: 1px solid var(--secondary-text);
-            margin-top: 50px;
-            opacity: 0.6;
-        }
-
-        /* 增加一些裝飾性圖示背景 */
-        .card-icon {
-            position: absolute;
-            right: -20px;
-            bottom: -20px;
-            font-size: 8rem;
-            opacity: 0.03;
-            transform: rotate(-15deg);
-        }
+        .news-title-cn { font-size: 1.6rem; font-weight: 700; line-height: 1.4; margin-bottom: 15px; display: block; }
+        .news-title-en { font-size: 1.05rem; color: var(--secondary-text); font-family: 'Georgia', serif; line-height: 1.5; margin-bottom: 25px; display: block; }
+        .btn-primary { text-decoration: none; color: white; background: var(--accent-color); padding: 10px 20px; border-radius: 12px; font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 10px; }
+        footer { text-align: center; padding: 60px 20px; border-top: 1px solid var(--secondary-text); margin-top: 50px; opacity: 0.6; }
+        .card-icon { position: absolute; right: -20px; bottom: -20px; font-size: 8rem; opacity: 0.03; transform: rotate(-15deg); }
     </style>
 </head>
 <body>
     <div id="progress-bar"></div>
-    
     <header>
         <h1>Joyce's Daily</h1>
-        <p class="subtitle">Global Tech Curation by Doraemon-Mobby 🔔</p>
+        <p class="subtitle">Global Tech Curation by Mobby 🔔</p>
         <div class="date-container">
-            <span class="date-badge"><i class="far fa-calendar-alt"></i> 2026年2月11日</span>
+            <span class="date-badge"><i class="far fa-calendar-alt"></i> 2026年2月11日 18:30 更新</span>
         </div>
     </header>
 
     <div class="container">
         <div class="news-list">
             
-            <!-- 1. Jimmy Ba -->
             <div class="news-card">
                 <div class="meta-row">
-                    <span class="category-tag tag-ai"><i class="fas fa-robot"></i> AI 人才戰</span>
-                    <span style="font-size: 0.8rem; opacity: 0.5;">#01</span>
+                    <span class="category-tag tag-ai"><i class="fas fa-user-slash"></i> AI 人才戰</span>
+                    <span style="opacity: 0.5;">#01</span>
                 </div>
-                <span class="news-title-cn">xAI 核心成員 Jimmy Ba 離職，馬斯克創始團隊已流失過半</span>
-                <span class="news-title-en">xAI co-founder Jimmy Ba is leaving xAI, the sixth co-founder to depart; more than half a dozen researchers left in recent weeks.</span>
-                <div class="action-row">
-                    <a href="https://www.ft.com/content/3d4a9683-b70a-4953-b21b-b3ea07d693a3" class="btn-primary" target="_blank">
-                        閱讀完整報導 <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                <i class="fas fa-user-slash card-icon"></i>
+                <span class="news-title-cn">xAI 共同創辦人 Jimmy Ba 離職；消息：這已是第六位離職的創始成員</span>
+                <span class="news-title-en">xAI co-founder Jimmy Ba is leaving xAI, the sixth co-founder to depart; sources: more than half a dozen researchers left in recent weeks</span>
+                <a href="https://www.ft.com/content/3d4a9683-b70a-4953-b21b-b3ea07d693a3" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-robot card-icon"></i>
             </div>
 
-            <!-- 2. YouTube -->
             <div class="news-card">
                 <div class="meta-row">
-                    <span class="category-tag tag-law"><i class="fas fa-gavel"></i> 科技法律</span>
-                    <span style="font-size: 0.8rem; opacity: 0.5;">#02</span>
+                    <span class="category-tag tag-ai"><i class="fas fa-brain"></i> 推理技術</span>
+                    <span style="opacity: 0.5;">#02</span>
                 </div>
-                <span class="news-title-cn">YouTube 展開「成癮案」防禦：我們是娛樂平台，不是社交網路</span>
-                <span class="news-title-en">YouTube argues it is an entertainment service like Netflix rather than a social network in Los Angeles trial opening.</span>
-                <div class="action-row">
-                    <a href="https://www.nytimes.com/2026/02/10/technology/youtube-social-media-addiction-trial.html" class="btn-primary" target="_blank">
-                        閱讀完整報導 <i class="fas fa-arrow-right"></i>
-                    </a>
+                <span class="news-title-cn">xAI 共同創辦人 Tony Wu 辭職，是 48 小時內第二位離職的核心成員</span>
+                <span class="news-title-en">xAI co-founder Tony Wu says he has resigned, following co-founder Igor Babuschkin's exit; Wu was in charge of reasoning</span>
+                <a href="https://www.theinformation.com/briefings/another-cofounder-elon-musks-xai-resigns" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-atom card-icon"></i>
+            </div>
+
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-ai"><i class="fas fa-magic"></i> AI 革命</span>
+                    <span style="opacity: 0.5;">#03</span>
                 </div>
+                <span class="news-title-cn">GPT-5.3 與 Claude 4.6 震撼登場：已具備獨立處理應用開發全生命週期的能力</span>
+                <span class="news-title-en">GPT-5.3-Codex and Claude Opus 4.6 can handle the full app development lifecycle on their own</span>
+                <a href="https://shumer.dev/something-big-is-happening" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-code card-icon"></i>
+            </div>
+
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-business"><i class="fas fa-ad"></i> 商業動態</span>
+                    <span style="opacity: 0.5;">#04</span>
+                </div>
+                <span class="news-title-cn">OpenAI 高層解釋為何 ChatGPT 即將引入廣告，目標終止內部警報</span>
+                <span class="news-title-en">Q&A with Fidji Simo on ChatGPT ads, OpenAI's efforts to ship a new model soon to end Sam Altman's Code Red</span>
+                <a href="https://sources.news/p/openais-fidji-simo-on-ads-in-chatgpt" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-dollar-sign card-icon"></i>
+            </div>
+
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-ai"><i class="fas fa-search"></i> 產品更新</span>
+                    <span style="opacity: 0.5;">#05</span>
+                </div>
+                <span class="news-title-cn">ChatGPT 深度研究工具升級至 GPT-5.2，新增特定網站搜尋功能</span>
+                <span class="news-title-en">OpenAI updates ChatGPT's deep research tool with GPT-5.2 and an option to focus research on specific websites</span>
+                <a href="https://the-decoder.com/openais-deep-research-now-runs-on-gpt-5-2-and-lets-users-search-specific-websites/" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-flask card-icon"></i>
+            </div>
+
+            <!-- ... 更多新聞簡略填入 ... -->
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-business"><i class="fas fa-chart-line"></i> 財報亮點</span>
+                    <span style="opacity: 0.5;">#06</span>
+                </div>
+                <span class="news-title-cn">Cloudflare 第四季營收大增 34%，股價盤後狂飆 14%</span>
+                <span class="news-title-en">Cloudflare reports Q4 revenue up 34% YoY to $614.5M, above est.; NET jumps 14%+ after hours</span>
+                <a href="https://siliconangle.com/2026/02/10/cloudflare-crushes-analysts-expectations-revenue-stock-soars-late-trading/" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-cloud card-icon"></i>
+            </div>
+
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-law"><i class="fas fa-user-shield"></i> 企業醜聞</span>
+                    <span style="opacity: 0.5;">#07</span>
+                </div>
+                <span class="news-title-cn">OpenAI 解雇反對「成人模式」的副總裁，理由涉嫌性別歧視</span>
+                <span class="news-title-en">Sources: OpenAI fired VP Ryan Beiermeister for alleged sexual discrimination after concerns about adult mode</span>
+                <a href="https://www.wsj.com/tech/ai/openai-executive-who-opposed-adult-mode-fired-for-sexual-discrimination-3159c61b" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-user-lock card-icon"></i>
+            </div>
+
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-business"><i class="fas fa-microchip"></i> 晶片製造</span>
+                    <span style="opacity: 0.5;">#08</span>
+                </div>
+                <span class="news-title-cn">字節跳動計畫 2026 年生產 10 萬顆自研晶片，正與三星代工談判</span>
+                <span class="news-title-en">Sources: ByteDance plans to produce at least 100,000 in-house AI chips in 2026, in talks with Samsung</span>
+                <a href="https://www.reuters.com/world/asia-pacific/bytedance-developing-ai-chip-manufacturing-talks-with-samsung-sources-say-2026-02-11/" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-industry card-icon"></i>
+            </div>
+
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-law"><i class="fas fa-gavel"></i> 詐騙裁決</span>
+                    <span style="opacity: 0.5;">#09</span>
+                </div>
+                <span class="news-title-cn">前 SafeMoon 執行長因加密貨幣詐騙被判處 8 年徒刑，沒收 750 萬美元</span>
+                <span class="news-title-en">Ex-SafeMoon CEO Braden John Karony sentenced to 8 years for defrauding investors</span>
+                <a href="https://www.theblock.co/post/389309/mansions-and-sports-cars-former-safemoon-ceo-sentenced-to-8-years-in-prison-for-crypto-scheme" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-university card-icon"></i>
+            </div>
+
+            <div class="news-card">
+                <div class="meta-row">
+                    <span class="category-tag tag-law"><i class="fas fa-video"></i> 法律防禦</span>
+                    <span style="opacity: 0.5;">#10</span>
+                </div>
+                <span class="news-title-cn">YouTube 辯稱自己是娛樂服務而非社交網路，試圖規避成癮責任</span>
+                <span class="news-title-en">YouTube argues it is an entertainment service like Netflix rather than a social network in addiction trial</span>
+                <a href="https://www.nytimes.com/2026/02/10/technology/youtube-social-media-addiction-trial.html" class="btn-primary" target="_blank">閱讀文章 <i class="fas fa-arrow-right"></i></a>
                 <i class="fab fa-youtube card-icon"></i>
             </div>
 
-            <!-- 3. ByteDance -->
-            <div class="news-card">
-                <div class="meta-row">
-                    <span class="category-tag tag-business"><i class="fas fa-microchip"></i> 晶片基建</span>
-                    <span style="font-size: 0.8rem; opacity: 0.5;">#03</span>
-                </div>
-                <span class="news-title-cn">字節跳動攜手三星，預計 2026 年生產 10 萬顆 AI 晶片</span>
-                <span class="news-title-en">ByteDance plans to produce 100,000 in-house AI inference chips in 2026, in talks with Samsung for manufacturing.</span>
-                <div class="action-row">
-                    <a href="https://www.reuters.com/world/asia-pacific/bytedance-developing-ai-chip-manufacturing-talks-with-samsung-sources-say-2026-02-11/" class="btn-primary" target="_blank">
-                        閱讀完整報導 <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                <i class="fas fa-network-wired card-icon"></i>
-            </div>
-
         </div>
-
         <footer>
             <p>由 Doraemon-Mobby 🔔 精心策展 · Powered by OpenClaw</p>
+            <p>© 2026 Joyce's Daily Curation</p>
         </footer>
     </div>
-
     <script>
-        // 簡單的進度條腳本
         window.onscroll = function() {
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
