@@ -7,47 +7,136 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --bg-color: #f4f7f6;
-            --primary-text: #1a1a1a;
-            --secondary-text: #666666;
-            --techmeme-accent: #2563eb;
-            --wsj-accent: #374151;
-            --analysis-accent: #065f46;
+            --bg-color: #f8fafc;
+            --primary-text: #0f172a;
+            --secondary-text: #64748b;
+            --techmeme-accent: #3b82f6;
+            --wsj-accent: #1e293b;
+            --analysis-accent: #10b981;
             --card-bg: #ffffff;
-            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
 
         @media (prefers-color-scheme: dark) {
             :root {
-                --bg-color: #0f172a;
-                --primary-text: #f1f5f9;
+                --bg-color: #020617;
+                --primary-text: #f8fafc;
                 --secondary-text: #94a3b8;
                 --card-bg: #1e293b;
-                --shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+                --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+                --shadow-hover: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
             }
         }
 
-        body { font-family: 'Inter', -apple-system, sans-serif; background-color: var(--bg-color); color: var(--primary-text); margin: 0; line-height: 1.7; scroll-behavior: smooth; }
-        nav { position: sticky; top: 0; background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); z-index: 100; padding: 15px 0; border-bottom: 1px solid rgba(0,0,0,0.1); text-align: center; }
-        nav a { text-decoration: none; color: var(--primary-text); margin: 0 15px; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
-        header { padding: 80px 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white; }
-        header h1 { font-size: 2.8rem; font-weight: 800; margin: 0; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px 100px 20px; }
-        .section-header { display: flex; align-items: center; gap: 15px; margin: 60px 0 30px 0; padding-bottom: 15px; border-bottom: 3px solid; }
-        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin-bottom: 60px; }
-        .news-card { background: var(--card-bg); border-radius: 16px; padding: 25px; box-shadow: var(--shadow); display: flex; flex-direction: column; position: relative; border: 1px solid rgba(0,0,0,0.05); height: auto; }
-        .news-card:hover { transform: translateY(-5px); }
-        .title-cn { font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.4; display: block; }
-        .title-en { font-size: 0.9rem; color: var(--secondary-text); font-style: italic; margin-bottom: 20px; flex-grow: 1; display: block; }
-        .link-btn { text-decoration: none; font-weight: 700; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 8px; }
-        .analysis-card { background: #fdfdfd; border-radius: 24px; padding: 45px; box-shadow: var(--shadow); border-left: 12px solid var(--analysis-accent); margin-bottom: 40px; }
-        @media (prefers-color-scheme: dark) { .analysis-card { background: #064e3b; border-left-color: #10b981; } }
-        .author-tag { color: var(--analysis-accent); font-weight: 900; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px; display: block; }
-        .analysis-content { font-size: 1.05rem; color: var(--primary-text); margin: 25px 0; text-align: justify; line-height: 1.8; }
-        #techmeme-section { color: var(--techmeme-accent); }
-        #wsj-section { color: var(--wsj-accent); }
-        #analysis-section { color: var(--analysis-accent); }
-        footer { text-align: center; margin-top: 80px; padding: 40px; opacity: 0.4; font-size: 0.8rem; }
+        body { font-family: 'Inter', 'Noto Sans TC', -apple-system, sans-serif; background-color: var(--bg-color); color: var(--primary-text); margin: 0; line-height: 1.6; scroll-behavior: smooth; }
+        
+        /* 玻璃擬態導覽列 */
+        nav { position: sticky; top: 0; background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 100; padding: 18px 0; border-bottom: 1px solid rgba(0,0,0,0.05); text-align: center; }
+        @media (prefers-color-scheme: dark) { nav { background: rgba(15, 23, 42, 0.7); border-bottom-color: rgba(255,255,255,0.05); } }
+        nav a { text-decoration: none; color: var(--primary-text); margin: 0 20px; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px; transition: color 0.3s; }
+        nav a:hover { color: var(--techmeme-accent); }
+
+        /* 漸層標題區 */
+        header { padding: 100px 20px; text-align: center; background: radial-gradient(circle at top left, #1e3a8a, #0f172a); color: white; position: relative; overflow: hidden; }
+        header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: linear-gradient(to top, var(--bg-color), transparent); }
+        header h1 { font-size: 3.5rem; font-weight: 900; margin: 0; letter-spacing: -1px; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        header p { font-size: 1.1rem; opacity: 0.8; font-weight: 500; margin-top: 10px; }
+
+        .container { max-width: 1400px; margin: 0 auto; padding: 40px 20px 100px 20px; display: flex; gap: 50px; align-items: flex-start; }
+        
+        /* 段落標題優化 */
+        .section-header { display: flex; align-items: center; gap: 18px; margin: 60px 0 35px 0; padding: 0 10px; }
+        .section-header i { font-size: 1.8rem; }
+        .section-header h2 { font-size: 1.8rem; font-weight: 800; margin: 0; letter-spacing: -0.5px; }
+        
+        /* 新聞網格與卡片 */
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 25px; margin-bottom: 60px; }
+        .news-card { 
+            background: var(--card-bg); 
+            border-radius: 24px; 
+            padding: 30px; 
+            box-shadow: var(--shadow); 
+            display: flex; 
+            flex-direction: column; 
+            position: relative; 
+            border: 1px solid rgba(0,0,0,0.03); 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            overflow: hidden;
+        }
+        .news-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); border-color: rgba(37, 99, 235, 0.2); }
+        
+        .title-cn { font-size: 1.3rem; font-weight: 800; margin-bottom: 12px; line-height: 1.45; color: var(--primary-text); }
+        .title-en { font-size: 0.9rem; color: var(--secondary-text); font-weight: 500; margin-bottom: 25px; flex-grow: 1; line-height: 1.5; }
+        
+        .link-btn { 
+            text-decoration: none; 
+            font-weight: 800; 
+            font-size: 0.8rem; 
+            display: inline-flex; 
+            align-items: center; 
+            gap: 10px; 
+            padding: 10px 0;
+            transition: gap 0.3s;
+        }
+        .link-btn:hover { gap: 15px; }
+
+        /* 深度分析卡片升級 */
+        .analysis-card { 
+            background: var(--card-bg); 
+            border-radius: 32px; 
+            padding: 50px; 
+            box-shadow: var(--shadow); 
+            margin-bottom: 40px; 
+            position: relative;
+            border: 1px solid rgba(16, 185, 129, 0.1);
+        }
+        .analysis-card::before {
+            content: "“";
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            font-size: 8rem;
+            color: var(--analysis-accent);
+            opacity: 0.05;
+            font-family: serif;
+        }
+        .author-tag { 
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--analysis-accent); 
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-weight: 800; 
+            font-size: 0.75rem; 
+            text-transform: uppercase; 
+            letter-spacing: 1.5px; 
+            margin-bottom: 25px; 
+            display: inline-block; 
+        }
+        .analysis-content { 
+            font-size: 1.15rem; 
+            color: var(--primary-text); 
+            margin: 30px 0; 
+            line-height: 1.9; 
+            font-weight: 400;
+        }
+
+        /* 側邊欄優化 */
+        .sidebar { width: 300px; position: sticky; top: 135px; background: var(--card-bg); border-radius: 28px; padding: 30px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); margin-top: 105px; }
+        .sidebar h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2.5px; color: var(--secondary-text); margin-bottom: 25px; font-weight: 800; }
+        .archive-list { list-style: none; padding: 0; margin: 0; }
+        .archive-item { margin-bottom: 12px; }
+        .archive-link { text-decoration: none; color: var(--primary-text); font-size: 0.95rem; display: flex; align-items: center; gap: 10px; padding: 12px 16px; border-radius: 14px; font-weight: 600; transition: all 0.2s; }
+        .archive-link:hover { background: rgba(0,0,0,0.05); color: var(--techmeme-accent); transform: translateX(5px); }
+        .archive-link.active { background: var(--techmeme-accent); color: white; box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4); }
+
+        @media (max-width: 1024px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; position: static; order: 1; }
+        }
+
+        footer { text-align: center; margin-top: 100px; padding: 60px; border-top: 1px solid rgba(0,0,0,0.05); }
+        footer p { opacity: 0.6; font-weight: 600; letter-spacing: 0.5px; }
     </style>
 </head>
 <body>
@@ -61,172 +150,200 @@
         <p>Thursday, February 12, 2026</p>
     </header>
     <div class="container">
-        <!-- 1. Techmeme (15則) -->
-        <div id="techmeme-section" class="section-header">
-            <i class="fas fa-bolt"></i>
-            <h2>Techmeme Top 15</h2>
-        </div>
-        <div class="news-grid">
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">AppLovin 第四季營收成長 66% 達 16.6 億美元，超乎市場預期</span>
-                <span class="title-en">AppLovin reports Q4 revenue up 66% YoY to $1.66B, vs. $1.61B est., and forecasts Q1 revenue and adjusted EBITDA above estimates</span>
-                <a href="https://sherwood.news/markets/applovin-q4-earnings-software-adtech-ai/" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
+        <div class="main-content">
+            <!-- 1. Techmeme (15則) -->
+            <div id="techmeme-section" class="section-header" style="color: var(--techmeme-accent);">
+                <i class="fas fa-bolt"></i>
+                <h2>Techmeme Top 15</h2>
             </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">Robinhood 啟動乙太坊 Layer 2 測試網，深化加密貨幣交易佈局</span>
-                <span class="title-en">Robinhood launches a public testnet for Robinhood Chain, an Ethereum Layer 2 network on Arbitrum supporting 24/7 trading</span>
-                <a href="https://www.coindesk.com/business/2026/02/11/robinhood-starts-testing-its-own-blockchain-as-crypto-and-tokenization-push-deepens" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">xAI 重組四大核心部門：專注 Grok、編碼、圖像與數位代理人</span>
-                <span class="title-en">xAI will be organized into four core areas: Grok's chatbot and voice products, Coding, Imagine, and Macrohard for digital agents</span>
-                <a href="https://www.bloomberg.com/news/articles/2026-02-11/musk-restructures-xai-s-teams-after-co-founders-exit" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">馬斯克宣佈 xAI 裁員重組，緊隨兩位共同創辦人離職消息</span>
-                <span class="title-en">Elon Musk announces an xAI reorganization that “required parting ways with some people”, after two co-founders announced they were leaving</span>
-                <a href="https://www.cnbc.com/2026/02/11/musk-announces-xai-re-org-following-key-departures-spacex-merger.html" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">Instagram 負責人 Adam Mosseri 辯稱社交媒體不具「臨床成癮性」</span>
-                <span class="title-en">Social media addiction trial: Adam Mosseri says social media is not “clinically addictive” and Meta was careful with young people</span>
-                <a href="https://www.nytimes.com/2026/02/11/technology/adam-mosseri-instagram-addiction-trial.html" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">Anthropic 承諾將升級電網基礎設施，以抵消數據中心的能耗影響</span>
-                <span class="title-en">Anthropic says it will upgrade power grid infrastructure and generate new power to minimize the effects of its data centers</span>
-                <a href="https://www.nbcnews.com/tech/tech-news/anthropic-cover-costs-electricity-price-increases-data-centers-rcna258554" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">EssilorLuxottica 2025 年售出逾 700 萬副 Meta AI 眼鏡，銷量激增</span>
-                <span class="title-en">EssilorLuxottica says it sold over 7M Meta AI glasses in 2025, up from the 2M sold in 2023 and 2024 combined</span>
-                <a href="https://www.cnbc.com/2026/02/11/ray-ban-maker-essilorluxottica-triples-sales-of-meta-ai-glasses.html" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">加密流動性供應商 BlockFills 因市場不穩暫停提款業務</span>
-                <span class="title-en">BlockFills, a crypto liquidity provider, halts deposits and withdrawals, citing “recent market and financial conditions”</span>
-                <a href="https://www.ft.com/content/73e506f4-6b58-4c38-9198-110e845f48b2" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">Anthropic 強化 Claude 免費方案，開放文件建立與外部服務連接</span>
-                <span class="title-en">Anthropic says Claude users on the free plan can now create files, connect to external services, use skills, and more</span>
-                <a href="https://www.engadget.com/ai/anthropic-beefs-up-claudes-free-tier-as-openai-prepares-to-stuff-ads-into-chatgpts-194100939.html" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">蘋果 Siri 升級受阻，部分個人化功能恐推遲至五月發布</span>
-                <span class="title-en">Sources: Apple's Siri upgrade run into snags recently, possibly pushing some features from iOS 26.4 to iOS 26.5 due in May</span>
-                <a href="https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">OpenAI 允許美軍透過 GenAI.mil 訪問 ChatGPT，引發內部討論</span>
-                <span class="title-en">OpenAI announced that the US military will get access to ChatGPT via GenAI.mil; move came after months of deliberation</span>
-                <a href="https://www.semafor.com/article/02/11/2026/how-openai-got-comfortable-with-the-pentagon-using-chatgpt-for-war" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">Google 發布 Android 17 Beta 1，強制要求對摺疊機進行優化</span>
-                <span class="title-en">Google releases Android 17 Beta 1, which requires developers to optimize apps for foldables and large screens</span>
-                <a href="https://www.androidcentral.com/apps-software/android-os/android-17-beta-1-released" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">Meta 斥資百億美元於印第安納州興建 1GW 數據中心</span>
-                <span class="title-en">Meta plans to spend more than $10B to build a 1GW data center campus in Lebanon, Indiana, expected operational in late 2027</span>
-                <a href="https://www.bloomberg.com/news/articles/2026-02-11/meta-to-spend-more-than-10-billion-on-indiana-based-data-center" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">Threads 推出新功能，讓用戶透過 “Dear Algo” 暫時調整演算法</span>
-                <span class="title-en">Meta launches an AI feature that lets Threads users temporarily personalize their feed by specifying topics in a post</span>
-                <a href="https://www.cnbc.com/2026/02/11/meta-threads-dear-algo-ai-algorithm-personalization.html" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--techmeme-accent);">
-                <span class="title-cn">亞馬遜藥局擴張計畫：2026 年底前實現全美 4500 城鎮當日送達</span>
-                <span class="title-en">Amazon Pharmacy plans same-day prescription delivery to almost 4,500 US cities and towns by the end of 2026</span>
-                <a href="https://techcrunch.com/2026/02/11/amazon-pharmacy-to-expand-same-day-delivery-to-nearly-4500-us-cities/" class="link-btn" style="color: var(--techmeme-accent);">READ MORE</a>
-            </div>
-        </div>
-
-        <!-- 2. WSJ Tech (10則) -->
-        <div id="wsj-section" class="section-header">
-            <i class="fas fa-newspaper"></i>
-            <h2>WSJ Technology Top 10</h2>
-        </div>
-        <div class="news-grid">
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">荷蘭法院要求調查中資晶片公司 Nexperia 管理不善指控</span>
-                <span class="title-en">A Dutch court orders an investigation into alleged mismanagement at Chinese-owned chip company Nexperia</span>
-                <a href="https://www.wsj.com/world/europe/dutch-court-orders-probe-into-chinese-owned-nexperia-f463cfbd" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">中芯國際執行長：產業對記憶體晶片短缺感到「恐慌」</span>
-                <span class="title-en">SMIC CEO Zhao Haijun says the industry is “a bit panicked” about the memory chip shortage, prices up 80%+ in 2026</span>
-                <a href="https://www.wsj.com/tech/smic-ceo-says-industry-panicked-about-memory-supply-shortage-f0e1aaed" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">網易第四季營收成長 3%，獲利受自研遊戲驅動但低於預期</span>
-                <span class="title-en">Chinese video game giant NetEase reports Q4 revenue up 3% YoY to ~$4B and net profit down 29%, below estimates</span>
-                <a href="https://www.wsj.com/business/earnings/netease-net-profit-falls-despite-higher-revenue-c4dd82fa" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">亞馬遜與 Google 計畫規避川普政府高額 H-1B 簽證費用</span>
-                <span class="title-en">Sources: Amazon, Google, and others plan to skirt Trump's $100K H-1B fee by finding alternative worker categories</span>
-                <a href="https://www.wsj.com/business/big-tech-companies-prepare-to-skirt-trumps-100-000-h-1b-fee-7cbf1ebe" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">調查：福特 BlueCruise 系統的使用界面導致部分駕駛產生混淆</span>
-                <span class="title-en">Investigation: as Ford pushes its BlueCruise driving system, some drivers found it confusing to use and misunderstood limitations</span>
-                <a href="https://www.wsj.com/business/autos/hands-free-driving-ford-investigation-4fc87266" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">OpenAI 棄用 GPT-4o 模型，主因安全考量與 Harmful 内容管控</span>
-                <span class="title-en">As OpenAI moves to retire GPT-4o on February 13, sources say it is being scrapped due to harmful outcome concerns</span>
-                <a href="https://www.wsj.com/tech/ai/chatgpt-4o-openai-315138b8" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">OpenAI 遭到副總裁 Beiermeister 訴訟，指控性別歧視與成人模式分歧</span>
-                <span class="title-en">Sources: OpenAI fired VP Ryan Beiermeister in January for alleged sexual discrimination after adult mode concerns</span>
-                <a href="https://www.wsj.com/tech/ai/openai-executive-who-opposed-adult-mode-fired-for-sexual-discrimination-3159c61b" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">馬斯克 Miami 買房傳聞：擬斥資 2 億美元購入豪宅避稅</span>
-                <span class="title-en">Sources: Mark Zuckerberg plans to buy a Miami mansion, likely for up to $200M, joining other tech billionaires in Florida</span>
-                <a href="https://www.wsj.com/real-estate/luxury-homes/mark-zuckerburg-indian-creek-miami-florida-38f63db4" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">微軟自動更新舊 PC 安全證書，避免 2026 年到期斷網風險</span>
-                <span class="title-en">Microsoft is automatically replacing Secure Boot certificates for older PCs before they start to expire later in 2026</span>
-                <a href="https://www.wsj.com/articles/hands-free-driving-ford-investigation-4fc87266" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-            <div class="news-card" style="border-top: 5px solid var(--wsj-accent);">
-                <span class="title-cn">超級盃預測：Kalshi 與 Polymarket 交易量創下歷史紀錄</span>
-                <span class="title-en">Kalshi says it registered over $1B in trades related to the Super Bowl; Piper Sandler: record $1.2B in total trading</span>
-                <a href="https://www.wsj.com/articles/ai-fumbles-its-big-super-bowl-investment-as-viewers-opt-for-laughter-and-tears-3e3dff5f" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL</a>
-            </div>
-        </div>
-
-        <!-- 3. Deep Analysis -->
-        <div class="analysis-section-container">
-            <div id="analysis-section" class="section-header">
-                <i class="fas fa-feather-alt"></i>
-                <h2>Deep Analysis</h2>
-            </div>
-            <div class="analysis-card">
-                <span class="author-tag">Stratechery by Ben Thompson</span>
-                <span class="title-cn" style="font-size: 1.8rem;">Spotify 財報：個性化網路、AI 與聚合理論的轉型</span>
-                <span class="title-en" style="font-size: 1.1rem;">Spotify Earnings, Individualized Networks, AI and Aggregation</span>
-                <div class="analysis-content">
-                    在本篇深度分析中，Ben Thompson 探討了 Spotify 如何將 AI 視為一種「維持性技術（Sustaining Technology）」，這主要歸功於其成熟且正確的商業模式。Spotify 的核心競爭力在於其作為內容網路的特質，這使其能夠利用 AI 來強化個性化推薦。隨著第四季財報顯示月活躍用戶（MAU）增長 11% 達到 7.51 億，Ben 指出 Spotify 正在從單純的聚合商轉向建立「個性化網路」。這意味著 AI 不僅僅是推薦算法的升級，而是整個平台邏輯的重構——透過更精準的用戶理解來鎖定內容與廣告的分配權。與傳統 SaaS 模式不同，Spotify 展現了在 AI 時代下，強大的 LTV（生命週期價值）如何支撐其不斷擴張的內容版圖，包括播客與有聲書的戰略成功。Ben 強調，當編碼與內容生成的成本趨於零時，擁有「用戶關係」與「分發權」的平台將成為最終的贏家，而 Spotify 正是這一理論的實踐先行者。
+            <div class="news-grid">
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">AppLovin 第四季營收成長 66% 達 16.6 億美元，超乎市場預期</span>
+                    <span class="title-en">AppLovin reports Q4 revenue up 66% YoY to $1.66B, vs. $1.61B est., and forecasts Q1 revenue and adjusted EBITDA above estimates</span>
+                    <a href="https://sherwood.news/markets/applovin-q4-earnings-software-adtech-ai/" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <a href="https://stratechery.com/2026/spotify-earnings-individualized-networks-ai-and-aggregation/" class="link-btn" style="color: var(--analysis-accent);">VIEW FULL ANALYSIS <i class="fas fa-external-link-alt"></i></a>
-            </div>
-            <div class="analysis-card">
-                <span class="author-tag">Stratechery by Ben Thompson</span>
-                <span class="title-cn" style="font-size: 1.8rem;">微軟與軟體的生存之道：當 AI 篡奪軟體地位時，贏家是誰？</span>
-                <span class="title-en" style="font-size: 1.1rem;">Microsoft and Software Survival: The software that wins will use AI to usurp other software.</span>
-                <div class="analysis-content">
-                    Ben Thompson 解析了微軟財報後市值大跌的底層原因，並對 AI 時代的軟體業做出了大膽預測。微軟目前的戰略核心在於「Work IQ」，這不僅是一個輔助工具，而是一個基於微軟 365 數據資產的「有狀態代理人」。Ben 指出，雖然市場擔憂 Vibe Coding 會讓軟體開發成本歸零，進而威脅 SaaS 模式，但他持樂觀態度。他認為，大公司不會因為 AI 能寫程式就不買軟體，因為軟體的核心價值在於「產品力、維護、安全與合規」，而不僅僅是程式碼本身。微軟正處於一個「防禦轉進攻」的階段：如果微軟不能讓 AI 完美嵌入其生產力套件，對手將會迅速填補。Ben 總結道，未來的贏家將是那些能利用 AI 徹底優化甚至重塑工作流的公司。這不僅是一場技術戰，更是一場關於資源爭奪戰。具備規模優勢的巨頭如微軟，更有機會在這場革命中生存並進化。
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">Robinhood 啟動乙太坊 Layer 2 測試網，深化加密貨幣交易佈局</span>
+                    <span class="title-en">Robinhood launches a public testnet for Robinhood Chain, an Ethereum Layer 2 network on Arbitrum supporting 24/7 trading</span>
+                    <a href="https://www.coindesk.com/business/2026/02/11/robinhood-starts-testing-its-own-blockchain-as-crypto-and-tokenization-push-deepens" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <a href="https://stratechery.com/2026/microsoft-and-software-survival/" class="link-btn" style="color: var(--analysis-accent);">VIEW FULL ANALYSIS <i class="fas fa-external-link-alt"></i></a>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">xAI 重組四大核心部門：專注 Grok、編碼、圖像與數位代理人</span>
+                    <span class="title-en">xAI will be organized into four core areas: Grok's chatbot and voice products, Coding, Imagine, and Macrohard for digital agents</span>
+                    <a href="https://www.bloomberg.com/news/articles/2026-02-11/musk-restructures-xai-s-teams-after-co-founders-exit" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">馬斯克宣佈 xAI 裁員重組，緊隨兩位共同創辦人離職消息</span>
+                    <span class="title-en">Elon Musk announces an xAI reorganization that “required parting ways with some people”, after two co-founders announced they were leaving</span>
+                    <a href="https://www.cnbc.com/2026/02/11/musk-announces-xai-re-org-following-key-departures-spacex-merger.html" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">Instagram 負責人 Adam Mosseri 辯稱社交媒體不具「臨床成癮性」</span>
+                    <span class="title-en">Social media addiction trial: Adam Mosseri says social media is not “clinically addictive” and Meta was careful with young people</span>
+                    <a href="https://www.nytimes.com/2026/02/11/technology/adam-mosseri-instagram-addiction-trial.html" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">Anthropic 承諾將升級電網基礎設施，以抵消數據中心的能耗影響</span>
+                    <span class="title-en">Anthropic says it will upgrade power grid infrastructure and generate new power to minimize the effects of its data centers</span>
+                    <a href="https://www.nbcnews.com/tech/tech-news/anthropic-cover-costs-electricity-price-increases-data-centers-rcna258554" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">EssilorLuxottica 2025 年售出逾 700 萬副 Meta AI 眼鏡，銷量激增</span>
+                    <span class="title-en">EssilorLuxottica says it sold over 7M Meta AI glasses in 2025, up from the 2M sold in 2023 and 2024 combined</span>
+                    <a href="https://www.cnbc.com/2026/02/11/ray-ban-maker-essilorluxottica-triples-sales-of-meta-ai-glasses.html" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">加密流動性供應商 BlockFills 因市場不穩暫停提款業務</span>
+                    <span class="title-en">BlockFills, a crypto liquidity provider, halts deposits and withdrawals, citing “recent market and financial conditions”</span>
+                    <a href="https://www.ft.com/content/73e506f4-6b58-4c38-9198-110e845f48b2" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">Anthropic 強化 Claude 免費方案，開放文件建立與外部服務連接</span>
+                    <span class="title-en">Anthropic says Claude users on the free plan can now create files, connect to external services, use skills, and more</span>
+                    <a href="https://www.engadget.com/ai/anthropic-beefs-up-claudes-free-tier-as-openai-prepares-to-stuff-ads-into-chatgpts-194100939.html" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">蘋果 Siri 升級受阻，部分個人化功能恐推遲至五月發布</span>
+                    <span class="title-en">Sources: Apple's Siri upgrade run into snags recently, possibly pushing some features from iOS 26.4 to iOS 26.5 due in May</span>
+                    <a href="https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">OpenAI 允許美軍透過 GenAI.mil 訪問 ChatGPT，引發內部討論</span>
+                    <span class="title-en">OpenAI announced that the US military will get access to ChatGPT via GenAI.mil; move came after months of deliberation</span>
+                    <a href="https://www.semafor.com/article/02/11/2026/how-openai-got-comfortable-with-the-pentagon-using-chatgpt-for-war" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">Google 發布 Android 17 Beta 1，強制要求對摺疊機進行優化</span>
+                    <span class="title-en">Google releases Android 17 Beta 1, which requires developers to optimize apps for foldables and large screens</span>
+                    <a href="https://www.androidcentral.com/apps-software/android-os/android-17-beta-1-released" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">Meta 斥資百億美元於印第安納州興建 1GW 數據中心</span>
+                    <span class="title-en">Meta plans to spend more than $10B to build a 1GW data center campus in Lebanon, Indiana, expected operational in late 2027</span>
+                    <a href="https://www.bloomberg.com/news/articles/2026-02-11/meta-to-spend-more-than-10-billion-on-indiana-based-data-center" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">Threads 推出新功能，讓用戶透過 “Dear Algo” 暫時調整演算法</span>
+                    <span class="title-en">Meta launches an AI feature that lets Threads users temporarily personalize their feed by specifying topics in a post</span>
+                    <a href="https://www.cnbc.com/2026/02/11/meta-threads-dear-algo-ai-algorithm-personalization.html" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <span class="title-cn">亞馬遜藥局擴張計畫：2026 年底前實現全美 4500 城鎮當日送達</span>
+                    <span class="title-en">Amazon Pharmacy plans same-day prescription delivery to almost 4,500 US cities and towns by the end of 2026</span>
+                    <a href="https://techcrunch.com/2026/02/11/amazon-pharmacy-to-expand-same-day-delivery-to-nearly-4500-us-cities/" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
-        </div>
+
+            <!-- 2. WSJ Tech (10則) -->
+            <div id="wsj-section" class="section-header" style="color: var(--wsj-accent);">
+                <i class="fas fa-newspaper"></i>
+                <h2>WSJ Technology Top 10</h2>
+            </div>
+            <div class="news-grid">
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">荷蘭法院要求調查中資晶片公司 Nexperia 管理不善指控</span>
+                    <span class="title-en">A Dutch court orders an investigation into alleged mismanagement at Chinese-owned chip company Nexperia</span>
+                    <a href="https://www.wsj.com/world/europe/dutch-court-orders-probe-into-chinese-owned-nexperia-f463cfbd" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">中芯國際執行長：產業對記憶體晶片短缺感到「恐慌」</span>
+                    <span class="title-en">SMIC CEO Zhao Haijun says the industry is “a bit panicked” about the memory chip shortage, prices up 80%+ in 2026</span>
+                    <a href="https://www.wsj.com/tech/smic-ceo-says-industry-panicked-about-memory-supply-shortage-f0e1aaed" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">網易第四季營收成長 3%，獲利受自研遊戲驅動但低於預期</span>
+                    <span class="title-en">Chinese video game giant NetEase reports Q4 revenue up 3% YoY to ~$4B and net profit down 29%, below estimates</span>
+                    <a href="https://www.wsj.com/business/earnings/netease-net-profit-falls-despite-higher-revenue-c4dd82fa" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">亞馬遜與 Google 計畫規避川普政府高額 H-1B 簽證費用</span>
+                    <span class="title-en">Sources: Amazon, Google, and others plan to skirt Trump's $100K H-1B fee by finding alternative worker categories</span>
+                    <a href="https://www.wsj.com/business/big-tech-companies-prepare-to-skirt-trumps-100-000-h-1b-fee-7cbf1ebe" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">調查：福特 BlueCruise 系統的使用界面導致部分駕駛產生混淆</span>
+                    <span class="title-en">Investigation: as Ford pushes its BlueCruise driving system, some drivers found it confusing to use and misunderstood limitations</span>
+                    <a href="https://www.wsj.com/business/autos/hands-free-driving-ford-investigation-4fc87266" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">OpenAI 棄用 GPT-4o 模型，主因安全考量與 Harmful 内容管控</span>
+                    <span class="title-en">As OpenAI moves to retire GPT-4o on February 13, sources say it is being scrapped due to harmful outcome concerns</span>
+                    <a href="https://www.wsj.com/tech/ai/chatgpt-4o-openai-315138b8" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">OpenAI 遭到副總裁 Beiermeister 訴訟，指控性別歧視與成人模式分歧</span>
+                    <span class="title-en">Sources: OpenAI fired VP Ryan Beiermeister in January for alleged sexual discrimination after adult mode concerns</span>
+                    <a href="https://www.wsj.com/tech/ai/openai-executive-who-opposed-adult-mode-fired-for-sexual-discrimination-3159c61b" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">馬斯克 Miami 買房傳聞：擬斥資 2 億美元購入豪宅避稅</span>
+                    <span class="title-en">Sources: Mark Zuckerberg plans to buy a Miami mansion, likely for up to $200M, joining other tech billionaires in Florida</span>
+                    <a href="https://www.wsj.com/real-estate/luxury-homes/mark-zuckerburg-indian-creek-miami-florida-38f63db4" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">微軟自動更新舊 PC 安全證書，避免 2026 年到期斷網風險</span>
+                    <span class="title-en">Microsoft is automatically replacing Secure Boot certificates for older PCs before they start to expire later in 2026</span>
+                    <a href="https://www.wsj.com/articles/hands-free-driving-ford-investigation-4fc87266" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <span class="title-cn">超級盃預測：Kalshi 與 Polymarket 交易量創下歷史紀錄</span>
+                    <span class="title-en">Kalshi says it registered over $1B in trades related to the Super Bowl; Piper Sandler: record $1.2B in total trading</span>
+                    <a href="https://www.wsj.com/articles/ai-fumbles-its-big-super-bowl-investment-as-viewers-opt-for-laughter-and-tears-3e3dff5f" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- 3. Deep Analysis -->
+            <div class="analysis-section-container">
+                <div id="analysis-section" class="section-header" style="color: var(--analysis-accent);">
+                    <i class="fas fa-feather-alt"></i>
+                    <h2>Deep Analysis</h2>
+                </div>
+                <div class="analysis-card">
+                    <span class="author-tag">Stratechery by Ben Thompson</span>
+                    <div class="title-cn" style="font-size: 1.8rem;">Spotify 財報：個性化網路、AI 與聚合理論的轉型</div>
+                    <div class="title-en" style="font-size: 1.1rem;">Spotify Earnings, Individualized Networks, AI and Aggregation</div>
+                    <div class="analysis-content">
+                        在本篇深度分析中，Ben Thompson 探討了 Spotify 如何將 AI 視為一種「維持性技術（Sustaining Technology）」，這主要歸功於其成熟且正確的商業模式。Spotify 的核心競爭力認在於其作為內容網路的特質，這使其能夠利用 AI 來強化個性化推薦。隨著第四季財報顯示月活躍用戶（MAU）增長 11% 達到 7.51 億，Ben 指出 Spotify 正在從單純的聚合商轉向建立「個性化網路」。這意味著 AI 不僅僅是推薦算法的升級，而是整個平台邏輯的重構——透過更精準的用戶理解來鎖定內容與廣告的分配權。與傳統 SaaS 模式不同，Spotify 展現了在 AI 時代下，強大的 LTV（生命週期價值）如何支撐其不斷擴張的內容版圖，包括播客與有聲書的戰略成功。Ben 強調，當編碼與內容生成的成本趨於零時，擁有「用戶關係」與「分發權」的平台將成為最終的贏家，而 Spotify 正是這一理論的實踐先行者。
+                    </div>
+                    <a href="https://stratechery.com/2026/spotify-earnings-individualized-networks-ai-and-aggregation/" class="link-btn" style="color: var(--analysis-accent);">VIEW FULL ANALYSIS <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="analysis-card">
+                    <span class="author-tag">Stratechery by Ben Thompson</span>
+                    <div class="title-cn" style="font-size: 1.8rem;">微軟與軟體的生存之道：當 AI 篡奪軟體地位時，贏家是誰？</div>
+                    <div class="title-en" style="font-size: 1.1rem;">Microsoft and Software Survival: The software that wins will use AI to usurp other software.</div>
+                    <div class="analysis-content">
+                        Ben Thompson 解析了微軟財報後市值大跌的底層原因，並對 AI 時代的軟體業做出了大膽預測。微軟目前的戰略核心在於「Work IQ」，這不僅是一個輔助工具，而是一個基於微軟 365 數據資產的「有狀態代理人」。Ben 指出，雖然市場擔憂 Vibe Coding 會讓軟體開發成本歸零，進而威脅 SaaS 模式，但他持樂觀態度。他認為，大公司不會因為 AI 能寫程式就不買軟體，因為軟體的核心價值在於「產品力、維護、安全與合規」，而不僅僅是程式碼本身。微軟正處於一個「防禦轉進攻」的階段：如果微軟不能讓 AI 完美嵌入其生產力套件，對手將會迅速填補。Ben 總結道，未來的贏家將是那些能利用 AI 徹底優化甚至重塑 work流的公司。這不僅是一場技術戰，更是一場關於資源爭奪戰。具備規模優勢的巨頭如微軟，更有機會在這場革命中生存並進化。
+                    </div>
+                    <a href="https://stratechery.com/2026/microsoft-and-software-survival/" class="link-btn" style="color: var(--analysis-accent);">VIEW FULL ANALYSIS <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div> <!-- end main-content -->
+
+        <!-- 側邊欄：歷史存檔 -->
+        <aside class="sidebar">
+            <h3><i class="fas fa-archive"></i> 歷史存檔</h3>
+            <ul class="archive-list">
+                <li class="archive-item">
+                    <a href="index.html" class="archive-link active">
+                        <i class="far fa-calendar-check"></i> 2026-02-12 (今日)
+                    </a>
+                </li>
+                <li class="archive-item">
+                    <a href="#" class="archive-link">
+                        <i class="far fa-calendar"></i> 2026-02-11
+                    </a>
+                </li>
+                <li class="archive-item">
+                    <a href="#" class="archive-link">
+                        <i class="far fa-calendar"></i> 2026-02-10
+                    </a>
+                </li>
+                <!-- 未來這裡會由腳本自動生成 -->
+            </ul>
+            <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.05); font-size: 0.8rem; color: var(--secondary-text);">
+                <p><i class="fas fa-info-circle"></i> 每天早上 08:00 自動更新</p>
+            </div>
+        </aside>
     </div>
     <footer><p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · v3.4 Full Specs Edition</p></footer>
 </body>
