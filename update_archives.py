@@ -41,20 +41,24 @@ def update_archives():
     archives.sort(reverse=True) # 新的在前
 
     sidebar_html = '<ul class="archive-list">\n'
-    # 加入今日連結 (index.html)
+    # 加入今日連結 (絕對路徑回到首頁)
     sidebar_html += f'''                <li class="archive-item">
-                    <a href="index.html" class="archive-link active">
+                    <a href="/daily-curation/" class="archive-link active">
                         <i class="far fa-calendar-check"></i> {iso_date} (今日)
                     </a>
                 </li>\n'''
     
-    # 加入歷史連結
+    # 加入歷史連結 (存檔目錄需加 archive/ 前綴)
     for arc in archives:
         date_label = arc.replace('.html', '')
-        if date_label == iso_date: continue # 跳過今日，因為已經加過了
+        if date_label == iso_date: continue # 跳過今日
+        
+        # 判斷目前是否在存檔頁面，決定連結路徑
+        # 這裡改用絕對路徑更安全
+        link_path = f"/daily-curation/archive/{arc}"
         
         sidebar_html += f'''                <li class="archive-item">
-                    <a href="archive/{arc}" class="archive-link">
+                    <a href="{link_path}" class="archive-link">
                         <i class="far fa-calendar"></i> {date_label}
                     </a>
                 </li>\n'''
