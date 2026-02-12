@@ -31,11 +31,20 @@
 
         body { font-family: 'Inter', 'Noto Sans TC', -apple-system, sans-serif; background-color: var(--bg-color); color: var(--primary-text); margin: 0; line-height: 1.6; scroll-behavior: smooth; }
         
-        /* 玻璃擬態導覽列 */
-        nav { position: sticky; top: 0; background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 100; padding: 18px 0; border-bottom: 1px solid rgba(0,0,0,0.05); text-align: center; }
+        nav { position: sticky; top: 0; background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 100; padding: 12px 0; border-bottom: 1px solid rgba(0,0,0,0.05); text-align: center; }
         @media (prefers-color-scheme: dark) { nav { background: rgba(15, 23, 42, 0.7); border-bottom-color: rgba(255,255,255,0.05); } }
-        nav a { text-decoration: none; color: var(--primary-text); margin: 0 20px; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px; transition: color 0.3s; }
+        nav .nav-container { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        nav .nav-links { display: flex; gap: 15px; flex-grow: 1; justify-content: center; }
+        nav a { text-decoration: none; color: var(--primary-text); font-weight: 700; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; white-space: nowrap; }
         nav a:hover { color: var(--techmeme-accent); }
+        .home-icon { color: var(--techmeme-accent); font-size: 1.2rem; transition: transform 0.2s; display: flex; align-items: center; }
+        .home-icon:hover { transform: scale(1.2); }
+
+        @media (max-width: 600px) {
+            nav .nav-links { gap: 10px; }
+            nav a { font-size: 0.6rem; letter-spacing: 0.5px; }
+            header h1 { font-size: 2.2rem; }
+        }
 
         /* 漸層標題區 */
         header { padding: 100px 20px; text-align: center; background: radial-gradient(circle at top left, #1e3a8a, #0f172a); color: white; position: relative; overflow: hidden; }
@@ -141,13 +150,14 @@
 </head>
 <body>
     <nav>
-        <div style="max-width: 1400px; margin: 0 auto; display: flex; justify-content: center; align-items: center; position: relative;">
-            <div style="display: flex; gap: 20px;">
+        <div class="nav-container">
+            <div style="width: 24px;"></div> <!-- 佔位符保持平衡 -->
+            <div class="nav-links">
                 <a href="#techmeme-section">Techmeme</a>
                 <a href="#wsj-section">WSJ Tech</a>
                 <a href="#analysis-section">Deep Analysis</a>
             </div>
-            <a href="/daily-curation/" style="position: absolute; right: 20px; color: var(--techmeme-accent); font-size: 1.2rem; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+            <a href="/daily-curation/" class="home-icon">
                 <i class="fas fa-home"></i>
             </a>
         </div>
