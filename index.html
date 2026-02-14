@@ -407,34 +407,48 @@
         }
     </script>
     <script>
-        // 我們建立一個專門去拿 Podcast 資料的任務
         async function loadPodcastData() {
             try {
                 const response = await fetch('podcast_data.json');
-                const data = await response.json();
+                // 現在拿到的 data 是一個「清單 (Array)」
+                const dataList = await response.json();
                 const container = document.getElementById('podcast-container');
 
-                // 這裡我們加入了一個限制高度的容器 (max-height: 200px) 跟一個白色的漸層遮罩
-                container.innerHTML = `
-                    <div class="podcast-card" style="padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-                        <h3 style="margin-top: 0; color: #222;">🎙️ ${data.title}</h3>
-                        <p style="color: #777; font-size: 0.9em;">📅 更新日期：${data.date}</p>
-                        <div id="podcast-content-wrapper" style="position: relative;">
-                            <div id="podcast-summary-text" style="max-height: 200px; overflow: hidden; line-height: 1.8; color: #333; transition: max-height 0.3s ease;">
-                                ${data.summary}
+                // 先把空盒子清空，準備放入新內容
+                container.innerHTML = '';
+
+                // 限制最多只拿清單裡的「前 2 筆」資料
+                const podcastsToShow = dataList.slice(0, 2);
+
+                // 針對這兩筆資料，我們一個一個幫它們穿上 HTML 的衣服
+                podcastsToShow.forEach((data, index) => {
+                    const textId = `podcast-summary-text-${index}`;
+                    const maskId = `podcast-fade-mask-${index}`;
+                    const btnId = `toggle-podcast-btn-${index}`;
+
+                    const cardHTML = `
+                        <div class="podcast-card" style="padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 25px;">
+                            <h3 style="margin-top: 0; color: #222;">🎙️ ${data.title}</h3>
+                            <p style="color: #777; font-size: 0.9em;">📅 更新日期：${data.date}</p>
+                            <div style="position: relative;">
+                                <div id="${textId}" style="max-height: 200px; overflow: hidden; line-height: 1.8; color: #333; transition: max-height 0.3s ease;">
+                                    ${data.summary}
+                                </div>
+                                <div id="${maskId}" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); pointer-events: none;"></div>
                             </div>
-                            <div id="podcast-fade-mask" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); pointer-events: none;"></div>
+                            <div style="margin-top: 15px; display: flex; gap: 15px; align-items: center;">
+                                <button id="${btnId}" onclick="togglePodcast(${index})" style="padding: 8px 16px; background-color: #f1f3f5; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; font-weight: bold; color: #495057; transition: background 0.2s;">
+                                    👀 閱讀全文
+                                </button>
+                                <a href="${data.url}" target="_blank" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.95em;">
+                                    🎧 前往收聽原始來源
+                                </a>
+                            </div>
                         </div>
-                        <div style="margin-top: 15px; display: flex; gap: 15px; align-items: center;">
-                            <button id="toggle-podcast-btn" onclick="togglePodcast()" style="padding: 8px 16px; background-color: #f1f3f5; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; font-weight: bold; color: #495057; transition: background 0.2s;">
-                                👀 閱讀全文
-                            </button>
-                            <a href="${data.url}" target="_blank" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.95em;">
-                                🎧 前往收聽原始來源
-                            </a>
-                        </div>
-                    </div>
-                `;
+                    `;
+                    // 把做好的卡片塞進盒子裡
+                    container.innerHTML += cardHTML;
+                });
             } catch (error) {
                 console.error("讀取 Podcast 資料時發生錯誤：", error);
                 document.getElementById('podcast-container').innerHTML = "<p>⚠️ 目前無法載入 Podcast 內容。</p>";
@@ -442,10 +456,14 @@
         }
 
         // 這個功能負責控制按鈕按下去後的「展開」與「收合」
-        window.togglePodcast = function() {
-            const textDiv = document.getElementById('podcast-summary-text');
-            const maskDiv = document.getElementById('podcast-fade-mask');
-            const btn = document.getElementById('toggle-podcast-btn');
+        window.togglePodcast = function(index) {
+            const textId = `podcast-summary-text-${index}`;
+            const maskId = `podcast-fade-mask-${index}`;
+            const btnId = `toggle-podcast-btn-${index}`;
+            
+            const textDiv = document.getElementById(textId);
+            const maskDiv = document.getElementById(maskId);
+            const btn = document.getElementById(btnId);
 
             if (textDiv.style.maxHeight === '200px' || textDiv.style.maxHeight === '') {
                 textDiv.style.maxHeight = 'none'; // 展開：取消高度限制
