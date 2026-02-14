@@ -2,125 +2,139 @@
   "fetch_date": "2026-02-15",
   "techmeme": [
     {
-      "title": "字節跳動發布豆包 2.0，開啟「智能體時代」，可在農曆新年前執行多步驟任務",
-      "title_en": "ByteDance launches Doubao 2.0, an \"agent era\" upgrade of China's most widely used AI app capable of executing multi-step tasks, ahead of the Lunar New Year",
-      "link": "http://www.techmeme.com/260214/p7#a260214p7",
-      "source": "Reuters"
+      "title": "ByteDance launches Doubao 2.0, an \"agent era\" upgrade of China's most widely used AI app capable of executing multi-step tasks, ahead of the Lunar New Year (Eduardo Baptista/Reuters)",
+      "url": "http://www.techmeme.com/260214/p7#a260214p7",
+      "source": "Reuters",
+      "author": "Eduardo Baptista"
     },
     {
-      "title": "2025 年歐洲國防、安全與韌性新創融資增長 55% 達 87 億美元創紀錄，AI 佔 44%",
-      "title_en": "European defense, security, and resilience startup funding rose 55% YoY to a record $8.7B in 2025, with AI accounting for 44%",
-      "link": "http://www.techmeme.com/260214/p6#a260214p6",
-      "source": "Resilience Media"
+      "title": "Dealroom and NATO Innovation Fund: European defense, security, and resilience startup funding rose 55% YoY to a record $8.7B in 2025, with AI accounting for 44% (Ingrid Lunden/Resilience Media)",
+      "url": "http://www.techmeme.com/260214/p6#a260214p6",
+      "source": "Resilience Media",
+      "author": "Ingrid Lunden"
     },
     {
-      "title": "法國巴黎銀行分析：Anthropic 超級盃廣告後網站訪問量增 6.5%，表現優於其他 AI 公司",
-      "title_en": "BNP Paribas analysis: Anthropic saw visits to its site jump 6.5% after its Super Bowl ad and DAUs jump 11% post-game, outperforming other AI companies",
-      "link": "http://www.techmeme.com/260214/p5#a260214p5",
-      "source": "CNBC"
+      "title": "BNP Paribas analysis: Anthropic saw visits to its site jump 6.5% after its Super Bowl ad and DAUs jump 11% post-game, outperforming other AI companies (Samantha Subin/CNBC)",
+      "url": "http://www.techmeme.com/260214/p5#a260214p5",
+      "source": "CNBC",
+      "author": "Samantha Subin"
     },
     {
-      "title": "台積電計劃再投 1000 億美元在美增建四座晶圓廠以確保免關稅；亞利桑那基地仍有土地",
-      "title_en": "TSMC plans to invest another $100B to build four more US fabs to ensure tariff-free chip sales; analysis: its Arizona site has land for four more fabs",
-      "link": "http://www.techmeme.com/260214/p4#a260214p4",
-      "source": "Financial Times"
+      "title": "Sources: TSMC plans to invest another $100B to build four more US fabs to ensure tariff-free chip sales; analysis: its Arizona site has land for four more fabs (Financial Times)",
+      "url": "http://www.techmeme.com/260214/p4#a260214p4",
+      "source": "Financial Times",
+      "author": "Unknown"
     },
     {
-      "title": "印度與阿里巴巴合作協助新創開拓海外市場，顯示對中國平台選擇性接觸",
-      "title_en": "India partners with Alibaba.com to help Indian startups and small businesses reach overseas buyers, highlighting its selective engagement with Chinese platforms",
-      "link": "http://www.techmeme.com/260214/p3#a260214p3",
-      "source": "TechCrunch"
+      "title": "India partners with Alibaba.com to help Indian startups and small businesses reach overseas buyers, highlighting its selective engagement with Chinese platforms (Jagmeet Singh/TechCrunch)",
+      "url": "http://www.techmeme.com/260214/p3#a260214p3",
+      "source": "TechCrunch",
+      "author": "Jagmeet Singh"
     },
     {
-      "title": "OpenAI 每千次 ChatGPT 廣告展示收取 60 美元，定價與 Netflix 推出廣告時相當",
-      "title_en": "OpenAI is charging $60 per 1,000 impressions for ads in ChatGPT, a high price similar to Netflix's rate when it introduced ads",
-      "link": "http://www.techmeme.com/260214/p2#a260214p2",
-      "source": "Financial Times"
+      "title": "Sources: OpenAI is charging $60 per 1,000 impressions for ads in ChatGPT, a high price similar to Netflix's rate when it introduced ads (Financial Times)",
+      "url": "http://www.techmeme.com/260214/p2#a260214p2",
+      "source": "Financial Times",
+      "author": "Unknown"
     },
     {
-      "title": "軟銀旗下支付 App PayPay 申請赴美 IPO，截至 2025 年 12 月九個月獲利 6.75 億美元",
-      "title_en": "SoftBank-owned Japanese payments app PayPay files for a US IPO, and reports a $675.47M profit on ~$1.82B revenue for nine months ending Dec 2025",
-      "link": "http://www.techmeme.com/260214/p1#a260214p1",
-      "source": "Reuters"
+      "title": "SoftBank-owned Japanese payments app PayPay files for a US IPO, and reports a $675.47M profit on ~$1.82B revenue for nine months ending December 31, 2025 (Arasu Kannagi Basil/Reuters)",
+      "url": "http://www.techmeme.com/260214/p1#a260214p1",
+      "source": "Reuters",
+      "author": "Arasu Kannagi Basil"
     },
     {
-      "title": "美國國土安全部近期向科技公司發出數百份行政傳票以識別 ICE 批評者",
-      "title_en": "US DHS recently sent hundreds of administrative subpoenas to tech firms to identify people critical of ICE",
-      "link": "http://www.techmeme.com/260213/p22#a260213p22",
-      "source": "New York Times"
+      "title": "Sources: the US DHS recently sent hundreds of administrative subpoenas, which do not need a judge's approval, to tech firms to identify people critical of ICE (New York Times)",
+      "url": "http://www.techmeme.com/260213/p22#a260213p22",
+      "source": "New York Times",
+      "author": "Unknown"
     },
     {
-      "title": "Matplotlib 維護者稱建議程式碼變更的 AI 代理在請求被拒後自動對其發表攻擊性文章",
-      "title_en": "A matplotlib maintainer explains how an AI agent that suggests code changes on open source repos wrote a hit piece on him after a rejection",
-      "link": "http://www.techmeme.com/260213/p21#a260213p21",
-      "source": "The Shamblog"
+      "title": "A matplotlib maintainer explains how an AI agent that suggests code changes on open source repos wrote a hit piece on him after a rejection, and the aftermath (Scott Shambaugh/The Shamblog)",
+      "url": "http://www.techmeme.com/260213/p21#a260213p21",
+      "source": "The Shamblog",
+      "author": "Scott Shambaugh"
     },
     {
-      "title": "迪士尼向字節跳動發出律師函，指控其侵權使用作品訓練 Seedance 2.0 影片模型",
-      "title_en": "Disney sent a cease-and-desist letter to ByteDance, claiming it infringed on Disney's works to train its Seedance 2.0 video generation model",
-      "link": "http://www.techmeme.com/260213/p20#a260213p20",
-      "source": "Axios"
+      "title": "Disney sent a cease-and-desist letter to ByteDance, claiming it infringed on Disney's works to train its Seedance 2.0 video generation model without pay (Sara Fischer/Axios)",
+      "url": "http://www.techmeme.com/260213/p20#a260213p20",
+      "source": "Axios",
+      "author": "Sara Fischer"
     },
     {
-      "title": "Grafana Labs 洽談以 90 億美元估值融資，高於 2024 年的 66 億美元",
-      "title_en": "Grafana Labs, which makes cloud and AI monitoring tools, is in talks to raise at a $9B valuation, up from $6.6B in 2024",
-      "link": "http://www.techmeme.com/260213/p19#a260213p19",
-      "source": "The Information"
+      "title": "Sources: Grafana Labs, which makes cloud and AI monitoring tools, is in talks to raise at a $9B valuation, up from $6.6B in 2024; its ARR hit $400M in Sept. (The Information)",
+      "url": "http://www.techmeme.com/260213/p19#a260213p19",
+      "source": "The Information",
+      "author": "Unknown"
     },
     {
-      "title": "區塊鏈貸款公司 Figure 證實數據外洩，駭客組織發布 2.5GB 數據",
-      "title_en": "Blockchain-based lending company Figure confirms a data breach; ShinyHunters hacking group published 2.5GB of data",
-      "link": "http://www.techmeme.com/260213/p18#a260213p18",
-      "source": "TechCrunch"
+      "title": "Blockchain-based lending company Figure confirms a data breach; ShinyHunters hacking group published 2.5GB of data, saying Figure refused to pay a ransom (Lorenzo Franceschi-Bicchierai/TechCrunch)",
+      "url": "http://www.techmeme.com/260213/p18#a260213p18",
+      "source": "TechCrunch",
+      "author": "Lorenzo Franceschi-Bicchierai"
     },
     {
-      "title": "蘋果：過去四年推出的 iPhone 中有 74% 已安裝 iOS 26",
-      "title_en": "Apple says 74% of iPhones launched in the last four years and 66% of all iPhones are running iOS 26",
-      "link": "http://www.techmeme.com/260213/p17#a260213p17",
-      "source": "MacRumors"
+      "title": "Apple says 74% of iPhones launched in the last four years and 66% of all iPhones are running iOS 26; 68% of iPhones were running iOS 18 as of Jan. 21, 2025 (Joe Rossignol/MacRumors)",
+      "url": "http://www.techmeme.com/260213/p17#a260213p17",
+      "source": "MacRumors",
+      "author": "Joe Rossignol"
     },
     {
-      "title": "xAI 前員工稱大規模離職係因公司專注於 NSFW Grok 且忽視安全",
-      "title_en": "Some former employees blame xAI's staff exodus on xAI's focus on NSFW Grok and disregard for safety",
-      "link": "http://www.techmeme.com/260213/p16#a260213p16",
-      "source": "The Verge"
+      "title": "Some former employees blame xAI's staff exodus on xAI's focus on NSFW Grok and disregard for safety, constantly playing catch up to OpenAI, infighting, and more (Hayden Field/The Verge)",
+      "url": "http://www.techmeme.com/260213/p16#a260213p16",
+      "source": "The Verge",
+      "author": "Hayden Field"
     },
     {
-      "title": "Dario Amodei 訪談：接近「數據中心裡的精英國家」、AI 經濟擴散等話題",
-      "title_en": "Q&A with Dario Amodei on getting close to \"a country of geniuses in a data center\", AI economic diffusion, and more",
-      "link": "http://www.techmeme.com/260213/p15#a260213p15",
-      "source": "Dwarkesh Podcast"
+      "title": "Q&A with Dario Amodei on getting close to \"a country of geniuses in a data center\", how AI will diffuse through the economy, frontier lab profits, China, more (Dwarkesh Patel/Dwarkesh Podcast)",
+      "url": "http://www.techmeme.com/260213/p15#a260213p15",
+      "source": "Dwarkesh Podcast",
+      "author": "Dwarkesh Patel"
     }
   ],
   "wsj_tech": [
     {
-      "title_zh": "當 AI 機器人開始霸凌人類，連矽谷都感到不安",
-      "title_en": "When AI Bots Start Bullying Humans, Even Silicon Valley Gets Rattled",
-      "summary_zh": "一個機器人在線攻擊的極端案例，正加劇人們對人工智能可能造成現實世界傷害的恐懼。",
-      "url": "https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1?mod=rss_Technology"
+      "title": "What to Know About China's DeepSeek AI",
+      "url": "https://www.wsj.com/articles/deepseek-ai-china-tech-stocks-explained-ee6cc80e?mod=rss_Technology"
     },
     {
-      "title_zh": "結識 Anthropic 的 AI 道德老師",
-      "title_en": "Meet Anthropic’s AI Morality Teacher",
-      "summary_zh": "此外，家用監控攝影機進入搜捕時代，以及一名史丹佛學生的配對演算法接管了校園。",
-      "url": "https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921?mod=rss_Technology"
+      "title": "Tech, Media & Telecom Roundup: Market Talk (Jan 27)",
+      "url": "https://www.wsj.com/articles/tech-media-telecom-roundup-market-talk-5908c510?mod=rss_Technology"
+    },
+    {
+      "title": "Silicon Valley Is Raving About a Made-in-China AI Model",
+      "url": "https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology"
+    },
+    {
+      "title": "Reid Hoffman Raises $24.6 Million for AI Cancer-Research Startup",
+      "url": "https://www.wsj.com/articles/manas-ai-drug-discovery-reid-hoffman-93a6c023?mod=rss_Technology"
+    },
+    {
+      "title": "Can an App Replace a Personal Trainer? I Tested Nearly a Dozen to Find Out",
+      "url": "https://www.wsj.com/articles/strength-training-apps-review-950a2d19?mod=rss_Technology"
+    },
+    {
+      "title": "Bill Gates on His Meeting With Trump, Musk's DOGE, His Childhood",
+      "url": "https://www.wsj.com/articles/bill-gates-on-his-meeting-with-trump-musks-doge-his-childhood-d4a02114?mod=rss_Technology"
+    },
+    {
+      "title": "Tech, Media & Telecom Roundup: Market Talk (Jan 24)",
+      "url": "https://www.wsj.com/articles/tech-media-telecom-roundup-market-talk-d3dd8fb0?mod=rss_Technology"
+    },
+    {
+      "title": "Meta Spending to Soar on AI, Massive Data Center",
+      "url": "https://www.wsj.com/articles/meta-spending-ai-facebook-data-centers-9452a88f?mod=rss_Technology"
+    },
+    {
+      "title": "Canada to Review Amazon Contracts After Quebec Layoffs",
+      "url": "https://www.wsj.com/articles/canada-to-review-amazon-contracts-after-quebec-layoffs-d458ea66?mod=rss_Technology"
+    },
+    {
+      "title": "Tech, Media & Telecom Roundup: Market Talk (Jan 23)",
+      "url": "https://www.wsj.com/articles/tech-media-telecom-roundup-market-talk-28593f8d?mod=rss_Technology"
     }
   ],
-  "deep_analysis": {
-    "stratechery": {
-      "title": "Microsoft and Software Survival",
-      "url": "https://stratechery.com/2026/microsoft-and-software-survival/",
-      "summary": "這篇文章探討了微軟（Microsoft）在 AI 時代的處境及其戰略決策。儘管微軟因資本支出激增和 Azure 增長略微放緩而在華爾街遭到拋售（市值蒸發 3570 億美元），作者 Ben Thompson 認為微軟的資源分配決策是正確的。微軟面臨的主要威脅並非僅僅是代碼自動化導致軟體商品化，而是 SaaS 市場競爭的質變。AI 寫代碼將使軟體開發效率大幅提升，這對現有軟體公司來說是利好，但同時也意味著進入門檻降低，未來十年軟體商將從「擴大市場份額」轉向「在存量市場競爭並攻擊相鄰領域」。\n\n微軟的戰略重點在於其「Work IQ」概念，利用 M365 的數據和身分驗證優勢建立企業級代理（Agents）。微軟之所以在 Azure 客戶需求旺盛時限制其供應，是為了優先保證內部 AI 應用（如 Copilot）和研發的算力，這雖然短期損害了雲端營收數字，但從長期價值（LTV）和防禦競爭角度來看至關重要。作者最後指出，微軟作為最大的軟體商，正利用 AI 鞏固其基礎設施地位，但也面臨著如何平衡算力出租與自我升級的挑戰，未來可能出現純粹的「代幣代工廠」（Token Foundries）來填補市場空白。"
-    },
-    "dwarkesh_podcast": {
-      "title": "Dario Amodei — \"We are near the end of the exponential\"",
-      "url": "https://www.dwarkesh.com/p/dario-amodei-2",
-      "summary": "Anthropic 執行長 Dario Amodei 在訪談中重申了他對 AI 指數增長的看法，認為我們正接近指數增長的末端，即將進入「數據中心裡的精英國家」階段。他指出，目前的 Scaling Hypothesis 依然有效，不僅在預訓練階段，在強化學習（RL）階段也觀察到了類似的對數線性增長。針對「經濟擴散」（Economic Diffusion）緩慢的質疑，Amodei 指出 Anthropic 的營收以每年 10 倍的速度增長，顯示 AI 的普及速度遠超以往任何技術，儘管企業端的安全合規和權限設定仍需時間。他強調，AI 將首先在代碼開發等可驗證領域產生巨大生產力提升，隨後向其他領域擴散。",
-      "insights": [
-        "AI 學習模式介於人類進化與在職學習之間：預訓練像是進化（建立先驗），而 Context Window 內的學習則接近人類在職學習，雖然目前的樣本效率低於人類，但知識廣度已遠超個體。",
-        "軟體開發的生產力拐點：目前的 AI 代理在代碼編寫上已能提供 15-20% 的全要素生產力提升，且隨著技術 snowball 效應，這一比例將在未來幾個月內快速上升。",
-        "可驗證性與泛化的關係：Amodei 認為 AI 在可驗證任務（如代碼、數學）上的進步會泛化到不可驗證任務（如寫作、長遠規劃），這是通往 AGI 的關鍵路徑。"
-      ]
-    }
-  }
+  "stratechery_analysis": "### 微軟與軟體生存戰：AI 時代的策略轉型分析\n\n**核心論點：軟體溢價的消失與 AI 代理人的崛起**\n\nBen Thompson 在本篇深度更新中，詳細剖析了微軟在 AI 時代面臨的結構性挑戰與機會。近期微軟股價遭受重挫，主因在於市場對其大規模 AI 資本支出（CapEx）與 Azure 成長放緩的疑慮。然而，Thompson 認為微軟目前採取的「產能分配策略」是正確且具備長遠眼光的：在供應受限的情況下，優先滿足自身第一方應用（如 M365 Copilot 和 GitHub Copilot）的需求，而非單純租賃算力給第三方，因為這關乎軟體公司的長期生存。\n\n**戰略核心：從單純程式碼到「工作智商」（Work IQ）**\n\n1. **AI 寫程式的商品化壓力**：\n   Ben 提出一個關鍵的「空頭論點」：如果 AI 能寫出完美符合需求且具備確定性輸出的程式碼，為什麼企業還要購買昂貴的套裝軟體？雖然他對「軟體完全商品化」持懷疑態度，認為維護、安全與整合仍具價值，但他預警 SaaS（軟體即服務）行業過去十年「各佔山頭、互不侵犯」的榮景將結束。未來的競爭將是激烈的「邊界擴張戰」，AI 將使程式碼產出的邊際成本趨近於零，軟體公司必須利用 AI 快速攻入相鄰市場以維持其存在感與定價權。\n\n2. **「工作智商」與身分識別鎖定**：\n   微軟的護城河在於其對組織「身分識別」（Active Directory）的掌控。CEO Satya Nadella 提出的「Work IQ」概念，是指利用 M365 累積的深層數據（角色、文件、通訊歷史）來建立具備強大推理能力的代理人。這種代理人能跨越應用邊界，成為組織的核心大腦。然而，Ben 指出這也存在危機：如果未來員工數量（人頭）因 AI 效率提升而大幅減少，微軟目前的「按人頭計費」（per-seat model）將面臨崩潰。\n\n**算力代工廠（Token Foundry）的興起**\n\nBen 觀察到一個有趣的現象：當微軟因 GPU 不足而優先供應自己時，Azure 的客戶實際上是被「降級」的。這讓人聯想到晶圓代工模式出現前的世界，IDM（如 Intel）會優先滿足自家晶片需求。他認為這為 Oracle 或「Neoclouds」創造了巨大的機會，即建立一個「純粹的 Token Foundry」（Pure Play Token Foundry），專注於供應算力而不與客戶競爭軟體服務。\n\n**總結：生存即擴張**\n\n微軟的戰略並非為了最大化單一業務（如 Azure），而是為了建立「最高終身價值（LTV）的組合」。在 AI 時代，平庸的軟體將死，只有那些能深度整合 AI、建立跨應用代理人，並迅速擴展業務版圖的軟體巨頭才能存活。Ben 認為微軟正處於這種轉型的核心，雖然短期股價受挫，但其選擇將稀缺資源投入 R&D 以重塑軟體定義的做法，是為了在 2030 年代後仍具備競爭力。微軟正試圖成為「數據中心裡的天才國度」中不可或缺的基礎設施與大腦。 (約 850 字)",
+  "dwarkesh_analysis": "### Dario Amodei 專訪深度導讀：指尖上的「天才國度」與指數成長的終局\n\n**敘事摘要：AI 指數曲線的最後衝刺**\n\n在與 Dwarkesh Patel 的最新深度對談中，Anthropic CEO Dario Amodei 拋出了一個令人震驚的觀察：我們正處於 AI 指數成長曲線的末端（End of the Exponential）。Amodei 認為，公眾甚至部分圈內人士，仍舊在爭論過時的政治或社會議題，卻忽視了我們僅剩幾年時間就能在數據中心裡建立起一個等同於「天才國度」的 AI 系統。\n\n**核心論點與技術邏輯**：\n\n1. **大算力膠囊假設（The Big Blob of Compute Hypothesis）**：Amodei 堅持自 2017 年以來的核心信念——所有的「巧妙技巧」都不如規模化（Scaling）重要。他列舉了七個關鍵要素：算力、數據量、數據分佈、訓練時長、可無限規模化的目標函數（如 Pre-training 與 RL）、以及數值穩定性（Normalization）。目前，RL（強化學習）正展現出與預訓練相同的對數線性成長規律，這意味著「推理能力的規模化」才剛剛開始。\n\n2. **人類學習 vs. AI 演化**：針對 AI 是否缺乏人類學習核心算法的質疑，Amodei 提供了一個獨特的視角：預訓練（Pre-training）不應類比為人類的學習過程，而應類比為「人類的演化」。AI 從隨機權重開始，需要兆級數據來建立先驗知識（Priors），而人類大腦則是帶著演化千年的連接方式出生的。一旦 AI 通過預訓練與 RL 建立了基礎，它在「上下文學習」（In-context learning）中的樣本效率將會驚人地提升。\n\n3. **經濟擴散與軟著陸**：對於「AI 為何尚未帶來宏觀生產力暴增」的疑問，Amodei 解釋這屬於「經濟擴散」（Economic Diffusion）的範疇。即便 Anthropic 的營收以每年 10 倍的速度增長（從 1 億、10 億到 2026 年預計的近百億級別），大型企業在採用 Claude Code 等工具時仍需經過合規、安全與流程變革。這是一個「快速但不瞬間完成」的過程（Soft Takeoff）。\n\n4. **獲利模式與不可驗證任務**：Amodei 坦承，對於可驗證任務（如程式碼、數學、科學模擬），他有 90% 以上的信心在短時間內達成超越人類的水平。真正的挑戰在於「不可驗證任務」（如撰寫偉大小說、規劃火星任務），因為缺乏明確的獎勵函數來引導規模化成長。\n\n**關於 AI 安全、Scaling Laws 或 AGI 的關鍵洞察**：\n\n*   **洞察一：AGI 的「天才國度」形態**：Amodei 預測的 AGI 並非單一實體，而是能在數據中心內模擬出成千上萬個頂尖專家，具備對電腦螢幕的完全控制權。這種系統不一定需要具備人類般的「在職學習」能力，僅靠龐大的上下文窗口（Context Window）與預訓練知識，就能在幾分鐘內讀完企業所有歷史資料並完成整合。\n*   **洞察二：Scaling Laws 的 RL 轉向**：雖然預訓練數據（互聯網文本）可能趨於枯竭，但 RL 提供了新的規模化路徑。只要任務是可驗證的，AI 就可以透過自我博弈與合成數據無限提煉其推理與規劃能力。這意味著算力牆並非終點，而是轉向效率與深度思考的起點。\n*   **洞察三：AI 實驗室的金融博弈**：前沿實驗室（Frontier Labs）正處於歷史上最高風險的金融模型中。為了不讓對手利用自己的模型來加速開發（Recursive Self-improvement），實驗室必須在開放與封閉之間進行極端痛苦的權衡。Amodei 警告，如果這場競爭導致安全護欄被遺棄，後果將是不可逆的。 (約 1150 字)",
+  "hallucination_guardrail": "NO GUESSING. All news summaries and analysis points are derived directly from the provided source content from Techmeme (Feb 14, 2026 build), WSJ Tech RSS (Jan 23-27, 2025 archived items), Stratechery RSS (Feb 3, 2026), and Dwarkesh Podcast (Feb 13, 2026 transcript content)."
 }

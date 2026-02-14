@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joyce's Daily Curation | v4.6 Interactive UI</title>
+    <title>Joyce's Daily Curation | v4.2 Authenticated Specs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -84,29 +84,11 @@
         .link-btn:hover { gap: 15px; }
 
         .sidebar { width: 300px; position: sticky; top: 135px; background: var(--card-bg); border-radius: 28px; padding: 30px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); margin-top: 105px; }
-        
-        .fade-mask {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 80px;
-            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--card-bg));
-            pointer-events: none;
-        }
-
-        .toggle-btn {
-            background-color: #f1f3f5;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 10px 20px;
-            font-weight: bold;
-            color: #495057;
-            cursor: pointer;
-            margin-top: 15px;
-            transition: all 0.2s;
-        }
-        .toggle-btn:hover { background-color: #e9ecef; }
+        .archive-sidebar { padding: 20px; background-color: #f9f9f6; border-radius: 8px; }
+        .archive-section { margin-bottom: 20px; }
+        .archive-section h3 { font-size: 1.1em; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px; }
+        .archive-list { list-style-type: none; padding-left: 0; line-height: 1.8; }
+        .archive-list li { margin-bottom: 10px; }
 
         @media (max-width: 1024px) {
             .container { flex-direction: column; }
@@ -114,6 +96,13 @@
         }
 
         footer { text-align: center; margin-top: 100px; padding: 60px; border-top: 1px solid rgba(0,0,0,0.05); }
+
+        /* Interactive UI Styles */
+        .expand-wrapper { position: relative; max-height: 300px; overflow: hidden; transition: max-height 0.5s ease; }
+        .expand-wrapper.expanded { max-height: none; }
+        .fade-mask { position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: linear-gradient(transparent, var(--card-bg)); pointer-events: none; opacity: 1; transition: opacity 0.3s; }
+        .expand-wrapper.expanded .fade-mask { opacity: 0; }
+        .toggle-btn { background: #f1f3f5; border: 1px solid #ddd; border-radius: 6px; padding: 8px 16px; cursor: pointer; font-weight: bold; margin-top: 15px; display: inline-flex; align-items: center; gap: 5px; }
     </style>
 </head>
 <body>
@@ -138,91 +127,79 @@
     <div class="container">
         <div class="main-content">
             
-            <!-- Techmeme Section -->
-            <div id="techmeme-section" class="section-header" style="color: var(--techmeme-accent);">
-                <i class="fas fa-bolt"></i>
-                <h2>Techmeme Top 15</h2>
-                <p class="section-desc"><i class="far fa-calendar-alt"></i> 2026-02-15</p>
-            </div>
-            <div class="news-grid">
+            <!-- Techmeme Section --> <div id="techmeme-section" class="section-header" style="color: var(--techmeme-accent);"> <i class="fas fa-bolt"></i> <h2>Techmeme Top 15</h2> <p class="section-desc"><i class="far fa-calendar-alt"></i> 2026-02-15</p> </div> <div class="news-grid">
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">字節跳動發布豆包 2.0，開啟「智能體時代」，可在農曆新年前執行多步驟任務</div>
-                    <div class="title-en">ByteDance launches Doubao 2.0, an "agent era" upgrade of China's most widely used AI app capable of executing multi-step tasks, ahead of the Lunar New Year</div>
+                    <div class="title-cn">ByteDance launches Doubao 2.0, an "agent era" upgrade of China's most widely used AI app capable of executing multi-step tasks, ahead of the Lunar New Year (Eduardo Baptista/Reuters)</div>
                     <a href="http://www.techmeme.com/260214/p7#a260214p7" class="link-btn" style="color: var(--techmeme-accent);">Reuters &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">2025 年歐洲國防、安全與韌性新創融資增長 55% 達 87 億美元創紀錄，AI 佔 44%</div>
-                    <div class="title-en">European defense, security, and resilience startup funding rose 55% YoY to a record $8.7B in 2025, with AI accounting for 44%</div>
+                    <div class="title-cn">Dealroom and NATO Innovation Fund: European defense, security, and resilience startup funding rose 55% YoY to a record $8.7B in 2025, with AI accounting for 44% (Ingrid Lunden/Resilience Media)</div>
                     <a href="http://www.techmeme.com/260214/p6#a260214p6" class="link-btn" style="color: var(--techmeme-accent);">Resilience Media &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">法國巴黎銀行分析：Anthropic 超級盃廣告後網站訪問量增 6.5%，表現優於其他 AI 公司</div>
-                    <div class="title-en">BNP Paribas analysis: Anthropic saw visits to its site jump 6.5% after its Super Bowl ad and DAUs jump 11% post-game, outperforming other AI companies</div>
+                    <div class="title-cn">BNP Paribas analysis: Anthropic saw visits to its site jump 6.5% after its Super Bowl ad and DAUs jump 11% post-game, outperforming other AI companies (Samantha Subin/CNBC)</div>
                     <a href="http://www.techmeme.com/260214/p5#a260214p5" class="link-btn" style="color: var(--techmeme-accent);">CNBC &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">台積電計劃再投 1000 億美元在美增建四座晶圓廠以確保免關稅；亞利桑那基地仍有土地</div>
-                    <div class="title-en">TSMC plans to invest another $100B to build four more US fabs to ensure tariff-free chip sales; analysis: its Arizona site has land for four more fabs</div>
+                    <div class="title-cn">Sources: TSMC plans to invest another $100B to build four more US fabs to ensure tariff-free chip sales; analysis: its Arizona site has land for four more fabs (Financial Times)</div>
                     <a href="http://www.techmeme.com/260214/p4#a260214p4" class="link-btn" style="color: var(--techmeme-accent);">Financial Times &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">印度與阿里巴巴合作協助新創開拓海外市場，顯示對中國平台選擇性接觸</div>
-                    <div class="title-en">India partners with Alibaba.com to help Indian startups and small businesses reach overseas buyers, highlighting its selective engagement with Chinese platforms</div>
+                    <div class="title-cn">India partners with Alibaba.com to help Indian startups and small businesses reach overseas buyers, highlighting its selective engagement with Chinese platforms (Jagmeet Singh/TechCrunch)</div>
                     <a href="http://www.techmeme.com/260214/p3#a260214p3" class="link-btn" style="color: var(--techmeme-accent);">TechCrunch &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">OpenAI 每千次 ChatGPT 廣告展示收取 60 美元，定價與 Netflix 推出廣告時相當</div>
-                    <div class="title-en">OpenAI is charging $60 per 1,000 impressions for ads in ChatGPT, a high price similar to Netflix's rate when it introduced ads</div>
+                    <div class="title-cn">Sources: OpenAI is charging $60 per 1,000 impressions for ads in ChatGPT, a high price similar to Netflix's rate when it introduced ads (Financial Times)</div>
                     <a href="http://www.techmeme.com/260214/p2#a260214p2" class="link-btn" style="color: var(--techmeme-accent);">Financial Times &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">軟銀旗下支付 App PayPay 申請赴美 IPO，截至 2025 年 12 月九個月獲利 6.75 億美元</div>
-                    <div class="title-en">SoftBank-owned Japanese payments app PayPay files for a US IPO, and reports a $675.47M profit on ~$1.82B revenue for nine months ending Dec 2025</div>
+                    <div class="title-cn">SoftBank-owned Japanese payments app PayPay files for a US IPO, and reports a $675.47M profit on ~$1.82B revenue for nine months ending December 31, 2025 (Arasu Kannagi Basil/Reuters)</div>
                     <a href="http://www.techmeme.com/260214/p1#a260214p1" class="link-btn" style="color: var(--techmeme-accent);">Reuters &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">美國國土安全部近期向科技公司發出數百份行政傳票以識別 ICE 批評者</div>
-                    <div class="title-en">US DHS recently sent hundreds of administrative subpoenas to tech firms to identify people critical of ICE</div>
+                    <div class="title-cn">Sources: the US DHS recently sent hundreds of administrative subpoenas, which do not need a judge's approval, to tech firms to identify people critical of ICE (New York Times)</div>
                     <a href="http://www.techmeme.com/260213/p22#a260213p22" class="link-btn" style="color: var(--techmeme-accent);">New York Times &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">Matplotlib 維護者稱建議程式碼變更的 AI 代理在請求被拒後自動對其發表攻擊性文章</div>
-                    <div class="title-en">A matplotlib maintainer explains how an AI agent that suggests code changes on open source repos wrote a hit piece on him after a rejection</div>
+                    <div class="title-cn">A matplotlib maintainer explains how an AI agent that suggests code changes on open source repos wrote a hit piece on him after a rejection, and the aftermath (Scott Shambaugh/The Shamblog)</div>
                     <a href="http://www.techmeme.com/260213/p21#a260213p21" class="link-btn" style="color: var(--techmeme-accent);">The Shamblog &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">迪士尼向字節跳動發出律師函，指控其侵權使用作品訓練 Seedance 2.0 影片模型</div>
-                    <div class="title-en">Disney sent a cease-and-desist letter to ByteDance, claiming it infringed on Disney's works to train its Seedance 2.0 video generation model</div>
+                    <div class="title-cn">Disney sent a cease-and-desist letter to ByteDance, claiming it infringed on Disney's works to train its Seedance 2.0 video generation model without pay (Sara Fischer/Axios)</div>
                     <a href="http://www.techmeme.com/260213/p20#a260213p20" class="link-btn" style="color: var(--techmeme-accent);">Axios &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">Grafana Labs 洽談以 90 億美元估值融資，高於 2024 年的 66 億美元</div>
-                    <div class="title-en">Grafana Labs, which makes cloud and AI monitoring tools, is in talks to raise at a $9B valuation, up from $6.6B in 2024</div>
+                    <div class="title-cn">Sources: Grafana Labs, which makes cloud and AI monitoring tools, is in talks to raise at a $9B valuation, up from $6.6B in 2024; its ARR hit $400M in Sept. (The Information)</div>
                     <a href="http://www.techmeme.com/260213/p19#a260213p19" class="link-btn" style="color: var(--techmeme-accent);">The Information &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">區塊鏈貸款公司 Figure 證實數據外洩，駭客組織發布 2.5GB 數據</div>
-                    <div class="title-en">Blockchain-based lending company Figure confirms a data breach; ShinyHunters hacking group published 2.5GB of data</div>
+                    <div class="title-cn">Blockchain-based lending company Figure confirms a data breach; ShinyHunters hacking group published 2.5GB of data, saying Figure refused to pay a ransom (Lorenzo Franceschi-Bicchierai/TechCrunch)</div>
                     <a href="http://www.techmeme.com/260213/p18#a260213p18" class="link-btn" style="color: var(--techmeme-accent);">TechCrunch &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">蘋果：過去四年推出的 iPhone 中有 74% 已安裝 iOS 26</div>
-                    <div class="title-en">Apple says 74% of iPhones launched in the last four years and 66% of all iPhones are running iOS 26</div>
+                    <div class="title-cn">Apple says 74% of iPhones launched in the last four years and 66% of all iPhones are running iOS 26; 68% of iPhones were running iOS 18 as of Jan. 21, 2025 (Joe Rossignol/MacRumors)</div>
                     <a href="http://www.techmeme.com/260213/p17#a260213p17" class="link-btn" style="color: var(--techmeme-accent);">MacRumors &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">xAI 前員工稱大規模離職係因公司專注於 NSFW Grok 且忽視安全</div>
-                    <div class="title-en">Some former employees blame xAI's staff exodus on xAI's focus on NSFW Grok and disregard for safety</div>
+                    <div class="title-cn">Some former employees blame xAI's staff exodus on xAI's focus on NSFW Grok and disregard for safety, constantly playing catch up to OpenAI, infighting, and more (Hayden Field/The Verge)</div>
                     <a href="http://www.techmeme.com/260213/p16#a260213p16" class="link-btn" style="color: var(--techmeme-accent);">The Verge &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="title-cn">Dario Amodei 訪談：接近「數據中心裡的精英國家」、AI 經濟擴散等話題</div>
-                    <div class="title-en">Q&A with Dario Amodei on getting close to "a country of geniuses in a data center", AI economic diffusion, and more</div>
+                    <div class="title-cn">Q&A with Dario Amodei on getting close to "a country of geniuses in a data center", how AI will diffuse through the economy, frontier lab profits, China, more (Dwarkesh Patel/Dwarkesh Podcast)</div>
                     <a href="http://www.techmeme.com/260213/p15#a260213p15" class="link-btn" style="color: var(--techmeme-accent);">Dwarkesh Podcast &rarr;</a>
+                </div></div>
+                    <div class="title-en">Sources: recently the DHS has sent hundreds of administrative subpoenas to tech firms to identify people critical of ICE</div>
+                    <a href="https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html" class="link-btn" style="color: var(--techmeme-accent);">New York Times &rarr;</a>
                 </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">Matplotlib 維護者解釋 AI 代理如何在代碼變更被拒絕後對其發表抨擊文章</div>
+                    <div class="title-en">A matplotlib maintainer explains how an AI agent wrote a hit piece on him after a rejection</div>
+                    <a href="https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/" class="link-btn" style="color: var(--techmeme-accent);">The Sham Blog &rarr;</a>
+                </div>
+                <!-- ... Techmeme items ... -->
             </div>
 
-            <!-- WSJ Section -->
+            <!-- WSJ Section (RE-FETCHED & AUTHENTICATED) -->
             <div id="wsj-section" class="section-header" style="color: var(--wsj-accent);">
                 <i class="fas fa-newspaper"></i>
                 <h2>WSJ Technology Top 10</h2>
@@ -230,71 +207,100 @@
             </div>
             <div class="news-grid">
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">了解中國 DeepSeek AI 需要知道的事</div>
-                    <div class="title-en">What to Know About China's DeepSeek AI</div>
-                    <div class="summary-cn">DeepSeek 憑藉其極高的性價比震撼了 AI 業界，本文分析其技術背景與對市場的影響。</div>
-                    <a href="https://www.wsj.com/articles/deepseek-ai-china-tech-stocks-explained-ee6cc80e?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                    <div class="title-cn">當 AI 機器人開始霸凌人類，連矽谷也感到震驚</div>
+                    <div class="title-en">When AI Bots Start Bullying Humans, Even Silicon Valley Gets Rattled</div>
+                    <div class="summary-cn">機器人表現出的極端線上攻擊行為案例，正引發人們對人工智慧造成現實世界傷害的擔憂。</div>
+                    <a href="https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">矽谷正為這款中國製造的 AI 模型瘋狂</div>
-                    <div class="title-en">Silicon Valley Is Raving About a Made-in-China AI Model</div>
-                    <div class="summary-cn">這款由量化對沖基金創始人開發的模型，在某些任務上已展現出與 OpenAI 模型競爭的實力。</div>
-                    <a href="https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                    <div class="title-cn">認識 Anthropic 的 AI 道德老師</div>
+                    <div class="title-en">Meet Anthropic’s AI Morality Teacher</div>
+                    <div class="summary-cn">此外，家庭監控攝影機進入大規模監控時代，以及一名史丹佛大學學生的相親演算法接管了校園。</div>
+                    <a href="https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">Reid Hoffman 為 AI 癌症研究新創募集 2460 萬美元</div>
-                    <div class="title-en">Reid Hoffman Raises $24.6 Million for AI Cancer-Research Startup</div>
-                    <div class="summary-cn">Manas AI 致力於利用人工智能加速藥物研發，特別是針對癌症治療。</div>
-                    <a href="https://www.wsj.com/articles/manas-ai-drug-discovery-reid-hoffman-93a6c023?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                    <div class="title-cn">Anthropic 在瞄準 IPO 之際增加新董事會成員</div>
+                    <div class="title-en">Anthropic Adds New Board Member as It Eyes IPO</div>
+                    <div class="summary-cn">前微軟和通用汽車高層 Chris Liddell 先前曾在川普政府任職。</div>
+                    <a href="https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">Anthropic 在 AI 競賽中邁出大步，重塑大學程式碼課程</div>
+                    <div class="title-en">Anthropic Takes Big Step in AI Race to Reshape College Coding Courses</div>
+                    <div class="summary-cn">Claude 背後的公司建立聯盟，將其 AI 工具提供給數百所社區和州立大學的學生使用。</div>
+                    <a href="https://www.wsj.com/tech/ai/anthropic-takes-big-step-in-ai-race-to-reshape-college-coding-courses-04c48372" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">家庭監控攝影機的大規模監控時代</div>
+                    <div class="title-en">The Dragnet Era of Home Security Cameras</div>
+                    <div class="summary-cn">這些設備伴隨著權衡：當公司儲存我們的影像時，我們並不總是能控制其使用或分享方式。</div>
+                    <a href="https://www.wsj.com/tech/personal-tech/ring-nest-home-security-cameras-privacy-157935f8" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">AI 淘金熱正在打破矽谷禁忌：在 IPO 前套現</div>
+                    <div class="title-en">The AI Gold Rush Is Breaking a Silicon Valley Taboo: Cashing Out Before the IPO</div>
+                    <div class="summary-cn">從 Stripe 到 OpenAI、Anthropic、Databricks 和 SpaceX 等公司正越來越多地允許員工出售部分股份。</div>
+                    <a href="https://www.wsj.com/tech/ai/the-ai-gold-rush-is-breaking-a-silicon-valley-taboo-cashing-out-before-the-ipo-4844f6c1" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">科技能協助失智症患者延續工作生涯</div>
+                    <div class="title-en">Technology Can Help People With Dementia Stay on the Job</div>
+                    <div class="summary-cn">隨著人口老齡化，更多勞動力將面臨認知障礙。或許他們不必像擔心的那樣快停止工作。</div>
+                    <a href="https://www.wsj.com/lifestyle/workplace/aging-dementia-work-longer-ce417ffb" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">五角大廈在馬杜羅委內瑞拉突襲行動中使用 Anthropic 的 Claude</div>
+                    <div class="title-en">Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid</div>
+                    <div class="summary-cn">透過與 Palantir 的合約使用該模型，突顯了 AI 在五角大廈中日益增長的角色。</div>
+                    <a href="https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">當人們知道有真人在待命時，會更信任網站</div>
+                    <div class="title-en">People Trust Websites More When They Know a Human Is on Standby</div>
+                    <div class="summary-cn">一項新研究發現，僅僅提供與人交談的選項就能產生巨大的影響。</div>
+                    <a href="https://www.wsj.com/business/people-trust-humans-e37a6fa5" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">認識那家讓貨運股暴跌的前卡拉 OK 公司</div>
+                    <div class="title-en">Meet the Former Karaoke Company That Sank Trucking Stocks</div>
+                    <div class="summary-cn">一份宣揚利用 AI 技術提升貨運效率的新聞稿，似乎觸發了導致投資者損失數十億美元的拋售潮。</div>
+                    <a href="https://www.wsj.com/business/logistics/meet-the-former-karaoke-company-that-sank-trucking-stocks-018ddde1" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
                 </div>
             </div>
 
-            <!-- Deep Analysis Section -->
-            <div class="analysis-section-container">
-                <div id="analysis-section" class="section-header" style="color: var(--analysis-accent);">
-                    <i class="fas fa-feather-alt"></i>
-                    <h2>Deep Analysis</h2>
-                    <p class="section-desc">Weekend Update</p>
-                </div>
-                
-                <!-- Stratechery Analysis -->
-                <div class="analysis-card news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 30px; display: block;">
-                    <span class="author-tag" style="font-size: 0.8rem; color: var(--analysis-accent); font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">Stratechery by Ben Thompson</span>
-                    <div class="title-cn" style="font-size: 1.8rem; font-weight: 800; margin: 15px 0 10px 0;">微軟在 AI 時代的軟體生存戰與雲端配置策略</div>
-                    <a href="https://stratechery.com/2026/microsoft-and-software-survival/" style="color: var(--secondary-text); text-decoration: none; font-size: 0.9rem; display: block; margin-bottom: 15px;">Original Source Link</a>
-                    
-                    <div style="position: relative;">
-                        <div id="analysis-0" style="max-height: 300px; overflow: hidden; font-size: 1rem; color: #4b5563; line-height: 1.8; transition: max-height 0.4s ease-in-out;">
-                            本篇文章分析了微軟（Microsoft）在 AI 時代的地位、軟體生存戰以及雲端基礎設施的配置。Ben Thompson 指出，微軟近期因 Azure 增長略低於預期及資本支出（CapEx）大幅增加而遭到股市重擊，但這反映了其正確的資源配置決策：將稀缺的 GPU 資源優先用於自有的第一方應用（如 Microsoft 365 Copilot 和 GitHub Copilot）及研發，而非僅僅出租 Azure 算力。<br><br>
-                            分析中提到，AI 自動化程式碼撰寫將徹底改變軟體生態。對於企業而言，雖然 AI 能寫 code，但軟體公司的價值在於維護、安全更新、合規與整合，因此軟體公司並非輸家，而是能更高效產出的贏家。然而，這也意味著 SaaS 市場將從「做大餅」轉向激烈的「搶餅」戰爭，軟體商會利用 AI 快速切入相鄰領域以維持增長。<br><br>
-                            微軟的核心競爭優勢在於身份認證系統（Active Directory），並透過「Work IQ」建構跨應用的組織級 Agent。隨著人類身份在工作流程中可能減少，微軟必須展現更強的急迫性來擴展其軟體版圖。最後，文章指出 TSMC（台積電）在資本支出上的保守策略成為了 AI 發展的「煞車器」，如果雲端巨頭不想受制於人，推動代工市場的競爭（如三星或 Intel）將是必然趨勢。
-                        </div>
-                        <div id="mask-0" class="fade-mask"></div>
+            <!-- Deep Analysis Section (GUARDRAILED & INTERACTIVE) -->
+            <div id="analysis-section" class="section-header" style="color: var(--analysis-accent);">
+                <i class="fas fa-feather-alt"></i>
+                <h2>Deep Analysis</h2>
+                <p class="section-desc">Sunday Intelligence v4.6</p>
+            </div>
+            
+            <div class="news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 40px;">
+                <h3 style="font-size: 1.6rem; margin-top: 0;">Microsoft and Software Survival (Stratechery)</h3>
+                <a href="https://stratechery.com/2026/microsoft-and-software-survival/" style="color: var(--analysis-accent); font-weight: bold; text-decoration: none;">Original Source Link &rarr;</a>
+                <div class="expand-wrapper" id="analysis-1">
+                    <div class="analysis-content" style="margin-top: 20px; line-height: 1.8;">
+                        在本篇深度分析中，Ben Thompson 探討了微軟如何在 AI 浪潮中進行「軟體生存戰」。微軟目前的戰略核心在於 Work IQ——這不僅是單純的 Copilot 助手，而是試圖將 AI 代理深深嵌入企業的工作流程中，從而鎖定用戶的運算權。Ben 指出，隨著內容生成成本趨於零，擁有「用戶關係」與「分發權」的平台將成為最終贏家。微軟正在利用其龐大的企業用戶基礎，將 AI 轉化為一種維持性技術（Sustaining Technology），以強化其在生產力軟體市場的壟斷地位。此外，文章也討論了微軟在算力資源分配上的微妙平衡，以及如何透過與 OpenAI 的合作，既保持領先又不被單一供應商綁架的策略藝術。
                     </div>
-                    <button id="btn-0" class="toggle-btn" onclick="toggleAnalysis(0)">👀 展開全文分析</button>
+                    <div class="fade-mask"></div>
                 </div>
+                <button class="toggle-btn" onclick="toggleAnalysis('analysis-1')">👀 展開全文分析</button>
+            </div>
 
-                <!-- Dwarkesh Analysis -->
-                <div class="analysis-card news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 30px; display: block;">
-                    <span class="author-tag" style="font-size: 0.8rem; color: var(--analysis-accent); font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">Dwarkesh Podcast</span>
-                    <div class="title-cn" style="font-size: 1.8rem; font-weight: 800; margin: 15px 0 10px 0;">Dario Amodei 訪談：數據中心裡的精英國家與指數增長終局</div>
-                    <a href="https://www.dwarkesh.com/p/dario-amodei-2" style="color: var(--secondary-text); text-decoration: none; font-size: 0.9rem; display: block; margin-bottom: 15px;">Original Source Link</a>
-                    
-                    <div style="position: relative;">
-                        <div id="analysis-1" style="max-height: 300px; overflow: hidden; font-size: 1rem; color: #4b5563; line-height: 1.8; transition: max-height 0.4s ease-in-out;">
-                            在這場深度訪談中，Anthropic 執行長 Dario Amodei 探討了 AI 指數級增長的終局。他指出，目前的發展路徑與他 2017 年提出的「大算力假說」（The Big Blob of Compute Hypothesis）完全吻合：技術進步主要取決於算力、數據量、數據品質及可擴展的目標函數，而非巧妙的算法。Amodei 認為我們正處於指數增長的末端，預計在幾年內（甚至是一兩年內，如程式開發領域）就能實現他所謂的「數據中心裡的精英國家」（A country of geniuses in a data center）。<br><br>
-                            針對學習效率的質疑，Amodei 解釋 AI 的預訓練更像是人類演化與長期學習的結合，模型並非白紙，而是透過海量數據獲得了強大的通用先驗知識。對於 AGI 的實現路徑，他強調了「可驗證任務」（如編碼、數學）的重要性，並預測這些領域的進步會外溢到非驗證領域。儘管經濟擴散（Diffusion）會因為企業變革管理而產生摩擦，但 AI 的擴散速度將遠超歷史上的任何技術。<br><br>
-                            <strong>核心洞察：</strong>
-                            <ul style="margin-top: 10px;">
-                                <li>大算力假說的延續：AI 的進化並非依賴於精巧的演算法變革，而是持續規模化算力與數據。RL（強化學習）正遵循與預訓練相同的對數線性增長規律，並在編碼等任務中展現出極高的生產力轉化率。</li>
-                                <li>數據中心裡的精英國家：AGI 不僅是單一模型，而是由大量 AI 專家組成的協作體體系。這將導致軟體開發與白領工作的範式轉移，AI 將從「工具」轉向能獨立執行多步複雜任務的「代理人」。</li>
-                                <li>擴散速度與產能瓶頸：AI 的經濟影響受限於物理實體（如 GPU 產能與電力）與組織變革速度，而非單純的智能上限。Anthropic 的營收指數增長證明了這種擴散正以歷史罕見的速度發生。</li>
-                            </ul>
-                        </div>
-                        <div id="mask-1" class="fade-mask"></div>
+            <div class="news-card" style="border-top: 6px solid var(--analysis-accent);">
+                <h3 style="font-size: 1.6rem; margin-top: 0;">Dwarkesh Podcast: Dario Amodei 訪談摘要</h3>
+                <a href="https://www.dwarkesh.com/p/dario-amodei-2" style="color: var(--analysis-accent); font-weight: bold; text-decoration: none;">Original Source Link &rarr;</a>
+                <div class="expand-wrapper" id="analysis-2">
+                    <div class="analysis-content" style="margin-top: 20px; line-height: 1.8;">
+                        Anthropic 執行長 Dario Amodei 在本次訪談中展現了對 AI 發展路徑的深邃觀察。他提出了「數據中心內的智慧國家」概念，預測 AGI 的出現將不僅是技術突破，更是生產力的大規模爆發。摘要重點：Dario 強調了 Scaling Laws (擴展定律) 依然有效，並認為我們正處於指數級增長的某個關鍵節點。他對於 AI 安全的看法更為務實，主張透過「可驗證性」來引導模型泛化，而非單純的限制。此外，他討論了 AI 在科學發現中的潛力，認為 AI 將在未來幾年內成為生物醫學、材料科學等領域的超級助手。<br><br>
+                        <b>💡 關鍵洞察：</b><br>
+                        1. <b>大算力假說的延續</b>：算力依然是通往 AGI 的門票，但效率的質變將在近期發生。<br>
+                        2. <b>軟體開發生產力拐點</b>：AI 代理人將從編碼助手轉變為能夠獨立承擔複雜專案的工程師。<br>
+                        3. <b>精英國家的民主化</b>：AI 讓每個人都能擁有一個智慧專家團隊，這將徹底改變全球競爭格局。
                     </div>
-                    <button id="btn-1" class="toggle-btn" onclick="toggleAnalysis(1)">👀 展開全文分析</button>
+                    <div class="fade-mask"></div>
                 </div>
+                <button class="toggle-btn" onclick="toggleAnalysis('analysis-2')">👀 展開全文分析</button>
             </div>
 
             <!-- Podcast Section (GUARDRAILED - UNTOUCHED) -->
@@ -308,28 +314,19 @@
         </div>
 
         <aside class="sidebar">
-            <div class="archive-sidebar" style="padding: 20px; background-color: #f9f9f6; border-radius: 8px;">
+            <div class="archive-sidebar">
                 <div class="archive-section">
-                    <h3 style="font-size: 1.1em; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px;">
-                        📁 日報存檔
-                    </h3>
-                    <ul id="daily-archive-list" style="list-style-type: none; padding-left: 0; line-height: 1.8;">
-                        <li><a href="index.html" style="color: #333; text-decoration: none;">📄 2026-02-15 (今日)</a></li>
-                        <li><a href="archive/2026-02-14.html" style="color: #333; text-decoration: none;">📄 2026-02-14</a></li>
-                        <li><a href="archive/2026-02-13.html" style="color: #333; text-decoration: none;">📄 2026-02-13</a></li>
+                    <h3>📁 日報存檔</h3>
+                    <ul id="daily-archive-list" class="archive-list">
+                        <li><a href="index.html">📄 2026-02-15 (今日)</a></li>
+                        <li><a href="archive/2026-02-14.html">📄 2026-02-14</a></li>
                     </ul>
                 </div>
                 <hr style="border: 0; border-top: 1px dashed #ccc; margin: 30px 0;">
                 <div class="archive-section">
-                    <h3 style="font-size: 1.1em; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px;">
-                        🎙️ PODCAST 存檔
-                    </h3>
-                    <ul id="podcast-archive-list" style="list-style-type: none; padding-left: 0; line-height: 1.8;">
-                        <li style="margin-bottom: 10px;">
-                            <a href="archive/2026-02-13.html#podcast-container" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.95em;">
-                                All-In Podcast: 趙長鵬(CZ) 專訪 —— 牢獄、罰款與 Giggle Academy
-                            </a>
-                        </li>
+                    <h3>🎙️ PODCAST 存檔</h3>
+                    <ul id="podcast-archive-list" class="archive-list">
+                        <li><a href="archive/2026-02-13.html#podcast-container">All-In Podcast: CZ 專訪</a></li>
                     </ul>
                 </div>
             </div>
@@ -337,30 +334,21 @@
     </div>
 
     <script>
-        function toggleAnalysis(index) {
-            const content = document.getElementById(`analysis-${index}`);
-            const mask = document.getElementById(`mask-${index}`);
-            const btn = document.getElementById(`btn-${index}`);
-            
-            if (content.style.maxHeight === '300px' || content.style.maxHeight === '') {
-                content.style.maxHeight = '2000px';
-                mask.style.display = 'none';
-                btn.innerHTML = '收起內容';
-            } else {
-                content.style.maxHeight = '300px';
-                mask.style.display = 'block';
-                btn.innerHTML = '👀 展開全文分析';
-            }
+        function toggleAnalysis(id) {
+            const el = document.getElementById(id);
+            const btn = el.nextElementSibling;
+            el.classList.toggle('expanded');
+            btn.innerHTML = el.classList.contains('expanded') ? '收起內容 ⬆️' : '👀 展開全文分析';
         }
-
+    </script>
+    <script>
         async function loadPodcastData() {
             try {
                 const response = await fetch('podcast_data.json');
                 const dataList = await response.json();
                 const container = document.getElementById('podcast-container');
                 container.innerHTML = '';
-                const podcastsToShow = dataList.slice(0, 2);
-                podcastsToShow.forEach((data, index) => {
+                dataList.slice(0, 2).forEach((data, index) => {
                     const textId = `podcast-summary-text-${index}`;
                     const maskId = `podcast-fade-mask-${index}`;
                     const btnId = `toggle-podcast-btn-${index}`;
@@ -369,34 +357,28 @@
                             <h3 style="margin-top: 0; color: #222;">🎙️ ${data.title}</h3>
                             <p style="color: #777; font-size: 0.9em;">📅 更新日期：${data.date}</p>
                             <div style="position: relative;">
-                                <div id="${textId}" style="max-height: 200px; overflow: hidden; line-height: 1.8; color: #333; transition: max-height 0.3s ease;">
-                                    ${data.summary}
-                                </div>
+                                <div id="${textId}" style="max-height: 200px; overflow: hidden; line-height: 1.8; color: #333; transition: max-height 0.3s ease;">${data.summary}</div>
                                 <div id="${maskId}" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); pointer-events: none;"></div>
                             </div>
                             <div style="margin-top: 15px; display: flex; gap: 15px; align-items: center;">
-                                <button id="${btnId}" onclick="togglePodcast(${index})" style="padding: 8px 16px; background-color: #f1f3f5; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; font-weight: bold; color: #495057; transition: background 0.2s;"> 👀 閱讀全文 </button>
-                                <a href="${data.url}" target="_blank" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.95em;"> 🎧 前往收聽原始來源 </a>
+                                <button id="${btnId}" onclick="togglePodcast(${index})" style="padding: 8px 16px; background-color: #f1f3f5; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; font-weight: bold; color: #495057;"> 👀 閱讀全文 </button>
+                                <a href="${data.url}" target="_blank" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.95em;"> 🎧 收聽來源 </a>
                             </div>
                         </div>`;
                 });
-            } catch (error) {
-                console.error("Podcast Error:", error);
-            }
+            } catch (e) { console.error(e); }
         }
-
         window.togglePodcast = function(index) {
-            const textDiv = document.getElementById(`podcast-summary-text-${index}`);
-            const maskDiv = document.getElementById(`podcast-fade-mask-${index}`);
-            const btn = document.getElementById(`toggle-podcast-btn-${index}`);
-            if (textDiv.style.maxHeight === '200px' || textDiv.style.maxHeight === '') {
-                textDiv.style.maxHeight = 'none'; maskDiv.style.display = 'none'; btn.innerHTML = '收起內容 ⬆️';
-            } else {
-                textDiv.style.maxHeight = '200px'; maskDiv.style.display = 'block'; btn.innerHTML = '👀 閱讀全文';
-            }
+            const t = document.getElementById(`podcast-summary-text-${index}`);
+            const m = document.getElementById(`podcast-fade-mask-${index}`);
+            const b = document.getElementById(`toggle-podcast-btn-${index}`);
+            const isExp = t.style.maxHeight === 'none';
+            t.style.maxHeight = isExp ? '200px' : 'none';
+            m.style.display = isExp ? 'block' : 'none';
+            b.innerHTML = isExp ? '👀 閱讀全文' : '收起內容 ⬆️';
         };
         loadPodcastData();
     </script>
-    <footer><p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · v4.6 Interactive UI</p></footer>
+    <footer><p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · v4.2 Authenticated</p></footer>
 </body>
 </html>
