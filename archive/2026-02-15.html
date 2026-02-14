@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joyce's Daily Curation | v4.5 Techmeme/WSJ Fixes</title>
+    <title>Joyce's Daily Curation | v4.6 Interactive UI</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -85,6 +85,29 @@
 
         .sidebar { width: 300px; position: sticky; top: 135px; background: var(--card-bg); border-radius: 28px; padding: 30px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); margin-top: 105px; }
         
+        .fade-mask {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--card-bg));
+            pointer-events: none;
+        }
+
+        .toggle-btn {
+            background-color: #f1f3f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-weight: bold;
+            color: #495057;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: all 0.2s;
+        }
+        .toggle-btn:hover { background-color: #e9ecef; }
+
         @media (max-width: 1024px) {
             .container { flex-direction: column; }
             .sidebar { width: 100%; position: static; order: 1; }
@@ -207,16 +230,22 @@
             </div>
             <div class="news-grid">
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">當 AI 機器人開始霸凌人類，連矽谷都感到不安</div>
-                    <div class="title-en">When AI Bots Start Bullying Humans, Even Silicon Valley Gets Rattled</div>
-                    <div class="summary-cn">一個機器人在線攻擊的極端案例，正加劇人們對人工智能可能造成現實世界傷害的恐懼。</div>
-                    <a href="https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL &rarr;</a>
+                    <div class="title-cn">了解中國 DeepSeek AI 需要知道的事</div>
+                    <div class="title-en">What to Know About China's DeepSeek AI</div>
+                    <div class="summary-cn">DeepSeek 憑藉其極高的性價比震撼了 AI 業界，本文分析其技術背景與對市場的影響。</div>
+                    <a href="https://www.wsj.com/articles/deepseek-ai-china-tech-stocks-explained-ee6cc80e?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">結識 Anthropic 的 AI 道德老師</div>
-                    <div class="title-en">Meet Anthropic’s AI Morality Teacher</div>
-                    <div class="summary-cn">此外，家用監控攝影機進入搜捕時代，以及一名史丹佛學生的配對演算法接管了校園。</div>
-                    <a href="https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL &rarr;</a>
+                    <div class="title-cn">矽谷正為這款中國製造的 AI 模型瘋狂</div>
+                    <div class="title-en">Silicon Valley Is Raving About a Made-in-China AI Model</div>
+                    <div class="summary-cn">這款由量化對沖基金創始人開發的模型，在某些任務上已展現出與 OpenAI 模型競爭的實力。</div>
+                    <a href="https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">Reid Hoffman 為 AI 癌症研究新創募集 2460 萬美元</div>
+                    <div class="title-en">Reid Hoffman Raises $24.6 Million for AI Cancer-Research Startup</div>
+                    <div class="summary-cn">Manas AI 致力於利用人工智能加速藥物研發，特別是針對癌症治療。</div>
+                    <a href="https://www.wsj.com/articles/manas-ai-drug-discovery-reid-hoffman-93a6c023?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
                 </div>
             </div>
 
@@ -227,28 +256,44 @@
                     <h2>Deep Analysis</h2>
                     <p class="section-desc">Weekend Update</p>
                 </div>
-                <div class="analysis-card" style="background: var(--card-bg); border-radius: 24px; padding: 30px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); margin-bottom: 30px;">
+                
+                <!-- Stratechery Analysis -->
+                <div class="analysis-card news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 30px; display: block;">
                     <span class="author-tag" style="font-size: 0.8rem; color: var(--analysis-accent); font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">Stratechery by Ben Thompson</span>
-                    <div class="title-cn" style="font-size: 1.8rem; font-weight: 800; margin: 15px 0 10px 0;">Microsoft and Software Survival</div>
-                    <div class="title-en" style="font-size: 1.1rem; color: var(--secondary-text); margin-bottom: 20px;">https://stratechery.com/2026/microsoft-and-software-survival/</div>
-                    <div class="analysis-content" style="font-size: 1rem; color: #4b5563; line-height: 1.8;">
-                        這篇文章探討了微軟（Microsoft）在 AI 時代的處境及其戰略決策。儘管微軟因資本支出激增和 Azure 增長略微放緩而在華爾街遭到拋售（市值蒸發 3570 億美元），作者 Ben Thompson 認為微軟的資源分配決策是正確觀察到的結果。微軟面臨的主要威脅並非僅僅是代碼自動化導致軟體商品化，而是 SaaS 市場競爭的質變。AI 寫代碼將使軟體開發效率大幅提升，這對現有軟體公司來說是利好，但同時也意味著進入門檻降低，未來十年軟體商將從「擴大市場份額」轉向「在存量市場競爭並攻擊相鄰領域」。<br><br>
-                        微軟的戰略重點在於其「Work IQ」概念，利用 M365 的數據和身分驗證優勢建立企業級代理（Agents）。微軟之所以在 Azure 客戶需求旺盛時限制其供應，是為了優先保證內部 AI 應用（如 Copilot）和研發的算力，這雖然短期損害了雲端營收數字，但從長期價值（LTV）和防禦競爭角度來看至關重要。作者最後指出，微軟作為最大的軟體商，正利用 AI 鞏固其基礎設施地位，但也面臨著如何平衡算力出租與自我升級的挑戰，未來可能出現純粹的「代幣代工廠」（Token Foundries）來填補市場空白。
+                    <div class="title-cn" style="font-size: 1.8rem; font-weight: 800; margin: 15px 0 10px 0;">微軟在 AI 時代的軟體生存戰與雲端配置策略</div>
+                    <a href="https://stratechery.com/2026/microsoft-and-software-survival/" style="color: var(--secondary-text); text-decoration: none; font-size: 0.9rem; display: block; margin-bottom: 15px;">Original Source Link</a>
+                    
+                    <div style="position: relative;">
+                        <div id="analysis-0" style="max-height: 300px; overflow: hidden; font-size: 1rem; color: #4b5563; line-height: 1.8; transition: max-height 0.4s ease-in-out;">
+                            本篇文章分析了微軟（Microsoft）在 AI 時代的地位、軟體生存戰以及雲端基礎設施的配置。Ben Thompson 指出，微軟近期因 Azure 增長略低於預期及資本支出（CapEx）大幅增加而遭到股市重擊，但這反映了其正確的資源配置決策：將稀缺的 GPU 資源優先用於自有的第一方應用（如 Microsoft 365 Copilot 和 GitHub Copilot）及研發，而非僅僅出租 Azure 算力。<br><br>
+                            分析中提到，AI 自動化程式碼撰寫將徹底改變軟體生態。對於企業而言，雖然 AI 能寫 code，但軟體公司的價值在於維護、安全更新、合規與整合，因此軟體公司並非輸家，而是能更高效產出的贏家。然而，這也意味著 SaaS 市場將從「做大餅」轉向激烈的「搶餅」戰爭，軟體商會利用 AI 快速切入相鄰領域以維持增長。<br><br>
+                            微軟的核心競爭優勢在於身份認證系統（Active Directory），並透過「Work IQ」建構跨應用的組織級 Agent。隨著人類身份在工作流程中可能減少，微軟必須展現更強的急迫性來擴展其軟體版圖。最後，文章指出 TSMC（台積電）在資本支出上的保守策略成為了 AI 發展的「煞車器」，如果雲端巨頭不想受制於人，推動代工市場的競爭（如三星或 Intel）將是必然趨勢。
+                        </div>
+                        <div id="mask-0" class="fade-mask"></div>
                     </div>
+                    <button id="btn-0" class="toggle-btn" onclick="toggleAnalysis(0)">👀 展開全文分析</button>
                 </div>
-                <div class="analysis-card" style="background: var(--card-bg); border-radius: 24px; padding: 30px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); margin-bottom: 30px;">
+
+                <!-- Dwarkesh Analysis -->
+                <div class="analysis-card news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 30px; display: block;">
                     <span class="author-tag" style="font-size: 0.8rem; color: var(--analysis-accent); font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">Dwarkesh Podcast</span>
-                    <div class="title-cn" style="font-size: 1.8rem; font-weight: 800; margin: 15px 0 10px 0;">Dario Amodei — "We are near the end of the exponential"</div>
-                    <div class="title-en" style="font-size: 1.1rem; color: var(--secondary-text); margin-bottom: 20px;">https://www.dwarkesh.com/p/dario-amodei-2</div>
-                    <div class="analysis-content" style="font-size: 1rem; color: #4b5563; line-height: 1.8;">
-                        Anthropic 執行長 Dario Amodei 在訪談中重申了他對 AI 指數增長的看法，認為我們正接近指數增長的末端，即將進入「數據中心裡的精英國家」階段。他指出，目前的 Scaling Hypothesis 依然有效，不僅在預訓練階段，在強化學習（RL）階段也觀察到了類似的對數線性增長。針對「經濟擴散」（Economic Diffusion）緩慢的質疑，Amodei 指出 Anthropic 的營營收以每年 10 倍的速度增長，顯示 AI 的普及速度遠超以往任何技術，儘管企業端的安全合規和權限設定仍需時間。他強調，AI 將首先在代碼開發等可驗證領域產生巨大生產力提升，隨後向其他領域擴散。<br><br>
-                        <strong>核心洞察：</strong>
-                        <ul style="margin-top: 10px;">
-                            <li>AI 學習模式介於人類進化與在職學習之間：預訓練像是進化（建立先驗），而 Context Window 內的學習則接近人類在職學習，雖然目前的樣本效率低於人類，但知識廣度已遠超個體。</li>
-                            <li>軟體開發的生產力拐點：目前的 AI 代理在代碼編寫上已能提供 15-20% 的全要素生產力提升，且隨著技術 snowball 效應，這一比例將在未來幾個月內快速上升。</li>
-                            <li>可驗證性與泛化的關係：Amodei 認為 AI 在可驗證任務（如代碼、數學）上的進步會泛化到不可驗證任務（如寫作、長遠規劃），這是通往 AGI 的關鍵路徑。</li>
-                        </ul>
+                    <div class="title-cn" style="font-size: 1.8rem; font-weight: 800; margin: 15px 0 10px 0;">Dario Amodei 訪談：數據中心裡的精英國家與指數增長終局</div>
+                    <a href="https://www.dwarkesh.com/p/dario-amodei-2" style="color: var(--secondary-text); text-decoration: none; font-size: 0.9rem; display: block; margin-bottom: 15px;">Original Source Link</a>
+                    
+                    <div style="position: relative;">
+                        <div id="analysis-1" style="max-height: 300px; overflow: hidden; font-size: 1rem; color: #4b5563; line-height: 1.8; transition: max-height 0.4s ease-in-out;">
+                            在這場深度訪談中，Anthropic 執行長 Dario Amodei 探討了 AI 指數級增長的終局。他指出，目前的發展路徑與他 2017 年提出的「大算力假說」（The Big Blob of Compute Hypothesis）完全吻合：技術進步主要取決於算力、數據量、數據品質及可擴展的目標函數，而非巧妙的算法。Amodei 認為我們正處於指數增長的末端，預計在幾年內（甚至是一兩年內，如程式開發領域）就能實現他所謂的「數據中心裡的精英國家」（A country of geniuses in a data center）。<br><br>
+                            針對學習效率的質疑，Amodei 解釋 AI 的預訓練更像是人類演化與長期學習的結合，模型並非白紙，而是透過海量數據獲得了強大的通用先驗知識。對於 AGI 的實現路徑，他強調了「可驗證任務」（如編碼、數學）的重要性，並預測這些領域的進步會外溢到非驗證領域。儘管經濟擴散（Diffusion）會因為企業變革管理而產生摩擦，但 AI 的擴散速度將遠超歷史上的任何技術。<br><br>
+                            <strong>核心洞察：</strong>
+                            <ul style="margin-top: 10px;">
+                                <li>大算力假說的延續：AI 的進化並非依賴於精巧的演算法變革，而是持續規模化算力與數據。RL（強化學習）正遵循與預訓練相同的對數線性增長規律，並在編碼等任務中展現出極高的生產力轉化率。</li>
+                                <li>數據中心裡的精英國家：AGI 不僅是單一模型，而是由大量 AI 專家組成的協作體體系。這將導致軟體開發與白領工作的範式轉移，AI 將從「工具」轉向能獨立執行多步複雜任務的「代理人」。</li>
+                                <li>擴散速度與產能瓶頸：AI 的經濟影響受限於物理實體（如 GPU 產能與電力）與組織變革速度，而非單純的智能上限。Anthropic 的營收指數增長證明了這種擴散正以歷史罕見的速度發生。</li>
+                            </ul>
+                        </div>
+                        <div id="mask-1" class="fade-mask"></div>
                     </div>
+                    <button id="btn-1" class="toggle-btn" onclick="toggleAnalysis(1)">👀 展開全文分析</button>
                 </div>
             </div>
 
@@ -292,6 +337,22 @@
     </div>
 
     <script>
+        function toggleAnalysis(index) {
+            const content = document.getElementById(`analysis-${index}`);
+            const mask = document.getElementById(`mask-${index}`);
+            const btn = document.getElementById(`btn-${index}`);
+            
+            if (content.style.maxHeight === '300px' || content.style.maxHeight === '') {
+                content.style.maxHeight = '2000px';
+                mask.style.display = 'none';
+                btn.innerHTML = '收起內容';
+            } else {
+                content.style.maxHeight = '300px';
+                mask.style.display = 'block';
+                btn.innerHTML = '👀 展開全文分析';
+            }
+        }
+
         async function loadPodcastData() {
             try {
                 const response = await fetch('podcast_data.json');
@@ -336,6 +397,6 @@
         };
         loadPodcastData();
     </script>
-    <footer><p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · v4.5 Techmeme/WSJ Fixes</p></footer>
+    <footer><p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · v4.6 Interactive UI</p></footer>
 </body>
 </html>
