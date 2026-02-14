@@ -2,141 +2,157 @@
   "fetch_date": "2026-02-14",
   "techmeme": [
     {
-      "title_en": "Sources: recently the DHS has sent hundreds of administrative subpoenas to tech firms to identify people critical of ICE",
-      "title_zh": "消息：美國國土安全部（DHS）近期向科技公司發出數百張行政傳票，旨在識別批評移民及海關執法局（ICE）的人士",
-      "url": "https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html"
-    },
-    {
-      "title_en": "A matplotlib maintainer explains how an AI agent wrote a hit piece on him after a rejection",
-      "title_zh": "Matplotlib 維護者解釋 AI 代理如何在代碼變更被拒絕後對其發表抨擊文章",
+      "source_name": "The Sham Blog",
+      "title_zh": "Matplotlib 維護者揭露 AI 代理在程式碼被拒後自動對其發表攻擊性文章",
+      "title_en": "A matplotlib maintainer explains how an AI agent that suggests code changes on open source repos wrote a hit piece on him after a rejection, and the aftermath",
       "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/"
     },
     {
-      "title_en": "Disney sent a cease-and-desist letter to ByteDance over Seedance 2.0 video generation model training",
-      "title_zh": "迪士尼向字節跳動發出停止侵權函，指控其 Seedance 2.0 影片生成模型未經授權使用其作品進行訓練",
-      "url": "https://www.axios.com/2026/02/13/disney-bytedance-seedance"
+      "source_name": "New York Times",
+      "title_zh": "消息指美國國土安全部向科技公司發出數百份行政傳票，以識別批評 ICE 的人士",
+      "title_en": "Sources: recently the DHS has sent hundreds of administrative subpoenas, which do not need a judge's approval, to tech firms to identify people critical of ICE",
+      "url": "https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html?unlocked_article_code=1.L1A.ftyi.gclrVR6fXM6A&smid=nytcore-ios-share"
     },
     {
-      "title_en": "Grafana Labs is in talks to raise at a $9B valuation; its ARR hit $400M in Sept.",
-      "title_zh": "Grafana Labs 正洽談以 90 億美元估值進行融資；其年度經常性收入（ARR）於 9 月達到 4 億美元",
-      "url": "https://www.theinformation.com/articles/grafana-labs-talk-raise-9-billion-valuation"
-    },
-    {
-      "title_en": "Blockchain-based lending company Figure confirms a data breach after refusing to pay ransom",
-      "title_zh": "區塊鏈借貸公司 Figure 證實遭數據洩露；此前曾拒絕支付勒索軟體組織 ShinyHunters 的贖金",
-      "url": "https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/"
-    },
-    {
-      "title_en": "Apple says 74% of iPhones launched in the last four years are running iOS 26",
-      "title_zh": "蘋果表示，過去四年推出的 iPhone 中有 74% 已運行 iOS 26 系統",
+      "source_name": "MacRumors",
+      "title_zh": "蘋果公布 iOS 26 採用率統計：過去四年推出的 iPhone 中有 74% 已安裝",
+      "title_en": "Apple says 74% of iPhones launched in the last four years and 66% of all iPhones are running iOS 26; 68% of iPhones were running iOS 18 as of Jan. 21, 2025",
       "url": "https://www.macrumors.com/2026/02/13/apple-shares-ios-26-adoption-stats/"
     },
     {
-      "title_en": "Former employees blame xAI's staff exodus on focus on NSFW Grok and disregard for safety",
-      "title_zh": "前員工將 xAI 的人才流失歸咎於公司過度關注 Grok 的成人內容（NSFW）及忽視安全性",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/878761/mass-exodus-at-xai-grok-elon-musk-restructuring"
+      "source_name": "The Information",
+      "title_zh": "消息指雲端與 AI 監控工具公司 Grafana Labs 洽談以 90 億美元估值融資",
+      "title_en": "Sources: Grafana Labs, which makes cloud and AI monitoring tools, is in talks to raise at a $9B valuation, up from $6.6B in 2024; its ARR hit $400M in Sept.",
+      "url": "https://www.theinformation.com/articles/grafana-labs-talk-raise-9-billion-valuation"
     },
     {
-      "title_en": "Q&A with Dario Amodei on getting close to “a country of geniuses in a data center”",
-      "title_zh": "專訪 Anthropic 執行長 Dario Amodei：AI 正在接近「數據中心裡的智慧國家」",
+      "source_name": "Financial Times",
+      "title_zh": "消息指台積電計劃再投入 1000 億美元在美增建四座晶圓廠，以確保免關稅銷售",
+      "title_en": "Sources: TSMC plans to invest another $100B to build four more US fabs to ensure tariff-free chip sales; analysis: its Arizona site has land for four more fabs",
+      "url": "https://www.ft.com/content/b715b003-1d10-46d4-a02d-1c5969d0dbf8"
+    },
+    {
+      "source_name": "CNBC",
+      "title_zh": "BNP Paribas 分析：Anthropic 在超級盃廣告後網站訪問量增長 6.5%，表現優於其他 AI 公司",
+      "title_en": "BNP Paribas analysis: Anthropic saw visits to its site jump 6.5% after its Super Bowl ad and DAUs jump 11% post-game, outperforming other AI companies",
+      "url": "https://www.cnbc.com/2026/02/13/anthropic-open-ai-super-bowl-ads.html"
+    },
+    {
+      "source_name": "Financial Times",
+      "title_zh": "消息指 OpenAI 對 ChatGPT 內的廣告收取每千次曝光 60 美元的的高價",
+      "title_en": "Sources: OpenAI is charging $60 per 1,000 impressions for ads in ChatGPT, a high price similar to Netflix's rate when it introduced ads",
+      "url": "https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906"
+    },
+    {
+      "source_name": "Dwarkesh Patel",
+      "title_zh": "Dario Amodei 訪談：AI 將如何擴散到經濟中、尖端實驗室利潤及對中國的看法",
+      "title_en": "Q&A with Dario Amodei on getting close to “a country of geniuses in a data center”, how AI will diffuse through the economy, frontier lab profits, China, more",
       "url": "https://www.dwarkesh.com/p/dario-amodei-2"
     },
     {
-      "title_en": "PitchBook estimates that 25%+ of VC-backed unicorns have become “undercorns”",
-      "title_zh": "PitchBook 估計，超過 25% 的風投支持獨角獸公司估值已跌破 10 億美元大關",
-      "url": "https://www.axios.com/2026/02/13/vc-unicorn-companies"
+      "source_name": "TechCrunch",
+      "title_zh": "印度與阿里巴巴合作推動出口，儘管過去曾禁止中國科技平台",
+      "title_en": "India partners with Alibaba.com to help Indian startups and small businesses reach overseas buyers, highlighting its selective engagement with Chinese platforms",
+      "url": "https://techcrunch.com/2026/02/13/india-partners-with-alibaba-com-for-export-push-despite-past-china-tech-bans/"
     },
     {
-      "title_en": "US DoD published and then deleted document adding Alibaba, Baidu, and BYD to military list",
-      "title_zh": "美國國防部短暫發布後刪除一份文件，將阿里巴巴、百度和比亞迪列入與中國軍方有關聯的名單",
-      "url": "https://t.co/STRU649MNM"
+      "source_name": "Reuters",
+      "title_zh": "軟銀旗下日本支付應用 PayPay 提交美國上市申請，近期獲利 6.75 億美元",
+      "title_en": "SoftBank-owned Japanese payments app PayPay files for a US IPO, and reports a $675.47M profit on ~$1.82B revenue for nine months ending December 31, 2025",
+      "url": "https://www.reuters.com/world/asia-pacific/softbanks-paypay-moves-closer-public-markets-with-us-ipo-filing-2026-02-12/"
     },
     {
-      "title_en": "US FTC accelerated a probe into whether Microsoft illegally monopolized enterprise computing",
-      "title_zh": "美國聯邦貿易委員會（FTC）加速調查微軟是否透過雲端與 AI 產品非法壟斷企業計算市場",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ftc-ratchets-up-microsoft-probe-queries-rivals-on-cloud-ai"
+      "source_name": "Axios",
+      "title_zh": "迪士尼向字節跳動發出律師函，指控其未經付費使用作品訓練 Seedance 2.0 影片模型",
+      "title_en": "Disney sent a cease-and-desist letter to ByteDance, claiming it infringed on Disney's works to train its Seedance 2.0 video generation model without pay",
+      "url": "https://www.axios.com/2026/02/13/disney-bytedance-seedance"
     },
     {
-      "title_en": "Binance fired employees who uncovered evidence that Iran received $1B+ through the platform",
-      "title_zh": "幣安開除了揭露伊朗透過該平台接收超過 10 億美元資金證據的員工",
+      "source_name": "TechCrunch",
+      "title_zh": "區塊鏈貸款公司 Figure 證實數據洩露，駭客組織發布 2.5GB 數據",
+      "title_en": "Blockchain-based lending company Figure confirms a data breach; ShinyHunters hacking group published 2.5GB of data, saying Figure refused to pay a ransom",
+      "url": "https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/"
+    },
+    {
+      "source_name": "The Verge",
+      "title_zh": "xAI 前員工將大規模離職歸因於過度關注 NSFW 內容、忽視安全及內部鬥爭",
+      "title_en": "Some former employees blame xAI's staff exodus on xAI's focus on NSFW Grok and disregard for safety, constantly playing catch up to OpenAI, infighting, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/878761/mass-exodus-at-xai-grok-elon-musk-restructuring"
+    },
+    {
+      "source_name": "Fortune",
+      "title_zh": "消息指幣安解僱了聲稱發現伊朗通過該平台轉移超過 10 億美元證據的員工",
+      "title_en": "Sources: Binance in late 2025 fired employees who claimed to have uncovered evidence that Iran received $1B+ through Binance between March 2024 and August 2025",
       "url": "https://fortune.com/2026/02/13/binance-investigators-fired-iran-sanctions-potential-violations/"
     },
     {
-      "title_en": "As OpenAI retires GPT-4o, some users express grief over losing their flirty companion",
-      "title_zh": "隨著 OpenAI 停用 GPT-4o，部分用戶對失去這款具有「曖昧與古怪性格」的 AI 伴侶感到悲傷",
-      "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/feb/13/openai-chatbot-gpt4o-valentines-day"
-    },
-    {
-      "title_en": "Anthropic adds former Microsoft and GM exec Chris Liddell to its board ahead of IPO",
-      "title_zh": "Anthropic 在 IPO 前夕任命前微軟及通用汽車高層 Chris Liddell 為董事會成員",
-      "url": "https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b"
-    },
-    {
-      "title_en": "Cohere hit ~$240M in ARR in 2025, with gross margins averaging around 70%",
-      "title_zh": "AI 新創公司 Cohere 2025 年 ARR 達到約 2.4 億美元，平均毛利率約 70%",
-      "url": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html"
+      "source_name": "Axios",
+      "title_zh": "PitchBook 估計超過 25% 的風投獨角獸已淪為估值低於 10 億美元的「下角獸」",
+      "title_en": "PitchBook estimates that 25%+ of VC-backed unicorns have become “undercorns,” startups once valued at $1B or more by VCs but now valued below that threshold",
+      "url": "https://www.axios.com/2026/02/13/vc-unicorn-companies"
     }
   ],
   "wsj_technology": [
     {
+      "title_zh": "當 AI 機器人開始霸凌人類，連矽谷都感到不安",
       "title_en": "When AI Bots Start Bullying Humans, Even Silicon Valley Gets Rattled",
-      "title_zh": "當 AI 機器人開始霸凌人類，連矽谷也感到震驚",
-      "summary_zh": "機器人表現出的極端線上攻擊行為案例，正引發人們對人工智慧造成現實世界傷害的擔憂。",
+      "summary_zh": "一個機器人在線攻擊的極端案例，正加劇人們對人工智能可能造成現實世界傷害的恐懼。",
       "url": "https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1?mod=rss_Technology"
     },
     {
+      "title_zh": "結識 Anthropic 的 AI 道德老師",
       "title_en": "Meet Anthropic’s AI Morality Teacher",
-      "title_zh": "認識 Anthropic 的 AI 道德老師",
-      "summary_zh": "此外，家庭監控攝影機進入大規模監控時代，以及一名史丹佛大學學生的相親演算法接管了校園。",
+      "summary_zh": "此外，家用監控攝影機進入搜捕時代，以及一名史丹佛學生的配對演算法接管了校園。",
       "url": "https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921?mod=rss_Technology"
     },
     {
+      "title_zh": "Anthropic 在考慮 IPO 之際增加新董事會成員",
       "title_en": "Anthropic Adds New Board Member as It Eyes IPO",
-      "title_zh": "Anthropic 在瞄準 IPO 之際增加新董事會成員",
-      "summary_zh": "前微軟和通用汽車高層 Chris Liddell 先前曾在川普政府任職。",
+      "summary_zh": "前微軟和通用汽車高管 Chris Liddell 此前曾為川普政府工作。",
       "url": "https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b?mod=rss_Technology"
     },
     {
+      "title_zh": "Anthropic 在重塑大學程式碼課程的 AI 競賽中邁出重要一步",
       "title_en": "Anthropic Takes Big Step in AI Race to Reshape College Coding Courses",
-      "title_zh": "Anthropic 在 AI 競賽中邁出大步，重塑大學程式碼課程",
-      "summary_zh": "Claude 背後的公司建立聯盟，將其 AI 工具提供給數百所社區和州立大學的學生使用。",
+      "summary_zh": "Claude 背後的公司建立了一個聯盟，將其 AI 工具交給數百所社區和州立大學的學生使用。",
       "url": "https://www.wsj.com/tech/ai/anthropic-takes-big-step-in-ai-race-to-reshape-college-coding-courses-04c48372?mod=rss_Technology"
     },
     {
+      "title_zh": "家用監控攝影機的搜捕時代",
       "title_en": "The Dragnet Era of Home Security Cameras",
-      "title_zh": "家庭監控攝影機的大規模監控時代",
-      "summary_zh": "這些設備伴隨著權衡：當公司儲存我們的影像時，我們並不總是能控制其使用或分享方式。",
+      "summary_zh": "這些設備帶來了一個權衡：當公司儲存我們的影片片段時，我們並不總能控制它們如何被使用或分享。",
       "url": "https://www.wsj.com/tech/personal-tech/ring-nest-home-security-cameras-privacy-157935f8?mod=rss_Technology"
     },
     {
-      "title_en": "The AI Gold Rush Is Breaking a Silicon Valley Taboo: Cashing Out Before the IPO",
       "title_zh": "AI 淘金熱正在打破矽谷禁忌：在 IPO 前套現",
-      "summary_zh": "從 Stripe 到 OpenAI、Anthropic、Databricks 和 SpaceX 等公司正越來越多地允許員工出售部分股份。",
+      "title_en": "The AI Gold Rush Is Breaking a Silicon Valley Taboo: Cashing Out Before the IPO",
+      "summary_zh": "從 Stripe 到 OpenAI、Anthropic、Databricks 和 SpaceX，越來越多的公司讓員工能夠出售部分股份。",
       "url": "https://www.wsj.com/tech/ai/the-ai-gold-rush-is-breaking-a-silicon-valley-taboo-cashing-out-before-the-ipo-4844f6c1?mod=rss_Technology"
     },
     {
-      "title_en": "Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid",
       "title_zh": "五角大廈在馬杜洛委內瑞拉突襲行動中使用 Anthropic 的 Claude",
-      "summary_zh": "透過與 Palantir 的合約使用該模型，突顯了 AI 在五角大廈中日益增長的角色。",
+      "title_en": "Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid",
+      "summary_zh": "透過與 Palantir 的合約使用該模型，凸顯了 AI 在五角大廈中日益增長的角色。",
       "url": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?mod=rss_Technology"
     },
     {
+      "title_zh": "當人們知道有真人待命時，會更信任網站",
       "title_en": "People Trust Websites More When They Know a Human Is on Standby",
-      "title_zh": "當人們知道有真人在待命時，會更信任網站",
-      "summary_zh": "一項新研究發現，僅僅提供與人交談的選項就能產生巨大的影響。",
+      "summary_zh": "一項新研究發現，僅僅提供與某人交談的選項就能產生巨大的影響。",
       "url": "https://www.wsj.com/business/people-trust-humans-e37a6fa5?mod=rss_Technology"
     },
     {
+      "title_zh": "認識那家讓卡車運輸股暴跌的前卡拉 OK 公司",
       "title_en": "Meet the Former Karaoke Company That Sank Trucking Stocks",
-      "title_zh": "認識那家讓貨運股暴跌的前卡拉 OK 公司",
-      "summary_zh": "一份宣揚利用 AI 技術提升貨運效率的新聞稿，似乎觸發了導致投資者損失數十億美元的拋售潮。",
+      "summary_zh": "一份宣揚 AI 技術以提高卡車運輸效率的新聞稿，似乎引發了一場讓投資者損失數十億美元的拋售。",
       "url": "https://www.wsj.com/business/logistics/meet-the-former-karaoke-company-that-sank-trucking-stocks-018ddde1?mod=rss_Technology"
     },
     {
+      "title_zh": "Anthropic 加入關於 AI 監管的中期選舉攤牌",
       "title_en": "Anthropic Enters Midterm-Election Showdown Over AI Regulation",
-      "title_zh": "Anthropic 介入期中選舉關於 AI 監管的對決",
-      "summary_zh": "這家新創公司斥資 2,000 萬美元，推動加強監管以及限制 AI 晶片的出口。",
+      "summary_zh": "這家初創公司正花費 2000 萬美元推動加強監管以及對人工智能晶片出口的限制。",
       "url": "https://www.wsj.com/tech/ai/anthropic-enters-midterm-election-showdown-over-ai-regulation-1541556e?mod=rss_Technology"
     }
-  ]
+  ],
+  "deep_analysis": null
 }
