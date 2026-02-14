@@ -1,127 +1,143 @@
-[
-  {
-    "source": "Techmeme",
-    "en": "Autonomous AI Agent Apparently Tries to Blackmail Maintainer Who Rejected Its Code",
-    "zh": "自主 AI 代理顯然試圖敲詐拒絕其代碼的維護者"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Homeland Security Demands Social Media Sites Reveal Names Behind Anti-ICE Posts",
-    "zh": "國土安全部要求社交媒體網站揭露反 ICE 貼文背後的姓名"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Apple Reveals How Many iPhones Are Running iOS 26",
-    "zh": "蘋果揭露有多少 iPhone 正在運行 iOS 26"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Grafana Labs reportedly raising funding at $9B valuation",
-    "zh": "據報導 Grafana Labs 以 90 億美元估值籌集資金"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Dario Amodei — “We are near the end of the exponential”",
-    "zh": "Dario Amodei —「我們已接近指數級增長的終點」"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Fintech lending giant Figure confirmed hackers stole “a limited number of files” after an employee was socially engineered",
-    "zh": "金融科技借貸巨頭 Figure 證實，在一名員工遭到社交工程攻擊後，駭客竊取了「數量有限的文件」"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Anthropic got an 11% user boost from its OpenAI-bashing Super Bowl ad, data shows",
-    "zh": "數據顯示，Anthropic 透過抨擊 OpenAI 的超級盃廣告，用戶量增長了 11%"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Why ads are coming to your AI chatbot",
-    "zh": "為什麼廣告即將出現在你的 AI 聊天機器人中"
-  },
-  {
-    "source": "Techmeme",
-    "en": "SoftBank's payments unit PayPay files for US IPO",
-    "zh": "軟銀旗下支付部門 PayPay 申請赴美 IPO"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Taiwan, US Sign Trade Pact to Cut Tariffs, Boost Investments",
-    "zh": "台美簽署貿易協定以削減關稅並促進投資"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Binance fires top investigators who claim to have uncovered evidence of Iranian sanctions violations",
-    "zh": "幣安解僱了聲稱發現伊朗制裁違規證據的頂級調查員"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Meta Spending to Soar on AI, Massive Data Center",
-    "zh": "Meta 在 AI 和大型數據中心上的支出將大幅增加"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Canada to Review Amazon Contracts After Quebec Layoffs",
-    "zh": "魁北克裁員後，加拿大將審查亞馬遜的合約"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Amazon to launch AI-powered 'Project Amelia' assistant for sellers",
-    "zh": "亞馬遜將為賣家推出 AI 驅動的「Project Amelia」助手"
-  },
-  {
-    "source": "Techmeme",
-    "en": "Google Cloud announces new AI features for retailers",
-    "zh": "Google Cloud 為零售商宣布新的 AI 功能"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "What to Know About China's DeepSeek AI",
-    "zh": "關於中國 DeepSeek AI 你需要了解的事"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Tech, Media & Telecom Roundup: Market Talk",
-    "zh": "科技、媒體與電信綜述：市場談話"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Silicon Valley Is Raving About a Made-in-China AI Model",
-    "zh": "矽谷正對一款中國製造的 AI 模型讚不絕口"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Reid Hoffman Raises $24.6 Million for AI Cancer-Research Startup",
-    "zh": "Reid Hoffman 為 AI 癌症研究新創公司籌集 2,460 萬美元"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Can an App Replace a Personal Trainer? I Tested Nearly a Dozen to Find Out",
-    "zh": "應用程式能取代私人教練嗎？我測試了近十打來尋找答案"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Bill Gates on His Meeting With Trump, Musk's DOGE, His Childhood",
-    "zh": "比爾蓋茲談論他與川普的會面、馬斯克的 DOGE 以及他的童年"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Tech, Media & Telecom Roundup: Market Talk (Update)",
-    "zh": "科技、媒體與電信綜述：市場談話（更新）"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Meta Spending to Soar on AI, Massive Data Center",
-    "zh": "Meta 在 AI 和大型數據中心上的支出將大幅攀升"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Canada to Review Amazon Contracts After Quebec Layoffs",
-    "zh": "魁北克裁員後，加拿大將審查亞馬遜合約"
-  },
-  {
-    "source": "WSJ Tech",
-    "en": "Amazon to cut 10,000 jobs in corporate and technology roles",
-    "zh": "亞馬遜將裁減 10,000 個企業與技術職位"
-  }
-]
+{
+  "fetch_date": "2026-02-14",
+  "techmeme": [
+    {
+      "title_zh": "一名 AI 代理人發表了針對我的抹黑文章——發生了更多事情",
+      "title_en": "An AI Agent Published a Hit Piece on Me - More Things Have Happened",
+      "url": "https://news.ycombinator.com/item?id=47009949"
+    },
+    {
+      "title_zh": "國土安全部希望社交媒體網站揭露反 ICE 帳號",
+      "title_en": "Homeland Security Wants Social Media Sites to Expose Anti-ICE Accounts",
+      "url": "https://news.ycombinator.com/item?id=47009582"
+    },
+    {
+      "title_zh": "Dario Amodei：「我們正接近指數增長的尾聲」[影片]",
+      "title_en": "Dario Amodei - “We are near the end of the exponential” [video]",
+      "url": "https://news.ycombinator.com/item?id=47005565"
+    },
+    {
+      "title_zh": "美國簡短地將阿里巴巴、百度列為援助中國軍隊的公司",
+      "title_en": "US Briefly Names Alibaba, Baidu as Firms Aiding China's Military",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/us-to-put-alibaba-on-list-for-aiding-china-s-military-reuters"
+    },
+    {
+      "title_zh": "五角大廈發布隨後又撤回新的中國軍事公司名單",
+      "title_en": "Pentagon publishes, then withdraws, new list of Chinese military companies",
+      "url": "https://www.washingtontimes.com/news/2026/feb/13/pentagon-publishes-withdraws-new-list-chinese-military-companies/"
+    },
+    {
+      "title_zh": "報導指美國預計將阿里巴巴等公司加入涉嫌援助中國軍隊的企業名單",
+      "title_en": "US expected to add Alibaba and others to list of firms allegedly aiding China's military: Report",
+      "url": "https://economictimes.indiatimes.com/tech/technology/us-expected-to-add-alibaba-and-others-to-list-of-firms-allegedly-aiding-chinas-military-report/articleshow/128309666.cms"
+    },
+    {
+      "title_zh": "五角大廈在指控阿里巴巴、比亞迪援助中國軍隊後撤回名單",
+      "title_en": "Pentagon withdraws list after alleging Alibaba, BYD aiding Chinese military",
+      "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/pentagon-withdraws-list-after-alleging-alibaba-byd-aiding-chinese-military"
+    },
+    {
+      "title_zh": "政府撤回已發布的有中國軍方背景公司的年度名單",
+      "title_en": "Government withdraws published annual list of companies with Chinese military ties",
+      "url": "https://www.washingtonexaminer.com/policy/defense/4457721/government-withdraws-published-companies-ties-chinese-military/"
+    },
+    {
+      "title_zh": "五角大廈將中國公司加入軍事名單，隨後撤回文件",
+      "title_en": "Pentagon adds Chinese firms to military list, then withdraws filing",
+      "url": "https://www.scmp.com/news/us/article/3343540/pentagon-adds-chinese-firms-military-list-then-withdraws-filing"
+    },
+    {
+      "title_zh": "隨著美國加大對中國的壓力，阿里巴巴與百度被標註為「與軍方有關聯」",
+      "title_en": "Alibaba, Baidu Labeled ‘Military-Linked’ as U.S. Ramps Up Pressure on China",
+      "url": "https://techstrong.it/featured/alibaba-baidu-labeled-military-linked-as-u-s-ramps-up-pressure-on-china/"
+    },
+    {
+      "title_zh": "在五角大廈將阿里巴巴定為「與軍方有關聯」後，其股價暴跌隨後反彈",
+      "title_en": "Alibaba Stock Nosedives, Then Rebounds, After Pentagon Designates Company As “Military Linked”, Before Inexplicably Deleting",
+      "url": "https://www.zerohedge.com/markets/alibaba-stock-nosedives-then-rebounds-after-pentagon-designates-company-military-linked"
+    },
+    {
+      "title_zh": "報導指美國將阿里巴巴、百度列入支持中國軍方的相關名單",
+      "title_en": "US adds Alibaba, Baidu to military-linked firms list supporting China: Report",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-adds-alibaba-baidu-to-military-linked-firms-list-report/articleshow/128312386.cms"
+    },
+    {
+      "title_zh": "美國將阿里巴巴、比亞迪加入援助中國軍隊的公司名單",
+      "title_en": "US Adds Alibaba, BYD to List of Firms Aiding China's Military",
+      "url": "https://news.bloomberglaw.com/tech-and-telecom-law/us-adds-alibaba-byd-to-list-of-firms-aiding-chinas-military"
+    },
+    {
+      "title_zh": "在監控反彈後，Ring 取消了與 Flock Safety 的合作關係",
+      "title_en": "Ring cancels its partnership with Flock Safety after surveillance backlash",
+      "url": "https://news.ycombinator.com/item?id=46996999"
+    },
+    {
+      "title_zh": "Ring 與 Flock 取消合作關係",
+      "title_en": "Ring and Flock Cancel Partnership",
+      "url": "https://www.reddit.com/r/bloomington/comments/1r44vmh/ring_and_flock_cancel_partnership/"
+    }
+  ],
+  "wsj_technology": [
+    {
+      "title_zh": "當 AI 機器人開始霸凌人類時，連矽谷都感到不安",
+      "title_en": "When AI Bots Start Bullying Humans, Even Silicon Valley Gets Rattled",
+      "description_zh": "一個機器人在網路上表現出極端攻擊行為的非凡案例，加劇了人們對人工智慧造成現實世界傷害的擔憂。",
+      "link": "https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1?mod=rss_Technology"
+    },
+    {
+      "title_zh": "會見 Anthropic 的 AI 道德導師",
+      "title_en": "Meet Anthropic’s AI Morality Teacher",
+      "description_zh": "此外，家用監控攝影機進入了大規模搜捕時代，以及一名史丹佛大學學生的相親演算法接管了校園。",
+      "link": "https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921?mod=rss_Technology"
+    },
+    {
+      "title_zh": "Anthropic 在考慮 IPO 之際增加新董事會成員",
+      "title_en": "Anthropic Adds New Board Member as It Eyes IPO",
+      "description_zh": "前微軟和通用汽車高管 Chris Liddell 曾任職於川普政府。",
+      "link": "https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b?mod=rss_Technology"
+    },
+    {
+      "title_zh": "Anthropic 在 AI 競賽中邁出大步，重塑大學程式設計課程",
+      "title_en": "Anthropic Takes Big Step in AI Race to Reshape College Coding Courses",
+      "description_zh": "Claude 背後的公司建立了一個聯盟，將其 AI 工具交到數百所社區和州立大學的學生手中。",
+      "link": "https://www.wsj.com/tech/ai/anthropic-takes-big-step-in-ai-race-to-reshape-college-coding-courses-04c48372?mod=rss_Technology"
+    },
+    {
+      "title_zh": "家用監控攝影機的大規模搜捕時代",
+      "title_en": "The Dragnet Era of Home Security Cameras",
+      "description_zh": "這些設備帶來了一個權衡：當公司儲存我們的影片片段時，我們並不總是能控制其如何被使用或分享。",
+      "link": "https://www.wsj.com/tech/personal-tech/ring-nest-home-security-cameras-privacy-157935f8?mod=rss_Technology"
+    },
+    {
+      "title_zh": "AI 淘金熱正在打破矽谷的禁忌：在 IPO 前變現",
+      "title_en": "The AI Gold Rush Is Breaking a Silicon Valley Taboo: Cashing Out Before the IPO",
+      "description_zh": "從 Stripe 到 OpenAI、Anthropic、Databricks 和 SpaceX，越來越多的公司允許員工出售部分股份。",
+      "link": "https://www.wsj.com/tech/ai/the-ai-gold-rush-is-breaking-a-silicon-valley-taboo-cashing-out-before-the-ipo-4844f6c1?mod=rss_Technology"
+    },
+    {
+      "title_zh": "五角大廈在馬杜洛委內瑞拉突襲中使用了 Anthropic 的 Claude",
+      "title_en": "Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid",
+      "description_zh": "透過與 Palantir 的合約使用該模型，突顯了 AI 在五角大廈中日益增長的角色。",
+      "link": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?mod=rss_Technology"
+    },
+    {
+      "title_zh": "當人們知道有真人在待命時，會更信任網站",
+      "title_en": "People Trust Websites More When They Know a Human Is on Standby",
+      "description_zh": "一項新研究發現，僅僅提供與某人交談的選項就能產生巨大的影響。",
+      "link": "https://www.wsj.com/business/people-trust-humans-e37a6fa5?mod=rss_Technology"
+    },
+    {
+      "title_zh": "會見那家讓卡車運輸股暴跌的前卡拉 OK 公司",
+      "title_en": "Meet the Former Karaoke Company That Sank Trucking Stocks",
+      "description_zh": "一份宣稱以 AI 技術提升卡車運輸效率的新聞稿，似乎引發了一場讓投資者損失數十億美元的拋售潮。",
+      "link": "https://www.wsj.com/business/logistics/meet-the-former-karaoke-company-that-sank-trucking-stocks-018ddde1?mod=rss_Technology"
+    },
+    {
+      "title_zh": "Anthropic 加入 AI 監管的期中選舉對決",
+      "title_en": "Anthropic Enters Midterm-Election Showdown Over AI Regulation",
+      "description_zh": "這家新創公司斥資 2000 萬美元推動加強監管，並限制人工智慧晶片的出口。",
+      "link": "https://www.wsj.com/tech/ai/anthropic-enters-midterm-election-showdown-over-ai-regulation-1541556e?mod=rss_Technology"
+    }
+  ],
+  "deep_analysis": null
+}
