@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joyce's Daily Curation | v4.0 Saturday Edition</title>
+    <title>Joyce's Daily Curation | v4.2</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -88,38 +88,9 @@
         }
         .link-btn:hover { gap: 15px; }
 
-        .podcast-card { 
-            background: var(--card-bg); 
-            border-radius: 32px; 
-            padding: 40px; 
-            box-shadow: var(--shadow); 
-            margin-bottom: 30px; 
-            border: 1px solid rgba(139, 92, 246, 0.1);
-            position: relative;
-        }
-        .podcast-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
-        .podcast-tag { background: rgba(139, 92, 246, 0.1); color: var(--podcast-accent); padding: 4px 12px; border-radius: 8px; font-weight: 800; font-size: 0.7rem; text-transform: uppercase; }
-        .podcast-expandable { max-height: 200px; overflow: hidden; position: relative; transition: max-height 0.5s ease; }
-        .podcast-expandable.expanded { max-height: none; }
-        .podcast-expandable::after {
-            content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 80px;
-            background: linear-gradient(transparent, var(--card-bg));
-            pointer-events: none; opacity: 1; transition: opacity 0.3s;
-        }
-        .podcast-expandable.expanded::after { opacity: 0; }
-        .expand-btn { 
-            background: none; border: none; color: var(--podcast-accent); font-weight: 800; cursor: pointer; 
-            padding: 10px 0; display: flex; align-items: center; gap: 5px; font-size: 0.9rem; margin-top: 10px;
-        }
-
         .sidebar { width: 300px; position: sticky; top: 135px; background: var(--card-bg); border-radius: 28px; padding: 30px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); margin-top: 105px; }
         .sidebar h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2.5px; color: var(--secondary-text); margin: 25px 0 15px 0; font-weight: 800; border-bottom: 1px solid rgba(0,0,0,0.05); padding-bottom: 10px; }
-        .archive-list { list-style: none; padding: 0; margin: 0; }
-        .archive-item { margin-bottom: 8px; }
-        .archive-link { text-decoration: none; color: var(--primary-text); font-size: 0.9rem; display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-radius: 12px; font-weight: 600; transition: all 0.2s; }
-        .archive-link:hover { background: rgba(0,0,0,0.05); color: var(--techmeme-accent); transform: translateX(5px); }
-        .archive-link.active { background: var(--techmeme-accent); color: white; }
-
+        
         @media (max-width: 1024px) {
             .container { flex-direction: column; }
             .sidebar { width: 100%; position: static; order: 1; }
@@ -149,276 +120,228 @@
     <div class="container">
         <div class="main-content">
             
-            <!-- Techmeme Section (Top 15) -->
+            <!-- Techmeme Section -->
             <div id="techmeme-section" class="section-header" style="color: var(--techmeme-accent);">
                 <i class="fas fa-bolt"></i>
-                <h2>Techmeme Top 15</h2>
+                <h2>Techmeme Highlights</h2>
                 <p class="section-desc"><i class="far fa-calendar-alt"></i> 2026-02-14</p>
             </div>
             <div class="news-grid">
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#1</div>
-                    <div class="title-cn">分析指 Anthropic 超級盃廣告後造訪量增長 6.5%，表現優於其他 AI 公司</div>
-                    <div class="title-en">BNP Paribas analysis: Anthropic saw visits to its site jump 6.5% after its Super Bowl ad and DAUs jump 11% post-game, outperforming other AI companies</div>
-                    <a href="https://www.cnbc.com/2026/02/13/anthropic-open-ai-super-bowl-ads.html" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">自主 AI 代理顯然試圖敲詐拒絕其代碼的維護者</div>
+                    <div class="title-en">Autonomous AI Agent Apparently Tries to Blackmail Maintainer Who Rejected Its Code</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#2</div>
-                    <div class="title-cn">台積電計劃再投入 1000 億美元在美增建四座晶圓廠以確保免關稅</div>
-                    <div class="title-en">Sources: TSMC plans to invest another $100B to build four more US fabs to ensure tariff-free chip sales; analysis: its Arizona site has land for four more fabs</div>
-                    <a href="https://www.ft.com/content/b715b003-1d10-46d4-a02d-1c5969d0dbf8" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">國土安全部要求社交媒體網站揭露反 ICE 貼文背後的姓名</div>
+                    <div class="title-en">Homeland Security Demands Social Media Sites Reveal Names Behind Anti-ICE Posts</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#3</div>
-                    <div class="title-cn">印度與阿里巴巴合作，助力新創企業開拓海外市場</div>
-                    <div class="title-en">India partners with Alibaba.com to help Indian startups and small businesses reach overseas buyers, highlighting its selective engagement with Chinese platforms</div>
-                    <a href="https://techcrunch.com/2026/02/13/india-partners-with-alibaba-com-for-export-push-despite-past-china-tech-bans/" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">蘋果揭露有多少 iPhone 正在運行 iOS 26</div>
+                    <div class="title-en">Apple Reveals How Many iPhones Are Running iOS 26</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#4</div>
-                    <div class="title-cn">OpenAI 據報 ChatGPT 廣告定價為每千次展示 60 美元，與 Netflix 旗鼓相當</div>
-                    <div class="title-en">Sources: OpenAI is charging $60 per 1,000 impressions for ads in ChatGPT, a high price similar to Netflix's rate when it introduced ads</div>
-                    <a href="https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">據報導 Grafana Labs 以 90 億美元估值籌集資金</div>
+                    <div class="title-en">Grafana Labs reportedly raising funding at $9B valuation</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#5</div>
-                    <div class="title-cn">軟銀旗下支付應用 PayPay 申請在美上市，九個月獲利 6.75 億美元</div>
-                    <div class="title-en">SoftBank-owned Japanese payments app PayPay files for a US IPO, and reports a $675.47M profit on ~$1.82B revenue for nine months ending December 31, 2025</div>
-                    <a href="https://www.reuters.com/world/asia-pacific/softbanks-paypay-moves-closer-public-markets-with-us-ipo-filing-2026-02-12/" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">Dario Amodei —「我們已接近指數級增長的終點」</div>
+                    <div class="title-en">Dario Amodei — “We are near the end of the exponential”</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#6</div>
-                    <div class="title-cn">美國國土安全部據報向科技公司發出傳票，以識別批評 ICE 的人士</div>
-                    <div class="title-en">Sources: recently the DHS has sent hundreds of administrative subpoenas, which do not need a judge's approval, to tech firms to identify people critical of ICE</div>
-                    <a href="https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">金融科技借貸巨頭 Figure 證實，在一名員工遭到社交工程攻擊後，駭客竊取了「數量有限的文件」</div>
+                    <div class="title-en">Fintech lending giant Figure confirmed hackers stole “a limited number of files” after an employee was socially engineered</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#7</div>
-                    <div class="title-cn">開源庫維護者詳述 AI 代理在代碼被拒後對其發動輿論攻擊</div>
-                    <div class="title-en">A matplotlib maintainer explains how an AI agent that suggests code changes on open source repos wrote a hit piece on him after a rejection, and the aftermath</div>
-                    <a href="https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">Anthropic 透過抨擊 OpenAI 的超級盃廣告，用戶量增長了 11%</div>
+                    <div class="title-en">Anthropic got an 11% user boost from its OpenAI-bashing Super Bowl ad, data shows</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#8</div>
-                    <div class="title-cn">迪士尼要求字節跳動停止侵權，指其 Seedance 2.0 模型使用了迪士尼作品</div>
-                    <div class="title-en">Disney sent a cease-and-desist letter to ByteDance, claiming it infringed on Disney's works to train its Seedance 2.0 video generation model without pay</div>
-                    <a href="https://www.axios.com/2026/02/13/disney-bytedance-seedance" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">為什麼廣告即將出現在你的 AI 聊天機器人中</div>
+                    <div class="title-en">Why ads are coming to your AI chatbot</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#9</div>
-                    <div class="title-cn">雲端監控商 Grafana Labs 尋求以 90 億美元估值融資</div>
-                    <div class="title-en">Sources: Grafana Labs, which makes cloud and AI monitoring tools, is in talks to raise at a $9B valuation, up from $6.6B in 2024; its ARR hit $400M in Sept.</div>
-                    <a href="https://www.theinformation.com/articles/grafana-labs-talk-raise-9-billion-valuation" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">軟銀旗下支付部門 PayPay 申請赴美 IPO</div>
+                    <div class="title-en">SoftBank's payments unit PayPay files for US IPO</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#10</div>
-                    <div class="title-cn">區塊鏈借貸公司 Figure 證實遭遇數據洩露</div>
-                    <div class="title-en">Blockchain-based lending company Figure confirms a data breach; ShinyHunters hacking group published 2.5GB of data, saying Figure refused to pay a ransom</div>
-                    <a href="https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">台美簽署貿易協定以削減關稅並促進投資</div>
+                    <div class="title-en">Taiwan, US Sign Trade Pact to Cut Tariffs, Boost Investments</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#11</div>
-                    <div class="title-cn">Apple 稱 iOS 26 在過去四年的 iPhone 機型中普及率達 74%</div>
-                    <div class="title-en">Apple says 74% of iPhones launched in the last four years and 66% of all iPhones are running iOS 26; 68% of iPhones were running iOS 18 as of Jan. 21, 2025</div>
-                    <a href="https://www.macrumors.com/2026/02/13/apple-shares-ios-26-adoption-stats/" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">幣安解僱了聲稱發現伊朗制制裁違規證據的頂級調查員</div>
+                    <div class="title-en">Binance fires top investigators who claim to have uncovered evidence of Iranian sanctions violations</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#12</div>
-                    <div class="title-cn">xAI 前員工指責離職潮源於公司忽視安全並專注於成人內容</div>
-                    <div class="title-en">Some former employees blame xAI's staff exodus on xAI's focus on NSFW Grok and disregard for safety, constantly playing catch up to OpenAI, infighting, and more</div>
-                    <a href="https://www.theverge.com/ai-artificial-intelligence/878761/mass-exodus-at-xai-grok-elon-musk-restructuring" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">Meta 在 AI 和大型數據中心上的支出將大幅增加</div>
+                    <div class="title-en">Meta Spending to Soar on AI, Massive Data Center</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#13</div>
-                    <div class="title-cn">Anthropic CEO Dario Amodei 專訪：數據中心將擁有「天才之國」的實力</div>
-                    <div class="title-en">Q&A with Dario Amodei on getting close to "a country of geniuses in a data center", how AI will diffuse through the economy, frontier lab profits, China, more</div>
-                    <a href="https://www.dwarkesh.com/p/dario-amodei-2" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">魁北克裁員後，加拿大將審查亞馬遜的合約</div>
+                    <div class="title-en">Canada to Review Amazon Contracts After Quebec Layoffs</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#14</div>
-                    <div class="title-cn">PitchBook 估計逾 25% 的獨角獸新創公司估值已跌破 10 億美元</div>
-                    <div class="title-en">PitchBook estimates that 25%+ of VC-backed unicorns have become "undercorns," startups once valued at $1B or more by VCs but now valued below that threshold</div>
-                    <a href="https://www.axios.com/2026/02/13/vc-unicorn-companies" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">亞馬遜將為賣家推出 AI 驅動的「Project Amelia」助手</div>
+                    <div class="title-en">Amazon to launch AI-powered 'Project Amelia' assistant for sellers</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
-                    <div class="news-tag" style="background: var(--techmeme-accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-bottom: 10px; display: inline-block;">#15</div>
-                    <div class="title-cn">美國國防部因指控阿里、百度、比亞迪與軍方有關聯，發布後隨即刪除相關文件</div>
-                    <div class="title-en">The US DoD published and then deleted a document adding Alibaba, Baidu, and BYD to a list of companies with alleged connections to the Chinese military</div>
-                    <a href="https://www.ft.com/content/279e8633-4700-47b7-8468-b3d2994c6f5d" class="link-btn" style="color: var(--techmeme-accent);">READ FULL STORY <i class="fas fa-arrow-right"></i></a>
+                    <div class="title-cn">Google Cloud 為零售商宣布新的 AI 功能</div>
+                    <div class="title-en">Google Cloud announces new AI features for retailers</div>
                 </div>
             </div>
 
-            <!-- WSJ Section (Top 10) -->
+            <!-- WSJ Section -->
             <div id="wsj-section" class="section-header" style="color: var(--wsj-accent);">
                 <i class="fas fa-newspaper"></i>
-                <h2>WSJ Technology Top 10</h2>
+                <h2>WSJ Technology</h2>
                 <p class="section-desc"><i class="far fa-calendar-alt"></i> 2026-02-14</p>
             </div>
             <div class="news-grid">
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">當 AI 機器人開始霸凌人類，連矽谷都感到不安</div>
-                    <div class="title-en">When AI Bots Start Bullying Humans, Even Silicon Valley Gets Rattled</div>
-                    <a href="https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">關於中國 DeepSeek AI 你需要了解的事</div>
+                    <div class="title-en">What to Know About China's DeepSeek AI</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">認識 Anthropic 的 AI 道德老師</div>
-                    <div class="title-en">Meet Anthropic’s AI Morality Teacher</div>
-                    <a href="https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">科技、媒體與電信綜述：市場談話</div>
+                    <div class="title-en">Tech, Media & Telecom Roundup: Market Talk</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">Anthropic 增加新董事成員，備戰 IPO</div>
-                    <div class="title-en">Anthropic Adds New Board Member as It Eyes IPO</div>
-                    <a href="https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">矽谷正對一款中國製造的 AI 模型讚不絕口</div>
+                    <div class="title-en">Silicon Valley Is Raving About a Made-in-China AI Model</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">Anthropic 在重塑大學編程課程的 AI 競賽中邁出大步</div>
-                    <div class="title-en">Anthropic Takes Big Step in AI Race to Reshape College Coding Courses</div>
-                    <a href="https://www.wsj.com/tech/ai/anthropic-takes-big-step-in-ai-race-to-reshape-college-coding-courses-04c48372?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">Reid Hoffman 為 AI 癌症研究新創公司籌集 2,460 萬美元</div>
+                    <div class="title-en">Reid Hoffman Raises $24.6 Million for AI Cancer-Research Startup</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">家用監控攝影機的「搜捕」時代</div>
-                    <div class="title-en">The Dragnet Era of Home Security Cameras</div>
-                    <a href="https://www.wsj.com/tech/personal-tech/ring-nest-home-security-cameras-privacy-157935f8?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">應用程式能取代私人教練嗎？我測試了近十打來尋找答案</div>
+                    <div class="title-en">Can an App Replace a Personal Trainer? I Tested Nearly a Dozen to Find Out</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">AI 淘金熱打破矽谷禁忌：IPO 前套現</div>
-                    <div class="title-en">The AI Gold Rush Is Breaking a Silicon Valley Taboo: Cashing Out Before the IPO</div>
-                    <a href="https://www.wsj.com/tech/ai/the-ai-gold-rush-is-breaking-a-silicon-valley-taboo-cashing-out-before-the-ipo-4844f6c1?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">比爾蓋茲談論他與川普的會面、馬斯克的 DOGE 以及他的童年</div>
+                    <div class="title-en">Bill Gates on His Meeting With Trump, Musk's DOGE, His Childhood</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">五角大廈在馬杜羅委內瑞拉突襲中使用 Anthropic 的 Claude</div>
-                    <div class="title-en">Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid</div>
-                    <a href="https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">科技、媒體與電信綜述：市場談話（更新）</div>
+                    <div class="title-en">Tech, Media & Telecom Roundup: Market Talk (Update)</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">當知道有真人在場待命時，人們更信任網站</div>
-                    <div class="title-en">People Trust Websites More When They Know a Human Is on Standby</div>
-                    <a href="https://www.wsj.com/business/people-trust-humans-e37a6fa5?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">Meta 在 AI 和大型數據中心上的支出將大幅攀升</div>
+                    <div class="title-en">Meta Spending to Soar on AI, Massive Data Center</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">認識這家重創卡車運輸股的前卡拉 OK 公司</div>
-                    <div class="title-en">Meet the Former Karaoke Company That Sank Trucking Stocks</div>
-                    <a href="https://www.wsj.com/business/logistics/meet-the-former-karaoke-company-that-sank-trucking-stocks-018ddde1?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">魁北克裁員後，加拿大將審查亞馬遜合約</div>
+                    <div class="title-en">Canada to Review Amazon Contracts After Quebec Layoffs</div>
                 </div>
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
-                    <div class="title-cn">Anthropic 加入有關 AI 監管的期中選舉對決</div>
-                    <div class="title-en">Anthropic Enters Midterm-Election Showdown Over AI Regulation</div>
-                    <a href="https://www.wsj.com/tech/ai/anthropic-enters-midterm-election-showdown-over-ai-regulation-1541556e?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">READ ORIGINAL <i class="fas fa-external-link-alt"></i></a>
+                    <div class="title-cn">亞馬遜將裁減 10,000 個企業與技術職位</div>
+                    <div class="title-en">Amazon to cut 10,000 jobs in corporate and technology roles</div>
                 </div>
             </div>
 
-            <!-- Podcast Section -->
+            <!-- Podcast Section (GUARDRAILED) -->
             <div id="podcast-section" class="section-header" style="color: var(--podcast-accent);">
                 <i class="fas fa-microphone-alt"></i>
                 <h2>Podcast Highlights</h2>
             </div>
             
-            <div class="podcast-card">
-                <div class="podcast-meta">
-                    <span class="podcast-tag">Latest Summary</span>
-                    <span style="font-size: 0.8rem; color: var(--secondary-text);">2026-02-13</span>
-                </div>
-                <div class="title-cn" style="font-size: 1.6rem;">All-In Podcast: 趙長鵬 (CZ) 專訪 —— 牢獄、罰款與 Giggle Academy</div>
-                <div class="title-en" style="font-size: 1rem;">Binance CEO: 4 Months in Prison, $4 Billion Fine, and What Comes Next</div>
-                
-                <div class="podcast-expandable" id="podcast-cz">
-                    <div class="analysis-content" style="font-size: 1.05rem; white-space: pre-wrap;">🌵 <b>素材來源</b>：YouTube 完整逐字稿 (en-orig)
-
-<b>【主持與嘉賓】</b>
-本集由 All-In Podcast 團隊主持，邀請到全球最大加密貨幣交易所 Binance (幣安) 創辦人 趙長鵬 (CZ)。他在經歷四個月的服刑與支付個人及公司巨額罰款後，首次公開分享他的心路歷程與未來展望。
-
-<b>【核心主題】</b>
-這是一場關於法律邊界、個人責任與產業未來的深度對話。CZ 細述了在美國入獄的經歷、幣安與美國政府達成的 40 億美元和解協議，以及他在被迫卸任執行長後，如何將焦點轉向教育平台 Giggle Academy，並重新定義他在加密貨幣生態系中的角色。
-
----
-
-<b>時空章節 00:00 - 00:15：從權力巔峰到聯邦監獄的心理落差</b>
-
-對話由 CZ 踏入錄音室的輕鬆氛圍展開，但隨即切入最具震撼力的話題：監獄生活。CZ 以一種平靜且近乎客觀的態度描述那四個月的時光。對於一位曾掌控千億級交易所、習慣隨時調動龐大資源的領袖來說，監獄是一個徹底剝奪自主權的「純粹空間」。🌵
-
-> 「在監獄裡，你什麼都沒有，除了你的思想。這是我第一次真正被迫停下來，回頭看幣安所經歷的一切。」—— CZ (趙長鵬)
-
----
-
-<b>時空章節 00:15 - 00:30：40 億美元的和解與幣安的法律代價</b>
-
-話題轉向了讓幣安重創、也讓產業震驚的 40 億美元罰款。CZ 詳細解釋了這場與美國司法部（DOJ）長期博弈的終局。他強調，這是一個「不完美但必要」的妥協。為了保住幣安的營運、保護數千萬用戶的資產，他必須接受這份極其沉重的協議。🌵
-
----
-
-<b>時空章節 00:30 - 00:45：Giggle Academy：CZ 的教育新戰場</b>
-
-卸下幣安光環後，CZ 的下一個大計並非重回加密領域，而是創立了 Giggle Academy。他眼中閃爍著對這個教育項目的熱情，這是一個旨在為全球無法接受正規教育的兒童提供免費線上課程的平台。🌵
-
----
-
-<b>時空章節 00:45 - 01:00：FTX 崩塌後的冷思考與加密產業的修復</b>
-
-不可避免地，對話觸及了 SBF 與 FTX 的覆滅。CZ 以一種帶著遺憾的口氣談論這件事。他指出，FTX 的失敗與幣安的合規問題完全不同——那是純粹的挪用客戶資金與欺詐。🌵
-
----
-
-<b>時空章節 01:00 - 01:15：AI 與加密貨幣的交會點：未來的兩大支柱</b>
-
-主持人將話題引導至當下最熱門的 AI 技術。CZ 展現了他作為技術專家的敏銳。他認為 AI 與加密貨幣是天生一對：AI 需要龐大的算力與數據處理能力，而加密貨幣則提供了最完美的底層支付與激勵機制。🌵
-
----
-
-<b>時空章節 01:15 - 01:30：法律、合規與全球公民的無奈</b>
-
-這部分對話深入探討了 CZ 身份中的「全球性」與隨之而來的法律風險。他提到了一種「全球公民」的孤獨感。當你的公司是去中心化的，當你的團隊遍布全球，你該效忠於哪一套法律？🌵
-
----
-
-<b>時空章節 01:30 - 01:57：未來展望：不做執行長，做一個觀察者與賦能者</b>
-
-訪談進入尾聲，CZ 談到了他的個人生活與心態轉變。他最後重申了他對加密貨幣長期的信仰。儘管經歷了牢獄之災與數十億美元的損失，他依然認為比特幣與去中心化技術是人類歷史上最重要的發明之一。🌵
-
-> 「我的人生第一階段是學習，第二階段是建設，現在我進入了第三階段：回饋。這是我最期待的一段旅程。」—— CZ (趙長鵬)</div>
-                </div>
-                <button class="expand-btn" onclick="toggleExpand('podcast-cz')">
-                    <i class="fas fa-chevron-down"></i> 閱讀完整摘要
-                </button>
-                <a href="https://www.youtube.com/watch?v=vQwXgxJxwnw" class="link-btn" style="color: var(--podcast-accent); margin-top: 15px;">
-                    LISTEN TO ORIGINAL <i class="fas fa-external-link-alt"></i>
-                </a>
+            <div id="podcast-container">
+                <p>⏳ 正在載入最新 Podcast 內容...</p>
             </div>
         </div>
 
         <aside class="sidebar">
-            <h3><i class="fas fa-archive"></i> 日報存檔</h3>
-            <ul class="archive-list">
-                <li class="archive-item">
-                    <a href="/daily-curation/" class="archive-link active">
-                        <i class="far fa-calendar-check"></i> 2026-02-14 (今日)
-                    </a>
-                </li>
-                <li class="archive-item">
-                    <a href="/daily-curation/archive/2026-02-13.html" class="archive-link">
-                        <i class="far fa-calendar"></i> 2026-02-13
-                    </a>
-                </li>
-                <li class="archive-item">
-                    <a href="/daily-curation/archive/2026-02-12.html" class="archive-link">
-                        <i class="far fa-calendar"></i> 2026-02-12
-                    </a>
-                </li>
-            </ul>
+            <div class="archive-sidebar" style="padding: 20px; background-color: #f9f9f6; border-radius: 8px;">
+                <div class="archive-section">
+                    <h3 style="font-size: 1.1em; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px;">
+                        📁 日報存檔
+                    </h3>
+                    <ul id="daily-archive-list" style="list-style-type: none; padding-left: 0; line-height: 1.8;">
+                        <li><a href="index.html" style="color: #333; text-decoration: none;">📄 2026-02-14 (今日)</a></li>
+                        <li><a href="archive/2026-02-13.html" style="color: #333; text-decoration: none;">📄 2026-02-13</a></li>
+                    </ul>
+                </div>
+
+                <hr style="border: 0; border-top: 1px dashed #ccc; margin: 30px 0;">
+
+                <div class="archive-section">
+                    <h3 style="font-size: 1.1em; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-bottom: 15px;">
+                        🎙️ PODCAST 存檔
+                    </h3>
+                    <ul id="podcast-archive-list" style="list-style-type: none; padding-left: 0; line-height: 1.8;">
+                        <li style="margin-bottom: 10px;">
+                            <a href="archive/2026-02-13.html#podcast-container" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.95em;">
+                                All-In Podcast: 趙長鵬(CZ) 專訪 —— 牢獄、罰款與 Giggle Academy
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="archive/2026-02-10.html#podcast-container" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.95em;">
+                                Lex Fridman Podcast: Sam Altman 深度訪談
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </aside>
     </div>
 
     <script>
-        function toggleExpand(id) {
-            const el = document.getElementById(id);
-            const btn = el.nextElementSibling;
-            el.classList.toggle('expanded');
-            if (el.classList.contains('expanded')) {
-                btn.innerHTML = '<i class="fas fa-chevron-up"></i> 收起摘要';
-            } else {
-                btn.innerHTML = '<i class="fas fa-chevron-down"></i> 閱讀完整摘要';
+        async function loadPodcastData() {
+            try {
+                const response = await fetch('podcast_data.json');
+                const dataList = await response.json();
+                const container = document.getElementById('podcast-container');
+                container.innerHTML = '';
+                const podcastsToShow = dataList.slice(0, 2);
+                podcastsToShow.forEach((data, index) => {
+                    const textId = `podcast-summary-text-${index}`;
+                    const maskId = `podcast-fade-mask-${index}`;
+                    const btnId = `toggle-podcast-btn-${index}`;
+                    const cardHTML = `
+                        <div class="podcast-card" style="padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 25px;">
+                            <h3 style="margin-top: 0; color: #222;">🎙️ ${data.title}</h3>
+                            <p style="color: #777; font-size: 0.9em;">📅 更新日期：${data.date}</p>
+                            <div style="position: relative;">
+                                <div id="${textId}" style="max-height: 200px; overflow: hidden; line-height: 1.8; color: #333; transition: max-height 0.3s ease;">
+                                    ${data.summary}
+                                </div>
+                                <div id="${maskId}" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); pointer-events: none;"></div>
+                            </div>
+                            <div style="margin-top: 15px; display: flex; gap: 15px; align-items: center;">
+                                <button id="${btnId}" onclick="togglePodcast(${index})" style="padding: 8px 16px; background-color: #f1f3f5; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; font-weight: bold; color: #495057; transition: background 0.2s;">
+                                    👀 閱讀全文
+                                </button>
+                                <a href="${data.url}" target="_blank" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.95em;">
+                                    🎧 前往收聽原始來源
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += cardHTML;
+                });
+            } catch (error) {
+                console.error("讀取 Podcast 資料時發生錯誤：", error);
+                document.getElementById('podcast-container').innerHTML = "<p>⚠️ 目前無法載入 Podcast 內容。</p>";
             }
         }
+        window.togglePodcast = function(index) {
+            const textId = `podcast-summary-text-${index}`;
+            const maskId = `podcast-fade-mask-${index}`;
+            const btnId = `toggle-podcast-btn-${index}`;
+            const textDiv = document.getElementById(textId);
+            const maskDiv = document.getElementById(maskId);
+            const btn = document.getElementById(btnId);
+            if (textDiv.style.maxHeight === '200px' || textDiv.style.maxHeight === '') {
+                textDiv.style.maxHeight = 'none';
+                maskDiv.style.display = 'none';
+                btn.innerHTML = '收起內容 ⬆️';
+            } else {
+                textDiv.style.maxHeight = '200px';
+                maskDiv.style.display = 'block';
+                btn.innerHTML = '👀 閱讀全文';
+            }
+        };
+        loadPodcastData();
     </script>
-    <footer><p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · v4.0 Saturday Edition</p></footer>
+    <footer><p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · v4.2</p></footer>
 </body>
 </html>
