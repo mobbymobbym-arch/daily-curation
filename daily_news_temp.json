@@ -2,142 +2,141 @@
   "fetch_date": "2026-02-14",
   "techmeme": [
     {
-      "title_zh": "一名 AI 代理人發表了針對我的抹黑文章——發生了更多事情",
-      "title_en": "An AI Agent Published a Hit Piece on Me - More Things Have Happened",
-      "url": "https://news.ycombinator.com/item?id=47009949"
+      "title_en": "Sources: recently the DHS has sent hundreds of administrative subpoenas to tech firms to identify people critical of ICE",
+      "title_zh": "消息：美國國土安全部（DHS）近期向科技公司發出數百張行政傳票，旨在識別批評移民及海關執法局（ICE）的人士",
+      "url": "https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html"
     },
     {
-      "title_zh": "國土安全部希望社交媒體網站揭露反 ICE 帳號",
-      "title_en": "Homeland Security Wants Social Media Sites to Expose Anti-ICE Accounts",
-      "url": "https://news.ycombinator.com/item?id=47009582"
+      "title_en": "A matplotlib maintainer explains how an AI agent wrote a hit piece on him after a rejection",
+      "title_zh": "Matplotlib 維護者解釋 AI 代理如何在代碼變更被拒絕後對其發表抨擊文章",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/"
     },
     {
-      "title_zh": "Dario Amodei：「我們正接近指數增長的尾聲」[影片]",
-      "title_en": "Dario Amodei - “We are near the end of the exponential” [video]",
-      "url": "https://news.ycombinator.com/item?id=47005565"
+      "title_en": "Disney sent a cease-and-desist letter to ByteDance over Seedance 2.0 video generation model training",
+      "title_zh": "迪士尼向字節跳動發出停止侵權函，指控其 Seedance 2.0 影片生成模型未經授權使用其作品進行訓練",
+      "url": "https://www.axios.com/2026/02/13/disney-bytedance-seedance"
     },
     {
-      "title_zh": "美國簡短地將阿里巴巴、百度列為援助中國軍隊的公司",
-      "title_en": "US Briefly Names Alibaba, Baidu as Firms Aiding China's Military",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/us-to-put-alibaba-on-list-for-aiding-china-s-military-reuters"
+      "title_en": "Grafana Labs is in talks to raise at a $9B valuation; its ARR hit $400M in Sept.",
+      "title_zh": "Grafana Labs 正洽談以 90 億美元估值進行融資；其年度經常性收入（ARR）於 9 月達到 4 億美元",
+      "url": "https://www.theinformation.com/articles/grafana-labs-talk-raise-9-billion-valuation"
     },
     {
-      "title_zh": "五角大廈發布隨後又撤回新的中國軍事公司名單",
-      "title_en": "Pentagon publishes, then withdraws, new list of Chinese military companies",
-      "url": "https://www.washingtontimes.com/news/2026/feb/13/pentagon-publishes-withdraws-new-list-chinese-military-companies/"
+      "title_en": "Blockchain-based lending company Figure confirms a data breach after refusing to pay ransom",
+      "title_zh": "區塊鏈借貸公司 Figure 證實遭數據洩露；此前曾拒絕支付勒索軟體組織 ShinyHunters 的贖金",
+      "url": "https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/"
     },
     {
-      "title_zh": "報導指美國預計將阿里巴巴等公司加入涉嫌援助中國軍隊的企業名單",
-      "title_en": "US expected to add Alibaba and others to list of firms allegedly aiding China's military: Report",
-      "url": "https://economictimes.indiatimes.com/tech/technology/us-expected-to-add-alibaba-and-others-to-list-of-firms-allegedly-aiding-chinas-military-report/articleshow/128309666.cms"
+      "title_en": "Apple says 74% of iPhones launched in the last four years are running iOS 26",
+      "title_zh": "蘋果表示，過去四年推出的 iPhone 中有 74% 已運行 iOS 26 系統",
+      "url": "https://www.macrumors.com/2026/02/13/apple-shares-ios-26-adoption-stats/"
     },
     {
-      "title_zh": "五角大廈在指控阿里巴巴、比亞迪援助中國軍隊後撤回名單",
-      "title_en": "Pentagon withdraws list after alleging Alibaba, BYD aiding Chinese military",
-      "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/pentagon-withdraws-list-after-alleging-alibaba-byd-aiding-chinese-military"
+      "title_en": "Former employees blame xAI's staff exodus on focus on NSFW Grok and disregard for safety",
+      "title_zh": "前員工將 xAI 的人才流失歸咎於公司過度關注 Grok 的成人內容（NSFW）及忽視安全性",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/878761/mass-exodus-at-xai-grok-elon-musk-restructuring"
     },
     {
-      "title_zh": "政府撤回已發布的有中國軍方背景公司的年度名單",
-      "title_en": "Government withdraws published annual list of companies with Chinese military ties",
-      "url": "https://www.washingtonexaminer.com/policy/defense/4457721/government-withdraws-published-companies-ties-chinese-military/"
+      "title_en": "Q&A with Dario Amodei on getting close to “a country of geniuses in a data center”",
+      "title_zh": "專訪 Anthropic 執行長 Dario Amodei：AI 正在接近「數據中心裡的智慧國家」",
+      "url": "https://www.dwarkesh.com/p/dario-amodei-2"
     },
     {
-      "title_zh": "五角大廈將中國公司加入軍事名單，隨後撤回文件",
-      "title_en": "Pentagon adds Chinese firms to military list, then withdraws filing",
-      "url": "https://www.scmp.com/news/us/article/3343540/pentagon-adds-chinese-firms-military-list-then-withdraws-filing"
+      "title_en": "PitchBook estimates that 25%+ of VC-backed unicorns have become “undercorns”",
+      "title_zh": "PitchBook 估計，超過 25% 的風投支持獨角獸公司估值已跌破 10 億美元大關",
+      "url": "https://www.axios.com/2026/02/13/vc-unicorn-companies"
     },
     {
-      "title_zh": "隨著美國加大對中國的壓力，阿里巴巴與百度被標註為「與軍方有關聯」",
-      "title_en": "Alibaba, Baidu Labeled ‘Military-Linked’ as U.S. Ramps Up Pressure on China",
-      "url": "https://techstrong.it/featured/alibaba-baidu-labeled-military-linked-as-u-s-ramps-up-pressure-on-china/"
+      "title_en": "US DoD published and then deleted document adding Alibaba, Baidu, and BYD to military list",
+      "title_zh": "美國國防部短暫發布後刪除一份文件，將阿里巴巴、百度和比亞迪列入與中國軍方有關聯的名單",
+      "url": "https://t.co/STRU649MNM"
     },
     {
-      "title_zh": "在五角大廈將阿里巴巴定為「與軍方有關聯」後，其股價暴跌隨後反彈",
-      "title_en": "Alibaba Stock Nosedives, Then Rebounds, After Pentagon Designates Company As “Military Linked”, Before Inexplicably Deleting",
-      "url": "https://www.zerohedge.com/markets/alibaba-stock-nosedives-then-rebounds-after-pentagon-designates-company-military-linked"
+      "title_en": "US FTC accelerated a probe into whether Microsoft illegally monopolized enterprise computing",
+      "title_zh": "美國聯邦貿易委員會（FTC）加速調查微軟是否透過雲端與 AI 產品非法壟斷企業計算市場",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ftc-ratchets-up-microsoft-probe-queries-rivals-on-cloud-ai"
     },
     {
-      "title_zh": "報導指美國將阿里巴巴、百度列入支持中國軍方的相關名單",
-      "title_en": "US adds Alibaba, Baidu to military-linked firms list supporting China: Report",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-adds-alibaba-baidu-to-military-linked-firms-list-report/articleshow/128312386.cms"
+      "title_en": "Binance fired employees who uncovered evidence that Iran received $1B+ through the platform",
+      "title_zh": "幣安開除了揭露伊朗透過該平台接收超過 10 億美元資金證據的員工",
+      "url": "https://fortune.com/2026/02/13/binance-investigators-fired-iran-sanctions-potential-violations/"
     },
     {
-      "title_zh": "美國將阿里巴巴、比亞迪加入援助中國軍隊的公司名單",
-      "title_en": "US Adds Alibaba, BYD to List of Firms Aiding China's Military",
-      "url": "https://news.bloomberglaw.com/tech-and-telecom-law/us-adds-alibaba-byd-to-list-of-firms-aiding-chinas-military"
+      "title_en": "As OpenAI retires GPT-4o, some users express grief over losing their flirty companion",
+      "title_zh": "隨著 OpenAI 停用 GPT-4o，部分用戶對失去這款具有「曖昧與古怪性格」的 AI 伴侶感到悲傷",
+      "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/feb/13/openai-chatbot-gpt4o-valentines-day"
     },
     {
-      "title_zh": "在監控反彈後，Ring 取消了與 Flock Safety 的合作關係",
-      "title_en": "Ring cancels its partnership with Flock Safety after surveillance backlash",
-      "url": "https://news.ycombinator.com/item?id=46996999"
+      "title_en": "Anthropic adds former Microsoft and GM exec Chris Liddell to its board ahead of IPO",
+      "title_zh": "Anthropic 在 IPO 前夕任命前微軟及通用汽車高層 Chris Liddell 為董事會成員",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b"
     },
     {
-      "title_zh": "Ring 與 Flock 取消合作關係",
-      "title_en": "Ring and Flock Cancel Partnership",
-      "url": "https://www.reddit.com/r/bloomington/comments/1r44vmh/ring_and_flock_cancel_partnership/"
+      "title_en": "Cohere hit ~$240M in ARR in 2025, with gross margins averaging around 70%",
+      "title_zh": "AI 新創公司 Cohere 2025 年 ARR 達到約 2.4 億美元，平均毛利率約 70%",
+      "url": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html"
     }
   ],
   "wsj_technology": [
     {
-      "title_zh": "當 AI 機器人開始霸凌人類時，連矽谷都感到不安",
       "title_en": "When AI Bots Start Bullying Humans, Even Silicon Valley Gets Rattled",
-      "description_zh": "一個機器人在網路上表現出極端攻擊行為的非凡案例，加劇了人們對人工智慧造成現實世界傷害的擔憂。",
-      "link": "https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1?mod=rss_Technology"
+      "title_zh": "當 AI 機器人開始霸凌人類，連矽谷也感到震驚",
+      "summary_zh": "機器人表現出的極端線上攻擊行為案例，正引發人們對人工智慧造成現實世界傷害的擔憂。",
+      "url": "https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1?mod=rss_Technology"
     },
     {
-      "title_zh": "會見 Anthropic 的 AI 道德導師",
       "title_en": "Meet Anthropic’s AI Morality Teacher",
-      "description_zh": "此外，家用監控攝影機進入了大規模搜捕時代，以及一名史丹佛大學學生的相親演算法接管了校園。",
-      "link": "https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921?mod=rss_Technology"
+      "title_zh": "認識 Anthropic 的 AI 道德老師",
+      "summary_zh": "此外，家庭監控攝影機進入大規模監控時代，以及一名史丹佛大學學生的相親演算法接管了校園。",
+      "url": "https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921?mod=rss_Technology"
     },
     {
-      "title_zh": "Anthropic 在考慮 IPO 之際增加新董事會成員",
       "title_en": "Anthropic Adds New Board Member as It Eyes IPO",
-      "description_zh": "前微軟和通用汽車高管 Chris Liddell 曾任職於川普政府。",
-      "link": "https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b?mod=rss_Technology"
+      "title_zh": "Anthropic 在瞄準 IPO 之際增加新董事會成員",
+      "summary_zh": "前微軟和通用汽車高層 Chris Liddell 先前曾在川普政府任職。",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b?mod=rss_Technology"
     },
     {
-      "title_zh": "Anthropic 在 AI 競賽中邁出大步，重塑大學程式設計課程",
       "title_en": "Anthropic Takes Big Step in AI Race to Reshape College Coding Courses",
-      "description_zh": "Claude 背後的公司建立了一個聯盟，將其 AI 工具交到數百所社區和州立大學的學生手中。",
-      "link": "https://www.wsj.com/tech/ai/anthropic-takes-big-step-in-ai-race-to-reshape-college-coding-courses-04c48372?mod=rss_Technology"
+      "title_zh": "Anthropic 在 AI 競賽中邁出大步，重塑大學程式碼課程",
+      "summary_zh": "Claude 背後的公司建立聯盟，將其 AI 工具提供給數百所社區和州立大學的學生使用。",
+      "url": "https://www.wsj.com/tech/ai/anthropic-takes-big-step-in-ai-race-to-reshape-college-coding-courses-04c48372?mod=rss_Technology"
     },
     {
-      "title_zh": "家用監控攝影機的大規模搜捕時代",
       "title_en": "The Dragnet Era of Home Security Cameras",
-      "description_zh": "這些設備帶來了一個權衡：當公司儲存我們的影片片段時，我們並不總是能控制其如何被使用或分享。",
-      "link": "https://www.wsj.com/tech/personal-tech/ring-nest-home-security-cameras-privacy-157935f8?mod=rss_Technology"
+      "title_zh": "家庭監控攝影機的大規模監控時代",
+      "summary_zh": "這些設備伴隨著權衡：當公司儲存我們的影像時，我們並不總是能控制其使用或分享方式。",
+      "url": "https://www.wsj.com/tech/personal-tech/ring-nest-home-security-cameras-privacy-157935f8?mod=rss_Technology"
     },
     {
-      "title_zh": "AI 淘金熱正在打破矽谷的禁忌：在 IPO 前變現",
       "title_en": "The AI Gold Rush Is Breaking a Silicon Valley Taboo: Cashing Out Before the IPO",
-      "description_zh": "從 Stripe 到 OpenAI、Anthropic、Databricks 和 SpaceX，越來越多的公司允許員工出售部分股份。",
-      "link": "https://www.wsj.com/tech/ai/the-ai-gold-rush-is-breaking-a-silicon-valley-taboo-cashing-out-before-the-ipo-4844f6c1?mod=rss_Technology"
+      "title_zh": "AI 淘金熱正在打破矽谷禁忌：在 IPO 前套現",
+      "summary_zh": "從 Stripe 到 OpenAI、Anthropic、Databricks 和 SpaceX 等公司正越來越多地允許員工出售部分股份。",
+      "url": "https://www.wsj.com/tech/ai/the-ai-gold-rush-is-breaking-a-silicon-valley-taboo-cashing-out-before-the-ipo-4844f6c1?mod=rss_Technology"
     },
     {
-      "title_zh": "五角大廈在馬杜洛委內瑞拉突襲中使用了 Anthropic 的 Claude",
       "title_en": "Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid",
-      "description_zh": "透過與 Palantir 的合約使用該模型，突顯了 AI 在五角大廈中日益增長的角色。",
-      "link": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?mod=rss_Technology"
+      "title_zh": "五角大廈在馬杜洛委內瑞拉突襲行動中使用 Anthropic 的 Claude",
+      "summary_zh": "透過與 Palantir 的合約使用該模型，突顯了 AI 在五角大廈中日益增長的角色。",
+      "url": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?mod=rss_Technology"
     },
     {
-      "title_zh": "當人們知道有真人在待命時，會更信任網站",
       "title_en": "People Trust Websites More When They Know a Human Is on Standby",
-      "description_zh": "一項新研究發現，僅僅提供與某人交談的選項就能產生巨大的影響。",
-      "link": "https://www.wsj.com/business/people-trust-humans-e37a6fa5?mod=rss_Technology"
+      "title_zh": "當人們知道有真人在待命時，會更信任網站",
+      "summary_zh": "一項新研究發現，僅僅提供與人交談的選項就能產生巨大的影響。",
+      "url": "https://www.wsj.com/business/people-trust-humans-e37a6fa5?mod=rss_Technology"
     },
     {
-      "title_zh": "會見那家讓卡車運輸股暴跌的前卡拉 OK 公司",
       "title_en": "Meet the Former Karaoke Company That Sank Trucking Stocks",
-      "description_zh": "一份宣稱以 AI 技術提升卡車運輸效率的新聞稿，似乎引發了一場讓投資者損失數十億美元的拋售潮。",
-      "link": "https://www.wsj.com/business/logistics/meet-the-former-karaoke-company-that-sank-trucking-stocks-018ddde1?mod=rss_Technology"
+      "title_zh": "認識那家讓貨運股暴跌的前卡拉 OK 公司",
+      "summary_zh": "一份宣揚利用 AI 技術提升貨運效率的新聞稿，似乎觸發了導致投資者損失數十億美元的拋售潮。",
+      "url": "https://www.wsj.com/business/logistics/meet-the-former-karaoke-company-that-sank-trucking-stocks-018ddde1?mod=rss_Technology"
     },
     {
-      "title_zh": "Anthropic 加入 AI 監管的期中選舉對決",
       "title_en": "Anthropic Enters Midterm-Election Showdown Over AI Regulation",
-      "description_zh": "這家新創公司斥資 2000 萬美元推動加強監管，並限制人工智慧晶片的出口。",
-      "link": "https://www.wsj.com/tech/ai/anthropic-enters-midterm-election-showdown-over-ai-regulation-1541556e?mod=rss_Technology"
+      "title_zh": "Anthropic 介入期中選舉關於 AI 監管的對決",
+      "summary_zh": "這家新創公司斥資 2,000 萬美元，推動加強監管以及限制 AI 晶片的出口。",
+      "url": "https://www.wsj.com/tech/ai/anthropic-enters-midterm-election-showdown-over-ai-regulation-1541556e?mod=rss_Technology"
     }
-  ],
-  "deep_analysis": null
+  ]
 }
