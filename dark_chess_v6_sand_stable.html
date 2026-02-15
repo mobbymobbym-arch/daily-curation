@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>暗棋大師：典藏對弈</title>
+    
+    <!-- PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="暗棋大師">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --crimson: #8e1a1a;
+            --charcoal: #2a2a2a;
+            --sand: #c5bba8;
+            --grid-line: #4a2c1d;
+            --token-brown: #a65d1d;
+            --token-shadow: #6d3a12;
+            --safe-top: env(safe-area-inset-top);
+            --safe-bottom: env(safe-area-inset-bottom);
+        }
+
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            background-color: var(--sand);
+            background-image: url('https://www.transparenttextures.com/patterns/sandpaper.png');
+            margin: 0;
+            padding: 0;
+            font-family: "Noto Serif TC", serif;
+            display: flex;
+            flex-direction: column;
+            height: 100dvh;
+            overflow: hidden;
+            user-select: none;
+            color: var(--grid-line);
+        }
+
+        /* Top Badges - Mimicking the Screenshot */
+        .header {
+            padding: calc(15px + var(--safe-top)) 20px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .badge {
+            position: relative;
+            padding: 8px 25px;
+            font-weight: 900;
+            font-size: 16px;
+            color: #f4ece0;
+            background: #333;
+            border: 2px solid #555;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .badge.player { border-color: #d35400; background: linear-gradient(to right, #444, #222); }
+        .badge.opponent { border-color: #2980b9; background: linear-gradient(to right, #222, #444); }
+        
+        .badge::after {
+            content: '';
+            position: absolute;
+            top: -5px; width: 10px; height: 20px;
+        }
+        .badge.player::after { left: -10px; background: #d35400; clip-path: polygon(0 0, 100% 50%, 0 100%); }
+        .badge.opponent::after { right: -10px; background: #2980b9; clip-path: polygon(100% 0, 0 50%, 100% 100%); }
+
+        .player-label { color: #d35400; }
+        .opponent-label { color: #2980b9; }
+
+        /* Game Status */
+        .status-msg {
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            height: 50px;
+            font-weight: 700;
+            color: var(--grid-line);
+        }
+
+        /* Board - Grid Style from Screenshot */
+        .main-stage {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            min-height: 0;
+        }
+
+        .chess-grid {
+            border: 4px double var(--grid-line);
+            padding: 2px;
+            width: 100%;
+            height: 100%;
+            max-width: calc((100dvh - 200px) * 0.5);
+            max-height: calc(100dvh - 200px);
+            aspect-ratio: 4 / 8;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            position: relative;
+        }
+
+        .slot {
+            border: 1px solid var(--grid-line);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Token Design - 3D Wooden Style from Screenshot */
+        .token {
+            width: 85%;
+            height: 85%;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: min(7vw, 28px);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+            position: relative;
+        }
+
+        .token.hidden {
+            background: radial-gradient(circle at 30% 30%, var(--token-brown), var(--token-shadow));
+            border: 1px solid #442200;
+            box-shadow: 0 6px 0 #4a2c1d, 0 10px 15px rgba(0,0,0,0.4);
+        }
+
+        .token.revealed {
+            background: #fff;
+            background-image: radial-gradient(circle at 30% 30%, #fff, #ddd);
+            box-shadow: 0 4px 0 #999, 0 6px 10px rgba(0,0,0,0.2);
+        }
+        .token.red { color: var(--crimson); border: 2px solid var(--crimson); }
+        .token.black { color: var(--charcoal); border: 2px solid var(--charcoal); }
+
+        .token.active { 
+            transform: scale(1.1) translateY(-10px); 
+            box-shadow: 0 20px 30px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+
+        .focus-ring::after {
+            content: '';
+            position: absolute;
+            inset: -5px;
+            border: 2px dashed #d35400;
+            border-radius: 50%;
+            animation: rotate 6s linear infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+        /* Controls */
+        .footer-tools {
+            padding: 10px 25px calc(15px + var(--safe-bottom));
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .action-btn {
+            width: 80%;
+            max-width: 200px;
+            padding: 12px;
+            background: var(--grid-line);
+            color: #f4ece0;
+            border: none;
+            border-radius: 4px;
+            font-weight: 900;
+            font-size: 16px;
+            box-shadow: 0 4px 0 #000;
+            letter-spacing: 2px;
+        }
+        .action-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 #000; }
+
+        /* Stats Overlay */
+        .overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+        }
+        .scroll-box {
+            background: var(--sand);
+            width: 85%;
+            max-width: 320px;
+            padding: 30px 20px;
+            border: 4px solid var(--grid-line);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div id="p-badge" class="badge player">玩家 <span id="p-side">?</span></div>
+        <div onclick="toggleStats()" style="cursor:pointer; font-size: 24px;"><i class="fas fa-trophy"></i></div>
+        <div id="o-badge" class="badge opponent">對手 <span id="o-side">?</span></div>
+    </header>
+
+    <div class="status-msg" id="status">棋局待發</div>
+
+    <main class="main-stage">
+        <div id="board" class="chess-grid"></div>
+    </main>
+
+    <div class="footer-tools">
+        <button class="action-btn" onclick="confirmReset()">求和 / 重開</button>
+    </div>
+
+    <div id="modal" class="overlay">
+        <div class="scroll-box">
+            <h2 style="margin-top:0">棋局戰報</h2>
+            <div id="summary" style="font-size: 1.2rem; margin: 20px 0; color: var(--crimson)"></div>
+            <div id="history" style="max-height: 200px; overflow-y: auto; font-family: sans-serif; font-size: 14px; text-align: left;"></div>
+            <button class="action-btn" style="margin-top:20px; width:100%" onclick="toggleStats()">返回</button>
+        </div>
+    </div>
+
+    <script>
+        const VALS = { '帥': 7, '將': 7, '仕': 6, '士': 6, '相': 5, '象': 5, '俥': 4, '車': 4, '傌': 3, '馬': 3, '炮': 2, '包': 2, '兵': 1, '卒': 1 };
+        const WEIGHTS = { 7: 2000, 6: 1000, 5: 700, 4: 500, 3: 350, 2: 450, 1: 150 };
+        const CFG = [
+            {t:'帥', l:7, c:'red', n:1}, {t:'將', l:7, c:'black', n:1},
+            {t:'仕', l:6, c:'red', n:2}, {t:'士', l:6, c:'black', n:2},
+            {t:'相', l:5, c:'red', n:2}, {t:'象', l:5, c:'black', n:2},
+            {t:'俥', l:4, c:'red', n:2}, {t:'車', l:4, c:'black', n:2},
+            {t:'傌', l:3, c:'red', n:2}, {t:'馬', l:3, c:'black', n:2},
+            {t:'炮', l:2, c:'red', n:2}, {t:'包', l:2, c:'black', n:2},
+            {t:'兵', l:1, c:'red', n:5}, {t:'卒', l:1, c:'black', n:5}
+        ];
+
+        let board = [], playerColor = null, turn = null, selected = null, lastIdx = -1, over = false, aiThinking = false;
+
+        function start() {
+            let p = [];
+            CFG.forEach(x => { for(let i=0; i<x.n; i++) p.push({...x, flipped: false}); });
+            board = p.sort(() => Math.random() - 0.5);
+            playerColor = turn = selected = null;
+            lastIdx = -1; over = aiThinking = false;
+            draw();
+            syncUI();
+        }
+
+        function draw() {
+            const el = document.getElementById('board');
+            el.innerHTML = '';
+            board.forEach((p, i) => {
+                const s = document.createElement('div');
+                s.className = 'slot' + (i === lastIdx ? ' focus-ring' : '');
+                s.onclick = () => tap(i);
+                if(p) {
+                    const t = document.createElement('div');
+                    t.className = p.flipped ? `token revealed ${p.c}${selected === i ? ' active' : ''}` : 'token hidden';
+                    t.innerText = p.flipped ? p.t : '';
+                    s.appendChild(t);
+                }
+                el.appendChild(s);
+            });
+        }
+
+        function tap(i) {
+            if(over || aiThinking) return;
+            const p = board[i];
+
+            if(p && !p.flipped) {
+                p.flipped = true;
+                lastIdx = i;
+                if(!playerColor) {
+                    playerColor = p.c;
+                    turn = (p.c === 'red' ? 'black' : 'red');
+                } else {
+                    turn = (turn === 'red' ? 'black' : 'red');
+                }
+                check();
+                return;
+            }
+
+            if(p && p.flipped && p.c === turn) {
+                if(playerColor && p.c !== playerColor) return;
+                selected = i;
+                draw();
+                return;
+            }
+
+            if(selected !== null) {
+                if(canMove(selected, i, board)) {
+                    board[i] = board[selected];
+                    board[selected] = null;
+                    lastIdx = i;
+                    selected = null;
+                    turn = (turn === 'red' ? 'black' : 'red');
+                    check();
+                } else {
+                    selected = null;
+                    draw();
+                }
+            }
+        }
+
+        function canMove(f, t, b) {
+            const p1 = b[f], p2 = b[t];
+            if(!p1) return false;
+            const r1 = Math.floor(f/4), c1 = f%4, r2 = Math.floor(t/4), c2 = t%4;
+            const dist = Math.abs(r1-r2) + Math.abs(c1-c2);
+
+            if(p1.l === 2) {
+                if(r1 !== r2 && c1 !== c2) return false;
+                let mids = 0;
+                if(r1 === r2) {
+                    for(let k = Math.min(c1, c2)+1; k < Math.max(c1, c2); k++) if(board[r1*4+k]) mids++;
+                } else {
+                    for(let k = Math.min(r1, r2)+1; k < Math.max(r1, r2); k++) if(board[k*4+c1]) mids++;
+                }
+                if(!p2) return mids === 0 && dist === 1;
+                return (p2 && p2.flipped && mids === 1 && p1.c !== p2.c);
+            }
+
+            if(dist !== 1) return false;
+            if(!p2) return true;
+            if(!p2.flipped || p1.c === p2.c) return false;
+            if(p1.l === 7 && p2.l === 1) return false;
+            if(p1.l === 1 && p2.l === 7) return true;
+            return p1.l >= p2.l;
+        }
+
+        function check() {
+            draw();
+            syncUI();
+            const r = board.filter(p => p && p.c === 'red').length;
+            const b = board.filter(p => p && p.c === 'black').length;
+            let winner = r === 0 ? 'black' : (b === 0 ? 'red' : null);
+            if(winner) {
+                over = true;
+                const win = winner === playerColor;
+                save(win);
+                setTimeout(() => alert(win ? "智勇雙全，捷報頻傳！" : "力戰不支，尚需努力。"), 300);
+                return;
+            }
+            if(turn && turn !== playerColor) ai();
+        }
+
+        function ai() {
+            aiThinking = true;
+            syncUI();
+            setTimeout(() => {
+                const mine = (playerColor === 'red' ? 'black' : 'red');
+                let moves = [];
+                board.forEach((p, i) => {
+                    if(!p) return;
+                    if(!p.flipped) moves.push({ type: 'flip', f: i, s: 100 + Math.random() * 50 });
+                    else if(p.c === mine) {
+                        for(let t=0; t<32; t++) if(canMove(i, t, board)) moves.push({ type: 'move', f: i, t: t, s: score(i, t, mine) });
+                    }
+                });
+                if(moves.length === 0) { over = true; syncUI(); return; }
+                moves.sort((a, b) => b.s - a.s);
+                const best = moves.filter(m => m.s > moves[0].s - 20);
+                const m = best[Math.floor(Math.random() * best.length)];
+                if(m.type === 'flip') { board[m.f].flipped = true; lastIdx = m.f; }
+                else { board[m.t] = board[m.f]; board[m.f] = null; lastIdx = m.t; }
+                aiThinking = false;
+                turn = playerColor;
+                check();
+            }, 800);
+        }
+
+        function score(f, t, mine) {
+            const p = board[f], tar = board[t];
+            let s = tar ? WEIGHTS[tar.l] * 2 : 10;
+            const next = [...board]; next[t] = next[f]; next[f] = null;
+            let risk = 0;
+            next.forEach((ep, ei) => { if(ep && ep.flipped && ep.c !== mine && canMove(ei, t, next)) risk = Math.max(risk, WEIGHTS[p.l]); });
+            return s - (risk * 1.6);
+        }
+
+        function syncUI() {
+            const st = document.getElementById('status'), pS = document.getElementById('p-side'), oS = document.getElementById('o-side');
+            if(playerColor) {
+                pS.innerText = playerColor === 'red' ? '(紅)' : '(黑)';
+                oS.innerText = playerColor === 'red' ? '(黑)' : '(紅)';
+            }
+            st.innerText = over ? "局終" : (aiThinking ? "對手思考中..." : (turn === playerColor ? "請走子" : "對手走子"));
+        }
+
+        function save(win) {
+            let h = JSON.parse(localStorage.getItem('darkchess_v6') || '[]');
+            h.unshift({ win, date: new Date().toLocaleString('zh-TW') });
+            localStorage.setItem('darkchess_v6', JSON.stringify(h.slice(0, 50)));
+        }
+
+        function toggleStats() {
+            const m = document.getElementById('modal'), h = JSON.parse(localStorage.getItem('darkchess_v6') || '[]');
+            const wins = h.filter(x => x.win).length;
+            document.getElementById('summary').innerText = `勝率：${h.length ? (wins/h.length*100).toFixed(1) : 0}% (${wins}/${h.length})`;
+            document.getElementById('history').innerHTML = h.map(x => `
+                <div style="border-bottom:1px solid #ddd; padding:8px 0; display:flex; justify-content:space-between">
+                    <span>${x.date}</span>
+                    <span style="color:${x.win?'var(--crimson)':'#000'}">${x.win?'獲勝':'敗北'}</span>
+                </div>`).join('');
+            m.style.display = m.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        function confirmReset() { if(confirm("確定要重開一局嗎？")) start(); }
+        start();
+    </script>
+</body>
+</html>
