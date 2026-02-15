@@ -308,7 +308,7 @@
                 <i class="fas fa-microphone-alt"></i>
                 <h2>Podcast Highlights</h2>
             </div>
-            <div id="podcast-container">
+            <div id="podcast-highlights-container">
                 <p>⏳ 正在載入最新 Podcast 內容...</p>
             </div>
         </div>
@@ -349,7 +349,7 @@
             try {
                 const response = await fetch('podcast_data.json');
                 const dataList = await response.json();
-                const container = document.getElementById('podcast-container');
+                const container = document.getElementById('podcast-highlights-container');
                 container.innerHTML = '';
                 dataList.slice(0, 2).forEach((data, index) => {
                     const textId = `podcast-summary-text-${index}`;
