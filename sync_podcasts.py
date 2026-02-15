@@ -41,7 +41,6 @@ def sync_all():
                         <a href="{data['url']}" target="_blank" style="color: var(--podcast-accent); text-decoration: none; font-weight: bold;"> 🎧 收聽來源 </a>
                     </div>
                 </div>'''
-    highlights_html += "\n                <p>⏳ 正在載入更多 Podcast 內容...</p>\n            "
 
     # 3. 生成側邊欄完整的存檔清單 HTML
     archive_html = "\n                        "
