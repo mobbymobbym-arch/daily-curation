@@ -29,7 +29,10 @@
 
         body {
             background-color: var(--paper);
-            background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+            background-image: 
+                radial-gradient(circle at 100% 0%, rgba(142, 26, 26, 0.05) 0%, transparent 25%),
+                radial-gradient(circle at 0% 100%, rgba(142, 26, 26, 0.05) 0%, transparent 25%),
+                url('https://www.transparenttextures.com/patterns/handmade-paper.png');
             margin: 0;
             padding: 0;
             font-family: "Noto Serif TC", serif;
@@ -39,6 +42,16 @@
             overflow: hidden;
             user-select: none;
             color: var(--ink);
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url('https://www.transparenttextures.com/patterns/chinese-lantern.png');
+            opacity: 0.08;
+            pointer-events: none;
         }
 
         /* Top Bar - Calligraphy Style */
@@ -47,15 +60,19 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid rgba(0,0,0,0.1);
+            border-bottom: 2px solid var(--crimson);
+            background: rgba(244, 236, 224, 0.8);
+            backdrop-filter: blur(5px);
+            z-index: 100;
             flex-shrink: 0;
         }
 
         .title-area h1 {
             margin: 0;
-            font-size: 20px;
-            letter-spacing: 2px;
-            color: var(--wood-frame);
+            font-size: 22px;
+            letter-spacing: 4px;
+            color: var(--crimson);
+            text-shadow: 1px 1px 0px rgba(212, 175, 55, 0.5);
         }
 
         .id-badge {
@@ -90,10 +107,11 @@
 
         .chess-table {
             background: var(--wood-frame);
+            background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png');
             padding: 8px;
-            border-radius: 8px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4), inset 0 0 50px rgba(0,0,0,0.5);
-            border: 2px solid var(--gold-leaf);
+            border-radius: 12px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5), inset 0 0 80px rgba(0,0,0,0.6);
+            border: 3px solid var(--gold-leaf);
             width: 100%;
             height: 100%;
             max-width: calc((100dvh - 160px) * 0.5);
@@ -106,7 +124,6 @@
         }
 
         .slot {
-            background-image: radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -129,18 +146,19 @@
         }
 
         .token.hidden {
-            background: radial-gradient(circle at 35% 35%, #5d4037, #3e2723);
-            border: 2px solid #2a1b15;
+            background: radial-gradient(circle at 35% 35%, #8e1a1a, #5a1111);
+            border: 2px solid var(--gold-leaf);
+            box-shadow: 0 4px 0 #330000;
         }
         .token.hidden::after {
-            content: '漢';
-            font-size: 14px;
-            color: rgba(255,255,255,0.1);
+            content: '🀄';
+            font-size: 18px;
+            color: rgba(212, 175, 55, 0.6);
         }
 
         .token.revealed {
             background: #fff;
-            background-image: radial-gradient(circle, #fff 60%, #eee 100%);
+            background-image: url('https://www.transparenttextures.com/patterns/marble-similar.png');
             box-shadow: 0 4px 0 #bbb, 0 6px 12px rgba(0,0,0,0.2);
         }
         .token.red { color: var(--crimson); border: 2px solid var(--crimson); }
@@ -177,15 +195,17 @@
             flex: 1;
             padding: 14px;
             background: var(--crimson);
-            color: white;
-            border: none;
+            background-image: linear-gradient(135deg, var(--crimson) 0%, #5a1111 100%);
+            color: var(--gold-leaf);
+            border: 1px solid var(--gold-leaf);
             border-radius: 4px;
             font-weight: 900;
             font-size: 16px;
-            box-shadow: 0 4px 0 #5a1111;
-            letter-spacing: 2px;
+            box-shadow: 0 4px 0 #330000;
+            letter-spacing: 4px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
         }
-        .action-btn.secondary { background: var(--wood-frame); box-shadow: 0 4px 0 #2a1b15; }
+        .action-btn.secondary { background: var(--wood-frame); border-color: #6d4c41; box-shadow: 0 4px 0 #2a1b15; color: #f4ece0; }
         .action-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 #000; }
 
         /* Stats Modal */
