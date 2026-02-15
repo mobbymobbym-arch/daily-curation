@@ -80,7 +80,7 @@
             align-items: center;
             padding: 10px;
             position: relative;
-            min-height: 0; /* Important for flex child */
+            min-height: 0;
             overflow: hidden;
         }
 
@@ -95,8 +95,8 @@
             border-radius: 12px;
             width: 100%;
             height: 100%;
-            max-width: calc((100dvh - 250px) * 0.5); /* 根據高度動態計算寬度 */
-            max-height: calc(100dvh - 250px); /* 扣除上下 Bar 的空間 */
+            max-width: calc((100dvh - 250px) * 0.5);
+            max-height: calc(100dvh - 250px);
             aspect-ratio: 4 / 8;
             box-shadow: 0 15px 35px rgba(0,0,0,0.4);
             border: 4px solid var(--wood-dark);
@@ -122,7 +122,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: min(6vw, 24px); /* 更保守的字體大小 */
+            font-size: min(6vw, 24px);
             font-weight: 900;
             cursor: pointer;
             transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -285,29 +285,35 @@
             if(over || thinking) return;
             const p = board[i];
 
+            // 翻牌
             if(p && !p.flipped) {
                 p.flipped = true;
                 lastIdx = i;
                 if(!playerColor) {
                     playerColor = p.c;
+                    // 第一手翻完後，系統直接決定對手回合
                     turn = (p.c === 'red' ? 'black' : 'red');
                 } else {
-                    turn = (p.c === 'red' ? 'black' : 'red');
+                    // 已定色情況下的正常回合切換
+                    turn = (turn === 'red' ? 'black' : 'red');
                 }
                 checkEndTurn();
                 return;
             }
 
-            if(p && p.flipped && p.c === (turn || playerColor)) {
+            // 選取自己的棋子 (必須是自己的回合)
+            if(p && p.flipped && p.c === turn) {
                 if(playerColor && p.c !== playerColor) return;
                 selected = i;
                 render();
                 return;
             }
 
+            // 移動或吃子
             if(selected !== null) {
                 if(canMove(selected, i, board)) {
                     executeMove(selected, i);
+                    turn = (turn === 'red' ? 'black' : 'red'); // 移動完切換回合
                     checkEndTurn();
                 } else {
                     selected = null;
@@ -364,8 +370,7 @@
                 return;
             }
             
-            turn = (turn === 'red' ? 'black' : 'red');
-            if(turn !== playerColor) aiMove();
+            if(turn && turn !== playerColor) aiMove();
         }
 
         function checkWinner() {
@@ -409,6 +414,7 @@
                 }
                 
                 thinking = false;
+                turn = playerColor; // AI 動完交還給玩家
                 checkEndTurn();
             }, 800);
         }
