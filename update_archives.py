@@ -1,55 +1,60 @@
 import os
 import re
-from datetime import datetime
 
-def update_archives():
-    # Read current index.html
-    with open('index.html', 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Extract date from header using regex
-    # Header format: <header> ... <p>Friday, February 13, 2026</p> ... </header>
-    date_match = re.search(r'<header>.*?<p>(.*?)</p>', content, re.DOTALL)
-    if date_match:
-        date_str = date_match.group(1).strip()
-        try:
-            dt = datetime.strptime(date_str, "%A, %B %d, %Y")
-            file_date = dt.strftime("%Y-%m-%d")
-        except:
-            file_date = datetime.now().strftime("%Y-%m-%d")
-    else:
-        file_date = datetime.now().strftime("%Y-%m-%d")
+# 設定資料夾與檔案路徑
+ARCHIVE_DIR = "archive"
+INDEX_FILE = "index.html"
 
-    # Archive path
-    archive_dir = 'archive'
-    if not os.path.exists(archive_dir):
-        os.makedirs(archive_dir)
-    
-    archive_file = os.path.join(archive_dir, f"{file_date}.html")
-    
-    # Save the current index to archive
-    with open(archive_file, 'w', encoding='utf-8') as f:
-        f.write(content)
-    
-    # Update index.html sidebar with new link
-    # Find the "日報存檔" section
-    sidebar_marker = '<h3><i class="fas fa-archive"></i> 日報存檔</h3>'
-    if sidebar_marker in content:
-        parts = content.split(sidebar_marker)
-        # parts[1] starts with the ul
-        # Find the first </li>
-        li_marker = '</li>'
-        li_parts = parts[1].split(li_marker, 1)
-        
-        new_link = f'\n                <li class="archive-item">\n                    <a href="/daily-curation/archive/{file_date}.html" class="archive-link">\n                        <i class="far fa-calendar"></i> {file_date}\n                    </a>\n                </li>'
-        
-        content = parts[0] + sidebar_marker + li_parts[0] + li_marker + new_link + li_parts[1]
+def update_archive_list():
+    # 1. 檢查倉庫 (archive 資料夾) 是否存在
+    if not os.path.exists(ARCHIVE_DIR):
+        print(f"⚠️ 找不到 {ARCHIVE_DIR} 資料夾，請確認路徑。")
+        return
 
-    # Save updated index.html
-    with open('index.html', 'w', encoding='utf-8') as f:
-        f.write(content)
-    
-    print(f"Archived current page to {file_date}.html and updated index.html sidebar.")
+    # 2. 掃描倉庫裡所有的 HTML 檔案
+    # 找出類似 "2026-02-12.html" 這樣的檔案
+    files = [f for f in os.listdir(ARCHIVE_DIR) if f.endswith('.html')]
 
+    # 如果倉庫是空的，就提早結束
+    if not files:
+        print("ℹ️ 目前沒有任何存檔檔案。")
+        return
+
+    # 3. 排序檔案 (Reverse=True 代表從最新排到最舊)
+    files.sort(reverse=True)
+
+    # 4. 組合新的網頁列表 (HTML)
+    new_list_html = "\n                        <li><a href=\"index.html\">📄 2026-02-15 (今日)</a></li>"
+    for file in files:
+        # 把 ".html" 去掉，只留下日期字串作為顯示名稱
+        date_str = file.replace('.html', '')
+        # 如果是今天的檔案，我們通常首頁就是今日，所以這裡可以選擇是否重複列出或標註
+        # 依照主人提供的邏輯，我們列出所有存檔
+        new_list_html += f'\n                        <li><a href="{ARCHIVE_DIR}/{file}">📄 {date_str}</a></li>'
+    new_list_html += "\n                    "
+
+    # 5. 讀取目前的網站首頁 (index.html)
+    try:
+        with open(INDEX_FILE, 'r', encoding='utf-8') as f:
+            content = f.read()
+    except FileNotFoundError:
+        print(f"⚠️ 找不到 {INDEX_FILE}，請確認檔案位置。")
+        return
+
+    # 6. 尋找並替換指定的區塊
+    # 我們使用正則表達式，精準鎖定 <ul id="daily-archive-list"> 和 </ul> 之間的所有內容
+    # 這樣不管上面的 <h3> 標題改成什麼 Emoji 都不會影響腳本運作！
+    pattern = r'(<ul id="daily-archive-list">)(.*?)(</ul>)'
+    
+    # 將舊內容替換成我們剛剛組合好的新列表
+    new_content = re.sub(pattern, rf'\1{new_list_html}\3', content, flags=re.DOTALL)
+
+    # 7. 將更新後的內容寫回網站首頁
+    with open(INDEX_FILE, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+
+    print("✅ 日報存檔清單已成功更新！所有缺漏的日期都已補齊。")
+
+# 程式執行起點
 if __name__ == "__main__":
-    update_archives()
+    update_archive_list()
