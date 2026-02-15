@@ -50,6 +50,7 @@
             align-items: center;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             z-index: 100;
+            flex-shrink: 0;
         }
 
         .id-box {
@@ -68,7 +69,8 @@
             padding: 10px;
             font-weight: bold;
             color: var(--wood-dark);
-            height: 40px;
+            height: 44px;
+            flex-shrink: 0;
         }
 
         .game-area {
@@ -78,6 +80,8 @@
             align-items: center;
             padding: 10px;
             position: relative;
+            min-height: 0; /* Important for flex child */
+            overflow: hidden;
         }
 
         /* Chess Board */
@@ -90,10 +94,13 @@
             padding: 8px;
             border-radius: 12px;
             width: 100%;
-            max-width: 360px;
-            aspect-ratio: 4/8;
+            height: 100%;
+            max-width: calc((100dvh - 250px) * 0.5); /* 根據高度動態計算寬度 */
+            max-height: calc(100dvh - 250px); /* 扣除上下 Bar 的空間 */
+            aspect-ratio: 4 / 8;
             box-shadow: 0 15px 35px rgba(0,0,0,0.4);
             border: 4px solid var(--wood-dark);
+            margin: auto;
         }
 
         .cell {
@@ -115,7 +122,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: clamp(20px, 6vw, 28px);
+            font-size: min(6vw, 24px); /* 更保守的字體大小 */
             font-weight: 900;
             cursor: pointer;
             transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -129,7 +136,7 @@
         }
         .piece.back::after {
             content: '楚河';
-            font-size: 10px;
+            font-size: 8px;
             color: rgba(255,255,255,0.2);
             transform: rotate(-45deg);
         }
@@ -137,7 +144,7 @@
         .piece.red { background: #fff; color: var(--red); border: 3px solid var(--red); }
         .piece.black { background: #333; color: #fff; border: 3px solid #000; }
 
-        .selected { transform: scale(1.15); box-shadow: 0 0 15px var(--gold); z-index: 10; border-color: var(--gold) !important; }
+        .selected { transform: scale(1.1); box-shadow: 0 0 15px var(--gold); z-index: 10; border-color: var(--gold) !important; }
         .last-move::after {
             content: '';
             position: absolute;
@@ -159,6 +166,7 @@
             padding: 15px 20px calc(15px + var(--safe-bottom));
             background: #fff;
             box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+            flex-shrink: 0;
         }
 
         .btn {
@@ -229,7 +237,7 @@
 
     <script>
         const VALS = { '帥': 7, '將': 7, '仕': 6, '士': 6, '相': 5, '象': 5, '俥': 4, '車': 4, '傌': 3, '馬': 3, '炮': 2, '包': 2, '兵': 1, '卒': 1 };
-        const WEIGHTS = { 7: 2000, 6: 1000, 5: 700, 4: 500, 3: 350, 2: 400, 1: 150 }; // 炮的價值略高於馬
+        const WEIGHTS = { 7: 2000, 6: 1000, 5: 700, 4: 500, 3: 350, 2: 400, 1: 150 };
         
         const PIECES_CONFIG = [
             {t:'帥', l:7, c:'red', n:1}, {t:'將', l:7, c:'black', n:1},
@@ -277,7 +285,6 @@
             if(over || thinking) return;
             const p = board[i];
 
-            // 翻牌
             if(p && !p.flipped) {
                 p.flipped = true;
                 lastIdx = i;
@@ -291,15 +298,13 @@
                 return;
             }
 
-            // 選取自己的棋子
             if(p && p.flipped && p.c === (turn || playerColor)) {
-                if(playerColor && p.c !== playerColor) return; // 不能在自己回合動AI的棋子
+                if(playerColor && p.c !== playerColor) return;
                 selected = i;
                 render();
                 return;
             }
 
-            // 移動或吃子
             if(selected !== null) {
                 if(canMove(selected, i, board)) {
                     executeMove(selected, i);
@@ -317,7 +322,6 @@
             const r1 = Math.floor(f/4), c1 = f%4, r2 = Math.floor(t/4), c2 = t%4;
             const dist = Math.abs(r1-r2) + Math.abs(c1-c2);
 
-            // 炮的特殊規則
             if(p1.l === 2) {
                 if(r1 !== r2 && c1 !== c2) return false;
                 let midCount = 0;
@@ -327,19 +331,17 @@
                     for(let k = Math.min(r1, r2)+1; k < Math.max(r1, r2); k++) if(b[k*4+c1]) midCount++;
                 }
                 
-                if(!p2) return midCount === 0 && dist === 1; // 平移一格
-                if(p2 && p2.flipped && midCount === 1 && p1.c !== p2.c) return true; // 隔山打牛
+                if(!p2) return midCount === 0 && dist === 1;
+                if(p2 && p2.flipped && midCount === 1 && p1.c !== p2.c) return true;
                 return false;
             }
 
-            // 一般棋子規則
             if(dist !== 1) return false;
-            if(!p2) return true; // 空位移動
-            if(!p2.flipped || p1.c === p2.c) return false; // 不能吃隊友或蓋著的
+            if(!p2) return true;
+            if(!p2.flipped || p1.c === p2.c) return false;
 
-            // 階級判定
-            if(p1.l === 7 && p2.l === 1) return false; // 將不能吃卒
-            if(p1.l === 1 && p2.l === 7) return true;  // 卒可以吃將
+            if(p1.l === 7 && p2.l === 1) return false;
+            if(p1.l === 1 && p2.l === 7) return true;
             return p1.l >= p2.l;
         }
 
@@ -362,7 +364,6 @@
                 return;
             }
             
-            // 切換回合
             turn = (turn === 'red' ? 'black' : 'red');
             if(turn !== playerColor) aiMove();
         }
@@ -384,7 +385,6 @@
                 
                 board.forEach((p, i) => {
                     if(!p) return;
-                    // AI 可以選擇翻牌或移動
                     if(!p.flipped) {
                         moves.push({ type: 'flip', f: i, score: 100 + Math.random() * 50 });
                     } else if(p.c === aiColor) {
@@ -419,12 +419,11 @@
             let score = 0;
 
             if(target) {
-                score += WEIGHTS[target.l] * 2; // 吃子權重大
+                score += WEIGHTS[target.l] * 2;
             } else {
-                score += 10; // 普通移動
+                score += 10;
             }
 
-            // 風險評估：模擬移動後是否會被反吃
             const virtualBoard = [...board];
             virtualBoard[t] = virtualBoard[f];
             virtualBoard[f] = null;
@@ -455,7 +454,6 @@
             }
         }
 
-        // Stats & LocalStorage
         function saveStat(win) {
             let h = JSON.parse(localStorage.getItem('chess_stats_v2') || '[]');
             h.unshift({ win, date: new Date().toLocaleString() });
