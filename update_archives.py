@@ -44,8 +44,15 @@ def update_archive_list():
     # 6. 尋找並替換指定的區塊
     # 我們使用正則表達式，精準鎖定 <ul id="daily-archive-list"> 和 </ul> 之間的所有內容
     # 這樣不管上面的 <h3> 標題改成什麼 Emoji 都不會影響腳本運作！
-    pattern = r'(<ul id="daily-archive-list">)(.*?)(</ul>)'
+    pattern = r'(<ul id="daily-archive-list"[^>]*>)(.*?)(</ul>)'
     
+    # 打印匹配測試
+    match = re.search(pattern, content, flags=re.DOTALL)
+    if match:
+        print(f"DEBUG: Found UL section. Current inner length: {len(match.group(2))}")
+    else:
+        print("DEBUG: Could NOT find the pattern!")
+
     # 將舊內容替換成我們剛剛組合好的新列表
     new_content = re.sub(pattern, rf'\1{new_list_html}\3', content, flags=re.DOTALL)
 
