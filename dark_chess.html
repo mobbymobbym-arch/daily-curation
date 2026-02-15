@@ -335,8 +335,11 @@
             if(p1.l === 2) {
                 if(r1 !== r2 && c1 !== c2) return false;
                 let mids = 0;
-                if(r1 === r2) for(let k = Math.min(c1, c2)+1; k < Math.max(c1, c2); k++) if(b[r1*4+k]) mids++;
-                else for(let k = Math.min(r1, r2)+1; k < Math.max(r1, r2); k++) if(b[k*4+c1]) mids++;
+                if(r1 === r2) {
+                    for(let k = Math.min(c1, c2)+1; k < Math.max(c1, c2); k++) if(board[r1*4+k]) mids++;
+                } else {
+                    for(let k = Math.min(r1, r2)+1; k < Math.max(r1, r2); k++) if(board[k*4+c1]) mids++;
+                }
                 if(!p2) return mids === 0 && dist === 1;
                 return (p2 && p2.flipped && mids === 1 && p1.c !== p2.c);
             }
