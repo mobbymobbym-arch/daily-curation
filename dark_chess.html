@@ -361,16 +361,37 @@
             setTimeout(() => {
                 const mine = (playerColor === 'red' ? 'black' : 'red');
                 let moves = [];
+                const flippedCount = board.filter(x => x && x.flipped).length;
+                const enemyCannonCount = board.filter(x => x && x.flipped && x.c !== mine && x.l === 2).length;
+
                 board.forEach((p, i) => {
                     if(!p) return;
-                    if(!p.flipped) moves.push({ type: 'flip', f: i, s: 100 + Math.random() * 50 });
-                    else if(p.c === mine) {
-                        for(let t=0; t<32; t++) if(canMove(i, t, board)) moves.push({ type: 'move', f: i, t: t, s: score(i, t, mine) });
+                    if(!p.flipped) {
+                        // 策略 1：開局優先翻棋 (flippedCount 小於 12 時增加權重)
+                        let flipScore = 120 + (flippedCount < 12 ? 80 : 0);
+                        
+                        // 策略 2：防守原則 (主力旁若有敵砲則不輕易翻開鄰近暗棋)
+                        if (enemyCannonCount > 0) {
+                            const neighbors = [i-4, i+4, i-1, i+1];
+                            neighbors.forEach(n => {
+                                if (n >= 0 && n < 32 && board[n] && board[n].flipped && board[n].c === mine && board[n].l >= 6) {
+                                    flipScore -= 100; 
+                                }
+                            });
+                        }
+                        moves.push({ type: 'flip', f: i, s: flipScore + Math.random() * 40 });
+                    } else if(p.c === mine) {
+                        for(let t=0; t<32; t++) {
+                            if(canMove(i, t, board)) {
+                                moves.push({ type: 'move', f: i, t: t, s: score(i, t, mine) });
+                            }
+                        }
                     }
                 });
+
                 if(moves.length === 0) { over = true; syncUI(); return; }
                 moves.sort((a, b) => b.s - a.s);
-                const best = moves.filter(m => m.s > moves[0].s - 20);
+                const best = moves.filter(m => m.s > moves[0].s - 15);
                 const m = best[Math.floor(Math.random() * best.length)];
                 if(m.type === 'flip') { board[m.f].flipped = true; lastIdx = m.f; }
                 else { board[m.t] = board[m.f]; board[m.f] = null; lastIdx = m.t; }
@@ -382,11 +403,37 @@
 
         function score(f, t, mine) {
             const p = board[f], tar = board[t];
-            let s = tar ? WEIGHTS[tar.l] * 2 : 10;
+            let s = 0;
+
+            // 1. 吃子價值 (增加權重與特別階級判斷)
+            if (tar) {
+                s += WEIGHTS[tar.l] * 2.5;
+                if (p.l === 1 && tar.l === 7) s += 1200; // 卒吃將
+            } else {
+                s += 15; // 基礎移動加成
+            }
+
+            // 2. 控局策略：中央與壓邊 (Control the Center)
+            const r2 = Math.floor(t/4), c2 = t%4;
+            if (c2 >= 1 && c2 <= 2) s += 25; // 鼓勵控制中間兩欄
+            if (r2 >= 2 && r2 <= 5) s += 25; // 鼓勵控制中間四列
+
+            // 3. 風險評估：防止貪吃被反殺 (Risk Assessment)
             const next = [...board]; next[t] = next[f]; next[f] = null;
             let risk = 0;
-            next.forEach((ep, ei) => { if(ep && ep.flipped && ep.c !== mine && canMove(ei, t, next)) risk = Math.max(risk, WEIGHTS[p.l]); });
-            return s - (risk * 1.6);
+            next.forEach((ep, ei) => {
+                if(ep && ep.flipped && ep.c !== mine && canMove(ei, t, next)) {
+                    risk = Math.max(risk, WEIGHTS[p.l] * 2.0); // 評估代價
+                }
+            });
+
+            // 4. 砲的留砲與運用策略
+            if (p.l === 2) {
+                s += 40; // 鼓勵保護砲，不輕易送死
+                if (tar && tar.l >= 5) s += 500; // 利用砲換掉對方大子
+            }
+
+            return s - risk;
         }
 
         function syncUI() {
