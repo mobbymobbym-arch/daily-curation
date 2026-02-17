@@ -1,178 +1,171 @@
 {
-  "fetch_date": "2026-02-15",
+  "fetch_date": "2026-02-17",
   "techmeme": [
     {
-      "media_source": "TechCrunch",
-      "title_zh": "印度批准 11 億美元政府支持基金，加倍注資 AI 等高風險技術領域",
-      "title_en": "India doubles down on state-backed venture capital, approving $1.1B fund",
-      "url": "https://techcrunch.com/2026/02/14/india-doubles-down-on-state-backed-venture-capital-approving-1-1b-fund/"
+      "source_name": "The Economic Times",
+      "title_zh": "印度主要風險投資公司計劃在 AI 峰會上投入高達 5 億美元資金",
+      "title_en": "Major VCs line up top dollars for coordinated AI capital push in India",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/major-vcs-line-up-top-dollars-for-coordinated-ai-capital-push-in-india/articleshow/128437006.cms"
     },
     {
-      "media_source": "New York Times",
-      "title_zh": "分析顯示：儘管投入逾 1500 億美元，中國在 AI 晶片產量仍遠落後於外國對手",
-      "title_en": "Analysis: despite investing $150B+ in 10+ years, China is expected to produce 2% of global AI chips in 2026",
-      "url": "https://www.nytimes.com/2026/02/14/business/china-chips-nvidia-huawei.html"
+      "source_name": "Reuters",
+      "title_zh": "印度阿達尼集團計劃到 2035 年投資 1000 億美元建設 AI 數據中心",
+      "title_en": "Indian conglomerate Adani Group announces plans to invest $100B to build renewable energy-powered AI-ready data centers across India by 2035",
+      "url": "https://www.reuters.com/business/energy/indias-adani-invest-100-billion-ai-data-centres-by-2035-2026-02-17/"
     },
     {
-      "media_source": "Bloomberg",
-      "title_zh": "深度調查：加密貨幣與 WeChat/Telegram 如何助長全球洗錢生態系統",
-      "title_en": "A deep dive into a global money-laundering ecosystem powered by crypto and messaging apps",
-      "url": "https://www.bloomberg.com/news/features/2026-02-11/drug-cartel-money-laundering-shifts-to-crypto-and-the-gig-economy"
+      "source_name": "Wall Street Journal",
+      "title_zh": "印度 IT 巨頭 Infosys 與 Anthropic 合作開發電信業 AI 服務",
+      "title_en": "Indian IT giant Infosys partners with Anthropic to develop AI services for telecom",
+      "url": "https://www.wsj.com/tech/ai/infosys-anthropic-partner-on-ai-for-telecom-finance-manufacturing-4680fb5d"
     },
     {
-      "media_source": "Financial Times",
-      "title_zh": "AWS 進行策略重組，因擔憂在企業 AI 合約競爭中輸給對手",
-      "title_en": "AWS undergoing strategic shake-up amid fears it is losing ground to competitors in corporate AI contracts",
-      "url": "https://www.ft.com/content/905df663-8c47-4e88-b6ff-24dd4bd46290"
+      "source_name": "Wall Street Journal",
+      "title_zh": "印度透過 AI 影響力峰會推廣「節儉 AI」戰略",
+      "title_en": "As India hosts its AI Impact Summit in New Delhi this week, the country is promoting its approach of developing cheaper AI tools",
+      "url": "https://www.wsj.com/tech/ai/with-a-frugal-ai-strategy-india-offers-blueprint-for-developing-world-30fe1582"
     },
     {
-      "media_source": "Reuters",
-      "title_zh": "字節跳動發佈豆包 2.0，開啟「智能體時代」升級並具備多步任務執行能力",
-      "title_en": "ByteDance launches Doubao 2.0, an \"agent era\" upgrade of China's most widely used AI app",
-      "url": "https://www.reuters.com/world/asia-pacific/chinas-bytedance-releases-doubao-20-ai-chatbot-2026-02-14/"
+      "source_name": "Anthropic",
+      "title_zh": "Anthropic 在班加羅爾開設辦事處，印度營收增長迅速",
+      "title_en": "Anthropic opens a Bengaluru office, says its India run-rate revenue doubled since October",
+      "url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india"
     },
     {
-      "media_source": "Resilience Media",
-      "title_zh": "歐洲國防與安全新創融資創紀錄達 87 億美元，AI 佔比近半",
-      "title_en": "European defense, security, and resilience startup funding rose 55% YoY to record $8.7B",
-      "url": "https://resiliencemedia.co/european-defence-security-and-resilience-startups-raised-a-record-8-7b-in-2025/"
+      "source_name": "Financial Times",
+      "title_zh": "愛爾蘭監管機構針對 Grok 生成有害圖像對 X 展開大規模調查",
+      "title_en": "Ireland's DPC launches a “large-scale inquiry” into X over Grok's creation and publication of “potentially harmful” sexualized images",
+      "url": "https://www.ft.com/content/3c720c9b-d2b6-41b3-a7b7-960b5f1fb94b"
     },
     {
-      "media_source": "CNBC",
-      "title_zh": "分析：Anthropic 超級盃廣告效果顯著，網站訪問量與日活增長領先同行",
-      "title_en": "BNP Paribas analysis: Anthropic saw visits to its site jump 6.5% after its Super Bowl ad",
-      "url": "https://www.cnbc.com/2026/02/13/anthropic-open-ai-super-bowl-ads.html"
+      "source_name": "Axios",
+      "title_zh": "五角大廈因 AI 護欄分歧考慮將 Anthropic 列為「供應鏈風險」",
+      "title_en": "Pentagon is “close” to designating Anthropic a “supply chain risk” over AI safeguards rift",
+      "url": "https://www.axios.com/2026/02/16/anthropic-defense-department-relationship-hegseth"
     },
     {
-      "media_source": "Financial Times",
-      "title_zh": "消息稱台積電擬增資 1000 億美元在美增建四座晶圓廠以確保關稅豁免",
-      "title_en": "TSMC plans to invest another $100B to build four more US fabs",
-      "url": "https://www.ft.com/content/b715b003-1d10-46d4-a02d-1c5969d0dbf8"
+      "source_name": "Bloomberg",
+      "title_zh": "SpaceX 與 xAI 參與五角大廈 1 億美元自主無人機群競賽",
+      "title_en": "SpaceX and xAI are competing in a $100M DoD contest to make voice-controlled, autonomous drone swarms",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/spacex-to-compete-in-pentagon-contest-for-autonomous-drone-tech"
     },
     {
-      "media_source": "TechCrunch",
-      "title_zh": "印度與阿里巴巴合作推動出口，顯示對中國平台的選擇性接觸",
-      "title_en": "India partners with Alibaba.com to help Indian startups reach overseas buyers",
-      "url": "https://techcrunch.com/2026/02/13/india-partners-with-alibaba-com-for-export-push-despite-past-china-tech-bans/"
+      "source_name": "9to5Mac",
+      "title_zh": "蘋果發布 iOS 26.4 Beta 1，新增加密 RCS 支援與 AI 播放列表代碼",
+      "title_en": "Apple debuts iOS 26.4 beta 1 for developers, adding limited support for encrypted RCS",
+      "url": "https://9to5mac.com/2026/02/16/ios-26-4-beta-1-heres-everything-new/"
     },
     {
-      "media_source": "Financial Times",
-      "title_zh": "OpenAI 擬對 ChatGPT 廣告收取高價，每千次展示達 60 美元",
-      "title_en": "OpenAI is charging $60 per 1,000 impressions for ads in ChatGPT",
-      "url": "https://www.ft.com/content/c9acd1f7-4864-4bd7-9ada-d2e13f05b906"
+      "source_name": "Variety",
+      "title_zh": "蘋果將於今春為 Apple Podcasts 帶來「高級影片功能」",
+      "title_en": "Apple says it will bring “advanced video capabilities” to Apple Podcasts this spring",
+      "url": "https://variety.com/2026/digital/news/apple-podcasts-video-launch-dynamic-ads-1236664629/"
     },
     {
-      "media_source": "Reuters",
-      "title_zh": "軟銀旗下 PayPay 申請赴美上市，去年獲利達 6.75 億美元",
-      "title_en": "SoftBank-owned Japanese payments app PayPay files for a US IPO",
-      "url": "https://www.reuters.com/world/asia-pacific/softbanks-paypay-moves-closer-public-markets-with-us-ipo-filing-2026-02-12/"
+      "source_name": "Manus",
+      "title_zh": "Manus 推出代理功能，允許用戶直接透過 Telegram 訪問其 AI",
+      "title_en": "Manus launches Manus Agents, allowing users to access Manus directly inside messaging apps, starting with Telegram",
+      "url": "https://manus.im/blog/manus-agents-telegram"
     },
     {
-      "media_source": "New York Times",
-      "title_zh": "美國國土安全部發出數百張傳票，要求科技公司識別批評 ICE 的帳戶",
-      "title_en": "US DHS sent hundreds of administrative subpoenas to identify people critical of ICE",
-      "url": "https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html"
+      "source_name": "Wall Street Journal",
+      "title_zh": "美光斥資 2000 億美元擴廠，打破 AI 記憶體供應瓶頸",
+      "title_en": "Micron Is Spending $200 Billion to Break the AI Memory Bottleneck",
+      "url": "https://www.wsj.com/tech/micron-is-spending-200-billion-to-break-the-ai-memory-bottleneck-a4cc74a1"
     },
     {
-      "media_source": "The Shamblog",
-      "title_zh": "開源維護者揭露 AI 智能體被拒後對其發動「抹黑攻擊」及其影響",
-      "title_en": "A matplotlib maintainer explains how an AI agent wrote a hit piece on him after a rejection",
-      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/"
+      "source_name": "The Information",
+      "title_zh": "微軟因 GPU 供應受限，優先將算力分配給第一方 Copilot 應用",
+      "title_en": "Microsoft says Azure growth was limited by supply of GPUs, prioritize first-party AI apps",
+      "url": "https://www.theinformation.com/articles/microsoft-says-azure-growth-was-limited-by-gpu-supply"
     },
     {
-      "media_source": "Axios",
-      "title_zh": "迪士尼向字節跳動發出律師函，指控其未經許可使用作品訓練 AI 影片模型",
-      "title_en": "Disney sent a cease-and-desist letter to ByteDance over Seedance 2.0 training",
-      "url": "https://www.axios.com/2026/02/13/disney-bytedance-seedance"
+      "source_name": "Bloomberg",
+      "title_zh": "英偉達 Blackwell 晶片傳出在服務器機架中面臨過熱問題",
+      "title_en": "NVIDIA Blackwell chips reportedly face overheating issues in server racks",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/nvidia-blackwell-overheating-server-racks"
     },
     {
-      "media_source": "The Information",
-      "title_zh": "雲端監控工具 Grafana Labs 進行新一輪融資，估值上看 90 億美元",
-      "title_en": "Grafana Labs is in talks to raise at a $9B valuation",
-      "url": "https://www.theinformation.com/articles/grafana-labs-talk-raise-9-billion-valuation"
+      "source_name": "Reuters",
+      "title_zh": "OpenAI 據報正在開發新款 'Operator' 瀏覽器自動化代理",
+      "title_en": "OpenAI reportedly working on new 'Operator' agent for browser automation",
+      "url": "https://www.reuters.com/technology/openai-operator-browser-automation-2026-02-17/"
     }
   ],
-  "wsj": [
+  "wsj_technology": [
     {
-      "title_zh": "TikTok 母公司推出 AI 影片應用，或將改變好萊塢格局",
-      "title_en": "TikTok’s Chinese Parent Has an App to Replace Hollywood",
-      "summary_zh": "字節跳動的 AI 影片生成工具因其寫實的場景引起關注，但也引發了隱私和版權方面的爭議。",
-      "url": "https://www.wsj.com/tech/ai/tiktoks-chinese-parent-has-an-app-to-replace-hollywood-7b31c6df?mod=rss_Technology"
+      "title_zh": "勝過超級盃：AI 巨頭將中國農曆新年變為贈品大戰",
+      "title_en": "Move Over, Super Bowl: AI Giants Turn China’s Lunar New Year Into a Giveaway Blitz",
+      "summary_zh": "AI 開發者正在提供免費茶飲、免費汽車使用權甚至機器人，旨在鎖定用戶。",
+      "url": "https://www.wsj.com/tech/ai/move-over-super-bowl-ai-giants-turn-chinas-lunar-new-year-into-a-giveaway-blitz-cc59eb0b?mod=rss_Technology"
     },
     {
-      "title_zh": "當 AI 機器人開始霸凌人類，甚至矽谷也感到不安",
-      "title_en": "When AI Bots Start Bullying Humans, Even Silicon Valley Gets Rattled",
-      "summary_zh": "一個 AI 機器人表現出的極端網路攻擊行為，加劇了人們對人工智慧造成現實世界傷害的恐懼。",
-      "url": "https://www.wsj.com/tech/ai/when-ai-bots-start-bullying-humans-even-silicon-valley-gets-rattled-0adb04f1?mod=rss_Technology"
+      "title_zh": "美光斥資 2000 億美元打破 AI 記憶體瓶頸",
+      "title_en": "Micron Is Spending $200 Billion to Break the AI Memory Bottleneck",
+      "summary_zh": "記憶體晶片曾被視為低利潤的大宗商品。現在該行業的產能已無法滿足數據中心的需求。",
+      "url": "https://www.wsj.com/tech/micron-is-spending-200-billion-to-break-the-ai-memory-bottleneck-a4cc74a1?mod=rss_Technology"
     },
     {
-      "title_zh": "專訪 Anthropic 的 AI 道德導師",
-      "title_en": "Meet Anthropic’s AI Morality Teacher",
-      "summary_zh": "深入瞭解 Anthropic 如何教導其 AI 系統區分對錯，以及家庭監控攝像頭進入大規模監控時代的現狀。",
-      "url": "https://www.wsj.com/tech/ai/meet-anthropics-ai-morality-teacher-b8010921?mod=rss_Technology"
+      "title_zh": "Starboard 推動 Tripadvisor 董事會大重組",
+      "title_en": "Starboard to Push for Big Shake-Up of Tripadvisor’s Board",
+      "summary_zh": "這家旅遊網站運營商的股價在季度業績低於分析師預期後下跌。",
+      "url": "https://www.wsj.com/business/deals/starboard-to-push-for-big-shake-up-of-tripadvisors-board-2acb0df4?mod=rss_Technology"
     },
     {
-      "title_zh": "Anthropic 增加新董事成員，為 IPO 做準備",
-      "title_en": "Anthropic Adds New Board Member as It Eyes IPO",
-      "summary_zh": "前微軟和通用汽車執行官 Chris Liddell 加入董事會，他曾參與特朗普政府的工作。",
-      "url": "https://www.wsj.com/tech/ai/anthropic-ai-board-chris-liddell-1df5545b?mod=rss_Technology"
+      "title_zh": "是的，你可以「氛圍編程」。這是入門指南。",
+      "title_en": "Yes, You Can Vibe-Code. Here’s How to Get Started.",
+      "summary_zh": "創建自己的程序可能看起來令人生畏，但其實比你想像的要容易得多。",
+      "url": "https://www.wsj.com/tech/ai/vibe-coding-how-to-guide-211afcf1?mod=rss_Technology"
     },
     {
-      "title_zh": "Anthropic 邁出重塑大學編程課程的關鍵一步",
-      "title_en": "Anthropic Takes Big Step in AI Race to Reshape College Coding Courses",
-      "summary_zh": "Claude 背後的公司建立聯盟，將 AI 工具推廣至數百所社區和州立大學的學生手中。",
-      "url": "https://www.wsj.com/tech/ai/anthropic-takes-big-step-in-ai-race-to-reshape-college-coding-courses-04c48372?mod=rss_Technology"
+      "title_zh": "憑藉節儉的 AI 戰略，印度為發展中國家提供藍圖",
+      "title_en": "With a Frugal AI Strategy, India Offers Blueprint for Developing World",
+      "summary_zh": "這個世界上人口最多的國家正在研究如何不花大錢就成為人工智能強國。",
+      "url": "https://www.wsj.com/tech/ai/with-a-frugal-ai-strategy-india-offers-blueprint-for-developing-world-30fe1582?mod=rss_Technology"
     },
     {
-      "title_zh": "家用監控攝像頭進入大規模監控時代",
-      "title_en": "The Dragnet Era of Home Security Cameras",
-      "summary_zh": "當公司儲存我們的監控畫面時，我們並不總能控制這些數據的使用或分享方式。",
-      "url": "https://www.wsj.com/tech/personal-tech/ring-nest-home-security-cameras-privacy-157935f8?mod=rss_Technology"
+      "title_zh": "人類還剩下什麼？",
+      "title_en": "What’s Left For Humans?",
+      "summary_zh": "此外，貝佐斯與馬斯克在太空的競爭、Anthropic 的 AI 哲學家、ChatGPT 4o 的終結，以及史丹佛大學熱門配對應用的觀察。",
+      "url": "https://www.wsj.com/tech/ai/whats-left-for-humans-64169dd9?mod=rss_Technology"
     },
     {
-      "title_zh": "五角大樓在針對馬杜羅的軍事行動中使用了 Anthropic 的 Claude",
-      "title_en": "Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid",
-      "summary_zh": "通過與 Palantir 的合同使用 AI 模型，凸顯了人工智慧在軍事行動中日益重要的作用。",
-      "url": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?mod=rss_Technology"
+      "title_zh": "Infosys 與 Anthropic 在電信、金融和製造業 AI 領域展開合作",
+      "title_en": "Infosys, Anthropic Partner on AI for Telecom, Finance, Manufacturing",
+      "summary_zh": "Infosys 已同意與 Anthropic 合作，為複雜、受監管行業的企業開發並提供人工智能服務。",
+      "url": "https://www.wsj.com/tech/ai/infosys-anthropic-partner-on-ai-for-telecom-finance-manufacturing-4680fb5d?mod=rss_Technology"
     },
     {
-      "title_zh": "科技可以幫助失智症患者保住工作",
-      "title_en": "Technology Can Help People With Dementia Stay on the Job",
-      "summary_zh": "隨著人口老齡化，輔助科技正在幫助認知受損的工人在職場停留更長時間。",
-      "url": "https://www.wsj.com/lifestyle/workplace/aging-dementia-work-longer-ce417ffb?mod=rss_Technology"
+      "title_zh": "AI 國防初創公司 Breaker 籌集 600 萬美元種子資金",
+      "title_en": "AI Defense Startup Breaker Raises $6 Million in Seed Funding",
+      "summary_zh": "這家尋求將其語音控制 AI 代理部署於無人機及其他軍事技術的國防初創公司，完成了由 Bessemer Venture Partners 領投的種子輪融資。",
+      "url": "https://www.wsj.com/tech/ai/ai-defense-startup-breaker-raises-6-mln-in-seed-funding-53f95c89?mod=rss_Technology"
     },
     {
-      "title_zh": "研究顯示：當用戶知道有「真人」待命時，會更信任網站",
-      "title_en": "People Trust Websites More When They Know a Human Is on Standby",
-      "summary_zh": "僅僅提供與真人對話的選項就能顯著提升用戶對數位平台的信任感。",
-      "url": "https://www.wsj.com/business/people-trust-humans-e37a6fa5?mod=rss_Technology"
+      "title_zh": "愛爾蘭數據監管機構對 X 使用 Grok AI 圖像展開調查",
+      "title_en": "Irish Data Watchdog Opens Inquiry Into X Over Grok AI Images",
+      "summary_zh": "愛爾蘭數據保護監管機構正在調查該社交媒體平台，擔心其可能違反歐盟隱私規則。",
+      "url": "https://www.wsj.com/tech/ai/irish-data-watchdog-opens-inquiry-into-x-over-grok-ai-images-bdfe6c51?mod=rss_Technology"
     },
     {
-      "title_zh": "AI 熱潮打破矽谷禁忌：在 IPO 前套現",
-      "title_en": "The AI Gold Rush Is Breaking a Silicon Valley Taboo: Cashing Out Before the IPO",
-      "summary_zh": "從 Stripe 到 OpenAI 和 Anthropic，越來越多的公司允許員工在上市前出售股份。",
-      "url": "https://www.wsj.com/tech/ai/the-ai-gold-rush-is-breaking-a-silicon-valley-taboo-cashing-out-before-the-ipo-4844f6c1?mod=rss_Technology"
+      "title_zh": "市場平台是出版商與 AI 公司交易的新前線",
+      "title_en": "Marketplaces Are the Next Frontier in Publisher Deals With AI Companies",
+      "summary_zh": "隨著出版商尋找額外收入，微軟、亞馬遜等公司正在這個新興的小型行業中紮根。",
+      "url": "https://www.wsj.com/business/media/marketplaces-are-the-next-frontier-in-publisher-deals-with-ai-companies-11515b00?mod=rss_Technology"
     }
   ],
-  "deep_analysis": {
-    "source": "DWARKESH PODCAST",
-    "title": "Dario Amodei — \"We are near the end of the exponential\"",
-    "pubDate": "Fri, 13 Feb 2026 16:46:36 GMT",
-    "link": "https://www.dwarkesh.com/p/dario-amodei-2",
-    "summary": "在本集節目中，Anthropic 執行長 Dario Amodei 提出了一個令人震撼的觀點：我們正處於人工智慧指數級增長的末端，距離實現 AGI（通用人工智慧）僅有一步之遙。Amodei 將目前的 AI 發展比作「在數據中心裡建立一個天才國家」，並預測在未來一到兩年內，AI 將能完全勝任端到端編程等任務。他重申了「大算力塊假說」（The Big Blob of Compute Hypothesis），認為計算量、數據量、數據分佈及可擴展的目標函數（如強化學習 RL）是決定成功的核心要素。Amodei 指出，目前的 RL 擴展與早期的預訓練擴展遵循相同的邏輯，正在從特定任務（如數學競賽）轉向更廣泛的泛化能力。對於 AI 的經濟擴散，他持樂觀但務實的態度，認為雖然法律、安全合規及企業變革管理會導致擴散速度受限，但 AI 的滲透速度仍將遠超歷史上任何技術。他特別強調了 Anthropic 內部營收連續 10 倍增長的驚人速度，並認為 AI 正從提供 5% 的生產力提升邁向 20-40% 甚至更高的「滾雪球」階段。",
-    "critical_insights": [
-      {
-        "topic": "AI 安全與可驗證性",
-        "insight": "Amodei 認為 AI 在可驗證領域（如代碼、數學）的進展極快且路徑清晰，但對於不可驗證領域（如撰寫小說、宏觀決策）的發展仍存在一定的根本不確定性，儘管泛化能力正在從前者流向後者。"
-      },
-      {
-        "topic": "擴展定律與強化學習 (RL)",
-        "insight": "AI 的發展已進入 RL 擴展階段，其遵循與語言模型預訓練類似的對數線性規律。RL 被視為銜接「進化」與「個體學習」之間的中間態，其目標是通過大量任務訓練來實現跨領域的泛化，而非僅僅學習特定技能。"
-      },
-      {
-        "topic": "AGI 時間線與天才國家",
-        "insight": "Amodei 對 AGI 在 2035 年前實現的信心高達 90%。他認為我們很快就能在數據中心擁有一群「天才」，他們能透過長上下文窗口（Context Window）在幾分鐘內完成人類需要數月才能積累的在職學習與上下文理解。"
-      }
-    ]
-  }
+  "deep_analysis": [
+    {
+      "source": "Stratechery",
+      "title": "Microsoft and Software Survival",
+      "url": "https://stratechery.com/?p=18218",
+      "content_zh": "這篇分析深入探討了微軟（Microsoft）在 AI 時代面臨的「軟體生存」挑戰。近期微軟股價因 Azure 增長略低於預期及資本支出（CapEx）大增而遭到市場懲罰，但 Ben Thompson 認為這是微軟為了長期競爭力所做的正確決策。他指出，AI 正引發一場軟體業的範式轉移：過去十年 SaaS 的核心是「擴大蛋糕」，但未來十年將是「爭奪蛋糕」的零和遊戲，而模型開發商將成為軍火商。微軟的策略是優先分配有限的 GPU 資源給其第一方應用（如 M365 Copilot 和 GitHub Copilot），而非純粹出租 Azure 算力。Ben 認為，儘管 AI 生成代碼可能使軟體變得廉價，但企業仍需要維護、合規和整合，因此軟體公司若能利用 AI 提升效率並橫向擴展業務功能（如 Microsoft 的 Work IQ 代理策略），將成為最終贏家。Ben 強調，微軟必須利用 AI 重塑其軟體套件，否則將面臨競爭對手的蠶食。這是一場基於 GPU 分配的防禦與進攻併行的戰役，微軟正押注於其擁有的身份識別（Active Directory）優勢來構建最強大的企業級 AI 代理。"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Dario Amodei — \"We are near the end of the exponential\"",
+      "url": "https://www.dwarkesh.com/p/dario-amodei-2",
+      "content_zh": "Dwarkesh Patel 與 Anthropic 執行長 Dario Amodei 的這場對談，核心圍繞在「指數增長的終局」這一驚人論點。Dario 認為我們正處於 AI 指數增長的末端，預計幾年內就能在數據中心內實現「由天才組成的一個國家」等級的 AI 能力（country of geniuses in a data center）。他重申了「大算力塊假說」（Big Blob of Compute Hypothesis），強調演算法、數據質量與算力規模是核心驅動力，而目前的強化學習（RL）正展現出與預訓練相同的對數線性增長規律。Dario 認為 AI 的演化介於生物演化與人類學習之間，雖然它需要天文數字級的數據，但一旦獲得技能，其泛化能力（Generalization）將跨越可驗證（如代碼、數學）與不可驗證（如科學發現、創意寫作）的邊界。他對 2035 年前實現 AGI 的信心高達 90%。針對經濟擴散（Diffusion）緩慢的問題，Dario 認為這雖是阻礙，但 AI 的擴散速度將遠超歷史上任何技術，Anthropic 自身的營收指數級增長就是佐證。他強調「電腦使用功能」（Computer Use）是目前閉環（Close the loop）的關鍵，一旦 AI 能夠熟練操作電腦並在上下文（Context Window）中快速學習，人類生產力將迎來質變。\n\n💡 關鍵洞察：\n- AI Scaling Laws & RL: Dario 指出強化學習（RL）的擴散過程也遵循顯著的規模定律（Scaling Laws），且 RL 的目標函數如果能擴展到極致，將能解決預訓練無法觸及的深度推理問題。\n- AGI Timelines & Verifiability: Dario 對 2035 年達成 AGI 有 90% 的信心，且認為代碼自動化將在 1-2 年內趨於成熟。\n- Safety & Deployment Logic: AI 安全不應只是事後補償，而是應與能力增長並行。Dario 透露 Anthropic 內部的 AI 代理已能顯著提升員工生產力（如 GPU 核內碼開發）。"
+    }
+  ]
 }
