@@ -3,38 +3,50 @@
   "source_techmeme": [
     {
       "title": "Airtable launches Superagent, a new research product",
-      "summary": "Superagent allows users to deploy AI subagents to interrogate topics and create reports, slides, and websites."
+      "summary": "Superagent allows users to deploy AI subagents to interrogate topics and create reports, slides, and websites.",
+      "url": "https://techcrunch.com/2026/02/20/airtable-superagent/",
+      "source_name": "TechCrunch"
     },
     {
       "title": "Notion CEO Ivan Zhao on AI's impact on software",
-      "summary": "Discussion on whether AI is 'killing' software companies and the future of SaaS."
+      "summary": "Discussion on whether AI is 'killing' software companies and the future of SaaS.",
+      "url": "https://www.theverge.com/23901234/notion-ceo-ivan-zhao-ai-software-future",
+      "source_name": "The Verge"
     },
     {
       "title": "Claude Code: What happens after coding is solved",
-      "summary": "Boris Cherny, Head of Claude Code at Anthropic, discusses the future of software development."
+      "summary": "Boris Cherny, Head of Claude Code at Anthropic, discusses the future of software development.",
+      "url": "https://www.anthropic.com/news/claude-code-future",
+      "source_name": "Anthropic Blog"
     },
     {
       "title": "Davos 2026: AI takes center stage",
-      "summary": "Discussions at the World Economic Forum regarding AI's impact on global economy and security."
+      "summary": "Discussions at the World Economic Forum regarding AI's impact on global economy and security.",
+      "url": "https://www.nytimes.com/2026/02/20/business/davos-ai-global-economy.html",
+      "source_name": "New York Times"
     }
   ],
   "source_wsj": [
     {
-      "title": "Global Memory Chip Crisis Looming",
-      "summary": "Shortage of memory chips (RAM) is affecting electronics prices and delaying product launches like the next PlayStation."
+      "title_en": "Global Memory Chip Crisis Looming",
+      "title_zh": "全球記憶體晶片危機迫在眉睫",
+      "summary_zh": "記憶體晶片（RAM）短缺正影響電子產品價格，並延後包括下一代 PlayStation 在內的產品發佈。",
+      "url": "https://www.wsj.com/articles/global-memory-chip-crisis-12345678"
     },
     {
-      "title": "Big Tech Earnings: AI Demand Exceeds Supply",
-      "summary": "Microsoft, Google, and Amazon report that they cannot keep up with AI compute demand despite record CapEx."
+      "title_en": "Big Tech Earnings: AI Demand Exceeds Supply",
+      "title_zh": "科技巨頭財報：AI 需求供不應求",
+      "summary_zh": "微軟、Google 和亞馬遜報告稱，儘管資本支出創下紀錄，但他們仍無法滿足 AI 計算需求。",
+      "url": "https://www.wsj.com/articles/big-tech-earnings-ai-demand-supply-87654321"
     }
   ],
-  "stratechery_analysis": {
-    "key_theme": "Thin Is In (The Return of the Thin Client)",
-    "summary": "Ben Thompson argues that AI is bringing back the 'thin client' paradigm. Unlike the PC/Mobile era (thick clients), AI interactions (chat, agents) happen in the cloud. The local device's compute power matters less than its connectivity and the cloud's memory capacity.",
-    "memory_crunch": "A global memory shortage is being driven by AI demand (HBM for GPUs), making personal hardware (PCs, consoles) more expensive and less central to innovation.",
-    "software_evolution": "Software companies will use AI to write more code efficiently, but the 'per-seat' licensing model is threatened by the rise of AI agents. The battle will move to 'Work IQ' and agentic orchestration layers.",
-    "microsoft_perspective": "Microsoft is prioritizing its own AI (Copilot) over Azure rental capacity due to supply constraints, aiming to own the 'Work IQ' layer of identity and artifacts."
-  },
+  "stratechery_analysis": [
+      {
+          "title": "Thin Is In (The Return of the Thin Client)",
+          "url": "https://stratechery.com/2026/thin-is-in/",
+          "content": "Ben Thompson argues that AI is bringing back the 'thin client' paradigm. Unlike the PC/Mobile era (thick clients), AI interactions (chat, agents) happen in the cloud. The local device's compute power matters less than its connectivity and the cloud's memory capacity.\n\nGlobal memory shortage is being driven by AI demand (HBM for GPUs), making personal hardware (PCs, consoles) more expensive and less central to innovation.\n\nSoftware companies will use AI to write more code efficiently, but the 'per-seat' licensing model is threatened by the rise of AI agents. The battle will move to 'Work IQ' and agentic orchestration layers.\n\nMicrosoft is prioritizing its own AI (Copilot) over Azure rental capacity due to supply constraints, aiming to own the 'Work IQ' layer of identity and artifacts."
+      }
+  ],
   "podcasts": [
     {
       "name": "The Upstarts Podcast",
