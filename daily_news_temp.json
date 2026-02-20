@@ -1,182 +1,52 @@
 {
-  "fetch_date": "2026-02-20",
-  "techmeme": [
+  "date": "2026-02-20",
+  "source_techmeme": [
     {
-      "source": "TechCrunch",
-      "title_en": "Google rejected 1.75M policy-violating Android apps and blocked 80K+ developer accounts from Google Play in 2025, down from 2.36M apps and 158K accounts in 2024",
-      "title_zh": "Google 在 2025 年拒絕了 175 萬個違規 Android 應用程式，並封鎖了超過 8 萬個 Google Play 開發者帳號，較 2024 年顯著下降",
-      "url": "https://techcrunch.com/2026/02/19/google-says-its-ai-systems-helped-deter-play-store-malware-in-2025/"
+      "title": "Airtable launches Superagent, a new research product",
+      "summary": "Superagent allows users to deploy AI subagents to interrogate topics and create reports, slides, and websites."
     },
     {
-      "source": "Financial Times",
-      "title_en": "Sources: Amazon's AI tools caused at least two AWS outages, including a 13-hour disruption in December after its Kiro AI deleted and recreated an environment",
-      "title_zh": "消息人士：亞馬遜的 AI 工具導致至少兩次 AWS 停機，包括 12 月因 Kiro AI 刪除並重建環境而引發的 13 小時中斷",
-      "url": "https://t.co/7KMJPSCi5g"
+      "title": "Notion CEO Ivan Zhao on AI's impact on software",
+      "summary": "Discussion on whether AI is 'killing' software companies and the future of SaaS."
     },
     {
-      "source": "MIT Technology Review",
-      "title_en": "Microsoft's AI safety team proposed technical standards for detecting AI-generated content, but its CSO declined to commit to using them across its platforms",
-      "title_zh": "微軟 AI 安全團隊提議建立檢測 AI 生成內容的技術標準，但其首席安全官拒絕承諾在所有平台使用",
-      "url": "https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/"
+      "title": "Claude Code: What happens after coding is solved",
+      "summary": "Boris Cherny, Head of Claude Code at Anthropic, discusses the future of software development."
     },
     {
-      "source": "Time",
-      "title_en": "How some political candidates and activists across ideologies and professions are pushing back on the spread of data centers and AI in the US",
-      "title_zh": "美國不同意識形態的政治候選人與活動人士正聯合抵制數據中心與 AI 的擴張",
-      "url": "https://time.com/7377579/ai-data-centers-people-movement-cover/"
-    },
-    {
-      "source": "Wall Street Journal",
-      "title_en": "Uber's market cap fell to ~$150B, down ~25% in six months, as investors weigh robotaxi disruption, perceiving it as a two-horse race between Waymo and Tesla",
-      "title_zh": "Uber 市值跌至約 1500 億美元，六個月內縮水 25%，投資者認為自動駕駛出租車已成為 Waymo 與特斯拉之爭",
-      "url": "https://www.wsj.com/tech/uber-latest-victim-of-disruption-panic-still-has-role-in-robotaxis-7cb07d60?st=toK8LJ"
-    },
-    {
-      "source": "Bloomberg",
-      "title_en": "A US grand jury indicted three people, including two former Google engineers, for allegedly stealing trade secrets relating to Pixel's Tensor processor",
-      "title_zh": "美國大陪審團起訴三名涉嫌竊取 Pixel Tensor 處理器商業機密的人員，其中包括兩名前 Google 工程師",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/ex-google-engineers-charged-with-stealing-phone-processor-tech"
-    },
-    {
-      "source": "Washington Post",
-      "title_en": "Tech companies are increasingly building private power plants to fuel off-grid data centers, a move experts warn face reliability challenges and climate risks",
-      "title_zh": "科技公司正越來越多地建造私人發電廠以供應該離網數據中心，專家警告此舉面臨可靠性挑戰與氣候風險",
-      "url": "https://www.washingtonpost.com/business/2026/02/19/data-centers-power-grid-ai/"
-    },
-    {
-      "source": "Wired",
-      "title_en": "Perplexity's retreat from ads signals a strategic shift as it recognizes its product is not for a mass audience and expects growth to come from enterprise sales",
-      "title_zh": "Perplexity 放棄廣告業務信號戰略轉向，承認其產品非面向大眾，將增長重點轉向企業銷售",
-      "url": "https://www.wired.com/story/perplexity-ads-shift-search-google/"
-    },
-    {
-      "source": "Financial Times",
-      "title_en": "Sources: Nvidia nears an equity investment of up to $30B in OpenAI, replacing last year's long-term $100B commitment; the deal could be concluded this weekend",
-      "title_zh": "消息人士：輝達擬對 OpenAI 進行高達 300 億美元的股權投資，取代去年的千億長期承諾，交易最快本週末達成",
-      "url": "https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323"
-    },
-    {
-      "source": "NBC Los Angeles",
-      "title_en": "Los Angeles County sues Roblox, alleging it engaged in deceptive business practices that exposed children to sexual content, exploitation, and online predators",
-      "title_zh": "洛杉磯郡起訴 Roblox，指控其存在欺騙性商業行為，導致兒童接觸性內容、剝削和網絡捕食者",
-      "url": "https://www.nbclosangeles.com/news/business/los-angeles-county-roblow-lawsuit/3850543/"
-    },
-    {
-      "source": "Financial Times",
-      "title_en": "Sources: Meta cuts its annual distribution of stock options by ~5% for most of its staff, equating to tens of thousands of employees, after a ~10% cut in 2025",
-      "title_zh": "消息人士：Meta 將多數員工的年度股票期權分配削減約 5%，影響數萬人，此前 2025 年已削減 10%",
-      "url": "https://www.ft.com/content/071d5503-b3dc-46bc-bc55-28f92dbdd42a"
-    },
-    {
-      "source": "Axios",
-      "title_en": "Sources: Emerald AI, which develops software to curb data center energy demand, is raising a $25M seed extension at a ~$250M post-money valuation",
-      "title_zh": "消息人士：旨在降低數據中心能耗的 Emerald AI 正在以 2.5 億美元估值進行 2500 萬美元的種子輪融資",
-      "url": "https://www.axios.com/pro/climate-deals/2026/02/19/emerald-ai-varun-sivaram-nvidia-data-center-energy"
-    },
-    {
-      "source": "Bloomberg",
-      "title_en": "Sony shuts down Bluepoint Games, the PlayStation subsidiary behind remakes of older games like Demon's Souls and Uncharted; ~70 employees will lose their jobs",
-      "title_zh": "索尼關閉曾開發《惡魔靈魂》與《秘境探險》重製版的 PlayStation 子公司 Bluepoint Games，約 70 名員工失業",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/sony-is-shutting-down-the-playstation-studio-bluepoint"
-    },
-    {
-      "source": "The Verge",
-      "title_en": "Meta says it is \"explicitly separating\" Quest VR from its Worlds platform, making Worlds \"almost exclusively mobile\", letting it better compete with Roblox",
-      "title_zh": "Meta 表示正將 Quest VR 與 Worlds 平台「明確分離」，使 Worlds 轉向行動優先以競爭 Roblox",
-      "url": "https://www.theverge.com/tech/881647/meta-vr-mobile-metaverse-horizon-worlds"
-    },
-    {
-      "source": "The Information",
-      "title_en": "OpenAI readies 'Operator' agent for business, allowing users to execute complex workflows in web browsers and legacy enterprise software",
-      "title_zh": "OpenAI 準備推出企業級 'Operator' 代理，允許用戶在瀏覽器與舊版企業軟體中執行複雜工作流",
-      "url": "https://www.theinformation.com/articles/openai-readies-operator-agent-for-business"
+      "title": "Davos 2026: AI takes center stage",
+      "summary": "Discussions at the World Economic Forum regarding AI's impact on global economy and security."
     }
   ],
-  "wsj": [
+  "source_wsj": [
     {
-      "title_en": "Theft of Trade Secrets Is on the Rise—and AI Is Making It Worse",
-      "title_zh": "商業機密竊取案件激增——且 AI 正讓情況變得更糟",
-      "summary_zh": "Google、蘋果和 xAI 等公司在員工被指控竊取機密時，紛紛尋求保護其敏感信息。",
-      "url": "https://www.wsj.com/tech/ai/theft-of-trade-secrets-is-on-the-riseand-ai-is-making-it-worse-1b36122f"
+      "title": "Global Memory Chip Crisis Looming",
+      "summary": "Shortage of memory chips (RAM) is affecting electronics prices and delaying product launches like the next PlayStation."
     },
     {
-      "title_en": "Uber, Latest Victim of Disruption Panic, Still Has Role in Robotaxis",
-      "title_zh": "Uber 成為「顛覆恐慌」的最新受害者，但在無人駕駛出租車領域仍有一席之地",
-      "summary_zh": "Waymo 的勢頭不可否認，但在 AI 驅動的拋售中，Uber 的規模被低估了。",
-      "url": "https://www.wsj.com/tech/uber-latest-victim-of-disruption-panic-still-has-role-in-robotaxis-7cb07d60"
-    },
-    {
-      "title_en": "From Paris to New Delhi, the Push to Ban Teens From Social Media Is Going Global",
-      "title_zh": "從巴黎到新德里，禁止青少年使用社交媒體的浪潮正席捲全球",
-      "summary_zh": "歐洲和亞洲的領導人引用心理健康風險，尋求阻止年輕用戶瀏覽社交內容流。",
-      "url": "https://www.wsj.com/tech/personal-tech/from-paris-to-new-delhi-the-push-to-ban-teens-from-social-media-is-going-global-5ee5f314"
-    },
-    {
-      "title_en": "Mark Zuckerberg Grilled on Usage Goals and Underage Users at California Trial",
-      "title_zh": "馬克·祖克柏在加州審判中因使用目標和未成年用戶問題接受質詢",
-      "summary_zh": "Meta 首席執行官表示，公司不再為其團隊制定用戶在平台停留時間的目標。",
-      "url": "https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0"
-    },
-    {
-      "title_en": "How to Ace a Job Interview With an AI",
-      "title_zh": "如何應對 AI 面試並脫穎而出",
-      "summary_zh": "首先，即使面對的是非人類面試官，也要像與真人交談一樣自然地說話。",
-      "url": "https://www.wsj.com/tech/ai/job-interview-tips-ai-a3be8593"
-    },
-    {
-      "title_en": "Selling AI Software Isn’t as Easy as It Used to Be",
-      "title_zh": "銷售 AI 軟體不再像以前那麼容易",
-      "summary_zh": "無節制支出 AI 軟體的黃金時代可能已經過去，供應商表示現在完成一筆交易比以前難得多。",
-      "url": "https://www.wsj.com/articles/selling-ai-software-isnt-as-easy-as-it-used-to-be-4933e401"
-    },
-    {
-      "title_en": "India’s Reliance Industries to Invest $110 Billion in AI",
-      "title_zh": "印度信實工業集團將向 AI 領域投資 1100 億美元",
-      "summary_zh": "信實工業計劃投資 1100 億美元建設大規模數據中心並提供 AI 服務，這是本週旨在提升印度 AI 地位的最新重磅宣布。",
-      "url": "https://www.wsj.com/tech/ai/indias-reliance-industries-to-invest-110-billion-in-ai-a49feddd"
-    },
-    {
-      "title_en": "Tata Group and OpenAI Form Partnership, to Develop AI Data Centers",
-      "title_zh": "塔塔集團與 OpenAI 建立夥伴關係，共同開發 AI 數據中心",
-      "summary_zh": "印度塔塔集團與 OpenAI 聯手提供 AI 服務，這項交易旨在推動該南亞國家在全球 AI 競賽中的地位。",
-      "url": "https://www.wsj.com/tech/ai/indias-tata-group-openai-form-partnership-to-develop-ai-data-centers-89766517"
-    },
-    {
-      "title_en": "Mistral AI to Buy Software Infrastructure Startup Koyeb",
-      "title_zh": "Mistral AI 將收購軟體基礎設施初創公司 Koyeb",
-      "summary_zh": "法國 AI 巨頭 Mistral AI 完成了其首筆收購，旨在完善其流程並增強計算能力。",
-      "url": "https://www.wsj.com/tech/ai/mistral-ai-to-buy-software-infrastructure-startup-koyeb-e2de76ee"
-    },
-    {
-      "title_en": "‘Woke’ AI Feud Escalates Between Pentagon and Anthropic",
-      "title_zh": "美國國防部與 Anthropic 之間的「覺醒 AI」爭議升級",
-      "summary_zh": "由於雙方在初創公司工具如何用於國防工作方面存在緊張關係，國防部可能會要求承包商證明不使用 Anthropic 的 Claude。",
-      "url": "https://www.wsj.com/politics/national-security/woke-ai-spat-escalates-between-pentagon-and-anthropic-433b7c5c"
+      "title": "Big Tech Earnings: AI Demand Exceeds Supply",
+      "summary": "Microsoft, Google, and Amazon report that they cannot keep up with AI compute demand despite record CapEx."
     }
   ],
-  "deep_analysis": {
-    "stratechery": {
-      "title": "Thin Is In",
-      "summary": "Ben Thompson 在本文中深入探討了 AI 時代下「精簡用戶端」（Thin Client）架構的重返與主導地位。他指出，從早期大型主機的終端機到 80 年代的厚重 PC，再到移動雲端時代的混合模式，計算架構一直在「本地處理」與「遠程計算」之間擺盪。然而，生成式 AI 的興起徹底改寫了這一規則。由於頂級 AI 模型對計算能力與記憶體（尤其是 HBM）的極致渴求，本地設備在性能、上下文窗口與速度上難以與大規模數據中心競爭。AI 交互模式（如聊天框與代理人）本質上是高度精簡的，本地端僅作為接口，而所有核心「推理」皆發生在雲端。此外，Thompson 特別提到當前的記憶體短缺危機（記憶體擠出效應）正在推高本地硬體成本，進一步削弱了本地推理的經濟性。他預測未來的工作流將不可避免地從傳統 UI（厚用戶端）向 AI 代理人（精簡用戶端）轉移，這將顛覆過去十年基於身份與座位授權的 SaaS 商業模式，因為當 AI 代理人取代人類操作軟體時，傳統的「按人頭收費」將失去意義。核心論點在於：在 AI 時代，連通性比本地計算能力更重要，雲端數據中心將成為新的「大型主機」，而我們的設備將再次變回通往無窮計算力的精簡窗口。",
-      "strategic_implications": "1. 商業模式顛覆：SaaS 公司的核心價值正從 UI 轉向數據與工作流，傳統授權模式面臨挑戰；2. 供應鏈權力轉移：記憶體（RAM/HBM）成為 AI 時代的戰略物資，影響力甚至超越 GPU；3. 代理人戰爭：未來的競爭焦點在於誰能掌握跨應用的 AI 代理層，而非單一功能的軟體工具。"
+  "stratechery_analysis": {
+    "key_theme": "Thin Is In (The Return of the Thin Client)",
+    "summary": "Ben Thompson argues that AI is bringing back the 'thin client' paradigm. Unlike the PC/Mobile era (thick clients), AI interactions (chat, agents) happen in the cloud. The local device's compute power matters less than its connectivity and the cloud's memory capacity.",
+    "memory_crunch": "A global memory shortage is being driven by AI demand (HBM for GPUs), making personal hardware (PCs, consoles) more expensive and less central to innovation.",
+    "software_evolution": "Software companies will use AI to write more code efficiently, but the 'per-seat' licensing model is threatened by the rise of AI agents. The battle will move to 'Work IQ' and agentic orchestration layers.",
+    "microsoft_perspective": "Microsoft is prioritizing its own AI (Copilot) over Azure rental capacity due to supply constraints, aiming to own the 'Work IQ' layer of identity and artifacts."
+  },
+  "podcasts": [
+    {
+      "name": "The Upstarts Podcast",
+      "topic": "Loyal's Celine Halioua on dog longevity and biotech innovation."
     },
-    "dwarkesh_podcast": {
-      "title": "Dario Amodei — \"We are near the end of the exponential\"",
-      "summary": "在這場極具深度的訪談中，Anthropic 執行長 Dario Amodei 提出了一個令人震驚的觀察：我們正接近 AI 指數增長曲線的末端，這意味著 AGI（人工通用智能）可能在極短的幾年內實現。Amodei 重申了他的「大塊計算假設」（Big Blob of Compute Hypothesis），強調計算量、數據規模與目標函數是決定 AI 能力的唯三核心變量。他指出，目前的強化學習（RL）正在重複預訓練階段走過的指數路徑，展現出驚人的對數線性增長。訪談深入探討了 AI 如何滲透經濟，Amodei 認為 AI 不會僅僅是提高效率的工具，而是會演化成「數據中心裡的英才之國」（a country of geniuses in a data center），能夠在科學發現、代碼編寫與複雜決策中全面超越人類。他對當前公眾仍糾結於細微的政治議題感到不解，因為真正的生存變革已近在咫尺。同時，他也探討了美中競賽、監管風險以及 AI 實驗室的獲利路徑，認為領先者必須在安全與規模之間取得極其微妙的平衡。Amodei 的核心訊息是「緊迫感」：我們必須在技術真正爆發前，建立起足以應對其能力的治理框架。",
-      "critical_insights": [
-        {
-          "topic": "Scaling Laws & RL",
-          "insight": "Amodei 指出 RL 擴展規律與預訓練規律高度一致，目前正處於從特定領域（如數學、代碼）向通用能力泛化的關鍵拐點，這意味著模型將具備在未知環境中自主學習與適應的「演化式」能力。"
-        },
-        {
-          "topic": "AGI Timeline",
-          "insight": "他認為我們距離「數據中心裡的英才之國」僅剩數年時間，這不僅是技術上的 AGI，更是組織規模級別的智能爆發，屆時 AI 處理複雜任務的集體效能將等同於一整個受過頂尖教育的國家。"
-        },
-        {
-          "topic": "AI Safety & Regulation",
-          "insight": "Amodei 警告，監管不應扼殺技術紅利，但必須意識到 AI 的風險隨著規模呈指數級增長。他認為未來的安全競爭將是「防禦速度」與「攻擊潛力」的賽跑，尤其是在生物安全與網絡戰領域。"
-        }
-      ]
+    {
+      "name": "Lenny's Podcast",
+      "topic": "Boris Cherny (Anthropic) on the future of coding with Claude Code."
+    },
+    {
+      "name": "Access",
+      "topic": "Ivan Zhao (Notion) on the survival of software companies in the AI age."
     }
-  }
+  ]
 }

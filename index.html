@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joyce's Daily Curation | v5.1 Fixed</title>
+    <title>Joyce's Daily Curation | 2026-02-20</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -32,13 +32,13 @@
         .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
         .section-header { display: flex; align-items: center; gap: 10px; margin: 40px 0 20px; border-bottom: 2px solid; padding-bottom: 10px; }
         .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-        .news-card { background: var(--card-bg); border-radius: 12px; padding: 20px; box-shadow: var(--shadow); border-top: 5px solid; }
+        .news-card { background: var(--card-bg); border-radius: 12px; padding: 20px; box-shadow: var(--shadow); border-top: 5px solid; display: flex; flex-direction: column; }
         .title-cn { font-size: 1.1rem; font-weight: bold; margin-bottom: 10px; }
-        .title-en { font-size: 0.85rem; color: var(--secondary-text); margin-bottom: 15px; }
-        .link-btn { text-decoration: none; font-weight: bold; font-size: 0.8rem; }
+        .title-en { font-size: 0.85rem; color: var(--secondary-text); margin-bottom: 15px; flex-grow: 1; }
+        .link-btn { text-decoration: none; font-weight: bold; font-size: 0.8rem; margin-top: 10px; }
         .analysis-box { background: var(--card-bg); border-radius: 12px; padding: 25px; margin-bottom: 30px; box-shadow: var(--shadow); border-left: 8px solid var(--analysis-accent); }
         .toggle-btn { background: #eee; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; margin-top: 10px; }
-        .expandable { max-height: 100px; overflow: hidden; transition: max-height 0.3s ease; }
+        .expandable { max-height: 150px; overflow: hidden; transition: max-height 0.3s ease; }
         .expandable.open { max-height: none; }
     </style>
     <script>
@@ -52,6 +52,7 @@
         <a href="#techmeme">Techmeme</a>
         <a href="#wsj">WSJ</a>
         <a href="#analysis">Deep Analysis</a>
+        <a href="#podcasts">Podcasts</a>
     </nav>
     <header>
         <h1>Joyce's Daily News</h1>
@@ -63,20 +64,26 @@
             <i class="fas fa-bolt"></i> <h2>Techmeme Top Highlights</h2>
         </div>
         <div class="news-grid">
+            
             <div class="news-card" style="border-color: var(--techmeme-accent);">
-                <div class="title-cn">消息人士：輝達擬對 OpenAI 進行高達 300 億美元的股權投資</div>
-                <div class="title-en">Nvidia nears an equity investment of up to $30B in OpenAI, replacing last year's $100B commitment.</div>
-                <a href="https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323" class="link-btn" style="color: var(--techmeme-accent);">Read More &rarr;</a>
+                <div class="title-cn">Airtable launches Superagent, a new research product</div>
+                <div class="title-en">Superagent allows users to deploy AI subagents to interrogate topics and create reports, slides, and websites.</div>
+                <a href="#" class="link-btn" style="color: var(--techmeme-accent);">Read More &rarr;</a>
             </div>
             <div class="news-card" style="border-color: var(--techmeme-accent);">
-                <div class="title-cn">亞馬遜 AI 工具導致兩次 AWS 停機</div>
-                <div class="title-en">Amazon's AI tools caused at least two AWS outages, including a 13-hour disruption in December.</div>
-                <a href="https://t.co/7KMJPSCi5g" class="link-btn" style="color: var(--techmeme-accent);">Read More &rarr;</a>
+                <div class="title-cn">Notion CEO Ivan Zhao on AI's impact on software</div>
+                <div class="title-en">Discussion on whether AI is 'killing' software companies and the future of SaaS.</div>
+                <a href="#" class="link-btn" style="color: var(--techmeme-accent);">Read More &rarr;</a>
             </div>
             <div class="news-card" style="border-color: var(--techmeme-accent);">
-                <div class="title-cn">OpenAI 準備推出企業級 'Operator' 代理</div>
-                <div class="title-en">OpenAI readies 'Operator' agent for business, allowing workflows in browsers and legacy software.</div>
-                <a href="https://www.theinformation.com/articles/openai-readies-operator-agent-for-business" class="link-btn" style="color: var(--techmeme-accent);">Read More &rarr;</a>
+                <div class="title-cn">Claude Code: What happens after coding is solved</div>
+                <div class="title-en">Boris Cherny, Head of Claude Code at Anthropic, discusses the future of software development.</div>
+                <a href="#" class="link-btn" style="color: var(--techmeme-accent);">Read More &rarr;</a>
+            </div>
+            <div class="news-card" style="border-color: var(--techmeme-accent);">
+                <div class="title-cn">Davos 2026: AI takes center stage</div>
+                <div class="title-en">Discussions at the World Economic Forum regarding AI's impact on global economy and security.</div>
+                <a href="#" class="link-btn" style="color: var(--techmeme-accent);">Read More &rarr;</a>
             </div>
         </div>
 
@@ -85,15 +92,16 @@
             <i class="fas fa-newspaper"></i> <h2>WSJ Technology</h2>
         </div>
         <div class="news-grid">
+            
             <div class="news-card" style="border-color: var(--wsj-accent);">
-                <div class="title-cn">商業機密竊取案件激增——且 AI 正讓情況變得更糟</div>
-                <div class="title-en">Theft of Trade Secrets Is on the Rise—and AI Is Making It Worse</div>
-                <a href="https://www.wsj.com/tech/ai/theft-of-trade-secrets-is-on-the-riseand-ai-is-making-it-worse-1b36122f" class="link-btn" style="color: var(--wsj-accent);">Read More &rarr;</a>
+                <div class="title-cn">Global Memory Chip Crisis Looming</div>
+                <div class="title-en">Shortage of memory chips (RAM) is affecting electronics prices and delaying product launches like the next PlayStation.</div>
+                <a href="#" class="link-btn" style="color: var(--wsj-accent);">Read More &rarr;</a>
             </div>
             <div class="news-card" style="border-color: var(--wsj-accent);">
-                <div class="title-cn">印度信實工業將向 AI 投資 1100 億美元</div>
-                <div class="title-en">India’s Reliance Industries to Invest $110 Billion in AI for data centers.</div>
-                <a href="https://www.wsj.com/tech/ai/indias-reliance-industries-to-invest-110-billion-in-ai-a49feddd" class="link-btn" style="color: var(--wsj-accent);">Read More &rarr;</a>
+                <div class="title-cn">Big Tech Earnings: AI Demand Exceeds Supply</div>
+                <div class="title-en">Microsoft, Google, and Amazon report that they cannot keep up with AI compute demand despite record CapEx.</div>
+                <a href="#" class="link-btn" style="color: var(--wsj-accent);">Read More &rarr;</a>
             </div>
         </div>
 
@@ -101,19 +109,36 @@
         <div id="analysis" class="section-header" style="color: var(--analysis-accent); border-color: var(--analysis-accent);">
             <i class="fas fa-brain"></i> <h2>Deep Analysis</h2>
         </div>
+        
         <div class="analysis-box">
-            <h3>Thin Is In - Ben Thompson (Stratechery)</h3>
+            <h3>Thin Is In (The Return of the Thin Client)</h3>
             <div id="str-content" class="expandable">
-                Ben Thompson 探討了 AI 時代下「精簡用戶端」架構的重返。由於頂級 AI 模型對計算能力與記憶體（尤其是 HBM）的極致渴求，本地設備難以競爭。雲端數據中心將成為新的「大型主機」，而我們的設備將再次變回通往無窮計算力的精簡窗口。這將顛覆 SaaS 的人頭授權模式。
+                <p><strong>Summary:</strong> Ben Thompson argues that AI is bringing back the 'thin client' paradigm. Unlike the PC/Mobile era (thick clients), AI interactions (chat, agents) happen in the cloud. The local device's compute power matters less than its connectivity and the cloud's memory capacity.</p>
+                <p><strong>Memory Crunch:</strong> A global memory shortage is being driven by AI demand (HBM for GPUs), making personal hardware (PCs, consoles) more expensive and less central to innovation.</p>
+                <p><strong>Software Evolution:</strong> Software companies will use AI to write more code efficiently, but the 'per-seat' licensing model is threatened by the rise of AI agents. The battle will move to 'Work IQ' and agentic orchestration layers.</p>
+                <p><strong>Microsoft Perspective:</strong> Microsoft is prioritizing its own AI (Copilot) over Azure rental capacity due to supply constraints, aiming to own the 'Work IQ' layer of identity and artifacts.</p>
             </div>
             <button class="toggle-btn" onclick="toggle('str-content')">展開分析</button>
         </div>
-        <div class="analysis-box">
-            <h3>AGI Timeline - Dario Amodei (Anthropic)</h3>
-            <div id="ant-content" class="expandable">
-                Anthropic 執行長提出我們正接近 AI 指數增長的末端，AGI 可能在幾年內實現。他認為 AI 將演化成「數據中心裡的英才之國」，在科學發現與決策中全面超越人類。我們必須在技術真正爆發前建立治理框架。
+
+        <!-- Podcasts -->
+        <div id="podcasts" class="section-header" style="color: var(--podcast-accent); border-color: var(--podcast-accent);">
+            <i class="fas fa-microphone-lines"></i> <h2>Featured Podcasts</h2>
+        </div>
+        <div class="news-grid">
+            
+            <div class="news-card" style="border-color: var(--podcast-accent);">
+                <div class="title-cn">The Upstarts Podcast</div>
+                <div class="title-en">Loyal's Celine Halioua on dog longevity and biotech innovation.</div>
             </div>
-            <button class="toggle-btn" onclick="toggle('ant-content')">展開分析</button>
+            <div class="news-card" style="border-color: var(--podcast-accent);">
+                <div class="title-cn">Lenny's Podcast</div>
+                <div class="title-en">Boris Cherny (Anthropic) on the future of coding with Claude Code.</div>
+            </div>
+            <div class="news-card" style="border-color: var(--podcast-accent);">
+                <div class="title-cn">Access</div>
+                <div class="title-en">Ivan Zhao (Notion) on the survival of software companies in the AI age.</div>
+            </div>
         </div>
     </div>
     <footer style="text-align: center; padding: 40px; color: #888;">
