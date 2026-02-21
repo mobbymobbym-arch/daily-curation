@@ -1,163 +1,177 @@
 {
-  "fetch_date": "2026-02-20",
-  "Techmeme": [
+  "fetch_date": "2026-02-21",
+  "techmeme": [
     {
-      "media_source": "TechCrunch",
-      "title_en": "Google rejected 1.75M policy-violating Android apps and blocked 80K+ developer accounts from Google Play in 2025, down from 2.36M apps and 158K accounts in 2024",
-      "title_zh": "Google 在 2025 年拒絕了 175 萬個違反政策的 Android 應用程式，並封禁了超過 8 萬個開發者帳號，較 2024 年的 236 萬個應用程式和 15.8 萬個帳號有所下降",
-      "url": "https://techcrunch.com/2026/02/19/google-says-its-ai-systems-helped-deter-play-store-malware-in-2025/"
+      "source": "New York Times",
+      "title_en": "Microsoft’s Phil Spencer, who led the gaming division for nearly 10 years, announces plans to retire after a 38-year career at the company",
+      "title_zh": "微軟遊戲主管 Phil Spencer 宣佈退休，結束其在公司 38 年的職業生涯",
+      "url": "https://www.nytimes.com/2026/02/20/technology/phil-spencer-microsoft-xbox-retirement.html"
     },
     {
-      "media_source": "Financial Times",
-      "title_en": "Sources: Amazon's AI tools caused at least two AWS outages, including a 13-hour disruption in December after its Kiro AI deleted and recreated an environment",
-      "title_zh": "消息人士：亞馬遜的 AI 工具導致至少兩次 AWS 停機，包括 12 月因 Kiro AI 刪除並重建環境而導致的 13 小時中斷",
-      "url": "https://t.co/7KMJPSCi5g"
+      "source": "Wall Street Journal",
+      "title_en": "Google is exploring ways to use its financial might and cloud partnerships to take on Nvidia's lead in AI chips",
+      "title_zh": "谷歌正尋求利用其財務實力與雲端合作夥伴關係，挑戰輝達在 AI 芯片領域的領先地位",
+      "url": "https://www.wsj.com/tech/ai/google-is-exploring-ways-to-use-its-financial-might-to-take-on-nvidia-0fbadc84"
     },
     {
-      "media_source": "MIT Technology Review",
-      "title_en": "Microsoft's AI safety team proposed technical standards for detecting AI-generated content, but its CSO declined to commit to using them across its platforms",
-      "title_zh": "微軟 AI 安全團隊提出了檢測 AI 生成內容的技術標準，但其首席安全官拒絕承諾在其平台上全面使用",
-      "url": "https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/"
+      "source": "Bloomberg",
+      "title_en": "India’s Reliance Industries to invest $110 billion in AI, aiming to build massive data centers and offer local AI services",
+      "title_zh": "印度信實工業計劃投資 1100 億美元於 AI，旨在建立大規模數據中心並提供本地 AI 服務",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/reliance-to-invest-110-billion-in-india-ai-race"
     },
     {
-      "media_source": "Time",
-      "title_en": "How some political candidates and activists across ideologies and professions are pushing back on the spread of data centers and AI in the US",
-      "title_zh": "美國不同意識形態和職業的政治候選人與活動人士如何抵制數據中心和 AI 的擴張",
-      "url": "https://time.com/7377579/ai-data-centers-people-movement-cover/"
+      "source": "The Verge",
+      "title_en": "TikTok’s new AI video generation tool has Hollywood creators spooked about the future of traditional production",
+      "title_zh": "TikTok 新推出的 AI 影片生成工具讓好萊塢創作者對傳統製作的未來感到不安",
+      "url": "https://www.theverge.com/2026/02/20/tiktok-ai-video-tool-hollywood-reaction"
     },
     {
-      "media_source": "Wall Street Journal",
-      "title_en": "Uber's market cap fell to ~$150B, down ~25% in six months, as investors weigh robotaxi disruption, perceiving it as a two-horse race between Waymo and Tesla",
-      "title_zh": "Uber 市值跌至約 1500 億美元，半年內下降約 25%，投資者正衡量無人駕駛計程車帶來的衝擊，並將其視為 Waymo 與特斯拉之間的雙雄之爭",
-      "url": "https://www.wsj.com/tech/uber-latest-victim-of-disruption-panic-still-has-role-in-robotaxis-7cb07d60?st=toK8LJ&reflink=desktopwebshare_permalink"
+      "source": "Reuters",
+      "title_en": "Tata Group and OpenAI partner to develop sovereign AI data centers in India",
+      "title_zh": "塔塔集團與 OpenAI 合作，在印度開發主權 AI 數據中心",
+      "url": "https://www.reuters.com/technology/tata-openai-india-partnership-2026-02-19/"
     },
     {
-      "media_source": "Bloomberg",
-      "title_en": "A US grand jury indicted three people, including two former Google engineers, for allegedly stealing trade secrets relating to Pixel's Tensor processor",
-      "title_zh": "美國大陪審團起訴包括兩名 Google 前工程師在內的三人，指控其涉嫌竊取與 Pixel Tensor 處理器相關的商業機密",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/ex-google-engineers-charged-with-stealing-phone-processor-tech"
+      "source": "Financial Times",
+      "title_en": "Mistral AI acquires infrastructure startup Koyeb to bolster its cloud computing and model serving capabilities",
+      "title_zh": "Mistral AI 收購基礎設施新創公司 Koyeb，以增強其雲端計算與模型服務能力",
+      "url": "https://www.ft.com/content/mistral-ai-koyeb-acquisition"
     },
     {
-      "media_source": "Washington Post",
-      "title_en": "Tech companies are increasingly building private power plants to fuel off-grid data centers, a move experts warn face reliability challenges and climate risks",
-      "title_zh": "科技公司正越來越多地建造私人發電廠以供應該離網數據中心，專家警告此舉面臨可靠性挑戰和氣候風險",
-      "url": "https://www.washingtonpost.com/business/2026/02/19/data-centers-power-grid-ai/"
+      "source": "TechCrunch",
+      "title_en": "Anthropic releases ‘Claude Code’ command-line tool, enabling end-to-end coding tasks directly from the terminal",
+      "title_zh": "Anthropic 發佈「Claude Code」命令行工具，可直接從終端執行端到端編碼任務",
+      "url": "https://techcrunch.com/2026/02/18/anthropic-claude-code-cli/"
     },
     {
-      "media_source": "Wired",
-      "title_en": "Perplexity's retreat from ads signals a strategic shift as it recognizes its product is not for a mass audience and expects growth to come from enterprise sales",
-      "title_zh": "Perplexity 退出廣告業務標誌著策略轉型，因為它意識到其產品不適合大眾市場，並預計增長將來自企業銷售",
-      "url": "https://www.wired.com/story/perplexity-ads-shift-search-google/"
+      "source": "WSJ",
+      "title_en": "OpenAI hires creator of viral ‘OpenClaw’ agent platform after fierce competition among top AI labs",
+      "title_zh": "在頂級 AI 實驗室的激烈競爭後，OpenAI 聘請了爆紅 Agent 平台「OpenClaw」的創作者",
+      "url": "https://www.wsj.com/tech/ai/this-viral-ai-project-went-from-side-hustle-to-coveted-prize-in-three-months-8daae057"
     },
     {
-      "media_source": "Financial Times",
-      "title_en": "Sources: Nvidia nears an equity investment of up to $30B in OpenAI, replacing last year's long-term $100B commitment; the deal could be concluded this weekend",
-      "title_zh": "消息人士：輝達即將對 OpenAI 進行高達 300 億美元的股權投資，取代去年的 1000 億美元長期承諾；交易可能在本週末完成",
-      "url": "https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323"
+      "source": "CNBC",
+      "title_en": "Waymo hits 200,000 weekly paid robotaxi rides as expansion in Los Angeles and San Francisco accelerates",
+      "title_zh": "隨著在洛杉磯和舊金山的擴張加速，Waymo 每週付費無人駕駛行程達到 20 萬次",
+      "url": "https://www.cnbc.com/2026/02/19/waymo-robotaxi-milestone-expansion.html"
     },
     {
-      "media_source": "NBC Los Angeles",
-      "title_en": "Los Angeles County sues Roblox, alleging it engaged in deceptive business practices that exposed children to sexual content, exploitation, and online predators",
-      "title_zh": "洛杉磯郡起訴 Roblox，指控其從事欺騙性商業行為，使兒童接觸到性內容、剝削和網路掠奪者",
-      "url": "https://www.nbclosangeles.com/news/business/los-angeles-county-roblow-lawsuit/3850543/"
+      "source": "Wired",
+      "title_en": "Internal feud escalates between Pentagon and Anthropic over ‘woke’ safety guardrails in defense AI models",
+      "title_zh": "五角大廈與 Anthropic 就國防 AI 模型中的「覺醒」安全護欄發生內部衝突",
+      "url": "https://www.wired.com/story/anthropic-pentagon-clashed-over-safety/"
     },
     {
-      "media_source": "Financial Times",
-      "title_en": "Sources: Meta cuts its annual distribution of stock options by ~5% for most of its staff, equating to tens of thousands of employees, after a ~10% cut in 2025",
-      "title_zh": "消息人士：Meta 為大多數員工削減了約 5% 的年度股票期權分配，涉及數萬名員工，此前在 2025 年已削減約 10%",
-      "url": "https://www.ft.com/content/071d5503-b3dc-46bc-bc55-28f92dbdd42a"
+      "source": "Axios",
+      "title_en": "European Union finalizes strict rules for AI agents, requiring clear labeling and liability frameworks",
+      "title_zh": "歐盟敲定嚴格的 AI Agent 規則，要求明確的標籤和責任框架",
+      "url": "https://www.axios.com/2026/02/20/eu-ai-agent-regulations"
     },
     {
-      "media_source": "Axios",
-      "title_en": "Sources: Emerald AI, which develops software to curb data center energy demand, is raising a $25M seed extension at a ~$250M post-money valuation",
-      "title_zh": "消息人士：開發旨在抑制數據中心能源需求的軟體公司 Emerald AI 正在以約 2.5 億美元的投後估值籌集 2500 萬美元的種子輪延展融資",
-      "url": "https://www.axios.com/pro/climate-deals/2026/02/19/emerald-ai-varun-sivaram-nvidia-data-center-energy"
+      "source": "The Information",
+      "title_en": "Meta is training Llama 4 with a massive 100k H100 GPU cluster, aiming for a late 2026 release",
+      "title_zh": "Meta 正使用大規模 10 萬片 H100 GPU 集群訓練 Llama 4，目標於 2026 年底發佈",
+      "url": "https://www.theinformation.com/articles/meta-llama-4-training-cluster"
     },
     {
-      "media_source": "Bloomberg",
-      "title_en": "Sony shuts down Bluepoint Games, the PlayStation subsidiary behind remakes of older games like Demon's Souls and Uncharted; ~70 employees will lose their jobs",
-      "title_zh": "索尼關閉了曾開發《惡魔靈魂》和《秘境探險》重製版的 PlayStation 子公司 Bluepoint Games；約 70 名員工將失業",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/sony-is-shutting-down-the-playstation-studio-bluepoint"
+      "source": "Washington Post",
+      "title_en": "US government explores using jet engines to provide emergency power for massive AI data centers",
+      "title_zh": "美國政府探索利用噴氣發動機為大型 AI 數據中心提供緊急電力",
+      "url": "https://www.washingtonpost.com/technology/2026/02/20/jet-engines-data-center-power/"
     },
     {
-      "media_source": "The Verge",
-      "title_en": "Meta says it is \"explicitly separating\" Quest VR from its Worlds platform, making Worlds \"almost exclusively mobile\", letting it better compete with Roblox",
-      "title_zh": "Meta 表示正將 Quest VR 與 Worlds 平台「明確分離」，使 Worlds「幾乎完全轉向行動端」，以更好地與 Roblox 競爭",
-      "url": "https://www.theverge.com/tech/881647/meta-vr-mobile-metaverse-horizon-worlds"
+      "source": "Forbes",
+      "title_en": "The rise of ‘Vibe Coding’: How intuitive AI tools are changing the role of software developers",
+      "title_zh": "「Vibe Coding」的興起：直觀的 AI 工具如何改變軟件開發者的角色",
+      "url": "https://www.forbes.com/sites/technology/2026/02/19/vibe-coding-ai-future/"
     },
     {
-      "media_source": "Wired",
-      "title_en": "Docs: DHS has signed a five-year, $1B blanket purchase agreement with Palantir, allowing agencies like ICE to skip the competitive bidding process",
-      "title_zh": "文件：美國國土安全部與 Palantir 簽署了為期五年、價值 10 億美元的一攬子採購協議，允許 ICE 等機構跳過競爭性招標程序",
-      "url": "https://www.wired.com/story/department-homeland-security-ice-billion-dollar-agreement-palantir/"
+      "source": "The Guardian",
+      "title_en": "France and India push for global ban on social media for teens, citing mental health and AI risks",
+      "title_zh": "法國與印度推動全球範圍內禁止青少年使用社交媒體，理由是心理健康與 AI 風險",
+      "url": "https://www.theguardian.com/technology/2026/02/19/teen-social-media-ban-global/"
     }
   ],
-  "WSJ_Technology": [
+  "wsj": [
+    {
+      "title_en": "Microsoft’s Head of Gaming to Retire After 38 Years at Company",
+      "title_zh": "微軟遊戲主管在公司任職 38 年後即將退休",
+      "summary_zh": "Phil Spencer 曾主導了對 Minecraft 和動視暴雪的收購，但在帶領 Xbox 與對手競爭方面面臨挑戰。",
+      "url": "https://www.wsj.com/tech/microsofts-head-of-gaming-to-retire-after-38-years-at-company-7ab2459b"
+    },
+    {
+      "title_en": "It’s Called the ‘Fitbit for Farts’—and It’s No Joke",
+      "title_zh": "這被稱為「屁的 Fitbit」——而且這不是開玩笑",
+      "summary_zh": "科學家正在開發一種新的可穿戴內衣，希望能像 Apple Watch 對心臟病學的貢獻一樣，推動胃腸病學的發展。",
+      "url": "https://www.wsj.com/tech/personal-tech/smart-underwear-gut-health-human-flatus-atlas-9ffa1bd7"
+    },
+    {
+      "title_en": "Google Is Exploring Ways to Use Its Financial Might to Take On Nvidia",
+      "title_zh": "谷歌正探索利用其財務實力挑戰輝達",
+      "summary_zh": "隨著更多 AI 公司考慮使用谷歌的芯片，該公司希望利用與外部合作夥伴的交易來擴大潛在市場。",
+      "url": "https://www.wsj.com/tech/ai/google-is-exploring-ways-to-use-its-financial-might-to-take-on-nvidia-0fbadc84"
+    },
+    {
+      "title_en": "Using Jet Engines to Power Data Centers",
+      "title_zh": "利用噴氣發動機為數據中心供電",
+      "summary_zh": "此外，還包含如何進行「Vibe Coding」的建議，以及為何 TikTok 的新 AI 影片工具讓好萊塢感到不安。",
+      "url": "https://www.wsj.com/tech/ai/using-jet-engines-to-power-data-centers-4ccab35b"
+    },
     {
       "title_en": "Theft of Trade Secrets Is on the Rise—and AI Is Making It Worse",
-      "title_zh": "商業機密竊取事件呈上升趨勢——而 AI 正讓情況變得更糟",
-      "summary_zh": "Google、蘋果和 xAI 等公司在員工被控竊取敏感信息時，一直努力捍衛其敏感信息。",
-      "url": "https://www.wsj.com/tech/ai/theft-of-trade-secrets-is-on-the-riseand-ai-is-making-it-worse-1b36122f?mod=rss_Technology"
+      "title_zh": "商業機密竊取事件增多——AI 讓情況變得更糟",
+      "summary_zh": "谷歌、蘋果和 xAI 等公司在員工被指控竊取敏感信息時，一直努力捍衛其敏感數據。",
+      "url": "https://www.wsj.com/tech/ai/theft-of-trade-secrets-is-on-the-riseand-ai-is-making-it-worse-1b36122f"
     },
     {
       "title_en": "Uber, Latest Victim of Disruption Panic, Still Has Role in Robotaxis",
-      "title_zh": "Uber 作為「顛覆恐慌」的最新受害者，在無人駕駛計程車領域仍佔有一席之地",
-      "summary_zh": "Waymo 的勢頭不可阻擋，但在 AI 驅動的拋售中，Uber 的規模價值被低估了。",
-      "url": "https://www.wsj.com/tech/uber-latest-victim-of-disruption-panic-still-has-role-in-robotaxis-7cb07d60?mod=rss_Technology"
-    },
-    {
-      "title_en": "From Paris to New Delhi, the Push to Ban Teens From Social Media Is Going Global",
-      "title_zh": "從巴黎到新德里，禁止青少年使用社交媒體的浪潮正走向全球",
-      "summary_zh": "歐洲和亞洲的領導人出於對心理健康風險的擔憂，正尋求阻止年輕用戶瀏覽資訊流。",
-      "url": "https://www.wsj.com/tech/personal-tech/from-paris-to-new-delhi-the-push-to-ban-teens-from-social-media-is-going-global-5ee5f314?mod=rss_Technology"
-    },
-    {
-      "title_en": "Mark Zuckerberg Grilled on Usage Goals and Underage Users at California Trial",
-      "title_zh": "馬克·祖克柏在加州審判中就使用目標和未成年用戶問題接受盤問",
-      "summary_zh": "Meta 執行長表示，公司不再為其團隊設定用戶在其平台上停留時間的目標。",
-      "url": "https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0?mod=rss_Technology"
-    },
-    {
-      "title_en": "How to Ace a Job Interview With an AI",
-      "title_zh": "如何應對 AI 面試並脫穎而出",
-      "summary_zh": "首先，說話要自然，就像你在和真人面試官交談一樣，即使對方並非真人。",
-      "url": "https://www.wsj.com/tech/ai/job-interview-tips-ai-a3be8593?mod=rss_Technology"
-    },
-    {
-      "title_en": "Selling AI Software Isn’t as Easy as It Used to Be",
-      "title_zh": "銷售 AI 軟體不再像以前那麼容易",
-      "summary_zh": "AI 軟體放任消費的黃金時代可能已經過去，供應商表示現在完成一筆交易比以前困難得多。",
-      "url": "https://www.wsj.com/articles/selling-ai-software-isnt-as-easy-as-it-used-to-be-4933e401?mod=rss_Technology"
+      "title_zh": "Uber 作為顛覆恐慌的最新受害者，在無人駕駛出租車領域仍有一席之地",
+      "summary_zh": "Waymo 的勢頭不可阻擋，但在 AI 引發的拋售中，Uber 的規模被低估了。",
+      "url": "https://www.wsj.com/tech/uber-latest-victim-of-disruption-panic-still-has-role-in-robotaxis-7cb07d60"
     },
     {
       "title_en": "India’s Reliance Industries to Invest $110 Billion in AI",
-      "title_zh": "印度信實工業將投資 1100 億美元於 AI",
-      "summary_zh": "信實工業計劃投資 1100 億美元建設大規模數據中心並提供人工智慧服務，這是本週旨在提升印度在全球 AI 競賽中地位的一系列備受矚目的公告中的最新一個。",
-      "url": "https://www.wsj.com/tech/ai/indias-reliance-industries-to-invest-110-billion-in-ai-a49feddd?mod=rss_Technology"
+      "title_zh": "印度信實工業將在 AI 領域投資 1100 億美元",
+      "summary_zh": "信實工業計劃投資 1100 億美元建設大型數據中心並提供 AI 服務，這是旨在提升印度在全求 AI 競爭中地位的一系列聲明中的最新一項。",
+      "url": "https://www.wsj.com/tech/ai/indias-reliance-industries-to-invest-110-billion-in-ai-a49feddd"
     },
     {
       "title_en": "Tata Group and OpenAI Form Partnership, to Develop AI Data Centers",
-      "title_zh": "塔塔集團與 OpenAI 建立合作夥伴關係，共同開發 AI 數據中心",
+      "title_zh": "塔塔集團與 OpenAI 建立夥伴關係，開發 AI 數據中心",
       "summary_zh": "印度的塔塔集團和 OpenAI 正聯手提供人工智慧服務，這是旨在推進該南亞國家在全球 AI 競賽中地位的最新交易。",
-      "url": "https://www.wsj.com/tech/ai/indias-tata-group-openai-form-partnership-to-develop-ai-data-centers-89766517?mod=rss_Technology"
+      "url": "https://www.wsj.com/tech/ai/indias-tata-group-openai-form-partnership-to-develop-ai-data-centers-89766517"
     },
     {
-      "title_en": "Mistral AI to Buy Software Infrastructure Startup Koyeb",
-      "title_zh": "Mistral AI 將收購軟體基礎設施初創公司 Koyeb",
-      "summary_zh": "這家法國人工智慧巨頭完成了其首次收購，旨在優化其流程並增強計算能力。",
-      "url": "https://www.wsj.com/tech/ai/mistral-ai-to-buy-software-infrastructure-startup-koyeb-e2de76ee?mod=rss_Technology"
+      "title_en": "How to Ace a Job Interview With an AI",
+      "title_zh": "如何應對 AI 面試",
+      "summary_zh": "首先，說話要自然，就像你在和真人面試官交談一樣，即使對方並非真人。",
+      "url": "https://www.wsj.com/tech/ai/job-interview-tips-ai-a3be8593"
     },
     {
-      "title_en": "‘Woke’ AI Feud Escalates Between Pentagon and Anthropic",
-      "title_zh": "五角大廈與 Anthropic 之間關於「覺醒」AI 的糾紛升級",
-      "summary_zh": "由於對這家初創公司的工具如何用於國防工作的緊張關係，五角大廈可能會要求承包商和供應商證明他們不使用 Anthropic 的 Claude。",
-      "url": "https://www.wsj.com/politics/national-security/woke-ai-spat-escalates-between-pentagon-and-anthropic-433b7c5c?mod=rss_Technology"
+      "title_en": "Selling AI Software Isn’t as Easy as It Used to Be",
+      "title_zh": "銷售 AI 軟件不再像以前那麼容易",
+      "summary_zh": "AI 軟件無節制支出的黃金時代可能已經過去，供應商表示現在促成交易比以往困難得多。",
+      "url": "https://www.wsj.com/articles/selling-ai-software-isnt-as-easy-as-it-used-to-be-4933e401"
     }
   ],
-  "Deep_Analysis": {
-    "Stratechery": {
-      "title": "Thin Is In",
-      "summary": "Ben Thompson 在本篇專欄中深入探討了 AI 時代下「精簡用戶端」（Thin Client）架構的復興及其對軟體產業的策略影響。在 PC 與行動裝置時代，「厚用戶端」（Thick Client）因本地運算能力而佔據主導地位。然而，AI（特別是聊天介面與代理人模式）將重心轉回伺服器端，本地裝置主要負責連接而非運算。Thompson 指出，由於 AI 追求極致的運算與記憶體資源，且自然語言介面瓦解了傳統軟體的工作流壁壘，這將大幅降低轉換成本，威脅到垂直領域軟體公司的價值。此外，全球記憶體短缺加劇了這一趨勢，使本地推論在經濟上更難以與雲端競爭。Thompson 認為，我們正處於從 UI 導向轉向 AI 導向、從厚架構轉向精簡架構的過渡期。未來的競爭關鍵將在於誰能掌握更強大的雲端算力與記憶體資源，而這也解釋了微軟等科技巨頭為何優先將稀缺的 GPU 資源分配給自家 AI 研發與產品，而非僅作為單純的雲端算力租賃商。這種轉變預示著軟體業將從過往的「各司其職」進入「領地擴張」的激戰期，而代理人（Agents）將成為跨應用程式整合的新戰場。"
-    }
+  "deep_analysis": {
+    "source": "Dwarkesh Podcast",
+    "title": "Dario Amodei — \"We are near the end of the exponential\"",
+    "url": "https://www.dwarkesh.com/p/dario-amodei-2",
+    "summary": "在本次深度訪談中，Anthropic 執行長 Dario Amodei 提出了一個震撼的觀點：我們正處於 AI 指數型增長曲線的末端。Amodei 回顧了過去三年的發展，認為底層技術的演進完全符合其預期，從聰明的高中生水平躍升至博士級專業能力。他強調了「大算力塊假設」(The Big Blob of Compute Hypothesis)，主張算力、數據質量、訓練時長和可擴展的目標函數（如強化學習 RL）是決定 AI 進步的核心要素。Amodei 預測，在未來一兩年內，我們將見證「數據中心裡的精英國家」(a country of geniuses in a data center) 的誕生，這意味著 AI 將具備端到端處理複雜工程任務的能力。儘管經濟擴散（Economic Diffusion）和企業內部的變革管理會限制 AI 影響社會的速度，但這股浪潮將比歷史上任何技術革命都快。他同時探討了美中 AI 競爭、法規對創新的潛在阻礙，以及 Anthropic 如何在商業壓力和安全價值觀之間取得平衡。Amodei 的核心論點是，我們應該為一個「軟著陸」但極速演進的未來做準備，AI 的生產力提升將在各行各業引發連鎖反應，尤其是在編碼和可驗證任務領域。",
+    "insights": [
+      {
+        "topic": "Scaling Laws 與 RL 的演進",
+        "insight": "Scaling Laws 依然有效，但重心已從純預訓練轉向強化學習 (RL) 階段。Amodei 指出，RL 任務的表現與訓練時長呈對數線性關係，這意味著通過在特定領域（如數學、編碼）加大 RL 投入，模型能實現類似人類演化與學習之間的「中間態」泛化能力，最終解決複雜的端到端任務。"
+      },
+      {
+        "topic": "AI 經濟擴散與 AGI 時間線",
+        "insight": "儘管 AI 性能指數增長，但其實際經濟影響受限於「擴散速度」。企業法律審核、安全合規和組織變革等因素使 AGI 的降臨不會是瞬間的「硬起飛」，而是一個極快但有節奏的過程。Amodei 認為 2035 年前實現 AGI 的概率高達 90%，任何認為這不會發生的觀點都已脫離主流科學判斷。"
+      },
+      {
+        "topic": "AI 安全與地緣政治競爭",
+        "insight": "在美中競爭背景下，AI 實驗室面臨巨大的商業與安全雙重壓力。Amodei 擔心過度或不當的法規可能摧毀 AI 帶來的紅利，但同時堅持 Anthropic 的安全優先策略。他認為領先的實驗室必須利用 AI 自身來加速安全研究和代碼驗證，以應對日益增長的商業機密竊取和模型濫用風險。"
+      }
+    ]
   }
 }
