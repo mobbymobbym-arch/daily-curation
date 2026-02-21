@@ -6,13 +6,20 @@ ARCHIVE_DIR = 'archive'
 INDEX_FILE = 'index.html'
 
 def get_title_from_file(filepath):
-    # 嘗試打開檔案，抓取裡面的 <h3> 標籤作為 Podcast 標題
+    # 嘗試打開檔案，抓取 PODCAST_HIGHLIGHTS 區塊內的 title-cn 作為標題
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
-            match = re.search(r'<h3[^>]*>(.*?)</h3>', content)
-            if match:
-                return match.group(1).strip()
+            # 優先尋找 Podcast 領土內的標題
+            podcast_match = re.search(r'<!-- PODCAST_HIGHLIGHTS_START -->.*?<div class="title-cn">🎙️ (.*?)</div>', content, re.DOTALL)
+            if podcast_match:
+                return podcast_match.group(1).strip()
+            
+            # 備援：原本的 <h3> 邏輯，但排除掉通用標題
+            h3_matches = re.findall(r'<h3[^>]*>(.*?)</h3>', content)
+            for title in h3_matches:
+                if "存檔" not in title and "日報" not in title:
+                    return title.strip()
     except Exception:
         pass
     return "Podcast 深度摘要"
