@@ -13,8 +13,8 @@ def update_archive_list():
         return
 
     # 2. 掃描倉庫裡所有的 HTML 檔案
-    # 找出類似 "2026-02-12.html" 這樣的檔案
-    files = [f for f in os.listdir(ARCHIVE_DIR) if f.endswith('.html')]
+    # 只找出符合 YYYY-MM-DD.html 格式的檔案，排除帶有後綴的專題檔
+    files = [f for f in os.listdir(ARCHIVE_DIR) if re.match(r'^\d{4}-\d{2}-\d{2}\.html$', f)]
     files.sort(reverse=True)
 
     # 3. 組合新的網頁列表 (HTML)
