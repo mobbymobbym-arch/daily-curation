@@ -1,0 +1,3 @@
+# 忽略 OpenClaw 產生的暫存與記憶檔案，避免 Git Push 報錯
+memory/
+__pycache__/
