@@ -2,157 +2,111 @@
   "fetch_date": "2026-02-22",
   "techmeme": [
     {
-      "media_source": "Gizmodo",
-      "title_en": "Sam Altman says there is some “AI washing”, where companies blame AI for layoffs that they would otherwise do, alongside “real displacement by AI” of some jobs",
-      "title_zh": "Sam Altman 表示存在「AI 洗白」現象，公司將本就會進行的裁員歸咎於 AI，同時也承認 AI 確實造成了部分職位流失",
-      "url": "https://gizmodo.com/sam-altman-says-companies-are-ai-washing-layoffs-2000724759"
-    },
-    {
-      "media_source": "The Indian Express",
-      "title_en": "Sam Altman says currently “the idea of putting data centers in space is ridiculous” and that it is “not something that's going to matter at scale this decade”",
-      "title_zh": "Sam Altman 稱目前「將數據中心放在太空的想法很荒謬」，且這「在本十年內不會大規模產生影響」",
-      "url": "https://indianexpress.com/article/technology/artificial-intelligence/sam-altman-elon-musk-space-data-centres-10543749/"
-    },
-    {
       "media_source": "BleepingComputer",
-      "title_en": "Amazon details how a Russian-speaking hacker used generative AI as part of a campaign that breached 600+ FortiGate firewalls across 55 countries in five weeks",
-      "title_zh": "亞馬遜詳述講俄語的駭客如何利用生成式 AI 在五週內入侵全球 55 個國家的 600 多個 FortiGate 防火牆",
+      "title_zh": "亞馬遜警告：AI 輔助駭客在 5 週內入侵了 600 台 Fortigate 防火牆",
+      "title_en": "Amazon: AI-assisted hacker breached 600 Fortigate firewalls in 5 weeks",
       "url": "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/"
     },
     {
-      "media_source": "TechCrunch",
-      "title_en": "Open source projects like VLC and Blender are seeing a decline in the average quality of contributions, likely as AI coding tools lower barriers to entry",
-      "title_zh": "VLC 和 Blender 等開源項目發現貢獻的平均質量有所下降，這可能是因為 AI 編程工具降低了入門門檻",
-      "url": "https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/"
+      "media_source": "AWS Security Blog",
+      "title_zh": "AI 增強威脅行為者大規模訪問 Fortigate 設備",
+      "title_en": "AI-augmented threat actor accesses Fortigate devices at scale",
+      "url": "https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/"
     },
     {
       "media_source": "Bloomberg",
-      "title_en": "Trump calls on Netflix to fire board member Susan Rice or face “consequences,” after she said corporations that “take a knee” to Trump would be held accountable",
-      "title_zh": "川普要求 Netflix 解僱董事會成員 Susan Rice，否則將面臨「後果」，此前 Rice 曾表示「向川普屈服」的企業將被追究責任",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-21/trump-threatens-netflix-with-consequences-over-rice-board-seat"
+      "title_zh": "亞馬遜表示：駭客利用 AI 在數週內入侵 600 台防火牆",
+      "title_en": "Hackers used AI to breach 600 firewalls in weeks, Amazon says",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/hackers-used-ai-to-breach-600-firewalls-in-weeks-amazon-says/"
     },
     {
-      "media_source": "Bloomberg",
-      "title_en": "Sources: DOJ's review of Netflix's WBD takeover examines whether Netflix wields anticompetitive leverage over creators in violation of Clayton and Sherman Acts",
-      "title_zh": "消息人士：美國司法部對 Netflix 收購華納兄弟探索頻道的審查正在研究 Netflix 是否對創作者行使了違反《克萊頓法》和《謝爾曼法》的反競爭槓桿",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-21/doj-probes-netflix-s-power-over-filmmakers-in-warner-deal-review"
+      "media_source": "Tech in Asia",
+      "title_zh": "亞馬遜在 600 起入侵事件後警告 AI 驅動的網絡攻擊上升",
+      "title_en": "Amazon flags rise of AI-driven cyber attacks after 600 breaches",
+      "url": "https://www.techinasia.com/news/amazon-flags-rise-of-ai-driven-cyber-attacks-after-600-breaches/"
     },
     {
-      "media_source": "Wired",
-      "title_en": "Google is ending Gmailify and POP access in Gmail; new users will lose access in Q1 2026, and existing users will keep both features until later in 2026",
-      "title_zh": "Google 將終止 Gmail 中的 Gmailify 和 POP 訪問；新用戶將在 2026 年第一季度失去訪問權限，現有用戶則可保留至 2026 年晚些時候",
-      "url": "https://www.wired.com/story/gmail-killing-pop-and-gmailify-access-what-it-means-for-you/"
-    },
-    {
-      "media_source": "Harper's",
-      "title_en": "Interviews with Cluely's Roy Lee, Donald Boat, and other highly “agentic” young men, as agency becomes more valuable than technical skills in Silicon Valley",
-      "title_zh": "採訪 Cluely 的 Roy Lee 等極具「代理感」的年輕人；在矽谷，代理能力正變得比技術技能更具價值",
-      "url": "https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/"
-    },
-    {
-      "media_source": "Ars Technica",
-      "title_en": "English-language Wikipedia bans Archive.today after editors discover it was used to direct a DDoS attack and tampered with snapshots; 695K+ links to be removed",
-      "title_zh": "英語維基百科禁封 Archive.today，編輯發現其被用於引導 DDoS 攻擊並篡改快照；超過 69.5 萬個連結將被移除",
-      "url": "https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/"
-    },
-    {
-      "media_source": "The Verge",
-      "title_en": "Microsoft Gaming CEO Asha Sharma says she is committed to “the return of Xbox” and that the company won't “flood our ecosystem with soulless AI slop”",
-      "title_zh": "微軟遊戲執行長 Asha Sharma 表示致力於「Xbox 的回歸」，且公司不會讓「無靈魂的 AI 垃圾」充斥其生態系統",
-      "url": "https://www.theverge.com/games/882326/read-microsoft-gaming-ceo-asha-sharma-first-memo"
-    },
-    {
-      "media_source": "Benedict Evans",
-      "title_en": "A look at the fundamental questions facing OpenAI: its models have a very large user base but very narrow engagement, incumbents are matching its tech, and more",
-      "title_zh": "探討 OpenAI 面臨的根本問題：其模型擁有龐大用戶群但參與度極窄，既有龍頭正趕上其技術等",
-      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x"
-    },
-    {
-      "media_source": "Financial Times",
-      "title_en": "Source Global: the US consulting market is set to grow 7% in 2026, the fastest pace in the post-COVID era, as companies seek advice on profiting from AI",
-      "title_zh": "Source Global：隨著企業尋求如何從 AI 獲利的建議，2026 年美國諮詢市場預計將增長 7%，為後疫情時代最快增速",
-      "url": "https://www.ft.com/content/3cd94803-909c-4617-99b0-a1b5061f93ad"
-    },
-    {
-      "media_source": "Garry's List",
-      "title_en": "Anthropic's data shows software engineering accounts for ~50% of its AI agent tool calls; the remaining verticals are greenfields most founders are overlooking",
-      "title_zh": "Anthropic 數據顯示軟體工程佔其 AI 代理工具調用的約 50%；其餘垂直領域是大多數創業者忽視的處女地",
-      "url": "https://garryslist.org/posts/half-the-ai-agent-market-is-one-category-the-rest-is-wide-open"
-    },
-    {
-      "media_source": "Bloomberg",
-      "title_en": "How Claude Code, released publicly a year ago, cemented Anthropic as a leader in the lucrative, emerging market for AI coding tools",
-      "title_zh": "一年前公開發布的 Claude Code 如何鞏固了 Anthropic 在獲利豐厚的 AI 編程工具新興市場中的領導地位",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/the-surprise-hit-that-made-anthropic-into-an-ai-juggernaut-mlve4nc2?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3MTYyMzI2NiwiZXhwIjoxNzcyMjI4MDY2LCJhcnRpY2xlSWQiOiJUQVMwR0NLSUpIQkMwMCIsImJjb25uZWN0SWQiOiI4OUM4OTNDMDhGOTQ0NThDQkQwQTQyREY1RDFCOTY0QyJ9.Cx2w6FVb8KJEqMtkd3hD6c7nXN5qR4beXpJOlfu1t50"
-    },
-    {
-      "media_source": "FinSMEs",
-      "title_en": "Salt Lake City-based Jump, a provider of AI tools for financial advisors to automate meeting prep and more, raised an $80M Series B led by Insight Partners",
-      "title_zh": "總部位於鹽湖城的 Jump（為理財顧問提供 AI 自動化工具）完成由 Insight Partners 領投的 8000 萬美元 B 輪融資",
-      "url": "https://www.finsmes.com/2026/02/jump-raises-80m-in-series-b-funding.html"
+      "media_source": "The Hacker News",
+      "title_zh": "AI 輔助威脅行為者破壞 Fortigate 設備",
+      "title_en": "AI-assisted threat actor compromises Fortigate devices",
+      "url": "https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html/"
     }
   ],
   "wsj": [
     {
+      "title_zh": "如何監控父母而不成為「老大哥」",
       "title_en": "How to Monitor Mom and Dad Without Becoming Big Brother",
-      "title_zh": "如何在不成為「老大哥」的情況下監測父母",
-      "summary_zh": "室內傳感器和位置追蹤器可以幫助家庭在尊重隱私的同時隨時掌握高齡親人的狀況。",
+      "summary_zh": "家中的感測器和位置追蹤器可以幫助家庭隨時了解年邁親人的情況，同時尊重其隱私。",
       "url": "https://www.wsj.com/tech/personal-tech/monitor-aging-relatives-privacy-4d66a749?mod=rss_Technology"
     },
     {
+      "title_zh": "將美國資金投入中國 AI 領域的香港投資人",
       "title_en": "The Hong Kong Investor Putting American Money Into China’s AI Push",
-      "title_zh": "將美國資金投入中國 AI 發展的香港投資者",
-      "summary_zh": "沈南鵬長期以來扮演著橋接兩國的角色，從耶魯畢業後在紅杉工作到建立自己的公司。",
+      "summary_zh": "沈南鵬長期以來一直是兩國之間的橋樑，從耶魯畢業後在紅杉工作，到創立自己的公司。",
       "url": "https://www.wsj.com/tech/ai/the-hong-kong-investor-putting-american-money-into-chinas-ai-push-e7487c0b?mod=rss_Technology"
     },
     {
+      "title_zh": "微軟遊戲負責人在公司工作 38 年後退休",
       "title_en": "Microsoft’s Head of Gaming to Retire After 38 Years at Company",
-      "title_zh": "微軟遊戲負責人在工作 38 年後退休",
-      "summary_zh": "Phil Spencer 曾主導對 Minecraft 和動視暴雪的收購，但在帶領 Xbox 與對手競爭方面陷入苦戰。",
+      "summary_zh": "菲爾·史賓塞監督了對 Minecraft 和 Activision Blizzard 的收購，但在使 Xbox 與對手競爭方面遇到了困難。",
       "url": "https://www.wsj.com/tech/microsofts-head-of-gaming-to-retire-after-38-years-at-company-7ab2459b?mod=rss_Technology"
     },
     {
+      "title_zh": "被稱為「排便版 Fitbit」——這可不是玩笑",
       "title_en": "It’s Called the ‘Fitbit for Farts’—and It’s No Joke",
-      "title_zh": "它被稱為「屁的 Fitbit」，且這不是玩笑",
-      "summary_zh": "開發新型智慧內衣的科學家希望能為胃腸病學帶來像 Apple Watch 對心臟病學那樣的貢獻。",
+      "summary_zh": "科學家正在開發一種新型智慧內衣，希望在胃腸病學領域達到 Apple Watch 在心臟病學領域的成就。",
       "url": "https://www.wsj.com/tech/personal-tech/smart-underwear-gut-health-human-flatus-atlas-9ffa1bd7?mod=rss_Technology"
     },
     {
+      "title_zh": "Google 探索利用財力對抗 Nvidia 的方法",
       "title_en": "Google Is Exploring Ways to Use Its Financial Might to Take On Nvidia",
-      "title_zh": "Google 正在探索利用其財務實力挑戰 Nvidia 的方法",
-      "summary_zh": "隨著更多 AI 公司考慮使用 Google 的晶片，該公司希望通過與外部合作夥伴的交易來擴大潛在市場。",
+      "summary_zh": "隨著更多 AI 公司考慮使用 Google 的晶片，該公司希望透過與外部夥伴的交易來擴大潛在市場。",
       "url": "https://www.wsj.com/tech/ai/google-is-exploring-ways-to-use-its-financial-might-to-take-on-nvidia-0fbadc84?mod=rss_Technology"
     },
     {
+      "title_zh": "使用噴射發動機為數據中心供電",
       "title_en": "Using Jet Engines to Power Data Centers",
-      "title_zh": "使用噴氣發動機為數據中心供電",
-      "summary_zh": "另外還有關於如何進行 vibe code 的提示，以及為什麼 TikTok 的新 AI 影片工具讓好萊塢感到震驚。",
+      "summary_zh": "此外還有如何進行氛圍編碼（vibe code）的技巧，以及為什麼 TikTok 的新 AI 影片工具嚇壞了好萊塢。",
       "url": "https://www.wsj.com/tech/ai/using-jet-engines-to-power-data-centers-4ccab35b?mod=rss_Technology"
     },
     {
+      "title_zh": "商業機密竊取案增加，AI 使情況惡化",
       "title_en": "Theft of Trade Secrets Is on the Rise—and AI Is Making It Worse",
-      "title_zh": "商業機密盜竊案正在上升，AI 讓情況變得更糟",
-      "summary_zh": "在員工被指控盜取敏感信息之際，Google、蘋果和 xAI 都在努力捍衛自己的機密。",
+      "summary_zh": "Google、Apple 和 xAI 等公司在員工被指控竊取敏感資訊時，都在尋求保護其資訊的方法。",
       "url": "https://www.wsj.com/tech/ai/theft-of-trade-secrets-is-on-the-riseand-ai-is-making-it-worse-1b36122f?mod=rss_Technology"
     },
     {
+      "title_zh": "印度信實工業將在 AI 領域投資 1100 億美元",
       "title_en": "India’s Reliance Industries to Invest $110 Billion in AI",
-      "title_zh": "印度信實工業將投資 1100 萬美元發展 AI",
-      "summary_zh": "信實工業計劃投資 1100 萬美元建立大規模數據中心並提供 AI 服務，這是本週旨在提升印度全球 AI 地位的系列公告中的最新一項。",
+      "summary_zh": "信實工業計畫投資 1100 億美元建設大規模數據中心並提供人工智慧服務，旨在提升印度在 AI 競賽中的地位。",
       "url": "https://www.wsj.com/tech/ai/indias-reliance-industries-to-invest-110-billion-in-ai-a49feddd?mod=rss_Technology"
     },
     {
+      "title_zh": "塔塔集團與 OpenAI 建立夥伴關係，共同開發 AI 數據中心",
       "title_en": "Tata Group and OpenAI Form Partnership, to Develop AI Data Centers",
-      "title_zh": "塔塔集團與 OpenAI 建立合作夥伴關係開發 AI 數據中心",
-      "summary_zh": "印度的塔塔集團和 OpenAI 正聯手提供 AI 服務，這是旨在推進該南亞國家在全球 AI 競賽中地位的最新交易。",
+      "summary_zh": "印度的塔塔集團和 OpenAI 正聯手提供人工智慧服務，這是旨在推進該國在全球 AI 競賽中地位的最新交易。",
       "url": "https://www.wsj.com/tech/ai/indias-tata-group-openai-form-partnership-to-develop-ai-data-centers-89766517?mod=rss_Technology"
     },
     {
+      "title_zh": "如何應對 AI 面試",
       "title_en": "How to Ace a Job Interview With an AI",
-      "title_zh": "如何應對 AI 面試並脫穎而出",
-      "summary_zh": "首先，說話要自然，就像你在和真人面試官交談一樣，即使對方並不是真人。",
+      "summary_zh": "首先，請自然地說話，就像你在和真人面試官交談一樣，即使對方並不是真人。",
       "url": "https://www.wsj.com/tech/ai/job-interview-tips-ai-a3be8593?mod=rss_Technology"
     }
   ],
-  "deep_analysis": null
+  "deep_analysis": {
+    "stratechery": {
+      "title": "Thin Is In (精簡型終端正流行)",
+      "analysis": "Ben Thompson 在本文中深入探討了計算架構從大型主機時代的「精簡型終端 (Thin Client)」到 PC/行動時代的「豐富型終端 (Thick Client)」，再到如今 AI 時代回歸精簡型架構的演進趨勢。核心論點在於，在 AI 世界中，主要的計算工作（推理）發生在雲端數據中心，使用者僅需透過極簡的介面（如對話框）即可完成複雜任務。Ben 指出，這種轉變對傳統垂直軟體公司構成了巨大威脅，因為過去軟體的大部分價值在於建立在數據之上的 UI 與工作流，而當介面變為自然語言時，這些多年累積的「肌肉記憶」與切換成本將消失。此外，Ben 分析了當前的記憶體荒（RAM Shortage），指出 AI 對高頻寬記憶體 (HBM) 的強烈需求正擠壓消費電子產品供應，使硬體升級變得更加昂貴且非必要。這進一步強化了精簡型架構的優勢：如果本地硬體受限且昂貴，而雲端模型能力更強且成本可透過規模分攤，則計算重心向雲端傾斜是必然的結果。最終，Ben 預測未來的關鍵在於「代理人 (Agents)」空間，看哪些現有 UI 工作流將被 AI 代理所取代，這將引發軟體界的新一輪版圖爭奪戰。"
+    },
+    "dwarkesh_podcast": {
+      "title": "Dario Amodei — \"We are near the end of the exponential\"",
+      "summary": "本次訪談深入探討了 Anthropic CEO Dario Amodei 對 AI 指數增長、擴展定律（Scaling Laws）以及未來幾年可能出現的「數據中心內的天才國家（Country of geniuses in a data center）」的看法。Dario 強調，儘管目前的強化學習（RL）範式表面上看起來與預訓練不同，但本質上仍遵循相同的「大算力塊假說（Big Blob of Compute Hypothesis）」。他認為，AI 正在從「聰明的高中生」水平邁向「博士級與專業人士」水平。Dario 預測，我們正接近指數增長的末期，這意味著 AGI 可能比大眾想像的更近。他對未來 10 年內實現 AGI 的信心高達 90%。访谈還涉及了 AI 如何在經濟中擴散、Anthropic 的商業模式、以及美中科技競爭等高風險議題。Dario 認為，雖然經濟擴散可能比技術進步慢，但 AI 的擴散速度仍會超過以往任何技術。他指出，Anthropic 本身的收入增長曲線（每年 10 倍）反映了這種驚人的動能。",
+      "critical_insights": [
+        "AI 擴展的統一假說：Dario 堅持認為 RL 的擴展與預訓練（Pre-training）本質相同，算力、數據質量、分布以及可擴展的目標函數（Objective Function）是唯幾關鍵因素。RL 正在經歷預訓練曾走過的「泛化」歷程，從特定數學競賽擴展到廣泛任務。",
+        "AGI 的定義與時程：Dario 將 AGI 具象化為「數據中心內的天才國家」，並對 10 年內實現此目標抱有 90% 的信心。他認為當前對指數增長即將結束（即達到巔峰）的公共認知嚴重不足，政治討論仍停留在過時議題上。",
+        "經濟擴散與軟啟動：儘管技術進步極快，但由於企業的變革管理、安全合規與「閉環」需求，AI 在經濟中的滲透會呈現「軟啟動（Soft Takeoff）」特徵。擴散雖然有物理與組織限制，但仍會比電力或網路等前代技術快得多。"
+      ]
+    }
+  }
 }
