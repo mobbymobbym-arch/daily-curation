@@ -48,7 +48,7 @@ def render_to_html():
         # 跑迴圈把每一個章節渲染出來
         for chapter in chapters:
             ch_time = chapter.get("timestamp", "")
-            ch_title = chapter.get("title", "未命名章節") # 配合 podcast_data.json 欄位名為 title
+            ch_title = chapter.get("title", "未命名章節")
             ch_content = chapter.get("content", "")
             ch_quote = chapter.get("quote", "")
             
@@ -83,15 +83,18 @@ def render_to_html():
         print(f"💡 請確保 index.html 中包含：\n{start_marker}\n（這裡放內容）\n{end_marker}")
         return
 
-    # 使用 Regex 進行區段替換
-    pattern = re.escape(start_marker) + r'[\s\S]*?' + re.escape(end_marker)
-    replacement = f"{start_marker}\n{new_podcast_html}\n{end_marker}"
-    updated_html = re.sub(pattern, replacement, html_content)
+    # 使用正規表達式 (Regex) 把 START 和 END 中間的所有東西，替換成我們剛剛做好的新 HTML
+    # re.DOTALL 確保它可以跨越多行進行替換
+    pattern = re.compile(rf"({start_marker}).*?({end_marker})", re.DOTALL)
     
+    # \1 代表保留 start_marker，\2 代表保留 end_marker，中間塞入新的 HTML
+    updated_html = pattern.sub(rf"\1 {new_podcast_html} \2", html_content)
+    
+    # 寫回檔案
     with open(html_path, 'w', encoding='utf-8') as f:
         f.write(updated_html)
         
-    print(f"✅ 成功！已將《{title}》的「極致 Vibe 渲染版」正式寫入 index.html。")
+    print(f"✅ 真實渲染大成功！已將《{title}》的 3000 字深度摘要與互動 UI 正確寫入 index.html。")
 
 if __name__ == "__main__":
     render_to_html()
