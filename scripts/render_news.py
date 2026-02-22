@@ -107,9 +107,13 @@ def render_deep_analysis(data):
         if 'insights' in item and isinstance(item['insights'], list):
             insights_html = "<br><br><strong>關鍵洞察：</strong><br>"
             for idx, insight in enumerate(item['insights']):
-                topic = insight.get('topic', '')
-                text = insight.get('insight', '')
-                insights_html += f"{idx+1}. <strong>{topic}：</strong> {text}<br>"
+                if isinstance(insight, dict):
+                    topic = insight.get('topic', '')
+                    text = insight.get('insight', '')
+                    insights_html += f"{idx+1}. <strong>{topic}：</strong> {text}<br>"
+                else:
+                    # Fallback for simple string lists
+                    insights_html += f"{idx+1}. {insight}<br>"
 
         full_content = summary + insights_html
 
