@@ -1,13 +1,15 @@
 import json
 import os
+import re
 
 def render_to_html():
     json_path = "podcast_data.json"
     html_path = "index.html"
+    insertion_marker = "<!-- PODCAST_HIGHLIGHTS_START -->"
     
     # 1. 檢查 JSON 檔案是否存在
     if not os.path.exists(json_path):
-        print("❌ 錯誤：找不到 podcast_data.json。請確認分析官已經寫入資料。")
+        print("❌ 錯誤：找不到 podcast_data.json。")
         return
         
     # 2. 生成 Podcast HTML 結構 (包含完整章節與極致敘事風格)
@@ -66,24 +68,30 @@ def render_to_html():
     except Exception as e:
         print(f"❌ 錯誤：生成 HTML 失敗 ({str(e)})")
         return
-    
-    # 取代並更新 HTML 內容
-    # 我們使用 regex 或簡單的 replace。為了確保插座不消失，我們把 marker 帶進 new_block
-    updated_html = html_content.replace(insertion_marker, new_html_block)
-    
-    # 處理可能存在的舊內容 (如果主人想要的是局部更新而非無限堆疊)
-    # 這裡採用主人提供的 replace 邏輯，但為了安全起見，我會配合 <!-- PODCAST_HIGHLIGHTS_END --> 做區段替換
-    import re
+
+    # 3. 檢查 HTML 檔案是否存在
+    if not os.path.exists(html_path):
+        print(f"❌ 錯誤：找不到 {html_path}。")
+        return
+        
+    # 4. 讀取並替換區塊
+    with open(html_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # 使用 Regex 進行區段替換，確保不會重複疊加
     pattern = r'<!-- PODCAST_HIGHLIGHTS_START -->[\s\S]*?<!-- PODCAST_HIGHLIGHTS_END -->'
     replacement = f'<!-- PODCAST_HIGHLIGHTS_START -->\n{new_html_block}\n<!-- PODCAST_HIGHLIGHTS_END -->'
     
-    # 但主人給的代碼非常簡約，我先完全依照主人的邏輯執行 replace。
-    # 修正：主人給的原始代碼中 insertion_marker 是空的，我將其設為正確的標籤。
-    
+    if not re.search(pattern, content):
+        # 如果找不到完整區段，就執行簡單 replace (備援)
+        updated_html = content.replace(insertion_marker, new_html_block)
+    else:
+        updated_html = re.sub(pattern, replacement, content)
+
     with open(html_path, 'w', encoding='utf-8') as f:
         f.write(updated_html)
         
-    print(f"✅ 成功！已將《{title}》的摘要正式寫入 index.html。")
+    print(f"✅ 成功！已將《{title}》的完整敘事摘要正式寫入 index.html。")
 
 if __name__ == "__main__":
     render_to_html()
