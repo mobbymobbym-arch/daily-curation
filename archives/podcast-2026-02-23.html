@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce's Daily Curation | v5.0 Full-Width</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #fcf9f2;
+            --primary-text: #1a1c20;
+            --secondary-text: #64748b;
+            --techmeme-accent: #3b82f6;
+            --wsj-accent: #1e293b;
+            --analysis-accent: #10b981;
+            --podcast-accent: #8b5cf6;
+            --card-bg: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 10px 10px -5px rgba(0, 0, 0, 0.03);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #121210;
+                --primary-text: #f8fafc;
+                --secondary-text: #94a3b8;
+                --card-bg: #1c1c1a;
+                --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+                --shadow-hover: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+            }
+        }
+
+        body { font-family: 'Inter', 'Noto Sans TC', -apple-system, sans-serif; background-color: var(--bg-color); color: var(--primary-text); margin: 0; line-height: 1.6; scroll-behavior: smooth; }
+        
+        nav { position: sticky; top: 0; background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 100; padding: 12px 0; border-bottom: 1px solid rgba(0,0,0,0.05); text-align: center; }
+        @media (prefers-color-scheme: dark) { nav { background: rgba(15, 23, 42, 0.7); border-bottom-color: rgba(255,255,255,0.05); } }
+        nav .nav-container { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        nav .nav-links { display: flex; gap: 15px; flex-grow: 1; justify-content: center; }
+        nav a { text-decoration: none; color: var(--primary-text); font-weight: 700; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; white-space: nowrap; }
+        nav a:hover { color: var(--techmeme-accent); }
+        .home-icon { color: var(--techmeme-accent); font-size: 1.2rem; transition: transform 0.2s; display: flex; align-items: center; }
+        .home-icon:hover { transform: scale(1.2); }
+
+        header { padding: 100px 20px; text-align: center; background: radial-gradient(circle at top left, #1e3a8a, #0f172a); color: white; position: relative; overflow: hidden; }
+        header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: linear-gradient(to top, var(--bg-color), transparent); }
+        header h1 { font-size: 3.5rem; font-weight: 900; margin: 0; letter-spacing: -1px; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        header p { font-size: 1.1rem; opacity: 0.8; font-weight: 500; margin-top: 10px; }
+
+        .container { max-width: 1400px; margin: 0 auto; padding: 40px 20px 100px 20px; }
+        .main-content { width: 100%; }
+        
+        .section-header { display: flex; align-items: center; gap: 18px; margin: 60px 0 35px 0; padding: 0 10px; }
+        .section-header i { font-size: 1.8rem; }
+        .section-header h2 { font-size: 1.8rem; font-weight: 800; margin: 0; letter-spacing: -0.5px; }
+        
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 25px; margin-bottom: 60px; }
+        .news-card { 
+            background: var(--card-bg); 
+            border-radius: 24px; 
+            padding: 30px; 
+            box-shadow: var(--shadow); 
+            display: flex; 
+            flex-direction: column; 
+            position: relative; 
+            border: 1px solid rgba(0,0,0,0.03); 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            overflow: hidden;
+        }
+        .news-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); border-color: rgba(37, 99, 235, 0.2); }
+        
+        .title-cn { font-size: 1.3rem; font-weight: 800; margin-bottom: 12px; line-height: 1.45; color: var(--primary-text); }
+        .title-en { font-size: 0.9rem; color: var(--secondary-text); font-weight: 500; margin-bottom: 20px; line-height: 1.5; }
+        .summary-cn { font-size: 0.95rem; color: #4b5563; line-height: 1.6; margin-bottom: 25px; flex-grow: 1; border-left: 3px solid #e5e7eb; padding-left: 15px; }
+        
+        .link-btn { 
+            text-decoration: none; 
+            font-weight: 800; 
+            font-size: 0.8rem; 
+            display: inline-flex; 
+            align-items: center; 
+            gap: 10px; 
+            padding: 10px 0;
+            transition: gap 0.3s;
+        }
+        .link-btn:hover { gap: 15px; }
+
+        /* Footer Archive Styles */
+        .archive-footer { 
+            max-width: 1400px; 
+            margin: 100px auto 0; 
+            padding: 60px 20px; 
+            border-top: 2px solid rgba(0,0,0,0.05);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+        .archive-box { background: var(--card-bg); border-radius: 28px; padding: 35px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); }
+        .archive-box h3 { font-size: 1.4rem; font-weight: 800; margin-top: 0; margin-bottom: 25px; display: flex; align-items: center; gap: 12px; }
+        .archive-list { list-style: none; padding: 0; margin: 0; }
+        .archive-list li { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid rgba(0,0,0,0.03); }
+        .archive-list li:last-child { border-bottom: none; }
+        .archive-list a { text-decoration: none; color: var(--primary-text); font-weight: 500; transition: color 0.2s; display: flex; align-items: center; gap: 10px; }
+        .archive-list a:hover { color: var(--techmeme-accent); }
+
+        @media (max-width: 768px) {
+            .archive-footer { grid-template-columns: 1fr; }
+            header h1 { font-size: 2.5rem; }
+        }
+
+        footer.copyright { text-align: center; padding: 40px; border-top: 1px solid rgba(0,0,0,0.05); color: var(--secondary-text); font-size: 0.9rem; }
+
+        /* Interactive UI Styles */
+        .expand-wrapper { position: relative; max-height: 300px; overflow: hidden; transition: max-height 0.5s ease; }
+        .expand-wrapper.expanded { max-height: none; }
+        .fade-mask { position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: linear-gradient(transparent, var(--card-bg)); pointer-events: none; opacity: 1; transition: opacity 0.3s; }
+        .expand-wrapper.expanded .fade-mask { opacity: 0; }
+        .toggle-btn { background: #f1f3f5; border: 1px solid #ddd; border-radius: 6px; padding: 8px 16px; cursor: pointer; font-weight: bold; margin-top: 15px; display: inline-flex; align-items: center; gap: 5px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div style="width: 24px;"></div>
+            <div class="nav-links">
+                <a href="#techmeme-section">Techmeme</a>
+                <a href="#wsj-section">WSJ Tech</a>
+                <a href="#analysis-section">Deep Analysis</a>
+                <a href="#podcast-section">Podcast</a>
+            </div>
+            <a href="/daily-curation/" class="home-icon">
+                <i class="fas fa-home"></i>
+            </a>
+        </div>
+    </nav>
+    <header>
+        <h1>Joyce's Daily</h1>
+        <p>Sunday, February 21, 2026</p>
+    </header>
+    
+    <div class="container">
+        <main class="main-content">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- DAILY_NEWS_START -->
+            <!-- Techmeme Section -->
+            <div id="techmeme-section" class="section-header" style="color: var(--techmeme-accent);">
+                <i class="fas fa-bolt"></i>
+                <h2>Techmeme Top 10</h2>
+                <p class="section-desc"><i class="far fa-calendar-alt"></i> 2026-02-23</p>
+            </div>
+            <div id="techmeme-grid" class="news-grid">
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">提姆·庫克頻繁提到視覺智慧，暗示這將成為蘋果新穿戴設備的核心；消息人士：蘋果考慮推出深紅色 iPhone 18 Pro</div>
+                    <div class="title-en">Tim Cook's increased mentions of Visual Intelligence hint it will be a major part of Apple's new wearables; sources: Apple considers a deep red iPhone 18 Pro</div>
+                    <a href="https://www.bloomberg.com/news/newsletters/2026-02-22/apple-s-ai-wearables-push-what-to-expect-from-march-4-low-end-macbook-launch" class="link-btn" style="color: var(--techmeme-accent);">Bloomberg &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">薩姆·奧特曼稱關於 AI 能源消耗的討論「不公平」，因為訓練一個人類需要 20 年的時間以及這期間消耗的所有食物</div>
+                    <div class="title-en">Sam Altman says discussions about AI's energy usage are “unfair”, as it takes “20 years of life and all of the food you eat during that time” to train a human</div>
+                    <a href="https://techcrunch.com/2026/02/21/sam-altman-would-like-remind-you-that-humans-use-a-lot-of-energy-too/" class="link-btn" style="color: var(--techmeme-accent);">TechCrunch &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">薩姆·奧特曼表示，目前「將數據中心放在太空的想法很荒謬」，且這「在未來十年內不會形成規模」</div>
+                    <div class="title-en">Sam Altman says currently “the idea of putting data centers in space is ridiculous” and that it is “not something that's going to matter at scale this decade”</div>
+                    <a href="https://indianexpress.com/article/technology/artificial-intelligence/sam-altman-elon-musk-space-data-centres-10543749/" class="link-btn" style="color: var(--techmeme-accent);">The Indian Express &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">薩姆·奧特曼稱存在某種「AI 洗白」現象，即公司將本來就要進行的裁員歸咎於 AI，儘管確實存在 AI 導致的職位流失</div>
+                    <div class="title-en">Sam Altman says there is some “AI washing”, where companies blame AI for layoffs that they would otherwise do, alongside “real displacement by AI” of some jobs</div>
+                    <a href="https://gizmodo.com/sam-altman-says-companies-are-ai-washing-layoffs-2000724759" class="link-btn" style="color: var(--techmeme-accent);">Gizmodo &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">Waymo 和特斯拉提交給美國政府的文件揭露了其無人駕駛計程車遠端協助計畫的新細節，該計畫由人類操作員組成</div>
+                    <div class="title-en">Documents submitted by Waymo and Tesla to the US government reveal new info about the remote assistance programs for their robotaxis, staffed by human operators</div>
+                    <a href="https://www.wired.com/story/government-docs-reveal-new-details-about-tesla-and-waymo-robotaxi-programs/" class="link-btn" style="color: var(--techmeme-accent);">Wired &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">Anthropic 的數據顯示，軟體工程約占其 AI 代理工具調用的 50%；剩餘的垂直領域是大多數創業者忽視的藍海</div>
+                    <div class="title-en">Anthropic's data shows software engineering accounts for ~50% of its AI agent tool calls; the remaining verticals are greenfields most founders are overlooking</div>
+                    <a href="https://garryslist.org/posts/half-the-ai-agent-market-is-one-category-the-rest-is-wide-open" class="link-btn" style="color: var(--techmeme-accent);">Garry's List &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">川普要求 Netflix 解僱董事會成員蘇珊·賴斯，否則將面臨「後果」，此前她曾表示向川普「屈服」的企業將被追究責任</div>
+                    <div class="title-en">Trump calls on Netflix to fire board member Susan Rice or face “consequences,” after she said corporations that “take a knee” to Trump would be held accountable</div>
+                    <a href="https://www.bloomberg.com/news/articles/2026-02-21/trump-threatens-netflix-with-consequences-over-rice-board-seat" class="link-btn" style="color: var(--techmeme-accent);">Bloomberg &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">分析：加密貨幣產業在 2026 年美國期中選舉已投入超過 2.88 億美元，是 2024 年週期的兩倍多；加密貨幣 PAC Fairshake 是美國資金規模第五大的 PAC</div>
+                    <div class="title-en">Analysis: the crypto industry has spent $288M+ on the 2026 US midterms so far, over double the 2024 cycle; crypto PAC Fairshake is the US' fifth most-funded PAC</div>
+                    <a href="https://www.citationneeded.news/crypto-super-pacs-2026-midterms/" class="link-btn" style="color: var(--techmeme-accent);">Citation Needed &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">VLC 和 Blender 等開源專案的貢獻平均品質正在下降，這可能是因為 AI 程式碼工具降低了准入門檻</div>
+                    <div class="title-en">Open source projects like VLC and Blender are seeing a decline in the average quality of contributions, likely as AI coding tools lower barriers to entry</div>
+                    <a href="https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/" class="link-btn" style="color: var(--techmeme-accent);">TechCrunch &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">印度 AI 峰會凸顯了該國 AI 雄心的局限性，美國及其科技公司基本上無視了印度推動全球 AI 治理的努力</div>
+                    <div class="title-en">India's AI Summit highlighted the limits of the country's AI ambitions, as the US and its tech companies largely dismissed India's push for global AI governance</div>
+                    <a href="https://giftarticle.ft.com/giftarticle/actions/redeem/0daeb080-c8e9-4dfe-9add-c34492f83f47" class="link-btn" style="color: var(--techmeme-accent);">Financial Times &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">紅杉中國（現為 HSG）沈南鵬個人簡介：在美國限制前從美國投資者手中籌集了 90 億美元，並資助了 Manus 等中國初創公司</div>
+                    <div class="title-en">A profile of Neil Shen of HSG, formerly Sequoia China, which raised $9B from US investors before US restrictions and has funded Manus and other Chinese startups</div>
+                    <a href="https://www.wsj.com/tech/ai/the-hong-kong-investor-putting-american-money-into-chinas-ai-push-e7487c0b?st=4kTJLT&reflink=desktopwebshare_permalink" class="link-btn" style="color: var(--techmeme-accent);">Wall Street Journal &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">騰訊在近五年後關閉了 TiMi 蒙特婁工作室，且未發布任何遊戲，中國巨頭正在縮減對西方遊戲工作室的資金投入</div>
+                    <div class="title-en">Tencent closed its TiMi Montréal studio after nearly five years, without ever releasing a game, as Chinese giants scale back funding for Western game studios</div>
+                    <a href="https://www.gamefile.news/p/tencent-timi-montreal-closed" class="link-btn" style="color: var(--techmeme-accent);">Game File &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">亞馬遜詳述一名俄語駭客如何利用生成式 AI 作為攻擊手段，在五週內入侵了 55 個國家的 600 多個 FortiGate 防火牆</div>
+                    <div class="title-en">Amazon details how a Russian-speaking hacker used generative AI as part of a campaign that breached 600+ FortiGate firewalls across 55 countries in five weeks</div>
+                    <a href="https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/" class="link-btn" style="color: var(--techmeme-accent);">BleepingComputer &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
+                    <div class="title-cn">歐盟對 Shein 的 DSA 調查只是該公司面臨的最新問題，在其尋求上市之際，各大市場的問題正接踵而至</div>
+                    <div class="title-en">The EU's DSA probe into Shein is just the latest of the company's problems, which are stacking up in many of its big markets as it seeks to push through an IPO</div>
+                    <a href="https://giftarticle.ft.com/giftarticle/actions/redeem/1b8de19a-e896-4233-ac8b-0ce13ff2b119" class="link-btn" style="color: var(--techmeme-accent);">Financial Times &rarr;</a>
+                </div>
+            </div>
+
+            <!-- WSJ Section -->
+            <div id="wsj-section" class="section-header" style="color: var(--wsj-accent);">
+                <i class="fas fa-newspaper"></i>
+                <h2>WSJ Technology Top 10</h2>
+                <p class="section-desc"><i class="far fa-calendar-alt"></i> 2026-02-23</p>
+            </div>
+            <div id="wsj-grid" class="news-grid">
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">Anthropic 的五角大廈難題</div>
+                    <div class="title-en">Anthropic’s Pentagon Problems</div>
+                    <div class="summary-cn">此外還有雲端儲存清理、Google 的 TPU 佈局、Meta 面臨審判以及「屁味 Fitbit」穿戴設備。</div>
+                    <a href="https://www.wsj.com/tech/ai/anthropics-pentagon-problems-751b229a?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">雲端儲存空間總是滿的？遵循這三個步驟進行清理。</div>
+                    <div class="title-en">Cloud Storage Always Full? Follow These Three Steps to Clean It Up.</div>
+                    <div class="summary-cn">如何整理個人數據、縮小文件大小，以及（如果你願意）完全放棄雲端。</div>
+                    <a href="https://www.wsj.com/tech/personal-tech/cloud-storage-full-tips-05ee488a?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">輝達希望再次成為消費型電腦的大腦</div>
+                    <div class="title-en">Nvidia Wants to Be the Brain of Consumer PCs Once Again</div>
+                    <div class="summary-cn">此舉標誌著 AI 晶片領導者重返消費型 PC 市場。</div>
+                    <a href="https://www.wsj.com/tech/nvidia-wants-to-be-the-brain-of-consumer-pcs-once-again-9e1e41b3?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">如何在不成為「老大哥」的情況下監測父母</div>
+                    <div class="title-en">How to Monitor Mom and Dad Without Becoming Big Brother</div>
+                    <div class="summary-cn">家用感測器和位置追蹤器可以幫助家庭在尊重隱私的同時關注年邁的親人。</div>
+                    <a href="https://www.wsj.com/tech/personal-tech/monitor-aging-relatives-privacy-4d66a749?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">將美國資金投入中國 AI 發展的香港投資者</div>
+                    <div class="title-en">The Hong Kong Investor Putting American Money Into China’s AI Push</div>
+                    <div class="summary-cn">沈南鵬長期以來一直是兩國之間的橋樑，從耶魯畢業後在紅杉工作到成立自己的公司。</div>
+                    <a href="https://www.wsj.com/tech/ai/the-hong-kong-investor-putting-american-money-into-chinas-ai-push-e7487c0b?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">微軟遊戲主管在任職 38 年後即將退休</div>
+                    <div class="title-en">Microsoft’s Head of Gaming to Retire After 38 Years at Company</div>
+                    <div class="summary-cn">菲爾·史賓瑟監督了對 Minecraft 和動視暴雪的收購，但在使 Xbox 與對手競爭方面遇到了挑戰。</div>
+                    <a href="https://www.wsj.com/tech/microsofts-head-of-gaming-to-retire-after-38-years-at-company-7ab2459b?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">這被稱為「屁味 Fitbit」——而且這不是開玩笑</div>
+                    <div class="title-en">It’s Called the ‘Fitbit for Farts’—and It’s No Joke</div>
+                    <div class="summary-cn">科學家正在開發一種新的穿戴式內褲，希望能像 Apple Watch 為心臟病學所做的那樣，為胃腸病學做出貢獻。</div>
+                    <a href="https://www.wsj.com/tech/personal-tech/smart-underwear-gut-health-human-flatus-atlas-9ffa1bd7?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">Google 正在探索利用其財務實力對抗輝達的方法</div>
+                    <div class="title-en">Google Is Exploring Ways to Use Its Financial Might to Take On Nvidia</div>
+                    <div class="summary-cn">隨著更多 AI 公司考慮使用 Google 的晶片，該公司希望利用與外部夥伴的交易來擴大潛在市場。</div>
+                    <a href="https://www.wsj.com/tech/ai/google-is-exploring-ways-to-use-its-financial-might-to-take-on-nvidia-0fbadc84?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">使用噴射引擎為數據中心供電</div>
+                    <div class="title-en">Using Jet Engines to Power Data Centers</div>
+                    <div class="summary-cn">此外還有關於如何進行 Vibe Code 的提示，以及為什麼 TikTok 的新 AI 影片工具讓好萊塢感到不安。</div>
+                    <a href="https://www.wsj.com/tech/ai/using-jet-engines-to-power-data-centers-4ccab35b?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+                <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
+                    <div class="title-cn">商業機密盜竊案正在增加——而 AI 讓情況變得更糟</div>
+                    <div class="title-en">Theft of Trade Secrets Is on the Rise—and AI Is Making It Worse</div>
+                    <div class="summary-cn">Google、蘋果和 xAI 等公司在員工被指控竊取敏感資訊時，一直尋求保護這些資訊。</div>
+                    <a href="https://www.wsj.com/tech/ai/theft-of-trade-secrets-is-on-the-riseand-ai-is-making-it-worse-1b36122f?mod=rss_Technology" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Deep Analysis Section -->
+            <div id="analysis-section" class="section-header" style="color: var(--analysis-accent);">
+                <i class="fas fa-feather-alt"></i>
+                <h2>Deep Analysis</h2>
+                <p class="section-desc">Daily Intelligence</p>
+            </div>
+            <div id="deep-analysis-container">
+                <div class="news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 40px;">
+                    <h3 style="font-size: 1.6rem; font-weight: bold; margin-top: 0;">Dario Amodei — "We are near the end of the exponential"</h3>
+                    <a href="https://www.dwarkesh.com/p/dario-amodei-2" style="color: var(--analysis-accent); font-weight: bold; text-decoration: none;">Original Source Link &rarr;</a>
+                    <div class="expand-wrapper" id="analysis-toggle-0">
+                        <div class="analysis-content" style="margin-top: 20px; line-height: 1.8;">
+                            在本次 Dwarkesh Podcast 中，Anthropic 執行長 Dario Amodei 提出了令人震驚的預警：我們正處於 AI 指數級增長的末期。Amodei 認為，在短短幾年內，我們將在數據中心擁有一個「天才之國」（Country of geniuses in a data center），其智力水平將涵蓋從優秀的博士生到專業人士。他強調，儘管公眾仍關注於傳統的政治熱點，但技術底層的指數級演進並未放緩。對話深入探討了強化學習（RL）的擴展定律，Amodei 指出 RL 正遵循與預訓練相同的對數線性增長規律。此外，他們討論了 AI 在經濟中的擴散速度，Amodei 預測這將比以往任何技術都快，但也受限於現實世界的變革管理。關於競爭，他提到前沿實驗室的生產力已大幅提升，開發者開始完全依賴 AI 編寫代碼，這種「雪球效應」將決定未來幾年的勝負，而安全與價值的平衡則是 Anthropic 在激進擴張中的核心堅持。
+                        </div>
+                        <div class="fade-mask"></div>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleAnalysis('analysis-toggle-0')">展開全文 👀</button>
+                </div>
+            </div>
+            <!-- DAILY_NEWS_END -->
+
+            <!-- Podcast Section -->
+            <div class="podcast-section">
+            <div id="podcast-section" class="section-header" style="color: var(--podcast-accent);">
+                <i class="fas fa-microphone-alt"></i>
+                <h2>Podcast Highlights</h2>
+            </div>
+            <div id="podcast-highlights-container"> 
+                <!-- PODCAST_HIGHLIGHTS_START -->
+ <div class="podcast-highlight-card" style="font-family: sans-serif; background-color: #f9f9f9; padding: 25px; border-radius: 12px; border-left: 6px solid #4a154b; margin-bottom: 20px;">
+  <h2 style="color: #4a154b; margin-top: 0;">Head of Claude Code: What happens after coding is solved | Boris Cherny</h2>
+  <p style="font-size: 1.1em; line-height: 1.6; color: #333; font-weight: 500;">編碼作為一項手動技能已基本「被解決」。我們正處於從「軟體工程師」向「構建者」（Builder）轉型的歷史奇點。AI 不再僅是聊天機器人，而是具備行動能力的「代理」，這是一場如同印刷術般的民主化革命。</p>
+  <button onclick="var content = document.getElementById('podcast-chapters-content'); if(content.style.display === 'none'){ content.style.display = 'block'; this.innerText = '收合全文 🔼'; } else { content.style.display = 'none'; this.innerText = '展開全文 👀'; }" style="background-color: #4a154b; color: white; border: none; padding: 10px 18px; border-radius: 6px; cursor: pointer; font-size: 1em; font-weight: bold; margin-top: 10px; transition: 0.3s;">展開全文 👀</button>
+  <div id="podcast-chapters-content" style="display: none; margin-top: 25px; border-top: 1px solid #ddd; padding-top: 20px;">
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 0-15 min</span>手動編碼的終結與生產力的爆發</h3>
+      <p style="line-height: 1.7; color: #444;">在 2026 年的今天，Boris Cherny 拋出了一個驚人的事實：他現在 100% 的代碼都是由 Claude Code 撰寫的。自去年 11 月以來，他沒有手動編輯過任何一行代碼。這並非誇大，而是矽谷頂尖團隊的真實工作流。他每天能發布 10 到 30 個 PR，生產力提升了 200%。這種轉變讓工程師的角色從堆砌磚瓦轉向了交響樂團指揮。🌵</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「Productivity per engineer has increased 200%. The title software engineer is going to start to go away. It's just going to be replaced by builder. — Boris Cherny」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 15-30 min</span>從對話到行動——代理工作流的崛起</h3>
+      <p style="line-height: 1.7; color: #444;">2025-2026 年是 AI 代理（Agents）的時代。Agent 不僅是會說話的模型，更是能使用工具、與系統互動並在真實世界中行動的實體。Anthropic 的 Co-work 產品正是這一趨勢的代表，它能處理繳納罰單、管理專案等瑣事。這種變革源於對「潛在需求」的洞察，當人們開始用編碼工具種番茄或修硬碟時，產品市場契合度就顯現了。🌵</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「For engineers, the AI doesn't just write the code. It acts in the world... It's looking at bug reports... and things to ship a little more like a co-worker. — Boris Cherny」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 30-50 min</span>安全護欄與「苦澀的教訓」</h3>
+      <p style="line-height: 1.7; color: #444;">Anthropic 採取三層安全體系：機械可解釋性、實驗室評估與真實世界測試。Boris 信奉 Rich Sutton 的「苦澀的教訓」，主張永遠賭在更通用的模型上，而不是用人工規則束縛它。他提出「為六個月後的模型而構建」，這需要忍受初期產品不完美，但在新一代模型（如 Opus 4.6）降臨時，將爆發驚人能量。</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「Don't try to box the model in... Ask not what the model can do for you. Give it a tool so that it can get the context it needs. — Boris Cherny」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 50-70 min</span>現代印刷術時刻——潛在需求的釋放</h3>
+      <p style="line-height: 1.7; color: #444;">當前的 AI 革命如同 15 世紀的印刷術。古騰堡讓識字率從 1% 躍升，引發了文藝復興。今天的編碼技能掌握在少數「現代抄寫員」手中，但 AI 正在打破這道牆。未來編碼將成為像閱讀一樣普及的能力。雖然這對舊有角色具備破壞性，但也將釋放出巨大的、由機器適應人的潛在需求。🌵</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「I imagine a world where everyone is able to program. Anyone can just build software anytime... It's just inherently democratizing. — Boris Cherny」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 70-90 min</span>未來展望與味噌的哲學</h3>
+      <p style="line-height: 1.7; color: #444;">未來的贏家是「通才」，那些能跨越學科邊界並熟練運用 AI 將想法落地的人。但在科技狂熱的盡頭，Boris 的願景卻是回歸樸素。他曾隱居日本農村學習製作味噌，這需要數年耐心等待。他預言後 AGI 時代，人類將回歸那些需要時間、耐心與「人味」的事物上，這或許是我們最珍貴的資產。🌵</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「Post-AGI, or if I wasn't at Anthropic, I'd probably be making miso... It teaches you to think on these long time scales. — Boris Cherny」</blockquote>
+    </div>
+  </div>
+</div>
+ <!-- PODCAST_HIGHLIGHTS_END -->
+            </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Archive Footer -->
+    <section class="archive-footer">
+        <div class="archive-box">
+            <h3><i class="fas fa-folder-open"></i> 日報存檔</h3>
+            <ul id="daily-archive-list" class="archive-list">
+                        <li><a href="index.html">📄 2026-02-23 (今日)</a></li>
+                        <li><a href="archive/2026-02-22.html">📄 2026-02-22</a></li>
+                        <li><a href="archive/2026-02-21.html">📄 2026-02-21</a></li>
+                        <li><a href="archive/2026-02-20.html">📄 2026-02-20</a></li>
+                        <li><a href="archive/2026-02-19.html">📄 2026-02-19</a></li>
+                        <li><a href="archive/2026-02-18.html">📄 2026-02-18</a></li>
+                        <li><a href="archive/2026-02-17.html">📄 2026-02-17</a></li>
+                        <li><a href="archive/2026-02-16.html">📄 2026-02-16</a></li>
+                        <li><a href="archive/2026-02-15.html">📄 2026-02-15</a></li>
+                        <li><a href="archive/2026-02-14.html">📄 2026-02-14</a></li>
+                        <li><a href="archive/2026-02-13.html">📄 2026-02-13</a></li>
+                        <li><a href="archive/2026-02-12.html">📄 2026-02-12</a></li>
+                    </ul>
+        </div>
+        <div class="archive-box">
+            <h3><i class="fas fa-microphone-alt"></i> PODCAST 存檔</h3>
+            <ul id="podcast-archive-list" class="archive-list"> 
+                <!-- PODCAST_INVENTORY_START -->
+                <li><a href="archive/2026-02-21-netflix-youtube.html">🎙️ The Netflix-Warner Brothers Deal is All About YouTube | Sharp Tech with Ben Thompson (2026-02-21)</a></li>
+                <li><a href="archive/2026-02-15-dwarkesh.html">🎙️ Dario Amodei — "We are near the end of the exponential" (2026-02-15)</a></li>
+                <li><a href="archive/2026-02-13-all-in.html">🎙️ Podcast 深度摘要 (2026-02-13)</a></li>
+                <!-- PODCAST_INVENTORY_END -->
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        function toggleAnalysis(id) {
+            const el = document.getElementById(id);
+            if (!el) return;
+            const btn = el.nextElementSibling;
+            el.classList.toggle('expanded');
+            btn.innerHTML = el.classList.contains('expanded') ? '收起內容' : '展開全文 👀';
+        }
+    </script>
+    <footer class="copyright">
+        <p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展 · v5.0 Full-Width</p>
+    </footer>
+</body>
+</html>

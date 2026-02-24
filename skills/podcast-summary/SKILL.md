@@ -47,7 +47,9 @@ description: 🎙️ Podcast 雲端深度敘事摘要工作流。當收到 Podca
 1. **來源標註**：開頭標註「素材來源」（例如：完整 MP3 音訊分析）。
 2. **純淨交付**：移除所有 JSON 與 Markdown 程式碼標記（交付純文字）。
 3. **清理戰場**：摘要完成後，自動刪除暫存檔與相關 Cron 任務。
-4. **目錄索引規範**：在網站的 Podcast 目錄區建立連結時，該連結必須指向「本網站內發布該摘要當天的內部存檔網頁（如：archive/YYYY-MM-DD.html）」，嚴禁直接連結至外部原始來源。
+4. **自動網頁渲染 (DoD)**：強制執行 `python3 scripts/render_podcast.py`，將摘要內容寫入首頁並自動處理歷史存檔。
+5. **正式發布更新 (DoD)**：強制執行 `python3 scripts/publish.py`，將更新推送到 GitHub Pages 網站。
+6. **目錄索引規範**：在網站的 Podcast 目錄區建立連結時，該連結必須指向「本網站內發布該摘要當天的內部存檔網頁（如：archive/YYYY-MM-DD.html）」，嚴禁直接連結至外部原始來源。
 
 ## 資源與工具
 
