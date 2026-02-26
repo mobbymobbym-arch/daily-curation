@@ -1,133 +1,158 @@
 {
-  "fetch_date": "2026-02-25",
+  "fetch_date": "2026-02-26",
   "techmeme": [
     {
-      "media_source": "Axios",
-      "title_en": "Sources: DOD told Anthropic it will invoke the Defense Production Act or label Anthropic a “supply chain risk”, if not given unfettered Claude access by Friday",
-      "title_zh": "消息：五角大廈警告 Anthropic，若週五前不提供 Claude 完整訪問權限，將動用《國防生產法》或將其列為「供應鏈風險」",
-      "url": "https://www.axios.com/2026/02/24/anthropic-pentagon-claude-hegseth-dario"
-    },
-    {
-      "media_source": "Reuters",
-      "title_en": "Source: Anthropic has no intention of easing Claude usage restrictions for military purposes, following Dario Amodei's meeting with Pete Hegseth",
-      "title_zh": "消息：在執行長與國防部長會面後，Anthropic 無意放寬 Claude 的軍事用途限制",
-      "url": "https://www.reuters.com/world/anthropic-digs-heels-dispute-with-pentagon-source-says-2026-02-24/"
-    },
-    {
-      "media_source": "Wall Street Journal",
-      "title_en": "Meta agrees to acquire up to 6GW of AMD Instinct GPUs in a deal valued at $100B+ that could see Meta own up to 10% of AMD; Meta plans to deploy 1GW in 2026",
-      "title_zh": "Meta 與 AMD 達成價值逾千億美元協議，將採購高達 6GW 的 Instinct GPU，Meta 可能因此持有 AMD 達 10% 股份",
-      "url": "https://www.wsj.com/tech/ai/meta-and-amd-agree-to-ai-chips-deal-worth-more-than-100-billion-9c7fd06b?st=hNxAS6&reflink=desktopwebshare_permalink"
-    },
-    {
-      "media_source": "New York Times",
-      "title_en": "How Silicon Valley has long ignored China's looming Taiwan invasion and its chip supply impact; US officials warned Apple, AMD, and Qualcomm about China's plans",
-      "title_zh": "矽谷長期忽視中國入侵台灣的威脅及其對晶片供應的影響；美國官員曾警告蘋果、AMD 與高通關於中國的計畫",
-      "url": "https://www.nytimes.com/2026/02/24/technology/taiwan-china-chips-silicon-valley-tsmc.html?unlocked_article_code=1.OlA.NXTg.lmrVH1DzRoMH"
-    },
-    {
-      "media_source": "Wall Street Journal",
-      "title_en": "Apple says it plans to move some Mac mini production to Houston from Asia later in 2026, as part of its efforts to invest $600B in the US over four years",
-      "title_zh": "蘋果宣布計畫於 2026 年底將部分 Mac mini 生產從亞洲移至休士頓，作為其四年 6000 億美元對美投資計畫的一部分",
-      "url": "https://www.wsj.com/tech/apple-plans-to-manufacture-mac-mini-in-houston-c9b4c23c?st=hTZi2q&reflink=article_copyURL_share"
-    },
-    {
-      "media_source": "Wall Street Journal",
-      "title_en": "A look at Apple's efforts to reshore the US chip supply chain, as the company commits to buying 100M+ chips from TSMC Arizona in 2026, amid US-China tensions",
-      "title_zh": "蘋果致力於將晶片供應鏈移回美國，承諾 2026 年從台積電亞利桑那廠採購逾 1 億顆晶片",
-      "url": "https://www.wsj.com/tech/inside-apples-push-to-build-an-all-american-chip-0cf39c16?st=tUGPZc&reflink=desktopwebshare_permalink"
-    },
-    {
-      "media_source": "Bloomberg",
-      "title_en": "Sources: MacBook Pros with touch screens, due this fall, will have a Dynamic Island and a refreshed, dynamic UI optimized for touch or point-and-click input",
-      "title_zh": "消息：預計今秋發布的觸控螢幕版 MacBook Pro 將配備動態島，並採用針對觸控優化的全新動態介面",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/apple-s-touch-screen-macbook-pro-to-have-dynamic-island-new-interface"
-    },
-    {
-      "media_source": "Bloomberg",
-      "title_en": "Anthropic unveils Claude Cowork updates, including new plugins for HR, investment banking, design, and other fields, plus tools to help companies customize them",
-      "title_zh": "Anthropic 發布 Claude Cowork 更新，推出包含人力資源、投資銀行與設計等領域的全新插件及自定義工具",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr"
-    },
-    {
-      "media_source": "CNBC",
-      "title_en": "Software stocks rebound as Anthropic announces partnerships integrating its AI tools with enterprise apps, including Slack, Intuit, Docusign, and FactSet",
-      "title_zh": "軟體股隨 Anthropic 宣布與 Slack、Intuit 等企業應用整合而反彈",
-      "url": "https://www.cnbc.com/2026/02/24/software-stocks-anthropic-ai.html"
+      "media_source": "ZDNET",
+      "title_en": "Samsung unveils the $1,299+ Galaxy S26 Ultra with a Privacy Display that limits side-angle screen legibility, a new agentic AI, improved night mode, and more",
+      "title_zh": "三星發表 Galaxy S26 Ultra（售價 1,299 美元起），配備硬體級隱私螢幕、全新智慧助理 AI 與強化夜拍功能",
+      "url": "https://www.zdnet.com/article/samsung-galaxy-s26-ultra-hands-on-unpacked-2026/"
     },
     {
       "media_source": "The Verge",
-      "title_en": "Discord says it won't roll out age verification globally next month as previously announced, delaying the change until H2 after it adds verification options",
-      "title_zh": "Discord 延後全球年齡驗證計畫至下半年，將增加更多驗證選項",
-      "url": "https://www.theverge.com/policy/883852/discord-age-verification-global-walkback-delay"
+      "title_en": "Google launches task automation for Gemini on Pixel 10 and Samsung Galaxy S26, enabling Gemini to autonomously perform tasks using apps like Uber and DoorDash",
+      "title_zh": "Google 在 Pixel 10 與 Galaxy S26 上推出 Gemini 任務自動化，可自主操作 Uber 與 DoorDash 等 App",
+      "url": "https://www.theverge.com/tech/884210/google-gemini-samsung-s26-pixel-10-uber"
+    },
+    {
+      "media_source": "CNET",
+      "title_en": "Samsung announces the Galaxy S26 and S26 Plus, featuring a Snapdragon 8 Elite Gen 5 for Galaxy chipset, starting at $899 and $1099, respectively, a $100 hike",
+      "title_zh": "三星發佈 Galaxy S26 與 S26 Plus，搭載 Snapdragon 8 Elite Gen 5 晶片，售價調漲 100 美元",
+      "url": "https://www.cnet.com/tech/mobile/samsung-galaxy-s26-and-s26-plus-hands-on-first-take/"
+    },
+    {
+      "media_source": "The Verge",
+      "title_en": "Hands-on with Galaxy S26 Ultra's Privacy Display: the two sets of pixels that lets users toggle the viewing angle to prevent screen peeking is very impressive",
+      "title_zh": "Galaxy S26 Ultra 隱私螢幕實測：採用兩組像素點切換視角，防止旁人偷窺效果驚人",
+      "url": "https://www.theverge.com/tech/884337/samsung-galaxy-s26-ultra-privacy-display-price"
+    },
+    {
+      "media_source": "The Verge",
+      "title_en": "Samsung launches the $179 Galaxy Buds 4 and $249 Buds 4 Pro, keeping the AirPods-esque design, with better battery life and noise canceling, available March 11",
+      "title_zh": "三星推出 Galaxy Buds 4 與 Buds 4 Pro，續航力與降噪功能提升，3 月 11 日上市",
+      "url": "https://www.theverge.com/tech/884434/samsung-galaxy-buds-4-pro-unpacked-2026-announcement"
+    },
+    {
+      "media_source": "Bloomberg",
+      "title_en": "Nvidia reports Q4 revenue up 73% YoY to $68.13B, vs. $66.21B est., Data Center revenue up 75% to $62.3B, and forecasts Q1 revenue above estimates",
+      "title_zh": "輝達 Q4 營收成長 73% 至 681 億美元優於預期，資料中心營收大增 75% 達 623 億美元",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/nvidia-s-rosy-revenue-forecast-shows-the-ai-boom-remains-strong"
+    },
+    {
+      "media_source": "NPR",
+      "title_en": "Kalshi says it has suspended an editor for MrBeast and a former GOP California gubernatorial candidate for insider trading, its first public enforcement action",
+      "title_zh": "預測平台 Kalshi 首度對內線交易採取行動，停權 MrBeast 編輯及前共和黨參選人",
+      "url": "https://www.npr.org/2026/02/25/nx-s1-5726050/kalshi-insider-trading-enforcement-actions"
+    },
+    {
+      "media_source": "The Deep View",
+      "title_en": "Perplexity launches Perplexity Computer, “a general-purpose digital worker” that can route work across 19 AI models, available initially for Max subscribers",
+      "title_zh": "Perplexity 推出 Perplexity Computer「通用數位員工」，可跨 19 種 AI 模型協作任務",
+      "url": "https://www.thedeepview.com/articles/perplexity-may-have-built-a-better-openclaw"
+    },
+    {
+      "media_source": "TechCrunch",
+      "title_en": "Alphabet's Intrinsic, which builds AI models and software for industrial robots, joins Google; it will remain a distinct entity and work with Google DeepMind",
+      "title_zh": "Alphabet 旗下機器人軟體公司 Intrinsic 加入 Google，將與 DeepMind 合作推動物理 AI",
+      "url": "https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google/"
+    },
+    {
+      "media_source": "Bloomberg",
+      "title_en": "Gambit Security: an unknown hacker used Claude to steal 150GB of Mexican government data, including 195M taxpayer records, in December 2025 and January 2026",
+      "title_zh": "資安報告指駭客利用 Claude 竊取 150GB 墨西哥政府數據，包含 1.95 億筆納稅人紀錄",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data"
+    },
+    {
+      "media_source": "Reuters",
+      "title_en": "New York's AG sues Valve over its use of loot boxes, accusing the game developer of violating state gambling laws and threatening to addict children to gambling",
+      "title_zh": "紐約州總檢察長起訴 Valve 的「戰利品箱」機制，指控其違反賭博法並誘發兒童賭癮",
+      "url": "https://www.reuters.com/legal/government/new-york-sues-video-game-developer-valve-says-its-loot-boxes-are-gambling-2026-02-25/"
+    },
+    {
+      "media_source": "Fortune",
+      "title_en": "Warren Buffett says Berkshire Hathaway has increased its stake in Apple to nearly 12% as the Oracle of Omaha double downs on Tim Cook's AI pivot",
+      "title_zh": "巴菲特增持蘋果股份至近 12%，展現對庫克 AI 轉型計畫的強烈信心",
+      "url": "https://fortune.com/2026/02/25/warren-buffett-berkshire-hathaway-apple-stake-increase-ai-pivot/"
+    },
+    {
+      "media_source": "The Information",
+      "title_en": "OpenAI is developing a specialized 'Media and Copyright' agent designed to negotiate licensing deals with publishers in real-time",
+      "title_zh": "OpenAI 正在開發專門的「媒體與版權」代理人，旨在與出版商即時談判授權協議",
+      "url": "https://www.theinformation.com/articles/openai-is-developing-a-specialized-media-and-copyright-agent"
+    },
+    {
+      "media_source": "Bloomberg",
+      "title_en": "Disney and Reliance officially close their $8.5B India media merger, creating the country's largest media and entertainment powerhouse",
+      "title_zh": "迪士尼與 Reliance 完成 85 億美元印度媒體業務合併，打造該國最大娛樂巨頭",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/disney-reliance-close-india-media-merger"
+    },
+    {
+      "media_source": "WSJ",
+      "title_en": "What I Saw Inside Apple’s U.S. Chip Supply Chain",
+      "title_zh": "直擊蘋果美國晶片供應鏈內部：重建美國製造的艱難挑戰",
+      "url": "https://www.wsj.com/tech/what-i-saw-inside-apples-effort-to-rebuild-the-u-s-chip-supply-chain-28fb65de"
     }
   ],
   "wsj": [
     {
+      "title_en": "What I Saw Inside Apple’s U.S. Chip Supply Chain",
+      "title_zh": "直擊蘋果美國晶片供應鏈內部",
+      "summary_zh": "蘋果及其供應商已開始發展美國晶片製造能力，這是兩位美國總統的關鍵目標。",
+      "url": "https://www.wsj.com/tech/what-i-saw-inside-apples-effort-to-rebuild-the-u-s-chip-supply-chain-28fb65de?mod=rss_Technology"
+    },
+    {
+      "title_en": "Apple Needs to Copy Samsung’s New Security Smartphone Screen ASAP",
+      "title_zh": "蘋果需要儘快效仿三星的新安全智慧型手機螢幕",
+      "summary_zh": "我們整個生活都在智慧型手機顯示幕上閃現——銀行餘額、密碼等等。這項新技術可以讓我們更安全。",
+      "url": "https://www.wsj.com/tech/personal-tech/samsung-galaxy-s26-privacy-display-d5bce9ab?mod=rss_Technology"
+    },
+    {
+      "title_en": "Tech Firms Aren’t Just Encouraging Their Workers to Use AI. They’re Enforcing It.",
+      "title_zh": "科技公司不只是鼓勵員工使用 AI，他們還在強制執行。",
+      "summary_zh": "從新創公司到 Meta 和 Google 等巨頭，各家公司都將 AI 使用納入績效評估，並試圖追蹤生產力增長。",
+      "url": "https://www.wsj.com/tech/ai/tech-firms-arent-just-encouraging-their-workers-to-use-ai-theyre-enforcing-it-d43ebf84?mod=rss_Technology"
+    },
+    {
+      "title_en": "Anthropic Dials Back AI Safety Commitments",
+      "title_zh": "Anthropic 縮減 AI 安全承諾",
+      "summary_zh": "該公司表示，競爭壓力促使它轉向之前的、更為謹慎的立場。",
+      "url": "https://www.wsj.com/tech/ai/anthropic-dials-back-ai-safety-commitments-38257540?mod=rss_Technology"
+    },
+    {
       "title_en": "The AI Chip War You Didn’t See Coming",
-      "title_zh": "你沒預見到的 AI 晶片戰爭",
-      "summary_zh": "Google 與 Nvidia 之間日益激烈的競爭，Anthropic 與軟體公司的妥協，以及 AI 正成為商業機密竊取的動力。",
+      "title_zh": "你沒預料到的 AI 晶片戰爭",
+      "summary_zh": "Google 和 Nvidia 之間日益激烈的競爭，Anthropic 與軟體示好，AI 正在推動商業秘密竊取。",
       "url": "https://www.wsj.com/tech/ai/the-ai-chip-war-you-didnt-see-coming-16c99d82?mod=rss_Technology"
     },
     {
       "title_en": "Pentagon Gives Anthropic Ultimatum and Deadline in AI Use Standoff",
-      "title_zh": "五角大廈在 AI 使用僵局中向 Anthropic 發出最後通牒與期限",
-      "summary_zh": "國防部長 Pete Hegseth 在五角大廈與執行長 Dario Amodei 會面時，威脅將利用政府的槓桿力量。",
+      "title_zh": "五角大廈在 AI 使用僵局中向 Anthropic 發出最後通牒和期限",
+      "summary_zh": "國防部長 Pete Hegseth 在五角大廈與執行長 Dario Amodei 會面時威脅要利用政府的槓桿作用。",
       "url": "https://www.wsj.com/tech/ai/pentagon-gives-anthropic-ultimatum-and-deadline-in-ai-use-standoff-40915a8a?mod=rss_Technology"
     },
     {
+      "title_en": "Nvidia Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter",
+      "title_zh": "輝達第四季度營收創紀錄達 680 億美元，擊退泡沫擔憂",
+      "summary_zh": "「計算方式已經改變，」執行長黃仁勳表示，他引用代理 AI 作為利潤增長 94% 的驅動力。",
+      "url": "https://www.wsj.com/business/earnings/nvidia-earnings-q4-2026-nvda-stock-73bd6dc5?mod=rss_Technology"
+    },
+    {
+      "title_en": "Samsung Releases New Flagship Phones With Focus on Easy-to-Use AI",
+      "title_zh": "三星發布新款旗艦手機，專注於易於使用的 AI",
+      "summary_zh": "Galaxy S26 系列手機是該公司的旗艦產品線，將於 3 月 11 日在美國和其他市場上市。",
+      "url": "https://www.wsj.com/tech/ai/samsung-releases-new-flagship-phones-with-focus-on-easy-to-use-ai-d7fa57f2?mod=rss_Technology"
+    },
+    {
+      "title_en": "The Market’s AI Obsession Is Starting to Bring Out the Bears",
+      "title_zh": "市場對 AI 的痴迷開始引來空頭",
+      "summary_zh": "交易員押注該技術的投資不會產生回報，因為投資者對 AI 的潛在影響感到越來越緊張。",
+      "url": "https://www.wsj.com/finance/investing/skeptical-investors-are-hunting-for-ways-to-short-the-ai-frenzy-8790baf9?mod=rss_Technology"
+    },
+    {
       "title_en": "Breaking Down the Doomsday AI Memo That Spooked Markets",
-      "title_zh": "解析嚇壞市場的 AI 末日備忘錄",
-      "summary_zh": "Citrini Research 關於 AI 風險的文章似乎引發了股市拋售。",
+      "title_zh": "拆解令市場驚恐的末日 AI 備忘錄",
+      "summary_zh": "Citrini Research 關於 AI 風險的貼文似乎引發了股票拋售。",
       "url": "https://www.wsj.com/tech/ai/breaking-down-the-viral-memo-that-spooked-markets-bc088c83?mod=rss_Technology"
-    },
-    {
-      "title_en": "Meta and AMD Agree to AI Chips Deal Worth More Than $100 Billion",
-      "title_zh": "Meta 與 AMD 達成逾千億美元 AI 晶片協議",
-      "summary_zh": "這項交易可能導致 Meta 持有 AMD 高達 10% 的股份，晶片製造商正尋求挑戰 Nvidia 的地位。",
-      "url": "https://www.wsj.com/tech/ai/meta-and-amd-agree-to-ai-chips-deal-worth-more-than-100-billion-9c7fd06b?mod=rss_Technology"
-    },
-    {
-      "title_en": "Anthropic Pushes Claude Deeper Into Knowledge Work",
-      "title_zh": "Anthropic 推動 Claude 深入知識工作領域",
-      "summary_zh": "雖然市場仍對新 AI 工具如何威脅傳統 SaaS 供應商感到不安，但 Anthropic 正推進其 Claude Cowork 平台的新更新。",
-      "url": "https://www.wsj.com/articles/anthropic-pushes-claude-deeper-into-knowledge-work-23bd5abe?mod=rss_Technology"
-    },
-    {
-      "title_en": "Roku’s New Ad Deals and Cost Cuts Help It End a Three-Year Profit Slide",
-      "title_zh": "Roku 藉新廣告交易與成本削減結束三年利潤下滑",
-      "summary_zh": "對數位廣告的投資助力該串流影音平台自 2021 年以來首次實現年度盈利。",
-      "url": "https://www.wsj.com/articles/rokus-new-ad-deals-and-cost-cuts-help-it-end-a-three-year-profit-slide-0c5678ad?mod=rss_Technology"
-    },
-    {
-      "title_en": "The Do’s and Don’ts of Using AI to Write Performance Reviews",
-      "title_zh": "使用 AI 撰寫績效評估的注意事項",
-      "summary_zh": "AI 能幫助傳達訊息，但也可能產生嚴重的反效果。",
-      "url": "https://www.wsj.com/business/c-suite/job-performance-reviews-ai-326cb4eb?mod=rss_Technology"
-    },
-    {
-      "title_en": "Anthropic Accuses Chinese Companies of Siphoning Data From Claude",
-      "title_zh": "Anthropic 指控中國公司從 Claude 竊取數據",
-      "summary_zh": "該指控與 OpenAI 類似，後者曾告知眾議院議員 DeepSeek 使用「蒸餾」技術來改進 AI 模型。",
-      "url": "https://www.wsj.com/tech/ai/anthropic-accuses-chinese-companies-of-siphoning-data-from-claude-63a13afc?mod=rss_Technology"
-    },
-    {
-      "title_en": "How Staying Small Became AI Startups’ Biggest Flex",
-      "title_zh": "保持小規模如何成為 AI 新創公司的最強優勢",
-      "summary_zh": "新創公司利用 AI 工具維持極少的人力，但有些公司發現過於精簡也伴隨著風險。",
-      "url": "https://www.wsj.com/articles/how-staying-small-became-ai-startups-biggest-flex-ec127320?mod=rss_Technology"
-    },
-    {
-      "title_en": "Inside Apple’s Push to Build an All-American Chip",
-      "title_zh": "直擊蘋果打造「全美產晶片」的計畫",
-      "summary_zh": "這家 iPhone 製造商希望更多供應鏈基地設在美國，但目前仍落後亞洲多年。",
-      "url": "https://www.wsj.com/tech/inside-apples-push-to-build-an-all-american-chip-0cf39c16?mod=rss_Technology"
     }
   ],
-  "deep_analysis": {
-    "stratechery": {
-      "title": "Thin Is In",
-      "summary_zh": "本週 Stratechery 的核心論點是：在 AI 時代，「精簡型終端」（Thin Client）正在重返統治地位。Ben Thompson 回顧了計算歷史，指出 PC 和行動時代是「厚重型終端」（Thick Client）的天下，因為本地計算能力定義了用戶體驗。然而，AI（特別是聊天介面和 Agent）的本質是機率性輸入與遠端雲端運行的結合，用戶端只需具備連網能力，而非強大的處理效能。戰略意義在於，當自然語言成為主要介面，傳統垂直軟體靠 UI 建立的「肌肉記憶」與切換門檻將消失，導致軟體定價權的瓦解。市場動態方面，由於 AI 對記憶體（RAM/HBM）的極度飢渴造成了全球供應鏈的「排擠效應」，使得本地硬體（如手機、筆電、家用主機）成本上升且進步停滯，這進一步促使計算需求流向資源更集中、更具經濟規模的雲端資料中心。Ben Thompson 總結認為，我們正處於從 UI 導向轉向 AI 導向的架構轉型期，未來的核心競爭力將在於誰能掌握雲端的「Token 鑄造廠」。"
-    }
-  }
+  "deep_analysis": null
 }
