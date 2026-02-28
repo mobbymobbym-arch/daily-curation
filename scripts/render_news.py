@@ -99,17 +99,18 @@ def render_deep_analysis(data):
         
         # Determine title and summary keys (flexible fallback)
         title = item.get('title', item.get('title_zh', 'Deep Analysis'))
-        summary = item.get('summary', item.get('content', item.get('summary_zh', '')))
-        url = item.get('url', '#')
+        summary = item.get('summary', item.get('content', item.get('summary_zh', item.get('summary_cn', item.get('analysis_zh', '')))))
+        url = item.get('url', item.get('link', '#'))
         
         # Handle Insights if present
         insights_html = ""
-        if 'insights' in item and isinstance(item['insights'], list):
+        insights = item.get('insights') or item.get('critical_insights')
+        if insights and isinstance(insights, list):
             insights_html = "<br><br><strong>關鍵洞察：</strong><br>"
-            for idx, insight in enumerate(item['insights']):
+            for idx, insight in enumerate(insights):
                 if isinstance(insight, dict):
                     topic = insight.get('topic', '')
-                    text = insight.get('insight', '')
+                    text = insight.get('insight') or insight.get('content_zh') or ''
                     insights_html += f"{idx+1}. <strong>{topic}：</strong> {text}<br>"
                 else:
                     # Fallback for simple string lists
@@ -140,7 +141,7 @@ def main():
     
     # Handle case-insensitive keys (Techmeme vs techmeme)
     techmeme_data = data.get('Techmeme') or data.get('techmeme') or []
-    wsj_data = data.get('WSJ_Technology') or data.get('wsj') or []
+    wsj_data = data.get('WSJ_Technology') or data.get('wsj') or data.get('WSJ') or []
     deep_analysis_data = data.get('Deep_Analysis') or data.get('deep_analysis') or {}
     
     # Render sections
