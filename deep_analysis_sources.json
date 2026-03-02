@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "name": "Stratechery",
+      "rss": "https://stratechery.com/feed/",
+      "prompt_type": "analysis"
+    },
+    {
+      "name": "Dwarkesh",
+      "rss": "https://www.dwarkesh.com/feed",
+      "prompt_type": "podcast"
+    },
+    {
+      "name": "Culpium",
+      "rss": "https://www.culpium.com/feed",
+      "prompt_type": "analysis"
+    },
+    {
+      "name": "SemiAnalysis",
+      "rss": "https://newsletter.semianalysis.com/feed",
+      "prompt_type": "analysis"
+    }
+  ]
+}

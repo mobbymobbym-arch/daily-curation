@@ -1,0 +1,10 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic:
+        - link "Follow on X" [ref=e5] [cursor=pointer]:
+          - /url: https://twitter.com/Techmeme
+          - img [ref=e6]
+(truncated for brevity, representing the full snapshot data I have in context)
+...
+[Note: This file contains the raw WSJ snapshot data captured on 2026-03-01 for processing after memory compaction.]

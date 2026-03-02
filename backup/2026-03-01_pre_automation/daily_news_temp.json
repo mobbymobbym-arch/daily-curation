@@ -1,79 +1,64 @@
 {
   "techmeme": [
     {
-      "title_en": "Netflix actually won by walking away from the WBD bid, collecting a $2.8B termination fee and driving up the price and debt load of the Paramount-WBD merger (Dan Gallagher/Wall Street Journal)",
-      "url": "http://www.techmeme.com/260301/p3#a260301p3",
-      "summary_en": "<A HREF=\"https://www.wsj.com/business/media/netflix-deal-warner-bros-discover-3b33b02c?st=CphU5i&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www...."
+      "title_zh": "OpenAI 填補 Anthropic 缺口，與國防部簽署機密 AI 部署協議",
+      "title_en": "OpenAI says its DOD agreement upholds its redlines and has more guardrails than any previous agreement",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/our-agreement-with-the-department-of-war/"
     },
     {
-      "title_en": "Multiple AWS developers say they are asked to take on new roles with AI tools' assistance, and engineers are now required to complete technical writing tasks (Financial Times)",
-      "url": "http://www.techmeme.com/260301/p2#a260301p2",
-      "summary_en": "<A HREF=\"https://www.ft.com/content/433f41f2-bf6d-4bdf-a561-50ab516bc62d\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260301/i2.jpg\"></A>\n<P><A HREF=\"http://www.te..."
+      "title_zh": "Anthropic 遭國防部列為供應鏈風險後，Claude 登頂美區 App Store 免費榜",
+      "title_en": "Claude became the #1 free app in the US App Store on Saturday, after DOD designated Anthropic a supply chain risk",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/28/anthropics-claude-apple-apps.html"
     },
     {
-      "title_en": "Block's plan to lay off over 4,000 employees, citing AI work automation, adds to growing angst among white-collar workers over AI's potential for job disruption (Chip Cutter/Wall Street Journal)",
-      "url": "http://www.techmeme.com/260301/p1#a260301p1",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/the-week-the-dreaded-ai-jobs-wipeout-got-real-3ba5057b?st=FzEuSa&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http:/..."
+      "title_zh": "Polymarket 伊朗空襲預測合約交易額破 5.29 億美元，新帳戶獲利百萬",
+      "title_en": "Polymarket trades on contracts tied to strikes on Iran hit $529M, and six new accounts profited a total of $1M",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/polymarket-iran-bets-hit-529-million-as-new-wallets-draw-notice"
     },
     {
-      "title_en": "Sources: Commands around the world, including the US Central Command in the Middle East, use Anthropic's Claude AI tool for a range of military operations (Wall Street Journal)",
-      "url": "http://www.techmeme.com/260228/p21#a260228p21",
-      "summary_en": "<A HREF=\"https://www.wsj.com/livecoverage/iran-strikes-2026/card/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-ozNO0iClZpfpL7K7ElJ2\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT..."
+      "title_zh": "小米於歐洲發布 Xiaomi 17 Ultra (€1,499) 與徠卡聯名 Leitzphone",
+      "title_en": "Xiaomi launches the €999 Xiaomi 17, the €1,499 17 Ultra, and the €1,999 Leica-branded Leitzphone in Europe",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/886322/xiaomi-17-release-specs-price-mwc-ultra-leica"
     },
     {
-      "title_en": "Polymarket trades on contracts tied to strikes on Iran hit $529M, and six new accounts profited a total of $1M by betting on the US to strike Iran by Feb. 28 (Emily Nicolle/Bloomberg)",
-      "url": "http://www.techmeme.com/260228/p20#a260228p20",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-02-28/polymarket-iran-bets-hit-529-million-as-new-wallets-draw-notice\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem..."
+      "title_zh": "小米推出 AirTag 競品 Xiaomi Tag，同時支援 Apple 與 Android 尋找網路",
+      "title_en": "Xiaomi launches the €15 Xiaomi tag, an AirTag-like device that works with both Apple Find My and Android Find Hub",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/28/xiaomi-launches-17-ultra-smartphone-an-airtag-clone-and-an-ultra-slim-powerbank/"
     },
     {
-      "title_en": "OpenAI says it does not think Anthropic should be designated as a supply chain risk and it has made its position on this clear to the Pentagon (@openai)",
-      "url": "http://www.techmeme.com/260228/p19#a260228p19",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260228/p19#a260228p19\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> <A ..."
+      "title_zh": "AI 程式碼代理人 (Coding Agents) 引發工程師生產力焦慮，工時反增",
+      "title_en": "AI coding agents are fueling productivity panic among executives and engineers",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech"
     },
     {
-      "title_en": "OpenAI says its DOD agreement upholds its redlines and \"has more guardrails than any previous agreement for classified AI deployments, including Anthropic's\" (OpenAI)",
-      "url": "http://www.techmeme.com/260228/p18#a260228p18",
-      "summary_en": "<A HREF=\"https://openai.com/index/our-agreement-with-the-department-of-war/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260228/i18.jpg\"></A>\n<P><A HREF=\"http://ww..."
+      "title_zh": "亞馬遜 AI 主管 Peter DeSantis 談自研晶片 Trainium/Inferentia 的低成本優勢",
+      "title_en": "An interview with Amazon's AI chief Peter DeSantis on plans to use in-house chips to develop AI models more cheaply",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/amazon-tries-its-low-cost-approach-to-winning-the-ai-race-97c6c338?st=RWSfjj&reflink=desktopwebshare_permalink"
     },
     {
-      "title_en": "AI coding agents are fueling productivity panic among executives and engineers, as a UCB study finds those offloading work to AI are also working longer hours (Issie Lapowsky/Bloomberg)",
-      "url": "http://www.techmeme.com/260228/p17#a260228p17",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://..."
+      "title_zh": "以色列駭入伊朗熱門祈禱 App 'BadeSaba'，向百萬用戶發送勸降訊息",
+      "title_en": "Sources: Israel hacked BadeSaba, a popular Iranian prayer app with 5M+ installs, to send messages urging defections",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/livecoverage/iran-strikes-2026/card/israel-hacked-popular-iranian-prayer-app-to-urge-defections-resistance-wtYyb29CmKrTXoJBIV3C"
     },
     {
-      "title_en": "An interview with Amazon's AI chief Peter DeSantis on plans to use in-house chips, Trainium and Inferentia, to develop AI models more cheaply, and more (Wall Street Journal)",
-      "url": "http://www.techmeme.com/260228/p16#a260228p16",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/amazon-tries-its-low-cost-approach-to-winning-the-ai-race-97c6c338?st=RWSfjj&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\"..."
+      "title_zh": "中國面臨 AI 兩難：追求生產力提升恐引發勞動力替代危機",
+      "title_en": "China faces a dilemma as it looks to balance productivity gains from AI with labor displacement risks",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/xi-s-ai-ambitions-collide-with-china-s-fragile-employment-market"
     },
     {
-      "title_en": "China faces a dilemma as it looks to balance productivity gains from AI with labor displacement risks due to automation, which could trigger an economic spiral (Bloomberg)",
-      "url": "http://www.techmeme.com/260228/p15#a260228p15",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-02-27/xi-s-ai-ambitions-collide-with-china-s-fragile-employment-market\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme..."
-    },
-    {
-      "title_en": "Xiaomi launches the €999 Xiaomi 17, the €1,499 17 Ultra, and the €1,999 Leica-branded Leitzphone, all featuring a Snapdragon 8 Elite Gen 5 chipset, in Europe (Dominic Preston/The Verge)",
-      "url": "http://www.techmeme.com/260228/p14#a260228p14",
-      "summary_en": "<A HREF=\"https://www.theverge.com/gadgets/886322/xiaomi-17-release-specs-price-mwc-ultra-leica\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260228/i14.jpg\"></A>\n<P..."
-    },
-    {
-      "title_en": "Xiaomi launches the €15 Xiaomi tag, an AirTag-like device that works with both Apple Find My and Android Find Hub, and the €300 Xiaomi Watch 5, in Europe (Ivan Mehta/TechCrunch)",
-      "url": "http://www.techmeme.com/260228/p13#a260228p13",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/02/28/xiaomi-launches-17-ultra-smartphone-an-airtag-clone-and-an-ultra-slim-powerbank/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem..."
-    },
-    {
-      "title_en": "Claude became the #1 free app in the US App Store on Saturday, after DOD designated Anthropic a supply chain risk; it hovered in the top 20 for much of February (Jordan Novet/CNBC)",
-      "url": "http://www.techmeme.com/260228/p12#a260228p12",
-      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/02/28/anthropics-claude-apple-apps.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260228/i12.jpg\"></A>\n<P><A HREF=\"http://www..."
-    },
-    {
-      "title_en": "Sources: Israel hacked BadeSaba, a popular Iranian prayer app with 5M+ installs on Google Play, to send messages urging Iranian military personnel to defect (Wall Street Journal)",
-      "url": "http://www.techmeme.com/260228/p11#a260228p11",
-      "summary_en": "<A HREF=\"https://www.wsj.com/livecoverage/iran-strikes-2026/card/israel-hacked-popular-iranian-prayer-app-to-urge-defections-resistance-wtYyb29CmKrTXoJBIV3C\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIG..."
-    },
-    {
-      "title_en": "Q&A with Reiner Pope, a former Google TPU architect and CEO of MatX, which designs specialized chips for LLMs, on the limitations of current AI chips, and more (John Collison/Cheeky Pint)",
-      "url": "http://www.techmeme.com/260228/p10#a260228p10",
-      "summary_en": "<A HREF=\"https://cheekypint.substack.com/p/reiner-pope-of-matx-on-accelerating\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260228/i10.jpg\"></A>\n<P><A HREF=\"http:/..."
+      "title_zh": "前 Google TPU 架構師談 MatX 專用晶片如何突破 LLM 算力瓶頸",
+      "title_en": "Q&A with Reiner Pope, CEO of MatX, on the limitations of current AI chips",
+      "source": "Cheeky Pint",
+      "url": "https://cheekypint.substack.com/p/reiner-pope-of-matx-on-accelerating"
     }
   ],
   "wsj": [
