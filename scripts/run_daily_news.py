@@ -21,23 +21,40 @@ import check_analysis_updates
 
 def get_gemini_response(prompt, api_key):
     """
-    Simple wrapper to call Gemini API using standard library (no extra pip install needed for script portability)
+    Revised: Call OpenClaw Gateway local endpoint (OpenAI-compatible) 
+    to use the agent's native model capability.
     """
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
-    headers = {'Content-Type': 'application/json'}
+    # Try to get Gateway Token and URL from env
+    gateway_token = os.environ.get('OPENCLAW_GATEWAY_TOKEN')
+    # Default to localhost:4000 if not set, which is standard for OpenClaw
+    gateway_url = os.environ.get('OPENCLAW_GATEWAY_URL', 'http://127.0.0.1:4000')
+    
+    if not gateway_token:
+        print("   ❌ No Gateway Token found. Skipping translation.")
+        return None
+
+    # Construct the full URL for chat completions
+    # Note: Depending on how the gateway exposes it, it might be /v1/chat/completions
+    url = f"{gateway_url}/v1/chat/completions"
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {gateway_token}'
+    }
+    
+    # Use 'default' model to let Gateway route to the best available one (e.g. Gemini 3.0 Pro)
     data = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }]
+        "model": "default", 
+        "messages": [{"role": "user", "content": prompt}]
     }
     
     try:
         req = urllib.request.Request(url, data=json.dumps(data).encode('utf-8'), headers=headers)
         with urllib.request.urlopen(req) as response:
             result = json.load(response)
-            return result['candidates'][0]['content']['parts'][0]['text']
+            # OpenAI format response
+            return result['choices'][0]['message']['content']
     except Exception as e:
-        print(f"❌ LLM Call Failed: {e}")
+        print(f"❌ Local Gateway Call Failed: {e}")
         return None
 
 def fetch_url_content(url):
@@ -137,8 +154,9 @@ def process_deep_analysis_updates(api_key):
         prompt = f"{system_instruction}\nTitle: {title}\nLink: {link}\nContent Snippet: {article_content[:10000]}..." 
         
         if not api_key:
-            print("   ❌ No API Key found. Skipping LLM generation.")
-            continue
+            # For local gateway call, we use a placeholder or None as check happens inside function
+            # But the logic below passes api_key. We'll pass None and let the function check ENV.
+            pass
             
         llm_response = get_gemini_response(prompt, api_key)
         
@@ -214,20 +232,20 @@ def update_news_headlines(api_key):
     
     if techmeme_items:
         # Translate Titles (Batch)
-        if api_key:
-            prompt = "Translate these titles to Traditional Chinese (Taiwan). Return a JSON object where keys are indices and values are translated titles.\n"
-            for i, item in enumerate(techmeme_items):
-                prompt += f"{i}: {item['title_en']}\n"
-            
-            llm_resp = get_gemini_response(prompt, api_key)
-            if llm_resp:
-                try:
-                    translations = json.loads(llm_resp.replace('```json', '').replace('```', ''))
-                    for i, item in enumerate(techmeme_items):
-                        if str(i) in translations:
-                            item['title_zh'] = translations[str(i)]
-                except:
-                    print("   ⚠️ Translation failed")
+        # Always try translation now since we use local gateway
+        prompt = "Translate these titles to Traditional Chinese (Taiwan). Return a JSON object where keys are indices and values are translated titles.\n"
+        for i, item in enumerate(techmeme_items):
+            prompt += f"{i}: {item['title_en']}\n"
+        
+        llm_resp = get_gemini_response(prompt, api_key)
+        if llm_resp:
+            try:
+                translations = json.loads(llm_resp.replace('```json', '').replace('```', ''))
+                for i, item in enumerate(techmeme_items):
+                    if str(i) in translations:
+                        item['title_zh'] = translations[str(i)]
+            except:
+                print("   ⚠️ Translation parsing failed")
         
         daily_data['techmeme'] = techmeme_items
         print(f"   ✅ Updated {len(techmeme_items)} Techmeme items.")
@@ -236,12 +254,24 @@ def update_news_headlines(api_key):
 
     # 2. WSJ (RSS) - Often blocks simple requests, but let's try with User-Agent
     print("   ▶ Fetching WSJ Technology...")
-    wsj_items = fetch_rss_items("https://feeds.a.dj.com/rss/RSSWSJTechnology.xml", limit=10)
+    wsj_items = fetch_rss_items("https://feeds.content.dowjones.io/public/rss/RSSWSJD", limit=10)
     
     if wsj_items:
-        if api_key:
-             # Similar translation logic for WSJ...
-             pass # Skipping for brevity in this fix, logic is same as Techmeme
+        # Translate WSJ Titles
+        prompt = "Translate these titles to Traditional Chinese (Taiwan). Return a JSON object where keys are indices and values are translated titles.\n"
+        for i, item in enumerate(wsj_items):
+            prompt += f"{i}: {item['title_en']}\n"
+        
+        llm_resp = get_gemini_response(prompt, api_key)
+        if llm_resp:
+            try:
+                translations = json.loads(llm_resp.replace('```json', '').replace('```', ''))
+                for i, item in enumerate(wsj_items):
+                    if str(i) in translations:
+                        item['title_zh'] = translations[str(i)]
+            except:
+                print("   ⚠️ Translation parsing failed")
+
         daily_data['wsj'] = wsj_items
         print(f"   ✅ Updated {len(wsj_items)} WSJ items.")
     else:
@@ -257,10 +287,9 @@ def main():
     print("========================================")
 
     # 0. Check Environment
+    # Note: With local gateway, external GEMINI_API_KEY is optional/unused, 
+    # but we keep the variable for compatibility
     api_key = os.environ.get('GEMINI_API_KEY')
-    if not api_key:
-        print("⚠️ WARNING: GEMINI_API_KEY not found in environment.")
-        print("   AI features will be disabled.")
     
     # 1. Update Headlines (Task A1)
     update_news_headlines(api_key)
