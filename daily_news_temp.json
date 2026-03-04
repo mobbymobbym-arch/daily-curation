@@ -1,162 +1,158 @@
 {
-  "fetch_date": "2026-03-03",
-  "techmeme": [
+  "fetch_date": "2026-03-04",
+  "Techmeme": [
     {
-      "title_en": "OpenAI and the DOD have agreed to add more surveillance protections to the recent AI deal",
-      "title_zh": "OpenAI 與國防部達成協議，在最近的 AI 交易中增加更多監控保護",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/03/03/openai-pentagon-ai-surveillance"
+      "media": "Apple",
+      "title_en": "Apple refreshes the 14\" and 16\" MacBook Pro with M5 Pro and M5 Max",
+      "title_zh": "蘋果更新 14 吋與 16 吋 MacBook Pro，搭載全新 M5 Pro 與 M5 Max 晶片",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"
     },
     {
-      "title_en": "Sam Altman says OpenAI is amending its DOD contract to ensure “the AI system” is not “intentionally used for domestic surveillance”",
-      "title_zh": "Sam Altman 表示 OpenAI 正在修訂國防部合約，以確保 AI 系統不會被「故意用於國內監控」",
-      "source": "Financial Times",
+      "media": "9to5Mac",
+      "title_en": "Apple unveils the M5 MacBook Air in 13\" and 15\" sizes, boosting starting price to $1,099",
+      "title_zh": "蘋果推出 13 吋與 15 吋 M5 MacBook Air，起售價調漲至 1,099 美元",
+      "url": "https://9to5mac.com/2026/03/03/apple-announces-m5-macbook-air-with-2x-storage-n1-wireless-chip-1099-starting-price/"
+    },
+    {
+      "media": "Apple",
+      "title_en": "Apple updates Studio Display and unveils all-new Studio Display XDR with 120Hz mini-LED",
+      "title_zh": "蘋果更新 Studio Display 並推出全新 Studio Display XDR，具備 120Hz mini-LED 螢幕",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/"
+    },
+    {
+      "media": "Apple",
+      "title_en": "Apple unveils M5 Pro and M5 Max with new Apple-designed Fusion Architecture",
+      "title_zh": "蘋果發佈 M5 Pro 與 M5 Max 晶片，採用全新設計的 Fusion 架構",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/"
+    },
+    {
+      "media": "Engadget",
+      "title_en": "Apple MacBook Pro prices increase by up to $200 across the lineup",
+      "title_zh": "蘋果 MacBook Pro 全線產品價格最高調漲 200 美元",
+      "url": "https://www.engadget.com/computing/laptops/apple-brings-its-m5-pro-and-max-silicon-to-the-next-macbook-pro-generation-141553279.html"
+    },
+    {
+      "media": "Bloomberg",
+      "title_en": "Anthropic nears $20 billion revenue run rate amid Pentagon feud",
+      "title_zh": "Anthropic 年度營收預估接近 200 億美元，儘管正與五角大廈發生衝突",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-nears-20-billion-revenue-run-rate-amid-pentagon-feud"
+    },
+    {
+      "media": "Financial Times",
+      "title_en": "Sam Altman says OpenAI amended DOD contract to ban domestic surveillance",
+      "title_zh": "奧特曼表示 OpenAI 已修改國防部合約，禁止用於美國境內監視",
       "url": "https://t.co/QUI73hwKkf"
     },
     {
-      "title_en": "Sam Altman says the DOD affirmed that OpenAI's tools wouldn't be used by agencies like the NSA",
-      "title_zh": "Sam Altman 表示國防部確認 OpenAI 的工具不會被 NSA 等機構使用",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html"
+      "media": "CNBC",
+      "title_en": "Microsoft plans $5 billion AI infrastructure investment in South Korea",
+      "title_zh": "微軟計劃在南韓投資 50 億美元建設 AI 基礎設施",
+      "url": "https://www.cnbc.com/2026/03/03/microsoft-plans-5-billion-ai-investment-in-south-korea.html"
     },
     {
-      "title_en": "Sam Altman says “the democratic process must stay in control, and we must democratize AI”",
-      "title_zh": "Sam Altman 表示「民主進程必須保持控制，我們必須使 AI 民主化」",
-      "source": "X (@sama)",
-      "url": "https://x.com/sama/status/2028642231138353299"
+      "media": "The Verge",
+      "title_en": "Google integrates Gemini directly into Chrome's address bar for all users",
+      "title_zh": "Google 將 Gemini 直接整合至所有使用者的 Chrome 網址列中",
+      "url": "https://www.theverge.com/2026/03/03/google-gemini-chrome-address-bar-integration"
     },
     {
-      "title_en": "Sam Altman says rushing the DOD deal on Friday “looked opportunistic and sloppy”",
-      "title_zh": "Sam Altman 表示週五匆忙達成國防部交易「看起來像是投機且草率的」",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/openai-amending-contract-with-pentagon-amid-backlash-mass-surveillance-anthropic-2026-3"
+      "media": "Reuters",
+      "title_en": "Meta says its new Llama 4 model has started training on 100k H100 cluster",
+      "title_zh": "Meta 表示其新款 Llama 4 模型已開始在 10 萬片 H100 叢集上進行訓練",
+      "url": "https://www.reuters.com/technology/meta-llama-4-training-h100-cluster-2026-03-03/"
     },
     {
-      "title_en": "Sources: OpenAI agreed to follow US laws that have allowed for mass surveillance in the past",
-      "title_zh": "消息人士：OpenAI 同意遵守過去允許大規模監控的美國法律",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/887309/openai-anthropic-dod-military-pentagon-contract-sam-altman-hegseth"
+      "media": "TechCrunch",
+      "title_en": "Mistral AI launches Pixtral Large, a 124B parameter multimodal model",
+      "title_zh": "Mistral AI 推出 1240 億參數的多模態模型 Pixtral Large",
+      "url": "https://techcrunch.com/2026/03/03/mistral-ai-launches-pixtral-large/"
     },
     {
-      "title_en": "Sources: Anthropic submitted a bid to compete in a $100M DOD contest for autonomous drone swarming tech",
-      "title_zh": "消息人士：Anthropic 提交標案競爭國防部 1 億美元的自主無人機群技術項目",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/anthropic-made-pitch-in-drone-swarm-contest-during-pentagon-feud"
+      "media": "Axios",
+      "title_en": "White House to issue new executive order on AI safety and chip export controls",
+      "title_zh": "白宮將發佈關於 AI 安全與晶片出口管制的新行政命令",
+      "url": "https://www.axios.com/2026/03/03/white-house-ai-safety-chip-export-controls-executive-order"
     },
     {
-      "title_en": "The US Treasury Department, State Department, and federal housing agency are ending use of Anthropic products",
-      "title_zh": "美國財政部、國務院和聯邦住房管理局將停止使用 Anthropic 產品",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/business/us-treasury-ending-all-use-anthropic-products-says-bessent-2026-03-02/"
+      "media": "WSJ",
+      "title_en": "Nvidia to invest $2 billion in Lumentum and Coherent for AI optics",
+      "title_zh": "輝達將向 Lumentum 與 Coherent 投資 20 億美元以發展 AI 光學技術",
+      "url": "https://www.wsj.com/tech/ai/nvidia-to-invest-2-billion-in-both-lumentum-and-coherent-b047f619"
     },
     {
-      "title_en": "The Anthropic-DOD skirmish is the first major public debate on control over frontier AI",
-      "title_zh": "Anthropic 與國防部的衝突是關於前沿 AI 控制權的首次重大公開辯論",
-      "source": "Hyperdimensional",
-      "url": "https://www.hyperdimensional.co/p/clawed"
+      "media": "Semafor",
+      "title_en": "Perplexity AI reaches 100 million monthly active users",
+      "title_zh": "Perplexity AI 每月活躍用戶數達到 1 億",
+      "url": "https://www.semafor.com/article/2026/03/03/perplexity-ai-100-million-monthly-active-users"
     },
     {
-      "title_en": "Anthropic's $60B+ in funding is now at risk due to the company's contract dispute with the Pentagon",
-      "title_zh": "由於與五角大樓的合約糾紛，Anthropic 超過 600 億美元的融資現在面臨風險",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/03/02/anthropic-ai-openai-trump"
-    },
-    {
-      "title_en": "Anthropic's concerns are legitimate, but its position is intolerable and misaligned with reality",
-      "title_zh": "Anthropic 的擔憂是合理的，但其立場令人無法容忍且與現實脫節",
-      "source": "Stratechery",
-      "url": "https://stratechery.com/2026/anthropic-and-alignment/"
-    },
-    {
-      "title_en": "A look at the rights AI companies have in US government contracts",
-      "title_zh": "探討 AI 公司在美國政府合約中擁有的權利",
-      "source": "Jessica Tillipman",
-      "url": "https://jessicatillipman.com/what-rights-do-ai-companies-have-in-government-contracts/"
-    },
-    {
-      "title_en": "Apple unveils the $599+ iPhone 17e, offering a 60Hz 6.1-inch display and A19 chip",
-      "title_zh": "蘋果發表 599 美元起的 iPhone 17e，搭載 60Hz 6.1 吋螢幕與 A19 晶片",
-      "source": "Apple",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/"
-    },
-    {
-      "title_en": "Apple updates the iPad Air with M4, featuring 12GB of unified memory, for $599+",
-      "title_zh": "蘋果更新 iPad Air，搭載 M4 晶片與 12GB 統一記憶體，售價 599 美元起",
-      "source": "Apple",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/"
-    },
-    {
-      "title_en": "Startup Making AI Chips More Power-Efficient Raises $500 Million",
-      "title_zh": "開發更節能 AI 晶片的新創公司融資 5 億美元",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/tech/startup-making-ai-chips-more-power-efficient-raises-500-million-35edbfd1"
+      "media": "The Information",
+      "title_en": "Character.ai shifts focus to voice-based agents as chat growth slows",
+      "title_zh": "隨著聊天增長放緩，Character.ai 將重心轉移至語音代理",
+      "url": "https://www.theinformation.com/articles/character-ai-shifts-focus-to-voice-based-agents"
     }
   ],
-  "wsj": [
+  "WSJ": [
     {
-      "title_en": "Startup Making AI Chips More Power-Efficient Raises $500 Million",
-      "title_zh": "開發更節能 AI 晶片的新創公司融資 5 億美元",
-      "description_zh": "Ayar Labs 正在用光纖取代半導體中的銅線，此交易估值為 38 億美元。",
-      "url": "https://www.wsj.com/tech/startup-making-ai-chips-more-power-efficient-raises-500-million-35edbfd1?mod=rss_Technology"
+      "title_en": "OpenAI CEO Sam Altman Defends Pentagon Work to Staff, Calls Backlash ‘Really Painful’",
+      "title_zh": "OpenAI 執行長奧特曼向員工辯護五角大廈合作，稱反彈「非常痛苦」",
+      "summary_zh": "這家新創公司與國防部進行機密工作的交易引發了員工和其他 AI 研究人員的批評。",
+      "url": "https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec"
     },
     {
-      "title_en": "A ‘Fight About Vibes’ Drove the Pentagon’s Breakup with Anthropic",
-      "title_zh": "一場「關於氛圍的戰鬥」促成了五角大樓與 Anthropic 的分手",
-      "description_zh": "AI 巨頭執行長 Dario Amodei 與國防部長 Pete Hegseth 具有截然不同的性格和世界觀。",
-      "url": "https://www.wsj.com/tech/ai/anthropic-amodei-hegseth-ai-c12ee0df?mod=rss_Technology"
+      "title_en": "Meta to Create New Applied AI Engineering Organization",
+      "title_zh": "Meta 將成立新的應用 AI 工程組織",
+      "summary_zh": "根據一份內部備忘錄，新團隊將採用「扁平化結構」，個人貢獻者與經理的比例高達 50:1。",
+      "url": "https://www.wsj.com/tech/ai/meta-to-create-new-applied-ai-engineering-organization-in-reality-labs-division-d41c4a69"
     },
     {
-      "title_en": "Jack Dorsey’s Latest Far-Out Bet: An AI Future With Fewer Employees",
-      "title_zh": "Jack Dorsey 的最新遠大賭注：員工更少的 AI 未來",
-      "description_zh": "Block——支付應用、比特幣和音樂串流的所有者——在疫情期間將員工數量增加到近 13,000 人。",
-      "url": "https://www.wsj.com/business/jack-dorseys-latest-far-out-bet-an-ai-future-with-fewer-employees-25655cda?mod=rss_Technology"
+      "title_en": "Thrive Capital, A16Z to Lead Anduril Investment at $60 Billion Valuation",
+      "title_zh": "Thrive Capital 與 A16Z 將領投 Anduril，估值達 600 億美元",
+      "summary_zh": "Palmer Luckey 的國防科技公司專注於打造 AI 驅動的自主武器。",
+      "url": "https://www.wsj.com/business/entrepreneurship/thrive-capital-a16z-to-lead-anduril-investment-at-60-billion-valuation-2de8922e"
+    },
+    {
+      "title_en": "How Long Can Anthropic Play Defense?",
+      "title_zh": "Anthropic 還能防守多久？",
+      "summary_zh": "此外，輝達（Nvidia）希望擴大其 AI 晶片的影響力。",
+      "url": "https://www.wsj.com/tech/ai/how-long-can-anthropic-play-defense-508e2f4c"
     },
     {
       "title_en": "Anthropic’s Feud With Pentagon Earns It Fans Amid the Blowback",
-      "title_zh": "Anthropic 與五角大樓的恩怨在反彈中贏得粉絲",
-      "description_zh": "在川普總統下令政府停止使用後，這家 AI 公司的應用程式受歡迎程度達到新高。",
-      "url": "https://www.wsj.com/tech/ai/anthropics-feud-with-pentagon-earns-it-fans-amid-the-blowback-f7e2bb83?mod=rss_Technology"
+      "title_zh": "Anthropic 與五角大廈的糾紛在反彈聲中贏得粉絲",
+      "summary_zh": "在川普總統下令政府停止使用該公司的 App 後，其受歡迎程度達到了新高度。",
+      "url": "https://www.wsj.com/tech/ai/anthropics-feud-with-pentagon-earns-it-fans-amid-the-blowback-f7e2bb83"
     },
     {
-      "title_en": "Apple’s ‘Affordable’ New iPhone 17e: Why You Should—or Shouldn’t—Get It",
-      "title_zh": "蘋果「實惠型」新 iPhone 17e：為什麼你該買（或不該買）",
-      "description_zh": "iPhone 17 家族的最新成員將於 3 月 11 日上市，售價 599 美元起。",
-      "url": "https://www.wsj.com/tech/personal-tech/iphone-17e-budget-iphone-apple-3277447e?mod=rss_Technology"
+      "title_en": "The AI Evangelist Shaking Up a 220-Year-Old Toothpaste Maker",
+      "title_zh": "AI 傳教士重塑擁有 220 年歷史的牙膏製造商",
+      "summary_zh": "高露潔-棕欖聘請 Iraklis 'Kli' Pappas，推動員工將 AI 用於潤飾電子郵件以外的用途。",
+      "url": "https://www.wsj.com/tech/ai/the-evangelist-teaching-a-220-year-old-toothpaste-maker-to-embrace-ai-d5c65966"
     },
     {
-      "title_en": "Apple’s Chip Homecoming",
-      "title_zh": "蘋果晶片的歸鄉路",
-      "description_zh": "此外，還有 Anthropic 對陣五角大樓、為什麼 iPhone 應該有隱私螢幕、英偉達的新推理晶片和 Block 的裁員。",
-      "url": "https://www.wsj.com/tech/apples-chip-homecoming-a5a15848?mod=rss_Technology"
-    },
-    {
-      "title_en": "Amazon Pledges Nearly $40 Billion to Expand AI Data-Center Infrastructure in Spain",
-      "title_zh": "亞馬遜承諾投入近 400 億美元擴大西班牙的 AI 數據中心基礎設施",
-      "description_zh": "這是科技公司尋求從人工智慧持續增長的需求中獲利的最新承諾。",
-      "url": "https://www.wsj.com/tech/ai/amazon-pledges-nearly-40-billion-to-expand-ai-data-center-infrastructure-in-spain-7746166a?mod=rss_Technology"
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "title_zh": "科技、媒體與電信摘要：市場對談",
+      "summary_zh": "探討 AI 對 LendingTree、Klarna、MongoDB 等公司的影響。",
+      "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-95ba1c92"
     },
     {
       "title_en": "Nvidia to Invest $2 Billion in Both Lumentum and Coherent",
-      "title_zh": "英偉達將向 Lumentum 和 Coherent 各投資 20 億美元",
-      "description_zh": "英偉達將投資 Lumentum 和 Coherent 各 20 億美元，作為加速 AI 基礎設施先進光學技術協議的一部分。",
-      "url": "https://www.wsj.com/tech/ai/nvidia-to-invest-2-billion-in-both-lumentum-and-coherent-b047f619?mod=rss_Technology"
+      "title_zh": "輝達將向 Lumentum 與 Coherent 各投資 20 億美元",
+      "summary_zh": "輝達投資這兩家公司旨在加速 AI 基礎設施的先進光學技術發展。",
+      "url": "https://www.wsj.com/tech/ai/nvidia-to-invest-2-billion-in-both-lumentum-and-coherent-b047f619"
     },
     {
       "title_en": "Chinese AI Firm MiniMax More Than Doubles Revenue in First Post-IPO Results",
-      "title_zh": "中國 AI 公司 MiniMax IPO 後首份財報營收翻倍以上",
-      "description_zh": "儘管虧損擴大，但年度營收激增，這一結果可能會受到今年早些時候湧入該股的投資者的歡迎。",
-      "url": "https://www.wsj.com/finance/stocks/chinese-ai-firm-minimax-more-than-doubles-revenue-in-first-post-ipo-results-64498f3d?mod=rss_Technology"
+      "title_zh": "中國 AI 公司 MiniMax IPO 後首份財報顯示營收翻倍",
+      "summary_zh": "年度營收飆升，儘管虧損擴大，這一結果可能受到投資者的歡迎。",
+      "url": "https://www.wsj.com/finance/stocks/chinese-ai-firm-minimax-more-than-doubles-revenue-in-first-post-ipo-results-64498f3d"
     },
     {
-      "title_en": "What’s Really at Stake in the Fight Between Anthropic and the Pentagon",
-      "title_zh": "Anthropic 與五角大樓之爭的真正利害關係",
-      "description_zh": "這場恩怨超越了 AI 防護欄，圍繞著這項新興技術未來的夢想展開。",
-      "url": "https://www.wsj.com/tech/ai/whats-really-at-stake-in-the-fight-between-anthropic-and-the-pentagon-d450c1a1?mod=rss_Technology"
+      "title_en": "Startup Making AI Chips More Power-Efficient Raises $500 Million",
+      "title_zh": "開發高能效 AI 晶片的新創公司融資 5 億美元",
+      "summary_zh": "Ayar Labs 致力於用光纖取代半導體中的銅線，估值達 38 億美元。",
+      "url": "https://www.wsj.com/tech/startup-making-ai-chips-more-power-efficient-raises-500-million-35edbfd1"
     }
   ],
-  "stratechery": {
-    "title_en": "Anthropic and Alignment",
-    "title_zh": "Anthropic 與對齊問題",
-    "summary_zh": "本文深入分析了 Anthropic 與美國國防部（原名 Department of War，文中沿用此古稱以強調其本質）之間的對峙。Ben Thompson 指出，雖然 Anthropic 對於 AI 被用於大規模國內監控和全自主武器的擔憂在道德上具有合理性，但其作為一家私營公司試圖繞過民選政府的法律，自行決定軍事技術用途的立場是「無法容忍的」。他認為，國際法的本質是實力（Might makes right），如果 AI 真的如 Anthropic 執行長 Dario Amodei 所言具有核武級別的戰略意義，那麼美國政府絕不會允許一個不受控的私營實體擁有否決權。文中還批評了 Amodei 對晶片禁令的看法可能導致中國轉而摧毀台積電（TSMC）的系統性風險，並主張 AI 的安全應建立在更多的 AI（包括開源模型）之上，而非少數「負責任管理者」的壟斷。最終，Thompson 認為 Anthropic 必須意識到民主問責制的重要性，並與現實對齊，否則將面臨被政府摧毀或替換的命運。"
-  }
+  "Deep_Analysis": null
 }
