@@ -94,6 +94,12 @@ def render_to_html():
                 html_builder.append(f'      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「{ch_quote}」</blockquote>')
             html_builder.append('    </div>')
         html_builder.append('  </div>')
+    
+    # Add original episode link at the bottom of the card
+    original_link = data.get("original_link", "")
+    if original_link:
+        html_builder.append(f'  <a href="{original_link}" target="_blank" style="display: block; margin-top: 15px; color: #4a154b; font-weight: bold; text-decoration: none;">🎧 收聽原始節目 &rarr;</a>')
+    
     html_builder.append('</div>')
     
     new_podcast_html = "\n".join(html_builder)
