@@ -96,7 +96,7 @@ def render_deep_analysis(data):
         title = item.get('title') or item.get('title_zh') or 'Deep Analysis'
         source_name = item.get('source') or item.get('source_key') or 'Source'
         raw_summary = item.get('analysis_zh') or item.get('summary_zh') or item.get('summary') or item.get('content') or ''
-        summary = str(raw_summary)
+        summary = str(raw_summary).replace('\\n', '<br><br>').replace('\n', '<br><br>')
         url = item.get('url') or item.get('link') or '#'
         
         insights_html = ""
