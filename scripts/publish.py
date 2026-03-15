@@ -25,7 +25,7 @@ def publish_to_github():
     
     # 1. 將所有修改過的檔案加入暫存區 (打包)
     print("📦 正在打包變更檔案...")
-    if not run_command("git add index.html podcast_data.json"):
+    if not run_command("git add -A"):
         return
         
     # 2. 建立 Commit 訊息 (加上當下時間，讓歷史紀錄清楚明白)

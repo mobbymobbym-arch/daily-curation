@@ -1,0 +1,182 @@
+{
+  "fetch_date": "2026-03-15",
+  "techmeme": [
+    {
+      "title_en": "San Francisco's housing market is seeing a big rebound, driven by the AI boom; Apartment List says rents rose 14% YoY in February, the fastest growth in the US (Katherine Bindley/Wall Street Journal)",
+      "url": "http://www.techmeme.com/260315/p1#a260315p1",
+      "summary_en": "<A HREF=\"https://www.wsj.com/economy/housing/san-francisco-housing-market-ai-8c4e3f59?st=6Rhd2Q&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.t...",
+      "title_zh": "AI 熱潮帶動舊金山房地產市場強勁復甦；Apartment List 數據顯示，2 月租金年增率達 14%，為全美增長最快的城市（華爾街日報 Katherine Bindley）",
+      "summary_zh": "AI 浪潮正重塑舊金山的房地產市場，在經歷多年的低迷後，當地租金漲幅已躍居全美之首。根據 Apartment List 的報告，2 月份租金年增率高達 14%，顯示出強勁的復甦力道。"
+    },
+    {
+      "title_en": "Takeaways from the 2026 Game Developers Conference: a high volume of job seekers amid layoffs, AI was the hot buzzword, more outsourcing than ever, and more (Jason Schreier/Bloomberg)",
+      "url": "http://www.techmeme.com/260314/p13#a260314p13",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/newsletters/2026-03-13/the-2026-game-developers-conference-s-five-major-takeaways?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR...",
+      "title_zh": "2026 遊戲開發者大會（GDC）重點回顧：裁員潮下的龐大求職大軍、AI 成為熱門關鍵字、外包比例達歷史新高，以及更多觀察（Jason Schreier / Bloomberg）",
+      "summary_zh": "Bloomberg 記者 Jason Schreier 總結了 2026 年 GDC 的核心觀察，反映出遊戲產業正處於嚴峻的轉型期。受大規模裁員影響，會場中湧現大量求職者，氣氛令人聯想起 2008 年金融危機後的就業市場。AI 無疑是本次大會最熱門的關鍵字，與此同時，開發流程中的外包比例也創下歷史新高。儘管部分作品仍有不錯的數據表現，但資金匱乏與職位穩定度下降已成為業界普遍的焦慮，大型工作室也正積極應對開發成本飆升與 AI 對軟體獲利模式帶來的衝擊。"
+    },
+    {
+      "title_en": "A preview of Nvidia's 2026 GTC, which kicks off on March 16, where the company is expected to unveil new agentic-optimized CPUs, a CPU-only rack, and more (Katie Tarasov/CNBC)",
+      "url": "http://www.techmeme.com/260314/p12#a260314p12",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260314/i12.jpg\"></A>\n<P><A HREF=\"http...",
+      "title_zh": "Nvidia 2026 GTC 預覽：大會將於 3 月 16 日揭幕，預計發表全新 AI Agent 優化 CPU 與純 CPU 機架等產品",
+      "summary_zh": "Nvidia 2026 年度 GTC 大會將於 3 月 16 日正式登場。外界預期 Nvidia 將在會中揭曉針對 AI Agent（人工智慧代理）優化的全新 CPU 系列、純 CPU 機架（CPU-only rack）以及更多技術更新，展現其在 AI 運算架構領域的持續擴張。"
+    },
+    {
+      "title_en": "Drones caused a Qatari Helium-producing energy hub to shutter; crucial in chipmaking, Bloomberg says the closed hub makes up ~33% of global Helium production (Ines Ferré/Yahoo Finance)",
+      "url": "http://www.techmeme.com/260314/p11#a260314p11",
+      "summary_en": "<A HREF=\"https://finance.yahoo.com/news/iran-war-could-wreak-havoc-on-farmers-create-a-potential-bottleneck-for-the-entire-ai-story-171240723.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" ...",
+      "title_zh": "無人機攻擊導致卡達氦氣生產樞紐停擺；氦氣對晶片製造至關重要，Bloomberg 指出該中心產量約佔全球 33% (Ines Ferré/Yahoo Finance)",
+      "summary_zh": "伊朗戰爭可能對農業造成嚴重衝擊，並為整個 AI 產業的發展前景製造潛在瓶頸。"
+    },
+    {
+      "title_en": "Kaiko: cumulative trading volume on crypto exchange Hyperliquid's perpetual oil futures surged to ~$7.3B on March 12 from $339M on February 28 amid the Iran war (Vicky Ge Huang/Wall Street Journal)",
+      "url": "http://www.techmeme.com/260314/p10#a260314p10",
+      "summary_en": "<A HREF=\"https://www.wsj.com/finance/commodities-futures/oil-futures-perpetual-contracts-d5496e5a?st=Hc4JXA&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"...",
+      "title_zh": "Kaiko：受伊朗戰爭影響，加密貨幣交易所 Hyperliquid 的原油永續期貨累計交易額在 3 月 12 日從 2 月 28 日的 3.39 億美元飆升至約 73 億美元（Vicky Ge Huang / 華爾街日報）",
+      "summary_zh": "根據 Kaiko 的數據，去中心化交易所 Hyperliquid 上的原油永續合約交易量近期出現爆炸性增長。隨著伊朗戰爭局勢升溫，該平台的原油期貨累計交易額在短短兩週內從 3.39 億美元激增至 73 億美元，反映出在傳統市場受地緣政治波動影響時，加密貨幣衍生品平台正成為投資者進行避險與投機的新管道。"
+    },
+    {
+      "title_en": "Sources: ByteDance suspended the global launch of Seedance 2.0 amid copyright disputes with Hollywood studios and streamers; it was launched in China last month (The Information)",
+      "url": "http://www.techmeme.com/260314/p9#a260314p9",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/bytedance-suspends-launch-video-ai-model-copyright-disputes-hollywood\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com...",
+      "title_zh": "消息指出：由於與好萊塢片商及串流平台的版權爭議，位元跳動已暫停 Seedance 2.0 的全球發佈；該模型上個月已在中國上線 (The Information)",
+      "summary_zh": "根據《The Information》報導，位元跳動（ByteDance）已暫停其 AI 影片生成模型 Seedance 2.0 的全球發表計畫。此舉主因是該公司與好萊塢主要片商及串流平台陷入版權糾紛。Seedance 2.0 上個月才剛在中國市場推出，但包括美國電影協會（MPA）及美國演員工會（SAG-AFTRA）在內的機構對該模型在未經授權下使用受版權保護的作品、聲音及演員肖像表示嚴正關切。位元跳動對此回應將致力於加強智慧財產權保護機制，並重申對版權的尊重。"
+    },
+    {
+      "title_en": "A survey of 1,000 hiring managers: 59% say they stress AI's role in layoffs or hiring freezes \"because it plays better\"; only 9% say AI has fully replaced roles (Gautam Mukunda/Bloomberg)",
+      "url": "http://www.techmeme.com/260314/p8#a260314p8",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/opinion/articles/2026-03-13/the-ai-washing-of-job-cuts-is-corrosive-and-confusing\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
+      "title_zh": "1,000 名招聘經理調查：59% 受訪者表示在裁員或凍結招聘時會刻意強調 AI 的角色，因為「這聽起來比較動聽」；僅 9% 表示 AI 已完全取代現有職位 (Gautam Mukunda/Bloomberg)",
+      "summary_zh": "Bloomberg 專欄作家 Gautam Mukunda 指出，企業將裁員「AI 化」的傾向（即 AI 洗白，AI-washing）既具破壞性又容易產生誤導。調查發現，高達 59% 的經理人在裁員或凍結招聘時，會刻意提及 AI 的影響，主因是這種說法在外部觀感上較佳。然而，實際上僅有 9% 的職位真正被 AI 完全取代。Mukunda 警告，許多以 AI 為藉口的裁員決策最終可能被證明是不明智的。"
+    },
+    {
+      "title_en": "TSMC's N3 logic wafer capacity has become one of the AI industry's biggest constraints, which could push customers to explore greater foundry diversification (SemiAnalysis)",
+      "url": "http://www.techmeme.com/260314/p7#a260314p7",
+      "summary_en": "<A HREF=\"https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260314/i7.jpg\"></A>\n<P><A HREF=\"http://ww...",
+      "title_zh": "台積電 N3 邏輯晶圓產能已成 AI 產業最大瓶頸，恐迫使客戶尋求代工多元化 (SemiAnalysis)",
+      "summary_zh": "SemiAnalysis 報告指出，台積電 N3（3 奈米）邏輯晶圓產能已成為 AI 產業當前發展的主要限制因素。隨著 NVIDIA Rubin、Google TPU v7、Amazon Trainium3 以及 AMD MI350X 等次世代 AI 加速器全面轉向 N3 製程，需求成長已遠超供應能力，預計 2026 年下半年的產能利用率將突破 100%。這種嚴峻的產能緊繃局面，正迫使各家科技巨頭積極探索 Intel 等其他代工來源，以降低供應鏈風險並確保晶片供應。"
+    },
+    {
+      "title_en": "An interview with SemiAnalysis CEO Dylan Patel on logic, memory, and power bottlenecks in scaling AI compute, Nvidia securing TSMC N3 allocation early, and more (Dwarkesh Patel/Dwarkesh Podcast)",
+      "url": "http://www.techmeme.com/260314/p6#a260314p6",
+      "summary_en": "<A HREF=\"https://www.dwarkesh.com/p/dylan-patel\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260314/i6.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/260314/p6#a260...",
+      "title_zh": "專訪 SemiAnalysis 執行長 Dylan Patel：探討 AI 運算擴充中的邏輯、記憶體與電力瓶頸，以及 Nvidia 提前搶下台積電 N3 產能分配等核心議題 (Dwarkesh Patel/Dwarkesh Podcast)",
+      "summary_zh": "<A HREF=\"https://www.dwarkesh.com/p/dylan-patel\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260314/i6.jpg\"></A><P>SemiAnalysis 執行長 Dylan Patel 在專訪中深入剖析了 AI 運算擴充過程中，在邏輯、記憶體與電力供應方面遭遇的瓶頸，並透露 Nvidia 已提前確保台積電 N3 產能的分配優先權..."
+    },
+    {
+      "title_en": "An excerpt from the upcoming book Project Maven details how the Pentagon enlisted Silicon Valley to build AI-powered tools of war, now being used in Iran (Katrina Manson/Bloomberg)",
+      "url": "http://www.techmeme.com/260314/p5#a260314p5",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/features/2026-03-12/iran-war-tests-project-maven-us-ai-war-strategy?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWN...",
+      "title_zh": "即將出版的新書《Project Maven》摘錄詳述了五角大廈如何聯手矽谷打造 AI 戰爭工具，目前已投入伊朗戰場 (Katrina Manson/Bloomberg)",
+      "summary_zh": "根據彭博社報導，即將出版的新書《Project Maven》揭露了五角大廈如何招募矽谷科技力量來開發 AI 驅動的戰爭工具。這些技術目前已在伊朗實戰中使用，標誌著美國 AI 戰爭策略進入了新的階段。"
+    },
+    {
+      "title_en": "Mobile internet blackouts hit Moscow as the Kremlin tightens control; Roskomnadzor data shows average daily traffic is down ~20% in March compared to February (Anastasia Stognei/Financial Times)",
+      "url": "http://www.techmeme.com/260314/p4#a260314p4",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/f9584377-f63f-48c1-ac16-f46450d8c783\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260314/i4.jpg\"></A>\n<P><A HREF=\"http://www.te...",
+      "title_zh": "克里姆林宮收緊控制，莫斯科遭遇行動網路斷網；Roskomnadzor 數據顯示，3 月份平均日流量較 2 月份下降約 20% (Anastasia Stognei/《金融時報》)",
+      "summary_zh": "克里姆林宮加強對網路的控制，導致莫斯科行動網路出現斷網。根據俄羅斯通訊監管機構 Roskomnadzor 的數據，今年 3 月的平均每日流量與 2 月相比下降了約 20%，顯示當局正在收緊數位領域的掌控。"
+    },
+    {
+      "title_en": "Palantir software demos and DOD records show how the military may be using AI chatbots, including the kinds of queries and the data used to generate responses (Caroline Haskins/Wired)",
+      "url": "http://www.techmeme.com/260314/p3#a260314p3",
+      "summary_en": "<A HREF=\"https://www.wired.com/story/palantir-demos-show-how-the-military-can-use-ai-chatbots-to-generate-war-plans/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
+      "title_zh": "Palantir 軟體演示與美國國防部 (DOD) 紀錄顯示，軍方可能正如何運用 AI 聊天機器人，包括查詢類型及用於生成回應的資料 (Caroline Haskins/Wired)",
+      "summary_zh": "根據 Wired 報導，Palantir 的軟體演示及美國國防部紀錄揭示了軍方如何利用 AI 聊天機器人（如 Anthropic 的 Claude）來生成戰爭計畫、分析情報並協助戰術決策。這些系統整合了大型語言模型（LLM）技術，能處理機密情報、衛星影像與戰場通訊，協助軍方自動化識別目標並排定攻擊優先順序。此發展雖能提升效率，但也引發了關於 AI 在戰爭中的自主性與倫理界限的廣泛討論。"
+    },
+    {
+      "title_en": "Singapore-based MetaComp, which bridges traditional fiat payment rails and stablecoin settlement infrastructure, raised $35M across two pre-Series A rounds (Timmy Shen/The Block)",
+      "url": "http://www.techmeme.com/260314/p2#a260314p2",
+      "summary_en": "<A HREF=\"https://www.theblock.co/post/393509/metacomp-raises-35-million-alibaba\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260314/i2.jpg\"></A>\n<P><A HREF=\"http:/...",
+      "title_zh": "總部位於新加坡的 MetaComp 在兩輪 Pre-A 輪融資中籌集 3,500 萬美元，致力於銜接傳統法幣支付與穩定幣結算設施 (Timmy Shen/The Block)",
+      "summary_zh": "總部位於新加坡的 MetaComp 成功籌集 3,500 萬美元 Pre-A 輪融資。該公司專注於建構連接傳統法幣支付軌道與穩定幣結算基礎設施的橋樑，旨在提升跨境支付與資產結算的效率。"
+    },
+    {
+      "title_en": "A survey of 1,692 US physicians: over 80% use AI professionally and the most common use cases are medical research summarization and clinical care documentation (American Medical Association)",
+      "url": "http://www.techmeme.com/260314/p1#a260314p1",
+      "summary_en": "<A HREF=\"https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.te...",
+      "title_zh": "美國醫學會調查：逾 80% 美國醫師已在專業領域使用 AI，主要用於研究摘要與臨床紀錄",
+      "summary_zh": "根據美國醫學會 (AMA) 對 1,692 名醫師的調查，美國醫師採用 AI 的比例已從 2023 年的 38% 飆升至 81%。目前最主要的應用情境為醫學研究與照護標準的摘要整理，其次則是臨床文件紀錄與帳單代碼自動化。調查顯示醫療從業人員對 AI 提升診療品質的信心顯著提升，但也對數據隱私與技術完整性保持關注。"
+    },
+    {
+      "title_en": "The US Army awards Anduril a 10-year contract worth up to $20B to buy its software, hardware, and services; the deal includes a 5-year optional ordering period (Jen Judson/Bloomberg)",
+      "url": "http://www.techmeme.com/260313/p29#a260313p29",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-14/us-army-awards-anduril-contract-worth-as-much-as-20-billion\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.co...",
+      "title_zh": "美國陸軍授予 Anduril 為期 10 年、價值高達 200 億美元的合約，採購其軟硬體及服務；協議包含 5 年選擇性訂購期 (Jen Judson/Bloomberg)",
+      "summary_zh": "美國陸軍與 Anduril Industries 簽署了一項為期 10 年、最高總額達 200 億美元的企業合約，旨在簡化採購流程並加速交付先進軍事能力。該合約將過去 120 多項採購行動整合至單一框架，重點領域包括反無人機系統與統一指揮控制。此協議包含 5 年基礎期與 5 年選擇性訂購期，Anduril 旗下的 AI 驅動 Lattice 軟體平台將是其中的核心組件。"
+    }
+  ],
+  "wsj": [
+    {
+      "title_en": "Review: Does the $599 MacBook Neo Fit in Your Life?",
+      "url": "https://www.wsj.com/tech/personal-tech/599-macbook-neo-review-ca3cf586?mod=rss_Technology",
+      "summary_en": "Comparing Apple’s new budget laptop to the new M5 MacBook Air plus a comparable Chromebook and Windows PC....",
+      "title_zh": "評測：售價 599 美元的 MacBook Neo 適合你嗎？",
+      "summary_zh": "將 Apple 全新的平價筆電與新款 M5 MacBook Air，以及同級的 Chromebook 和 Windows PC 進行深度對比。"
+    },
+    {
+      "title_en": "The Backlash Against AI Devices That Are Always Watching",
+      "url": "https://www.wsj.com/tech/ai/the-backlash-against-ai-devices-that-are-always-watching-bb556f8d?mod=rss_Technology",
+      "summary_en": "From Meta to Anthropic, new examples are emerging over how the fast-developing technology is set to redefine privacy....",
+      "title_zh": "針對「全時監控」AI 裝置的輿論反彈",
+      "summary_zh": "從 Meta 到 Anthropic，越來越多實例顯示這項快速發展的技術將如何重新定義隱私權。"
+    },
+    {
+      "title_en": "Amazon Announces Inference Chips Deal With Cerebras",
+      "url": "https://www.wsj.com/tech/amazon-announces-inference-chips-deal-with-cerebras-109ecd31?mod=rss_Technology",
+      "summary_en": "Amazon Web Services says the partnership will allow it to offer lightning-fast inference computing....",
+      "title_zh": "Amazon 宣佈與 Cerebras 達成推論晶片合作協議",
+      "summary_zh": "Amazon Web Services 表示，這項合作將使其能夠提供極速的推論運算服務。"
+    },
+    {
+      "title_en": "Watch How the Trump Administration Is Selling the Iran War on TikTok",
+      "url": "https://www.wsj.com/politics/policy/video-games-and-viral-memes-how-the-trump-administration-is-selling-the-iran-war-4ec141d1?mod=rss_Technology",
+      "summary_en": "Video games, memes and movies figure prominently in more than 100 posts shared on the White House’s social-media accounts since the war began....",
+      "title_zh": "直擊川普政府如何在 TikTok 上推銷伊朗戰爭",
+      "summary_zh": "自戰爭爆發以來，白宮的社群媒體帳號已分享超過 100 則貼文，其中電玩遊戲、迷因與電影素材在這些內容中佔有極大比重。"
+    },
+    {
+      "title_en": "Trump Administration Set to Receive $10 Billion Fee for Brokering TikTok Deal",
+      "url": "https://www.wsj.com/tech/tiktok-deal-fee-trump-administration-5aa31c9f?mod=rss_Technology",
+      "summary_en": "Investors in the social-media platform’s U.S. business agreed to give the government several multibillion-dollar payments, sources said....",
+      "title_zh": "川普政府因促成 TikTok 交易案將獲 100 億美元費用",
+      "summary_zh": "消息人士指出，該社群媒體平台美國業務的投資者已同意向政府支付數筆總計達數十億美元的款項。"
+    },
+    {
+      "title_en": "Musk Says xAI Must Be Rebuilt as Co-Founders Exit",
+      "url": "https://www.wsj.com/tech/musk-says-xai-must-be-rebuilt-as-co-founders-exit-47770dfa?mod=rss_Technology",
+      "summary_en": "Weeks after merger with SpaceX, Elon Musk says xAI ‘is being rebuilt from the foundations up’...",
+      "title_zh": "共同創辦人相繼出走，馬斯克坦言 xAI 必須從頭重組",
+      "summary_zh": "在與 SpaceX 合併數週後，Elon Musk 表示 xAI 目前正處於「從基礎開始全面重建」的階段。"
+    },
+    {
+      "title_en": "The AI Boom Has Exploded the San Francisco Housing Market",
+      "url": "https://www.wsj.com/economy/housing/san-francisco-housing-market-ai-8c4e3f59?mod=rss_Technology",
+      "summary_en": "After a yearslong slump, there’s now a real-estate frenzy. “It’s just skyrocketed,” says one house hunter....",
+      "title_zh": "AI 浪潮引爆舊金山房市",
+      "summary_zh": "在經歷長達數年的低迷後，舊金山房地產市場現正掀起一股瘋狂熱潮。一位購屋者感嘆道：「房價簡直是直線飆升。」"
+    },
+    {
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-1153bee4?mod=rss_Technology",
+      "summary_en": "Find insight on Uber, ServiceNow and more in the latest Market Talks covering Technology, Media and Telecom....",
+      "title_zh": "科技、媒體與電信產業綜述：市場動態",
+      "summary_zh": "在最新針對科技、媒體與電信領域的 Market Talks 中，獲取關於 Uber、ServiceNow 等企業的深入見解。"
+    },
+    {
+      "title_en": "What Are Your Bots Working On?",
+      "url": "https://www.wsj.com/tech/ai/what-are-your-bots-working-on-68cb12c0?mod=rss_Technology",
+      "summary_en": "Plus, Microsoft’s new AI health tool and the billion-dollar startup founded by teenagers....",
+      "title_zh": "你的機器人正在忙些什麼？",
+      "summary_zh": "此外，還有微軟推出的全新 AI 醫療工具，以及一家由青少年創立的十億美元級新創公司……"
+    },
+    {
+      "title_en": "Adobe CEO to Depart After 18 Years Amid AI Disruptions",
+      "url": "https://www.wsj.com/business/earnings/adobe-posts-higher-sales-with-ceo-set-to-depart-ce30b19f?mod=rss_Technology",
+      "summary_en": "The company’s shares slid as it has struggled to convince investors it can outpace industrywide challenges....",
+      "title_zh": "Adobe 執行長執掌 18 年後宣佈卸任，正面臨 AI 浪潮衝擊",
+      "summary_zh": "Adobe 股價隨之重挫，主因是公司難以說服投資人其具備超越整體產業面臨之 AI 挑戰的實力。"
+    }
+  ]
+}

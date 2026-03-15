@@ -61,9 +61,9 @@ python3 scripts/generate_deep_analysis.py
 # 2. Daily News Fetch (Draft)
 python3 scripts/run_daily_news.py
 
-# Note: If your OpenClaw agent is responsible for translating the JSON file, 
-# it should do so here, before calling the --publish step.
+# 3. Translate missing titles/summaries
+python3 scripts/translate_news.py
 
-# 3. Publish and Render
+# 4. Publish and Render
 python3 scripts/run_daily_news.py --publish
 ```

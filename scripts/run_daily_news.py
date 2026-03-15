@@ -121,7 +121,11 @@ def main():
     print("========================================")
 
     # 1. Update Headlines (Raw Fetch)
-    update_news_headlines()
+    # Only fetch if we are not explicitly publishing, to avoid pulling in new untranslated items
+    if "--publish" not in sys.argv:
+        update_news_headlines()
+    else:
+        print("⏭️ Skipping fetch since --publish is active (using existing translations)...")
 
     # Note: At this point in a main agent session, 
     # the agent should perform translation on daily_news_temp.json 

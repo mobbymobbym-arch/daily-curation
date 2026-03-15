@@ -82,12 +82,15 @@ def analyze_with_ai(article_text):
     full_text = prompt_base + "\n\n=== ARTICLE TEXT ===\n" + article_text
 
     try:
+        env = os.environ.copy()
+        env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
         proc = subprocess.Popen(
             ["gemini", "-p", "Generate JSON only as instructed.", "--model", "gemini-3-flash-preview", "--output-format", "json"],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            text=True
+            text=True,
+            env=env
         )
         stdout, stderr = proc.communicate(input=full_text, timeout=120)
 
