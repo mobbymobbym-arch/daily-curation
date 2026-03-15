@@ -116,7 +116,6 @@ def render_deep_analysis(data):
                 <div class="news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 40px; width: 100%; box-sizing: border-box;">
                     <span style="display: inline-block; background: var(--analysis-accent); color: white; font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 4px; margin-bottom: 12px; letter-spacing: 0.5px;">{source_name}</span>
                     <h3 style="font-size: 1.6rem; font-weight: bold; margin-top: 0;">{title}</h3>
-                    <a href="{url}" style="color: var(--analysis-accent); font-weight: bold; text-decoration: none;">{source_name} &rarr;</a>
                     <div class="expand-wrapper" id="{toggle_id}">
                         <div class="analysis-content" style="margin-top: 20px; line-height: 1.8;">
                             {full_content}
@@ -124,6 +123,7 @@ def render_deep_analysis(data):
                         <div class="fade-mask"></div>
                     </div>
                     <button class="toggle-btn" onclick="toggleAnalysis('{toggle_id}')">展開全文 👀</button>
+                    <a href="{url}" style="color: var(--analysis-accent); font-weight: bold; text-decoration: none; display: block; margin-top: 15px;">{source_name} &rarr;</a>
                 </div>'''
     html += '</div>'
     return html
