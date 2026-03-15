@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "name": "Stratechery",
+      "rss": "https://stratechery.passport.online/feed/rss/CUVBZ5BsktNff9fTG51bB",
+      "prompt_type": "analysis"
+    },
+    {
+      "name": "Dwarkesh",
+      "rss": "https://www.dwarkesh.com/feed",
+      "prompt_type": "podcast"
+    },
+    {
+      "name": "Culpium",
+      "rss": "https://www.culpium.com/feed",
+      "prompt_type": "analysis"
+    },
+    {
+      "name": "SemiAnalysis",
+      "rss": "https://newsletter.semianalysis.com/feed",
+      "prompt_type": "analysis"
+    },
+    {
+      "name": "BigTechnology",
+      "rss": "https://www.bigtechnology.com/feed",
+      "prompt_type": "analysis"
+    },
+    {
+      "name": "a16z",
+      "rss": "https://www.a16z.news/feed",
+      "prompt_type": "analysis"
+    },
+    {
+      "name": "Lenny's Newsletter",
+      "rss": "https://www.lennysnewsletter.com/feed",
+      "prompt_type": "analysis"
+    }
+  ]
+}
