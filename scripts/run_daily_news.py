@@ -25,7 +25,7 @@ def fetch_url_content(url):
         print(f"⚠️ Fetch failed for {url}: {e}")
         return ""
 
-def fetch_rss_items(url, limit=10):
+def fetch_rss_items(url, limit=10, extract_original_url=False):
     """Parses RSS feed and returns list of items."""
     import xml.etree.ElementTree as ET
     items = []
@@ -42,9 +42,17 @@ def fetch_rss_items(url, limit=10):
             link = item.find('link').text if item.find('link') is not None else "#"
             desc = item.find('description').text if item.find('description') is not None else ""
             
+            # For Techmeme: extract the original article URL from the description HTML
+            original_url = link
+            if extract_original_url and desc:
+                import re as _re
+                href_match = _re.search(r'<A\s+HREF="([^"]+)"', desc, _re.IGNORECASE)
+                if href_match:
+                    original_url = href_match.group(1)
+            
             items.append({
                 "title_en": title,
-                "url": link,
+                "url": original_url,
                 "summary_en": desc[:200] + "..." if desc else ""
             })
     except Exception as e:
@@ -67,7 +75,7 @@ def update_news_headlines():
 
     # 1. Techmeme
     print("   ▶ Fetching Techmeme...")
-    techmeme_items = fetch_rss_items("https://www.techmeme.com/feed.xml", limit=15)
+    techmeme_items = fetch_rss_items("https://www.techmeme.com/feed.xml", limit=15, extract_original_url=True)
     if techmeme_items:
         daily_data['techmeme'] = techmeme_items
         print(f"   ✅ Fetched {len(techmeme_items)} Techmeme items.")
