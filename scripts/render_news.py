@@ -94,6 +94,7 @@ def render_deep_analysis(data):
     for i, item in enumerate(analysis_items):
         toggle_id = f"analysis-toggle-{i}"
         title = item.get('title') or item.get('title_zh') or 'Deep Analysis'
+        source_name = item.get('source') or item.get('source_key') or 'Source'
         raw_summary = item.get('analysis_zh') or item.get('summary_zh') or item.get('summary') or item.get('content') or ''
         summary = str(raw_summary)
         url = item.get('url') or item.get('link') or '#'
@@ -113,8 +114,9 @@ def render_deep_analysis(data):
         full_content = summary + insights_html
         html += f'''
                 <div class="news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 40px; width: 100%; box-sizing: border-box;">
+                    <span style="display: inline-block; background: var(--analysis-accent); color: white; font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 4px; margin-bottom: 12px; letter-spacing: 0.5px;">{source_name}</span>
                     <h3 style="font-size: 1.6rem; font-weight: bold; margin-top: 0;">{title}</h3>
-                    <a href="{url}" style="color: var(--analysis-accent); font-weight: bold; text-decoration: none;">Original Source Link &rarr;</a>
+                    <a href="{url}" style="color: var(--analysis-accent); font-weight: bold; text-decoration: none;">{source_name} &rarr;</a>
                     <div class="expand-wrapper" id="{toggle_id}">
                         <div class="analysis-content" style="margin-top: 20px; line-height: 1.8;">
                             {full_content}
