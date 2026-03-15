@@ -129,3 +129,31 @@
 Starting news render process...
 Successfully restored full content and updated index.html.
 ⚠️ 找不到 archive 資料夾。
+🚀 開始發布更新到網站 (GitHub Pages)...
+📦 正在打包變更檔案...
+📝 正在寫入發布日誌: Auto-update: OpenClaw 自動更新 Podcast 摘要 (2026-03-15 16:53:22)
+⏳ 正在推送到 GitHub，這可能需要幾秒鐘...
+=======================================================
+🎉 發布大成功！
+網址: https://mobbymobbym-arch.github.io/daily-curation/
+💡 溫馨提醒：GitHub Pages 通常需要 1 到 3 分鐘的時間來刷新快取，
+如果立刻點開沒看到變化，請喝口水、重新整理一下頁面就會出現了！
+=======================================================
+========================================
+🤖 Daily News Curation Automation - 2026-03-15 16:53:22.732166
+========================================
+⏭️ Skipping fetch since --publish is active (using existing translations)...
+✅ Translation quality check passed. Proceeding to publish.
+
+🎨 Rendering Website...
+
+🗄️ Updating Archives...
+
+🚀 Publishing to GitHub...
+
+✨ All tasks completed successfully.
+   ✅ 發布完成
+
+========================================
+✨ Daily Curation 完成: 2026年 3月15日 週日 16時53分24秒 CST
+========================================
