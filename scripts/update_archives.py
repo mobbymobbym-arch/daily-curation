@@ -2,7 +2,7 @@ import os
 import re
 import sys
 
-ARCHIVE_DIR = 'archive'
+ARCHIVE_DIR = 'archives'
 INDEX_FILE = 'index.html'
 
 def get_title_from_file(filepath):
@@ -11,7 +11,7 @@ def get_title_from_file(filepath):
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
             # 優先尋找 Podcast 領土內的標題
-            podcast_match = re.search(r'<!-- PODCAST_HIGHLIGHTS_START -->.*?<div class="title-cn">🎙️ (.*?)</div>', content, re.DOTALL)
+            podcast_match = re.search(r'<!-- PODCAST_HIGHLIGHTS_START -->.*?<h2[^>]*>(.*?)</h2>', content, re.DOTALL)
             if podcast_match:
                 return podcast_match.group(1).strip()
             
@@ -41,18 +41,18 @@ def main():
         # 分類 A：純日報 (嚴格比對 YYYY-MM-DD.html)
         if re.match(r'^\d{4}-\d{2}-\d{2}\.html$', filename):
             date_str = filename.replace('.html', '')
-            daily_links.append(f'<li><a href="archive/{filename}">📄 {date_str}</a></li>')
+            daily_links.append(f'<li><a href="archives/{filename}">📄 {date_str}</a></li>')
         
-        # 分類 B：Podcast 專題 (檔名帶有 -podcast 或其他後綴)
-        elif re.match(r'^\d{4}-\d{2}-\d{2}-.*\.html$', filename):
-            date_match = re.search(r'^(\d{4}-\d{2}-\d{2})', filename)
+        # 分類 B：Podcast 專題 (podcast-YYYY-MM-DD.html)
+        elif re.match(r'^podcast-\d{4}-\d{2}-\d{2}\.html$', filename):
+            date_match = re.search(r'^podcast-(\d{4}-\d{2}-\d{2})', filename)
             date_str = date_match.group(1) if date_match else "未知日期"
             title = get_title_from_file(filepath)
-            podcast_links.append(f'<li><a href="archive/{filename}">🎙️ {title} ({date_str})</a></li>')
+            podcast_links.append(f'<li><a href="archives/{filename}">🎙️ {title} ({date_str})</a></li>')
 
     # 組合 HTML
     daily_html = "\n                " + "\n                ".join(daily_links) if daily_links else "<li>尚無日報存檔</li>"
-    podcast_html = "\n                " + "\n                ".join(podcast_links) if podcast_links else "<li>尚無 Podcast 存檔</li>"
+    podcast_html = "\n                " + "\n                ".join(podcast_links) if podcast_links else ""
 
     if not os.path.exists(INDEX_FILE):
         print(f"⚠️ 找不到 {INDEX_FILE}。")
