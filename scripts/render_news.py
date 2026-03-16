@@ -154,5 +154,18 @@ def main():
 
     print("Successfully restored full content and updated index.html.")
 
+    # 💾 將每天的新聞也存一份到 archives/ 供更新目錄時抓取
+    archive_dir = 'archives'
+    if not os.path.exists(archive_dir):
+        os.makedirs(archive_dir)
+    
+    archive_filename = f"{fetch_date}.html"
+    archive_filepath = os.path.join(archive_dir, archive_filename)
+    
+    with open(archive_filepath, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    
+    print(f"📦 已將今日內容備份至：{archive_filepath}")
+
 if __name__ == "__main__":
     main()

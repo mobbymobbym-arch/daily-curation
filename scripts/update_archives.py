@@ -41,7 +41,13 @@ def main():
         # 分類 A：純日報 (嚴格比對 YYYY-MM-DD.html)
         if re.match(r'^\d{4}-\d{2}-\d{2}\.html$', filename):
             date_str = filename.replace('.html', '')
-            daily_links.append(f'<li><a href="archives/{filename}">📄 {date_str}</a></li>')
+            import datetime
+            today_str = datetime.datetime.now().strftime('%Y-%m-%d')
+            
+            if date_str == today_str:
+                daily_links.append(f'<li><a href="index.html">📄 {date_str} (今日)</a></li>')
+            else:
+                daily_links.append(f'<li><a href="archives/{filename}">📄 {date_str}</a></li>')
         
         # 分類 B：Podcast 專題 (podcast-YYYY-MM-DD.html)
         elif re.match(r'^podcast-\d{4}-\d{2}-\d{2}\.html$', filename):
