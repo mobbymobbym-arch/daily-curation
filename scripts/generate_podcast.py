@@ -231,7 +231,7 @@ def analyze_with_gemini(text, is_audio_file=False):
         audio_prompt = PODCAST_PROMPT + "\n\n[Audio file attached - please transcribe and analyze]"
         cmd = [
             "gemini", "-p", audio_prompt,
-            "--model", "gemini-3-pro-preview",
+            "--model", "gemini-3.1-pro-preview",
             "--output-format", "json",
             "-f", text  # text is actually the audio file path here
         ]
@@ -246,7 +246,7 @@ def analyze_with_gemini(text, is_audio_file=False):
         full_prompt = PODCAST_PROMPT + "\n\n" + text[:150000]  # Cap at 150k chars
         proc = subprocess.Popen(
             ["gemini", "-p", "Generate JSON only as instructed.",
-             "--model", "gemini-3-pro-preview",
+             "--model", "gemini-3.1-pro-preview",
              "--output-format", "json"],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
