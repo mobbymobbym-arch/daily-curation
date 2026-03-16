@@ -50,6 +50,12 @@ echo "🚀 步驟 4/4: 渲染 + 發布"
 python3 scripts/run_daily_news.py --publish
 echo "   ✅ 發布完成"
 
+# --- 步驟 5: Telegram 通知 ---
+echo ""
+echo "📱 步驟 5/5: 發送 Telegram 通知"
+python3 scripts/notify_telegram.py
+echo "   ✅ 通知完成"
+
 # --- 清理舊 log (保留 30 天) ---
 find "$LOG_DIR" -name "daily_*.log" -mtime +30 -delete 2>/dev/null || true
 

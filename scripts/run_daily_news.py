@@ -70,6 +70,7 @@ def update_news_headlines():
     if os.path.exists(DAILY_NEWS_JSON):
         with open(DAILY_NEWS_JSON, 'r') as f:
             daily_data = json.load(f)
+        daily_data["fetch_date"] = str(datetime.now().date())
     else:
         daily_data = {"fetch_date": str(datetime.now().date())}
 
