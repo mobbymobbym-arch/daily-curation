@@ -18,3 +18,23 @@
    ✅ 新聞抓取完成
 
 🈯️ 步驟 2/4: 翻譯新聞
+========================================
+⏰ Daily Curation 開始: 2026年 3月17日 週二 11時44分26秒 CST
+========================================
+
+📰 步驟 1/5: 抓取新聞 (Techmeme + WSJ)
+/Users/lanreset/daily-curation/scripts/run_daily_news.py:38: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  if not channel: return []
+========================================
+🤖 Daily News Curation Automation - 2026-03-17 11:44:26.830970
+========================================
+📰 Updating News Headlines...
+   ▶ Fetching Techmeme...
+   ✅ Fetched 15 Techmeme items.
+   ▶ Fetching WSJ Technology...
+   ✅ Fetched 10 WSJ items.
+
+📝 News fetched. Please perform translation before running with --publish.
+   ✅ 新聞抓取完成
+
+🈯️ 步驟 2/5: 翻譯新聞
