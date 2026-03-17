@@ -1,187 +1,182 @@
 {
-  "fetch_date": "2026-03-17",
+  "fetch_date": "2026-03-18",
   "techmeme": [
     {
-      "title_en": "Mistral releases Small 4, its first model to unify reasoning, multimodal, and coding capabilities of its flagship Magistral, Pixtral, and Devstral models (Mistral AI)",
-      "url": "https://mistral.ai/news/mistral-small-4",
-      "summary_en": "<A HREF=\"https://mistral.ai/news/mistral-small-4\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260316/i50.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/260316/p50#a...",
-      "_translation_skipped": true,
-      "title_zh": "Mistral releases Small 4, its first model to unify reasoning, multimodal, and coding capabilities of its flagship Magistral, Pixtral, and Devstral models (Mistral AI)",
-      "summary_zh": ""
+      "title_en": "Google expands Personal Intelligence, which lets Gemini tailor its responses by connecting to Gmail and other Google services, from paid users to all US users (Aisha Malik/TechCrunch)",
+      "url": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/...",
+      "title_zh": "Google 擴展「個人智慧」功能，讓 Gemini 透過連結 Gmail 等服務提供客製化回應，對象由付費使用者擴大至全美用戶",
+      "summary_zh": "Google 正在擴大其「個人智慧」（Personal Intelligence）功能的適用範圍，該功能允許 Gemini 連結 Gmail、雲端硬碟及其他 Google 服務以提供更精準的客製化內容。這項原本僅限付費版 Gemini 訂閱者的功能，現在已正式開放給所有美國使用者。"
     },
     {
-      "title_en": "A reporter details harassment and death threats from gamblers who stand to win a Polymarket bet if he would change his report on a missile impact in Israel (Emanuel Fabian/The Times of Israel)",
-      "url": "https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/",
-      "summary_en": "<A HREF=\"https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SR...",
-      "title_zh": "記者揭露遭 Polymarket 賭客騷擾與死亡威脅，企圖迫使他更改以色列導彈襲擊報導以贏得賭注 (Emanuel Fabian/The Times of Israel)",
-      "summary_zh": "一名記者詳述了其遭到在預測市場 Polymarket 下注的賭客騷擾及死亡威脅的經歷。這些賭客試圖迫使他修改關於以色列導彈襲擊的報導，以便他們能從相關賭注中獲利。此事件突顯了預測市場的財務誘因可能對新聞誠信及記者人身安全構成的威脅。"
+      "title_en": "Intel unveils the Core Ultra 200HX Plus CPUs for high-end gaming laptops, offering an Intel Binary Optimization Tool to improve native performance in some games (Antonio G. Di Benedetto/The Verge)",
+      "url": "https://www.theverge.com/tech/895921/intel-core-ultra-290hx-270hx-flagship-gaming-laptop-cpu",
+      "summary_en": "<A HREF=\"https://www.theverge.com/tech/895921/intel-core-ultra-290hx-270hx-flagship-gaming-laptop-cpu\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i31.jpg\">...",
+      "title_zh": "Intel 推出 Core Ultra 200HX Plus 系列 CPU，鎖定高端電競筆電並提供二進位優化工具提升效能",
+      "summary_zh": "Intel 發表了專為頂級電競筆電打造的 Core Ultra 200HX Plus 處理器，並特別介紹了「Intel 二進位優化工具」（Intel Binary Optimization Tool），宣稱能顯著提升部分遊戲在原生環境下的運行效能。"
     },
     {
-      "title_en": "Fuse, which offers AI-powered loan origination software to credit unions and other financial institutions, raised a $25M Series A (Marina Temkin/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tec...",
-      "_translation_skipped": true,
-      "title_zh": "Fuse, which offers AI-powered loan origination software to credit unions and other financial institutions, raised a $25M Series A (Marina Temkin/TechCrunch)",
-      "summary_zh": ""
+      "title_en": "Tel Aviv- and Seattle-based Native, which helps companies monitor security across cloud providers, emerges from stealth with an $11M seed and a $31M Series A (Chris Metinko/Axios)",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/03/17/cloud-security-native-42m-ballistic-ventures",
+      "summary_en": "<A HREF=\"https://www.axios.com/pro/enterprise-software-deals/2026/03/17/cloud-security-native-42m-ballistic-ventures\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
+      "title_zh": "雲端安全新創 Native 結束隱身模式，宣佈獲得 4,200 萬美元種子輪與 A 輪融資",
+      "summary_zh": "總部位於特拉維夫與西雅圖的新創公司 Native 正式亮相，該公司專注於協助企業跨雲端供應商監控安全性。Native 同時宣佈完成由 Ballistic Ventures 領投的 1,100 萬美元種子輪與 3,100 萬美元 A 輪融資。"
     },
     {
-      "title_en": "How Disney Imagineering built an Olaf robot, set to arrive at Disneyland Paris this month, and taught it to move via reinforcement learning and simulation (Jacob Krol/TechRadar)",
-      "url": "http://www.techmeme.com/260316/p47#a260316p47",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260316/p47#a260316p47\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Jac...",
-      "title_zh": "迪士尼幻想工程如何打造「雪寶」機器人，透過強化學習與模擬技術學習擬真動作，預計本月進駐巴黎迪士尼樂園 (Jacob Krol/TechRadar)",
-      "summary_zh": "迪士尼幻想工程（Disney Imagineering）利用強化學習（Reinforcement Learning）與電腦模擬技術，開發出動作極其自然的「雪寶」（Olaf）二足機器人。相較於傳統需耗時數年手動編寫程式的方法，這項 AI 驅動的技術讓機器人能在模擬環境中進行數千次練習，掌握其標誌性的搖擺走姿與生動肢體動作。該機器人具備優異的平衡感，能適應移動表面，預計將於 3 月 29 日在巴黎迪士尼樂園正式亮相。"
+      "title_en": "Memo: Satya Nadella says ex-Snap executive Jacob Andreou will lead Copilot for commercial and consumer clients; Mustafa Suleyman will focus on new AI models (Jordan Novet/CNBC)",
+      "url": "https://www.cnbc.com/2026/03/17/microsoft-copilot-ai-suleyman.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/17/microsoft-copilot-ai-suleyman.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i29.jpg\"></A>\n<P><A HREF=\"http://ww...",
+      "title_zh": "微軟架構調整：Jacob Andreou 領導 Copilot 業務，Mustafa Suleyman 專注於 AI 模型開發",
+      "summary_zh": "微軟執行長 Satya Nadella 在內部備忘錄中宣佈，前 Snap 高管 Jacob Andreou 將接手領導商用與消費端 Copilot 業務；而 Mustafa Suleyman 則會將重心轉移至推動新一代 AI 模型的研發工作。"
     },
     {
-      "title_en": "In an all-hands meeting, Fidji Simo described plans to shift OpenAI's strategy around coding and business users, urging staff to avoid \"side quests\" (Berber Jin/Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825?st=oxcrnm&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825?st=oxcrnm&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com...",
-      "title_zh": "OpenAI 策略轉向：董事 Fidji Simo 敦促員工專注核心業務，避免「支線任務」並鎖定開發者與企業用戶 (Berber Jin / 華爾街日報)",
-      "summary_zh": "OpenAI 董事 Fidji Simo 在全體員工會議中說明了公司策略的重大調整，計畫將更多資源投入於 Coding 與企業用戶。她敦促員工應專注於核心目標，避免被各種「支線任務」（side quests）分散精力。這顯示 OpenAI 正在收縮戰線，試圖在其核心的 AI 服務與商業應用上取得更深度的領先。"
+      "title_en": "World launches AgentKit, a software development tool that enables sites to verify that a real human is behind the purchasing decisions of AI shopping agents (Lucas Ropek/TechCrunch)",
+      "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i28....",
+      "title_zh": "World 推出 AgentKit 工具，協助網站驗證 AI 購物代理程式背後是否由真人授權",
+      "summary_zh": "World (原 Worldcoin) 發表了開發工具 AgentKit，旨在解決 AI 代理程式自動購物帶來的身份驗證問題。該工具能讓電商網站確認在 AI 進行採購決策的背後，確實存在一名真實的自然人進行操作。"
     },
     {
-      "title_en": "RoboForce, which is developing robotics systems to perform physically demanding industrial work, raised $52M led by YZi Labs, bringing its total funding to $67M (Duncan Riley/SiliconANGLE)",
-      "url": "https://siliconangle.com/2026/03/16/roboforce-raises-52m-develop-physical-ai-robots-industrial-labor/",
-      "summary_en": "<A HREF=\"https://siliconangle.com/2026/03/16/roboforce-raises-52m-develop-physical-ai-robots-industrial-labor/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260316/...",
-      "title_zh": "機器人新創 RoboForce 獲 5,200 萬美元融資，致力於開發自動化高強度工業體力勞動系統",
-      "summary_zh": "專門開發能執行高強度工業勞動機器人系統的 RoboForce，宣佈完成由 YZi Labs 領投的 5,200 萬美元融資，使其總融資額達到 6,700 萬美元。該公司旨在利用機器人技術解決工業領域中體力要求極高的勞動需求。"
+      "title_en": "Crypto trading firm GSR says it is acquiring Autonomous and Architech for $57M, expanding into token advisory and capital markets services (Krisztian Sandor/CoinDesk)",
+      "url": "https://www.coindesk.com/business/2026/03/17/crypto-trading-firm-gsr-expands-token-advisory-with-usd57-million-in-acquisitions",
+      "summary_en": "<A HREF=\"https://www.coindesk.com/business/2026/03/17/crypto-trading-firm-gsr-expands-token-advisory-with-usd57-million-in-acquisitions\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http:/...",
+      "title_zh": "加密貨幣交易商 GSR 以 5,700 萬美元收購兩家公司，擴大代幣諮詢與資本市場業務",
+      "summary_zh": "知名加密貨幣造市商 GSR 宣佈以 5,700 萬美元收購 Autonomous 與 Architech 兩家公司。此舉旨在強化其在代幣經濟諮詢、資本市場服務及區塊鏈基礎設施領域的佈局。"
     },
     {
-      "title_en": "Nvidia announces the Nemotron Coalition, which includes Thinking Machines Lab, Cursor, and Mistral and will develop an open model trained on Nvidia DGX Cloud (Sebastian Moss/DatacenterDynamics)",
-      "url": "https://www.datacenterdynamics.com/en/news/nvidia-offers-dgx-cloud-to-ai-foundation-model-labs-on-new-nemotron-coalition/",
-      "summary_en": "<A HREF=\"https://www.datacenterdynamics.com/en/news/nvidia-offers-dgx-cloud-to-ai-foundation-model-labs-on-new-nemotron-coalition/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www....",
-      "title_zh": "Nvidia 宣布成立 Nemotron 聯盟，成員包含 Thinking Machines Lab、Cursor 與 Mistral，將致力於開發在 Nvidia DGX Cloud 上訓練的開源模型 (Sebastian Moss/DatacenterDynamics)",
-      "summary_zh": "Nvidia 正在向 AI 基礎模型實驗室提供其 DGX Cloud 資源，並發起全新的 Nemotron 聯盟，旨在推動開源 AI 模型的開發與創新。"
+      "title_en": "Sources: OpenAI signed a deal with AWS to sell its AI services to US government agencies for both classified and unclassified work, amid the Anthropic-DOD spat (The Information)",
+      "url": "https://www.theinformation.com/articles/openai-clinches-aws-deal-bid-win-government-contracts",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/openai-clinches-aws-deal-bid-win-government-contracts\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i26.jpg\"...",
+      "title_zh": "OpenAI 與 AWS 達成協議，向美國政府機構提供機密與非機密等級的 AI 服務",
+      "summary_zh": "據消息人士透露，在 Anthropic 與美國國防部因合約產生爭議之際，OpenAI 已與 AWS 簽署合作，透過 AWS 的政府雲端環境向美國聯邦機構銷售其 AI 服務，涵蓋一般行政與機密任務需求。"
     },
     {
-      "title_en": "Nscale acquires American Intelligence & Power, which owns a 2,250-acre data center campus in West Virginia, where it plans to build up to 8GW of compute by 2031 (Robbie Whelan/Wall Street Journal)",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-03-16-2026/card/nvidia-backed-nscale-plans-huge-data-center-cluster-in-west-virginia-u70YZOgyfDBXKRtnj7kD",
-      "summary_en": "<A HREF=\"https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-03-16-2026/card/nvidia-backed-nscale-plans-huge-data-center-cluster-in-west-virginia-u70YZOgyfDBXKRtnj7kD\"><IMG VSPACE=\"4...",
-      "title_zh": "Nscale 收購 American Intelligence & Power，取得西維吉尼亞州 2,250 英畝資料中心園區，擬於 2031 年前打造 8GW 運算規模 (華爾街日報 / Robbie Whelan)",
-      "summary_zh": "由 NVIDIA 支持的 AI 基礎設施公司 Nscale 宣佈併購 American Intelligence & Power，取得位於西維吉尼亞州、佔地 2,250 英畝的 Monarch 運算園區。該計畫旨在 2031 年前建立總容量達 8GW 的資料中心群，並預計在 2028 年上半年完成首波 2GW 運算力部署。此外，Nscale 已與 Microsoft 簽署意向書，將採用 NVIDIA 最新一代 Vera Rubin GPU 架構提供 1.35 GW 的 AI 運算容量，展現其成為全球領先 AI 超大型雲端業者（Hyperscaler）的雄心。"
+      "title_en": "Baidu is integrating OpenClaw with its Xiaodu devices to work as voice-controlled remotes, joining Tencent and Alibaba in racing to capitalize on agentic AI (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/baidu-taps-openclaw-smart-speakers-to-fuel-agentic-ai-paradigm",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/baidu-taps-openclaw-smart-speakers-to-fuel-agentic-ai-paradigm\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
+      "title_zh": "百度將 OpenClaw 整合至小度設備，與騰訊及阿里巴巴展開代理式 AI 競爭",
+      "summary_zh": "百度宣佈將 OpenClaw 協議整合進旗下的「小度」智慧音箱與設備中，使其具備語音控制家電的智慧遙控功能，顯示中國科技巨頭正加速在代理式 AI (Agentic AI) 領域的應用落地。"
     },
     {
-      "title_en": "Austin-based Ironlight, which is building a regulated marketplace for tokenized securities, raised a $21M Series A; its platform received FINRA approval in 2025 (Ryan Lawler/Axios)",
-      "url": "https://www.axios.com/pro/fintech-deals/2026/03/16/ironlight-21m-tokenized-securities-marketplace",
-      "summary_en": "<A HREF=\"https://www.axios.com/pro/fintech-deals/2026/03/16/ironlight-21m-tokenized-securities-marketplace\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260316/i42....",
-      "_translation_skipped": true,
-      "title_zh": "Austin-based Ironlight, which is building a regulated marketplace for tokenized securities, raised a $21M Series A; its platform received FINRA approval in 2025 (Ryan Lawler/Axios)",
-      "summary_zh": ""
+      "title_en": "IBM closes its $11B deal for data streaming company Confluent; IBM CEO Arvind Krishna says he expects IBM will maintain or grow its head count over five years (Belle Lin/Wall Street Journal)",
+      "url": "https://www.wsj.com/cio-journal/ibm-closes-11-billion-deal-for-confluent-13fcbea0?st=xQbmpm&reflink=desktopwebshare_permalink",
+      "summary_en": "<A HREF=\"https://www.wsj.com/cio-journal/ibm-closes-11-billion-deal-for-confluent-13fcbea0?st=xQbmpm&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://...",
+      "title_zh": "IBM 完成 110 億美元收購 Confluent 交易，執行長看好未來五年的員工人數增長",
+      "summary_zh": "IBM 已正式完成對資料串流領軍企業 Confluent 的 110 億美元收購。IBM 執行長 Arvind Krishna 表示，這項收購對公司的 AI 策略至關重要，並預期未來五年內 IBM 的整體員工人數將維持穩定或有所成長。"
     },
     {
-      "title_en": "Manus introduces My Computer, a desktop application that enables its AI agent to interact directly with the user's local files, tools, and applications (Manus)",
-      "url": "https://manus.im/blog/manus-my-computer-desktop",
-      "summary_en": "<A HREF=\"https://manus.im/blog/manus-my-computer-desktop\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260316/i41.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/2603...",
-      "title_zh": "Manus 推出桌面應用程式「My Computer」，讓 AI Agent 直接操作本地檔案與工具",
-      "summary_zh": "Manus 發表了桌面應用程式「My Computer」，使旗下的 AI Agent 能夠直接與使用者的本地檔案、工具及應用程式進行互動。這項功能讓 AI Agent 不再侷限於雲端操作，而是能深入使用者的本地工作環境，直接處理檔案並協作各類應用程式，大幅提升自動化工作流的效率。"
+      "title_en": "Qualcomm says it plans to buy back another $20B worth of shares and is raising its quarterly cash dividend, after unveiling a $15B buyback in November 2024 (Lynn Doan/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/qualcomm-is-buying-back-20-billion-in-shares-boosts-dividend",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/qualcomm-is-buying-back-20-billion-in-shares-boosts-dividend\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
+      "title_zh": "高通宣佈加碼 200 億美元股份回購計畫，並調升季度股息",
+      "summary_zh": "晶片巨頭高通 (Qualcomm) 宣佈董事會已批准新的 200 億美元股份回購計畫，並同步調高現金股息。這是在 2024 年底宣佈 150 億美元回購後的又一重大資本回報動作，顯示對其業務前景的信心。"
     },
     {
-      "title_en": "Roche says it has deployed 3,500+ Nvidia Blackwell GPUs, which it calls \"the greatest announced GPU footprint available to a pharmaceutical company\" (Sebastian Moss/DatacenterDynamics)",
-      "url": "https://www.datacenterdynamics.com/en/news/pharmaceutical-company-roche-deploys-3500-nvidia-blackwell-gpus-across-hybrid-cloud-and-onpremises/",
-      "summary_en": "<A HREF=\"https://www.datacenterdynamics.com/en/news/pharmaceutical-company-roche-deploys-3500-nvidia-blackwell-gpus-across-hybrid-cloud-and-onpremises/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RI...",
-      "title_zh": "羅氏（Roche）宣佈已部署超過 3,500 顆 NVIDIA Blackwell GPU，稱其為「製藥公司中已公開的最大 GPU 部署規模」 (Sebastian Moss/DatacenterDynamics)",
-      "summary_zh": "製藥巨頭羅氏（Roche）宣佈已在混合雲與地端環境中部署超過 3,500 顆 NVIDIA Blackwell GPU。該公司稱這是目前製藥產業中已公開的最大規模 GPU 部署，旨在利用強大的 AI 算力加速新藥研發、蛋白質折疊預測及大規模基因體數據分析，以顯著提升醫療開發效率並縮短藥物上市週期。"
+      "title_en": "Q&A with Kalshi co-founders Tarek Mansour and Luana Lopes Lara on suing the US government, solving market making, agentic and insider trading, ethics, and more (John Collison/Cheeky Pint)",
+      "url": "https://cheekypint.substack.com/p/creating-prediction-markets-and-suing",
+      "summary_en": "<A HREF=\"https://cheekypint.substack.com/p/creating-prediction-markets-and-suing\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i22.jpg\"></A>\n<P><A HREF=\"http...",
+      "title_zh": "Kalshi 創辦人訪談：探討預測市場、控告美國政府與代理式交易的倫理與挑戰",
+      "summary_zh": "Kalshi 共同創辦人 Tarek Mansour 與 Luana Lopes Lara 在訪談中分享了與美國監管機構的法律訴訟、預測市場的流動性解決方案、代理式 AI 參與交易的影響，以及內線交易與倫理等深度議題。"
     },
     {
-      "title_en": "Nvidia says BYD, Geely, Isuzu, and Nissan will use its Drive Hyperion AV platform, and that Uber will launch Hyperion-powered robotaxis across 28 cities by 2028 (Andrew J. Hawkins/The Verge)",
-      "url": "https://www.theverge.com/tech/895301/nvidia-robotaxi-byd-geely-hyperion-lyft-halos",
-      "summary_en": "<A HREF=\"https://www.theverge.com/tech/895301/nvidia-robotaxi-byd-geely-hyperion-lyft-halos\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260316/i39.jpg\"></A>\n<P><A...",
-      "_translation_skipped": true,
-      "title_zh": "Nvidia says BYD, Geely, Isuzu, and Nissan will use its Drive Hyperion AV platform, and that Uber will launch Hyperion-powered robotaxis across 28 cities by 2028 (Andrew J. Hawkins/The Verge)",
-      "summary_zh": ""
+      "title_en": "PayPal expands access to its PYUSD stablecoin from the US and the UK to 70 countries in total, including Colombia, Panama, Peru, Singapore, Uganda, and Malawi (Ben Weiss/Fortune)",
+      "url": "https://fortune.com/2026/03/17/paypal-expands-pyusd-stablecoin-access-to-68-more-countries/",
+      "summary_en": "<A HREF=\"https://fortune.com/2026/03/17/paypal-expands-pyusd-stablecoin-access-to-68-more-countries/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i21.jpg\"><...",
+      "title_zh": "PayPal 將 PYUSD 穩定幣使用範圍擴大至全球 70 個國家，包括新加坡與哥倫比亞",
+      "summary_zh": "PayPal 宣佈其 PYUSD 穩定幣的使用權限從原有的美國與英國大幅擴展，目前全球已有 70 個國家的用戶可以存取，包含新加坡、巴拿馬、秘魯、哥倫比亞及部分非洲國家。"
     },
     {
-      "title_en": "Nvidia unveils Space-1 Vera Rubin for orbital data centers, saying its GPU delivers up to 25x more AI compute for space-based inferencing compared to the H100 (Sebastian Moss/DatacenterDynamics)",
-      "url": "https://www.datacenterdynamics.com/en/news/nvidia-announces-space-compute-modules-including-vera-rubin/",
-      "summary_en": "<A HREF=\"https://www.datacenterdynamics.com/en/news/nvidia-announces-space-compute-modules-including-vera-rubin/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26031...",
-      "title_zh": "Nvidia 發表用於軌道資料中心的 Space-1 Vera Rubin，稱其 GPU 航太 AI 推論算力較 H100 提升達 25 倍",
-      "summary_zh": "NVIDIA 發表全新 Space-1 Vera Rubin 運算模組，專為軌道資料中心（ODC）設計。該模組採用緊密整合的 CPU-GPU 架構與高頻寬互連技術，其航太 AI 推論效能較現有的 H100 GPU 提升達 25 倍。Space-1 針對嚴苛的太空環境（如輻射）進行硬化處理，旨在受限的體積、重量與功耗（SWaP）條件下提供資料中心級的運算力，支援即時地緣空間情報處理、自主航太行動及在軌運行大型語言模型（LLM）。目前已有 Planet Labs 與 Axiom Space 等多家業者採用，預計將於今年下半年由合作夥伴開始供貨。"
+      "title_en": "Mastercard agrees to acquire London-based stablecoin payments infra startup BVNK for up to $1.8B, including $300M in contingent payments, set to close in 2026 (Reuters)",
+      "url": "https://www.reuters.com/business/mastercard-buy-stablecoin-infra-firm-bvnk-up-18-billion-2026-03-17/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/business/mastercard-buy-stablecoin-infra-firm-bvnk-up-18-billion-2026-03-17/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i...",
+      "title_zh": "萬事達卡同意以 18 億美元收購倫敦穩定幣支付基礎設施新創 BVNK",
+      "summary_zh": "Mastercard 已達成協議，將以最高 18 億美元（含 3 億美元績效獎金）收購倫敦新創 BVNK。該公司專為企業提供穩定幣支付橋接服務，此交易預計於 2026 年完成收盤。"
     },
     {
-      "title_en": "US startup Reflection AI is working with South Korea's Shinsegae Group to build a 250MW data center in South Korea, sources say in a several-billion-dollar deal (Amrith Ramkumar/Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/ai/nvidia-backed-ai-startup-to-spend-billions-on-korea-data-center-to-combat-china-f945a326?st=RuF3Dx&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/nvidia-backed-ai-startup-to-spend-billions-on-korea-data-center-to-combat-china-f945a326?st=RuF3Dx&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BO...",
-      "title_zh": "美國新創公司 Reflection AI 正與南韓新世界集團合作，計畫在韓建設 250MW 資料中心，交易規模達數十億美元 (Amrith Ramkumar/華爾街日報)",
-      "summary_zh": "由 NVIDIA 支持的美國 AI 新創公司 Reflection AI 已與南韓零售巨頭新世界集團（Shinsegae Group）達成協議，將在南韓建設一座電力容量達 250MW 的大型資料中心。這項價值數十億美元的投資計畫不僅旨在提升當地的 AI 運算基礎設施，更反映出美國政府正將 AI 核心技術與晶片供應作為外交工具，藉由協助盟友建立算力資源，以在亞洲市場應對來自中國的競爭並鞏固科技領先地位。"
+      "title_en": "Enterprise AI automation startup Standard Template Labs raised a $49M seed co-led by Iconiq and CRV, a source says at a $300M post-money valuation (Natasha Mascarenhas/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/ex-datadog-leader-s-ai-startup-nabs-first-49-million-funding",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/ex-datadog-leader-s-ai-startup-nabs-first-49-million-funding\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
+      "title_zh": "企業 AI 自動化新創 Standard Template Labs 完成 4,900 萬美元融資，估值達 3 億美元",
+      "summary_zh": "由前 Datadog 高管創辦的 Standard Template Labs 宣佈完成 4,900 萬美元的種子輪融資，由 Iconiq 與 CRV 領投。該公司專注於開發企業級 AI 自動化流程，投後估值已來到 3 億美元。"
     },
     {
-      "title_en": "Nvidia announces NemoClaw, which combines the OpenClaw agent platform with components of Nvidia's Agent Toolkit to add privacy and security controls (Frederic Lardinois/The New Stack)",
-      "url": "https://thenewstack.io/nemoclaw-openclaw-with-guardrails/",
-      "summary_en": "<A HREF=\"https://thenewstack.io/nemoclaw-openclaw-with-guardrails/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260316/i36.jpg\"></A>\n<P><A HREF=\"http://www.techmem...",
-      "_translation_skipped": true,
-      "title_zh": "Nvidia announces NemoClaw, which combines the OpenClaw agent platform with components of Nvidia's Agent Toolkit to add privacy and security controls (Frederic Lardinois/The New Stack)",
-      "summary_zh": ""
+      "title_en": "Darton Commodities: the global cobalt shortage is set to persist through 2030, after Congo limited exports in 2025; the DRC accounts for 70%+ of global supply (Annie Lee/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/cobalt-shortages-driven-by-congo-curbs-seen-lasting-through-2030",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/cobalt-shortages-driven-by-congo-curbs-seen-lasting-through-2030\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
+      "title_zh": "Darton Commodities：剛果限制出口導致全球鈷短缺，預計將持續至 2030 年",
+      "summary_zh": "研究機構 Darton Commodities 指出，由於佔全球供應逾七成的剛果民主共和國 (DRC) 在 2025 年開始限制出口，全球鈷短缺的問題將難以緩解，預計供應吃緊的狀態將一直持續到 2030 年。"
     }
   ],
   "wsj": [
     {
-      "title_en": "OpenAI to Cut Back on Side Projects in Push to ‘Nail’ Core Business",
-      "url": "https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825?mod=rss_Technology",
-      "summary_en": "A top leader urged staff not to be distracted by “side quests” as the company plans a shift of resources to coding and enterprise businesses....",
-      "title_zh": "OpenAI 擬縮減側翼專案，全力衝刺核心業務",
-      "summary_zh": "一位高層敦促員工不要被「支線任務」分散注意力，因為公司正計劃將資源轉移到程式編碼與企業級業務。"
+      "title_en": "Nvidia’s Super Bowl Plays to the Crowd",
+      "url": "https://www.wsj.com/tech/ai/nvidias-super-bowl-plays-to-the-crowd-8cf6f47b?mod=rss_Technology",
+      "summary_en": "Plus, OpenAI cuts side projects and Oracle’s performance obligations...",
+      "title_zh": "Nvidia 的「超級盃」盛宴：吸引大眾目光",
+      "summary_zh": "本篇探討 Nvidia 如何在市場中引發熱潮，並報導 OpenAI 削減側翼專案以及 Oracle 在執行合約方面的亮眼表現。"
     },
     {
-      "title_en": "What Is Inference? Explaining the Massive New Shift in AI Computing",
-      "url": "https://www.wsj.com/tech/ai/what-is-inference-explaining-the-massive-new-shift-in-ai-computing-ed65a2fe?mod=rss_Technology",
-      "summary_en": "The focus of artificial-intelligence spending has gone from training models to using them. Here’s how to understand the difference—and the implications....",
-      "title_zh": "何謂 Inference？解析 AI 運算領域的重大轉向",
-      "summary_zh": "AI 領域的支出重心正從模型「訓練」轉向模型「應用」（Inference）。本文將帶您解析兩者的差異，以及這波趨勢帶來的深遠影響。"
+      "title_en": "Microsoft Seeks More Coherence in AI Efforts With Copilot Reorganization",
+      "url": "https://www.wsj.com/tech/ai/microsoft-seeks-more-coherence-in-ai-efforts-with-copilot-reorganization-a985b374?mod=rss_Technology",
+      "summary_en": "The software giant is scrapping the divide between the consumer and business app teams....",
+      "title_zh": "微軟重組 Copilot 團隊：追求 AI 發展的一致性",
+      "summary_zh": "這家軟體巨頭正在打破消費端與商業應用團隊之間的界限，旨在透過組織重組讓 Copilot 的開發與推廣更具一致性。"
     },
     {
-      "title_en": "SEC Preps Proposal to Nix Quarterly Reporting Requirement",
-      "url": "https://www.wsj.com/tech/sec-preps-proposal-to-nix-quarterly-reporting-requirement-3ca719b7?mod=rss_Technology",
-      "summary_en": "Plus, a judge blocks the new childhood vax recommendations, and rich Palm Beach men love loud pants....",
-      "title_zh": "SEC 擬提案取消季度報告要求",
-      "summary_zh": "此外，法官阻攔了新的兒童疫苗建議，而棕櫚灘的富豪們則鍾愛花俏的長褲……"
+      "title_en": "IBM Closes $11 Billion Deal for Confluent",
+      "url": "https://www.wsj.com/cio-journal/ibm-closes-11-billion-deal-for-confluent-13fcbea0?mod=rss_Technology",
+      "summary_en": "Deal will help companies access their data for AI agents, says IBM CEO Arvind Krishna, as he brushes off AI’s risk to IBM’s business....",
+      "title_zh": "IBM 完成 110 億美元收購 Confluent 交易",
+      "summary_zh": "IBM 執行長 Arvind Krishna 表示，這項收購將協助企業更有效地存取數據以建立 AI Agent，並同時淡化 AI 可能對 IBM 現有業務模式帶來的威脅。"
     },
     {
-      "title_en": "Nvidia’s CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-      "url": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=rss_Technology",
-      "summary_en": "“This is the AI future,” Jensen Huang said at the company’s GTC Conference, speaking about the shift to inference....",
-      "title_zh": "NVIDIA 執行長預期 AI 晶片銷售額將達 1 兆美元，開啟運算新時代",
-      "summary_zh": "黃仁勳在 NVIDIA 的 GTC 大會上指出：「這就是 AI 的未來」，並探討了運算需求向推論（inference）轉移的趨勢。"
+      "title_en": "How Quantum Computing Works",
+      "url": "https://www.wsj.com/tech/how-quantum-computing-works-cab3fef2?mod=rss_Technology",
+      "summary_en": "Here’s how quantum computing works and how it could supercharge—and disrupt—billion-dollar industries....",
+      "title_zh": "量子運算原理詳解",
+      "summary_zh": "本文介紹了量子運算的運作方式，以及這項技術未來可能如何強化、甚至顛覆價值數十億美元的各行各業。"
+    },
+    {
+      "title_en": "Finance Bros to Tech Bros: Don’t Mess With My Bloomberg Terminal",
+      "url": "https://www.wsj.com/tech/ai/bloomberg-terminal-perplexity-vibe-coding-e37a95f8?mod=rss_Technology",
+      "summary_en": "Some spend more time with the computer system than they do with their spouse. So when techies declared it “cooked,” it was war....",
+      "title_zh": "金融界反擊科技業：別想動我的 Bloomberg 終端機",
+      "summary_zh": "對許多金融從業人員來說，Bloomberg 終端機是不可或缺的生存工具。因此當科技圈人士宣稱該系統「已經過時」時，引發了一場關於傳統工具與現代科技的論戰。"
     },
     {
       "title_en": "Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
       "url": "https://www.wsj.com/tech/ai/nvidia-backed-ai-startup-to-spend-billions-on-korea-data-center-to-combat-china-f945a326?mod=rss_Technology",
       "summary_en": "The Trump administration is using AI chips and models as a tool for diplomacy and boosting U.S. allies....",
-      "title_zh": "Nvidia 支持的 AI 新創將斥資數十億美元在韓建置資料中心，力抗中國競爭",
-      "summary_zh": "川普政府正將 AI 晶片與模型視為外交工具，藉此提振美國盟友實力並圍堵中國。"
+      "title_zh": "Nvidia 支持的 AI 新創計畫在韓國投資數十億美元打造數據中心以對抗中國",
+      "summary_zh": "川普政府正將 AI 晶片與模型視為外交工具，透過支持盟友在戰略地點建設基礎設施，來強化美國在技術競賽中的領先地位。"
     },
     {
-      "title_en": "Can Nvidia’s Dominance Survive the Sea Change Under Way in AI Computing?",
-      "url": "https://www.wsj.com/tech/ai/can-nvidias-dominance-survive-the-sea-change-under-way-in-ai-computing-63c3a70d?mod=rss_Technology",
-      "summary_en": "Making chips for training AI models made it the world’s biggest company, but demand for inference is growing far faster....",
-      "title_zh": "NVIDIA 的霸權地位，能否在 AI 運算的巨變浪潮中屹立不搖？",
-      "summary_zh": "製造用於訓練 AI 模型的晶片讓 NVIDIA 躍升為全球市值最高的公司，但目前對「推論」（inference）的需求增長速度已遠超訓練，這正引發一場運算架構的轉型。"
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-e64ea0af?mod=rss_Technology",
+      "summary_en": "Find insight on Uber, Nvidia and more in the latest Market Talks covering Technology, Media and Telecom....",
+      "title_zh": "科技、媒體與電信市場綜覽：市場熱點解析",
+      "summary_zh": "最新的市場對話報導，提供了關於 Uber、Nvidia 等科技、媒體與電信產業領頭羊的深入洞察與分析。"
+    },
+    {
+      "title_en": "Foxconn Expects AI Demand to Remain Strong, Sees Limited Mideast Impact",
+      "url": "https://www.wsj.com/business/earnings/foxconn-quarterly-profit-falls-despite-higher-revenue-f8ca8c65?mod=rss_Technology",
+      "summary_en": "The world’s largest contract electronics maker expects continued demand for its AI servers in 2026 despite the uncertainty and risks posed by the Middle East war....",
+      "title_zh": "鴻海預計 AI 需求維持強勁，認爲中東衝突影響有限",
+      "summary_zh": "全球最大的電子代工廠鴻海表示，儘管中東局勢帶來不確定性與風險，但預計 2026 年其 AI 伺服器的市場需求仍將持續保持旺盛。"
     },
     {
       "title_en": "Alibaba Consolidates AI Operations Under New Business Group",
       "url": "https://www.wsj.com/tech/ai/alibaba-consolidates-ai-operations-under-new-business-group-de8283e2?mod=rss_Technology",
       "summary_en": "The new business unit, called Alibaba Token Hub, will be led by Eddie Wu, Alibaba’s chief executive....",
-      "title_zh": "阿里巴巴整合 AI 業務，成立全新事業群",
-      "summary_zh": "阿里巴巴成立名為 Alibaba Token Hub 的全新事業單位，將由阿里巴巴執行長吳泳銘（Eddie Wu）親自領導。"
+      "title_zh": "阿里巴巴整合 AI 業務，成立全新業務事業群",
+      "summary_zh": "阿里巴巴宣佈成立名為「Alibaba Token Hub」的新業務部門，由集團執行長吳泳銘親自領導，旨在集中力量發展 AI 相關業務。"
     },
     {
-      "title_en": "Nvidia Software Aims to Bring OpenClaw to the Enterprise",
-      "url": "https://www.wsj.com/cio-journal/nvidia-software-aims-to-bring-openclaw-to-the-enterprise-7b8e9927?mod=rss_Technology",
-      "summary_en": "CEO Jensen Huang says NemoClaw makes the popular autonomous agent platform “enterprise ready.”...",
-      "title_zh": "NVIDIA 軟體方案旨在將 OpenClaw 導入企業級應用",
-      "summary_zh": "執行長黃仁勳表示，NemoClaw 使這款熱門的自主代理程式平台具備了「企業級」應用實力。"
-    },
-    {
-      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
-      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-b7824b56?mod=rss_Technology",
-      "summary_en": "Find insight on Adobe, Nvidia, and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "title_zh": "科技、媒體與電信綜覽：市場動態",
-      "summary_zh": "在涵蓋科技、媒體與電信領域的最新市場動態中，獲取關於 Adobe、Nvidia 等公司的深入見解。"
-    },
-    {
-      "title_en": "Nebius, Meta Agree to $27 Billion AI Infrastructure Pact",
-      "url": "https://www.wsj.com/business/deals/nebius-meta-agree-to-27-billion-ai-infrastructure-pact-099e9bff?mod=rss_Technology",
-      "summary_en": "Nebius agreed to a five-year deal worth about $27 billion to supply AI infrastructure capacity to Meta as it continues to see surging demand for its data center computing....",
-      "title_zh": "Nebius 與 Meta 達成 270 億美元 AI 基礎設施協議",
-      "summary_zh": "Nebius 簽署了一項為期五年、價值約 270 億美元的協議，將為 Meta 提供 AI 基礎設施容量，以因應其資料中心運算需求持續激增的現況。"
+      "title_en": "OpenAI to Cut Back on Side Projects in Push to ‘Nail’ Core Business",
+      "url": "https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825?mod=rss_Technology",
+      "summary_en": "A top leader urged staff not to be distracted by “side quests” as the company plans a shift of resources to coding and enterprise businesses....",
+      "title_zh": "OpenAI 削減邊緣專案，專注於「核心業務」推廣",
+      "summary_zh": "OpenAI 高層敦促員工不要被「支線任務」分心，公司計劃將資源全面轉向程式開發服務以及企業端業務，以確保核心競爭力。"
     }
   ],
   "deep_analysis": {

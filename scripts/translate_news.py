@@ -3,37 +3,44 @@ import os
 import subprocess
 import re
 from datetime import datetime
+import time
 
 DAILY_NEWS_JSON = 'daily_news_temp.json'
-# Per-item timeout: 45 seconds is enough for normal calls; if gemini hangs beyond
-# this, we kill it and skip to the next item rather than blocking forever.
-PER_ITEM_TIMEOUT = 45
+BATCH_TIMEOUT = 120
+MAX_RETRIES = 3
 
-
-def translate_with_gemini(title_en, summary_en):
+def translate_batch(batch_items, retry_count=0):
     """
-    Uses the gemini CLI to translate English title and summary into Traditional Chinese.
-    Includes a hard kill to handle cases where the subprocess hangs at the network level.
-    Returns (title_zh, summary_zh) or (None, None) on any failure.
+    Translates a batch of items using gemini CLI.
+    batch_items: list of dicts with 'id', 'title_en', 'summary_en'
+    Returns: list of dicts with 'id', 'title_zh', 'summary_zh', or None if failed.
     """
+    if not batch_items:
+        return []
+        
+    print(f"   ▶ Attempt {retry_count + 1}/{MAX_RETRIES} for batch of {len(batch_items)} items...")
+    
     prompt = f"""
     You are an expert technology news translator and editor.
-    Please translate the following tech news title and summary into fluent Traditional Chinese (zh-TW).
+    Please translate the following tech news titles and summaries into fluent Traditional Chinese (zh-TW).
     Keep tech terms in English if they are commonly used that way (e.g., AI, GPU, API).
     Make the tone professional and engaging for a tech-savvy audience in Taiwan.
 
-    TITLE_EN:
-    {title_en}
-
-    SUMMARY_EN:
-    {summary_en}
+    INPUT ITEMS:
+    {json.dumps(batch_items, ensure_ascii=False, indent=2)}
 
     OUTPUT FORMAT:
-    Output ONLY a valid JSON object with the following keys. Do not output any markdown formatting or extra text outside the JSON.
-    {{
-        "title_zh": "翻譯後的繁體中文標題",
-        "summary_zh": "翻譯後的繁體中文摘要"
-    }}
+    Output ONLY a valid JSON array of objects. Do not output any markdown formatting or extra text outside the JSON.
+    Each object must have exactly these keys: "id", "title_zh", "summary_zh".
+    Ensure the number of output items exactly matches the number of input items.
+    [
+        {{
+            "id": "item_id_here",
+            "title_zh": "翻譯後的繁體中文標題",
+            "summary_zh": "翻譯後的繁體中文摘要"
+        }},
+        ...
+    ]
     """
 
     proc = None
@@ -48,35 +55,32 @@ def translate_with_gemini(title_en, summary_en):
             text=True,
             env=env
         )
-        stdout, stderr = proc.communicate(input=prompt, timeout=PER_ITEM_TIMEOUT)
+        stdout, stderr = proc.communicate(input=prompt, timeout=BATCH_TIMEOUT)
 
-        # The CLI itself might return a JSON shell, or the raw model output
         try:
             cli_response = json.loads(stdout)
             ai_output = cli_response.get("response", stdout)
         except json.JSONDecodeError:
             ai_output = stdout
 
-        # Find the actual JSON structure in the output
-        match = re.search(r'\{.*\}', ai_output, re.DOTALL)
+        match = re.search(r'\[.*\]', ai_output, re.DOTALL)
         if match:
             result = json.loads(match.group(0))
-            if "title_zh" in result and "summary_zh" in result:
-                return result["title_zh"], result["summary_zh"]
-
-        print(f"   ⚠️ Could not parse JSON from response: {ai_output[:150]}")
-        return None, None
+            if isinstance(result, list) and len(result) == len(batch_items):
+                return result
+            else:
+                print(f"   ⚠️ Result count mismatch or not a list. Expected {len(batch_items)}, got {len(result) if isinstance(result, list) else 'non-list'}.")
+        else:
+            print(f"   ⚠️ Could not parse JSON array from response: {ai_output[:150]}")
 
     except subprocess.TimeoutExpired:
-        print(f"   ⚠️ Translation timed out after {PER_ITEM_TIMEOUT}s — killing process and skipping item.")
+        print(f"   ⚠️ Translation timed out after {BATCH_TIMEOUT}s.")
         if proc:
             proc.kill()
             try:
-                proc.communicate(timeout=5)  # Reap the zombie process
+                proc.communicate(timeout=5)
             except Exception:
                 pass
-        return None, None
-
     except Exception as e:
         print(f"   ⚠️ Translation error: {e}")
         if proc:
@@ -85,56 +89,19 @@ def translate_with_gemini(title_en, summary_en):
                 proc.communicate(timeout=5)
             except Exception:
                 pass
-        return None, None
-
-
-def process_section(data, section_name):
-    """
-    Iterates through a section and translates items missing translations.
-    Saves the entire JSON to disk after every successful translation so that
-    progress is never lost even if the script is interrupted later.
-    """
-    items = data.get(section_name, [])
-    translated_count = 0
-    failed_count = 0
-
-    for i, item in enumerate(items):
-        title_en = item.get("title_en", "")
-        summary_en = item.get("summary_en", "")
-
-        # Skip items that already have a Chinese title (idempotent re-runs)
-        if item.get("title_zh") and not item.get("_translation_skipped"):
-            continue
-
-        print(f"   ▶ [{i+1}/{len(items)}] Translating [{section_name}]: {title_en[:60]}...")
-        title_zh, summary_zh = translate_with_gemini(title_en, summary_en)
-
-        if title_zh and summary_zh:
-            item["title_zh"] = title_zh
-            item["summary_zh"] = summary_zh
-            # Clear any previous skip marker
-            item.pop("_translation_skipped", None)
-            translated_count += 1
-            print(f"     ✅ {title_zh[:40]}...")
-
-            # ⚡ Incremental save: write progress to disk immediately
-            with open(DAILY_NEWS_JSON, 'w', encoding='utf-8') as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-        else:
-            # Mark as skipped so we can identify and retry later
-            item["_translation_skipped"] = True
-            item.setdefault("title_zh", title_en)   # Fallback to English so rendering doesn't break
-            item.setdefault("summary_zh", "")
-            failed_count += 1
-            print(f"     ⏭️  Skipped (will use English title as fallback).")
-
-    return translated_count, failed_count
-
+                
+    if retry_count < MAX_RETRIES - 1:
+        print("   ⏳ Retrying in 5 seconds...")
+        time.sleep(5)
+        return translate_batch(batch_items, retry_count + 1)
+        
+    print("   ❌ Exhausted all retries for this batch.")
+    return None
 
 def main():
     print("========================================")
     print(f"🈯️ Automated News Translator - {datetime.now()}")
-    print(f"   Per-item timeout: {PER_ITEM_TIMEOUT}s")
+    print(f"   Batch timeout: {BATCH_TIMEOUT}s, Max Retries: {MAX_RETRIES}")
     print("========================================")
 
     if not os.path.exists(DAILY_NEWS_JSON):
@@ -144,24 +111,66 @@ def main():
     with open(DAILY_NEWS_JSON, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+    # 1. Gather all items to translate
+    batch_requests = []
+    item_map = {} # Maps 'section_index' to actual item ref
+
+    for section in ["techmeme", "wsj"]:
+        items = data.get(section, [])
+        for i, item in enumerate(items):
+            title_en = item.get("title_en", "")
+            summary_en = item.get("summary_en", "")
+
+            if item.get("title_zh") and not item.get("_translation_skipped"):
+                continue
+
+            item_id = f"{section}_{i}"
+            batch_requests.append({
+                "id": item_id,
+                "title_en": title_en,
+                "summary_en": summary_en
+            })
+            item_map[item_id] = item
+
+    if not batch_requests:
+        print("✅ No new items require translation.")
+        return
+
+    print(f"📰 Found {len(batch_requests)} items to translate. Initiating batch request...")
+    
+    # 2. Perform Batch Translation
+    results = translate_batch(batch_requests)
+    
+    # 3. Apply Results
     total_translated = 0
     total_failed = 0
 
-    # Process Techmeme
-    print("📰 Checking Techmeme section...")
-    t, f = process_section(data, "techmeme")
-    total_translated += t
-    total_failed += f
+    if results:
+        print(f"✅ Successfully translated batch.")
+        for res in results:
+            item_id = res.get("id")
+            if item_id in item_map:
+                item = item_map[item_id]
+                item["title_zh"] = res.get("title_zh", "")
+                item["summary_zh"] = res.get("summary_zh", "")
+                item.pop("_translation_skipped", None)
+                total_translated += 1
+    else:
+        print(f"❌ Batch translation failed. Falling back to English.")
+        for req in batch_requests:
+            item_id = req["id"]
+            if item_id in item_map:
+                item = item_map[item_id]
+                item["_translation_skipped"] = True
+                item.setdefault("title_zh", item.get("title_en", ""))
+                item.setdefault("summary_zh", "")
+                total_failed += 1
 
-    # Process WSJ
-    print("\n📰 Checking WSJ section...")
-    t, f = process_section(data, "wsj")
-    total_translated += t
-    total_failed += f
+    # 4. Save to Disk
+    with open(DAILY_NEWS_JSON, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
-    # Final summary
     print(f"\n✅ Translation complete: {total_translated} translated, {total_failed} skipped (fell back to English).")
-
     if total_failed > 0:
         print("   ℹ️  Items marked '_translation_skipped: true' in the JSON can be re-run later to retry.")
 
