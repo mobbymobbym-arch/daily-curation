@@ -5,121 +5,106 @@
       "title_en": "Source: Beijing has approved multiple Chinese companies to purchase H200 chips from Nvidia; a Chinese spokesperson said they are \"not aware of specifics\" (Karen Freifeld/Reuters)",
       "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/",
       "summary_en": "<A HREF=\"https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
-      "_translation_skipped": true,
-      "title_zh": "Source: Beijing has approved multiple Chinese companies to purchase H200 chips from Nvidia; a Chinese spokesperson said they are \"not aware of specifics\" (Karen Freifeld/Reuters)",
-      "summary_zh": ""
+      "title_zh": "消息人士：北京已批准多家中國公司向 NVIDIA 採購 H200 晶片；中國發言人表示「不瞭解具體情況」",
+      "summary_zh": "路透社報導，中國政府已批准部分企業採購 NVIDIA H200 AI 晶片，儘管官方發言人對此細節保持低調。"
     },
     {
       "title_en": "Filing: the DOD said it designated Anthropic a supply chain risk over concerns the AI company could disable its tech if the Pentagon crossed its \"red lines\" (Paresh Dave/Wired)",
       "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
       "summary_en": "<A HREF=\"https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i53.jpg\"></A>\n<P><A H...",
-      "_translation_skipped": true,
-      "title_zh": "Filing: the DOD said it designated Anthropic a supply chain risk over concerns the AI company could disable its tech if the Pentagon crossed its \"red lines\" (Paresh Dave/Wired)",
-      "summary_zh": ""
+      "title_zh": "文件顯示：美國國防部指 Anthropic 為供應鏈風險，擔憂其可能在特定情況下停用技術",
+      "summary_zh": "五角大廈擔心 Anthropic 若認為軍方觸碰其設定的「紅線」，可能會遠端停用其 AI 技術，因此將其列為潛在供應鏈威脅。"
     },
     {
       "title_en": "Chartbeat: over two years, search traffic fell by 60% for small publishers with 1K-10K daily page views, 47% for medium-sized publishers, and 22% for large ones (Sara Fischer/Axios)",
       "url": "https://www.axios.com/2026/03/17/chartbeat-search-traffic-ai-chatbots",
       "summary_en": "<A HREF=\"https://www.axios.com/2026/03/17/chartbeat-search-traffic-ai-chatbots\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i52.jpg\"></A>\n<P><A HREF=\"http:/...",
-      "_translation_skipped": true,
-      "title_zh": "Chartbeat: over two years, search traffic fell by 60% for small publishers with 1K-10K daily page views, 47% for medium-sized publishers, and 22% for large ones (Sara Fischer/Axios)",
-      "summary_zh": ""
+      "title_zh": "Chartbeat：兩年內中小型出版商的搜尋流量大幅下滑，最高降幅達 60%",
+      "summary_zh": "數據顯示搜尋引擎流量分配出現劇變，日均瀏覽量較小的出版商受創最深，流量流失情況遠比大型媒體嚴重。"
     },
     {
       "title_en": "Source: the Pentagon is discussing plans to set up secure environments for AI companies to train military-specific versions of their models on classified data (James O'Donnell/MIT Technology Review)",
       "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
       "summary_en": "<A HREF=\"https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"...",
-      "_translation_skipped": true,
-      "title_zh": "Source: the Pentagon is discussing plans to set up secure environments for AI companies to train military-specific versions of their models on classified data (James O'Donnell/MIT Technology Review)",
-      "summary_zh": ""
+      "title_zh": "消息人士：五角大廈計劃為 AI 公司建立安全環境，以便在機密數據上訓練軍用模型",
+      "summary_zh": "美國國防部正在討論設立特殊安全隔離區，讓 AI 開發者能在不洩密的前提下，利用分類數據訓練軍事專用 AI。"
     },
     {
       "title_en": "A US appeals court puts on hold an earlier ruling that had blocked Perplexity from using its agentic shopping tool to shop on Amazon's marketplace (Blake Brittain/Reuters)",
       "url": "https://www.reuters.com/legal/litigation/court-temporarily-allows-perplexity-ai-shopping-agents-amazon-2026-03-17/",
       "summary_en": "<A HREF=\"https://www.reuters.com/legal/litigation/court-temporarily-allows-perplexity-ai-shopping-agents-amazon-2026-03-17/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
-      "_translation_skipped": true,
-      "title_zh": "A US appeals court puts on hold an earlier ruling that had blocked Perplexity from using its agentic shopping tool to shop on Amazon's marketplace (Blake Brittain/Reuters)",
-      "summary_zh": ""
+      "title_zh": "美國上訴法院暫緩禁令，允許 Perplexity 購物代理在 Amazon 平台運行",
+      "summary_zh": "法院暫時撤銷了先前阻止 Perplexity 使用其 AI 購物工具在 Amazon 進行搜尋與購物的裁決。"
     },
     {
       "title_en": "Sources: Nvidia is preparing to sell a version of Groq chips to the Chinese market that is expected to be available in May and will not be downgraded (Reuters)",
       "url": "https://www.reuters.com/world/china/nvidia-preparing-groq-chips-that-can-be-sold-chinese-market-sources-say-2026-03-17/",
       "summary_en": "<A HREF=\"https://www.reuters.com/world/china/nvidia-preparing-groq-chips-that-can-be-sold-chinese-market-sources-say-2026-03-17/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.te...",
-      "_translation_skipped": true,
-      "title_zh": "Sources: Nvidia is preparing to sell a version of Groq chips to the Chinese market that is expected to be available in May and will not be downgraded (Reuters)",
-      "summary_zh": ""
+      "title_zh": "消息人士：NVIDIA 正準備向中國市場銷售未降規的 Groq 版本晶片",
+      "summary_zh": "報導指出 NVIDIA 預計於 5 月向中國供應特定型號晶片，且該版本將維持原始性能，不會為了規避限制而降級。"
     },
     {
       "title_en": "Sources: a JPMorgan-led bank group halted a $5.3B debt deal for Qualtrics, whose existing $1.5B loan trades at 86 cents on the dollar, on weak investor interest (Bloomberg)",
       "url": "https://www.bloomberg.com/news/articles/2026-03-17/jpmorgan-halts-qualtrics-5-3-billion-debt-deal-on-software-pain",
       "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/jpmorgan-halts-qualtrics-5-3-billion-debt-deal-on-software-pain\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
-      "_translation_skipped": true,
-      "title_zh": "Sources: a JPMorgan-led bank group halted a $5.3B debt deal for Qualtrics, whose existing $1.5B loan trades at 86 cents on the dollar, on weak investor interest (Bloomberg)",
-      "summary_zh": ""
+      "title_zh": "消息人士：由於投資者意願低迷，摩根大通暫停 Qualtrics 的 53 億美元債務交易",
+      "summary_zh": "Qualtrics 的融資計劃受阻，其現有貸款在二級市場的折價反映出市場對軟體業債務的高度疑慮。"
     },
     {
       "title_en": "Turquoise Health, which offers a healthcare pricing and payments platform, raised a $40M Series C led by Oak HC/FT, bringing its total funding to $95.3M (Brock E.W. Turner/Axios)",
       "url": "https://www.axios.com/pro/health-tech-deals/2026/03/17/exclusive-turquoise-health-raises-40m-for-health-care-pricing",
       "summary_en": "<A HREF=\"https://www.axios.com/pro/health-tech-deals/2026/03/17/exclusive-turquoise-health-raises-40m-for-health-care-pricing\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techm...",
-      "_translation_skipped": true,
-      "title_zh": "Turquoise Health, which offers a healthcare pricing and payments platform, raised a $40M Series C led by Oak HC/FT, bringing its total funding to $95.3M (Brock E.W. Turner/Axios)",
-      "summary_zh": ""
+      "title_zh": "醫療定價平台 Turquoise Health 完成 4,000 萬美元 C 輪融資",
+      "summary_zh": "此輪由 Oak HC/FT 領投的融資使該公司的總籌資額達到 9,530 萬美元，將用於擴展其透明化的醫療定價與支付業務。"
     },
     {
       "title_en": "Brian Lynch, Apple's senior director in charge of home devices since 2022, leaves for Oura, a setback for a unit already contending with product delays (Mark Gurman/Bloomberg)",
       "url": "https://www.bloomberg.com/news/articles/2026-03-17/apple-s-head-of-home-hardware-leaves-for-smart-ring-maker-oura",
       "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/apple-s-head-of-home-hardware-leaves-for-smart-ring-maker-oura\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
-      "_translation_skipped": true,
-      "title_zh": "Brian Lynch, Apple's senior director in charge of home devices since 2022, leaves for Oura, a setback for a unit already contending with product delays (Mark Gurman/Bloomberg)",
-      "summary_zh": ""
+      "title_zh": "Apple 家庭設備主管 Brian Lynch 離職加入 Oura，對 Apple 智慧家居業務造成打擊",
+      "summary_zh": "負責 Apple 家庭硬體多年的資深總監跳槽至智慧戒指廠商 Oura，對正處於產品延期困境的 Apple 家居部門是一大挫折。"
     },
     {
       "title_en": "An Argentine court ruled Polymarket lacked approval to operate and directed ISPs and app stores to restrict it; Polymarket is now unavailable in 30+ countries (Francisco Rodrigues/CoinDesk)",
       "url": "https://www.coindesk.com/policy/2026/03/17/argentina-joins-growing-list-of-countries-blocking-polymarket-access",
       "summary_en": "<A HREF=\"https://www.coindesk.com/policy/2026/03/17/argentina-joins-growing-list-of-countries-blocking-polymarket-access\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
-      "_translation_skipped": true,
-      "title_zh": "An Argentine court ruled Polymarket lacked approval to operate and directed ISPs and app stores to restrict it; Polymarket is now unavailable in 30+ countries (Francisco Rodrigues/CoinDesk)",
-      "summary_zh": ""
+      "title_zh": "阿根廷法院裁定限制 Polymarket 營運，預測市場平台在多國遭遇封鎖",
+      "summary_zh": "因缺乏合法營運授權，阿根廷法院命令 ISP 遮蔽 Polymarket，使其在全球無法使用的國家數量增加至 30 個以上。"
     },
     {
       "title_en": "SEC and CFTC issue guidance on which digital assets are securities, carving out stablecoins, digital collectives, and digital commodities as non-securities (Lydia Beyoud/Bloomberg)",
       "url": "https://www.bloomberg.com/news/articles/2026-03-17/sec-cftc-move-to-define-which-digital-assets-are-securities",
       "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/sec-cftc-move-to-define-which-digital-assets-are-securities\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.co...",
-      "_translation_skipped": true,
-      "title_zh": "SEC and CFTC issue guidance on which digital assets are securities, carving out stablecoins, digital collectives, and digital commodities as non-securities (Lydia Beyoud/Bloomberg)",
-      "summary_zh": ""
+      "title_zh": "美國 SEC 與 CFTC 發布指南，釐清穩定幣與數位收藏品不屬於證券",
+      "summary_zh": "監管機構明確劃分了數位資產的屬性，將穩定幣與數位大宗商品排除在證券法規之外，為市場提供了更高的法律確定性。"
     },
     {
       "title_en": "You.com appoints Saahil Jain as new CTO after co-founder Bryan McCann left for Anthropic; You.com, which began in consumer search, is targeting enterprise more (Kevin McLaughlin/The Information)",
       "url": "http://www.techmeme.com/260317/p43#a260317p43",
       "summary_en": "<P><A HREF=\"http://www.techmeme.com/260317/p43#a260317p43\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Kev...",
-      "_translation_skipped": true,
-      "title_zh": "You.com appoints Saahil Jain as new CTO after co-founder Bryan McCann left for Anthropic; You.com, which began in consumer search, is targeting enterprise more (Kevin McLaughlin/The Information)",
-      "summary_zh": ""
+      "title_zh": "You.com 任命新任 CTO，業務重心從消費者搜尋轉向企業服務",
+      "summary_zh": "在共同創辦人離職後，You.com 延攬 Saahil Jain 接任技術長，並加速朝向企業端 AI 應用轉型。"
     },
     {
       "title_en": "Mistral announces Mistral Forge to help enterprises build custom models actually trained on their own data, using Mistral open-weight models as a starting point (TechCrunch)",
       "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
       "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i42.jpg\"></A>...",
-      "_translation_skipped": true,
-      "title_zh": "Mistral announces Mistral Forge to help enterprises build custom models actually trained on their own data, using Mistral open-weight models as a starting point (TechCrunch)",
-      "summary_zh": ""
+      "title_zh": "Mistral 推出 Mistral Forge，協助企業利用自有數據訓練自定義模型",
+      "summary_zh": "Mistral Forge 允許企業以 Mistral 的開源權重模型為基礎，安全地使用內部數據進行微調與訓練。"
     },
     {
       "title_en": "Meta says Quest users will lose access to Meta Horizon Worlds on the headsets on June 15; access will continue on the Meta Horizon mobile app (Riley Griffin/Bloomberg)",
       "url": "https://www.bloomberg.com/news/articles/2026-03-17/meta-to-discontinue-key-metaverse-product-for-vr-headsets",
       "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/meta-to-discontinue-key-metaverse-product-for-vr-headsets\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/...",
-      "_translation_skipped": true,
-      "title_zh": "Meta says Quest users will lose access to Meta Horizon Worlds on the headsets on June 15; access will continue on the Meta Horizon mobile app (Riley Griffin/Bloomberg)",
-      "summary_zh": ""
+      "title_zh": "Meta 將於 6 月停止 Quest 頭戴裝置上的 Horizon Worlds 服務",
+      "summary_zh": "Meta 調整元宇宙佈局，Quest 用戶未來僅能透過行動應用程式存取 Horizon Worlds，頭戴裝置端將不再支援。"
     },
     {
       "title_en": "Jensen Huang says Nvidia is in the process of restarting manufacturing of its H200 chips for shipments to China and it has received orders from \"many customers\" (Ina Fried/Axios)",
       "url": "https://www.axios.com/2026/03/17/nvidia-huang-china-h200",
       "summary_en": "<A HREF=\"https://www.axios.com/2026/03/17/nvidia-huang-china-h200\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i40.jpg\"></A>\n<P><A HREF=\"http://www.techmeme...",
-      "_translation_skipped": true,
-      "title_zh": "Jensen Huang says Nvidia is in the process of restarting manufacturing of its H200 chips for shipments to China and it has received orders from \"many customers\" (Ina Fried/Axios)",
-      "summary_zh": ""
+      "title_zh": "黃仁勳確認 NVIDIA 正在恢復向中國供應 H200 晶片，訂單需求強勁",
+      "summary_zh": "NVIDIA 執行長證實已重啟生產線以滿足中國客戶對 H200 的大量需求，這對該公司在亞洲的營收至關重要。"
     }
   ],
   "wsj": [
@@ -127,93 +112,83 @@
       "title_en": "You’ve Finally Figured Out AI at Work—Now Comes the Bill",
       "url": "https://www.wsj.com/tech/ai/ai-tokens-productivity-d35c6bd8?mod=rss_Technology",
       "summary_en": "Companies that now regularly use artificial intelligence are starting to track their workers’ use of tokens, AI’s unit of measurement....",
-      "_translation_skipped": true,
-      "title_zh": "You’ve Finally Figured Out AI at Work—Now Comes the Bill",
-      "summary_zh": ""
+      "title_zh": "當你終於搞懂如何在工作中使用 AI 時——帳單也隨之而來",
+      "summary_zh": "已經常態化使用 AI 的企業正開始追蹤員工對 Token 的消耗量，這是 AI 的基本計費單位。"
     },
     {
       "title_en": "Nvidia Says It Is Restarting Production of AI Chips for Sale in China",
       "url": "https://www.wsj.com/tech/ai/nvidia-says-it-is-restarting-production-of-ai-chips-for-sale-in-china-eea7029e?mod=rss_Technology",
       "summary_en": "CEO Jensen Huang said the chipmaker’s supply chain is “fired up” after months of mixed signals from the Chinese market....",
-      "_translation_skipped": true,
-      "title_zh": "Nvidia Says It Is Restarting Production of AI Chips for Sale in China",
-      "summary_zh": ""
+      "title_zh": "NVIDIA 表示將重啟銷往中國的 AI 晶片生產",
+      "summary_zh": "執行長黃仁勳表示，在中國市場釋出數月混雜信號後，這家晶片製造商的供應鏈已「全面啟動」。"
     },
     {
       "title_en": "The E-Nose Knows: AI Learns to Smell",
       "url": "https://www.wsj.com/tech/ai/ai-e-noses-technology-bd22aa5d?mod=rss_Technology",
       "summary_en": "Among the possible implications are restoring a sense of smell and sniffing out potential health concerns....",
-      "_translation_skipped": true,
-      "title_zh": "The E-Nose Knows: AI Learns to Smell",
-      "summary_zh": ""
+      "title_zh": "電子鼻揭祕：AI 學會了「聞」味道",
+      "summary_zh": "AI 在嗅覺識別領域的突破，未來可能應用於恢復人類嗅覺或早期篩檢健康風險。"
     },
     {
       "title_en": "Nvidia’s Super Bowl Plays to the Crowd",
       "url": "https://www.wsj.com/tech/ai/nvidias-super-bowl-plays-to-the-crowd-8cf6f47b?mod=rss_Technology",
       "summary_en": "Plus, OpenAI cuts side projects and Oracle’s performance obligations...",
-      "_translation_skipped": true,
-      "title_zh": "Nvidia’s Super Bowl Plays to the Crowd",
-      "summary_zh": ""
+      "title_zh": "NVIDIA 的「超級盃」大秀向大眾靠攏",
+      "summary_zh": "除了 NVIDIA 的盛大活動外，OpenAI 傳出削減副專案，以及 Oracle 公布了其最新的履約義務表現。"
     },
     {
       "title_en": "Microsoft Seeks More Coherence in AI Efforts With Copilot Reorganization",
       "url": "https://www.wsj.com/tech/ai/microsoft-seeks-more-coherence-in-ai-efforts-with-copilot-reorganization-a985b374?mod=rss_Technology",
       "summary_en": "The software giant is scrapping the divide between the consumer and business app teams....",
-      "_translation_skipped": true,
-      "title_zh": "Microsoft Seeks More Coherence in AI Efforts With Copilot Reorganization",
-      "summary_zh": ""
+      "title_zh": "微軟重組 Copilot 團隊，尋求 AI 佈局的連貫性",
+      "summary_zh": "這家軟體巨頭正在消除消費者與商用應用團隊之間的隔閡，以整合其 AI 發展策略。"
     },
     {
       "title_en": "IBM Closes $11 Billion Deal for Confluent",
       "url": "https://www.wsj.com/cio-journal/ibm-closes-11-billion-deal-for-confluent-13fcbea0?mod=rss_Technology",
       "summary_en": "Deal will help companies access their data for AI agents, says IBM CEO Arvind Krishna, as he brushes off AI’s risk to IBM’s business....",
-      "_translation_skipped": true,
-      "title_zh": "IBM Closes $11 Billion Deal for Confluent",
-      "summary_zh": ""
+      "title_zh": "IBM 完成以 110 億美元收購 Confluent 的交易",
+      "summary_zh": "IBM 執行長 Arvind Krishna 表示，這項交易將協助企業獲取數據以驅動 AI 代理，同時他也淡化了 AI 對 IBM 現有業務的風險。"
     },
     {
       "title_en": "Finance Bros to Tech Bros: Don’t Mess With My Bloomberg Terminal",
       "url": "https://www.wsj.com/tech/ai/bloomberg-terminal-perplexity-vibe-coding-e37a95f8?mod=rss_Technology",
       "summary_en": "Some spend more time with the computer system than they do with their spouse. So when techies declared it “cooked,” it was war....",
-      "_translation_skipped": true,
-      "title_zh": "Finance Bros to Tech Bros: Don’t Mess With My Bloomberg Terminal",
-      "summary_zh": ""
+      "title_zh": "金融圈向科技圈喊話：別碰我的 Bloomberg 終端機",
+      "summary_zh": "對許多從業人員而言，Bloomberg 終端機是不可或缺的工具。當科技圈聲稱其過時時，引發了激烈的爭論。"
     },
     {
       "title_en": "Foxconn Expects AI Demand to Remain Strong, Sees Limited Mideast Impact",
       "url": "https://www.wsj.com/business/earnings/foxconn-quarterly-profit-falls-despite-higher-revenue-f8ca8c65?mod=rss_Technology",
       "summary_en": "The world’s largest contract electronics maker expects continued demand for its AI servers in 2026 despite the uncertainty and risks posed by the Middle East war....",
-      "_translation_skipped": true,
-      "title_zh": "Foxconn Expects AI Demand to Remain Strong, Sees Limited Mideast Impact",
-      "summary_zh": ""
+      "title_zh": "鴻海預期 AI 需求將保持強勁，認為中東局勢影響有限",
+      "summary_zh": "全球最大的代工製造商預計，儘管中東戰爭帶來了不確定性與風險，但 2026 年其 AI 伺服器的需求仍將持續增長。"
     },
     {
       "title_en": "Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
       "url": "https://www.wsj.com/tech/ai/nvidia-backed-ai-startup-to-spend-billions-on-korea-data-center-to-combat-china-f945a326?mod=rss_Technology",
       "summary_en": "The Trump administration is using AI chips and models as a tool for diplomacy and boosting U.S. allies....",
-      "_translation_skipped": true,
-      "title_zh": "Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
-      "summary_zh": ""
+      "title_zh": "NVIDIA 資助的 AI 新創將投入數十億美元在韓國建立數據中心以對抗中國",
+      "summary_zh": "川普政府正將 AI 晶片與模型作為外交工具，藉此提振美國盟友並在技術競賽中取得優勢。"
     },
     {
       "title_en": "Alibaba Consolidates AI Operations Under New Business Group",
       "url": "https://www.wsj.com/tech/ai/alibaba-consolidates-ai-operations-under-new-business-group-de8283e2?mod=rss_Technology",
       "summary_en": "The new business unit, called Alibaba Token Hub, will be led by Eddie Wu, Alibaba’s chief executive....",
-      "_translation_skipped": true,
-      "title_zh": "Alibaba Consolidates AI Operations Under New Business Group",
-      "summary_zh": ""
+      "title_zh": "阿里巴巴將 AI 業務整合至新成立的業務集團",
+      "summary_zh": "這個名為「阿里巴巴 Token 樞紐」（Alibaba Token Hub）的新業務單位將由阿里巴巴執行長吳泳銘親自掌管。"
     }
   ],
   "deep_analysis": {
     "Stratechery": {
-      "title": "Agents Over Bubbles：代理人時代超越泡沫 — Ben Thompson 談 AI 的第三次拐點",
+      "title": "Agents Over Bubbles：代理人時代——超越泡沫的戰略轉型",
       "source": "Stratechery",
-      "url": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODU0MSJdfSwiZXhwIjoxNzc2MzIxNTE1LCJpYXQiOjE3NzM3Mjk1MTUsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YTFlYzktMDcxYS03ZWYzLWEwMzctYTAxOThlZjlhOWE0IiwidXNlIjoiYWNjZXNzIn0.s_PmOtBpz3tCkOPDr624owGIP4nfLrqtL1qk9fV1W2qGSFkgv-da5mrD0FFuPSQM8ovHOISZGgDtH0ZwK7LEe3Kn36xQtKScVySMTgK-EyKnhlx_FDzXCKnd8axSAAJBrXok0qdVWxLGcWpuwdJLWbsVas0sW-LQpaQrWgg8PkjLij5yasrGDl2oITldMppPqHDV45_J5JwAwoD3AMYP7WviQkxY3Ozbw3FYjMoe5kTMZKa7dK-rxxm4SEdSHfHdqKbYBXKKy1xhD3qgJ3tz0Qzk1jUNKUyQnTRlto8RkA6it74mfpNo0HA4gzADDB99QLZSIW_70e3Jg2Q8QozVrg&p=18541",
-      "analysis_zh": "本文源自知名科技策略分析師 Ben Thompson 的電子報《Stratechery》。Thompson 是當代最具影響力的科技評論家之一，以「聚合理論（Aggregation Theory）」與對產業價值鏈的精確拆解聞名，擅長從商業模式與戰略格局解構科技趨勢。在本文中，Thompson 針對 2026 年初市場對 AI 泡沫的恐懼提出了反直覺的論證，指出我們正處於從「對話式 AI」轉向「自主代理人（Agents）」的決定性時刻，而這一轉變將徹底合理化當前的巨額資本支出。\n\n### 戰略背景與脈絡\nThompson 將 LLM 的發展劃分為三個關鍵演進範式。第一階段是 2022 年底 ChatGPT 的橫空出世，它解決了 AI 的「可讀性」與「可用性」，但受限於幻覺問題且需要使用者高度的主動性（Agency）來驗證結果。第二階段是 2024 年 OpenAI o1 模型的推出，引入了「推理」機制，使模型在產出前進行自我評估，顯著提升了可靠性。而我們目前正踏入第三階段：由 Anthropic Opus 4.5 與 OpenAI Codex 引發的「代理人」革命。這一階段的核心不在於模型參數的簡單增長，而在於「軟體框架（Harness）」與模型的深度整合。代理人不再只是回答問題，而是能自主呼叫工具、執行任務、驗證結果並在失敗時重新嘗試，這標誌著 AI 正從「工具」演變為「勞動力」。\n\n### 作者的核心推演與論點\nThompson 提出了一個關鍵的經濟學觀察：AI 對算力的需求不再依賴於全民普及的「主動性」。在過去，AI 的價值高度取決於使用者是否懂得下指令；但在代理人時代，一個具備主動性的個人可以同時驅動數個代理人執行複雜任務。這意味著，即使只有少數人能駕馭 AI，其所產生的算力需求與經濟效益也會呈指數級增長。這解釋了為何各大雲端巨頭（Hyperscalers）即使面臨市場質疑，仍瘋狂追加資本支出——因為代理人模式下的推理成本極高，且市場需求遠超供給。此外，Thompson 挑戰了「模型商品化（Commoditization）」的觀點。他指出，代理人的競爭力來自於模型與控制軟體的「深度整合」。這種整合打破了模組化供應鏈的低利潤陷阱，使得像 Anthropic 和 OpenAI 這樣能提供完整代理人解決方案的廠商，擁有的護城河比想像中更為深厚。\n\n### 對市場與技術發展的長期影響\n在企業端，代理人的興起將引發組織結構的根本性重塑。Thompson 認為，過去企業為了規模化不得不忍受龐大的人力協作成本與「管理損耗」，而代理人提供了一種「純粹加速」的可能。未來的領先企業將不再比拼員工數量，而是比拼其對代理人的指揮能力。這預示著一波基於生產力提升的「結構性裁員」，企業將縮減組織規模，並以代理人重建自動化流程。在產業鏈層面，微軟推出昂貴的 E7 套裝與 Copilot Cowork，證明了即使是巨頭也必須放棄「模型中立」的幻想，轉向高度整合的產品以確保競爭優勢。總結來說，Thompson 認為當前並非泡沫，因為我們正目睹 AI 從「虛擬助理」轉型為實質性的「經濟生產單元」，這種價值創造的真實性將支撐起未來數年的科技牛市，直到下一個效率高原的到來。",
+      "url": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODU0MSJdfSwiZXhwIjoxNzc2MzkyMDAwLCJpYXQiOjE3NzM4MDAwMDAsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YTFlYzktMDcxYS03ZWYzLWEwMzctYTAxOThlZjlhOWE0IiwidXNlIjoiYWNjZXNzIn0.g7wiRilgxtsNez2EHe8JqikAPGwRBZ-uJUhs7B0qxoeNl9GVPCe-WcWRe6Afek_nVpKGF2N7qRmvv9KfoVTr72nprzeskWIgfjvPV-GuwwgWpYKnw0Zv0-L_YVrUZbgMJ4IqyTFZ34IYY_kEqQ2ideKkKCLiJUw1o6ckx4AbdR30s03s41uaqTvCGCqUaNuQ5Twlv7C_ur322H5T3b0NIrVTyIIljDqIij0OCeFWTrw3rhFOxXUgd9bmxg5OoS50PIkppO8nvnx1dHk9qnX6AcRkVO4Jw-jaOF5rWRgbvbEeCrH2slfL90Ei2DtLL5d6Evanl2GFTAsHFr0Vul0qYA&p=18541",
+      "analysis_zh": "本文源自知名科技策略分析師 Ben Thompson 的電子報《Stratechery》。Ben Thompson 以其深厚的產業洞察力、獨創的「聚合理論」以及對軟硬體整合趨勢的精準判斷，被譽為矽谷最具影響力的獨立分析師之一。在本文中，Thompson 深入探討了當前 AI 產業是否正處於泡沫破裂前夕的爭議，並果斷指出「代理人（Agents）」的興起正為龐大的資本支出提供實質的經濟支撐，從而否定了泡沫論。\n\n### 戰略背景與脈絡\n自 2022 年底 ChatGPT 問世以來，市場對於 AI 泡沫的擔憂從未停止。Thompson 將大型語言模型（LLM）的演進劃分為三個關鍵節點。首先是 ChatGPT 帶來的「易用性與效能」啟蒙，雖驚艷全球但存在幻覺且需人類高度參與；其次是 2024 年 OpenAI o1 模型的推出，引入了「推理機制」，使模型能透過自我評估降低錯誤率，提升了可靠性；而當前的第三個節點，則是 2025 年底以 Anthropic Opus 4.5 為代表的「代理人」時代。這不僅是模型層面的進步，更是運算範式的轉移——從單純的對話框轉向能自主執行任務、使用外部工具並進行結果驗證的獨立行動主體。\n\n### 作者的核心推演與論點\nThompson 的核心論點在於：代理人技術徹底改變了 AI 的經濟價值與算力需求。他指出，代理人與傳統模型的最大區別在於「控制框架（Harness）」的整合。在代理人工作流中，人類用戶被從循環中「抽象化」了，代理人可以自主指揮模型產生程式碼、執行測試並修正錯誤。這種運作模式對算力產生了指數級的需求：一次任務可能涉及多次推理調用，且代理人對環境的持續監控與決策更需要穩定的基礎設施支撐。\n\n此外，他反駁了市場對於「AI 需求不足」的擔憂。Thompson 認為，AI 的經濟影響力並非來自於全民普及，而是來自於「主動性（Agency）」的槓桿效應。即便只有少數具備強大願景的個人，只要能指揮成千上萬個代理人，就能創造巨大的經濟價值。這解釋了為何即便消費者端訂閱增長放緩，超大規模雲端服務商（Hyperscalers）仍瘋狂增加資本支出，因為企業端的需求——即用代理人取代繁瑣的組織協調成本——正處於爆發前夜。\n\n### 對整體市場與技術發展的長期影響\n在長期影響方面，本文提出了兩個震撼的預見。首先是企業結構的徹底重塑。Thompson 預測，AI 將不再僅僅是「輔助」員工，而是會「替換」組織中的人為齒輪（Human Cogs）。那些為了規模化而不得不負擔的高昂協調成本與管理冗餘，將在代理人時代被極大化壓縮。企業將趨向於小型化、高效率，由少數決策者帶領代理人團隊，這將導致市場競爭力的結構性移轉，拒絕擁抱代理人的傳統大企業將面臨毀滅性打擊。\n\n其次，Thompson 挑戰了「模型商品化（Commoditization）」的觀點。他指出，當代理人效能取決於「控制框架」與「模型」的深度集成時，如 OpenAI 與 Anthropic 這種具備垂直整合能力的廠商，其護城河非但不會消失，反而會因為「集成優勢」而獲得更高的利潤空間。微軟 Copilot Cowork 的策略轉向，正說明了純粹的「模型中立」在追求極致效能的代理人時代是行不通的。這意味著 AI 產業鏈的利潤將繼續向具備整合能力的頭部玩家集中，而資本支出的規模將成為維持這種領先地位的必然門檻。",
       "insights": [
-        "AI 的經濟影響力不再取決於廣域的人群採用率，而是少數具備主動性的個體透過「代理人」槓桿化大規模算力，這使算力需求與經濟產出脫鉤並大幅攀升。",
-        "代理人的護城河建立在模型與「控制框架」的垂直整合，而非單一模型的參數規模，這將使 AI 價值鏈從模組化商品轉向高利潤的整合型平台。",
-        "未來企業的「最適規模」將大幅縮減，組織競爭力將從管理「人力齒輪」的協作成本，轉向優化代理人自動化流的執行效率。"
+        "AI 的經濟影響力並不取決於全人類的使用率，而是少數具備「主動性」的個體能指揮多少代理人，這使算力需求與用戶基數徹底脫鉤。",
+        "代理人時代將終結「模型商品化」論點，因為卓越的代理效能來自於「模型」與「控制框架」的深度集成，這重新賦予了整合型廠商定價權與護城河。",
+        "企業運用 AI 的終極形態並非節省人力成本，而是透過「結構性替換」組織內的人力協調環節，以消除規模化過程中的邊際協調成本負載。"
       ]
     },
     "Dwarkesh": {
@@ -261,25 +236,25 @@
       ]
     },
     "a16z": {
-      "title": "Why the World Still Runs on SAP | 為什麼世界依然在 SAP 上運轉",
+      "title": "Your product won’t sell itself：好產品不會自銷：從工程思維轉向企業級銷售的戰略指南",
       "source": "a16z News",
-      "url": "https://www.a16z.news/p/why-the-world-still-runs-on-sap",
-      "analysis_zh": "本文源自全球頂尖風險投資公司 Andreessen Horowitz (a16z) 的官方媒體平台 a16z News，由其企業軟體分析團隊撰寫。a16z 以其對科技趨勢的敏銳洞察力聞名，本文深度探討了在 AI 浪潮席捲全球的當下，為何像 SAP 這樣看似陳舊、UI 笨重的傳統「紀錄系統」（Systems of Record）依然是全球五百強企業的核心支柱，並精準預判了 AI 將如何重塑企業軟體的未來形態。\n\n### 戰略背景與脈絡：不可撼動的「數位神經系統」\n在科技評論界，批評 SAP 或 Salesforce 的使用者體驗幾乎成了一種常態。然而，這篇文章點出了一個關鍵的戰略真相：這些系統之所以存在，並非因為它們「好用」，而是因為它們承載了企業最核心的數據模型、合規權限、以及深植於組織內部的「制度性記憶」（Institutional Memory）。對於大型企業而言，SAP 不僅是一個應用程式，它更像是一套數位化的法律與規則體系，記錄了無數未經文件化的業務邏輯與例外處理程序。遷移這些系統的成本極高且極具風險，正如文中提到的 SAP S/4HANA 升級動輒耗資數億美元且耗時多年，這種極高的轉換成本（Switching Cost）構成了企業軟體巨頭最深厚的護城河。\n\n### 作者的核心推演與論點：從紀錄到行動的轉向\n作者的核心論點在於：AI 的真正價值不在於全面取代（Rip and Replace）這些龐然大物，而在於如何讓這些系統變得「可編程」且「易於接近」。他將這一變革分為三個階段的戰略切入：\n1. **風險去化階段 (Migration & Implementation)**：AI 能夠將混亂的歷史文檔、會議記錄轉化為結構化的需求，大幅降低系統遷移與實施過程中的失敗風險。這直接挑戰了傳統諮詢公司（如 Accenture）的人力密集模式，將「轉型預算」轉化為更高效的軟體驅動過程。\n2. **交互層革新 (System of Action)**：透過「電腦操作代理」（Computer-use Agents）和 API 導航，AI 成為了包裹在舊系統之外的現代外殼。員工不再需要學習複雜的交易代碼，而是透過意圖導向（Intent-driven）的介面完成跨系統的工作流，從而解決了數位勞工每天頻繁切換視窗的痛點。\n3. **擴展與解構層 (The Extension Layer)**：AI 允許企業在不改動核心紀錄系統的前提下，快速開發「輕量化應用」（Thin Apps）。這是一種「愛之層」（Lovable Layer）覆蓋在「厭之系統」之上的策略，透過語義模型將原本碎片化的業務操作整合為流暢的自動化場景。\n\n### 對整體市場與技術發展的長期影響：介面的消亡與意圖的崛起\n從長遠來看，這場變革意味著企業軟體的護城河將從「數據壟斷」轉向「意圖理解與執行」。傳統的紀錄系統將逐漸退居幕後，成為安靜運作的後端資料庫，而前端與使用者的接觸點將被 AI 操作層完全佔據。這對企業軟體市場的格局將產生深遠影響：初創企業不再需要構建完整的 ERP 來挑戰巨頭，只需在「行動系統」層面做到極致，即可截斷傳統巨頭的使用者流量與控制權。未來的贏家將是那些能夠建立「信任控制面」（Control Plane）的平台，它們能將複雜、脆弱的舊系統功能解構為安全、可預測、可編排的 AI 動作。最終，企業軟體將實現從「指令式」向「聲明式」的進化——使用者只需描述想要達成的業務結果，而不必關心底層系統的運作細節。",
+      "url": "https://www.a16z.news/p/your-product-wont-sell-itself",
+      "analysis_zh": "本文源自知名創投機構 a16z 的官方媒體平台 a16z News，由 a16z Crypto 合夥人 Jason Rosenthal 撰寫。Jason 曾與傳奇創業者 Ben Horowitz 在 Opsware 共事多年，擁有極其深厚的企業級服務與市場擴張經驗。文章的核心主旨在於破除技術型創業者常見的「產品優越論」迷思，詳盡拆解了如何建立一個世界級的企業級銷售組織，強調在進入加密貨幣與技術深水區的今天，銷售能力與工程能力同樣具備決定性的戰略價值。\n\n### 戰略背景與脈絡：產品優越論的終結\n在技術驅動的創業圈中，存在著一種根深蒂固的觀念：只要產品性能夠強、UX 夠流暢，它就能「自行銷售」。Jason Rosenthal 犀利地指出，這種思維在進入企業級採用（Enterprise Adoption）時代後已不再適用。無論是在加密技術還是傳統 SaaS 領域，當市場從早期的開發者導向轉向複雜的機構決策時，技術卓越僅僅是入場券，而非贏球的保證。創業者必須將對於產品細節的痴迷，等量轉換為對「進入市場」（GTM）流程的打磨。這背後反映的是市場競爭維度的移轉：從「功能競爭」轉向「信任與流程競爭」。\n\n### 核心推演：建立銷售機器的層次結構\nRosenthal 的論點圍繞著一個高度結構化的組織架構展開。首先，他強調「銷售負責人」必須是第一號核心聘雇。這不僅僅是招募一個業務，而是要找一位能定義「銷售劇本」（Playbook）的建築師。這類人才必須具備將前沿技術轉化為企業投資報酬率（ROI）、合規性與可靠性指標的能力。他警告創業者不應先聘請初級銷售來「試水溫」，因為缺乏頂層戰略的零散嘗試註定失敗。銷售負責人必須在決策桌上擁有一席之地，這象徵著公司將銷售視為與研發同等地位的戰略職能。\n\n接著是針對不同角色的戰略分工。客戶經理（AE）的價值不在於其人脈存摺，而在於導航複雜組織、贏得競爭性對話的能力。而「解決方案架構師」（SA）則是產品與市場間的迴聲系統，他們不只是技術支持，更是將客戶反饋轉化為產品演進路徑的關鍵節點。此外，文章特別提到了銷售運營（Sales Ops）與客戶成功（Customer Success）的角色：前者負責微調與優化這台機器的齒輪，後者則確保「燈塔客戶」的留存與口碑。這種分層推演揭示了一個核心邏輯：銷售並非個體英雄主義的體現，而是一套可複製、可審計的精密系統工程。\n\n### 長期影響：市場規則的定義權與戰略護城河\n從長遠來看，建立銷售組織的意義在於獲取市場的「定義權」。Rosenthal 提出了一個極具啟發性的觀點：如果讓競爭對手先進入戰略性客戶的門檻，他們就會定義市場需求與規則，讓你陷入被迫在他人劇本下作戰的被動局面。透過在重要帳戶中設置「地雷」（利用對手缺乏的獨特功能來定義決策標準），卓越的銷售團隊能直接形塑產業標準。\n\n此外，這對整體技術發展的啟發在於「從底層開發者驅動」向「全棧企業驅動」的轉型。雖然像 Stripe 等公司曾靠開發者自下而上成功，但要滲透全球頂尖企業，必須掌握自上而下的決策者溝通與複雜採購流程的導航。最終，這篇分析提醒我們，一個能夠持續進行「勝負分析」（Win-Loss Analysis）並將數據回流至產品端的銷售組織，本身就是一種競爭對手難以複製的戰略護城河。在技術高度商品化的未來，這種對市場節奏的掌控力，將是區分平庸與偉大公司的分水嶺。",
       "insights": [
-        "SAP 的真正護城河並非代碼，而是其內部封裝的「制度性記憶」與未文件化的例外處理邏輯，這使得完全取代它的風險成本遠超軟體本身的價值。",
-        "AI 在企業端的首要機會在於「去風險化」（De-risking），即利用 AI 自動化需求分析與數據清洗，蠶食傳統 IT 諮詢服務數千億美元的遷移預算市場。",
-        "企業軟體將迎來 UI 的「解構時期」：紀錄系統（SOR）將與行動系統（SOA）徹底分離，未來的使用者介面將是基於意圖的透明層，而非具體的應用視窗。"
+        "「燈塔客戶」的獲取優先級高於短期營收：早期企業級銷售不應追求帳戶數量，而應贏得具備市場風向標意義的旗艦客戶，因為他們定義了後隨者的決策標準。",
+        "銷售負責人應是「劇本建築師」而非「執行者」：初創公司最忌諱聘請只會執行成熟流程的銷售，而需要具備創造力、能從零定義如何將新技術轉化為企業 ROI 的戰略人才。",
+        "防禦性銷售戰術：透過在決策流程中定義競爭對手無法滿足的特定術語與指標，可以實現在客戶內部「埋設地雷」，將競爭環境導向對己方最有利的偏見。"
       ]
     },
     "Lenny's Newsletter": {
-      "title": "🎙️ 本週 How I AI：從 Figma 到 Claude Code 的設計代碼閉環 & LinkedIn 總編的 AI 開發流 (This week on How I AI: From Figma to Claude Code and back & How LinkedIn’s editor builds with Claude Code)",
+      "title": "How I built LennyRPG - 我如何從 300 集播客逐字稿打造一款 AI 驅動的遊戲",
       "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-from-figma",
-      "analysis_zh": "本文源自知名產品科技電子報 Lenny's Newsletter 的「How I AI」專欄。本期內容深入訪談了 Figma 的資深設計師 Gui Seiz 與工程師 Alex Kern，以及 LinkedIn 的內容副總裁兼總編輯 Daniel Roth，透過這幾位前線實踐者的視角，揭示了 AI 如何在 2026 年徹底重塑軟體開發與組織管理的底層邏輯。\n\n### 戰略背景與脈絡\n\n在過去十年的軟體開發範式中，「設計交付」（Design Handoff）始終是效率最大的瓶頸。設計師在 Figma 中繪製理想藍圖，工程師則在代碼編輯器中嘗試還原。這種模式本質上是兩套平行時空的對接，經常導致「代碼與設計脫節」（Drift）——即生產環境的實際樣貌與 Figma 檔案逐漸背道而馳。隨著 Anthropic 推出 Claude Code 以及 MCP（Model Context Protocol）協議的成熟，我們正處於一個從「靜態交付」轉向「連續同步」的戰略轉折點。現在的挑戰不再是如何把設計稿傳遞給工程師，而是如何建立一個讓設計與代碼在 AI 代理人的輔助下進行實時、雙向流動的生態系統。\n\n### 核心推演與論點\n\nFigma 團隊展示的關鍵論點在於：AI 讓設計與開發形成了一個完美的閉環。透過 MCP，設計師可以直接從生產環境或本地環境中將「活生生」的界面拉回 Figma 轉化為可編輯的框架。這意味著設計師的工作起點不再是空白畫布，而是真實的產品現狀。Alex Kern 進一步提出了一個具備前瞻性的觀察：他現在花費 20% 到 30% 的時間在優化代碼結構，目的不是為了人類的可讀性，而是為了「AI 的可讀性」。這標誌著軟體工程典範的轉移——代碼不再僅僅是邏輯的載體，更是 AI Agent 的索引地圖。當代碼結構對 AI 越友善，AI 代理人能完成的任務複雜度就越高。\n\n另一方面，LinkedIn 總編輯 Daniel Roth 則展現了「非技術高階主管」如何利用 AI 實現開發民主化。他提出的「雙 Agent 模式」（Dueling AI Agents）——由「建築師 Bob」負責寫代碼，而「審查員 Ray」負責挑毛病——成功地在個人開發者層面上模擬了專業工程團隊的制衡機制。這種架構解決了單一模型容易產生的幻覺問題與安全漏洞。此外，他對領導力的 AI 應用也極具啟發性：將 AI 從生產力工具轉化為「責任管理工具」，透過 Copilot 定時掃描溝通日誌來確保沒有遺漏任何決策，這解決了組織規模擴大後，領導者資訊過載的痛點。\n\n### 對市場與技術發展的長期影響\n\n首先，組織的知識資產將從「文檔化」轉向「技能化」。正如 Alex 所提到的，將團隊的 SOP（標準作業程序）轉化為可執行的 AI Skill（如自動化的 /ship 指令），意味著企業的流程不再是躺在 Wiki 裡的文字，而是可以被即時調用的自動化資產。這將大幅縮短新人的入職磨合期並提升一致性。\n\n其次，產品經理、設計師與工程師的邊界將進一步模糊。當像 Daniel Roth 這樣的非代碼專業人士能夠獨立完成 iOS App 的上架，傳統的職能邊界將被打破。未來的競爭力將取決於「問題定義能力」與「AI 工作流編排能力」，而非單一的工具操作技術。\n\n最後，軟體架構將朝向「AI 優先」演進。未來的開發環境將強調模組的高度解耦與語義化命名，以適應 AI Agent 的自主導航與修改。這種變革不僅提升了開發效率，更預示著一個「代碼即設計，設計即代碼」的統一生產時代已經到來。",
+      "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg",
+      "analysis_zh": "本文源自知名產品管理專家 Lenny Rachitsky 的電子報《Lenny's Newsletter》，由 Miro 的增長設計師 Ben Shih 撰寫。Ben Shih 以一位非技術背景設計師的視角，詳盡分享了他如何利用 AI 工具，將 Lenny 超過 300 集的播客內容轉化為一款充滿趣味的像素風角色扮演遊戲（RPG）——LennyRPG。這篇文章不僅是技術實踐的紀錄，更深刻展示了當前「代理式工程」（Agentic Engineering）如何賦予個人開發者前所未有的創造力。\n\n### 戰略背景與脈絡：數據開放與開發範式的轉移\n\n這場實驗的起點源於 Lenny 做出的一個戰略決策：將其所有播客逐字稿轉化為「AI 友好」的 Markdown 格式並公開發布。在矽谷的增長策略中，數據往往被視為護城河，但 Lenny 的做法則代表了另一種思維——將內容數據資產化，透過開放分發觸發「社區協同創新」。這正是 Brian Balfour 所提到的「分發轉向」（Distribution Shift），當數據變得易於被 AI 檢索與處理時，內容的價值不再僅限於閱讀或收聽，而是成為了建構新應用的「燃料」。Ben Shih 敏銳捕捉到了這個窗口，決定將枯燥的面試練習工具轉向更具趣味性、更具傳播力的 RPG 遊戲，這本身就是一種產品定位上的敏銳判斷，將「學習」轉化為「遊戲化挑戰」。\n\n### 作者的核心推演與論點：AI 驅動的六步開發流程\n\n作者的核心論點在於：在 AI 時代，產品開發的邏輯已從「如何編碼」轉變為「如何定義與編排」。他提出了一套高度標準化的開發流：從定義核心概念、讓 AI 透過「採訪」開發者來自動生成產品需求文檔（PRD）、建立原型（POC）、擴展功能、打磨細節到最後上線。其中最具啟發性的是「懶人 PRD 法」——作者不親自撰寫文檔，而是讓 ChatGPT 扮演產品經理來提問，作者則透過口述回答。這種「反向採訪」確保了 AI 完整吸收了開發者的意圖與脈絡，解決了傳統提示詞工程（Prompt Engineering）中信息不對稱的痛點。\n\n在技術實現上，作者展示了如何協同多個 AI 代理。他將 Claude Code 定位為「首席工程師」，負責架構決策與庫的搜索；Codex 負責具體執行；而 Cursor 的 Composer 則處理零碎的腳本與數據格式化。特別是在處理 300 集數據的擴展性問題時，作者並未手動操作，而是命令 AI 撰寫 CLI 工具自動生成題目與 250 多個像素頭像。這種從「手工業」轉向「自動化生產線」的思維，是開發效率提升百倍的關鍵。此外，利用 Supabase MCP（模型上下文協議）直接透過自然語言對接數據庫，徹底抹平了前端設計師與後端基礎架構之間的技術鴻溝。\n\n### 對整體市場與技術發展的長期影響：非技術創造者的崛起\n\nLennyRPG 的誕生預示著「非技術創造者」時代的正式到來。過去，開發一款包含 300 多個角色、具備排行榜、背景音樂與複雜對戰邏輯的遊戲需要整個團隊數月的協作；而現在，一名設計師在 AI 代理的輔助下，數周內即可完成從創意到部署的全過程。這將導致「微型應用」（Micro-apps）的大量湧現，未來內容創作者與品牌的競爭力，將取決於他們多快能將靜態內容轉化為可互動的數字體驗。\n\n更深層的影響在於地緣政治與全球技術人才的重構。當「代碼編寫」成為廉價的商品化服務，產品的「戰略定義」、「用戶體驗設計」與「數據資產質量」將成為核心護城河。這篇文章證明了，未來最強大的開發者可能並非編程大師，而是那些能深刻理解業務逻辑，並能流利使用 AI 語言進行「代理編排」的人才。這種「代理式工程」將成為未來十年軟體開發的主流範式，重新定義人機協作的邊界。",
       "insights": [
-        "設計交付（Handoff）已死，AI 賦能的雙向同步（Bidirectional Sync）成為新標準，設計稿將成為生產代碼的動態視圖而非靜態藍圖。",
-        "軟體工程正進入「為 AI 優化代碼」的時代，開發者需投入顯著精力提升代碼對 AI Agent 的可讀性，以極大化 AI 的自動化產出潛力。",
-        "「雙 Agent 制衡」工作流（一寫一審）是個人開發者克服 AI 幻覺與確保架構安全的最佳實踐，預示了「個人即團隊」的生產力結構變革。"
+        "「AI 採訪式 PRD 生成」：開發者不再需要手寫文檔，透過讓 AI 扮演採訪者收集需求，能顯著提升 AI 對複雜項目的理解深度與執行準確度。",
+        "「代理式工程（Agentic Engineering）」的實踐：將不同的 AI 模型（如 Claude Code, Codex）視為具有特定職責的團隊成員，而非單純的對話工具，是實現大規模開發的關鍵。",
+        "內容數據的「軟體化」趨勢：當內容創作者主動提供 AI 友好的數據結構（如 Markdown 或 MCP），這將觸發下游應用的爆發式創新，使內容從單向消費演變為可互動的功能模組。"
       ]
     }
   }
