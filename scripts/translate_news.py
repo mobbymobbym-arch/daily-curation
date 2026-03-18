@@ -1,5 +1,6 @@
 import json
 import os
+import signal
 import subprocess
 import re
 from datetime import datetime
@@ -47,15 +48,19 @@ def translate_batch(batch_items, retry_count=0):
     try:
         env = os.environ.copy()
         env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
+        print(f"   🚀 啟動 Gemini CLI 進程...")
         proc = subprocess.Popen(
             ["gemini", "-p", "Generate JSON only as instructed.", "--model", "gemini-3-flash-preview", "--output-format", "json"],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            env=env
+            env=env,
+            start_new_session=True  # 建立獨立進程組，方便整組 kill
         )
+        print(f"   📡 已送出請求 (PID: {proc.pid})，等待回應 (上限 {BATCH_TIMEOUT}s)...")
         stdout, stderr = proc.communicate(input=prompt, timeout=BATCH_TIMEOUT)
+        print(f"   📥 收到回應 ({len(stdout)} chars)，開始解析...")
 
         try:
             cli_response = json.loads(stdout)
@@ -74,9 +79,12 @@ def translate_batch(batch_items, retry_count=0):
             print(f"   ⚠️ Could not parse JSON array from response: {ai_output[:150]}")
 
     except subprocess.TimeoutExpired:
-        print(f"   ⚠️ Translation timed out after {BATCH_TIMEOUT}s.")
+        print(f"   ⚠️ Translation timed out after {BATCH_TIMEOUT}s — 正在終止進程組...")
         if proc:
-            proc.kill()
+            try:
+                os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+            except (ProcessLookupError, OSError):
+                proc.kill()
             try:
                 proc.communicate(timeout=5)
             except Exception:
@@ -85,7 +93,10 @@ def translate_batch(batch_items, retry_count=0):
         print(f"   ⚠️ Translation error: {e}")
         if proc:
             try:
+                os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+            except (ProcessLookupError, OSError):
                 proc.kill()
+            try:
                 proc.communicate(timeout=5)
             except Exception:
                 pass

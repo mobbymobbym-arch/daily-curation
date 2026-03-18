@@ -2,181 +2,206 @@
   "fetch_date": "2026-03-18",
   "techmeme": [
     {
-      "title_en": "Google expands Personal Intelligence, which lets Gemini tailor its responses by connecting to Gmail and other Google services, from paid users to all US users (Aisha Malik/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/...",
-      "title_zh": "Google 擴展「個人智慧」功能，讓 Gemini 透過連結 Gmail 等服務提供客製化回應，對象由付費使用者擴大至全美用戶",
-      "summary_zh": "Google 正在擴大其「個人智慧」（Personal Intelligence）功能的適用範圍，該功能允許 Gemini 連結 Gmail、雲端硬碟及其他 Google 服務以提供更精準的客製化內容。這項原本僅限付費版 Gemini 訂閱者的功能，現在已正式開放給所有美國使用者。"
+      "title_en": "Source: Beijing has approved multiple Chinese companies to purchase H200 chips from Nvidia; a Chinese spokesperson said they are \"not aware of specifics\" (Karen Freifeld/Reuters)",
+      "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
+      "_translation_skipped": true,
+      "title_zh": "Source: Beijing has approved multiple Chinese companies to purchase H200 chips from Nvidia; a Chinese spokesperson said they are \"not aware of specifics\" (Karen Freifeld/Reuters)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Intel unveils the Core Ultra 200HX Plus CPUs for high-end gaming laptops, offering an Intel Binary Optimization Tool to improve native performance in some games (Antonio G. Di Benedetto/The Verge)",
-      "url": "https://www.theverge.com/tech/895921/intel-core-ultra-290hx-270hx-flagship-gaming-laptop-cpu",
-      "summary_en": "<A HREF=\"https://www.theverge.com/tech/895921/intel-core-ultra-290hx-270hx-flagship-gaming-laptop-cpu\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i31.jpg\">...",
-      "title_zh": "Intel 推出 Core Ultra 200HX Plus 系列 CPU，鎖定高端電競筆電並提供二進位優化工具提升效能",
-      "summary_zh": "Intel 發表了專為頂級電競筆電打造的 Core Ultra 200HX Plus 處理器，並特別介紹了「Intel 二進位優化工具」（Intel Binary Optimization Tool），宣稱能顯著提升部分遊戲在原生環境下的運行效能。"
+      "title_en": "Filing: the DOD said it designated Anthropic a supply chain risk over concerns the AI company could disable its tech if the Pentagon crossed its \"red lines\" (Paresh Dave/Wired)",
+      "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
+      "summary_en": "<A HREF=\"https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i53.jpg\"></A>\n<P><A H...",
+      "_translation_skipped": true,
+      "title_zh": "Filing: the DOD said it designated Anthropic a supply chain risk over concerns the AI company could disable its tech if the Pentagon crossed its \"red lines\" (Paresh Dave/Wired)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Tel Aviv- and Seattle-based Native, which helps companies monitor security across cloud providers, emerges from stealth with an $11M seed and a $31M Series A (Chris Metinko/Axios)",
-      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/03/17/cloud-security-native-42m-ballistic-ventures",
-      "summary_en": "<A HREF=\"https://www.axios.com/pro/enterprise-software-deals/2026/03/17/cloud-security-native-42m-ballistic-ventures\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
-      "title_zh": "雲端安全新創 Native 結束隱身模式，宣佈獲得 4,200 萬美元種子輪與 A 輪融資",
-      "summary_zh": "總部位於特拉維夫與西雅圖的新創公司 Native 正式亮相，該公司專注於協助企業跨雲端供應商監控安全性。Native 同時宣佈完成由 Ballistic Ventures 領投的 1,100 萬美元種子輪與 3,100 萬美元 A 輪融資。"
+      "title_en": "Chartbeat: over two years, search traffic fell by 60% for small publishers with 1K-10K daily page views, 47% for medium-sized publishers, and 22% for large ones (Sara Fischer/Axios)",
+      "url": "https://www.axios.com/2026/03/17/chartbeat-search-traffic-ai-chatbots",
+      "summary_en": "<A HREF=\"https://www.axios.com/2026/03/17/chartbeat-search-traffic-ai-chatbots\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i52.jpg\"></A>\n<P><A HREF=\"http:/...",
+      "_translation_skipped": true,
+      "title_zh": "Chartbeat: over two years, search traffic fell by 60% for small publishers with 1K-10K daily page views, 47% for medium-sized publishers, and 22% for large ones (Sara Fischer/Axios)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Memo: Satya Nadella says ex-Snap executive Jacob Andreou will lead Copilot for commercial and consumer clients; Mustafa Suleyman will focus on new AI models (Jordan Novet/CNBC)",
-      "url": "https://www.cnbc.com/2026/03/17/microsoft-copilot-ai-suleyman.html",
-      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/17/microsoft-copilot-ai-suleyman.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i29.jpg\"></A>\n<P><A HREF=\"http://ww...",
-      "title_zh": "微軟架構調整：Jacob Andreou 領導 Copilot 業務，Mustafa Suleyman 專注於 AI 模型開發",
-      "summary_zh": "微軟執行長 Satya Nadella 在內部備忘錄中宣佈，前 Snap 高管 Jacob Andreou 將接手領導商用與消費端 Copilot 業務；而 Mustafa Suleyman 則會將重心轉移至推動新一代 AI 模型的研發工作。"
+      "title_en": "Source: the Pentagon is discussing plans to set up secure environments for AI companies to train military-specific versions of their models on classified data (James O'Donnell/MIT Technology Review)",
+      "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "summary_en": "<A HREF=\"https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"...",
+      "_translation_skipped": true,
+      "title_zh": "Source: the Pentagon is discussing plans to set up secure environments for AI companies to train military-specific versions of their models on classified data (James O'Donnell/MIT Technology Review)",
+      "summary_zh": ""
     },
     {
-      "title_en": "World launches AgentKit, a software development tool that enables sites to verify that a real human is behind the purchasing decisions of AI shopping agents (Lucas Ropek/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i28....",
-      "title_zh": "World 推出 AgentKit 工具，協助網站驗證 AI 購物代理程式背後是否由真人授權",
-      "summary_zh": "World (原 Worldcoin) 發表了開發工具 AgentKit，旨在解決 AI 代理程式自動購物帶來的身份驗證問題。該工具能讓電商網站確認在 AI 進行採購決策的背後，確實存在一名真實的自然人進行操作。"
+      "title_en": "A US appeals court puts on hold an earlier ruling that had blocked Perplexity from using its agentic shopping tool to shop on Amazon's marketplace (Blake Brittain/Reuters)",
+      "url": "https://www.reuters.com/legal/litigation/court-temporarily-allows-perplexity-ai-shopping-agents-amazon-2026-03-17/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/legal/litigation/court-temporarily-allows-perplexity-ai-shopping-agents-amazon-2026-03-17/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
+      "_translation_skipped": true,
+      "title_zh": "A US appeals court puts on hold an earlier ruling that had blocked Perplexity from using its agentic shopping tool to shop on Amazon's marketplace (Blake Brittain/Reuters)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Crypto trading firm GSR says it is acquiring Autonomous and Architech for $57M, expanding into token advisory and capital markets services (Krisztian Sandor/CoinDesk)",
-      "url": "https://www.coindesk.com/business/2026/03/17/crypto-trading-firm-gsr-expands-token-advisory-with-usd57-million-in-acquisitions",
-      "summary_en": "<A HREF=\"https://www.coindesk.com/business/2026/03/17/crypto-trading-firm-gsr-expands-token-advisory-with-usd57-million-in-acquisitions\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http:/...",
-      "title_zh": "加密貨幣交易商 GSR 以 5,700 萬美元收購兩家公司，擴大代幣諮詢與資本市場業務",
-      "summary_zh": "知名加密貨幣造市商 GSR 宣佈以 5,700 萬美元收購 Autonomous 與 Architech 兩家公司。此舉旨在強化其在代幣經濟諮詢、資本市場服務及區塊鏈基礎設施領域的佈局。"
+      "title_en": "Sources: Nvidia is preparing to sell a version of Groq chips to the Chinese market that is expected to be available in May and will not be downgraded (Reuters)",
+      "url": "https://www.reuters.com/world/china/nvidia-preparing-groq-chips-that-can-be-sold-chinese-market-sources-say-2026-03-17/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/world/china/nvidia-preparing-groq-chips-that-can-be-sold-chinese-market-sources-say-2026-03-17/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.te...",
+      "_translation_skipped": true,
+      "title_zh": "Sources: Nvidia is preparing to sell a version of Groq chips to the Chinese market that is expected to be available in May and will not be downgraded (Reuters)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Sources: OpenAI signed a deal with AWS to sell its AI services to US government agencies for both classified and unclassified work, amid the Anthropic-DOD spat (The Information)",
-      "url": "https://www.theinformation.com/articles/openai-clinches-aws-deal-bid-win-government-contracts",
-      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/openai-clinches-aws-deal-bid-win-government-contracts\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i26.jpg\"...",
-      "title_zh": "OpenAI 與 AWS 達成協議，向美國政府機構提供機密與非機密等級的 AI 服務",
-      "summary_zh": "據消息人士透露，在 Anthropic 與美國國防部因合約產生爭議之際，OpenAI 已與 AWS 簽署合作，透過 AWS 的政府雲端環境向美國聯邦機構銷售其 AI 服務，涵蓋一般行政與機密任務需求。"
+      "title_en": "Sources: a JPMorgan-led bank group halted a $5.3B debt deal for Qualtrics, whose existing $1.5B loan trades at 86 cents on the dollar, on weak investor interest (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/jpmorgan-halts-qualtrics-5-3-billion-debt-deal-on-software-pain",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/jpmorgan-halts-qualtrics-5-3-billion-debt-deal-on-software-pain\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
+      "_translation_skipped": true,
+      "title_zh": "Sources: a JPMorgan-led bank group halted a $5.3B debt deal for Qualtrics, whose existing $1.5B loan trades at 86 cents on the dollar, on weak investor interest (Bloomberg)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Baidu is integrating OpenClaw with its Xiaodu devices to work as voice-controlled remotes, joining Tencent and Alibaba in racing to capitalize on agentic AI (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-17/baidu-taps-openclaw-smart-speakers-to-fuel-agentic-ai-paradigm",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/baidu-taps-openclaw-smart-speakers-to-fuel-agentic-ai-paradigm\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
-      "title_zh": "百度將 OpenClaw 整合至小度設備，與騰訊及阿里巴巴展開代理式 AI 競爭",
-      "summary_zh": "百度宣佈將 OpenClaw 協議整合進旗下的「小度」智慧音箱與設備中，使其具備語音控制家電的智慧遙控功能，顯示中國科技巨頭正加速在代理式 AI (Agentic AI) 領域的應用落地。"
+      "title_en": "Turquoise Health, which offers a healthcare pricing and payments platform, raised a $40M Series C led by Oak HC/FT, bringing its total funding to $95.3M (Brock E.W. Turner/Axios)",
+      "url": "https://www.axios.com/pro/health-tech-deals/2026/03/17/exclusive-turquoise-health-raises-40m-for-health-care-pricing",
+      "summary_en": "<A HREF=\"https://www.axios.com/pro/health-tech-deals/2026/03/17/exclusive-turquoise-health-raises-40m-for-health-care-pricing\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techm...",
+      "_translation_skipped": true,
+      "title_zh": "Turquoise Health, which offers a healthcare pricing and payments platform, raised a $40M Series C led by Oak HC/FT, bringing its total funding to $95.3M (Brock E.W. Turner/Axios)",
+      "summary_zh": ""
     },
     {
-      "title_en": "IBM closes its $11B deal for data streaming company Confluent; IBM CEO Arvind Krishna says he expects IBM will maintain or grow its head count over five years (Belle Lin/Wall Street Journal)",
-      "url": "https://www.wsj.com/cio-journal/ibm-closes-11-billion-deal-for-confluent-13fcbea0?st=xQbmpm&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/cio-journal/ibm-closes-11-billion-deal-for-confluent-13fcbea0?st=xQbmpm&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://...",
-      "title_zh": "IBM 完成 110 億美元收購 Confluent 交易，執行長看好未來五年的員工人數增長",
-      "summary_zh": "IBM 已正式完成對資料串流領軍企業 Confluent 的 110 億美元收購。IBM 執行長 Arvind Krishna 表示，這項收購對公司的 AI 策略至關重要，並預期未來五年內 IBM 的整體員工人數將維持穩定或有所成長。"
+      "title_en": "Brian Lynch, Apple's senior director in charge of home devices since 2022, leaves for Oura, a setback for a unit already contending with product delays (Mark Gurman/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/apple-s-head-of-home-hardware-leaves-for-smart-ring-maker-oura",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/apple-s-head-of-home-hardware-leaves-for-smart-ring-maker-oura\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
+      "_translation_skipped": true,
+      "title_zh": "Brian Lynch, Apple's senior director in charge of home devices since 2022, leaves for Oura, a setback for a unit already contending with product delays (Mark Gurman/Bloomberg)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Qualcomm says it plans to buy back another $20B worth of shares and is raising its quarterly cash dividend, after unveiling a $15B buyback in November 2024 (Lynn Doan/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-17/qualcomm-is-buying-back-20-billion-in-shares-boosts-dividend",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/qualcomm-is-buying-back-20-billion-in-shares-boosts-dividend\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
-      "title_zh": "高通宣佈加碼 200 億美元股份回購計畫，並調升季度股息",
-      "summary_zh": "晶片巨頭高通 (Qualcomm) 宣佈董事會已批准新的 200 億美元股份回購計畫，並同步調高現金股息。這是在 2024 年底宣佈 150 億美元回購後的又一重大資本回報動作，顯示對其業務前景的信心。"
+      "title_en": "An Argentine court ruled Polymarket lacked approval to operate and directed ISPs and app stores to restrict it; Polymarket is now unavailable in 30+ countries (Francisco Rodrigues/CoinDesk)",
+      "url": "https://www.coindesk.com/policy/2026/03/17/argentina-joins-growing-list-of-countries-blocking-polymarket-access",
+      "summary_en": "<A HREF=\"https://www.coindesk.com/policy/2026/03/17/argentina-joins-growing-list-of-countries-blocking-polymarket-access\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
+      "_translation_skipped": true,
+      "title_zh": "An Argentine court ruled Polymarket lacked approval to operate and directed ISPs and app stores to restrict it; Polymarket is now unavailable in 30+ countries (Francisco Rodrigues/CoinDesk)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Q&A with Kalshi co-founders Tarek Mansour and Luana Lopes Lara on suing the US government, solving market making, agentic and insider trading, ethics, and more (John Collison/Cheeky Pint)",
-      "url": "https://cheekypint.substack.com/p/creating-prediction-markets-and-suing",
-      "summary_en": "<A HREF=\"https://cheekypint.substack.com/p/creating-prediction-markets-and-suing\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i22.jpg\"></A>\n<P><A HREF=\"http...",
-      "title_zh": "Kalshi 創辦人訪談：探討預測市場、控告美國政府與代理式交易的倫理與挑戰",
-      "summary_zh": "Kalshi 共同創辦人 Tarek Mansour 與 Luana Lopes Lara 在訪談中分享了與美國監管機構的法律訴訟、預測市場的流動性解決方案、代理式 AI 參與交易的影響，以及內線交易與倫理等深度議題。"
+      "title_en": "SEC and CFTC issue guidance on which digital assets are securities, carving out stablecoins, digital collectives, and digital commodities as non-securities (Lydia Beyoud/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/sec-cftc-move-to-define-which-digital-assets-are-securities",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/sec-cftc-move-to-define-which-digital-assets-are-securities\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.co...",
+      "_translation_skipped": true,
+      "title_zh": "SEC and CFTC issue guidance on which digital assets are securities, carving out stablecoins, digital collectives, and digital commodities as non-securities (Lydia Beyoud/Bloomberg)",
+      "summary_zh": ""
     },
     {
-      "title_en": "PayPal expands access to its PYUSD stablecoin from the US and the UK to 70 countries in total, including Colombia, Panama, Peru, Singapore, Uganda, and Malawi (Ben Weiss/Fortune)",
-      "url": "https://fortune.com/2026/03/17/paypal-expands-pyusd-stablecoin-access-to-68-more-countries/",
-      "summary_en": "<A HREF=\"https://fortune.com/2026/03/17/paypal-expands-pyusd-stablecoin-access-to-68-more-countries/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i21.jpg\"><...",
-      "title_zh": "PayPal 將 PYUSD 穩定幣使用範圍擴大至全球 70 個國家，包括新加坡與哥倫比亞",
-      "summary_zh": "PayPal 宣佈其 PYUSD 穩定幣的使用權限從原有的美國與英國大幅擴展，目前全球已有 70 個國家的用戶可以存取，包含新加坡、巴拿馬、秘魯、哥倫比亞及部分非洲國家。"
+      "title_en": "You.com appoints Saahil Jain as new CTO after co-founder Bryan McCann left for Anthropic; You.com, which began in consumer search, is targeting enterprise more (Kevin McLaughlin/The Information)",
+      "url": "http://www.techmeme.com/260317/p43#a260317p43",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260317/p43#a260317p43\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Kev...",
+      "_translation_skipped": true,
+      "title_zh": "You.com appoints Saahil Jain as new CTO after co-founder Bryan McCann left for Anthropic; You.com, which began in consumer search, is targeting enterprise more (Kevin McLaughlin/The Information)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Mastercard agrees to acquire London-based stablecoin payments infra startup BVNK for up to $1.8B, including $300M in contingent payments, set to close in 2026 (Reuters)",
-      "url": "https://www.reuters.com/business/mastercard-buy-stablecoin-infra-firm-bvnk-up-18-billion-2026-03-17/",
-      "summary_en": "<A HREF=\"https://www.reuters.com/business/mastercard-buy-stablecoin-infra-firm-bvnk-up-18-billion-2026-03-17/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i...",
-      "title_zh": "萬事達卡同意以 18 億美元收購倫敦穩定幣支付基礎設施新創 BVNK",
-      "summary_zh": "Mastercard 已達成協議，將以最高 18 億美元（含 3 億美元績效獎金）收購倫敦新創 BVNK。該公司專為企業提供穩定幣支付橋接服務，此交易預計於 2026 年完成收盤。"
+      "title_en": "Mistral announces Mistral Forge to help enterprises build custom models actually trained on their own data, using Mistral open-weight models as a starting point (TechCrunch)",
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i42.jpg\"></A>...",
+      "_translation_skipped": true,
+      "title_zh": "Mistral announces Mistral Forge to help enterprises build custom models actually trained on their own data, using Mistral open-weight models as a starting point (TechCrunch)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Enterprise AI automation startup Standard Template Labs raised a $49M seed co-led by Iconiq and CRV, a source says at a $300M post-money valuation (Natasha Mascarenhas/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-17/ex-datadog-leader-s-ai-startup-nabs-first-49-million-funding",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/ex-datadog-leader-s-ai-startup-nabs-first-49-million-funding\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
-      "title_zh": "企業 AI 自動化新創 Standard Template Labs 完成 4,900 萬美元融資，估值達 3 億美元",
-      "summary_zh": "由前 Datadog 高管創辦的 Standard Template Labs 宣佈完成 4,900 萬美元的種子輪融資，由 Iconiq 與 CRV 領投。該公司專注於開發企業級 AI 自動化流程，投後估值已來到 3 億美元。"
+      "title_en": "Meta says Quest users will lose access to Meta Horizon Worlds on the headsets on June 15; access will continue on the Meta Horizon mobile app (Riley Griffin/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/meta-to-discontinue-key-metaverse-product-for-vr-headsets",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/meta-to-discontinue-key-metaverse-product-for-vr-headsets\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/...",
+      "_translation_skipped": true,
+      "title_zh": "Meta says Quest users will lose access to Meta Horizon Worlds on the headsets on June 15; access will continue on the Meta Horizon mobile app (Riley Griffin/Bloomberg)",
+      "summary_zh": ""
     },
     {
-      "title_en": "Darton Commodities: the global cobalt shortage is set to persist through 2030, after Congo limited exports in 2025; the DRC accounts for 70%+ of global supply (Annie Lee/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-17/cobalt-shortages-driven-by-congo-curbs-seen-lasting-through-2030",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-17/cobalt-shortages-driven-by-congo-curbs-seen-lasting-through-2030\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
-      "title_zh": "Darton Commodities：剛果限制出口導致全球鈷短缺，預計將持續至 2030 年",
-      "summary_zh": "研究機構 Darton Commodities 指出，由於佔全球供應逾七成的剛果民主共和國 (DRC) 在 2025 年開始限制出口，全球鈷短缺的問題將難以緩解，預計供應吃緊的狀態將一直持續到 2030 年。"
+      "title_en": "Jensen Huang says Nvidia is in the process of restarting manufacturing of its H200 chips for shipments to China and it has received orders from \"many customers\" (Ina Fried/Axios)",
+      "url": "https://www.axios.com/2026/03/17/nvidia-huang-china-h200",
+      "summary_en": "<A HREF=\"https://www.axios.com/2026/03/17/nvidia-huang-china-h200\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260317/i40.jpg\"></A>\n<P><A HREF=\"http://www.techmeme...",
+      "_translation_skipped": true,
+      "title_zh": "Jensen Huang says Nvidia is in the process of restarting manufacturing of its H200 chips for shipments to China and it has received orders from \"many customers\" (Ina Fried/Axios)",
+      "summary_zh": ""
     }
   ],
   "wsj": [
     {
+      "title_en": "You’ve Finally Figured Out AI at Work—Now Comes the Bill",
+      "url": "https://www.wsj.com/tech/ai/ai-tokens-productivity-d35c6bd8?mod=rss_Technology",
+      "summary_en": "Companies that now regularly use artificial intelligence are starting to track their workers’ use of tokens, AI’s unit of measurement....",
+      "_translation_skipped": true,
+      "title_zh": "You’ve Finally Figured Out AI at Work—Now Comes the Bill",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Nvidia Says It Is Restarting Production of AI Chips for Sale in China",
+      "url": "https://www.wsj.com/tech/ai/nvidia-says-it-is-restarting-production-of-ai-chips-for-sale-in-china-eea7029e?mod=rss_Technology",
+      "summary_en": "CEO Jensen Huang said the chipmaker’s supply chain is “fired up” after months of mixed signals from the Chinese market....",
+      "_translation_skipped": true,
+      "title_zh": "Nvidia Says It Is Restarting Production of AI Chips for Sale in China",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "The E-Nose Knows: AI Learns to Smell",
+      "url": "https://www.wsj.com/tech/ai/ai-e-noses-technology-bd22aa5d?mod=rss_Technology",
+      "summary_en": "Among the possible implications are restoring a sense of smell and sniffing out potential health concerns....",
+      "_translation_skipped": true,
+      "title_zh": "The E-Nose Knows: AI Learns to Smell",
+      "summary_zh": ""
+    },
+    {
       "title_en": "Nvidia’s Super Bowl Plays to the Crowd",
       "url": "https://www.wsj.com/tech/ai/nvidias-super-bowl-plays-to-the-crowd-8cf6f47b?mod=rss_Technology",
       "summary_en": "Plus, OpenAI cuts side projects and Oracle’s performance obligations...",
-      "title_zh": "Nvidia 的「超級盃」盛宴：吸引大眾目光",
-      "summary_zh": "本篇探討 Nvidia 如何在市場中引發熱潮，並報導 OpenAI 削減側翼專案以及 Oracle 在執行合約方面的亮眼表現。"
+      "_translation_skipped": true,
+      "title_zh": "Nvidia’s Super Bowl Plays to the Crowd",
+      "summary_zh": ""
     },
     {
       "title_en": "Microsoft Seeks More Coherence in AI Efforts With Copilot Reorganization",
       "url": "https://www.wsj.com/tech/ai/microsoft-seeks-more-coherence-in-ai-efforts-with-copilot-reorganization-a985b374?mod=rss_Technology",
       "summary_en": "The software giant is scrapping the divide between the consumer and business app teams....",
-      "title_zh": "微軟重組 Copilot 團隊：追求 AI 發展的一致性",
-      "summary_zh": "這家軟體巨頭正在打破消費端與商業應用團隊之間的界限，旨在透過組織重組讓 Copilot 的開發與推廣更具一致性。"
+      "_translation_skipped": true,
+      "title_zh": "Microsoft Seeks More Coherence in AI Efforts With Copilot Reorganization",
+      "summary_zh": ""
     },
     {
       "title_en": "IBM Closes $11 Billion Deal for Confluent",
       "url": "https://www.wsj.com/cio-journal/ibm-closes-11-billion-deal-for-confluent-13fcbea0?mod=rss_Technology",
       "summary_en": "Deal will help companies access their data for AI agents, says IBM CEO Arvind Krishna, as he brushes off AI’s risk to IBM’s business....",
-      "title_zh": "IBM 完成 110 億美元收購 Confluent 交易",
-      "summary_zh": "IBM 執行長 Arvind Krishna 表示，這項收購將協助企業更有效地存取數據以建立 AI Agent，並同時淡化 AI 可能對 IBM 現有業務模式帶來的威脅。"
-    },
-    {
-      "title_en": "How Quantum Computing Works",
-      "url": "https://www.wsj.com/tech/how-quantum-computing-works-cab3fef2?mod=rss_Technology",
-      "summary_en": "Here’s how quantum computing works and how it could supercharge—and disrupt—billion-dollar industries....",
-      "title_zh": "量子運算原理詳解",
-      "summary_zh": "本文介紹了量子運算的運作方式，以及這項技術未來可能如何強化、甚至顛覆價值數十億美元的各行各業。"
+      "_translation_skipped": true,
+      "title_zh": "IBM Closes $11 Billion Deal for Confluent",
+      "summary_zh": ""
     },
     {
       "title_en": "Finance Bros to Tech Bros: Don’t Mess With My Bloomberg Terminal",
       "url": "https://www.wsj.com/tech/ai/bloomberg-terminal-perplexity-vibe-coding-e37a95f8?mod=rss_Technology",
       "summary_en": "Some spend more time with the computer system than they do with their spouse. So when techies declared it “cooked,” it was war....",
-      "title_zh": "金融界反擊科技業：別想動我的 Bloomberg 終端機",
-      "summary_zh": "對許多金融從業人員來說，Bloomberg 終端機是不可或缺的生存工具。因此當科技圈人士宣稱該系統「已經過時」時，引發了一場關於傳統工具與現代科技的論戰。"
-    },
-    {
-      "title_en": "Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
-      "url": "https://www.wsj.com/tech/ai/nvidia-backed-ai-startup-to-spend-billions-on-korea-data-center-to-combat-china-f945a326?mod=rss_Technology",
-      "summary_en": "The Trump administration is using AI chips and models as a tool for diplomacy and boosting U.S. allies....",
-      "title_zh": "Nvidia 支持的 AI 新創計畫在韓國投資數十億美元打造數據中心以對抗中國",
-      "summary_zh": "川普政府正將 AI 晶片與模型視為外交工具，透過支持盟友在戰略地點建設基礎設施，來強化美國在技術競賽中的領先地位。"
-    },
-    {
-      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
-      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-e64ea0af?mod=rss_Technology",
-      "summary_en": "Find insight on Uber, Nvidia and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "title_zh": "科技、媒體與電信市場綜覽：市場熱點解析",
-      "summary_zh": "最新的市場對話報導，提供了關於 Uber、Nvidia 等科技、媒體與電信產業領頭羊的深入洞察與分析。"
+      "_translation_skipped": true,
+      "title_zh": "Finance Bros to Tech Bros: Don’t Mess With My Bloomberg Terminal",
+      "summary_zh": ""
     },
     {
       "title_en": "Foxconn Expects AI Demand to Remain Strong, Sees Limited Mideast Impact",
       "url": "https://www.wsj.com/business/earnings/foxconn-quarterly-profit-falls-despite-higher-revenue-f8ca8c65?mod=rss_Technology",
       "summary_en": "The world’s largest contract electronics maker expects continued demand for its AI servers in 2026 despite the uncertainty and risks posed by the Middle East war....",
-      "title_zh": "鴻海預計 AI 需求維持強勁，認爲中東衝突影響有限",
-      "summary_zh": "全球最大的電子代工廠鴻海表示，儘管中東局勢帶來不確定性與風險，但預計 2026 年其 AI 伺服器的市場需求仍將持續保持旺盛。"
+      "_translation_skipped": true,
+      "title_zh": "Foxconn Expects AI Demand to Remain Strong, Sees Limited Mideast Impact",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
+      "url": "https://www.wsj.com/tech/ai/nvidia-backed-ai-startup-to-spend-billions-on-korea-data-center-to-combat-china-f945a326?mod=rss_Technology",
+      "summary_en": "The Trump administration is using AI chips and models as a tool for diplomacy and boosting U.S. allies....",
+      "_translation_skipped": true,
+      "title_zh": "Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
+      "summary_zh": ""
     },
     {
       "title_en": "Alibaba Consolidates AI Operations Under New Business Group",
       "url": "https://www.wsj.com/tech/ai/alibaba-consolidates-ai-operations-under-new-business-group-de8283e2?mod=rss_Technology",
       "summary_en": "The new business unit, called Alibaba Token Hub, will be led by Eddie Wu, Alibaba’s chief executive....",
-      "title_zh": "阿里巴巴整合 AI 業務，成立全新業務事業群",
-      "summary_zh": "阿里巴巴宣佈成立名為「Alibaba Token Hub」的新業務部門，由集團執行長吳泳銘親自領導，旨在集中力量發展 AI 相關業務。"
-    },
-    {
-      "title_en": "OpenAI to Cut Back on Side Projects in Push to ‘Nail’ Core Business",
-      "url": "https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825?mod=rss_Technology",
-      "summary_en": "A top leader urged staff not to be distracted by “side quests” as the company plans a shift of resources to coding and enterprise businesses....",
-      "title_zh": "OpenAI 削減邊緣專案，專注於「核心業務」推廣",
-      "summary_zh": "OpenAI 高層敦促員工不要被「支線任務」分心，公司計劃將資源全面轉向程式開發服務以及企業端業務，以確保核心競爭力。"
+      "_translation_skipped": true,
+      "title_zh": "Alibaba Consolidates AI Operations Under New Business Group",
+      "summary_zh": ""
     }
   ],
   "deep_analysis": {

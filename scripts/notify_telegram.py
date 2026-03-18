@@ -34,6 +34,16 @@ def send_telegram_message(text):
         print(f"⚠️ Telegram 請求錯誤: {e}")
 
 def main():
+    # 支援 --status 旗標：直接發送自訂訊息（用於錯誤告警）
+    if "--status" in sys.argv:
+        idx = sys.argv.index("--status")
+        if idx + 1 < len(sys.argv):
+            status_msg = sys.argv[idx + 1]
+            send_telegram_message(f"{status_msg}\n👉 {SITE_URL}")
+        else:
+            send_telegram_message(f"⚠️ 管線發送了告警但沒有附帶訊息\n👉 {SITE_URL}")
+        return
+
     if not os.path.exists(DAILY_NEWS_JSON):
         send_telegram_message(f"⚠️ 日報任務執行完畢，但找不到 {DAILY_NEWS_JSON}。\n👉 {SITE_URL}")
         return

@@ -55,11 +55,11 @@ Example cron script snippet:
 #!/bin/bash
 cd /Users/lanreset/daily-curation
 
-# 1. Generate Deep Analysis
-python3 scripts/generate_deep_analysis.py
-
-# 2. Daily News Fetch (Draft)
+# 1. Daily News Fetch (Draft)
 python3 scripts/run_daily_news.py
+
+# 2. Generate Deep Analysis (moved before translate)
+python3 scripts/generate_deep_analysis.py
 
 # 3. Translate missing titles/summaries
 python3 scripts/translate_news.py
