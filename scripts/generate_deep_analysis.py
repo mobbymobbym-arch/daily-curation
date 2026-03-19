@@ -4,6 +4,7 @@ import sys
 import signal
 import subprocess
 import urllib.request
+import urllib.parse
 import re
 import time
 from datetime import datetime
@@ -142,6 +143,19 @@ def analyze_with_ai(article_text):
                 pass
         return None
 
+def clean_url(url):
+    """移除 URL 中容易變動的追蹤參數 (如 access_token, utm_*)"""
+    if not url: return url
+    try:
+        parsed = urllib.parse.urlparse(url)
+        query = urllib.parse.parse_qs(parsed.query)
+        # 移除 access_token, utm_ 開頭的參數
+        filtered_query = {k: v for k, v in query.items() if not k.startswith('utm_') and k != 'access_token'}
+        new_query = urllib.parse.urlencode(filtered_query, doseq=True)
+        return urllib.parse.urlunparse(parsed._replace(query=new_query)).rstrip('/')
+    except:
+        return url.rstrip('/')
+
 def main():
     print("========================================")
     print(f"🤖 Automated Deep Analysis Generator - {datetime.now()}")
@@ -174,25 +188,47 @@ def main():
     for source in sources_config['sources']:
         name = source['name']
         rss = source['rss']
-        last_link = state.get(name)
+        cached_info = state.get(name)
 
         print(f"▶ Polling {name}...")
-        link, title = get_latest_rss_item(rss)
+        raw_link, raw_title = get_latest_rss_item(rss)
 
-        if not link or not link.startswith('http'):
-            print(f"   ⚠️ Invalid link or failed to fetch RSS: {title}")
+        if not raw_link or not raw_link.startswith('http'):
+            print(f"   ⚠️ Invalid link or failed to fetch RSS: {raw_title}")
             continue
 
-        normalized_link = link.rstrip('/')
-        normalized_last = last_link.rstrip('/') if last_link else None
+        cleaned_link = clean_url(raw_link)
+        
+        # 判斷是否為舊文章 (判斷依據：URL 或 原始標題 相符)
+        is_old_article = False
+        cached_content = None
+        
+        if isinstance(cached_info, dict):
+            cached_url = cached_info.get("url")
+            cached_title = cached_info.get("title")
+            cached_content = cached_info.get("content")
+            if cleaned_link == cached_url or raw_title == cached_title:
+                is_old_article = True
+        elif isinstance(cached_info, str):
+            # 兼容舊版 state 格式 (只存 URL 字串)
+            if cleaned_link == clean_url(cached_info):
+                is_old_article = True
 
-        if normalized_link == normalized_last:
-            print(f"   ✅ No new articles. Skipping.")
+        if is_old_article:
+            print(f"   ✅ No new articles (Matched: {raw_title}).")
+            # 如果快取有完整內容，直接復用，不呼叫 AI
+            if cached_content:
+                daily_data["deep_analysis"][name] = cached_content
+                # 如果今天還沒存進 temp，就標記更新以便觸發渲染
+                # (但不用重寫 state)
+                updates_processed += 1
+                with open(NEWS_JSON, 'w', encoding='utf-8') as f:
+                    json.dump(daily_data, f, ensure_ascii=False, indent=2)
             continue
 
-        print(f"   🆕 NEW ARTICLE DETECTED: {title}")
+        print(f"   🆕 NEW ARTICLE DETECTED: {raw_title}")
         print(f"   📥 Fetching full text via Jina...")
-        article_text = fetch_clean_article(link)
+        article_text = fetch_clean_article(raw_link)
 
         if not article_text:
             continue
@@ -203,24 +239,29 @@ def main():
         if analysis_result and "analysis_zh" in analysis_result and "insights" in analysis_result:
             print(f"   ✅ Analysis successful! ({len(analysis_result['analysis_zh'])} chars)")
             
-            # Use data from AI response if available, fallback to RSS/config
-            final_title = analysis_result.get("title") or analysis_result.get("title_zh") or title
+            # Use data from AI response if available, fallback to RSS
+            final_title = analysis_result.get("title") or analysis_result.get("title_zh") or raw_title
             final_source = analysis_result.get("source") or name
 
-            # Save to daily JSON using the structure expected by render_news.py
-            daily_data["deep_analysis"][name] = {
+            content_to_save = {
                 "title": final_title,
                 "source": final_source,
-                "url": link,
+                "url": raw_link,
                 "analysis_zh": analysis_result["analysis_zh"],
                 "insights": analysis_result["insights"]
             }
+
+            daily_data["deep_analysis"][name] = content_to_save
             
-            # Update state
-            state[name] = normalized_link
+            # Update state with new dictionary format for robust caching
+            state[name] = {
+                "url": cleaned_link,
+                "title": raw_title,
+                "content": content_to_save
+            }
             updates_processed += 1
 
-            # ⚡ Incremental save: write progress to disk immediately after each article
+            # ⚡ Incremental save
             with open(NEWS_JSON, 'w', encoding='utf-8') as f:
                 json.dump(daily_data, f, ensure_ascii=False, indent=2)
             with open(STATE_FILE, 'w', encoding='utf-8') as f:
