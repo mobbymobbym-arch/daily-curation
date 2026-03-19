@@ -1,9 +1,11 @@
 import json
 import os
 import sys
+import signal
 import subprocess
 import urllib.request
 import re
+import time
 from datetime import datetime
 import xml.etree.ElementTree as ET
 import ssl
@@ -39,9 +41,9 @@ def get_latest_rss_item(rss_url):
             return None, "Parse Error"
 
         namespaces = {'atom': 'http://www.w3.org/2005/Atom'}
-        if 'feed' in root.tag: 
+        if root is not None and 'feed' in root.tag: 
              entry = root.find('atom:entry', namespaces) or root.find('{http://www.w3.org/2005/Atom}entry')
-             if entry:
+             if entry is not None:
                  link_node = entry.find('atom:link', namespaces) or entry.find('{http://www.w3.org/2005/Atom}link')
                  link = link_node.get('href') if link_node is not None else None
                  title_node = entry.find('atom:title', namespaces) or entry.find('{http://www.w3.org/2005/Atom}title')
@@ -49,11 +51,13 @@ def get_latest_rss_item(rss_url):
                  return link, title
         else: 
              channel = root.find('channel')
-             if channel:
+             if channel is not None:
                  item = channel.find('item')
-                 if item:
-                     link = item.find('link').text
-                     title = item.find('title').text
+                 if item is not None:
+                     link_elem = item.find('link')
+                     title_elem = item.find('title')
+                     link = link_elem.text if link_elem is not None else None
+                     title = title_elem.text if title_elem is not None else None
                      return link, title
     except Exception as e:
         return None, str(e)
@@ -84,19 +88,26 @@ def analyze_with_ai(article_text):
     try:
         env = os.environ.copy()
         env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
+        print(f"   🚀 啟動 Gemini CLI 進程...")
         proc = subprocess.Popen(
             ["gemini", "-p", "Generate JSON only as instructed.", "--model", "gemini-3-flash-preview", "--output-format", "json"],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            env=env
+            env=env,
+            start_new_session=True
         )
+        print(f"   📡 已送出請求 (PID: {proc.pid})，等待回應 (上限 120s)...")
         stdout, stderr = proc.communicate(input=full_text, timeout=120)
+        print(f"   📥 收到回應 ({len(stdout)} chars)，開始解析...")
 
         # Parse the JSON shell from gemini CLI
-        cli_response = json.loads(stdout)
-        ai_output = cli_response.get("response", "")
+        try:
+            cli_response = json.loads(stdout)
+            ai_output = cli_response.get("response", stdout)
+        except json.JSONDecodeError:
+            ai_output = stdout
         
         # Extract actual JSON from AI response
         match = re.search(r'\{.*\}', ai_output, re.DOTALL)
@@ -107,10 +118,28 @@ def analyze_with_ai(article_text):
             print(ai_output[:200] + "...")
             return None
     except subprocess.TimeoutExpired:
-        print("   ⚠️ AI Analysis timed out.")
+        print("   ⚠️ AI Analysis timed out — 正在終止進程組...")
+        if proc:
+            try:
+                os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+            except (ProcessLookupError, OSError):
+                proc.kill()
+            try:
+                proc.communicate(timeout=5)
+            except Exception:
+                pass
         return None
     except Exception as e:
         print(f"   ⚠️ AI Analysis failed: {e}")
+        if proc:
+            try:
+                os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+            except (ProcessLookupError, OSError):
+                proc.kill()
+            try:
+                proc.communicate(timeout=5)
+            except Exception:
+                pass
         return None
 
 def main():
@@ -190,19 +219,18 @@ def main():
             # Update state
             state[name] = normalized_link
             updates_processed += 1
+
+            # ⚡ Incremental save: write progress to disk immediately after each article
+            with open(NEWS_JSON, 'w', encoding='utf-8') as f:
+                json.dump(daily_data, f, ensure_ascii=False, indent=2)
+            with open(STATE_FILE, 'w', encoding='utf-8') as f:
+                json.dump(state, f, ensure_ascii=False, indent=2)
+            print(f"   💾 Progress saved.")
         else:
             print("   ❌ AI failed to generate valid analysis format.")
 
-    # Save outputs if anything was updated
     if updates_processed > 0:
-        with open(NEWS_JSON, 'w', encoding='utf-8') as f:
-            json.dump(daily_data, f, ensure_ascii=False, indent=2)
-        
-        with open(STATE_FILE, 'w', encoding='utf-8') as f:
-            json.dump(state, f, ensure_ascii=False, indent=2)
-            
         print(f"\n🎉 Processed {updates_processed} new deep analyses.")
-        
         # Trigger render
         print("🎨 Triggering render_news.py...")
         subprocess.run(["python3", "scripts/render_news.py"])
