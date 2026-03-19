@@ -328,6 +328,34 @@ def cleanup():
         print("   🧹 已清理暫存檔案")
 
 
+def load_podcast_data():
+    """Load the accumulator JSON."""
+    today = datetime.now().strftime('%Y-%m-%d')
+    if os.path.exists(PODCAST_JSON):
+        try:
+            with open(PODCAST_JSON, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                # If it's a legacy format (not a dict with 'date' and 'items')
+                if not isinstance(data, dict) or 'items' not in data:
+                    return {"date": today, "items": []}
+                # If it's a new day, we should technically archive the old one, 
+                # but render_podcast.py handles the HTML archiving. 
+                # We just reset the 'today' list.
+                if data.get("date") != today:
+                    print(f"   📅 偵測到新的一天 (之前是 {data.get('date')})，重置當日清單。")
+                    return {"date": today, "items": []}
+                return data
+        except Exception:
+            pass
+    return {"date": today, "items": []}
+
+
+def save_podcast_data(data):
+    """Save the accumulator JSON."""
+    with open(PODCAST_JSON, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
 def main():
     if len(sys.argv) < 2:
         print("用法: python3 scripts/generate_podcast.py <podcast_url>")
@@ -342,70 +370,80 @@ def main():
     print("========================================")
     print(f"📎 來源: {url}")
     print()
+
+    # --- Phase 0: Check Cache ---
+    all_data = load_podcast_data()
+    existing_item = next((item for item in all_data['items'] if item['original_link'] == url), None)
     
-    # --- Phase 1: Acquire transcript ---
-    print("📥 第一階段：素材獲取")
-    
-    transcript = None
-    video_info = None
-    audio_path = None
-    
-    # Check if it's a YouTube URL
-    is_youtube = 'youtube.com' in url or 'youtu.be' in url
-    
-    if is_youtube:
-        video_info = fetch_youtube_info(url)
-        if video_info:
-            print(f"   📋 標題: {video_info['title']}")
-            duration_min = video_info['duration'] // 60
-            print(f"   ⏱️ 長度: {duration_min} 分鐘")
-        
-        # Strategy A: YouTube subtitles
-        transcript = fetch_youtube_transcript(url)
-    
-    if not transcript:
-        # Strategy B: Download audio for Gemini analysis
-        audio_path = download_and_transcribe_audio(url)
-    
-    if not transcript and not audio_path:
-        # Strategy C: Jina Reader text extraction
-        transcript = fetch_via_jina(url)
-    
-    if not transcript and not audio_path:
-        print("❌ 所有素材獲取策略均失敗。無法繼續。")
-        cleanup()
-        sys.exit(1)
-    
-    # --- Phase 2: AI Analysis ---
-    print()
-    print("🧠 第二階段：深度敘事分析")
-    
-    if audio_path:
-        analysis = analyze_with_gemini(audio_path, is_audio_file=True)
+    if existing_item:
+        print(f"   ✨ 網址已存在於今日清單中：{existing_item['title']}")
+        print("   ⏭️ 跳過 AI 分析，直接執行渲染流程。")
+        analysis = existing_item
     else:
-        analysis = analyze_with_gemini(transcript, is_audio_file=False)
-    
-    if not analysis:
-        print("❌ AI 分析失敗。")
-        cleanup()
-        sys.exit(1)
-    
-    # Enrich with video info
-    if video_info and not analysis.get('title'):
-        analysis['title'] = video_info['title']
-    analysis['original_link'] = url
-    analysis['generated_at'] = datetime.now().strftime('%Y-%m-%d %H:%M')
+        # --- Phase 1: Acquire transcript ---
+        print("📥 第一階段：素材獲取")
+        
+        transcript = None
+        video_info = None
+        audio_path = None
+        
+        # Check if it's a YouTube URL
+        is_youtube = 'youtube.com' in url or 'youtu.be' in url
+        
+        if is_youtube:
+            video_info = fetch_youtube_info(url)
+            if video_info:
+                print(f"   📋 標題: {video_info['title']}")
+                duration_min = video_info['duration'] // 60
+                print(f"   ⏱️ 長度: {duration_min} 分鐘")
+            
+            # Strategy A: YouTube subtitles
+            transcript = fetch_youtube_transcript(url)
+        
+        if not transcript:
+            # Strategy B: Download audio for Gemini analysis
+            audio_path = download_and_transcribe_audio(url)
+        
+        if not transcript and not audio_path:
+            # Strategy C: Jina Reader text extraction
+            transcript = fetch_via_jina(url)
+        
+        if not transcript and not audio_path:
+            print("❌ 所有素材獲取策略均失敗。無法繼續。")
+            cleanup()
+            sys.exit(1)
+        
+        # --- Phase 2: AI Analysis ---
+        print()
+        print("🧠 第二階段：深度敘事分析")
+        
+        if audio_path:
+            analysis = analyze_with_gemini(audio_path, is_audio_file=True)
+        else:
+            analysis = analyze_with_gemini(transcript, is_audio_file=False)
+        
+        if not analysis:
+            print("❌ AI 分析失敗。")
+            cleanup()
+            sys.exit(1)
+        
+        # Enrich with video info
+        if video_info and not analysis.get('title'):
+            analysis['title'] = video_info['title']
+        analysis['original_link'] = url
+        analysis['generated_at'] = datetime.now().strftime('%Y-%m-%d %H:%M')
+        
+        # Add to collection
+        all_data['items'].append(analysis)
+        save_podcast_data(all_data)
+        print(f"   ✅ 已將新單集「{analysis['title']}」加入今日清單 (目前共 {len(all_data['items'])} 篇)")
     
     # --- Phase 3: Save and Render ---
     print()
     print("💾 第三階段：發布與部署")
     
-    with open(PODCAST_JSON, 'w', encoding='utf-8') as f:
-        json.dump(analysis, f, ensure_ascii=False, indent=2)
-    print(f"   ✅ 已儲存到 {PODCAST_JSON}")
-    
     # Render to HTML (surgical injection - only touches PODCAST_HIGHLIGHTS block)
-    print("   🎨 執行 render_podcast.py (外科手術式注入)...")
+    print("   🎨 執行 render_podcast.py (全量重新渲染今日卡片)...")
     result = subprocess.run(
         ["python3", "scripts/render_podcast.py"],
         capture_output=True, text=True
@@ -423,6 +461,13 @@ def main():
             capture_output=True, text=True
         )
         print(f"   {result.stdout.strip()}" if result.stdout else "")
+
+        # Telegram Notification
+        try:
+            msg = f"🎙️ *Podcast 摘要更新*\n\n標題：{analysis['title']}\n位置：今日廣播精選 (第 {len(all_data['items'])} 篇)"
+            subprocess.run(["python3", "scripts/notify_telegram.py", msg], check=False)
+        except Exception:
+            pass
     else:
         print("   ⏭️ 跳過發布 (--no-publish)")
     
