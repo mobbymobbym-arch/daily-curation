@@ -2,10 +2,13 @@ import subprocess
 import datetime
 import sys
 
-def run_command(command):
+def run_command(command, timeout=None):
     """這是一個小工具，幫我們在終端機裡安全地執行指令，並捕捉任何錯誤"""
-    # 執行指令並擷取輸出結果
-    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    try:
+        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        print(f"❌ 執行超時 ({timeout}s): {command}")
+        return False
     
     # 如果執行失敗（returncode 不是 0 代表有錯誤）
     if result.returncode != 0:
@@ -38,8 +41,20 @@ def publish_to_github():
         return
         
     # 3. 推送到 GitHub (正式上線)
+    import time
     print("⏳ 正在推送到 GitHub，這可能需要幾秒鐘...")
-    if not run_command("git push"):
+    push_success = False
+    for attempt in range(3):
+        print(f"   ▶ Git Push (Attempt {attempt+1}/3)...")
+        if run_command("git push", timeout=60):
+            push_success = True
+            break
+        if attempt < 2:
+            print("   ⏳ Retrying in 10 seconds...")
+            time.sleep(10)
+            
+    if not push_success:
+        print("❌ 經過 3 次嘗試，Git 推送仍然失敗。請檢查網路狀態或 GitHub 權限。")
         return
         
     print("=======================================================")

@@ -113,7 +113,10 @@ def render_to_html():
         card_builder.append('</div>')
         total_html_builder.append("\n".join(card_builder))
     
-    new_podcast_html = "\n".join(total_html_builder)
+    # 加入隱藏的時間戳記，供跨日存檔時準確比對使用
+    current_date = data.get("date", datetime.now().strftime("%Y-%m-%d"))
+    date_marker = f"<!-- PODCAST_DATE_START -->{current_date}<!-- PODCAST_DATE_END -->\n"
+    new_podcast_html = date_marker + "\n".join(total_html_builder)
     
     # ==========================================
     # 🔄 更新 index.html
@@ -131,10 +134,14 @@ def render_to_html():
         old_title = old_title_match.group(1).strip()
         if old_title not in [item['title'] for item in items]:
             # 這說明首頁上是舊資料，我們需要把它存起來
-            # 我們需要知道 old_title 是哪一天的，但既然它不是今天的，我們就用「現在首頁」日期（通常是昨天）
-            # 這裡我們簡化：在首頁找第一個出現的日期
-            date_match = re.search(r'(\d{4}-\d{2}-\d{2})', html_content)
-            file_date = date_match.group(1) if date_match else "legacy"
+            # 我們需要知道 old_title 是哪一天的，最準確的方法是尋找 Podcast 專用的日期標記
+            podcast_date_match = re.search(r'<!-- PODCAST_DATE_START -->(.*?)<!-- PODCAST_DATE_END -->', html_content)
+            if podcast_date_match:
+                file_date = podcast_date_match.group(1).strip()
+            else:
+                # 備援：在首頁這張遺照裡找第一個出現的日期
+                date_match = re.search(r'(\d{4}-\d{2}-\d{2})', html_content)
+                file_date = date_match.group(1) if date_match else "legacy"
             
             old_archive_path = os.path.join(archive_dir, f"podcast-{file_date}.html")
             if not os.path.exists(old_archive_path):

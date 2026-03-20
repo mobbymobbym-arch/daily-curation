@@ -64,19 +64,24 @@ def get_latest_rss_item(rss_url):
         return None, str(e)
     return None, "No items found"
 
-def fetch_clean_article(url):
-    """Fetch clean markdown from URL using Jina Reader API."""
-    try:
-        jina_url = "https://r.jina.ai/" + url
-        req = urllib.request.Request(jina_url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=30) as response:
-            return response.read().decode('utf-8', errors='ignore')
-    except Exception as e:
-        print(f"   ⚠️ Failed to fetch full article text: {e}")
-        return None
+def fetch_clean_article(url, max_retries=3):
+    """Fetch clean markdown from URL using Jina Reader API with retries."""
+    import time
+    for attempt in range(max_retries):
+        try:
+            jina_url = "https://r.jina.ai/" + url
+            req = urllib.request.Request(jina_url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=30) as response:
+                return response.read().decode('utf-8', errors='ignore')
+        except Exception as e:
+            print(f"   ⚠️ Jina API fetch failed for {url}: {e} (Attempt {attempt+1}/{max_retries})")
+            if attempt < max_retries - 1:
+                time.sleep(5)
+    return None
 
-def analyze_with_ai(article_text):
-    """Call Gemini CLI to generate deep analysis JSON."""
+def analyze_with_ai(article_text, max_retries=2):
+    """Call Gemini CLI to generate deep analysis JSON with retries."""
+    import time
     if not os.path.exists(PROMPT_FILE):
         print(f"   ⚠️ {PROMPT_FILE} not found.")
         return None
@@ -86,40 +91,45 @@ def analyze_with_ai(article_text):
 
     full_text = prompt_base + "\n\n=== ARTICLE TEXT ===\n" + article_text
 
-    try:
-        env = os.environ.copy()
-        env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
-        print(f"   🚀 啟動 Gemini CLI 進程...")
-        proc = subprocess.Popen(
-            ["gemini", "-p", "Generate JSON only as instructed.", "--model", "gemini-3-flash-preview", "--output-format", "json"],
-            stdin=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            env=env,
-            start_new_session=True
-        )
-        print(f"   📡 已送出請求 (PID: {proc.pid})，等待回應 (上限 120s)...")
-        stdout, stderr = proc.communicate(input=full_text, timeout=120)
-        print(f"   📥 收到回應 ({len(stdout)} chars)，開始解析...")
-
-        # Parse the JSON shell from gemini CLI
+    for attempt in range(max_retries):
+        proc = None
         try:
-            cli_response = json.loads(stdout)
-            ai_output = cli_response.get("response", stdout)
-        except json.JSONDecodeError:
-            ai_output = stdout
-        
-        # Extract actual JSON from AI response
-        match = re.search(r'\{.*\}', ai_output, re.DOTALL)
-        if match:
-            return json.loads(match.group(0))
-        else:
-            print("   ⚠️ Failed to extract JSON from AI response:")
-            print(ai_output[:200] + "...")
-            return None
-    except subprocess.TimeoutExpired:
-        print("   ⚠️ AI Analysis timed out — 正在終止進程組...")
+            env = os.environ.copy()
+            env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
+            print(f"   🚀 啟動 Gemini CLI 進程 (Attempt {attempt+1}/{max_retries})...")
+            proc = subprocess.Popen(
+                ["gemini", "-p", "Generate JSON only as instructed.", "--model", "gemini-3-flash-preview", "--output-format", "json"],
+                stdin=subprocess.PIPE,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+                env=env,
+                start_new_session=True
+            )
+            print(f"   📡 已送出請求 (PID: {proc.pid})，等待回應 (上限 120s)...")
+            stdout, stderr = proc.communicate(input=full_text, timeout=120)
+            print(f"   📥 收到回應 ({len(stdout)} chars)，開始解析...")
+
+            # Parse the JSON shell from gemini CLI
+            try:
+                cli_response = json.loads(stdout)
+                ai_output = cli_response.get("response", stdout)
+            except json.JSONDecodeError:
+                ai_output = stdout
+            
+            # Extract actual JSON from AI response
+            match = re.search(r'\{.*\}', ai_output, re.DOTALL)
+            if match:
+                return json.loads(match.group(0))
+            else:
+                print("   ⚠️ Failed to extract JSON from AI response:")
+                print(ai_output[:200] + "...")
+                
+        except subprocess.TimeoutExpired:
+            print("   ⚠️ AI Analysis timed out — 終止進程組...")
+        except Exception as e:
+            print(f"   ⚠️ AI Analysis failed: {e}")
+            
         if proc:
             try:
                 os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
@@ -129,19 +139,13 @@ def analyze_with_ai(article_text):
                 proc.communicate(timeout=5)
             except Exception:
                 pass
-        return None
-    except Exception as e:
-        print(f"   ⚠️ AI Analysis failed: {e}")
-        if proc:
-            try:
-                os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
-            except (ProcessLookupError, OSError):
-                proc.kill()
-            try:
-                proc.communicate(timeout=5)
-            except Exception:
-                pass
-        return None
+                
+        if attempt < max_retries - 1:
+            print("   ⏳ Retrying in 5 seconds...")
+            time.sleep(5)
+            
+    print("   ❌ Exhausted all AI retries.")
+    return None
 
 def clean_url(url):
     """移除 URL 中容易變動的追蹤參數 (如 access_token, utm_*)"""

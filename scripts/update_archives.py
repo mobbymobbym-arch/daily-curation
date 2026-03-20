@@ -5,24 +5,33 @@ import sys
 ARCHIVE_DIR = 'archives'
 INDEX_FILE = 'index.html'
 
-def get_title_from_file(filepath):
-    # 嘗試打開檔案，抓取 PODCAST_HIGHLIGHTS 區塊內的 title-cn 作為標題
+def get_titles_from_file(filepath):
+    """回傳一個列表，包含該存檔檔案中所有的 Podcast 標題"""
+    titles = []
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
             # 優先尋找 Podcast 領土內的標題
-            podcast_match = re.search(r'<!-- PODCAST_HIGHLIGHTS_START -->.*?<h2[^>]*>(.*?)</h2>', content, re.DOTALL)
+            podcast_match = re.search(r'<!-- PODCAST_HIGHLIGHTS_START -->(.*?)<!-- PODCAST_HIGHLIGHTS_END -->', content, re.DOTALL)
             if podcast_match:
-                return podcast_match.group(1).strip()
+                podcast_block = podcast_match.group(1)
+                matches = re.findall(r'<h2[^>]*>(.*?)</h2>', podcast_block)
+                if matches:
+                    for m in matches:
+                        titles.append(m.strip())
+                    return titles
             
             # 備援：原本的 <h3> 邏輯，但排除掉通用標題
             h3_matches = re.findall(r'<h3[^>]*>(.*?)</h3>', content)
             for title in h3_matches:
                 if "存檔" not in title and "日報" not in title:
-                    return title.strip()
+                    titles.append(title.strip())
+            
+            if titles:
+                return titles
     except Exception:
         pass
-    return "Podcast 深度摘要"
+    return ["Podcast 深度摘要"]
 
 def main():
     if not os.path.exists(ARCHIVE_DIR):
@@ -53,8 +62,9 @@ def main():
         elif re.match(r'^podcast-\d{4}-\d{2}-\d{2}\.html$', filename):
             date_match = re.search(r'^podcast-(\d{4}-\d{2}-\d{2})', filename)
             date_str = date_match.group(1) if date_match else "未知日期"
-            title = get_title_from_file(filepath)
-            podcast_links.append(f'<li><a href="archives/{filename}">🎙️ {title} ({date_str})</a></li>')
+            titles = get_titles_from_file(filepath)
+            for title in titles:
+                podcast_links.append(f'<li><a href="archives/{filename}">🎙️ {title} ({date_str})</a></li>')
 
     # 組合 HTML
     daily_html = "\n                " + "\n                ".join(daily_links) if daily_links else "<li>尚無日報存檔</li>"

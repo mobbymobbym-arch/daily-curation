@@ -15,49 +15,70 @@ DAILY_NEWS_JSON = 'daily_news_temp.json'
 ANALYSIS_STATE_FILE = 'analysis_state.json'
 
 def fetch_url_content(url):
-    """Simple fetcher with User-Agent."""
+    """Simple fetcher with User-Agent and timeout."""
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req) as response:
+        with urllib.request.urlopen(req, timeout=15) as response:
             return response.read().decode('utf-8', errors='ignore')
     except Exception as e:
         print(f"⚠️ Fetch failed for {url}: {e}")
         return ""
 
-def fetch_rss_items(url, limit=10, extract_original_url=False):
-    """Parses RSS feed and returns list of items."""
+def fetch_rss_items(url, limit=10, extract_original_url=False, max_retries=3):
+    """Parses RSS feed and returns list of items, with retries."""
+    import time
     import xml.etree.ElementTree as ET
-    items = []
-    try:
-        content = fetch_url_content(url)
-        if not content: return []
-        
-        root = ET.fromstring(content)
-        channel = root.find('channel')
-        if not channel: return []
-        
-        for item in channel.findall('item')[:limit]:
-            title = item.find('title').text if item.find('title') is not None else "No Title"
-            link = item.find('link').text if item.find('link') is not None else "#"
-            desc = item.find('description').text if item.find('description') is not None else ""
+    
+    for attempt in range(max_retries):
+        items = []
+        try:
+            content = fetch_url_content(url)
+            if not content:
+                print(f"   ⚠️ RSS Parse Warning for {url}: Empty content (Attempt {attempt+1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    time.sleep(5)
+                continue
             
-            # For Techmeme: extract the original article URL from the description HTML
-            original_url = link
-            if extract_original_url and desc:
-                import re as _re
-                href_match = _re.search(r'<A\s+HREF="([^"]+)"', desc, _re.IGNORECASE)
-                if href_match:
-                    original_url = href_match.group(1)
+            root = ET.fromstring(content)
+            channel = root.find('channel')
+            if not channel:
+                print(f"   ⚠️ RSS Parse Warning for {url}: No channel found (Attempt {attempt+1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    time.sleep(5)
+                continue
             
-            items.append({
-                "title_en": title,
-                "url": original_url,
-                "summary_en": desc[:200] + "..." if desc else ""
-            })
-    except Exception as e:
-        print(f"   ⚠️ RSS Parse Error for {url}: {e}")
-    return items
+            for item in channel.findall('item')[:limit]:
+                title = item.find('title').text if item.find('title') is not None else "No Title"
+                link = item.find('link').text if item.find('link') is not None else "#"
+                desc = item.find('description').text if item.find('description') is not None else ""
+                
+                # For Techmeme: extract the original article URL from the description HTML
+                original_url = link
+                if extract_original_url and desc:
+                    import re as _re
+                    href_match = _re.search(r'<A\s+HREF="([^"]+)"', desc, _re.IGNORECASE)
+                    if href_match:
+                        original_url = href_match.group(1)
+                
+                items.append({
+                    "title_en": title,
+                    "url": original_url,
+                    "summary_en": desc[:200] + "..." if desc else ""
+                })
+            return items # Successfully fetched and parsed
+            
+        except ET.ParseError as e:
+            print(f"   ⚠️ RSS Parse XML Error for {url}: {e} (Attempt {attempt+1}/{max_retries})")
+            if attempt < max_retries - 1:
+                time.sleep(5)
+        except Exception as e:
+            print(f"   ⚠️ RSS Fetch/Parse Error for {url}: {e} (Attempt {attempt+1}/{max_retries})")
+            if attempt < max_retries - 1:
+                time.sleep(5)
+                
+    print(f"   ❌ Exhausted {max_retries} retries for {url}.")
+    return []
 
 def update_news_headlines():
     """

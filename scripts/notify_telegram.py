@@ -19,7 +19,8 @@ def send_telegram_message(text):
     data = urllib.parse.urlencode({
         "chat_id": CHAT_ID,
         "text": text,
-        "disable_web_page_preview": "true"
+        "disable_web_page_preview": "true",
+        "parse_mode": "Markdown"
     }).encode("utf-8")
     
     try:

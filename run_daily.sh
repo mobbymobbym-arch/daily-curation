@@ -132,7 +132,7 @@ else
 fi
 
 # --- 清理舊 log (保留 30 天) ---
-find "$LOG_DIR" -name "daily_*.log" -mtime +30 -delete 2>/dev/null || true
+find "$LOG_DIR" -name "*.log" -mtime +30 -delete 2>/dev/null || true
 
 echo ""
 echo "========================================"

@@ -146,6 +146,12 @@ def main():
     with open(HTML_PATH, 'r', encoding='utf-8') as f:
         content = f.read()
     
+    start_marker = "<!-- DAILY_NEWS_START -->"
+    end_marker = "<!-- DAILY_NEWS_END -->"
+    if start_marker not in content or end_marker not in content:
+        print("❌ 錯誤：找不到 <!-- DAILY_NEWS_START --> 或 END 標記，為避免破壞版面已中斷渲染！")
+        sys.exit(1)
+        
     pattern = r'(<!-- DAILY_NEWS_START -->)([\s\S]*?)(<!-- DAILY_NEWS_END -->)'
     new_content = re.sub(pattern, full_news_html, content)
     

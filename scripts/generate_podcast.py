@@ -60,6 +60,18 @@ PODCAST_PROMPT = """你是一位頂尖的科技 Podcast 深度分析師與敘事
 """
 
 
+def clean_url(url):
+    """移除 URL 中容易變動的追蹤參數 (如 access_token, utm_*, t, si)"""
+    if not url: return url
+    try:
+        parsed = urllib.parse.urlparse(url)
+        query = urllib.parse.parse_qs(parsed.query)
+        filtered_query = {k: v for k, v in query.items() if not k.startswith('utm_') and k not in ('access_token', 'si', 't')}
+        new_query = urllib.parse.urlencode(filtered_query, doseq=True)
+        return urllib.parse.urlunparse(parsed._replace(query=new_query)).rstrip('/')
+    except:
+        return url.rstrip('/')
+
 def ensure_temp_dir():
     os.makedirs(TEMP_DIR, exist_ok=True)
 
@@ -362,7 +374,8 @@ def main():
         print("範例: python3 scripts/generate_podcast.py 'https://youtube.com/watch?v=xxx'")
         sys.exit(1)
     
-    url = sys.argv[1]
+    raw_url = sys.argv[1]
+    url = clean_url(raw_url)
     publish = "--no-publish" not in sys.argv
     
     print("========================================")
