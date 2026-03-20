@@ -1,4 +1,43 @@
 ========================================
+⏰ Daily Curation 開始: 五  3 20 08:19:11 CST 2026
+========================================
+
+📰 步驟 1/5: 抓取新聞 (Techmeme + WSJ)
+========================================
+🤖 Daily News Curation Automation - 2026-03-20 08:19:11.836317
+========================================
+📰 Updating News Headlines...
+   ▶ Fetching Techmeme...
+/Users/lanreset/daily-curation/scripts/run_daily_news.py:38: DeprecationWarning: Testing an element's truth value will always return True in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+  if not channel: return []
+   ✅ Fetched 15 Techmeme items.
+   ▶ Fetching WSJ Technology...
+   ✅ Fetched 10 WSJ items.
+
+📝 News fetched. Please perform translation before running with --publish.
+   ✅ 新聞抓取完成
+
+🧠 步驟 2/5: 深度分析 (7個 RSS 來源)
+========================================
+🤖 Automated Deep Analysis Generator - 2026-03-20 08:19:14.037168
+========================================
+▶ Polling Stratechery...
+   ✅ No new articles (Matched: Agents Over Bubbles).
+▶ Polling Dwarkesh...
+   ✅ No new articles (Matched: Dylan Patel — Deep dive on the 3 big bottlenecks to scaling AI compute).
+▶ Polling Culpium...
+   ✅ No new articles (Matched: Tracking the AI Compute Rollout With Taiwan Monthly Data).
+▶ Polling SemiAnalysis...
+   ✅ No new articles (Matched: The Great AI Silicon Shortage).
+▶ Polling BigTechnology...
+   ✅ No new articles (Matched: At Nvidia's GTC, Jensen Huang Will Have to Sell AI to an Increasingly Skeptical Public ).
+▶ Polling a16z...
+   🆕 NEW ARTICLE DETECTED: Copper One: The World's Only Autonomy-First Mine & Refinery
+   📥 Fetching full text via Jina...
+   🧠 Sending 27769 chars to AI for Deep Analysis...
+   🚀 啟動 Gemini CLI 進程...
+   📡 已送出請求 (PID: 43557)，等待回應 (上限 120s)...
+========================================
 ⏰ Daily Curation 開始: Fri Mar 20 09:13:06 CST 2026
 ========================================
 
