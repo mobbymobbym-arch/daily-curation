@@ -1,10 +1,10 @@
 ========================================
-⏰ Daily Curation 開始: Fri Mar 20 09:13:06 CST 2026
+⏰ Daily Curation 開始: 五  3 20 09:27:16 CST 2026
 ========================================
 
 📰 步驟 1/5: 抓取新聞 (Techmeme + WSJ)
 ========================================
-🤖 Daily News Curation Automation - 2026-03-20 09:13:06.874577
+🤖 Daily News Curation Automation - 2026-03-20 09:27:17.012917
 ========================================
 📰 Updating News Headlines...
    ▶ Fetching Techmeme...
@@ -19,7 +19,7 @@
 
 🧠 步驟 2/5: 深度分析 (7個 RSS 來源)
 ========================================
-🤖 Automated Deep Analysis Generator - 2026-03-20 09:13:11.104448
+🤖 Automated Deep Analysis Generator - 2026-03-20 09:27:19.157997
 ========================================
 ▶ Polling Stratechery...
    ✅ No new articles (Matched: Agents Over Bubbles).
@@ -32,14 +32,7 @@
 ▶ Polling BigTechnology...
    ✅ No new articles (Matched: At Nvidia's GTC, Jensen Huang Will Have to Sell AI to an Increasingly Skeptical Public ).
 ▶ Polling a16z...
-   🆕 NEW ARTICLE DETECTED: Copper One: The World's Only Autonomy-First Mine & Refinery
-   📥 Fetching full text via Jina...
-   🧠 Sending 27769 chars to AI for Deep Analysis...
-   🚀 啟動 Gemini CLI 進程...
-   📡 已送出請求 (PID: 44499)，等待回應 (上限 120s)...
-   📥 收到回應 (2664 chars)，開始解析...
-   ✅ Analysis successful! (1362 chars)
-   💾 Progress saved.
+   ✅ No new articles (Matched: Copper One: The World's Only Autonomy-First Mine & Refinery).
 ▶ Polling Lenny's Newsletter...
    ✅ No new articles (Matched: How I built LennyRPG).
 
@@ -52,14 +45,14 @@ Successfully restored full content and updated index.html.
 
 🈯️ 步驟 3/5: 翻譯新聞
 ========================================
-🈯️ Automated News Translator - 2026-03-20 09:13:54.176427
+🈯️ Automated News Translator - 2026-03-20 09:27:27.482578
    Batch timeout: 120s, Max Retries: 3
 ========================================
 📰 Found 25 items to translate. Initiating batch request...
    ▶ Attempt 1/3 for batch of 25 items...
    🚀 啟動 Gemini CLI 進程...
-   📡 已送出請求 (PID: 44656)，等待回應 (上限 120s)...
-   📥 收到回應 (5761 chars)，開始解析...
+   📡 已送出請求 (PID: 46957)，等待回應 (上限 120s)...
+   📥 收到回應 (5622 chars)，開始解析...
 ✅ Successfully translated batch.
 
 ✅ Translation complete: 25 translated, 0 skipped (fell back to English).
@@ -67,7 +60,7 @@ Successfully restored full content and updated index.html.
 
 🚀 步驟 4/5: 渲染 + 發布
 ========================================
-🤖 Daily News Curation Automation - 2026-03-20 09:14:18.536989
+🤖 Daily News Curation Automation - 2026-03-20 09:28:05.258547
 ========================================
 ⏭️ Skipping fetch since --publish is active (using existing translations)...
 ✅ Translation quality check passed. Proceeding to publish.
