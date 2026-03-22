@@ -23,7 +23,7 @@ from datetime import datetime
 ssl._create_default_https_context = ssl._create_unverified_context
 
 # --- Configuration ---
-YTDLP_PATH = "/Users/lanreset/.openclaw/workspace/venv/yt-dlp_env/bin/yt-dlp"
+YTDLP_PATH = "yt-dlp"
 JINA_PREFIX = "https://r.jina.ai/"
 PODCAST_JSON = "podcast_data.json"
 TEMP_DIR = "/tmp/podcast_workdir"

@@ -13,7 +13,7 @@ LOG_DIR="$WORK_DIR/logs"
 LOG_FILE="$LOG_DIR/daily_$(date +%Y-%m-%d).log"
 
 # 環境變數
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:/opt/local/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:/opt/homebrew/bin:/usr/local/opt/coreutils/libexec/gnubin:/opt/local/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 export PYTHONUNBUFFERED=1
 

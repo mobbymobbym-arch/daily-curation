@@ -61,6 +61,10 @@ def translate_batch(batch_items, retry_count=0):
         print(f"   📡 已送出請求 (PID: {proc.pid})，等待回應 (上限 {BATCH_TIMEOUT}s)...")
         stdout, stderr = proc.communicate(input=prompt, timeout=BATCH_TIMEOUT)
         print(f"   📥 收到回應 ({len(stdout)} chars)，開始解析...")
+        if proc.returncode not in (0, None):
+            print(f"   ⚠️ Gemini CLI exited with code {proc.returncode}.")
+        if stderr.strip():
+            print(f"   ⚠️ Gemini CLI stderr: {stderr.strip()[:300]}")
 
         try:
             cli_response = json.loads(stdout)
