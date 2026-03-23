@@ -26,6 +26,11 @@ def publish_to_github():
     """自動發布到 GitHub Pages 的核心流程"""
     print("🚀 開始發布更新到網站 (GitHub Pages)...")
     
+    # 0. 先同步遠端進度 (防呆：避免分支衝突)
+    print("🔄 正在同步遠端最新進度...")
+    if not run_command("git pull --rebase --autostash origin main"):
+        print("⚠️ 警告：同步遠端時發生錯誤，可能會影響後續推播。我們仍將嘗試繼續執行。")
+        
     # 1. 將所有修改過的檔案加入暫存區 (打包)
     print("📦 正在打包變更檔案...")
     if not run_command("git add -A"):

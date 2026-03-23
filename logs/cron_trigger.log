@@ -83,3 +83,46 @@ Successfully restored full content and updated index.html.
 🚀 Publishing to GitHub...
 🚀 開始發布更新到網站 (GitHub Pages)...
 📦 正在打包變更檔案...
+📝 正在寫入發布日誌: Auto-update: OpenClaw 自動更新 Podcast 摘要 (2026-03-23 08:01:16)
+⏳ 正在推送到 GitHub，這可能需要幾秒鐘...
+   ▶ Git Push (Attempt 1/3)...
+❌ 執行失敗: git push
+錯誤細節: To https://github.com/mobbymobbym-arch/daily-curation.git
+ ! [rejected]        main -> main (fetch first)
+錯誤: 推送一些引用到 'https://github.com/mobbymobbym-arch/daily-curation.git' 失敗
+提示： 更新被拒絕，因為遠端包含您本機沒有的提交。這通常是因為
+提示： 另一個版本庫有推送更動到同個引用。如果您想要整合遠端更動，
+提示： 請在再次推送前使用「git pull」。詳見「git push --help」中的
+提示： 〈Note about fast-forwards〉小節。
+   ⏳ Retrying in 10 seconds...
+   ▶ Git Push (Attempt 2/3)...
+❌ 執行失敗: git push
+錯誤細節: To https://github.com/mobbymobbym-arch/daily-curation.git
+ ! [rejected]        main -> main (fetch first)
+錯誤: 推送一些引用到 'https://github.com/mobbymobbym-arch/daily-curation.git' 失敗
+提示： 更新被拒絕，因為遠端包含您本機沒有的提交。這通常是因為
+提示： 另一個版本庫有推送更動到同個引用。如果您想要整合遠端更動，
+提示： 請在再次推送前使用「git pull」。詳見「git push --help」中的
+提示： 〈Note about fast-forwards〉小節。
+   ⏳ Retrying in 10 seconds...
+   ▶ Git Push (Attempt 3/3)...
+❌ 執行失敗: git push
+錯誤細節: To https://github.com/mobbymobbym-arch/daily-curation.git
+ ! [rejected]        main -> main (fetch first)
+錯誤: 推送一些引用到 'https://github.com/mobbymobbym-arch/daily-curation.git' 失敗
+提示： 更新被拒絕，因為遠端包含您本機沒有的提交。這通常是因為
+提示： 另一個版本庫有推送更動到同個引用。如果您想要整合遠端更動，
+提示： 請在再次推送前使用「git pull」。詳見「git push --help」中的
+提示： 〈Note about fast-forwards〉小節。
+❌ 經過 3 次嘗試，Git 推送仍然失敗。請檢查網路狀態或 GitHub 權限。
+
+✨ All tasks completed successfully.
+   ✅ 發布完成
+
+📱 步驟 5/5: 發送 Telegram 通知
+✅ Telegram 通知發送成功！
+   ✅ 通知完成
+
+========================================
+✨ Daily Curation 全部完成: 一  3 23 08:01:41 CST 2026
+========================================
