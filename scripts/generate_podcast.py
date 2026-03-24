@@ -478,7 +478,7 @@ def main():
         # Telegram Notification
         try:
             msg = f"🎙️ *Podcast 摘要更新*\n\n標題：{analysis['title']}\n位置：今日廣播精選 (第 {len(all_data['items'])} 篇)"
-            subprocess.run(["python3", "scripts/notify_telegram.py", msg], check=False)
+            subprocess.run(["python3", "scripts/notify_telegram.py", "--status", msg], check=False)
         except Exception:
             pass
     else:
