@@ -1,182 +1,182 @@
 {
-  "fetch_date": "2026-03-23",
+  "fetch_date": "2026-03-24",
   "techmeme": [
     {
-      "title_en": "Sources describe efforts to build and use internal AI tools at Meta, including Mark Zuckerberg building a CEO agent to help him do his job better (Meghan Bobrowsky/Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/ai/mark-zuckerberg-is-building-an-ai-agent-to-help-him-be-ceo-eddab2d5",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/mark-zuckerberg-is-building-an-ai-agent-to-help-him-be-ceo-eddab2d5\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260322/i10.jp...",
-      "title_zh": "消息指出 Meta 內部正開發 AI 工具，祖克柏甚至打造「CEO 代理人」協助處理公務",
-      "summary_zh": "據《華爾街日報》報導，Meta 執行長祖克柏正在開發一個 AI 代理人，旨在協助他更高效地履行執行長職責。Meta 內部正努力構建並使用各類 AI 工具，以加速公司整體的 AI 轉型。"
+      "title_en": "Jury deliberations begin in New Mexico's lawsuit against Meta over children's safety risks, after both sides delivered closing arguments (Morgan Lee/Associated Press)",
+      "url": "https://apnews.com/article/meta-trial-child-sexual-exploitation-5ad9f7bf1ad05bef9d177938e94f0e8b",
+      "summary_en": "<A HREF=\"https://apnews.com/article/meta-trial-child-sexual-exploitation-5ad9f7bf1ad05bef9d177938e94f0e8b\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260323/i42.j...",
+      "title_zh": "新墨西哥州控告 Meta 危害兒童安全訴訟案進入陪審團評議階段",
+      "summary_zh": "在雙方發表結案陳詞後，新墨西哥州控告 Meta 涉嫌危害兒童安全風險的訴訟案已正式進入陪審團評議階段。"
     },
     {
-      "title_en": "Poste Italiane says it will launch a €10.8B cash-and-share offer to fully acquire Telecom Italia; Poste is already Telecom Italia's largest shareholder (Reuters)",
-      "url": "https://www.reuters.com/business/italys-poste-launches-12-bln-cash-and-share-bid-buy-telecom-italia-2026-03-22/",
-      "summary_en": "<A HREF=\"https://www.reuters.com/business/italys-poste-launches-12-bln-cash-and-share-bid-buy-telecom-italia-2026-03-22/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
-      "title_zh": "義大利郵政宣布斥資 108 億歐元，擬全面收購義大利電信",
-      "summary_zh": "義大利郵政（Poste Italiane）宣布將發起一項價值 108 億歐元的現金加股票收購要約，以完全收購義大利電信（Telecom Italia）。義大利郵政目前已是該電信公司的最大股東。"
+      "title_en": "Microsoft hires a group of AI researchers from the Allen Institute for AI, including former CEO Ali Farhadi, who stepped down on March 12 (Todd Bishop/GeekWire)",
+      "url": "https://www.geekwire.com/2026/microsoft-hires-former-ai2-ceo-ali-farhadi-and-key-researchers-for-suleymans-ai-team/",
+      "summary_en": "<A HREF=\"https://www.geekwire.com/2026/microsoft-hires-former-ai2-ceo-ali-farhadi-and-key-researchers-for-suleymans-ai-team/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
+      "title_zh": "微軟挖角 Allen AI 研究所研究團隊，包含甫離職的前執行長 Ali Farhadi",
+      "summary_zh": "微軟聘用了來自 Allen Institute for AI 的一群 AI 研究人員，其中包括於 3 月 12 日卸任的前執行長 Ali Farhadi。"
     },
     {
-      "title_en": "Tencent launches ClawBot, an OpenClaw-based agent integrated into WeChat, letting its 1B+ MAUs send and receive commands to interact with the AI agent via chat (Reuters)",
-      "url": "https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/",
-      "summary_en": "<A HREF=\"https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tec...",
-      "title_zh": "騰訊推出整合至微信的 ClawBot，讓 10 億月活躍用戶透過聊天與 AI 互動",
-      "summary_zh": "騰訊推出基於 OpenClaw 框架的 AI 代理人 ClawBot，並將其深度整合至微信中。這讓超過 10 億的月活躍用戶（MAU）能直接透過聊天界面發送與接收指令，與 AI 進行互動。"
+      "title_en": "The FCC is banning imports of new foreign-made consumer routers over security concerns; China is estimated to control 60%+ of the US market for home routers (David Shepardson/Reuters)",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/fcc-banning-imports-new-chinese-made-routers-citing-security-concerns-2026-03-23/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/sustainability/boards-policy-regulation/fcc-banning-imports-new-chinese-made-routers-citing-security-concerns-2026-03-23/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=...",
+      "title_zh": "出於安全考量，FCC 禁用新型國外製造消費型路由器；中國市佔估逾 60%",
+      "summary_zh": "美國聯邦通信委員會 (FCC) 出於安全疑慮，正禁止進口新型國外製造的消費型路由器；據估計，中國掌控了美國家用路由器市場 60% 以上的份額。"
     },
     {
-      "title_en": "AI tools like Claude Code have transformed coders' lives, and AI labs are now eyeing a bigger goal: automating everyone's lives and winning the non-coder market (Kate Clark/Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/ai/claude-code-cursor-codex-vibe-coding-52750531?st=yaNDog&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/claude-code-cursor-codex-vibe-coding-52750531?st=yaNDog&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tech...",
-      "title_zh": "AI 實驗室將目標轉向非開發者市場，力求自動化大眾的日常生活",
-      "summary_zh": "隨著 Claude Code 等 AI 工具徹底改變了工程師的工作流程，各大 AI 實驗室現在正瞄準更大的目標：將自動化擴展到每個人的日常生活中，爭奪廣大的非程式開發者市場。"
+      "title_en": "A new version of iPhone exploit kit DarkSword has been posted on GitHub; iVerify co-founder Matthias Frielingsdorf says the exploits \"will work out of the box\" (TechCrunch)",
+      "url": "https://techcrunch.com/2026/03/23/someone-has-publicly-leaked-an-exploit-kit-that-can-hack-millions-of-iphones/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/23/someone-has-publicly-leaked-an-exploit-kit-that-can-hack-millions-of-iphones/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
+      "title_zh": "iPhone 漏洞利用套件 DarkSword 新版本於 GitHub 公開，專家稱「開箱即用」",
+      "summary_zh": "iPhone 漏洞利用套件 DarkSword 的新版本已發布在 GitHub 上；iVerify 聯合創始人 Matthias Frielingsdorf 表示，這些漏洞將能「開箱即用」。"
     },
     {
-      "title_en": "A look at Huawei-backed Yuanjie, a maker of photonic chips used in AI data center optical interconnects, whose stock has surged 780% over the past year (Yue Wang/Forbes)",
-      "url": "https://www.forbes.com/sites/ywang/2026/03/20/ai-optics-boom-propels-founder-of-photonic-chip-maker-into-the-billionaire-ranks/",
-      "summary_en": "<A HREF=\"https://www.forbes.com/sites/ywang/2026/03/20/ai-optics-boom-propels-founder-of-photonic-chip-maker-into-the-billionaire-ranks/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http:...",
-      "title_zh": "華為資助的光子晶片商「源杰科技」股價過去一年飆升 780%",
-      "summary_zh": "源杰科技（Yuanjie）專注於生產 AI 資料中心光互連（Optical Interconnects）所使用的光子晶片。在華為的支持與 AI 熱潮推動下，該公司股價在過去一年內暴漲了 780%。"
+      "title_en": "Anthropic rolls out a computer use feature for Claude Cowork and the Claude Code desktop app, in research preview on macOS for Pro and Max subscribers (Blake Stimac/CNET)",
+      "url": "https://www.cnet.com/tech/services-and-software/claude-control-your-computer-to-perform-tasks/",
+      "summary_en": "<A HREF=\"https://www.cnet.com/tech/services-and-software/claude-control-your-computer-to-perform-tasks/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260323/i38.jpg...",
+      "title_zh": "Anthropic 為 Claude Cowork 與 Claude Code 桌面應用推出「電腦使用」功能",
+      "summary_zh": "Anthropic 為 Claude Cowork 與 Claude Code 桌面應用程式推出了「電腦使用 (computer use)」功能，目前正針對 Pro 與 Max 訂閱用戶在 macOS 上進行研究預覽。"
     },
     {
-      "title_en": "A profile of Chinese bitcoin mining company Bitmain, now allied with Eric Trump's American Bitcoin and previously the target of a DHS espionage-risk probe (Ryan Weeks/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/features/2026-03-17/trump-s-son-and-a-mysterious-chinese-crypto-giant-are-in-business-together?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3Mzc5MjQyMywiZXhwIjoxNzc0Mzk3MjIzLCJhcnRpY2xlSWQiOiJUQzI3SzJLR0NURzkwMCIsImJjb25uZWN0SWQiOiJGMTA3Nzk5MEIyMkE0MTk5OEQ5RUU0ODRCMzMwNEZFMyJ9.AnIf4lFEfAZGG2i21w5jyInvdPIZS4msjG8HC0vX-YE",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/features/2026-03-17/trump-s-son-and-a-mysterious-chinese-crypto-giant-are-in-business-together?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJT...",
-      "title_zh": "中國比特幣礦機巨頭比特曼與艾瑞克·川普結盟，曾受美方間諜風險調查",
-      "summary_zh": "彭博社報導，中國比特幣礦機製造商比特曼（Bitmain）現已與艾瑞克·川普的 American Bitcoin 建立合作關係。該公司先前曾是美國國土安全部（DHS）間諜風險調查的目標。"
+      "title_en": "Crunchyroll is investigating a breach after hackers claimed they accessed a support agent's account and stole the personal information of ~6.8M users (Lawrence Abrams/BleepingComputer)",
+      "url": "https://www.bleepingcomputer.com/news/security/crunchyroll-probes-breach-after-hacker-claims-to-steal-68m-users-data/",
+      "summary_en": "<A HREF=\"https://www.bleepingcomputer.com/news/security/crunchyroll-probes-breach-after-hacker-claims-to-steal-68m-users-data/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tech...",
+      "title_zh": "Crunchyroll 調查資安外洩事件，駭客聲稱竊取約 680 萬名用戶個資",
+      "summary_zh": "Crunchyroll 正在調查一起資安外洩事件。先前有駭客聲稱他們入侵了一名支援代理人的帳號，並竊取了約 680 萬名用戶的個人資訊。"
     },
     {
-      "title_en": "An essay on the history, theory, progress, and potential of world models, a prominent theme at Nvidia GTC 2026, co-written by General Intuition CEO Pim de Witte (Not Boring by Packy McCormick)",
-      "url": "https://www.notboring.co/p/world-models",
-      "summary_en": "<A HREF=\"https://www.notboring.co/p/world-models\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260322/i4.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/260322/p4#a26...",
-      "title_zh": "深度探討「世界模型」：Nvidia GTC 2026 的核心主題與未來潛力",
-      "summary_zh": "General Intuition 執行長 Pim de Witte 撰文探討世界模型（World Models）的歷史、理論、進展與潛力。此技術是 Nvidia GTC 2026 大會的亮點之一，被視為 AI 理解物理世界的關鍵。"
+      "title_en": "Drone delivery startup Zipline raised an additional $200M, including from Paradigm, bringing Zipline's Series H, originally announced in January, to $800M (Kirsten Korosec/TechCrunch)",
+      "url": "https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260323/...",
+      "title_zh": "無人機物流新創 Zipline 獲額外 2 億美元融資，H 輪總額達 8 億美元",
+      "summary_zh": "無人機遞送新創公司 Zipline 額外募集了 2 億美元資金（包含來自 Paradigm 的投資），使其原於 1 月宣布的 H 輪融資總額達到 8 億美元。"
     },
     {
-      "title_en": "Elon Musk announces Terafab, an Austin-based project run by Tesla and SpaceX to manufacture robotics, AI, and space data center chips for Tesla, xAI, and SpaceX (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-22/elon-musk-says-tesla-xai-spacex-terafab-to-start-in-austin",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-22/elon-musk-says-tesla-xai-spacex-terafab-to-start-in-austin\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com...",
-      "title_zh": "馬斯克宣布 Terafab 計畫：在奧斯汀為 Tesla、xAI 與 SpaceX 製造專屬晶片",
-      "summary_zh": "馬斯克宣布啟動名為 Terafab 的專案，將由 Tesla 與 SpaceX 在奧斯汀共同營運，旨在生產機器人、AI 以及太空資料中心所需的晶片，供應其旗下的各大企業。"
+      "title_en": "Kalshi announces new guardrails to preemptively block politicians, athletes, and others from trading in their relevant markets (Nathan Bomey/Axios)",
+      "url": "https://www.axios.com/2026/03/23/kalshi-prediction-markets-insider-trading-ban",
+      "summary_en": "<A HREF=\"https://www.axios.com/2026/03/23/kalshi-prediction-markets-insider-trading-ban\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260323/i35.jpg\"></A>\n<P><A HRE...",
+      "title_zh": "Kalshi 宣布新防護機制，預防性禁止政治人物與運動員參與相關市場交易",
+      "summary_zh": "Kalshi 宣布了新的防護措施，預先阻止政治人物、運動員等人士在其相關領域的市場進行交易。"
     },
     {
-      "title_en": "Speaking at a Beijing forum, Tim Cook praised Apple's partners and developers in China, a week after Chinese state media labeled the App Store \"monopolistic\" (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-22/apple-ceo-praises-china-partners-as-beijing-applies-pressure",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-22/apple-ceo-praises-china-partners-as-beijing-applies-pressure\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
-      "title_zh": "庫克在北京論壇稱讚中國合作夥伴，此前中國官媒曾批評 App Store 壟斷",
-      "summary_zh": "Apple 執行長庫克在北京出席論壇時，公開讚揚其在中國的合作夥伴與開發者。就在一週前，中國官方媒體剛抨擊 App Store 涉及壟斷行為，此舉被視為在壓力下的公關應對。"
+      "title_en": "Meta hires the team behind Dreamer, which lets users create AI agents, including Hugo Barra, former Stripe CTO David Singleton, and designer Nicholas Jitkoff (Kurt Wagner/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-23/meta-hires-former-google-stripe-execs-behind-ai-startup-dreamer",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-23/meta-hires-former-google-stripe-execs-behind-ai-startup-dreamer\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
+      "title_zh": "Meta 挖角 AI 代理新創 Dreamer 團隊，包含前 Stripe CTO 與 Hugo Barra",
+      "summary_zh": "Meta 聘用了開發 AI 代理工具 Dreamer 的團隊，成員包括 Hugo Barra、前 Stripe CTO David Singleton 以及設計師 Nicholas Jitkoff。"
     },
     {
-      "title_en": "Cloaked, which offers security and privacy services such as VPNs, raised a $375M Series B in a mix of equity and growth funding, for enterprise expansion (Ivan Mehta/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/19/consumer-focused-privacy-company-cloaked-raises-375m-as-it-expands-to-enterprise/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/19/consumer-focused-privacy-company-cloaked-raises-375m-as-it-expands-to-enterprise/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
-      "title_zh": "隱私服務公司 Cloaked 完成 3.75 億美元 B 輪融資，進軍企業市場",
-      "summary_zh": "提供 VPN 等安全與隱私服務的 Cloaked 完成了 3.75 億美元的 B 輪融資（包含股權與增長資金）。這筆資金將用於推動公司從消費端擴展至企業級服務市場。"
+      "title_en": "The US plans to create a voluntary consortium of countries to invest $4T to secure supply chains for chips, energy, and minerals; the US will contribute $250M (New York Times)",
+      "url": "https://www.nytimes.com/2026/03/23/business/economy/trump-pax-silica-fund.html",
+      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/03/23/business/economy/trump-pax-silica-fund.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260323/i33.jpg\"></A>\n<P><A HRE...",
+      "title_zh": "美國計畫成立各國聯盟投資 4 兆美元，確保晶片、能源與礦產供應鏈安全",
+      "summary_zh": "美國計畫建立一個由各國組成的自願性聯盟，投資 4 兆美元以確保晶片、能源和礦產的供應鏈安全；美國政府將貢獻 2.5 億美元。"
     },
     {
-      "title_en": "Hands-on with Gemini task automation on mobile: it's super impressive despite being very slow and failing at some tasks; it can order food, book Ubers, and more (Allison Johnson/The Verge)",
-      "url": "https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on",
-      "summary_en": "<A HREF=\"https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260321/i13.jpg\"></A>\n<P><A...",
-      "title_zh": "Gemini 行動端自動化實測：雖然反應慢且有失誤，但訂餐叫車功能潛力驚人",
-      "summary_zh": "《The Verge》實測 Gemini 在行動裝置上的任務自動化功能。儘管處理速度緩慢且有部分任務失敗，但它能成功完成訂餐、預約 Uber 等操作，展現了強大的實用性。"
+      "title_en": "Doc: Kalshi and Polymarket CEOs are investing in a VC fund, led by two early Kalshi employees, that is raising up to $35M to back prediction market startups (Ben Weiss/Fortune)",
+      "url": "https://fortune.com/2026/03/23/kalshi-polymarket-5cc-capital-prediction-market-fund-raise/",
+      "summary_en": "<A HREF=\"https://fortune.com/2026/03/23/kalshi-polymarket-5cc-capital-prediction-market-fund-raise/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260323/i32.jpg\"></...",
+      "title_zh": "Kalshi 與 Polymarket 執行長投資風投基金，擬籌集 3,500 萬美元支持預測市場新創",
+      "summary_zh": "文件顯示，Kalshi 和 Polymarket 的執行長正投資一項由兩名 Kalshi 早期員工領銜的風投基金，該基金目標籌集 3,500 萬美元以支持預測市場新創公司。"
     },
     {
-      "title_en": "How gig apps like Kled AI, Silencio, Neon Mobile, and Luel AI pay users for data that AI companies can use to train models, from phone calls to videos of places (Shubham Agarwal/The Guardian)",
-      "url": "https://www.theguardian.com/technology/2026/mar/21/ai-trainers-identity-cost",
-      "summary_en": "<A HREF=\"https://www.theguardian.com/technology/2026/mar/21/ai-trainers-identity-cost\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260321/i12.jpg\"></A>\n<P><A HREF=...",
-      "title_zh": "新型零工 App 興起：向用戶購買通話、影片等數據以訓練 AI 模型",
-      "summary_zh": "如 Kled AI、Silencio 等應用程式正向用戶付費，以獲取從電話內容到場所影片等數據。這些數據隨後被轉售給 AI 公司，用於訓練與優化各種 AI 模型。"
+      "title_en": "Q&A with Jensen Huang, who says \"we've achieved AGI\", on running Nvidia, AI scaling laws, OpenClaw, future of coding, data centers in space, China, and more (Lex Fridman)",
+      "url": "https://lexfridman.com/jensen-huang-transcript",
+      "summary_en": "<A HREF=\"https://lexfridman.com/jensen-huang-transcript\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260323/i31.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/26032...",
+      "title_zh": "黃仁勳訪談：宣稱「已達成 AGI」，談 Nvidia 經營、AI 比例律及太空資料中心",
+      "summary_zh": "黃仁勳在訪談中表示「我們已經實現了 AGI」，並探討了 Nvidia 的經營、AI 比例律 (scaling laws)、OpenClaw、程式開發的未來、太空資料中心以及中國市場等議題。"
     },
     {
-      "title_en": "A look at \"tokenmaxxing\", a status game where employees at a number of companies compete on leaderboards to show how much AI they're using (Kevin Roose/New York Times)",
-      "url": "https://www.nytimes.com/2026/03/20/technology/tokenmaxxing-ai-agents.html?unlocked_article_code=1.UlA.Wda2.-3Rz1wP8LBVw&smid=url-share",
-      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/03/20/technology/tokenmaxxing-ai-agents.html?unlocked_article_code=1.UlA.Wda2.-3Rz1wP8LBVw&smid=url-share\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC...",
-      "title_zh": "矽谷新興地位遊戲「Tokenmaxxing」：員工競爭 AI 使用量以展現競爭力",
-      "summary_zh": "《紐約時報》報導，矽谷出現一種名為「Tokenmaxxing」的現象，員工透過排行榜競爭誰使用的 AI Token 最多，以此作為展現工作量與對新技術掌握度的地位標誌。"
+      "title_en": "Polymarket unveils insider trading rules: no bets on stolen confidential info, illegal tips, or events whose outcomes the user can influence as an insider (Emily Nicolle/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-23/polymarket-implements-new-insider-trading-rules-after-scrutiny",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-23/polymarket-implements-new-insider-trading-rules-after-scrutiny\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
+      "title_zh": "Polymarket 公布內線交易規則：禁止利用竊取資訊或具影響力之身分投注",
+      "summary_zh": "Polymarket 揭曉了內線交易規範：禁止根據竊取的機密資訊、非法消息，或是用戶能以內部人士身分影響結果的事件進行投注。"
     },
     {
-      "title_en": "Social media accounts showing AI-generated women as pro-Trump soldiers, truckers, and cops have gone viral, with thousands appearing to believe they are real (Drew Harwell/Washington Post)",
-      "url": "https://www.washingtonpost.com/technology/2026/03/20/jessica-foster-maga-dream-girl-ai-fake/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzczOTc5MjAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzc1MzYxNTk5LCJpYXQiOjE3NzM5NzkyMDAsImp0aSI6IjQ0ZTc0NDk1LWIyOGItNDg3Mi1iNmY5LWNhZTUzZjVkODIxMiIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjYvMDMvMjAvamVzc2ljYS1mb3N0ZXItbWFnYS1kcmVhbS1naXJsLWFpLWZha2UvIn0.qyuAJD_Tbe4P5Yehe96uhUffZ0SJQX5RRC5PNmqd8iU&itid=gfta",
-      "summary_en": "<A HREF=\"https://www.washingtonpost.com/technology/2026/03/20/jessica-foster-maga-dream-girl-ai-fake/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzczOTc5MjAwLCJpc...",
-      "title_zh": "AI 生成「挺川女性」形象在社群媒體瘋傳，成千上萬網民誤信為真",
-      "summary_zh": "大量由 AI 生成的女性形象（如士兵、卡車司機、警察）在社群平台傳播，宣稱支持川普。這些高度逼真的偽造帳號已吸引數千人按讚評論，許多用戶顯然並未意識到這些人並不存在。"
+      "title_en": "Apple announces WWDC 2026 for June 8-12, which will be an online event free for developers, with an in-person event at Apple Park on June 8 (Juli Clover/MacRumors)",
+      "url": "https://www.macrumors.com/2026/03/23/apple-announces-wwdc-2026-dates/",
+      "summary_en": "<A HREF=\"https://www.macrumors.com/2026/03/23/apple-announces-wwdc-2026-dates/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260323/i29.jpg\"></A>\n<P><A HREF=\"http:/...",
+      "title_zh": "Apple 宣布 WWDC 2026 將於 6 月 8 日至 12 日舉行",
+      "summary_zh": "Apple 宣布 WWDC 2026 將於 6 月 8 日至 12 日以線上形式舉行，開發者可免費參加，並將於 6 月 8 日在 Apple Park 舉辦實體特別活動。"
     },
     {
-      "title_en": "Sources: advertisers that bought ChatGPT's first ad campaigns say the process was low tech and that they haven't received much data showing if their ads worked (Catherine Perloff/The Information)",
-      "url": "https://www.theinformation.com/articles/openais-first-advertisers-prove-chatgpt-ads-work",
-      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/openais-first-advertisers-prove-chatgpt-ads-work\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260321/i9.jpg\"></A>\n...",
-      "title_zh": "首批 ChatGPT 廣告商反應不佳：數據透明度低且技術含量不足",
-      "summary_zh": "消息指出，參與 ChatGPT 首波廣告投放的廣告商表示，投放過程相當原始且缺乏科技感，且目前收到的數據無法證明其廣告投放是否真的產生了預期效果。"
+      "title_en": "Sources: Apple is preparing to introduce ads in its Maps app, allowing retailers and brands to bid for ad slots against search queries (Mark Gurman/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-23/apple-is-set-to-add-search-advertising-to-maps-in-services-push",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-23/apple-is-set-to-add-search-advertising-to-maps-in-services-push\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
+      "title_zh": "消息指 Apple 準備在地圖 App 導入廣告，允許品牌競標搜尋關鍵字版位",
+      "summary_zh": "消息來源指出，Apple 正準備在其地圖應用程式中引入廣告，允許零售商和品牌針對搜尋查詢競標廣告位。"
     }
   ],
   "wsj": [
     {
-      "title_en": "Mark Zuckerberg Is Building an AI Agent to Help Him Be CEO",
-      "url": "https://www.wsj.com/tech/ai/mark-zuckerberg-is-building-an-ai-agent-to-help-him-be-ceo-eddab2d5?mod=rss_Technology",
-      "summary_en": "The Meta Platforms chief uses the tool to get information faster as the company seeks to embrace artificial intelligence in all it does....",
-      "title_zh": "祖克柏正打造 AI 代理人協助其擔任執行長職務",
-      "summary_zh": "Meta 執行長正利用該工具更快速地獲取資訊，目前公司正致力於將人工智慧整合到所有的業務環節中。"
+      "title_en": "OnlyFans Owner Leo Radvinsky Dies at 43",
+      "url": "https://www.wsj.com/tech/onlyfans-owner-leo-radvinsky-dies-at-43-81424afc?mod=rss_Technology",
+      "summary_en": "The reclusive executive built the subscription service into an adult-content powerhouse....",
+      "title_zh": "OnlyFans 負責人 Leo Radvinsky 逝世，享年 43 歲",
+      "summary_zh": "這位作風低調的高階主管將這項訂閱服務打造為成人內容領域的強大平台。"
     },
     {
-      "title_en": "Activist Elliott Builds Big Stake in Chip-Design Software Maker Synopsys",
-      "url": "https://www.wsj.com/business/deals/activist-elliott-builds-big-stake-in-chip-design-software-maker-synopsys-4bf88127?mod=rss_Technology",
-      "summary_en": "Elliott plans to engage with Synopsys to push the business to make more money from its software and services, according to people familiar with the matter....",
-      "title_zh": "維權投資機構 Elliott 大量持股晶片設計軟體商 Synopsys",
-      "summary_zh": "據知情人士透露，Elliott 計畫與 Synopsys 接涉，推動該公司提高其軟體與服務的獲利能力。"
+      "title_en": "OpenAI Taps Former Meta Executive to Lead Ad Push",
+      "url": "https://www.wsj.com/tech/ai/openai-taps-former-meta-executive-to-lead-ad-push-60d39af2?mod=rss_Technology",
+      "summary_en": "Dave Dugan is joining the AI company, which is seeking stronger ties to brands in an effort to boost its nascent ad business....",
+      "title_zh": "OpenAI 挖角前 Meta 高層領導廣告業務推廣",
+      "summary_zh": "Dave Dugan 加入了這家 AI 公司，OpenAI 正尋求與品牌建立更緊密的聯繫，以推動其初期的廣告業務發展。"
+    },
+    {
+      "title_en": "The Veteran Podcasters Hanging Up Their Headphones",
+      "url": "https://www.wsj.com/business/media/the-veteran-podcasters-hanging-up-their-headphones-0b1070e1?mod=rss_Technology",
+      "summary_en": "Podcasts can run forever, but some hosts are bowing out as celebrities and YouTube dominate the industry....",
+      "title_zh": "資深 Podcast 主持人告別舞台",
+      "summary_zh": "雖然 Podcast 可以永久運行，但在名人與 YouTube 主導行業的趨勢下，部分資深主持人選擇退出。"
+    },
+    {
+      "title_en": "Companies Aren’t Ripping Out Business Software for AI. Here’s What They’re Doing Instead.",
+      "url": "https://www.wsj.com/tech/ai/companies-arent-ripping-out-business-software-for-ai-heres-what-theyre-doing-instead-793c3a37?mod=rss_Technology",
+      "summary_en": "Tech leaders at large corporations say that, for now, they’re vibe-coding their own small, custom apps, and putting pressure on their software vendors....",
+      "title_zh": "企業並未因 AI 而汰換商業軟體，而是選擇開發自訂應用程式",
+      "summary_zh": "大型企業的技術負責人表示，目前他們正自行開發小型自定義應用程式（Vibe-coding），並向軟體供應商施壓，而非直接替換現有軟體。"
+    },
+    {
+      "title_en": "Ads Are Popping Up on the Fridge and It Isn’t Going Over Well",
+      "url": "https://www.wsj.com/lifestyle/samsung-refrigerator-ads-lg-whirlpool-ge-10ea7bcc?mod=rss_Technology",
+      "summary_en": "Some Americans have been taken aback by marketing messages on the door of certain Samsung appliances....",
+      "title_zh": "冰箱螢幕出現廣告引發用戶反彈",
+      "summary_zh": "部分美國消費者對於三星特定家電門上的行銷訊息感到驚訝與不滿。"
     },
     {
       "title_en": "Tesla, SpaceX Plan to Build New Chip Factory in Texas",
       "url": "https://www.wsj.com/tech/tesla-spacex-plan-to-build-new-chip-factory-in-texas-4dfb9a46?mod=rss_Technology",
       "summary_en": "Elon Musk, who leads both companies, said the facility would supply chips for Tesla vehicles and SpaceX satellites....",
-      "title_zh": "Tesla 與 SpaceX 計畫在德州興建全新晶片工廠",
-      "summary_zh": "同時領導這兩家公司的馬斯克表示，該設施將供應晶片給 Tesla 電動車以及 SpaceX 的衛星系統。"
+      "title_zh": "Tesla 與 SpaceX 計畫在德州建設新晶片工廠",
+      "summary_zh": "同時領導這兩家公司的 Elon Musk 表示，該設施將為 Tesla 車輛和 SpaceX 衛星提供晶片。"
+    },
+    {
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-f6457a6a?mod=rss_Technology",
+      "summary_en": "Find insight on OpenAI, Microsoft and more in the latest Market Talks covering Technology, Media and Telecom....",
+      "title_zh": "科技、媒體與電信市場綜述",
+      "summary_zh": "在最新的市場談話中，獲取關於 OpenAI、微軟等在科技、媒體和電信領域的深入見解。"
+    },
+    {
+      "title_en": "Nvidia, Emerald AI Partner With Power Companies on New AI Factories",
+      "url": "https://www.wsj.com/tech/ai/nvidia-emerald-ai-partner-with-power-companies-on-new-ai-factories-107d61cc?mod=rss_Technology",
+      "summary_en": "The facilities will operate as flexible energy assets, supporting power grids by modulating consumption and leveraging on-site generation and storage....",
+      "title_zh": "Nvidia 與 Emerald AI 攜手電力公司打造新型 AI 工廠",
+      "summary_zh": "這些設施將作為靈活的能源資產運作，透過調節耗電量並利用現場發電與儲能，為電網提供支援。"
+    },
+    {
+      "title_en": "Mark Zuckerberg Is Building an AI Agent to Help Him Be CEO",
+      "url": "https://www.wsj.com/tech/ai/mark-zuckerberg-is-building-an-ai-agent-to-help-him-be-ceo-eddab2d5?mod=rss_Technology",
+      "summary_en": "The Meta Platforms chief uses the tool to get information faster as the company seeks to embrace artificial intelligence in all it does....",
+      "title_zh": "Mark Zuckerberg 打造 AI 代理協助執行長職務",
+      "summary_zh": "Meta Platforms 執行長利用該工具更快速地獲取資訊，這也是該公司致力於將人工智慧融入各項業務的一環。"
     },
     {
       "title_en": "AI Is Rewriting the Old Rules of Google Search and SEO",
       "url": "https://www.wsj.com/tech/ai/google-search-seo-ai-tactics-5efb9f99?mod=rss_Technology",
       "summary_en": "Winning the search war now depends less on keywords and more on what strangers are saying about you on Reddit....",
-      "title_zh": "AI 正在重寫 Google 搜尋與 SEO 的舊有規則",
-      "summary_zh": "贏得搜尋引擎戰爭的關鍵，現在已逐漸從關鍵字轉向陌生人在 Reddit 等社群平台上對你的評價。"
-    },
-    {
-      "title_en": "Chatbot Makers Try Sex Appeal",
-      "url": "https://www.wsj.com/tech/ai/chatbot-makers-try-sex-appeal-f10c6263?mod=rss_Technology",
-      "summary_en": "Plus, why we believe AI is actually thinking, phase two of the boom and Bezos’s $100 billion fundraising effort....",
-      "title_zh": "聊天機器人開發商嘗試加入「性感」元素吸客",
-      "summary_zh": "除了 AI 情感化趨勢，本篇亦探討為何我們相信 AI 具備思考能力、科技泡沫的第二階段，以及貝佐斯的千億美元募資計畫。"
-    },
-    {
-      "title_en": "This Time, the Hype Around Self-Driving Cars Feels Real",
-      "url": "https://www.wsj.com/tech/this-time-the-hype-around-self-driving-cars-feels-real-e37f2e7f?mod=rss_Technology",
-      "summary_en": "A new excitement is building for autonomous vehicles to become mainstream....",
-      "title_zh": "這一次，自動駕駛車的熱潮感覺觸手可及",
-      "summary_zh": "對於自動駕駛車輛成為主流交通工具，市場正湧現一股全新的期待與興奮感。"
-    },
-    {
-      "title_en": "What Young Workers Are Doing to AI-Proof Themselves",
-      "url": "https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284?mod=rss_Technology",
-      "summary_en": "They’ve got their whole careers ahead of them, and they’re navigating a technology with a still-uncertain impact....",
-      "title_zh": "年輕員工如何採取行動讓自己「免受 AI 衝擊」",
-      "summary_zh": "職場新人正面臨漫長的職業生涯，並試圖應對這項影響力仍充滿不確定性的新技術。"
-    },
-    {
-      "title_en": "The Silicon Valley Salesman Accused of Helping China Get Nvidia’s Top Chips",
-      "url": "https://www.wsj.com/tech/the-silicon-valley-salesman-accused-of-helping-china-get-nvidias-top-chips-f1ecb1c2?mod=rss_Technology",
-      "summary_en": "A recently unsealed indictment naming Wally Liaw, co-founder of Super Micro Computer, puts the company at the center of the U.S.-China tech war....",
-      "title_zh": "矽谷推銷員被控協助中國獲取 Nvidia 高階晶片",
-      "summary_zh": "近期公開的起訴書點名美超微（Super Micro）共同創辦人 Wally Liaw，使該公司捲入美中科技戰的核心。"
-    },
-    {
-      "title_en": "How I Stop AI From Telling Me What I Want to Hear",
-      "url": "https://www.wsj.com/tech/ai/ai-chatbot-sycophancy-tactics-87a9981e?mod=rss_Technology",
-      "summary_en": "Chatbot sycophancy may make us feel good. But it creates all sorts of problems....",
-      "title_zh": "我如何阻止 AI 總是對我百依百順、投其所好",
-      "summary_zh": "聊天機器人的「諂媚（Sycophancy）」行為雖然讓我們感覺良好，但卻會產生各種誤導性的問題。"
-    },
-    {
-      "title_en": "The Trillion Dollar Race to Automate Our Entire Lives",
-      "url": "https://www.wsj.com/tech/ai/claude-code-cursor-codex-vibe-coding-52750531?mod=rss_Technology",
-      "summary_en": "The AI sprint is hurtling toward a world where anyone can build personal concierges to do everything from executive presentations to March Madness brackets....",
-      "title_zh": "兆元規模的競賽：自動化我們的整個生活",
-      "summary_zh": "AI 競賽正全速衝向一個任何人都能建立「個人數位管家」的世界，協助處理從高管簡報到運動賽事預測的一切事務。"
+      "title_zh": "AI 正在重寫 Google 搜尋與 SEO 的舊規則",
+      "summary_zh": "現在贏得搜尋大戰的關鍵，不再僅取決於關鍵字，而更多在於陌生人在 Reddit 上對你的評價。"
     }
   ],
   "deep_analysis": {
@@ -225,36 +225,36 @@
       ]
     },
     "BigTechnology": {
-      "title": "Nvidia GTC 大會：黃仁勳如何應對公眾對 AI 益發嚴重的懷疑論 (At Nvidia's GTC, Jensen Huang Will Have to Sell AI to an Increasingly Skeptical Public)",
+      "title": "Anthropic Takes The Pentagon To Court This Week. Here’s What Could Happen. / Anthropic 本週將五角大廈告上法庭：AI 安全邊界與國家權力的憲政對決",
       "source": "Big Technology",
-      "url": "https://www.bigtechnology.com/p/at-nvidias-gtc-jensen-huang-will",
-      "analysis_zh": "本文源自知名科技媒體《Big Technology》，由資深科技記者 Alex Kantrowitz 撰寫。Kantrowitz 擅長剖析矽谷權力架構與科技巨頭的戰略演變，在本文中，他精準捕捉到了 Nvidia 執行長黃仁勳在 2026 年 GTC 大會面臨的關鍵轉型：從一名單純的技術供應商，轉變為必須捍衛 AI 合法性的「政治說客」。文章核心指出，隨著公眾對 AI 基礎設施建設的抗拒升溫，Nvidia 的增長已不再僅取決於技術研發，更取決於社會對其「AI 工廠」的接受度。\n\n### 戰略背景與脈絡\n在過去兩年中，AI 被視為純粹的效率增益與未來希望，但進入 2026 年，公眾的情緒已發生劇烈震盪。根據 NBC、YouGov 與 Pew 的多項民調顯示，多數美國人認為 AI 的風險大於收益，且高度擔憂數據中心對環境、電費以及生活品質的負面影響。Nvidia 的戰略核心在於持續擴建數據中心——黃仁勳稱之為「AI 工廠」。然而，當這類基礎設施從雲端概念落地為各州具體的變電站、冷卻塔與土地徵收時，社會的「鄰避效應」已成定局。Nvidia 的營收天花板，正從晶片產能轉移到公眾與地方政府的准照發放。因此，今年的 GTC 大會不僅是一場產品發佈會，更是一場關於「AI 存在價值」的公關防衛戰。\n\n### 作者的核心推演與論點\n作者 Kantrowitz 觀察到，黃仁勳近期已開始調整其敘事框架，試圖將 AI 與底層勞工利益掛鉤。黃仁勳在其親自撰寫的部落格中，將 AI 基礎設施的建設描繪為龐大的就業創造引擎，強調這不僅是工程師的遊戲，更需要電工、水管工、鋼鐵工與電訊技術人員。這種策略顯然是為了爭取傳統工業界與政界的支持，緩解大眾對「AI 取代人類工作」的焦慮。此外，黃仁勳將 AI 在醫療（特別是放射科）的應用作為道德制高點，試圖論證 AI 能提升生產力而非消滅職位，使醫院能服務更多患者。\n\n然而，Kantrowitz 隨即引用了數據中心面臨的嚴峻現實：全美約三分之一的中心集中在維吉尼亞、德州與加州，而這些地區已開始出現監管反撲。約有 12 個州正考慮或已提出法案，要求對數據中心進行能耗、就業貢獻的嚴格審查，甚至暫停建設。如果黃仁勳無法說服大眾「產能等於增長」，那麼 Nvidia 預計今年上線的數據中心中，將有一半面臨延遲，這將直接衝擊其營收預測。\n\n### 對整體市場與技術發展的長期影響\n從長遠來看，這標誌著 AI 產業已進入「社會成本內部化」的階段。Meta 計劃到 2028 年投入 6000 億美元建設數據中心，這導致其不得不進行大規模裁員以抵消支出；Anthropic 則因供應鏈風險被政府標記而陷入官司。這些跡象表明，AI 的擴張已從「技術競賽」轉向「資源與合規競賽」。\n\n如果公眾對 AI 的懷疑持續發酵，我們將看到 AI 發展的分裂：一方面是頂尖技術的持續迭代（如 OpenAI 或 Google 的新功能），另一方面則是基礎設施建設的全面放緩。未來，科技巨頭的競爭優勢將不再僅僅是算法，而是誰能更有效地與地緣政治、能源供應鏈以及公眾輿論達成妥協。黃仁勳在 GTC 的演說，預示了矽谷領袖必須具備的新技能：在推廣技術之餘，更要學會如何在一個資源受限且充滿懷疑的世界中，為其宏大的建設藍圖尋求政治上的認可。",
+      "url": "https://www.bigtechnology.com/p/anthropic-takes-the-pentagon-to-court",
+      "analysis_zh": "本文源自知名科技媒體《Big Technology》，由資深科技記者 Alex Kantrowitz 撰寫。Alex Kantrowitz 是一位長期關注矽谷權力動態與科技巨頭決策邏輯的評論家，擅長挖掘技術背後的政治與商業博弈。本文深度解析了 Anthropic 因拒絕將其 Claude 模型用於國內監視或自主戰爭，進而遭美國政府列入供應鏈風險名單並剔除出聯邦採購體系後，雙方即將展開的法律攻防戰，並點出這場官司將如何定義未來 AI 公司與國家機器之間的邊界。\n\n### 戰略背景與脈絡\n這場法律戰的爆發並非偶然，而是「安全優先」的 AI 研發理念與「國家安全至上」的行政干預之間長期張力的總爆發。Anthropic 自成立以來便以 AI 安全（AI Safety）為核心護城河，其「憲法 AI」（Constitutional AI）框架本質上是為了賦予模型明確的道德與行為準則。然而，當川普政府試圖將 AI 技術全面武器化，並要求供應商必須滿足「任何合法政府用途」時，Anthropic 的堅持便成了政府眼中的「阻礙」。\n\n政府採取的手段極具殺傷力：直接將其列為「供應鏈風險」。這本是針對華為等敵對外國勢力的法律工具，如今被用在美國本土最具代表性的 AI 新創公司身上，象徵著行政權力的擴張與武器化。這不僅是合約糾紛，更是一場關於 AI 治理權的爭奪戰。政府試圖透過採購條款，迫使企業廢除其安全與隱私協議，這對以「信賴」為商業基礎的 AI 公司而言，無疑是毀滅性的打擊。\n\n### 作者的核心推演與論點\nAlex Kantrowitz 透過對法庭文件與專家證詞的分析，推演出 Anthropic 的四大抗辯支柱。首先是憲法第一修正案的保護，Anthropic 主張拒絕提供模型用於監視與戰爭屬於「受保護的言論」，這與《Moody v. NetChoice》案中保護科技公司編輯權的邏輯一致。其次是正當法律程序的缺失，政府在未經充分通知與辯論的情況下將其黑名單化，涉嫌違反第五修正案。\n\n更深層的論點在於行政權力的越權。國防部長 Pete Hegseth 被指控濫用專為外國對手設計的法律來針對本土企業，且行動具有高度隨意性。作者敏銳地觀察到，這場官司的勝負關鍵在於法院如何界定「技術安全性」：政府將其視為一種「商業行為」或「潛在安全漏洞」（認為 Anthropic 對模型的控制權可能干擾軍事行動），而 Anthropic 與 Google 首席科學家 Jeff Dean 等頂尖專家則認為，安全防護是技術上的必要性而非政治意識形態。如果法院判定 AI 護欄屬於企業的「言論自由」或「技術誠信」，這將大幅削弱政府干預 AI 發展的法律基礎。\n\n### 對整體市場、技術發展與地緣政治的長期影響\n這場訴訟的結果將成為 AI 工業史上最重要的判例之一。若 Anthropic 獲勝，這將確立 AI 公司擁有對其模型用途的最終解釋權與編輯權，防止國家權力過度滲透私人技術領域。這有利於維持美國 AI 產業的多樣性，並吸引那些對政府過度監控持保留態度的全球客戶。然而，若政府獲勝，這可能開啟一個「AI 國有化」的隱形時代。所有美國 AI 公司為了生存，都必須將政府的需求（包括監控與武器化）置於其安全協議之上，這可能導致像 OpenAI 這樣積極靠攏軍方的企業在政府市場獲得壟斷地位，同時引發消費市場的大規模反彈（如文中提到的 QuitGPT 運動）。\n\n從地緣政治角度看，這反映出美國在追求 AI 霸權與維護民主價值之間的內在矛盾。當美國政府採取類似其批評的對手的手段，強迫私營企業服從軍事目標時，這將削弱美國 AI 產品在國際市場上的「道德溢價」。長遠來看，這可能迫使全球 AI 研發社群走向更極端的分化：一端是徹底去中心化的開源社群，另一端則是與國家安全機器深度綁定的軍工 AI 複合體。",
       "insights": [
-        "Nvidia 的成長瓶頸已從「晶片效能」轉向「社會執照」，公眾對電費漲價與環境損害的焦慮，比競爭對手更威脅其營收。",
-        "黃仁勳試圖將 AI 基礎設施包裝為「創造傳統藍領職位」的引擎，這是一種巧妙的政治修辭，旨在分化公眾對 AI 威脅論的恐懼。",
-        "數據中心建設的延遲與 Meta 等巨頭的成本壓力，暗示 AI 基礎設施可能正進入「投入產出比」的修正期，技術泡沫的破裂點可能出現在能源與監管的物理邊界。"
+        "政府將針對外國敵對勢力的「供應鏈風險」工具轉向本土 AI 公司，標誌著 AI 治理已進入行政權力武器化的新階段。",
+        "AI 安全護欄（Guardrails）正從技術問題轉化為憲法問題，成為企業維護開發自主權與政府追求戰略控制權的對抗焦點。",
+        "OpenAI 與 Anthropic 在軍事訂單上的分歧，可能導致矽谷 AI 陣營永久性地分裂為「軍工體系」與「獨立治理體系」兩大類別。"
       ]
     },
     "a16z": {
-      "title": "Charts of the Week: Learning to Weld (本週圖表：學習焊接)",
+      "title": "There are only two paths left for software (軟體產業的唯二生路：要麼爆發式增長，要麼極致盈利)",
       "source": "a16z News",
-      "url": "https://www.a16z.news/p/charts-of-the-week-learning-to-weld",
-      "analysis_zh": "這篇由頂尖風險投資機構 a16z 編輯團隊所發布的深度分析報告《本週圖表：學習焊接》（Charts of the Week: Learning to Weld），透過一系列精準的數據圖表，剖析了 2026 年初美國就業市場、AI 基礎建設以及產業結構轉移的底層邏輯。文章開宗明義地挑戰了「AI 是青年失業元兇」的流行敘事，並指出我們正處於一個從純數位勞動力向實體基礎建設復興轉移的關鍵轉折點。\n\n### 戰略背景與脈絡：揭開 AI 導致失業的假象\n在當前的社會輿論中，AI 被視為消滅初級白領職位的洪水猛獸。然而，a16z 的報告指出，雖然大學學歷青年的失業率確實有所惡化，但如果將數據進行細分會發現，非大學學歷青年的就業率也在以同樣的速度下降。由於非大學學歷的職位多涉及零售、餐飲與服務等需要「手腳並用」的實體工作，而 AI 目前尚不具備這些物理操作能力，這說明青年就業難的問題並非 AI 專屬的衝擊。更深層的原因在於人口統計學的結構性變化：2025 年起，勞動力平均年齡出現了異常的跳躍式增長。數據顯示，這種老化並非源於企業偏好資深員工，而是「在崗老化」（Within-occupation aging）——老一代員工選擇延後退休，延長了工作年限。這種「離場機制」的失效，直接導致了初級職位「進場通道」的嚴重阻塞，這才是青年就業困境的結構性真相。\n\n### 作者的核心推演與論點：再工業化的勞動力缺口\n文章進一步推演，雖然白領知識工作職位在減少，但另一個賽道正在瘋狂擴張。受惠於 AI 基礎建設的全球大建設（Data Center build-out），製造業與特殊建築工程（如民用工程、電網升級）的職位需求出現了逆勢增長。a16z 觀察到，雖然住宅建築招聘在下降，但非住宅類型的專業承包商需求卻極度旺盛。根據高盛的預測，為了達成 AI 基礎建設的目標，市場還存在數十萬人的勞動力缺口，尤其是熟練的技工（如焊工、電力工程師）。這引出了一個反直覺的建議：對於掙扎中的年輕人來說，「學習焊接」等藍領技術，可能比追求傳統的知識工作更具備職業安全性。此外，報告也捕捉到了「一人企業」的早期跡象：新企業申請量維持高位，但「具僱傭傾向」的比例卻在下降，企業在科技服務上的支出逐年增加，而薪資支出卻持平甚至下降，顯示出 AI 正在讓「低成本、高槓桿」的單兵作戰模式成為現實。\n\n### 對整體市場與技術發展的長期影響\n這份分析預示了未來五到十年的三個重要趨勢。首先，硬體基礎建設的生命週期比市場預期的更長。儘管如 Michael Burry 等空頭預言 GPU 會迅速貶值，但現實是 B200 等先進算力的需求仍然呈現極度稀缺狀態，這意味著 AI 算力競賽尚未進入泡沫破裂期。其次，全球經濟正在經歷一場「實體復興」，AI 的發展並非完全虛擬化，而是極度依賴物理世界的電力與硬體支撐，這將重新定義技能的價值排序。最後，勞動力市場將加速分化為「高技術槓桿的個體戶」與「實體基礎建設技工」兩大陣營。這種結構性轉變不僅是技術性的，更是地緣政治與經濟安全層面的再工業化布局，企業與個人若無法從傳統白領思維中跳脫，將難以在未來的 AI 時代中找到生態位。",
+      "url": "https://www.a16z.news/p/there-are-only-two-paths-left-for",
+      "analysis_zh": "這篇文章源自矽谷頂尖創投 Andreessen Horowitz (a16z) 的深度洞察，由其合夥人團隊針對當前軟體產業面臨的估值重塑與技術轉型所撰寫。文章開門見山地指出：對於軟體公司的 CEO、創辦人及投資者而言，那段處於「中庸地帶」的舒適期已經徹底結束，隨著公開市場對軟體行業終端價值的重新定價，未來僅剩下兩條具備長期價值創造能力的生存路徑：要麼透過 AI 原生產品實現營收年增率 10% 以上的提速，要麼將包含股權激勵在內的真實經營利潤率提升至 40% 甚至 50% 以上。\n\n首先，在戰略背景與脈絡方面，作者觀察到公開市場正以一種前所未有的嚴苛視角審視軟體業。過去十年，軟體公司往往能在營收增長與獲利能力之間尋求某種妥協，甚至藉由剔除股權激勵（SBC）後的「自由現金流」來美化財務報表。然而，當前市場已經識破這種數字遊戲，對增長放緩且股權稀釋嚴重的公司進行了估值懲罰。AI 的興起不僅是技術挑戰，更是一場對軟體商業模式的結構性衝擊。這意味著，企業若不能在短期內透過 AI 實現爆發式增長，就必須透過 AI 實現極致的成本優化，兩者之間不再有中間地帶，任何試圖維持現狀的「中庸」策略都將導致估值的不斷壓縮。\n\n其次，作者深入推演了第一條路徑：透過 AI 原生產品實現營收年增率 10% 以上的提速。這並非單純在現有產品上疊加聊天機器人介面，而是需要一場「二次創業」般的組織重組。這包括識別出公司內部最具戰鬥力的少數關鍵人才，建立扁平化的「四人作戰小組」（Pod），並將 50% 的研發資源投入到全新的 AI 產品中。更關鍵的是商業模式的範式轉移：從傳統的「席位計費」（Seat-based）轉向「代幣計費」（Token-based）。作者指出，客戶對 AI 的最大訴求是勞動力效率，這直接衝擊了席位制的需求。因此，如果軟體公司不能進入「代幣路徑」——即與自動化產出和消耗掛鉤，將會錯失市場增長最快的部分，陷入增長停滯的泥淖。\n\n第三，對於無法實現增長突圍的公司，路徑二則是邁向「極致利潤」。作者提出了一個極具挑戰性的目標：將包含股權激勵在內的真實經營利潤率提升至 40% 甚至 50% 以上。這需要效仿 Broadcom（博通）執行長 Hock Tan 的模式：大幅削減管理層級、標準化實施流程、取消冗長的委員會制度。AI 在此扮演的角色是生產力的百倍槓桿。頂尖工程師藉由 AI 代理，其產出可能達到傳統模式的 20 倍。在這種情境下，公司不再需要龐大的中層管理，而是由少數高效能人才與 AI 協同驅動。這不僅是財務指標的優化，更是對軟體公司護城河的重新界定，因為傳統的數據與整合壁壘正在被 AI 輕易跨越，極致的效率將成為核心競爭力。\n\n最後，這篇分析對整體市場展現了深刻的長期洞察。AI 的介入使得遷移成本降低，介面優勢弱化，這預示著核心業務的定價壓力將隨之而來。未來的軟體業將呈現兩極分化：一端是像初創公司般靈活、不斷開拓 AI 新疆界的增長引擎；另一端則是效率極大化、專注於核心工作流定價權的利潤收割機。作者最後對創辦人提出嚴峻詰問：你的公司在董事會報告的第一頁，究竟選擇了哪條路？這種「二選一」的決策迫切性，將定義未來五年軟體產業的競爭格局，沒有任何中間地帶可以隱身。",
       "insights": [
-        "青年就業難的主因並非 AI 取代白領，而是高齡勞動力延後退休造成的「入行通道阻塞」，勞動力的離場機制失效比技術性失業更具威脅。",
-        "AI 基礎建設引發了「再工業化」浪潮，製造業與專業建築工人的短缺已成為技術發展的瓶頸，實體技能（如焊接、電網維修）的溢價將持續升高。",
-        "新型創業模式已轉向「高科技支出、低人力成本」，數據顯示小微企業傾向於用軟體工具取代薪資支出，預示著「一人巨頭」時代的正式開啟。"
+        "傳統「席位制」定價模式正在因 AI 提升勞動效率而崩潰，未來增長的預算將向「代幣」與「自動化產出」掛鉤的消費模型轉移。",
+        "軟體公司的經營效率目標應設定在「包含股權激勵」後仍能達到 40% 以上的利潤率，否則在資本市場看來僅是在掩蓋稀釋成本的平庸者。",
+        "AI 生產力革命讓「四人精英作戰小組」的產出能取代傳統的十人委員會，這要求企業必須徹底扁平化組織，並將研發重心從邊緣功能修補轉向核心架構的 AI 原生化。"
       ]
     },
     "Lenny's Newsletter": {
-      "title": "影響力的藝術：AI 無法取代的最關鍵技能 (The art of influence: The single most important skill that AI can’t replace)",
-      "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain",
-      "analysis_zh": "本文源自知名產品社群 *Lenny's Newsletter*，作者是現任 Webflow 產品負責人、曾任 Slack 產品長幕僚長的 Jessica Fain。Jessica 憑藉其在 Slack 與 Stewart Butterfield 及多位頂尖產品領袖共事的深厚資歷，深度解析了為何「影響力」是人工智慧時代下唯一且最關鍵的不可替代技能，並為產品經理（PM）提供了一套如何與高階主管溝通的實戰指南。\n\n**戰略背景與脈絡**\n在當前的技術革命中，人工智慧正迅速自動化那些曾被視為高門檻的硬實力，如程式編寫、數據提取與基礎邏輯分析。然而，Jessica 指出，隨著執行成本的下降，組織中真正的瓶頸已從「如何做」轉移到了「做什麼」以及「如何達成共識」。在複雜的組織結構中，即使具備最優秀的數據與技術方案，若無法對齊各方利益並獲取高階主管的信賴，這些提案往往胎死腹中。影響力不再只是一種職場政治技巧，而是一項核心的戰略性生產力，它決定了組織資源的分配效率與轉型速度。當技術門檻降低，組織內部的「溝通與協作摩擦」反而成為制約企業發展的最大變數。\n\n**作者的核心推演與論點**\nJessica Fain 的核心論點建立在對高階主管決策模式的深刻理解之上。首先，她提出了一個極具洞察力的對比：員工通常在進行「局部優化」（Local Maximum），專注於單一產品或指標的提升；而高階主管則必須追求「全局優化」（Global Maximum），這意味著他們必須在相互衝突的部門利益、長期戰略與短期成本之間進行權衡。因此，當主管否決一個看似正確的提案時，往往不是因為他們不了解細節，而是因為該提案在全局視角下與其他更高優先級的目標產生了衝突。\n\n其次，Jessica 形容高階主管的行事曆如同「閃頻燈」（Strobe lights），他們必須在不同背景的會議中高頻切換。在這種情境下，溝通的前 30 秒至關重要。PM 往往花費過多時間鋪陳背景，而高階主管則渴望直接進入決策核心。她建議，有效的影響力並非源於強力的說服，而是源於極度的「好奇心」。當主管提出反對意見時，最有效的武器不是反駁，而是詢問：「這很有趣，是什麼讓你產生這樣的看法？」這種提問能讓 PM 追隨主管的思維脈絡，挖掘出那些基層員工可能忽略的市場信號或戰略考量。此外，她強調了「選項的力量」。提交單一方案往往會強迫主管進行「通過或否決」的二元選擇，這會觸發其防禦性審查。相反，提供三個具備不同成本與收益權衡的選項（如：保守路徑、平衡路徑、冒進路徑），能將主管從審判者的角色轉化為共同解決問題的夥伴。\n\n**對整體市場與技術發展的長期影響**\n隨著生成式 AI 讓技術原型與數據分析變得廉價，未來企業的競爭力將取決於其內部「共識成本」的高低。Jessica Fain 的觀點揭示了一個趨勢：產品經理的角色正在從「規格書撰寫者」演變為「戰略翻譯官」。在技術發展的地緣政治與市場博弈中，能夠理解不同層級激勵機制並進行利益對齊的人才，將成為稀缺的戰略資源。長期來看，這將推動企業組織結構向更扁平、更透明的方向發展。影響力的本質是建立在對齊而非授權之上，這也是 AI 在可預見的未來內，因缺乏人類情感與複雜政治嗅覺而無法跨越的溝通鴻溝。當 AI 解決了執行問題，人類的決策品質與影響力將成為定義領導地位的唯一指標。",
+      "title": "How Microsoft's AI VP Automates Everything with Warp | 微軟 AI 副總裁如何透過 Warp 實現全面自動化",
+      "source": "Lenny's Newsletter (How I AI series)",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-microsofts",
+      "analysis_zh": "本篇文章源自矽谷知名的科技評論與產品管理社群《Lenny's Newsletter》，由 Marco Casalaina 擔任受訪主角。Marco 目前擔任微軟（Microsoft）核心 AI 產品副總裁（VP of Core AI Products），他在科技界以其對 AI 落地應用的深刻洞察而聞名。這篇訪談的核心主旨在於：AI 的真正力量不在於寫一段詩或畫一張圖，而在於如何與命令列介面（CLI）及硬體工具深度結合，轉化為一種能夠即時生成、解決具體任務的「微代理」（Micro-agents）。\n\n### 戰略背景與脈絡\n在當前 AI 發展的戰略轉折點上，我們正從「生成式 AI」邁向「代理式 AI」（Agentic AI）。過去幾十年，軟體業的邏輯是開發具備固定功能的應用程式（Apps），用戶必須學習不同軟體的 GUI（圖形介面）操作邏輯。然而，Marco Casalaina 提出的實踐模式預示了一種全新的範式轉移：軟體功能不再是固化的，而是「流動的」。透過 Warp 這類 AI 賦能的終端機，原本專屬於開發者的命令列（CLI）再次回到了生產力的核心。這不僅是技術的回歸，更是一次效率的飛躍——當 LLM 能夠理解複雜的參數與系統架構時，終端機就變成了最強大的自動化控制中心。這種背景下，微軟作為平台持有者，正在重新定義「作業系統級別」的人機交互方式。\n\n### 作者的核心推演與論點\nMarco 的核心論點可以歸結為以下三個維度：\n\n首先是**「即興代理」（Ad hoc Agents）的概念化**。Marco 定義這些為「為了特定需求而在瞬間產生、不具名且用完即丟的代理」。這與傳統構建永久性自動化工作流的邏輯截然不同。例如，在處理 Azure 雲端權限這種極其繁瑣的任務時，他不需要去寫一段永久的程式碼，而是直接告訴 AI 他想達成的目標，AI 則在終端機中即時組裝出執行邏輯。這種模式模糊了「使用者」與「開發者」的界限，讓即時自動化成為每一位管理者的日常技能。\n\n其次是 **CLI 與 GUI 的效率辯證**。這是一個極具啟發性的戰略推演。Marco 指出，當系統變得極度複雜（如企業級雲端架構）時，設計一個完美的 GUI 幾乎是不可能的，用戶往往會迷失在選單中。然而，AI 與 CLI 的結合創造了一種「語義化介面」。AI 負責處理如 FFmpeg 影片轉碼或 NAPS2 掃描器控制等複雜的底層語法，而用戶只需提供高階意圖。這種「自然語言輸入、命令列輸出」的結構，有效地繞過了 GUI 的設計瓶頸，直接觸達系統核心。\n\n最後是**「硬體自動化」的平民化**。他分享了利用 AI 控制掃描器處理女兒功課的例子。這背後的邏輯是：AI 可以作為一個通用的驅動翻譯層，將那些缺乏現代 UI 的老舊硬體軟體（Legacy software）重新武裝。當我們能用一句話解決掃描、翻頁、合併 PDF 時，這不再只是技術的展現，而是將人類從「與機器的低效對抗」中解放，轉向「高價值活動」（如陪伴與教育）的戰略轉移。\n\n### 對整體市場與技術發展的長期影響\n從長遠來看，Marco 的方法論預示了未來「軟體架構」的解體。未來的 SaaS 可能不再是一個個獨立的視窗，而是一組組可以被 AI 調用的「原子化能力」。這對軟體廠商提出了巨大的挑戰：如果你不具備強大的 API 或 CLI 支援，你的產品將在代理化時代被邊緣化。此外，這將引發「勞動力賦能」的革命。當微軟的副總裁能用微代理處理日常雜事時，這意味著企業內部的管理成本將大幅降低。未來的競爭不在於誰擁有更多的軟體授權，而在於誰能更精準地定義問題，並驅動 AI 代理去操縱現有的工具生態。這是一種「指揮官式」的工作模式，人類負責制定目標，AI 則在底層的命令列世界中完成所有繁瑣的衝鋒陷陣。這場變革將徹底改變我們對「生產力」的定義，讓數位轉型真正從表面的數位化，升華到邏輯層面的全自動化。",
       "insights": [
-        "高階主管與基層員工的衝突多源於「全局最優」與「局部最優」的視角差異，理解主管背後的激勵機制是達成對齊的前提。",
-        "面對主管的反對意見，應將好奇心視為戰略工具，透過追問判斷依據而非強力反駁，來獲取更高層級的隱含資訊。",
-        "提供單一方案會引發防禦性的否決心理，而提供三個具備權衡（Trade-off）的選項，能將決策過程轉化為共同解決問題的協作模式。"
+        "「微代理」的崛起標誌著自動化從「固定工作流」轉向「瞬時隨選邏輯」，使用者不再需要學習複雜的 GUI，而是直接透過語義指令操縱底層 CLI 工具。",
+        "當系統複雜度超過臨界點時，AI + CLI 的效率將全面超越傳統 GUI，因為自然語言是管理多維度、高複雜度系統（如雲端架構）的最優介面。",
+        "AI 在硬體自動化上的潛力被嚴重低估，它能作為「翻譯層」重新活化舊有的硬體工具，將原本繁瑣的手動操作轉化為無感的背景任務，從而釋放人類處理高價值決策的時間。"
       ]
     }
   }
