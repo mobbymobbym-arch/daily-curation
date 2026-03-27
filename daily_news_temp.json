@@ -1,182 +1,182 @@
 {
-  "fetch_date": "2026-03-26",
+  "fetch_date": "2026-03-27",
   "techmeme": [
     {
-      "title_en": "GitHub says it will use Copilot interaction data, including inputs, outputs, and code snippets, to train its AI models starting April 24, unless users opt out (Corbin Davenport/How-To Geek)",
-      "url": "https://www.howtogeek.com/githubs-copilot-will-use-you-as-ai-training-data-but-you-can-opt-out/",
-      "summary_en": "<A HREF=\"https://www.howtogeek.com/githubs-copilot-will-use-you-as-ai-training-data-but-you-can-opt-out/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i43.jp...",
-      "title_zh": "GitHub 表示將從 4 月 24 日起使用 Copilot 互動數據（包括輸入、輸出和程式碼片段）來訓練其 AI 模型，除非用戶選擇退出",
-      "summary_zh": "GitHub 的 Copilot 將使用您的數據進行 AI 訓練，但您可以選擇退出。"
+      "title_en": "A US judge grants Anthropic's request for a preliminary injunction in its suit against the Trump administration over the DOD's decision to blacklist the company (Ashley Capoot/CNBC)",
+      "url": "https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260326/i48.jpg\"></A>\n<P><A HR...",
+      "title_zh": "美國法官准許 Anthropic 的初步禁制令申請，該公司因國防部將其列入黑名單而控告川普政府",
+      "summary_zh": "一名聯邦法官在裁決中表示，政府在 AI 軍事用途的僵局中所採取的措施，似乎旨在「懲罰 Anthropic」。"
     },
     {
-      "title_en": "Google sets a 2029 deadline for its post-quantum cryptography migration, aiming to \"secure the quantum era\" as \"frontiers may be closer than they appear\" (Dan Goodin/Ars Technica)",
-      "url": "https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/",
-      "summary_en": "<A HREF=\"https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
-      "title_zh": "Google 將後量子加密技術遷移期限設定在 2029 年，旨在「確保量子時代的安全」，並稱「前沿可能比看起來更近」",
-      "summary_zh": "Google 將 Q-Day 的預估時間提前至 2029 年，比先前預想的要早得多。"
+      "title_en": "In an interview, David Sacks says he has relinquished his role as AI and crypto czar after using up his time as a special government employee (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/congress-could-pass-ai-standard-in-months-key-trump-aide-says",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-26/congress-could-pass-ai-standard-in-months-key-trump-aide-says\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
+      "title_zh": "David Sacks 在採訪中表示，在特殊政府僱員任期屆滿後，他已卸下 AI 與加密貨幣主管一職",
+      "summary_zh": "David Sacks 曾任川普政府的關鍵幕僚，他表示國會可能在幾個月內通過 AI 標準，而他已完成階段性任務。"
     },
     {
-      "title_en": "Musk's lawyers ask a Delaware judge to step back from cases involving him, after her account \"liked\" a LinkedIn post celebrating his defeat in a California case (Sujeet Indap/Financial Times)",
-      "url": "https://www.ft.com/content/c53cfaa8-8db1-49b1-b877-3ac7b2095966",
-      "summary_en": "<A HREF=\"https://www.ft.com/content/c53cfaa8-8db1-49b1-b877-3ac7b2095966\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i41.jpg\"></A>\n<P><A HREF=\"http://www.t...",
-      "title_zh": "馬斯克的律師要求德拉瓦州法官退出相關案件，因該法官帳號對一則慶祝馬斯克在加州案敗訴的 LinkedIn 貼文「按讚」",
-      "summary_zh": "由於法官在社群媒體上的活動顯示出可能的偏見，馬斯克的法律團隊提出迴避要求。"
+      "title_en": "Sources: Anthropic executives have discussed an IPO as soon as Q4, and bankers vying to take the company public expect it to raise more than $60B (The Information)",
+      "url": "https://www.theinformation.com/articles/anthropic-discusses-going-public-soon-fourth-quarter",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/anthropic-discusses-going-public-soon-fourth-quarter\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260326/i46.jpg\">...",
+      "title_zh": "消息人士：Anthropic 高層已討論最快於第四季 IPO，競爭承銷的銀行家預期其估值將超過 600 億美元",
+      "summary_zh": "Anthropic 正在探討近期上市的可能性，反映出市場對頂尖 AI 實驗室資本化的強烈興趣。"
     },
     {
-      "title_en": "Singapore-based Startale, developer of the Strium blockchain for tokenized securities and JPYSC and USDSC stablecoins, raised a $63M Series A from SBI and Sony (Francisco Rodrigues/CoinDesk)",
-      "url": "https://www.coindesk.com/business/2026/03/25/sbi-sony-back-startale-s-usd63-million-push-to-expand-japan-s-tokenized-finance-stack",
-      "summary_en": "<A HREF=\"https://www.coindesk.com/business/2026/03/25/sbi-sony-back-startale-s-usd63-million-push-to-expand-japan-s-tokenized-finance-stack\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"ht...",
-      "title_zh": "新加坡新創 Startale 為代幣化證券開發商，旗下擁有 Strium 區塊鏈及 JPYSC、USDSC 穩定幣，近日從 SBI 和 Sony 籌得 6,300 萬美元 A 輪融資",
-      "summary_zh": "SBI 與 Sony 支持 Startale 擴展日本代幣化金融技術棧的計畫。"
+      "title_en": "OpenAI has surpassed $100M in annualized revenue from ChatGPT ads, has expanded to 600+ advertisers, and plans to launch self-serve advertiser access in April (Stephanie Palazzolo/The Information)",
+      "url": "http://www.techmeme.com/260326/p45#a260326p45",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260326/p45#a260326p45\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Ste...",
+      "title_zh": "OpenAI 的 ChatGPT 廣告年化營收已超過 1 億美元，廣告商擴展至 600 多家，並計劃於 4 月推出自助廣告服務",
+      "summary_zh": "ChatGPT 的廣告業務成長迅速，顯示 OpenAI 正成功在訂閱模式之外開拓多元化的營收管道。"
     },
     {
-      "title_en": "Source: Meta on Wednesday laid off around 700 employees in the Reality Labs unit, as well as some in recruiting, sales, and Facebook (Eli Tan/New York Times)",
-      "url": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE",
-      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://ww...",
-      "title_zh": "消息來源：Meta 週三在 Reality Labs 部門裁員約 700 人，招聘、銷售及 Facebook 部門亦有部分人員異動",
-      "summary_zh": "Meta 持續調整組織架構，Reality Labs 部門成為本輪裁員的重災區。"
+      "title_en": "Google releases new tools for its Gemini AI assistant that let users upload chat history and context from other AI apps, making it easier to switch from them (Natalie Lung/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/google-gemini-adds-tool-to-make-it-easier-to-switch-from-chatgpt",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-26/google-gemini-adds-tool-to-make-it-easier-to-switch-from-chatgpt\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
+      "title_zh": "Google 為 Gemini AI 助手推出新工具，允許用戶上傳其他 AI 應用的對話紀錄與上下文，降低轉換門檻",
+      "summary_zh": "Google Gemini 加入了新功能，讓使用者能更輕鬆地從 ChatGPT 等競爭平台遷移其對話數據與使用習慣。"
     },
     {
-      "title_en": "Nintendo says new first-party games exclusive to Switch 2 will have different prices for physical and digital versions in the US, beginning in May (Andy Robinson/Video Games Chronicle)",
-      "url": "https://www.videogameschronicle.com/news/nintendo-confirms-its-us-switch-2-games-will-soon-cost-more-as-physical-versions/",
-      "summary_en": "<A HREF=\"https://www.videogameschronicle.com/news/nintendo-confirms-its-us-switch-2-games-will-soon-cost-more-as-physical-versions/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www...",
-      "title_zh": "任天堂表示，自 5 月起 Switch 2 獨佔的首方遊戲在美國的實體版與數位版定價將有所不同",
-      "summary_zh": "任天堂確認美國 Switch 2 遊戲的實體版價格將會調升。"
+      "title_en": "Apple discontinues the Mac Pro and says it has no plans to offer future Mac Pro hardware (Chance Miller/9to5Mac)",
+      "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
+      "summary_en": "<A HREF=\"https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260326/i43.jpg\"></A>\n<P><A HREF=\"http://www.te...",
+      "title_zh": "Apple 停產 Mac Pro，並表示目前沒有推出未來 Mac Pro 硬體的計劃",
+      "summary_zh": "這標誌著 Apple 高階桌上型電腦策略的重大轉變，公司未來可能更專注於 Mac Studio 產品線。"
     },
     {
-      "title_en": "ARC Prize Foundation unveils ARC-AGI-3, an AI benchmark with simple video-game-like scenarios designed to measure on-the-fly reasoning rather than memory recall (Mark Sullivan/Fast Company)",
-      "url": "https://www.fastcompany.com/91515360/arc-prize-foundation-new-ai-benchmark",
-      "summary_en": "<A HREF=\"https://www.fastcompany.com/91515360/arc-prize-foundation-new-ai-benchmark\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i37.jpg\"></A>\n<P><A HREF=\"h...",
-      "title_zh": "ARC Prize 基金會發表 ARC-AGI-3，這是一項具備簡單類電玩情境的 AI 基準測試，旨在衡量即時推理能力而非記憶力",
-      "summary_zh": "新的 AI 基準測試 ARC-AGI-3 著重於測試 AI 的邏輯推理與適應能力，而非單純的資料檢索。"
+      "title_en": "Sources: Apple granted out-of-cycle bonuses worth several hundred thousand dollars to iPhone hardware designers, as OpenAI and others poach its engineers (Mark Gurman/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/apple-gives-iphone-designers-rare-bonuses-to-fight-openai-poaching",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-26/apple-gives-iphone-designers-rare-bonuses-to-fight-openai-poaching\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tech...",
+      "title_zh": "消息人士：由於 OpenAI 等公司挖角工程師，Apple 向 iPhone 硬體設計師發放了價值數十萬美元的特別獎金",
+      "summary_zh": "為了對抗 OpenAI 的挖角行為，Apple 罕見地向 iPhone 設計團隊發放高額獎金，以留住核心硬體人才。"
     },
     {
-      "title_en": "Reddit says it will label automated accounts that provide a service to users and will require accounts suspected of being bots to verify they are human (Sarah Perez/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i36.jpg\"></A>\n<P><A...",
-      "title_zh": "Reddit 表示將標記提供服務的自動化帳號，並要求疑似機器人的帳號進行真人驗證",
-      "summary_zh": "Reddit 加強對機器人帳號的監管，推行新的身份驗證機制以提升平台透明度。"
+      "title_en": "X limits X Pro access to subscribers of the $40/month Premium+ plan without notifying users in advance; it was previously available in the $8/month Premium plan (Juli Clover/MacRumors)",
+      "url": "https://www.macrumors.com/2026/03/26/x-pro-premium-plus-restriction/",
+      "summary_en": "<A HREF=\"https://www.macrumors.com/2026/03/26/x-pro-premium-plus-restriction/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260326/i41.jpg\"></A>\n<P><A HREF=\"http://...",
+      "title_zh": "X 未事先通知即限制 X Pro 僅供每月 40 美元的 Premium+ 訂閱者使用；先前該功能包含在每月 8 美元的方案中",
+      "summary_zh": "X 再次調整其服務階級，將原本屬於中階方案的功能移至最高階訂閱方案，且事前並未告知用戶。"
     },
     {
-      "title_en": "The jury in Los Angeles' social media trial awards the plaintiff $3M in compensatory damages and $3M in punitive damages; Meta will pay 70% and YouTube 30% (New York Times)",
-      "url": "https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html?unlocked_article_code=1.V1A.K3l4.GVlG43Ma5t40&smid=url-share",
-      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html?unlocked_article_code=1.V1A.K3l4.GVlG43Ma5t40&smid=url-share\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\"...",
-      "title_zh": "洛杉磯社群媒體訴訟案陪審團裁定原告獲得 600 萬美元賠償金；Meta 需支付 70%，YouTube 支付 30%",
-      "summary_zh": "社群媒體成癮案判決出爐，科技巨頭需支付補償性與懲罰性損害賠償。"
+      "title_en": "Xona, which aims to build a commercial alternative to GPS by launching a low-Earth orbit satellite constellation, raised a $170M Series C (Sandra Erwin/SpaceNews)",
+      "url": "https://spacenews.com/xona-raises-170-million-for-satellite-navigation-network/",
+      "summary_en": "<A HREF=\"https://spacenews.com/xona-raises-170-million-for-satellite-navigation-network/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260326/i40.jpg\"></A>\n<P><A HR...",
+      "title_zh": "旨在透過低地球軌道衛星群建立 GPS 商業替代方案的 Xona，完成了 1.7 億美元的 C 輪融資",
+      "summary_zh": "Xona 計劃利用這筆資金加速其衛星導航網絡的部署，為導航市場提供更高精度與更具韌性的選擇。"
     },
     {
-      "title_en": "Social media addiction trial: a Los Angeles jury finds Meta and YouTube were negligent and failed to warn users about the dangers of using their platforms (Jonathan Vanian/CNBC)",
-      "url": "https://www.cnbc.com/2026/03/25/meta-youtube-los-angeles-california-verdict.html",
-      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/25/meta-youtube-los-angeles-california-verdict.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i34.jpg\"></A>\n<P><A H...",
-      "title_zh": "社群媒體成癮案：洛杉磯陪審團裁定 Meta 與 YouTube 存在疏忽，未能警告用戶平台成癮的風險",
-      "summary_zh": "法庭認定 Meta 與 YouTube 在預防平台負面影響方面未盡職責。"
+      "title_en": "Meta plans to increase its investment in a data center in El Paso, Texas, to more than $10B, a significant rise from the initial $1.5B commitment (Riley Griffin/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/meta-increases-investment-in-el-paso-data-center-to-10-billion",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-26/meta-increases-investment-in-el-paso-data-center-to-10-billion\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
+      "title_zh": "Meta 計劃將德州艾爾帕索資料中心的投資額增加至 100 億美元以上，遠高於最初承諾的 15 億美元",
+      "summary_zh": "這一巨額投資反映了 Meta 對 AI 資料中心基礎設施的急迫需求，也顯示了其在硬體建設上的長期承諾。"
     },
     {
-      "title_en": "Google launches Lyria 3 Pro music generation model, with better creative control and allowing users to create three-minute tracks, up from Lyria 3's 30 seconds (Ivan Mehta/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i33.jpg\"></A>\n<P...",
-      "title_zh": "Google 推出 Lyria 3 Pro 音樂生成模型，具備更佳的創意控制，並可生成長達三分鐘的音軌",
-      "summary_zh": "Google 升級 Lyria 音樂生成技術，大幅提升音軌長度與用戶的創作主導權。"
+      "title_en": "Netflix raises US prices following a January 2025 hike; standard with ads rises $1 to $8.99/month; standard with no ads and premium rise $2 to $19.99 and $26.99 (Todd Spangler/Variety)",
+      "url": "https://variety.com/2026/tv/news/netflix-raising-prices-second-time-in-a-year-1236700999/",
+      "summary_en": "<A HREF=\"https://variety.com/2026/tv/news/netflix-raising-prices-second-time-in-a-year-1236700999/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260326/i38.jpg\"></A...",
+      "title_zh": "Netflix 在 2025 年 1 月調漲後再次調升美國售價；廣告版標準方案漲至 8.99 美元，高級版漲至 26.99 美元",
+      "summary_zh": "這是 Netflix 一年內第二次調漲價格，反映了影音串流平台在內容成本與獲利壓力下的市場策略。"
     },
     {
-      "title_en": "Sen. Bernie Sanders and Rep. Alexandria Ocasio-Cortez plan to introduce legislation to pause new data center construction until AI safeguards are in place (Maria Curi/Axios)",
-      "url": "https://www.axios.com/2026/03/25/sanders-aoc-data-center-moratorium-bill",
-      "summary_en": "<A HREF=\"https://www.axios.com/2026/03/25/sanders-aoc-data-center-moratorium-bill\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i32.jpg\"></A>\n<P><A HREF=\"htt...",
-      "title_zh": "參議員 Bernie Sanders 與眾議員 AOC 計畫提案立法，暫緩新建數據中心，直到 AI 安全保障措施到位",
-      "summary_zh": "美國進步派議員推動暫停數據中心擴張，呼籲在技術發展的同時必須確保監管到位。"
+      "title_en": "Sources: X let go of 20+ staffers in nontechnical roles ahead of a SpaceX IPO; X staff have been told to focus on growing revenue since xAI brought on a CRO (Wall Street Journal)",
+      "url": "https://www.wsj.com/tech/elon-musks-x-restructures-ahead-of-spacex-ipo-6aab5673",
+      "summary_en": "<A HREF=\"https://www.wsj.com/tech/elon-musks-x-restructures-ahead-of-spacex-ipo-6aab5673\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260326/i37.jpg\"></A>\n<P><A HR...",
+      "title_zh": "消息人士：X 在 SpaceX IPO 前裁撤了 20 多名非技術職位員工；員工被要求在 xAI 聘請 CRO 後專注於增加營收",
+      "summary_zh": "Elon Musk 的 X 公司正進行結構調整以提高利潤，並與其太空探索公司的發展節奏保持一致。"
     },
     {
-      "title_en": "Sources: cloud provider Vultr is seeking to raise $1B+ to expand its AI computing capacity, after raising $333M at a $3.5B valuation in 2024 (The Information)",
-      "url": "https://www.theinformation.com/articles/amd-backed-vultr-seeks-1-billion-ai-cloud-push",
-      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/amd-backed-vultr-seeks-1-billion-ai-cloud-push\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i31.jpg\"></A>\n<...",
-      "title_zh": "消息來源：雲端供應商 Vultr 正尋求籌資超過 10 億美元以擴展 AI 算力",
-      "summary_zh": "在 AMD 支持下，Vultr 積極籌資以強化其在 AI 雲端基礎設施市場的競爭力。"
+      "title_en": "Italy-based Subbyx, which builds infrastructure that lets businesses offer access-based subscriptions, raised a €30M Series A (Tamara Djurickovic/Tech.eu)",
+      "url": "https://tech.eu/2026/03/25/with-eur30m-series-a-subbyx-scales-its-subscription-model-across-europe/",
+      "summary_en": "<A HREF=\"https://tech.eu/2026/03/25/with-eur30m-series-a-subbyx-scales-its-subscription-model-across-europe/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260326/i3...",
+      "title_zh": "總部位於義大利、構建企業訂閱服務基礎設施的 Subbyx，完成了 3,000 萬歐元的 A 輪融資",
+      "summary_zh": "Subbyx 致力於協助企業轉型為「取用導向」的訂閱模式，這筆資金將用於其在歐洲市場的擴張。"
     },
     {
-      "title_en": "Epic Microsystems, which designs power delivery architecture for better thermal and efficiency management of AI data centers, raised a $21M Series A (Chris Metinko/Axios)",
-      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/03/25/chip-epic-microsystems-data-21m",
-      "summary_en": "<A HREF=\"https://www.axios.com/pro/enterprise-software-deals/2026/03/25/chip-epic-microsystems-data-21m\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i30.jpg...",
-      "title_zh": "Epic Microsystems 完成 2,100 萬美元 A 輪融資，其電力傳輸架構可提升 AI 數據中心的散熱與效率",
-      "summary_zh": "專注於解決 AI 數據中心能源與散熱挑戰的新創公司獲得資本青睞。"
+      "title_en": "Fannie Mae will accept crypto-backed mortgages for the first time; Coinbase launches a mortgage product allowing buyers to pledge bitcoin or USDC as collateral (Wall Street Journal)",
+      "url": "https://www.wsj.com/real-estate/fannie-mae-to-accept-crypto-backed-mortgages-for-the-first-time-bfa502c7?st=AF9om9&reflink=desktopwebshare_permalink",
+      "summary_en": "<A HREF=\"https://www.wsj.com/real-estate/fannie-mae-to-accept-crypto-backed-mortgages-for-the-first-time-bfa502c7?st=AF9om9&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALI...",
+      "title_zh": "房地美將首次接受加密貨幣抵押貸款；Coinbase 推出允許買家質押 Bitcoin 或 USDC 作為抵押品的房貸產品",
+      "summary_zh": "這是加密貨幣進入傳統金融體系的里程碑，為買房者提供了利用數位資產獲得傳統貸款的新途徑。"
     },
     {
-      "title_en": "Source: as part of its Google deal, Apple has full access to the Gemini model in its own data centers and can use distillation to produce smaller models (The Information)",
-      "url": "https://www.theinformation.com/articles/apple-can-distill-googles-big-gemini-model",
-      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/apple-can-distill-googles-big-gemini-model\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260325/i29.jpg\"></A>\n<P><A...",
-      "title_zh": "消息來源：根據與 Google 的協議，Apple 可在其數據中心完整訪問 Gemini 模型，並透過模型蒸餾產出輕量化模型",
-      "summary_zh": "Apple 利用 Google 的大型語言模型技術，加速開發自有的小型化 AI 模型。"
+      "title_en": "Sources: Apple plans to open up Siri to run any AI service via App Store apps in iOS 27, dropping ChatGPT as exclusive partner in Apple Intelligence and Siri (Mark Gurman/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http:/...",
+      "title_zh": "消息人士：Apple 計劃在 iOS 27 中開放 Siri 執行任何 AI 服務，不再讓 ChatGPT 獨佔 Apple Intelligence 與 Siri 合作地位",
+      "summary_zh": "Apple 旨在將 Siri 轉變為一個中立的 AI 服務入口，讓使用者能根據需求在 App Store 中選用不同的 AI 助手。"
     }
   ],
   "wsj": [
     {
-      "title_en": "Meta and YouTube Found Negligent in Social-Media Addiction Trial",
-      "url": "https://www.wsj.com/tech/personal-tech/meta-and-youtube-found-negligent-in-social-media-addiction-trial-35b2830d?mod=rss_Technology",
-      "summary_en": "Plus, the White House threatens more attacks if Iran refuses a deal, and driving the wrong car to work here can get you a ticket....",
-      "title_zh": "Meta 與 YouTube 在社群媒體成癮訴訟案中被判定存在疏忽",
-      "summary_zh": "此外，白宮威脅若伊朗拒絕協議將發動更多攻擊，以及開錯車上班可能面臨罰單。"
+      "title_en": "Anthropic Wins Injunction in Court Battle With Trump Administration",
+      "url": "https://www.wsj.com/politics/policy/anthropic-wins-injunction-in-court-battle-with-trump-administration-4cc93351?mod=rss_Technology",
+      "summary_en": "A federal judge said the government’s ‘measures appear designed to punish Anthropic’ in a standoff over military use of A.I....",
+      "title_zh": "Anthropic 在與川普政府的法律戰中贏得初步禁制令",
+      "summary_zh": "一名聯邦法官指出，政府在軍事 A.I. 使用權的爭議中採取的措施，其目的似乎是為了「懲罰 Anthropic」。"
     },
     {
-      "title_en": "Supreme Court Limits Liability for Internet Service Providers",
-      "url": "https://www.wsj.com/us-news/law/supreme-court-limits-liability-for-internet-service-providers-0cabcb46?mod=rss_Technology",
-      "summary_en": "The court ruled that Cox Communications can’t be held liable for knowing its users were downloading and sharing music illegally....",
-      "title_zh": "美國最高法院限制網路服務供應商（ISP）的法律責任",
-      "summary_zh": "法院裁定 Cox Communications 無須對用戶非法下載及分享音樂的行為承擔直接責任。"
+      "title_en": "Elon Musk’s X Restructures Ahead of SpaceX IPO",
+      "url": "https://www.wsj.com/tech/elon-musks-x-restructures-ahead-of-spacex-ipo-6aab5673?mod=rss_Technology",
+      "summary_en": "Redundant roles have been removed as the social-media company tries to boost profit and integrate with Musk’s space-exploration company....",
+      "title_zh": "Elon Musk 的 X 公司在 SpaceX IPO 前進行組織重整",
+      "summary_zh": "該社交媒體公司裁撤了冗餘職位，試圖在提升獲利的同時與 Musk 的太空探索公司進行更深度的整合。"
     },
     {
-      "title_en": "Meta and YouTube Lose Landmark Social-Media Addiction Trial",
-      "url": "https://www.wsj.com/tech/meta-and-youtube-lose-landmark-social-media-trial-33e4c5cb?mod=rss_Technology",
-      "summary_en": "Jurors found the companies were negligent, and the design of their apps caused harm to children....",
-      "title_zh": "Meta 與 YouTube 在具指標意義的社群媒體成癮案中敗訴",
-      "summary_zh": "陪審團認定這些公司的產品設計存在疏忽，對兒童的身心健康造成了傷害。"
+      "title_en": "Sheryl Sandberg’s Lean In Sheds Quarter of Staff, Will Focus on Manosphere Fight",
+      "url": "https://www.wsj.com/business/sheryl-sandbergs-lean-in-sheds-quarter-of-staff-will-focus-on-manosphere-fight-1baf7d84?mod=rss_Technology",
+      "summary_en": "A 25-year-old has taken over as the feminist organization’s CEO as Sandberg re-engages with philanthropic endeavors....",
+      "title_zh": "Sheryl Sandberg 創辦的 Lean In 裁員四分之一，未來將專注於對抗「男權圈」",
+      "summary_zh": "隨著 Sandberg 重新投入慈善事業，一名 25 歲的執行長接手了該女性主義組織，並確立了新的戰略方向。"
     },
     {
-      "title_en": "The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind",
-      "url": "https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54?mod=rss_Technology",
-      "summary_en": "Before artificial intelligence minted billionaires and roiled the stock market, the London startup caught the attention of tech’s biggest names....",
-      "title_zh": "Google 有史以來最成功收購案的內幕：買下 DeepMind 的幕後故事",
-      "summary_zh": "在人工智慧造就億萬富翁並動搖股市之前，這家倫敦新創公司就已引起科技巨頭的競逐。"
+      "title_en": "Arm’s Timing Is Good, but Big Chip Move Now Has to Go Perfectly",
+      "url": "https://www.wsj.com/tech/ai/arms-timing-is-good-but-big-chip-move-now-has-to-go-perfectly-328c52a5?mod=rss_Technology",
+      "summary_en": "The chip designer’s roots in power-friendly CPUs are a major asset, though the stock’s high valuation assumes a lot of success....",
+      "title_zh": "Arm 的時機掌握得宜，但其重大的晶片佈局現在必須執行得完美無缺",
+      "summary_zh": "這家晶片設計公司在低功耗 CPU 領域的根基是其核心資產，但目前的股價高估值預設了其必須在市場取得巨大成功。"
     },
     {
-      "title_en": "How the AI Boom Has Transformed the Chip Industry Into a Market Monster",
-      "url": "https://www.wsj.com/tech/how-the-ai-boom-has-transformed-the-chip-industry-into-a-market-monster-24d6a52a?mod=rss_Technology",
-      "summary_en": "Led by Nvidia, seven of world’s 25 most valuable firms hail from the semiconductor industry....",
-      "title_zh": "AI 熱潮如何將晶片產業轉變為市場巨獸",
-      "summary_zh": "以 Nvidia 為首，全球市值最高的 25 家公司中有 7 家來自半導體產業，顯示硬體力量的崛起。"
+      "title_en": "Meta Is in Risky Legal Territory After Back-to-Back Court Losses",
+      "url": "https://www.wsj.com/tech/do-back-to-back-courtroom-losses-herald-metas-big-tobacco-moment-57e6f227?mod=rss_Technology",
+      "summary_en": "Social-media giants are confronting a potential flood of litigation challenging the design of their products....",
+      "title_zh": "Meta 在連續輸掉官司後，正面臨風險極高的法律境地",
+      "summary_zh": "社交媒體巨頭正迎接可能的海量訴訟，這些行動主要挑戰其產品設計對用戶可能造成的負面影響。"
     },
     {
-      "title_en": "Trump Names Mark Zuckerberg, Larry Ellison and Jensen Huang to Tech Panel",
-      "url": "https://www.wsj.com/politics/policy/trump-to-name-mark-zuckerberg-larry-ellison-and-jensen-huang-to-tech-panel-ded1ec6f?mod=rss_Technology",
-      "summary_en": "The President’s Council of Advisors on Science and Technology is to weigh in on policies affecting the development of AI....",
-      "title_zh": "川普提名祖克柏、拉里·埃里森及黃仁勳加入科技顧問小組",
-      "summary_zh": "總統科學技術顧問委員會將就影響 AI 發展與競爭力的政策提供關鍵建議。"
+      "title_en": "Nvidia-Backed Startup Seeking to Counter Chinese AI Eyes $25 Billion Valuation",
+      "url": "https://www.wsj.com/tech/ai/nvidia-backed-startup-seeking-to-counter-chinese-ai-eyes-25-billion-valuation-3bd8216c?mod=rss_Technology",
+      "summary_en": "Reflection is one of several startups working alongside Nvidia to build powerful, freely available “open-source” AI models....",
+      "title_zh": "Nvidia 支持的初創公司 Reflection 尋求 250 億美元估值，旨在對抗中國 AI",
+      "summary_zh": "Reflection 是數家與 Nvidia 密切合作、致力於構建強大且「開源」AI 模型的公司之一。"
     },
     {
-      "title_en": "SLB, Nvidia Expand Collaboration on AI Use in Energy Industry",
-      "url": "https://www.wsj.com/tech/ai/slb-nvidia-expand-collaboration-on-ai-use-in-energy-industry-a614cedf?mod=rss_Technology",
-      "summary_en": "SLB and Nvidia have expanded the two companies’ collaboration aiming to design and deploy AI infrastructure and models for the energy industry....",
-      "title_zh": "SLB 與 Nvidia 擴大在能源產業使用 AI 的合作",
-      "summary_zh": "SLB 與 Nvidia 深化合作，旨在為能源產業設計並部署專屬的 AI 基礎設施與模型。"
+      "title_en": "FCC Advances Effort to Bring Telecom Call Centers Back to the U.S.",
+      "url": "https://www.wsj.com/business/telecom/fcc-advances-effort-to-bring-telecom-call-centers-back-to-the-u-s-52edf022?mod=rss_Technology",
+      "summary_en": "Analysts said the proposal, aimed to reduce fraud and language barriers, could drive companies toward automation....",
+      "title_zh": "FCC 推動將電信客服中心遷回美國",
+      "summary_zh": "該提案旨在減少詐騙並消除語言障礙，但分析師認為這可能會加速推動企業轉向 AI 自動化技術。"
     },
     {
-      "title_en": "Meta Targets $9 Trillion Valuation With New Executive Incentive Program",
-      "url": "https://www.wsj.com/tech/meta-targets-9-trillion-valuation-with-new-executive-incentive-program-64460862?mod=rss_Technology",
-      "summary_en": "New stock option program could pay some executives hundreds of millions of dollars if they reach aggressive growth targets....",
-      "title_zh": "Meta 透過新的高管激勵計畫瞄準 9 兆美元市值目標",
-      "summary_zh": "新的股票期權計畫規定，若公司達成極具挑戰性的成長目標，部分高管可獲得數億美元獎勵。"
+      "title_en": "China’s MiniMax Wants AI to Be Your New Work ‘Bestie’",
+      "url": "https://www.wsj.com/tech/ai/chinas-minimax-wants-ai-to-be-your-new-work-bestie-ca2083b9?mod=rss_Technology",
+      "summary_en": "As AI models become more capable of completing complex tasks, MiniMax is betting on AI becoming an integral part of workers’ daily lives....",
+      "title_zh": "中國 MiniMax 希望 AI 成為你工作的「好麻吉」",
+      "summary_zh": "隨著 AI 模型處理複雜任務的能力提升，MiniMax 賭注於 AI 將成為勞動者日常生活中不可或缺的一部分。"
     },
     {
-      "title_en": "U.S. Government’s Ban on Anthropic Looks Like Punishment, Judge Says",
-      "url": "https://www.wsj.com/tech/ai/u-s-governments-ban-on-anthropic-looks-like-punishment-attempt-judge-says-2ff98fe3?mod=rss_Technology",
-      "summary_en": "The AI company is challenging its designation as a national security risk by the Pentagon....",
-      "title_zh": "法官：美國政府對 Anthropic 的禁令看起來像是懲罰性措施",
-      "summary_zh": "AI 新創公司 Anthropic 正在挑戰五角大廈將其列為國家安全風險的決定。"
+      "title_en": "The CPU Was Left for Dead by AI. Now AI Is Bringing It Back.",
+      "url": "https://www.wsj.com/tech/ai/cpu-agentic-ai-ca2c5582?mod=rss_Technology",
+      "summary_en": "Arm Holdings foresees significant demand for its chips as swarms of intelligent agents require ever-more processing capacity....",
+      "title_zh": "CPU 曾因 AI 被認為已沒落，現在 AI 正讓它重返舞台",
+      "summary_zh": "Arm 預測其晶片將迎來大量需求，因為日益普及的智慧型 Agent 需要比以往更強大的基礎處理能力。"
     },
     {
-      "title_en": "OpenAI Scraps Sora Video Platform Months After Launch",
-      "url": "https://www.wsj.com/tech/ai/openai-set-to-discontinue-sora-video-platform-app-a82a9e4e?mod=rss_Technology",
-      "summary_en": "The app, released last year, allowed people to insert themselves into famous movie scenes, among other functions....",
-      "title_zh": "OpenAI 在推出數月後決定撤下 Sora 影片平台",
-      "summary_zh": "該 App 去年發布時曾引起轟動，允許用戶將自己置入電影場景中，但現已決定停止營運。"
+      "title_en": "OpenAI Backs New AI Startup Seeking Bot Army Breakthroughs",
+      "url": "https://www.wsj.com/tech/ai/openai-backs-new-ai-startup-seeking-bot-army-breakthroughs-a0b1fedc?mod=rss_Technology",
+      "summary_en": "Isara, founded by a pair of 23-year-old researchers, aims to build software that can coordinate the work of thousands of ‘agents.’...",
+      "title_zh": "OpenAI 支持新的 AI 初創公司，尋求「機器人大軍」的技術突破",
+      "summary_zh": "由兩位年輕研究員創辦的 Isara，目標是開發能協調數千個「Agent」共同運作的軟體架構。"
     }
   ],
   "deep_analysis": {
@@ -236,14 +236,14 @@
       ]
     },
     "a16z": {
-      "title": "Why We Founded Airbase | 為什麼我們創立 Airbase：解決制約未來的無線電頻譜瓶頸",
+      "title": "The Trust Wall: Why AI’s Next Billion Users Will Come Through Trust Networks | 信任之牆：為什麼 AI 的下十億用戶將來自信任網絡",
       "source": "a16z News",
-      "url": "https://www.a16z.news/p/why-we-founded-airbase",
-      "analysis_zh": "本文源自 a16z News，由 Airbase 創始團隊撰寫。Airbase 是一家專注於革新無線電頻譜（RF Spectrum）基礎設施的新創公司，其成員背景極其深厚，涵蓋了 True Anomaly、Planet 與波音（Boeing）等頂尖航太、衛星與國防企業的資深專家。文章核心主旨在於：當前全球依賴的無線電頻譜管理機制正處於一場「慢動作」的危機中，落後的官僚流程與過時的工具已成為限制 5G/6G、衛星互聯網及國防創新的最大瓶頸，而 Airbase 的目標是透過軟體定義的方式，將頻譜從靜態分配轉變為動態流轉的智慧資源。\n\n### 戰略背景與脈絡：隱形的神經系統與「空中房地產」\n\n無線電頻譜是 21 世紀現代社會運作中，最至關重要卻也最被忽視的隱形資源。從智慧型手機與基站的連接、衛星與地面站的數據傳輸，到無人機的遠端操控，頻譜如同數位時代的神經系統。作者將頻譜比喻為一種「空中的房地產系統」，每一種無線信號都必須在特定的頻帶上運行，以避免相互干擾。在美國，這種資源的分配長期由聯邦通信委員會（FCC）與國家電信暨資訊管理局（NTIA）主導。\n\n然而，隨著技術演進，這個系統正逼近臨界點。5G 的普及、即將到來的 6G 時代，以及低軌衛星群（LEO constellations）與自動化系統（如自動駕駛車、工業機器人）的爆發式增長，使得頻譜資源變得前所未有的擁擠。當前最大的矛盾在於：技術創新的速度已經指數級提升，但頻譜分配的管理手段卻仍停留在上世紀 80 年代的思維模式。這種「行政滯後」導致許多領先的技術創新並非死於物理極限，而是死於繁雜的文書作業與僵化的管理體制。\n\n### 核心推演與論點：從靜態公用事業到軟體定義資源\n\nAirbase 團隊基於其在衛星通訊與航太領域的實務經驗，精準地提煉出當前頻譜資源面臨的三大核心挑戰：\n\n首先是「物理性限制與需求爆發」的衝突。頻譜是有限的，傳統做法是不斷縮小單一授權的頻寬或採取「先到先得」，但這在面對現代海量裝置時已無以為繼。Airbase 主張透過智慧化的軟硬體結合，實現頻譜資源的精細化調度。\n\n其次是「資源利用率低下」的結構性問題。目前大量頻譜資源被鎖死在數十年前簽署的靜態授權中，許多頻段在多數時間其實是閒置的，但受限於靜態數據庫與 PDF 格式的陳舊管理工具，這些資源無法流動到有需求的人手中。作者認為，必須用動態的、軟體定義的敏捷性來取代這種行政摩擦。\n\n最後是「國防脆弱性」。在日益緊張的地緣政治環境中，頻譜早已成為關鍵戰場。目前的商用與國防資產若依賴靜態頻譜，極易受到敵對勢力的干擾與攻擊。若缺乏一個即時、智慧的管理層級，美國的關鍵基礎設施將面臨巨大的安全風險。\n\n因此，Airbase 的戰略願景是：頻譜應該是一種「流動」的資源，其分配應由機器在「毫秒」間完成自動協商，而非由人類行政官員耗費數月甚至數年去談判。這代表著一種根本性的典範轉移——將頻譜從「靜態公用事業」轉化為「軟體定義資源」。\n\n### 長期影響：重新定義無線經濟與國家韌性\n\nAirbase 的創立不僅是一家公司的商業佈局，更代表了美國在關鍵基礎設施領域的「數位轉型」深層趨勢。在長期影響方面，這種轉型將直接左右商業太空經濟的競爭力。如果衛星公司能夠即時獲得頻譜協調，將大幅降低其運營成本並縮短部署週期，鞏固美國在太空通訊領域的領先地位。\n\n在技術層面，這預示著「基礎設施軟體化」的全面到來。當無線電物理特性被軟體管理層所包裹，開發者將能以類似於調用雲端 API 的方式來獲取頻寬，這將激發出更多對延遲與頻寬極度敏感的新型應用場景，如遠程手術、大規模無人機物流網等。\n\n在地緣政治與地緣戰略上，具備「軟體定義敏捷性」的頻譜設施將成為國家的核心競爭力。在Contested Environment（受爭議環境）中，能夠快速動態重構、具備抗干擾韌性的頻譜系統，將是決定未來戰爭勝負的關鍵因素。正如作者所言，Airbase 旨在成為連接創新人與監管者的橋樑，確保不論是發射火箭還是部署網路，都不再受限於過時的基礎設施枷鎖。這場隱形基礎設施的變革，將是決定未來十年無線技術與國防安全高度的關鍵戰役。",
+      "url": "https://www.a16z.news/p/the-sovereign-wall-why-ais-next-billion",
+      "analysis_zh": "本文源自 a16z News，作者 Sakina Arsiwala 是一位資深的產品與增長領導者，曾協助 Google 與 YouTube 在全球 21 個國家快速擴張，並擔任過 Twitch 的高階主管；她以其深厚的國際化實戰經驗，深刻剖析了 AI 擴張所面臨的地緣政治與文化挑戰。文章指出，AI 的發展正從初期的「探索者時代」轉向「工具需求者時代」，而決定下一個十億用戶普及度的關鍵，不再是模型參數的競爭，而是如何跨越「信任之牆」。\n\n### 戰略背景與脈絡\nArsiwala 回顧了她在 Google 與 YouTube 時期的全球化歷程，強調「全球化並非產品功能，而是一場地緣政治的談判」。當時，技術的輸出往往會撞上當地的法律、政策與文化敏感度，產生所謂的「信任摩擦」（Trust Friction）。例如在泰國面臨的冒犯君主罪風險，或在巴基斯坦因單一影片引發的全網封鎖，這些都是全球化算法與在地價值觀碰撞的結果。她提出，當前的 AI 景觀正重演這段歷史。早期的 AI 用戶是探索者，他們著迷於「數位煉金術」般的生成能力；但到了 2026 年， campfire 般的探索熱潮正逐漸熄滅，取而代之的是 solo 創業者或在地醫療工作者等「工具需求者」。對這些人而言，AI 必須從「玩具」轉變為「隱形的基礎設施」，而這正是技術跨越鴻溝、進入大眾市場的關鍵時刻。\n\n### 作者的核心推演與論點\n作者的核心邏輯在於：AI 不同於社交平台，它缺乏原生的社交網路效應。在社交平台上，用戶增加會帶動價值提升；但在 AI 領域，模型價值的提升是個人的、工具性的。這導致 AI 無法像社交軟體那樣自動產生信任，必須依賴「導入信任」。Arsiwala 指出，全球 AI 擴張必然會撞上「主權牆」（Sovereign Wall），即國家身分與通用智能的邊界。當前的 Direct-to-Consumer（D2C）路徑在面臨高度摩擦的市場時會顯得異常脆弱，因為用戶採納技術並非直接針對產品，而是透過他們信任的對象。\n\n因此，她提出了「信任經紀人」（Trust Brokers）的概念。YouTube 的成功並非單純因為播放器更好，而是因為它賦能了那些擁有在地信任關係的「身分錨點」（Identity Anchors），如策劃特定內容的粉絲頁或在地創作者。AI 的下一步應該是從「聊天」轉向「代理」（Agents），透過賦能這些信任經紀人來解決「信任延遲」（Trust Latency）。例如，AI 代理不應只是解釋稅務表格，而是要能結合在地 API 完成申報。這種「中介者賦能」模式能將信任成本外包給已在當地支付過「信任稅」的領袖，從而讓 AI 以極低的獲客成本（CAC）實現規模化。\n\n### 對整體市場、技術發展與地緣政治的長期影響\n在長期影響方面，Arsiwala 預見了「主權金庫」（Sovereign Vaults）的崛起。這是一種以居住地為核心、在地化部署的模型實例，存在於國家的數位公共基礎設施（DPI）中。這種架構讓各國能對數據與模型權重擁有控制權，使 AI 從「外來黑箱」轉變為「在地管道」。這不僅提升了技術的「文化彈性」，也讓 AI 企業從對抗監管轉向將監管「產品化」。\n\n未來的 AI 賽道贏家，不會是模型 benchmark 最強的公司，而是最能讓在地教師、會計師或社群領袖能力提升十倍的公司。技術雖然是普世的，但採納卻是在地的。這場競爭的本質已從模型能力轉向了分發效率與信任建構。若 AI 企業堅持 D2C 的全球化幻想，將會像當年的 YouTube 一樣，隨時面臨被地緣政治斷網的風險；唯有成為賦能在地英雄的隱形基礎設施，AI 才能真正跨越主權牆，觸及全球每一個角落。",
       "insights": [
-        "頻譜資源的稀缺性在本質上是一個「管理演算法」落後於「物理需求」的行政瓶頸，而非單純的物理極限。",
-        "未來的基礎設施競爭將從硬體建設轉向「軟體定義能力」，誰能實現毫秒級的頻譜動態協商，誰就掌握了無線經濟的分配權。",
-        "國防安全與電子戰的勝負手不再取決於單純的發射功率，而取決於通訊基礎設施的自動化重構速度與韌性。"
+        "AI 缺乏傳統社交網路效應，信任無法有機生成，必須透過賦能現有的「信任經紀人」（如社群領袖、教師）來導入既有的信任關係。",
+        "「主權牆」的出現意味著 AI 全球化是一場地緣政治談判，未來「主權金庫」將成為國家標配，允許在地化控制同時保留全球模型的通用智能。",
+        "AI 的獲客邏輯將從「直接獲取用戶」轉向「解決信任延遲」，透過 Agent 為在地中介者提供自動化槓桿，讓信任從「負擔」轉化為競爭護城河。"
       ]
     },
     "Lenny's Newsletter": {
