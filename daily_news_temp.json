@@ -1,182 +1,182 @@
 {
-  "fetch_date": "2026-03-29",
+  "fetch_date": "2026-03-30",
   "techmeme": [
+    {
+      "title_en": "Pro-AI group Innovation Council Action, praised by David Sacks, plans to spend $100M+ in the US midterms to drive deregulation and support Trump's AI agenda (Alex Isenstadt/Axios)",
+      "url": "https://www.axios.com/2026/03/29/ai-pac-midterms-trump",
+      "summary_en": "<A HREF=\"https://www.axios.com/2026/03/29/ai-pac-midterms-trump\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260329/i9.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.co...",
+      "title_zh": "受 David Sacks 讚譽的親 AI 團體 Innovation Council Action 計劃在美國期中選舉投入逾 1 億美元，推動去監管化並支持川普的 AI 議程",
+      "summary_zh": "該親 AI 政治行動委員會計劃在期中選舉大舉投資，旨在消除監管障礙，確保美國在 AI 競爭中的領先地位，並與川普政府的技術願景保持一致。"
+    },
+    {
+      "title_en": "A look at Coinbase One and other insurance-like plans for crypto users that typically exclude coverage for many kinds of account hacks, including phishing scams (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-27/crypto-theft-fuels-insurance-boom-but-protections-vary?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NDY4MTI0NCwiZXhwIjoxNzc1Mjg2MDQ0LCJhcnRpY2xlSWQiOiJUQ0syTTRLR0lGWFYwMCIsImJjb25uZWN0SWQiOiIwNEFGQkMxQkYyMTA0NUVEODg3MzQxQkQwQzIyNzRBMCJ9.LM29TpXLuTKp6Rd6fyRI8RYdc5Ay1w9msUECUceppHU",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-27/crypto-theft-fuels-insurance-boom-but-protections-vary?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVk...",
+      "title_zh": "深入探討 Coinbase One 與其他針對加密貨幣用戶的類保險計劃，這些方案通常不包含多種帳戶駭侵，如網路釣魚詐騙",
+      "summary_zh": "隨著加密貨幣竊盜案增加，雖然出現了相關保護方案，但保障範圍差異巨大，許多個人帳戶遭駭的情形往往不在理賠範圍內。"
+    },
+    {
+      "title_en": "Bluesky's CEO talks about Attie, a new agentic social app built on Bluesky's AT Protocol that uses Claude and lets users build custom feeds (Sarah Perez/TechCrunch)",
+      "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260329/i...",
+      "title_zh": "Bluesky 執行長談論 Attie：一款基於 AT Protocol 並結合 Claude AI 的新型 Agent 社群應用，讓用戶可自訂動態消息",
+      "summary_zh": "Bluesky 積極擁抱 AI，推出新工具協助用戶建立自訂的內容流，進一步強化其去中心化社群媒體的願景。"
+    },
+    {
+      "title_en": "Hong Kong-listed AI drug discovery company Insilico Medicine and Eli Lilly sign a drug co-development deal worth up to $2.75B, with $115M in upfront payments (Evelyn Cheng/CNBC)",
+      "url": "https://www.cnbc.com/2026/03/29/eli-lilly-reaches-deal-to-bring-ai-developed-drugs-to-global-market.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/29/eli-lilly-reaches-deal-to-bring-ai-developed-drugs-to-global-market.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2603...",
+      "title_zh": "香港上市 AI 藥物研發公司英矽智能（Insilico Medicine）與禮來（Eli Lilly）簽署高達 27.5 億美元的合作開發協議，首付款 1.15 億美元",
+      "summary_zh": "兩家公司達成重磅交易，旨在將 AI 研發的藥物推向全球市場，顯示出 AI 在生物製藥領域的巨大潛力。"
+    },
+    {
+      "title_en": "An AI-generated TikTok parody of reality series Love Island, called Fruit Love Island, averaged 10M+ views across its first 21 episodes after debuting last week (Isabelle Bousquette/Wall Street Journal)",
+      "url": "https://www.wsj.com/arts-culture/television/fruit-love-island-tiktok-ai-dating-show-45219f6a?st=DSmiW8&reflink=desktopwebshare_permalink",
+      "summary_en": "<A HREF=\"https://www.wsj.com/arts-culture/television/fruit-love-island-tiktok-ai-dating-show-45219f6a?st=DSmiW8&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" S...",
+      "title_zh": "AI 生成的 TikTok 實境秀惡搞節目《水果愛之島》（Fruit Love Island）上週首播，前 21 集平均觀看數破千萬",
+      "summary_zh": "這部以水果為主角的 AI 生成約會實境秀在 TikTok 上爆紅，反映出生成式 AI 在創意內容生產方面的驚人影響力。"
+    },
+    {
+      "title_en": "Q&A with YouTube CEO Neal Mohan on the platform's dominance, its impact on kids, the suspension and reinstatement of Trump's YouTube account, AI slop, and more (Lulu Garcia-Navarro/New York Times)",
+      "url": "https://www.nytimes.com/2026/03/28/magazine/neal-mohan-interview.html?unlocked_article_code=1.W1A.A6ge.M8MZ5N7xQV1T&smid=url-share",
+      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/03/28/magazine/neal-mohan-interview.html?unlocked_article_code=1.W1A.A6ge.M8MZ5N7xQV1T&smid=url-share\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"ht...",
+      "title_zh": "專訪 YouTube 執行長 Neal Mohan：談論平台霸主地位、對兒童的影響、川普帳號停權與恢復，以及 AI 垃圾內容",
+      "summary_zh": "在這場深入訪談中，Mohan 探討了 YouTube 面臨的監管壓力、AI 帶來的內容挑戰，以及在政治兩極化時代如何維護平台準則。"
+    },
+    {
+      "title_en": "Analysis: while social media rewards sensationalism and inflammatory content, LLMs guide people away from extreme positions and towards expert-aligned stances (John Burn-Murdoch/Financial Times)",
+      "url": "http://www.techmeme.com/260329/p3#a260329p3",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260329/p3#a260329p3\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> John ...",
+      "title_zh": "分析：相較於社群媒體推崇煽情與激進內容，大型語言模型（LLM）傾向引導用戶遠離極端立場，轉向與專家一致的觀點",
+      "summary_zh": "數據分析顯示，LLM 在資訊過濾與呈現上可能具有中和社會分歧的作用，與演算法驅動的社群媒體形成鮮明對比。"
+    },
+    {
+      "title_en": "A study of 11 leading LLMs finds the models more agreeable than humans when giving interpersonal advice, affirming users' behavior even when harmful or illegal (Stanford University)",
+      "url": "http://www.techmeme.com/260329/p2#a260329p2",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260329/p2#a260329p2\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> <A HR...",
+      "title_zh": "史丹佛大學研究：11 款領先的 LLM 在提供人際建議時比人類更具「隨和性」，甚至會肯定用戶有害或非法的行為",
+      "summary_zh": "研究發現 AI 模型傾向於迎合用戶，缺乏必要的道德批判與警示，這在人際溝通與心理建議場景中可能構成風險。"
+    },
+    {
+      "title_en": "Vinod Khosla says AI is accelerating a shift of wealth and power away from workers, and an income tax overhaul in the US could offset voter fears about job loss (Financial Times)",
+      "url": "https://www.ft.com/content/7de1d3c5-0d0c-46b1-b2b7-dbf6f5226069?accessToken=zwAAAZ04D7ufkc994dPFDQxGsdOyt9v29SJgaQ.MEQCIDrow90E9uA0_b4q83Lm6fzUF2PSMWr7o61wOyGMLL8AAiBGv65jnVqQRW7M7LXWzQU33AdlEGrO-XiaF-kTyCAMBw&sharetype=gift&token=785e6c3d-1780-4a60-987b-66902a77733d",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/7de1d3c5-0d0c-46b1-b2b7-dbf6f5226069?accessToken=zwAAAZ04D7ufkc994dPFDQxGsdOyt9v29SJgaQ.MEQCIDrow90E9uA0_b4q83Lm6fzUF2PSMWr7o61wOyGMLL8AAiBGv65jnVqQRW7M7LXWzQU33Adl...",
+      "title_zh": "Vinod Khosla 指出 AI 正加速財富與權力從勞工階層流失，美國應透過所得稅改革來緩解選民對失業的恐懼",
+      "summary_zh": "矽谷知名投資人呼籲政府重新審視稅收制度，以因應 AI 自動化帶來的結構性失業與貧富差距擴大問題。"
+    },
+    {
+      "title_en": "Qualified Health, which helps health systems evaluate and adopt AI tools, raised a $125M Series B led by NEA at a valuation of between $500M and $1B (Heather Landi/Fierce Healthcare)",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/qualified-health-locks-125m-fresh-funding-scale-ai-health-systems",
+      "summary_en": "<A HREF=\"https://www.fiercehealthcare.com/ai-and-machine-learning/qualified-health-locks-125m-fresh-funding-scale-ai-health-systems\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www...",
+      "title_zh": "協助醫療系統評估與導入 AI 工具的 Qualified Health 完成 1.25 億美元 B 輪融資，由 NEA 領投，估值達 5 億至 10 億美元",
+      "summary_zh": "隨著醫療機構對 AI 應用的需求激增，Qualified Health 獲得巨額資金以擴大其平台，確保 AI 工具在醫療環境中的安全性與有效性。"
+    },
+    {
+      "title_en": "A look at why Dotcom Bubble comparisons to the AI boom are off, vertical SaaS is up +3% last 12 months vs. horizontal SaaS down 35%, and other reflections on AI (Logan Bartlett/@loganbartlett)",
+      "url": "http://www.techmeme.com/260328/p13#a260328p13",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260328/p13#a260328p13\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Log...",
+      "title_zh": "為何將 AI 浪潮比作網路泡沫並不準確：垂直領域 SaaS 在過去一年增長 3%，而水平領域 SaaS 則下跌 35%",
+      "summary_zh": "投資人 Logan Bartlett 分析了 AI 時代的市場變化，強調具備特定產業深度（垂直領域）的軟體服務在 AI 整合中更具競爭力。"
+    },
     {
       "title_en": "A profile of Mark Lanier, a TX lawyer and part-time pastor who beat Meta and Google in the LA social media case and said Zuckerberg was \"rattled\" on the stand (Wall Street Journal)",
       "url": "https://www.wsj.com/us-news/law/the-texas-lawyer-and-part-time-pastor-who-beat-meta-and-google-82c8521b?st=xcFSP4&reflink=desktopwebshare_permalink",
       "summary_en": "<A HREF=\"https://www.wsj.com/us-news/law/the-texas-lawyer-and-part-time-pastor-who-beat-meta-and-google-82c8521b?st=xcFSP4&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIG...",
-      "title_zh": "德州律師兼兼職牧師 Mark Lanier 在社群媒體案中擊敗 Meta 與 Google，並稱 Zuckerberg 在證人席上「心神不寧」 (華爾街日報)",
-      "summary_zh": "這是一篇關於 Mark Lanier 的人物專訪。這位法律界的奇才在洛杉磯的社群媒體訴訟案中成功對抗科技巨頭，並分享了他對 Zuckerberg 出庭表現的觀察。"
+      "title_zh": "德州律師兼兼職牧師 Mark Lanier 人物誌：他在洛杉磯社群媒體訴訟案中擊敗 Meta 與 Google，稱祖克柏在證人席上感到「不安」",
+      "summary_zh": "Lanier 以其獨特的背景與犀利的辯才，在對抗科技巨頭的法律戰中取得重大勝利，引發業界關注。"
     },
     {
       "title_en": "Report analyzing payments of 28M US consumers shows Claude adding paid subs at a steadily increasing pace; Anthropic: paid subs have more than doubled this year (Julie Bort/TechCrunch)",
       "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
       "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260328/...",
-      "title_zh": "報告顯示 Claude 付費訂閱用戶穩定成長；Anthropic 表示今年付費用戶已增加一倍以上 (Julie Bort/TechCrunch)",
-      "summary_zh": "針對 2,800 萬名美國消費者的支付數據分析顯示，Claude 在付費市場的受歡迎程度正急速上升，反映出其在 AI 助理競爭中的強勁動能。"
+      "title_zh": "針對 2,800 萬名美國消費者的支付報告顯示：Claude 付費訂閱用戶穩定增長；Anthropic 表示今年付費人數已翻倍",
+      "summary_zh": "Anthropic 的 AI 助手 Claude 在市場上的受歡迎程度飆升，顯示出其在生成式 AI 付費服務競爭中正逐漸縮小與領先者的差距。"
     },
     {
       "title_en": "ShinyHunters says it stole 350GB+ of data in a cyberattack on the European Commission, detected on March 24; the EC says its internal systems were not affected (Pierluigi Paganini/Security Affairs)",
       "url": "https://securityaffairs.com/190095/data-breach/shinyhunters-claims-the-hack-of-the-european-commission.html",
       "summary_en": "<A HREF=\"https://securityaffairs.com/190095/data-breach/shinyhunters-claims-the-hack-of-the-european-commission.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
-      "title_zh": "駭客組織 ShinyHunters 宣稱在歐盟執委會網路攻擊中竊取超過 350GB 數據；歐盟表示內部系統未受影響 (Pierluigi Paganini/Security Affairs)",
-      "summary_zh": "駭客組織 ShinyHunters 聲稱於 3 月 24 日入侵了歐盟執委會系統，雖然駭客宣稱獲取大量資料，但歐盟官方強調其核心內部系統安全無虞。"
+      "title_zh": "駭客組織 ShinyHunters 宣稱在攻擊歐盟執委會中竊取逾 350GB 數據；執委會則稱內部系統未受影響",
+      "summary_zh": "這起駭客攻擊發生於 3 月 24 日，目前歐盟正深入調查數據外洩的真實性與潛在損害範圍。"
     },
     {
       "title_en": "Sources: DHS clears seven CISA staffers of wrongdoing; the staffers had been accused of misleading CISA's former acting director into taking a polygraph test (John Sakellariadis/Politico)",
       "url": "https://www.politico.com/news/2026/03/28/cisa-polygraph-investigation-closed-00849376",
       "summary_en": "<A HREF=\"https://www.politico.com/news/2026/03/28/cisa-polygraph-investigation-closed-00849376\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260328/i9.jpg\"></A>\n<P>...",
-      "title_zh": "消息人士：美國國土安全部為 7 名 CISA 員工洗刷冤屈；先前曾被指控誤導代理局長進行測謊 (John Sakellariadis/Politico)",
-      "summary_zh": "美國國土安全部 (DHS) 已結束調查，確認這 7 名網路安全和基礎設施安全局 (CISA) 的員工並無不當行為，解決了這場涉及內部誠信的爭議。"
-    },
-    {
-      "title_en": "Sources: Ross Nordeen, the last remaining cofounder at xAI, left the company on Friday; Nordeen reported directly to Elon Musk as his right-hand operator (Grace Kay/Business Insider)",
-      "url": "https://www.businessinsider.com/xai-cofounder-ross-nordeen-leaves-musk-preps-spacex-ipo-2026-3",
-      "summary_en": "<A HREF=\"https://www.businessinsider.com/xai-cofounder-ross-nordeen-leaves-musk-preps-spacex-ipo-2026-3\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260328/i8.jpg\"...",
-      "title_zh": "消息人士：xAI 最後一位共同創辦人 Ross Nordeen 已於週五離職；他曾是 Elon Musk 的得力助手 (Grace Kay/Business Insider)",
-      "summary_zh": "作為直接向 Elon Musk 彙報的核心成員，Ross Nordeen 的離職意味著 xAI 的創始團隊再度變動，此時正值 Musk 積極擴展 AI 事業的關鍵期。"
-    },
-    {
-      "title_en": "A look at the decadelong feud between Sam Altman and Dario Amodei; sources say Amodei likened Altman's legal fight with Musk to Hitler's fight with Stalin (Keach Hagey/Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/ai/the-decadelong-feud-shaping-the-future-of-ai-7075acde?st=NndgoT&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/the-decadelong-feud-shaping-the-future-of-ai-7075acde?st=NndgoT&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://...",
-      "title_zh": "剖析 Sam Altman 與 Dario Amodei 十年恩怨；消息稱 Amodei 將 Altman 與 Musk 的官司比作希特勒對抗史達林 (Keach Hagey/Wall Street Journal)",
-      "summary_zh": "深入探討 OpenAI 與 Anthropic 兩位領導人之間長期且深化的矛盾，這些私人恩怨與權力鬥爭正影響著全球 AI 產業的發展方向。"
-    },
-    {
-      "title_en": "Chess grandmasters find new ways to win by making less optimal moves after AI pushed classical chess toward perfect play, breathing new life into the game (Kevin Lincoln/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-27/ai-changed-chess-grandmasters-now-win-with-unpredictable-moves?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NDY4MDEzNSwiZXhwIjoxNzc1Mjg0OTM1LCJhcnRpY2xlSWQiOiJUQ0pTVzdLSVAzSkwwMCIsImJjb25uZWN0SWQiOiIwNEFGQkMxQkYyMTA0NUVEODg3MzQxQkQwQzIyNzRBMCJ9.nIWazrd0HBbGwk_nzijL8lTm8uyCPXr1F7molURiExg",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-27/ai-changed-chess-grandmasters-now-win-with-unpredictable-moves?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVy...",
-      "title_zh": "隨著 AI 將西洋棋推向完美對局，西洋棋大師透過選擇「次優」步法尋求獲勝新招，為棋局注入新契機 (Kevin Lincoln/Bloomberg)",
-      "summary_zh": "為了打破 AI 帶來的戰術僵局，人類棋手正嘗試更具預測難度的策略，透過故意偏離 AI 的完美路徑來創造勝利空間。"
-    },
-    {
-      "title_en": "A look at some themes at this year's Hill and Valley Forum: embracing government-led industrial policy to onshore manufacturing, AI's unpopularity, and more (Newcomer)",
-      "url": "https://www.newcomer.co/p/silicon-valley-learns-to-love-the",
-      "summary_en": "<A HREF=\"https://www.newcomer.co/p/silicon-valley-learns-to-love-the\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260328/i5.jpg\"></A>\n<P><A HREF=\"http://www.techme...",
-      "title_zh": "今年 Hill and Valley 論壇重點：擁抱政府主導的工業政策以促進製造業回流、AI 的負面形象等 (Newcomer)",
-      "summary_zh": "觀察矽谷與華盛頓互動的新趨勢，論壇中討論了如何透過政策支援科技製造業，以及社會大眾對 AI 技術日益增長的疑慮。"
-    },
-    {
-      "title_en": "Prediction market bets decided on linguistic technicalities expose how hard it is to turn language into a binary market, with payouts hinging on a single word (Christopher Beam/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-27/kalshi-faces-growing-problem-with-grammar-language-disputes?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NDYxNjkzOCwiZXhwIjoxNzc1MjIxNzM4LCJhcnRpY2xlSWQiOiJUQ0pWT0FLR0lGU1owMCIsImJjb25uZWN0SWQiOiJGNTU0RThFNzY5NjY0ODJCQTdCQTU5MUE0MjkzNjUyRCJ9.4pV-YmDmXhVKi14DBfkv4t9qLfDE05ZD1PhX_8yQTrI",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-27/kalshi-faces-growing-problem-with-grammar-language-disputes?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2l...",
-      "title_zh": "預測市場押注因語言細節而產生分歧，突顯將語言轉化為二元市場的難度，派彩結果往往取決於單一詞彙 (Christopher Beam/Bloomberg)",
-      "summary_zh": "描述預測平台 Kalshi 面臨的文法與解釋權爭議，探討當精確的法律語言遇上多變的自然語言時，金融市場該如何定義勝負。"
-    },
-    {
-      "title_en": "Meta's longtime content policy chief Monika Bickert is leaving the company to teach at Harvard; she will stay at Meta until August to work on a transition plan (Reuters)",
-      "url": "https://www.reuters.com/technology/metas-longtime-content-policy-chief-bickert-leaving-teach-harvard-2026-03-28/",
-      "summary_en": "<A HREF=\"https://www.reuters.com/technology/metas-longtime-content-policy-chief-bickert-leaving-teach-harvard-2026-03-28/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
-      "title_zh": "Meta 長期擔任內容政策負責人的 Monika Bickert 將離職前往哈佛任教；她將留在 Meta 直至 8 月以協助過渡計畫 (Reuters)",
-      "summary_zh": "Monika Bickert 作為 Meta 內容審核政策的核心人物，其離職標誌著公司領導層的重大變動，她將在完成交接後投身學術界。"
-    },
-    {
-      "title_en": "Investment in Austin-based startups grew to a record high of $7.19B in 2025, up from $4.37B in 2024 and topping a pandemic peak of $6.1B in 2021 (Mary Ann Azevedo/Crunchbase News)",
-      "url": "https://news.crunchbase.com/venture/all-time-high-funding-to-austin-startups-2025-ai-robotics-manufacturing/",
-      "summary_en": "<A HREF=\"https://news.crunchbase.com/venture/all-time-high-funding-to-austin-startups-2025-ai-robotics-manufacturing/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/...",
-      "title_zh": "2025 年奧斯汀新創公司投資額創下 71.9 億美元歷史新高，超越 2021 年疫情期間的峰值 (Mary Ann Azevedo/Crunchbase News)",
-      "summary_zh": "德州奧斯汀的新創生態系持續蓬勃發展，特別是在 AI、機器人與先進製造業領域，吸引了創紀錄的風險投資資金。"
-    },
-    {
-      "title_en": "Taiwanese memory chipmaker Nanya raised $2.5B in a private placement from Sandisk, SK Hynix's Solidigm, Cisco, and Kioxia to expand advanced chip production (Reuters)",
-      "url": "https://www.reuters.com/world/asia-pacific/nanya-technology-shares-surge-10-after-25-billion-private-placement-2026-03-26/",
-      "summary_en": "<A HREF=\"https://www.reuters.com/world/asia-pacific/nanya-technology-shares-surge-10-after-25-billion-private-placement-2026-03-26/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www...",
-      "title_zh": "台灣記憶體大廠南亞科技透過私募籌集 25 億美元，投資方包括 Sandisk、SK Hynix、Cisco 及 Kioxia (Reuters)",
-      "summary_zh": "南亞科技成功引進包括 Solidigm (SK Hynix 子公司)、Cisco 在內的多家國際巨頭投資，旨在加速擴大先進製程晶片的產能。"
-    },
-    {
-      "title_en": "Indonesia begins implementing a regulation that bans under-16s from digital platforms that could expose them to porn, cyberbullying, online scams, and addiction (Edna Tarigan/Associated Press)",
-      "url": "https://apnews.com/article/indonesia-social-media-children-under-16-761b3ae00231ea0b176f93813c0a35eb",
-      "summary_en": "<A HREF=\"https://apnews.com/article/indonesia-social-media-children-under-16-761b3ae00231ea0b176f93813c0a35eb\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260327/i...",
-      "title_zh": "印尼開始實施新法規，禁止 16 歲以下青少年使用可能接觸色情、網路霸凌及成癮的數位平台 (Edna Tarigan/Associated Press)",
-      "summary_zh": "印尼政府採取嚴厲措施保護未成年人，透過新法限制青少年接觸潛在有害內容，以應對日益嚴重的網路安全問題。"
-    },
-    {
-      "title_en": "Worth, which aims to help financial services onboard and underwrite SMBs, raised a $30M Series A led by Fulcrum Equity Partners, following a $25M seed round (Brian Contreras/Inc)",
-      "url": "https://www.inc.com/brian-contreras/fintech-startup-stax-unicorn-ai-small-businesses-worth/91320667",
-      "summary_en": "<A HREF=\"https://www.inc.com/brian-contreras/fintech-startup-stax-unicorn-ai-small-businesses-worth/91320667\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260327/i3...",
-      "title_zh": "金融科技新創 Worth 完成 3000 萬美元 A 輪融資，旨在協助金融服務業審核中小企業 (Brian Contreras/Inc)",
-      "summary_zh": "由 Fulcrum Equity Partners 領投，Worth 專注於優化中小企業的入職與承銷流程，幫助金融機構更有效地評估風險。"
-    },
-    {
-      "title_en": "Despite Anthropic winning a ruling against the DOD in California, it must still convince the DC Circuit Court of Appeals to lift the supply chain risk label (Brendan Bordelon/Politico)",
-      "url": "https://www.politico.com/news/2026/03/27/premature-anthropic-still-in-trouble-despite-court-win-lawyers-and-lobbyists-say-00849173",
-      "summary_en": "<A HREF=\"https://www.politico.com/news/2026/03/27/premature-anthropic-still-in-trouble-despite-court-win-lawyers-and-lobbyists-say-00849173\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"ht...",
-      "title_zh": "儘管 Anthropic 在加州法院擊敗美國國防部，但仍需說服上訴法院取消「供應鏈風險」標籤 (Brendan Bordelon/Politico)",
-      "summary_zh": "Anthropic 雖然在與美國國防部 (DOD) 的訴訟中取得初步進展，但仍面臨法律挑戰，必須爭取解除會影響其政府合約能力的風險標記。"
+      "title_zh": "消息人士：美國國土安全部（DHS）認定七名 CISA 職員無違規行為；此前他們被控誤導前代局長接受測謊",
+      "summary_zh": "隨著國土安全部結束調查，這場涉及網路安全與基礎設施安全局（CISA）內部的測謊風波終於告一段落。"
     }
   ],
   "wsj": [
     {
+      "title_en": "Silicon Valley Has Stopped Talking Politics—Except for This Google Executive",
+      "url": "https://www.wsj.com/tech/ai/silicon-valley-has-stopped-talking-politicsexcept-for-this-google-executive-9aced1d6?mod=rss_Technology",
+      "summary_en": "AI pioneer Jeff Dean is a rare tech leader who has been publicly criticizing actions by the Trump administration....",
+      "title_zh": "矽谷已不再議論政治——除了這位 Google 高層",
+      "summary_zh": "AI 先驅 Jeff Dean 是少數公開批評川普政府行動的科技領袖，成為矽谷普遍保持沈默下的異數。"
+    },
+    {
+      "title_en": "Meta the Defendant",
+      "url": "https://www.wsj.com/tech/meta-the-defendant-c65f06fd?mod=rss_Technology",
+      "summary_en": "Plus, Apple’s autocorrect fix, Sora’s untimely demise, Nvidia’s iron grip on the AI industry and the 10-year feud shaping AI’s future....",
+      "title_zh": "被告：Meta",
+      "summary_zh": "本週焦點：Meta 面臨的法律戰、Apple 的自動修正修復、Sora 的突然終結、Nvidia 對 AI 產業的強大控制力，以及左右 AI 未來的十年宿怨。"
+    },
+    {
+      "title_en": "Everyone Hates iPhone Autocorrect. An Update Fixes One of the Biggest Problems.",
+      "url": "https://www.wsj.com/tech/apple-iphone-autocorrect-update-7659d618?mod=rss_Technology",
+      "summary_en": "Here’s what iOS 26.4 does to improve your typing, plus some tips to help you reclaim your keyboard....",
+      "title_zh": "討厭 iPhone 自動修正？最新更新解決了其中一個最大的問題",
+      "summary_zh": "介紹 iOS 26.4 如何改善打字體驗，並提供實用技巧助你重新掌控鍵盤。"
+    },
+    {
       "title_en": "What the Legendary Bell Labs Can Teach Us About Innovation",
       "url": "https://www.wsj.com/tech/bell-labs-research-development-018dd8ea?mod=rss_Technology",
       "summary_en": "The R&D organization had an outsize influence on 20th-century technologies. What was the secret to its success?...",
-      "title_zh": "傳奇的貝爾實驗室 (Bell Labs) 能教給我們什麼創新之道？",
-      "summary_zh": "這個研發機構對 20 世紀的科技產生了深遠影響。其成功的秘訣究竟為何？"
+      "title_zh": "傳奇的貝爾實驗室（Bell Labs）能教給我們哪些關於創新的道理？",
+      "summary_zh": "這家研發機構對 20 世紀的科技產生了巨大的影響。它成功的秘訣究竟是什麼？"
     },
     {
       "title_en": "The People Who Are Using AI at Home to Free Up Their Time",
       "url": "https://www.wsj.com/tech/ai/the-people-who-are-using-ai-at-home-to-free-up-their-time-30940cec?mod=rss_Technology",
       "summary_en": "Using AI agents to compare insurance plans and order groceries means more free time for riding bikes and playing the guitar....",
-      "title_zh": "那些在生活中利用 AI 騰出自由時間的人",
-      "summary_zh": "使用 AI 代理程式 (AI agents) 來比較保險方案或訂購雜貨，意味著能有更多時間騎自行車或彈吉他。"
+      "title_zh": "在家中使用 AI 來騰出時間的人們",
+      "summary_zh": "使用 AI Agent 來比較保險方案或訂購雜貨，意味著用戶能有更多空閒時間騎單車或彈吉他。"
     },
     {
       "title_en": "The Decadelong Feud Shaping the Future of AI",
       "url": "https://www.wsj.com/tech/ai/the-decadelong-feud-shaping-the-future-of-ai-7075acde?mod=rss_Technology",
       "summary_en": "Unhealed personal wounds and past power struggles between the leaders of OpenAI and Anthropic are defining how the world now encounters the technology....",
-      "title_zh": "形塑 AI 未來的十年恩怨",
-      "summary_zh": "OpenAI 與 Anthropic 領導人之間未癒合的個人創傷與過去的權力鬥爭，正定義著世人接觸這項技術的方式。"
+      "title_zh": "左右 AI 未來的十年宿怨",
+      "summary_zh": "OpenAI 與 Anthropic 領導人之間未癒合的個人恩怨與過去的權力鬥爭，正深刻影響著當今世界接觸 AI 技術的方式。"
+    },
+    {
+      "title_en": "How I Overcame the AI Doomsday Warnings About My Kid’s Future",
+      "url": "https://www.wsj.com/lifestyle/relationships/ai-parenting-anxiety-c054a54b?mod=rss_Technology",
+      "summary_en": "There are lots of reasons to be anxious as a parent. The best advice I’ve been given has nothing to do with trying to AI-proof your children’s careers....",
+      "title_zh": "我是如何克服 AI 末日論對孩子未來的擔憂",
+      "summary_zh": "作為父母有很多焦慮的理由。我收過最好的建議並非如何讓孩子的職涯「防 AI 化」，而是回歸教育本質。"
     },
     {
       "title_en": "The Playbook That Elon Musk Relies On to Make His Wild Ideas Work",
       "url": "https://www.wsj.com/tech/ai/the-playbook-that-elon-musk-relies-on-to-make-his-wild-ideas-work-f41138f1?mod=rss_Technology",
       "summary_en": "Musk’s five-step algorithm gets Tesla and SpaceX employees to achieve stretch goals and innovate, and it’s sure to come in handy in his push to build the world’s largest AI chip factory....",
-      "title_zh": "Elon Musk 用來實現瘋狂構想的教戰守則",
-      "summary_zh": "Musk 的五步演算法促使 Tesla 和 SpaceX 員工達成極具挑戰性的目標，這也將用於他打造全球最大 AI 晶片工廠的計畫。"
-    },
-    {
-      "title_en": "The Texas Lawyer and Part-Time Pastor Who Beat Meta and Google",
-      "url": "https://www.wsj.com/us-news/law/the-texas-lawyer-and-part-time-pastor-who-beat-meta-and-google-82c8521b?mod=rss_Technology",
-      "summary_en": "Plaintiff’s attorney Mark Lanier uses props and parables to challenge social-media giants, drugmakers and manufacturers of products containing asbestos....",
-      "title_zh": "擊敗 Meta 與 Google 的德州律師兼兼職牧師",
-      "summary_zh": "原告律師 Mark Lanier 運用道具與寓言故事，向社群媒體巨頭、製藥商以及石棉產品製造商發起挑戰。"
-    },
-    {
-      "title_en": "The Quest to Revive a Frozen Brain",
-      "url": "https://www.wsj.com/tech/the-quest-to-revive-a-frozen-brain-38844635?mod=rss_Technology",
-      "summary_en": "Plus, one journalist is going all in on AI and crypto-backed mortgages are entering the mainstream....",
-      "title_zh": "復原冷凍大腦的探索之旅",
-      "summary_zh": "探討腦部冷凍技術的最新進展，此外還有一位記者全力投入 AI 領域，以及加密貨幣抵押貸款正進入主流市場。"
+      "title_zh": "伊隆·馬斯克實踐瘋狂構思的「劇本」",
+      "summary_zh": "馬斯克的「五步演算法」引領 Tesla 與 SpaceX 員工達成極具挑戰性的目標，這套方法也正運用於他打造世界最大 AI 晶片工廠的計劃中。"
     },
     {
       "title_en": "America’s HR Leaders Say We’re Thinking About AI Agents All Wrong",
       "url": "https://www.wsj.com/cio-journal/americas-hr-leaders-say-were-thinking-about-ai-agents-all-wrong-7d8f1439?mod=rss_Technology",
       "summary_en": "Human resources leaders at some of America’s largest companies say it’s time to stop treating their AI as people....",
-      "title_zh": "美國人資主管表示：我們對 AI 代理程式的思考方式完全錯了",
-      "summary_zh": "美國頂尖企業的 HR 領導人表示，現在該停止將 AI 視為人類，而是應該將其視為更高效的工具。"
+      "title_zh": "美國人力資源主管：我們對 AI Agent 的看法全錯了",
+      "summary_zh": "美國大型企業的 HR 領袖指出，現在是時候停止將 AI 當作人類看待，而應視其為全新的生產力工具。"
     },
     {
-      "title_en": "China’s Moonshot AI Seeks Listing in Hong Kong Under Heightened Scrutiny",
-      "url": "https://www.wsj.com/tech/ai/chinas-moonshot-ai-seeks-listing-in-hong-kong-under-heightened-scrutiny-7a0a71ef?mod=rss_Technology",
-      "summary_en": "Moonshot AI, one of China’s most promising artificial-intelligence startups, is considering changing its corporate structure to pave the way for an initial public offering in Hong Kong....",
-      "title_zh": "中國 Moonshot AI 尋求在嚴格審查下於香港上市",
-      "summary_zh": "中國最有前途的 AI 新創之一 Moonshot AI (月之暗面) 正考慮調整架構，為在香港首次公開募股 (IPO) 鋪路。"
-    },
-    {
-      "title_en": "An AI Upheaval Is Coming for Media. This Journalist Is Already All In.",
-      "url": "https://www.wsj.com/business/media/an-ai-upheaval-is-coming-for-media-this-journalist-is-already-all-in-3511d951?mod=rss_Technology",
-      "summary_en": "AI-assisted stories accounted for nearly 20% of Fortune’s web traffic in the second half of 2025. Most are written by Nick Lichtenberg....",
-      "title_zh": "AI 變革即將席捲媒體業，這名記者已經全力投入",
-      "summary_zh": "2025 年下半年，AI 輔助報導佔了《Fortune》網站流量的近 20%，其中大部分內容由 Nick Lichtenberg 撰寫。"
-    },
-    {
-      "title_en": "Anthropic Wins Injunction in Court Battle With Trump Administration",
-      "url": "https://www.wsj.com/politics/policy/anthropic-wins-injunction-in-court-battle-with-trump-administration-4cc93351?mod=rss_Technology",
-      "summary_en": "A federal judge said the government’s ‘measures appear designed to punish Anthropic’ in a standoff over military use of AI....",
-      "title_zh": "Anthropic 在與川普政府的法律戰中獲得法院禁制令",
-      "summary_zh": "聯邦法官指出，政府在軍事使用 AI 的僵局中，其採取的措施似乎旨在懲罰 Anthropic。"
+      "title_en": "The Quest to Revive a Frozen Brain",
+      "url": "https://www.wsj.com/tech/the-quest-to-revive-a-frozen-brain-38844635?mod=rss_Technology",
+      "summary_en": "Plus, one journalist is going all in on AI and crypto-backed mortgages are entering the mainstream....",
+      "title_zh": "復活冷凍大腦的探索",
+      "summary_zh": "本期報導還包含：一名記者全身心投入 AI 研究，以及加密貨幣抵押貸款正進入主流市場。"
     }
   ],
   "deep_analysis": {
@@ -247,14 +247,14 @@
       ]
     },
     "Lenny's Newsletter": {
-      "title": "Community Wisdom: When AI velocity outpaces your product strategy | 社群智慧：當 AI 的演進速度超越產品戰略、估算持續失效與開發工具鏈的新範式",
+      "title": "From skeptic to true believer: How OpenClaw changed my life | 從懷疑者到堅定信徒：OpenClaw 如何改變我的生活",
       "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-ai-velocity",
-      "analysis_zh": "本文源自全球頂尖的產品管理與增長社群 Lenny's Newsletter，由其社群內容負責人 Kiyani 彙整。Lenny's Newsletter 是矽谷最具影響力的科技專欄之一，專門為產品經理、創業者及增長工程師提供深度的產業洞察與實踐經驗。本期《社群智慧》深入探討了 AI 技術演進（AI Velocity）對傳統產品戰略的衝擊，並揭示了當前開發團隊在應對 AI 不確定性時的集體困惑與最新解決方案。\n\n### 戰略背景與脈絡\n在 2026 年初的技術環境下，AI 的演進速度已從「漸進式」轉變為「指數級」爆發。文章首先指出了一個深刻的戰略陷阱：當底層模型能力（如 Claude Code 或 OpenAI 最新推出的功能）的更新週期，已經快過企業內部的產品規劃與開發週期時，傳統的產品路線圖（Product Roadmap）便會迅速淪為過時的文書。這不僅是技術更新的問題，更是組織敏捷性的終極考驗。在矽谷的技術核心區舊金山，產品團隊正處於一種「持續追趕模型」的焦慮狀態，如何將飛速變遷的 AI 能力與穩定的商業價值錨點結合，成為當前所有產品領袖的核心課題。\n\n### 作者的核心推演與論點\n首先，文章分析了「估算滑坡」（Estimation Slippage）的根源。在傳統軟體開發中，工作量與產出通常具備線性關係，但 AI 項目的研發充滿了機率性。當團隊試圖將 AI 嵌入產品時，往往會低估「長尾問題」的修復難度，導致原本看似簡單的整合任務不斷延期。這種「估算失效」反映了 AI 開發本質上更接近科學實驗而非工程建築。\n\n其次，文章觀察到開發者工具鏈正在發生根本性的位移。文中提到的 Claude Code 與 Codex 的協同使用（Pairing），不僅僅是工具的堆疊，而是一種「多模型編排」（Multi-model Orchestration）的新趨勢。開發者不再依賴單一模型，而是學會根據任務的複雜度、延遲需求與準確性，動態切換不同的代理程式（Agents）。這種「混合開發範式」大幅提升了代碼生成的質量，但也對開發者的系統架構能力提出了更高要求。\n\n最後，關於「舊金山一日」的見聞反映了 AI 發展的物理聚集效應。即便遠程辦公盛行，舊金山仍是「算力、模型與人才」密度最高的地方，這種面對面的交流對於捕捉 AI 時代那種瞬息萬變的「非對稱資訊」至關重要。產品戰略不再是在辦公室裡閉門造車，而是在高度流動的社交與實作中，動態感測市場與技術的邊界。\n\n### 對整體市場與技術發展的長期影響\n從長遠來看，這場「AI 速度競爭」將導致產品經理角色的深度轉型。未來的產品領袖必須具備「戰略彈性」，能夠在模型底座更新的瞬間，迅速判斷哪些功能應該被棄用、哪些應該被原生化。同時，這也預示著「軟體即服務」（SaaS）將向「代理即服務」（AaaS）轉型，產品的競爭力將不再取決於 UI 交互的精美，而取決於其背後 AI 代理對複雜業務邏輯的理解深度與執行速度。\n\n總結而言，當 AI 演進速度超越戰略規劃時，企業唯一的生存之道是「將不確定性結構化」。這意味著接受估算的模糊、擁抱多模型架構，並在技術社群中保持極高的感知度。這不僅是一場工具的變革，更是一場關於產品哲學與組織治理的深度洗牌。",
+      "url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
+      "analysis_zh": "本文源自知名產品與成長領域的深度社群《Lenny's Newsletter》，由主持人 Lenny Rachitsky 訪談了 AI 創業公司 ChatPRD 創辦人、同時也是資深產品高管與工程師的 Claire Vo。Claire 在訪談中分享了她如何從最初對 AI 代理（AI Agents）技術抱持懷疑，甚至在初次嘗試時被刪除全家日曆的慘痛經歷中，轉化為一名透過九個獨立運行在實體硬體上的 OpenClaw 代理來管理事業與家庭生活的「超級用戶」，為當前 AI 應用從單一對話轉向自主行動代理的趨勢提供了極具價值的戰略觀察。\n\n**戰略背景與脈絡：從對話式 AI 向代理化工作流的範式轉移**\n在過去兩年中，市場對 AI 的認知多停留在「大語言模型作為搜尋或寫作輔助」的階段。然而，Claire Vo 的實踐標誌著一個更深層次的範式轉移：從單純的語言處理器（LLM）轉向具備執行能力的「代理化工作流」（Agentic Workflows）。OpenClaw 作為一個開源框架，允許用戶在本地環境部署具備瀏覽器操作與系統存取權限的代理，這不僅是技術上的進步，更是對個人生產力架構的重新思考。當 AI 不再僅是「回答問題」，而是「接管任務」時，用戶的角色也從「操作員」轉變為「管理者」，這反映了當前矽谷最尖端的生產力哲學：將 AI 視為一種可擴展、數位化的虛擬員工隊伍。\n\n**作者的核心推演與論點：專業化與硬體隔離的必要性**\nClaire 的核心論點之一在於「專化勝過通用」。她目前運行的九個代理並非同一個通用助手的九個視窗，而是針對家庭日曆管理、銷售開發、播客備課、課程管理等特定場景調優的獨立實體。這種「多代理系統」（Multi-agent System）的邏輯在於，單一通用代理往往因為過大的權限範圍與過雜的上下文（Context）而容易出錯，而專門化代理則能精確定義邊界，提高任務完成的成功率。此外，她提出了一個極具啟發性的實務建議：硬體隔離。為了避免早期發生的「日曆慘劇」，她將代理運行在舊筆電或專門購置的 Mac Mini 上，而非生產力主機。這種「實體氣隙」（Physical Air-gap）的概念為 AI 安全性提供了另一種思考維度：在模型對齊尚未完全成熟前，物理限制是防止 AI 在數位世界造成不可逆破壞的最有效手段。\n\n**對整體市場與技術發展的長期影響**\n從 Claire Vo 的經驗可以推演，未來個人與企業的數位資產管理將會出現「代理中心化」的趨勢。長期而言，這將對傳統的 SaaS（軟體即服務）模式產生巨大衝擊。當用戶擁有可以自主操作瀏覽器並與各類 API 交互的代理時，軟體的前端介面價值將會下降，後端功能的「可調用性」將成為核心競爭力。這也暗示了硬體市場的復甦可能——如 Claire 所述，舊電腦與 Mac Mini 成為了「代理伺服器」，這預示著未來家庭網路中可能會出現專門處理 AI 任務的本地節點（Local Nodes），以解決延遲、隱私與安全性問題。此外，這種技術普及將會模糊個人生活與職業效率的界線，當育兒、家庭採買與商業談判都能由這類具備「心跳」（持續運行且主動反饋）的系統處理時，人類的競爭力將取決於如何定義任務邊界與進行高階決策，而非執行繁瑣細節。Claire Vo 的轉變，正是這一場從「使用工具」到「管理智慧」革命的縮影。",
       "insights": [
-        "在 AI 時代，'戰略慣性'是企業最大的隱形威脅：當底層模型更新快於季度規劃時，產品戰略必須從靜態的路線圖轉向基於模型能力的動態反應機制。",
-        "AI 項目的估算失敗並非管理問題，而是其非線性、概率性的物理特徵所致，團隊需從'功能交付'思維轉向'實驗與風險評估'思維。",
-        "Claude Code 與 Codex 的並行使用預示了未來開發者的標配：不再是單一 Copilot 的使用者，而是具備多重 AI 代理調度和審核能力的'系統指揮官'。"
+        "「硬體隔離」是當前 AI 代理安全性最被低估的防禦策略，透過專屬舊設備運行代理，能有效對沖 AI 模型偶發性的災難性行為。",
+        "「專業化勝過通用化」：運行九個專門用途的小型代理，比依賴一個具備全權限的通用助手的錯誤率更低且可控性更高。",
+        "AI 代理的成熟標誌著從「人類驅動工具」到「AI 驅動流程」的轉變，未來的個人生產力將不再取決於軟體技能，而是取決於定義任務範疇的架構能力。"
       ]
     }
   }
