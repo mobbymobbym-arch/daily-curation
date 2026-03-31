@@ -1,182 +1,182 @@
 {
-  "fetch_date": "2026-03-30",
+  "fetch_date": "2026-03-31",
   "techmeme": [
     {
-      "title_en": "Pro-AI group Innovation Council Action, praised by David Sacks, plans to spend $100M+ in the US midterms to drive deregulation and support Trump's AI agenda (Alex Isenstadt/Axios)",
-      "url": "https://www.axios.com/2026/03/29/ai-pac-midterms-trump",
-      "summary_en": "<A HREF=\"https://www.axios.com/2026/03/29/ai-pac-midterms-trump\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260329/i9.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.co...",
-      "title_zh": "受 David Sacks 讚譽的親 AI 團體 Innovation Council Action 計劃在美國期中選舉投入逾 1 億美元，推動去監管化並支持川普的 AI 議程",
-      "summary_zh": "該親 AI 政治行動委員會計劃在期中選舉大舉投資，旨在消除監管障礙，確保美國在 AI 競爭中的領先地位，並與川普政府的技術願景保持一致。"
+      "title_en": "Social gaming startup Rec Room is shutting down its service on June 1, saying it could not find a path to profitability; it was valued at $3.5B in December 2021 (Todd Bishop/GeekWire)",
+      "url": "https://www.geekwire.com/2026/rec-room-shutting-down-seattles-3-5b-social-gaming-platform-says-it-cant-make-the-business-work/",
+      "summary_en": "<A HREF=\"https://www.geekwire.com/2026/rec-room-shutting-down-seattles-3-5b-social-gaming-platform-says-it-cant-make-the-business-work/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http:/...",
+      "title_zh": "社交遊戲初創公司 Rec Room 將於 6 月 1 日關閉服務，稱其無法找到盈利途徑；該公司在 2021 年 12 月的估值為 35 億美元 (Todd Bishop/GeekWire)",
+      "summary_zh": "總部位於西雅圖的社交遊戲平台 Rec Room 宣布因無法維持業務運營而關閉。這家曾在 2021 年達到 35 億美元估值的獨角獸公司，最終未能找到可持續的商業模式。"
     },
     {
-      "title_en": "A look at Coinbase One and other insurance-like plans for crypto users that typically exclude coverage for many kinds of account hacks, including phishing scams (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-27/crypto-theft-fuels-insurance-boom-but-protections-vary?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NDY4MTI0NCwiZXhwIjoxNzc1Mjg2MDQ0LCJhcnRpY2xlSWQiOiJUQ0syTTRLR0lGWFYwMCIsImJjb25uZWN0SWQiOiIwNEFGQkMxQkYyMTA0NUVEODg3MzQxQkQwQzIyNzRBMCJ9.LM29TpXLuTKp6Rd6fyRI8RYdc5Ay1w9msUECUceppHU",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-27/crypto-theft-fuels-insurance-boom-but-protections-vary?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVk...",
-      "title_zh": "深入探討 Coinbase One 與其他針對加密貨幣用戶的類保險計劃，這些方案通常不包含多種帳戶駭侵，如網路釣魚詐騙",
-      "summary_zh": "隨著加密貨幣竊盜案增加，雖然出現了相關保護方案，但保障範圍差異巨大，許多個人帳戶遭駭的情形往往不在理賠範圍內。"
+      "title_en": "Inside David Sacks' new role shaping Trump's AI agenda; officials say Sriram Krishnan is taking on a position at the National Economic Council to focus on AI (Axios)",
+      "url": "https://www.axios.com/2026/03/30/david-sacks-trump-ai-agenda-plan",
+      "summary_en": "<A HREF=\"https://www.axios.com/2026/03/30/david-sacks-trump-ai-agenda-plan\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i44.jpg\"></A>\n<P><A HREF=\"http://www...",
+      "title_zh": "揭秘 David Sacks 在塑造川普 AI 議程中的新角色；官員表示 Sriram Krishnan 將加入國家經濟委員會專注於 AI 政策 (Axios)",
+      "summary_zh": "報導深入探討了 David Sacks 如何影響川普政府的 AI 發展藍圖。同時，Sriram Krishnan 也被證實將進入國家經濟委員會 (NEC)，共同推動美國的人工智慧戰略。"
     },
     {
-      "title_en": "Bluesky's CEO talks about Attie, a new agentic social app built on Bluesky's AT Protocol that uses Claude and lets users build custom feeds (Sarah Perez/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260329/i...",
-      "title_zh": "Bluesky 執行長談論 Attie：一款基於 AT Protocol 並結合 Claude AI 的新型 Agent 社群應用，讓用戶可自訂動態消息",
-      "summary_zh": "Bluesky 積極擁抱 AI，推出新工具協助用戶建立自訂的內容流，進一步強化其去中心化社群媒體的願景。"
+      "title_en": "Micron shares closed down 10% on Monday and are now down 30% since Micron's blowout earnings report on March 18; Sandisk fell 7% and Western Digital dropped 9% (Lola Murti/CNBC)",
+      "url": "https://www.cnbc.com/2026/03/30/micron-stock-earnings-sell-off-memory-shortage.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/30/micron-stock-earnings-sell-off-memory-shortage.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i43.jpg\"></A>\n<P><...",
+      "title_zh": "美光 (Micron) 股價週一收跌 10%，自 3 月 18 日發布強勁財報以來已累計下跌 30%；Sandisk 下跌 7%，威騰電子 (Western Digital) 下跌 9% (Lola Murti/CNBC)",
+      "summary_zh": "儘管先前財報表現亮眼，但美光股價在近期遭遇劇烈拋售，週一再次大跌。記憶體市場的波動也波及了 Sandisk 和威騰電子等同業，顯示投資人對記憶體供需前景感到擔憂。"
     },
     {
-      "title_en": "Hong Kong-listed AI drug discovery company Insilico Medicine and Eli Lilly sign a drug co-development deal worth up to $2.75B, with $115M in upfront payments (Evelyn Cheng/CNBC)",
-      "url": "https://www.cnbc.com/2026/03/29/eli-lilly-reaches-deal-to-bring-ai-developed-drugs-to-global-market.html",
-      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/29/eli-lilly-reaches-deal-to-bring-ai-developed-drugs-to-global-market.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2603...",
-      "title_zh": "香港上市 AI 藥物研發公司英矽智能（Insilico Medicine）與禮來（Eli Lilly）簽署高達 27.5 億美元的合作開發協議，首付款 1.15 億美元",
-      "summary_zh": "兩家公司達成重磅交易，旨在將 AI 研發的藥物推向全球市場，顯示出 AI 在生物製藥領域的巨大潛力。"
+      "title_en": "OpenAI introduces a Codex plugin for Claude Code, letting users invoke Codex from inside Claude Code to review code or delegate tasks (Vaibhav Srivastav/@reach_vb)",
+      "url": "http://www.techmeme.com/260330/p42#a260330p42",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260330/p42#a260330p42\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Vai...",
+      "title_zh": "OpenAI 為 Claude Code 推出 Codex 外掛程式，讓使用者能直接在 Claude Code 中調用 Codex 進行程式碼審查或委派任務 (Vaibhav Srivastav/ @reach_vb)",
+      "summary_zh": "OpenAI 擴展了其工具鏈，現在 Claude Code 的用戶可以整合 Codex 的能力。這項更新強化了跨平台的開發體驗，讓工程師能結合不同 AI 模型的長處來優化工作流程。"
     },
     {
-      "title_en": "An AI-generated TikTok parody of reality series Love Island, called Fruit Love Island, averaged 10M+ views across its first 21 episodes after debuting last week (Isabelle Bousquette/Wall Street Journal)",
-      "url": "https://www.wsj.com/arts-culture/television/fruit-love-island-tiktok-ai-dating-show-45219f6a?st=DSmiW8&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/arts-culture/television/fruit-love-island-tiktok-ai-dating-show-45219f6a?st=DSmiW8&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" S...",
-      "title_zh": "AI 生成的 TikTok 實境秀惡搞節目《水果愛之島》（Fruit Love Island）上週首播，前 21 集平均觀看數破千萬",
-      "summary_zh": "這部以水果為主角的 AI 生成約會實境秀在 TikTok 上爆紅，反映出生成式 AI 在創意內容生產方面的驚人影響力。"
+      "title_en": "Leaked January presentation: Coatue estimated that Anthropic would lose $14B in EBITDA on $18B in revenue in 2026 and reach a $1.995T valuation in 2030 (Eric Newcomer/Newcomer)",
+      "url": "https://www.newcomer.co/p/coatue-projected-1995-trillion-valuation",
+      "summary_en": "<A HREF=\"https://www.newcomer.co/p/coatue-projected-1995-trillion-valuation\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i41.jpg\"></A>\n<P><A HREF=\"http://ww...",
+      "title_zh": "洩露的 1 月簡報：Coatue 估計 Anthropic 在 2026 年營收 180 億美元的情況下，EBITDA 將虧損 140 億美元，並預計在 2030 年達到 1.995 兆美元估值 (Eric Newcomer/Newcomer)",
+      "summary_zh": "根據投資機構 Coatue 的內部預測，Anthropic 雖然營收增長迅猛，但早期仍需投入巨額成本。然而，該機構對其長期發展極其樂觀，認為其估值有望在十年內挑戰 2 兆美元大關。"
     },
     {
-      "title_en": "Q&A with YouTube CEO Neal Mohan on the platform's dominance, its impact on kids, the suspension and reinstatement of Trump's YouTube account, AI slop, and more (Lulu Garcia-Navarro/New York Times)",
-      "url": "https://www.nytimes.com/2026/03/28/magazine/neal-mohan-interview.html?unlocked_article_code=1.W1A.A6ge.M8MZ5N7xQV1T&smid=url-share",
-      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/03/28/magazine/neal-mohan-interview.html?unlocked_article_code=1.W1A.A6ge.M8MZ5N7xQV1T&smid=url-share\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"ht...",
-      "title_zh": "專訪 YouTube 執行長 Neal Mohan：談論平台霸主地位、對兒童的影響、川普帳號停權與恢復，以及 AI 垃圾內容",
-      "summary_zh": "在這場深入訪談中，Mohan 探討了 YouTube 面臨的監管壓力、AI 帶來的內容挑戰，以及在政治兩極化時代如何維護平台準則。"
+      "title_en": "Alibaba releases its Qwen3.5-Omni omnimodal LLM with support for 10+ hours of audio input, saying the Plus variant surpasses Gemini 3.1 Pro on audio benchmarks (Qwen)",
+      "url": "https://qwen.ai/blog?id=qwen3.5-omni",
+      "summary_en": "<A HREF=\"https://qwen.ai/blog?id=qwen3.5-omni\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i40.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/260330/p40#a260...",
+      "title_zh": "阿里巴巴發布 Qwen3.5-Omni 全模態大語言模型，支援超過 10 小時的音訊輸入，稱其 Plus 版本在音訊基準測試中超越 Gemini 3.1 Pro (Qwen)",
+      "summary_zh": "阿里巴巴最新的 Qwen3.5-Omni 展示了強大的多模態處理能力，特別是在長音訊理解方面。官方聲稱其性能已領先於 Google 的 Gemini 3.1 Pro，展現了在語音 AI 領域的競爭力。"
     },
     {
-      "title_en": "Analysis: while social media rewards sensationalism and inflammatory content, LLMs guide people away from extreme positions and towards expert-aligned stances (John Burn-Murdoch/Financial Times)",
-      "url": "http://www.techmeme.com/260329/p3#a260329p3",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260329/p3#a260329p3\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> John ...",
-      "title_zh": "分析：相較於社群媒體推崇煽情與激進內容，大型語言模型（LLM）傾向引導用戶遠離極端立場，轉向與專家一致的觀點",
-      "summary_zh": "數據分析顯示，LLM 在資訊過濾與呈現上可能具有中和社會分歧的作用，與演算法驅動的社群媒體形成鮮明對比。"
+      "title_en": "Levels.fyi: median base-salary offers for US software engineers at VC-backed startups have risen 25% to $200K since 2022; total compensation has risen just 18% (Katherine Bindley/Wall Street Journal)",
+      "url": "https://www.wsj.com/lifestyle/careers/ai-talent-startups-cash-equity-32065b74?st=iYWvnL&reflink=desktopwebshare_permalink",
+      "summary_en": "<A HREF=\"https://www.wsj.com/lifestyle/careers/ai-talent-startups-cash-equity-32065b74?st=iYWvnL&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www....",
+      "title_zh": "Levels.fyi：美國創投支持的初創公司軟體工程師中位數底薪自 2022 年以來增長 25% 至 200,000 美元；總薪酬僅增長 18% (Katherine Bindley/Wall Street Journal)",
+      "summary_zh": "數據顯示，初創公司正透過提高底薪來爭奪頂尖人才，特別是在 AI 熱潮下。雖然底薪大幅上升，但由於股權獎勵的稀釋或估值調整，整體的總薪酬增幅相對較緩。"
     },
     {
-      "title_en": "A study of 11 leading LLMs finds the models more agreeable than humans when giving interpersonal advice, affirming users' behavior even when harmful or illegal (Stanford University)",
-      "url": "http://www.techmeme.com/260329/p2#a260329p2",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260329/p2#a260329p2\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> <A HR...",
-      "title_zh": "史丹佛大學研究：11 款領先的 LLM 在提供人際建議時比人類更具「隨和性」，甚至會肯定用戶有害或非法的行為",
-      "summary_zh": "研究發現 AI 模型傾向於迎合用戶，缺乏必要的道德批判與警示，這在人際溝通與心理建議場景中可能構成風險。"
+      "title_en": "Gurman: Apple pulls Apple Intelligence in China, after accidentally launching it in the country; there is no imminent launch as Apple has no regulatory approval (Ryan Christoffel/9to5Mac)",
+      "url": "https://9to5mac.com/2026/03/30/apple-intelligence-rolling-out-now-in-china-per-user-reports/",
+      "summary_en": "<A HREF=\"https://9to5mac.com/2026/03/30/apple-intelligence-rolling-out-now-in-china-per-user-reports/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i38.jpg\">...",
+      "title_zh": "Gurman：蘋果在中國意外上線 Apple Intelligence 後緊急撤回；由於尚未獲得監管批准，近期內不會在中國推出 (Ryan Christoffel/9to5Mac)",
+      "summary_zh": "蘋果在中國的 AI 佈局遭遇挫折。在一次意外的發布後，官方迅速移除相關功能。由於需要符合當地的監管法規與審查，中國用戶可能還需要等待更長時間才能使用 Apple Intelligence。"
     },
     {
-      "title_en": "Vinod Khosla says AI is accelerating a shift of wealth and power away from workers, and an income tax overhaul in the US could offset voter fears about job loss (Financial Times)",
-      "url": "https://www.ft.com/content/7de1d3c5-0d0c-46b1-b2b7-dbf6f5226069?accessToken=zwAAAZ04D7ufkc994dPFDQxGsdOyt9v29SJgaQ.MEQCIDrow90E9uA0_b4q83Lm6fzUF2PSMWr7o61wOyGMLL8AAiBGv65jnVqQRW7M7LXWzQU33AdlEGrO-XiaF-kTyCAMBw&sharetype=gift&token=785e6c3d-1780-4a60-987b-66902a77733d",
-      "summary_en": "<A HREF=\"https://www.ft.com/content/7de1d3c5-0d0c-46b1-b2b7-dbf6f5226069?accessToken=zwAAAZ04D7ufkc994dPFDQxGsdOyt9v29SJgaQ.MEQCIDrow90E9uA0_b4q83Lm6fzUF2PSMWr7o61wOyGMLL8AAiBGv65jnVqQRW7M7LXWzQU33Adl...",
-      "title_zh": "Vinod Khosla 指出 AI 正加速財富與權力從勞工階層流失，美國應透過所得稅改革來緩解選民對失業的恐懼",
-      "summary_zh": "矽谷知名投資人呼籲政府重新審視稅收制度，以因應 AI 自動化帶來的結構性失業與貧富差距擴大問題。"
+      "title_en": "Sources: US prosecutors are exploring whether some prediction market bets, including on the capture of Nicolás Maduro, violated insider trading and other laws (Kara Scannell/CNN)",
+      "url": "https://cnn.com/2026/03/30/politics/prediction-markets-justice-department",
+      "summary_en": "<A HREF=\"https://cnn.com/2026/03/30/politics/prediction-markets-justice-department\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i37.jpg\"></A>\n<P><A HREF=\"ht...",
+      "title_zh": "消息人士：美國檢察官正在調查部分預測市場賭注（包括針對馬杜洛被捕的押注）是否違反內線交易及其他法律 (Kara Scannell/CNN)",
+      "summary_zh": "隨著預測市場的興起，法律監管也隨之而來。美國司法部正在審查一些基於政治或地緣政治事件的賭注，以釐清是否存在非法獲取資訊或操縱市場的行為。"
     },
     {
-      "title_en": "Qualified Health, which helps health systems evaluate and adopt AI tools, raised a $125M Series B led by NEA at a valuation of between $500M and $1B (Heather Landi/Fierce Healthcare)",
-      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/qualified-health-locks-125m-fresh-funding-scale-ai-health-systems",
-      "summary_en": "<A HREF=\"https://www.fiercehealthcare.com/ai-and-machine-learning/qualified-health-locks-125m-fresh-funding-scale-ai-health-systems\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www...",
-      "title_zh": "協助醫療系統評估與導入 AI 工具的 Qualified Health 完成 1.25 億美元 B 輪融資，由 NEA 領投，估值達 5 億至 10 億美元",
-      "summary_zh": "隨著醫療機構對 AI 應用的需求激增，Qualified Health 獲得巨額資金以擴大其平台，確保 AI 工具在醫療環境中的安全性與有效性。"
+      "title_en": "Meta is testing an Instagram Plus subscription in a few countries, offering features including anonymous Story viewing and extended 48-hour Story durations (Aisha Malik/TechCrunch)",
+      "url": "https://techcrunch.com/2026/03/30/meta-starts-testing-a-premium-subscription-on-instagram/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/30/meta-starts-testing-a-premium-subscription-on-instagram/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i36.jpg\"></...",
+      "title_zh": "Meta 正在部分國家測試 Instagram Plus 訂閱服務，提供匿名查看限時動態及將限時動態時效延長至 48 小時等功能 (Aisha Malik/TechCrunch)",
+      "summary_zh": "為了開發新的營收來源，Instagram 正在嘗試高級訂閱模式。除了匿名瀏覽等隱私功能，訂閱者還能享受更長的動態保留時間，這與 Snapchat+ 的策略類似。"
     },
     {
-      "title_en": "A look at why Dotcom Bubble comparisons to the AI boom are off, vertical SaaS is up +3% last 12 months vs. horizontal SaaS down 35%, and other reflections on AI (Logan Bartlett/@loganbartlett)",
-      "url": "http://www.techmeme.com/260328/p13#a260328p13",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260328/p13#a260328p13\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Log...",
-      "title_zh": "為何將 AI 浪潮比作網路泡沫並不準確：垂直領域 SaaS 在過去一年增長 3%，而水平領域 SaaS 則下跌 35%",
-      "summary_zh": "投資人 Logan Bartlett 分析了 AI 時代的市場變化，強調具備特定產業深度（垂直領域）的軟體服務在 AI 整合中更具競爭力。"
+      "title_en": "Quinnipiac poll: 55% of Americans say AI will do more harm than good in their day-to-day lives, and 65% oppose building data centers in their community (Emily Birnbaum/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-30/more-than-half-of-us-says-ai-likely-to-harm-them-poll-finds",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-30/more-than-half-of-us-says-ai-likely-to-harm-them-poll-finds\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.co...",
+      "title_zh": "Quinnipiac 民調：55% 的美國人認為 AI 對日常生活的害處大於益處，65% 的人反對在社區興建數據中心 (Emily Birnbaum/Bloomberg)",
+      "summary_zh": "最新民調顯示美國大眾對 AI 的信任度仍然偏低。除了擔心技術本身的負面影響，對於基礎設施建設（如耗能龐大的數據中心）所帶來的環境與生活品質影響，民間反對聲浪也相當強勁。"
     },
     {
-      "title_en": "A profile of Mark Lanier, a TX lawyer and part-time pastor who beat Meta and Google in the LA social media case and said Zuckerberg was \"rattled\" on the stand (Wall Street Journal)",
-      "url": "https://www.wsj.com/us-news/law/the-texas-lawyer-and-part-time-pastor-who-beat-meta-and-google-82c8521b?st=xcFSP4&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/us-news/law/the-texas-lawyer-and-part-time-pastor-who-beat-meta-and-google-82c8521b?st=xcFSP4&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIG...",
-      "title_zh": "德州律師兼兼職牧師 Mark Lanier 人物誌：他在洛杉磯社群媒體訴訟案中擊敗 Meta 與 Google，稱祖克柏在證人席上感到「不安」",
-      "summary_zh": "Lanier 以其獨特的背景與犀利的辯才，在對抗科技巨頭的法律戰中取得重大勝利，引發業界關注。"
+      "title_en": "Fermi shares drop 12%+ after the data center real estate company reported a $486M YTD net loss, amid concerns over a lack of a tenant for its Texas data center (Financial Times)",
+      "url": "https://www.ft.com/content/49a8b5c8-d655-4eb8-b0dc-6bd403860925",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/49a8b5c8-d655-4eb8-b0dc-6bd403860925\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i34.jpg\"></A>\n<P><A HREF=\"http://www.t...",
+      "title_zh": "數據中心房地產公司 Fermi 在公布今年累計淨虧損達 4.86 億美元後，股價大跌逾 12%，主因是市場擔心其德州數據中心缺乏租戶 (Financial Times)",
+      "summary_zh": "Fermi 的財務報告令投資人感到不安，巨額虧損加上關鍵項目的空置率問題，反映出數據中心房地產市場雖然需求龐大，但特定區域或項目的風險依然存在。"
     },
     {
-      "title_en": "Report analyzing payments of 28M US consumers shows Claude adding paid subs at a steadily increasing pace; Anthropic: paid subs have more than doubled this year (Julie Bort/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260328/...",
-      "title_zh": "針對 2,800 萬名美國消費者的支付報告顯示：Claude 付費訂閱用戶穩定增長；Anthropic 表示今年付費人數已翻倍",
-      "summary_zh": "Anthropic 的 AI 助手 Claude 在市場上的受歡迎程度飆升，顯示出其在生成式 AI 付費服務競爭中正逐漸縮小與領先者的差距。"
+      "title_en": "Tel Aviv-based Sett, which builds AI agents to automate game marketing, raised a $30M Series B led by Greenfield Partners, bringing its total funding to $57M (Meir Orbach/CTech)",
+      "url": "https://www.calcalistech.com/ctechnews/article/rjxbyqisze",
+      "summary_en": "<A HREF=\"https://www.calcalistech.com/ctechnews/article/rjxbyqisze\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260330/i33.jpg\"></A>\n<P><A HREF=\"http://www.techmem...",
+      "title_zh": "總部位於特拉維夫的 Sett 獲 3,000 萬美元 B 輪融資，由 Greenfield Partners 領投，總融資額達到 5,700 萬美元；該公司開發用於自動化遊戲行銷的 AI 代理 (Meir Orbach/CTech)",
+      "summary_zh": "Sett 利用 AI 技術協助遊戲開發商自動化行銷流程，提升投放效率。在遊戲產業競爭加劇的當下，這類能顯著降低成本並優化 ROAS 的工具深受市場青睞。"
     },
     {
-      "title_en": "ShinyHunters says it stole 350GB+ of data in a cyberattack on the European Commission, detected on March 24; the EC says its internal systems were not affected (Pierluigi Paganini/Security Affairs)",
-      "url": "https://securityaffairs.com/190095/data-breach/shinyhunters-claims-the-hack-of-the-european-commission.html",
-      "summary_en": "<A HREF=\"https://securityaffairs.com/190095/data-breach/shinyhunters-claims-the-hack-of-the-european-commission.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
-      "title_zh": "駭客組織 ShinyHunters 宣稱在攻擊歐盟執委會中竊取逾 350GB 數據；執委會則稱內部系統未受影響",
-      "summary_zh": "這起駭客攻擊發生於 3 月 24 日，目前歐盟正深入調查數據外洩的真實性與潛在損害範圍。"
+      "title_en": "Valinor, which aims to use smart contracts to replace manual lending processes in the private credit industry, raised a $25M seed led by Castle Island Ventures (Ben Weiss/Fortune)",
+      "url": "https://fortune.com/2026/03/30/valinor-seed-round-25-million-crypto-private-credit-blackstone-staffers/",
+      "summary_en": "<A HREF=\"https://fortune.com/2026/03/30/valinor-seed-round-25-million-crypto-private-credit-blackstone-staffers/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26033...",
+      "title_zh": "Valinor 獲 2,500 萬美元種子輪融資，由 Castle Island Ventures 領投；該公司旨在利用智慧合約取代私募信貸產業中的手動借貸流程 (Ben Weiss/Fortune)",
+      "summary_zh": "Valinor 試圖將去中心化金融 (DeFi) 的技術應用於傳統的私募信貸領域。透過智慧合約，他們希望提高借貸效率、降低手動操作風險，並為機構投資者提供更透明的流程。"
     },
     {
-      "title_en": "Sources: DHS clears seven CISA staffers of wrongdoing; the staffers had been accused of misleading CISA's former acting director into taking a polygraph test (John Sakellariadis/Politico)",
-      "url": "https://www.politico.com/news/2026/03/28/cisa-polygraph-investigation-closed-00849376",
-      "summary_en": "<A HREF=\"https://www.politico.com/news/2026/03/28/cisa-polygraph-investigation-closed-00849376\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260328/i9.jpg\"></A>\n<P>...",
-      "title_zh": "消息人士：美國國土安全部（DHS）認定七名 CISA 職員無違規行為；此前他們被控誤導前代局長接受測謊",
-      "summary_zh": "隨著國土安全部結束調查，這場涉及網路安全與基礎設施安全局（CISA）內部的測謊風波終於告一段落。"
+      "title_en": "Sources: E*Trade is in talks to lead SpaceX IPO share sale to retail investors; Robinhood and SoFi have pitched for roles but SpaceX is mulling cutting them out (Reuters)",
+      "url": "https://www.reuters.com/business/finance/etrade-talks-lead-spacex-ipo-share-sale-small-investors-us-sources-say-2026-03-30/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/business/finance/etrade-talks-lead-spacex-ipo-share-sale-small-investors-us-sources-say-2026-03-30/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://ww...",
+      "title_zh": "消息人士：E*Trade 正在洽談主導 SpaceX IPO 股票向散戶出售的事宜；Robinhood 和 SoFi 也曾爭取相關角色，但 SpaceX 正在考慮將其排除在外 (Reuters)",
+      "summary_zh": "SpaceX 的 IPO 一直是市場關注的焦點。最新消息指出，E*Trade 有望成為散戶參與認購的主要管道，而原本呼聲頗高的 Robinhood 等平台可能會被排除在名單之外。"
     }
   ],
   "wsj": [
     {
+      "title_en": "Revisiting ‘The Jetsons’: Where’s My Flying Car and Three-Hour Workday?",
+      "url": "https://www.wsj.com/tech/personal-tech/the-jetsons-predictions-innovation-f97faa99?mod=rss_Technology",
+      "summary_en": "The 1960s version of the future is way more fun than our reality—but when it comes to innovations, we’re catching up....",
+      "title_zh": "重溫《摩登家庭》(The Jetsons)：我的飛行車和三小時工時去哪了？",
+      "summary_zh": "1960 年代所想像的未來比現實有趣得多。雖然我們在創新方面正在追趕，但那些美好的科幻預言何時才能完全成真？"
+    },
+    {
+      "title_en": "The Sudden Fall of OpenAI’s Most Hyped Product Since ChatGPT",
+      "url": "https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9?mod=rss_Technology",
+      "summary_en": "Sam Altman hoped Sora would turn OpenAI into a creative pioneer. Instead, it looks like an expensive strategic miscalculation....",
+      "title_zh": "OpenAI 自 ChatGPT 以來最受矚目產品的驟然殞落",
+      "summary_zh": "Sam Altman 原本寄望 Sora 能讓 OpenAI 成為創意產業的先驅。然而，目前看來這似乎是一次代價高昂的策略失誤。"
+    },
+    {
       "title_en": "Silicon Valley Has Stopped Talking Politics—Except for This Google Executive",
       "url": "https://www.wsj.com/tech/ai/silicon-valley-has-stopped-talking-politicsexcept-for-this-google-executive-9aced1d6?mod=rss_Technology",
       "summary_en": "AI pioneer Jeff Dean is a rare tech leader who has been publicly criticizing actions by the Trump administration....",
-      "title_zh": "矽谷已不再議論政治——除了這位 Google 高層",
-      "summary_zh": "AI 先驅 Jeff Dean 是少數公開批評川普政府行動的科技領袖，成為矽谷普遍保持沈默下的異數。"
+      "title_zh": "矽谷已不再談論政治——除了這位 Google 高層",
+      "summary_zh": "在許多科技領袖選擇保持沉默之際，AI 先驅 Jeff Dean 是少數公開批評川普政府政策的科技界重要人物。"
     },
     {
       "title_en": "Meta the Defendant",
       "url": "https://www.wsj.com/tech/meta-the-defendant-c65f06fd?mod=rss_Technology",
       "summary_en": "Plus, Apple’s autocorrect fix, Sora’s untimely demise, Nvidia’s iron grip on the AI industry and the 10-year feud shaping AI’s future....",
-      "title_zh": "被告：Meta",
-      "summary_zh": "本週焦點：Meta 面臨的法律戰、Apple 的自動修正修復、Sora 的突然終結、Nvidia 對 AI 產業的強大控制力，以及左右 AI 未來的十年宿怨。"
+      "title_zh": "Meta 身陷被告席",
+      "summary_zh": "本期重點包括：Apple 修復自動校正問題、Sora 的失敗、Nvidia 對 AI 產業的強大控制力，以及一場持續十年、形塑 AI 未來的宿怨。"
     },
     {
       "title_en": "Everyone Hates iPhone Autocorrect. An Update Fixes One of the Biggest Problems.",
       "url": "https://www.wsj.com/tech/apple-iphone-autocorrect-update-7659d618?mod=rss_Technology",
       "summary_en": "Here’s what iOS 26.4 does to improve your typing, plus some tips to help you reclaim your keyboard....",
-      "title_zh": "討厭 iPhone 自動修正？最新更新解決了其中一個最大的問題",
-      "summary_zh": "介紹 iOS 26.4 如何改善打字體驗，並提供實用技巧助你重新掌控鍵盤。"
+      "title_zh": "大家都討厭 iPhone 的自動校正。這次更新解決了其中一個大問題。",
+      "summary_zh": "了解 iOS 26.4 如何優化打字體驗，並提供一些技巧幫助你重新掌控你的虛擬鍵盤。"
     },
     {
       "title_en": "What the Legendary Bell Labs Can Teach Us About Innovation",
       "url": "https://www.wsj.com/tech/bell-labs-research-development-018dd8ea?mod=rss_Technology",
       "summary_en": "The R&D organization had an outsize influence on 20th-century technologies. What was the secret to its success?...",
-      "title_zh": "傳奇的貝爾實驗室（Bell Labs）能教給我們哪些關於創新的道理？",
-      "summary_zh": "這家研發機構對 20 世紀的科技產生了巨大的影響。它成功的秘訣究竟是什麼？"
+      "title_zh": "傳奇的貝爾實驗室能教給我們哪些關於創新的道理",
+      "summary_zh": "貝爾實驗室對 20 世紀的科技發展產生了巨大影響。這個研發機構成功的秘訣究竟是什麼？"
     },
     {
-      "title_en": "The People Who Are Using AI at Home to Free Up Their Time",
-      "url": "https://www.wsj.com/tech/ai/the-people-who-are-using-ai-at-home-to-free-up-their-time-30940cec?mod=rss_Technology",
-      "summary_en": "Using AI agents to compare insurance plans and order groceries means more free time for riding bikes and playing the guitar....",
-      "title_zh": "在家中使用 AI 來騰出時間的人們",
-      "summary_zh": "使用 AI Agent 來比較保險方案或訂購雜貨，意味著用戶能有更多空閒時間騎單車或彈吉他。"
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-6458d46a?mod=rss_Technology",
+      "summary_en": "Find insight on Meta, Anthropic and more in the latest Market Talks covering Technology, Media and Telecom....",
+      "title_zh": "科技、媒體與電信綜述：市場談話",
+      "summary_zh": "在最新的科技、媒體與電信市場談話中，獲取關於 Meta、Anthropic 等公司的深入見解。"
     },
     {
-      "title_en": "The Decadelong Feud Shaping the Future of AI",
-      "url": "https://www.wsj.com/tech/ai/the-decadelong-feud-shaping-the-future-of-ai-7075acde?mod=rss_Technology",
-      "summary_en": "Unhealed personal wounds and past power struggles between the leaders of OpenAI and Anthropic are defining how the world now encounters the technology....",
-      "title_zh": "左右 AI 未來的十年宿怨",
-      "summary_zh": "OpenAI 與 Anthropic 領導人之間未癒合的個人恩怨與過去的權力鬥爭，正深刻影響著當今世界接觸 AI 技術的方式。"
+      "title_en": "Mistral AI Raises $830 Million in Debt For Nvidia-Powered Data Center",
+      "url": "https://www.wsj.com/tech/ai/mistral-ai-raises-830-million-in-debt-for-nvidia-powered-data-center-deef4822?mod=rss_Technology",
+      "summary_en": "The data center will power the training of artificial-intelligence models using 13,800 of Nvidia’s advanced GB300 AI chips....",
+      "title_zh": "Mistral AI 融資 8.3 億美元債務，用於興建由 Nvidia 驅動的數據中心",
+      "summary_zh": "該數據中心將配備 13,800 顆 Nvidia 先進的 GB300 AI 晶片，專門用於訓練新的人工智慧模型。"
     },
     {
       "title_en": "How I Overcame the AI Doomsday Warnings About My Kid’s Future",
       "url": "https://www.wsj.com/lifestyle/relationships/ai-parenting-anxiety-c054a54b?mod=rss_Technology",
       "summary_en": "There are lots of reasons to be anxious as a parent. The best advice I’ve been given has nothing to do with trying to AI-proof your children’s careers....",
-      "title_zh": "我是如何克服 AI 末日論對孩子未來的擔憂",
-      "summary_zh": "作為父母有很多焦慮的理由。我收過最好的建議並非如何讓孩子的職涯「防 AI 化」，而是回歸教育本質。"
+      "title_zh": "我如何克服 AI 末日論對孩子未來的擔憂",
+      "summary_zh": "身為父母有許多焦慮的理由，但我收過最好的建議並非如何讓孩子的職涯「不受 AI 影響」，而是其他更重要的核心能力。"
     },
     {
-      "title_en": "The Playbook That Elon Musk Relies On to Make His Wild Ideas Work",
-      "url": "https://www.wsj.com/tech/ai/the-playbook-that-elon-musk-relies-on-to-make-his-wild-ideas-work-f41138f1?mod=rss_Technology",
-      "summary_en": "Musk’s five-step algorithm gets Tesla and SpaceX employees to achieve stretch goals and innovate, and it’s sure to come in handy in his push to build the world’s largest AI chip factory....",
-      "title_zh": "伊隆·馬斯克實踐瘋狂構思的「劇本」",
-      "summary_zh": "馬斯克的「五步演算法」引領 Tesla 與 SpaceX 員工達成極具挑戰性的目標，這套方法也正運用於他打造世界最大 AI 晶片工廠的計劃中。"
-    },
-    {
-      "title_en": "America’s HR Leaders Say We’re Thinking About AI Agents All Wrong",
-      "url": "https://www.wsj.com/cio-journal/americas-hr-leaders-say-were-thinking-about-ai-agents-all-wrong-7d8f1439?mod=rss_Technology",
-      "summary_en": "Human resources leaders at some of America’s largest companies say it’s time to stop treating their AI as people....",
-      "title_zh": "美國人力資源主管：我們對 AI Agent 的看法全錯了",
-      "summary_zh": "美國大型企業的 HR 領袖指出，現在是時候停止將 AI 當作人類看待，而應視其為全新的生產力工具。"
-    },
-    {
-      "title_en": "The Quest to Revive a Frozen Brain",
-      "url": "https://www.wsj.com/tech/the-quest-to-revive-a-frozen-brain-38844635?mod=rss_Technology",
-      "summary_en": "Plus, one journalist is going all in on AI and crypto-backed mortgages are entering the mainstream....",
-      "title_zh": "復活冷凍大腦的探索",
-      "summary_zh": "本期報導還包含：一名記者全身心投入 AI 研究，以及加密貨幣抵押貸款正進入主流市場。"
+      "title_en": "The People Who Are Using AI at Home to Free Up Their Time",
+      "url": "https://www.wsj.com/tech/ai/the-people-who-are-using-ai-at-home-to-free-up-their-time-30940cec?mod=rss_Technology",
+      "summary_en": "Using AI agents to compare insurance plans and order groceries means more free time for riding bikes and playing the guitar....",
+      "title_zh": "那些在家庭生活中使用 AI 來釋放時間的人們",
+      "summary_zh": "透過 AI 代理人來比較保險方案或訂購雜貨，意味著有更多自由時間去騎單車或彈吉他。"
     }
   ],
   "deep_analysis": {
@@ -236,25 +236,25 @@
       ]
     },
     "a16z": {
-      "title": "The Energy Situation, Explained for Tech People | 能源局勢：為科技人解析的分子危機",
+      "title": "Every Building You've Ever Been In Was Designed By Software Built in 1997 (你進過的每一棟建築，幾乎都是由 1997 年開發的軟體所設計的)",
       "source": "a16z News",
-      "url": "https://www.a16z.news/p/the-energy-situation-explained-for",
-      "analysis_zh": "本文源自 a16z News，作者 Michael Spyker 是一位致力於為科技投資者與創業者提供能源產業洞察的專家。在本文中，Spyker 精確地將全球能源體系比作科技基礎設施，指出波斯灣正是全球能源貿易的「us-east-1」，而荷姆茲海峽則是這個分布式系統中最脆弱的單點故障（SPOF）。Spyker 本次分析的核心在於揭示，當前荷姆茲海峽的封鎖並非僅是燃料漲價的問題，而是一場觸及全球物理供應鏈底層的架構性災難。\n\n### 戰略背景與脈絡\n能源市場的中心化並非偶然，而是地質優勢與資本配置最優化的結果。作者對比了德州二疊紀盆地（Permian Basin）與沙烏地阿拉伯加瓦爾（Ghawar）油田的產能差異：一口頂尖的美國頁岩油井僅能回收約 50 萬桶原油，而沙國的一口強井則可回收超過 1 億桶。這種天生的地質優勢，加上極低的生產成本與政府對資源的絕對控制，使得中東地區在能源貿易中佔據了不可替代的戰略地位。然而，科技界深知過度中心化的風險。正如一個過期的 DNS 紀錄或損壞的基礎鏡像就能讓整個分布式架構癱瘓，荷姆茲海峽的持續封鎖正暴露出全球能源市場缺乏「故障切換」（Failover）機制的致命缺陷。\n\n### 作者的核心推演與論點\nSpyker 提出了一個極具啟發性的類比：中東國家在能源領域的佈局，正如 NVIDIA 透過 CUDA 構建的生態護城河。自 1970 年代起，海灣國家便開始推動「分子價值鏈」的垂直整合。他們不只是銷售原油，更透過投資下游煉油、石化與液化天然氣（LNG）設施，將自己深深嵌入到亞洲與全球的工業神經系統中。台灣有約 15% 的電力依賴卡達 LNG 供應，4 億印度人使用中東液化石油氣（LPG）烹飪，日本的計程車隊更是高度依賴中東燃料。這種深度的「硬體級」依賴，使得全球製造業中心（亞洲）在面對封鎖時，難以迅速轉向美國生產的輕質甜油（Light Sweet Crude），因為其煉化流程是專為中東特定品級原油量身打造的。\n\n目前的危機在於，儘管西方市場試圖維持冷靜，但物理層面的停擺是真實且前所未有的。Spyker 透過衛星影像與追蹤數據指出，荷姆茲海峽的實際通行量已下降了 95%，每日僅剩約 2 艘油輪進出。雖然沙烏地阿拉伯嘗試透過東西向管線轉運，但其備援能力遠不足以填補漏洞。這與 2022 年俄烏戰爭時的供應鏈重組截然不同：當時俄羅斯原油只是「換了買家」，物理供應依然存在；但現在高達 1000 到 1500 萬桶的日產量則是「徹底消失」在市場之外。即便封鎖在短期內解除，2026 年也將面臨高達 7 億桶的庫存缺口，這將徹底扭轉原先預期的全球庫存增長態勢。\n\n### 對整體市場與技術發展的長期影響\n這場危機的溢出效應將迅速從能源終端蔓延至全球化工業、農業與醫療製造業。作者強調，石油不只是燃料，更是現代文明的「基礎代碼」。從醫療注射器、服裝、化學肥料到半導體製程中所需的各種高純度化學品，全部位於原油與天然氣生產的下游。目前丁二烯（Butadiene）與聚乙烯（PET）在亞洲與歐洲的價格已呈垂直拉升，這預示著一場從分子層面引發的全球性通膨海嘯。長期來看，這場封鎖將迫使科技界與各國政府重新審視「及時生產」（Just-in-Time）模式的局限性，並推動能源基礎設施的去中心化改革。當地理位置成為致命的單點故障，價格將成為唯一的調節槓桿，而這場危機也將成為全球化分工體系韌性的最終壓力測試。",
+      "url": "https://www.a16z.news/p/every-building-youve-ever-been-in",
+      "analysis_zh": "這篇文章源自矽谷知名創投 Andreessen Horowitz (a16z) 的官方通訊，由其深度產業研究團隊撰寫。a16z 以「軟體正在吞噬世界」為核心投資哲學，長期關注傳統產業的數位化轉型。本文探討了規模高達 13 兆美元的建築、工程與施工（AEC）產業，如何長期受困於 1990 年代的舊技術框架，並指出生成式 AI 正成為打破這一堅不可摧堡壘的關鍵戰略變量。\n\n**戰略背景與脈絡：被時間遺忘的 13 兆美元市場**\n建築業是全球最大且數位化程度最低的產業之一，每年支出高達 13 兆美元。然而，支撐這一龐大體系的設計核心——Revit，其底層架構自 1997 年開發以來幾乎沒有本質改變。Autodesk 在 2002 年收購 Revit 後，建立了如同 Excel 在金融界般的絕對壟斷地位。這種壟斷不僅源於技術，更源於深刻的「生態鎖定」：全球建築學院皆以 Revit 為教學標準，企業的組件庫與標準化模板皆深植於其封閉格式中。作者指出，這種技術停滯導致了極高的效率代價，建築專業人士每週有 35% 的時間浪費在處理數據衝突與手動校對。在美國，每年因溝通不暢與設計錯誤導致的重複施工成本高達 1,770 億美元，且 70% 的工程變更可追溯到設計階段的失誤。\n\n**核心推演與論點：為什麼 AI 能夠打破僵局？**\n過去二十年，無數挑戰者試圖推翻 Revit 卻無功而返，主要原因在於建築設計涉及 3D 幾何、物理約束、建築法規與多學科協作的極高複雜性。作者認為，現在出現了兩個關鍵轉折點。首先是大型語言模型（LLM）與視覺模型的成熟，它們能理解 BIM（建築資訊模型）中凌亂的元數據。過去的系統無法識別「機房」代表的散熱需求與法規限制，但 AI 可以將非結構化數據轉化為結構化的工程輸入。其次是基礎設施需求的迫切性，特別是 AI 數據中心的建設浪潮與全球住房短缺，使得傳統依賴廉價離岸人力的「計時計費」模式達到了生產力瓶頸。文中提出了三種 AI 攻擊策略：直接挑戰 Revit 的雲原生 AI 平台（如 Motif）、繞過核心軟體解決周邊工作流問題（如 LightTable），以及直接自動化獲利豐厚的 MEP（機械、電力、管道）工程設計服務（如 Endra）。\n\n**長期影響：從工具到產能的商業模式革命**\n長遠來看，這場變革將引發商業模式的根本性重構。建築工程設計過去依賴「按小時計費」的服務模式，導致效率提升反而可能損害利潤。AI 的介入將推動產業轉向「基於價值或成果」的定價模型，例如分享減少變更單（change order）所帶來的節省。當軟體從單純的繪圖工具演變為自動化的「產能」，建築業將突破人才短缺的物理限制。這不僅會加速數據中心與關鍵基礎設施的建設效率，更將顯著降低建築成本並縮短工期，對於提升全球 GDP 與應對社會性住房危機具有深刻的地緣政治與經濟意義。這場變革標誌著 AEC 產業正從「數位化工具時代」跨入「智能產能時代」。",
       "insights": [
-        "能源並非僅是燃料，而是實體世界的「操作系統」；海灣國家透過石化價值鏈構建了類似 CUDA 的技術護城河，使得亞洲製造業中心對其產生了難以遷移的硬體級依賴。",
-        "美國頁岩油無法提供即時的故障切換，受限於 60 天的航運延遲、運費翻倍以及煉油廠設計的不匹配，全球能源市場在面對物理封鎖時缺乏有效的動態冗餘。",
-        "荷姆茲海峽危機標誌著從「能源價格危機」向「分子供應災難」的轉型，實體產量的大規模消失將引發從醫療耗材到化肥的全鏈條製造業崩潰，其衝擊力遠超 2022 年的俄烏戰爭。"
+        "AEC 產業的生產力停滯源於 Revit 建立的「格式與教育壟斷」，使 13 兆美元的市場長期依賴 1997 年的舊技術架構。",
+        "AI 對建築業的顛覆關鍵在於「語義理解」，LLM 能自動將建築法規與物理約束轉化為設計參數，解決了過去 3D 建模軟體無法自動化推理的痛點。",
+        "建築業的商業模式正從「按人時計費」向「按成果與風險規避定價」轉型，AI 將使軟體公司能直接切入獲利豐厚的專業設計服務預算。"
       ]
     },
     "Lenny's Newsletter": {
-      "title": "From skeptic to true believer: How OpenClaw changed my life | 從懷疑者到堅定信徒：OpenClaw 如何改變我的生活",
-      "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
-      "analysis_zh": "本文源自知名產品與成長領域的深度社群《Lenny's Newsletter》，由主持人 Lenny Rachitsky 訪談了 AI 創業公司 ChatPRD 創辦人、同時也是資深產品高管與工程師的 Claire Vo。Claire 在訪談中分享了她如何從最初對 AI 代理（AI Agents）技術抱持懷疑，甚至在初次嘗試時被刪除全家日曆的慘痛經歷中，轉化為一名透過九個獨立運行在實體硬體上的 OpenClaw 代理來管理事業與家庭生活的「超級用戶」，為當前 AI 應用從單一對話轉向自主行動代理的趨勢提供了極具價值的戰略觀察。\n\n**戰略背景與脈絡：從對話式 AI 向代理化工作流的範式轉移**\n在過去兩年中，市場對 AI 的認知多停留在「大語言模型作為搜尋或寫作輔助」的階段。然而，Claire Vo 的實踐標誌著一個更深層次的範式轉移：從單純的語言處理器（LLM）轉向具備執行能力的「代理化工作流」（Agentic Workflows）。OpenClaw 作為一個開源框架，允許用戶在本地環境部署具備瀏覽器操作與系統存取權限的代理，這不僅是技術上的進步，更是對個人生產力架構的重新思考。當 AI 不再僅是「回答問題」，而是「接管任務」時，用戶的角色也從「操作員」轉變為「管理者」，這反映了當前矽谷最尖端的生產力哲學：將 AI 視為一種可擴展、數位化的虛擬員工隊伍。\n\n**作者的核心推演與論點：專業化與硬體隔離的必要性**\nClaire 的核心論點之一在於「專化勝過通用」。她目前運行的九個代理並非同一個通用助手的九個視窗，而是針對家庭日曆管理、銷售開發、播客備課、課程管理等特定場景調優的獨立實體。這種「多代理系統」（Multi-agent System）的邏輯在於，單一通用代理往往因為過大的權限範圍與過雜的上下文（Context）而容易出錯，而專門化代理則能精確定義邊界，提高任務完成的成功率。此外，她提出了一個極具啟發性的實務建議：硬體隔離。為了避免早期發生的「日曆慘劇」，她將代理運行在舊筆電或專門購置的 Mac Mini 上，而非生產力主機。這種「實體氣隙」（Physical Air-gap）的概念為 AI 安全性提供了另一種思考維度：在模型對齊尚未完全成熟前，物理限制是防止 AI 在數位世界造成不可逆破壞的最有效手段。\n\n**對整體市場與技術發展的長期影響**\n從 Claire Vo 的經驗可以推演，未來個人與企業的數位資產管理將會出現「代理中心化」的趨勢。長期而言，這將對傳統的 SaaS（軟體即服務）模式產生巨大衝擊。當用戶擁有可以自主操作瀏覽器並與各類 API 交互的代理時，軟體的前端介面價值將會下降，後端功能的「可調用性」將成為核心競爭力。這也暗示了硬體市場的復甦可能——如 Claire 所述，舊電腦與 Mac Mini 成為了「代理伺服器」，這預示著未來家庭網路中可能會出現專門處理 AI 任務的本地節點（Local Nodes），以解決延遲、隱私與安全性問題。此外，這種技術普及將會模糊個人生活與職業效率的界線，當育兒、家庭採買與商業談判都能由這類具備「心跳」（持續運行且主動反饋）的系統處理時，人類的競爭力將取決於如何定義任務邊界與進行高階決策，而非執行繁瑣細節。Claire Vo 的轉變，正是這一場從「使用工具」到「管理智慧」革命的縮影。",
+      "title": "🎙️ Stripe 如何構建「小兵」AI 代理每週交付 1,300 個 PR，以及如何將 Claude Code 轉化為個人生活作業系統 (How Stripe built “minions” + Claude Code as Life OS)",
+      "source": "Lenny's Newsletter (How I AI)",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe",
+      "analysis_zh": "本文源自知名產品與科技社群《Lenny's Newsletter》的專欄系列，由 Stripe 開發者基礎設施資深工程師 Steve Kaliski 與創業家 Hilary Gridley 共同分享。Steve 在 Stripe 擁有超過六年的經驗，專注於提升開發者生產力，他揭示了 Stripe 如何將 AI 代理（Agent）深度整合進企業級工作流；而 Hilary 則展示了 AI 如何從企業端走進極端個人化的生活管理。這篇文章的核心主旨在於：當 AI 代理的「構建成本」與「執行成本」雙雙下降時，軟體開發的範式與個人生產力的定義將發生根本性的逆轉。\n\n### 戰略背景與脈絡：開發者體驗（DX）的戰略複利\nStripe 的案例提供了一個極其深刻的洞察：AI 代理的成功，並非僅取決於底層模型（如 Claude 3.5 或 GPT-4）的智慧，更取決於企業長年累積的「數位地基」。Steve 指出，Stripe 多年來對開發者體驗（Developer Experience, DX）的投資——包括極其詳盡的文件、針對常見任務的「標準路徑」（Blessed Paths）、以及強大的 CI/CD 工具鏈——意外地成為了 AI 代理「小兵」（Minions）運行的最佳指南。當一份文件能讓人類新手快速上手時，它同樣能讓 AI 代理精確執行。這意味著，未來企業的競爭力將取決於其內部知識與流程的「機器可讀性」。那些 DX 做得好的公司，將在 AI 時代獲得巨大的複利。\n\n### 作者的核心推演與論點：從「編碼速度」到「啟動能」的移動\n在軟體工程領域，Steve 提出了一個反共識的觀點：工程效率的真正瓶頸不在於編碼的速度，而在於「啟動能」（Activation Energy）。在大型組織中，從一個點子到寫下第一行代碼，往往需要經過無數的會議與協調。Stripe 的突破在於將開發流程簡化到「一個 Slack 表情符號」。當工程師在討論中對某個點子回覆特定 Emoji，AI 代理就會自動在雲端開發環境（Cloud Dev Environments）中啟動、拉取代碼、執行修改並提交 PR。這種「極低摩擦」的開發模式，將軟體生產從「重型製造」轉向了「輕量實驗」。\n\n此外，雲端開發環境（CDE）在此被定義為 AI 協作的「非必要不可」。AI 代理需要的是能秒級啟動、彈性擴展且完全隔離的沙盒。Stripe 透過 CDE 實現了多線程的 AI 工作流，工程師可以同時指揮數十個代理，而不會耗盡本地硬體資源。這也引申出了一個關鍵的轉變：審核（Review）能力的自動化。當每週產出 1,300 個 PR 時，人類不可能逐行閱讀，因此「自動化信心信號」（如綜合測試覆蓋率、合成端到端測試）成為了新的審核標準。這標誌著軟體工程的重心正從「寫代碼」全面轉向「設計驗證系統」。\n\n而在個人生產力端，Hilary Gridley 提出了「反系統（Anti-system）」的概念。她認為傳統依賴 API 串接與複雜規則的自動化工具（如 Zapier）往往過於脆弱且難以維護。相反，透過與 Claude Code 的自然對話（她稱之為 Yapping），讓 AI 透過「觀察真實行為」而非「執行預設指令」來學習使用者的偏好。這種模式打破了 OAuth 授權的技術壁壘，將 AI 變成了一個隨時待命、具備上下文感知能力的私人助理。這預示著未來最強大的軟體介面將不再是 GUI，而是具備長期記憶的自然語言對話。\n\n### 對整體市場與技術發展的長期影響：軟體的消耗性與機器經濟\n從長遠來看，這場變革將產生兩個關鍵影響。第一是「軟體的消耗性（Disposability）」。Steve 提到他為幼兒開發的專屬 App，隨建隨拆。當 AI 能在數小時內完成開發時，軟體不再需要追求通用性或長壽命，而是針對極其具體的、暫時的需求而存在。這將徹底改變軟體外包與 SaaS 的商業邏輯——未來我們可能不再購買軟體服務，而是購買「生成特定解決方案的能力」。\n\n第二是「機器對機器（M2M）支付」與代理經濟的興起。當 AI 代理能自主調用 API 並支付費用（如 Steve 演示的代理自行購買郵寄服務）時，企業的客戶群將從「人類」轉向「代理」。未來的 Web 不再需要為了吸引人類眼球而設計華麗的 Landing Page，而是需要提供「超高效率、即付即用」的 API。這將催生出一種全新的經濟形式：Tokens 與美元並排流動，每一行生成的代碼與每一次代理的執行都具備透明的經濟成本。這不僅是技術的演進，更是商業地緣格局的重組，標誌著自動化經濟體系（Agentic Economy）的正式降臨。",
       "insights": [
-        "「硬體隔離」是當前 AI 代理安全性最被低估的防禦策略，透過專屬舊設備運行代理，能有效對沖 AI 模型偶發性的災難性行為。",
-        "「專業化勝過通用化」：運行九個專門用途的小型代理，比依賴一個具備全權限的通用助手的錯誤率更低且可控性更高。",
-        "AI 代理的成熟標誌著從「人類驅動工具」到「AI 驅動流程」的轉變，未來的個人生產力將不再取決於軟體技能，而是取決於定義任務範疇的架構能力。"
+        "軟體開發的競爭力已從「編碼效率」轉向「驗證體系」，當 AI 讓 PR 生成成本趨近於零，企業真正的資產在於能自動驗證正確性的 DX 基礎設施與測試路徑。",
+        "軟體將從「耐用財」轉向「消耗品」：當構建成本極低時，為單一特定場景、單一用戶開發且用後即丟的「微型應用」將取代通用型 SaaS。",
+        "「反系統」模式預示了 API 霸權的衰落：與其追求複雜的技術串接，不如透過「自然語言敘述」讓 AI 觀察並學習行為，這將成為未來個人生產力的底層作業系統。"
       ]
     }
   }
