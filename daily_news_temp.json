@@ -1,182 +1,182 @@
 {
-  "fetch_date": "2026-04-01",
+  "fetch_date": "2026-04-02",
   "techmeme": [
     {
-      "title_en": "NYC Mayor Zohran Mamdani allows city agencies to use TikTok, with some restrictions, reversing a 2023 ban his predecessor enacted over data security concerns (Chris Sommerfeldt/Politico)",
-      "url": "https://www.politico.com/news/2026/03/31/mamdani-is-rescinding-new-york-city-governments-tiktok-ban-00851884",
-      "summary_en": "<A HREF=\"https://www.politico.com/news/2026/03/31/mamdani-is-rescinding-new-york-city-governments-tiktok-ban-00851884\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/...",
-      "title_zh": "紐約市長 Zohran Mamdani 撤銷前任禁令，允許市政府機構在有限制的情況下使用 TikTok",
-      "summary_zh": "紐約市長 Zohran Mamdani 決定撤銷其前任因數據安全疑慮而於 2023 年實施的禁令，允許市府機構在特定限制下使用 TikTok。"
+      "title_en": "Sources: Amazon is in talks to acquire Globalstar to bolster its low Earth orbit satellite business; Apple's 20% stake in Globalstar is a complicating factor (Financial Times)",
+      "url": "https://www.ft.com/content/abace066-fe93-4ff0-8378-d3c3eb49519c",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/abace066-fe93-4ff0-8378-d3c3eb49519c\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i36.jpg\"></A>\n<P><A HREF=\"http://www.t...",
+      "title_zh": "消息指亞馬遜正洽談收購 Globalstar 以強化低軌衛星業務；蘋果持有 20% 股權增加交易複雜性 (Financial Times)",
+      "summary_zh": "亞馬遜計畫透過收購衛星營運商 Globalstar 來擴展其低軌衛星版圖，但蘋果先前的投資與持股可能成為此項收購的潛在阻礙。"
     },
     {
-      "title_en": "Salesforce announces over 30 new features for Slack, including a meeting transcription feature and an operator mode to complete multi-step tasks on the desktop (Sabrina Ortiz/The Deep View)",
-      "url": "https://www.thedeepview.com/articles/slack-adds-ai-meeting-notes-and-a-desktop-ai-agent",
-      "summary_en": "<A HREF=\"https://www.thedeepview.com/articles/slack-adds-ai-meeting-notes-and-a-desktop-ai-agent\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i64.jpg\"></A>\n...",
-      "title_zh": "Salesforce 宣佈 Slack 推出超過 30 項新功能，包含會議逐字稿與桌面自動化操作模式",
-      "summary_zh": "Salesforce 發表 Slack 的多項更新，亮點包括 AI 會議紀錄功能，以及能在桌面端執行多步驟任務的「操作員模式（operator mode）」。"
+      "title_en": "Solana-based DeFi platform Drift warns users about an \"active attack\" on its protocol; Arkham data said over $250M had moved from Drift to an interim wallet (Helene Braun/CoinDesk)",
+      "url": "https://www.coindesk.com/tech/2026/04/01/solana-defi-platform-drift-investigates-suspicious-activity-tells-users-to-halt-deposits",
+      "summary_en": "<A HREF=\"https://www.coindesk.com/tech/2026/04/01/solana-defi-platform-drift-investigates-suspicious-activity-tells-users-to-halt-deposits\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"htt...",
+      "title_zh": "Solana 生態 DeFi 平台 Drift 警告用戶其協議遭遇「主動攻擊」；Arkham 數據顯示逾 2.5 億美元資金轉移至臨時錢包 (CoinDesk)",
+      "summary_zh": "DeFi 平台 Drift 官方已介入調查異常資金流向，並呼籲用戶暫停存款，目前已偵測到大規模資金異常移轉。"
     },
     {
-      "title_en": "Sources: AT&T agreed last week to a deal worth up to $2B to upgrade the FirstNet emergency cellular network it runs for the Commerce Department (Patience Haggin/Wall Street Journal)",
-      "url": "https://www.wsj.com/business/telecom/at-t-pledges-up-to-2-billion-to-upgrade-emergency-cellular-network-b2d9d54f?st=8RtV7S&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/business/telecom/at-t-pledges-up-to-2-billion-to-upgrade-emergency-cellular-network-b2d9d54f?st=8RtV7S&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER...",
-      "title_zh": "消息指出 AT&T 達成 20 億美元協議，將為美國商務部升級 FirstNet 緊急通訊網路",
-      "summary_zh": "據悉 AT&T 上週已同意一項價值高達 20 億美元的交易，旨在為其替商務部營運的 FirstNet 緊急行動網路進行硬體與效能升級。"
+      "title_en": "Cognichip, which is building an AI model for chip design, raised a $60M Series A led by Seligman Ventures, with participation from new board member Lip-Bu Tan (Tim Fernholz/TechCrunch)",
+      "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
+      "title_zh": "致力於晶片設計 AI 模型的 Cognichip 完成 6000 萬美元 A 輪融資，由 Seligman Ventures 領投，陳立武加入董事會 (TechCrunch)",
+      "summary_zh": "Cognichip 旨在利用 AI 提升半導體設計效率，本次融資獲得前益華電腦（Cadence）執行長陳立武的支持，展現市場對 AI 輔助晶片設計的信心。"
     },
     {
-      "title_en": "Letters to Sen. Ed Markey: six autonomous vehicle companies say remote assistants don't directly control vehicles; Tesla says its operators are allowed to do so (Aarian Marshall/Wired)",
-      "url": "https://www.wired.com/story/tesla-says-its-robotaxis-are-sometimes-driven-by-humans/",
-      "summary_en": "<A HREF=\"https://www.wired.com/story/tesla-says-its-robotaxis-are-sometimes-driven-by-humans/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i62.jpg\"></A>\n<P>...",
-      "title_zh": "自駕車業者致函參議員：多數公司稱遠端助理不直接操控車輛，僅 Tesla 承認允許操作員介入",
-      "summary_zh": "在回覆參議員 Ed Markey 的信函中，六家自駕車公司表示其遠端助理不會直接控制車輛；然而 Tesla 卻表示其操作員被允許進行直接控制。"
+      "title_en": "Sources: the FBI has declared a recent China-linked hack of a system, which contained pen register and trap and trace surveillance returns, a \"major incident\" (John Sakellariadis/Politico)",
+      "url": "https://www.politico.com/news/2026/04/01/fbi-hack-surveillance-system-major-incident-00854237",
+      "summary_en": "<A HREF=\"https://www.politico.com/news/2026/04/01/fbi-hack-surveillance-system-major-incident-00854237\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i33.jpg\"...",
+      "title_zh": "消息：FBI 宣稱近期中國相關駭客入侵監控系統為「重大事件」，該系統包含電話監聽與追蹤紀錄 (Politico)",
+      "summary_zh": "美國執法部門正嚴正調查此次滲透事件，駭客獲取的監控紀錄可能對國家安全機制造成深遠影響。"
     },
     {
-      "title_en": "Sources: Microsoft is in talks with Chevron and investment fund Engine No. 1 over a $7B Texas power plant that would initially generate 2.5 GW of electricity (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-31/microsoft-in-talks-with-chevron-engine-no-1-over-7-billion-texas-power-plant",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-03-31/microsoft-in-talks-with-chevron-engine-no-1-over-7-billion-texas-power-plant\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http:...",
-      "title_zh": "消息稱微軟與 Chevron 及 Engine No. 1 洽談 70 億美元德州電廠計畫，首階段供電 2.5 GW",
-      "summary_zh": "據知情人士透露，微軟正與雪佛龍（Chevron）及投資基金 Engine No. 1 商討在德州興建一座價值 70 億美元的電廠，初步預計可產生 2.5 GW 的電力。"
+      "title_en": "Franklin Templeton agrees to acquire CoinFund spinoff 250 Digital to form Franklin Crypto, which will offer strategies designed for institutional investors (Vicky Ge Huang/Wall Street Journal)",
+      "url": "https://www.wsj.com/finance/currencies/franklin-templeton-agrees-to-buy-crypto-spinoff-in-digital-asset-expansion-72d8cc14?st=nvsWDn&reflink=desktopwebshare_permalink",
+      "summary_en": "<A HREF=\"https://www.wsj.com/finance/currencies/franklin-templeton-agrees-to-buy-crypto-spinoff-in-digital-asset-expansion-72d8cc14?st=nvsWDn&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=...",
+      "title_zh": "富蘭克林坦伯頓同意收購 CoinFund 拆分公司 250 Digital 並成立 Franklin Crypto，鎖定機構投資人策略 (Wall Street Journal)",
+      "summary_zh": "傳統金融巨頭富蘭克林坦伯頓透過收購專業團隊強化其數位資產版圖，將為機構投資者提供專屬的加密貨幣投資策略。"
     },
     {
-      "title_en": "Sources: threat actors stole Cisco source code by breaching its internal development environment using credentials from a recent Trivy supply chain attack (Lawrence Abrams/BleepingComputer)",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/",
-      "summary_en": "<A HREF=\"https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.c...",
-      "title_zh": "消息指 Cisco 源碼遭竊：駭客利用 Trivy 供應鏈攻擊取得憑證並入侵其內部開發環境",
-      "summary_zh": "消息來源表示，駭客透過近期 Trivy 供應鏈攻擊獲得的憑證，成功侵入 Cisco 的內部開發環境，並竊取了該公司的原始碼。"
+      "title_en": "Super Micro co-founder Yih-Shyan Liaw pleads not guilty to US federal charges of helping smuggle billions of dollars' worth of Nvidia-powered servers to China (Bob Van Voris/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/super-micro-co-founder-pleads-not-guilty-in-china-smuggling-case",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-01/super-micro-co-founder-pleads-not-guilty-in-china-smuggling-case\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
+      "title_zh": "美超微（Super Micro）共同創辦人廖益賢針對走私價值數十億美元之 Nvidia 伺服器至中國的聯邦指控辯稱無罪 (Bloomberg)",
+      "summary_zh": "廖益賢因涉嫌違反出口禁令將高效能 AI 伺服器運往中國而遭起訴，他在法院上否認所有相關聯邦控罪。"
     },
     {
-      "title_en": "An excerpt from the book The Infinity Machine details how DeepMind's early governance battles with Google changed Demis Hassabis from an idealist into a realist (Sebastian Mallaby/Colossus)",
-      "url": "https://colossus.com/article/project-mario-demis-hassabis-deepmind-mallaby/",
-      "summary_en": "<A HREF=\"https://colossus.com/article/project-mario-demis-hassabis-deepmind-mallaby/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i59.jpg\"></A>\n<P><A HREF=\"...",
-      "title_zh": "新書揭密：DeepMind 與 Google 的早期治理爭鬥如何讓 Demis Hassabis 從理想主義者轉為現實主義者",
-      "summary_zh": "節錄自《The Infinity Machine》一書的內容詳細描述了 DeepMind 與 Google 早期的權力鬥爭，以及這段過程如何重塑了其創辦人 Demis Hassabis 的經營哲學。"
+      "title_en": "Raspberry Pi raises prices by between $11.25 and $150, citing higher memory costs after December and February hikes, and unveils a 3GB Raspberry Pi 4 for $83.75 (Stevie Bonifield/The Verge)",
+      "url": "https://www.theverge.com/gadgets/905189/raspberry-pi-price-increases-pi-4-3gb",
+      "summary_en": "<A HREF=\"https://www.theverge.com/gadgets/905189/raspberry-pi-price-increases-pi-4-3gb\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i30.jpg\"></A>\n<P><A HREF...",
+      "title_zh": "Raspberry Pi 宣布漲價 11.25 至 150 美元，主因記憶體成本上升，同步發表售價 83.75 美元的 3GB 版 Raspberry Pi 4 (The Verge)",
+      "summary_zh": "受到記憶體組件價格波動影響，Raspberry Pi 宣布調整多款產品售價，並為了滿足不同需求推出全新 3GB 容量規格的 Pi 4。"
     },
     {
-      "title_en": "Samsung launches Hearapy, a free Android app to mitigate motion sickness by playing a 100Hz sine wave tone; a 60-second session can provide two hours of relief (Andrew Liszewski/The Verge)",
-      "url": "https://www.theverge.com/tech/904579/samsung-hearapy-mobile-app-galaxy-buds-motion-sickness-symptoms",
-      "summary_en": "<A HREF=\"https://www.theverge.com/tech/904579/samsung-hearapy-mobile-app-galaxy-buds-motion-sickness-symptoms\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i...",
-      "title_zh": "三星推出免費 App「Hearapy」，利用 100Hz 正弦波音訊緩解暈車症狀",
-      "summary_zh": "三星發表 Android App「Hearapy」，聲稱透過播放 60 秒的 100Hz 正弦波音訊，可有效緩解使用者長達兩小時的暈眩感。"
+      "title_en": "Sona, which uses AI to help companies with scheduling, HR, payroll, and other workflows, raised a $45M Series B led by N47, bringing its total funding to $100M+ (Chris Metinko/Axios)",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/04/01/workforce-planning-sona-software-n47",
+      "summary_en": "<A HREF=\"https://www.axios.com/pro/enterprise-software-deals/2026/04/01/workforce-planning-sona-software-n47\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i2...",
+      "title_zh": "運用 AI 協助排班、人資與薪資流程的新創 Sona 完成 4500 萬美元 B 輪融資，總募資額破億 (Axios)",
+      "summary_zh": "Sona 專注於優化企業內部管理工作流，本次融資由 N47 領投，顯示市場對於企業垂直領域 AI 應用的高度關注。"
     },
     {
-      "title_en": "Austin-based Saronic, which builds military autonomous ships, raised a $1.75B Series D led by Kleiner Perkins at a $9.25B valuation, up from $4B in Feb. 2025 (Samantha Subin/CNBC)",
-      "url": "https://www.cnbc.com/2026/03/31/autonomous-boat-startup-saronic-raises-1point75-billion-.html",
-      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/31/autonomous-boat-startup-saronic-raises-1point75-billion-.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i57.jpg\"...",
-      "title_zh": "軍用無人船公司 Saronic 完成 17.5 億美元 D 輪融資，估值翻倍至 92.5 億美元",
-      "summary_zh": "總部位於奧斯汀的軍用自動化船艦新創 Saronic，在由 Kleiner Perkins 領投的 D 輪融資中籌集了 17.5 億美元，其估值也從 2025 年 2 月的 40 億美元飆升至 92.5 億美元。"
+      "title_en": "Sources: Paradigm, a major investor in Kalshi, is building its own prediction markets trading terminal that will cater to professional traders and market makers (Ben Weiss/Fortune)",
+      "url": "https://fortune.com/2026/04/01/paradigm-prediction-markets-trading-terminal-arjun-balaji-kalshi-polymarket/",
+      "summary_en": "<A HREF=\"https://fortune.com/2026/04/01/paradigm-prediction-markets-trading-terminal-arjun-balaji-kalshi-polymarket/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
+      "title_zh": "消息：Paradigm 正為預測市場開發自有交易終端機，服務專業交易員與造市商 (Fortune)",
+      "summary_zh": "作為 Kalshi 的主要投資者，Paradigm 傳正打造專屬的預測市場交易終端，旨在提供與專業金融市場同等級的交易工具。"
     },
     {
-      "title_en": "Sequoia says Doug Leone is returning in a newly created role of chairman, after he announced his retirement in 2022 from his role as \"senior steward\" (Iain Martin/Forbes)",
-      "url": "http://www.forbes.com/sites/iainmartin/2026/03/31/billionaire-vc-doug-leone-returns-to-sequoia-in-chairman-role/",
-      "summary_en": "<A HREF=\"http://www.forbes.com/sites/iainmartin/2026/03/31/billionaire-vc-doug-leone-returns-to-sequoia-in-chairman-role/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
-      "title_zh": "紅杉資本宣佈 Doug Leone 重返掌舵，出任新設立的董事會主席一職",
-      "summary_zh": "紅杉資本（Sequoia Capital）宣佈 Doug Leone 將結束自 2022 年起的退休生活，回歸公司擔任新創設的主席職位，他此前曾長期擔任該公司的「資深合夥人」。"
+      "title_en": "Sources: OpenRouter is in talks to raise $120M led by CapitalG at a $1.3B post-money valuation; it now has $50M+ in annualized revenue, up from $10M+ in Oct. (The Information)",
+      "url": "https://www.theinformation.com/articles/startup-helps-developers-pick-ai-models-nears-1-3-billion-valuation",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/startup-helps-developers-pick-ai-models-nears-1-3-billion-valuation\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
+      "title_zh": "消息：OpenRouter 洽談由 CapitalG 領投之 1.2 億美元融資，投後估值達 13 億美元 (The Information)",
+      "summary_zh": "協助開發者介接各類 AI 模型的平台 OpenRouter 營收爆發成長，年化營收在半年內從 1000 萬美元衝破 5000 萬美元。"
     },
     {
-      "title_en": "Anthropic confirms it leaked parts of Claude Code's source code, saying the leak was \"a release packaging issue caused by human error, not a security breach\" (Ashley Capoot/CNBC)",
-      "url": "https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html",
-      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i55.jpg\"></A>\n<P><A HR...",
-      "title_zh": "Anthropic 證實 Claude Code 部分源碼外洩，稱係人為失誤導致而非安全性入侵",
-      "summary_zh": "Anthropic 證實其 Claude Code 產品的部分原始碼不慎流出，並說明這是一起由人為失誤引起的發佈封裝問題，而非受到外部攻擊。"
+      "title_en": "Sources: SpaceX has filed confidentially for an IPO, putting it on track for a June listing; it could reportedly seek a valuation of $1.75T+ and raise ~$75B (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/spacex-is-said-to-file-confidentially-for-ipo-ahead-of-ai-rivals",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-01/spacex-is-said-to-file-confidentially-for-ipo-ahead-of-ai-rivals\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
+      "title_zh": "消息：SpaceX 已秘密提交 IPO 申請，預計 6 月掛牌；估值或達 1.75 兆美元，募資約 750 億美元 (Bloomberg)",
+      "summary_zh": "馬斯克旗下的太空龍頭 SpaceX 即將進入公開市場，這將成為近年來全球最受矚目且規模最大的首次公開發行案。"
     },
     {
-      "title_en": "Snap shares climbed 14% on Tuesday after activist investor Irenic suggested changes to boost the stock's value 7x, such as cutting staff by 21% and ending Specs (Lola Murti/CNBC)",
-      "url": "https://www.cnbc.com/2026/03/31/snap-stock-activist-irenic-value.html",
-      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/31/snap-stock-activist-irenic-value.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i54.jpg\"></A>\n<P><A HREF=\"http:/...",
-      "title_zh": "積極投資人提案裁員並終止 Specs 產品，Snap 週二股價大漲 14%",
-      "summary_zh": "在積極投資者 Irenic 提出裁員 21% 及停止硬體項目等激進改革方案，並聲稱可讓公司價值成長 7 倍後，Snap 股價週二應聲上漲 14%。"
+      "title_en": "Source: AWS' operation in Bahrain was damaged after an Iranian strike; Bahrain earlier said the civil defence force was \"extinguishing a fire in a facility\" (Financial Times)",
+      "url": "https://www.ft.com/content/bd91441f-28fc-4c35-8ff1-10ec6141148c#post-3834e289-dae3-4e2d-8ed4-27e2695315a9",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/bd91441f-28fc-4c35-8ff1-10ec6141148c#post-3834e289-dae3-4e2d-8ed4-27e2695315a9\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260...",
+      "title_zh": "消息：AWS 巴林據點在伊朗襲擊後受損；巴林官方早前表示正撲滅設施火勢 (Financial Times)",
+      "summary_zh": "受地緣政治衝突波及，AWS 位於巴林的營運設施傳出受損消息，當地民防部隊已介入處理火警並展開修復。"
     },
     {
-      "title_en": "Yupp, which raised a $33M seed led by a16z crypto in 2024 for a crowdsourced AI model picker, shuts down, saying it didn't reach strong product-market fit (Julie Bort/TechCrunch)",
-      "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i53.jpg\"></A>\n<P><A ...",
-      "title_zh": "a16z 領投的 AI 模型挑選平台 Yupp 宣佈關閉，稱未能找到明確的產品市場契合度",
-      "summary_zh": "曾於 2024 年獲得 a16z crypto 領投 3300 萬美元種子輪融資的 Yupp 宣佈停止營運，理由是未能實現強勁的產品市場契合度（PMF）。"
+      "title_en": "SEC filing: Hasbro confirms a cyberattack and says it may take \"several weeks\" before the incident is resolved, after it detected an intrusion on March 28 (Zack Whittaker/TechCrunch)",
+      "url": "https://techcrunch.com/2026/04/01/hasbro-hacked-may-take-several-weeks-to-recover/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/01/hasbro-hacked-may-take-several-weeks-to-recover/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i24.jpg\"></A>\n<P><A...",
+      "title_zh": "SEC 文件：孩之寶（Hasbro）證實遭網路攻擊，3 月 28 日偵測到入侵，完全修復可能需數週 (TechCrunch)",
+      "summary_zh": "知名玩具商孩之寶披露遭受資安入侵，預估需要數週時間才能完全解決該事件並恢復系統正常運作。"
     },
     {
-      "title_en": "Microsoft stock plunged 23% in Q1, a steeper drop than any of its tech peers or the Nasdaq, and its steepest quarterly drop since the 2008 financial crisis (Jordan Novet/CNBC)",
-      "url": "https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html",
-      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331...",
-      "title_zh": "微軟第一季股價重挫 23%，創下 2008 年金融海嘯以來最慘季度表現",
-      "summary_zh": "微軟股價在今年第一季暴跌 23%，其跌幅不僅超過其他科技巨頭，也低於納斯達克大盤，是自 2008 年金融危機以來表現最差的一個季度。"
+      "title_en": "Secondary share marketplaces say OpenAI shares have fallen out of favor, in some cases becoming difficult to unload, as investors pivot quickly to Anthropic (Hema Parmar/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
+      "title_zh": "次級市場交易員指出 OpenAI 股份已失寵且難以脫手，投資人正迅速轉向 Anthropic (Bloomberg)",
+      "summary_zh": "隨著 AI 競爭格局改變，部分投資人對 OpenAI 的主導地位產生觀望，並將資金熱情轉移至其主要對手 Anthropic。"
     },
     {
-      "title_en": "OpenAI has tapped retail investors for the first time, raising $3B+ as part of its $122B round, through a trio of banks and ETFs managed by ARK Invest (George Hammond/Financial Times)",
-      "url": "https://www.ft.com/content/89dd9814-e0f3-4464-9a06-58686e85c76e",
-      "summary_en": "<A HREF=\"https://www.ft.com/content/89dd9814-e0f3-4464-9a06-58686e85c76e\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260331/i51.jpg\"></A>\n<P><A HREF=\"http://www.t...",
-      "title_zh": "OpenAI 首度向散戶籌資，透過銀行及 ARK Invest ETF 募得逾 30 億美元",
-      "summary_zh": "作為其 1220 億美元融資輪的一部分，OpenAI 首次開放散戶參與，透過三家銀行以及 ARK Invest 管理的 ETF 籌集了超過 30 億美元資金。"
+      "title_en": "Anthropic's Claude Code leak reveals its \"Kairos\" updates, including letting Claude work in the background and using a \"dream mode\" to consolidate its memories (The Information)",
+      "url": "https://www.theinformation.com/articles/claude-code-leak-reveals-always-kairos-agent",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/claude-code-leak-reveals-always-kairos-agent\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i22.jpg\"></A>\n<P>...",
+      "title_zh": "Anthropic Claude Code 外洩內容揭露「Kairos」更新，包括背景運作與彙整記憶的「夢境模式」 (The Information)",
+      "summary_zh": "Anthropic 內部代號為「Kairos」的 AI 代理人功能曝光，揭露了 Claude 未來將具備更強大的自主執行與記憶處理能力。"
     }
   ],
   "wsj": [
     {
+      "title_en": "Supreme Court Justices Skeptical of Trump’s Birthright Citizenship Order",
+      "url": "https://www.wsj.com/tech/personal-tech/supreme-court-justices-skeptical-of-trumps-birthright-citizenship-order-5c7418ce?mod=rss_Technology",
+      "summary_en": "Plus, SpaceX files IPO paperwork and Tim Cook takes WSJ inside Apple’s archives....",
+      "title_zh": "最高法院大法官對川普的出生公民權行政命令持懷疑態度",
+      "summary_zh": "同場關注：SpaceX 提交 IPO 文件，以及 Tim Cook 帶領《華爾街日報》深入蘋果檔案庫。"
+    },
+    {
+      "title_en": "Anthropic Races to Contain Leak of Code Behind Claude AI Agent",
+      "url": "https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7?mod=rss_Technology",
+      "summary_en": "The developer has issued a copyright takedown request in a bid to prevent competitors from cloning the coding tool’s features....",
+      "title_zh": "Anthropic 奮力圍堵 Claude AI 代理人背後的程式碼外洩",
+      "summary_zh": "開發商已發出版權撤除要求，以防競爭對手複製其程式碼開發工具的關鍵功能。"
+    },
+    {
+      "title_en": "Apple Has Archives That Even Tim Cook Didn’t Know About. We Went Inside.",
+      "url": "https://www.wsj.com/tech/apple-has-archives-that-even-tim-cook-didnt-know-about-we-went-inside-ab9ac0c5?mod=rss_Technology",
+      "summary_en": "From design prototypes of its biggest products to early patents, Apple’s CEO gave us an intimate look at unseen items that help tell the story of 50 years of company history....",
+      "title_zh": "蘋果檔案庫藏有連 Tim Cook 都不知道的秘密，我們走進去一探究竟",
+      "summary_zh": "從重要產品的設計原型到早期專利，蘋果執行長親自帶領我們揭開公司 50 年歷史中未曾曝光的珍貴物件。"
+    },
+    {
+      "title_en": "Musk’s SpaceX Files to Go Public in One of the Biggest IPOs Ever",
+      "url": "https://www.wsj.com/business/spacex-ipo-sec-paperwork-filed-997e45e4?mod=rss_Technology",
+      "summary_en": "The company, which launches satellites and is building an AI business, is aiming to raise between $40 billion and $80 billion in an offering....",
+      "title_zh": "馬斯克的 SpaceX 申請上市，挑戰史上規模最大的 IPO 之一",
+      "summary_zh": "這家橫跨衛星發射與 AI 業務的巨頭，計畫在本次發行中募資 400 億至 800 億美元。"
+    },
+    {
+      "title_en": "Kremlin Enters the Chat With Russia’s New Super-App",
+      "url": "https://www.wsj.com/world/russia/kremlin-enters-the-chat-with-russias-new-super-app-830c703a?mod=rss_Technology",
+      "summary_en": "Max, a messaging and e-commerce platform, will offer everything from taxi-hailing services to electronic passport wallets....",
+      "title_zh": "克里姆林宮加入超級 App 戰局：俄羅斯推出全新應用程式「Max」",
+      "summary_zh": "集通訊與電商於一身的「Max」平台，將提供從叫車服務到電子護照錢包等全方位功能。"
+    },
+    {
       "title_en": "Oracle Lays Off Workers Amid Heavy AI Investment",
       "url": "https://www.wsj.com/tech/oracle-lays-off-workers-amid-heavy-ai-investment-fff8cd82?mod=rss_Technology",
       "summary_en": "Investors see the database firm as a barometer of the financial prospects for artificial intelligence. Oracle’s stock was up 5%....",
-      "title_zh": "甲骨文大舉投資 AI 之際同步啟動裁員",
-      "summary_zh": "投資者將這家資料庫大廠視為人工智慧財務前景的指標。甲骨文（Oracle）股價上漲 5%，但同時也在進行人力精簡。"
+      "title_zh": "甲骨文（Oracle）在重金投資 AI 之際宣布裁員",
+      "summary_zh": "投資人將這家資料庫大廠視為 AI 財務前景的指標，裁員消息傳出後甲骨文股價上漲 5%。"
+    },
+    {
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-b2ecccb5?mod=rss_Technology",
+      "summary_en": "Find insight on Nvidia’s deal with Marvell Technology, SpaceX’s IPO, nCino and more in the latest Market Talks covering technology, media and telecom....",
+      "title_zh": "科技、媒體與電信綜報：市場談話",
+      "summary_zh": "深入剖析 Nvidia 與 Marvell 的交易動向、SpaceX 的 IPO 觀察以及 nCino 等企業動態。"
+    },
+    {
+      "title_en": "What Happened to the Fun Parts of Work?",
+      "url": "https://www.wsj.com/lifestyle/careers/what-happened-to-the-fun-parts-of-work-165ae0c9?mod=rss_Technology",
+      "summary_en": "Plus, Elon Musk’s management techniques, record Wall Street bonuses and Hollywood’s shaky job market....",
+      "title_zh": "工作中那些有趣的部分去哪了？",
+      "summary_zh": "探討馬斯克的管理術、華爾街紀錄級的獎金制度以及好萊塢動盪不安的就業市場。"
+    },
+    {
+      "title_en": "Microsoft Plans to Invest $5.5 Billion in Singapore by 2029",
+      "url": "https://www.wsj.com/tech/ai/microsoft-plans-to-invest-5-5-billion-in-singapore-by-2029-4cea3448?mod=rss_Technology",
+      "summary_en": "Microsoft is on track to invest $5.5 billion in cloud and artificial-intelligence infrastructure in Singapore through 2029....",
+      "title_zh": "微軟計畫於 2029 年前在新加坡投資 55 億美元",
+      "summary_zh": "微軟正按計畫在新加坡投入巨資，建設雲端與人工智慧基礎設施，以強化在亞洲的技術競爭力。"
     },
     {
       "title_en": "OpenAI Closes Silicon Valley’s Largest-Ever Funding Round",
       "url": "https://www.wsj.com/tech/ai/openai-closes-silicon-valleys-largest-ever-funding-round-e48372c9?mod=rss_Technology",
       "summary_en": "The $122 billion round includes Amazon, Nvidia, SoftBank, wealthy investors and a money manager that plans to add the startup to its exchange-traded funds....",
       "title_zh": "OpenAI 完成矽谷史上最大規模融資",
-      "summary_zh": "這一輪高達 1220 億美元的融資參與者包括 Amazon、Nvidia、軟銀以及眾多富裕投資者，還有計劃將這家新創納入 ETF 的資產管理公司。"
-    },
-    {
-      "title_en": "What Happens When AI Agents Go Rogue?",
-      "url": "https://www.wsj.com/tech/ai/what-happens-when-ai-agents-go-rogue-b233a48b?mod=rss_Technology",
-      "summary_en": "Cybersecurity takes a back seat in AI race, while OpenAI makes a tough call with Sora...",
-      "title_zh": "當 AI 代理（AI Agent）失去控制時會發生什麼事？",
-      "summary_zh": "在 AI 競賽中，網路安全往往被排在次要地位，而 OpenAI 則在 Sora 項目上面臨艱難的決策。"
-    },
-    {
-      "title_en": "Yes, a Smartphone Can Be Too Big for the Masses",
-      "url": "https://www.wsj.com/business/telecom/yes-a-smartphone-can-be-too-big-for-the-masses-7968b2fb?mod=rss_Technology",
-      "summary_en": "Samsung won’t restock its 10-inch Galaxy Z TriFold, which boasts the screen size of four original iPhones and costs nearly $3,000....",
-      "title_zh": "手機真的可能大到讓市場難以接受",
-      "summary_zh": "三星將不再補貨其 10 吋的 Galaxy Z TriFold。這款螢幕大小相當於四支初代 iPhone、售價近 3000 美元的摺疊機似乎挑戰了消費者的極限。"
-    },
-    {
-      "title_en": "Buying the Dip? This AI Agent Will Do It for You",
-      "url": "https://www.wsj.com/tech/ai/buying-the-dip-this-ai-agent-will-do-it-for-you-1d2b1658?mod=rss_Technology",
-      "summary_en": "Public, an investing platform, will offer AI agents that can help put your brokerage account on autopilot....",
-      "title_zh": "想「逢低買進」？這個 AI 代理能幫你自動操盤",
-      "summary_zh": "投資平台 Public 將推出 AI 代理服務，協助使用者實現證券帳戶的自動化操作。"
-    },
-    {
-      "title_en": "Meet the Startup That Used AI and OpenClaw to Automate Its Own Developers",
-      "url": "https://www.wsj.com/tech/ai/meet-the-startup-that-used-ai-and-openclaw-to-automate-its-own-developers-9e733351?mod=rss_Technology",
-      "summary_en": "As the OpenClaw craze takes over Silicon Valley, some startups are combining the tech with AI coding tools to fully automate developers’ jobs....",
-      "title_zh": "這家新創結合 AI 與 OpenClaw，實現開發流程全面自動化",
-      "summary_zh": "隨著 OpenClaw 熱潮席捲矽谷，部分新創公司正將此技術與 AI 程式碼工具結合，目標是完全自動化開發者的工作職責。"
-    },
-    {
-      "title_en": "Caltech Researchers Claim Radical Compression of High-Fidelity AI Models",
-      "url": "https://www.wsj.com/cio-journal/caltech-researchers-claim-radical-compression-of-high-fidelity-ai-models-e66f31c9?mod=rss_Technology",
-      "summary_en": "A team of researchers led by California Institute of Technology computer scientist and mathematician Babak Hassibi says it has created a large language model that radically compresses its size without...",
-      "title_zh": "加州理工學院研究人員宣稱可對高保真 AI 模型進行極限壓縮",
-      "summary_zh": "由加州理工學院（Caltech）電腦科學家與數學家 Babak Hassibi 領導的團隊表示，他們開發出一種能大幅縮減大型語言模型體積且不損及性能的壓縮技術。"
-    },
-    {
-      "title_en": "Nvidia Invests $2 Billion in Marvell as Part of Chip Partnership",
-      "url": "https://www.wsj.com/tech/nvidia-invests-2-billion-in-marvell-as-part-of-chip-partnership-ca2fa613?mod=rss_Technology",
-      "summary_en": "Nvidia invested $2 billion in semiconductor company Marvell Technology as part of a new partnership focused on specialized AI chips....",
-      "title_zh": "Nvidia 投資 Marvell 20 億美元，深化 AI 特規晶片合作關係",
-      "summary_zh": "Nvidia 向半導體公司 Marvell Technology 投資 20 億美元，作為雙方針對特規 AI 晶片展開新合作夥伴關係的一部分。"
-    },
-    {
-      "title_en": "Microsoft to Invest Over $1 Billion in Thailand on Cloud, AI Infrastructure",
-      "url": "https://www.wsj.com/business/microsoft-to-invest-over-1-billion-in-thailand-for-cloud-ai-infrastructure-6f8dd992?mod=rss_Technology",
-      "summary_en": "The U.S. tech giant said it plans to invest more than $1 billion in Thailand over the next two years, as demand for AI computing continues to grow in the region....",
-      "title_zh": "微軟宣佈在泰國投資逾 10 億美元，建置雲端與 AI 基礎設施",
-      "summary_zh": "這家美國科技巨頭表示，計劃未來兩年在泰國投資超過 10 億美元，以因應東南亞地區持續增長的 AI 算力需求。"
-    },
-    {
-      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
-      "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-6458d46a?mod=rss_Technology",
-      "summary_en": "Find insight on Meta, Anthropic and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "title_zh": "TMT 產業綜述：市場觀察",
-      "summary_zh": "獲取關於 Meta、Anthropic 等公司的最新產業洞察，涵蓋科技、媒體與電信領域的市場動態。"
+      "summary_zh": "這輪 1220 億美元的融資匯聚了亞馬遜、Nvidia、軟銀等巨頭，並有資產管理公司計畫將其納入 ETF。"
     }
   ],
   "deep_analysis": {
@@ -203,14 +203,14 @@
       ]
     },
     "Culpium": {
-      "title": "War and Chips. And the KMT. (戰爭、晶片與國民黨)",
+      "title": "Washed Wafers vs Washed Cutlery, TSMC Braces for Drought | 洗晶圓還是洗餐具？台積電迎戰史上最嚴重旱災",
       "source": "Culpium",
-      "url": "https://www.culpium.com/p/war-and-chips-and-the-kmt",
-      "analysis_zh": "本文源自科技產業資深評論家 Tim Culpan 的個人專欄《Culpium》。作者 Tim Culpan 曾長期擔任《彭博社》（Bloomberg）科技專欄作家，對亞洲供應鏈與半導體產業有著深厚的洞察，其風格以冷靜分析技術趨勢與地緣政治的交織著稱。這篇文章核心探討了台灣國民黨（KMT）及其新任黨主席鄭麗文在當前全球半導體戰略與美中對抗中，如何扮演一個看似「模糊」卻對維持和平至關重要的角色。\\n\\n### 戰略背景與脈絡\\n作者開篇即指出，台灣的國內政治已不再只是地方事務，而是關乎全球供應鏈、大國競爭、貿易航線及能源需求的樞紐。在全球對先進晶片與 AI 伺服器依賴度達到頂峰的今日，台灣的政治走向直接影響到全球製造業的未來。國民黨作為台灣歷史最悠久、曾擁有龐大資源的政黨，在過去 25 年中經歷了顯著的萎縮，從威權執政黨轉變為需依賴新興勢力才能在國會取得微弱優勢的在野力量。然而，在 2026 年的當下，隨著新任黨主席鄭麗文的當選，國民黨的動向再次成為華盛頓與北京共同關注的焦點。\\n\\n### 作者的核心推演與論點\\n作者提出了一個極具戰略深度的觀察：國民黨的「生存」與「具備競爭力」，實際上是美、中、台三方維持現狀的共同需求。這並非因為各方都認同國民黨的政策，而是國民黨提供了一個關鍵的「戰略緩衝空間」。\\n\\n首先，對於北京而言，只要國民黨在台灣政壇仍是具備勝選希望的政治力量，北京就能維持「和平統一」的政治幻想。如果國民黨消亡，台灣政壇僅剩下傾向獨立的民進黨與影響力有限的第三勢力，北京對台溫和派的論點將失去支撐，從而迫使中共加速轉向軍事解決方案。\\n\\n其次，對於華盛頓而言，儘管民進黨在軍事採購與地緣戰略上更符合美國利益，但一個過於激進或在言論上更具挑戰性的民進黨領導人（如賴清德），可能增加區域衝突風險。國民黨的存在能適度制衡執政黨，並提供另一條與北京溝通的非官方渠道。\\n\\n針對鄭麗文所提出的「親美同時改善對陸關係」方針，作者敏銳地指出這在實質議題（如軍購、高階製程投資）上幾乎是不可能的任務。然而，這種「坐在圍欄上」的模糊姿態，恰恰是國民黨目前最重要的戰略價值。鄭麗文不需要真正解決兩難，她只需要「看起來」能與雙方溝通，就能吸引那些既恐懼戰爭又擔憂過度依賴美國的選民，從而保持國民黨的政治合法性。\\n\\n### 對整體市場、技術發展與地緣政治的長期影響\\n在半導體政策方面，鄭麗文對台積電「全球佈局」的含糊表述反映出國民黨在科技戰略上的搖擺。作者認為，國民黨目前傾向於減少軍事支出、加強對華貿易，這在某些選民眼中是尋求和平，但在戰略觀察者眼中則是對北京的妥協。\\n\\n長期而言，國民黨扮演的是一種「國王的新衣」中的觀眾角色：他們選擇不去戳破北京和平統一的假象，從而換取台灣在先進晶片製造與 AI 基礎設施上的發展時間。只要這種「政治演戲」能持續下去，全球供應鏈就能繼續運作，AI 伺服器與高階製程的流動才不會因戰爭而中斷。\\n\\n總結來說，作者認為國民黨的存在就像是全球科技與和平的一道「保險絲」。雖然其政策可能顯得簡單甚至虛無，但正是這種模糊性，推遲了潛在的第三次世界大戰，讓世界能繼續享有先進半導體帶來的文明紅利。國民黨不需要執政才能發揮作用，作為一個強而有力的反對黨，它本身就是維持東亞地緣政治天平穩定的重要法碼。",
+      "url": "https://www.culpium.com/p/washed-wafers-vs-washed-cutlery-tsmc",
+      "analysis_zh": "這篇文章源自專注於台灣科技產業與地緣政治交織脈絡的深度獨立媒體《Culpium》。該平台由具備深厚產業聯繫的觀察家撰寫，擅長從微小的在地變動中提煉出宏觀的戰略意義。作者在本文中透過台積電（TSMC）台北總部周邊的最新動態，揭示了這家全球晶圓代工巨頭在迎戰台灣史上最乾旱冬季時，如何從細微的企業營運層面調整，進而推演至國家級資源安全與能源政策的轉向。\n\n戰略背景與脈絡：\n台灣的半導體產業是全球電子供應鏈的關鍵樞紐，而「水」與「電」則是支撐這個「矽盾」運作的最基本、也最脆弱的元素。文中背景顯示，北台灣自去年冬季以來降雨量較歷史平均值減少了 25%，導致新竹科學園區關鍵水源——寶山第二水庫的蓄水量跌破 22% 的警戒水位。台灣獨特的氣候結構使產業極度依賴梅雨與颱風，一旦降雨循環出現異常，晶圓廠必須在 3 月至 5 月間進入高度戰略防禦狀態。台積電不僅是技術領先者，更是台灣的用水與用電大戶，其一舉一動都牽動著社會大眾對於「民生用水」與「工業用水」配比的敏感神經。\n\n作者的核心推演與論點：\n作者提出了一個極具戰略洞察力的標題對比：「洗晶圓 vs 洗餐具」。在實質層面上，台積電員工餐廳改用免洗餐具、關閉泳池與淋浴設施，對於年消耗 1.3 億公噸水量的晶圓生產體系而言，節水量幾乎可以忽略不計。然而，作者精闢地指出，這是一場必要的「社會契約」演習。台積電必須透過這些具備高度可見性的節水行為，向社會傳達其作為企業公民的責任感，以預防在更嚴重的缺水情境下，因工業優先供水而引發的公眾敵意。\n\n此外，作者進一步推演，台積電面臨的挑戰並非孤立的水資源問題，而是資源安全的「多重打擊」。地緣政治風險（如伊朗與美國衝突導致的荷姆茲海峽局勢）可能中斷氦氣等關鍵材料的供應。雖然政府官員迅速做出替代供應的聲明，但這種「時刻處於警備狀態」的供應鏈韌性，已成為台積電日常營運的一部分。作者的核心論點在於：在全球晶片競爭中，台積電真正的瓶頸可能不在於電晶體架構的研發，而是在於如何與極端氣候及地緣衝突爭奪基礎資源的生存空間。\n\n對整體市場、技術發展與地緣政治的長期影響：\n文章最關鍵的觀察在於台灣能源政策的戰略轉移。為了應對 AI 數據中心與先進製程廠房所帶來的超額電力需求，執政當局正被迫調整長期以來的「非核」立場。賴清德總統對核能重啟的開放態度，標誌著技術實務主義終於在意識形態的拉鋸中取得上風。這意味著在未來 10 年內，半導體產業的競爭力將不再僅僅取決於摩爾定律的推進速度，更取決於該國基礎設施（穩定電網與再生水系統）的轉型速度。對於全球市場而言，這是一個清晰的訊號：台灣正竭盡全力維持其生產穩定性，甚至不惜推翻既有的能源國策，這反映了台積電在全球地緣戰略中「大到不能倒」且「穩到不能亂」的極端重要性。",
       "insights": [
-        "國民黨的存續是維持「和平統一」幻想的必要條件，一旦該黨失去競爭力，北京對台動武的政治制約將徹底瓦解。",
-        "「雙重友誼」的外交宣示在實質決策上雖然無效，但在國內政治中卻是極佳的避震器，能吸納對美中對抗感到焦慮的溫和選民。",
-        "台灣半導體產業的未來不僅取決於製程領先，更取決於台灣政治體系能否持續提供一種讓北京不感到絕望、讓美國不感到威脅的戰略模糊性。"
+        "台積電的生活節水措施（如停用餐具）並非技術上的必要，而是為了在極端氣候引發「資源爭奪戰」前，提前進行社會溝通與公共關係風險管控。",
+        "台灣半導體產業的真正威脅已從「地緣政治軍事衝突」轉向「在地基礎設施極限」，AI 浪潮帶來的超額水電需求正逼迫台灣打破長期能源政策的禁忌。",
+        "資源安全已成為先進製程競爭的隱性關鍵，未來判斷晶圓代工實力的指標將從「奈米製程」轉變為「水電與關鍵材料（如氦氣）的供應鏈韌性與替代速度」。"
       ]
     },
     "SemiAnalysis": {
@@ -236,25 +236,25 @@
       ]
     },
     "a16z": {
-      "title": "IT：矽谷極少關注的 6 兆美元產業 (IT: The 6T Industry that Silicon Valley Hardly Ever Thinks About)",
-      "source": "a16z (Andreessen Horowitz)",
-      "url": "https://www.a16z.news/p/it-the-6t-industry-that-silicon-valley",
-      "analysis_zh": "本文來源於全球頂尖風險投資機構 Andreessen Horowitz (a16z) 的官方評論頻道，由其投資的 Treeline 團隊撰寫，旨在揭示一個被矽谷長期忽視的「大象級」市場：IT 服務與安全運維。文章主旨明確指出，儘管 IT 支出預計在 2026 年達到 6 兆美元規模，但這個領域的運營模式卻停留在 20 年前，而 AI 與軟體定義的「現代 IT 作業系統」正準備徹底顛覆這個僵化的現狀。\n\n### 戰略背景與脈絡\n在科技行業中，所有目光往往集中在前沿技術（Frontier Tech），如 OpenAI 的大模型或 Anthropic 的突破。然而，科技界存在一個巨大的諷刺：這個致力於透過自動化轉型各行各業的產業，竟然遺忘了自己的「基礎水電工程」（Plumbing）。IT 服務與託管服務商（MSP）構成了一個極其龐大卻極度破碎的生態系統。僅在美國就有超過 4 萬家 MSP，其中絕大多數是規模不足 10 人的「生活方式型企業」（Lifestyle businesses）或是被私募基金併購後追求短期財務回報的資產。這導致了一個結構性的創新斷層——過去二十年來，雖然底層技術在進步，但服務的交付模式卻依然高度依賴人力作為不同碎片化系統間的「連接組織」。這種低效模式讓中小企業（SMB）陷入了不滿意的泥淖，僅 23% 的企業對其 IT 供應商表示滿意，反映出反應遲鈍、創新匱乏的普遍痛點。\n\n### 作者的核心推演與論點\n作者提出了一個深刻的戰略洞察：傳統 IT 服務的失敗源於「偽命題式的選擇」。企業若選擇自建團隊，將面臨高昂的招募成本（動輒六位數美金的年薪）與核心業務無關的管理負擔；若外包給傳統 MSP，則會遇到嚴重的「激勵機制錯位」——因為 MSP 是按服務時數或人力計費，從根本上缺乏動力去永久性地解決問題或進行自動化升級。解決一個問題越快、越徹底，MSP 獲取的計費時間反而越少。\n\nTreeline 的核心論點在於，IT 支出的擴張往往快於組織的成長，這是因為「協調成本」（Coordination Cost）的存在。當企業規模擴大，工具、供應商與流程間的摩擦呈幾何級數增加，傳統做法是透過增加人手來充當「人工膠水」。而作者主張，AI 與軟體的發展已經到達臨界點，足以將 IT 部門的核心活動「產品化」。他們所構建的「現代 IT 作業系統」並非只是另一種儀表板（Tool Consolidation），而是重新定義了連接機制：自動化處理 90% 的反應式工單，讓安全合規與員工入職／離職流程變成即時且持續的代碼執行，而非間歇性的人工檢查。這不僅是工具的替換，更是將 IT 成本從「人力驅動」轉向「系統驅動」的典範轉移。\n\n### 對整體市場、技術發展與產業格局的長期影響\n這場變革的長期影響將是深遠的。首先，它將把 IT 基礎設施「公用事業化」（Utility-like）。當 IT 像電力一樣可靠且透明時，企業能將原本佔營收 3% 至 5% 的沉沒成本重新配置到核心產品的研發上，這對整體經濟的生產力提升具有巨大的槓桿作用。其次，安全與合規將從「年度審計」演進為「實時流轉」。在 AI 輔助駭客攻擊的時代，傳統的人工應對模式已無法適應防禦需求，唯有軟體定義的持續監控才能構築真正的護城河。\n\n最後，這標誌著 IT 產業人力價值的重塑。AI 並非要取代人類的判斷，而是要解放人類。當枯燥的分類、打補丁、帳號權限管理被自動化後，IT 專業人士的價值將集中在更具戰略意義的架構設計、數據策略與業務對齊上。矽谷對「基礎水電」的忽視即將結束，隨著 6 兆美元市場的自動化轉型，我們將看到一個不再受限於 IT 協調成本的、更具靈活性的企業形態正式興起。",
+      "title": "美國的能源問題不在供應，而在輸送 (America’s Energy Problem Isn’t Supply. It’s Delivery.)",
+      "source": "a16z News",
+      "url": "https://www.a16z.news/p/americas-energy-problem-isnt-supply",
+      "analysis_zh": "本文源自 a16z News，作者為 Heron Power 創辦人兼執行長 Drew Baglino。Baglino 曾長期擔任特斯拉（Tesla）動力總成與能源工程高級副總裁，是電力電子領域轉型為大規模工業應用的關鍵推手。他在文中深刻指出：當前美國電力危機的根源並非發電量不足，而是陳舊且缺乏智慧的輸送網絡（電網）已無法支撐 AI、電動車與再工業化帶來的爆發性需求，必須透過電力電子的「軟體定義化」來重構電網基礎設施。\n\n### 戰略背景與脈絡\n美國電網曾是 20 世紀最偉大的基礎設施成就之一，但現在正處於衰退邊緣。根據作者提供的數據，美國 70% 的輸電線路與大型變壓器屋齡已超過 25 年，基礎設施評級僅為 D+。然而，與基礎設施老化同時發生的，是人類歷史上罕見的電力需求激增——數據中心、AI 基礎設施、熱泵以及電動車的普及，正迫使電力需求以數十年來最快的速度增長。若要實現全面的電氣化經濟，發電量需要增長四倍，這還不包括剛起步的 AI 浪潮。\n\n一個令人震驚的矛盾在於：雖然天然氣、風能與太陽能的發電成本大幅下降，但美國居民的電費卻在上漲。作者揭示了背後的結構性原因：發電雖然變便宜了，但「輸送（Delivery）」成本卻大幅攀升，部分地區的輸配電成本已占帳單的一半。目前的電網本質上是「被動且類比」的機械系統，面對分散式、雙向流動的現代電力負載，現有的監管結構讓公用事業公司傾向於透過大規模「過度建設」傳統硬體來賺取資本回報，這不僅效率低下，更推高了社會成本。\n\n### 作者的核心推演與論點\nBaglino 將其在特斯拉推動電力電子技術的經驗引入電網分析。他認為，解決方案在於將電網從「機械式節點」轉化為「智慧化節點」。核心英雄是電力電子技術（Power Electronics），特別是碳化矽（SiC）半導體的應用。過去 50 年，電力半導體遵循著類似摩爾定律的軌跡：體積更小、頻率更快、效率更高。這項技術已改變了電動車與智慧型手機，現在輪到了電網的中壓領域。\n\n作者提出以「固態變壓器（Solid-State Transformer, SST）」取代傳統的油浸式變壓器。傳統變壓器只是被動的銅線與鐵芯，缺乏感知與動態控制能力；而 SST 是由軟體定義的電力轉換平台，能將電壓轉換、故障隔離、頻率調節與功率因數校正整合在微秒級的反應速度內。這意味著電網將從「鈍重且不可見」的狀態，轉變為「可編程且透明」的網絡。當電力需求發生波動或分散式能源（如屋頂太陽能）注入時，SST 能即時優化路徑與容量，而非像傳統電網那樣因無法監控而被迫採取最保守、最昂貴的建置方案。\n\n### 對整體市場、技術與地緣政治的長期影響\n這場電網變革將對未來數十年的產業格局產生深遠影響。首先，在技術層面，作者強調了碳化矽（SiC）晶片的戰略重要性。他將「電力晶片」提升到與「AI GPU」同等的高度，認為這是國家安全優先事項。美國在 SiC 技術上具備先發優勢（如 Wolfspeed 等公司），若能成功將此技術鏈條大規模應用於電網，將鞏固其在綠色能源轉型中的核心地位。\n\n其次，從市場運作來看，這是一場從「資本驅動硬體建設」轉向「效率驅動軟體優化」的典範轉移。如同電信產業從固定功能的機電交換機轉向可編程網絡，電網的軟體化將解鎖全新的商業模式，讓 VPP（虛擬電廠）與分散式儲能展現真正的價值，最終達到穩定甚至降低電價的目標。最後，這不僅是技術升級，更是維持國家競爭力的基礎。AI 與再工業化的勝負取決於「可負擔的電力」，若無法解決輸送瓶頸，技術領先將被昂貴的基礎設施拖垮。Baglino 的呼籲代表了矽谷技術官僚對傳統基建的「硬核」反思：我們需要的不是更多的鋼鐵與銅線，而是更聰明的矽片與代碼。",
       "insights": [
-        "傳統 MSP 模式存在嚴重的「激勵機制錯位」：當徹底修復問題會導致計費時數減少時，服務商便缺乏動力進行結構性的技術創新與自動化。",
-        "IT 成本之所以隨組織規模非線性激增，核心在於「協調成本」而非工具費用；若不將人力從「系統連接組織」的角色中抽離，企業將永遠陷入人力密集型的負重成長。",
-        "AI 在 IT 領域的真價值不在於生成代碼，而是在於執行複雜的、具備情境判斷的自動化工作流，從而將 IT 從「成本中心」轉化為像電力一樣透明、可靠的基礎設施。"
+        "「發電成本」與「終端電價」的脫鉤：再生能源大幅降低了發電成本，但陳舊且機械式的輸送網絡（電網）卻成了成本瓶頸，導致輸送費用占帳單比例持續攀升。",
+        "電力晶片（SiC）的國安等級地位：電力電子半導體應被視為與 AI GPU 同等重要的戰略物資，它是支撐未來電網轉型為「軟體定義網絡」的底層物理基礎。",
+        "從「過度建設」轉向「動態優化」：固態變壓器（SST）的意義不在於取代變壓功能，而在於將電網節點變為可編程的智慧終端，透過微秒級的動態控制來壓榨現有基礎設施的最大容量。"
       ]
     },
     "Lenny's Newsletter": {
-      "title": "OpenClaw：建構、訓練並與個人 AI 代理共存的全方位指南 (OpenClaw: The complete guide to building, training, and living with your personal AI agent)",
+      "title": "Listen: OpenClaw: A power-user's guide to the most powerful personal AI tool since ChatGPT | 聽：OpenClaw：進階使用者指南——自 ChatGPT 以來最強大的個人 AI 工具",
       "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building",
-      "analysis_zh": "本文源自全球知名的科技與產品增長社論《Lenny's Newsletter》，由 ChatPRD 創辦人兼資深產品長 Claire Vo 撰寫。Claire 是一位在 AI 產品化領域具有深厚實戰經驗的專家，她在文中詳盡展示了如何透過開源框架 OpenClaw，將 AI 從單純的「對話工具」轉化為具備高度自主性的「個人代理團隊」，這不僅是一份技術指南，更是一場關於未來工作型態的戰略預演。\\n\\n### 戰略背景與脈絡\\n當前 AI 發展已從單純的大型語言模型（LLM）競賽，轉向「代理化（Agentic）」的應用實踐。輝達（Nvidia）執行長黃仁勳甚至稱 OpenClaw 可能是「史上最重要的軟體發佈」，其核心意義在於它打破了封閉式 AI 平台的限制。OpenClaw 是一個開源框架，允許使用者在受控的本地環境（如 Mac Mini 或私有 VPS）中運行具備自主權的 AI。這標誌著個人運算（Personal Computing）的復興——電腦不再只是被動接收指令的工具，而是成為 24 小時不間斷運作的數位大腦，能夠主動處理電子郵件、管理行事曆、甚至自動化複雜的商業流程。這種「始終在線（Always-on）」且「具備環境感知（Context-aware）」的特性，正是下一代軟體範式的核心。\\n\\n### 作者的核心推演與論點\\nClaire Vo 的核心論點在於「槓桿效應的重新定義」。她認為 OpenClaw 的強大不在於單一模型的智力，而是在於其運作機制：透過「心跳（Heartbeat）」檢查與「排程任務（Cron jobs）」，代理能夠在人類睡覺時自主工作。\\n\\n更具啟發性的推演是「多代理協作架構（Multi-agent Setup）」。Claire 指出，試圖讓一個 AI 代理處理所有事情是低效且危險的。真正的策略解法是「數位職能分工」：她為自己建立了一支包含個人助理 Polly、家庭管理員 Finn、市場行銷員 Max、銷售員 Sam 等九個代理的團隊。每個代理擁有獨立的「靈魂（SOUL.md）」、工具集與工作空間。這種架構模仿了現代企業的管理邏輯——將複雜目標拆解為專門化的職能職責。此外，作者強調了「本地部署」的戰略安全性，透過物理隔離的硬體（如專屬 Mac Mini）來運行代理，以防範 AI 誤刪主機檔案或洩漏隱私，這展現了專業用戶在權衡效率與風險時的高度理性。\\n\\n### 對市場與技術發展的長期影響\\nOpenClaw 的普及將對知識工作者與企業架構產生深遠影響。首先，管理能力將成為個人競爭力的核心。未來的「強者」不再是親自執行任務的人，而是能夠有效「聘僱」、訓練並協作數位代理團隊的指揮官。這種「人機協作槓桿」將使得個人的產出上限達到前所未有的高度。\\n\\n其次，地緣政治與數據主權的競爭將延伸至個人終端。隨著個人代理掌握的隱私資訊（如財務、家庭行程、商業機密）越來越多，開源且可本地運行的框架（如 OpenClaw）將成為對抗封閉巨頭平台的重要壁壘。這預示著一個「去中心化 AI」時代的到來，用戶將傾向於擁有自己的模型權重與執行環境，而非僅僅訂閱服務。最後，雖然目前的 API 成本（如作者每月花費近千美元）與安全性仍是門檻，但隨著模型小型化與邊緣運算技術的突破，這套「個人 AI 團隊」模式將在未來三到五年內成為高階專業人士的標配。Claire Vo 的實踐告訴我們，未來的團隊成員，可能根本不是人類。",
+      "url": "https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide",
+      "analysis_zh": "本文源自全球知名的科技與產品電子報《Lenny's Newsletter》，由前 Airbnb 產品經理、現任科技評論家 Lenny Rachitsky 撰寫。Lenny 以其對產品增長與科技趨勢的精準剖析著稱，在這篇報導中，他介紹了 OpenClaw 這款被譽為「自 ChatGPT 出現以來最強大」的個人 AI 代理工具。透過訪談從懷疑論者轉向超級使用者的 Claire Vo，本文詳細探討了 AI 如何從單純的「對話機器人」演進為具備執行力、能管理真實世界業務的「自主代理人」。\n\n### 戰略背景與脈絡：從生成式對話到代理式執行\n自 2022 年底 ChatGPT 引發 AI 熱潮以來，市場經歷了從「驚嘆於生成內容」到「追求生產力落地」的轉型過程。然而，傳統的 LLM 介面（如 ChatGPT 或 Claude 網頁版）本質上仍是「被動式」的。OpenClaw 的出現，象徵著「代理式 AI」（Agentic AI）進入了電力使用者（Power User）的視野。這種工具不再僅僅是等待使用者提問的對話框，而是能夠在後台持續運行、具備環境感知能力並能調用外部 API 執行任務的系統。這種轉變的戰略背景在於，隨著模型推理能力的穩定，真正的商業價值正從「提供建議」轉移到「完成閉環任務」。Claire Vo 的轉變代表了早期採用者的典型路徑：從對技術可行性的懷疑，到發現 AI 能處理瑣碎、高重複性決策後的全面擁抱。\n\n### 作者的核心推演與論點：數位勞動力與九大代理架構\n作者透過 Claire Vo 的實際案例，推演出一個核心論點：未來的個人生產力將不再取決於使用者的打字速度或工具熟悉度，而取決於其「代理管理能力」。Claire 運行的九個專屬 AI 代理，涵蓋了從程式碼撰寫、銷售結案到私人日程（如接送小孩籃球賽）的全方位管理。這背後的推演邏輯是「數位勞動力的極致分工」。\n\n首先，OpenClaw 的強大在於其高度的自主性。與依賴使用者一步步引導的 GPTs 不同，OpenClaw 的架構允許代理人在複雜任務中進行自我糾錯與多步推理。其次，基礎設施的選擇（Mac Mini 或 VPS）反映了對「隱私與主權」的戰略重視。將 AI 代理部署在私有硬體上，不僅是為了算力穩定，更是為了確保個人數據與真實世界操作權限的安全邊界。Claire 的案例證明，當 AI 代理被賦予足夠的上下文與 API 權限時，它能從「助理」升格為「執行官」，處理跨平台的複雜工作流。\n\n### 對整體市場、技術發展與長期影響的洞察\n從長遠來看，OpenClaw 的普及將對軟體開發與個人助理市場產生顛覆性影響。在技術層面，我們正走向一個「軟體消費化」的終結點：未來使用者可能不再需要訂閱數十個 SaaS 軟體，而是透過一個像 OpenClaw 這樣的核心代理框架，去調用底層的無數微服務。這將導致現有的 SaaS 商業模式面臨重構，從「賣功能」轉向「賣 API 兼容性」。\n\n在地緣政治與經濟面，這種工具推動了「一人公司」的極大化。當一名創業者能透過九個自主代理人完成以往需要整個團隊才能負擔的工作量時，傳統的勞動力市場與公司結構將會鬆動。此外，這種對個人算力（如本地 Mac Mini 部署）的需求，也可能推動硬體廠商（如 Apple）進一步優化其邊緣運算晶片。最終，OpenClaw 類型的工具將定義一種新的「數位主權」，即個人有能力在不依賴雲端巨頭審查或數據採集的情況下，建立起自己的自動化數位帝國。這不僅是工具的勝利，更是個人權能（Empowerment）在 AI 時代的重新定義。",
       "insights": [
-        "代理的真正價值不在於它的智力，而在於它的「自主性週期（Heartbeat & Cron）」；一個自動運行的平庸代理，比需要人類手動觸發的天才聊天機器人更具槓桿效應。",
-        "克服 AI 幻覺與執行偏差的最佳策略是「數位職能分工」；透過建立多個專業化、窄領域的代理團隊，能大幅提升執行深度並降低單點失效風險。",
-        "AI 時代的「個人運算」正回歸硬體本地化；為了兼顧安全性與高權限執行力，將 AI 代理部署在專屬的隔離硬體而非純雲端平台，將成為專業用戶的戰略標配。"
+        "AI 的真正轉型在於從「內容生成」轉向「行動授權」，具備自主權限去調用 API 並在現實世界結案的代理人，將取代聊天機器人成為生產力核心。",
+        "「本地部署」的復興：為了實現高效能、低延遲且具備隱私保護的 AI 代理，進階使用者正從雲端 SaaS 轉回私有硬體（如 Mac Mini），這預示了個人雲端運算的新趨勢。",
+        "未來的職場競爭力將重新定義為「AI 代理調度能力」，個人管理九個以上不同專業代理人的「一人公司」模式，將成為科技產業的新常態結構。"
       ]
     }
   }
