@@ -1,182 +1,182 @@
 {
-  "fetch_date": "2026-04-02",
+  "fetch_date": "2026-04-03",
   "techmeme": [
     {
-      "title_en": "Sources: Amazon is in talks to acquire Globalstar to bolster its low Earth orbit satellite business; Apple's 20% stake in Globalstar is a complicating factor (Financial Times)",
-      "url": "https://www.ft.com/content/abace066-fe93-4ff0-8378-d3c3eb49519c",
-      "summary_en": "<A HREF=\"https://www.ft.com/content/abace066-fe93-4ff0-8378-d3c3eb49519c\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i36.jpg\"></A>\n<P><A HREF=\"http://www.t...",
-      "title_zh": "消息指亞馬遜正洽談收購 Globalstar 以強化低軌衛星業務；蘋果持有 20% 股權增加交易複雜性 (Financial Times)",
-      "summary_zh": "亞馬遜計畫透過收購衛星營運商 Globalstar 來擴展其低軌衛星版圖，但蘋果先前的投資與持股可能成為此項收購的潛在阻礙。"
+      "title_en": "Sources detail Fidji Simo's moves at OpenAI, including spearheading the TBPN acquisition and pushing OpenAI to cut Sora and avoid other social media products (Stephanie Palazzolo/The Information)",
+      "url": "https://www.theinformation.com/articles/openais-fidji-simo-bought-tbpn-podcast-amid-crusade-side-quests",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/openais-fidji-simo-bought-tbpn-podcast-amid-crusade-side-quests\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26040...",
+      "title_zh": "消息人士詳述 Fidji Simo 在 OpenAI 的舉措，包括主導收購 TBPN 並推動 OpenAI 削減 Sora 項目以避開其他社交媒體產品",
+      "summary_zh": "OpenAI 的 Fidji Simo 在其各項副業活動中，主導買下了 TBPN 播客。"
     },
     {
-      "title_en": "Solana-based DeFi platform Drift warns users about an \"active attack\" on its protocol; Arkham data said over $250M had moved from Drift to an interim wallet (Helene Braun/CoinDesk)",
-      "url": "https://www.coindesk.com/tech/2026/04/01/solana-defi-platform-drift-investigates-suspicious-activity-tells-users-to-halt-deposits",
-      "summary_en": "<A HREF=\"https://www.coindesk.com/tech/2026/04/01/solana-defi-platform-drift-investigates-suspicious-activity-tells-users-to-halt-deposits\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"htt...",
-      "title_zh": "Solana 生態 DeFi 平台 Drift 警告用戶其協議遭遇「主動攻擊」；Arkham 數據顯示逾 2.5 億美元資金轉移至臨時錢包 (CoinDesk)",
-      "summary_zh": "DeFi 平台 Drift 官方已介入調查異常資金流向，並呼籲用戶暫停存款，目前已偵測到大規模資金異常移轉。"
+      "title_en": "Sources: Meta has told members of its Oversight Board that it may stop funding the board after 2028, though eliminating all funding is not its preferred option (Casey Newton/Platformer)",
+      "url": "https://www.platformer.news/meta-oversight-board-funding-cancel/",
+      "summary_en": "<A HREF=\"https://www.platformer.news/meta-oversight-board-funding-cancel/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260402/i30.jpg\"></A>\n<P><A HREF=\"http://www....",
+      "title_zh": "消息來源：Meta 已告知其監督委員會成員，可能會在 2028 年後停止資助該委員會，儘管完全取消資助並非其首選方案",
+      "summary_zh": "Meta 監督委員會的資金來源可能面臨中斷。"
     },
     {
-      "title_en": "Cognichip, which is building an AI model for chip design, raised a $60M Series A led by Seligman Ventures, with participation from new board member Lip-Bu Tan (Tim Fernholz/TechCrunch)",
-      "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
-      "title_zh": "致力於晶片設計 AI 模型的 Cognichip 完成 6000 萬美元 A 輪融資，由 Seligman Ventures 領投，陳立武加入董事會 (TechCrunch)",
-      "summary_zh": "Cognichip 旨在利用 AI 提升半導體設計效率，本次融資獲得前益華電腦（Cadence）執行長陳立武的支持，展現市場對 AI 輔助晶片設計的信心。"
+      "title_en": "Amazon adds a 3.5% fuel and logistics surcharge to fulfillment fees for US and Canadian third-party sellers from April 17, as the Iran war drives up oil prices (Annie Palmer/CNBC)",
+      "url": "https://www.cnbc.com/2026/04/02/amazon-add-3point5percent-fuel-and-logistics-surcharge-for-sellers-amid-iran-war.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/04/02/amazon-add-3point5percent-fuel-and-logistics-surcharge-for-sellers-amid-iran-war.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tech...",
+      "title_zh": "由於伊朗戰爭推高油價，亞馬遜將從 4 月 17 日起對美、加第三方賣家的物流費用增加 3.5% 的燃油與物流附加費",
+      "summary_zh": "亞馬遜在伊朗戰爭導致油價上漲的背景下，針對賣家增加 3.5% 的燃油與物流附加費。"
     },
     {
-      "title_en": "Sources: the FBI has declared a recent China-linked hack of a system, which contained pen register and trap and trace surveillance returns, a \"major incident\" (John Sakellariadis/Politico)",
-      "url": "https://www.politico.com/news/2026/04/01/fbi-hack-surveillance-system-major-incident-00854237",
-      "summary_en": "<A HREF=\"https://www.politico.com/news/2026/04/01/fbi-hack-surveillance-system-major-incident-00854237\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i33.jpg\"...",
-      "title_zh": "消息：FBI 宣稱近期中國相關駭客入侵監控系統為「重大事件」，該系統包含電話監聽與追蹤紀錄 (Politico)",
-      "summary_zh": "美國執法部門正嚴正調查此次滲透事件，駭客獲取的監控紀錄可能對國家安全機制造成深遠影響。"
+      "title_en": "LinkedIn job posting data: companies added 640K AI-related jobs from 2023 to 2025 in the US, including 225K \"head of AI\" jobs, up 49% from the prior four years (Te-Ping Chen/Wall Street Journal)",
+      "url": "https://www.wsj.com/tech/ai/wanted-head-of-human-ai-solutions-the-new-jobs-being-created-by-ai-870c6ed5",
+      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/wanted-head-of-human-ai-solutions-the-new-jobs-being-created-by-ai-870c6ed5\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26040...",
+      "title_zh": "LinkedIn 職缺數據：2023 年至 2025 年間，美國企業新增了 64 萬個 AI 相關工作崗位，其中包括 22.5 萬個「AI 主管」職位，較前四年增長 49%",
+      "summary_zh": "企業正在招募「人類 AI 解決方案主管」：AI 正在創造全新的工作職位。"
     },
     {
-      "title_en": "Franklin Templeton agrees to acquire CoinFund spinoff 250 Digital to form Franklin Crypto, which will offer strategies designed for institutional investors (Vicky Ge Huang/Wall Street Journal)",
-      "url": "https://www.wsj.com/finance/currencies/franklin-templeton-agrees-to-buy-crypto-spinoff-in-digital-asset-expansion-72d8cc14?st=nvsWDn&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/finance/currencies/franklin-templeton-agrees-to-buy-crypto-spinoff-in-digital-asset-expansion-72d8cc14?st=nvsWDn&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=...",
-      "title_zh": "富蘭克林坦伯頓同意收購 CoinFund 拆分公司 250 Digital 並成立 Franklin Crypto，鎖定機構投資人策略 (Wall Street Journal)",
-      "summary_zh": "傳統金融巨頭富蘭克林坦伯頓透過收購專業團隊強化其數位資產版圖，將為機構投資者提供專屬的加密貨幣投資策略。"
+      "title_en": "Sources: SpaceX is floating a $2T+ valuation to prospective investors in its IPO; SpaceX's acquisition of xAI reportedly valued the combined company at $1.25T (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
+      "title_zh": "消息來源：SpaceX 在 IPO 中向潛在投資者提出超過 2 兆美元的估值；據悉 SpaceX 收購 xAI 後，合併公司的估值達到 1.25 兆美元",
+      "summary_zh": "據傳 SpaceX 在 IPO 中尋求超過 2 兆美元的估值目標。"
     },
     {
-      "title_en": "Super Micro co-founder Yih-Shyan Liaw pleads not guilty to US federal charges of helping smuggle billions of dollars' worth of Nvidia-powered servers to China (Bob Van Voris/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/super-micro-co-founder-pleads-not-guilty-in-china-smuggling-case",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-01/super-micro-co-founder-pleads-not-guilty-in-china-smuggling-case\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
-      "title_zh": "美超微（Super Micro）共同創辦人廖益賢針對走私價值數十億美元之 Nvidia 伺服器至中國的聯邦指控辯稱無罪 (Bloomberg)",
-      "summary_zh": "廖益賢因涉嫌違反出口禁令將高效能 AI 伺服器運往中國而遭起訴，他在法院上否認所有相關聯邦控罪。"
+      "title_en": "Source: OpenAI bought TBPN, which was set to generate $30M in 2026, for \"low hundreds of millions of dollars\"; OpenAI says TBPN will be editorially independent (George Hammond/Financial Times)",
+      "url": "https://www.ft.com/content/4fe4972a-3d24-45be-b9fa-a429c432b08e",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/4fe4972a-3d24-45be-b9fa-a429c432b08e\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260402/i26.jpg\"></A>\n<P><A HREF=\"http://www.t...",
+      "title_zh": "消息來源：OpenAI 以「數億美元」的價格收購了 TBPN，後者預計在 2026 年創收 3000 萬美元；OpenAI 表示 TBPN 將保持編輯獨立",
+      "summary_zh": "OpenAI 斥資數億美元收購了科技媒體平台 TBPN。"
     },
     {
-      "title_en": "Raspberry Pi raises prices by between $11.25 and $150, citing higher memory costs after December and February hikes, and unveils a 3GB Raspberry Pi 4 for $83.75 (Stevie Bonifield/The Verge)",
-      "url": "https://www.theverge.com/gadgets/905189/raspberry-pi-price-increases-pi-4-3gb",
-      "summary_en": "<A HREF=\"https://www.theverge.com/gadgets/905189/raspberry-pi-price-increases-pi-4-3gb\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i30.jpg\"></A>\n<P><A HREF...",
-      "title_zh": "Raspberry Pi 宣布漲價 11.25 至 150 美元，主因記憶體成本上升，同步發表售價 83.75 美元的 3GB 版 Raspberry Pi 4 (The Verge)",
-      "summary_zh": "受到記憶體組件價格波動影響，Raspberry Pi 宣布調整多款產品售價，並為了滿足不同需求推出全新 3GB 容量規格的 Pi 4。"
+      "title_en": "The CFTC sues Arizona, Connecticut, and Illinois over their actions against prediction markets, saying it has the \"exclusive\" authority to regulate such markets (Alex Harring/CNBC)",
+      "url": "https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260402...",
+      "title_zh": "美國 CFTC 起訴亞利桑那州、康乃狄克州和伊利諾州，反對其針對預測市場的行動，並聲稱 CFTC 擁有監管此類市場的「專屬」權限",
+      "summary_zh": "預測市場的監管引發法律訴訟，涉及亞利桑那、康乃狄克與伊利諾等州。"
     },
     {
-      "title_en": "Sona, which uses AI to help companies with scheduling, HR, payroll, and other workflows, raised a $45M Series B led by N47, bringing its total funding to $100M+ (Chris Metinko/Axios)",
-      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/04/01/workforce-planning-sona-software-n47",
-      "summary_en": "<A HREF=\"https://www.axios.com/pro/enterprise-software-deals/2026/04/01/workforce-planning-sona-software-n47\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i2...",
-      "title_zh": "運用 AI 協助排班、人資與薪資流程的新創 Sona 完成 4500 萬美元 B 輪融資，總募資額破億 (Axios)",
-      "summary_zh": "Sona 專注於優化企業內部管理工作流，本次融資由 N47 領投，顯示市場對於企業垂直領域 AI 應用的高度關注。"
+      "title_en": "Mental health startup Kintsugi is shutting down and open-sourcing its AI tech to detect depression and anxiety, after failing to secure FDA clearance (Robert Hart/The Verge)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down",
+      "summary_en": "<A HREF=\"https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www....",
+      "title_zh": "心理健康新創公司 Kintsugi 在未能獲得 FDA 批准後，宣佈關閉並開源其用於檢測憂鬱與焦慮的 AI 技術",
+      "summary_zh": "憂鬱症檢測 AI 新創公司 Kintsugi 因臨床審核受阻宣佈關閉。"
     },
     {
-      "title_en": "Sources: Paradigm, a major investor in Kalshi, is building its own prediction markets trading terminal that will cater to professional traders and market makers (Ben Weiss/Fortune)",
-      "url": "https://fortune.com/2026/04/01/paradigm-prediction-markets-trading-terminal-arjun-balaji-kalshi-polymarket/",
-      "summary_en": "<A HREF=\"https://fortune.com/2026/04/01/paradigm-prediction-markets-trading-terminal-arjun-balaji-kalshi-polymarket/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
-      "title_zh": "消息：Paradigm 正為預測市場開發自有交易終端機，服務專業交易員與造市商 (Fortune)",
-      "summary_zh": "作為 Kalshi 的主要投資者，Paradigm 傳正打造專屬的預測市場交易終端，旨在提供與專業金融市場同等級的交易工具。"
+      "title_en": "OpenAI acquires tech news show TBPN; Fidji Simo says the move aims to \"help create a space for a real, constructive conversation about the changes AI creates\" (Katie Deighton/Wall Street Journal)",
+      "url": "https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn",
+      "summary_en": "<A HREF=\"https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260402/i23.jpg\"></A...",
+      "title_zh": "OpenAI 收購科技新聞節目 TBPN；Fidji Simo 表示此舉旨在「協助建立一個空間，針對 AI 帶來的變化進行真實且建設性的對話」",
+      "summary_zh": "OpenAI 收購科技產業談話節目 TBPN。"
     },
     {
-      "title_en": "Sources: OpenRouter is in talks to raise $120M led by CapitalG at a $1.3B post-money valuation; it now has $50M+ in annualized revenue, up from $10M+ in Oct. (The Information)",
-      "url": "https://www.theinformation.com/articles/startup-helps-developers-pick-ai-models-nears-1-3-billion-valuation",
-      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/startup-helps-developers-pick-ai-models-nears-1-3-billion-valuation\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
-      "title_zh": "消息：OpenRouter 洽談由 CapitalG 領投之 1.2 億美元融資，投後估值達 13 億美元 (The Information)",
-      "summary_zh": "協助開發者介接各類 AI 模型的平台 OpenRouter 營收爆發成長，年化營收在半年內從 1000 萬美元衝破 5000 萬美元。"
+      "title_en": "OpenAI acquires popular tech news show TBPN; the show will stay the same and will continue to air live at 11am PT weekdays (John Coogan/@johncoogan)",
+      "url": "http://www.techmeme.com/260402/p22#a260402p22",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260402/p22#a260402p22\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Joh...",
+      "title_zh": "OpenAI 收購熱門科技新聞節目 TBPN；節目內容將保持不變，並繼續在太平洋時間每個工作日上午 11 點直播",
+      "summary_zh": "科技企業家 John Coogan 針對 OpenAI 收購 TBPN 消息的評論。"
     },
     {
-      "title_en": "Sources: SpaceX has filed confidentially for an IPO, putting it on track for a June listing; it could reportedly seek a valuation of $1.75T+ and raise ~$75B (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/spacex-is-said-to-file-confidentially-for-ipo-ahead-of-ai-rivals",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-01/spacex-is-said-to-file-confidentially-for-ipo-ahead-of-ai-rivals\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
-      "title_zh": "消息：SpaceX 已秘密提交 IPO 申請，預計 6 月掛牌；估值或達 1.75 兆美元，募資約 750 億美元 (Bloomberg)",
-      "summary_zh": "馬斯克旗下的太空龍頭 SpaceX 即將進入公開市場，這將成為近年來全球最受矚目且規模最大的首次公開發行案。"
+      "title_en": "Cursor launches Cursor 3, an \"agent-first\" coding product designed to compete with Claude Code and Codex by letting developers manage multiple AI agents (Maxwell Zeff/Wired)",
+      "url": "https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic/",
+      "summary_en": "<A HREF=\"https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260402/i21.jpg\"></A>\n<P><A HREF=\"ht...",
+      "title_zh": "Cursor 推出「Agent 優先」的編碼產品 Cursor 3，旨在讓開發者管理多個 AI Agent，與 Claude Code 和 Codex 競爭",
+      "summary_zh": "Cursor 推出編碼 Agent 產品，挑戰 OpenAI 與 Anthropic。"
     },
     {
-      "title_en": "Source: AWS' operation in Bahrain was damaged after an Iranian strike; Bahrain earlier said the civil defence force was \"extinguishing a fire in a facility\" (Financial Times)",
-      "url": "https://www.ft.com/content/bd91441f-28fc-4c35-8ff1-10ec6141148c#post-3834e289-dae3-4e2d-8ed4-27e2695315a9",
-      "summary_en": "<A HREF=\"https://www.ft.com/content/bd91441f-28fc-4c35-8ff1-10ec6141148c#post-3834e289-dae3-4e2d-8ed4-27e2695315a9\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260...",
-      "title_zh": "消息：AWS 巴林據點在伊朗襲擊後受損；巴林官方早前表示正撲滅設施火勢 (Financial Times)",
-      "summary_zh": "受地緣政治衝突波及，AWS 位於巴林的營運設施傳出受損消息，當地民防部隊已介入處理火警並展開修復。"
+      "title_en": "Flipboard launches Surf, an app for creating custom feeds from Mastodon, Threads, Bluesky, RSS, podcasts, and YouTube, after over a year in beta (David Pierce/The Verge)",
+      "url": "https://www.theverge.com/tech/905929/flipboard-surf-fediverse-launch",
+      "summary_en": "<A HREF=\"https://www.theverge.com/tech/905929/flipboard-surf-fediverse-launch\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260402/i20.jpg\"></A>\n<P><A HREF=\"http://...",
+      "title_zh": "經過一年多的測試，Flipboard 推出 Surf App，可從 Mastodon、Threads、Bluesky、RSS、播客和 YouTube 創建自定義內容流",
+      "summary_zh": "Flipboard 正式推出 Surf，打造串連聯邦宇宙 (Fediverse) 的內容平台。"
     },
     {
-      "title_en": "SEC filing: Hasbro confirms a cyberattack and says it may take \"several weeks\" before the incident is resolved, after it detected an intrusion on March 28 (Zack Whittaker/TechCrunch)",
-      "url": "https://techcrunch.com/2026/04/01/hasbro-hacked-may-take-several-weeks-to-recover/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/01/hasbro-hacked-may-take-several-weeks-to-recover/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i24.jpg\"></A>\n<P><A...",
-      "title_zh": "SEC 文件：孩之寶（Hasbro）證實遭網路攻擊，3 月 28 日偵測到入侵，完全修復可能需數週 (TechCrunch)",
-      "summary_zh": "知名玩具商孩之寶披露遭受資安入侵，預估需要數週時間才能完全解決該事件並恢復系統正常運作。"
+      "title_en": "Google adds new features to its video editing app Vids, including directing and customizing avatars through text prompts and Veo 3.1 support (Ivan Mehta/TechCrunch)",
+      "url": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260402/...",
+      "title_zh": "Google 為其影片編輯應用程式 Vids 增加新功能，包括透過文字指令執導和自定義虛擬角色，並支援 Veo 3.1",
+      "summary_zh": "Google 現在讓你在 Vids App 中透過 Prompt 指令直接控制虛擬角色。"
     },
     {
-      "title_en": "Secondary share marketplaces say OpenAI shares have fallen out of favor, in some cases becoming difficult to unload, as investors pivot quickly to Anthropic (Hema Parmar/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
-      "title_zh": "次級市場交易員指出 OpenAI 股份已失寵且難以脫手，投資人正迅速轉向 Anthropic (Bloomberg)",
-      "summary_zh": "隨著 AI 競爭格局改變，部分投資人對 OpenAI 的主導地位產生觀望，並將資金熱情轉移至其主要對手 Anthropic。"
+      "title_en": "Google launches Gemma 4, its \"most intelligent\" open model family, purpose-built for advanced reasoning and agentic workflows, under an Apache 2.0 license (The Keyword)",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "summary_en": "<A HREF=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260402/i18.jpg\"></A>\n<P><A HREF=\"h...",
+      "title_zh": "Google 推出 Gemma 4，這是其「最智慧」的開放模型家族，專為進階推理和 Agent 工作流打造，採用 Apache 2.0 授權",
+      "summary_zh": "Google 向開發者發布最新開放模型 Gemma 4。"
     },
     {
-      "title_en": "Anthropic's Claude Code leak reveals its \"Kairos\" updates, including letting Claude work in the background and using a \"dream mode\" to consolidate its memories (The Information)",
-      "url": "https://www.theinformation.com/articles/claude-code-leak-reveals-always-kairos-agent",
-      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/claude-code-leak-reveals-always-kairos-agent\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260401/i22.jpg\"></A>\n<P>...",
-      "title_zh": "Anthropic Claude Code 外洩內容揭露「Kairos」更新，包括背景運作與彙整記憶的「夢境模式」 (The Information)",
-      "summary_zh": "Anthropic 內部代號為「Kairos」的 AI 代理人功能曝光，揭露了 Claude 未來將具備更強大的自主執行與記憶處理能力。"
+      "title_en": "Coinbase says it has won conditional approval from US banking regulators for a national trust company charter, which could let it issue stablecoins and more (Olga Kharif/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-02/coinbase-says-it-wins-conditional-us-approval-for-trust-charter",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-02/coinbase-says-it-wins-conditional-us-approval-for-trust-charter\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
+      "title_zh": "Coinbase 表示已獲得美國銀行監管機構的附帶條件批准，取得國家信託公司執照，這使其可能獲准發行穩定幣等業務",
+      "summary_zh": "Coinbase 獲准成立美國國家級信託公司。"
     }
   ],
   "wsj": [
     {
+      "title_en": "How the Elevator Reshaped the Way We Live and Work",
+      "url": "https://www.wsj.com/tech/elevator-life-work-changes-7de1d33e?mod=rss_Technology",
+      "summary_en": "Vertical transport reinvented the city. Now, engineers are looking sideways and digitally to create a new kind of interconnected urban area....",
+      "title_zh": "電梯如何重塑了我們的生活與工作方式",
+      "summary_zh": "垂直運輸重新定義了城市。現在，工程師們正尋求水平與數位化的方式，以創造新型態的互聯城市區域。"
+    },
+    {
+      "title_en": "Wanted: Head of Human AI Solutions. The New Jobs Being Created by AI",
+      "url": "https://www.wsj.com/tech/ai/wanted-head-of-human-ai-solutions-the-new-jobs-being-created-by-ai-870c6ed5?mod=rss_Technology",
+      "summary_en": "AI is raising big fears about employment losses, but it is also giving rise to new engineering and training jobs....",
+      "title_zh": "徵求：人類 AI 解決方案主管。AI 正在創造的新職位",
+      "summary_zh": "AI 引發了對失業的擔憂，但也催生了新的工程與培訓職位。"
+    },
+    {
+      "title_en": "The Epic 50-Year Story of Apple, Told Through the WSJ Archive",
+      "url": "https://www.wsj.com/tech/the-headlines-that-tell-the-50-year-saga-of-an-american-icon-9d5fca6d?mod=rss_Technology",
+      "summary_en": "See the headlines from decades of coverage that chronicle the evolution of an American icon...",
+      "title_zh": "透過《華爾街日報》檔案回顧 Apple 壯闊的 50 年故事",
+      "summary_zh": "透過數十年的報導標題，見證這家美國指標性企業的進化過程。"
+    },
+    {
       "title_en": "Supreme Court Justices Skeptical of Trump’s Birthright Citizenship Order",
       "url": "https://www.wsj.com/tech/personal-tech/supreme-court-justices-skeptical-of-trumps-birthright-citizenship-order-5c7418ce?mod=rss_Technology",
       "summary_en": "Plus, SpaceX files IPO paperwork and Tim Cook takes WSJ inside Apple’s archives....",
-      "title_zh": "最高法院大法官對川普的出生公民權行政命令持懷疑態度",
-      "summary_zh": "同場關注：SpaceX 提交 IPO 文件，以及 Tim Cook 帶領《華爾街日報》深入蘋果檔案庫。"
+      "title_zh": "最高法院大法官對川普的出生公民權行政令表示懷疑",
+      "summary_zh": "此外，SpaceX 提交了 IPO 文件，Tim Cook 帶領《華爾街日報》參觀 Apple 檔案庫。"
     },
     {
       "title_en": "Anthropic Races to Contain Leak of Code Behind Claude AI Agent",
       "url": "https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7?mod=rss_Technology",
       "summary_en": "The developer has issued a copyright takedown request in a bid to prevent competitors from cloning the coding tool’s features....",
-      "title_zh": "Anthropic 奮力圍堵 Claude AI 代理人背後的程式碼外洩",
-      "summary_zh": "開發商已發出版權撤除要求，以防競爭對手複製其程式碼開發工具的關鍵功能。"
+      "title_zh": "Anthropic 急於防堵 Claude AI Agent 背後程式碼的洩露",
+      "summary_zh": "開發商已提出版權撤除請求，以防止競爭對手複製該編碼工具的功能。"
     },
     {
       "title_en": "Apple Has Archives That Even Tim Cook Didn’t Know About. We Went Inside.",
       "url": "https://www.wsj.com/tech/apple-has-archives-that-even-tim-cook-didnt-know-about-we-went-inside-ab9ac0c5?mod=rss_Technology",
       "summary_en": "From design prototypes of its biggest products to early patents, Apple’s CEO gave us an intimate look at unseen items that help tell the story of 50 years of company history....",
-      "title_zh": "蘋果檔案庫藏有連 Tim Cook 都不知道的秘密，我們走進去一探究竟",
-      "summary_zh": "從重要產品的設計原型到早期專利，蘋果執行長親自帶領我們揭開公司 50 年歷史中未曾曝光的珍貴物件。"
-    },
-    {
-      "title_en": "Musk’s SpaceX Files to Go Public in One of the Biggest IPOs Ever",
-      "url": "https://www.wsj.com/business/spacex-ipo-sec-paperwork-filed-997e45e4?mod=rss_Technology",
-      "summary_en": "The company, which launches satellites and is building an AI business, is aiming to raise between $40 billion and $80 billion in an offering....",
-      "title_zh": "馬斯克的 SpaceX 申請上市，挑戰史上規模最大的 IPO 之一",
-      "summary_zh": "這家橫跨衛星發射與 AI 業務的巨頭，計畫在本次發行中募資 400 億至 800 億美元。"
-    },
-    {
-      "title_en": "Kremlin Enters the Chat With Russia’s New Super-App",
-      "url": "https://www.wsj.com/world/russia/kremlin-enters-the-chat-with-russias-new-super-app-830c703a?mod=rss_Technology",
-      "summary_en": "Max, a messaging and e-commerce platform, will offer everything from taxi-hailing services to electronic passport wallets....",
-      "title_zh": "克里姆林宮加入超級 App 戰局：俄羅斯推出全新應用程式「Max」",
-      "summary_zh": "集通訊與電商於一身的「Max」平台，將提供從叫車服務到電子護照錢包等全方位功能。"
-    },
-    {
-      "title_en": "Oracle Lays Off Workers Amid Heavy AI Investment",
-      "url": "https://www.wsj.com/tech/oracle-lays-off-workers-amid-heavy-ai-investment-fff8cd82?mod=rss_Technology",
-      "summary_en": "Investors see the database firm as a barometer of the financial prospects for artificial intelligence. Oracle’s stock was up 5%....",
-      "title_zh": "甲骨文（Oracle）在重金投資 AI 之際宣布裁員",
-      "summary_zh": "投資人將這家資料庫大廠視為 AI 財務前景的指標，裁員消息傳出後甲骨文股價上漲 5%。"
+      "title_zh": "Apple 擁有連 Tim Cook 都不知道的檔案庫，我們進去看了。",
+      "summary_zh": "從重大產品的設計原型到早期專利，Apple 執行長向我們展示了鮮為人知的物件，述說公司 50 年的歷史。"
     },
     {
       "title_en": "Tech, Media & Telecom Roundup: Market Talk",
       "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-b2ecccb5?mod=rss_Technology",
       "summary_en": "Find insight on Nvidia’s deal with Marvell Technology, SpaceX’s IPO, nCino and more in the latest Market Talks covering technology, media and telecom....",
-      "title_zh": "科技、媒體與電信綜報：市場談話",
-      "summary_zh": "深入剖析 Nvidia 與 Marvell 的交易動向、SpaceX 的 IPO 觀察以及 nCino 等企業動態。"
+      "title_zh": "科技、媒體與電信回顧：市場談話",
+      "summary_zh": "了解 Nvidia 與 Marvell Technology 的交易、SpaceX 的 IPO、nCino 等科技、媒體與電信領域的最新見解。"
     },
     {
       "title_en": "What Happened to the Fun Parts of Work?",
       "url": "https://www.wsj.com/lifestyle/careers/what-happened-to-the-fun-parts-of-work-165ae0c9?mod=rss_Technology",
       "summary_en": "Plus, Elon Musk’s management techniques, record Wall Street bonuses and Hollywood’s shaky job market....",
       "title_zh": "工作中那些有趣的部分去哪了？",
-      "summary_zh": "探討馬斯克的管理術、華爾街紀錄級的獎金制度以及好萊塢動盪不安的就業市場。"
+      "summary_zh": "此外還有 Elon Musk 的管理技巧、華爾街破紀錄的獎金，以及好萊塢動盪的就業市場。"
     },
     {
       "title_en": "Microsoft Plans to Invest $5.5 Billion in Singapore by 2029",
       "url": "https://www.wsj.com/tech/ai/microsoft-plans-to-invest-5-5-billion-in-singapore-by-2029-4cea3448?mod=rss_Technology",
       "summary_en": "Microsoft is on track to invest $5.5 billion in cloud and artificial-intelligence infrastructure in Singapore through 2029....",
-      "title_zh": "微軟計畫於 2029 年前在新加坡投資 55 億美元",
-      "summary_zh": "微軟正按計畫在新加坡投入巨資，建設雲端與人工智慧基礎設施，以強化在亞洲的技術競爭力。"
+      "title_zh": "微軟計劃 2029 年前在新加坡投資 55 億美元",
+      "summary_zh": "微軟預計在 2029 年前，於新加坡投資 55 億美元建設雲端與人工智慧基礎設施。"
     },
     {
-      "title_en": "OpenAI Closes Silicon Valley’s Largest-Ever Funding Round",
-      "url": "https://www.wsj.com/tech/ai/openai-closes-silicon-valleys-largest-ever-funding-round-e48372c9?mod=rss_Technology",
-      "summary_en": "The $122 billion round includes Amazon, Nvidia, SoftBank, wealthy investors and a money manager that plans to add the startup to its exchange-traded funds....",
-      "title_zh": "OpenAI 完成矽谷史上最大規模融資",
-      "summary_zh": "這輪 1220 億美元的融資匯聚了亞馬遜、Nvidia、軟銀等巨頭，並有資產管理公司計畫將其納入 ETF。"
+      "title_en": "Oracle Lays Off Workers Amid Heavy AI Investment",
+      "url": "https://www.wsj.com/tech/oracle-lays-off-workers-amid-heavy-ai-investment-fff8cd82?mod=rss_Technology",
+      "summary_en": "Investors see the database firm as a barometer of the financial prospects for artificial intelligence. Oracle’s stock was up 5%....",
+      "title_zh": "甲骨文在大舉投資 AI 之際裁員",
+      "summary_zh": "投資者將這家資料庫公司視為 AI 財務前景的指標。甲骨文股價上漲了 5%。"
     }
   ],
   "deep_analysis": {
@@ -214,14 +214,14 @@
       ]
     },
     "SemiAnalysis": {
-      "title": "Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield (剖析 Nvidia Blackwell：張量核心、PTX 指令、SASS、底層掃描與良率)",
+      "title": "The Great GPU Shortage: Rental Capacity and the Launch of the H100 1-Year Index (大 GPU 荒與租賃產能：H100 一年期租賃價格指數發佈報告)",
       "source": "SemiAnalysis",
-      "url": "https://newsletter.semianalysis.com/p/dissecting-nvidia-blackwell-tensor",
-      "analysis_zh": "本文源自知名半導體研究機構 SemiAnalysis，由 Dylan Patel 及其工程團隊撰寫。SemiAnalysis 以其對半導體供應鏈與底層架構的深度挖掘聞名，本文正是他們耗費數月進行逆向工程與微基準測試（Microbenchmarking）的成果，旨在填補 Nvidia 官方尚未發布 Blackwell 架構詳細白皮書的資訊真空，揭露了 SM100 GPU 在指令集與硬體層級的真實表現。\n\n**戰略背景與脈絡**\n在高效能運算與 AI 訓練的需求推動下，Nvidia 的 Blackwell 架構（SM100）標誌著從 Hopper 時代以來最重大的微架構變革。隨著單晶片效能逐漸觸及物理極限，Nvidia 的戰略核心已從單純增加 CUDA 核心轉向「軟硬體協同優化」與「多 SM 協同作業」。Blackwell 不僅僅是製程的升級，更是對資料移動與運算排程邏輯的重新定義。在良率（Yield）與物理缺陷不可避免的現實下，Nvidia 必須在硬體層級設計出更具彈性的邏輯抽象，例如 Cluster Launch Control (CLC) 與更複雜的 GPC 映射機制，以確保即便晶片存在局部缺陷，仍能向軟體層呈現相對統一的效能表現。\n\n**作者的核心推演與論點**\nSemiAnalysis 通過精密的底層測試，推導出 Blackwell 架構的三大核心變革。首先是張量記憶體（TMEM）的引入。過去 MMA（矩陣乘法累加）操作的結果隱含在執行緒中，而 Blackwell 則要求軟體明確管理 TMEM，這將矩陣運算的控制權進一步交還給核心開發者（Kernel Developers），以換取更高的暫存器利用率。其次，2SM MMA 的出現打破了傳統單 SM 的運算邊界。測試顯示，通過兩個 SM 協同執行單一 MMA 指令，矩陣 B 與 D 可以跨 SM 分片，這有效解決了單一 SM 在處理小規模矩陣時常見的共享記憶體（SMEM）頻寬瓶頸。作者特別指出，在 SS 模式下，若 N 維度小於 128，運算會受限於 SMEM 頻寬而非算力，而 2SM 模式能透過頻寬翻倍來突破此限制。\n\n在記憶體子系統方面，作者比較了 LDGSTS 與 TMA（張量記憶體加速器）的效能。雖然 TMA 在處理大規模連續資料時具備吞吐量優勢，但其延遲較高。令人驚訝的是，硬體層級的 L2 請求合併器（LRC）展現了極強的「隱性多播」能力，即便開發者未明確調用多播指令，硬體也能在 L2 快取層級合併相同資料的請求。這顯示 Nvidia 正在將更多複雜的優化邏輯「固化」進硬體中。\n\n**對整體市場與技術發展的長期影響**\nBlackwell 的架構細節顯示 Nvidia 的競爭壁壘（Moat）正從硬體優勢轉向極端複雜的軟體生態。雖然 AMD 的 CDNA4 指令集文件更為透明，但 Nvidia 透過讓微架構與軟體（如 CUTLASS、TRT-LLM）深度耦合，創造了一種「軟體定義硬體」的優勢。這種對 shape 尺寸（如 M=64 的效能減半）與指令級吞吐量的極致掌握，使得競爭對手極難透過單純的硬體規格模仿來追趕。長期來看，這將導致 AI 基礎設施市場的兩極化：一邊是能深度挖掘 Nvidia 底層指令集以榨取極致效能的頂尖團隊，另一邊則是僅能依賴標準庫的通用開發者。Blackwell 證實了 AI 晶片的未來不再是通用的計算單元，而是針對特定張量運算邏輯與資料流模式（Dataflow）進行極限優化的專用處理器。",
+      "url": "https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity",
+      "analysis_zh": "本文源自全球領先的半導體與 AI 供應鏈研究機構 SemiAnalysis。該機構由 Dylan Patel 領導，以其深入的「由下而上」供應鏈數據分析和對尖端技術架構的精準預測而聞名。在這篇深度報告中，作者揭示了 2026 年初全球 AI 算力市場正在經歷的一場前所未有的「算力擠兌」，並正式發佈了 H100 一年期租賃價格指數，旨在為這個日益混亂且不透明的市場提供透明度基準。\n\n### 戰略背景與脈絡：代理型 AI 觸發的非線性增長\n2026 年的算力市場正處於一個歷史性的轉折點。隨著 Anthropic 發佈 Claude 4.6 Opus 及其引發轟動的 Claude Code 工具，市場需求發生了根本性的範式轉移。Anthropic 的年度經常性收入（ARR）在短短一個季度內從 90 億美元飆升至 250 億美元，這不僅是數字的增長，更標誌著 AI 已經從單純的聊天機器人演進為能夠自主處理複雜工作流的「代理型（Agentic）」系統。SemiAnalysis 觀察到，單是 Claude Code 就預計將在 2026 年底貢獻全球 20% 以上的代碼提交（commits）。這種高併發、連續運作的代理工作流對 Token 的消耗是呈幾何級數增長的，直接導致了超大規模雲服務商（Hyperscalers）與新興雲服務商（Neoclouds）的 GPU 產能被瞬間清空。與此同時，記憶體市場也陷入了「末日式」的供應危機，LPDDR5 與 DDR5 的合約價格同比暴漲 4 至 5 倍，推高了伺服器 OEM 的成本，進一步限制了新產能的釋放。\n\n### 作者的核心推演與論點：ROI 陷阱與算力定價權的轉移\n作者的核心推演邏輯在於：當前 GPU 租賃價格的飆升（H100 一年期租約從 2025 年底的 1.70 美元/小時跳升至 2026 年 3 月的 2.35 美元/小時，漲幅近 40%）並非短暫的投機，而是基於深層的投資回報率（ROI）驅動。SemiAnalysis 指出，儘管算力成本高昂，但 AI 工具帶來的生產力提升價值往往是其成本的 5 到 10 倍。在這種情況下，需求曲線展現出極低的價格彈性——即便租金再漲，企業為了維持競爭力仍會不計代價地鎖定產能。此外，作者駁斥了市場先前認為 H100 等舊款晶片會隨 Blackwell 普及而迅速貶值的預期。現實情況是，由於推理需求（尤其是開源權重模型如 GLM、Kimi）的剛性增長，H100 的需求反而不降反升，甚至出現了租戶為了確保產能而將算力「分租（Subletting）」的奇特現象，催生了一批所謂的「算力房東（Neocloud Slumlords）」。Neocloud 服務商已從過去的被動報價者轉變為掌握絕對話語權的市場主導者，能夠挑選客戶、要求高比例預付，並強行延長合約期限。\n\n### 對整體市場與技術發展的長期影響\n從長期來看，這場「大 GPU 荒」將對產業格局產生深遠影響。首先，公共市場對 Neocloud 企業（如 CoreWeave 等）的悲觀情緒與現實中的產能短缺形成了巨大的「認知失調」。市場仍停留在算力即將商品化（Commoditization）的舊敘事中，卻忽略了算力資產經濟壽命的延長與毛利的擴張。這意味著算力基礎設施將被重新定義為具備強大現金流產生能力的戰略資產。其次，矽片供應鏈的瓶頸（如台積電 N3 產能、HBM 產能）將成為地緣政治與科技競爭的終極戰場，任何環節的微小失誤都會引發全球性的連鎖反應。最後，算力成本的持續高企將倒逼技術架構的演進，推動大型專家模型（MoE）與更高效的推理技術發展。作者預言，只要 AI 代理帶來的價值倍數依然維持在 5-10 倍的高位，算力價格的上升趨勢就難以遏制，我們正在進入一個「算力價值重估」的新時代。",
       "insights": [
-        "Blackwell 的 2SM MMA 模式標誌著算力擴張已從單核心優化轉向多核心協同，若 kernel 開發者未能善用 2CTA 協作，將無法發揮晶片真實算力的 50%。",
-        "硬體 LRC 提供的「隱性多播」效能意外優異，這意味著即便在軟體開發不完全規範的情況下，Blackwell 也能透過硬體層級的 L2 快取管理來緩解頻寬壓力。",
-        "Blackwell 的算力釋放具備強烈的「維度依賴性」，在 N < 128 的 SS 佈局下會觸發頻寬牆，這使得從 Hopper 簡單遷移而來的內核代碼將面臨嚴重的效能劣化。"
+        "代理型 AI（Agentic AI）是算力需求的「碎紙機」，其連續運作特性使 Token 消耗脫離了傳統的人類交互頻率，導致 5-10 倍的 ROI 抵銷了算力成本漲幅。",
+        "硬體折舊預期與現實發生嚴重背離：原本被認為會過時的 H100 因推理需求的極度缺口，其經濟壽命被強行拉長，合約甚至被鎖定至 2028 年，展現了算力資產的「抗通膨」屬性。",
+        "算力市場正出現「金融化」趨勢，包括產能分租、高比例預付與跨企業的產能回購協議，顯示 GPU 已成為 2026 年全球流動性最強且最稀缺的戰略商品。"
       ]
     },
     "BigTechnology": {
@@ -236,25 +236,25 @@
       ]
     },
     "a16z": {
-      "title": "美國的能源問題不在供應，而在輸送 (America’s Energy Problem Isn’t Supply. It’s Delivery.)",
+      "title": "Et Tu, Agent? Did You Install the Backdoor? (你也背叛了嗎，代理人？是你安裝了後門嗎？)",
       "source": "a16z News",
-      "url": "https://www.a16z.news/p/americas-energy-problem-isnt-supply",
-      "analysis_zh": "本文源自 a16z News，作者為 Heron Power 創辦人兼執行長 Drew Baglino。Baglino 曾長期擔任特斯拉（Tesla）動力總成與能源工程高級副總裁，是電力電子領域轉型為大規模工業應用的關鍵推手。他在文中深刻指出：當前美國電力危機的根源並非發電量不足，而是陳舊且缺乏智慧的輸送網絡（電網）已無法支撐 AI、電動車與再工業化帶來的爆發性需求，必須透過電力電子的「軟體定義化」來重構電網基礎設施。\n\n### 戰略背景與脈絡\n美國電網曾是 20 世紀最偉大的基礎設施成就之一，但現在正處於衰退邊緣。根據作者提供的數據，美國 70% 的輸電線路與大型變壓器屋齡已超過 25 年，基礎設施評級僅為 D+。然而，與基礎設施老化同時發生的，是人類歷史上罕見的電力需求激增——數據中心、AI 基礎設施、熱泵以及電動車的普及，正迫使電力需求以數十年來最快的速度增長。若要實現全面的電氣化經濟，發電量需要增長四倍，這還不包括剛起步的 AI 浪潮。\n\n一個令人震驚的矛盾在於：雖然天然氣、風能與太陽能的發電成本大幅下降，但美國居民的電費卻在上漲。作者揭示了背後的結構性原因：發電雖然變便宜了，但「輸送（Delivery）」成本卻大幅攀升，部分地區的輸配電成本已占帳單的一半。目前的電網本質上是「被動且類比」的機械系統，面對分散式、雙向流動的現代電力負載，現有的監管結構讓公用事業公司傾向於透過大規模「過度建設」傳統硬體來賺取資本回報，這不僅效率低下，更推高了社會成本。\n\n### 作者的核心推演與論點\nBaglino 將其在特斯拉推動電力電子技術的經驗引入電網分析。他認為，解決方案在於將電網從「機械式節點」轉化為「智慧化節點」。核心英雄是電力電子技術（Power Electronics），特別是碳化矽（SiC）半導體的應用。過去 50 年，電力半導體遵循著類似摩爾定律的軌跡：體積更小、頻率更快、效率更高。這項技術已改變了電動車與智慧型手機，現在輪到了電網的中壓領域。\n\n作者提出以「固態變壓器（Solid-State Transformer, SST）」取代傳統的油浸式變壓器。傳統變壓器只是被動的銅線與鐵芯，缺乏感知與動態控制能力；而 SST 是由軟體定義的電力轉換平台，能將電壓轉換、故障隔離、頻率調節與功率因數校正整合在微秒級的反應速度內。這意味著電網將從「鈍重且不可見」的狀態，轉變為「可編程且透明」的網絡。當電力需求發生波動或分散式能源（如屋頂太陽能）注入時，SST 能即時優化路徑與容量，而非像傳統電網那樣因無法監控而被迫採取最保守、最昂貴的建置方案。\n\n### 對整體市場、技術與地緣政治的長期影響\n這場電網變革將對未來數十年的產業格局產生深遠影響。首先，在技術層面，作者強調了碳化矽（SiC）晶片的戰略重要性。他將「電力晶片」提升到與「AI GPU」同等的高度，認為這是國家安全優先事項。美國在 SiC 技術上具備先發優勢（如 Wolfspeed 等公司），若能成功將此技術鏈條大規模應用於電網，將鞏固其在綠色能源轉型中的核心地位。\n\n其次，從市場運作來看，這是一場從「資本驅動硬體建設」轉向「效率驅動軟體優化」的典範轉移。如同電信產業從固定功能的機電交換機轉向可編程網絡，電網的軟體化將解鎖全新的商業模式，讓 VPP（虛擬電廠）與分散式儲能展現真正的價值，最終達到穩定甚至降低電價的目標。最後，這不僅是技術升級，更是維持國家競爭力的基礎。AI 與再工業化的勝負取決於「可負擔的電力」，若無法解決輸送瓶頸，技術領先將被昂貴的基礎設施拖垮。Baglino 的呼籲代表了矽谷技術官僚對傳統基建的「硬核」反思：我們需要的不是更多的鋼鐵與銅線，而是更聰明的矽片與代碼。",
+      "url": "https://www.a16z.news/p/et-tu-agent-did-you-install-the-backdoor",
+      "analysis_zh": "本文來源於知名創投機構 Andreessen Horowitz (a16z) 的官方新聞平台，探討了在人工智慧代理（AI Agents）時代，軟體供應鏈安全面臨的結構性崩潰風險。文章以 2026 年初發生的 Axios 套件遭劫持事件為引子，深刻剖析了開發自動化與攻擊武器化之間的速度失衡，並警告若不改變安全防禦範式，AI 驅動的軟體革命將可能成為駭客的溫床。\n\n### 戰略背景與脈絡：軟體供應鏈的「暗森林」\n現代軟體開發早已不再是從零開始的建築，而更像是在龐大的開源生態系統中進行「樂高式」組裝。文章指出，一個基礎的 Next.js 專案在開發者寫下第一行代碼前，就已經安裝了 282 個套件；而 GitHub 上的 JavaScript 專案中位數擁有 755 個遞延依賴項。這種高度相互依賴的結構，形成了一種「牽一髮而動全身」的脆弱網絡。過去，軟體供應鏈攻擊如 XZ Utils，往往需要國家級黑客花費數年時間滲透開發社群、獲取維護權；然而，隨著 AI 介入開發流程，這場權力博弈的規則已被徹底重寫。攻擊者的目標不再是特定企業，而是生態系統的基礎設施，利用 AI 的速度優勢實現精準且大規模的破壞。\n\n### 作者的核心推演與論點：AI 代理的「安全性盲點」\n文章作者的核心觀點在於：當開發速度從「人類節奏」演進到「機器節奏」時，傳統的安全防禦體系已經全面崩潰。作者提出了兩個關鍵轉變：首先，前沿編碼模型已經具備自主出貨能力，AI 代理在優化「功能實現」時，往往忽視了「安全性審查」。研究數據顯示，AI 代理選擇已知漏洞依賴項的機率比人類高出 50%，且往往需要跨大版本的修復，這增加了系統的維護負擔與風險。其次，攻擊者開始利用 AI 的特徵進行「反向狩獵」，例如「Slopsquatting」（垃圾包佔位）攻擊。這種手法針對 LLM 經常產生的「幻覺」（Hallucination），預先註冊 AI 經常虛構的套件名稱並植入惡意代碼，坐等自動化工作流將其吸納。作者強調，現在的攻擊不再是外科手術式的精準打擊，而是如同「蠕蟲」般的自我擴散，從 GitHub Actions 橫跨到 Docker Hub、NPM 及 VS Code 插件市場，只需數天即可完成全球規模的滲透。\n\n### 對整體市場與技術發展的長期影響：從數據庫到行為分析的轉型\n這場危機正迫使整個科技產業重新定義「安全」。傳統以 CVE（已知漏洞數據庫）為核心的工具在面對「即插即用、隨即自毀」的惡意代碼時顯得捉襟見肘。文章以 Socket 公司（a16z 投資組合企業）為例，提倡一種「行為分析（Behavioral Analysis）」的防禦範式。這意味著防禦工具不應僅是核對黑名單，而必須深入代碼運行邏輯：它是否在嘗試訪問網絡？是否在產生 shell 程序？是否在混淆其負載？這種從「靜態匹配」到「動態監測」的轉向，將成為未來 AI 時代安全架構的底層邏輯。長期來看，軟體開發的安全性控制點必須極度前移，直接與 AI 代理的決策過程掛鉤。如果我們無法確保供應鏈的安全性，AI 代理所構建的數位世界將是一個沙灘上的城堡。這不僅僅是技術問題，更是地緣政治與經濟穩定的基石。總結而言，軟體生產已進入機器速時代，防禦者若不能以機器速進行反擊與行為分析，那麼「AI 代理」最終將成為安裝後門的特洛伊木馬。",
       "insights": [
-        "「發電成本」與「終端電價」的脫鉤：再生能源大幅降低了發電成本，但陳舊且機械式的輸送網絡（電網）卻成了成本瓶頸，導致輸送費用占帳單比例持續攀升。",
-        "電力晶片（SiC）的國安等級地位：電力電子半導體應被視為與 AI GPU 同等重要的戰略物資，它是支撐未來電網轉型為「軟體定義網絡」的底層物理基礎。",
-        "從「過度建設」轉向「動態優化」：固態變壓器（SST）的意義不在於取代變壓功能，而在於將電網節點變為可編程的智慧終端，透過微秒級的動態控制來壓榨現有基礎設施的最大容量。"
+        "AI 代理在開發中展現出明顯的「功能優先於安全」傾向，選擇漏洞套件的機率比人類高出 50%，且修復難度更高，顯示自動化工具正在放大軟體債務與安全風險。",
+        "新型攻擊手段「Slopsquatting」證明了 LLM 的幻覺已成為一種可被武器化的新界面，駭客透過註冊 AI 虛構的套件名，可精準誘捕自動化開發流程。",
+        "傳統以 CVE 數據庫為核心的防禦體系已無法應對 AI 時代的攻擊速度，安全範式必須從「已知特徵匹配」全面轉向「代碼行為監測（Behavioral Analysis）」。"
       ]
     },
     "Lenny's Newsletter": {
-      "title": "Listen: OpenClaw: A power-user's guide to the most powerful personal AI tool since ChatGPT | 聽：OpenClaw：進階使用者指南——自 ChatGPT 以來最強大的個人 AI 工具",
+      "title": "全球 AI 現況報告：轉折點已過、暗影工廠即將到來與自動化時間表 (An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines)",
       "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide",
-      "analysis_zh": "本文源自全球知名的科技與產品電子報《Lenny's Newsletter》，由前 Airbnb 產品經理、現任科技評論家 Lenny Rachitsky 撰寫。Lenny 以其對產品增長與科技趨勢的精準剖析著稱，在這篇報導中，他介紹了 OpenClaw 這款被譽為「自 ChatGPT 出現以來最強大」的個人 AI 代理工具。透過訪談從懷疑論者轉向超級使用者的 Claire Vo，本文詳細探討了 AI 如何從單純的「對話機器人」演進為具備執行力、能管理真實世界業務的「自主代理人」。\n\n### 戰略背景與脈絡：從生成式對話到代理式執行\n自 2022 年底 ChatGPT 引發 AI 熱潮以來，市場經歷了從「驚嘆於生成內容」到「追求生產力落地」的轉型過程。然而，傳統的 LLM 介面（如 ChatGPT 或 Claude 網頁版）本質上仍是「被動式」的。OpenClaw 的出現，象徵著「代理式 AI」（Agentic AI）進入了電力使用者（Power User）的視野。這種工具不再僅僅是等待使用者提問的對話框，而是能夠在後台持續運行、具備環境感知能力並能調用外部 API 執行任務的系統。這種轉變的戰略背景在於，隨著模型推理能力的穩定，真正的商業價值正從「提供建議」轉移到「完成閉環任務」。Claire Vo 的轉變代表了早期採用者的典型路徑：從對技術可行性的懷疑，到發現 AI 能處理瑣碎、高重複性決策後的全面擁抱。\n\n### 作者的核心推演與論點：數位勞動力與九大代理架構\n作者透過 Claire Vo 的實際案例，推演出一個核心論點：未來的個人生產力將不再取決於使用者的打字速度或工具熟悉度，而取決於其「代理管理能力」。Claire 運行的九個專屬 AI 代理，涵蓋了從程式碼撰寫、銷售結案到私人日程（如接送小孩籃球賽）的全方位管理。這背後的推演邏輯是「數位勞動力的極致分工」。\n\n首先，OpenClaw 的強大在於其高度的自主性。與依賴使用者一步步引導的 GPTs 不同，OpenClaw 的架構允許代理人在複雜任務中進行自我糾錯與多步推理。其次，基礎設施的選擇（Mac Mini 或 VPS）反映了對「隱私與主權」的戰略重視。將 AI 代理部署在私有硬體上，不僅是為了算力穩定，更是為了確保個人數據與真實世界操作權限的安全邊界。Claire 的案例證明，當 AI 代理被賦予足夠的上下文與 API 權限時，它能從「助理」升格為「執行官」，處理跨平台的複雜工作流。\n\n### 對整體市場、技術發展與長期影響的洞察\n從長遠來看，OpenClaw 的普及將對軟體開發與個人助理市場產生顛覆性影響。在技術層面，我們正走向一個「軟體消費化」的終結點：未來使用者可能不再需要訂閱數十個 SaaS 軟體，而是透過一個像 OpenClaw 這樣的核心代理框架，去調用底層的無數微服務。這將導致現有的 SaaS 商業模式面臨重構，從「賣功能」轉向「賣 API 兼容性」。\n\n在地緣政治與經濟面，這種工具推動了「一人公司」的極大化。當一名創業者能透過九個自主代理人完成以往需要整個團隊才能負擔的工作量時，傳統的勞動力市場與公司結構將會鬆動。此外，這種對個人算力（如本地 Mac Mini 部署）的需求，也可能推動硬體廠商（如 Apple）進一步優化其邊緣運算晶片。最終，OpenClaw 類型的工具將定義一種新的「數位主權」，即個人有能力在不依賴雲端巨頭審查或數據採集的情況下，建立起自己的自動化數位帝國。這不僅是工具的勝利，更是個人權能（Empowerment）在 AI 時代的重新定義。",
+      "url": "https://www.lennysnewsletter.com/p/an-ai-state-of-the-union",
+      "analysis_zh": "本文源自知名科技評論平台 Lenny's Newsletter，由 Django 框架共同創始人、也是 AI 安全領域「提示詞注入」（Prompt Injection）概念的提出者 Simon Willison 所撰寫。Simon 作為一名從傳統軟體工程跨足到 AI 原生開發的先驅，他在文中精確地勾勒出 AI 自動化開發的現狀與未來圖景，指出我們正處於一個軟體生產模式徹底轉型的關鍵時刻。\n\n### 戰略背景與脈絡：2025 年 11 月的技術奇點\n\nSimon Willison 提出了一個極具震撼力的觀察：2025 年 11 月是軟體工程史上的轉折點。當時以 GPT-5.2 與 Claude 4.5 為代表的模型出現，標誌著 AI 程式碼代理（Coding Agents）從「大致可用」跨越到了「真正可靠」的門檻。這不僅是模型參數的提升，更是「代理工程」（Agentic Engineering）範式的成熟。在這個階段，開發者的角色從「打字員」轉向「指揮官」。\n\n我們正進入一個「氛圍編程」（Vibe Coding）的時代。這聽起來或許有些輕蔑，但其背後的戰略意義在於：人類開發者只需提供清晰的意圖（Intention）與驗證邏輯，具體的實現過程完全由 AI 代理完成。Simon 提到他現在 95% 的代碼是透過手機完成的，這象徵著編程已經從一種「體力勞動」（敲擊鍵盤）轉化為一種「認知決策」。這種轉型讓開發的速度與規模呈指數級增長，但也對傳統的開發者職涯路徑提出了挑戰。\n\n### 作者的核心推演與論點：中堅工程師的危機與暗影工廠\n\nSimon 的分析中隱含了一個令人不安的預測：最受威脅的並非初級工程師（Juniors），而是中堅工程師（Mid-career Engineers）。初級工程師能夠在 AI 的輔助下快速縮短學習曲線，而資深工程師則轉型為高層次的系統架構師與品質把關者。反觀中堅工程師，其核心價值往往在於將需求「翻譯」為實現代碼的效率，而這正是 AI 代理目前表現最出色、成本最低廉的部分。這種「中間層崩塌」將迫使整個產業重塑對技術人才的定義。\n\n為了應對這種高度自動化的未來，Simon 提出了「代理工程模式」，其中最核心的是「紅/綠測試驅動開發」（Red/Green TDD）。在這種模式下，人類不再審核 AI 寫的代碼，而是審核 AI 寫的「測試」。如果 AI 能自主編寫測試並通過測試，代碼的實現過程就成了黑盒（Black Box）。這進一步演化為 Simon 所稱的「暗影工廠」（Dark Factory）模式：這是一個全自動化的代碼生產線，從需求分析、代碼實現、測試到 QA，全部由 AI 闭環完成，人類完全不介入代碼細節。這將極大地提高軟體迭代的速度，但也意味著軟體系統的複雜性將超越人類的閱讀極限。\n\n### 對整體市場與技術發展的長期影響：致命三要素與安全危機\n\n然而，這種自動化的狂飆突進並非沒有風險。Simon 作為安全專家，發出了嚴厲的警告：我們正處於一個「AI 挑戰者號」式災難的前夜。他提出了「致命三要素」（Lethal Trifecta）：私密數據訪問權、不受信任的第三方內容輸入、以及與外部通訊的能力。當這三個要素同時存在於一個 AI 代理中時，提示詞注入攻擊將從理論威脅轉化為現實的災難性安全漏洞。\n\n從長期來看，軟體開發的經濟結構將發生根本性改變。小型團隊或個人開發者將能維護龐大的系統，因為「代碼維護」的邊際成本趨近於零。但這也可能導致「AI 垃圾代碼」（AI Slop）的大量累積，讓未來的數位基礎設施變得極度脆弱。地緣政治層面上，對頂尖 AI 模型的訪問權將成為軟體生產力的核心競爭力，不具備自主大模型開發能力的地區，其軟體產業可能會淪為模型供應商的「代工廠」。\n\n總結來說，Simon Willison 的這份分析報告不僅是對技術現況的記錄，更是對未來權力結構轉變的預告。在暗影工廠即將到來的時代，人類最寶貴的資產不再是寫出代碼的能力，而是定義問題、識別風險以及對系統「氛圍」的精準掌控力。",
       "insights": [
-        "AI 的真正轉型在於從「內容生成」轉向「行動授權」，具備自主權限去調用 API 並在現實世界結案的代理人，將取代聊天機器人成為生產力核心。",
-        "「本地部署」的復興：為了實現高效能、低延遲且具備隱私保護的 AI 代理，進階使用者正從雲端 SaaS 轉回私有硬體（如 Mac Mini），這預示了個人雲端運算的新趨勢。",
-        "未來的職場競爭力將重新定義為「AI 代理調度能力」，個人管理九個以上不同專業代理人的「一人公司」模式，將成為科技產業的新常態結構。"
+        "中堅工程師是 AI 自動化浪潮中最脆弱的群體，因為 AI 取代了將邏輯翻譯為實現代碼的中間層，而這正是該群體的核心產出。",
+        "「暗影工廠」模式標誌著軟體工程從「人類審核代碼」轉向「人類審核測試」，代碼實現代節將成為人類無法也不必理解的黑盒。",
+        "AI 安全的「致命三要素」組合將導致必然發生的系統性災難，目前業界在追求自動化效率的同時，尚未找到解決提示詞注入攻擊的根本方案。"
       ]
     }
   }
