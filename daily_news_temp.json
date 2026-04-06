@@ -1,182 +1,182 @@
 {
-  "fetch_date": "2026-04-05",
+  "fetch_date": "2026-04-06",
   "techmeme": [
+    {
+      "title_en": "A deep dive into China's efforts to integrate AI into K-12 education to reduce teacher workloads, improve rural schools, and help students with disabilities (Lily Ottinger/ChinaTalk)",
+      "url": "https://www.chinatalk.media/p/chinas-ai-education-experiment",
+      "summary_en": "<A HREF=\"https://www.chinatalk.media/p/chinas-ai-education-experiment\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260405/i9.jpg\"></A>\n<P><A HREF=\"http://www.techm...",
+      "title_zh": "深入探討中國推動 AI 進入 K-12 教育的現況：減輕教師負擔、改善偏鄉學校並協助殘障學生",
+      "summary_zh": "這份深入報告探討了中國如何嘗試將 AI 整合進國民義務教育，旨在降低老師工作量、提升農村教育品質，並為有特殊需求的學生提供支援。"
+    },
+    {
+      "title_en": "Medvi, glorified by the NYT as a two-employee startup with $1B+ in revenue, is a warning about how AI can be misused for shady business and marketing practices (Gary Marcus/Marcus on AI)",
+      "url": "https://garymarcus.substack.com/p/the-back-story-behind-the-first-18",
+      "summary_en": "<A HREF=\"https://garymarcus.substack.com/p/the-back-story-behind-the-first-18\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260405/i8.jpg\"></A>\n<P><A HREF=\"http://w...",
+      "title_zh": "Medvi 被紐約時報讚譽為僅有兩名員工且營收逾 10 億美元的技術公司，卻是 AI 被誤用於可疑商業與行銷手段的警訊",
+      "summary_zh": "Gary Marcus 指出，Medvi 的成功故事背後可能隱藏著 AI 技術被濫用的風險，警告大眾應警惕這類透過 AI 進行不透明營運與行銷的模式。"
+    },
+    {
+      "title_en": "Drift details how suspected North Korean attackers stole $270M posing as a quant trading firm in a 6+ month operation with in-person meetings and a $1M+ deposit (Shaurya Malwa/CoinDesk)",
+      "url": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
+      "summary_en": "<A HREF=\"https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"htt...",
+      "title_zh": "Drift 詳述北韓駭客如何冒充量化交易公司，在長達半年的行動中竊取 2.7 億美元",
+      "summary_zh": "疑似北韓背景的攻擊者透過面對面會議與超過 100 萬美元的保證金獲取信任，在超過 6 個月的精密操作後，成功從 Drift 竊取巨額資金。"
+    },
+    {
+      "title_en": "A profile of Mikko Hyppönen, a cybersecurity veteran who pivoted from fighting malware to developing anti-drone systems for law enforcement and the military (Lorenzo Franceschi-Bicchierai/TechCrunch)",
+      "url": "https://techcrunch.com/2026/04/04/after-fighting-malware-for-decades-this-cybersecurity-veteran-is-now-hacking-drones/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/04/after-fighting-malware-for-decades-this-cybersecurity-veteran-is-now-hacking-drones/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tec...",
+      "title_zh": "資安大師 Mikko Hyppönen 個人專訪：從對抗惡意軟體轉身開發軍警用無人機防禦系統",
+      "summary_zh": "這位深耕資安領域數十年的老兵，已將工作重點從軟體端的病毒防治，轉向開發用於執法單位與軍方的反無人機（anti-drone）系統。"
+    },
+    {
+      "title_en": "TrueUp data shows over 67,000 software engineering job openings, up 30% so far in 2026 and the most in three years, with listings up about 2x since mid-2023 (Alistair Barr/Business Insider)",
+      "url": "https://www.businessinsider.com/ai-isnt-killing-software-coding-jobs-booming-trueup-2026-4",
+      "summary_en": "<A HREF=\"https://www.businessinsider.com/ai-isnt-killing-software-coding-jobs-booming-trueup-2026-4\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260405/i5.jpg\"></A...",
+      "title_zh": "TrueUp 數據顯示：2026 年軟體工程職缺突破 6.7 萬個，增長 30% 創三年新高",
+      "summary_zh": "數據顯示軟體工程職缺自 2026 年初以來增長了三成，職缺數量約為 2023 年中的兩倍，打破了 AI 將扼殺程式開發工作的傳言。"
+    },
+    {
+      "title_en": "How Hollywood support staff are integrating AI into workflows, from mundane tasks to creative development, amid cost-cutting and workload demands (Mia Galuppo/The Hollywood Reporter)",
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/hollywood-assistants-ai-development-1236553905/",
+      "summary_en": "<A HREF=\"https://www.hollywoodreporter.com/movies/movie-features/hollywood-assistants-ai-development-1236553905/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26040...",
+      "title_zh": "好萊塢基層員工如何在減支與工作量壓力下，將 AI 融入創意與行政流程",
+      "summary_zh": "面對影視產業的裁員與成本削減，好萊塢的助理與基層人員正積極運用 AI 處理瑣事及協助創意開發，以因應高強度的工作需求。"
+    },
+    {
+      "title_en": "According to Microsoft Copilot Terms of Use, updated in Oct. 2025, \"Copilot is for entertainment purposes only\" and \"Don't rely on Copilot for important advice\" (Jowi Morales/Tom's Hardware)",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-says-copilot-is-for-entertainment-purposes-only-not-serious-use-firm-pushing-ai-hard-to-consumers-tells-users-not-to-rely-on-it-for-important-advice",
+      "summary_en": "<A HREF=\"https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-says-copilot-is-for-entertainment-purposes-only-not-serious-use-firm-pushing-ai-hard-to-consumers-tells-users-not-...",
+      "title_zh": "Microsoft Copilot 更新使用條款：註明「僅供娛樂目的」，提醒用戶勿過度依賴其建議",
+      "summary_zh": "微軟在 2025 年 10 月更新的條款中明確表示，Copilot 僅供娛樂使用，不應將其視為重要決策的依據，這與公司大力推廣 AI 的立場形成對比。"
+    },
+    {
+      "title_en": "Samsung plans to discontinue its Messages app in the US in July 2026 and offers instructions for users on older Android versions to switch to Google Messages (Abner Li/9to5Google)",
+      "url": "https://9to5google.com/2026/04/04/samsung-messages-discontinued-us/",
+      "summary_en": "<A HREF=\"https://9to5google.com/2026/04/04/samsung-messages-discontinued-us/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260405/i2.jpg\"></A>\n<P><A HREF=\"http://ww...",
+      "title_zh": "三星計劃於 2026 年 7 月在美國停用「Samsung Messages」應用程式，全面轉向 Google Messages",
+      "summary_zh": "三星公告將停止在美營運其原生訊息軟體，並指導舊版 Android 用戶切換至 Google 的訊息服務，以推動更統一的 RCS 通訊體驗。"
+    },
+    {
+      "title_en": "Sources: the UK has stepped up its efforts to get Anthropic to expand in the country, including a dual listing proposal, after Anthropic's clash with the US DOD (Financial Times)",
+      "url": "https://giftarticle.ft.com/giftarticle/actions/redeem/23de58fd-86d0-4bdf-8e9d-2f74cd453256",
+      "summary_en": "<A HREF=\"https://giftarticle.ft.com/giftarticle/actions/redeem/23de58fd-86d0-4bdf-8e9d-2f74cd453256\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260405/i1.jpg\"></A...",
+      "title_zh": "消息指出：在 Anthropic 與美國國防部產生分歧後，英國政府加強拉攏該公司在英擴張",
+      "summary_zh": "據悉英國官員已提出雙重上市等優惠條件，希望藉由 Anthropic 與美國當局的矛盾，吸引這家 AI 巨頭前往英國發展。"
+    },
+    {
+      "title_en": "US commercial satellite provider Planet Labs is indefinitely withholding access to imagery of Iran and the conflict region, citing US government's request (Ismail Shakil/Reuters)",
+      "url": "https://www.reuters.com/business/media-telecom/satellite-firm-planet-labs-indefinitely-withhold-iran-war-images-2026-04-05/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/business/media-telecom/satellite-firm-planet-labs-indefinitely-withhold-iran-war-images-2026-04-05/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://ww...",
+      "title_zh": "應美國政府要求，衛星服務商 Planet Labs 無限期停止提供伊朗及衝突地區的圖像存取",
+      "summary_zh": "美國商業衛星公司 Planet Labs 證實，根據政府需求，將不再對外開放中東衝突地區與伊朗的最新衛星空拍影像。"
+    },
+    {
+      "title_en": "EU legislation allowing voluntary CSAM scanning by tech and social media companies expired April 3 after lawmakers failed to agree on the terms of an extension (Sam Clark/Politico)",
+      "url": "https://www.politico.eu/article/tech-firms-enter-legal-limbo-over-child-abuse-scanning/",
+      "summary_en": "<A HREF=\"https://www.politico.eu/article/tech-firms-enter-legal-limbo-over-child-abuse-scanning/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260404/i14.jpg\"></A>\n...",
+      "title_zh": "歐盟關於技術公司自願掃描兒童性虐待內容（CSAM）的立法已於 4 月 3 日失效",
+      "summary_zh": "由於立法者無法就延期條款達成共識，允許社群媒體與科技公司監測兒童騷擾內容的現行規範已過期，使相關公司陷入法律真空。"
+    },
+    {
+      "title_en": "How some teens use popular AI-powered role-playing chatbots, and the high-stakes challenge for parents to understand their potentially addictive impact (New York Times)",
+      "url": "https://www.nytimes.com/2026/04/04/technology/ai-chatbots-teen-roleplay.html?unlocked_article_code=1.YVA.MA5h.oLquJDA4G9DE&smid=nytcore-ios-share",
+      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/04/04/technology/ai-chatbots-teen-roleplay.html?unlocked_article_code=1.YVA.MA5h.oLquJDA4G9DE&smid=nytcore-ios-share\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=...",
+      "title_zh": "青少年沈迷 AI 角色扮演聊天機器人，父母面臨理解與防範成癮的新挑戰",
+      "summary_zh": "紐約時報報導了青少年如何利用 AI 機器人進行深度角色扮演，以及家長在應對這種可能具備成癮性且高風險的新技術時所面臨的困境。"
+    },
     {
       "title_en": "How India's film industry is embracing AI, as studios use the tech to cut production time and costs, while union rules constrain its use in Hollywood (Munsif Vengattil/Reuters)",
       "url": "https://www.reuters.com/technology/ai-is-rewiring-worlds-most-prolific-film-industry-2026-04-04/",
       "summary_en": "<A HREF=\"https://www.reuters.com/technology/ai-is-rewiring-worlds-most-prolific-film-industry-2026-04-04/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260404/i12.j...",
-      "title_zh": "印度電影業積極擁抱 AI：製片廠利用新技術縮減製作時間與成本，相較之下好萊塢受限於工會規定",
-      "summary_zh": "AI 正在重塑全球產量最高的電影產業，印度製片廠正迅速採用 AI 來提升效率，而好萊塢則因工會限制而步履蹣跚。"
+      "title_zh": "印度電影產業全面擁抱 AI：縮短製作週期並節省成本，與好萊塢的抵制態度形成對比",
+      "summary_zh": "相較於好萊塢受到工會規則約束，印度的電影製片廠正無障礙地運用 AI 技術重塑影視製作流程，大幅提升產能與效率。"
     },
     {
       "title_en": "Apple reportedly signed a 3rd-party driver, by Tiny Corp, for AMD or Nvidia eGPUs for Apple Silicon Macs; it's meant for AI research, not accelerating graphics (AppleInsider)",
       "url": "https://appleinsider.com/articles/26/04/04/amd-or-nvidia-egpus-can-work-on-apple-silicon-macs-but-not-for-graphic-acceleration",
       "summary_en": "<A HREF=\"https://appleinsider.com/articles/26/04/04/amd-or-nvidia-egpus-can-work-on-apple-silicon-macs-but-not-for-graphic-acceleration\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http:/...",
-      "title_zh": "據傳 Apple 已為 Apple Silicon Mac 簽署由 Tiny Corp 開發的第三方驅動程式，支援 AMD 或 Nvidia eGPU",
-      "summary_zh": "此驅動程式旨在支援 AMD 或 Nvidia eGPU 用於 AI 研究，而非圖形加速，這標誌著 Apple Silicon 在硬體擴充性上的重要進展。"
+      "title_zh": "蘋果據傳已為 Tiny Corp 開發的 AMD/Nvidia eGPU 驅動程式簽名，助力 Apple Silicon Macs 進行 AI 研究",
+      "summary_zh": "這項第三方驅動程式支援在 M 系列晶片的 Mac 上使用外接顯示卡，但目前僅限於 AI 研究用途，並非用於提升遊戲或圖像渲染效能。"
     },
     {
       "title_en": "Research across 1,372 participants and 9K+ trials details \"cognitive surrender\", where most subjects had minimal AI skepticism and accepted faulty AI reasoning (Kyle Orland/Ars Technica)",
       "url": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
       "summary_en": "<A HREF=\"https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
-      "title_zh": "針對 1,372 名受試者的研究揭露「認知投降」現象：多數使用者對 AI 幾乎不抱懷疑並接受錯誤推理",
-      "summary_zh": "研究發現 AI 使用者極度傾向於將認知權交給 LLM，即使 AI 給出明顯錯誤的邏輯，受試者也往往選擇盲目相信。"
-    },
-    {
-      "title_en": "VCs are covering expenses like rent for young college dropouts founding AI startups; Antler: average AI unicorn founder age fell from 40 in 2020 to 29 in 2024 (Kate Clark/Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7?st=s8VWb1&reflink=desktopwebshare_permalink",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7?st=s8VWb1&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260404/i...",
-      "title_zh": "創投為創辦 AI 新創的年輕輟學者支付房租：獨角獸創辦人平均年齡從 40 歲降至 29 歲",
-      "summary_zh": "VC 正在爭相資助那些從頂尖大學輟學開發 AI 的年輕人；Antler 數據顯示，AI 領域的創業者呈現顯著的年輕化趨勢。"
-    },
-    {
-      "title_en": "Y Combinator appears to have dropped Delve, removing the company's profile from its startup directory, following allegations of fake compliance certificates (The Economic Times)",
-      "url": "https://economictimes.indiatimes.com/tech/technology/backer-y-combinator-drops-delve-on-compliance-allegations-top-brass-allege-smear-campaign/articleshow/130015378.cms",
-      "summary_en": "<A HREF=\"https://economictimes.indiatimes.com/tech/technology/backer-y-combinator-drops-delve-on-compliance-allegations-top-brass-allege-smear-campaign/articleshow/130015378.cms\"><IMG VSPACE=\"4\" HSPAC...",
-      "title_zh": "Y Combinator 疑似已將 Delve 除名，因該公司面臨偽造合規證明之指控",
-      "summary_zh": "在爆出合規性醜聞後，YC 已將 Delve 從其新創目錄中移除，儘管該公司高層聲稱這是一場抹黑行動。"
-    },
-    {
-      "title_en": "Russian media says attempts to limit VPN use may have triggered a widespread banking outage, as Moscow intensifies a crackdown on internet use and Telegram (Anthony Halpin/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-04/russia-s-vpn-crackdown-caused-bank-outage-telegram-founder-says",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-04/russia-s-vpn-crackdown-caused-bank-outage-telegram-founder-says\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
-      "title_zh": "俄羅斯封殺 VPN 舉動疑引發大規模銀行斷網，當局持續加強網路監控與 Telegram 限制",
-      "summary_zh": "俄羅斯媒體指出，莫斯科加強打壓 VPN 可能意外導致了金融系統故障，這是當地網際網路控制升級帶來的副作用。"
-    },
-    {
-      "title_en": "Q&A with Simon Willison on the November release of GPT-5.1 and Opus 4.5 as the inflection point for coding, exhaustion due to managing coding agents, and more (Lenny Rachitsky/Lenny's Newsletter)",
-      "url": "https://www.lennysnewsletter.com/p/an-ai-state-of-the-union",
-      "summary_en": "<A HREF=\"https://www.lennysnewsletter.com/p/an-ai-state-of-the-union\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260404/i6.jpg\"></A>\n<P><A HREF=\"http://www.techme...",
-      "title_zh": "Simon Willison 談 GPT-5.1 與 Opus 4.5：程式開發的新轉捩點與管理 AI 代理的倦怠感",
-      "summary_zh": "這場深度訪談探討了 AI 在程式開發領域的現狀，包括最新模型的釋出如何改變開發流程，以及開發者在應對 AI 代理時面臨的挑戰。"
-    },
-    {
-      "title_en": "A profile of Benjamin Brundage, a 22-year-old college senior who helped uncover the Kimwolf botnet, which launched 26,000+ DDoS attacks targeting 8,000+ victims (Robert McMillan/Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/kimwolf-hack-residential-proxy-networks-a712ab59?st=iuG6pj&reflink=article_copyURL_share",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/kimwolf-hack-residential-proxy-networks-a712ab59?st=iuG6pj&reflink=article_copyURL_share\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
-      "title_zh": "專訪 22 歲大學生 Benjamin Brundage：他協助揭發了發動逾 2.6 萬次攻擊的 Kimwolf 殭屍網路",
-      "summary_zh": "這位年輕的網路安全研究員協助追蹤並瓦解了一個龐大的殭屍網路，該網路利用住宅代理伺服器針對數千名受害者發動 DDoS 攻擊。"
-    },
-    {
-      "title_en": "The White House's latest effort to enact legislation that would preempt state AI laws stalls as multiple Democrats dismiss the proposal as a partisan play (Politico)",
-      "url": "https://www.politico.com/news/2026/04/03/trumps-partisan-ai-pitch-stalls-on-the-hill-00858101",
-      "summary_en": "<A HREF=\"https://www.politico.com/news/2026/04/03/trumps-partisan-ai-pitch-stalls-on-the-hill-00858101\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260404/i4.jpg\">...",
-      "title_zh": "白宮推動聯邦 AI 立法以取代各州法律的努力陷入僵局，民主黨指責其為黨派政治手段",
-      "summary_zh": "拜登政府試圖建立全國性的 AI 規範框架，但因多位民主黨人的反對而在國會停滯不前，反對者認為該提案過於偏向特定黨派利益。"
-    },
-    {
-      "title_en": "Chinese humanoid robot maker UBTech is seeking a chief scientist with an annual pay of as much as ~$18M; China's AI industry has eschewed mega pay packages (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-03/chinese-robot-pioneer-ubtech-offers-18-million-for-ai-scientist",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-03/chinese-robot-pioneer-ubtech-offers-18-million-for-ai-scientist\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
-      "title_zh": "中國人形機器人龍頭優必選以 1,800 萬美元天薪招聘首席科學家",
-      "summary_zh": "優必選（UBTech）正試圖以極高薪資吸引頂尖 AI 人才，打破了中國 AI 產業近期趨向保守的薪酬模式。"
-    },
-    {
-      "title_en": "Generalist, which raised $140M at a $440M valuation in 2025, releases GEN-1, an AI model to help robots handle high-dexterity tasks typically done by humans (Anna Tong/Forbes)",
-      "url": "https://www.forbes.com/sites/annatong/2026/04/02/generalist-is-betting-its-robot-training-gloves-will-usher-in-robotics-chatgpt-moment/",
-      "summary_en": "<A HREF=\"https://www.forbes.com/sites/annatong/2026/04/02/generalist-is-betting-its-robot-training-gloves-will-usher-in-robotics-chatgpt-moment/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SR...",
-      "title_zh": "Generalist 推出 GEN-1 模型，旨在幫助機器人處理人類級別的高靈巧度任務",
-      "summary_zh": "這家估值達 4.4 億美元的新創公司正寄望於其機器人訓練技術，希望能重現機器人領域的「ChatGPT 時刻」。"
-    },
-    {
-      "title_en": "Sources: Copilot sales hit \"big audacious goals\" by March end after Microsoft pivoted its sales strategy; 3% of customers were paying for Copilot as of January (Brody Ford/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-02/microsoft-hit-audacious-copilot-goals-after-wall-street-input",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-02/microsoft-hit-audacious-copilot-goals-after-wall-street-input\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
-      "title_zh": "消息人士：微軟在調整銷售策略後，Copilot 業績於 3 月底達成宏大目標",
-      "summary_zh": "微軟 Copilot 的企業採用率正穩步提升，截至 1 月已有 3% 的客戶轉為付費用戶，銷售數據令華爾街感到振奮。"
-    },
-    {
-      "title_en": "The Artemis II moon mission is one of the first times NASA has let astronauts fly with smartphones, giving them modified iPhones for taking photos and videos (Kalley Huang/New York Times)",
-      "url": "https://www.nytimes.com/2026/04/03/technology/iphones-artemis-nasa.html",
-      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/04/03/technology/iphones-artemis-nasa.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260403/i24.jpg\"></A>\n<P><A HREF=\"http...",
-      "title_zh": "阿提米絲 2 號月球任務：NASA 首次允許太空人攜帶改裝過的 iPhone 進行拍攝",
-      "summary_zh": "NASA 將為執行繞月任務的太空人配備特製的 iPhone，以便他們能更輕鬆地記錄任務過程並拍攝高品質的影像。"
-    },
-    {
-      "title_en": "Health data startup Bevel's CEO pushes back against Whoop's lawsuit that alleges Bevel copied the look of the Whoop app, saying Whoop's actions are \"lawfare\" (Leila Sheridan/Inc.com)",
-      "url": "http://www.techmeme.com/260403/p23#a260403p23",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260403/p23#a260403p23\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Lei...",
-      "title_zh": "健康數據新創 Bevel 執行長反擊 Whoop 訴訟，稱其指控為「法律戰」行為",
-      "summary_zh": "Bevel 否認抄襲 Whoop 的 App 設計，並指責對方試圖透過法律手段打壓新興競爭對手。"
-    },
-    {
-      "title_en": "Sources: Mark Zuckerberg is back to writing code after a two-decade hiatus, submitting three diffs to Meta's monorepo, and is a heavy user of Claude Code CLI (Gergely Orosz/The Pragmatic Engineer)",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return",
-      "summary_en": "<A HREF=\"https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260403/i22.jpg\"></A>\n<P><A HREF=...",
-      "title_zh": "消息人士：Mark Zuckerberg 睽違二十年重操舊業寫程式，且是 Claude Code 的重度使用者",
-      "summary_zh": "Meta 執行長已親自向公司的 monorepo 提交了多項程式碼修改（diffs），並對 Claude Code CLI 等 AI 開發工具表示高度認可。"
+      "title_zh": "研究揭示 AI 使用者的「認知降伏」現象：多數受試者對 AI 的錯誤推論缺乏警覺",
+      "summary_zh": "一項涵蓋逾千名參與者的實驗顯示，人們在使用 LLM 時傾向於完全放棄自主思考，即使面對明顯的 AI 推論錯誤也選擇盲目接受。"
     }
   ],
   "wsj": [
     {
+      "title_en": "The Myth of the Lone Inventor Is Largely Just That—a Myth",
+      "url": "https://www.wsj.com/tech/ai/invention-team-research-87ba7e05?mod=rss_Technology",
+      "summary_en": "Research confirms that small teams are more likely to achieve major breakthroughs, even if it doesn’t make for the best stories....",
+      "title_zh": "「孤獨發明家」的迷思：重大突破通常源於團隊合作",
+      "summary_zh": "研究證實，雖然英雄式的個人故事更具吸引力，但實際上小型團隊更容易達成科技上的重大突破。"
+    },
+    {
+      "title_en": "College Kid Brings Down a Botnet",
+      "url": "https://www.wsj.com/tech/ai/college-kid-brings-down-a-botnet-586d3d68?mod=rss_Technology",
+      "summary_en": "Plus: Uploading your blood work to AI, the whiz kids who dropped out of college, a drone’s unlikely inspiration and more....",
+      "title_zh": "大學生憑一己之力搗毀大規模僵屍網路（Botnet）",
+      "summary_zh": "本篇報導還涵蓋了將血液報告上傳至 AI、頂尖大學生創業輟學潮，以及從生物中獲得靈感的無人機技術。"
+    },
+    {
       "title_en": "This Engineer Wants to Make Computer Chips on the Moon",
       "url": "https://www.wsj.com/tech/this-engineer-wants-to-make-computer-chips-on-the-moon-ee8693f8?mod=rss_Technology",
       "summary_en": "Atsuyoshi Koike, the public face of Japan’s effort to muscle back into the semiconductor industry it used to dominate, first needs to prove he can make them on earth....",
-      "title_zh": "這位工程師想在月球上製造電腦晶片",
-      "summary_zh": "日本半導體國家隊 Rapidus 的靈魂人物小池淳義正帶領日本重返半導體高峰，但他必須先證明在地球上也能成功製造出頂尖晶片。"
+      "title_zh": "這位日本工程師的宏大目標：在月球上製造電腦晶片",
+      "summary_zh": "小池淳義（Atsuyoshi Koike）正帶領日本試圖奪回半導體龍頭地位，但首先他得證明自己在地球上也能成功量產晶片。"
     },
     {
       "title_en": "I Uploaded My Blood Work to AI. Am I Oversharing?",
       "url": "https://www.wsj.com/tech/ai/health-data-perplexity-claude-ai-d792a2df?mod=rss_Technology",
       "summary_en": "When you connect medical records and health data to a chatbot, you get results. But you must understand the risks....",
-      "title_zh": "我把驗血報告傳給了 AI，這算過度分享嗎？",
-      "summary_zh": "將醫療紀錄提供給聊天機器人雖然能獲得快速的分析結果，但使用者必須審慎評估潛在的隱私風險。"
+      "title_zh": "我把血液檢查報告上傳給了 AI，這是否過度分享了個人隱私？",
+      "summary_zh": "將醫療紀錄與健康數據連接至聊天機器人確實能快速獲得分析結果，但用戶必須清楚了解潛在的資安與隱私風險。"
     },
     {
       "title_en": "The Smarter Way to Cash In on Meta’s Vision for Smartglasses",
       "url": "https://www.wsj.com/tech/ai/the-smarter-way-to-cash-in-on-metas-vision-for-smartglasses-ce478ecf?mod=rss_Technology",
       "summary_en": "EssilorLuxottica makes the AI-enabled Ray-Bans that are growing more popular with consumers....",
-      "title_zh": "從 Meta 智慧眼鏡願景中獲利的聰明方法",
-      "summary_zh": "EssilorLuxottica 負責生產深受消費者喜愛的 AI Ray-Ban 眼鏡，成為這場穿戴式裝置競賽中的隱形贏家。"
+      "title_zh": "投資 Meta 智慧眼鏡願景的更聰明途徑：關注其合作夥伴 EssilorLuxottica",
+      "summary_zh": "EssilorLuxottica 製造的 Ray-Ban Meta AI 眼鏡在消費者市場熱度攀升，成為觀察智慧眼鏡商機的關鍵角色。"
     },
     {
       "title_en": "These AI Whiz Kids Dropped Out of College and Got Investors to Pay Their Bills",
       "url": "https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7?mod=rss_Technology",
       "summary_en": "Venture capitalists are stepping in to cover expenses like rent while dropouts from Harvard to Stanford chase their startup dreams....",
-      "title_zh": "這些 AI 神童從大學輟學，並讓投資人為他們支付生活開銷",
-      "summary_zh": "從哈佛到史丹佛的優秀學生紛紛輟學投身 AI 創業，而創投公司則樂於為他們的夢想買單，甚至涵蓋房租支出。"
-    },
-    {
-      "title_en": "OpenAI’s Top Executive Fidji Simo to Take Medical Leave From Company",
-      "url": "https://www.wsj.com/tech/openais-top-executive-fidji-simo-to-take-medical-leave-from-company-d6fab97c?mod=rss_Technology",
-      "summary_en": "The maker of ChatGPT announced several other organizational changes ahead of its expected IPO....",
-      "title_zh": "OpenAI 高層 Fidji Simo 將因病請假",
-      "summary_zh": "在預期 IPO 之前，ChatGPT 開發商 OpenAI 宣佈了多項高層異動與組織架構調整。"
-    },
-    {
-      "title_en": "AI Trainer Mercor Offers to Pay People for Prior Work—Work Employers Might Own",
-      "url": "https://www.wsj.com/tech/ai/ai-training-data-mercor-offers-ed37d2a1?mod=rss_Technology",
-      "summary_en": "AI models from the tech giants constantly need new training data. This $10 billion startup is on the hunt for fresh resources....",
-      "title_zh": "AI 訓練平台 Mercor 支付報酬購買過往作品——但這些成果可能屬於原雇主",
-      "summary_zh": "這家估值百億美元的新創公司正積極搜尋 AI 訓練所需的原始數據，但也引發了關於程式碼所有權的法律爭議。"
+      "title_zh": "AI 奇才紛紛從名校輟學：投資人競相資助其生活費與創業夢",
+      "summary_zh": "創投家正為哈佛與史丹佛大學的輟學者支付房租與開銷，只為搶先投資這些追逐 AI 創業夢想的年輕天才。"
     },
     {
       "title_en": "One Company’s Effort to Make an AI-Ready Catalog of Everything We Buy",
       "url": "https://www.wsj.com/business/retail/one-companys-effort-to-make-an-ai-ready-catalog-of-everything-we-buy-c33ee2c0?mod=rss_Technology",
       "summary_en": "In an Arkansas “capture factory,” hand models and food stylists are preparing for the future of shopping....",
-      "title_zh": "這家公司正試圖為所有商品建立「AI 就緒」的型錄",
-      "summary_zh": "在阿肯色州的「採集工廠」中，專業模特兒與造型師正忙著將現實商品轉化為 AI 可識別的數據，為未來的購物模式鋪路。"
+      "title_zh": "阿肯色州的「捕捉工廠」：正為所有商品建立 AI 專用目錄",
+      "summary_zh": "在高度自動化的設施中，手部模特兒與食物造型師正忙著將萬物數位化，為未來的購物體驗建立 AI 訓練資料庫。"
     },
     {
       "title_en": "Tech, Media & Telecom Roundup: Market Talk",
       "url": "https://www.wsj.com/finance/investing/tech-media-telecom-roundup-market-talk-80c4723f?mod=rss_Technology",
       "summary_en": "Find insight on Microsoft, Meituan, LG Electronics and more in the latest Market Talks covering technology, media and telecom....",
-      "title_zh": "科技、媒體與電信市場綜覽：微軟、美團與 LG 電子",
-      "summary_zh": "最新市場深度分析涵蓋了微軟、美團、LG 電子等重點企業的最新趨勢與科技發展。"
+      "title_zh": "科技、媒體與電訊週報：市場動態觀察",
+      "summary_zh": "本期 Market Talk 重點分析微軟、美團、樂金電子（LG Electronics）等企業在相關產業的最新動向。"
     },
     {
-      "title_en": "Would You Let AI Day Trade Your Money?",
-      "url": "https://www.wsj.com/tech/ai/would-you-let-ai-day-trade-your-money-8ec7493a?mod=rss_Technology",
-      "summary_en": "Plus, a college kid used cat memes to hunt a cyberweapon and new jobs are being created by AI....",
-      "title_zh": "你會讓 AI 幫你進行當沖交易嗎？",
-      "summary_zh": "本篇探討了 AI 在金融交易中的應用，以及大學生如何利用貓咪梗圖追蹤網絡武器，並介紹了 AI 創造的新職缺。"
+      "title_en": "OpenAI’s Top Executive Fidji Simo to Take Medical Leave From Company",
+      "url": "https://www.wsj.com/tech/openais-top-executive-fidji-simo-to-take-medical-leave-from-company-d6fab97c?mod=rss_Technology",
+      "summary_en": "The maker of ChatGPT announced several other organizational changes ahead of its expected IPO....",
+      "title_zh": "OpenAI 高層 Fidji Simo 將因病留職停薪",
+      "summary_zh": "ChatGPT 開發商 OpenAI 在預期的 IPO 之前，宣佈了包括 Fidji Simo 休假在內的多項組織結構調整。"
     },
     {
-      "title_en": "ServiceNow CEO Builds New Business Model Around AI",
-      "url": "https://www.wsj.com/tech/ai/servicenow-ceo-builds-new-business-model-around-ai-3c103d86?mod=rss_Technology",
-      "summary_en": "Bill McDermott envisions a ‘control tower’ for companies as AI moves beyond intelligence to execution....",
-      "title_zh": "ServiceNow 執行長圍繞 AI 打造新商業模式",
-      "summary_zh": "Bill McDermott 預見企業將擁有一個基於 AI 的「控制塔」，讓 AI 從單純的資訊處理進化到任務執行。"
+      "title_en": "AI Trainer Mercor Offers to Pay People for Prior Work—Work Employers Might Own",
+      "url": "https://www.wsj.com/tech/ai/ai-training-data-mercor-offers-ed37d2a1?mod=rss_Technology",
+      "summary_en": "AI models from the tech giants constantly need new training data. This $10 billion startup is on the hunt for fresh resources....",
+      "title_zh": "AI 訓練商 Mercor 以酬勞徵求過往工作成果，恐引發雇主著作權爭議",
+      "summary_zh": "這家估值 100 億美元的新創公司正積極收購訓練數據，但其提供的方案可能涉及員工將原本屬於雇主的資產出售給 AI 模型。"
     }
   ],
   "deep_analysis": {
@@ -247,14 +247,14 @@
       ]
     },
     "Lenny's Newsletter": {
-      "title": "Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo’s U.S. exit, and more (社群智慧：評估新創股權、種子前融資導覽、MCP 與 CLI 之爭及 Monzo 撤出美國市場之深度解析)",
+      "title": "Anthropic’s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare (Anthropic 從 10 億到 190 億美元的成長歷程：Claude 如何成為史上成長最快的 AI 產品)",
       "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup",
-      "analysis_zh": "本文源自全球頂尖產品與增長專家 Lenny Rachitsky 所經營的付費訂閱專欄《Lenny’s Newsletter》，由社群貢獻者 Kiyani 彙整編撰。Lenny's Newsletter 是目前矽谷乃至全球科技圈最具影響力的知識社群之一，其核心價值在於匯集了大量第一線產品經理、創業者與技術領袖的實戰經驗。本期「社群智慧」（Community Wisdom 180）聚焦於 2026 年當前環境下，創業者與高階人才最關心的四大核心議題：新創股權的價值重估、種子前（Pre-seed）融資的戰略導航、AI 代理時代下 MCP 與 CLI 的介面路徑之爭，以及英國獨角獸 Monzo 撤出美國市場的戰略啟示。\n\n### 戰略背景與脈絡：AI 驅動下的效率革命與市場降溫\n在 2026 年的技術週期中，我們正處於 AI 應用從「幻覺期」進入「落地生產力期」的轉折點。新創企業的生存法則已發生根本性改變。過去那種依靠高槓桿、大規模融資來換取增長的模式（Blitzscaling）已逐漸被「AI 槓桿率」所取代。在這樣的背景下，人才對於新創股權的評估不再僅看帳面估值，而是更關注企業的現金流韌性與 AI 驅動的營運效率。同時，隨着 Anthropic 推出的 MCP（Model Context Protocol，模型上下文協議）逐漸成熟，開發者社群開始激烈辯論：未來的開發範式究竟是保留傳統的 CLI（命令列介面），還是全面轉向專為 AI Agent 設計的協議化接口？這不僅是技術工具的選擇，更是對未來人機協作權力結構的重新分配。\n\n### 作者的核心推演與論點：從資本擴張轉向協議競爭\n社群精華討論中指出，新創股權（Equity）的評估模型正經歷「去泡沫化」。在 2026 年，一個優秀的候選人會更深度地挖掘公司的資本上限（Cap Table）與清算優先權，而非單純被期權數量所吸引。這反映了市場對長期價值回歸的集體共識。而在融資層面，種子前（Pre-seed）階段的創業者面臨的是一個更加「挑剔」的 VC 市場，投資人現在要求的不再只是 PMF（產品市場契合度）的預期，而是要求創業者展示如何利用極簡的人力規模（Lean Team）配合 AI 基礎設施實現高度自動化。 \n\n在技術架構的辯論上，MCP vs. CLI 的對決具備深刻的戰略意義。社群觀點認為，CLI 是設計給「具備邏輯特權的人類」使用的，它強調的是原子化的精準控制；而 MCP 則是為了讓 AI Agent 能夠無縫調用工具與上下文而生。如果說 CLI 是 DOS 時代的遺產，那麼 MCP 則可能是 AI 原生系統的「新網際網路協議」。這預示著開發者生態將從「工具鏈競爭」轉向「協議集成能力競爭」。最後，Monzo 再次退出美國市場的案例，被解讀為「金融在地化」對抗「全球平臺化」的再次勝利。即便是在數位化程度極高的 2026 年，監管屏障、信用文化差異以及獲客成本（CAC）的在地性，依然是跨國金融科技巨頭難以逾越的鴻溝。\n\n### 對整體市場、技術發展與地緣政治的長期影響\n從長遠來看，這場關於「社群智慧」的討論揭示了三個關鍵趨勢：第一，人才與資本的流動將更趨向於「協議友善型」的新創企業，能夠率先建立或適應 MCP 等 AI 原生協議的公司將獲得更強的人才吸引力。第二，新創企業的全球化策略將變得更為審慎，Monzo 的退縮預示着未來五年，金融科技將進入「區域堡壘化」時代，整合與深度在地化將優於盲目的地域擴張。最後，AI 對於勞動力結構的改變將徹底重塑「股權激勵」的意義——當一個 10 人的團隊能創造過去 100 人的產值時，股權的集中度與價值分配邏輯將面臨前所未有的重構。這不單是技術的更迭，更是資本主義分配邏輯在 AI 時代的一次大規模演化。",
+      "url": "https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run",
+      "analysis_zh": "本文源自知名產品與成長專家 Lenny Rachitsky 的深度訪談專欄，訪談對象為 Anthropic 的成長負責人 Amol Avasare。Amol 是一位經歷傳奇的資深產品人，曾任職於 Mercury 與 MasterClass，甚至曾在遭遇嚴重腦部損傷後重返職場，並透過一封精準的冷郵件打動 Anthropic CPO Mike Krieger。本文核心在於揭示 Anthropic 如何在短短 14 個月內，將年度經常性收入（ARR）從 10 億美元推升至 190 億美元的驚人擴張策略。\n\n### 戰略背景與脈絡\n在生成式 AI 狂潮中，Claude 曾被視為 ChatGPT 的追趕者，但其成長速度卻改寫了軟體產業的紀錄。這種成長並非單靠市場紅利，而是源於對「AI 本質」的深刻理解。當大多數 SaaS 公司的成長團隊還在糾結於 A/B 測試的顏色修改時，Anthropic 面對的是一個範式轉移的市場。在這個階段，市場的關鍵矛盾不在於用戶不知道產品，而在於用戶不知道如何將強大的模型應用於具體的生產力場景。因此，Amol 的團隊將戰略核心從傳統的「流量獲取」轉向了「價值啟動（Activation）」。\n\n### 作者的核心推演與論點\nAmol 提出了幾個打破常規的成長邏輯。首先是「CASH」系統（Claude for Autonomous Shell/Growth）的建立。這是一個內部 AI 代理系統，能自動執行成長實驗。這代表了成長工程的未來：不再是由人手動編碼實驗，而是由 AI 根據目標生成程式碼、部署測試並分析結果。其次，他提出了一個震撼性的觀點：PM 與工程師的比例需要反轉。過去，工程師是實現產品的瓶頸，因此比例通常是 1 個 PM 配 5-8 個工程師；但在 AI（如 Claude Code）讓工程師效率提升十倍的今天，開發速度已不再是問題，真正的瓶頸在於「定義正確的產品方向」，這意味著未來組織將需要更多的 PM 來應對爆發式的開發能力。\n\n在資源分配上，Anthropic 採取了 70/30 的反向配置。一般的成長團隊會將 70% 的資源放在保險的小型優化，30% 放在大膽嘗試；但 Anthropic 認為在 AI 領域，微小的優化會迅速被模型能力的代際更新所掩蓋，因此他們將 70% 的精力投入到足以改變產品形態的「大賭注」（Big Bets）上，例如深度專注於 AI 編程工具，這不僅是一個功能，更是一個能加速模型研究的反饋飛輪。\n\n### 對整體市場與技術發展的長期影響\nAnthropic 的成功模式預示了「AI 原生組織」的結構轉向。當企業內部的開發與成長實驗都能由 AI 自動化時，核心競爭力將回歸到「人類的判斷力」與「對用戶問題的洞察深度」。此外，該公司對「有意的註冊阻力」的堅持也值得思考，他們不追求低門檻的註冊量，而是透過引導用戶進行複雜任務來確保留存，這挑戰了傳統互聯網「越簡單越好」的信條。從地緣政治與市場格局看，Anthropic 證明了即便在資本與算力密集型競爭中，敏捷且具備「自我進化」能力的成長架構（如 CASH 系統）是初創巨頭對抗平台型對手（如微軟或 Google）的關鍵利器。未來，能夠將 AI 能力內化為組織成長引擎的公司，將在 ARR 的增長曲線上展現出前所未有的「垂直化」特徵。",
       "insights": [
-        "AI 代理的崛起正使 MCP 協議成為比 CLI 更重要的開發者入口，技術生態正從「人機交互」轉向「機機協議」。",
-        "新創股權價值的判斷基準已從「估值成長性」轉向「AI 槓桿效率」，低人力、高自動化的企業期權更具長期韌性。",
-        "Fintech 巨頭 Monzo 退出美國再次證明：在 AI 時代，產品優勢仍無法抵銷區域監管成本與信用文化的在地屏障。"
+        "AI 賦能導致組織架構反轉：當 AI 工具消除開發瓶頸時，產品經理與工程師的比例將向 PM 傾斜，因為「決定做什麼」比「如何做出來」更具戰略價值。",
+        "成長實驗的自動化轉向：Anthropic 開發的 CASH 系統證明了 AI 代理已能自主執行成長實驗，這意味著未來的成長團隊將轉型為 AI 系統的調度者與目標設定者。",
+        "反共識的 70/30 大賭注原則：在技術快速迭代的 AI 領域，過度的微小優化（Incrementalism）無意義，唯有將大部分資源投入到具備破壞性的核心功能上才能維持指數級增長。"
       ]
     }
   }
