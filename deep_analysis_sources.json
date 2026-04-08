@@ -34,6 +34,11 @@
       "name": "Lenny's Newsletter",
       "rss": "https://www.lennysnewsletter.com/feed",
       "prompt_type": "analysis"
+    },
+    {
+      "name": "馬斯克帝國觀察",
+      "rss": "https://muskempire0628.substack.com/feed",
+      "prompt_type": "analysis"
     }
   ]
 }
