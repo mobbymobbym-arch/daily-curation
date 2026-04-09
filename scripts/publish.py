@@ -1,6 +1,53 @@
 import subprocess
 import datetime
 import sys
+import re
+from pathlib import Path
+
+CONFLICT_MARKER_RE = re.compile(r"^(<{7}|={7}|>{7})(?: .*)?$")
+
+def find_conflict_markers():
+    """Scan tracked and untracked files for unresolved Git conflict markers."""
+    result = subprocess.run(
+        ["git", "ls-files", "-co", "--exclude-standard"],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        return [("git-ls-files", 0, result.stderr.strip() or result.stdout.strip())]
+
+    conflicts = []
+    for rel_path in result.stdout.splitlines():
+        if not rel_path:
+            continue
+        path = Path(rel_path)
+        if not path.is_file():
+            continue
+        try:
+            with path.open("r", encoding="utf-8", errors="ignore") as f:
+                for lineno, line in enumerate(f, 1):
+                    if CONFLICT_MARKER_RE.match(line.rstrip("\n")):
+                        conflicts.append((rel_path, lineno, line.strip()))
+                        break
+        except OSError as e:
+            conflicts.append((rel_path, 0, str(e)))
+    return conflicts
+
+def abort_if_conflicted():
+    conflicts = find_conflict_markers()
+    if not conflicts:
+        return False
+
+    print("❌ 發現未解決的 Git 衝突標記，已中止發布：")
+    for rel_path, lineno, marker in conflicts[:10]:
+        if lineno:
+            print(f"   - {rel_path}:{lineno} -> {marker}")
+        else:
+            print(f"   - {rel_path}: {marker}")
+    if len(conflicts) > 10:
+        print(f"   ... 另有 {len(conflicts) - 10} 個檔案也含有衝突標記")
+    print("💡 請先解決衝突後再重新發布。")
+    return True
 
 def run_command(command, timeout=None):
     """這是一個小工具，幫我們在終端機裡安全地執行指令，並捕捉任何錯誤"""
@@ -25,18 +72,27 @@ def run_command(command, timeout=None):
 def publish_to_github():
     """自動發布到 GitHub Pages 的核心流程"""
     print("🚀 開始發布更新到網站 (GitHub Pages)...")
+
+    # 0. 先檢查工作目錄內是否殘留 Git 衝突標記
+    if abort_if_conflicted():
+        return
     
-    # 0. 先同步遠端進度 (防呆：避免分支衝突)
+    # 1. 先同步遠端進度 (防呆：避免分支衝突)
     print("🔄 正在同步遠端最新進度...")
     if not run_command("git pull --rebase --autostash origin main"):
-        print("⚠️ 警告：同步遠端時發生錯誤，可能會影響後續推播。我們仍將嘗試繼續執行。")
+        print("❌ 同步遠端失敗，已中止發布，避免將錯誤內容推上線。")
+        return
+
+    # 2. 再檢查一次，防止 pull / autostash 後留下衝突標記
+    if abort_if_conflicted():
+        return
         
-    # 1. 將所有修改過的檔案加入暫存區 (打包)
+    # 3. 將所有修改過的檔案加入暫存區 (打包)
     print("📦 正在打包變更檔案...")
     if not run_command("git add -A"):
         return
         
-    # 2. 建立 Commit 訊息 (加上當下時間，讓歷史紀錄清楚明白)
+    # 4. 建立 Commit 訊息 (加上當下時間，讓歷史紀錄清楚明白)
     # 使用台灣時間 (UTC+8) 邏輯或是本地系統時間
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     commit_msg = f"Auto-update: OpenClaw 自動更新 Podcast 摘要 ({current_time})"
@@ -45,7 +101,7 @@ def publish_to_github():
     if not run_command(f'git commit -m "{commit_msg}"'):
         return
         
-    # 3. 推送到 GitHub (正式上線)
+    # 5. 推送到 GitHub (正式上線)
     import time
     print("⏳ 正在推送到 GitHub，這可能需要幾秒鐘...")
     push_success = False
