@@ -1,0 +1,2 @@
+# Runtime logs are machine-local artifacts and should not block pulls/publishes.
+logs/
