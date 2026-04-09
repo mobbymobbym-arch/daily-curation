@@ -55,6 +55,53 @@ run_with_timeout() {
     fi
 }
 
+# Helper: 檢查工作目錄內是否殘留 Git 衝突標記
+find_conflict_markers() {
+    local rel_path
+    local found=1
+
+    while IFS= read -r rel_path; do
+        [ -z "$rel_path" ] && continue
+        if grep -n -m1 -E '^(<<<<<<<|=======|>>>>>>>)( .*)?$' "$rel_path" >/dev/null 2>&1; then
+            found=0
+            break
+        fi
+    done < <(git ls-files -co --exclude-standard)
+
+    return $found
+}
+
+# Helper: 啟動排程前先同步最新 repo，避免用過時程式碼生產內容
+sync_repo_before_run() {
+    echo ""
+    echo "🔄 啟動前同步最新 repo..."
+
+    if find_conflict_markers; then
+        echo "   ❌ 偵測到未解決的 Git 衝突標記，停止今日排程"
+        return 1
+    fi
+
+    if git pull --rebase --autostash origin main; then
+        echo "   ✅ 已同步到最新 repo"
+    else
+        echo "   ❌ git pull --rebase --autostash 失敗，停止今日排程"
+        return 1
+    fi
+
+    if find_conflict_markers; then
+        echo "   ❌ 同步後仍偵測到 Git 衝突標記，停止今日排程"
+        return 1
+    fi
+
+    return 0
+}
+
+# --- 啟動前：同步 repo ---
+if ! sync_repo_before_run; then
+    python3 scripts/notify_telegram.py --status "❌ 啟動前同步 repo 失敗或偵測到 Git 衝突，已中斷今日流程"
+    exit 1
+fi
+
 # --- 步驟 1: 抓取新聞 ---
 echo ""
 echo "📰 步驟 1/5: 抓取新聞 (Techmeme + WSJ)"
