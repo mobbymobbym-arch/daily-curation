@@ -1,7 +1,8 @@
 {
-  "fetch_date": "2026-04-08",
+  "fetch_date": "2026-04-09",
   "techmeme": [
     {
+<<<<<<< Updated upstream
       "title_en": "A profile of South Korea's Galaxy, which is trying to disrupt K-pop's traditional idol system by blending AI characters and life-size robots, as it plans an IPO (Sohee Kim/Bloomberg)",
       "url": "https://www.bloomberg.com/news/articles/2026-04-08/ai-k-pop-startup-galaxy-aims-for-ipo-in-seoul-new-york",
       "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-08/ai-k-pop-startup-galaxy-aims-for-ipo-in-seoul-new-york\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260...",
@@ -105,27 +106,167 @@
       "summary_en": "<A HREF=\"https://www.axios.com/pro/fintech-deals/2026/04/07/modus-85m-ai-audit-rollup\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408/i1.jpg\"></A>\n<P><A HREF=\"...",
       "title_zh": "開發審計工作流程 AI Agent 的 Modus 完成 8,500 萬美元融資，由 Lightspeed 領投",
       "summary_zh": "Modus 致力於將 AI 導入會計與審計領域，其獲得的巨額資金將用於加速開發專為專業服務設計的 AI 代理技術。"
+=======
+      "title_en": "Google introduces \"notebooks\" in the Gemini app for deeper NotebookLM integration and a dedicated space to organize chats and files (Abner Li/9to5Google)",
+      "url": "https://9to5google.com/2026/04/08/gemini-app-notebooks/",
+      "summary_en": "<A HREF=\"https://9to5google.com/2026/04/08/gemini-app-notebooks/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408/i40.jpg\"></A>\n<P><A HREF=\"http://www.techmeme....",
+      "title_zh": "Google 在 Gemini App 中推出「Notebooks」功能，深化 NotebookLM 整合並提供專屬空間整理對話與檔案",
+      "summary_zh": "Google 正在將 NotebookLM 的強大功能整合進 Gemini App，推出全新的「Notebooks」功能，讓使用者能更系統化地管理、分析與組織與 AI 的對話及上傳的各類文件。"
+    },
+    {
+      "title_en": "Yuga Labs settles its 2022 lawsuit against artist Ryder Ripps and Jeremy Cahen over their alleged copycatting of its BAYC NFTs; the terms were not disclosed (CoinDesk)",
+      "url": "https://www.coindesk.com/business/2026/04/08/yuga-labs-settles-bored-ape-nft-lawsuit-ending-fight-over-alleged-copycat-tokens",
+      "summary_en": "<A HREF=\"https://www.coindesk.com/business/2026/04/08/yuga-labs-settles-bored-ape-nft-lawsuit-ending-fight-over-alleged-copycat-tokens\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://...",
+      "title_zh": "Yuga Labs 與藝術家 Ryder Ripps 及 Jeremy Cahen 就 BAYC NFT 抄襲訴訟達成和解",
+      "summary_zh": "Yuga Labs 結束了自 2022 年以來針對 Ryder Ripps 與 Jeremy Cahen 的法律鬥爭。雙方已就所謂的「仿冒」無聊猿（BAYC）NFT 爭議達成和解，但具體條款並未對外公開。"
+    },
+    {
+      "title_en": "A DC appeals court denies Anthropic's bid to pause the DOD's supply chain risk designation, after a California judge granted a preliminary injunction in March (Jack Queen/Reuters)",
+      "url": "https://www.reuters.com/world/us-court-declines-block-pentagons-anthropic-blacklisting-now-2026-04-08/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/world/us-court-declines-block-pentagons-anthropic-blacklisting-now-2026-04-08/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408...",
+      "title_zh": "華盛頓特區上訴法院拒絕 Anthropic 暫停國防部供應鏈風險認定的請求",
+      "summary_zh": "儘管加州法官曾在 3 月授予初步禁制令，但華盛頓特區上訴法院近日駁回了 AI 新創公司 Anthropic 的請求，該公司希望能暫停美國國防部對其列入供應鏈風險名單的處置。"
+    },
+    {
+      "title_en": "The OpenAI Foundation says it is working to finalize over $100M in grants this month, across six institutions, to support and accelerate Alzheimer's research (Jacob Trefethen/OpenAI Foundation)",
+      "url": "https://openaifoundation.org/news/ai-for-alzheimers",
+      "summary_en": "<A HREF=\"https://openaifoundation.org/news/ai-for-alzheimers\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408/i37.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/...",
+      "title_zh": "OpenAI 基金會將於本月撥款逾 1 億美元，資助六家機構進行阿茲海默症研究",
+      "summary_zh": "OpenAI 基金會宣佈正致力於在本月完成超過 1 億美元的資助計劃，這筆資金將分配給六家研究機構，旨在利用 AI 技術支持並加速阿茲海默症的相關研究。"
+    },
+    {
+      "title_en": "CFO Sarah Friar says OpenAI will \"for sure\" reserve shares for retail investors in its IPO, after \"strong demand\" from individuals in its latest funding round (CNBC)",
+      "url": "https://www.cnbc.com/2026/04/08/openai-ipo-sarah-friar-retail-investors.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/04/08/openai-ipo-sarah-friar-retail-investors.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408/i36.jpg\"></A>\n<P><A HREF=...",
+      "title_zh": "OpenAI 財務長 Sarah Friar 確認 IPO 將為散戶保留股份，反映市場強勁需求",
+      "summary_zh": "OpenAI 財務長 Sarah Friar 表示，在最新一輪融資中感受到來自個人投資者的強烈需求，因此 OpenAI 在未來的 IPO（首次公開發行）中「肯定」會為散戶投資者保留一定比例的股份。"
+    },
+    {
+      "title_en": "A hacker claims to have stolen 10PB+ of data, including classified defense docs and missile schematics, from China's National Supercomputing Center in Tianjin (Isaac Yee/CNN)",
+      "url": "https://www.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl",
+      "summary_en": "<A HREF=\"https://www.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408/i35.jpg\"></A>\n<P><A HREF=\"ht...",
+      "title_zh": "駭客聲稱從中國天津國家超算中心竊取逾 10PB 數據，包含機密國防文件與飛彈圖稿",
+      "summary_zh": "一名駭客宣稱已從中國天津國家超級計算中心竊取了超過 10PB 的海量數據。據悉，失竊資料包含敏感的國防文件以及飛彈設計圖稿等高度機密資訊。"
+    },
+    {
+      "title_en": "Greek PM Kyriakos Mitsotakis says Greece will ban children under 15 from accessing social media starting January 1, 2027, and calls for coordinated EU action (Antonis Pothitos/Reuters)",
+      "url": "https://www.reuters.com/business/media-telecom/greece-ban-social-media-under-15s-2027-pm-says-2026-04-08/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/business/media-telecom/greece-ban-social-media-under-15s-2027-pm-says-2026-04-08/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260...",
+      "title_zh": "希臘總理宣佈 2027 年起禁止 15 歲以下兒童使用社群媒體，呼籲歐盟採取同步行動",
+      "summary_zh": "希臘總理 Kyriakos Mitsotakis 表示，希臘將從 2027 年 1 月 1 日起禁止 15 歲以下兒童訪問社群媒體平台，並呼籲歐盟各國應協調一致，共同應對社群媒體對青少年的影響。"
+    },
+    {
+      "title_en": "Anthropic announces Claude Managed Agents, offering developers an agent harness and other tools to build and deploy AI agents at scale, available in public beta (Maxwell Zeff/Wired)",
+      "url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents/",
+      "summary_en": "<A HREF=\"https://www.wired.com/story/anthropic-launches-claude-managed-agents/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408/i33.jpg\"></A>\n<P><A HREF=\"http:/...",
+      "title_zh": "Anthropic 推出 Claude Managed Agents 公測版，協助開發者大規模部署 AI Agent",
+      "summary_zh": "Anthropic 發表了「Claude Managed Agents」，為開發者提供了一套 Agent 管理框架與工具，旨在簡化大規模構建與部署 AI Agent 的流程。該功能目前已開放公開測試。"
+    },
+    {
+      "title_en": "Internal memo: Julia Liuson, head of Microsoft's developer division, will resign after 34 years and move to an \"advisory role\" at the end of June (Tom Warren/The Verge)",
+      "url": "https://www.theverge.com/tech/908793/microsoft-devdiv-julia-liuson-resignation",
+      "summary_en": "<A HREF=\"https://www.theverge.com/tech/908793/microsoft-devdiv-julia-liuson-resignation\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408/i32.jpg\"></A>\n<P><A HRE...",
+      "title_zh": "微軟開發者部門負責人潘正磊（Julia Liuson）將於 6 月底離職，轉任顧問職",
+      "summary_zh": "根據內部備忘錄，在微軟服務 34 年的開發者部門負責人潘正磊（Julia Liuson）即將卸任。她將在 6 月底離職，並隨後轉任公司的「顧問角色」。"
+    },
+    {
+      "title_en": "Amazon says Kindle and Kindle Fire devices released in 2012 and earlier won't be able to access the Kindle Store from May 20; downloaded books can still be read (Andrew Liszewski/The Verge)",
+      "url": "https://www.theverge.com/tech/908302/amazon-ending-support-kindle-fire-tablet-e-reader-pre-2012-older?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkFpRW43VmlvN2kiLCJwIjoiL3RlY2gvOTA4MzAyL2FtYXpvbi1lbmRpbmctc3VwcG9ydC1raW5kbGUtZmlyZS10YWJsZXQtZS1yZWFkZXItcHJlLTIwMTItb2xkZXIiLCJleHAiOjE3NzYwMzU5MDMsImlhdCI6MTc3NTYwMzkwM30.yLKf0Q4YIzF0WKcWj3P-VGourPdLWpcS89jQVFJEQzc&utm_medium=gift-link",
+      "summary_en": "<A HREF=\"https://www.theverge.com/tech/908302/amazon-ending-support-kindle-fire-tablet-e-reader-pre-2012-older?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkFpRW43VmlvN2kiLCJwIjoiL3RlY2gvOTA4MzAyL2FtYXpvb...",
+      "title_zh": "亞馬遜宣佈 2012 年以前推出的 Kindle 與 Kindle Fire 裝置將於 5 月 20 日起停用商店功能",
+      "summary_zh": "Amazon 表示，出廠年份在 2012 年及更早的 Kindle 電子閱讀器與 Kindle Fire 平板電腦將無法從 5 月 20 日起訪問 Kindle Store。不過，使用者已下載的書籍仍可正常閱讀。"
+    },
+    {
+      "title_en": "OpenAI releases the Child Safety Blueprint tackling AI-enabled child sexual exploitation, focusing on updating legislation and improving detection and reporting (Lauren Forristal/TechCrunch)",
+      "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www...",
+      "title_zh": "OpenAI 發佈《兒童安全藍圖》，應對 AI 衍生的兒童性剝削問題並強化檢測機制",
+      "summary_zh": "OpenAI 推出了《兒童安全藍圖》（Child Safety Blueprint），旨在解決利用 AI 進行兒童性剝削的風險。該計劃重點在於推動立法更新，並提升系統對此類違規內容的檢測與舉報能力。"
+    },
+    {
+      "title_en": "Meta is opening a private API preview for Muse Spark to select partners, and plans to offer paid API access to a wider audience later; META closes up 6.5% (Jonathan Vanian/CNBC)",
+      "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tech...",
+      "title_zh": "Meta 開放 Muse Spark 私人 API 預覽，Meta 股價收盤大漲 6.5%",
+      "summary_zh": "Meta 宣佈向特定合作夥伴開放 Muse Spark 的私人 API 預覽，並計劃未來向更廣泛的受眾提供付費 API。受此消息及與 Alexandr Wang 合作成果的激勵，Meta 股價應聲上漲 6.5%。"
+    },
+    {
+      "title_en": "Meta says Muse Spark powers Meta AI's \"shopping mode\" feature and that it plans to release a version of Muse Spark under an open-source license (Ina Fried/Axios)",
+      "url": "https://www.axios.com/2026/04/08/meta-muse-alexandr-wang",
+      "summary_en": "<A HREF=\"https://www.axios.com/2026/04/08/meta-muse-alexandr-wang\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260408/i28.jpg\"></A>\n<P><A HREF=\"http://www.techmeme...",
+      "title_zh": "Meta 表示 Muse Spark 驅動了 Meta AI 的「購物模式」，未來將釋出開源版本",
+      "summary_zh": "Meta 透露，全新的 Muse Spark 模型正是 Meta AI「購物模式」背後的核心動力。公司還計劃在未來發佈 Muse Spark 的開源授權版本，供開發社群使用。"
+    },
+    {
+      "title_en": "Meta releases Muse Spark, the first model from Meta Superintelligence Labs under Alexandr Wang, to \"power a smarter and faster\" Meta AI across Meta's products (Financial Times)",
+      "url": "https://www.ft.com/content/0efb912a-8bac-4655-ad6c-7c27d4ebbf50?accessToken=zwAAAZ1uD8J2kc8O-5Eqi6xGVdOtbHwn1Ou_UA.MEUCIErC5kwvLbVYYm8_iTWGXzl6wqdZLKOe2JMlijefPr7hAiEAyFJwgNfLKfuAuPJwZM00YcggnrdbMRfGotKU-rF4Zfs&sharetype=gift&token=2eedc4fd-879c-4999-b4bb-ddecf0436b7a&syn-25a6b1a6=1",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/0efb912a-8bac-4655-ad6c-7c27d4ebbf50?accessToken=zwAAAZ1uD8J2kc8O-5Eqi6xGVdOtbHwn1Ou_UA.MEUCIErC5kwvLbVYYm8_iTWGXzl6wqdZLKOe2JMlijefPr7hAiEAyFJwgNfLKfuAuPJwZM00Ycgg...",
+      "title_zh": "Meta 發表由 Alexandr Wang 領軍開發的 Muse Spark 模型，提升 Meta AI 效能",
+      "summary_zh": "Meta Superintelligence Labs 在 Alexandr Wang 的帶領下推出了首個模型「Muse Spark」。該模型旨在為 Meta 旗下各類產品提供更聰明、更快速的 Meta AI 體驗。"
+    },
+    {
+      "title_en": "Source: Meta shutters an internal, employee-built leaderboard, dubbed Claudeonomics, tracking staff token usage, due to the data \"being shared externally\" (Jyoti Mann/The Information)",
+      "url": "http://www.techmeme.com/260408/p26#a260408p26",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260408/p26#a260408p26\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Jyo...",
+      "title_zh": "傳 Meta 關閉內部追蹤員工 Token 使用量的排行榜「Claudeonomics」，因數據外洩",
+      "summary_zh": "消息指出，Meta 關閉了一個名為「Claudeonomics」的內部排行榜。該系統原由員工建立，用於追蹤同仁使用 Claude 模型時的 Token 消耗情況，但因數據被分享至公司外部而遭關閉。"
+>>>>>>> Stashed changes
     }
   ],
   "wsj": [
     {
+<<<<<<< Updated upstream
       "title_en": "AI Giants Go on Charm Offensive to Avert Public Backlash",
       "url": "https://www.wsj.com/tech/ai/ai-companies-public-relations-ae312d79?mod=rss_Technology",
       "summary_en": "Polls show artificial intelligence is broadly unpopular, prompting steps  from companies to ease concerns....",
       "title_zh": "AI 巨頭展開魅力攻勢，試圖化解公眾對技術的恐懼與反彈",
       "summary_zh": "民意調查顯示 AI 在公眾間的受歡迎程度正處於低點，這促使各大科技公司採取行動，試圖緩解社會大眾對技術失控的擔憂。"
+=======
+      "title_en": "Court Denies Anthropic Request to End Defense Department Punishment",
+      "url": "https://www.wsj.com/politics/national-security/court-denies-anthropic-request-to-end-defense-department-punishment-43d3432e?mod=rss_Technology",
+      "summary_en": "The company is involved in two separate legal actions related to being blacklisted by the Pentagon....",
+      "title_zh": "法院駁回 Anthropic 要求終止國防部懲處的請求",
+      "summary_zh": "Anthropic 目前捲入兩起與被美國國防部列入黑名單相關的法律行動。法院最新裁決拒絕了該公司要求撤銷相關限制的請求。"
+    },
+    {
+      "title_en": "Meta Announces New AI Model in Major Test of Company’s Ambitions",
+      "url": "https://www.wsj.com/tech/ai/meta-ai-model-muse-spark-09ceeac5?mod=rss_Technology",
+      "summary_en": "The disappointment of last model’s release more than a year ago led to an expensive overhaul of the company’s AI operations....",
+      "title_zh": "Meta 發佈全新 AI 模型，面臨公司野心的重大考驗",
+      "summary_zh": "一年前舊款模型的發佈成果不如預期，促使 Meta 對其 AI 業務進行了昂貴的整頓。如今推出的 Muse Spark 被視為公司證明其 AI 實力的關鍵測試。"
+    },
+    {
+      "title_en": "Locals Are Using AI to Fight Data Centers Being Built in Their Backyards",
+      "url": "https://www.wsj.com/pro/sustainable-business/locals-are-using-ai-to-fight-data-centers-being-built-in-their-backyards-d0642630?mod=rss_Technology",
+      "summary_en": "Community activists in rural regions are leveraging artificial intelligence to assist in their battle against technology hyperscalers....",
+      "title_zh": "當地居民利用 AI 對抗在其社區興建的數據中心",
+      "summary_zh": "鄉村地區的社群活動人士正巧妙運用人工智慧工具，協助他們與大型科技巨頭（Hyperscalers）抗爭，反對在自家後院興建大規模數據中心。"
+    },
+    {
+      "title_en": "AI Giants Go on Charm Offensive to Avert Public Backlash",
+      "url": "https://www.wsj.com/tech/ai/ai-companies-public-relations-ae312d79?mod=rss_Technology",
+      "summary_en": "Polls show artificial intelligence is broadly unpopular, prompting steps  from companies to ease concerns....",
+      "title_zh": "AI 巨頭發動魅力攻勢，試圖化解公眾反彈",
+      "summary_zh": "民意調查顯示人工智慧在公眾間普遍不受歡迎，這促使各大 AI 公司採取一系列行動，試圖緩解社會大眾對技術發展的擔憂。"
+>>>>>>> Stashed changes
     },
     {
       "title_en": "Elon Musk Asks for OpenAI’s Nonprofit to Get Any Damages From His Lawsuit",
       "url": "https://www.wsj.com/tech/ai/elon-musk-asks-for-openais-nonprofit-to-get-any-damages-from-his-lawsuit-76089f6f?mod=rss_Technology",
       "summary_en": "Tesla billionaire also seeks Sam Altman’s removal from the OpenAI nonprofit’s board in an amendment to the suit over for-profit conversion....",
+<<<<<<< Updated upstream
       "title_zh": "馬斯克要求 OpenAI 的訴訟賠償金應歸非營利組織所有，並尋求撤換 Sam Altman",
       "summary_zh": "馬斯克在修改後的起訴書中提出新要求，主張若勝訴，任何損害賠償應歸於 OpenAI 的非營利體系，並要求將 Sam Altman 逐出董事會。"
+=======
+      "title_zh": "馬斯克要求其訴訟所得賠償應歸 OpenAI 非營利實體所有",
+      "summary_zh": "在針對 OpenAI 轉向營利模式的訴訟修正案中，特斯拉執行長馬斯克提出，任何勝訴賠償金應撥給 OpenAI 的非營利部門，並要求將 Sam Altman 從非營利董事會中除名。"
+>>>>>>> Stashed changes
     },
     {
       "title_en": "Anthropic Set to Preview Powerful ‘Mythos’ Model to Ward Off AI Cyberthreats",
       "url": "https://www.wsj.com/tech/ai/anthropic-set-to-preview-powerful-mythos-model-to-ward-off-ai-cyberthreats-75683cf5?mod=rss_Technology",
       "summary_en": "Anthropic is taking steps to arm some of the world’s biggest technology companies with tools to find and patch bugs in their hardware and software....",
+<<<<<<< Updated upstream
       "title_zh": "Anthropic 預覽強大的「Mythos」模型，旨在強化防禦 AI 網路威脅的能力",
       "summary_zh": "Anthropic 正準備向大型科技公司提供新工具，幫助其快速發現並修復硬體與軟體中的漏洞，以對抗日益複雜的 AI 驅動型攻擊。"
     },
@@ -135,25 +276,47 @@
       "summary_en": "The Elon Musk-led companies plan to work with the semiconductor manufacturer at the Terafab project planned in Texas....",
       "title_zh": "Intel 與 SpaceX、Tesla 合作營運德州新晶片工廠",
       "summary_zh": "馬斯克旗下的兩家公司計劃與 Intel 在德州的 Terafab 項目展開深度合作，這項策略性結盟將對半導體製造供應鏈產生重要影響。"
+=======
+      "title_zh": "Anthropic 準備預覽強大的「Mythos」模型，旨在防禦 AI 網路威脅",
+      "summary_zh": "Anthropic 採取主動措施，將向全球大型科技公司提供名為「Mythos」的工具，協助他們搜尋並修復硬體與軟體中的安全漏洞，以對抗 AI 時代的網路攻擊。"
+    },
+    {
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-60db43ce?mod=rss_Technology",
+      "summary_en": "Find insight on Duolingo, cybersecurity funding and more in the latest Market Talks covering technology, media and telecom....",
+      "title_zh": "科技、媒體與電信產業動態彙整",
+      "summary_zh": "本期產業談話涵盖了 Duolingo 的最新洞察、網路安全融資狀況，以及科技、媒體與電信領域的其他重要市場動態。"
+>>>>>>> Stashed changes
     },
     {
       "title_en": "The Spiraling Cost of Making AI",
       "url": "https://www.wsj.com/tech/ai/the-spiraling-cost-of-making-ai-0679bcea?mod=rss_Technology",
       "summary_en": "Plus, Anthropic seeks more business users while loading up on Broadcom chips...",
+<<<<<<< Updated upstream
       "title_zh": "AI 開發成本飆升；Anthropic 採購 Broadcom 晶片的同時積極擴張企業用戶",
       "summary_zh": "隨著開發 AI 的經濟壓力增加，Anthropic 透過與 Broadcom 的合作確保硬體供應，並試圖透過獲取更多商業客戶來平衡龐大的營運開支。"
+=======
+      "title_zh": "構建 AI 成本持續飆升",
+      "summary_zh": "隨著 AI 開發成本不斷攀升，Anthropic 正積極尋求更多企業用戶，同時大量採購 Broadcom 的晶片以支撐其運算需求。"
+>>>>>>> Stashed changes
     },
     {
       "title_en": "These Cities and States Are Taking Aim at Data Centers",
       "url": "https://www.wsj.com/tech/ai/these-cities-and-states-are-taking-aim-at-data-centers-3b98adf1?mod=rss_Technology",
       "summary_en": "The efforts reflect concerns over rising demand for electricity and environmental impact....",
+<<<<<<< Updated upstream
       "title_zh": "美國多個城市與州政府開始限制數據中心擴張",
       "summary_zh": "由於數據中心對電力的高需求以及對環境的潛在影響，地方政府紛紛提出限制措施，反映出基礎設施擴建與地方資源分配間的緊張關係。"
+=======
+      "title_zh": "這些城市與州政府正將矛頭對準數據中心",
+      "summary_zh": "越來越多的城市與州政府表達了對數據中心電力需求激增及環境影響的擔憂，並開始針對相關建設採取限制或審查行動。"
+>>>>>>> Stashed changes
     },
     {
       "title_en": "Your Next Stock Report Could Be Written by AI Agents",
       "url": "https://www.wsj.com/finance/investing/startup-bets-ai-can-replace-wall-street-analysts-too-6a562686?mod=rss_Technology",
       "summary_en": "Anthony Pompliano’s ProCap Financial is launching a new business focused on AI-generated research reports for individual investors....",
+<<<<<<< Updated upstream
       "title_zh": "下一份個股研究報告可能由 AI Agent 親自執筆",
       "summary_zh": "Anthony Pompliano 旗下的金融公司正推出一項新服務，專注於為個人投資者提供由 AI 生成的研究報告，試圖推動金融資訊的民主化。"
     },
@@ -177,6 +340,10 @@
       "summary_en": "Broadcom will develop and supply custom AI chips for Google and additional computing capacity to Anthropic in an expansion of the strategic collaboration between the three companies....",
       "title_zh": "Broadcom 擴大策略合作：為 Google 供應 AI 晶片，並為 Anthropic 提供算力支援",
       "summary_zh": "這項三方合作的擴展將讓 Broadcom 成為 AI 硬體供應鏈的核心。它將為 Google 開發定制化晶片，同時解決 Anthropic 迫切的算力需求。"
+=======
+      "title_zh": "你的下一份股市研究報告可能由 AI Agent 撰寫",
+      "summary_zh": "Anthony Pompliano 創立的 ProCap Financial 推出了一項新業務，專注於為個人投資者提供由 AI 生成的股市研究與分析報告。"
+>>>>>>> Stashed changes
     }
   ],
   "deep_analysis": {
@@ -236,17 +403,18 @@
       ]
     },
     "a16z": {
-      "title": "Antarctica, and the Extreme Logistics of Human Exploration | 南極洲與人類探索的極端物流",
-      "source": "a16z news",
-      "url": "https://www.a16z.news/p/antarctica-and-the-extreme-logistics",
-      "analysis_zh": "本文源自全球頂尖創投 Andreessen Horowitz (a16z) 的官方頻道 a16z news，作者透過對極端環境物流的深刻洞察，將南極洲阿蒙森-斯科特站（Amundsen-Scott Station）定位為人類走向太空、開展長達千日火星任務的終極地球模擬場。這篇文章不單是對探險歷史的致敬，更是一份關於人類如何在資源匱乏與物理隔絕中建立長期維生系統的戰略分析報告。\n\n### 戰略背景與脈絡\n人類天生具有向極端環境擴張的驅動力，從沙漠、深海到外太空。然而，短期任務與長期駐紮在物流難度上存在著質變的鴻溝。以 NASA 的阿提米絲 2 號（Artemis II）為例，雖然它承載著人類再次繞月的壯舉，但其設計僅能支撐 10 天。若將視角切換至為期 1000 天的火星任務，現有的補給框架將徹底失效。作者指出，南極阿蒙森-斯科特站是目前地球上最接近太空站環境的長期居住地，甚至在某些物流指標上比國際太空站（ISS）更為艱巨。ISS 距地僅 250 英里，且每兩個月有補給；而南極站距離最近城市 2400 英里，且在長達八個月的冬令期間完全處於物理隔絕狀態。這種極限環境測試了人類在物資採購、能源冗餘與心理適應上的所有邊界。\n\n### 作者的核心推演與論點\n作者的核心邏輯在於：極端環境的生存本質上是「物流與冗餘」的藝術。他詳細拆解了南極維生的三大核心要素：能源、水與食物。在能源方面，南極站對燃料的依賴近乎苛刻。為了將每加侖成本 4 美元的航空燃料運至南極點，最終物流成本會飆升至 40 美元，整個冬季的燃料費用高達 1800 萬美元。作者強調，儘管再生能源在其他地區盛行，但在極端寒冷且有半年極夜的南極，柴油發電機因其高可靠性與廢熱回收能力，依然是不可替代的生命線。這種對「可靠性大於先進性」的推演，對未來航太設計具有重要啟發。\n\n在維生系統上，作者介紹了創新的「Rodwell」熱水融冰系統。這不僅是工程學的勝利，更揭示了資源轉化的代價：在南極獲取一加侖水所需的電力，足以讓一台筆電運行一整週。這解釋了為何極端環境的居民必須接受嚴格的配給制度（如每週兩次、每次兩分鐘的淋浴）。此外，文章提出了一個極具戰略啟發性的觀點：空間分配。在南極站，六分之一的面積被分配給了「娛樂」，包括籃球場與桑拿。作者認為，在長期隔絕的任務中，維護人類的心理健康（即防止「幽閉恐懼症」或心理崩潰）與提供氧氣同樣屬於戰略級的開支。\n\n### 對整體市場、技術與地緣政治的長期影響\n文章最後進入了更深層次的地緣政治討論。南極條約雖然暫時凍結了領土主張，但中俄兩國近期在南極的「科學研究」動作，明顯帶有強烈的資源戰略意圖。俄羅斯發現的 5110 億桶油氣儲量，以及中國在克里爾蝦捕撈與衛星監測站建設上的擴張，顯示出南極條約體系正遭受嚴峻挑戰。這預示著未來極端環境的開發將不再僅僅是純粹的科學探索，而是技術主權與資源控制權的博弈。\n\n作者擔憂美國目前削減南極預算與計畫除役 ISS 的決策將損害人類的探索精神。他強調，人類不應因為地球已被地圖標記完整就停止探索。從南極深處到深空火星，這些極端物流的挑戰實際上是推動技術進步與基因延續的動力。未來的長期市場機會將存在於那些能夠將極端物流技術——如微型核反應爐、封閉循環農業與高效能熱管理系統——商業化並規模化的企業。南極不只是冰蓋，它是人類通向星際文明的關鍵實驗室。",
+      "title": "Investing in GitButler: The Version Control Evolution in the AI Era | 投資 GitButler：AI 時代下的版本控制進化錄",
+      "source": "a16z (Andreessen Horowitz)",
+      "url": "https://www.a16z.news/p/investing-in-gitbutler",
+      "analysis_zh": "這篇文章源自全球頂尖創投 Andreessen Horowitz (a16z)，由其合夥人撰寫，旨在宣布領投 GitButler 的 A 輪融資。GitButler 的靈魂人物是執行長 Scott Chacon，他不僅是 GitHub 的共同創辦人，更是經典著作《Pro Git》的作者，被譽為全球最理解 Git 易用性的專家之一。本文的核心主旨在於探討一個關鍵命題：當 AI Agent 成為軟體開發的主力時，擁有 20 年歷史的版本控制系統 Git，是否還能承載未來的開發工作流？\n\n### 戰略背景與脈絡\n軟體工程的實踐正處於被 AI 徹底顛覆的臨界點。隨著 Cursor、Claude Code 等 AI 編輯器與 Agent 的普及，代碼生成的成本正在歸零。開發者的角色正在從傳統的「代碼編寫者」快速轉型為「系統架構師」與「Agent 編排者」。然而，當我們觀察現有的基礎建設時，會發現一個巨大的斷層：目前的開發工具鏈，尤其是版本控制系統（VCS），本質上是為了「人類協作」而設計的。Git 誕生於 20 年前，最初是由 Linux 團隊為了應對極其複雜且具備高度「守門員機制」的核心開發而設計。那是一個強調線性、原子性提交（Atomic Commit）以及嚴格分支管理的時代，其設計哲學甚至刻意保留了一定的進入門檻與難度。但在 AI 時代，軟體的產出是爆發式的、持續演進且多點並行的，Git 的原始假設開始崩潰。\n\n### 作者的核心推演與論點\na16z 指出，現代開發者不再是以線性方式工作。在一個典型的情境中，開發者可能會同時運行多個 AI Agent：一個在修復 UI Bug，一個在優化資料庫查詢，另一個則在更新技術文檔。在傳統 Git 機制下，本地副本（Local Copy）代表一個單一、原子的代碼狀態，這種「Index」機制在面對多 Agent 並行編輯時會變得極其脆弱。雖然 Worktrees 等工具提供了一種解決方案，但其繁瑣的操作與對磁碟空間的消耗，顯然不是為了原生 AI 工作流而生。GitButler 的戰略核心在於重新設計版本控制的底層體驗，引入了「虛擬分支」（Virtual Branches）的概念。這讓開發者能在同一個工作目錄中，像操作圖層一樣並行處理多個邏輯分支，而不需要頻繁切換 Context 或複製倉庫。這種靈活性是為了釋放 AI 的生產力，讓 Agent 能夠在不干擾彼此、不破壞開發者本地流動性的情況下進行高頻協作。\n\n### 對整體市場與技術發展的長期影響\n從長遠來看，GitButler 的出現代表了「軟體製造業」基本單位的重塑。當版本控制系統從單純的「代碼歷史紀錄工具」演變為「AI 協同調度引擎」時，整個 DevEx（開發者體驗）市場將迎來洗牌。首先，這將加速軟體開發從「檔案導向」轉向「意圖導向」（Intent-oriented）。未來的版本控制可能不再關注具體的代碼行改動，而是關注「任務」的並行與整合。其次，GitButler 的嘗試揭示了一個事實：AI 時代的工具創新，不能僅僅是在現有工具上加一個 Chatbot 殼子，而是必須從數據模型與工作流底層進行「AI 原生」的改造。最後，隨著 Scott Chacon 這樣具備深厚技術積澱的專家投身此領域，我們預期版本控制將從一種「必要的惡」（難用但必須用）轉變為一種「透明的基礎設施」。這種變革將降低軟體開發的進入門檻，讓地緣政治中的數位競爭力不再僅取決於高級工程師的數量，而取決於一個國家或企業編排 AI Agent 產出高品質軟體的能力。GitButler 正在完成 Scott Chacon 職業生涯的最終使命：將 Git 從原本冷酷的守門員，變成 AI 時代溫暖且高效的管家。",
       "insights": [
-        "極端環境下「可靠性」的權重遠高於「先進性」，柴油發電機在南極的不可替代性預示了深空探索中傳統物理冗餘的重要性。",
-        "心理健康設施在長期孤立任務中不屬於奢侈品，而是核心維生系統的一部分，佔用 1/6 的建築空間是基於戰略生存的必然選擇。",
-        "南極條約的脆弱性揭示了「科學研究」往往是地緣政治資源探勘的先遣機制，未來的領土擴張將以極端環境物流能力為核心籌碼。"
+        "AI 時代的開發瓶頸已從「生成代碼」轉移到「管理並行意圖」，傳統 Git 的線性 Index 機制已成為阻礙 AI 生產力的最大技術債。",
+        "版本控制系統的未來不再是單純的備份與歷史記錄，而是必須演化為能支撐多 Agent 同時操作、且具備「虛擬隔離」能力的協同作業系統層。",
+        "工具的「易用性」在自動化時代具備戰略價值：原本設計來防範人為錯誤的「複雜守門機制」，在 AI 高頻迭代場景下反而成了系統崩潰的誘因。"
       ]
     },
     "Lenny's Newsletter": {
+<<<<<<< Updated upstream
       "title": "Listen: A visual guide to getting out of a creative slump | 聽見創意：走出創作低潮的視覺指南",
       "source": "Lenny's Newsletter",
       "url": "https://www.lennysnewsletter.com/p/listen-a-visual-guide-to-getting",
@@ -266,6 +434,16 @@
         "SpaceX 棄碳纖維轉用不鏽鋼的決策，證明了「第一性原理」在跨越極端工程瓶頸時，能產生遠超行業常規的成本與速度優勢。",
         "特斯拉將 Robotaxi 測試範圍擴展至奧斯汀市中心，標誌著自動駕駛已從封閉或郊區低密度環境，進入高複雜度都市商業化的實戰階段。",
         "OpenAI 二級市場流動性枯竭與 Anthropic 的受捧，揭示了生成式 AI 領域正經歷從「品牌迷思」轉向「獲利能力與競爭效率」的嚴酷估值重塑。"
+=======
+      "title": "I built a custom Slack inbox. It was easier than you’d think. | 我打造了專屬的 Slack 收件匣：比你想像中更簡單",
+      "source": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/p/i-built-a-custom-slack-inbox-it-was",
+      "analysis_zh": "這篇文章源自知名的產品經理電子報 Lenny's Newsletter，訪談對象是 Clay 的教育負責人 Yash Tekriwal。Yash 是一位自詡為「超限優化者」（hyper-optimizer）的生產力專家，他致力於透過自動化工具將繁瑣的工作流轉化為高效率的個人指揮中心。本文核心探討了 Yash 如何利用 Perplexity Computer 與 OpenClaw 等新興 AI 工具，在極短時間內開發出能處理每日超過 150 則 Slack 通知的過濾系統，並進一步揭示了「微型軟體」（Micro-software）時代的來臨。\n\n**戰略背景與脈絡：SaaS 飽和下的個人化斷層**\n在過去十年的 SaaS 浪潮中，企業軟體的設計邏輯始終圍繞著「最大公約數」展開。Slack、Notion 或 Asana 必須滿足數百萬用戶的共同需求，這不可避免地導致了功能上的平庸化與資訊過載。當一個人在 Slack 上每天接收超過 150 則通知時，這些通知往往混雜了緊急決策、僅供參考的瑣事與雜訊。傳統的 SaaS 廠商很難為單一用戶提供極度個性化的分類邏輯，因為這不符合規模經濟。然而，隨着大型語言模型（LLM）與 AI 代理工具（如 Perplexity Computer）的成熟，軟體開發的門檻與成本正經歷斷崖式下跌。這創造了一個戰略空隙：用戶不再需要等待軟體廠商更新功能，而是可以根據自己的認知習慣，直接「編織」出專屬的工具層。\n\n**作者的核心推演與論點：微型軟體與確定性邏輯的結合**\nYash 在文中提出了一個極具啟發性的框架，即區分「主觀任務」與「確定性任務」。他認為，AI 的強項在於處理主觀分類（例如：這則訊息是否需要我立即回覆？），而傳統程式碼（API、結構化數據）則負責確保執行的可靠性（例如：將分類後的結果寫入 Kanban 畫板）。這正是他構建自定義 Slack 收件匣的邏輯：利用 AI 進行語意分析，將訊息分類為「需要行動」、「值得一讀」與「僅供參考」，再透過確定性的 API 調用完成數據呈現。此外，他對 Perplexity Computer 的推崇反映了開發工具的典範轉移。相較於 Claude Code 等工具，Perplexity Computer 提供了更直觀的視覺化界面與執行環境，讓非技術背景或半技術背景的專業人士，能夠以「對話即構建」的方式快速原型化。這引出了一個關鍵論點：所謂的「SaaS 末日」論點是錯誤的，我們即將見證的是「微型軟體」的爆炸。軟體不再是昂貴、沈重的資產，而是像腳本一樣靈活、針對特定問題、且生命週期可能極短的解決方案。\n\n**對整體市場、技術發展與長期影響的洞察**\n從長遠來看，Yash 的實踐預示了「個人指揮中心」將取代「多標籤頁工作流」。當 AI 能夠低成本地跨平台（API）整合資訊並進行初步過濾時，用戶對單一 SaaS 平台的依賴度將降低。未來的軟體競爭可能不再發生在 UI 層面，而是在 API 的開放程度與數據的結構化質量上。對於企業而言，這意味著「內部工具」的定義將被重寫。以前需要一個工程團隊開發數週的內部管理系統，現在可能由一名營運經理在一個下午透過 AI 代理完成構建。這種能力將極大地釋放組織的認知頻寬。更深層的影響在於，當每個人都能根據自己的思維框架打造專屬軟體時，知識工作者的生產力上限將不再受限於軟體廠商的產品藍圖，而是取決於其對自身工作流的解構能力與自動化思維。這是一場從「適應軟體」到「軟體適應人」的權力移轉。",
+      "insights": [
+        "「微型軟體」（Micro-software）的興起並非要取代大廠 SaaS，而是為規模為 1 的長尾需求提供極低成本的解決方案，讓個人化工具具備與套裝軟體競爭的可能。",
+        "有效的自動化不應追求全 AI 化，而應採「混合架構」：由 AI 處理主觀語意分類，由確定性程式碼（Deterministic code）處理 API 調用與數據寫入，以兼顧智能與可靠性。",
+        "「反待辦清單」框架將自動化視為一種資本投資，每日投入一小時將重複性痛點轉化為自動化腳本，其本質是透過犧牲短期時間來換取長期的認知頻寬溢價。"
+>>>>>>> Stashed changes
       ]
     }
   }
