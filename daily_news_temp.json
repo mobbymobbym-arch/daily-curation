@@ -1,182 +1,182 @@
 {
-  "fetch_date": "2026-04-10",
+  "fetch_date": "2026-04-11",
   "techmeme": [
     {
-      "title_en": "Sources: Anthropic is weighing the possibility of designing its own chips, but it has yet to commit to a design or put together a dedicated team for the project (Reuters)",
-      "url": "https://www.reuters.com/business/anthropic-weighs-building-it-own-ai-chips-sources-say-2026-04-09/",
-      "summary_en": "<A HREF=\"https://www.reuters.com/business/anthropic-weighs-building-it-own-ai-chips-sources-say-2026-04-09/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i41...",
-      "title_zh": "消息人士：Anthropic 正在評估自主設計晶片的可能性，但尚未投入特定設計或組建專門團隊 (路透社)",
-      "summary_zh": "根據路透社報導，Anthropic 正在考慮開發自有的 AI 晶片，但目前尚未正式承諾任何設計方案，也還沒為此專案成立專門的研發團隊。"
+      "title_en": "Sources: US National Cyber Director Sean Cairncross is leading an effort to identify security vulnerabilities in critical infrastructure that AI could exploit (Wall Street Journal)",
+      "url": "https://www.wsj.com/tech/ai/white-house-races-to-head-off-threats-from-powerful-ai-tools-5c6f22e2?st=L6UcGt&reflink=desktopwebshare_permalink",
+      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/white-house-races-to-head-off-threats-from-powerful-ai-tools-5c6f22e2?st=L6UcGt&reflink=desktopwebshare_permalink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIG...",
+      "title_zh": "消息指美國國家網路總監 Sean Cairncross 正領導一項行動，旨在識別 AI 可能利用的關鍵基礎設施安全漏洞",
+      "summary_zh": "美國國家網路總監 Sean Cairncross 帶領的小組計畫在 Anthropic 與 OpenAI 的模型發布前，先行識別關鍵基礎設施中可能被 AI 利用的安全風險。"
     },
     {
-      "title_en": "How Black Forest Labs, a 70-person startup based in Germany, became a top competitor in AI image generation; sources: it recently declined to partner with xAI (Maxwell Zeff/Wired)",
-      "url": "https://www.wired.com/story/black-forest-labs-ai-image-generation/",
-      "summary_en": "<A HREF=\"https://www.wired.com/story/black-forest-labs-ai-image-generation/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i40.jpg\"></A>\n<P><A HREF=\"http://ww...",
-      "title_zh": "擁有 70 名員工的德國新創公司 Black Forest Labs 如何成為 AI 圖像生成領域的頂尖競爭者；消息指出其近期拒絕了與 xAI 的合作方案 (Wired)",
-      "summary_zh": "《Wired》報導這家總部位於德國的新創公司如何迅速竄升。雖然規模僅 70 人，但其技術實力已足以抗衡大廠，且據傳該公司最近婉拒了馬斯克旗下 xAI 的合作邀約。"
+      "title_en": "Report: Canada's Cohere and Germany's Aleph Alpha are in talks to merge; the German government would be willing to become a key customer of a combined company (Reuters)",
+      "url": "https://www.reuters.com/legal/transactional/canadas-cohere-germanys-aleph-alpha-merger-talks-handelsblatt-reports-2026-04-10/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/legal/transactional/canadas-cohere-germanys-aleph-alpha-merger-talks-handelsblatt-reports-2026-04-10/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://...",
+      "title_zh": "報導指加拿大的 Cohere 與德國的 Aleph Alpha 洽談合併；德國政府有意成為合併後公司的重要客戶",
+      "summary_zh": "兩家領先的 AI 新創公司 Cohere 與 Aleph Alpha 傳出合併談判，德國政府可能藉此扶植本土 AI 技術，並成為其關鍵客戶。"
     },
     {
-      "title_en": "xAI has filed a lawsuit challenging Colorado's landmark AI anti-discrimination law, set to take effect in the summer, saying it violates free speech protections (Financial Times)",
-      "url": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9",
-      "summary_en": "<A HREF=\"https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i39.jpg\"></A>\n<P><A HREF=\"http://www.t...",
-      "title_zh": "xAI 提起訴訟，挑戰科羅拉多州即將於夏季生效的指標性 AI 反歧視法，指稱其違反言論自由保護 (金融時報)",
-      "summary_zh": "xAI 向法院提交訴狀，質疑科羅拉多州這項具里程碑意義的法規。該法律旨在防止 AI 演算法產生歧視，但 xAI 認為相關限制已侵犯了憲法保障的言論自由。"
+      "title_en": "Sam Altman reflects on the attack on his house, OpenAI's success, personal regrets, and advocates for de-escalating rhetoric and tactics in the AI industry (Sam Altman)",
+      "url": "https://blog.samaltman.com/2279512",
+      "summary_en": "<A HREF=\"https://blog.samaltman.com/2279512\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260410/i29.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/260410/p29#a26041...",
+      "title_zh": "Sam Altman 反思家中遭襲事件、OpenAI 的成功與個人遺憾，並倡導緩和 AI 產業的對抗言論與手段",
+      "summary_zh": "Sam Altman 在部落格中談論其住家遭攻擊的心路歷程，分享對 OpenAI 發展的看法與遺憾，並呼籲產業界應減少敵對言論。"
     },
     {
-      "title_en": "A gap in understanding AI is growing, as casual users cite flaws in old free models while power users point to new models' staggering gains in technical domains (Andrej Karpathy/@karpathy)",
-      "url": "http://www.techmeme.com/260409/p38#a260409p38",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260409/p38#a260409p38\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> And...",
-      "title_zh": "AI 認知的鴻溝正在擴大：一般用戶仍聚焦於舊款免費模型的缺陷，而進階用戶則看見新模型在技術領域的驚人進步 (Andrej Karpathy)",
-      "summary_zh": "Andrej Karpathy 指出，大眾對 AI 的理解出現分歧。當許多人還在批評舊版免費模型的錯誤時，重度使用者已經在利用最新模型解決極具挑戰性的技術問題。"
+      "title_en": "Amazon Luna is dropping support for game purchases and third-party game stores and subscriptions; previously purchased games will be accessible until June 10 (Michael Kan/PCMag)",
+      "url": "https://www.pcmag.com/news/in-latest-pivot-amazon-luna-to-drop-game-purchases-third-party-stores",
+      "summary_en": "<A HREF=\"https://www.pcmag.com/news/in-latest-pivot-amazon-luna-to-drop-game-purchases-third-party-stores\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260410/i28.j...",
+      "title_zh": "Amazon Luna 將停止支援遊戲購買、第三方遊戲商店及訂閱；已購遊戲可使用至 6 月 10 日",
+      "summary_zh": "Amazon 雲端遊戲服務 Luna 再次轉型，將移除遊戲購買功能及第三方商店支援，現有玩家在 6 月 10 日前仍可存取已購買的內容。"
     },
     {
-      "title_en": "An OpenAI note to investors after Anthropic announced Mythos says OpenAI's early push to increase computing resources gives it a key advantage over Anthropic (Shirin Ghaffary/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-09/openai-tells-investors-it-has-computing-advantage-over-anthropic",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-09/openai-tells-investors-it-has-computing-advantage-over-anthropic\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
-      "title_zh": "Anthropic 發布 Mythos 後，OpenAI 在給投資人的報告中強調，早期在運算資源上的佈局使其對 Anthropic 仍保有核心優勢 (彭博社)",
-      "summary_zh": "針對 Anthropic 的最新進展，OpenAI 向投資人喊話，強調其在基礎設施與算力儲備上的長期領先，是應對對手競爭的關鍵優勢。"
+      "title_en": "Blackstone files for an IPO of a new data center acquisition vehicle to buy already-built and leased properties, and, sources say, plans to raise ~$2B (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-10/blackstone-files-for-ipo-of-data-center-acquisition-firm",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-10/blackstone-files-for-ipo-of-data-center-acquisition-firm\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/2...",
+      "title_zh": "黑石集團申請資料中心收購載體 IPO，旨在收購已建成並出租的物業，計畫籌資約 20 億美元",
+      "summary_zh": "黑石集團（Blackstone）看好 AI 帶動的資料中心需求，正推動一項新的公開募資計畫，用於收購具備穩定租約的資料中心設施。"
     },
     {
-      "title_en": "Internal memo: Meta is pulling top engineers into its new Applied AI Engineering division, as part of a push to improve its models and \"compete in the AI race\" (Jyoti Mann/The Information)",
-      "url": "http://www.techmeme.com/260409/p36#a260409p36",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260409/p36#a260409p36\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Jyo...",
-      "title_zh": "內部備忘錄：Meta 正抽調頂尖工程師加入新成立的「應用 AI 工程」部門，旨在優化模型並在 AI 競賽中突圍 (The Information)",
-      "summary_zh": "Meta 內部文件顯示，該公司正積極重組人力資源，將優秀工程人才集中到新單位，以加速 AI 技術的產品化並強化其市場競爭力。"
+      "title_en": "Sources: Cisco is in talks to acquire Tel Aviv-based Astrix Security, which sells software to monitor and secure AI agents, for between $250M and $350M (The Information)",
+      "url": "https://www.theinformation.com/articles/cisco-talks-buy-ai-security-startup-astrix-least-250-million",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/cisco-talks-buy-ai-security-startup-astrix-least-250-million\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260410/i...",
+      "title_zh": "消息指 Cisco 洽談收購特拉維夫的 Astrix Security，該公司專注於 AI Agent 的監控與安全保障",
+      "summary_zh": "Cisco 計畫以 2.5 億至 3.5 億美元收購以色列新創 Astrix Security，旨在強化其在 AI Agent 運作過程中的安全監控能力。"
     },
     {
-      "title_en": "An Ohio man is the first convicted under the Take It Down Act after pleading guilty to creating and sharing real and AI-generated explicit images of 10+ victims (Ashley Belanger/Ars Technica)",
-      "url": "https://arstechnica.com/tech-policy/2026/04/first-man-convicted-under-take-it-down-act-kept-making-ai-nudes-after-arrest/",
-      "summary_en": "<A HREF=\"https://arstechnica.com/tech-policy/2026/04/first-man-convicted-under-take-it-down-act-kept-making-ai-nudes-after-arrest/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www....",
-      "title_zh": "俄亥俄州一名男子成為首位依據《Take It Down Act》被定罪者，他承認製作並散布涉及 10 多名受害者的真人及 AI 生成露骨影像 (Ars Technica)",
-      "summary_zh": "這是美國首例針對利用 AI 技術生成不雅影像進行騷擾並定罪的案件，被告承認了其針對多名受害者的違法行為。"
+      "title_en": "Tesla says Dutch regulators approved the use of its full self-driving software, marking the first regulatory sign-off for the feature in Europe (Reuters)",
+      "url": "https://www.reuters.com/business/teslas-self-driving-software-gets-dutch-go-ahead-boost-eu-ambitions-2026-04-10/",
+      "summary_en": "<A HREF=\"https://www.reuters.com/business/teslas-self-driving-software-gets-dutch-go-ahead-boost-eu-ambitions-2026-04-10/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
+      "title_zh": "特斯拉表示荷蘭監管機構已批准其全自動輔助駕駛（FSD）軟體，為該功能在歐洲的首個監管許可",
+      "summary_zh": "荷蘭當局的核准為特斯拉在歐洲推廣 FSD 邁出了關鍵一步，標誌著該自動駕駛軟體首次獲得歐洲監管機構的認可。"
     },
     {
-      "title_en": "EFF says it is leaving X, as \"X is no longer where the fight is happening\" and an X post now gets less than 3% of the views a tweet got seven years ago (Kenyatta Thomas/Electronic Frontier ...)",
-      "url": "https://www.eff.org/deeplinks/2026/04/eff-leaving-x",
-      "summary_en": "<A HREF=\"https://www.eff.org/deeplinks/2026/04/eff-leaving-x\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i34.jpg\"></A>\n<P><A HREF=\"http://www.techmeme.com/...",
-      "title_zh": "電子前哨基金會 (EFF) 宣布退出 X，稱該平台「已不再是抗爭的前線」，貼文瀏覽量僅餘七年前的 3% (EFF)",
-      "summary_zh": "EFF 認為 X 平台在數位人權議題上的影響力已大幅衰退，加上演算法改變導致觸及率驟減，因此決定關閉帳號並轉向其他社群管道。"
+      "title_en": "Sources: Goldman Sachs, Citigroup, and other banks are testing Anthropic's Mythos model internally; JPMorgan Chase is the only bank named in Project Glasswing (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-10/wall-street-banks-try-out-anthropic-s-mythos-as-us-urges-testing",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-10/wall-street-banks-try-out-anthropic-s-mythos-as-us-urges-testing\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techme...",
+      "title_zh": "消息指高盛、花旗等銀行正內部測試 Anthropic 的 Mythos 模型；摩根大通參與 Project Glasswing",
+      "summary_zh": "華爾街金融巨頭開始測試 Anthropic 的新一代 Mythos 模型，以探索 AI 在銀行業務中的應用潛力，摩根大通則在專屬計畫中進行測試。"
     },
     {
-      "title_en": "OpenAI launches a $100/month ChatGPT Pro subscription, which offers 5x more Codex usage than Plus; the $200/month Pro plan offers 20x higher limits than Plus (Zac Hall/9to5Mac)",
-      "url": "https://9to5mac.com/2026/04/09/openai-introduces-100-month-pro-plan-aimed-at-codex-users-heres-what-it-includes/",
-      "summary_en": "<A HREF=\"https://9to5mac.com/2026/04/09/openai-introduces-100-month-pro-plan-aimed-at-codex-users-heres-what-it-includes/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme....",
-      "title_zh": "OpenAI 推出每月 100 美元的 ChatGPT Pro 訂閱服務，Codex 使用額度為 Plus 的 5 倍；另有 200 美元的進階方案提供 20 倍額度 (9to5Mac)",
-      "summary_zh": "針對開發者需求，OpenAI 推出了更高價位的 Pro 訂閱方案，大幅提升了程式碼生成工具 Codex 的使用限制。"
+      "title_en": "Sources: a week before Mythos release, JD Vance and Scott Bessent questioned Amodei, Altman, and others about AI model security and responding to cyber attacks (Samantha Subin/CNBC)",
+      "url": "https://www.cnbc.com/2026/04/10/trump-white-house-ai-cyber-threat-anthropic-mythos.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/04/10/trump-white-house-ai-cyber-threat-anthropic-mythos.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260410/i23.jpg\"></A>\n...",
+      "title_zh": "消息指在 Mythos 發布前一週，JD Vance 與 Scott Bessent 曾向 Amodei 及 Altman 詢問 AI 模型安全與網攻應對",
+      "summary_zh": "白宮高層官員在 Anthropic 新款模型發布前夕，召集 AI 產業領導者商討如何應對潛在的網路威脅與國家安全挑戰。"
     },
     {
-      "title_en": "Google says the Gemini app can now generate interactive 3D models and simulations; users must select the Pro model in the prompt bar (Emma Roth/The Verge)",
-      "url": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
-      "summary_en": "<A HREF=\"https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i32.jpg\"></A>\n<P><A HREF=\"...",
-      "title_zh": "Google 宣布 Gemini App 現在可生成互動式 3D 模型與模擬動畫；用戶需在提示欄選擇 Pro 模型 (The Verge)",
-      "summary_zh": "Google 為其 AI 助手 Gemini 增添了強大的視覺化功能，用戶現在可以透過自然語言指令直接創建並操作 3D 內容。"
+      "title_en": "Analysis: Trump's World Liberty Financial used 5B of its WLFI tokens to borrow $75M from a platform its adviser co-founded; WLFI falls to an all-time low (Shaurya Malwa/CoinDesk)",
+      "url": "https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite",
+      "summary_en": "<A HREF=\"https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ...",
+      "title_zh": "分析：川普的 World Liberty Financial 使用 50 億枚 WLFI 代幣向合作平台借款 7500 萬美元；WLFI 跌至歷史新低",
+      "summary_zh": "川普旗下的加密貨幣項目被指利用自家代幣作為抵押品進行借貸，此舉引發市場疑慮，導致代幣價格暴跌。"
     },
     {
-      "title_en": "Sources: the White House is pushing back on GOP-led AI bills in Nebraska and Tennessee, putting new pressure on GOP state lawmakers who support AI guardrails (Axios)",
-      "url": "https://www.axios.com/2026/04/09/trump-white-house-gop-states-ai-rules",
-      "summary_en": "<A HREF=\"https://www.axios.com/2026/04/09/trump-white-house-gop-states-ai-rules\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i31.jpg\"></A>\n<P><A HREF=\"http:...",
-      "title_zh": "消息人士：白宮正阻撓內布拉斯加州與田納西州由共和黨主導的 AI 法案，對支持設立 AI 規範的州議員施壓 (Axios)",
-      "summary_zh": "儘管地方政府希望推動 AI 監管措施，但白宮方面正試圖介入，這使得支持相關防範機制的共和黨籍州議員面臨政治壓力。"
+      "title_en": "Source: federal prosecutors have subpoenaed Reddit to appear before a grand jury, to provide personal data on an anonymous user who criticized ICE (Ryan Devereaux/The Intercept)",
+      "url": "https://theintercept.com/2026/04/10/reddit-ice-protest-grand-jury/",
+      "summary_en": "<A HREF=\"https://theintercept.com/2026/04/10/reddit-ice-protest-grand-jury/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260410/i21.jpg\"></A>\n<P><A HREF=\"http://ww...",
+      "title_zh": "消息：聯邦檢察官傳喚 Reddit 接受大陪審團調查，要求提供一名批評 ICE 的匿名用戶個人資訊",
+      "summary_zh": "因一名匿名用戶在 Reddit 上發表針對美國移民暨海關執法局（ICE）的批評言論，聯邦當局已正式向 Reddit 發出傳票要求配合調查。"
     },
     {
-      "title_en": "Anthropic makes Claude Cowork, previously available as a \"research preview\", generally available to all paid plans, and adds six features for enterprise use (Zac Hall/9to5Mac)",
-      "url": "https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/",
-      "summary_en": "<A HREF=\"https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme...",
-      "title_zh": "Anthropic 正式對所有付費用戶開放 Claude Cowork 功能，並為企業應用新增六項核心功能 (9to5Mac)",
-      "summary_zh": "原本僅作為研究預覽版的協作工具 Claude Cowork 如今已正式上線，並針對企業協作場景強化了多項管理與自動化功能。"
+      "title_en": "Microsoft unveils plans to streamline the Windows Insider program, offering a simplified channel structure, moving between channels without wiping PCs, and more (Ed Bott/ZDNET)",
+      "url": "https://www.zdnet.com/article/microsoft-windows-insider-program-simplified/",
+      "summary_en": "<A HREF=\"https://www.zdnet.com/article/microsoft-windows-insider-program-simplified/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260410/i20.jpg\"></A>\n<P><A HREF=\"...",
+      "title_zh": "微軟公布簡化 Windows Insider 計畫的計畫，提供更精簡的頻道結構，且切換頻道時無需重灌電腦",
+      "summary_zh": "微軟旨在提升 Windows 測試人員的體驗，將簡化頻道設置並提供更靈活的切換機制，讓用戶能更輕鬆地測試新功能。"
     },
     {
-      "title_en": "Florida's AG launches a probe into OpenAI and ChatGPT, saying its data could fall \"into the hands of America's enemies\" and citing a mass shooter's ChatGPT use (Juby Babu/Reuters)",
-      "url": "https://www.reuters.com/business/florida-ag-probe-openai-chatgpt-2026-04-09/",
-      "summary_en": "<A HREF=\"https://www.reuters.com/business/florida-ag-probe-openai-chatgpt-2026-04-09/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i29.jpg\"></A>\n<P><A HREF=...",
-      "title_zh": "佛羅里達州檢察總長對 OpenAI 與 ChatGPT 展開調查，指稱其數據可能「落入敵國之手」，並援引校園槍擊案為由 (路透社)",
-      "summary_zh": "佛州執法首長對 AI 可能帶來的國安風險表示擔憂，質疑 OpenAI 的數據管理機制，並提到其技術可能被不法分子濫用。"
+      "title_en": "Trump hails Palantir's \"great war fighting capabilities\", days after short seller Michael Burry said the company will lose to AI startups; PLTR is down ~25% YTD (Joe Miller/Financial Times)",
+      "url": "https://www.ft.com/content/8ab0fc62-b6ec-4b31-a8d7-cb076c9b0fb4",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/8ab0fc62-b6ec-4b31-a8d7-cb076c9b0fb4\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260410/i19.jpg\"></A>\n<P><A HREF=\"http://www.t...",
+      "title_zh": "川普盛讚 Palantir 的「強大戰鬥能力」；數日前空頭 Michael Burry 剛稱該公司將輸給 AI 新創",
+      "summary_zh": "儘管面臨空頭機構的看淡與股價年度下跌，川普仍公開表揚 Palantir 在軍事領域的貢獻，強調其對國防的重要性。"
     },
     {
-      "title_en": "X brings back Voice Notes to X Chat, supporting one-on-one and group conversations via a new voice input icon, as it tests a standalone X Chat spinoff on iOS (Sarah Perez/TechCrunch)",
-      "url": "https://techcrunch.com/2026/04/09/x-brings-back-voice-notes-to-x-chat/",
-      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/09/x-brings-back-voice-notes-to-x-chat/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i28.jpg\"></A>\n<P><A HREF=\"http:...",
-      "title_zh": "X 恢復 X Chat 語音訊息功能，支援個人及群組對話，同時正於 iOS 測試獨立的 X Chat 應用程式 (TechCrunch)",
-      "summary_zh": "X 平台持續強化通訊功能，除了重新上線語音筆記外，也正準備將聊天功能拆分為獨立 App 以提升使用體驗。"
+      "title_en": "Three senior executives who helped launch OpenAI's Stargate initiative are leaving, sources say to join the same new company (Anissa Gardizy/The Information)",
+      "url": "https://www.theinformation.com/articles/openai-stargate-leaders-depart-latest-shakeup-data-center-strategy",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/openai-stargate-leaders-depart-latest-shakeup-data-center-strategy\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26...",
+      "title_zh": "消息指負責 OpenAI Stargate 計畫的三位高階主管即將離職，並預計加入同一家新公司",
+      "summary_zh": "OpenAI 負責基礎設施與超大規模資料中心計畫的核心主管集體出走，這是該公司近期又一波重要的人才流失。"
     },
     {
-      "title_en": "Visa unveils Intelligent Commerce Connect, a platform that facilitates payments for AI agents across multiple card networks, including those of Visa competitors (Kelly Tyko/Axios)",
-      "url": "https://www.axios.com/2026/04/08/visa-ai-agent-payments-platform",
-      "summary_en": "<A HREF=\"https://www.axios.com/2026/04/08/visa-ai-agent-payments-platform\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260409/i27.jpg\"></A>\n<P><A HREF=\"http://www....",
-      "title_zh": "Visa 發表「Intelligent Commerce Connect」平台，支援 AI Agent 跨卡組織進行支付，包含競爭對手的網路 (Axios)",
-      "summary_zh": "隨著 AI Agent 逐漸普及，Visa 推出專屬支付平台，讓 AI 代理人能自動且安全地在不同支付網路中完成交易。"
+      "title_en": "San Francisco police arrested a suspect for allegedly throwing a Molotov cocktail at Sam Altman's home and also making threats outside OpenAI's headquarters (Maxwell Zeff/Wired)",
+      "url": "https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat/",
+      "summary_en": "<A HREF=\"https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260410/i17.jpg\"></A>\n<P...",
+      "title_zh": "舊金山警方逮捕一名涉嫌向 Sam Altman 住家投擲汽油彈的嫌犯，該嫌犯也曾於 OpenAI 總部發出威脅",
+      "summary_zh": "一名被控攻擊 Sam Altman 住所並威脅 OpenAI 總部的男子已被警方拘留，案件凸顯了科技巨頭領導人面臨的安全風險。"
     }
   ],
   "wsj": [
     {
+      "title_en": "White House Races to Head Off Threats From Powerful AI Tools",
+      "url": "https://www.wsj.com/tech/ai/white-house-races-to-head-off-threats-from-powerful-ai-tools-5c6f22e2?mod=rss_Technology",
+      "summary_en": "A group led by National Cyber Director Sean Cairncross aims to identify security vulnerabilities before models from Anthropic and OpenAI are released....",
+      "title_zh": "白宮競速應對強大 AI 工具帶來的威脅",
+      "summary_zh": "由國家網路總監 Sean Cairncross 領導的小組旨在於 Anthropic 和 OpenAI 的模型發布前識別安全漏洞。"
+    },
+    {
+      "title_en": "Sam Altman’s Home Attacked With Molotov Cocktail, Suspect Taken Into Custody",
+      "url": "https://www.wsj.com/tech/ai/sam-altmans-home-attacked-with-molotov-cocktail-suspect-taken-into-custody-ad3d7d6e?mod=rss_Technology",
+      "summary_en": "The individual allegedly made threats at OpenAI’s San Francisco headquarters, the company said....",
+      "title_zh": "Sam Altman 住家遭汽油彈襲擊，嫌犯已被拘留",
+      "summary_zh": "OpenAI 表示，該名嫌犯此前曾於該公司位於舊金山的總部發出威脅言論。"
+    },
+    {
+      "title_en": "A Fiery Re-Entry Awaits the Artemis Astronauts",
+      "url": "https://www.wsj.com/tech/ai/a-fiery-re-entry-awaits-the-artemis-astronauts-1c43dc95?mod=rss_Technology",
+      "summary_en": "Plus, experts offer innovation predictions and drone fleets are coming to schools....",
+      "title_zh": "阿提米絲太空人面臨熾熱的重返大氣層挑戰",
+      "summary_zh": "此外，專家提供了創新預測，且無人機機隊即將進入校園。"
+    },
+    {
+      "title_en": "WSJ Readers Share Their Top Tips for Switching to an EV",
+      "url": "https://www.wsj.com/business/autos/wsj-readers-share-their-top-tips-for-switching-to-an-ev-4dfe3a16?mod=rss_Technology",
+      "summary_en": "They highlight hidden costs, the importance of buying used, and better ways to charge....",
+      "title_zh": "WSJ 讀者分享更換電動車（EV）的首要建議",
+      "summary_zh": "讀者強調了隱藏成本、購買二手車的重要性，以及更佳的充電方式。"
+    },
+    {
+      "title_en": "Meta Banks on AI to Clear the Smoke of Social-Media Lawsuits",
+      "url": "https://www.wsj.com/tech/meta-banks-on-ai-to-clear-the-smoke-of-social-media-lawsuits-902263dc?mod=rss_Technology",
+      "summary_en": "While the tech giant has the means to fight in court, ongoing legal battles could temper a long-term recovery in its shares....",
+      "title_zh": "Meta 寄望透過 AI 撥開社群媒體法律訴訟的雲霧",
+      "summary_zh": "雖然這家科技巨頭有能力在法庭上抗爭，但持續的法律戰可能會抑制其股價的長期復甦。"
+    },
+    {
       "title_en": "Amazon CEO Presses His Case for Big AI Spending",
       "url": "https://www.wsj.com/tech/amazon-ceo-andy-jassy-2026-shareholder-letter-10e68a68?mod=rss_Technology",
       "summary_en": "Andy Jassy uses his annual shareholder letter to tout AI vision, investments in robotics and rural delivery....",
-      "title_zh": "Amazon 執行長力陳加大 AI 支出之必要性",
-      "summary_zh": "Andy Jassy 在年度致股東信中大力推崇 AI 願景，並詳細介紹了該公司在機器人技術與偏鄉配送系統上的投資佈局。"
+      "title_zh": "Amazon 執行長堅持加大 AI 支出",
+      "summary_zh": "Andy Jassy 在年度股東信中大力推廣其 AI 願景，以及對機器人技術和鄉村物流的投資。"
     },
     {
-      "title_en": "10 Women Whose Inventions Transformed Household Chores",
-      "url": "https://www.wsj.com/tech/women-inventors-household-gadgets-chores-9d431bac?mod=rss_Technology",
-      "summary_en": "They aren’t famous, and didn’t necessarily get rich, but their products made domestic labor easier and safer....",
-      "title_zh": "10 位以發明徹底改變家務勞動的女性",
-      "summary_zh": "她們或許並不家喻戶曉，也未因此致富，但她們所開發的產品讓日常家務變得更輕鬆且更安全。"
+      "title_en": "How AI Is Reimagining the Game of Golf—for Both Players and Courses",
+      "url": "https://www.wsj.com/sports/golf/ai-in-golf-technology-impact-4122d0e1?mod=rss_Technology",
+      "summary_en": "From reserving a tee time to fending off turf disease, artificial intelligence is putting the game under an algorithmic microscope....",
+      "title_zh": "AI 如何重塑高爾夫球賽——無論是對球員還是球場",
+      "summary_zh": "從預約開球時間到防治草皮疾病，人工智慧正將這項運動置於演算法的顯微鏡下。"
     },
     {
-      "title_en": "Meta Removes Law-Firm Ads Recruiting Clients to Sue It",
-      "url": "https://www.wsj.com/tech/meta-removes-law-firm-ads-recruiting-clients-to-sue-them-50e4baef?mod=rss_Technology",
-      "summary_en": "After recent losses in trials related to social-media practices, the tech company begins taking down ads on its apps meant to attract eligible plaintiffs....",
-      "title_zh": "Meta 開始撤除旨在招募原告對其提起訴訟的律師事務所廣告",
-      "summary_zh": "在數起與社群媒體營運相關的訴訟中失利後，Meta 開始移除旗下 App 中那些試圖尋找潛在受害者以集體控告該公司的廣告。"
+      "title_en": "CoreWeave, Anthropic Form AI Cloud Agreement",
+      "url": "https://www.wsj.com/tech/ai/coreweave-anthropic-form-ai-cloud-agreement-13021a5b?mod=rss_Technology",
+      "summary_en": "CoreWeave will use its cloud infrastructure to help run Anthropic’s Claude artificial-intelligence models as part of a new partnership between the two companies....",
+      "title_zh": "CoreWeave 與 Anthropic 達成 AI 雲端合作協議",
+      "summary_zh": "CoreWeave 將利用其雲端基礎設施協助運行 Anthropic 的 Claude AI 模型，作為兩家公司新夥伴關係的一部分。"
     },
     {
-      "title_en": "Inside the Race to Protect Submarine Cables From Sabotage",
-      "url": "https://www.wsj.com/tech/inside-the-race-to-protect-submarine-cables-from-sabotage-c90ba18c?mod=rss_Technology",
-      "summary_en": "The U.S. and allies are turning to tech, patrols and new routes to defend crucial underwater data infrastructure against Russia and China....",
-      "title_zh": "守護海底電纜：防範蓄意破壞的技術競賽內幕",
-      "summary_zh": "美國及其盟友正投入新技術、加強巡邏並規劃新路徑，以保護關鍵的水下數據基礎設施免受俄羅斯與中國的威脅。"
+      "title_en": "In This Critical Part of Audits, the Accountant’s Role Is Shrinking Fast",
+      "url": "https://www.wsj.com/cfo-journal/in-this-critical-part-of-audits-the-accountants-role-is-shrinking-fast-69c7f2bc?mod=rss_Technology",
+      "summary_en": "KPMG has piloted the removal of humans from routine testing of things like payroll and expenses, with greater reliance on AI agents....",
+      "title_zh": "在審計的關鍵環節中，會計師的角色正在迅速萎縮",
+      "summary_zh": "畢馬威（KPMG）已試行在薪資和費用等例行測試中移除人力，轉而加大對 AI Agent 的依賴。"
     },
     {
-      "title_en": "At David Sacks’s Behest, White House Barrels Forward on Industry-Friendly AI Policy",
-      "url": "https://www.wsj.com/tech/ai/ai-policy-david-sacks-midterm-elections-aced91a7?mod=rss_Technology",
-      "summary_en": "In the run-up to the midterms, the Trump administration is planning to emphasize AI’s economic benefits, but some allies are warning of political blowback....",
-      "title_zh": "在 David Sacks 建議下，白宮加速推行有利於產業發展的 AI 政策",
-      "summary_zh": "在期中選舉前夕，川普政府計劃強調 AI 的經濟效益，但部分盟友警告這可能會引發選民反彈或政治副作用。"
-    },
-    {
-      "title_en": "Court Denies Anthropic Request to End Defense Department Punishment",
-      "url": "https://www.wsj.com/politics/national-security/court-denies-anthropic-request-to-end-defense-department-punishment-43d3432e?mod=rss_Technology",
-      "summary_en": "The company is involved in two separate legal actions related to being blacklisted by the Pentagon....",
-      "title_zh": "法院駁回 Anthropic 撤銷國防部懲罰之請求",
-      "summary_zh": "Anthropic 正陷入兩起法律訴訟，均與被美國五角大廈列入黑名單有關，該黑名單限制了公司與軍方的合作。"
-    },
-    {
-      "title_en": "Florida AG Investigates OpenAI, ChatGPT, Citing National Security Risks, FSU Shooting",
-      "url": "https://www.wsj.com/tech/ai/florida-ag-investigates-openai-chatgpt-citing-national-security-risks-fsu-shooting-ba8f06be?mod=rss_Technology",
-      "summary_en": "Florida Attorney General James Uthmeier raised concerns that OpenAI’s models or data could be used by adversaries of America, namely China....",
-      "title_zh": "佛州檢察總長調查 OpenAI 與 ChatGPT，指其具國安風險並提及校園槍擊案",
-      "summary_zh": "佛羅里達州檢察總長 James Uthmeier 擔心 OpenAI 的模型或數據可能被中國等美國對手利用，對國家安全構成威脅。"
-    },
-    {
-      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
-      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-ad3cd239?mod=rss_Technology",
-      "summary_en": "Find insight on Amazon, Meta Platforms and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "title_zh": "科技、媒體與電信週報：市場洞察",
-      "summary_zh": "本期市場談話涵蓋 Amazon、Meta 等巨頭，深入探討科技、媒體與電信產業的最新趨勢與觀點。"
-    },
-    {
-      "title_en": "Meta Commits $21 Billion in Expanded AI Cloud Deal With CoreWeave",
-      "url": "https://www.wsj.com/tech/ai/coreweave-expands-ai-cloud-infrastructure-deal-with-meta-for-21-billion-5bebe863?mod=rss_Technology",
-      "summary_en": "The long-term agreement provided Meta with artificial-intelligence cloud capacity through December 2032....",
-      "title_zh": "Meta 簽署 210 億美元巨額合約，擴大與 CoreWeave 的 AI 雲端合作",
-      "summary_zh": "根據這項長期協議，CoreWeave 將為 Meta 提供充足的 AI 雲端算力支撐，合約期限直至 2032 年 12 月。"
-    },
-    {
-      "title_en": "Why Tubi Is Betting on AI to Win Over Gen Z Viewers",
-      "url": "https://www.wsj.com/cio-journal/why-tubi-is-betting-on-ai-to-win-over-gen-z-viewers-778b07fc?mod=rss_Technology",
-      "summary_en": "The free, ad-supported streaming service is leaning on the tech to take on bigger players and retain young audiences....",
-      "title_zh": "串流平台 Tubi 為何押注 AI 以贏得 Z 世代觀眾青睞",
-      "summary_zh": "這家免費廣告型串流服務商正利用 AI 技術優化內容推薦與觀影體驗，力圖在與大廠的競爭中留住年輕客群。"
+      "title_en": "Alibaba’s New AI Video-Generation Model Tops Global Ranking",
+      "url": "https://www.wsj.com/tech/ai/alibabas-new-ai-video-generation-model-tops-global-ranking-after-debut-801fe3f7?mod=rss_Technology",
+      "summary_en": "The model, called HappyHorse 1.0, is leading a global ranking that tracks AI models’ abilities....",
+      "title_zh": "阿里巴巴新款 AI 影片生成模型在全球排名中奪冠",
+      "summary_zh": "這款名為 HappyHorse 1.0 的模型在追蹤 AI 模型能力的全球排名中處於領先地位。"
     }
   ],
   "deep_analysis": {
@@ -225,25 +225,25 @@
       ]
     },
     "BigTechnology": {
-      "title": "OpenAI President Greg Brockman: Doubling Down on Text Models, The Superapp Plan, Codex’s Potential (OpenAI 總裁 Greg Brockman：重注文本模型、超級應用計劃與 Codex 的潛力)",
-      "source": "Big Technology (由 Alex Kantrowitz 主持)",
-      "url": "https://www.bigtechnology.com/p/openai-president-greg-brockman-doubling",
-      "analysis_zh": "本文源自知名科技媒體《Big Technology》，由資深科技記者 Alex Kantrowitz 深度訪談 OpenAI 總裁 Greg Brockman。Brockman 在訪談中透露了 OpenAI 最新的戰略轉向，明確表示該公司正處於從能力展示進入到實效應用的關鍵轉折點，並分享了關於 AGI 進程與新一代模型「Spud」的內幕。\n\n**戰略背景與脈絡：技術樹的抉擇**\nOpenAI 近期最令人意外的舉動是暫緩了 Sora 視頻生成模型的消費者化進程。Brockman 解釋這並非技術失敗，而是基於「技術樹（Tech Tree）」的戰略權衡。在算力極度稀缺的背景下，OpenAI 發現文本推理（GPT 系列）與視頻生成（Sora 系列）實際上是兩條不同的技術路徑。雖然 Sora 令人驚豔，但 GPT 系列展現出的邏輯推理與問題解決能力，才是通往通用人工智慧（AGI）的核心引擎。Brockman 坦言，即便是 OpenAI 這種巨頭，也無法同時負擔兩條路徑的巔峰競爭，因此決定將算力集中於 GPT 體系，將 Sora 轉向機器人學的研究。這標誌著 OpenAI 已結束了「處處點火」的擴張期，正式進入「重注核心」的收割期。\n\n**核心推演：從聊天機器人到超級應用程式（Superapp）**\n訪談中最引人注目的是 OpenAI 的「超級應用」計劃。這不僅是將 ChatGPT、Codex 與瀏覽器功能整合，而是要重塑人類與電腦的互動邏輯。Brockman 認為，過去是「人適應電腦」，未來則是「電腦順應人類」。透過 Codex 的演進，這項原本服務於程式設計師的工具正轉化為「萬能問題解決器」，即便不懂程式碼的使用者，也能指使 AI 操作複雜的軟體（如 Adobe Premiere 或 Excel）。這背後的邏輯是：AI 將不再只是一個對話框，而是一個具備「電腦使用能力」的代理人（Agent）。這種「一站式」的終端應用將統合個人助手與商業生產力，成為用戶數位生活的新界面。\n\n**AGI 進程與「Spud」模型：經濟加速的臨界點**\n對於 AGI 的定義，Brockman 給出了極具震撼力的評估：他認為我們已經完成了 70% 到 80% 的進程，並預測 AGI 將在未來幾年內實現。他透露代號為「Spud」的新一代基礎模型，匯集了過去兩年的研究成果，不僅在數值指標上領先，更重要的是消除了「大模型異味（Big Model Smell）」——即那種需要人類反覆解釋指令的遲鈍感。Brockman 強調，當前的 AI 已進入「起飛階段（Takeoff）」，模型不僅在學習人類知識，更開始協助研究人員開發下一代模型，形成自我強化的螺旋。這種進步將使 AI 從「附加功能」轉變為驅動全球經濟增長的主要動力。\n\n**對長期的深刻影響：創業的民主化與問責制挑戰**\nBrockman 描繪了一個「人人皆是 CEO」的未來，每個人都能領導成千上萬個 AI 代理來實現願景。這將極大地降低創業門檻，實現「創業民主化」。然而，他也警示了「失去觸感」的風險：當 AI 處理了所有底層細節，人類若完全脫節，將無法對結果負責。長期來看，這場戰略轉向意味著 OpenAI 試圖建立一套具備「韌性」的社會基礎設施，讓 AI 深入醫療、科學與法律等核心領域。Brockman 的洞察顯示，OpenAI 已不再僅僅追求技術的卓越，更在試圖定義後 AGI 時代人類如何保持其主體地位與問責機制。",
+      "title": "The AI Data Center Backlash is Now Impossible to Ignore | AI 數據中心的反彈浪潮已不容忽視",
+      "source": "Big Technology",
+      "url": "https://www.bigtechnology.com/p/the-ai-data-center-backlash-is-now",
+      "analysis_zh": "本文源自知名科技媒體《Big Technology》，由資深科技記者兼作家 Alex Kantrowitz 撰寫。Kantrowitz 長期觀察矽谷權力結構與科技巨頭的內部運作，其報導以敏銳洞察技術與社會衝突點見長。在本文中，他深入探討了人工智能（AI）基礎設施擴張所面臨的嚴峻社會阻力，指出當前 AI 發展已從軟體競賽演變為一場關於物理空間、能源消耗與公眾信任的政治拉鋸戰。\n\n### 戰略背景與脈絡：從虛擬雲端到沉重的物理印記\n過去二十年，科技業的擴張大多發生在看不見的「雲端」，公眾對軟體與社交媒體的增長幾乎沒有物理感知。然而，隨著生成式 AI 的爆發，OpenAI 聯合創始人 Ilya Sutskever 曾預言的「地球表面將佈滿數據中心與太陽能板」正成為現實。這種規模的基礎設施建設，性質上已從「科技服務」轉向「重工業化」。當巨大的、消耗驚人電力與水源的數據中心直接坐落在居民區旁時，原本隱形的科技基礎設施變成了極具爭議的物理地標。根據皮尤研究中心（Pew Research）的最新調查，僅有 6% 的美國民眾認為 AI 基礎設施對鄰近社區有正面影響，這標誌著科技業與公眾之間存在著巨大的認知斷裂。\n\n### 作者的核心推演與論點：社會許可的崩塌\nAlex Kantrowitz 在文中引用了印第安納波利斯發生的極端事件——一名反數據中心的抗議者向立法者住所開火，並留下「不要數據中心」的字條。作者以此作為臨界點，論證 AI 的發展已撞上了「社會許可」（Social License）的牆。他的核心論點在於：AI 模型能力提升的速度，正與公眾的支持度呈反比。開發者需要更多的數據中心來訓練更強的模型，但模型越強大，公眾對其未來不確定性的恐懼就越深，進而轉化為對物理建設的全面抵制。目前，緬因州已計劃實施數據中心建設禁令直到 2027 年，而伯尼·桑德斯（Bernie Sanders）等政治人物也在推動全國性的暫緩擴張法案。這意味著，AI 的瓶頸正在從「GPU 產能」轉移到「地方政治」與「能源分配」。\n\n### 對整體市場、技術發展與地緣政治的長期影響\n這場反彈浪潮將對全球科技戰略產生深遠影響。首先，在市場層面，基礎設施建設的延期（預計今年有一半的數據中心可能延後上線）將大幅拉高 AI 企業的運營成本與准入門檻，算力優勢將轉化為資源統籌能力的對決。其次，在技術路徑上，這種物理限制可能迫使研發方向從「單純追求參數規模（Scaling Laws）」轉向「更高能效比」的算法革新，以減輕對基礎設施的依賴。最後，從地緣政治角度看，若美國境內因政治反彈而導致 AI 擴張放緩，這可能為其他國家提供趕超的窗口。然而，這本質上是全球性的「能源與數據平衡」問題。AI 的未來將不再僅取決於編碼能力，更取決於科技巨頭如何與當地社區對話，以及如何應對日益嚴峻的能源主權爭端。這條通往通用人工智能（AGI）的路徑，顯然比矽谷領袖們預想的要坎坷得多。",
       "insights": [
-        "OpenAI 選擇放棄 Sora 的消費者路徑，反映出 AGI 的競爭已進入算力極限分配階段，推理能力的優先級已全面壓倒多媒體生成的廣度。",
-        "Codex 的本質正在從「程式碼生成」轉向「電腦操作指令」，這預示著未來的用戶界面（UI）將被 AI 代理徹底消解，人類將透過自然語言直接控制所有現有軟體系統。",
-        "Brockman 提出「70-80% 已達成 AGI」的觀點，暗示技術瓶頸已不在於基礎能力的缺失，而是在於如何消除模型與人類意圖之間的最後幾公里摩擦力。"
+        "AI 發展的瓶頸已從硬體層（晶片）轉移至政治層（社會許可），地方居民對生活品質與能源分配的恐懼正成為阻斷算力擴張的核心變量。",
+        "「雲端」的隱形紅利已告終，數據中心被視為與石化工業、核電廠同等的「鄰避設施」（NIMBY），這將徹底重塑科技巨頭的公關與遊說戰略。",
+        "基礎設施建設的延誤率已達 50%，這暗示 AI 的增長曲線可能因物理世界的限制（如電力與土地）而提前進入平台期，而非無限上揚。"
       ]
     },
     "a16z": {
-      "title": "SF is back - and the tech social scene is being run by the terminally online | 舊金山回歸：由「重度網癮者」主導的科技社交新常態",
-      "source": "a16z News",
-      "url": "https://www.a16z.news/p/sf-is-back-and-the-tech-social-scene",
-      "analysis_zh": "本文源自 a16z News，作者為 a16z 新媒體團隊（New Media Team）的一員。作者透過自身從美國東岸重返舊金山的視角，精闢地觀察到這座科技重鎮在 AI 浪潮下的社交結構重組。文章的主旨在於：舊金山的社交基礎設施已不再由傳統的社交名流或大企業官僚掌握，而是徹底轉向了由「重度網癮者」（Terminally Online）主導的思想對接模式，這正從根本上重塑著信任建立、職業招聘乃至權力運作的底層邏輯。\n\n**戰略背景與脈絡**\n舊金山的科技地位在疫情期間曾一度遭到質疑，甚至出現了「矽谷已死」的論調。然而，隨著生成式 AI 的爆發，這座城市再次展現出強大的磁吸效應。但作者指出，這次「回歸」並非簡單的物理回歸，而是一場社交範式的革命。在 2020 年之前，矽谷的社交資本主要依賴於物理空間的鄰近性——無論是在 Sand Hill Road 的咖啡館、大型科技會議，還是透過領英（LinkedIn）或校友網絡的「溫馨介紹」（Warm Intros）。那是一個基於實體足跡、機構背書與傳統社交禮節的時代。然而，當科技精英在疫情後重聚舊金山，他們帶回來的不是舊的名片交換文化，而是深度嵌入數位原生社群的行為模式。現在的舊金山不僅是地理上的中心，更是 X（前 Twitter）演算法在實體世界中的延伸，這標誌著科技圈的社交基礎設施已完成徹底的數位轉型。\n\n**作者的核心推演與論點**\n作者引用了 Eugene Wei 的「社交即服務」（Status-as-a-Service）理論，指出任何社交場景的運作都依賴於「工作量證明」（Proof of Work）。在現代舊金山，這種工作量不再表現為出席了多少次無效的商務午餐，而是表現為你在數位空間中的思想產出。作者的核心邏輯在於：社交的「預處理」已經在線上完成了。\n首先，X 帳號成為了新的准入門檻。一個人的發帖紀錄就是其智力、品味與戰略眼光的動態履歷。透過長期的在線輸出，人們在未曾謀面之前就已經建立了深刻的智力互信。這導致了一種「互相關注」（Mutuals）文化的盛行。在這種文化下，社交鏈條發生了演進：X 建立認知 -> 私密群聊建立信任 -> Partiful 邀請函進行實體聚會。Partiful 的賓客名單甚至成了最有效的招聘渠道，因為頂尖人才不再主動投遞簡歷，而是出現在特定的數位圈子中。\n其次，實體聚會的功能發生了「倒置」。在傳統觀念中，聚會是為了結識陌生人；但在現在的舊金山，聚會是為了與「網路上已經認識很久的人」進行深度對接。作者形容這就像是「走進了互聯網」（Walking into the internet）。因為參與者在見面前就已經透過對方的貼文和播客深入了解其思維模式，實體聚會不再需要酒精或破冰活動作為潤滑劑，參與者可以直接進入最硬核的技術或戰略討論。這種模式極大地提高了社交的「訊噪比」。\n\n**對整體市場與技術發展的長期影響**\n這種「網癮者治城」的現象具有極強的領先指標意義。首先，它打破了傳統的層級與資歷藩籬。在 X 和 Substack 的世界裡，權力取決於思想的穿透力而非職位頭銜。這使得年輕的創業者能與資深投資人平起平坐，只要他們在同一個數位沙龍中展現出價值。這種高度扁平化且以思想為中心的社交網絡，將極大加速技術知識的迭代與人才流動的速度。\n其次，這預示著一種全球性的社交範式轉移：信任的建立將從「實體接觸後轉向線上」變為「線上高度同頻後轉向實體驗證」。對於整體市場而言，這意味著「影響力經濟」正深入到硬核科技的組織底層。如果你不在數位空間中發聲，你失去的不只是流量，而是進入核心信任網絡的「門票」。這種轉變雖然提升了效率，但也可能形成更具排他性的、基於演算法推薦的精英小圈子。舊金山的這種範式正預示著未來全球知識階層的社交標準：社交將不再是地理位置的「偶遇」，而是演算法精準匹配後的「思想面基」。",
+      "title": "Charts of the Week: Venture's $300B Quarter | 本週圖表：創投單季三千億美元新紀元",
+      "source": "a16z news",
+      "url": "https://www.a16z.news/p/charts-of-the-week-ventures-300b",
+      "analysis_zh": "本文源自全球頂尖風險投資機構 Andreessen Horowitz（a16z）的官方新聞平台 a16z news。作為「軟體吞噬世界」理論的提出者，a16z 在本文中透過詳盡的數據圖表，深度剖析了 2026 年第一季創投市場的爆炸性增長，並揭示了 AI 浪潮如何從單純的演算法競爭，轉向實體物理層與宏觀經濟鏈條的結構性重組。\n\n### 戰略背景與脈絡：三千億美元的歷史分水嶺\n2026 年第一季，全球創投市場創下了令人咋舌的 3000 億美元投資紀錄，與去年同期相比增長超過 150%。雖然市場直覺會將此歸功於 OpenAI、Anthropic、xAI 與 Waymo 這四大巨頭共 1880 億美元的「巨無霸型」融資，但本報告揭示了一個更深刻的趨勢：即使剔除這些極端值，單季超過 1100 億美元的投資額依然刷新了歷史多數年份的紀錄。這標誌著資金配置邏輯的徹底轉向——AI 相關企業獲取了 80% 的資金流向。然而，在種子輪階段，雖然總投資額上升，交易件數卻下降了 30%，這反映出市場已進入「精準重注」的高溢價時代，資本不再廣撒網，而是集中於具備極高技術門檻或資源壁壘的頭部項目。\n\n### 作者的核心推演：從位元到原子的「物理轉向」\n文章作者點出，這一波 AI 週期與過去二十年的「雲端與行動互聯網」週期有著本質上的不同。過去的創新大多停留在「位元（Bits）」層面的軟體邏輯，而當前的領先者——如開發晶片的 Cerebras、Rapidus，研發機器人的 Skild AI，以及自動駕駛系統 Wayve 和國防平台 Shield AI——正展現出強烈的「原子（Atoms）」屬性。這意味著 AI 的下半場競爭將依賴於工廠、晶圓廠與實體車隊。這種轉向不僅推高了融資門檻，也讓「資本密集型創新」重新成為科技競爭的核心戰場。\n\n另一個值得關注的戰略切點在於營造業的生產力悖論。自 1950 年代以來，美國建築業的勞動生產力幾乎原地踏步，甚至略低於 75 年前。這與整體經濟生產力成長三倍的趨勢形成強烈反差。高盛的研究數據顯示，營造業在 1960 年代後便停止了技術採納，多數機具仍停留在半個世紀前的水平。這不僅是住房負擔能力的根源，更是 AI 機器人與預製技術（Prefabrication）最巨大的萬億美元機會區，等待著技術驅動的徹底升級。\n\n### 長期影響：推論霸權與地緣政治的糧食危機\n在技術演進層面，報告修正了一個常見的誤區：認為 AI 基礎設施主要服務於「模型訓練」。根據 McKinsey 的模型預測，到 2030 年，「模型推論（Inference）」將取代訓練成為數據中心的需求主力，佔比將超過 40%，年複合增長率達 35%。這意味著半導體市場將翻倍成長至 1.6 兆美元，而增長的核心驅動力在於「運行模型」而非「構建模型」。當 AI 產品向數十億用戶普及時，算力競賽將從「智商上限」的競爭轉向「服務規模」的博弈。\n\n最後，在地緣政治維度，霍爾木茲海峽的局勢對全球供應鏈的衝擊呈現出隱蔽的第二階效應。儘管油價波動吸引了多數眼球，但化肥（氮肥與尿素）的供應鏈斷裂可能更具災難性。該地區承載了全球超過 25% 的氮肥產能與 20% 的液化天然氣原料。當運費與原料價格飆升，全球糧食產量將因農民無法支付高額肥價而下降。這提醒決策者，AI 時代的韌性不僅在於伺服器，更在於那些支撐基礎生活的傳統實體鏈條，地緣政治風險正透過最基礎的物質資源，反過來制約全球經濟的穩定性。",
       "insights": [
-        "社交工作的前置化：實體活動的成功不再取決於場地或餐點，而是取決於參與者是否已在線上完成深度智力對接；實體聚會僅是線上共識的「高頻驗證」。",
-        "「工作量證明」的數位轉型：在現代矽谷，一個高質量的 X 帳號或播客產出，其戰略價值已遠超傳統履歷或學位，因為它提供了可追溯的思想厚度與社交資產。",
-        "權力結構的扁平化：數位原生社交模式打破了傳統的科層制度，使社交圈不再基於「職位等級」而是基於「思想同頻」，這將加速科技資源向最具思想活力的個體聚集。"
+        "創投市場呈現「資金集中度極大化」：種子輪件數下降三成但金額上升，顯示資本已放棄廣泛試錯，轉向支持具備高資本門檻與物理資產的實體 AI 項目。",
+        "AI 算力經濟學即將反轉：到 2030 年，模型推論（Inference）的需求增速將遠超訓練，半導體產業的未來增長點在於數十億用戶的日常調用而非單次的大型模型開發。",
+        "建設業與農業是 AI 轉型的「隱形金礦」：營造業 75 年來的生產力停滯是當前最大的經濟失靈，而地緣政治引發的化肥危機則凸顯了傳統物理鏈條對現代科技社會的制約力。"
       ]
     },
     "Lenny's Newsletter": {
@@ -258,14 +258,14 @@
       ]
     },
     "馬斯克帝國觀察": {
-      "title": "Musk Empire Observation #54: SpaceX Confidentially Files for IPO + Tesla Q1 Delivery Data | 【馬斯克帝國觀察】#54 SpaceX 秘密提交 IPO + 特斯拉 Q1 交車數據",
-      "source": "馬斯克帝國 (Musk Empire)",
-      "url": "https://muskempire0628.substack.com/p/54-spacex-ipo-q1-20260403",
-      "analysis_zh": "本文引自《馬斯克帝國觀察》，該專欄是由深入研究馬斯克企業生態的分析團隊所撰寫，旨在提供讀者關於 Tesla、SpaceX、Neuralink 等前沿科技公司的第一手觀察與深度解析。本篇文章聚焦於 2026 年第一季度的關鍵轉折點，包括 SpaceX 震撼性的 IPO 秘密申報、Tesla 的產銷數據落差與自動駕駛技術的都市化推進，以及 Neuralink 在醫療臨床上感人至深的突破。\n\n**戰略背景與脈絡**\n2026 年初，馬斯克帝國正處於一個「從封閉走向透明、從實驗走向全面商業化」的十字路口。SpaceX 秘密提交 IPO 申請，標誌著這家被視為人類未來希望的航太巨頭，終於決定擁抱公開資本市場。這不僅是為了募集高達 750 億美元的資金以支撐火星移民計畫與 Starship 的後續開發，更是 Starlink 衛星網絡業務進入爆發式成長後的財務收割期。與此同時，Tesla 雖然在 Q1 的交車數據上略低於華爾街預期，反映出電動車市場競爭的加劇，但其技術焦點已明顯轉移至 Robotaxi 與第三代 Optimus 機器人。這說明馬斯克正試圖將 Tesla 的估值邏輯從「硬體製造」徹底轉向「人工智慧實體化」，利用奧斯汀市中心的無人駕駛擴張，展示其 L4 級自動駕駛在複雜環境中的成熟度。\n\n**核心推演與論點：第一性原理的勝利**\n文中特別提到馬斯克對「不鏽鋼星艦」與「非專業出身」的堅持，這正是他最核心的戰略推演框架：第一性原理（First Principles）。當航太工業普遍迷信碳纖維等昂貴複合材料時，馬斯克從物理本質出發，選擇了在低溫下強度增加且耐高溫、易焊接的不鏽鋼。這種決定在當時看來是「瘋狂」的，但如今卻成為 Starship 能夠快速迭代與低成本生產的關鍵。馬斯克的論點在於，傳統產業的慣性往往成為創新的阻礙；正是因為他不具備航太背景，才能打破既有的成本與技術瓶頸。此外，Neuralink 的「VOICE」試驗成功，讓失語四年的 ALS 患者重新「開口」，這證明了馬斯克在神經科學領域的投資正迅速跨越實驗階段，邁向改善人類生命品質的實際應用，展現了其企業帝國在技術演進路徑上的極高一致性——即通過極致的工程化實現科幻般的願景。\n\n**對整體市場、技術發展與地緣政治的長期影響**\nSpaceX 若能以超過 1.75 兆美元的估值成功上市，將重新定義全球資本市場對「太空經濟」的想像空間。馬斯克將成為史上首位同時掌管兩家兆美元市值公司的領導者，這賦予了他超越許多國家的地緣政治影響力。Starlink 的全球通訊布局與 SpaceX 的軌道壟斷地位，將使未來十年的太空競爭進入「馬斯克標準」時代。在 AI 領域，OpenAI 在二級市場的乏人問津與 Anthropic 的受寵，預示著純軟體 AI 的估值泡沫正在破裂，投資人開始尋找更具效率或更具實體應用場景的解決方案。Tesla 的 Robotaxi 若能在奧斯汀等高密度城市成功商業化，將徹底顛覆都市交通結構與勞動力市場。總結而言，馬斯克帝國正通過硬體（SpaceX/Tesla）、連結（Starlink/X）與人機融合（Neuralink/xAI）建立一個全方位的科技霸權，這將對人類文明的演進產生不可逆的深遠影響。",
+      "title": "【Musk Empire Observer】#55 Intel Joins Terafab + What Models Colossus 2 is Training? | 【馬斯克帝國觀察】#55 Intel 正式加入 Terafab 計畫 + Colossus 2 在訓練哪些模型？",
+      "source": "馬斯克帝國觀察 (Musk Empire Observer)",
+      "url": "https://muskempire0628.substack.com/p/55-intel-terafab-colossus-2-20260410",
+      "analysis_zh": "這篇深度分析報告源自《馬斯克帝國觀察》電子報第 55 期，該媒體長期聚焦於埃隆·馬斯克旗下企業的高度協同與戰略連動。本期內容揭示了馬斯克帝國如何透過 Intel 的正式加盟，將其觸角從軟體、航太延伸至半導體製造的最底層，試圖建構一個完全自主且垂直整合的運算霸權。\n\n**戰略背景與脈絡**\n在 2026 年的這個時間點，全球 AI 競賽已從純粹的模型算法開發，演進為對「算力主權」的極致爭奪。Intel 宣布加入 Terafab 計畫，不僅是兩家科技巨頭的聯手，更標誌著馬斯克試圖顛覆現有的半導體代工模式。Terafab 的核心目標是每年產出高達 1 TW（Terawatt）的運算能力，將邏輯晶片、記憶體與先進封裝技術整合在同一設施內。這種「垂直整合」的思路一脈相承於 Tesla 的工廠設計與 SpaceX 的火箭研發，其戰略意圖在於消除外部供應鏈的不確定性，為未來機器人（Optimus）與全自動駕駛（FSD）提供廉價且無限的能源級算力支援。Intel 的加入為此提供了最關鍵的製造基石，試圖在美國本土重新定義矽晶圓製造的效率極限。\n\n**作者的核心推演與論點**\n作者在文中透過技術與財務兩個維度，展示了馬斯克帝國的激進擴張邏輯。首先，在技術維度上，Tesla FSD v14.3 透過 MLIR 編譯器框架的重寫，實現了反應速度 20% 的飛躍。這證明了馬斯克不僅在硬體上尋求突破，更在軟體底層結構上追求極致的硬體匹配，這也是其能承諾 V15 版本將超越人類安全水平的底氣。其次，在財務維度上，SpaceX 併入 xAI 後出現的 50 億美元淨虧損，揭示了一個大膽的財務戰略：馬斯克正將 SpaceX 的強大現金流（特別是 Starlink 帶來的衛星電信收入）全數灌注到 AI 基礎設施的建設中。即便短期財務數據堪憂，但其換取的是 Colossus 2 超級電腦的快速穩定與高達 10T 參數規模模型的訓練能力。作者特別強調了「智能密度」的概念，指出 Grok 在較小參數規模下展現的強大推理能力，挑戰了「參數至上」的傳統 AI 開發路徑。\n\n**對整體市場、技術與地緣政治的長期影響**\n從長遠來看，馬斯克帝國正逐漸演變成一個具備「主權特徵」的技術實體。xAI 在科羅拉多州對 AI 監管法案 SB24-205 的挑戰，其影響力遠超法律範疇。這是一場關於 AI 是否應具備「政治正確」意識形態的核心辯論，馬斯克堅持的「最大化尋求真相」原則，預示了未來 AI 發展將出現「真實路徑」與「合規路徑」的深刻分歧。在地緣政治上，Intel 與馬斯克的聯手強化了美國本土在先進 AI 晶片製造上的韌性。而 Cybercab 在德州超級工廠的量產與「Unboxed」製程的應用，則可能在未來三年內徹底摧毀傳統汽車製造業的成本結構。當 Starlink 與行動通訊完美結合、當 AI 能夠協助處理複雜法律訴訟、當運算能力變得如同水電般廉價時，我們所見證的不僅是一家企業的擴張，而是馬斯克如何利用其帝國資源，強制性地將人類社會推向一個算力驅動的新紀元。",
       "insights": [
-        "SpaceX 棄碳纖維轉用不鏽鋼的決策，證明了「第一性原理」在跨越極端工程瓶頸時，能產生遠超行業常規的成本與速度優勢。",
-        "特斯拉將 Robotaxi 測試範圍擴展至奧斯汀市中心，標誌著自動駕駛已從封閉或郊區低密度環境，進入高複雜度都市商業化的實戰階段。",
-        "OpenAI 二級市場流動性枯竭與 Anthropic 的受捧，揭示了生成式 AI 領域正經歷從「品牌迷思」轉向「獲利能力與競爭效率」的嚴酷估值重塑。"
+        "馬斯克正實施「跨產業算力補貼」戰略，利用 SpaceX/Starlink 的強大現金流來對沖 AI 研發的高昂成本，使其在算力競賽中具備極高的抗風險能力。",
+        "FSD v14.3 對 MLIR 編譯器的底層重寫，標誌著自動駕駛競爭已進入「微秒級」效率優化階段，單純依賴增加數據量已不再是提升安全性的唯一路徑。",
+        "xAI 針對科羅拉多州 AI 法案的訴訟，預示了未來 AI 發展的意識形態之爭：是追求政府定義的「算法公平」，還是追求不受限制的「客觀真實」。"
       ]
     }
   }
