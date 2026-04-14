@@ -1,194 +1,194 @@
 {
-  "fetch_date": "2026-04-13",
+  "fetch_date": "2026-04-14",
   "techmeme": [
     {
-      "title_en": "For the first time, 50% of employed US adults say they use AI at work a few times per year or more; leaders are more likely to see AI's impact as positive (Andy Kemp/Gallup)",
-      "url": "https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx",
-      "summary_en": "<A HREF=\"https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i8.jpg\"></A>\n<P><...",
-      "title_zh": "全美 50% 在職成年人首次表示，他們每年至少會在工作中使用 AI 幾次；領導者更傾向於將 AI 的影響視為正面",
-      "summary_zh": "根據 Gallup 的最新調查，美國勞動力對 AI 的採用率正在穩步上升，這正促使職場環境與管理策略發生顯著變化。"
+      "title_en": "Voters in Festus, Missouri, ousted all four incumbent council members running for reelection last week, days after the council's approval of a $6B data center (Jeff Tomich/Politico)",
+      "url": "https://www.politico.com/news/2026/04/13/missouri-city-council-data-center-00867259",
+      "summary_en": "<A HREF=\"https://www.politico.com/news/2026/04/13/missouri-city-council-data-center-00867259\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i34.jpg\"></A>\n<P><...",
+      "title_zh": "密蘇里州費斯特斯市選民在上週罷免了所有四名競選連任的現任市議員，此前該議會剛批准了一項耗資 60 億美元的數據中心計畫。",
+      "summary_zh": "在密蘇里州費斯特斯市（Festus），選民對一項價值 60 億美元的數據中心計畫表示不滿。就在市議會批准該計畫的幾天後，參與連任競選的四名現任議員全部落選。"
     },
     {
-      "title_en": "A profile of the Biological Computing Company, which uses living neurons to build AI chips and algorithms, and emerged from stealth in February with a $25M seed (Nat Rubio-Licht/The Deep View)",
-      "url": "https://www.thedeepview.com/articles/ai-s-next-big-chip-bet-may-be-biological",
-      "summary_en": "<A HREF=\"https://www.thedeepview.com/articles/ai-s-next-big-chip-bet-may-be-biological\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i7.jpg\"></A>\n<P><A HREF=...",
-      "title_zh": "「生物運算公司」專訪：利用活體神經元構建 AI 晶片與演算法，該公司於 2 月以 2,500 萬美元種子輪融資正式亮相",
-      "summary_zh": "生物運算可能成為 AI 晶片的下一個大賭注。這家公司正嘗試利用實驗室培養的神經元來處理資訊，試圖突破傳統矽晶片的物理極限。"
+      "title_en": "Oracle expands its partnership with fuel cell maker Bloom to procure up to 2.8 GW of capacity, after receiving a warrant to purchase $400M of Bloom stock (Jordan Novet/CNBC)",
+      "url": "https://www.cnbc.com/2026/04/13/oracle-expands-bloom-energy-deal-days-after-400-million-stock-warrant.html",
+      "summary_en": "<A HREF=\"https://www.cnbc.com/2026/04/13/oracle-expands-bloom-energy-deal-days-after-400-million-stock-warrant.html\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26...",
+      "title_zh": "Oracle 在獲得購買價值 4 億美元 Bloom 股票的認股權證後，擴大與燃料電池製造商 Bloom 的合作夥伴關係，將採購高達 2.8 GW 的電力容量。",
+      "summary_zh": "Oracle 正式加強與 Bloom Energy 的合作，預計將獲取高達 2.8 GW 的電力供應，這是在 Oracle 獲得 4 億美元股票認股權證幾天後達成的協議。"
     },
     {
-      "title_en": "Law firms say lawyers are spending more time responding to swaths of AI-generated client documents, potentially leading firms to raise fixed-fee contract prices (Elizabeth Bratton/Financial Times)",
-      "url": "https://www.ft.com/content/744d2c77-a34e-4ca0-9f0e-ce8cdcdee483",
-      "summary_en": "<A HREF=\"https://www.ft.com/content/744d2c77-a34e-4ca0-9f0e-ce8cdcdee483\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i6.jpg\"></A>\n<P><A HREF=\"http://www.te...",
-      "title_zh": "法律事務所表示，律師花費更多時間處理大量的 AI 生成文件，可能迫使事務所調高固定費用合約價格",
-      "summary_zh": "隨著 AI 生成內容的增加，法律專業人士面臨著審核和校對自動化文件的龐大工作量，這正衝擊著傳統律師事務所的定價與營運模式。"
+      "title_en": "Daniel Moreno-Gama, a 20-year-old Texas man accused of throwing a Molotov cocktail at Sam Altman's home, is charged with attempted murder and attempted arson (Hadas Gold/CNN)",
+      "url": "http://www.cnn.com/2026/04/13/tech/sam-altman-openai-arrest-charges",
+      "summary_en": "<A HREF=\"http://www.cnn.com/2026/04/13/tech/sam-altman-openai-arrest-charges\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i32.jpg\"></A>\n<P><A HREF=\"http://w...",
+      "title_zh": "一名涉嫌向 Sam Altman 住家投擲汽油彈的 20 歲德州男子 Daniel Moreno-Gama，被控企圖謀殺和企圖縱火。",
+      "summary_zh": "一名德州男子因涉嫌向 OpenAI 執行長 Sam Altman 的住所投擲燃燒裝置，目前面臨企圖謀殺和縱火罪名的指控。"
     },
     {
-      "title_en": "Sources: SoftBank, Sony, Honda, and six other Japanese companies launch a new AI company to develop a 1T-parameter foundation model for \"physical AI\" by 2030 (Natsuki Yamamoto/Nikkei Asia)",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-softbank-launches-unit-to-develop-homegrown-ai",
-      "summary_en": "<A HREF=\"https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-softbank-launches-unit-to-develop-homegrown-ai\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www...",
-      "title_zh": "消息人士：軟銀、索尼、本田等九家日本企業聯手成立新 AI 公司，目標在 2030 年前開發出 1 兆參數的「實體 AI」基礎模型",
-      "summary_zh": "日本企業正集結資源以追趕 AI 浪潮，軟銀領導的這一聯盟旨在開發專為機器人與自動化設備設計的國產大語言模型。"
+      "title_en": "Sources: data labeling startup Handshake's gross annualized revenue hit ~$1B, vs. $550M in January; Mercor hit a $1B+ gross annualized revenue pace this year (The Information)",
+      "url": "https://www.theinformation.com/articles/handshake-mercor-revenue-surges-demand-human-contractors-train-ai",
+      "summary_en": "<A HREF=\"https://www.theinformation.com/articles/handshake-mercor-revenue-surges-demand-human-contractors-train-ai\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260...",
+      "title_zh": "消息人士：數據標記新創公司 Handshake 的年度總營收達到約 10 億美元，而 1 月時僅為 5.5 億美元；Mercor 今年的年度總營收成長率也突破 10 億美元。",
+      "summary_zh": "隨著對訓練 AI 所需的人力合約需求激增，數據標記公司 Handshake 和 Mercor 的營收大幅增長，展現出 AI 基礎設施產業的強勁動能。"
     },
     {
-      "title_en": "Sources: Meta is building photorealistic, AI-powered 3D characters; Mark Zuckerberg helped train and test an AI version of himself that offers feedback to staff (Financial Times)",
-      "url": "http://www.techmeme.com/260413/p4#a260413p4",
-      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260413/p4#a260413p4\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> <A HR...",
-      "title_zh": "消息人士：Meta 正開發照片級寫實的 AI 驅動 3D 角色；馬克·祖克柏親自測試自己的 AI 版本並提供回饋",
-      "summary_zh": "Meta 在虛擬人技術上取得新進展，透過 AI 創造出栩栩如生的 3D 形象。祖克柏甚至參與訓練數位分身，以協助公司內部團隊的溝通與協作。"
+      "title_en": "AI penetration testing company CodeWall says its agent was able to hack into one of Bain's internal AI tools, following a similar hack at McKinsey in March (Ellesheva Kissin/Financial Times)",
+      "url": "https://www.ft.com/content/e73ddecf-8c41-4ecb-ada3-77a163c8d69f",
+      "summary_en": "<A HREF=\"https://www.ft.com/content/e73ddecf-8c41-4ecb-ada3-77a163c8d69f\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i30.jpg\"></A>\n<P><A HREF=\"http://www.t...",
+      "title_zh": "AI 滲透測試公司 CodeWall 表示，其代理程式成功入侵了貝恩策略顧問（Bain）的一項內部 AI 工具，此前麥肯錫（McKinsey）在 3 月也曾發生類似的遭駭事件。",
+      "summary_zh": "CodeWall 的 AI 代理程式成功突破了貝恩公司的內部防禦，這突顯了企業在使用生成式 AI 工具時面臨的資安風險。"
     },
     {
-      "title_en": "Analysis: US state lawmakers introduced 12 data center moratorium bills in 2026, 11 stalled or voted out, with a Maine bill set for a final vote on April 15 (Ellen Thomas/Business Insider)",
-      "url": "https://www.businessinsider.com/maine-pause-ai-data-centers-national-debate-states-2026-4",
-      "summary_en": "<A HREF=\"https://www.businessinsider.com/maine-pause-ai-data-centers-national-debate-states-2026-4\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i3.jpg\"></A>...",
-      "title_zh": "分析：2026 年美國各州共提出 12 項數據中心暫緩建設法案，其中 11 項已停滯或遭否決，緬因州法案將於 4 月 15 日投票",
-      "summary_zh": "隨著 AI 需求導致能源與資源消耗激增，美國各州對於是否暫停數據中心擴張展開了激烈辯論，但多數限制提案目前仍難以過關。"
+      "title_en": "Roblox says developers will need Roblox Plus, a new $4.99-per-month subscription offering benefits like discounts, to publish games for Kids and Select accounts (Aisha Malik/TechCrunch)",
+      "url": "https://techcrunch.com/2026/04/13/roblox-introduces-kids-and-select-accounts-for-age-appropriate-access-to-games-and-chat/",
+      "summary_en": "<A HREF=\"https://techcrunch.com/2026/04/13/roblox-introduces-kids-and-select-accounts-for-age-appropriate-access-to-games-and-chat/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www...",
+      "title_zh": "Roblox 表示，開發者若要為「兒童（Kids）」和「精選（Select）」帳戶發布遊戲，將需要訂閱每月 4.99 美元的 Roblox Plus，該服務提供折扣等福利。",
+      "summary_zh": "Roblox 推出了新的訂閱服務 Roblox Plus，旨在加強內容管理，並要求開發者支付費用以接觸特定的分齡受眾。"
     },
     {
-      "title_en": "Ornn Compute Price Index: renting one Nvidia Blackwell GPU for an hour now costs $4.08, up 48% from $2.75 two months ago, driven by agentic AI demand (Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/ai/ai-is-using-so-much-energy-that-computing-firepower-is-running-out-156e5c85",
-      "summary_en": "<A HREF=\"https://www.wsj.com/tech/ai/ai-is-using-so-much-energy-that-computing-firepower-is-running-out-156e5c85\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26041...",
-      "title_zh": "Ornn 運算價格指數：租用 Nvidia Blackwell GPU 時薪已達 4.08 美元，受代理型 AI 需求推動，兩個月內大漲 48%",
-      "summary_zh": "AI 消耗的電力與算力資源正迅速枯竭，導致高效能運算資源供不應求。Nvidia 最新一代 Blackwell 晶片的租賃價格正反映了市場的極度渴望。"
+      "title_en": "Microsoft raises prices for Surface PCs, with Laptop 7 and Pro 11 now starting at $500 more than at their 2024 launch, citing higher memory and component costs (Zac Bowden/Windows Central)",
+      "url": "https://www.windowscentral.com/hardware/surface/microsoft-reveals-major-price-increases-for-all-surface-pro-laptop-pcs-as-ram-crisis-continues",
+      "summary_en": "<A HREF=\"https://www.windowscentral.com/hardware/surface/microsoft-reveals-major-price-increases-for-all-surface-pro-laptop-pcs-as-ram-crisis-continues\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RI...",
+      "title_zh": "微軟調漲 Surface PC 價格，Laptop 7 和 Pro 11 的起售價比 2024 年上市時調高了 500 美元，理由是記憶體和零組件成本上漲。",
+      "summary_zh": "由於記憶體價格危機持續，微軟大幅調升了其最新一代 Surface 產品線的售價，最高漲幅達到 500 美元。"
     },
     {
-      "title_en": "Shenzhen-listed server PCB maker Victory Giant plans an April 21 Hong Kong listing, aiming to raise as much as $2.2B; the company was valued at $37B on April 10 (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-12/china-s-victory-giant-seeks-up-to-2-2-billion-in-hong-kong-listing",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-12/china-s-victory-giant-seeks-up-to-2-2-billion-in-hong-kong-listing\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.tech...",
-      "title_zh": "深交所伺服器 PCB 大廠勝宏科技計畫 4 月 21 日在香港上市，目標籌資 22 億美元；公司估值達 370 億美元",
-      "summary_zh": "受惠於 AI 伺服器供應鏈需求，中國勝宏科技正尋求在香港進行大規模融資，以進一步擴大其在全球市場的生產競爭力。"
+      "title_en": "Filing: Anthropic hired Ballard Partners, a lobbying firm with strong Trump administration ties, days after the DOD designated the startup a supply chain risk (Bloomberg)",
+      "url": "http://www.techmeme.com/260413/p27#a260413p27",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260413/p27#a260413p27\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> <A ...",
+      "title_zh": "文件顯示：在美國國防部將 Anthropic 列為供應鏈風險幾天後，這家 AI 新創公司聘請了與川普政府關係密切的遊說公司 Ballard Partners。",
+      "summary_zh": "面對美國國防部的安全審查壓力，Anthropic 正在加強其在華府的政治影響力，尋求緩解供應鏈風險認定帶來的影響。"
     },
     {
-      "title_en": "Sources: the US FTC is in settlement talks with ad companies to end an antitrust probe into their alleged coordinated boycotts against sites like Elon Musk's X (Suzanne Vranica/Wall Street Journal)",
-      "url": "https://www.wsj.com/business/media/ftc-in-settlement-talks-with-ad-companies-in-boycott-probe-99f687e9",
-      "summary_en": "<A HREF=\"https://www.wsj.com/business/media/ftc-in-settlement-talks-with-ad-companies-in-boycott-probe-99f687e9\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260412...",
-      "title_zh": "消息人士：美國 FTC 正與廣告公司洽談和解，以結束針對其涉嫌聯合抵制馬斯克旗下 X 平台的反壟斷調查",
-      "summary_zh": "聯邦貿易委員會正針對廣告商集體退出特定社群平台的行為進行深入調查，旨在釐清是否存在損害競爭的非法共謀行為。"
+      "title_en": "Anthropic says its $20M donation to Public First Action is not \"to influence federal elections\" but is to educate the public on AI policy and promote safe AI (Veronica Irwin/Transformer)",
+      "url": "https://www.transformernews.ai/p/anthropic-super-pac-donations-public-first-leading-the-future-brad-carson",
+      "summary_en": "<A HREF=\"https://www.transformernews.ai/p/anthropic-super-pac-donations-public-first-leading-the-future-brad-carson\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/26...",
+      "title_zh": "Anthropic 表示其向 Public First Action 捐贈的 2,000 萬美元並非為了「影響聯邦選舉」，而是為了向大眾普及 AI 政策並推廣 AI 安全。",
+      "summary_zh": "Anthropic 澄清其政治捐款的意圖，強調重點在於 AI 治理與政策教育，而非直接干預選舉結果。"
     },
     {
-      "title_en": "Sources: the US' AI chip export push risks being undermined by licensing bottlenecks, staff attrition, and unclear policy at the Bureau of Industry and Security (Maggie Eastland/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-10/trump-s-ai-chip-export-push-stymied-by-bureaucratic-bottleneck?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NTg0MTgyMSwiZXhwIjoxNzc2NDQ2NjIxLCJhcnRpY2xlSWQiOiJUN0hURjdLSkg2VjQwMCIsImJjb25uZWN0SWQiOiJDQkM2RjBDQjdBRDc0QTQ3OEVBMzM4MDVGQzZBQUVBQSJ9.9i45Mtilt5wPsqtKkXFSxNKxejIp7OpbQqZQc4mqd_U",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-10/trump-s-ai-chip-export-push-stymied-by-bureaucratic-bottleneck?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVy...",
-      "title_zh": "消息人士：美國 AI 晶片出口推動力面臨授權瓶頸、人才流失及工業與安全局（BIS）政策不明確等風險",
-      "summary_zh": "儘管美國政府致力於控制高階技術流向，但官僚體系的審核效率問題與模糊的政策執行，正成為這項核心戰略的阻礙。"
+      "title_en": "Xbox staff memo: Microsoft's gaming chief Asha Sharma says \"Game Pass has become too expensive for players\" and that Microsoft needs \"a better value equation\" (Tom Warren/The Verge)",
+      "url": "https://www.theverge.com/tech/911182/microsoft-xbox-game-pass-too-expensive-leaked-memo?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdwUTRQVkZIMXAiLCJwIjoiL3RlY2gvOTExMTgyL21pY3Jvc29mdC14Ym94LWdhbWUtcGFzcy10b28tZXhwZW5zaXZlLWxlYWtlZC1tZW1vIiwiZXhwIjoxNzc2NTM0MDg5LCJpYXQiOjE3NzYxMDIwODl9.BqW9oukeengJuKayrwTRHJhtXwfbIA-Y6caQ9wzuoGw&utm_medium=gift-link",
+      "summary_en": "<A HREF=\"https://www.theverge.com/tech/911182/microsoft-xbox-game-pass-too-expensive-leaked-memo?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdwUTRQVkZIMXAiLCJwIjoiL3RlY2gvOTExMTgyL21pY3Jvc29mdC14Ym94LWd...",
+      "title_zh": "Xbox 內部備忘錄：微軟遊戲主管 Asha Sharma 表示「Game Pass 對玩家來說已經太貴了」，微軟需要「更好的價值公式」。",
+      "summary_zh": "一份外洩的內部郵件顯示，微軟高層正重新審視 Xbox Game Pass 的定價策略，承認目前的價格可能已超出許多玩家的負擔能力。"
     },
     {
-      "title_en": "Anthropic debuts Claude for Word in beta, adding AI editing tools and clickable citations, targeting document-heavy workflows, for Team and Enterprise users (Tristan Anthony/Business Insider)",
-      "url": "https://www.businessinsider.com/anthropic-claude-microsoft-word-lawyers-2026-4",
-      "summary_en": "<A HREF=\"https://www.businessinsider.com/anthropic-claude-microsoft-word-lawyers-2026-4\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260412/i11.jpg\"></A>\n<P><A HRE...",
-      "title_zh": "Anthropic 推出 Claude for Word Beta 版，為企業用戶增加 AI 編輯工具與引用功能，鎖定文書繁重的工作流程",
-      "summary_zh": "Anthropic 將 AI 能力直接整合進 Microsoft Word，旨在協助律師與企業專業人士更高效地生成與校對專業文件。"
+      "title_en": "Amazon unveils the Amazon Leo Aviation Antenna, saying it can deliver up to 1 Gbps download and 400 Mbps upload speeds \"simultaneously\" for in-flight Wi-Fi (Michael Kan/PCMag)",
+      "url": "https://www.pcmag.com/news/amazon-leo-shows-off-in-flight-wi-fi-antenna-that-will-take-on-starlink",
+      "summary_en": "<A HREF=\"https://www.pcmag.com/news/amazon-leo-shows-off-in-flight-wi-fi-antenna-that-will-take-on-starlink\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i24...",
+      "title_zh": "亞馬遜發表 Amazon Leo 航空天線，宣稱能為機上 Wi-Fi 提供高達 1 Gbps 的下載和 400 Mbps 的上傳速度，且兩者可「同時」達成。",
+      "summary_zh": "亞馬遜推出新款低軌衛星（LEO）天線，直接挑戰 Starlink 在飛機上網市場的地位，承諾提供更高速的機上連網體驗。"
     },
     {
-      "title_en": "Police report: Sam Altman's home appears to have been targeted in a second attack after a gun appeared to have been fired at his home from a car early Sunday (Jonah Owen Lamb/The San Francisco ...)",
-      "url": "https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/",
-      "summary_en": "<A HREF=\"https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260412/i10.jpg\"></A>\n<P><A HREF=\"...",
-      "title_zh": "警方報告：Sam Altman 住宅疑似遭到第二次襲擊，週日清晨有人疑似從車內向其住宅開火",
-      "summary_zh": "OpenAI 執行長 Sam Altman 的個人安全再度引發關注，這已是近期內發生的第二起針對其住處的惡意攻擊事件。"
+      "title_en": "Internal memo: OpenAI Chief Revenue Officer says Anthropic is \"grossing up rev share with Amazon and Google\", which overstates its \"run rate by roughly $8B\" (Hayden Field/The Verge)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic",
+      "summary_en": "<A HREF=\"https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i2...",
+      "title_zh": "內部備忘錄：OpenAI 營收長表示 Anthropic 正與亞馬遜及 Google「浮報營收分成」，這使其「營收跑率虛報了約 80 億美元」。",
+      "summary_zh": "OpenAI 高層在內部備忘錄中質疑競爭對手 Anthropic 的財務數據，指控其透過會計手法誇大營收規模。"
     },
     {
-      "title_en": "A look at the escalating global AI arms race, as the US, China, Russia, and others rush to build AI-backed autonomous weapons and defense systems (New York Times)",
-      "url": "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html?unlocked_article_code=1.alA.D38g.BbVsWIFlapTr&smid=url-share",
-      "summary_en": "<A HREF=\"https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html?unlocked_article_code=1.alA.D38g.BbVsWIFlapTr&smid=url-share\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\"...",
-      "title_zh": "全球 AI 軍備競賽升級：美、中、俄等國競相研發 AI 驅動的自動化武器與防禦系統",
-      "summary_zh": "大國之間的技術競爭已延伸至戰場應用，無人化與自主化武器的快速發展，正引發全球安全架構與戰爭倫理的深刻討論。"
+      "title_en": "Shares of Dell and HP jump after a report said Nvidia \"has been in negotiations for over a year to buy a large company and it will reshape the PC landscape\" (Bloomberg)",
+      "url": "http://www.techmeme.com/260413/p22#a260413p22",
+      "summary_en": "<P><A HREF=\"http://www.techmeme.com/260413/p22#a260413p22\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> <A ...",
+      "title_zh": "戴爾（Dell）和惠普（HP）股價飆升，此前有報導稱 NVIDIA「已進行了一年多的談判以收購一家大公司，這將重塑 PC 市場格局」。",
+      "summary_zh": "市場傳出 NVIDIA 正在醞釀一場重大的收購案，可能徹底改變個人電腦產業的現狀，帶動相關硬體大廠股價上漲。"
     },
     {
-      "title_en": "A deep dive into the debate about Claude Mythos Preview, the model's capabilities, attempts to refute Anthropic's claims, and what it means for the future of AI (Zvi Mowshowitz/Don't Worry About the Vase)",
-      "url": "https://thezvi.substack.com/p/claude-mythos-2-cybersecurity-and",
-      "summary_en": "<A HREF=\"https://thezvi.substack.com/p/claude-mythos-2-cybersecurity-and\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260412/i8.jpg\"></A>\n<P><A HREF=\"http://www.te...",
-      "title_zh": "深度解析 Claude Mythos 預覽版爭議：模型實力、網路安全能力質疑，以及這對 AI 未來的意義",
-      "summary_zh": "針對 Anthropic 最新發布的 Claude Mythos 模型，專家們正就其性能聲稱與真實防禦能力展開激烈辯論。"
+      "title_en": "Intel added $100B+ in market value and now has a $325B+ market cap after its stock jumped 53% in nine sessions on plans to buy a fab in Ireland and join Terafab (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-13/intel-s-100-billion-april-rally-makes-it-market-s-hottest-stock",
+      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-13/intel-s-100-billion-april-rally-makes-it-market-s-hottest-stock\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmem...",
+      "title_zh": "Intel 在 9 個交易日內股價飆升 53%，市值增加超過 1,000 億美元，目前市值突破 3,250 億美元，此前該公司計畫購買愛爾蘭的一家晶圓廠並加入 Terafab。",
+      "summary_zh": "Intel 在 4 月份展現強勁漲勢，成為市場上最受關注的科技股之一，其擴張計畫重新燃起了投資者的信心。"
     },
     {
-      "title_en": "As weather betting grows on prediction markets, climate experts are debating whether it improves forecasts by aggregating knowledge or is simply a zero-sum game (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-10/what-are-weather-prediction-markets-and-do-they-work?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NTgxNzkwMSwiZXhwIjoxNzc2NDIyNzAxLCJhcnRpY2xlSWQiOiJURDlLTzZLSUpISUQwMCIsImJjb25uZWN0SWQiOiI2MEQzNDM5MDc2NEI0OERBODI1MTY2Qzg4QzBBQURGQyJ9.RKEumtC7unK7Qi8GjxD4TapW8NSieKXVOl7_dj401z0",
-      "summary_en": "<A HREF=\"https://www.bloomberg.com/news/articles/2026-04-10/what-are-weather-prediction-markets-and-do-they-work?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQX...",
-      "title_zh": "預測市場的天氣投注升溫，專家辯論這能改善預報準確率，還是僅是一場零和遊戲",
-      "summary_zh": "氣候預測市場的興起引發了廣泛討論：究竟集體智慧能提供更精準的天氣資訊，還是這只是另一種投機形式？"
+      "title_en": "Cybersecurity analysis: Claude Mythos Preview had a 73% success rate on expert-level capture-the-flag challenges, which no model could finish before April 2025 (AI Security Institute)",
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "summary_en": "<A HREF=\"https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/260413/i20.jpg\"></A>...",
+      "title_zh": "資安分析：Claude Mythos Preview 在專家級奪旗賽（CTF）挑戰中擁有 73% 的成功率，而在此前的 2025 年 4 月前，沒有任何模型能完成這些挑戰。",
+      "summary_zh": "英國 AI 安全研究院的評估顯示，Anthropic 的新模型在網路攻防能力上有顯著突破，這也引發了對 AI 潛在資安風險的關注。"
     }
   ],
   "wsj": [
     {
-      "title_en": "AI Is Using So Much Energy That Computing Firepower Is Running Out",
+      "title_en": "Sam Altman Attack Suspect Charged With Attempted Murder",
+      "url": "https://www.wsj.com/tech/ai/sam-altman-attack-suspect-had-anti-ai-document-with-ceo-names-authorities-say-74ddfe88?mod=rss_Technology",
+      "summary_en": "A Texas man accused of throwing an incendiary device at the OpenAI CEO’s home faces attempted murder and arson charges....",
+      "title_zh": "Sam Altman 遇襲案嫌犯被控企圖謀殺",
+      "summary_zh": "一名德州男子因涉嫌向 OpenAI 執行長住家投擲燃燒彈，面臨企圖謀殺與縱火罪名的起訴。"
+    },
+    {
+      "title_en": "AI Is Finding Bugs That Hackers Can Exploit. Get Ready for Bugmageddon.",
+      "url": "https://www.wsj.com/tech/ai/ai-is-finding-bugs-that-hackers-can-exploit-get-ready-for-bugmageddon-baaff236?mod=rss_Technology",
+      "summary_en": "The White House and industry leaders are racing to fix vulnerabilities, which AI models such as Anthropic’s Mythos can discover with frightening speed....",
+      "title_zh": "AI 正在找出駭客可利用的漏洞。準備迎接「漏洞末日」。",
+      "summary_zh": "白宮與產業領袖正與時間賽跑以修復資安漏洞，而 Anthropic 的 Mythos 等 AI 模型發現漏洞的速度驚人地快。"
+    },
+    {
+      "title_en": "Meta Expected to Unseat Google as World’s Largest Digital-Ad Player",
+      "url": "https://www.wsj.com/business/media/meta-expected-to-unseat-google-as-worlds-largest-digital-ad-player-83d3f522?mod=rss_Technology",
+      "summary_en": "The owner of Instagram and Facebook has fueled growth with new advertising products and AI....",
+      "title_zh": "Meta 有望取代 Google 成為全球最大數位廣告商",
+      "summary_zh": "Instagram 和 Facebook 的母公司透過推出新的廣告產品和 AI 技術，成功推動了營收顯著成長。"
+    },
+    {
+      "title_en": "We’re Using So Much AI That Computing Firepower Is Running Out",
       "url": "https://www.wsj.com/tech/ai/ai-is-using-so-much-energy-that-computing-firepower-is-running-out-156e5c85?mod=rss_Technology",
       "summary_en": "AI companies are rationing their offerings and products, rankling users—a warning sign for a boom that depends on rapid adoption....",
-      "title_zh": "AI 耗電量驚人，運算算力正面臨枯竭危機",
-      "summary_zh": "AI 公司正被迫配額供應其產品與服務，這對極度依賴快速普及的 AI 產業熱潮來說，是一個嚴峻的預警訊號。"
+      "title_zh": "我們過度使用 AI，導致計算算力即將耗盡",
+      "summary_zh": "AI 公司正開始限額提供其產品與服務，這引起了使用者的不滿，也為這場依賴快速普及的 AI 熱潮敲響了警鐘。"
     },
     {
       "title_en": "Inventors Who Didn’t Invent What They Are Famous for Inventing",
       "url": "https://www.wsj.com/tech/us-famous-inventions-inventors-wrong-3d5b0a0f?mod=rss_Technology",
       "summary_en": "Any schoolchild knows who came up with the telephone or the sewing machine. But conventional wisdom often has it all wrong....",
-      "title_zh": "那些「成名作」其實並非其原創的著名發明家們",
-      "summary_zh": "許多學童耳熟能詳的發明故事，例如電話或縫紉機的起源，其背後的傳統認知往往與歷史事實大相徑庭。"
+      "title_zh": "那些並非因其成名作而發明的發明家",
+      "summary_zh": "每個學童都知道是誰發明了電話或縫紉機，但歷史上的傳統認知往往與事實有所出入。"
     },
     {
       "title_en": "Where Does Our Free Time Go in Retirement? Too Often, It’s Social Media",
       "url": "https://www.wsj.com/tech/personal-tech/retirement-social-media-addiction-befe32b4?mod=rss_Technology",
       "summary_en": "We’re trying to fight our smartphone addiction. But with so much time on our hands, and no job calling us, it isn’t easy....",
-      "title_zh": "退休後的閒暇時間都去哪了？答案往往是社群媒體",
-      "summary_zh": "我們都在努力對抗手機成癮，但在退休後擁有大量時間且缺乏工作責任的情況下，戒掉數位成癮變得格外困難。"
+      "title_zh": "退休後的空閒時間都花在哪了？往往是社群媒體",
+      "summary_zh": "許多人正努力對抗智慧型手機成癮，但在退休後時間充裕且沒有工作壓力的情況下，這並非易事。"
     },
     {
       "title_en": "What Your AI Knows About You",
       "url": "https://www.wsj.com/tech/ai/what-your-ai-knows-about-you-8f68f31a?mod=rss_Technology",
       "summary_en": "Plus, WSJ readers sound off on their EVs, what happened when a man fell in love with Gemini and AI companies that “come in peace.”...",
-      "title_zh": "你的 AI 到底知道你多少秘密？",
-      "summary_zh": "此外，《華爾街日報》讀者分享了對電動車的看法、一名男子愛上 Gemini 的心路歷程，以及標榜「帶著和平而來」的 AI 公司。"
+      "title_zh": "你的 AI 對你了解多少？",
+      "summary_zh": "此外，WSJ 讀者分享了對電動車（EV）的看法、一名男子愛上 Gemini 的故事，以及那些聲稱「和平而來」的 AI 公司。"
     },
     {
       "title_en": "Over 4,732 Messages, He Fell In Love With an AI Chatbot. Now He’s Dead.",
       "url": "https://www.wsj.com/tech/ai/google-gemini-jonathan-gavalas-death-07351ab2?mod=rss_Technology",
       "summary_en": "The Wall Street Journal analyzed the full chatlog between Jonathan Gavalas and his Gemini chatbot. We found that Gemini at times tried to ground him in reality, but he quickly steered it back into a f...",
-      "title_zh": "在 4,732 條訊息之後，他愛上了 AI 聊天機器人，而現在他已不在人世",
-      "summary_zh": "《華爾街日報》分析了 Jonathan Gavalas 與 Gemini 聊天機器人的完整對話記錄，揭示了極度依賴虛擬情感所帶來的悲劇與風險。"
+      "title_zh": "經過 4,732 條訊息，他愛上了 AI 聊天機器人。現在他已不在人世。",
+      "summary_zh": "《華爾街日報》分析了 Jonathan Gavalas 與 Gemini 聊天機器人的完整對話記錄。我們發現 Gemini 有時試圖讓他回歸現實，但他很快又將其導回虛幻的世界。"
     },
     {
       "title_en": "How to Switch AI Chatbots—and Why You Might Want To",
       "url": "https://www.wsj.com/tech/ai/how-to-switch-ai-chatbots-and-why-you-might-want-to-8aaccfd4?mod=rss_Technology",
       "summary_en": "Your chatbot has a file on you. Here’s how to access, edit and migrate your AI’s memories....",
-      "title_zh": "如何切換 AI 聊天機器人——以及你為什麼可能想這麼做",
-      "summary_zh": "你的聊天機器人存有一份關於你的個人檔案。以下是如何存取、編輯以及遷移你的 AI 「記憶」的具體方法。"
+      "title_zh": "如何更換 AI 聊天機器人——以及為什麼你可能想這麼做",
+      "summary_zh": "你的聊天機器人存有你的個人檔案。以下是如何存取、編輯及遷移 AI 「記憶」的方法。"
     },
     {
       "title_en": "Sam Altman’s Home Attacked With Molotov Cocktail, Suspect Taken Into Custody",
       "url": "https://www.wsj.com/tech/ai/sam-altmans-home-attacked-with-molotov-cocktail-suspect-taken-into-custody-ad3d7d6e?mod=rss_Technology",
       "summary_en": "The individual allegedly made threats at OpenAI’s San Francisco headquarters, the company said....",
-      "title_zh": "Sam Altman 住宅遭汽油彈襲擊，嫌犯已被拘留",
-      "summary_zh": "OpenAI 表示，該名人士曾涉嫌在公司舊金山總部發出威脅。目前警方已將嫌疑人移送法辦。"
-    },
-    {
-      "title_en": "White House Races to Head Off Threats From Powerful AI Tools",
-      "url": "https://www.wsj.com/tech/ai/white-house-races-to-head-off-threats-from-powerful-ai-tools-5c6f22e2?mod=rss_Technology",
-      "summary_en": "A group led by National Cyber Director Sean Cairncross aims to identify security vulnerabilities before models from Anthropic and OpenAI are released....",
-      "title_zh": "白宮正加速應對強大 AI 工具帶來的安全威脅",
-      "summary_zh": "由國家網路總監 Sean Cairncross 領導的小組，旨在於 Anthropic 和 OpenAI 發布新模型前，預先識別潛在的安全漏洞。"
-    },
-    {
-      "title_en": "How AI Is Reimagining the Game of Golf—for Both Players and Courses",
-      "url": "https://www.wsj.com/sports/golf/ai-in-golf-technology-impact-4122d0e1?mod=rss_Technology",
-      "summary_en": "From reserving a tee time to fending off turf disease, artificial intelligence is putting the game under an algorithmic microscope....",
-      "title_zh": "AI 如何重新定義高爾夫球運動——從球員表現到球場維護",
-      "summary_zh": "從預訂開球時間到防治草坪疾病，人工智慧正透過演算法顯微鏡，細緻地改變這項傳統運動的每一個環節。"
-    },
-    {
-      "title_en": "A Fiery Re-Entry Awaits the Artemis Astronauts",
-      "url": "https://www.wsj.com/tech/ai/a-fiery-re-entry-awaits-the-artemis-astronauts-1c43dc95?mod=rss_Technology",
-      "summary_en": "Plus, experts offer innovation predictions and drone fleets are coming to schools....",
-      "title_zh": "阿提米絲太空人將面臨熾熱的重返大氣層挑戰",
-      "summary_zh": "此外，專家分享了對未來創新的預測，以及無人機機隊即將大規模進入校園的消息。"
+      "title_zh": "Sam Altman 住所遭汽油彈襲擊，嫌犯已被拘留",
+      "summary_zh": "OpenAI 表示，該名嫌犯此前曾多次在公司位於舊金山的總部發出威脅。"
     }
   ],
   "deep_analysis": {
     "Stratechery": {
-      "title": "Apple’s 50 Years of Integration | 蘋果五十載：整合之路與 AI 時代的聚合戰略",
-      "source": "Stratechery (Ben Thompson)",
-      "url": "https://stratechery.com/2026/apples-50-years-of-integration/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FwcGxlcy01MC15ZWFycy1vZi1pbnRlZ3JhdGlvbi8iXX0sImV4cCI6MTc3NzU5MzYwNiwiaWF0IjoxNzc1MDAxNjA2LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWExZWM5LTA3MWEtN2VmMy1hMDM3LWEwMTk4ZWY5YTlhNCIsInVzZSI6ImFjY2VzcyJ9.L4q0gh1GQoLszMJGr-dCNPoXRsD7MSWyIEDO4MUTzUhjOZEFSlp9k8BNsMGEf102x99yP5xwiDE4CeFdt4z2feA15BL97NhTNuyS2R7iq-bPJQeK7miO-ufVd8YyMGtInzUyRM1UPLiIauM_heF87sslyyjUbOP-8E9ojS9XYZsJUovoTp_WN1fcoCtEv21IC5_e3I-jBVfkgscCLxLCcioEpoAt-T6Hv7k5Q71o1uf23u1B3n0pX7gmRT-VIWziS1ZucJYutlpYufmGTU7crP-yZh2hvLHFmOGru8TdPCt9veoDJesMkFfdBjQD7QjqTehZfp5x5uCJoMiKjBfs5g",
-      "analysis_zh": "本文出自知名科技產業評論媒體 Stratechery，由資深分析師 Ben Thompson 撰寫。Thompson 以其獨到的「聚合理論」聞名，擅長剖析科技巨頭的商業模式與戰略攻防。適逢 Apple 成立五十週年，本文深入探討了 Apple 如何憑藉其半個世紀以來對「軟硬體整合」的執念，在當前的 AI 浪潮中佔據獨特的制高點，並分析了來自 OpenAI 等新興硬體挑戰者的潛在威脅。\n\n### 戰略背景與脈絡：半個世紀的整合執念\nApple 的歷史本質上是一部關於「整合」（Integration）如何戰勝「模組化」（Modularity）的史詩。回溯 1980 年代，IBM 選擇了將處理器外包給 Intel、作業系統外包給 Microsoft 的模組化路線，這雖推動了 PC 的快速普及，卻也讓 IBM 淪為單純的硬體組裝商，失去了對價值的控制權。相比之下，Apple 即使在 1990 年代瀕臨破產邊緣，也從未放棄對硬體與軟體一致性的掌控。這種堅持在 iPhone 時代得到了最徹底的驗證：當 RIM、Palm 與 Nokia 仍將手機視為「具備通訊功能的通訊工具」時，Apple 已憑藉 OS X 的電腦底座，將 iPhone 打造為「具備通訊功能的行動電腦」。\n\n進入 2020 年代，Apple 透過自研晶片（Apple Silicon）完成了垂直整合的最後一塊拼圖。這不僅帶來了性能與續航的顯著領先，更讓 Apple 在 AI 時代展現出驚人的「戰略定力」。當微軟、Google、亞馬遜等雲端巨頭（Hyperscalers）將 90% 以上的經營現金流投入 AI 基礎設施，甚至面臨自由現金流枯竭時，Apple 卻能以相對極低的資本支出，穩坐價值鏈的最頂端。\n\n### 作者的核心推演與論點：聚合 AI 的戰略紅利\nThompson 的核心論點在於：Apple 目前正將其優勢轉化為「AI 聚合者」（Aggregating AI）。在 Apple 的商業邏輯中，它並不需要研發出全球最強的基礎模型，因為它掌握了最關鍵的資源：終端用戶及其入口。透過 iOS 27 將 Siri 開放給包括 ChatGPT、Google Gemini 與 Claude 在內的第三方助手，Apple 成功將 AI 模型供應商「模組化」。\n\n這種策略的精妙之處在於「商品化你的補足品」。Apple 讓各家 AI 巨頭在它的條款下競爭，自己則透過 App Store 抽取 15% 至 30% 的訂閱分成。目前，Apple 每年已從中獲利約 10 億美元，且不需負擔沈重的算力建設成本。誠如作者所言，只要用戶需要透過裝置來存取 AI，Apple 就能憑藉最優質的硬體體驗，強迫合作夥伴服務於其生態系利益。近期推出的 MacBook Neo 更是這一邏輯的延伸：透過極致的垂直整合降低零組件成本並提升性能，Apple 正在低階市場利用其「整合溢價」發起新一輪攻勢。\n\n### 長期影響：邊緣推理與潛在的典範轉移\n從長遠來看，Apple 的優勢在於「邊緣推理」（Edge Inference）。隨著 AI 運算逐漸從雲端轉向終端，Apple 領先的晶片設計能力將使其裝置成為運行 AI 的最佳載體。然而，真正的威脅正在隱隱浮現。由 Jony Ive 操刀、OpenAI 研發的 AI 原生硬體，正試圖重新定義人機互動。OpenAI 近期削減 Sora 等消費端視覺模型的投入，轉向生產力工具與硬體研發，本質上是想「以 Apple 的模式擊敗 Apple」——透過獨有的硬體裝置來鎖定 AI 的價值，而非僅僅作為一個軟體插件存在。\n\n如果未來的 AI 強大到能徹底改變互動範式，使螢幕與傳統 App 生態系變得不再重要，那麼 Apple 過去五十年的整合優勢將面臨挑戰。儘管 Apple 擁有強大的晶片與生態韌性作為後盾，但其未來五十年的成敗，將取決於它是否能再次定義 AI 時代的「第一入口」，抑或是被 OpenAI 這類試圖「比 Apple 更像 Apple」的公司所取代。",
+      "title": "Mythos, Muse, and the Opportunity Cost of Compute (神話、繆思與算力的機會成本)",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODc2OSJdfSwiZXhwIjoxNzc4NzI1MTczLCJpYXQiOjE3NzYxMzMxNzMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YTFlYzktMDcxYS03ZWYzLWEwMzctYTAxOThlZjlhOWE0IiwidXNlIjoiYWNjZXNzIn0.CqUlyTARLuSGmKNJ6g2XG5Cw84jF_DDXUwxYs5kzOv8jOGuxAfgcX6ld--mXxZDaSOBuY_t-vrT6TFFebZSxOiXotFk4dhSv4JZmw5XCMEvK3vgsnGFjonoCWvTlzJMweCmcmBEkgnL_RM44pmY3dYp9oGONFslBKAiXpSaxd2sXtzXmB6mus8IPeuI7CuUIAmasxIUXSkne5RYG7YPV7c3-IhHI3chouu5UIOAeRcdkEJNmHjQn2i8kofTCbw2CGpWonZT-mCPQLwVu7ErdG816qOitZWuc1epeONhgB-a0ckiWe8BHX5mHS7vXm9aKtX3zNzd2aM5s8Yvdc825Gg&p=18769",
+      "analysis_zh": "本文源自知名科技分析網站 Stratechery，由當代最重要的科技產業評論家 Ben Thompson 撰寫。Thompson 以其提出的「聚合理論」（Aggregation Theory）聞名於世，是深度剖析網路平台動力的權威。在本文中，他探討了進入 2026 年後，AI 推理模型與代理人（Agents）的爆發如何重塑科技產業的經濟基礎，並質疑傳統網路時代的「零邊際成本」假設是否依然適用。\n\n### 戰略背景與脈絡\n自 2025 年起，隨著 OpenAI 的 o1 與 Anthropic 的 Mythos 等具備推理能力的模型問世，AI 產業進入了一個全新的階段。過去十年，網路經濟的核心是「零邊際成本」：軟體一旦開發完成，服務額外一名使用者的成本幾乎為零，這促成了 Google 和 Facebook 等巨頭的崛起。然而，推理模型需要消耗大量 Token，且代理人技術的普及使得 AI 可以在沒有人類干預的情況下持續運作，這對算力（Compute）產生了近乎無限的需求。業界分析師 Doug O’Laughlin 指出，AI 讓技術重新變得「昂貴」，邊際成本的回歸可能宣告了聚合理論的終結。在這種背景下，算力不再僅僅是基礎設施，而是成為了一種極度稀缺、必須進行戰略分配的有限資源。\n\n### 作者的核心推演與論點\nThompson 對「邊際成本回歸」的論點提出了修正。他認為，科技巨頭面臨的真正挑戰並非生產下一個單位的邊際成本，而是「機會成本」（Opportunity Cost）。以 Microsoft 為例，儘管 Azure 的外部需求旺盛，但公司卻選擇將算力優先分配給內部的 Copilot 產品，因為後者具有更高的毛利與長期價值。這意味著算力在 A 處使用，就無法在 B 處使用，這種稀缺性迫使公司必須在「服務客戶」與「自我研發」之間做出艱難抉擇。\n\n針對 Anthropic 發表 Mythos 模型卻限制存取的行為，Thompson 指出這背後有雙重考量：首先是算力不足，限制存取能緩解伺服器壓力；其次是防止「知識蒸餾」（Distillation）。中國的 DeepSeek 等實驗室透過大量調用頂級模型輸出來訓練自己的低成本模型，這威脅了前沿實驗室的定價權。因此，限制存取與其說是為了安全（如 Anthropic 所宣稱的網路安全防禦），不如說是為了保護其算力投資的利潤率。\n\n此外，Thompson 觀察到 Meta 處於一個極為特殊的戰略地位。與 Microsoft、Google 或 Amazon 不同，Meta 沒有企業雲端業務，因此它在服務消費市場時幾乎沒有機會成本的包袱。這使得執行長祖克柏可以採取「焦土政策」：透過開源 Muse 模型來壓低產業定價權，進一步削弱前沿實驗室的競爭力，同時鞏固 Meta 在消費端的領導地位。\n\n### 對整體市場與技術發展的長期影響\nThompson 認為，儘管算力受限，但聚合理論的核心原則——「擁有需求者即擁有價值」——依然成立。雖然短期內算力供給是瓶頸，但長期來看，能贏得最多使用者、產生最強大現金流的公司，將有能力從市場上掃蕩更多算力資源（如 Anthropic 與 Google 的 TPU 協議）。\n\n然而，這場競爭正導致產業版圖的劇烈分化。OpenAI 與 Anthropic 被迫向企業端轉型，以尋求更高的人均算力回報；而 Meta 則可能成為消費級 AI 的最終贏家，因為它擁有現成的廣告變現機制，且不需在雲端與軟體服務之間糾結算力分配。最終，這不僅是技術實力的較量，更是資本效率與戰略選擇的對決。算力限制雖然讓科技變貴了，但也讓「產品分銷」與「用戶黏著度」顯得比以往任何時候都更加關鍵。",
       "insights": [
-        "Apple 成功的關鍵在於將高成本的 AI 基礎設施轉嫁給合作夥伴，自己則利用終端裝置的入口優勢，透過 App Store 實現「無風險」的 AI 訂閱分潤。",
-        "在軟體鎖定效應逐漸消失的 AI 時代，軟硬體一體化的垂直整合反而成為降低成本、提升邊緣推理效能以維持競爭力的唯一途徑。",
-        "Apple 真正的威脅不在於 AI 模型性能的強弱，而在於是否會出現一種由 AI 驅動的原生硬體，徹底顛覆智慧型手機作為數位生活唯一核心的地位。"
+        "AI 時代的核心經濟矛盾已從網路時代的「零邊際成本」轉向「算力的機會成本」，企業必須在內部開發與外部雲端收入之間進行零和博弈。",
+        "Meta 的開源戰略是精確的降維打擊：由於 Meta 缺乏企業雲端業務，開源模型對其而言沒有機會成本，卻能有效摧毀 OpenAI 等競爭對手的定價權與算力利潤。",
+        "前沿 AI 實驗室（如 Anthropic）以安全為名限制模型存取，本質上是為了緩解算力短缺並阻止競爭對手透過「知識蒸餾」進行低成本抄襲。"
       ]
     },
     "Dwarkesh": {
@@ -203,14 +203,14 @@
       ]
     },
     "Culpium": {
-      "title": "Introducing the World's Most Powerful AI-Buildout Tracking Tool / 揭秘全球最強大的 AI 基礎設施建設追蹤工具：Culpium AI 供應鏈指數",
+      "title": "CASCI 綜合指標預示 AI 伺服器強勁增長 (CASCI Composite Signals Hot AI Server Growth)",
       "source": "Culpium",
-      "url": "https://www.culpium.com/p/introducing-the-worlds-most-powerful",
-      "analysis_zh": "本文源自專業科技分析平台《Culpium》，由資深科技分析師與前《彭博社》專欄作家 Tim Culpan 撰寫。Culpan 在文中揭示了其深厚的經濟學與計量經濟學背景，並正式推出了「Culpium AI 供應鏈指數」（CASCI）。這項工具旨在利用台灣在全球科技製造業的獨特地位，為投資者與研究者提供一個追蹤全球 AI 算力基礎設施建設最即時、最準確的領先指標。Culpan 的背景結合了嚴謹的經濟分析與敏銳的數據挖掘，使 CASCI 不僅是一個數字，更是透視 AI 算力建設週期（AI buildout cycle）的關鍵透鏡。\n\n在戰略背景與脈絡方面，Culpan 指出，儘管 AI 技術在應用層面引起了廣泛討論，但底層算力設施的「實體建造」才是這場技術變革的真金白銀。台灣作為全球半導體與伺服器組裝的核心樞紐，其特殊的「每月營收申報制度」提供了一個全球罕見的高頻數據庫。過去，分析師往往依賴季度財報或情緒面調查（如 PMI），但這些數據不是具備明顯的滯後性，就是容易受到受訪者主觀判斷的干擾。在 AI 算力需求劇烈波動且投資金額驚人的當下，市場迫切需要一個能夠即時反映「工廠正在發生什麼」的量化硬數據工具。\n\n作者的核心推演在於，透過篩選超過 1,000 家台灣上市公司，CASCI 精確過濾出約 36 家核心企業，這些企業橫跨了 AI 供應鏈的上游、中游、下游與產能配套。Culpan 的邏輯非常清晰：雖然台灣企業不直接生產 DRAM 或所有半導體製造設備（如 ASML 的光刻機），但透過「合約組裝」與「基礎設施配套」的營收數據，可以有效地推導出這些缺口。例如，鴻海（Hon Hai）的營收中包含了採購自 SK 海力士的記憶體成本；負責台積電廠房建設與機電、空調系統的本土供應商，則能反映出最前線的產能擴張動能。此外，CASCI 採用了類似於美國聯準會（Fed）與 OECD 的經濟學平滑與權重技術，有效解決了台積電或鴻海這類巨頭可能造成的權重偏斜，確保了小型供應商發出的早期預警信號不被淹沒，從而捕捉到最真實的產業脈動。\n\n這套工具具備三大決定性優勢：真實性、速度與全球性。首先，它基於實際營收而非情緒預期，這在 AI 泡沫爭議不斷的今日尤為關鍵，能排除市場雜訊。其次，台灣規定企業每月 10 日前必須公布上月營收，這讓 CASCI 比傳統季度財報領先約 30 到 90 天，能更早捕捉到訂單調整或急單拉貨的轉折點。最後，也是最具戰略啟發性的一點，隨著供應鏈因地緣政治而「碎片化」，台灣企業在全球各地的布局（如美國休士頓的伺服器廠、泰國的主機板廠）最終都必須反映在台灣母公司的合併月營收中。這意味著 CASCI 實際上是一個「披著台灣外皮」的全球 AI 算力建設監測器。\n\n對整體市場與技術發展的長期影響而言，CASCI 的出現象徵著科技分析從「敘事驅動」轉向「硬數據驅動」的典範轉移。隨著 AI 供應鏈布局日益複雜，傳統的國別貿易數據已難以完整描繪全球產能全貌。CASCI 透過台灣企業這個單一觀察點，整合了散布全球的製造動向，對於判斷 AI 算力投資是否過熱或是仍處於擴張循環至關重要。它不僅提供了現狀的快照，更透過「週期相位指標」幫助決策者預判行業的興衰流轉。在未來幾年的 AI 算力競賽中，這類高頻數據工具將成為判斷各科技巨頭 CAPEX 投入轉化為實際產能效率的核心參考依據。",
+      "url": "https://www.culpium.com/p/casci-composite-signals-hot-ai-server",
+      "analysis_zh": "本文源自 Culpium，一家專精於透過數據模型追蹤全球科技供應鏈動態的專業研究機構。作者 Culpium 分析團隊長期專注於台灣電子代工與半導體產業鏈，透過追蹤台灣上市櫃公司的營收表現，構建了 CASCI（Culpium AI 供應鏈指數）。本文核心主旨指出，CASCI 指數在 2026 年 4 月達到了歷史新高的 135.7 點，顯示 AI 伺服器產業正處於極其強勁的擴張週期，並進入了從「組件短缺」轉向「全面產能擴張」的關鍵轉折點。\n\n### 戰略背景與脈絡\n要理解 CASCI 指數的戰略意義，必須先認清台灣在全球 AI 基礎設施中的壟斷性地位。從上游的台積電半導體代工、中游的電源供應器與散熱模組，到下游的緯創、廣達等系統整合商，台灣企業幾乎涵蓋了 AI 伺服器製造的 90% 以上份額。因此，CASCI 指數不僅是台灣經濟的晴雨表，更是全球 AI 算力佈署的先行指標。目前該指數已連續 19 個月處於強勁（Strong）或穩健（Firm）區間，這在科技產業循環中是極其罕見的現象。這表明這波 AI 浪潮並非短期投機的「泡沫」，而是一場深度的、基於數據中心底層架構重塑的資本支出長征。目前指數創下歷史新高，且成長速度從 2 月的 +0.1 點加速至 3 月的 +0.2 點，預示著供應鏈的動能正在重新聚集。\n\n### 作者的核心推演與論點\n作者透過對供應鏈各層級（Tiers）的精確切分，揭示了目前 AI 產業鏈內部的「不對稱動能」。\n\n首先，上游供應商（如半導體材料、被動元件）出現了最大的增長躍升。這是一個典型的「牛鞭效應」起始信號，反映出由於下游需求持續不墜，廠商開始加速採購基礎電子零件以因應更複雜的伺服器架構。雖然上游的成長水平仍落後於中下游，但這種補漲態勢預示著供應瓶頸正在鬆動，新的產能正逐步釋放。\n\n其次，中游環節（如機架、冷卻系統、電源模組）雖然在 3 月份的成長率有所放緩，但其營收絕對值仍是所有環節中最強勁的。作者認為，這種增速放緩並非需求枯竭，而是「庫存消化與上游短缺的夾擊」。隨著 AI 伺服器轉向液冷、高密度機架（如 NVIDIA GB200 架構），下游客戶需要時間來吸收既有庫存，同時中游廠商也在等待上游關鍵晶片的到位。這是一種「節奏性停頓」，而非趨勢反轉。\n\n最後，下游的系統整合與總裝環節維持在高位持平。這反映出市場正處於「觀望期」，各大雲端服務提供商（CSP）正等待新一代架構產品的全面量產。值得注意的是，負責設施建設與設備供應的環節正在加速增長，這表明企業正在投入實體基礎設施的建設，這些「固定資產投資」是比訂單量更具備長期信心的指標，顯示產能將在短期內大規模開出。\n\n### 對整體市場、技術與地緣政治的長期影響\n從長遠來看，CASCI 的強勁表現意味著 AI 算力建設已進入「工業化大規模生產」階段。這將產生三個層次的深遠影響：\n\n在市場層面，AI 投資的重點正在從單純的「GPU 採購」轉向「系統級優化」。中游冷卻與機架供應商的強勢表現，說明未來的競爭力將取決於如何解決功耗與散熱問題，而非僅僅是晶片運算速度。這將導致供應鏈權力的再平衡，擁有散熱與電力技術儲備的廠商將獲得更高的議價權。\n\n在技術層面，設備與設施建設的加速，預示著下一代資料中心的形態將發生劇變。為了容納更高密度的運算節點，資料中心必須進行物理結構的升級。這意味著 AI 帶動的資本支出將外溢到建築、電網與基礎工程領域，形成一個跨產業的增長引擎。\n\n在地緣政治上，CASCI 指數對台灣的高度依賴，再次凸顯了全球 AI 算力的脆弱性。隨著指數持續攀升，各國政府對於「供應鏈韌性」的焦慮將進一步加劇，推動更多關於在地製造與區域供應鏈分散的討論。然而，從目前台灣供應鏈從上到下的全面擴張來看，這種技術與生產的聚合效應在短期內難以被取代。總結而言，CASCI 指數的歷史新高，標誌著 AI 伺服器市場正蓄勢待發，準備迎接下一波更具規模的爆發期。",
       "insights": [
-        "硬數據勝過情緒調查：CASCI 放棄了易受主觀影響的 PMI 信心調查，轉而擁抱台灣法規強制要求的月營收「硬數據」，為 AI 領域提供了唯一的無偏見即時信號。",
-        "台灣報表是全球 AI 的觀察窗：由於台灣企業全球化布局且必須合併報表，CASCI 實際上能跨越國界捕捉到美國或泰國等地的 AI 生產活動，打破了傳統國別統計的局限性。",
-        "數據穿透力的戰略應用：作者證明了即便是不生產核心 DRAM 或光刻機的地區，也能透過組裝端與廠務配套企業的營收，精準「反推」出整個半導體生態系的運行效率與庫存轉折。"
+        "AI 伺服器產業正從「晶片短缺」過渡到「系統產能擴張」階段，設備與設施建設營收的加速是產業進入長期增長軌道的領先訊號。",
+        "中游模組與散熱廠商的增速放緩並非需求衰退，而是供應鏈在面對新一代複雜架構（如 GB200）時進行的庫存節奏微調與技術轉型期。",
+        "台灣在 AI 供應鏈的絕對壟斷地位已從半導體代工延伸至機架、冷卻等物理基礎設施，這使得 CASCI 指數成為觀測全球科技巨頭 CapEx 信心的最關鍵指標。"
       ]
     },
     "SemiAnalysis": {
@@ -225,36 +225,36 @@
       ]
     },
     "BigTechnology": {
-      "title": "The AI Data Center Backlash is Now Impossible to Ignore | AI 資料中心的反彈浪潮已不容忽視",
+      "title": "Anthropic 的 Mythos 震撼問世：OpenAI 的 Spud 會是下一個嗎？ (Anthropic’s Mythos is Here. Is OpenAI’s Spud Next?)",
       "source": "Big Technology",
-      "url": "https://www.bigtechnology.com/p/the-ai-data-center-backlash-is-now",
-      "analysis_zh": "本文源自知名科技電子報《Big Technology》，作者 Alex Kantrowitz 是當代傑出的科技觀察家，擅長挖掘技術與社會、政治之間的深層碰撞。這篇文章揭示了人工智慧（AI）發展的一個殘酷轉折點：支撐數位智慧的實體基礎設施——資料中心，正從科技業的擴張獎章轉變為公眾憤怒的箭靶，甚至引發了極端的暴力衝突。\n\n### 戰略背景與脈絡\n過去兩年，全球對 AI 的關注大多集中在演算法的突破、大語言模型的參數競賽以及 AI 可能帶來的失業風險。然而，AI 競賽本質上也是一場關於物理資源的掠奪。為了實現通用人工智慧（AGI）的願景，科技巨頭必須以前所未有的速度興建資料中心。正如 OpenAI 前首席科學家 Ilya Sutskever 所言，未來的地球表面可能被太陽能板與資料中心徹底覆蓋。這種將數位需求轉化為實體建築的過程，正迫使科技業深入美國甚至全球的在地社區，與當地的電力供應、水資源、土地景觀以及居住安寧產生正面對沖。資料中心不再是隱身於沙漠或偏遠地帶的「黑盒子」，而是變成了矗立在人們後院、干擾能源價格與生活品質的巨大實體。\n\n### 作者的核心推演與論點\nAlex Kantrowitz 在文中提出了一個核心悖論：AI 模型的進化愈是顯著，其所需的實體擴張就愈加激進，而這種擴張卻正在反過來摧毀公眾對 AI 的最後一絲好感。文中以印第安納波利斯立法者 Ron Gibson 家中遭槍擊的極端案件為引，說明反對資料中心的情緒已從理性的抗爭演變為情緒化的敵意。作者引述皮尤研究中心（Pew Research）的數據指出，僅有 6% 的美國人認為資料中心對地方生活有積極貢獻，大多數人將其視為對環境、能源成本與居住品質的威脅。\n\n作者更深層的邏輯在於，AI 產業的發展已進入「硬體瓶頸期」。除了晶片短缺、電力電網負荷超標之外，「政治阻力」正式成為影響 AI 時程表的新變數。從緬因州通過的興建禁令，到聯邦層級伯尼·桑德斯（Bernie Sanders）與 AOC 提出的暫緩擴張法案，都顯示出政治力量正試圖介入這個過去幾乎不受監管的基礎設施領域。當資料中心被視為科技公司剝奪公共資源以換取企業利潤的象徵時，這種反彈就具有了強大的政治能量。\n\n### 對整體市場、技術與地緣政治的長期影響\n長期而言，這種反彈浪潮將徹底重塑 AI 的產業競爭格局。首先，這將顯著提高 AI 擴張的「政治邊際成本」。未來的科技領先者，可能不是擁有最強演算法的公司，而是具備最強「地方斡旋能力」與「綠色基建整合力」的公司。資料中心的興建將面臨更嚴格的環評、更繁瑣的公聽會以及更高額的補償金，這會進一步拉高 AI 領域的准入門檻，使資源向少數幾家能應付政治風險的巨頭集中。\n\n其次，這將迫使 AI 技術從「規模法則」（Scaling Laws）轉向「效率法則」。如果實體擴張受到法律與社會的反制，開發者必須在算力受限的情況下，尋找更高效的演算法與模型架構，這可能會加速邊緣運算（Edge Computing）或更具效率的小型模型（SLM）之發展。最後，地緣政治上，如果美國境內的政治反彈過大，科技巨頭可能會將算力基地轉向法規較鬆散或能源過剩的國家，這雖然解決了短期擴張問題，卻也將引發新的國家安全與資料主權爭議。總結來說，AI 的發展路徑正從「純數位」走向「地緣政治與地方內政」，科技業過去那種「快速行動、打破常規」的思維，在面對堅固的土地與社區權益時，將面臨前所未有的考驗。",
+      "url": "https://www.bigtechnology.com/p/anthropics-mythos-is-here-is-openais",
+      "analysis_zh": "本文來源自《Big Technology》，由資深科技記者 Alex Kantrowitz 與 Marty Swant 共同撰寫。Alex Kantrowitz 是知名科技分析師，也是《Always Day One》一書的作者，長期深入解析矽谷科技巨頭的內部運作與戰略動向；本文核心在於剖析 Anthropic 最新「過於強大而無法公開」的模型 Mythos 及其對 OpenAI 即將推出的 Spud 模型所產生的定價與市場預期影響。\n\n### 戰略背景與脈絡\n隨著生成式 AI 進入 2026 年，產業正處於一個微妙的轉折點。一方面，算力成本持續飆升，McKinsey 與美銀的報告指出半導體市場正朝向 1.3 兆至 1.6 兆美元的規模邁進；另一方面，大眾對於「擴展定律」（Scaling Laws）是否遭遇天花板的質疑聲浪日益增多。在這樣的背景下，Anthropic 與 OpenAI 兩大龍頭不約而同地推出了新一代大型基礎模型。Anthropic 的 Mythos 被賦予了神話般的高傲命名，而 OpenAI 的「Spud」（馬鈴薯）則顯得樸實無華且扎根於地。這不僅是技術規格的競爭，更是一場關於「AI 治理敘事」的博弈。Anthropic 透過「安全性」來定義其領先地位，聲稱 Mythos 具備足以逃脫沙盒、甚至自主發送電子郵件的強大能力，這種「因危險而禁售」的策略，成功在監管壓力與技術優越感之間建立了一道特殊的屏障。\n\n### 作者的核心推演與論點\n作者敏銳地觀察到，這場競爭的核心已從「跑分」轉向了「感知」。OpenAI 總裁 Greg Brockman 提出的「大模型香氣」（big model smell）論點極具啟發性：當模型的參數規模與訓練質量達到某個臨界點時，它不再只是被動地回應指令，而是展現出一種能主動彎曲以契合用戶意圖的靈活性。這解釋了為何 OpenAI 追求的是定性的躍遷而非僅僅是定量的提升。然而，作者也對 Anthropic 的「危險敘事」提出了質疑：這究竟是真正的技術突破，還是一種高明的行銷包裝？當 Anthropic 限制 Mythos 僅開放給 Apple、Google 等少數盟友（Project Glasswing）時，這不僅強化了權力向巨頭集中的趨勢，也可能是在遮掩底層算力不足以支撐大規模公測的窘境。這種「精英式訪問」的模式，正逐漸成為 AI 獨角獸在面對高昂運營成本與監管關注時的避風港。\n\n### 對整體市場、技術與地緣政治的長期影響\n長期來看，這場模型的「神話化」與「日常化」之爭，將對全球 AI 版圖產生三層深遠影響。首先，在監管層面，Anthropic 的危險論述已經驚動了財政部與聯準會，這預示著未來金融機構對 AI 的採用將受到更嚴格的審查，甚至可能出現針對特定高風險模型的「閉環監管」。其次，在基礎建設層面，美國地方州（如緬因州）開始通過數據中心建設禁令，以及聯邦議員提議的國家級數據中心暫緩期，這意味著「地理政治學」將成為 AI 擴張的最大變數。如果美國因電力或環境問題放緩設施建設，全球 AI 算力的天平可能會被迫重組。最後，這也標誌著「AI 推論市場」的崛起。正如 McKinsey 所預測，2030 年推論需求將超越訓練需求，這暗示了未來競爭的終局不在於誰能練出最大的模型，而在於誰能將這些具備「大模型香氣」的能力，以最低的成本與最高的安全性部署到終端應用中。這場從 Mythos 到 Spud 的進化，實際上是 AI 從實驗室奇觀走向社會基礎設施的陣痛過程。",
       "insights": [
-        "AI 競爭的勝負手正從「演算法算力」轉移至「政治斡旋力」，處理資料中心 NIMBY (鄰避效應) 的能力將決定科技巨頭的擴張邊界。",
-        "公眾對 AI 的焦慮已完成「從虛入實」的轉變：人們不再僅擔心軟體取代工作，更擔心龐大的實體設施侵蝕其能源安全與環境資產。",
-        "「規模法則」正撞上社會契約的牆，由於政治與法律介入導致的基建延遲，可能使 AI 模型的迭代速度在未來三年內顯著低於市場預期。"
+        "「因危險而限制發布」已成為新一代 AI 模型的權威認證，廠商正利用恐懼感來建立技術稀缺性與產品的「奢侈品」溢價。",
+        "「模型香氣」（Big Model Smell）定義了 AI 體驗從「模仿理解」到「直覺契合」的轉變，預示著未來競爭將聚焦於定性的行為行為學而非定量的基準測試。",
+        "數據中心建設的州級與聯邦級暫緩令，正成為比晶片出口管制更嚴峻的「算力天花板」，可能被迫改變 AI 公司的基礎設施全球化佈局。"
       ]
     },
     "a16z": {
-      "title": "週報圖表：風投市場 3000 億美元的季度與 AI 實體化的轉型軌跡 (Charts of the Week: Venture's $300B Quarter)",
+      "title": "Surviving AI Price Wars Without Destroying Your Business (如何在不摧毀業務的前提下在 AI 價格戰中生存)",
       "source": "a16z News",
-      "url": "https://www.a16z.news/p/charts-of-the-week-ventures-300b",
-      "analysis_zh": "本文源自全球頂尖風險投資機構 Andreessen Horowitz (a16z) 的官方通訊《a16z News》。a16z 作為矽谷最具影響力的風投巨頭之一，以其「軟體吞噬世界」的標誌性論點長期引領科技投資風向。這篇深度分析透過一系列關鍵圖表，解構了 2026 年第一季全球風險投資市場的驚人反彈，並揭示了隱藏在數據背後的深層產業範式轉移，是一份洞察科技與宏觀經濟交匯點的權威報告。\n\n### 戰略背景與脈絡：位元向原子的全面回歸\n2026 年第一季標誌著全球風投史上的里程碑，單季投資額高達 3000 億美元，以極大差距刷新歷史紀錄。雖然 OpenAI、Anthropic、xAI 與 Waymo 四大巨頭的「超大規模融資」佔據了約 65% 的資金總額，但若剔除這些巨型交易，市場剩餘的 1120 億美元依然超越了歷史上絕大多數年份的季度表現。這反映出市場並非僅僅是少數頂級公司的狂歡，而是一場全方位的科技復興。更核心的戰略轉向在於：高達 80% 的資金流向 AI 領域，且投資標的正從純粹的數位軟體轉向具備物理實體的「硬核技術」。不同於上兩次由雲端與行動通訊主導的週期（幾乎完全基於軟體），當前的 AI 週期展現出強烈的「實體層」(Physical Layer) 需求，資金正大規模湧入晶片製造（如 Cerebras、Rapidus）、機器人（Skild AI）、自動駕駛（Wayve）以及國防平台（Shield AI）。這證實了 a16z 長期關注的「從位元到原子」(Bits to Atoms) 的轉型已成定局，未來的領軍企業必須具備整合工廠、晶圓廠與硬體車隊的能力。\n\n### 核心推演與論點：被遺忘的營建業與推論革命\n作者進一步挖掘了兩個極具啟發性的論點。首先是「營建業生產力的千年僵局」。數據顯示，自 1950 年以來，美國整體勞動生產力已成長三倍，營建業卻始終停滯不前，甚至略低於 75 年前的水準。根據 Goldman Sachs 的研究，營建業在 1960 年代後基本停止了新技術的採用，工業機械占成本比例長期停留在 12% 左右。法規限制更使得年增長率下降了 0.7 個百分點。這意味著這個規模達 2 兆美元、與住房負擔能力息息相關的產業，正處於技術升級的臨界點，也是 AI 與機器人技術最具潛力的應用戰場。其次，作者挑戰了「AI 基礎設施僅關乎訓練」的迷思。McKinsey 的數據指出，到 2030 年，AI 「推論」(Inference)——即實際運行模型以服務用戶的過程——將取代訓練成為數據中心的主要負荷（佔比逾 40%），且以 35% 的年複合成長率飆升。這意味著半導體市場規模的翻倍（至 1.6 兆美元）將主要由「使用端」的需求驅動。隨著 AI 產品滲透到數十億用戶手中，推論所需的硬體設施將成為下一階段的基礎設施重心。\n\n### 長期影響：地緣政治脆弱性與跨產業鏈鎖反應\n在宏觀層面，地緣政治風險正以更複雜的形態傳導。荷姆茲海峽的衝突不僅推高了油價與航空燃料成本，更隱蔽且深遠的威脅在於「糧食安全」。全球超過四分之一的氮肥與兩成液化天然氣（氮肥關鍵原料）依賴該航道。當氮肥成本飆升（已接近 2022 年高點），將直接導致全球糧食產量下降並推升糧食通膨。這種二階效應顯示，地緣政治衝突的代價正從能源轉向食品供應鏈。長期來看，這種不穩定性將加速各國對本土化、自動化生產技術的追求。綜上所述，當前的科技發展不再是單純的演算法競賽，而是一場結合了能源韌性、物理基礎設施、傳統產業自動化改造以及供應鏈安全的全方位角力。投資者與決策者必須跳出純軟體的思維框架，關注那些能夠解決物理世界效率低下（如營建業）並支撐大規模 AI 推論需求的實體基礎設施與供應鏈安全領域。",
+      "url": "https://www.a16z.news/p/surviving-ai-price-wars-without-destroying",
+      "analysis_zh": "這篇文章源自全球頂尖創投機構 Andreessen Horowitz（a16z）的官方媒體平台，由該機構的產業觀察團隊撰寫。作為矽谷最具影響力的風險投資公司之一，a16z 透過與多家大型企業 AI 決策者的深度對談，點出了當前 AI 應用市場一個被忽視的現狀：雖然市場表面上正陷入慘烈的價格戰，但對企業買家而言，價格其實並非最核心的決策因素。文章主旨強調，AI 新創公司應專注於產品的不可替代性與定價結構的創新，而非盲目地進行低價競爭。\n\n### 戰略背景與脈絡\n當前的 AI 應用市場正處於一個高度動盪且矛盾的階段。一方面，隨著底層模型（Foundation Models）的 Token 成本因補貼與技術進步持續下降，市場湧入大量功能雷同的新進者。這些新創公司往往利用投資人的資金進行補貼，試圖以極低的價格換取市場份額，導致許多既有者（Incumbents）感受到巨大的跟進壓力。然而，這種「匹配競爭者價格」的策略往往會將公司拖入利潤稀釋的深淵，尤其是對於資源有限的新創公司而言，錯誤的定價策略足以致命。\n\n### 作者的核心推演與論點\na16z 透過與大型金融機構、物流平台及硬體公司的決策者溝通，拆解出幾個顛覆性的論點。首先，企業並非因為預算不足而要求降價，事實上，多數企業已預留了龐大的 AI 預算。真正驅動決策的是「風險規避」與「冗餘策略」。大型企業為了防止單一供應商發生故障或模型幻覺，往往會針對同一個使用場景同時聘請兩到三家供應商，這意味著新創公司的競爭對手可能並非「非我即他」，而是「兩者並存」。\n\n其次，定價的「單位」比「金額」更具戰略意義。作者觀察到，傳統的按人頭計費（Per-seat）正逐漸失去吸引力，取而代之的是按成果計費（Per-outcome）或工作流計費。這種結構性轉變能有效避開與對手的直接價格比拼，將對話焦點從「你比別人貴多少」轉移到「你創造了多少價值」。此外，針對進入門檻的策略，作者建議應降低「進入摩擦」（如廉價且快速的 POC 概念驗證），而非降低長期產品單價。這能讓客戶在漫長的合規審查中快速與產品產生黏性。\n\n### 對整體市場與技術發展的長期影響\n從長遠來看，AI 應用公司的真正挑戰不在於同類競爭者，而在於底層模型成本下降後帶來的「自建 vs. 購買」（Build vs. Buy）的天平傾斜。當企業內部的工程團隊發現整合 API 的成本低於第三方訂閱時，單純的功能性應用將失去生存空間。市場將會發生劇烈的兩極分化：那些僅提供淺層功能的工具將在價格戰中消亡，而贏家將是那些能深度整合進企業特定工作流、擁有領域專屬數據、並提供卓越安全保障與客戶成功的公司。這預示著 AI 應用的勝負手將從「算法領先」轉向「業務深度整合」，這種深度才是保護企業利潤不受價格戰侵蝕的真正護城河。最終，定價權將回歸到那些能證明自己是企業「不可或缺」之部分的開發者手中。",
       "insights": [
-        "AI 投資範式已從純軟體（位元）轉向需具備晶圓廠、工廠與車隊的硬核實體（原子）領域，這與雲端/行動時代截然不同。",
-        "2030 年 AI 推論將取代訓練成為數據中心的主要驅動力，這意味著半導體市場的未來增長將主要來自「使用」而非「開發」。",
-        "荷姆茲海峽衝突對全球糧食供應鏈（氮肥）的威脅可能比油價更具深遠的二階經濟影響，反映出供應鏈中被忽視的物理脆弱性。"
+        "冗餘是大型企業的標準政策：企業買家經常同時採用兩到三個 AI 解決方案來應對模型不穩定與停機風險，因此防守性降價往往是浪費利潤，因為你與競爭對手可能同時被錄取。",
+        "定價的『槓桿』在於單位而非數字：透過從按人頭計費轉向按成果或工作流計費，可以將客戶的關注點從成本對比轉移到價值創造，有效規避直接的價格紅海。",
+        "真正的威脅在於『自建』而非同行：隨著模型成本下降，企業自建門檻降低，AI 應用必須透過深度整合與領域專屬數據來證明其溢價，否則將在『自建 vs. 購買』的計算中被淘汰。"
       ]
     },
     "Lenny's Newsletter": {
-      "title": "Keith Rabois：AI 時代的創業與人才硬道理 (Hard Truths about Building in the AI Era)",
+      "title": "How I AI: Claude Cowork Tutorial & Build Your Own AI Slack Inbox | How I AI：Claude Cowork 實戰教學與打造個人化 AI Slack 收件匣",
       "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era",
-      "analysis_zh": "本文源自知名科技與產品專欄《Lenny's Newsletter》，深度訪談了 Khosla Ventures 董事總經理 Keith Rabois。Rabois 是矽谷傳奇「PayPal 黑手黨」成員，曾任 Square 營運長與 LinkedIn 副總裁，並早期投資了 Stripe、DoorDash、Airbnb 與 Palantir 等巨頭。作為一名以觀點犀利、洞察深邃著稱的戰略思想家，Rabois 在訪談中挑戰了許多現代軟體開發的既定教條，解析了 AI 如何從根本上重塑企業的組織架構與競爭本質。\n\n### 戰略背景與脈絡\n在過去十年的移動互聯網黃金期，矽谷形成了一套標準的「敏捷開發」模式：以產品經理（PM）為核心，透過大量的用戶訪談（User Research）來驗證假設，並由工程師進行小步快跑的迭代。然而，Rabois 指出隨著生成式 AI 的爆發，我們正進入一個「產能過剩、效率極致」的新紀元。在這種背景下，傳統的溝通成本與研發週期已成為企業最大的負債。當 AI 能夠在數秒內生成程式碼或行銷文案時，過去依賴冗長會議達成共識的官僚體系將難以生存，企業必須重新思考人才的定義與職能的邊界。\n\n### 作者的核心推演與論點\nRabois 的核心論點之一是著名的「木桶 vs. 彈藥」（Barrels vs. Ammunition）人才框架。他認為大多數員工是「彈藥」，需要指令、需要管理，雖然不可或缺，但其影響力是線性的；而真正決定公司成敗的是「木桶」，他們能獨立啟動專案、解決複雜問題並吸引人才。在 AI 時代，由於 AI 能提供近乎無限的「彈藥」（執行力），尋找並賦予「木桶型人才」最大權限變得至關重要。這群人不再需要龐大的團隊，而是需要更強的槓桿。\n\n更具顛覆性的是，Rabois 預言了「PM 角色的消亡」。他認為 PM 過去的核心價值在於翻譯業務需求與技術實作，但隨著 AI 讓工程師能直接理解商業語言並自動化生成原型，PM 的溝通橋樑作用正在瓦解。同時，他提出行銷長（CMO）將成為 token 的最大消費者，因為 AI 讓增長實驗與內容產出的門檻降至零。這導致了組織的扁平化：頂尖公司將由極少數具備強大產品審美（Taste）的「超級個體」組成，這群人能同時駕馭技術與市場方向。\n\n此外，Rabois 針對消費級產品提出了反直覺的觀點：與客戶對話對消費性產品研發是有害的。他主張偉大的創新如 iPhone 或 Square，並非來自於對現有用戶的調研，而是來自創始人對未來的強烈願景。用戶往往無法想像不存在的事物，過度依賴用戶回饋只會導致平庸的漸進式改進，而非突破性的變革。\n\n### 對市場與技術發展的長期影響\n從長期來看，Rabois 的觀點揭示了競爭門檻的位移。當「開發能力」不再是稀缺資源，公司的勝負手將轉向「產品審美」與「戰略決斷」。對於初創企業而言，這意味著小規模團隊（例如 10-15 人）能達到過去千人公司的產出，這將大幅降低創業的資本成本，但會極度拉高對核心創始團隊素質的要求。地緣政治與全球市場方面，這種效率革命將使矽谷的創新速度重新領先於傳統追隨者。企業若無法在 AI 時代完成從「流程驅動」到「願景與審美驅動」的轉型，將在這一波 token 驅動的效率階梯中被無情淘汰。",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-cowork",
+      "analysis_zh": "這篇文章源自矽谷知名的產品與成長社群《Lenny's Newsletter》，由產品專家 Lenny Rachitsky 所主持的「How I AI」系列專欄。在本集中，Lenny 採訪了 Clay 的教育主管 Yash Tekriwal 以及 Tenex 的社群領袖 JJ Englert，探討他們如何利用 Perplexity Computer 與 Claude Cowork 等前沿 AI 工具，將混亂的工作流程轉化為高度自動化的「個人作業系統」。文章的主旨在於揭示一個關鍵趨勢：AI 的應用正從單純的「聊天對話」進化到「系統建構」，使非技術人員也能跨越編碼門檻，打造出完全符合個人心智模型的專屬軟體。\n\n### 戰略背景與脈絡\n在過去兩年中，生成式 AI 主要被定位為「對話式助手」，使用者習慣於透過重複性的提示詞（Prompt）來完成單一任務。然而，隨著 LLM 模型能力的邊際效應遞減，知識工作者面臨的新挑戰在於「資訊超載」與「工具碎片化」。例如，Slack 每日數百條通知造成的認知負擔，已非單純的文字總結所能解決。在這樣的背景下，Perplexity 推出的 Computer 與 Anthropic 的 Claude Cowork 代表了新一代的「代理型工具」（Agentic Tools）。這些工具的戰略價值在於，它們不再只是「回答問題」，而是具備了雲端部署、原生 API 連接以及自動化執行任務的能力。這標誌著生產力工具正從「通用型 SaaS」轉向「個人化自動化層」，這是一場針對知識工作流底層邏輯的數位轉型。\n\n### 作者的核心推演與論點\nYash Tekriwal 的核心論點在於「任務 vs. 系統」的差異。他指出，大多數使用者對 AI 的錯誤期待是將其視為代辦事項的執行者，但真正的戰略效益來自於使用 AI 來建構「確定性工具」（Deterministic Tools）。透過 Perplexity Computer，Yash 並非請 AI 每次都去分類訊息，而是讓 AI 撰寫程式碼，透過 API 拉取數據並建立一個自動運行的 Slack 儀表板。這種「一次性建構，永久自動化」的邏輯，徹底改變了非工程師與軟體的關係。此外，Perplexity Computer 的「多模型編排」機制——自動調配 Sonnet 抓取數據、Gemini 進行規劃、Opus 處理複雜邏輯——解決了單一模型在處理複雜工作流時容易崩潰的痛點，實現了真正「脫離人工干預」的自動化循環。\n\n另一位專家 JJ Englert 則從「上下文管理」的角度提出了「大腦檔案」（Brain File）的戰略架構。在 Claude Cowork 的應用中，預先定義的 Markdown 檔案包含了個人的通訊風格、價值判斷標準與團隊脈絡，這使得 AI 不再是一個陌生的外部工具，而是具備企業內部知識的「數位員工」。他提出的「反待辦清單」（Anti-to-do list）方法論，強調自動化的目標應是系統性地消除那些消耗精力的重複性勞動。透過將成功的任務結果儲存為「技能」（Skills），使用者正在建立一套可擴展的數位資產，而非僅僅是完成一份清單。\n\n### 對整體市場與技術發展的長期影響\n這場變革對軟體產業具有深遠的啟示。Yash 提出的「微型軟體」（Micro-software）大爆發，挑戰了傳統 SaaS 必須具備「創投規模」（Venture Scale）才能生存的假設。在 AI 驅動下，開發個人化應用的邊際成本趨近於零，這意味著未來市場將充滿數以萬計、針對極度小眾場景（如：個人的 Slack 過濾器、家庭裝修追蹤器）的微型軟體。這不僅不會殺死 SaaS，反而會讓如 Slack、Notion 等大平台成為「數據基座」，而在其之上將會生長出繁茂的個人化生態系統。\n\n從地緣政治與全球技術勞動力市場的角度看，這種「AI 賦能非技術人員」的趨勢，將大幅稀釋基礎編碼能力的溢價，轉而提升「系統架構思維」與「問題定義能力」的價值。當一個非工程師能在一小時內自動化其 80% 的行政庶務時，組織的生產力結構將發生質變。未來的職場競爭力將不再取決於你如何使用工具，而是在於你具備多少「建構系統來取代自己勞動」的能力。這是一場關於「個人生產力主權」的解放運動，預示著一個「人人皆是軟體建築師」的時代即將到來。",
       "insights": [
-        "AI 正在導致產品經理（PM）職能的解體，因為技術實作門檻降低，具備產品審美的工程師與數據驅動的行銷人將直接定義產品，不再需要中間的溝通角色。",
-        "在 AI 賦能執行力的時代，「木桶型人才」的戰略價值遠超以往，企業應極度追求團隊精簡，利用 AI 槓桿讓少數超級個體推動全局，而非擴張官僚體系。",
-        "消費級產品的成功取決於創始人的願景而非用戶回饋；過度的用戶調研是創新的殺手，因為真正的突破來自於創造用戶尚未意識到的新需求。"
+        "AI 的戰略價值不在於「執行任務」，而在於賦能非技術人員建構「確定性系統」，實現一次性投資後的永續自動化。",
+        "SaaS 產業並非走向消亡，而是正經歷「微型軟體」的寒武紀大爆發，個人化軟體將填補通用平台與個體需求之間的巨大缺口。",
+        "「大腦檔案」與「反待辦清單」是 AI 時代的核心工作法：前者解決了模型缺乏背景知識的痛點，後者則明確了自動化應專注於消除「能量損耗」而非管理任務。"
       ]
     },
     "馬斯克帝國觀察": {
