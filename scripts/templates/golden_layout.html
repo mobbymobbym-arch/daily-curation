@@ -32,26 +32,22 @@
 
         body { font-family: 'Inter', 'Noto Sans TC', -apple-system, sans-serif; background-color: var(--bg-color); color: var(--primary-text); margin: 0; line-height: 1.6; scroll-behavior: smooth; }
         
-        nav { position: sticky; top: 0; background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 100; padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.05); text-align: center; }
+        nav { position: sticky; top: 0; background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 100; padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.05); text-align: center; }
         @media (prefers-color-scheme: dark) { nav { background: rgba(15, 23, 42, 0.7); border-bottom-color: rgba(255,255,255,0.05); } }
-        nav .nav-container { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
-        nav .nav-links { display: flex; gap: 8px; row-gap: 8px; flex-grow: 1; justify-content: center; flex-wrap: wrap; min-width: 0; padding: 0 8px; }
-        nav .nav-links a { text-decoration: none; font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.5px; transition: transform 0.2s, box-shadow 0.2s; white-space: nowrap; display: inline-flex; align-items: center; justify-content: center; min-height: 30px; padding: 7px 10px; border-radius: 999px; border: 1px solid transparent; line-height: 1; }
+        nav .nav-container { max-width: 1400px; margin: 0 auto; position: relative; padding: 0 54px 0 12px; }
+        nav .nav-links { display: flex; gap: 6px; row-gap: 6px; justify-content: center; flex-wrap: wrap; min-width: 0; padding: 0; }
+        nav .nav-links a { text-decoration: none; color: #1f2937; background: rgba(17, 24, 39, 0.08); border-color: rgba(17, 24, 39, 0.14); font-weight: 800; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.35px; transition: transform 0.2s, box-shadow 0.2s, background 0.2s, color 0.2s; white-space: nowrap; display: inline-flex; align-items: center; justify-content: center; min-height: 26px; padding: 5px 9px; border-radius: 999px; border: 1px solid transparent; line-height: 1; }
         nav .nav-links a:hover { transform: translateY(-1px); box-shadow: 0 8px 16px rgba(15, 23, 42, 0.08); }
-        .nav-link-techmeme { color: #1d4ed8; background: rgba(59, 130, 246, 0.14); border-color: rgba(59, 130, 246, 0.24); }
-        .nav-link-wsj { color: #1e293b; background: rgba(30, 41, 59, 0.12); border-color: rgba(30, 41, 59, 0.2); }
-        .nav-link-analysis { color: #047857; background: rgba(16, 185, 129, 0.14); border-color: rgba(16, 185, 129, 0.24); }
-        .nav-link-podcast { color: #6d28d9; background: rgba(139, 92, 246, 0.14); border-color: rgba(139, 92, 246, 0.24); }
-        .nav-link-x { color: #111827; background: rgba(17, 24, 39, 0.1); border-color: rgba(17, 24, 39, 0.18); }
+        nav .nav-links a.nav-link-active,
+        nav .nav-links a[aria-current="page"] { color: #ffffff; background: #111827; border-color: #111827; box-shadow: 0 8px 18px rgba(17, 24, 39, 0.18); }
         @media (prefers-color-scheme: dark) {
-            .nav-link-techmeme { color: #bfdbfe; background: rgba(59, 130, 246, 0.22); border-color: rgba(147, 197, 253, 0.24); }
-            .nav-link-wsj { color: #e2e8f0; background: rgba(148, 163, 184, 0.16); border-color: rgba(226, 232, 240, 0.18); }
-            .nav-link-analysis { color: #a7f3d0; background: rgba(16, 185, 129, 0.18); border-color: rgba(167, 243, 208, 0.2); }
-            .nav-link-podcast { color: #ddd6fe; background: rgba(139, 92, 246, 0.22); border-color: rgba(221, 214, 254, 0.22); }
-            .nav-link-x { color: #f9fafb; background: rgba(249, 250, 251, 0.1); border-color: rgba(249, 250, 251, 0.18); }
+            nav .nav-links a { color: #e5e7eb; background: rgba(249, 250, 251, 0.1); border-color: rgba(249, 250, 251, 0.16); }
+            nav .nav-links a.nav-link-active,
+            nav .nav-links a[aria-current="page"] { color: #111827; background: #f9fafb; border-color: #f9fafb; box-shadow: 0 8px 18px rgba(249, 250, 251, 0.12); }
         }
-        .home-icon { color: var(--techmeme-accent); font-size: 1.2rem; transition: transform 0.2s; display: flex; align-items: center; }
-        .home-icon:hover { transform: scale(1.2); }
+        .home-icon { position: fixed; top: calc(8px + env(safe-area-inset-top)); right: calc(12px + env(safe-area-inset-right)); z-index: 120; width: 30px; height: 30px; border-radius: 999px; color: var(--primary-text); background: rgba(255, 255, 255, 0.82); border: 1px solid rgba(17, 24, 39, 0.12); box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12); font-size: 0.95rem; transition: transform 0.2s, box-shadow 0.2s; display: flex; align-items: center; justify-content: center; text-decoration: none; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+        .home-icon:hover { transform: translateY(-1px); box-shadow: 0 10px 22px rgba(15, 23, 42, 0.16); }
+        @media (prefers-color-scheme: dark) { .home-icon { color: #f9fafb; background: rgba(17, 24, 39, 0.78); border-color: rgba(249, 250, 251, 0.16); } }
 
         header { padding: 100px 20px; text-align: center; background: radial-gradient(circle at top left, #1e3a8a, #0f172a); color: white; position: relative; overflow: hidden; }
         header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: linear-gradient(to top, var(--bg-color), transparent); }
@@ -117,9 +113,11 @@
         @media (max-width: 768px) {
             .archive-footer { grid-template-columns: 1fr; }
             header h1 { font-size: 2.5rem; }
-            nav .nav-container { padding: 0 12px; }
-            nav .nav-links { gap: 6px; row-gap: 6px; padding: 0 6px; }
-            nav .nav-links a { font-size: 0.68rem; min-height: 28px; padding: 7px 8px; letter-spacing: 0.3px; }
+            nav { padding: 6px 0; }
+            nav .nav-container { padding: 0 48px 0 8px; }
+            nav .nav-links { gap: 5px; row-gap: 5px; }
+            nav .nav-links a { font-size: 0.62rem; min-height: 23px; padding: 4px 7px; letter-spacing: 0.2px; }
+            .home-icon { top: calc(6px + env(safe-area-inset-top)); right: calc(8px + env(safe-area-inset-right)); width: 28px; height: 28px; font-size: 0.88rem; }
         }
 
         footer.copyright { text-align: center; padding: 40px; border-top: 1px solid rgba(0,0,0,0.05); color: var(--secondary-text); font-size: 0.9rem; }
@@ -135,13 +133,12 @@
 <body>
     <nav>
         <div class="nav-container">
-            <div style="width: 24px;"></div>
             <div class="nav-links">
-                <a class="nav-link-techmeme" href="#techmeme-section">Techmeme</a>
-                <a class="nav-link-wsj" href="#wsj-section">WSJ Tech</a>
-                <a class="nav-link-analysis" href="#analysis-section">Deep Analysis</a>
-                <a class="nav-link-podcast" href="#podcast-section">Podcast</a>
-                <a class="nav-link-x" href="/daily-curation/x-posts.html">X Posts</a>
+                <a class="nav-link nav-link-active" href="#techmeme-section">Techmeme</a>
+                <a class="nav-link" href="#wsj-section">WSJ Tech</a>
+                <a class="nav-link" href="#analysis-section">Deep Analysis</a>
+                <a class="nav-link" href="#podcast-section">Podcast</a>
+                <a class="nav-link" href="/daily-curation/x-posts.html">X Posts</a>
             </div>
             <a href="/daily-curation/" class="home-icon">
                 <i class="fas fa-home"></i>
@@ -384,6 +381,27 @@
             const btn = el.nextElementSibling;
             el.classList.toggle('expanded');
             btn.innerHTML = el.classList.contains('expanded') ? '收起內容' : '展開全文 👀';
+        }
+
+        const sectionNavLinks = Array.from(document.querySelectorAll('nav .nav-link[href^="#"]'));
+        const sectionNavMap = new Map(sectionNavLinks.map(link => [link.getAttribute('href').slice(1), link]));
+
+        if ('IntersectionObserver' in window && sectionNavLinks.length) {
+            const observer = new IntersectionObserver((entries) => {
+                const visible = entries
+                    .filter(entry => entry.isIntersecting)
+                    .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+                if (!visible) return;
+
+                sectionNavLinks.forEach(link => link.classList.remove('nav-link-active'));
+                const activeLink = sectionNavMap.get(visible.target.id);
+                if (activeLink) activeLink.classList.add('nav-link-active');
+            }, { rootMargin: '-25% 0px -55% 0px', threshold: [0.1, 0.35, 0.6] });
+
+            sectionNavMap.forEach((_, sectionId) => {
+                const section = document.getElementById(sectionId);
+                if (section) observer.observe(section);
+            });
         }
     </script>
     <footer class="copyright">
