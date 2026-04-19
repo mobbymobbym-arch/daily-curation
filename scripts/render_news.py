@@ -16,11 +16,12 @@ def load_data():
         return json.load(f)
 
 def render_techmeme(items, fetch_date):
+    item_count = len(items)
     html = f'''
             <!-- Techmeme Section -->
             <div id="techmeme-section" class="section-header" style="color: var(--techmeme-accent);">
                 <i class="fas fa-bolt"></i>
-                <h2>Techmeme Top 15</h2>
+                <h2>Techmeme Main Feed ({item_count})</h2>
                 <p class="section-desc"><i class="far fa-calendar-alt"></i> {fetch_date}</p>
             </div>
             <div id="techmeme-grid" class="news-grid">'''

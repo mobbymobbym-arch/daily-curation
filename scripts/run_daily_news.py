@@ -1,5 +1,7 @@
 import json
+import html
 import os
+import re
 import sys
 import subprocess
 import urllib.request
@@ -13,6 +15,109 @@ ssl._create_default_https_context = ssl._create_unverified_context
 # Files
 DAILY_NEWS_JSON = 'daily_news_temp.json'
 ANALYSIS_STATE_FILE = 'analysis_state.json'
+TECHMEME_HOME_URL = 'https://www.techmeme.com/'
+TECHMEME_MAIN_COLUMN_ID = 'topcol1'
+TECHMEME_NEXT_COLUMN_ID = 'topcol23'
+TAG_RE = re.compile(r'<[^>]+>')
+TECHMEME_CITE_RE = re.compile(r'<CITE>(.*?)</CITE>', re.IGNORECASE | re.DOTALL)
+TECHMEME_ITEM_RE = re.compile(r'(?=<DIV\s+CLASS=["\']itc1["\'])', re.IGNORECASE)
+TECHMEME_II_RE = re.compile(r'<DIV\s+CLASS=["\']ii["\']\s*>(.*?)</DIV>', re.IGNORECASE | re.DOTALL)
+TECHMEME_ANCHOR_RE = re.compile(r'<A\b([^>]*)>(.*?)</A>', re.IGNORECASE | re.DOTALL)
+
+def clean_text(text):
+    """Collapse browser-style whitespace into a single readable string."""
+    return re.sub(r'\s+', ' ', text or '').strip()
+
+def parse_techmeme_source(cite_text):
+    """Extract the publication name from Techmeme's cite text."""
+    source = clean_text(cite_text).rstrip(':')
+    if '/' in source:
+        source = source.rsplit('/', 1)[-1]
+    return source.strip().rstrip(':')
+
+def strip_html(fragment):
+    """Convert a small Techmeme HTML fragment to readable text."""
+    fragment = re.sub(r'<br\s*/?>', ' ', fragment or '', flags=re.IGNORECASE)
+    text = TAG_RE.sub(' ', fragment)
+    return clean_text(html.unescape(text).replace('\xa0', ' '))
+
+def get_attr(attrs, attr_name):
+    match = re.search(rf'\b{attr_name}\s*=\s*(["\'])(.*?)\1', attrs or '', re.IGNORECASE | re.DOTALL)
+    return html.unescape(match.group(2)) if match else ''
+
+def attrs_include_class(attrs, class_name):
+    class_attr = get_attr(attrs, 'class')
+    return class_name in class_attr.split()
+
+def extract_techmeme_main_column_html(content):
+    start_match = re.search(
+        rf'<DIV\s+ID=["\']{TECHMEME_MAIN_COLUMN_ID}["\']\s*>',
+        content,
+        re.IGNORECASE,
+    )
+    end_match = re.search(
+        rf'<DIV\s+ID=["\']{TECHMEME_NEXT_COLUMN_ID}["\']\s*>',
+        content,
+        re.IGNORECASE,
+    )
+    if not (start_match and end_match and start_match.end() < end_match.start()):
+        return ''
+    return content[start_match.end():end_match.start()]
+
+def parse_techmeme_main_column_items(content):
+    """Return standalone Techmeme Top News feed items from the homepage main column."""
+    main_column_html = extract_techmeme_main_column_html(content)
+    if not main_column_html:
+        return []
+
+    items = []
+    seen = set()
+    for segment in TECHMEME_ITEM_RE.split(main_column_html):
+        if not segment.strip().startswith('<DIV'):
+            continue
+
+        headline_container = TECHMEME_II_RE.search(segment)
+        if not headline_container:
+            continue
+
+        ii_html = headline_container.group(1)
+        headline = None
+        for anchor in TECHMEME_ANCHOR_RE.finditer(ii_html):
+            attrs = anchor.group(1)
+            if not attrs_include_class(attrs, 'ourh'):
+                continue
+            headline = {
+                'url': urllib.parse.urljoin(TECHMEME_HOME_URL, get_attr(attrs, 'href') or '#'),
+                'title_en': strip_html(anchor.group(2)),
+                'summary_en': strip_html(ii_html[anchor.end():]),
+            }
+            break
+
+        if not headline:
+            continue
+
+        source_html = segment[:headline_container.start()]
+        source_match = TECHMEME_CITE_RE.search(source_html)
+        source = parse_techmeme_source(strip_html(source_match.group(1))) if source_match else ''
+        summary = re.sub(r'^(?:[-–—]\s*)+', '', headline['summary_en']).strip()
+        title = headline['title_en']
+        url = headline['url']
+        dedupe_key = (title, url)
+
+        if not (title and url and source) or dedupe_key in seen:
+            continue
+
+        seen.add(dedupe_key)
+        items.append({
+            'title_en': title,
+            'url': url,
+            'summary_en': summary,
+            'source': source,
+            'media_source': source,
+            'techmeme_source': 'homepage_main_column',
+        })
+
+    return items
 
 def fetch_url_content(url):
     """Simple fetcher with User-Agent and timeout."""
@@ -80,6 +185,34 @@ def fetch_rss_items(url, limit=10, extract_original_url=False, max_retries=3):
     print(f"   ❌ Exhausted {max_retries} retries for {url}.")
     return []
 
+def fetch_techmeme_main_column_items(url=TECHMEME_HOME_URL, max_retries=3):
+    """Fetch Techmeme homepage and return every standalone main-column headline."""
+    import time
+
+    for attempt in range(max_retries):
+        try:
+            content = fetch_url_content(url)
+            if not content:
+                print(f"   ⚠️ Techmeme homepage empty (Attempt {attempt+1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    time.sleep(5)
+                continue
+
+            items = parse_techmeme_main_column_items(content)
+            if items:
+                return items
+
+            print(f"   ⚠️ Techmeme homepage parser found no main-column items (Attempt {attempt+1}/{max_retries})")
+            if attempt < max_retries - 1:
+                time.sleep(5)
+        except Exception as e:
+            print(f"   ⚠️ Techmeme homepage fetch/parse error: {e} (Attempt {attempt+1}/{max_retries})")
+            if attempt < max_retries - 1:
+                time.sleep(5)
+
+    print(f"   ❌ Exhausted {max_retries} retries for Techmeme homepage.")
+    return []
+
 def update_news_headlines():
     """
     Task: Fetch latest tech news.
@@ -96,8 +229,8 @@ def update_news_headlines():
         daily_data = {"fetch_date": str(datetime.now().date())}
 
     # 1. Techmeme
-    print("   ▶ Fetching Techmeme...")
-    techmeme_items = fetch_rss_items("https://www.techmeme.com/feed.xml", limit=15, extract_original_url=True)
+    print("   ▶ Fetching Techmeme homepage main column...")
+    techmeme_items = fetch_techmeme_main_column_items()
     if techmeme_items:
         daily_data['techmeme'] = techmeme_items
         print(f"   ✅ Fetched {len(techmeme_items)} Techmeme items.")

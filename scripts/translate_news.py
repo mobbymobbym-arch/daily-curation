@@ -9,6 +9,7 @@ import time
 DAILY_NEWS_JSON = 'daily_news_temp.json'
 BATCH_TIMEOUT = 120
 MAX_RETRIES = 3
+TRANSLATION_BATCH_SIZE = 20
 
 def translate_batch(batch_items, retry_count=0):
     """
@@ -116,7 +117,7 @@ def translate_batch(batch_items, retry_count=0):
 def main():
     print("========================================")
     print(f"🈯️ Automated News Translator - {datetime.now()}")
-    print(f"   Batch timeout: {BATCH_TIMEOUT}s, Max Retries: {MAX_RETRIES}")
+    print(f"   Batch timeout: {BATCH_TIMEOUT}s, Max Retries: {MAX_RETRIES}, Batch size: {TRANSLATION_BATCH_SIZE}")
     print("========================================")
 
     if not os.path.exists(DAILY_NEWS_JSON):
@@ -154,14 +155,23 @@ def main():
     print(f"📰 Found {len(batch_requests)} items to translate. Initiating batch request...")
     
     # 2. Perform Batch Translation
-    results = translate_batch(batch_requests)
+    results = []
+    failed_requests = []
+    for start in range(0, len(batch_requests), TRANSLATION_BATCH_SIZE):
+        batch = batch_requests[start:start + TRANSLATION_BATCH_SIZE]
+        print(f"   📦 Translating items {start + 1}-{start + len(batch)} of {len(batch_requests)}...")
+        batch_results = translate_batch(batch)
+        if batch_results:
+            results.extend(batch_results)
+        else:
+            failed_requests.extend(batch)
     
     # 3. Apply Results
     total_translated = 0
     total_failed = 0
 
     if results:
-        print(f"✅ Successfully translated batch.")
+        print(f"✅ Successfully translated {len(results)} item(s).")
         for res in results:
             item_id = res.get("id")
             if item_id in item_map:
@@ -170,9 +180,10 @@ def main():
                 item["summary_zh"] = res.get("summary_zh", "")
                 item.pop("_translation_skipped", None)
                 total_translated += 1
-    else:
-        print(f"❌ Batch translation failed. Falling back to English.")
-        for req in batch_requests:
+
+    if failed_requests:
+        print(f"❌ {len(failed_requests)} item(s) failed translation. Falling back to English.")
+        for req in failed_requests:
             item_id = req["id"]
             if item_id in item_map:
                 item = item_map[item_id]
