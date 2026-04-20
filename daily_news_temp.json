@@ -1,15 +1,55 @@
 {
-  "fetch_date": "2026-04-19",
+  "fetch_date": "2026-04-20",
   "techmeme": [
     {
-      "title_en": "Salesforce announces Headless 360, an initiative that will give AI agents access to Salesforce's platform capabilities through APIs, MCP tools or CLI commands",
-      "url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
-      "summary_en": "Salesforce on Wednesday unveiled the most ambitious architectural transformation in its 27-year history, introducing “Headless 360” …",
-      "source": "VentureBeat",
-      "media_source": "VentureBeat",
+      "title_en": "Sources say NSA is using Mythos Preview, and a source says it is also being used widely within the DoD, despite Anthropic's designation as a supply chain risk",
+      "url": "https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
+      "summary_en": "The department moved in February to cut off Anthropic and force its vendors to follow suit.",
+      "source": "Axios",
+      "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Salesforce 宣布 Headless 360 計畫，將讓 AI 代理人能透過 API、MCP 工具或 CLI 指令存取 Salesforce 平台功能",
-      "summary_zh": "Salesforce 周三公布了其 27 年歷史中最具野心的架構轉型，推出了「Headless 360」..."
+      "title_zh": "消息指美國國安局（NSA）正使用 Mythos Preview，且國防部亦廣泛採用，儘管 Anthropic 被列為供應鏈風險",
+      "summary_zh": "國防部於 2 月採取行動切斷與 Anthropic 的聯繫，並強制其供應商跟進。"
+    },
+    {
+      "title_en": "Anthropic's Mythos adds to concerns about rising workloads for open-source maintainers, as many have already been dealing with a “crazy” number of bug reports",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-17/anthropic-s-mythos-adds-strain-on-cybersecurity-teams-facing-ai-threats",
+      "summary_en": "",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Anthropic 的 Mythos 引發開源維護者工作量增加的擔憂，多數維護者已在應對「瘋狂」數量的錯誤報告",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Vercel says its internal systems were accessed via a compromised third-party AI tool, after a user with a ShinyHunters handle claimed a breach on BreachForums",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "summary_en": "Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data.",
+      "source": "BleepingComputer",
+      "media_source": "BleepingComputer",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Vercel 表示其內部系統遭第三方 AI 工具入侵，此前名為 ShinyHunters 的用戶在 BreachForums 聲稱發動攻擊",
+      "summary_zh": "雲端開發平台 Vercel 披露了一起安全事件，駭客聲稱已入侵其系統並正試圖出售盜取的數據。"
+    },
+    {
+      "title_en": "Sources: the glowing “26” in Apple's WWDC invite is teasing a revamped Siri, memory shortages may push Mac Studio and touch MacBook Pro launches by a few months",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-04-19/apple-ios-27-siri-interface-ios-27-details-mac-studio-touch-macbook-release-mo5u23o7",
+      "summary_en": "Also: Memory shortages could push back new Macs. — Apple's WWDC 2026 teaser provides a glimpse of the revamped Siri interface coming in iOS 27.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息指 Apple WWDC 邀請函中的「26」暗示將推出改版 Siri；記憶體短缺或導致 Mac Studio 及觸控版 MacBook Pro 延後數月推出",
+      "summary_zh": "此外：記憶體短缺可能推遲新款 Mac 的發布。Apple WWDC 2026 的預告片展示了 iOS 27 中即將推出的新版 Siri 介面。"
+    },
+    {
+      "title_en": "Palantir posts a 22-point summary of Alex Karp's book, promoting hard power, AI weapons and deterrence, while denouncing pluralism and “regressive” cultures",
+      "url": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
+      "summary_en": "Surveillance and analytics company Palantir recently posted what it called a “brief” 22-point summary of CEO Alexander Karp's book “The Technological Republic.”",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Palantir 發布 Alex Karp 新書的 22 點摘要，倡導硬實力、AI 武器及威懾，同時譴責多元主義與「退步」文化",
+      "summary_zh": "監控與分析公司 Palantir 最近發布了執行長 Alexander Karp 新書《技術共和國》（The Technological Republic）的 22 點「簡介」摘要。"
     },
     {
       "title_en": "An attacker targeting Kelp DAO's LayerZero-powered cross-chain bridge, appears to have drained ~$292M worth of rsETH before Kelp paused all rsETH contracts",
@@ -18,88 +58,18 @@
       "source": "The Block",
       "media_source": "The Block",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "攻擊者鎖定 Kelp DAO 基於 LayerZero 的跨鏈橋，在 Kelp 暫停所有 rsETH 合約前，似乎已取走價值約 2.92 億美元的 rsETH",
-      "summary_zh": "快訊：一名攻擊者周六似乎從 Kelp DAO 基於 LayerZero 的跨鏈橋中取走了 116,500 枚 rsETH..."
+      "title_zh": "Kelp DAO 採用 LayerZero 技術的跨鏈橋遭攻擊，約 2.92 億美元的 rsETH 被盜，Kelp 已暫停所有 rsETH 合約",
+      "summary_zh": "快訊：一名攻擊者週六似乎從 Kelp DAO 採用 LayerZero 的跨鏈橋中抽走了 116,500 枚 rsETH。"
     },
     {
-      "title_en": "Sources suggest Anthropic is holding off from a wider Mythos release until it can reliably serve it to customers; Anthropic has suffered outages in recent weeks",
-      "url": "https://www.ft.com/content/c9f5b690-a10e-4c66-9245-017f8bfbc7b4",
-      "summary_en": "Dario Amodei met with Susie Wiles despite lawsuits over whether AI lab is a national security threat",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士指出 Anthropic 延後了 Mythos 的廣泛釋出，直到能穩定地為客戶提供服務；Anthropic 近幾周遭遇了多次服務中斷",
-      "summary_zh": "儘管面臨 AI 實驗室是否威脅國家安全的訴訟，Dario Amodei 仍與 Susie Wiles 會面"
-    },
-    {
-      "title_en": "White House says a meeting between Chief of Staff Susie Wiles and Dario Amodei had been “productive and constructive”; source: Scott Bessent joined the meeting",
-      "url": "https://www.axios.com/2026/04/17/anthropic-white-house-wiles-bessent-amodei",
-      "summary_en": "Treasury Secretary Scott Bessent joined a meeting on Friday between White House Chief of Staff Susie Wiles …",
-      "source": "Axios",
-      "media_source": "Axios",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "白宮表示幕僚長 Susie Wiles 與 Dario Amodei 的會面「富有成效且具建設性」；消息來源指 Scott Bessent 也參與了會面",
-      "summary_zh": "財政部長 Scott Bessent 周五參與了白宮幕僚長 Susie Wiles 的一場會面..."
-    },
-    {
-      "title_en": "A US judge grants an injunction to makers of the banned “ICE Sightings - Chicagoland” Facebook group and Eyes Up mobile app, who say DHS and DOJ violated the 1A",
-      "url": "https://www.engadget.com/apps/judge-sides-with-creators-of-banned-ice-trackers-who-allege-dhs-and-doj-violated-their-first-amendment-rights-191701801.html",
-      "summary_en": "Last year, the Trump administration demanded platforms remove a slew of apps that monitored ICE activity.",
-      "source": "Engadget",
-      "media_source": "Engadget",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "美國法官對遭禁的「ICE Sightings - Chicagoland」Facebook 社群與 Eyes Up 行動 App 開發者授予禁制令，後者稱國土安全部與司法部違反了第一修正案",
-      "summary_zh": "去年，川普政府要求平台下架一系列監控 ICE 活動的 App。"
-    },
-    {
-      "title_en": "Anthropic's Mythos adds to concerns about rising workloads for open-source maintainers, as many have already been dealing with a “crazy” number of bug reports",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-17/anthropic-s-mythos-adds-strain-on-cybersecurity-teams-facing-ai-threats",
-      "summary_en": "Anthropic's Mythos and similar AI tools can identify threats and vulnerabilities faster than small teams can fix them, putting the internet at risk.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Anthropic 的 Mythos 加劇了開源維護者工作量增加的擔憂，因為許多人已經在處理「瘋狂」數量的錯誤報告",
-      "summary_zh": "Anthropic 的 Mythos 和類似的 AI 工具識別威脅與漏洞的速度快過小型團隊修復的速度，使網際網路面臨風險。"
-    },
-    {
-      "title_en": "Global DRAM supply is likely to meet only 60% of demand through 2027; memory to hit ~40% of low-end smartphone manufacturing costs by mid-2026, up from 20% now",
-      "url": "https://asia.nikkei.com/business/tech/semiconductors/memory-shortage-set-to-run-until-2027-as-chipmakers-focus-on-ai",
-      "summary_en": "TOKYO/SEOUL — A shortage of memory chips appears likely to continue until around 2027, with the top U.S. and South Korean …",
-      "source": "Nikkei Asia",
-      "media_source": "Nikkei Asia",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "到 2027 年全球 DRAM 供應可能僅能滿足 60% 的需求；到 2026 年中，記憶體將占低階智慧型手機製造成本的約 40%，高於目前的 20%",
-      "summary_zh": "東京/首爾 — 記憶體晶片短缺似乎可能持續到 2027 年左右，美國與南韓的頂尖廠商..."
-    },
-    {
-      "title_en": "A profile of OpenTable CEO Debby Soo, who shifted its focus from diners to restaurants; it now seats ~2B diners a year across 65K restaurants, an all-time high",
-      "url": "https://www.bloomberg.com/news/features/2026-04-17/opentable-vs-resy-yelp-sevenrooms-why-some-top-restaurants-are-switching",
-      "summary_en": "The pioneering reservation app was losing marquee restaurant groups before its chief executive made some big changes.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "OpenTable 執行長 Debby Soo 專訪：她將重心從食客轉向餐廳；該平台目前每年為 6.5 萬家餐廳處理約 20 億名食客訂位，創下歷史新高",
-      "summary_zh": "這款開創性的訂位 App 在執行長做出重大變革前，曾流失許多知名餐廳集團。"
-    },
-    {
-      "title_en": "A look at Dylan Patel's SemiAnalysis, an AI newsletter and research firm that expects $100M+ in 2026 revenue from subscriptions and AI supply chain research",
-      "url": "https://www.theinformation.com/articles/dylan-patel-semianalysis-grabbed-sway-silicon-valley",
-      "summary_en": "For Dylan Patel, founder of SemiAnalysis, an influential AI industry newsletter and research firm, Nvidia deserves the kind …",
+      "title_en": "Sources: Google is in talks with Marvell Technology to develop a memory processing unit that works alongside TPUs, and a new TPU for running AI models",
+      "url": "https://www.theinformation.com/articles/google-talks-marvell-build-new-ai-chips-inference",
+      "summary_en": "Google is in talks with Marvell Technology to develop two new chips aimed at running AI models more efficiently, according to two people with direct knowledge of the discussions.",
       "source": "The Information",
       "media_source": "The Information",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "探訪 Dylan Patel 的 SemiAnalysis：這家 AI 電子報與研究機構預計 2026 年來自訂閱與 AI 供應鏈研究的收入將突破 1 億美元",
-      "summary_zh": "對於影響力深遠的 AI 產業電子報與研究機構 SemiAnalysis 的創辦人 Dylan Patel 來說，Nvidia 值得..."
-    },
-    {
-      "title_en": "Airbnb launches a pilot in NYC, LA, and other cities that lets users to select from a range of boutique hotels alongside private homes in a bid to boost growth",
-      "url": "https://www.ft.com/content/d0dff36f-fa29-4a88-93d0-e7be0a58eba9",
-      "summary_en": "Company expands accommodation options alongside home rentals but analysts warn of stiff competition",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Airbnb 在紐約、洛杉磯等城市啟動試點計畫，允許用戶在私人住宅之外選擇精品酒店，以尋求業務成長",
-      "summary_zh": "公司在民宿租賃之外擴大住宿選項，但分析師警告競爭激烈"
+      "title_zh": "消息指 Google 正與 Marvell Technology 洽談開發與 TPU 協作的記憶體處理單元（MPU），以及用於運行 AI 模型的新款 TPU",
+      "summary_zh": "據兩位知情人士透露，Google 正與 Marvell Technology 洽談開發兩款新晶片，旨在更高效地運行 AI 模型。"
     },
     {
       "title_en": "Appfigures: app releases across the App Store and Google Play grew 60% YoY in Q1, with App Store releases alone up 80%, possibly driven by AI coding tools",
@@ -108,110 +78,150 @@
       "source": "TechCrunch",
       "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Appfigures：第一季 App Store 與 Google Play 的 App 發布量同比增長 60%，其中 App Store 單獨增長 80%，可能受 AI 程式碼工具驅動",
-      "summary_zh": "每個人都說 AI 會殺死 App。相反地，新 App 的發布量正在飆升。根據市場情報公司的最新分析..."
+      "title_zh": "Appfigures：第一季 App Store 與 Google Play 應用程式發布量年增 60%，其中 App Store 增長 80%，可能受 AI 程式碼工具推動",
+      "summary_zh": "大家都說 AI 會扼殺 App。相反地，新 App 的發布量正在飆升。根據市場情報公司的最新分析..."
     },
     {
-      "title_en": "Mistral, which once aimed for top open models, now leans on being an alternative to Chinese and US labs, says it's on track for $80M in monthly revenue by Dec.",
-      "url": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/",
-      "summary_en": "Paris-based Mistral wanted to develop a top-tier AI model to rival OpenAI and Anthropic. That didn't work out.",
-      "source": "Forbes",
-      "media_source": "Forbes",
+      "title_en": "A look at the AI nonprofit METR, whose time-horizon metrics are used by AI researchers and Wall Street investors to track the rapid development of AI systems",
+      "url": "https://www.nytimes.com/2026/04/17/technology/how-do-you-measure-an-ai-boom.html?unlocked_article_code=1.blA.Nhaq.ypciUWbNtpvz&smid=url-share",
+      "summary_en": "A chart created by METR, a nonprofit A.I. organization, has become an industrywide obsession as it measures the rapid development of big A.I. systems.",
+      "source": "New York Times",
+      "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "曾目標打造頂尖開源模型的 Mistral，現在轉向成為中美實驗室之外的另一選擇，並表示有望在 12 月達成 8000 萬美元的月營收",
-      "summary_zh": "總部位於巴黎的 Mistral 曾想開發頂尖 AI 模型與 OpenAI 和 Anthropic 競爭，但並未成功。"
+      "title_zh": "關注 AI 非營利組織 METR，其時間跨度指標被 AI 研究員與華爾街投資者用於追踪 AI 系統的快速發展",
+      "summary_zh": "由非營利組織 METR 製作的一張圖表已成為業界關注焦點，該圖表衡量了大型 AI 系統的快速發展。"
     },
     {
-      "title_en": "The EC awards a six-year, €180M sovereign cloud contract to four European providers as part of a push to reduce the EU's dependence on non-European tech",
-      "url": "https://www.reuters.com/business/media-telecom/eu-commission-awards-180-million-euro-cloud-contract-four-european-providers-2026-04-17/",
-      "summary_en": "The European Commission on Friday awarded a 180 million euro ($212 million) tender for sovereign cloud services to four European providers …",
-      "source": "Reuters",
-      "media_source": "Reuters",
+      "title_en": "Fermi CEO Toby Neugebauer is leaving the company, as the data center developer faces issues in securing an anchor tenant and construction delays",
+      "url": "https://www.axios.com/2026/04/19/ai-data-center-project-troubles-texas",
+      "summary_en": "The world's largest data center project — backed by Trump allies and bearing his name — is stalled by delays and logistical hurdles that could stop it before it even starts.",
+      "source": "Axios",
+      "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "歐盟執委會將一份為期六年、價值 1.8 億歐元的主權雲端合約授予四家歐洲供應商，旨在減少歐盟對非歐洲科技的依賴",
-      "summary_zh": "歐盟執委會周五將一份 1.8 億歐元（約 2.12 億美元）的主權雲端服務標案授予四家歐洲供應商..."
+      "title_zh": "Fermi 執行長 Toby Neugebauer 離職，該資料中心開發商正面臨主要租戶簽署與施工延遲等問題",
+      "summary_zh": "全球最大的資料中心項目（由川普盟友支持並以其命名）因延遲和物流障礙而停滯，可能在啟動前就宣告終止。"
     },
     {
-      "title_en": "Some Mac Mini and Mac Studio models are unavailable or facing up to 12-week wait times in the US, with analysts citing strong demand from AI agent power users",
-      "url": "https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=kzo1rF&reflink=desktopwebshare_permalink",
-      "summary_en": "The scarcity of Apple's littlest Mac comes at a time of high interest from AI power users and a potential product refresh",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
+      "title_en": "Binance and Bitget to probe a rally in RaveDAO's RAVE token, which surged 4,500% in a week, after ZachXBT alleged RAVE insiders engineered a large short squeeze",
+      "url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
+      "summary_en": "Nearly 90% of RAVE's supply was concentrated in just three wallets, and millions of tokens were transferred to exchanges before the price surge.",
+      "source": "CoinDesk",
+      "media_source": "CoinDesk",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "部分 Mac Mini 與 Mac Studio 型號在美國缺貨或面臨長達 12 週的等待期，分析師稱 AI 代理人進階用戶的需求強勁",
-      "summary_zh": "Apple 這款體積最小的 Mac 缺貨之際，正值 AI 進階用戶的高度關注以及潛在的產品更新期"
+      "title_zh": "幣安（Binance）與 Bitget 將調查 RaveDAO 的 RAVE 代幣一週內飆升 4,500% 事件，此前 ZachXBT 指控內部人士策劃了大規模軋空",
+      "summary_zh": "RAVE 近 90% 的供應量集中在僅三個錢包中，且在價格飆升前有數百萬枚代幣被轉移至交易所。"
+    },
+    {
+      "title_en": "Match Group CEO Spencer Rascoff says growing women's share on Tinder is his “primary focus” to stem user declines; Sensor Tower says 75% of Tinder users are men",
+      "url": "https://www.ft.com/content/3a1ec8b3-2928-4813-a00a-2078e9fe7872",
+      "summary_en": "Match Group boss Spencer Rascoff says attracting female users is ‘priority focus’ in push to turn around flagship dating app",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Match Group 執行長 Spencer Rascoff 表示，增加 Tinder 女性用戶比例是「首要任務」以緩解用戶流失；數據顯示 75% 用戶為男性",
+      "summary_zh": "Match Group 負責人 Spencer Rascoff 表示，吸引女性用戶是推動旗艦交友 App 轉型發展的「優先重點」。"
+    },
+    {
+      "title_en": "A look at Dylan Patel's SemiAnalysis, an AI newsletter and research firm that expects $100M+ in 2026 revenue from subscriptions and AI supply chain research",
+      "url": "https://www.theinformation.com/articles/dylan-patel-semianalysis-grabbed-sway-silicon-valley",
+      "summary_en": "For Dylan Patel, founder of SemiAnalysis, an influential AI industry newsletter and research firm, Nvidia deserves the kind …",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "聚焦 Dylan Patel 的 SemiAnalysis：這家頗具影響力的 AI 電子報與研究機構預計 2026 年營收將超過 1 億美元",
+      "summary_zh": "對於 SemiAnalysis 的創辦人 Dylan Patel 而言，這家頗具影響力的 AI 產業電子報與研究公司認為 NVIDIA 值得這種..."
+    },
+    {
+      "title_en": "Tesla expands its robotaxi service to Dallas and Houston after launching in Austin last year and starting to offer rides without safety drivers in January 2026",
+      "url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
+      "summary_en": "Tesla is expanding its robotaxi service to Dallas and Houston, according to a social media post from the company.",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Tesla 將 Robotaxi 服務擴展至達拉斯與休士頓，該服務去年已在奧斯汀上線，並於 2026 年 1 月開始提供無安全員駕駛服務",
+      "summary_zh": "根據 Tesla 的社群媒體貼文，公司正將其 Robotaxi 服務擴展至達拉斯與休士頓。"
+    },
+    {
+      "title_en": "A profile of Quince, an online luxury DTC brand valued at $10B+, which has found success by using data analysis and close manufacturer ties to keep prices low",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-15/how-quince-gets-its-prices-so-low-from-cashmere-to-furniture?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NjI2Mjc2MCwiZXhwIjoxNzc2ODY3NTYwLCJhcnRpY2xlSWQiOiJUREo3VzlLR0lGUFMwMCIsImJjb25uZWN0SWQiOiI3MDQyN0U3REVGMkM0MDEzODNCNDUzRjAyNUE2NDc3NyJ9.l-eB3w5QaTha8ZQZ5INbSWF5HAYRun3r4pFXrveQtPY",
+      "summary_en": "The online apparel retailer has become a $10 billion-plus e-commerce giant by mastering the art of the supply chain.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "揭秘估值逾 100 億美元的線上奢華 DTC 品牌 Quince，其透過數據分析與製造商緊密聯繫來保持低價，獲得巨大成功",
+      "summary_zh": "這家線上服飾零售商透過精通供應鏈藝術，已成為一家市值超過 100 億美元的電子商務巨頭。"
     }
   ],
   "wsj": [
     {
-      "title_en": "Justice Department Rebuffs French on X Probe, Musk Interview",
-      "url": "https://www.wsj.com/business/justice-department-rebuffs-french-on-x-probe-musk-interview-2b8eb080?mod=rss_Technology",
-      "summary_en": "The U.S. told French authorities it wouldn’t facilitate their efforts to investigate Elon Musk’s X, after a raid on the social-media platform’s Paris office earlier this year....",
-      "title_zh": "美國司法部拒絕法國對 X 調查及約談 Musk 的請求",
-      "summary_zh": "美國告知法國當局，在今年早些時候該社交媒體平台的巴黎辦公室遭到搜查後，美國不會協助其調查 Elon Musk 的 X...."
+      "title_en": "Eli Lilly Nears Deal for Cancer Biotech",
+      "url": "https://www.wsj.com/tech/biotech/eli-lilly-nears-deal-for-cancer-biotech-db07be72?mod=rss_Technology",
+      "summary_en": "Deal for Kelonia Therapeutics could come as soon as Monday....",
+      "title_zh": "禮來（Eli Lilly）即將達成收購癌症生技公司的交易",
+      "summary_zh": "收購 Kelonia Therapeutics 的交易最快可能在週一達成。"
+    },
+    {
+      "title_en": "The CEO Preaching Straight Talk About AI and Job Losses",
+      "url": "https://www.wsj.com/tech/ai/the-ceo-preaching-straight-talk-about-ai-and-job-losses-a3aaaaf1?mod=rss_Technology",
+      "summary_en": "Verizon’s Dan Schulman is all in on AI. But he warns that it is time for business leaders to acknowledge its disruptive potential....",
+      "title_zh": "執行長直言不諱：談論 AI 與裁員風險",
+      "summary_zh": "Verizon 的 Dan Schulman 全力投入 AI，但他警告企業領導者是時候承認其帶來的顛覆性潛力了。"
+    },
+    {
+      "title_en": "Altman’s Personal Investments",
+      "url": "https://www.wsj.com/tech/ai/altmans-personal-investments-4ca4e64d?mod=rss_Technology",
+      "summary_en": "Plus: AI for dementia patients, the Bezos-Musk space race, the Mac Mini shortage and more....",
+      "title_zh": "Sam Altman 的個人投資概況",
+      "summary_zh": "此外：用於失智症患者的 AI、貝佐斯與馬斯克的太空競賽、Mac Mini 短缺等資訊。"
+    },
+    {
+      "title_en": "You’re About to See a Lot of Critical Software Updates. Don’t Ignore Them.",
+      "url": "https://www.wsj.com/tech/personal-tech/anthropic-mythos-security-software-updates-573cc9b3?mod=rss_Technology",
+      "summary_en": "Anthropic’s newest, as-yet-unreleased AI model is a hacker’s dream, so here’s the cybersecurity advice you need to start taking seriously right now....",
+      "title_zh": "關鍵軟體更新即將來襲，請勿忽視",
+      "summary_zh": "Anthropic 最新且尚未發布的 AI 模型是駭客的夢想，因此這裡有你現在就需要認真對待的網路安全建議。"
+    },
+    {
+      "title_en": "The Must-Have Item in Silicon Valley Is a $178 Sweater With a CEO’s Face",
+      "url": "https://www.wsj.com/tech/silicon-valley-founder-fashion-nvidia-huang-anduril-luckey-musk-tesla-palantir-karp-4d8b9339?mod=rss_Technology",
+      "summary_en": "Leaders at companies from Nvidia to Palantir are now driving fashion, signaling a new era of the cult of the founder....",
+      "title_zh": "矽谷必備單品：印有執行長頭像、售價 178 美元的毛衣",
+      "summary_zh": "從 NVIDIA 到 Palantir 的公司領導者正引領時尚，預示著創辦人個人崇拜的新時代。"
+    },
+    {
+      "title_en": "Intel Is Making Progress. But It Isn’t Out of the Woods Yet.",
+      "url": "https://www.wsj.com/finance/stocks/intel-is-making-progress-but-it-isnt-out-of-the-woods-yet-f69c78d6?mod=rss_Technology",
+      "summary_en": "A shift in the AI market helps the chip maker, but the stock has already tripled while Intel’s turnaround is far from done....",
+      "title_zh": "Intel 已見進展，但尚未脫離困境",
+      "summary_zh": "AI 市場的轉向對這家晶片大廠有所助益，但股價已翻了三倍，而 Intel 的轉型計劃仍遠未完成。"
     },
     {
       "title_en": "Fear and Loathing Among the Haves and Have Mores in San Francisco",
       "url": "https://www.wsj.com/tech/ai/fear-and-loathing-among-the-haves-and-have-mores-in-san-francisco-ee812c11?mod=rss_Technology",
       "summary_en": "The gold-rush city’s vibe has turned angry as the AI boom creates a new K-shaped economy....",
-      "title_zh": "舊金山「富人」與「更富有人」之間的恐懼與厭惡",
-      "summary_zh": "隨著 AI 熱潮創造出新的 K 型經濟，這座淘金城市的氛圍已變得憤怒...."
+      "title_zh": "舊金山的恐懼與厭惡：AI 熱潮下的貧富差距擴大",
+      "summary_zh": "隨著 AI 熱潮引發新的 K 型經濟，這座淘金之城的氛圍已轉向憤怒，富人與巨富之間的矛盾日益加劇。"
     },
     {
       "title_en": "Anthropic CEO Meets Trump Administration Officials as Feud Thaws",
       "url": "https://www.wsj.com/tech/ai/anthropic-ceo-lands-white-house-meeting-as-feud-thaws-9de3c1fa?mod=rss_Technology",
       "summary_en": "The White House is racing to prepare for Anthropic’s latest AI model, Mythos, which the firm says could pose cybersecurity risks....",
-      "title_zh": "隨著關係回溫，Anthropic 執行長與川普政府官員會面",
-      "summary_zh": "白宮正加速為 Anthropic 最新的 AI 模型 Mythos 做準備，該公司表示該模型可能帶來網路安全風險...."
-    },
-    {
-      "title_en": "A Factory That Runs on Recycled EV Batteries",
-      "url": "https://www.wsj.com/business/entrepreneurship/a-factory-that-runs-on-recycled-ev-batteries-cfc08b4a?mod=rss_Technology",
-      "summary_en": "Plus, Dairy Queen’s chatbot, the NYSE embraces crypto and the Bezos vs. Musk space race....",
-      "title_zh": "一家利用回收電動車電池運行的工廠",
-      "summary_zh": "此外還有 Dairy Queen 的聊天機器人、紐約證交所擁抱加密貨幣，以及貝佐斯與馬斯克的太空競賽...."
-    },
-    {
-      "title_en": "Three Reasons AI Is Now More Reliable Than Ever",
-      "url": "https://www.wsj.com/tech/ai/ai-model-reliability-hallucinations-a3bc0497?mod=rss_Technology",
-      "summary_en": "By their nature, AI models hallucinate and generate inconsistent answers—so why are they suddenly useful enough to get real work done?...",
-      "title_zh": "AI 現在比以往任何時候都更可靠的三個原因",
-      "summary_zh": "從本質上講，AI 模型會產生幻覺並生成不一致的答案——那麼為什麼它們突然變得足夠有用，可以處理實際工作了呢？..."
-    },
-    {
-      "title_en": "The Mystery of Why You Can’t Buy a Mac Mini Right Now",
-      "url": "https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?mod=rss_Technology",
-      "summary_en": "The scarcity of Apple’s littlest Mac comes at a time of high interest from AI power users and a potential product refresh....",
-      "title_zh": "為何現在買不到 Mac Mini 的謎團",
-      "summary_zh": "Apple 這款體積最小的 Mac 缺貨之際，正值 AI 進階用戶的高度關注以及潛在的產品更新期...."
+      "title_zh": "關係回溫：Anthropic 執行長與川普政府官員會晤",
+      "summary_zh": "白宮正緊鑼密鼓地準備應對 Anthropic 最新的 AI 模型 Mythos。該公司警告，這款模型可能具有網路安全風險。"
     },
     {
       "title_en": "Cerebras Files for IPO as Demand Surges for More Efficient AI Chips",
       "url": "https://www.wsj.com/tech/chip-startup-cerebras-files-for-initial-public-offering-4aa27ae3?mod=rss_Technology",
       "summary_en": "The chip maker, whose customers include OpenAI and Amazon, had canceled an earlier plan for a public market debut....",
-      "title_zh": "AI 晶片需求激增：Cerebras 正式遞交 IPO 申請",
-      "summary_zh": "這家晶片製造商的客戶包括 OpenAI 和 Amazon，此前曾取消過一次公開上市計劃。"
+      "title_zh": "高效能 AI 晶片需求激增，Cerebras 申請 IPO",
+      "summary_zh": "這家晶片製造商的客戶包含 OpenAI 與 Amazon，此前曾一度取消上市計劃，現已重新啟動 IPO 流程。"
     },
     {
-      "title_en": "Sam Altman’s Side Hustles Blur the Line Between OpenAI’s Interests and His Own",
-      "url": "https://www.wsj.com/tech/ai/chatgpt-openai-ipo-altman-029ae6d5?mod=rss_Technology",
-      "summary_en": "Ahead of a planned IPO, Altman’s personal investments remain opaque, making it hard to spot any conflicts....",
-      "title_zh": "Sam Altman 的個人副業讓 OpenAI 的利益邊界變得模糊",
-      "summary_zh": "在計劃 IPO 之前，Altman 的個人投資仍然不透明，這使得外界難以察覺是否存在任何利益衝突。"
-    },
-    {
-      "title_en": "An Investor Dared Him to Quit School. Now He’s Building a $1.5 Billion AI Startup.",
-      "url": "https://www.wsj.com/tech/ai/an-investor-dared-him-to-quit-school-now-hes-building-a-1-5-billion-ai-startup-d8663e72?mod=rss_Technology",
-      "summary_en": "Matan Grinberg’s Factory, which offers autonomous coding tools, is competing with the likes of Anthropic, OpenAI and Cursor....",
-      "title_zh": "投資人的一場豪賭讓他決定退學，如今他正在打造一家估值 15 億美元的 AI 新創",
-      "summary_zh": "Matan Grinberg 創辦的 Factory 提供自動化程式碼開發工具，正在與 Anthropic、OpenAI 和 Cursor 等對手競爭。"
-    },
-    {
-      "title_en": "Australian Design Startup Canva Avoiding Tech-Sector Layoffs",
-      "url": "https://www.wsj.com/tech/australian-design-startup-canva-avoiding-tech-sector-layoffs-f94cec0e?mod=rss_Technology",
-      "summary_en": "The design-software developer’s profitability has helped it avoid the large-scale layoffs seen at other tech companies as it builds toward a U.S. stock-market listing, its CEO said....",
-      "title_zh": "澳洲設計新創 Canva 成功避開科技業裁員潮",
-      "summary_zh": "執行長表示，這家設計軟體開發商的獲利能力幫助其避開了其他科技公司常見的大規模裁員，目前正朝著在美國上市的目標前進。"
+      "title_en": "Three Reasons AI Is Now More Reliable Than Ever",
+      "url": "https://www.wsj.com/tech/ai/ai-model-reliability-hallucinations-a3bc0497?mod=rss_Technology",
+      "summary_en": "By their nature, AI models hallucinate and generate inconsistent answers—so why are they suddenly useful enough to get real work done?...",
+      "title_zh": "AI 現已比以往更可靠的三大理由",
+      "summary_zh": "AI 模型天生具有幻覺且答案不一，但為何它們現在突然變得如此實用，足以處理正式工作任務？"
     }
   ],
   "deep_analysis": {
@@ -282,14 +292,14 @@
       ]
     },
     "Lenny's Newsletter": {
-      "title": "Community Wisdom: From Claude Code Diffusion to the Evolution of Talent Platforms | 社群智慧：從 Claude Code 的擴散到人才平台的演進",
+      "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google) / 為何半數產品經理正面臨危機：前 Meta 與 Google 高管 Nikhyl Singhal 的深度洞察",
       "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code",
-      "analysis_zh": "本文源自全球頂尖產品管理社群媒體《Lenny's Newsletter》，由核心貢獻者 Kiyani 撰寫。Kiyani 長期負責萃取該社群（由前 Airbnb 產品經理 Lenny Rachitsky 創立）中數萬名專業人士的實戰智慧；本文旨在總結社群近期針對 Anthropic 推出之 Claude Code 的組織內擴散、人才平台營運的殘酷現實，以及 AI 在銷售端落地的具體策略，為科技從業人員提供第一線的戰略指引。\n\n### 戰略背景與脈絡\n在 2026 年的科技生態中，我們正處於從「AI 輔助」邁向「AI 代理（Agentic Workflows）」的轉型臨界點。Anthropic 推出的 Claude Code（一個基於 CLI 的研發代理工具）不僅僅是工程師的輔助工具，它更象徵著技術門檻的進一步瓦解。當一個產品組織開始討論如何在內部大規模分享這類工具的技能時，其背後的戰略意義在於「組織賦能（Organizational Enablement）」。過去，技術工具的擴散是自下而上的、碎片化的，但在現今的競爭環境下，如何將個人產力的飛躍轉化為組織整體的效能提升，成為 PM 與技術領袖的核心焦慮。與此同時，lennysjobs.com 的停運也反映出垂直型招聘平台在 AI 匹配時代面臨的結構性挑戰：當人才獲取路徑變得更加去中心化與自動化，傳統佈告欄模式的生存空間正被極度壓縮。\n\n### 作者的核心推演與論點\n作者透過社群討論，推演出三大核心論點。首先，針對 Claude Code 的擴散，作者認為其關鍵不在於「撰寫 Prompt」，而是在於「跨職能的開發參與」。透過 CLI 代理工具，非純技術背景的成員（如技術 PM）能更直接地理解並參與代碼庫的維護，這種「代碼民主化」要求組織重新定義工程邊界。其次，關於 lennysjobs.com 的關閉，作者觸及了一個深層邏輯：在人才市場高度波動的時代，一個孤立的 Job Board 難以對抗 LinkedIn 或高度整合的 AI 推薦系統。社群的力量在於「人脈連結」而非「職缺清單」，當維護成本超過社群內直接推薦的效益時，關閉平台轉而回歸私域社群交流是更理性的戰略收縮。\n\n最後，針對 AI 在中小企業（SMB）銷售的應用，作者指出了一個「反直覺」的趨勢。過去認為 SMB 銷售需要更多的人性化溝通，但社群觀察顯示，透過 AI 代理處理全生命週期的銷售（從線索挖掘到合約初稿），其轉化率在特定場景下已超越初級銷售代表（SDR）。這並非取代人類，而是將銷售流程從「勞動力密集型」轉向「系統設計型」，這對銷售團隊的組織架構將產生根本性的衝擊。\n\n### 對整體市場、技術發展與職涯發展的長期影響\n從長遠來看，Claude Code 等工具的普及將引發「技術債」與「代碼質量控制」的全新挑戰。當寫代碼變得容易，組織必須建立更強大的審核機制與標準，這會促使軟體開發流程從「生產代碼」轉向「審閱代理人產出的代碼」。而在職涯層面，成立 LLC 以承接副作用或分段式工作（Fractional Work）的討論增加，預示著「個體公司化」已成為資深技術人才的標配。這種趨勢將導致傳統雇傭關係的進一步解構，企業將更像是一個動態分配任務的中心，而非固定的實體架構。在市場地緣政治與經濟不確定性下，這種「韌性個體」與「AI 驅動型組織」的結合，將是未來十年科技產業競爭的終極形態。總結來說，Lenny 社群的這些智慧片段，預示了一個不再以「職位名稱」定義價值，而是以「掌握代理工具並轉化為業務成果」為核心的新專業時代。",
+      "url": "https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble",
+      "analysis_zh": "本文源自知名科技訂閱媒體《Lenny's Newsletter》，由前 Meta 與 Google 產品高管、現任高階產品領導者社群「The Skip」創辦人 Nikhyl Singhal 撰寫。Singhal 以其身處矽谷核心圈的敏銳觀察，直言不諱地指出 AI 浪潮正以前所未有的速度重塑產品管理（Product Management, PM）的本質，並預警高達半數的現任產品經理若無法及時轉型，將在未來兩年內面臨職業生涯的重大危機。\n\n**戰略背景與脈絡**\n在過去十年的科技黃金期，產品經理的角色演變成了組織中的「協調者」與「粘合劑」。在資金充沛、人才過剩的大型科技企業中，PM 的核心價值往往體現在處理跨部門溝通、撰寫繁瑣的規格文件、管理 Jira 票據以及在無休止的會議中達成「對齊」（Alignment）。這種模式雖然在擴張期有效，卻也製造了高昂的「協調稅」。然而，隨著宏觀經濟環境轉向效率驅動，加上生成式 AI 技術的爆發，這種傳統的運作邏輯已徹底崩塌。AI 不僅能撰寫代碼，更能處理數據分析與文件草擬，這意味著那些僅靠「流程管理」生存的 PM，其技能邊際價值正迅速趨向於零。\n\n**作者的核心推演與論點**\nSinghal 提出了一個極具震撼力的預測：企業將在這一波裁員潮中裁撤 30,000 名傳統員工，轉而僅重新招募 8,000 名具備「AI 優先」思維的新型人才。他將這種轉型門檻稱為「重塑閾值」。他觀察到，許多產品經理正處於一種「微笑式精疲力竭」（Smiling Exhaustion）的狀態，表面上努力維持積極，內心卻深知原有的技能包已無法應對現狀。Singhal 認為，未來 PM 的勝負關鍵不在於簡歷上的 Google 或 Meta 標誌，而在於能否跨越心理障礙，與 AI 建立共生關係。他強調 PM 必須找到與 AI 合作的「喜悅時刻」（Moments of Joy），即利用 AI 自動化枯燥的協調工作，將精力重新投入到最純粹的「產品創造」中。未來的 PM 必須回歸到「創作者」的身份，直接操作 AI 工具（如 Claude Code 或 Lovable）來快速原型化產品，縮短從構思到實現的距離。\n\n**對整體市場與技術發展的長期影響**\n從長遠來看，這場變革將引發科技業人才結構的「去中介化」。當一名具備 AI 武裝的產品經理能夠獨自完成過去需要整個工程小組協作的工作時，組織的形態將變得極度扁平化與「輕量化」。這不僅是技術工具的升級，更是權力結構的重新分配。傳統上以「管理團隊規模」作為升遷標準的指標將失效，取而代之的是個人對 AI 槓桿的運用能力。地緣政治與全球市場競爭也將因此進入「開發者生產力」競賽的新階段，能夠最快整合 AI 進入工作流的區域和企業，將具備碾壓性的成本與速度優勢。最終，產品管理將從一種「職稱」回歸為一種「能力」，那些無法在兩年內完成 AI 化重塑的從業者，將如同當年拒絕學習新語言的程序員一樣，消失在歷史的轉折點上。",
       "insights": [
-        "AI 代理工具如 Claude Code 的擴散關鍵在於將技術能力從「單兵作戰」轉向「組織共識」，這要求 PM 重新定義與工程團隊的協作邊界，從需求描述轉向代碼審閱。",
-        "垂直型招聘平台的消亡證明了「資訊交換」的價值已低於「關係推薦」，未來的人才市場將向私域、高信任度的社群網絡大幅傾斜，傳統 Job Board 模式已失靈。",
-        "SMB 銷售的 AI 化並非僅是自動化發信，而是「銷售代理人」直接介入決策環節，這將導致企業內部銷售職能的徹底重組，從執行層轉向代理流程的設計與優化。"
+        "「簡歷光環」正在失效：未來企業將不再迷信 Big Tech 的工作背景，而是優先錄用能運用 AI 工具實現一人抵十人的「AI 原生創作者」。",
+        "協調稅的消失：AI 正接管產品經理 80% 的日常瑣事（如文件撰寫、進度追蹤），這迫使 PM 必須從「流程管理者」轉型為具備直接交付能力的「產品工程師」。",
+        "結構性失業與重組：企業並非單純縮減規模，而是進行「人才置換」，用 1/4 的高槓桿 AI 人才取代 3/4 的傳統流程導向員工，這將導致 PM 市場出現劇烈的供需失衡。"
       ]
     },
     "馬斯克帝國觀察": {
