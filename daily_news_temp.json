@@ -1,259 +1,389 @@
 {
-  "fetch_date": "2026-04-21",
+  "fetch_date": "2026-04-22",
   "techmeme": [
     {
-      "title_en": "John Ternus, senior VP of Hardware Engineering, will become Apple's next CEO on September 1; Tim Cook will become executive chairman of Apple's board",
-      "url": "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
-      "summary_en": "Apple said on Monday that John Ternus is succeeding Tim Cook as CEO, with Cook assuming the role of executive chairman on Sept. 1.",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Apple 硬體工程資深副總裁 John Ternus 將於 9 月 1 日接任 CEO；Tim Cook 轉任董事會執行主席",
-      "summary_zh": "Apple 週一宣佈，John Ternus 將接替 Tim Cook 出任 CEO，Cook 則將於 9 月 1 日接任執行主席一職。"
-    },
-    {
-      "title_en": "Apple says Johny Srouji, who most recently served as senior VP of Hardware Technologies, will assume an expanded role leading Hardware Engineering",
-      "url": "https://www.apple.com/newsroom/2026/04/johny-srouji-named-apples-chief-hardware-officer/",
-      "summary_en": "Apple today announced that, effective immediately, Apple executive Johny Srouji will become chief hardware officer.",
-      "source": "Apple",
-      "media_source": "Apple",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Apple 宣佈原硬體技術資深副總裁 Johny Srouji 將擴大職責，領導硬體工程部門",
-      "summary_zh": "Apple 今日宣佈，即日起 Apple 高層 Johny Srouji 將出任首席硬體官 (Chief Hardware Officer)。"
-    },
-    {
-      "title_en": "In an email to employees, Johny Srouji details newly combined hardware engineering and hardware technologies division, organized across five key areas",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-21/apple-to-focus-hardware-team-on-five-areas-under-johny-srouji",
-      "summary_en": "Apple Inc.'s newly combined hardware engineering and hardware technologies division will be organized across five key areas, its new leader told staffers on Monday.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Johny Srouji 在員工信中詳述新整合的硬體工程與技術部門，將劃分為五大核心領域",
-      "summary_zh": "Apple 新領導者週一告訴員工，公司新整合的硬體工程與硬體技術部門將劃分為五大核心領域。"
-    },
-    {
-      "title_en": "Apple says Tim Cook, as executive chairman, “will assist with certain aspects of the company, including engaging with policymakers around the world”",
-      "url": "https://9to5mac.com/2026/04/20/tim-cook-to-remain-involved-in-apples-government-relations-around-the-world/",
-      "summary_en": "",
-      "source": "9to5Mac",
-      "media_source": "9to5Mac",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Apple 表示 Tim Cook 擔任執行主席後將「協助公司特定事務，包括與全球政策制定者交流」",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Amazon agrees to invest up to $25B in Anthropic, on top of the $8B that it has already invested; Anthropic commits to spend $100B+ on AWS over the next 10 years",
-      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
-      "summary_en": "Amazon has agreed to invest up to $25 billion in Anthropic, on top of the $8 billion that it's poured into the artificial intelligence startup …",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Amazon 同意對 Anthropic 加碼投資高達 250 億美元，累計投入達 330 億美元；Anthropic 承諾未來 10 年在 AWS 支出逾 1,000 億美元",
-      "summary_zh": "Amazon 已同意對 Anthropic 投資高達 250 億美元，這是在先前已向該 AI 新創公司投入 80 億美元之上的加碼投資……"
-    },
-    {
-      "title_en": "Moonshot introduces Kimi K2.6, an open-weight model that it says shows strong improvements in long-horizon coding tasks, available under a modified MIT License",
-      "url": "https://www.kimi.com/blog/kimi-k2-6",
-      "summary_en": "We are open sourcing our latest model, Kimi K2.6, featuring state-of-the-art coding, long-horizon execution, and agent swarm capabilities.",
-      "source": "Kimi AI",
-      "media_source": "Kimi AI",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Moonshot 推出 Kimi K2.6 開放權重模型，稱其在長程程式碼任務中有顯著提升，並採修改版 MIT License",
-      "summary_zh": "我們正在開源最新的 Kimi K2.6 模型，其具備頂尖的程式碼撰寫、長程執行以及 Agent Swarm 能力。"
-    },
-    {
-      "title_en": "Filing in California's antitrust lawsuit: CA accuses Amazon of price-fixing by pressuring brands to ask competing retailers to increase prices on some products",
-      "url": "https://www.nytimes.com/2026/04/20/technology/amazon-antitrust-suit-california.html",
-      "summary_en": "The state claimed the e-commerce giant pressured brands like Levi's and Hanes to ask competing retailers to raise prices on certain products.",
+      "title_en": "SpaceX says it's working with Cursor to build “the world's most useful models” and it has the right to acquire Cursor for $60B or pay $10B for the partnership",
+      "url": "https://www.nytimes.com/2026/04/21/business/spacex-cursor-deal.html?unlocked_article_code=1.clA.qirG.9HPgrkyVuROh&smid=url-share",
+      "summary_en": "The potential acquisition comes as Elon Musk's rocket and satellite maker, which has been emphasizing artificial intelligence, is preparing to go public.",
       "source": "New York Times",
       "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "加州反壟斷訴訟文件：加州控告 Amazon 施壓品牌要求競爭零售商調漲售價，涉嫌操縱價格",
-      "summary_zh": "該州聲稱這家電子商務巨擘向 Levi's 和 Hanes 等品牌施壓，要求競爭零售商提高特定產品的售價。"
+      "title_zh": "SpaceX 宣布與 Cursor 合作打造「全球最實用的模型」，並擁有以 600 億美元收購 Cursor 或支付 100 億美元進行合作的權利",
+      "summary_zh": "這項潛在的收購案發生在 Elon Musk 旗下的火箭與衛星製造公司正積極佈局 AI 並準備上市之際。"
     },
     {
-      "title_en": "Sources say Google has created a strike team to improve its coding models; Sergey Brin told DeepMind staffers they must aggressively pivot to catch up on agents",
-      "url": "https://www.theinformation.com/articles/google-creates-strike-team-improve-coding-models",
-      "summary_en": "Google has assembled a strike team of researchers and engineers to improve its AI coding models, according to three people …",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指 Google 已成立突擊小隊以優化程式碼模型；Sergey Brin 要求 DeepMind 積極轉向以追趕 Agent 進度",
-      "summary_zh": "根據三位知情人士透露，Google 已集結研究人員與工程師組成突擊小隊，致力於提升其 AI 程式碼模型……"
-    },
-    {
-      "title_en": "Sources: Jeff Bezos' Project Prometheus is close to a $10B fundraising deal, which includes an initial $6.2B raise in November, at a $38B post-money valuation",
-      "url": "https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded",
-      "summary_en": "Company code-named Project Prometheus is working on models for industrial applications — Jeff Bezos is close to a $10bn fundraising deal …",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：Jeff Bezos 的 Project Prometheus 接近達成 100 億美元融資，投後估值達 380 億美元",
-      "summary_zh": "代號為 Project Prometheus 的公司正開發用於工業應用的模型——Jeff Bezos 接近達成一項 100 億美元的融資協議……"
-    },
-    {
-      "title_en": "OpenAI rolls out Chronicle, which builds memories from screen captures to make Codex more aware of context, as a research preview for Pro subscribers on macOS",
-      "url": "https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/",
-      "summary_en": "Last week, OpenAI released an all-new version of Codex for Mac that includes the best example of AI-driven computer use yet.",
-      "source": "9to5Mac",
-      "media_source": "9to5Mac",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "OpenAI 為 macOS Pro 訂閱用戶推出 Chronicle 研究預覽版，透過螢幕截圖建立記憶以強化 Codex 情境感知",
-      "summary_zh": "上週，OpenAI 發佈了全新版本的 Mac 版 Codex，展示了迄今為止 AI 驅動電腦使用的最佳範例。"
-    },
-    {
-      "title_en": "A US jury finds Uber liable for a sexual assault by a driver in 2019, handing Uber a second consecutive defeat in its first trials of 3,000+ pending lawsuits",
-      "url": "https://www.nytimes.com/2026/04/20/business/uber-sexual-assault-verdict-bellwether.html",
-      "summary_en": "The ride-hailing giant has now lost the first two of more than 3,000 pending federal lawsuits. — A federal jury in North Carolina …",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "美國陪審團裁定 Uber 須為 2019 年司機性侵案負責，這是 Uber 在 3,000 多起待決訴訟首批審判中的連兩次敗訴",
-      "summary_zh": "這家共乘巨擘目前已在 3,000 多起待決聯邦訴訟的前兩起中敗訴。——北卡羅萊納州的聯邦陪審團……"
-    },
-    {
-      "title_en": "The US Air Force cancels RTX's ground-control network for the US' next generation of GPS satellites after years of delays and cost overruns",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-20/air-force-scraps-rtx-corp-gps-satellite-ground-control-program",
-      "summary_en": "The Air Force on Monday canceled RTX Corp.'s ground-control network for the US's next generation of GPS satellites after years of delays and cost overruns.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "美國空軍在經歷多年延遲與成本超支後，取消 RTX 為下一代 GPS 衛星開發的地面控制網路",
-      "summary_zh": "美國空軍週一宣佈，在多年延遲與成本超支後，取消了 RTX Corp. 為美國下一代 GPS 衛星開發的地面控制網路。"
-    },
-    {
-      "title_en": "Microsoft pauses new GitHub Copilot signups for Pro, Pro+, and Student tiers, tightens usage limits, removes Opus models from Pro, and limits Opus 4.7 to Pro+",
-      "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-      "summary_en": "As shared in our recent blog post, we're making the following changes to Copilot plans for individuals as part of our ongoing efforts …",
-      "source": "The GitHub Blog",
-      "media_source": "The GitHub Blog",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Microsoft 暫停 GitHub Copilot Pro、Student 等方案新用戶註冊，收緊限制並從 Pro 移除 Opus 模型",
-      "summary_zh": "正如我們最近的網誌文章所述，作為持續努力的一部分，我們正對個人版 Copilot 方案進行以下調整……"
-    },
-    {
-      "title_en": "Docs: Microsoft plans to eventually move GitHub Copilot from request- to token-based billing, as the week-over-week cost to run it has nearly doubled since Jan.",
-      "url": "https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/",
-      "summary_en": "",
-      "source": "Ed Zitron's Where's Your Ed At",
-      "media_source": "Ed Zitron's Where's Your Ed At",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "文件：Microsoft 計劃將 GitHub Copilot 轉向按 Token 計費，因其營運成本自 1 月以來幾乎翻倍",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Q&A with Canva CEO Melanie Perkins on the company's growth in enterprise, competing with AI labs, token pricing, investing in its own models, and more",
-      "url": "https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design",
-      "summary_en": "Today, I'm talking with Melanie Perkins, founder and CEO of Canva, a popular online design tool. — I always enjoy talking with Melanie.",
+      "title_en": "OpenAI releases ChatGPT Images 2.0 with new “thinking capabilities”, allowing it to search the web to help it create multiple images from a single prompt",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916166/openai-chatgpt-images-2",
+      "summary_en": "The update allows ChatGPT Images 2.0 to create a series of images based on one prompt.",
       "source": "The Verge",
       "media_source": "The Verge",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Canva CEO Melanie Perkins 專訪：探討公司在企業端的增長、與 AI 實驗室的競爭、Token 定價及模型投資",
-      "summary_zh": "今天我將與熱門線上設計工具 Canva 的創辦人兼 CEO Melanie Perkins 進行對談。——我一直很享受與 Melanie 的對話。"
+      "title_zh": "OpenAI 推出具備全新「思考能力」的 ChatGPT Images 2.0，支援透過網路搜尋並根據單一指令生成多張圖片",
+      "summary_zh": "此更新讓 ChatGPT Images 2.0 能根據單一指令生成一系列圖片。"
     },
     {
-      "title_en": "Deezer says AI-generated tracks now account for 44% of daily uploads, totaling ~75K tracks per day and 2M+ per month, but account for just 1%-3% of consumption",
-      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
-      "summary_en": "Deezer announced on Monday that AI-generated tracks now represent 44% of all new music uploaded to its platform.",
+      "title_en": "OpenAI says that ChatGPT Images 2.0 has a stronger understanding of non-Latin text rendering in languages like Japanese, Korean, Hindi, and Bengali",
+      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+      "summary_en": "",
       "source": "TechCrunch",
       "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Deezer 表示 AI 生成音軌現佔每日上傳量 44%，每天約 7.5 萬首，但僅佔總播放量的 1%-3%",
-      "summary_zh": "Deezer 週一宣佈，AI 生成的音軌目前佔其平台上所有新上傳音樂的 44%。"
+      "title_zh": "OpenAI 表示 ChatGPT Images 2.0 在非拉丁文字渲染方面表現更佳，涵蓋日文、韓文、印地文和孟加拉文",
+      "summary_zh": ""
     },
     {
-      "title_en": "RaveDAO's RAVE has lost $6.6B+ in market cap and its price has sunk ~98% since Saturday, after ZachXBT called on exchanges to probe if it was being manipulated",
-      "url": "https://decrypt.co/364911/ravedao-token-crashes-sheds-6-6-billion-exchanges-probe-alleged-manipulation",
-      "summary_en": "RaveDAO's token cratered this weekend after blockchain sleuth ZachXBT called on exchanges to investigate trading tied to its surging token.",
-      "source": "Decrypt",
-      "media_source": "Decrypt",
+      "title_en": "ChatGPT Images 2.0 is available globally to ChatGPT and Codex users, with a more powerful version for paying subscribers; its knowledge cutoff is December 2025",
+      "url": "https://www.wired.com/story/openai-beefs-up-chatgpts-image-generation-model/",
+      "summary_en": "",
+      "source": "Wired",
+      "media_source": "Wired",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "RaveDAO 的 RAVE 代幣市值蒸發逾 66 億美元，週六以來暴跌 98%，此前 ZachXBT 呼籲交易所調查操縱行為",
-      "summary_zh": "在區塊鏈偵探 ZachXBT 呼籲交易所調查與該代幣飆升相關的交易後，RaveDAO 的代幣在本週末崩盤。"
+      "title_zh": "ChatGPT Images 2.0 已向全球 ChatGPT 與 Codex 用戶開放，付費訂閱者可使用更強大的版本；其知識截止日期為 2025 年 12 月",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "OpenAI says ChatGPT Images 2.0 comes in Instant and Thinking variants and can generate images of up to 2K resolution and in multiple aspect ratios",
+      "url": "https://9to5mac.com/2026/04/21/openai-unveiling-chatgpt-images-2-image-generation-model-watch-live-demo-here/",
+      "summary_en": "",
+      "source": "9to5Mac",
+      "media_source": "9to5Mac",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "OpenAI 表示 ChatGPT Images 2.0 提供 Instant 與 Thinking 兩種版本，最高可生成 2K 解析度及多種長寬比的圖片",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Meta is installing tracking software on US staffers' computers to capture mouse movements, clicks, and keystrokes in work-related apps for use in AI training",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+      "summary_en": "Meta (META.O) is installing new tracking software on U.S.-based employees' computers to capture mouse movements …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Meta 在美國員工電腦安裝監測軟體，記錄滑鼠移動、點擊及按鍵輸入，用於 AI 訓練",
+      "summary_zh": "Meta 開始在美國員工電腦上安裝新的追蹤軟體，以擷取滑鼠移動等操作數據。"
+    },
+    {
+      "title_en": "Longtime colleagues say John Ternus will bring back Jobs-era decisiveness, shifting from Cook's era when decisions were made collectively by top executives",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/apple-bets-new-ceo-john-ternus-will-bring-back-jobs-era-decisiveness?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3Njc1Mzc3OSwiZXhwIjoxNzc3MzU4NTc5LCJhcnRpY2xlSWQiOiJURFRMUTFUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.rtRqSJcuyutT1hD9Dck5d5AxXx25dQK1Zk93ziaeaqY",
+      "summary_en": "When Apple Inc. announced Monday that longtime leader Tim Cook would be replaced by John Ternus, it published an image …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "資深同仁表示 John Ternus 將重現賈伯斯時代的果斷風格，擺脫庫克時代由高層集體決策的模式",
+      "summary_zh": "當 Apple 宣布將由 John Ternus 接替 Tim Cook 擔任執行長時，這象徵著管理風格的轉變。"
+    },
+    {
+      "title_en": "All-hands: Tim Cook said he's stepping down now to ensure the “best-ever transition,” citing strong financials, an “incredible” pipeline, and Ternus' readiness",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/apple-s-cook-says-he-s-healthy-will-be-chairman-for-long-time",
+      "summary_en": "Apple Inc.'s Tim Cook, who's stepping down as chief executive officer later this year …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "全員大會：Tim Cook 表示現在卸任是為了確保「史上最佳交接」，並強調公司財務穩健、產品線強大及 Ternus 已準備就緒",
+      "summary_zh": "將於今年晚些時候卸任執行長的 Apple 執行長 Tim Cook。"
+    },
+    {
+      "title_en": "A look at Apple's management changes and several key executives' futures; sources say Mike Rockwell has considered leaving or taking an advisory role next year",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/apple-ceo-ternus-confronts-test-of-retaining-company-s-top-talent?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NjgxMzY3MCwiZXhwIjoxNzc3NDE4NDcwLCJhcnRpY2xlSWQiOiJURFRWMVFLSkg2VjYwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.A_zgbtYB5H3pk9qo5LidtorpM-p_rGC1DC5bAEOGdrk",
+      "summary_en": "John Ternus, Apple Inc.'s next chief executive officer, is up against a major challenge as he settles into the role: retaining top talent during a time of historic turnover.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "深度解析 Apple 管理層變動及關鍵高層動向；消息指出 Mike Rockwell 考慮明年離職或轉任顧問職",
+      "summary_zh": "Apple 即將上任的執行長 John Ternus 面臨重大挑戰：在歷史性的離職潮中留住頂尖人才。"
+    },
+    {
+      "title_en": "Tim Cook had an extraordinary run and impeccable timing in stepping down, with Apple in a better place than it has ever been as AI becomes its next big test",
+      "url": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
+      "summary_en": "",
+      "source": "Stratechery",
+      "media_source": "Stratechery",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Tim Cook 擁有非凡的任期且卸任時機精準，Apple 正處於史上最佳狀態，而 AI 將成為下一個重大考驗",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Tim Cook reshaped Apple in his own image and exits as CEO on his own terms, seemingly picking the right successor in John Ternus, much like Jobs did with Cook",
+      "url": "https://daringfireball.net/2026/04/another_day_has_come",
+      "summary_en": "",
+      "source": "Daring Fireball",
+      "media_source": "Daring Fireball",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Tim Cook 以自己的風格重塑了 Apple 並優雅卸任，選定 John Ternus 為接班人，正如同當年賈伯斯選擇庫克一般",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "A profile of John Ternus, a mechanical engineer by background, who joined Apple in 2001 and whose biggest success was helping Mac's transition to Apple Silicon",
+      "url": "https://www.wsj.com/tech/the-rise-of-apples-new-ceo-a-hardware-expert-takes-over-in-the-ai-era-bdc7046e?st=peQvJd&reflink=desktopwebshare_permalink",
+      "summary_en": "",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "John Ternus 人物誌：機械工程背景出身，2001 年加入 Apple，最大功績為推動 Mac 轉向 Apple Silicon",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Microsoft cuts Xbox Game Pass Ultimate price from $29.99 to $22.99/month and PC Game Pass from $16.49 to $13.99, but both tiers won't get new Call of Duty games",
+      "url": "https://www.theverge.com/news/915928/microsoft-xbox-game-pass-ultimate-price-drop",
+      "summary_en": "After Xbox CEO Asha Sharma admitted last week that “Game Pass has become too expensive for players,” Microsoft is dropping …",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "微軟下調 Xbox Game Pass Ultimate 價格至 22.99 美元，PC Game Pass 降至 13.99 美元，但兩者皆不包含《決勝時刻》新作",
+      "summary_zh": "在 Xbox 執行長 Asha Sharma 承認 Game Pass 對玩家來說過於昂貴後，微軟隨即宣布降價。"
+    },
+    {
+      "title_en": "Mozilla says its Firefox 150 release includes fixes for 271 vulnerabilities identified using early access to Anthropic's Mythos Preview",
+      "url": "https://www.wired.com/story/mozilla-used-anthropics-mythos-to-find-271-bugs-in-firefox/",
+      "summary_en": "The Firefox team doesn't think emerging AI capabilities will upend cybersecurity long term, but they warn that software developers are likely in for a rocky transition.",
+      "source": "Wired",
+      "media_source": "Wired",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Mozilla 表示 Firefox 150 修復了 271 個漏洞，這些漏洞是透過搶先體驗 Anthropic 的 Mythos Preview 發現的",
+      "summary_zh": "Firefox 團隊認為新興 AI 能力長期而言不會顛覆網路安全，但警告軟體開發者可能面臨動盪的轉型期。"
+    },
+    {
+      "title_en": "After users reported Claude Code appeared to be removed from Anthropic's Pro plan, Anthropic says it's “running a small test on ~2% of new prosumer signups”",
+      "url": "https://www.wheresyoured.at/news-anthropic-removes-pro-cc/",
+      "summary_en": "Executive Summary: — Anthropic appears to have removed access to Claude Code for its $20-a-month “Pro” Plans.",
+      "source": "Ed Zitron's Where's Your Ed At",
+      "media_source": "Ed Zitron's Where's Your Ed At",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "針對用戶反映 Claude Code 從 Pro 方案中消失，Anthropic 表示正針對約 2% 的新進專業用戶進行小型測試",
+      "summary_zh": "摘要：Anthropic 似乎取消了每月 20 美元「Pro」方案對 Claude Code 的使用權限。"
+    },
+    {
+      "title_en": "Google now offers two research agents: Deep Research, replacing its December preview release, and Deep Research Max, both available via Gemini API paid tiers",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
+      "summary_en": "Built with Gemini 3.1 Pro, the new Deep Research agents bring MCP support, native visualizations and unprecedented analytical quality …",
+      "source": "The Keyword",
+      "media_source": "The Keyword",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Google 推出兩款研究代理：Deep Research（取代 12 月預覽版）與 Deep Research Max，均可透過 Gemini API 付費方案使用",
+      "summary_zh": "基於 Gemini 3.1 Pro 構建，全新 Deep Research 代理支援 MCP、原生視覺化及前所未有的分析品質。"
+    },
+    {
+      "title_en": "Top law firm Sullivan & Cromwell told a US federal bankruptcy court that a major filing it made in a high-profile case contained multiple AI hallucinations",
+      "url": "https://www.ft.com/content/657d86df-5e0d-4d03-bf0c-cb768a58e758?accessToken=zwAAAZ2ylcbqkc9lfYbfXg1NA9O_DMt2iljnWA.MEUCIQCKKGk3Wpq9dckbmzI2_lyEQDH042PMNpv7wRdHwdaS8QIgckSjOzrkfD2oeLiLxZ2EFBEC7GcWLpeWjZtlrTOZvxE&sharetype=gift&token=af5e933e-6e48-4e97-9b12-03edc638edcb&syn-25a6b1a6=1",
+      "summary_en": "Firm whose partners bill more than $2,000 per hour apologises to judge for software-driven errors in bankruptcy case",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "頂尖律師事務所 Sullivan & Cromwell 向聯邦破產法院承認，其在一宗矚目案件的書狀中包含多處 AI 幻覺錯誤",
+      "summary_zh": "這家合夥人時薪超過 2,000 美元的律所，因軟體導致的錯誤向法官表示歉意。"
+    },
+    {
+      "title_en": "Florida AG James Uthmeier issues criminal subpoenas to OpenAI to investigate if ChatGPT's role in planning a mass shooting constitutes criminal liability",
+      "url": "https://news.bloomberglaw.com/litigation/openai-gets-florida-criminal-probe-over-chatgpt-role-in-shooting",
+      "summary_en": "Florida is sending criminal subpoenas to OpenAI, opening a novel investigation into whether a chatbot could be criminally liable for use in a mass shooting.",
+      "source": "Bloomberg Law",
+      "media_source": "Bloomberg Law",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "佛羅里達州檢察長對 OpenAI 發出刑事傳票，調查 ChatGPT 在策劃大規模槍擊案中的角色是否構成刑事責任",
+      "summary_zh": "佛州對 OpenAI 啟動罕見調查，探討聊天機器人是否需為被用於策劃槍擊案承擔法律責任。"
+    },
+    {
+      "title_en": "Source: a handful of unauthorized users in a private Discord channel have been accessing Anthropic's Mythos model since the day the company announced it",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NjgwODczNywiZXhwIjoxNzc3NDEzNTM3LCJhcnRpY2xlSWQiOiJURFQ2TUJLSkg2VjQwMCIsImJjb25uZWN0SWQiOiIyMjNDRDM2NDg0QzY0OTc3QjY5ODE0Rjc1MTYxNDRGNyJ9.foPR6InPYdVBR-Pc5iOmS5EmMvf9BB6bOEGrO6LV8cU",
+      "summary_en": "A small group of unauthorized users have accessed Anthropic PBC's new Mythos AI model, a technology that the company says is so powerful …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息人士：少數未授權用戶在私密 Discord 頻道中，自 Anthropic 發布 Mythos 模型當天起便一直進行存取",
+      "summary_zh": "一小群未授權用戶存取了 Anthropic 的 Mythos AI 模型，該公司稱此技術極為強大。"
+    },
+    {
+      "title_en": "An interview with Sam Altman and Greg Brockman on OpenAI's restructuring, cutting Sora, “personal AGI”, Anthropic's “fear-based marketing” for Mythos, and more",
+      "url": "https://www.corememory.com/p/the-great-reset-at-openai-ep-67-sam-altman-greg-brockman",
+      "summary_en": "The last two standing - on everything — Sam Altman and Greg Brockman came on Core Memory together for a ten-year look back at OpenAI.",
+      "source": "Core Memory",
+      "media_source": "Core Memory",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "專訪 Sam Altman 與 Greg Brockman：談論 OpenAI 重組、削減 Sora 資源、個人化 AGI 及 Anthropic 的「恐懼行銷」等議題",
+      "summary_zh": "OpenAI 的兩位元老 Sam Altman 與 Greg Brockman 一同受訪，回顧公司十年的歷程。"
+    },
+    {
+      "title_en": "The US DOJ says a former ransomware negotiator pleaded guilty to helping cybercriminals extort companies in cyberattacks in five different incidents",
+      "url": "https://techcrunch.com/2026/04/21/ransomware-negotiator-pleads-guilty-to-helping-ransomware-gang/",
+      "summary_en": "Angelo Martino, a former ransomware negotiator, has pleaded guilty to helping cybercriminals extort companies in cyberattacks.",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "美國司法部表示：一名前勒索軟體談判代表承認協助網路犯罪分子在五起攻擊事件中勒索公司",
+      "summary_zh": "前勒索軟體談判代表 Angelo Martino 已承認協助網路犯罪分子在網路攻擊中勒索多家公司。"
+    },
+    {
+      "title_en": "New York Attorney General Letitia James sues Coinbase and Gemini, claiming their prediction markets violate state laws against illegal gambling",
+      "url": "https://www.reuters.com/legal/government/new-york-sues-coinbase-financial-markets-gemini-titan-allegedly-violating-state-2026-04-21/",
+      "summary_en": "New York's attorney general sued Coinbase Financial Markets (COIN.O) and Gemini Titan (GEMI.O) on Tuesday, claiming their prediction markets violate state laws against illegal gambling.",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "紐約州總檢察長 Letitia James 起訴 Coinbase 與 Gemini，指控其預測市場違反州內禁止非法賭博的法律",
+      "summary_zh": "紐約州總檢察長週二起訴 Coinbase Financial Markets (COIN.O) 與 Gemini Titan (GEMI.O)，指控其預測市場違反了該州禁止非法賭博的法律。"
+    },
+    {
+      "title_en": "Google's Chief AI Architect Koray Kavukcuoglu is working to unite its internal AI coding tools under the Antigravity platform, to counter Claude Code and Codex",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/google-struggles-to-gain-ground-in-ai-coding-as-rivals-advance",
+      "summary_en": "At Google, leaders are anxious about falling behind in the race to offer AI coding tools, especially as rivals like Anthropic PBC offer …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Google 首席 AI 架構師 Koray Kavukcuoglu 正致力於整合內部 AI 程式碼工具至 Antigravity 平台，以對抗 Claude Code 與 Codex",
+      "summary_zh": "在 Google 內部，領導層對於在 AI 程式碼工具競賽中落後感到焦慮，特別是競爭對手如 Anthropic 已開始提供相關服務……"
+    },
+    {
+      "title_en": "The nonprofit Consumer Federation of America sues Meta, accusing it of misleading consumers about its efforts to combat scam ads on Facebook and Instagram",
+      "url": "https://www.wired.com/story/meta-is-sued-over-scam-ads-on-facebook-and-instagram/",
+      "summary_en": "A lawsuit from the Consumer Federation of America accuses Meta of misleading consumers about its efforts to combat scams advertisements on its platforms.",
+      "source": "Wired",
+      "media_source": "Wired",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "非營利組織美國消費者聯盟起訴 Meta，指控其在打擊 Facebook 與 Instagram 詐騙廣告方面的努力誤導消費者",
+      "summary_zh": "美國消費者聯盟（Consumer Federation of America）的一項訴訟指控 Meta 在其平台上打擊詐騙廣告的努力上誤導了消費者。"
+    },
+    {
+      "title_en": "Filing: SpaceX tells investors that orbital AI data centers use “unproven technologies” and may not achieve “commercial viability” due to space-related risks",
+      "url": "https://www.reuters.com/world/spacex-says-unproven-ai-space-data-centers-may-not-be-commercially-viable-filing-2026-04-21/",
+      "summary_en": "SpaceX warned investors that its ambitions to build space-based artificial intelligence data centers …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "申報文件：SpaceX 告知投資人軌道 AI 數據中心採用「未經證實的技術」，且因太空相關風險可能無法實現「商業可行性」",
+      "summary_zh": "SpaceX 警告投資人，其建立太空人工智慧數據中心的雄心……"
+    },
+    {
+      "title_en": "Trump Media & Technology Group names Kevin McGurn as interim CEO, succeeding Devin Nunes; McGurn previously worked as an executive at Hulu, Vevo, and T-Mobile",
+      "url": "https://variety.com/2026/digital/news/trump-media-kevin-mcgurn-ceo-hulu-vevo-1236727313/",
+      "summary_en": "Trump Media & Technology Group, the parent company of social-media platform Truth Social and other businesses whose mission is …",
+      "source": "Variety",
+      "media_source": "Variety",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "川普媒體與技術集團（TMTG）任命 Kevin McGurn 為臨時 CEO，接替 Devin Nunes；McGurn 曾任職於 Hulu、Vevo 和 T-Mobile",
+      "summary_zh": "Truth Social 的母公司川普媒體與技術集團任命 Kevin McGurn 為臨時執行長，該公司及其相關業務的使命是……"
+    },
+    {
+      "title_en": "YouTube makes its deepfake detection tool available to anyone at high risk of having their likeness abused, expanding it from public officials and politicians",
+      "url": "https://www.hollywoodreporter.com/business/digital/youtube-ai-deepfake-detection-tool-1236569593/",
+      "summary_en": "The tool, which requires a celebrity to upload a digital replica, will flag potentially infringing content — like, say …",
+      "source": "The Hollywood Reporter",
+      "media_source": "The Hollywood Reporter",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "YouTube 開放 Deepfake 檢測工具給所有肖像權遭濫用風險較高的人士，將範圍從公職人員擴大至更多群體",
+      "summary_zh": "該工具要求知名人士上傳其數位副本，並會標記潛在的侵權內容——例如……"
+    },
+    {
+      "title_en": "Reliable Robotics, which is developing autonomous aircraft systems for cargo flights, raised $160M led by Nimble Partners, pushing its valuation to ~$1B",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/reliable-robotics-raises-more-cash-to-pursue-uncrewed-flights",
+      "summary_en": "Reliable Robotics Corp. secured $160 million in new funding — pushing its valuation to nearly $1 billion — as the Silicon Valley startup makes …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "研發貨運自動駕駛飛機系統的 Reliable Robotics 獲 Nimble Partners 領投 1.6 億美元，估值推升至約 10 億美元",
+      "summary_zh": "隨著這家矽谷新創公司的發展，Reliable Robotics Corp. 獲得了 1.6 億美元的新資金，使其估值達到近 10 億美元。"
+    },
+    {
+      "title_en": "Sources: following Manus probe, Chinese authorities ordered at least one other prominent AI startup, MiroMind, not to send talent and research out of China",
+      "url": "https://www.washingtonpost.com/world/2026/04/21/china-ai-competition-manus-meta/",
+      "summary_en": "A Chinese government probe of a Meta-acquired company, Manus AI, reveals what tech workers see as a new red line. — Summary",
+      "source": "Washington Post",
+      "media_source": "Washington Post",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息人士：繼 Manus 調查後，中國當局命令至少另一家知名 AI 新創公司 MiroMind 不得將人才與研究成果送往境外",
+      "summary_zh": "中國政府對一家 Meta 收購的公司 Manus AI 進行調查，揭示了科技工作者眼中一條新的紅線。"
+    },
+    {
+      "title_en": "AcuityMD, which provides AI tools that automate sales call recaps, CRM data entry, and more for medtech companies, raised an $80M Series C at a $955M valuation",
+      "url": "https://www.axios.com/pro/health-tech-deals/2026/04/20/acuitymd-ai-medtech-software",
+      "summary_en": "Medtech software platform AcuityMD raised $80 million in Series C funding at a $955 million valuation, CEO Michael Monovoukas tells Axios Pro exclusively.",
+      "source": "Axios",
+      "media_source": "Axios",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "為醫療科技公司提供 AI 銷售工具的 AcuityMD 完成 8,000 萬美元 C 輪融資，估值達 9.55 億美元",
+      "summary_zh": "醫療科技軟體平台 AcuityMD 執行長 Michael Monovoukas 獨家告訴 Axios Pro，該公司以 9.55 億美元的估值完成了 8,000 萬美元的 C 輪融資。"
     }
   ],
   "wsj": [
     {
-      "title_en": "Tim Cook to Step Down as Apple Names New CEO",
-      "url": "https://www.wsj.com/tech/apple-announces-ceo-john-ternus-2826465d?mod=rss_Technology",
-      "summary_en": "John Ternus, head of the company’s hardware division, will succeed Cook, who will become executive chairman....",
-      "title_zh": "Tim Cook 將卸任，Apple 宣佈新任 CEO",
-      "summary_zh": "公司硬體部門負責人 John Ternus 將接替 Cook，後者將轉任執行主席……"
+      "title_en": "What a New Apple CEO Will Mean for You and Your Devices",
+      "url": "https://www.wsj.com/tech/personal-tech/new-apple-ceo-future-hardware-ai-e85b2b10?mod=rss_Technology",
+      "summary_en": "With incoming chief John Ternus, Apple is doubling down on hardware in the age of AI....",
+      "title_zh": "Apple 新任 CEO 對你及你的設備意味著什麼",
+      "summary_zh": "隨著新任執行長 John Ternus 的上任，Apple 在 AI 時代正加倍投注硬體領域。"
+    },
+    {
+      "title_en": "SpaceX Secures Option to Buy AI Startup Cursor for $60 Billion",
+      "url": "https://www.wsj.com/tech/spacex-secures-option-to-buy-ai-startup-cursor-for-60-billion-b48ac023?mod=rss_Technology",
+      "summary_en": "The rocket company said close work in a coding partnership could lead to a combination....",
+      "title_zh": "SpaceX 獲得以 600 億美元收購 AI 新創公司 Cursor 的選擇權",
+      "summary_zh": "這家火箭公司表示，在程式碼開發夥伴關係中的緊密合作可能會促成兩家公司的合併。"
+    },
+    {
+      "title_en": "John Ternus Has Big Shoes to Fill at Apple. Luckily, Tim Cook Has a Playbook for That.",
+      "url": "https://www.wsj.com/business/john-ternus-has-big-shoes-to-fill-at-apple-luckily-tim-cook-has-a-playbook-for-that-d1a1f3ee?mod=rss_Technology",
+      "summary_en": "Cook, too, faced big doubts on whether he could successfully succeed an iconic leader. His early moves are a guide to how it’s done....",
+      "title_zh": "John Ternus 在 Apple 面臨巨大挑戰。所幸 Tim Cook 為此留下了參考準則。",
+      "summary_zh": "Cook 當時也曾面臨是否能成功接替指標性領導人的質疑。他早期的行動為如何接班提供了指引。"
+    },
+    {
+      "title_en": "The Rise of Apple’s New CEO: A Hardware Expert Takes Over in the AI Era",
+      "url": "https://www.wsj.com/tech/the-rise-of-apples-new-ceo-a-hardware-expert-takes-over-in-the-ai-era-bdc7046e?mod=rss_Technology",
+      "summary_en": "John Ternus must help Apple catch up in the AI race as it looks for its next big hit....",
+      "title_zh": "Apple 新任 CEO 的崛起：硬體專家在 AI 時代接掌大權",
+      "summary_zh": "John Ternus 必須在 Apple 尋找下一個熱門產品的同時，協助其在 AI 競賽中迎頭趕上。"
+    },
+    {
+      "title_en": "The AI Spending Spree Is Far from Over",
+      "url": "https://www.wsj.com/tech/ai/the-ai-spending-spree-is-far-from-over-026c17df?mod=rss_Technology",
+      "summary_en": "Plus, Amazon goes deeper with Anthropic and bets grow on Intel’s AI resurgence...",
+      "title_zh": "AI 支出熱潮遠未結束",
+      "summary_zh": "此外，Amazon 加深與 Anthropic 的合作，而對 Intel AI 復甦的押注也正在增加。"
+    },
+    {
+      "title_en": "Tim Cook Built Apple Into a $4 Trillion Powerhouse. He Leaves Big Challenges on AI.",
+      "url": "https://www.wsj.com/tech/tim-cook-apple-ceo-career-055d5358?mod=rss_Technology",
+      "summary_en": "The Apple CEO navigated shifts between eras in technology and politics while growing the iPhone maker into $4 trillion giant....",
+      "title_zh": "Tim Cook 將 Apple 打造為 4 兆美元的強大帝國，但在 AI 領域留下了巨大挑戰",
+      "summary_zh": "這位 Apple CEO 在將 iPhone 製造商發展為 4 兆美元巨頭的同時，也應對了技術與政治領域的時代轉移。"
+    },
+    {
+      "title_en": "OpenAI Under Criminal Probe in Florida Over Mass Shooter’s ChatGPT Use",
+      "url": "https://www.wsj.com/us-news/law/openai-under-criminal-probe-in-florida-over-mass-shooters-chatgpt-use-47913814?mod=rss_Technology",
+      "summary_en": "The investigation seeks to determine responsibility for an attack that killed two people. The chatbot advised the suspect on the weapon and timing, Florida’s attorney general says....",
+      "title_zh": "OpenAI 因槍擊案嫌犯使用 ChatGPT 而在佛羅里達州接受刑事調查",
+      "summary_zh": "該調查旨在確定一場導致兩人死亡的攻擊事件的責任歸屬。佛州總檢察長表示，聊天機器人曾就武器與時機向嫌犯提供建議。"
+    },
+    {
+      "title_en": "OpenAI Is Working With Consultants to Sell Codex",
+      "url": "https://www.wsj.com/cio-journal/openai-is-working-with-consultants-to-sell-codex-f355b1b9?mod=rss_Technology",
+      "summary_en": "The ChatGPT maker said it has four million weekly active users for its AI coding tool, up from three million two weeks ago....",
+      "title_zh": "OpenAI 正與顧問合作銷售 Codex",
+      "summary_zh": "這家 ChatGPT 製造商表示，其 AI 程式碼工具的週活躍用戶已達 400 萬，高於兩週前的 300 萬。"
+    },
+    {
+      "title_en": "Inside BlackRock’s AI Transformation",
+      "url": "https://www.wsj.com/cio-journal/inside-blackrocks-ai-transformation-03a1e8c7?mod=rss_Technology",
+      "summary_en": "BlackRock engineering chief Nish Ajitsaria envisions a future where AI agents handle most processes, and humans work in smaller ‘squads’ to oversee them....",
+      "title_zh": "揭秘貝萊德（BlackRock）的 AI 轉型",
+      "summary_zh": "貝萊德工程主管 Nish Ajitsaria 構想了一個未來，屆時 AI 代理將處理大部分流程，而人類則以較小的「小組」形式進行監督。"
     },
     {
       "title_en": "Anthropic, Amazon Tighten Bond in $5 Billion Investment and Computing Deal",
       "url": "https://www.wsj.com/tech/ai/anthropic-amazon-tighten-bond-in-5-billion-investment-and-computing-deal-b9d8e513?mod=rss_Technology",
       "summary_en": "Amazon will invest as much as $25 billion in the AI company, which will secure up to 5 gigawatts in badly needed computing power in the pact....",
-      "title_zh": "Anthropic 與 Amazon 在 50 億美元投資與運算協議中深化合作",
-      "summary_zh": "Amazon 將向這家 AI 公司投資高達 250 億美元，根據協議，該公司將獲得高達 5 GW 急需的運算能力……"
-    },
-    {
-      "title_en": "Apple Hardware Exec to Succeed Tim Cook as CEO",
-      "url": "https://www.wsj.com/business/apple-hardware-exec-to-succeed-tim-cook-as-ceo-5fefe757?mod=rss_Technology",
-      "summary_en": "Plus, an Iran cease-fire extension looks unlikely, and a $150 train ride to the World Cup might feel red-card worthy....",
-      "title_zh": "Apple 硬體主管將接替 Tim Cook 出任 CEO",
-      "summary_zh": "此外，伊朗停火協議延期看來不太可能，而前往世界盃的 150 美元火車票價可能讓人感覺像是領到了紅牌……"
-    },
-    {
-      "title_en": "Washington Rewrites the Rules of Funding Technological Innovation",
-      "url": "https://www.wsj.com/politics/trump-government-research-funding-changes-0e5317a1?mod=rss_Technology",
-      "summary_en": "For decades, the federal government supported basic scientific research. The Trump administration is trying to change that....",
-      "title_zh": "華府重塑科技創新資助規則",
-      "summary_zh": "數十年來，美國聯邦政府一直支持基礎科學研究。川普政府正試圖改變這一現狀..."
-    },
-    {
-      "title_en": "Chinese Robot Beats Human Best Time in Half-Marathon, After a Stumble",
-      "url": "https://www.wsj.com/tech/chinese-robot-beats-human-best-time-in-half-marathon-after-a-stumble-b3c354e7?mod=rss_Technology",
-      "summary_en": "Tech companies are making progress in fixing humanoid runners’ malfunctions....",
-      "title_zh": "中國機器人打破半馬人類最快紀錄，儘管一度踉蹌",
-      "summary_zh": "科技公司在修復人形跑步機器人故障方面正取得進展..."
-    },
-    {
-      "title_en": "‘Beyond Inheritance’ Review: Divisional Danger",
-      "url": "https://www.wsj.com/tech/biotech/beyond-inheritance-review-divisional-danger-458cd2a7?mod=rss_Technology",
-      "summary_en": "Genetic mutations are more pervasive than previously thought, causing cancer and other ailments. Are there possible benefits as well?...",
-      "title_zh": "《超越遺傳》書評：分裂的危險",
-      "summary_zh": "基因突變比先前認為的更為普遍，會導致癌症和其他疾病。但其中是否也存在潛在的益處？..."
-    },
-    {
-      "title_en": "Adobe Unveils Agents for Businesses Amid Threat of AI Disruption",
-      "url": "https://www.wsj.com/cio-journal/adobe-unveils-agents-for-businesses-amid-threat-of-ai-disruption-d3cf479c?mod=rss_Technology",
-      "summary_en": "The software maker’s new AI agents are aimed at getting ahead of the risk of artificial intelligence to its business....",
-      "title_zh": "面對 AI 顛覆威脅，Adobe 為企業推出 AI Agent",
-      "summary_zh": "這家軟體大廠推出全新的 AI Agent，旨在領先應對人工智慧對其業務帶來的風險..."
-    },
-    {
-      "title_en": "Marc Benioff Says the Software Bears Are All Wrong About Salesforce",
-      "url": "https://www.wsj.com/tech/ai/marc-benioff-says-the-software-bears-are-all-wrong-about-salesforce-c7042852?mod=rss_Technology",
-      "summary_en": "“People think we have our back against the wall,” but customers aren’t replacing its offerings with AI, the CEO says....",
-      "title_zh": "Marc Benioff 表示，看空軟體業的人對 Salesforce 的看法大錯特錯",
-      "summary_zh": "執行長表示：「人們認為我們已走投無路」，但客戶並未用 AI 取代其產品..."
-    },
-    {
-      "title_en": "The CEO Preaching Straight Talk About AI and Job Losses",
-      "url": "https://www.wsj.com/tech/ai/the-ceo-preaching-straight-talk-about-ai-and-job-losses-a3aaaaf1?mod=rss_Technology",
-      "summary_en": "Verizon’s Dan Schulman is all in on AI. But he warns that it is time for business leaders to acknowledge its disruptive potential....",
-      "title_zh": "直言不諱談論 AI 與失業問題的執行長",
-      "summary_zh": "Verizon 的 Dan Schulman 全力投入 AI。但他警告，企業領袖是時候承認其顛覆性的潛力了..."
-    },
-    {
-      "title_en": "Altman’s Personal Investments",
-      "url": "https://www.wsj.com/tech/ai/altmans-personal-investments-4ca4e64d?mod=rss_Technology",
-      "summary_en": "Plus: AI for dementia patients, the Bezos-Musk space race, the Mac Mini shortage and more....",
-      "title_zh": "Altman 的個人投資",
-      "summary_zh": "此外還有：失智症患者的 AI、貝佐斯與馬斯克的太空競賽、Mac Mini 缺貨等更多內容..."
+      "title_zh": "Anthropic 與 Amazon 在 50 億美元的投資與運算協議中加強合作",
+      "summary_zh": "Amazon 將向這家 AI 公司投資高達 250 億美元，該協議將為其確保高達 5 GW 緊缺的運算電力。"
     }
   ],
   "deep_analysis": {
     "Stratechery": {
-      "title": "Mythos, Muse, and the Opportunity Cost of Compute (神話、繆思與算力的機會成本)",
+      "title": "Tim Cook’s Impeccable Timing | 提姆·庫克的完美謝幕時機",
       "source": "Stratechery",
-      "url": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODc2OSJdfSwiZXhwIjoxNzc4NzI1MTczLCJpYXQiOjE3NzYxMzMxNzMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YTFlYzktMDcxYS03ZWYzLWEwMzctYTAxOThlZjlhOWE0IiwidXNlIjoiYWNjZXNzIn0.CqUlyTARLuSGmKNJ6g2XG5Cw84jF_DDXUwxYs5kzOv8jOGuxAfgcX6ld--mXxZDaSOBuY_t-vrT6TFFebZSxOiXotFk4dhSv4JZmw5XCMEvK3vgsnGFjonoCWvTlzJMweCmcmBEkgnL_RM44pmY3dYp9oGONFslBKAiXpSaxd2sXtzXmB6mus8IPeuI7CuUIAmasxIUXSkne5RYG7YPV7c3-IhHI3chouu5UIOAeRcdkEJNmHjQn2i8kofTCbw2CGpWonZT-mCPQLwVu7ErdG816qOitZWuc1epeONhgB-a0ckiWe8BHX5mHS7vXm9aKtX3zNzd2aM5s8Yvdc825Gg&p=18769",
-      "analysis_zh": "本文源自知名科技分析網站 Stratechery，由當代最重要的科技產業評論家 Ben Thompson 撰寫。Thompson 以其提出的「聚合理論」（Aggregation Theory）聞名於世，是深度剖析網路平台動力的權威。在本文中，他探討了進入 2026 年後，AI 推理模型與代理人（Agents）的爆發如何重塑科技產業的經濟基礎，並質疑傳統網路時代的「零邊際成本」假設是否依然適用。\n\n### 戰略背景與脈絡\n自 2025 年起，隨著 OpenAI 的 o1 與 Anthropic 的 Mythos 等具備推理能力的模型問世，AI 產業進入了一個全新的階段。過去十年，網路經濟的核心是「零邊際成本」：軟體一旦開發完成，服務額外一名使用者的成本幾乎為零，這促成了 Google 和 Facebook 等巨頭的崛起。然而，推理模型需要消耗大量 Token，且代理人技術的普及使得 AI 可以在沒有人類干預的情況下持續運作，這對算力（Compute）產生了近乎無限的需求。業界分析師 Doug O’Laughlin 指出，AI 讓技術重新變得「昂貴」，邊際成本的回歸可能宣告了聚合理論的終結。在這種背景下，算力不再僅僅是基礎設施，而是成為了一種極度稀缺、必須進行戰略分配的有限資源。\n\n### 作者的核心推演與論點\nThompson 對「邊際成本回歸」的論點提出了修正。他認為，科技巨頭面臨的真正挑戰並非生產下一個單位的邊際成本，而是「機會成本」（Opportunity Cost）。以 Microsoft 為例，儘管 Azure 的外部需求旺盛，但公司卻選擇將算力優先分配給內部的 Copilot 產品，因為後者具有更高的毛利與長期價值。這意味著算力在 A 處使用，就無法在 B 處使用，這種稀缺性迫使公司必須在「服務客戶」與「自我研發」之間做出艱難抉擇。\n\n針對 Anthropic 發表 Mythos 模型卻限制存取的行為，Thompson 指出這背後有雙重考量：首先是算力不足，限制存取能緩解伺服器壓力；其次是防止「知識蒸餾」（Distillation）。中國的 DeepSeek 等實驗室透過大量調用頂級模型輸出來訓練自己的低成本模型，這威脅了前沿實驗室的定價權。因此，限制存取與其說是為了安全（如 Anthropic 所宣稱的網路安全防禦），不如說是為了保護其算力投資的利潤率。\n\n此外，Thompson 觀察到 Meta 處於一個極為特殊的戰略地位。與 Microsoft、Google 或 Amazon 不同，Meta 沒有企業雲端業務，因此它在服務消費市場時幾乎沒有機會成本的包袱。這使得執行長祖克柏可以採取「焦土政策」：透過開源 Muse 模型來壓低產業定價權，進一步削弱前沿實驗室的競爭力，同時鞏固 Meta 在消費端的領導地位。\n\n### 對整體市場與技術發展的長期影響\nThompson 認為，儘管算力受限，但聚合理論的核心原則——「擁有需求者即擁有價值」——依然成立。雖然短期內算力供給是瓶頸，但長期來看，能贏得最多使用者、產生最強大現金流的公司，將有能力從市場上掃蕩更多算力資源（如 Anthropic 與 Google 的 TPU 協議）。\n\n然而，這場競爭正導致產業版圖的劇烈分化。OpenAI 與 Anthropic 被迫向企業端轉型，以尋求更高的人均算力回報；而 Meta 則可能成為消費級 AI 的最終贏家，因為它擁有現成的廣告變現機制，且不需在雲端與軟體服務之間糾結算力分配。最終，這不僅是技術實力的較量，更是資本效率與戰略選擇的對決。算力限制雖然讓科技變貴了，但也讓「產品分銷」與「用戶黏著度」顯得比以往任何時候都更加關鍵。",
+      "url": "https://stratechery.com/2026/tim-cooks-impeccable-timing/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RpbS1jb29rcy1pbXBlY2NhYmxlLXRpbWluZy8iXX0sImV4cCI6MTc3OTQxNDc3NywiaWF0IjoxNzc2ODIyNzc3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWExZWM5LTA3MWEtN2VmMy1hMDM3LWEwMTk4ZWY5YTlhNCIsInVzZSI6ImFjY2VzcyJ9.tfyB8fNE6oe22QlSuOP1Pk0ZnrfhL1eeGFzuVHobDM5c-2P5hR3FykRzADqT84FvKZ6tQvHKr931lDBqGx3_X67l-P3bk2t7FPqymtGyX4vgg84LKN5NYg4CIJtpFsJuFrDYM8e_kbqR_nhh_iSRuwz89MGxiaeM8EHkF4YGbig8Nd1MPU8P4g5s8im7RyYJbUj8hbD6XvxwmfukMQkOa_e-O7zfKWMv5Liq64iaCKm8r41JTUTjSozXLLy0u38GUYCeT_tbmNxWe49vqftuuJBcKLPzM0dYcxvums-qvsQXENVaBtwjMuFVLyAdThLuiB2iPE-wfhH2bQ7ihiV9-g",
+      "analysis_zh": "本文出自知名科技戰略分析網站 Stratechery，由資深分析師 Ben Thompson 撰寫。Thompson 是一位以商業模式剖析見長的評論家，本文針對 Apple 執行長提姆·庫克（Tim Cook）宣布將於 2026 年 9 月轉任執行主席的消息，對其執掌 Apple 十五年的輝煌任期進行了深度總結與戰略回顧。\n\n### 戰略背景與脈絡：從 0 到 1 與從 1 到 N 的交棒\n文章開篇即指出庫克接任的特殊性。2011 年賈伯斯（Steve Jobs）去世前夕將權力移交給庫克，這不僅是單純的職位更替，更是企業性質的轉向。賈伯斯是典型的「從 0 到 1」的創作者，他為 Apple 留下了 Macintosh、iPod、iPhone 與 iPad 四大支柱，並勾勒出 Apple 的靈魂。庫克接手時，Apple 已經擁有了世界上最偉大的「從 0 到 1」產品——iPhone，而庫克的天賦則在於「從 1 到 N」的極致擴張。在他的帶領下，Apple 的營收增長了 303%，利潤增長了 354%，市值更從 2,970 億美元飆升至驚人的 4 兆美元。Thompson 認為，庫克的成功很大程度上歸功於他精準的定位：他不試圖成為第二個賈伯斯，而是成為守護與放大賈伯斯遺產的最佳管理者。這便是「庫克準則」（The Cook Doctrine）的由來，強調專注、擁有核心技術、跨部門協作與對卓越的堅持。\n\n### 作者的核心推演與論點：營運天才與財務導向的隱憂\nThompson 深入剖析了庫克的兩大成就：營運重塑與服務業務的抬頭。在庫克加入 Apple 之前，公司的製造與物流是巨大的累贅，庫克將生產基地大規模轉移至中國，建立了一套精準的即時供應鏈。這雖然創造了前所未有的財務回報，卻也埋下了日後的種子。此外，庫克將 Apple 的商業重心從硬體銷售延伸至「服務」，包括 App Store 的 30% 分成以及與 Google 的搜尋引擎協議。這部分業務去年貢獻了 41% 的利潤，成為 Apple 成長的第二引擎。然而，作者也引用了 John Gruber 的觀點指出，庫克在追求股東回報的過程中，可能忽視了開發者生態與長期健康。過度榨取生態租金，雖然短期內讓財務報表完美無缺，卻讓 Apple 在開發者心中從一個「賦能者」變成了一個「收稅官」。\n\n### 對整體市場、技術發展與地緣政治的長期影響\n在庫克任期的尾聲，Thompson 提出了兩個關鍵的挑戰，這也是他認為庫克「謝幕時機完美」的原因。首先是地緣政治，庫克親手打造的中國供應鏈，如今已成為 Apple 最大的脆弱點。在全球 decoupling（去鉤）的背景下，Apple 的核心運作竟掌握在潛在對手手中，這本質上違背了庫克自己強調的「掌控命運」準則。其次是 AI 浪潮，Apple 在 AI 基礎技術上的投入顯然落後，即將推出的新 Siri 竟然是以 Google 的 Gemini 為核心。這意味著 Apple 可能在未來最重要的技術賽道上，被迫長期依賴第三方技術。庫克選擇在 Apple 財務表現最強勁、Mac 與 iPhone 銷量處於巔峰的時刻退出，是極其精明的遺產保護策略。他將最輝煌的財務數據留給了自己，卻將供應鏈斷裂的風險與 AI 時代的生存焦慮，留給了繼任者約翰·特納斯（John Ternus）。總結來說，庫克是一位極致的優化者，他將 Apple 變成了一台完美的賺錢機器，但 Apple 是否在這一過程中丟失了自主創新的靈魂，將是下一個時代的主題。",
       "insights": [
-        "AI 時代的核心經濟矛盾已從網路時代的「零邊際成本」轉向「算力的機會成本」，企業必須在內部開發與外部雲端收入之間進行零和博弈。",
-        "Meta 的開源戰略是精確的降維打擊：由於 Meta 缺乏企業雲端業務，開源模型對其而言沒有機會成本，卻能有效摧毀 OpenAI 等競爭對手的定價權與算力利潤。",
-        "前沿 AI 實驗室（如 Anthropic）以安全為名限制模型存取，本質上是為了緩解算力短缺並阻止競爭對手透過「知識蒸餾」進行低成本抄襲。"
+        "庫克最大的戰略貢獻是將 Apple 從「硬體製造商」轉型為「全球最大的生態租金收割機」，雖然在財務上極其成功，卻在長遠上侵蝕了與開發者的夥伴關係。",
+        "庫克準則中「掌控核心技術」的要求，在營運（中國依賴）與未來技術（AI 依賴 Google）上均出現了巨大的戰略違約，這可能成為 Apple 長期的致命傷。",
+        "庫克的退場時機堪稱「戰略性逃脫」：他在財務巔峰處隱退，將難以解決的供應鏈去中化難題與 AI 領域的落後劣勢轉嫁給了繼任者。"
       ]
     },
     "Dwarkesh": {
@@ -301,36 +431,36 @@
       ]
     },
     "a16z": {
-      "title": "Monitoring the Situation: a16z's Strategic Bet on Real-Time Media | 監控局勢：a16z 對即時媒體與「意義建構」的戰略押注",
-      "source": "a16z News",
-      "url": "https://www.a16z.news/p/monitoring-the-situation",
-      "analysis_zh": "本文源自知名創投機構 Andreessen Horowitz (a16z) 的官方新聞平台，由該機構宣佈對新型媒體公司 Monitoring the Situation (MTS) 進行種子輪投資。a16z 是矽谷最具權勢與預見性的風投公司，以「軟體正在吞噬世界」的宏大敘事重新定義了現代投資；本文旨在揭示 MTS 如何藉由 X 平台的即時性，重塑數位時代的媒體運作邏輯與「意義建構」機制。\n\n### 戰略背景與脈絡\n在傳統媒體式微、資訊碎片化的當下，全球資訊消費正經歷一場深刻的轉型。a16z 對 MTS 的投資，背景植根於對「注意力經濟」與「專業解釋權」的深度洞察。過去幾十年，CNN 曾憑藉 24 小時不間斷的「Randemonium」模式（即針對當前熱點進行全方位、無死角的覆蓋直到下一個熱點出現）統治了全球輿論場。然而，這種模式在行動互聯網時代面臨巨大的結構性挑戰：電視新聞必須等待事件在「現實世界」發生後才能進行轉播，且受限於物理製播週期。相比之下，X（原 Twitter）已經成為全球權力精英、技術專家與意見領袖進行即時交流的「現實基準線」。對於決策者而言，現實世界發生的事往往在 X 上率先成型、辯論並定調。MTS 的出現，正是為了捕捉這股源自數位原生的即時流動，將傳統電視新聞的深度與社群媒體的即時性進行戰略性融合。\n\n### 作者的核心推演與論點\n本文的核心論點在於：在資訊過載的時代，稀缺的資源不再是「訊息本身」，而是「意義建構」(Sense-making)。如 Marc Andreessen 所述，理解複雜且反覆無常的世界是一項終身職業，而媒體的職責應是幫助受眾理解「發生了什麼」以及「為什麼重要」。MTS 的戰略推演在於，它不試圖建立一個脫離社交平台的孤島媒體，而是直接寄生於 X 平台，利用其強大的「主角效應」(Main Character Energy)。透過聚合如 Steven Sinofsky (微軟前高管)、Mark Halperin (資深政治評論員) 等各領域的頂尖專家，MTS 建立了一個高門檻的智力過濾器。其核心競爭力不在於報導新聞，而在於「解析流動」。這種模式打破了報導者與評論者的界線，讓受眾能在歷史發生的瞬間，直接觀察到專家如何解構局勢，從而將媒體的功能從「事後紀錄」推向「事中解析」。\n\n### 對整體市場、技術發展與地緣政治的長期影響\n從長期來看，MTS 的模式預示著「媒體的垂直整合」與「風投媒體化」的深化。首先，對科技市場而言，這意味著技術敘事的解釋權正從傳統媒體手裡轉移到與矽谷利益一致的專業人士手中。這種「敘事層」的控制，對於定義新技術（如 AI、Web3）的價值主張至關重要。其次，這將迫使傳統新聞機構加速向「平台原生」轉型，否則將在即時決策鏈中被徹底邊緣化。在地緣政治層面，這種即時且具備深度洞察的媒體模式，將極大地影響公眾輿論的形成速度，甚至可能在外交或金融危機中扮演關鍵的輿論引導角色。當「監控局勢」成為一種 24/7 的專業化服務，我們進入了一個訊息流、資本流與權力流高度同步的新紀元。a16z 此舉不僅是投資一家媒體，更是試圖在資訊流的源頭，為其投資生態系建立一座戰略性的「敘事防禦堡壘」。這標誌著數位媒體競爭已從流量爭奪，轉向對全球精英群體「意義建構」權的深度掌控。",
+      "title": "The Internet is Real Life｜互聯網即現實",
+      "source": "a16z news",
+      "url": "https://www.a16z.news/p/the-internet-is-real-life",
+      "analysis_zh": "本文源自矽谷知名風險投資機構 Andreessen Horowitz (a16z) 的官方媒體平台 a16z news，由其分析團隊撰寫。文章深刻探討了互聯網如何從「虛擬工具」轉變為定義人類現實的「基礎層」，並指出當今社會的所有文化、政治與語言現象皆已成為互聯網邏輯的下游產物。\n\n在戰略背景與脈絡方面，作者觀察到所謂的「普通人（normies）」已不復存在，因為互聯網已經滲透進美國生活的所有毛細孔。這不僅是技術的普及，更是一種認知的「上游化」。過去我們認為現實發生在線下，互聯網只是記錄工具；現在，現實的腳本卻是在線上編寫，線下只是執行。這種轉變在新聞傳播中尤為明顯，傳統媒體的角色已退化為對網絡熱點的「售後摘要」，甚至在涉及中東戰爭等嚴肅的地緣政治事件時，公眾也更傾向於直接從網絡源頭獲取未經修飾的資訊，而非依賴傳統媒體的編輯過濾。\n\n作者的核心推演在於文化產業的「模因化重建」。在音樂領域，TikTok 的 15 秒算法邏輯決定了歌曲的結構，創作必須在第一秒就抓住注意力；在電影領域，創作者不再追求普世價值，而是轉向服務極具粘性的網絡次文化（如 Backrooms 恐怖美學），甚至連剪輯節奏都在刻意模仿高頻的網絡資訊流，以防止觀眾在觀影時分心看手機。在政治層面，作者提出了一個極具洞察力的論點：如果說川普是第一個具備病毒式傳播力的「網絡名人」總統，那麼 JD Vance 則是第一個被網絡部落深度「社會化」的政治領導者，他們的語言框架（如黑藥丸 blackpilling）、關注點與價值觀，完全是在網絡討論區中孕育而成的。\n\n對於傳統媒體的剩餘戰略價值，本文進行了冷峻的剖析。作者認為傳統媒體尚未消亡，是因為它們在「協調遊戲（Coordination Games）」中仍具備功能：一是作為高成本、具備信譽背書的「洩密洗錢者（Leaking Laundering）」；二是作為創造「共同知識（Common Knowledge）」的機器。所謂共同知識，不僅是你知道某事，而是你確信「大家都知道你知道這件事」。這種「正常化（Normalization）」的能力，使得傳統媒體即便在受眾流失的情況下，依然能維持一種「官方感」，定義什麼是社會主流，什麼是「怪異」或「邊緣」。\n\n最後，在對整體發展的長期影響分析中，文章提出了一個具有存在主義色彩的戰略啟發：人類歷史本就是一部技術中介現實的歷史。從馴化馬匹擴張物理邊界，到數學中介邏輯、貨幣中介信任，互聯網只是最新且最強大的「中介層」。然而，這種新技術的演進速度遠超人類的生物演化，我們尚未建立起對算法操縱與現實扭曲的抵抗力。作者認為，要理解當下的真實世界，唯一的策略反而是「極度在線（Extremely Online）」。只有透過直接觀察資訊流的引力來源，我們才能意識到濾鏡的存在。這種邏輯催生了對 MTS 等原生在線新聞頻道的強烈需求，旨在為那些拒絕成為算法獵物的人提供導航。這不僅是媒體的更迭，更是一場關於如何在共識崩塌的數位廢墟中，重構個人認知主權的戰爭。",
       "insights": [
-        "媒體的價值正在從「事實報導」轉移到「意義建構」：在訊息無限供應的時代，專家對複雜局勢的即時戰略解構才是真正的稀缺商品。",
-        "X 平台已完成從「虛擬空間」到「現實指揮中心」的本質轉化：它不再是現實的映射，而是全球決策者共同進行意識與政策塑造的起源地。",
-        "風投機構正透過媒體投資實現戰略上的「垂直整合」：藉由扶持原生於平台的媒體，投資者能更直接地控制技術敘事層，從而影響資本與人才的流向。"
+        "傳統媒體的權力已從「資訊壟斷」轉向「共同知識的鑄造」，其核心價值在於定義什麼是社會公認的「正常」，而非提供最快的資訊。",
+        "文化產品的競爭策略已從「廣泛的興趣」轉向「深度的次文化共鳴」，作品本身不再是獨立產品，而是成為某種網絡身份認同的參與憑證。",
+        "未來的領導者將是「網絡原生社會化」的產物，他們的決策邏輯、修辭與世界觀將完全在線上社群中完成塑造，而非傳統的政治精英學院。"
       ]
     },
     "Lenny's Newsletter": {
-      "title": "🎙️ How Intercom 2x’d their engineering velocity with Claude Code | 🎙️ Intercom 如何透過 Claude Code 實現工程效率倍增",
-      "source": "Lenny's Newsletter (How I AI)",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-intercom",
-      "analysis_zh": "本文源自知名產品與科技電子報《Lenny's Newsletter》的「How I AI」專欄。受訪者 Brian Scanlan 是 Intercom 的資深首席工程師，負責引領該公司的 AI 工程化轉型。他在訪談中深入剖析了 Intercom 如何在短短九個月內，藉由全面擁抱 Anthropic 的 Claude Code，成功將研發產出（以合併 PR 數計算）提升兩倍的實戰路徑。這不僅是工具的導入，更是一場關於工程文化與基礎設施的深度變革。\n\n### 戰略背景與脈絡：AI 作為組織能力的放大器\n在生成式 AI 席捲科技產業的背景下，多數工程組織仍處於將 AI 當作「更強大的自動補全工具」（如 Copilot）的零散嘗試階段。然而，Scanlan 指出一個殘酷的現實：AI 本質上是一個「放大器」。如果組織內部的基礎設施——包括 CI/CD 流程、自動化測試覆蓋率以及代碼審查機制——本身是不健全的，AI 的介入只會加速「壞代碼」的產生，進而導致系統崩潰。因此，Intercom 的戰略起點並非 AI 工具本身，而是其高度成熟的工程底座。當執行成本（Execution Cost）因為 AI 代理（Agents）的介入而大幅下降時，原本穩固的基礎設施才能承載住倍增的開發速度，實現真正的「動力輸出」。\n\n### 核心推演與論點：將工程組織視為「產品」經營\nScanlan 的核心邏輯在於將「研發效能」視為一個可量測、可迭代的產品。他提出了幾個關鍵論點。首先是「全方位遙測」（Telemetry）：Intercom 在 Honeycomb 中追蹤 AI 技能的調用，並將 Claude Code 的對話紀錄匿名存儲於 S3，這讓管理者能像分析用戶行為一樣，分析工程師與 AI 的交互模式，進而識別瓶頸。其次，他推翻了「快則必亂」的傳統認知。透過 AI 代理處理瑣碎任務與繁重測試，工程師反而獲得了處理「技術債」的餘裕。數據顯示，在產出加倍的同時，代碼質量指標反而上升，因為修復測試與優化架構的「摩擦力」消失了。\n\n此外，他強調了「自定義技能（Custom Skills）」在防禦工程品質上的重要性。Intercom 構建了專屬的 PR 生成技能，強制 AI 提供豐富的背景上下文，而非僅僅是代碼變更。這體現了一種新型的工程治理觀點：透過構建代理的「黃金路徑」（Golden Path），確保 AI 的自動化行為符合公司標準，將合規性從後置審查轉為前置生成。\n\n### 長期影響：邁向「代理優先」的工程新範式\n這場實驗最深遠的影響在於對「領導力」與「產品形態」的重新定義。在文化上，技術領導者的角色正從「技術導航員」轉變為「障礙清除者」。Scanlan 提出的「賦予權限並承擔責任」框架，是推動 AI 轉型的關鍵能量：領導者必須授權工程師連結各類敏感數據系統，並公開承擔實驗失敗的後果，以降低創新的啟動能。而在產品層面，Scanlan 預示了一個「Agent-First」的未來。他構建的 Intercom CLI 不僅是為了人類設計，更是為了讓 AI 代理能自主完成註冊、驗證等複雜流程。這意味著未來的軟體競爭力將取決於其對「非人類用戶」的友善程度。如果 SaaS 服務不提供結構化的代理接口，將在未來的自動化經濟中被淘汰。這篇文章不僅是 Intercom 的成功案例，更是全球軟體研發從「人力密集型」轉向「代理編排型」的轉折點預告。",
+      "title": "Lenny’s Product Pass: The Strategic Convergence of Content, Community, and Tooling (Lenny 的產品通行證：內容、社群與工具的戰略融合)",
+      "source": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/p/new-a-free-year-of-cursor-google",
+      "analysis_zh": "本文來源於知名的產品管理與成長專家 Lenny Rachitsky 的電子報《Lenny's Newsletter》。Lenny 曾任 Airbnb 的資深產品經理，目前經營著 Substack 上最成功的付費內容平台之一，專門為產品經理、創業者與科技從業者提供深度的職涯建議與產品洞察。本文宣佈了其「產品通行證」（Product Pass）的重大升級，將 Cursor、Google AI Pro、Notion、Supabase 與 Gumloop 等 25 款熱門 AI 工具納入訂閱福利。這不僅是一次簡單的促銷活動，更揭示了內容訂閱與軟體分發市場正在發生的戰略性範式轉移。\n\n### 戰略背景與脈絡\n在當前 AI 技術爆發的環境下，生產力工具的迭代速度已經超越了大多數專業人士的吸收與試錯極限。我們正處於一個「技術分水嶺」：能夠熟練運用 AI Agent 與自動化編程流程的產品人，其產能將與傳統操作者拉開數量級的差距。Lenny Rachitsky 敏銳地捕捉到這一趨勢，他提出的核心使命是確保其讀者群體能站在這場變革的領先端。傳統的內容分發邏輯是以「資訊」解決認知差，但在 AI 時代，「工具」的獲取權與應用能力與「資訊」同樣重要。因此，將昂貴的 SaaS 工具（總價值超過 3 萬美元）整合進一份年費僅數百美元的電子報訂閱中，實質上是在構建一個「職業成長基礎設施」的閉環，將內容的軟實力轉化為工具的硬支撐。\n\n### 作者的核心推演與論點\nLenny 的戰略核心在於「槓桿式分發」與「高信任社群」的深度結合。首先，對於像 Cursor 或 Gumloop 這樣的新興 AI 新創公司而言，獲客成本（CAC）是不斷攀升的死穴。透過與 Lenny 這樣具備極高垂直權威（High-Trust Authority）的平台合作，這些公司能夠精準地觸及全球最頂尖、最具影響力的產品決策者。這不再是盲目的流量投放，而是一種「基於信任的精準置入」，極大地縮短了軟體的採納週期。\n\n其次，Lenny 推演了一種全新的「內容＋軟體」捆綁模式。在以往，讀者訂閱電子報是為了「讀到什麼」；現在，訂閱是為了「獲得什麼能力」。透過引入 Cursor（AI 編程）、Notion（AI 協作）以及 Gumloop（無代碼 AI Agent 構建），Lenny 實際上是在為他的讀者組裝一套「AI 時代的標準開發套件」。這種模式將內容創作者的角色從單純的「觀察者」轉變為「生態系統的策展人」，透過軟體福利極大化了訂閱的留存率（Retention）與淨推薦值（NPS），建立了一個極高的競爭護城河。\n\n### 對整體市場、技術發展與地緣政治的長期影響\n從長遠來看，這種模式將對 SaaS 產業的定價與分發產生深遠影響。首先，傳統的單一軟體訂閱（Standalone Subscription）將面臨挑戰，未來可能出現更多跨平台的「專業人士套裝捆綁」。這類似於軟體界的「禮賓服務」，軟體不再僅僅是孤立的工具，而是特定專業社群身份的延伸福利與生產力標配。\n\n在技術層面上，這次更新強調了「Agentic Workflow」（代理工作流）的平民化。透過引入 Fin 和 Gumloop，Lenny 傳遞了一個明確信號：未來的職場競爭力將不再取決於單點的「執行力」，而是取決於「編排力（Orchestration）」。當產品經理能夠利用 AI Agent 處理 90% 的客服或數據分析時，其職業邊界將被重新定義。最後，這種全球性的數位福利降低了頂尖工具的使用門檻，加速了全球技術民主化的進程。然而，這也同時加劇了「數位鴻溝」：那些無法進入這些高價值資訊與工具網路的人，將在 AI 競爭中迅速被邊緣化，甚至被取代。這場變革本質上是一場關於「工具獲取權」的軍備競賽。",
       "insights": [
-        "AI 是工程債務的照妖鏡：若 CI/CD 或自動化測試不健全，強行導入 AI 代理只會加速技術債的累積，而非提升效率。",
-        "技術領導力的核心在於文化免責：在 AI 時代，工程師需要的不是技術手冊，而是獲得操作核心系統的權限，以及在實驗出錯時由領導者承擔責任的擔保。",
-        "產品介面正從「人機交互」轉向「機器交互」：SaaS 產品若不提供 Agent 友善的 CLI 或結構化介面，將在 AI 代理主導的工作流中失去轉化與獲客機會。"
+        "內容本身已不再是產品終點，而是作為軟體生態系統的「低成本分發路徑」與「信任背書」。",
+        "未來的職業門票將由單純的「資訊獲取」轉向「頂級工具鏈的整合授權」，訂閱電子報正在變成訂閱「基礎設施」。",
+        "產品經理的職業定義正在從「需求撰寫者」轉變為「AI 代理工作流的總編排師」，技術門檻正被工具的整合所消弭。"
       ]
     },
     "馬斯克帝國觀察": {
-      "title": "Elon Musk's Empire Observation: AI5 Chip Enters Manufacturing and the Strategic Tension with Apple | 【馬斯克帝國觀察】#57 AI5 晶片進入製造階段+ 蘋果曾施壓 xAI 下架 Grok",
-      "source": "馬斯克帝國觀察 (Musk Empire on Substack)",
-      "url": "https://muskempire0628.substack.com/p/57-ai5-xai-grok-20260417",
-      "analysis_zh": "本文源自專注於追蹤馬斯克企業生態系的深度觀察頻道《馬斯克帝國觀察》，該頻道由資深科技評論員撰寫，旨在解析特斯拉、SpaceX、xAI 等企業如何交織成一個影響人類未來的技術網。本期內容聚焦於特斯拉 AI5 晶片的流片成功、SpaceX 的商業化新里程碑，以及 xAI 與蘋果在內容審核上的博弈，揭示了馬斯克在垂直整合與 AI 生態佈局中的最新進展。\n\n### 戰略背景與脈絡\n馬斯克的帝國正進入一個從「應用開發」轉向「底層架構整合」的關鍵期。特斯拉不再僅是一家電動車公司，其 AI5 晶片的流片標誌著其在自動駕駛硬體上的絕對領先。當市場多數玩家仍依賴 NVIDIA 的通用 GPU 時，特斯拉透過自研的 TRIP AI 加速器與高速 SRAM 設計，試圖在邊緣運算中實現更低的延遲與更高的效能，這不僅是為了 FSD，更是為了人形機器人 Optimus 的大規模商用。與此同時，SpaceX 透過 Starship V3 的測試與 Starlink 仰角的調整，正將太空從「高門檻探索」轉化為「標準化基礎設施」。在 AI 軟體端，xAI 的 Grok 面臨蘋果 App Store 的審核壓力，這不僅是技術問題，更反映了傳統科技巨頭與新興 AI 勢力在言論邊界與平台規則上的權力碰撞。\n\n### 作者的核心推演與論點\n文中核心論點之一在於「感知哲學」的勝出。馬斯克透過重申對 LiDAR 的捨棄，重申了「Bitter Lesson」原則：在大規模計算面前，人工堆疊的傳感器融合往往會演變成沉重的技術債。特斯拉的純視覺方案是基於端到端學習，這種模仿人類大腦的架構，雖然在開發初期極具挑戰，但其天花板遠高於依賴預設地圖或中央控制的 LiDAR 系統。作者進一步指出，AI5/AI6 的晶片架構設計（如 LPDDR6 與 SRAM 的搭配）顯示出特斯拉正試圖打破記憶體牆，為「邊看邊思考」的實體 AI 提供硬體支撐。\n\n在商業模式上，xAI 與 Cursor 的合作反映了馬斯克敏銳的財務觸覺。透過提供剩餘算力，xAI 轉型為算力供應商，這不僅能緩解 Colossus 資料中心的建設成本，更能透過滲透 AI 編碼工具來建立開發者生態。而 SpaceX 的 Rideshare 計劃，則是將「拼車」概念引入太空發射，35 萬美元的門檻預示著衛星部署的平民化時代正式來臨。\n\n### 對整體市場、技術發展與地緣政治的長期影響\n長期來看，特斯拉與三星、台積電在 2nm 製程上的深度合作，以及將生產線移回美國境內，展現了馬斯克對供應鏈韌性與地緣政治風險的精確拿捏。這種「美國研發、全球生產、分散風險」的模式將成為未來頂尖科技公司的標準配置。此外，馬斯克提出的「全民高收入」（UHI）理論，雖然在當下看來極具爭議，但其背後的邏輯——即 AI 驅動的供給過剩將解決通膨問題，正挑戰傳統的勞動價值觀與貨幣理論，這可能引發未來十年內政府財政政策的根本性轉向。\n\n總結而言，馬斯克的各個企業已不再孤立運行。SpaceX 提供通訊基礎與深空載具，特斯拉提供實體 AI 的大腦與感官，xAI 提供認知底層，Neuralink 則嘗試解決人機融合的最後一哩路。當這些技術在 2026 年交匯時，我們看到的不再是單點突破，而是一個全方位的、由矽基生命支撐的新文明雛形。雖然面臨平台監管與道德倫理的挑戰，但這種追求極致效率與垂直整合的戰略推演，正以前所未有的速度重塑全球科技版圖。",
+      "title": "【馬斯克帝國觀察】#58 AGI 進度表+ 馬斯克為何非當 CEO 不可？ | 【Musk Empire Observation】#58 AGI Roadmap + Why Must Musk be CEO?",
+      "source": "馬斯克帝國觀察 (Musk Empire Observation)",
+      "url": "https://muskempire0628.substack.com/p/58-agi-ceo-20260421",
+      "analysis_zh": "本文源自《馬斯克帝國觀察》第 58 期報告，該刊物長期解析馬斯克旗下企業的戰略動向。本篇內容結合了以研究馬斯克思維著稱的企業家艾瑞克·喬根森（Eric Jorgenson）之觀點，旨在探討馬斯克在 2026 年初如何透過 Robotaxi 商業化、鋰精煉垂直整合及 Grok AGI 路徑圖，鞏固其在 AI 與能源基礎設施的全球統治地位。\n\n在戰略背景與脈絡方面，電動車產業正進入白熱化的存量競爭。Ford 執行長 Jim Farley 對 BYD 成本能力的讚譽反映了產業焦慮，但馬斯克展現了強大的戰略定力，將特斯拉的增長空間寄託於即將獲批的 FSD 與產能擴張。這不僅是硬體之爭，更是「軟體定義汽車」轉入大規模商用的關鍵節點。同時，Robotaxi 在達拉斯與休士頓的無人化營運正式上路，其定價僅為 Waymo 的四成，標誌著自動駕駛已進入「破壞式定價」階段，試圖以極低邊際成本重塑城市交通版圖。\n\n核心推演與論點上，文章凸顯了馬斯克「極速迭代」與「垂直整合」的戰略深度。Optimus 機器人關節設計的快速推翻，體現了特斯拉不畏沉沒成本、只追求最優技術路徑的開發文化。更具防禦性的是德州鋰精煉廠的全面投產，透過專利無酸工藝掌握上游原材料，確保北美供應鏈不受制於地緣政治風險。而在太空領域，SpaceX 達成的 600 次火箭回收里程碑與 1.75 兆美元的上市預期，更進一步證明了其在基礎設施層面的壟斷優勢。\n\n長期影響部分，xAI 的 Grok 系列發展最為關鍵。AGI 路線圖則展示其利用 X 平台數據與超級運算叢集進行極速訓練的野心。Grok 與 Office 系列的外掛插件整合，則直接侵略了微軟與 Google 的生產力領地，意圖將 AI 助手從單純的聊天框轉化為核心工作流設施。然而，法國檢察官對 X 的刑事調查，則警示了技術霸權在算法問責與司法監管面前所面臨的政治與法律邊界風險。\n\n最終，馬斯克的領導風格——「Relentless」（不懈）被視為帝國運行的元動力。透過喬根森的剖析可見，馬斯克親自掌舵並非出於權力慾，而是基於確保「產品願景與公司執行高度統一」的道德責任感。這種第一性原理的工程師思維，讓他的企業能維持極高的執行強度。無論是回應病童心願還是推動 AI 演進，馬斯克正以其獨特的步調，在爭議中重新定義 21 世紀人類文明的科技景觀。",
       "insights": [
-        "特斯拉 AI5 晶片將 SRAM 與 TRIP 加速器高度整合，旨在解決邊緣運算最關鍵的「低延遲」痛點，這將使其人形機器人 Optimus 在反應速度上徹底超越競爭對手。",
-        "xAI 提供算力給 Cursor 標誌著 AI 產業鏈的權力移轉：擁有底層大規模算力基礎設施的公司，正透過「算力出口」向下游工具層滲透並建立強大的生態控制權。",
-        "SpaceX 調降 Starlink 最小仰角與推行官網預訂 Rideshare，正將航太服務從「特殊定制」轉型為「即點即用的商品化服務」，這將徹底摧毀傳統航太巨頭的報價體系。"
+        "特斯拉的護城河已從製造端轉向「垂直能源與數據閉環」：透過自主鋰精煉廠掌握原材料，並以 Robotaxi 的極低定價策略實現從硬體商向服務商的戰略跨越。",
+        "馬斯克的 AGI 路徑反映了「即時數據與運算力的極限轉換」：利用 X 平台的社交數據流與超級運算叢集，xAI 試圖在 Grok 5.0 階段實現通用智能，打破現有大模型競爭僵局。",
+        "「極速迭代」是馬斯克對抗沉沒成本的最高法則：從 Optimus 的重新設計到 Grok 參數的指數級狂飆，顯示其戰略核心在於維持技術演進速度，而非保護既有資產或緩慢研發。"
       ]
     }
   }
