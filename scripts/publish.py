@@ -2,9 +2,12 @@ import subprocess
 import datetime
 import sys
 import re
+import json
+import os
 from pathlib import Path
 
 CONFLICT_MARKER_RE = re.compile(r"^(<{7}|={7}|>{7})(?: .*)?$")
+SAFE_DAILY_PUBLISH_ENV = "DAILY_CURATION_SAFE_PUBLISH"
 
 def find_conflict_markers():
     """Scan tracked and untracked files for unresolved Git conflict markers."""
@@ -60,7 +63,12 @@ def run_command(command, timeout=None):
     # 如果執行失敗（returncode 不是 0 代表有錯誤）
     if result.returncode != 0:
         # 有時候 git commit 失敗只是因為「沒有檔案被修改」，這不算真正的錯誤
-        if "nothing to commit" in result.stdout or "nothing to commit" in result.stderr:
+        if (
+            "nothing to commit" in result.stdout
+            or "nothing to commit" in result.stderr
+            or "no changes added to commit" in result.stdout
+            or "no changes added to commit" in result.stderr
+        ):
             print("⚠️ 提示：目前沒有偵測到任何檔案變更，不需要發布。")
             return True # 依然視為流程順利結束
             
@@ -68,6 +76,68 @@ def run_command(command, timeout=None):
         print(f"錯誤細節: {result.stderr.strip() or result.stdout.strip()}")
         return False
     return True
+
+def run_command_args(command, timeout=None):
+    """Run a command without shell parsing, for exact file path staging."""
+    try:
+        result = subprocess.run(command, capture_output=True, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        print(f"❌ 執行超時 ({timeout}s): {' '.join(command)}")
+        return False
+
+    if result.returncode != 0:
+        print(f"❌ 執行失敗: {' '.join(command)}")
+        print(f"錯誤細節: {result.stderr.strip() or result.stdout.strip()}")
+        return False
+    return True
+
+def has_staged_changes():
+    result = subprocess.run(["git", "diff", "--cached", "--quiet"])
+    if result.returncode == 0:
+        return False
+    if result.returncode == 1:
+        return True
+    print("❌ 無法確認 Git 暫存區狀態，已中止安全發布。")
+    return True
+
+def daily_fetch_date():
+    today = datetime.datetime.now().strftime("%Y-%m-%d")
+    news_path = Path("daily_news_temp.json")
+    if not news_path.exists():
+        return today
+
+    try:
+        with news_path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return today
+
+    fetch_date = data.get("fetch_date")
+    if isinstance(fetch_date, str) and re.match(r"^\d{4}-\d{2}-\d{2}$", fetch_date):
+        return fetch_date
+    return today
+
+def daily_content_paths():
+    fetch_date = daily_fetch_date()
+    required_paths = [
+        Path("daily_news_temp.json"),
+        Path("index.html"),
+        Path("archives") / f"{fetch_date}.html",
+    ]
+    optional_paths = [
+        Path("analysis_state.json"),
+    ]
+
+    missing = [str(path) for path in required_paths if not path.exists()]
+    if missing:
+        print("❌ 安全發布找不到必要的日報產物，已中止：")
+        for path in missing:
+            print(f"   - {path}")
+        return []
+
+    paths = [path for path in optional_paths if path.exists()]
+    paths.extend(required_paths)
+    return [str(path) for path in paths]
 
 def publish_to_github():
     """自動發布到 GitHub Pages 的核心流程"""
@@ -87,10 +157,27 @@ def publish_to_github():
     if abort_if_conflicted():
         return
         
-    # 3. 將所有修改過的檔案加入暫存區 (打包)
+    # 3. 將修改過的檔案加入暫存區 (打包)
     print("📦 正在打包變更檔案...")
-    if not run_command("git add -A"):
-        return
+    if os.environ.get(SAFE_DAILY_PUBLISH_ENV) == "1":
+        if has_staged_changes():
+            print("❌ 安全發布偵測到已經暫存的其他變更，為避免混入日報發布已中止。")
+            print("💡 請先確認那些變更是否也要發布，再重新執行。")
+            return
+
+        publish_paths = daily_content_paths()
+        if not publish_paths:
+            return
+
+        print("   使用日報安全發布，只打包以下產物：")
+        for path in publish_paths:
+            print(f"   - {path}")
+
+        if not run_command_args(["git", "add", "--", *publish_paths]):
+            return
+    else:
+        if not run_command("git add -A"):
+            return
         
     # 4. 建立 Commit 訊息 (加上當下時間，讓歷史紀錄清楚明白)
     # 使用台灣時間 (UTC+8) 邏輯或是本地系統時間
