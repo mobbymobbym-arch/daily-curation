@@ -1,367 +1,387 @@
 {
-  "fetch_date": "2026-04-29",
+  "fetch_date": "2026-04-30",
   "techmeme": [
     {
-      "title_en": "Musk v. Altman: Musk testifies he's suing OpenAI because “it is not okay to steal a charity” and its pivot sets a concerning precedent for philanthropic efforts",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/musk-lawyer-says-altman-made-mockery-of-openai-public-mission?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NzQxMDMwOSwiZXhwIjoxNzc4MDE1MTA5LCJhcnRpY2xlSWQiOiJURTdSRTZLSzNOWTkwMCIsImJjb25uZWN0SWQiOiI4OUM4OTNDMDhGOTQ0NThDQkQwQTQyREY1RDFCOTY0QyJ9.NmI9R0zTbZYN2VXol5C6eLbDV87x-5kTBPxXAyHI5uE",
-      "summary_en": "Elon Musk testified Tuesday he's suing OpenAI and two of its co-founders — Sam Altman and Greg Brockman …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "Alphabet reports Q1 revenue up 22% YoY to $109.9B, vs. $107.2B est., and Google Cloud revenue up 63% to $20B, vs. $18.05B est.; GOOG jumps 6%+ after hours",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf",
+      "summary_en": "MOUNTAIN VIEW, Calif. - April 29, 2026 - Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended March 31, 2026.",
+      "source": "Alphabet",
+      "media_source": "Alphabet",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "馬斯克對決奧特曼：馬斯克作證稱起訴 OpenAI 是因為「竊取慈善機構是不對的」，且其轉型為營利實體為慈善事業立下了令人擔憂的先例",
-      "summary_zh": "埃隆·馬斯克週二作證稱，他正在起訴 OpenAI 及其兩位共同創辦人——山姆·奧特曼（Sam Altman）與格雷格·布羅克曼（Greg Brockman）..."
+      "title_zh": "Alphabet 第一季營收年增 22% 達 1,099 億美元，優於預期；Google Cloud 營收大增 63% 達 200 億美元，GOOG 盤後大漲逾 6%",
+      "summary_zh": "加州山景城 - 2026 年 4 月 29 日 - Alphabet Inc. (NASDAQ: GOOG, GOOGL) 今日公佈截至 2026 年 3 月 31 日的季度財務業績。"
     },
     {
-      "title_en": "Musk v. Altman: the judge asks Elon Musk and Sam Altman to “control your propensity to use social media to make things worse outside this courtroom”",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/judge-lectures-musk-altman-on-trading-social-media-barbs",
-      "summary_en": "The judge overseeing a high-profile court case between Elon Musk and OpenAI has asked the tech executives involved in the legal battle …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "Alphabet updates its 2026 capital expenditure guidance range to $180B to $190B, up from $175B to $185B, and expects capex to “significantly increase” in 2027",
+      "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html",
+      "summary_en": "Alphabet reported first-quarter earnings after the bell Wednesday, showing revenue that topped expectations boosted by its surging cloud business.",
+      "source": "CNBC",
+      "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "馬斯克對決奧特曼：法官要求馬斯克與奧特曼「控制在社群媒體上讓法庭外局勢惡化的傾向」",
-      "summary_zh": "負責審理馬斯克與 OpenAI 矚目訴訟案的法官，已要求參與這場法律戰的科技高層..."
+      "title_zh": "Alphabet 更新 2026 年資本支出指引至 1,800 億至 1,900 億美元，並預計 2027 年支出將「顯著增加」",
+      "summary_zh": "Alphabet 週三盤後公佈第一季財報，在雲端業務激增的推動下，營收表現超越預期。"
     },
     {
-      "title_en": "Mitchell Hashimoto, co-founder of HashiCorp, says his terminal application Ghostty will move off GitHub, citing GitHub's frequent outages",
-      "url": "https://mitchellh.com/writing/ghostty-leaving-github",
-      "summary_en": "I'm GitHub user 1299, joined Feb 2008. — Since then, I've opened GitHub every single day. Every day, multiple times per day, for over 18 years.",
-      "source": "Mitchell Hashimoto",
-      "media_source": "Mitchell Hashimoto",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "HashiCorp 共同創辦人 Mitchell Hashimoto 表示其終端機應用 Ghostty 將遷出 GitHub，理由是 GitHub 頻繁當機",
-      "summary_zh": "我是 GitHub 第 1299 號用戶，於 2008 年 2 月加入。從那時起，我每天都會打開 GitHub。18 年來，每天、每天多次。"
-    },
-    {
-      "title_en": "GitHub addresses two recent incidents and says it aims to improve reliability amid AI growth, focusing on “availability first, then capacity, then new features”",
-      "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+      "title_en": "Alphabet reports YouTube's Q1 ad revenue rose 10.7% YoY to $9.88B, vs. $9.99B est., and Google's ad revenue reached $77.25B, up from $66.89B in Q1 2025",
+      "url": "https://variety.com/2026/digital/news/youtube-q1-2026-ad-revenue-google-earnings-1236733480/",
       "summary_en": "",
-      "source": "The GitHub Blog",
-      "media_source": "The GitHub Blog",
+      "source": "Variety",
+      "media_source": "Variety",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "GitHub 針對近期兩起事件做出回應，表示目標是在 AI 成長之際提升可靠性，重點在於「可用性優先，其次是容量，最後才是新功能」",
+      "title_zh": "Alphabet 報告 YouTube 第一季廣告營收年增 10.7% 達 98.8 億美元；Google 廣告總營收達 772.5 億美元，高於去年同期的 668.9 億美元",
       "summary_zh": ""
     },
     {
-      "title_en": "Anthropic partners with Blender, Autodesk, Adobe, Ableton, and others to launch connectors that integrate Claude directly into professional creative workflows",
-      "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "summary_en": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination …",
-      "source": "Anthropic",
-      "media_source": "Anthropic",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Anthropic 與 Blender、Autodesk、Adobe、Ableton 等合作推出連接器，將 Claude 直接整合進專業創意工作流",
-      "summary_zh": "創意專業人士尋求科技來擴展工作的可能性。Claude 無法取代品味或想像力..."
-    },
-    {
-      "title_en": "Source: Google signed a deal allowing the US DOD to use Google's AI for “any lawful government purpose”; Google says the agreement amends an existing contract",
-      "url": "https://www.theinformation.com/articles/google-signs-classified-ai-deal-pentagon-amid-employee-opposition",
-      "summary_en": "Google and the Department of Defense signed a deal allowing the Pentagon to use Google's AI models on classified work …",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指 Google 簽署協議允許美國國防部將 Google AI 用於「任何合法政府用途」；Google 稱該協議修訂了現有合約",
-      "summary_zh": "Google 與美國國防部簽署了一項協議，允許五角大廈在機密工作中使用 Google 的 AI 模型..."
-    },
-    {
-      "title_en": "Sources: Google dropped out of a $100M Pentagon challenge to create tech for voice-controlled, autonomous drone swarms, following an internal ethics review",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/google-drops-out-of-pentagon-drone-swarm-contest-after-advancing",
+      "title_en": "Google says paid subscriptions reached 350M in Q1, up 25M QoQ, driven by YouTube and Google One, while Gemini Enterprise paid MAUs grew 40% QoQ",
+      "url": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one/",
       "summary_en": "",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指 Google 在內部倫理審查後，退出了一項金額達 1 億美元、旨在為語音控制自主無人機群開發技術的五角大廈挑戰賽",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Seagate reports Q3 revenue up 44% YoY to $3.11B, vs. $2.96B est., and forecasts Q4 revenue and adjusted EPS above estimates; STX jumps 13%+ after hours",
-      "url": "https://www.reuters.com/business/seagate-forecasts-upbeat-quarter-ai-boom-powers-strong-data-storage-demand-2026-04-28/",
-      "summary_en": "Seagate Technology (STX.O) forecast fourth-quarter revenue and profit above Wall Street expectations on Tuesday, betting on strong demand …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Seagate 公布第三季營收年增 44% 至 31.1 億美元，優於預期的 29.6 億美元，並預測第四季表現將超越預期；STX 盤後大漲逾 13%",
-      "summary_zh": "Seagate Technology (STX.O) 週二預測第四季營收與利潤將高於華爾街預期，看好強勁需求..."
-    },
-    {
-      "title_en": "Robinhood reports Q1 revenue up 15% YoY to $1.07B, vs. $1.14B est., and crypto revenue down 47% to $134M, vs. $147.6M est.; HOOD drops 6%+ after hours",
-      "url": "https://sherwood.news/markets/robinhood-q1-2026-earnings-report/",
-      "summary_en": "The brokerage just reported quarterly results. — Robinhood MarketsHOOD $77.11 (-2.29%) is sharply lower in postmarket trading after reporting underwhelming Q1 results:",
-      "source": "Sherwood News",
-      "media_source": "Sherwood News",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Robinhood 公布第一季營收年增 15% 至 10.7 億美元，低於預期的 11.4 億美元，加密貨幣營收下降 47%；HOOD 盤後下跌逾 6%",
-      "summary_zh": "該券商剛公布季度業績。Robinhood Markets (HOOD) 在公布令人失望的第一季財報後，盤後交易價格大幅下跌。"
-    },
-    {
-      "title_en": "NXP reports Q1 revenue up 12% YoY to $3.18B, vs. $3.15B est., and forecasts Q2 revenue above estimates; NXPI jumps 13%+ after hours",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/nxp-rallies-after-stronger-automotive-market-bolsters-forecast",
-      "summary_en": "NXP Semiconductors NV jumped in late trading after giving an upbeat revenue forecast, a sign the chipmaker is bouncing back from a prolonged auto industry slump and tariff uncertainties.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "恩智浦 (NXP) 公布第一季營收年增 12% 至 31.8 億美元，優於預期的 31.5 億美元，並看好第二季展望；NXPI 盤後大漲逾 13%",
-      "summary_zh": "恩智浦半導體 (NXP Semiconductors NV) 在給出樂觀的營收預測後盤後股價跳升，顯示該晶片製造商正從長期的汽車業低迷中復甦。"
-    },
-    {
-      "title_en": "US startup Poolside debuts its first open-weight model, Laguna XS.2, a 33B-A3B-parameter MoE model, and Laguna M.1, a proprietary 225B-A23B-parameter MoE model",
-      "url": "https://venturebeat.com/technology/american-ai-startup-poolside-launches-free-high-performing-open-model-laguna-xs-2-for-local-agentic-coding",
-      "summary_en": "The AI race lately has felt a bit like a game of tennis: first, Anthropic releases a new, pricey state-of-the-art proprietary model …",
-      "source": "VentureBeat",
-      "media_source": "VentureBeat",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "美國新創 Poolside 推出首款權重開放模型 Laguna XS.2（33B 參數 MoE）以及專有的 Laguna M.1（225B 參數 MoE）",
-      "summary_zh": "近期的 AI 競賽感覺有點像網球賽：首先是 Anthropic 發布了一款全新且昂貴、處於領先地位的專有模型..."
-    },
-    {
-      "title_en": "Nvidia launches Nemotron 3 Nano Omni, an open multimodal model with a 30B-A3B hybrid MoE architecture; the Nemotron 3 family saw 50M+ downloads in the past year",
-      "url": "https://siliconangle.com/2026/04/28/nvidia-introduces-nemotron-3-nano-omni-vision-speech-powerful-agentic-ai-use/",
-      "summary_en": "Nvidia Corp. today launched a powerful reasoning artificial intelligence model that unifies text, vision and speech …",
-      "source": "SiliconANGLE",
-      "media_source": "SiliconANGLE",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "NVIDIA 推出 Nemotron 3 Nano Omni，這是一款採用 30B 參數混合 MoE 架構的開放多模態模型；Nemotron 3 系列下載量已破 5,000 萬次",
-      "summary_zh": "NVIDIA 今日推出了一款強大的推理 AI 模型，整合了文字、視覺和語音..."
-    },
-    {
-      "title_en": "Sources: Polymarket has discussed lifting the prohibition on US-based customers with the CFTC, as it seeks to bring its main exchange back to the US",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/polymarket-seeks-cftc-blessing-to-bring-main-exchange-back-to-us",
-      "summary_en": "Polymarket is taking steps to try to bring its main exchange back to the US, according to people familiar with the matter …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指 Polymarket 已與 CFTC 討論解除對美國客戶的禁令，尋求將其主交易平台帶回美國市場",
-      "summary_zh": "據知情人士透露，Polymarket 正採取措施，嘗試將其主要交易所帶回美國..."
-    },
-    {
-      "title_en": "Amazon and OpenAI announce an expanded deal that will make OpenAI's models available from AWS, a day after OpenAI revised its Microsoft partnership",
-      "url": "https://www.axios.com/2026/04/28/amazon-cloud-deal-openai",
-      "summary_en": "Amazon and OpenAI on Tuesday announced an expanded deal that will make the AI startup's models available from Amazon's cloud.",
-      "source": "Axios",
-      "media_source": "Axios",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Amazon 與 OpenAI 宣布擴大合作，將在 AWS 上提供 OpenAI 模型，就在 OpenAI 修改其與微軟合作夥伴關係的隔天",
-      "summary_zh": "Amazon 與 OpenAI 週二宣布了一項擴大協議，將使這家 AI 新創公司的模型可透過 Amazon 雲端服務取得。"
-    },
-    {
-      "title_en": "Q&A with Sam Altman and AWS CEO Matt Garman about OpenAI's new partnership with AWS, Bedrock Managed Agents, Trainium chips, and more",
-      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
-      "summary_en": "",
-      "source": "Stratechery",
-      "media_source": "Stratechery",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "山姆·奧特曼與 AWS 執行長 Matt Garman 對談：探討 OpenAI 與 AWS 的新合作、Bedrock 託管代理、Trainium 晶片等",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "AWS launches a desktop app for its Amazon Quick AI assistant, letting users connect their tools and local files to build custom apps, live dashboards, and more",
-      "url": "https://www.aboutamazon.com/news/aws/amazon-quick-desktop-ai-assistant",
-      "summary_en": "Amazon Quick brings a personal AI assistant to your desktop. Build presentations, intelligent dashboards, and more.",
-      "source": "About Amazon",
-      "media_source": "About Amazon",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "AWS 為其 Amazon Quick AI 助手推出桌面應用程式，讓用戶連接本地檔案以構建自定義應用與即時儀表板",
-      "summary_zh": "Amazon Quick 為您的桌面帶來個人 AI 助手。構建簡報、智慧儀表板等。"
-    },
-    {
-      "title_en": "AWS launches Amazon Connect Decisions and Amazon Connect Talent, which are AI agentic tools aimed at logistics workers and recruiters",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/amazon-launches-ai-productivity-software-for-office-workers",
-      "summary_en": "",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "AWS 推出 Amazon Connect Decisions 與 Amazon Connect Talent，為針對物流人員與招聘人員的 AI 代理工具",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "OpenAI's Codex instruction set contains a line, repeated several times, that forbids Codex from randomly mentioning goblins, gremlins, and other creatures",
-      "url": "https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins/",
-      "summary_en": "“Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely …",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "OpenAI 的 Codex 指令集中包含一行重複多次的內容，禁止 Codex 隨機提到哥布林、小精靈及其他生物",
-      "summary_zh": "「絕不談論哥布林、小精靈、浣熊、食人魔、鴿子或其他動物或生物，除非絕對必要...」"
-    },
-    {
-      "title_en": "AI researchers launch talkie, a 13B vintage language model trained on historical texts and with a 1930 cutoff, to see if it can replicate scientific discoveries",
-      "url": "https://talkie-lm.com/introducing-talkie",
-      "summary_en": "Why vintage language models? — Have you ever daydreamed about talking to someone from the past?",
-      "source": "talkie",
-      "media_source": "talkie",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "AI 研究人員推出 talkie，這是一款 13B 參數的復古語言模型，基於 1930 年前的歷史文本訓練，旨在測試其能否複製科學發現",
-      "summary_zh": "為什麼要用復古語言模型？你是否曾幻想過與來自過去的人對話？"
-    },
-    {
-      "title_en": "Foxconn Industrial Internet, which sells AI servers, reports Q1 revenue up 57% YoY to ~$37B, below $44.5B est., and a record ~$1.5B net income, below $1.8B est.",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/foxconn-industrial-profit-falls-short-of-lofty-ai-expectations",
-      "summary_en": "Foxconn Industrial Internet Co. benefited less than expected from China's artificial intelligence boom as sales and earnings growth fell short of lofty expectations.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "工業富聯 (FII) 公布第一季營收年增 57% 至約 370 億美元，低於預期，淨利創紀錄達約 15 億美元但亦未達標",
-      "summary_zh": "鴻海旗下的工業富聯從中國 AI 熱潮中獲益低於預期，其銷售額與利潤增長未達市場的高預期。"
-    },
-    {
-      "title_en": "Sources: Apple plans an AI overhaul for photo editing in iOS 27, including using on-device AI models to extend, enhance, and reframe photos",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/apple-s-ios-27-macos-27-photo-editing-with-ai-to-extend-enhance-and-reframe?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NzQwMDI0MywiZXhwIjoxNzc4MDA1MDQzLCJhcnRpY2xlSWQiOiJURTZLU1pLR0NURlgwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.UOS5gJeehk6o60c5a9SEu8UdwvYSYS3OartSUzJ08dI",
-      "summary_en": "Apple Inc. is planning a major overhaul of the built-in photo-editing features for the iPhone, iPad and Mac, leaning heavily on artificial intelligence to better compete with Android devices.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：Apple 計劃在 iOS 27 中全面翻修 AI 相片編輯功能，包括使用裝置端 AI 模型進行延伸、增強與重新構圖",
-      "summary_zh": "Apple 公司正計劃對 iPhone、iPad 和 Mac 的內建相片編輯功能進行重大更新，將重度依賴人工智慧以更好地與 Android 裝置競爭。"
-    },
-    {
-      "title_en": "Docs: OpenAI projected at the start of this year that $8/month ChatGPT Go subs will grow ~36x to 112M in 2026, while $20/month Plus subs will fall 80% to ~9M",
-      "url": "https://www.theinformation.com/articles/openai-sees-8-chatgpt-driving-consumer-subscribers-122-million-year",
-      "summary_en": "For three years, OpenAI has generated most of its revenue from people paying $20 a month for subscriptions to ChatGPT.",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "文件顯示：OpenAI 今年年初預測每月 8 美元的 ChatGPT Go 訂閱數將在 2026 年增長 36 倍至 1.12 億，而 20 美元的 Plus 訂閱將下降 80% 至約 900 萬",
-      "summary_zh": "三年來，OpenAI 的大部分收入來自每月支付 20 美元訂閱 ChatGPT 的用戶。"
-    },
-    {
-      "title_en": "The FIDO Alliance launches two working groups to establish industry standards for securing AI agent transactions; Google contributes the Agent Payments Protocol",
-      "url": "https://www.wired.com/story/the-race-is-on-to-keep-ai-agents-from-running-wild-with-your-credit-cards/",
-      "summary_en": "AI agents may soon be buying your stuff for you. The FIDO Alliance has teamed up with Google and Mastercard to try to ensure …",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "FIDO 聯盟成立兩個工作小組，旨在建立 AI 代理交易的安全產業標準；Google 貢獻 Agent Payments Protocol",
-      "summary_zh": "AI 代理（AI Agent）可能很快就會幫你買東西。FIDO 聯盟已與 Google 和 Mastercard 合作，確保交易安全性..."
-    },
-    {
-      "title_en": "Sources: the US Commerce Department last week ordered multiple chip equipment companies to halt some shipments to China's second-largest chipmaker, Hua Hong",
-      "url": "https://www.reuters.com/world/china/us-orders-chip-equipment-companies-halt-some-shipments-hua-hong-chinas-second-2026-04-28/",
-      "summary_en": "The U.S. Department of Commerce last week ordered multiple chip equipment companies to halt certain tool shipments …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：美國商務部上週命令多家晶片設備商停止向中國第二大晶片製造商華虹半導體發貨",
-      "summary_zh": "美國商務部上週下令多家晶片設備公司停止某些工具的運輸..."
-    },
-    {
-      "title_en": "EU countries and lawmakers reach an impasse on a deal watering down the EU's AI Act due to some parties seeking exemptions for already regulated industries",
-      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/eu-countries-lawmakers-fail-reach-deal-watered-down-ai-rules-2026-04-29/",
-      "summary_en": "EU countries and European Parliament lawmakers failed to reach a deal on watered-down landmark artificial intelligence rules …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "因部分成員尋求豁免已受監管的行業，歐盟各國與立法者在放寬歐盟《AI 法案》的協議上陷入僵局",
-      "summary_zh": "歐盟國家和歐洲議會立法者未能就放寬這項具里程碑意義的人工智慧規則達成協議..."
-    },
-    {
-      "title_en": "A US judge denied Sam Bankman-Fried's request for a new trial based on what SBF called new evidence; SBF tried to withdraw his request, but the judge refused",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-28/sam-bankman-fried-s-motion-for-new-trial-rejected-by-us-judge",
-      "summary_en": "A federal judge rejected FTX co-founder Sam Bankman-Fried's do-it-yourself motion for a new trial based on what the former crypto king claimed was new evidence.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "美國法官駁回 Sam Bankman-Fried 基於「新證據」重審的請求；SBF 曾試圖撤回請求但遭法官拒絕",
-      "summary_zh": "聯邦法官駁回了 FTX 共同創辦人 Sam Bankman-Fried 基於這位前加密貨幣大亨所稱的「新證據」而提出的重審動議。"
-    },
-    {
-      "title_en": "Sources: Goldman Sachs stopped its bankers in Hong Kong from using Anthropic's models; Anthropic says its models were never officially “supported” in Hong Kong",
-      "url": "https://www.ft.com/content/aa3a7a19-ab94-4069-aea4-e192ab9abc41",
-      "summary_en": "Employees were unable to access company's AI models as of a few weeks ago — Goldman Sachs has stopped its bankers …",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：高盛禁止其香港銀行家使用 Anthropic 模型；Anthropic 表示其模型從未在香港正式提供「支援」",
-      "summary_zh": "截至幾週前，員工已無法存取公司的 AI 模型——高盛已停止其銀行家使用..."
-    },
-    {
-      "title_en": "Parallel Web Systems, founded by former Twitter CEO Parag Agrawal and which offers web search tools for AI agents, raised a $100M Series B at a $2B valuation",
-      "url": "https://www.wsj.com/cio-journal/ex-twitter-ceos-ai-startup-raises-funds-at-2-billion-valuation-63c927fc?st=ZUPHQA&reflink=desktopwebshare_permalink",
-      "summary_en": "Parallel Web Systems raised $100 million in Series B funding to continue building web search for AI agents",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "由 Twitter 前 CEO Parag Agrawal 創立、為 AI 代理提供網頁搜尋工具的 Parallel Web Systems 完成 1 億美元 B 輪融資，估值達 20 億美元",
-      "summary_zh": "Parallel Web Systems 在 B 輪融資中籌集了 1 億美元，將繼續為 AI 代理構建網頁搜尋功能。"
-    },
-    {
-      "title_en": "Lovable launches its AI coding app on iOS and Android, letting users code via voice or text AI prompts, and allowing them to switch between a PC and mobile",
-      "url": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
-      "summary_en": "Apple's recent crackdown on vibe-coding apps hasn't held up Lovable's launch of its no-code AI app builder, which is now available …",
       "source": "TechCrunch",
       "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Lovable 在 iOS 與 Android 上推出 AI 程式碼編輯 App，允許用戶透過語音或文字 AI 指令寫程式，並可在電腦與行動裝置間切換",
-      "summary_zh": "Apple 最近對「氛圍程式設計」（vibe-coding）App 的打擊並未延誤 Lovable 推出其無程式碼 AI App 構建工具，該工具現已可用..."
+      "title_zh": "Google 表示第一季付費訂閱人數達 3.5 億人，單季成長 2,500 萬人；Gemini Enterprise 付費 MAU 季增 40%",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Meta raises its 2026 capex to between $125B and $145B, exceeding analysts' estimates, after previously forecasting $115B to $135B; META drops 6%+ after hours",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/meta-raises-outlook-for-capital-spending-in-2026-shares-slide",
+      "summary_en": "Meta Shares Plunge as AI Investments Raise Spending Outlook — Video Player is loading. — Unmute — Current Time 0:00 Loaded: 12.32% Playback Rate",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Meta 上調 2026 年資本支出至 1,250 億至 1,450 億美元，超出分析師預期；META 盤後股價重挫逾 6%",
+      "summary_zh": "由於 AI 投資推高支出前景，Meta 股價因支出預期上調而大幅下跌。"
+    },
+    {
+      "title_en": "Meta reports Q1 revenue up 33% YoY to $56.31B, net income up 61% to $26.77B, says “scrutiny on youth-related issues” and trials may “result in a material loss”",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx",
+      "summary_en": "Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2026.",
+      "source": "Meta",
+      "media_source": "Meta",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Meta 報告第一季營收年增 33% 達 563.1 億美元，淨利成長 61% 達 267.7 億美元；警示青少年審查與訴訟可能導致重大損失",
+      "summary_zh": "Meta Platforms, Inc. (Nasdaq: META) 今日公佈截至 2026 年 3 月 31 日的季度財務業績。"
+    },
+    {
+      "title_en": "Meta says Q1 family daily active people fell 20M QoQ to 3.56B, vs. 3.62B est., due to internet disruptions in Iran and WhatsApp access restrictions in Russia",
+      "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+      "summary_en": "",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Meta 表示第一季家族產品每日活躍人數季減 2,000 萬至 35.6 億人，受伊朗網路中斷與俄羅斯限制 WhatsApp 影響",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Meta reports Reality Labs Q1 revenue of $402M, vs. $488.8M est., and a $4.03B operating loss, vs. $4.82B est.; Reality Labs has $80B+ in losses since late 2020",
+      "url": "https://www.cnbc.com/2026/04/29/metas-reality-labs-lost-over-4-billion-in-first-quarter.html",
+      "summary_en": "",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Meta 報告 Reality Labs 第一季營收 4.02 億美元，營業虧損 40.3 億美元；該部門自 2020 年底以來累計虧損已破 800 億美元",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Microsoft reports Q3 revenue up 18% YoY to $82.9B, net income up 23% to $31.8B, and says its AI business surpassed an annual revenue run rate of $37B, up 123%",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+      "summary_en": "Microsoft Cloud and AI Strength Fuels Third Quarter Results — REDMOND, Wash. — April 29, 2026 — Microsoft Corp. today announced …",
+      "source": "Microsoft",
+      "media_source": "Microsoft",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Microsoft 報告第三季營收年增 18% 達 829 億美元，AI 業務年化營收運轉率突破 370 億美元，大增 123%",
+      "summary_zh": "Microsoft 雲端與 AI 的強勁實力推動第三季度業績表現。"
+    },
+    {
+      "title_en": "Microsoft's Q3 Intelligent Cloud revenue was $34.68B vs. $34.27B est., with Azure and other cloud services surging 40% YoY; Microsoft 365 Copilot has 20M+ seats",
+      "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+      "summary_en": "Microsoft issued higher-than-expected capex guidance for 2026, with the software maker's quarterly earnings and revenue topping estimates.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Microsoft 第三季智慧雲端營收達 346.8 億美元，Azure 年增 40%；Microsoft 365 Copilot 席位突破 2,000 萬",
+      "summary_zh": "Microsoft 發布高於預期的 2026 年資本支出指引，其季度盈餘與營收均超越分析師估計。"
+    },
+    {
+      "title_en": "Microsoft reports Q3 Xbox hardware revenue fell 33% YoY and Xbox content and services revenue, which includes Game Pass, dropped 5% YoY",
+      "url": "https://www.theverge.com/tech/920785/microsoft-xbox-revenue-q3-2026-earnings",
+      "summary_en": "",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Microsoft 報告第三季 Xbox 硬體營收年減 33%，包含 Game Pass 在內的內容與服務營收則年減 5%",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Amazon reports Q1 revenue of $181.5B, up 17% YoY, net income of $30.3B, up 77%, and operating income of $23.9B, up 30% YoY",
+      "url": "https://www.businesswire.com/news/home/20260428268696/en/",
+      "summary_en": "Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its first quarter ended March 31, 2026. - Net sales increased 17% to $181.5 billion in the first quarter …",
+      "source": "Amazon",
+      "media_source": "Amazon",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Amazon 報告第一季營收 1,815 億美元（年增 17%），淨利 303 億美元（成長 77%），營業利益達 239 億美元",
+      "summary_zh": "Amazon.com, Inc. (NASDAQ: AMZN) 今日公佈截至 2026 年 3 月 31 日的第一季度財務業績，淨銷售額增長 17% 達 1,815 億美元。"
+    },
+    {
+      "title_en": "AWS revenue rose 28% YoY in Q1 to $37.6B, vs. $36.64B est., its fastest growth in 15 quarters, as capital expenditure rose to $44.2B, up from $25B in Q1 2025",
+      "url": "https://qz.com/amazon-q1-2026-earnings-aws-cloud-growth-042926",
+      "summary_en": "",
+      "source": "Quartz",
+      "media_source": "Quartz",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "AWS 第一季營收年增 28% 達 376 億美元，創 15 個季度以來最快增速；資本支出升至 442 億美元",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Amazon reports Q1 ad revenue up 24% YoY to $17.24B, vs. $16.87B est., and subscription services revenue up 15% to $13.43B",
+      "url": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html",
+      "summary_en": "",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Amazon 報告第一季廣告營收年增 24% 達 172.4 億美元，訂閱服務營收成長 15% 達 134.3 億美元",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Musk v. Altman: Elon Musk says he was a “fool” for backing OpenAI, accusing Altman and Brockman of manipulating him into donating tens of millions of dollars",
+      "url": "https://www.wsj.com/tech/ai/elon-musk-takes-stand-in-second-day-of-trial-against-openai-59d50fbf?st=sT5hVU&reflink=desktopwebshare_permalink",
+      "summary_en": "Billionaire says OpenAI co-founder Sam Altman wasn't honest about nonprofit mission",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "馬斯克對戰奧特曼：Elon Musk 自嘲支持 OpenAI 是個「傻瓜」，指控 Altman 操縱其捐贈數千萬美元",
+      "summary_zh": "億萬富翁表示 OpenAI 共同創辦人 Sam Altman 對非營利使命並不誠實。"
+    },
+    {
+      "title_en": "Sources: SoftBank plans to create an AI and robotics company called Roze in the US to build data centers and list it as early as 2026, seeking a $100B valuation",
+      "url": "https://www.ft.com/content/55c7d99c-7e68-453c-b784-33d6b9838e16",
+      "summary_en": "Masayoshi Son plots IPO for business named Roze as soon as this year — SoftBank is planning to create and list an AI …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息人士：軟銀計劃在美成立名為 Roze 的 AI 機器人公司，建置資料中心並尋求以 1,000 億美元估值上市",
+      "summary_zh": "孫正義計劃最快於今年讓名為 Roze 的業務進行 IPO。"
+    },
+    {
+      "title_en": "Sources: Anthropic has begun weighing a new funding round at a $900B+ valuation, after previously resisting investor proposals at an $800B+ valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/anthropic-considering-funding-offers-at-over-900-billion-value?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NzQ5OTQ3NywiZXhwIjoxNzc4MTA0Mjc3LCJhcnRpY2xlSWQiOiJURTdXMDNUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJEQjlFREYyREVCMkE0OTVGOTgzMjczRUQxRjk1MTg0NSJ9.0bEodaS1GVha3NiyunKYkEui5CMQSEeKUFbAyChNP5c",
+      "summary_en": "Anthropic PBC has begun weighing a fresh funding round that would value the artificial intelligence developer at more than $900 billion …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息人士：Anthropic 開始評估估值逾 9,000 億美元的新一輪融資，此前曾拒絕 8,000 億美元的提議",
+      "summary_zh": "AI 開發商 Anthropic 已開始考慮新一輪融資，其估值可能超過 9,000 億美元。"
+    },
+    {
+      "title_en": "Qualcomm reports Q2 revenue down 3% YoY to $10.6B and says a top hyperscaler is on track to begin using its chips later this year; QCOM jumps 12%+ after hours",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/qualcomm-gives-weak-forecast-after-smartphone-market-slumps",
+      "summary_en": "Qualcomm Inc. rallied in late trading after the company said it was making headway in the lucrative data center market and predicted …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Qualcomm 第二季營收年減 3% 達 106 億美元，透露頂級 Hyperscaler 將使用其晶片；QCOM 盤後股價大漲逾 12%",
+      "summary_zh": "高通公司在盤後交易中股價飆升，此前公司表示在利潤豐厚的資料中心市場取得進展。"
+    },
+    {
+      "title_en": "Samsung reports Q1 revenue up 69% YoY to ~$90.2B, vs. ~$89.4B est., and operating profit up 756% to ~$38.5B, vs. ~$37.2B est., driven by AI-linked memory demand",
+      "url": "https://www.cnbc.com/2026/04/30/samsung-q1-earnings-ai-memory-chip-demand-profit-record.html",
+      "summary_en": "Samsung Electronics reported an over eight-fold increase in first-quarter operating profits on Thursday, hitting a new record …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "三星電子第一季營收年增 69% 達 902 億美元，營業利益大增 756%，受 AI 相關記憶體需求帶動",
+      "summary_zh": "三星電子週四報告第一季營業利益成長超過八倍，創下歷史新高。"
+    },
+    {
+      "title_en": "Sources: PayPal is separating Venmo into its own standalone unit and is looking to recruit a digital banking executive to run the new Venmo segment",
+      "url": "https://www.cnbc.com/2026/04/29/paypal-restructures-venmo-standalone-unit.html",
+      "summary_en": "PayPal CEO Enrique Lores has this week told managers that he is reorganizing the firm's reporting lines to separate Venmo …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息人士：PayPal 擬將 Venmo 拆分為獨立部門，並正招募數位銀行高層來領導該業務",
+      "summary_zh": "PayPal 執行長本週告知經理人，他正在重組匯報架構以獨立 Venmo 業務。"
+    },
+    {
+      "title_en": "Meta quietly rolled out USDC stablecoin payouts on Solana and Polygon for select creators in Colombia and the Philippines",
+      "url": "https://fortune.com/2026/04/29/meta-stablecoins-crypto-usdc-polygon-solana/",
+      "summary_en": "Meta has reentered the stablecoin market. Four years after pulling the plug on an earlier attempt, the tech giant has quietly rolled out the digital currency payouts …",
+      "source": "Fortune",
+      "media_source": "Fortune",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Meta 低調為哥倫比亞與菲律賓特定創作者推出 Solana 與 Polygon 上的 USDC 穩定幣支付",
+      "summary_zh": "Meta 重新進入穩定幣市場。在四年前取消先前的嘗試後，這家科技巨頭已悄悄推出數位貨幣支付功能..."
+    },
+    {
+      "title_en": "The European Commission issues preliminary DSA findings against Meta, saying Instagram and Facebook fail to prevent under-13 users from accessing the services",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/eu-escalates-probe-into-meta-for-failing-to-stop-kids-signing-up",
+      "summary_en": "The European Union's executive arm accused Meta Platforms Inc. of failing to keep young children off its services, ramping up a probe that could result in hefty fines.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "歐盟執委會對 Meta 發布初步 DSA 調查結果，稱 Instagram 與 Facebook 未能阻止 13 歲以下用戶訪問服務",
+      "summary_zh": "歐盟執行機構指責 Meta Platforms Inc. 未能讓幼童遠離其服務，加強了可能導致巨額罰款的調查。"
+    },
+    {
+      "title_en": "eBay reports Q1 revenue up 19% YoY to $3.09B, vs. $3.04B est., net income up 2% to $512M, GMV up 18% to $22.2B, and forecasts Q2 revenue above estimates",
+      "url": "https://www.wsj.com/business/earnings/ebay-posts-higher-first-quarter-revenue-as-gross-merchandise-volumes-climbs-d61ccae6",
+      "summary_en": "The company logged a profit of $512 million, or $1.12 a share — EBay recorded higher profit and revenue in its latest quarter as gross merchandise volume climbed.",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "eBay 第一季營收年增 19% 至 30.9 億美元，高於預期的 30.4 億美元；淨利增長 2% 至 5.12 億美元；GMV 成長 18% 至 222 億美元，且預測第二季營收將優於預期",
+      "summary_zh": "該公司錄得 5.12 億美元利潤，或每股 1.12 美元。隨著商品交易總額（GMV）攀升，eBay 在最新一季錄得更高的利潤與營收。"
+    },
+    {
+      "title_en": "Motorola unveils its 2026 foldables lineup, including its first book-style model, which costs $1,900; prices for clamshell models have gone up by up to $200",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/motorola-debuts-new-razr-foldables-with-higher-prices-than-last-year?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NzQ3OTc4NSwiZXhwIjoxNzc4MDg0NTg1LCJhcnRpY2xlSWQiOiJURTlKNElLSVAzTFAwMCIsImJjb25uZWN0SWQiOiI4OUM4OTNDMDhGOTQ0NThDQkQwQTQyREY1RDFCOTY0QyJ9.fwJxz_T_KnXrIh-yKgBM6hvonqHnmmUJClDvYQK2py8",
+      "summary_en": "The company's clamshell phones have gone up by as much as $200, while its first book-style foldable barely undercuts Samsung at $1,900.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Motorola 揭曉 2026 年摺疊手機陣容，包含售價 1,900 美元的首款書本式機型；掀蓋式機型價格最高調漲 200 美元",
+      "summary_zh": "該公司的掀蓋式手機漲價幅度高達 200 美元，而其首款書本式摺疊機售價 1,900 美元，僅略低於三星。"
+    },
+    {
+      "title_en": "Uber partners with Expedia to launch a hotel booking integration in its app in the US, and plans to add Expedia's Vrbo brand later in 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-29/uber-adds-hotel-bookings-to-its-app-through-new-expedia-partnership",
+      "summary_en": "Uber Technologies Inc. is adding hotel bookings in its flagship app, marking the ride-hail company's biggest push yet into the travel market as it seeks to create an everything platform.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Uber 與 Expedia 合作在美國 App 中整合飯店預訂功能，並計畫於 2026 年晚些時候加入 Vrbo 品牌",
+      "summary_zh": "Uber Technologies Inc. 正在其旗艦 App 中加入飯店預訂功能，這標誌著這家叫車服務公司正致力於打造「萬能平台」，並向旅遊市場邁出最大的一步。"
+    },
+    {
+      "title_en": "Letters: House Homeland Security Committee and House China Select Committee are probing Airbnb and Cursor maker Anysphere over their use of Chinese AI models",
+      "url": "https://www.semafor.com/article/04/29/2026/house-committee-probes-cursor-parent-airbnb-over-chinese-ai",
+      "summary_en": "THE SCOOP — Two Republican-led House committees are probing Airbnb and Anysphere, maker of AI coding platform Cursor …",
+      "source": "Semafor",
+      "media_source": "Semafor",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "美國眾議院國土安全委員會與中國問題特別委員會正針對 Airbnb 及 Cursor 開發商 Anysphere 使用中國 AI 模型展開調查",
+      "summary_zh": "獨家消息：兩個由共和黨領導的眾議院委員會正在調查 Airbnb 以及 AI 程式碼平台 Cursor 的開發商 Anysphere..."
+    },
+    {
+      "title_en": "SpaceX IPO filing: Elon Musk can only be removed as CEO via a vote by holders of Class B super-voting shares, which he will control post-IPO, a rare provision",
+      "url": "https://www.reuters.com/world/only-elon-musk-can-fire-elon-musk-spacex-filing-shows-2026-04-29/",
+      "summary_en": "SpaceX is telling investors that no one can fire Elon Musk from his role as chief executive and chairman of the board without …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "SpaceX IPO 文件：Elon Musk 僅能透過 B 類超級投票權股東投票解職，而他在 IPO 後將掌握該控制權，此條款相當罕見",
+      "summary_zh": "SpaceX 告訴投資者，在沒有特定條件下，沒有人可以解除 Elon Musk 作為執行長兼董事長職務..."
+    },
+    {
+      "title_en": "SpaceX draft IPO filing: from 2023 to 2025, Starlink's individual subscribers rose from 2.3M to 8.9M, revenue grew from $3.9B to $11.4B, and ARPU fell 18%",
+      "url": "https://www.theinformation.com/articles/spacexs-starlink-revenue-per-user-fell-18-customers-quadrupled",
+      "summary_en": "",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "SpaceX IPO 文件草案：2023 至 2025 年間，Starlink 個人用戶從 230 萬增至 890 萬，營收從 39 億美元成長至 114 億美元，ARPU 下降 18%",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Google says the Gemini app can now generate files; supported formats include PDF, Microsoft Word and Excel, Google Docs and Sheets, plain text, and Markdown",
+      "url": "https://9to5google.com/2026/04/29/gemini-app-generate-files/",
+      "summary_en": "You can now ask the Gemini app to directly generate “downloadable and ready-to-share files.” Google wants you to …",
+      "source": "9to5Google",
+      "media_source": "9to5Google",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Google 表示 Gemini App 現可直接生成檔案，支援格式包含 PDF、Word、Excel、Google 文件與試算表、純文字及 Markdown",
+      "summary_zh": "你現在可以要求 Gemini App 直接生成「可下載且可即時分享的檔案」。Google 希望讓你..."
+    },
+    {
+      "title_en": "Digital advertising is booming for Google and Meta, helped by AI tools used for language translation, real-time changes to ad copy, and easier ad targeting",
+      "url": "https://www.nytimes.com/2026/04/29/technology/ai-artificial-intelligence-ad-boom.html",
+      "summary_en": "For years, DribbleUp, a sports equipment company, spent its own time and resources figuring out whom it should advertise its basketballs and soccer balls to on Facebook.",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "受惠於 AI 工具（用於語言翻譯、即時修改廣告文案及更精準的投放），Google 與 Meta 的數位廣告業務正蓬勃發展",
+      "summary_zh": "多年來，體育用品公司 DribbleUp 花費大量時間與資源在 Facebook 上摸索該向誰投放籃球與足球廣告。"
+    },
+    {
+      "title_en": "Google has told employees in a memo that it “proudly” works with the US military and will continue to do so, amid opposition from some staff over DOD contracts",
+      "url": "https://www.ft.com/content/e2f5f0a7-fa24-430f-b7f8-27b78041ea8a?accessToken=zwAAAZ3bR21-kdPi9fCn-iRDD9O3-Ce3gEHqig.MEUCIQDpcfS1uEDMERKT-wOw9Y1ww7LA4E3UkE8CF3TNPQdqZAIgKJDL9t_wzYPcVWtXbawbH4B-RcxwLvPv3pd8YLtnNpc&sharetype=gift&token=962b8164-d68b-4deb-b641-1947bb22cdaa",
+      "summary_en": "The tech giant signed an artificial intelligence deal with the defence department on Monday",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Google 在內部備忘錄中告訴員工，公司「自豪地」與美國軍方合作並將持續下去，儘管部分員工反對國防部合約",
+      "summary_zh": "這家科技巨頭在週一與國防部簽署了一項人工智慧協議。"
     }
   ],
   "wsj": [
     {
-      "title_en": "Ex-Twitter CEO’s AI Startup Raises Funds at $2 Billion Valuation",
-      "url": "https://www.wsj.com/cio-journal/ex-twitter-ceos-ai-startup-raises-funds-at-2-billion-valuation-63c927fc?mod=rss_Technology",
-      "summary_en": "Parallel Web Systems raised $100 million in Series B funding to continue building web search for AI agents....",
-      "title_zh": "前 Twitter CEO 的 AI 新創公司以 20 億美元估值籌集資金",
-      "summary_zh": "Parallel Web Systems 在 B 輪融資中籌集了 1 億美元，將繼續為 AI 代理開發網頁搜尋功能..."
+      "title_en": "White House Opposes Anthropic’s Plan to Expand Access to Mythos Model",
+      "url": "https://www.wsj.com/tech/ai/white-house-opposes-anthropics-plan-to-expand-access-to-mythos-model-dc281ab5?mod=rss_Technology",
+      "summary_en": "The relationship between the administration and the company is still complicated despite efforts from both sides to ease tensions....",
+      "title_zh": "白宮反對 Anthropic 擴大 Mythos 模型存取權限的計畫",
+      "summary_zh": "儘管雙方都努力緩解緊張局勢，政府與該公司之間的關係依然複雜..."
     },
     {
-      "title_en": "Elon Musk Testifies of AI Risk at Trial, Says OpenAI Tried to ‘Steal’ a Charity",
-      "url": "https://www.wsj.com/tech/trial-begins-between-elon-musk-and-sam-altman-for-the-future-of-openai-01595967?mod=rss_Technology",
-      "summary_en": "Opening statements in Musk’s lawsuit offered differing views of his early financial support of OpenAI and its conversion to a for-profit company....",
-      "title_zh": "Elon Musk 在審判中就 AI 風險作證，稱 OpenAI 試圖「竊取」慈善機構",
-      "summary_zh": "Musk 訴訟案的開庭陳述對他早期對 OpenAI 的資金支持以及該公司轉型為營利性企業的過程提出了不同見解..."
+      "title_en": "Big Tech Strikes Gold With AI, but at a Steep Cost",
+      "url": "https://www.wsj.com/tech/ai/big-tech-strikes-gold-with-ai-but-at-a-steep-cost-f6d82a22?mod=rss_Technology",
+      "summary_en": "While Microsoft, Alphabet, Meta and Amazon ride artificial intelligence to strong earnings, some investors are still worried about the level of spending....",
+      "title_zh": "科技巨頭靠 AI 淘金，但代價高昂",
+      "summary_zh": "雖然微軟、Alphabet、Meta 和亞馬遜憑藉人工智慧取得強勁財報，但部分投資者仍對支出水平感到擔憂..."
     },
     {
-      "title_en": "AI Worries Have Returned to Wall Street. Now Come Earnings.",
-      "url": "https://www.wsj.com/tech/ai-worries-have-returned-to-wall-street-now-come-earnings-d680e19c?mod=rss_Technology",
-      "summary_en": "A slide in artificial-intelligence stocks comes ahead of earnings from key tech giants....",
-      "title_zh": "AI 憂慮重返華爾街，緊接著是財報季",
-      "summary_zh": "在科技巨頭發布財報前，人工智慧相關股票出現下滑..."
+      "title_en": "Meta Reports Big Revenue Jump and Projected Spending Increase",
+      "url": "https://www.wsj.com/business/earnings/meta-meta-q1-2026-earnings-report-ae021875?mod=rss_Technology",
+      "summary_en": "Meta Platforms posted its biggest quarterly revenue jump in recent history in the first quarter but said it would spend even more money than forecast to build out AI data centers this year....",
+      "title_zh": "Meta 報告營收大幅成長，並預計支出將增加",
+      "summary_zh": "Meta Platforms 在第一季創下近年來最大的單季營收增幅，但表示今年將投入比預期更多的資金來建設 AI 數據中心..."
     },
     {
-      "title_en": "OpenAI Misses Key Revenue, User Targets in High-Stakes Sprint Toward IPO",
-      "url": "https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273?mod=rss_Technology",
-      "summary_en": "The company’s CFO and board have questioned the wisdom of massive data-center spending in the face of slowing growth....",
-      "title_zh": "OpenAI 在邁向 IPO 的關鍵衝刺中未達營收與用戶目標",
-      "summary_zh": "面對增長放緩，該公司的財務長和董事會對巨額資料中心支出的明智性提出了質疑..."
+      "title_en": "SoftBank Plots IPO for New Robotics Venture",
+      "url": "https://www.wsj.com/tech/ai/softbank-plots-ipo-for-new-robotics-venture-c52c2297?mod=rss_Technology",
+      "summary_en": "Roze AI plans to focus on AI and robotics, an area CEO Masayoshi Son sees as the “next frontier” for SoftBank....",
+      "title_zh": "軟銀計畫為新機器人創業公司進行 IPO",
+      "summary_zh": "Roze AI 計劃專注於 AI 與機器人領域，執行長孫正義將此視為軟銀的「下一個前沿」..."
     },
     {
-      "title_en": "FDA Turns to AI to Speed Up Clinical Trials",
-      "url": "https://www.wsj.com/pro/venture-capital/fda-turns-to-ai-to-speed-up-clinical-trials-c10d1d9b?mod=rss_Technology",
-      "summary_en": "The U.S. Food and Drug Administration seeks to accelerate clinical trials of new medicines by using artificial intelligence to streamline the laborious process of collecting and submitting study data....",
-      "title_zh": "FDA 轉向 AI 以加速臨床試驗",
-      "summary_zh": "美國食品藥物管理局（FDA）尋求透過人工智慧簡化繁瑣的研究數據收集與提交過程，進而加速新藥的臨床試驗..."
+      "title_en": "Microsoft Reports Strong Cloud Growth, but Questions About AI Returns Persist",
+      "url": "https://www.wsj.com/business/earnings/microsoft-msft-q3-earnings-report-2026-stock-75b9361b?mod=rss_Technology",
+      "summary_en": "Sales reached $82.9 billion in the January-to-March quarter, exceeding Wall Street analysts’ expectations....",
+      "title_zh": "微軟報告雲端業務強勁成長，但 AI 回報問題依然存在",
+      "summary_zh": "1 月至 3 月季度營收達 829 億美元，超過華爾街分析師的預期..."
     },
     {
-      "title_en": "Microsoft and OpenAI’s Split May Help Both",
-      "url": "https://www.wsj.com/tech/ai/microsoft-and-openais-split-may-help-both-75dcf589?mod=rss_Technology",
-      "summary_en": "Plus, China scuttles Meta’s acquisition and tech layoffs proliferate....",
-      "title_zh": "Microsoft 與 OpenAI 的分道揚鑣可能對雙方都有利",
-      "summary_zh": "此外，中國阻撓了 Meta 的收購案，科技業裁員潮持續蔓延..."
+      "title_en": "Amazon Posts Double-Digit Growth Anchored by Booming Web Services",
+      "url": "https://www.wsj.com/business/earnings/amazon-amzn-q1-earnings-report-2026-stock-5e7a8c01?mod=rss_Technology",
+      "summary_en": "The retail and cloud-computing giant beat analyst estimates with a 17% jump in revenue and sharp increase in net profit....",
+      "title_zh": "亞馬遜在網路服務成長帶動下，繳出雙位數成長成績單",
+      "summary_zh": "這家零售與雲端計算巨頭營收增長 17%，淨利大幅上升，優於分析師預期..."
     },
     {
-      "title_en": "Google Clears Pentagon to Use AI Tools in Classified Settings",
-      "url": "https://www.wsj.com/tech/ai/google-clears-pentagon-to-use-ai-tools-in-classified-settings-d8162cda?mod=rss_Technology",
-      "summary_en": "Tech company added language to contract to say its AI wasn’t intended for domestic mass surveillance or autonomous weapons....",
-      "title_zh": "Google 獲准讓五角大廈在機密環境中使用 AI 工具",
-      "summary_zh": "這家科技公司在合約中增加了條款，聲明其 AI 並非用於國內大規模監控或自主武器..."
+      "title_en": "Google Profit Jumps 81% as Cloud Business Booms",
+      "url": "https://www.wsj.com/tech/alphabet-earnings-q1-2026-googl-stock-283553bc?mod=rss_Technology",
+      "summary_en": "Artificial intelligence is “lighting up every part of the business,” Chief Executive Sundar Pichai says....",
+      "title_zh": "隨著雲端業務蓬勃發展，Google 利潤暴增 81%",
+      "summary_zh": "執行長 Sundar Pichai 表示，人工智慧正在「點亮業務的每個部分」..."
     },
     {
-      "title_en": "Chip Startup Aims to Shatter AI’s Dreaded Memory Wall",
-      "url": "https://www.wsj.com/tech/chip-startup-aims-to-shatter-ais-dreaded-memory-wall-b5f4c563?mod=rss_Technology",
-      "summary_en": "Huge AI models are overwhelming servers and leaving high-powered chips idle. Google and Meta veterans say they have the solution....",
-      "title_zh": "晶片新創公司旨在打破 AI 令人恐懼的「記憶體之牆」",
-      "summary_zh": "巨大的 AI 模型正讓伺服器不堪重負，並導致高效能晶片閒置。Google 和 Meta 的資深人士表示他們已找到解決方案..."
+      "title_en": "Elon Musk Testifies He Was a ‘Fool’ to Fund OpenAI",
+      "url": "https://www.wsj.com/tech/ai/elon-musk-takes-stand-in-second-day-of-trial-against-openai-59d50fbf?mod=rss_Technology",
+      "summary_en": "The billionaire said that OpenAI co-founder Sam Altman wasn’t honest about nonprofit mission....",
+      "title_zh": "Elon Musk 出庭作證稱資助 OpenAI 是「愚蠢的」行為",
+      "summary_zh": "這位億萬富翁表示，OpenAI 共同創辦人 Sam Altman 在非營利使命方面表現得不誠實..."
     },
     {
-      "title_en": "Meta Is Preparing to Have to Undo Its Manus Acquisition After China Ban",
-      "url": "https://www.wsj.com/tech/ai/meta-is-preparing-to-have-to-undo-its-manus-acquisition-after-china-ban-a4ffbefb?mod=rss_Technology",
-      "summary_en": "The ban sends a message that China is intent on keeping its AI knowledge within the country....",
-      "title_zh": "因中國禁令，Meta 準備撤銷對 Manus 的收購",
-      "summary_zh": "禁令傳遞了一個訊息，即中國意圖將其 AI 知識保留在國內..."
+      "title_en": "OpenAI Sued by Seven Families Over Mass Shooting Suspect’s ChatGPT Use",
+      "url": "https://www.wsj.com/us-news/openai-sued-by-seven-families-over-mass-shooting-suspects-chatgpt-use-ebf10dc6?mod=rss_Technology",
+      "summary_en": "The suits allege the company was negligent in its failure to notify police of the suspect’s activity months before the attack....",
+      "title_zh": "因大規模槍擊案嫌疑人曾使用 ChatGPT，OpenAI 遭七個家庭起訴",
+      "summary_zh": "訴訟指控該公司在襲擊發生前數月未能向警方通報嫌疑人的活動，存在疏忽..."
     },
     {
-      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
-      "url": "https://www.wsj.com/articles/tech-media-telecom-roundup-market-talk-cf3c54e8?mod=rss_Technology",
-      "summary_en": "Find insight on Cex.io, OpenAI’s partnership with Microsoft, Elon Musk’s legal battle with Sam Altman and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "title_zh": "科技、媒體與電信摘要：市場談話",
-      "summary_zh": "在最新一期的市場談話中，獲取關於 Cex.io、OpenAI 與 Microsoft 的合作、Elon Musk 與 Sam Altman 的法律訴訟等深入見解..."
+      "title_en": "Goldman Sachs and Bain Lead Investment in AI Marketing Startup",
+      "url": "https://www.wsj.com/cmo-today/goldman-sachs-and-bain-lead-investment-in-ai-marketing-startup-871266b8?mod=rss_Technology",
+      "summary_en": "The Trade Desk also invested in Hightouch, which is now valued at $2.75 billion ....",
+      "title_zh": "高盛與貝恩領投 AI 行銷新創公司",
+      "summary_zh": "The Trade Desk 也參與了對 Hightouch 的投資，該公司目前的估值已達到 27.5 億美元。"
     }
   ],
   "deep_analysis": {
@@ -377,14 +397,14 @@
       ]
     },
     "Dwarkesh": {
-      "title": "What I've been thinking about this weekend - More open questions, intelligence vs power, the problem of verification in science, the parallel discovery of Darwinism (週末的反思：未解之難題、智力與權力的本質、科學驗證的困境與達爾文主義的平行發現)",
-      "source": "Dwarkesh's Blog (作者: Dwarkesh Patel)",
-      "url": "https://www.dwarkesh.com/p/what-ive-been-thinking-april-27",
-      "analysis_zh": "本文出自知名科技與AI領域思想家 Dwarkesh Patel 的個人部落格，Dwarkesh 以深度的技術訪談與深刻的底層邏輯推演聞名於矽谷；文章核心旨在探討 AI 算力壟斷下的資源分配、智能與權力的本質差異，以及科學發現中漫長且充滿謬誤的驗證週期對未來「AI 科學家」發展路徑的深遠啟發。\n\n【戰略背景與脈絡】\n當前人工智慧產業正處於算力與資本高度集中的極端狀態，全球高達 70% 的 AI 算力掌握在五大雲端基礎設施巨頭手中，且核心資源實質上被 OpenAI、Anthropic 與 Google DeepMind 等三巨頭壟斷。這種極端的資源集中，引發了對未來運算資源分配的戰略焦慮。與此同時，AI 模型的進步正經歷典範轉移，資料的邊際效益與強化學習（RL）的樣本效率面臨物理與記憶體的雙重瓶頸。我們正走向一個推論（Inference）與訓練（Training）界線逐漸模糊的轉折點，未來的 AI 將不再僅依賴靜態的歷史資料庫，而是必須在實際部署的「實踐中學習（On-the-job learning）」。這意味著，掌握最廣泛應用場景與持續學習迴圈的實體，將擁有難以撼動的資料飛輪優勢。\n\n【作者的核心推演與論點】\n作者在此基礎上展開了三個具備極強反直覺色彩的推演。首先，關於「算力剝奪與階級分化」，他提出了一個尖銳的經濟學拷問：當前沿 AI 的能力越強，運行它的算力機會成本就越高；如果將算力用於推動奇點降臨或無人工廠的投資報酬率（ROI）遠大於解決普通人的日常需求，那麼普通大眾是否會被徹底定價出局？這使得「算力基本收入（Universal Basic Compute）」成為未來不可迴避的社會契約議題。\n\n其次，針對「智力與權力的脫鉤」，作者強力反駁了「超級智能必然導致 AI 奪權」的普遍恐懼。他犀利地指出，現實社會中的權力（如同川普或史達林所展現的）多半來自於建立權威與群體協作的信任，而非孤立的最優化計算能力。因此，超級 AI 更有可能是作為現有資本主義與國家機器的賦能工具，提升整體的「國家智商」與合作效率，而不是透過純粹的智力碾壓來奪取世界控制權。\n\n最後，針對「科學驗證的長期性與非理性」，作者透過回顧哥白尼日心說與海王星發現的科學史，揭示了科學進步事前的不可預測性。真正的科學突破往往無法透過短期的強化學習迴圈（RL loop）來驗證，且新理論在初期甚至表現得比修補過的舊理論更糟。這推導出一個驚人的結論：未來的 AI 科學家不能僅是純粹的理性優化器，而必須像歷史上的偉大科學家一樣，擁有多樣化的「偏見」與對特定邊緣研究路徑的「頑固堅持」，才能在漫長的驗證週期中熬過低谷。\n\n【對整體市場/技術發展/地緣政治的長期影響】\n這篇推演對未來的戰略佈局具有深刻的指導意義。在地緣政治與市場格局方面，AI 的競爭主軸將從「單一模型的智力比拼」轉向「國家或企業體系的綜合協商與資源調配能力戰」。最強的 AI 將透過賦能人類管理者，在傳統的資本主義競爭框架內產生壓倒性的馬太效應，這要求各國政府必須提早規劃應對算力寡頭壟斷的干預機制。在技術演進與產品架構上，未來 AI 模型的設計必須打破訓練與推論的孤島，發展具備持續學習（Continual Learning）能力的架構；而在佈局「AI 科學家（AI for Science）」時，業界將不再盲目追求單一全能的超級大腦，而是轉向構建一個「由具備不同偏好與啟發式偏差的 AI 代理所組成的科學社會」，透過算力資源的平行多樣性投資，來應對真實世界中動輒數十年甚至百年的技術驗證週期。這將徹底改變創投在 AI 基礎研究領域的資金配置邏輯。",
+      "title": "Reiner Pope – The math behind how LLMs are trained and served / Reiner Pope – LLM 訓練與推理背後的數學推演",
+      "source": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/reiner-pope",
+      "analysis_zh": "本文出自知名科技訪談節目《Dwarkesh Podcast》（主持人 Dwarkesh Patel），深入專訪了 AI 晶片新創 MatX 執行長、前 Google TPU 架構師 Reiner Pope。Pope 是全球極少數能從底層晶片設計一路貫穿至頂層大模型架構的全棧頂尖專家；本文透過黑板推演的第一性原理，精準解構了決定當前大型語言模型（LLM）訓練與推理成本的底層數學與物理法則。\n\n**戰略背景與脈絡**\n在當前生成式 AI 的軍備競賽中，市場往往將目光聚焦於模型參數規模與訓練數據量，而忽略了運算基礎設施的物理極限對模型發展軌跡的絕對支配力。Pope 在訪談中指出，推動或限制當前 AI 前沿發展的，並非單純的演算法創新，而是「記憶體牆」（Memory Wall）與晶片間的通訊頻寬。隨著大模型走向混合專家架構（MoE）與超長上下文（Long Context），硬體的記憶體頻寬與互連結構（如 Nvidia 的 NVLink 與機櫃佈線物理空間）已經成為決定模型架構演進的最深層戰略約束。這意味著 AI 的競爭，本質上是一場將演算法精準映射至硬體物理拓撲結構的系統工程戰。\n\n**作者的核心推演與論點**\nPope 透過極簡的數學公式推演，揭示了幾項至關重要的產業真相：\n首先，在推理（Inference）經濟學上，成本優化的核心在於「批次大小（Batch Size）」與「模型稀疏性（Sparsity）」的博弈。為了攤銷龐大的模型權重讀取時間，系統必須累積足夠大的 Batch Size；而當採用 MoE 架構提升稀疏性以節省算力時，又必須進一步擴大 Batch Size 才能達到效能平衡，這反過來對記憶體容量提出了巨大挑戰。\n其次，基礎設施的實體邊界決定了分散式訓練的策略。Pope 解釋，為什麼「專家並行（Expert Parallelism）」通常被限制在單一機櫃（Scale-up）內，而「流水線並行（Pipeline Parallelism）」則跨機櫃（Scale-out）執行？因為 MoE 需要 All-to-all 的高頻通訊，極度依賴機櫃內極高的傳輸頻寬；一旦跨機櫃，光纖線纜的實體空間限制與低頻寬就會成為瓶頸。這證明了「最優秀的並行策略，往往長得跟物理資料中心的架構一模一樣」。\n第三，打破 Chinchilla 定律的「過度訓練」經濟學。Pope 透過等式推演指出，現今的基礎模型往往超出 Chinchilla 最優數據量 100 倍以上。背後的原因是頂尖實驗室為了極致壓縮終端的推理成本，選擇在「預訓練、強化學習（RL）與推理」這三個階段中尋求總成本的數學均衡。當模型需要服務數以億計的 Token 時，投入海量算力進行過度預訓練，在整體商業生命週期中是最理性的經濟決策。\n最後，API 價格是底層硬體瓶頸的直接鏡像。例如，輸出（Decode）價格往往是輸入（Prefill）的數倍，精準反映了 Decode 階段受限於極昂貴的 KV Cache 記憶體頻寬，而 Prefill 則能充分利用 GPU 算力；超長上下文價格的躍升，亦是記憶體容量與頻寬成本逼近物理極限的真實定價。\n\n**對整體市場、技術發展與地緣政治的長期影響**\n從長期戰略來看，Pope 的推演揭示了一個殘酷的現實：通往 AGI 的道路是一場被 HBM（高頻寬記憶體）與網路互連技術（Scale-up 領域大小）牢牢卡脖子的競賽。\n在技術發展上，若記憶體頻寬無法出現顛覆性突破，單純依賴 Dense Attention 來實現無限上下文長度的願景將面臨極具挑戰的成本高牆，這將迫使產業加速轉向稀疏注意力（Sparse Attention）或其他非 Transformer 架構。\n在地緣政治與市場格局上，護城河將越來越向擁有最強大基礎設施設計能力的巨頭傾斜。誰能打造出支援最大 Scale-up 領域的機櫃（例如包含 500 顆以上 GPU 且完全互連的超級機櫃），誰就能訓練並部署最具性價比的巨型 MoE 模型。未來的 AI 霸權，不只取決於誰有最多的晶片，更取決於誰有能力解決機櫃內的散熱、供電與密集的實體線纜佈局，這將晶片競爭的維度正式拉昇到了系統級基礎設施的全面對抗。",
       "insights": [
-        "智力與權力在現實世界中是脫鉤的：超級 AI 帶來的最大改變並非單一系統透過絕對智力奪取世界統治權，而是作為超級賦能工具，極大化地放大現有企業或國家機器的傳統資本主義競爭優勢。",
-        "科學突破無法依賴短期的強化學習迴圈（RL loop）：歷史證明重大顛覆性理論在初期往往表現得比舊理論更差，未來的 AI 科學系統必須刻意注入並保留「非理性的偏見與固執」，以維持長期的探索多樣性。",
-        "算力機會成本的攀升將引發新的階級剝奪：隨著前沿模型能力的幾何級數突破，將高階算力用於普通大眾日常賦能的 ROI 將相對暴跌，未來社會的底層危機是普通人被徹底「定價出局」的算力貧富分化。"
+        "API 定價並非單純的商業策略，而是底層記憶體頻寬瓶頸的精確物理鏡像，逆向工程 API 價格即可精準推測前沿實驗室的硬體佈局與架構權衡。",
+        "分散式訓練的「並行策略」本質上是資料中心實體佈線的延伸；最優越的演算法切分方式，最終都必須向線纜的彎曲半徑與實體空間妥協。",
+        "前沿模型故意違背 Chinchilla 最優法則並「過度訓練」高達 100 倍，是因為唯有達成預訓練、RL 驗證與終端推理三者總成本的數學均衡，才能實現商業利潤最大化。"
       ]
     },
     "Culpium": {
@@ -421,14 +441,14 @@
       ]
     },
     "a16z": {
-      "title": "Workday's Last Workday | Workday 的最後一個工作日",
-      "source": "a16z (Andreessen Horowitz)",
-      "url": "https://www.a16z.news/p/workdays-last-workday",
-      "analysis_zh": "本文出自矽谷頂級創投 a16z (Andreessen Horowitz)，作者團隊具備深厚的企業級軟體（Enterprise Software）投資與產業前瞻觀察經驗。本文核心主旨直指企業級人資軟體巨頭 Workday 雖看似堅不可摧，但其護城河實質上是由極高轉換成本構築的系統綁定；在 AI 代理（AI Agent）引發的底層架構典範轉移下，Workday 僵化的傳統架構即將被顛覆，迎來被全新 AI 原生系統取代的命運。\n\n**戰略背景與脈絡**\n要理解 Workday 如今的脆弱性，必須先回顧其崛起的歷史。Workday 本身就是上一次技術「典範轉移」的巨大贏家。2005 年，創辦人在敗給 Oracle 的惡意併購後，敏銳捕捉到軟體架構將從地端主從式（Client-Server）轉向多租戶雲端（Multi-tenant Cloud），同時企業採購模式也從鉅額資本支出轉向訂閱制的營業支出。藉由這波浪潮，Workday 成功顛覆傳統巨頭，成為世界 500 強企業的人資系統預設選項。\n\n然而，Workday 如今高達近 100% 的客戶留存率，掩蓋了其產品在第一線使用者眼中的笨重與繁瑣。作者深刻指出，Workday 真正的護城河根本不是產品本身，而是由四大外部因素構築的「轉換壁壘」：首先是極度複雜的系統整合與企業內部累積的歷史肌肉記憶；其次是封閉專用的配置層與語言，讓開發者與客戶都被深度綁架；第三是龐大且利益高度綁定的「顧問服務卡特爾（Services Cartel）」，上萬名顧問與動輒百萬美元的導入費用形成龐大的共生生態；最後則是嚴苛的長約鎖定。這些因素使得過去二十年來，任何試圖在大型企業市場挑戰 Workday 的新創皆鎩羽而歸。\n\n**作者的核心推演與論點**\n面對 AI 浪潮，Workday 雖推出了基於消費點數的 Flex Credits 定價模型，並宣稱創造高額「AI 營收」，但作者犀利拆解了其虛幻本質：這本質上只是「採購與會計創新」，而非技術創新。企業資訊長需要消化 AI 預算，Workday 需要向華爾街展示 AI 成績，雙方一拍即合，但系統底層運行的依舊是二十年前那套僵化的表單與簽核引擎。\n\n作者大膽推演，真正具備顛覆性的 AI 原生 HCM（人力資本管理）系統必須具備六大特徵：透過寫程式代理（Coding Agents）將 12 到 18 個月的導入期壓縮至 1 個月；為 HR 提供內建工作台使其成為產品構建者；採用「代理優先（Agent-first）」互動模式；徹底開放資料模型；實踐基於 Agent 的細顆粒度安全權限；以及透過永遠在線的 AI 實現即時合規。\n\n更具戰略意義的是作者提出的「特洛伊木馬」商業策略：挑戰者不應一開始就硬碰硬爭取核心系統替換，而是利用企業未被鎖定的「數位轉型」預算切入，先透過 AI 代理處理傳統系統無法消化的手動工作。待客戶習慣其價值後，再於續約節點順勢取代 Workday 的核心模組，並將原本客戶的財務系統視為穩定模組保留，從根本上瓦解包裹綑綁策略。\n\n**對整體市場、技術發展與地緣政治的長期影響**\n從長期宏觀視角來看，這預示了大型企業軟體板塊將迎來二十年來最大規模的「替換週期」。未來的 SaaS 價值將從「軟體授權與導入顧問」大幅轉移到「能直接自主執行業務流程的 AI 系統」上。這意味著依賴龐大人力進行系統導入的傳統 IT 顧問產業（如 Accenture 等），將面臨被 Coding Agents 取代而引發的巨大生存危機。\n\n在技術發展層面，這揭示了「代理原生」架構與「舊軟體外掛 AI」架構的殘酷對決。基於舊架構外掛 AI，最終將成為限制企業部署 AI 深度的技術債天花板。隨著企業勞動力轉變為「人類員工與 AI 代理」的混合編制，未來 HR 系統不再只是紀錄人類數據的資料庫，而是定義與調度所有人類與 AI 代理權限、層級與合規邏輯的「企業營運底層作業系統」。誰能掌握這套全新作業系統，就能主導下世代高達 400 億美元的 HCM 市場。",
+      "title": "Call the Plumber; We’ve Got a Leaky Abstraction (叫水電工來吧；我們的抽象層正在漏水)",
+      "source": "a16z",
+      "url": "https://www.a16z.news/p/call-the-plumber-weve-got-a-leaky",
+      "analysis_zh": "本文出自知名創投 a16z，作者為曾任職於 Shopify 五年的資深科技評論家 Alex Danco（亞歷克斯·丹科），他擅長從底層技術架構剖析宏觀商業與社會現象。文章一針見血地指出，這個世界並未走向全面崩潰的「末日」，而是支撐全球運作的底層「抽象層」（如自由貿易、美元體系、網路與能源市場）正在發生大規模的「漏水」，各方勢力為搶奪控制權正迫使全球系統走向碎片化的防禦與重構。\n\n【戰略背景與脈絡】\n在近年的科技與地緣政治語境中，充斥著「AI 終結人類」或「羅馬帝國式崩潰」的極端末日論（Doomerism）。但作者認為，這種論調不僅懶惰且缺乏戰略洞察。真正正在發生且值得關注的，是「漏洞百出的抽象層」（Leaky Abstractions）現象。在軟體工程中，抽象層是「用不可靠的零件建構出的可靠介面」。過去半個世紀，全球化建立了一系列完美的抽象層：順滑的能源商品市場、無縫的結帳金融體系、開放的全球網路。這些系統運作得如此良好，以至於人們忘記了底下是由無數複雜的合約、慣例與私人機構所構成。然而，隨著民粹主義崛起、地緣政治緊張以及主權國家對控制權的渴望，這些抽象層的內部複雜性被迫暴露在陽光下，曾經完美的系統開始「漏水」。\n\n【作者的核心推演與論點】\n作者透過三個維度推演了抽象層漏水的過程與後果。首先是「主權實體與大眾對複雜系統的無知干預」。以 Shopify 的電商結帳系統或美國財政部試圖廢除實體支票為例，當主權實體或決策者試圖將自己的意志強加於系統，或為政治承諾而移除看似過時的機制時，往往會破壞原有系統為處理邊緣案例而存在的彈性。其次是「論述的反射性（Reflexivity）導致實體世界的重組」。在近期的能源危機中，當社群與政治人物開始微觀管理油輪動向與油價時，這種過度關注本身就成了改變市場行為的變數，導致各國不再信任全球單一市場，轉而尋求確保自身安全的雙邊協議。最後是「防禦性硬化（Hardening defenses）的必然結果」。當大眾與政府越是試圖干預底層運作，理性的參與者（不論是企業、國家還是個人）就越會建立更堅固的防禦機制來保障自身的自主性與運作空間。\n\n【對整體市場、技術發展與地緣政治的長期影響】\n這一底層邏輯的轉變，預示著「統一全球體系」的終結。正如前加拿大央行總裁 Mark Carney 所言，過去單一市場、單一標準的世界已不復存在，取而代之的是基於共同利益的獨立協議網路。在技術發展上，初期的公共網際網路早已名存實亡，現在的網路更像是多個「私人網路」在層層防禦下無縫銜接的集合體。各國的數位主權政策正迫使網路基礎設施走向更深層的去中心化與防禦性重構。\n\n對投資者而言這意味著巨大的範式轉移。這個世界並不會崩潰，而是變得更具摩擦力、更需要底層維護。那些能為這碎片化世界提供端到端防禦與修補基礎設施漏洞的「深度水平整合公司」（Deeply horizontal companies）將迎來歷史性機遇。在「大漏水」時代中，能在複雜系統邊緣擔任「水電工」——重新連結、修復並加固基礎設施的企業，將攫取下個十年的最大紅利。",
       "insights": [
-        "Workday 堅不可摧的高客戶留存率並非源於產品體驗卓越，而是建立在高昂轉換成本、封閉配置層以及龐大『顧問服務卡特爾』所形成的利益綁定之上。",
-        "傳統軟體巨頭當前的『AI 營收』多半是為了滿足 CIO 消化預算與華爾街預期的『採購創新』，底層依舊是過時的表單引擎，這正是新創的顛覆突破口。",
-        "下一代企業軟體顛覆戰不應正面迎擊核心合約，而應利用轉型預算切入，透過 AI 先自動化手動勞動建立信任，最終將舊系統降級為僅供讀取的後台資料庫。"
+        "真正的系統性風險並非世界末日式的全面崩潰，而是全球化「抽象層」的逐漸失效；當政府或大眾試圖直接干預複雜系統的底層邏輯時，往往會加速系統的碎片化與解體。",
+        "「統一標準的全球市場」已成歷史，未來的商業與地緣政治將由無數個基於雙邊利益的「碎片化協議」與「私人防禦網路」所取代。",
+        "網路與實體基礎設施的碎片化，將孕育出新一代的「水電工企業」——那些能為破碎系統提供端到端防禦與互操作性的「深度水平整合公司」，將成為下一個時代的霸主。"
       ]
     },
     "Lenny's Newsletter": {
