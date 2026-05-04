@@ -17,6 +17,7 @@ SOURCES_FILE = 'deep_analysis_sources.json'
 STATE_FILE = 'analysis_state.json'
 NEWS_JSON = 'daily_news_temp.json'
 PROMPT_FILE = 'deep_analysis_prompt.md'
+DEEP_ANALYSIS_MODEL = 'gemini-3-pro-preview'
 
 def get_latest_rss_item(rss_url):
     """Fetch the latest item from an RSS feed."""
@@ -79,7 +80,7 @@ def fetch_clean_article(url, max_retries=3):
                 time.sleep(5)
     return None
 
-def analyze_with_ai(article_text, max_retries=2):
+def analyze_with_ai(article_text, source_name="", source_url="", rss_title="", max_retries=2):
     """Call Gemini CLI to generate deep analysis JSON with retries."""
     import time
     if not os.path.exists(PROMPT_FILE):
@@ -89,7 +90,19 @@ def analyze_with_ai(article_text, max_retries=2):
     with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
         prompt_base = f.read()
 
-    full_text = prompt_base + "\n\n=== ARTICLE TEXT ===\n" + article_text
+    article_metadata = {
+        "source_name": source_name,
+        "rss_title": rss_title,
+        "source_url": source_url,
+        "analysis_date": str(datetime.now().date()),
+    }
+    full_text = (
+        prompt_base
+        + "\n\n=== ARTICLE METADATA ===\n"
+        + json.dumps(article_metadata, ensure_ascii=False, indent=2)
+        + "\n\n=== ARTICLE TEXT ===\n"
+        + article_text
+    )
 
     for attempt in range(max_retries):
         proc = None
@@ -98,7 +111,7 @@ def analyze_with_ai(article_text, max_retries=2):
             env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
             print(f"   🚀 啟動 Gemini CLI 進程 (Attempt {attempt+1}/{max_retries})...")
             proc = subprocess.Popen(
-                ["gemini", "-p", "Generate JSON only as instructed.", "--model", "gemini-3-flash-preview", "--output-format", "json"],
+                ["gemini", "-p", "Generate JSON only as instructed.", "--model", DEEP_ANALYSIS_MODEL, "--output-format", "json"],
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
@@ -163,6 +176,30 @@ def clean_url(url):
         return urllib.parse.urlunparse(parsed._replace(query=new_query)).rstrip('/')
     except:
         return url.rstrip('/')
+
+def normalize_supplemental_sources(sources):
+    """Return clean optional supplemental source links without query tokens."""
+    if not isinstance(sources, list):
+        return []
+
+    normalized = []
+    seen = set()
+    for source in sources[:5]:
+        if not isinstance(source, dict):
+            continue
+        title = str(source.get("title") or "").strip()
+        url = str(source.get("url") or "").strip()
+        if not url.startswith(("http://", "https://")):
+            continue
+        clean = clean_url(url)
+        if clean in seen:
+            continue
+        seen.add(clean)
+        normalized.append({
+            "title": title or clean,
+            "url": clean,
+        })
+    return normalized
 
 def main():
     print("========================================")
@@ -242,7 +279,12 @@ def main():
             continue
 
         print(f"   🧠 Sending {len(article_text)} chars to AI for Deep Analysis...")
-        analysis_result = analyze_with_ai(article_text)
+        analysis_result = analyze_with_ai(
+            article_text,
+            source_name=name,
+            source_url=raw_link,
+            rss_title=raw_title,
+        )
 
         if analysis_result and "analysis_zh" in analysis_result and "insights" in analysis_result:
             print(f"   ✅ Analysis successful! ({len(analysis_result['analysis_zh'])} chars)")
@@ -254,9 +296,13 @@ def main():
             content_to_save = {
                 "title": final_title,
                 "source": final_source,
+                "article_date": analysis_result.get("article_date", ""),
                 "url": raw_link,
                 "analysis_zh": analysis_result["analysis_zh"],
-                "insights": analysis_result["insights"]
+                "insights": analysis_result["insights"],
+                "supplemental_sources": normalize_supplemental_sources(
+                    analysis_result.get("supplemental_sources", [])
+                )
             }
 
             daily_data["deep_analysis"][name] = content_to_save

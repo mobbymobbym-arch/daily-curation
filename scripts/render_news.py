@@ -98,6 +98,7 @@ def render_deep_analysis(data):
         raw_summary = item.get('analysis_zh') or item.get('summary_zh') or item.get('summary') or item.get('content') or ''
         summary = str(raw_summary).replace('\\n', '<br><br>').replace('\n', '<br><br>')
         url = item.get('url') or item.get('link') or '#'
+        article_date = item.get('article_date') or ''
         
         insights_html = ""
         insights = item.get('insights', [])
@@ -111,11 +112,24 @@ def render_deep_analysis(data):
                 else:
                     insights_html += f"{idx+1}. {insight}<br>"
 
-        full_content = summary + insights_html
+        supplemental_html = ""
+        supplemental_sources = item.get('supplemental_sources', [])
+        if supplemental_sources and isinstance(supplemental_sources, list):
+            supplemental_html = "<br><br><strong>補充來源：</strong><br>"
+            for source in supplemental_sources[:5]:
+                if not isinstance(source, dict):
+                    continue
+                source_title = source.get('title') or source.get('url') or 'Source'
+                source_url = source.get('url') or '#'
+                supplemental_html += f'<a href="{source_url}" style="color: var(--analysis-accent); text-decoration: none;">{source_title}</a><br>'
+
+        date_html = f'<div style="color: var(--secondary-text); font-size: 0.85rem; margin: -6px 0 12px;">{article_date}</div>' if article_date else ''
+        full_content = summary + insights_html + supplemental_html
         html += f'''
                 <div class="news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 40px; width: 100%; box-sizing: border-box;">
                     <span style="display: inline-block; background: var(--analysis-accent); color: white; font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 4px; margin-bottom: 12px; letter-spacing: 0.5px;">{source_name}</span>
                     <h3 style="font-size: 1.6rem; font-weight: bold; margin-top: 0;">{title}</h3>
+                    {date_html}
                     <div class="expand-wrapper" id="{toggle_id}">
                         <div class="analysis-content" style="margin-top: 20px; line-height: 1.8;">
                             {full_content}
