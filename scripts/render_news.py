@@ -64,15 +64,23 @@ def render_wsj(items, fetch_date):
     html += '</div>'
     return html
 
+
+def teaser_text(value, limit=280):
+    text = re.sub(r'<br\s*/?>', ' ', str(value or ''), flags=re.I)
+    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text[:limit].rstrip() + ('...' if len(text) > limit else '')
+
+
 def render_deep_analysis(data):
     html = '''
             <!-- Deep Analysis Section -->
             <div id="analysis-section" class="section-header" style="color: var(--analysis-accent);">
                 <i class="fas fa-feather-alt"></i>
                 <h2>Deep Analysis</h2>
-                <p class="section-desc">Daily Intelligence</p>
+                <a href="/daily-curation/deep-analysis.html" class="link-btn section-view-all" style="color: var(--analysis-accent);">View all &rarr;</a>
             </div>
-            <div id="deep-analysis-container">'''
+            <div id="deep-analysis-container" class="teaser-grid">'''
     
     analysis_items = []
     if isinstance(data, dict):
@@ -91,54 +99,26 @@ def render_deep_analysis(data):
                     content['source_key'] = key
                     analysis_items.append(content)
 
-    for i, item in enumerate(analysis_items):
-        toggle_id = f"analysis-toggle-{i}"
+    for item in analysis_items[:3]:
         title = item.get('title') or item.get('title_zh') or 'Deep Analysis'
         source_name = item.get('source') or item.get('source_key') or 'Source'
         raw_summary = item.get('analysis_zh') or item.get('summary_zh') or item.get('summary') or item.get('content') or ''
-        summary = str(raw_summary).replace('\\n', '<br><br>').replace('\n', '<br><br>')
+        summary = teaser_text(raw_summary, 320)
         url = item.get('url') or item.get('link') or '#'
         article_date = item.get('article_date') or ''
-        
-        insights_html = ""
-        insights = item.get('insights', [])
-        if insights and isinstance(insights, list):
-            insights_html = "<br><br><strong>關鍵洞察：</strong><br>"
-            for idx, insight in enumerate(insights):
-                if isinstance(insight, dict):
-                    topic = insight.get('topic', '')
-                    content = insight.get('content_zh', insight.get('insight', ''))
-                    insights_html += f"{idx+1}. <strong>{topic}：</strong> {content}<br>"
-                else:
-                    insights_html += f"{idx+1}. {insight}<br>"
 
-        supplemental_html = ""
-        supplemental_sources = item.get('supplemental_sources', [])
-        if supplemental_sources and isinstance(supplemental_sources, list):
-            supplemental_html = "<br><br><strong>補充來源：</strong><br>"
-            for source in supplemental_sources[:5]:
-                if not isinstance(source, dict):
-                    continue
-                source_title = source.get('title') or source.get('url') or 'Source'
-                source_url = source.get('url') or '#'
-                supplemental_html += f'<a href="{source_url}" style="color: var(--analysis-accent); text-decoration: none;">{source_title}</a><br>'
-
-        date_html = f'<div style="color: var(--secondary-text); font-size: 0.85rem; margin: -6px 0 12px;">{article_date}</div>' if article_date else ''
-        full_content = summary + insights_html + supplemental_html
+        date_html = f'<div class="teaser-date">{article_date}</div>' if article_date else ''
         html += f'''
-                <div class="news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 40px; width: 100%; box-sizing: border-box;">
-                    <span style="display: inline-block; background: var(--analysis-accent); color: white; font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 4px; margin-bottom: 12px; letter-spacing: 0.5px;">{source_name}</span>
-                    <h3 style="font-size: 1.6rem; font-weight: bold; margin-top: 0;">{title}</h3>
+                <article class="teaser-card" style="--teaser-accent: var(--analysis-accent);">
+                    <span class="teaser-chip">{source_name}</span>
+                    <h3>{title}</h3>
                     {date_html}
-                    <div class="expand-wrapper" id="{toggle_id}">
-                        <div class="analysis-content" style="margin-top: 20px; line-height: 1.8;">
-                            {full_content}
-                        </div>
-                        <div class="fade-mask"></div>
+                    <p class="teaser-summary">{summary}</p>
+                    <div class="teaser-actions">
+                        <a href="{url}" class="link-btn" style="color: var(--analysis-accent);">{source_name} &rarr;</a>
+                        <a href="/daily-curation/deep-analysis.html" class="link-btn" style="color: var(--analysis-accent);">Read history &rarr;</a>
                     </div>
-                    <button class="toggle-btn" onclick="toggleAnalysis('{toggle_id}')">展開全文 👀</button>
-                    <a href="{url}" style="color: var(--analysis-accent); font-weight: bold; text-decoration: none; display: block; margin-top: 15px;">{source_name} &rarr;</a>
-                </div>'''
+                </article>'''
     html += '</div>'
     return html
 

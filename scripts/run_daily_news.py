@@ -320,7 +320,14 @@ def main():
         print("\n🗄️ Updating Archives...")
         subprocess.run(["python3", "scripts/update_archives.py"])
 
-        # 5. Publish (Git Push)
+        # 5. Build evergreen section pages
+        print("\n🧱 Building Section Pages...")
+        section_result = subprocess.run(["python3", "scripts/build_section_pages.py"])
+        if section_result.returncode != 0:
+            print("🚫 Publish blocked: section pages failed to build.")
+            sys.exit(section_result.returncode)
+
+        # 6. Publish (Git Push)
         print("\n🚀 Publishing to GitHub...")
         subprocess.run(["python3", "scripts/publish.py"])
         print("\n✨ All tasks completed successfully.")

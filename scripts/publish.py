@@ -8,6 +8,7 @@ from pathlib import Path
 
 CONFLICT_MARKER_RE = re.compile(r"^(<{7}|={7}|>{7})(?: .*)?$")
 SAFE_DAILY_PUBLISH_ENV = "DAILY_CURATION_SAFE_PUBLISH"
+SAFE_PUBLISH_KIND_ENV = "DAILY_CURATION_PUBLISH_KIND"
 
 def find_conflict_markers():
     """Scan tracked and untracked files for unresolved Git conflict markers."""
@@ -122,6 +123,10 @@ def daily_content_paths():
     required_paths = [
         Path("daily_news_temp.json"),
         Path("index.html"),
+        Path("deep-analysis.html"),
+        Path("podcast-highlights.html"),
+        Path("deep_analysis_feed.json"),
+        Path("podcast_highlights_feed.json"),
         Path("archives") / f"{fetch_date}.html",
     ]
     optional_paths = [
@@ -138,6 +143,49 @@ def daily_content_paths():
     paths = [path for path in optional_paths if path.exists()]
     paths.extend(required_paths)
     return [str(path) for path in paths]
+
+
+def podcast_data_date():
+    today = datetime.datetime.now().strftime("%Y-%m-%d")
+    path = Path("podcast_data.json")
+    if not path.exists():
+        return today
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return today
+    date_value = data.get("date")
+    if isinstance(date_value, str) and re.match(r"^\d{4}-\d{2}-\d{2}$", date_value):
+        return date_value
+    return today
+
+
+def podcast_content_paths():
+    podcast_date = podcast_data_date()
+    required_paths = [
+        Path("podcast_data.json"),
+        Path("index.html"),
+        Path("podcast-highlights.html"),
+        Path("podcast_highlights_feed.json"),
+    ]
+    archive_dir = Path("archives")
+    optional_paths = sorted(archive_dir.glob("podcast-*.html")) if archive_dir.exists() else []
+    current_archive = Path("archives") / f"podcast-{podcast_date}.html"
+    if current_archive.exists() and current_archive not in optional_paths:
+        optional_paths.append(current_archive)
+
+    missing = [str(path) for path in required_paths if not path.exists()]
+    if missing:
+        print("❌ 安全發布找不到必要的 Podcast 產物，已中止：")
+        for path in missing:
+            print(f"   - {path}")
+        return []
+
+    paths = [path for path in optional_paths if path.exists()]
+    paths.extend(required_paths)
+    return [str(path) for path in paths]
+
 
 def publish_to_github():
     """自動發布到 GitHub Pages 的核心流程"""
@@ -165,11 +213,17 @@ def publish_to_github():
             print("💡 請先確認那些變更是否也要發布，再重新執行。")
             return
 
-        publish_paths = daily_content_paths()
+        publish_kind = os.environ.get(SAFE_PUBLISH_KIND_ENV, "daily").strip().lower()
+        if publish_kind == "podcast":
+            publish_paths = podcast_content_paths()
+            publish_label = "Podcast"
+        else:
+            publish_paths = daily_content_paths()
+            publish_label = "日報"
         if not publish_paths:
             return
 
-        print("   使用日報安全發布，只打包以下產物：")
+        print(f"   使用{publish_label}安全發布，只打包以下產物：")
         for path in publish_paths:
             print(f"   - {path}")
 

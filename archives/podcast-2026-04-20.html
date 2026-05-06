@@ -51,16 +51,15 @@
 
         header { padding: 100px 20px; text-align: center; background: radial-gradient(circle at top left, #1e3a8a, #0f172a); color: white; position: relative; overflow: hidden; }
         header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: linear-gradient(to top, var(--bg-color), transparent); }
-        header h1 { font-size: clamp(1.85rem, 9vw, 3.5rem); font-weight: 900; margin: 0; letter-spacing: 0; line-height: 1.08; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        header h1 { font-size: 3.5rem; font-weight: 900; margin: 0; letter-spacing: -1px; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         header p { font-size: 1.1rem; opacity: 0.8; font-weight: 500; margin-top: 10px; }
 
         .container { max-width: 1400px; margin: 0 auto; padding: 40px 20px 100px 20px; }
         .main-content { width: 100%; }
         
-        .section-header { display: flex; align-items: center; gap: 18px; row-gap: 8px; flex-wrap: wrap; margin: 60px 0 35px 0; padding: 0 10px; min-width: 0; }
+        .section-header { display: flex; align-items: center; gap: 18px; margin: 60px 0 35px 0; padding: 0 10px; }
         .section-header i { font-size: 1.8rem; }
-        .section-header h2 { font-size: 1.8rem; font-weight: 800; margin: 0; letter-spacing: 0; line-height: 1.18; min-width: 0; overflow-wrap: anywhere; }
-        .section-desc { margin: 0; }
+        .section-header h2 { font-size: 1.8rem; font-weight: 800; margin: 0; letter-spacing: -0.5px; }
         
         .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 25px; margin-bottom: 60px; }
         .news-card { 
@@ -92,20 +91,6 @@
             transition: gap 0.3s;
         }
         .link-btn:hover { gap: 15px; }
-        .section-view-all {
-            margin-left: auto;
-            margin-top: 0;
-            min-height: 42px;
-            padding: 10px 18px;
-            border-radius: 999px;
-            border: 1px solid currentColor;
-            background: rgba(15, 23, 42, 0.04);
-            box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
-            font-size: 0.92rem;
-            line-height: 1;
-        }
-        #analysis-section .section-view-all { background: rgba(16, 185, 129, 0.1); }
-        #podcast-section .section-view-all { background: rgba(139, 92, 246, 0.11); }
 
         .teaser-grid {
             display: grid;
@@ -169,37 +154,20 @@
             padding: 60px 20px; 
             border-top: 2px solid rgba(0,0,0,0.05);
             display: grid;
-            grid-template-columns: minmax(0, 560px);
-            justify-content: start;
+            grid-template-columns: 1fr 1fr;
             gap: 50px;
         }
         .archive-box { background: var(--card-bg); border-radius: 28px; padding: 35px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); }
         .archive-box h3 { font-size: 1.4rem; font-weight: 800; margin-top: 0; margin-bottom: 25px; display: flex; align-items: center; gap: 12px; }
         .archive-list { list-style: none; padding: 0; margin: 0; }
-        .archive-list.is-collapsed li:nth-child(n+8) { display: none; }
         .archive-list li { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid rgba(0,0,0,0.03); }
         .archive-list li:last-child { border-bottom: none; }
         .archive-list a { text-decoration: none; color: var(--primary-text); font-weight: 500; transition: color 0.2s; display: flex; align-items: center; gap: 10px; }
         .archive-list a:hover { color: var(--techmeme-accent); }
-        .archive-toggle {
-            width: 100%;
-            margin-top: 16px;
-            min-height: 42px;
-            border: 1px solid rgba(59, 130, 246, 0.24);
-            border-radius: 999px;
-            background: rgba(59, 130, 246, 0.08);
-            color: var(--techmeme-accent);
-            font-weight: 800;
-            cursor: pointer;
-        }
-        .archive-toggle:hover { background: rgba(59, 130, 246, 0.13); }
 
         @media (max-width: 768px) {
             .archive-footer { grid-template-columns: 1fr; }
-            header h1 { font-size: clamp(1.85rem, 9vw, 2.5rem); }
-            .section-header { align-items: flex-start; gap: 10px; }
-            .section-header .link-btn { margin-left: 0 !important; }
-            .section-view-all { padding: 10px 16px; min-height: 40px; }
+            header h1 { font-size: 2.5rem; }
             nav { padding: 6px 0; }
             nav .nav-container { padding: 0 48px 0 8px; }
             nav .nav-links { gap: 5px; row-gap: 5px; }
@@ -238,7 +206,6 @@
     
     <div class="container">
         <main class="main-content">
-            
             
             
             
@@ -575,7 +542,7 @@
             <div id="analysis-section" class="section-header" style="color: var(--analysis-accent);">
                 <i class="fas fa-feather-alt"></i>
                 <h2>Deep Analysis</h2>
-                <a href="/daily-curation/deep-analysis.html" class="link-btn section-view-all" style="color: var(--analysis-accent);">View all &rarr;</a>
+                <a href="/daily-curation/deep-analysis.html" class="link-btn" style="color: var(--analysis-accent); margin-left: auto;">View all &rarr;</a>
             </div>
             <div id="deep-analysis-container" class="teaser-grid">
                 <article class="teaser-card" style="--teaser-accent: var(--analysis-accent);">
@@ -615,21 +582,49 @@
             <div id="podcast-section" class="section-header" style="color: var(--podcast-accent);">
                 <i class="fas fa-microphone-alt"></i>
                 <h2>Podcast Highlights</h2>
-                <a href="/daily-curation/podcast-highlights.html" class="link-btn section-view-all" style="color: var(--podcast-accent);">View all &rarr;</a>
+                <a href="/daily-curation/podcast-highlights.html" class="link-btn" style="color: var(--podcast-accent); margin-left: auto;">View all &rarr;</a>
             </div>
             <div id="podcast-highlights-container"> 
                 <!-- PODCAST_HIGHLIGHTS_START -->
- <!-- PODCAST_DATE_START -->2026-05-06<!-- PODCAST_DATE_END -->
-<article class="teaser-card podcast-highlight-card" style="--teaser-accent: var(--podcast-accent);">
-  <span class="teaser-chip">Y Combinator</span>
-  <h3>Building an AI-Native Company: The Operating System of the Future / 打造 AI 原生企業：未來的作業系統</h3>
-  <div class="teaser-date">2026-05-06 15:10</div>
-  <p class="teaser-summary">主持人 Diana 是 Y Combinator 的合夥人。本集核心探討人工智慧如何從生產力工具蛻變為企業的作業系統。新創應將組織打造成對 AI 透明的「閉環系統」，顛覆傳統管理層級，極大化 Token 使用量而非擴充人力，建立由 AI 驅動的軟體工廠，這是新創超越傳統巨頭的致勝關鍵。</p>
-  <div class="teaser-actions">
-    <a href="https://www.youtube.com/watch?v=EN7frwQIbKc" target="_blank" rel="noopener" class="link-btn" style="color: var(--podcast-accent);">Listen &rarr;</a>
-    <a href="/daily-curation/podcast-highlights.html" class="link-btn" style="color: var(--podcast-accent);">Read history &rarr;</a>
+ <!-- PODCAST_DATE_START -->2026-04-20<!-- PODCAST_DATE_END -->
+<div class="podcast-highlight-card" style="font-family: sans-serif; background-color: #f9f9f9; padding: 25px; border-radius: 12px; border-left: 6px solid #4a154b; margin-bottom: 20px;">
+  <h2 style="color: #4a154b; margin-top: 0;">Why Elon Outcompetes Everyone | Eric Jorgenson</h2>
+  <p style="font-size: 1.1em; line-height: 1.6; color: #333; font-weight: 500;">主持人 Ti Morse 是一名專注於探討極致創業家精神的播客主理人；來賓 Eric Jorgenson 則是《伊隆·馬斯克之書》的作者暨知名商業分析師。本集節目深度剖析了馬斯克如何以違反直覺的殘酷效率、對未來收益流失的極度恐懼，以及「為使命而非為個人」的冷酷同理心，在多個看似不可能的領域中徹底擊敗所有競爭對手。</p>
+  <button onclick="var content = document.getElementById('podcast-chapters-content-0'); if(content.style.display === 'none'){ content.style.display = 'block'; this.innerText = '收合全文 🔼'; } else { content.style.display = 'none'; this.innerText = '展開全文 👀'; }" style="background-color: #4a154b; color: white; border: none; padding: 10px 18px; border-radius: 6px; cursor: pointer; font-size: 1em; font-weight: bold; margin-top: 10px; transition: 0.3s;">展開全文 👀</button>
+  <div id="podcast-chapters-content-0" style="display: none; margin-top: 25px; border-top: 1px solid #ddd; padding-top: 20px;">
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 00:00 - 15:00</span>逆境求生的底層邏輯與未來收益焦慮</h3>
+      <p style="line-height: 1.7; color: #444;">在這段引人入勝的開場中，Eric Jorgenson 帶領聽眾潛入伊隆·馬斯克異於常人的大腦運作機制。多數人視馬斯克為天生的商業霸主，但事實上，他從未渴望成為傳統意義上的執行長。他的領導力並非來自對權力的貪戀，而是出於一種深刻的生存焦慮與解決人類終極問題的迫切感。當回顧特斯拉與 SpaceX 雙雙面臨破產危機的黑暗時期，Jorgenson 點出了一個令人毛骨悚然的數據：在當時的時空背景下，這兩家公司能同時存活下來並取得巨大成功的機率，大約只有百分之一。然而，馬斯克並未被這種幾乎必敗的數學機率所擊倒，他展現出了一種極端且近乎病態的抗壓性。更令人震撼的是他獨特的「損失未來收益」思維模型。當一般企業家還在計算當下季度的盈虧時，馬斯克眼中看到的卻是：每一次生產線的延遲、每一次火箭發射的推宕，都是在剝奪未來可能產生的高達數十億美元的龐大價值。這種對時間與效率的極端敏銳度，讓他陷入一種長期的戰時狀態。節目中甚至揭露了他曾在床邊放著一把槍入睡的細節，這不僅是物理層面上的自我防衛，更隱喻了他那種隨時準備迎擊毀滅性威脅、處於極限邊緣的心理狀態。他不是在經營公司，他是在打一場攸關人類未來的存亡之戰。</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「He views every single day of delay not just as a missed opportunity, but as billions of dollars in lost future revenue.」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 15:00 - 30:00</span>斯巴達式的執行部隊與「服役期」文化</h3>
+      <p style="line-height: 1.7; color: #444;">隨著話題轉向馬斯克的組織管理哲學，我們看到了一幅與當代矽谷舒適圈截然不同的殘酷畫卷。Jorgenson 深刻拆解了馬斯克啟動新公司的駭人手法，以及他如何在極度匱乏中創造奇蹟。早期他為了向 Google 創辦人 Larry Page 證明電動車的潛力，甚至親自上陣進行 Roadster 的早期展示，展現了他身先士卒的駭客精神。然而，真正讓他與競爭對手拉開決定性差距的，是他對組織執行力的絕對掌控。在馬斯克的帝國裡，凌晨兩點將工程師叫回工廠並非偶發的危機處理，而是常態性的壓力測試與忠誠度檢驗。Jorgenson 提出了一個極具洞察力的觀點：馬斯克身邊的核心決策圈，實際上是由大約二十位具備極高主動性與執行力的「分身」所組成。這些人就像是 YouTube 巨星 MrBeast 身邊那些不知疲倦的複製人團隊，能夠以與馬斯克完全同頻的狂熱節奏，自主且無情地推動他的意志。對於這些頂尖人才而言，在特斯拉或 SpaceX 工作從來不是一份朝九晚五的職涯規劃，而是一場慘烈的「服役期」（Tour of Duty）。這是一種帶有軍事色彩的契約精神，員工在此奉獻出生命中最精華、最高強度的幾年，換取參與改變世界進程的歷史性入場券。在這種極限施壓下，平庸者被迅速淘汰，唯有最堅韌的信徒才能在這台巨型絞肉機中生存下來。</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「Working for Elon is not a regular job; it is essentially doing a tour of duty where you give everything you have for the mission.」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 30:00 - 45:00</span>極致演算法與反直覺的狂人願景</h3>
+      <p style="line-height: 1.7; color: #444;">在本章節中，對話觸及了馬斯克能夠號召無數頂尖天才為其賣命的核心秘密：創造一個大到讓人無法拒絕的宏偉願景。這種願景並非空洞的企業口號，而是具有宗教般號召力的未來藍圖，讓每一個參與其中的人深信自己正在改寫人類歷史。為了實現這些看似天方夜譚的目標，馬斯克發展出了一套被稱為「演算法」（The Algorithm）的嚴苛工程哲學。這套法則要求團隊首先質疑每一個既有需求，無論提出者是誰；接著無情地刪除所有不必要的零件與流程；然後才進行簡化與優化；第四步是極限加速；最後才是自動化。這套五步法則徹底顛覆了傳統製造業的思維定勢。最經典的實踐案例，莫過於他在特斯拉遭遇產能地獄時，果斷決定在加州弗里蒙特工廠的停車場搭起巨型帳篷來生產汽車。在傳統車廠看來，這簡直是不可理喻的瘋狂之舉，但對馬斯克而言，只要能突破物理限制與產能瓶頸，任何常規都可以被打破。Jorgenson 甚至做了一個極具畫面感的思想實驗：如果馬斯克早出生三百年，他絕對會是那個帶領艦隊橫渡未知大洋、征服新大陸的瘋狂探險家。他的本質從未改變，只是戰場從波濤洶湧的海洋，轉移到了矽谷的晶圓與德州的火箭發射台上。他對既有規則的蔑視，正是他最致命的武器。</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「The Algorithm dictates that you must question every requirement, blindly delete the parts, and only then try to simplify and accelerate.」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 45:00 - 1:00:00</span>殘酷的同理心與擁抱混亂的馬基維利主義</h3>
+      <p style="line-height: 1.7; color: #444;">節目推進至馬斯克最具爭議的人格特質與領導風格。Jorgenson 深刻剖析了馬斯克式的「同理心」——這是一種將對「單一個體的同理」徹底剝離，轉而將所有情感投注於「人類宏大任務」的冷酷哲學。當面臨裁員或對待不適任的員工時，馬斯克展現出令人毛骨悚然的無情。他寧願被恐懼，也不強求被愛。這種不惜成為眾矢之的、甚至主動樹敵的性格，實際上是一種精算過的戰略。在馬斯克的宇宙裡，無休止的人事動盪與高流動率（Churn）並非系統缺陷，而是保持組織新陳代謝與極度飢餓感的必要機制。他深知，一旦公司陷入舒適與平靜，就會走向衰敗，因此他刻意在組織內部製造混亂，迫使團隊在危機中爆發出驚人的創造力。Jorgenson 指出，馬斯克具備一種罕見的「願意被討厭的勇氣」，這讓他在做出裁撤整個部門或徹底推翻既定計畫的決策時，毫無心理負擔。例如，當他認為火星計畫的進度未達預期，便能毫不猶豫地將 SpaceX 的短期戰略焦點轉向月球基地建設，藉此維持團隊的緊迫感與資本市場的期待。他透過不斷重置並放大公司的願景，不僅合理化了特斯拉那令人咋舌的高估值，更讓競爭對手永遠只能在背後追趕他不斷變換的瘋狂目標。</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「He has zero empathy for the individual if it compromises the mission; his empathy is strictly reserved for the survival of humanity.」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 1:00:00 - 1:15:00</span>野心的 S 曲線與摧毀「白痴指數」的重工廠</h3>
+      <p style="line-height: 1.7; color: #444;">進入對話的深水區，兩人探討了馬斯克如何在全球資本佈局中施展魔法。Jorgenson 將馬斯克的事業版圖形容為一條不斷疊加的「野心 S 曲線」：從電動車到殖民星際，再到覆蓋全球的星鏈（Starlink）網路，以及近期投入巨資建設的 Terafab（超級工廠的極致進化版）。當一項事業的成長曲線開始趨緩，他便會毫不猶豫地將數十億美元的籌碼推向下一個更瘋狂的賭桌。在探討團隊建設時，Jorgenson 提出了一個極具啟發性的物理學比喻：一個頂尖團隊並非看單一成員的能力，而是所有個體「向量」（Vectors）的總和。馬斯克極其擅長將所有天才的向量校準到同一個瘋狂的方向上。此外，本段落也深刻揭露了馬斯克引以為傲的「白痴指數」（Idiot Index）——即一個製成品的最終售價與其基礎原物料成本之間的比率。馬斯克在整個產業鏈的尺度上尋找那些指數過高的領域，然後透過極致的垂直整合將其徹底擊碎。這正是為何 SpaceX 必須不計代價地將火箭發射的控制權完全掌握在自己手中。只有當你掌控了最底層的物理定律與最源頭的發射能力，你才能真正擺脫傳統航天產業那臃腫、低效且極度昂貴的供應鏈體系，從而在根本層面上改寫整個產業的遊戲規則。</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「He evaluates industries based on the idiot index, constantly looking for the delta between the raw material cost and the finished product.」</blockquote>
+    </div>
+    <div class="podcast-chapter" style="margin-bottom: 25px;">
+      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ 1:15:00 - 1:28:00</span>極限擴張的哲學與內化痛苦的修練</h3>
+      <p style="line-height: 1.7; color: #444;">在播客的尾聲，Jorgenson 為馬斯克的商業哲學做出了最具洞見的總結。馬斯克的思維模式永遠立足於「物理極限」（Thinking in limits），而非市場現狀。他不會問「競爭對手做到了什麼程度」，他只問「物理定律允許我們做到什麼極限」。這種思維讓他能夠不斷擴張企業願景的邊界，直到這個願景龐大到華爾街的分析師與傳統車廠根本無法用現有模型來衡量與定義。然而，支撐這種神級擴張的背後，是常人難以想像的心理折磨。Jorgenson 深刻指出，馬斯克擁有著幾乎非人類的「內化痛苦」（Internalizing pain）能力。在過去的三十年裡，無論是火箭連續三次爆炸的絕望、特斯拉現金流斷裂的瀕死邊緣，還是無數次的公關災難與私人生活的崩潰，他都能將這些足以摧毀任何正常人的巨大挫折，轉化為驅動自己繼續前進的核動力。回顧馬斯克過去三十年的演化史，他的營運哲學已經淬鍊成一種純粹、無情且不可阻擋的「效能機器」（Effectiveness）。他不再只是一個矽谷的創業家，他已經成為一種獨特的時代現象。只要人類社會還存在著未被解決的巨大低效與生存危機，這台機器就會繼續以殘酷的步伐，將所有試圖阻擋他的競爭對手無情地碾壓在歷史的車輪之下。</p>
+      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「He pushes the boundaries by expanding the vision so far out that no one in the traditional markets can even attempt to measure it.」</blockquote>
+    </div>
   </div>
-</article>
+  <a href="https://www.youtube.com/watch?v=W5v0S0SzTZo" target="_blank" style="display: block; margin-top: 15px; color: #4a154b; font-weight: bold; text-decoration: none;">🎧 收聽原始節目 &rarr;</a>
+</div>
  <!-- PODCAST_HIGHLIGHTS_END -->
             </div>
             </div>
@@ -640,7 +635,7 @@
     <section class="archive-footer">
         <div class="archive-box">
             <h3><i class="fas fa-folder-open"></i> 日報存檔</h3>
-            <ul id="daily-archive-list" class="archive-list is-collapsed">
+            <ul id="daily-archive-list" class="archive-list">
                 <!-- DAILY_INVENTORY_START -->
                 <li><a href="index.html">📄 2026-05-06 (今日)</a></li>
                 <li><a href="archives/2026-05-05.html">📄 2026-05-05</a></li>
@@ -692,7 +687,14 @@
                 <li><a href="archives/2026-03-15.html">📄 2026-03-15</a></li>
                 <!-- DAILY_INVENTORY_END -->
             </ul>
-            <button class="archive-toggle" type="button" data-archive-toggle="daily-archive-list" aria-expanded="false">顯示更多存檔</button>
+        </div>
+        <div class="archive-box">
+            <h3><i class="fas fa-layer-group"></i> 專題分頁</h3>
+            <ul class="archive-list">
+                <li><a href="/daily-curation/deep-analysis.html"><i class="fas fa-feather-alt"></i> Deep Analysis 歷史瀑布流</a></li>
+                <li><a href="/daily-curation/podcast-highlights.html"><i class="fas fa-microphone-alt"></i> Podcast Highlights 歷史瀑布流</a></li>
+                <li><a href="/daily-curation/x-posts.html"><i class="fas fa-hashtag"></i> X Posts 即時觀察</a></li>
+            </ul>
         </div>
     </section>
 
@@ -725,21 +727,6 @@
                 if (section) observer.observe(section);
             });
         }
-
-        document.querySelectorAll('[data-archive-toggle]').forEach(button => {
-            const list = document.getElementById(button.dataset.archiveToggle);
-            if (!list) return;
-            const items = list.querySelectorAll('li');
-            if (items.length <= 7) {
-                button.hidden = true;
-                return;
-            }
-            button.addEventListener('click', () => {
-                const expanded = !list.classList.toggle('is-collapsed');
-                button.setAttribute('aria-expanded', String(expanded));
-                button.textContent = expanded ? '收合較舊存檔' : '顯示更多存檔';
-            });
-        });
     </script>
     <footer class="copyright">
         <p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展</p>

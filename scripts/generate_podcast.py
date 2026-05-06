@@ -17,6 +17,7 @@ import sys
 import subprocess
 import re
 import ssl
+import argparse
 import urllib.request
 from datetime import datetime
 
@@ -168,6 +169,7 @@ def fetch_youtube_info(url):
                 "title": info.get("title", ""),
                 "duration": info.get("duration", 0),
                 "uploader": info.get("uploader", ""),
+                "channel": info.get("channel", ""),
                 "description": info.get("description", "")[:500]
             }
     except Exception:
@@ -368,15 +370,43 @@ def save_podcast_data(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Generate a Daily Curation podcast summary card.")
+    parser.add_argument("url", help="Podcast / YouTube URL to summarize.")
+    parser.add_argument(
+        "--no-publish",
+        action="store_true",
+        help="Generate and render locally without publishing to GitHub Pages.",
+    )
+    parser.add_argument(
+        "--podcast-highlights-only",
+        "--section-only",
+        dest="podcast_highlights_only",
+        action="store_true",
+        help="Only rebuild podcast_highlights_feed.json and podcast-highlights.html; do not touch index.html or publish.",
+    )
+    return parser.parse_args()
+
+
+def rebuild_podcast_highlights_page():
+    result = subprocess.run(
+        ["python3", "scripts/build_section_pages.py", "--only", "podcast"],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode == 0:
+        print(f"   ✅ {result.stdout.strip()}")
+        return True
+
+    print(f"   ❌ Podcast Highlights 分頁重建失敗: {result.stderr.strip() or result.stdout.strip()}")
+    return False
+
+
 def main():
-    if len(sys.argv) < 2:
-        print("用法: python3 scripts/generate_podcast.py <podcast_url>")
-        print("範例: python3 scripts/generate_podcast.py 'https://youtube.com/watch?v=xxx'")
-        sys.exit(1)
-    
-    raw_url = sys.argv[1]
+    args = parse_args()
+    raw_url = args.url
     url = clean_url(raw_url)
-    publish = "--no-publish" not in sys.argv
+    publish = not args.no_publish and not args.podcast_highlights_only
     
     print("========================================")
     print(f"🎙️ Podcast 深度摘要生成器 - {datetime.now()}")
@@ -443,6 +473,12 @@ def main():
         # Enrich with video info
         if video_info and not analysis.get('title'):
             analysis['title'] = video_info['title']
+        if video_info:
+            show_name = video_info.get("uploader") or video_info.get("channel")
+            if show_name and not analysis.get("show_name"):
+                analysis["show_name"] = show_name
+            if video_info.get("title") and not analysis.get("source_title"):
+                analysis["source_title"] = video_info["title"]
         analysis['original_link'] = url
         analysis['generated_at'] = datetime.now().strftime('%Y-%m-%d %H:%M')
         
@@ -453,25 +489,35 @@ def main():
     
     # --- Phase 3: Save and Render ---
     print()
-    print("💾 第三階段：發布與部署")
-    
-    # Render to HTML (surgical injection - only touches PODCAST_HIGHLIGHTS block)
-    print("   🎨 執行 render_podcast.py (全量重新渲染今日卡片)...")
-    result = subprocess.run(
-        ["python3", "scripts/render_podcast.py"],
-        capture_output=True, text=True
-    )
-    if result.returncode == 0:
-        print(f"   ✅ {result.stdout.strip()}")
+    print("💾 第三階段：渲染與部署")
+
+    if args.podcast_highlights_only:
+        print("   🎨 僅重建 podcast-highlights.html 與 podcast_highlights_feed.json...")
+        if not rebuild_podcast_highlights_page():
+            cleanup()
+            sys.exit(1)
     else:
-        print(f"   ⚠️ 渲染警告: {result.stderr[:200] if result.stderr else result.stdout[:200]}")
+        # Render to HTML (surgical injection - only touches PODCAST_HIGHLIGHTS block)
+        print("   🎨 執行 render_podcast.py (全量重新渲染今日卡片)...")
+        result = subprocess.run(
+            ["python3", "scripts/render_podcast.py"],
+            capture_output=True, text=True
+        )
+        if result.returncode == 0:
+            print(f"   ✅ {result.stdout.strip()}")
+        else:
+            print(f"   ⚠️ 渲染警告: {result.stderr[:200] if result.stderr else result.stdout[:200]}")
     
     # Publish to GitHub
     if publish:
         print("   🚀 執行 publish.py...")
+        publish_env = os.environ.copy()
+        publish_env.setdefault("DAILY_CURATION_SAFE_PUBLISH", "1")
+        publish_env["DAILY_CURATION_PUBLISH_KIND"] = "podcast"
         result = subprocess.run(
             ["python3", "scripts/publish.py"],
-            capture_output=True, text=True
+            capture_output=True, text=True,
+            env=publish_env,
         )
         print(f"   {result.stdout.strip()}" if result.stdout else "")
 
@@ -482,7 +528,10 @@ def main():
         except Exception:
             pass
     else:
-        print("   ⏭️ 跳過發布 (--no-publish)")
+        if args.podcast_highlights_only:
+            print("   ⏭️ 跳過發布 (--podcast-highlights-only)")
+        else:
+            print("   ⏭️ 跳過發布 (--no-publish)")
     
     # Cleanup temp files
     cleanup()

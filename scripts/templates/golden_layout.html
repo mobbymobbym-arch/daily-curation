@@ -51,15 +51,16 @@
 
         header { padding: 100px 20px; text-align: center; background: radial-gradient(circle at top left, #1e3a8a, #0f172a); color: white; position: relative; overflow: hidden; }
         header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: linear-gradient(to top, var(--bg-color), transparent); }
-        header h1 { font-size: 3.5rem; font-weight: 900; margin: 0; letter-spacing: -1px; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        header h1 { font-size: clamp(1.85rem, 9vw, 3.5rem); font-weight: 900; margin: 0; letter-spacing: 0; line-height: 1.08; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         header p { font-size: 1.1rem; opacity: 0.8; font-weight: 500; margin-top: 10px; }
 
         .container { max-width: 1400px; margin: 0 auto; padding: 40px 20px 100px 20px; }
         .main-content { width: 100%; }
         
-        .section-header { display: flex; align-items: center; gap: 18px; margin: 60px 0 35px 0; padding: 0 10px; }
+        .section-header { display: flex; align-items: center; gap: 18px; row-gap: 8px; flex-wrap: wrap; margin: 60px 0 35px 0; padding: 0 10px; min-width: 0; }
         .section-header i { font-size: 1.8rem; }
-        .section-header h2 { font-size: 1.8rem; font-weight: 800; margin: 0; letter-spacing: -0.5px; }
+        .section-header h2 { font-size: 1.8rem; font-weight: 800; margin: 0; letter-spacing: 0; line-height: 1.18; min-width: 0; overflow-wrap: anywhere; }
+        .section-desc { margin: 0; }
         
         .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 25px; margin-bottom: 60px; }
         .news-card { 
@@ -91,6 +92,75 @@
             transition: gap 0.3s;
         }
         .link-btn:hover { gap: 15px; }
+        .section-view-all {
+            margin-left: auto;
+            margin-top: 0;
+            min-height: 42px;
+            padding: 10px 18px;
+            border-radius: 999px;
+            border: 1px solid currentColor;
+            background: rgba(15, 23, 42, 0.04);
+            box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+            font-size: 0.92rem;
+            line-height: 1;
+        }
+        #analysis-section .section-view-all { background: rgba(16, 185, 129, 0.1); }
+        #podcast-section .section-view-all { background: rgba(139, 92, 246, 0.11); }
+
+        .teaser-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 18px;
+            margin-bottom: 60px;
+        }
+        .teaser-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(15, 23, 42, 0.08);
+            border-top: 5px solid var(--teaser-accent);
+            border-radius: 8px;
+            padding: 22px;
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            min-height: 250px;
+        }
+        .teaser-chip {
+            align-self: flex-start;
+            background: var(--teaser-accent);
+            color: #fff;
+            border-radius: 999px;
+            padding: 4px 10px;
+            font-size: 0.74rem;
+            font-weight: 850;
+            line-height: 1;
+            margin-bottom: 14px;
+        }
+        .teaser-card h3 {
+            margin: 0 0 10px;
+            font-size: 1.18rem;
+            line-height: 1.42;
+            letter-spacing: 0;
+        }
+        .teaser-date {
+            color: var(--secondary-text);
+            font-size: 0.82rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .teaser-summary {
+            color: #475569;
+            font-size: 0.95rem;
+            line-height: 1.72;
+            margin: 0 0 16px;
+            flex: 1;
+        }
+        .teaser-actions {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: auto;
+        }
 
         /* Footer Archive Styles */
         .archive-footer { 
@@ -99,20 +169,37 @@
             padding: 60px 20px; 
             border-top: 2px solid rgba(0,0,0,0.05);
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: minmax(0, 560px);
+            justify-content: start;
             gap: 50px;
         }
         .archive-box { background: var(--card-bg); border-radius: 28px; padding: 35px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.03); }
         .archive-box h3 { font-size: 1.4rem; font-weight: 800; margin-top: 0; margin-bottom: 25px; display: flex; align-items: center; gap: 12px; }
         .archive-list { list-style: none; padding: 0; margin: 0; }
+        .archive-list.is-collapsed li:nth-child(n+8) { display: none; }
         .archive-list li { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid rgba(0,0,0,0.03); }
         .archive-list li:last-child { border-bottom: none; }
         .archive-list a { text-decoration: none; color: var(--primary-text); font-weight: 500; transition: color 0.2s; display: flex; align-items: center; gap: 10px; }
         .archive-list a:hover { color: var(--techmeme-accent); }
+        .archive-toggle {
+            width: 100%;
+            margin-top: 16px;
+            min-height: 42px;
+            border: 1px solid rgba(59, 130, 246, 0.24);
+            border-radius: 999px;
+            background: rgba(59, 130, 246, 0.08);
+            color: var(--techmeme-accent);
+            font-weight: 800;
+            cursor: pointer;
+        }
+        .archive-toggle:hover { background: rgba(59, 130, 246, 0.13); }
 
         @media (max-width: 768px) {
             .archive-footer { grid-template-columns: 1fr; }
-            header h1 { font-size: 2.5rem; }
+            header h1 { font-size: clamp(1.85rem, 9vw, 2.5rem); }
+            .section-header { align-items: flex-start; gap: 10px; }
+            .section-header .link-btn { margin-left: 0 !important; }
+            .section-view-all { padding: 10px 16px; min-height: 40px; }
             nav { padding: 6px 0; }
             nav .nav-container { padding: 0 48px 0 8px; }
             nav .nav-links { gap: 5px; row-gap: 5px; }
@@ -136,8 +223,8 @@
             <div class="nav-links">
                 <a class="nav-link nav-link-active" href="#techmeme-section">Techmeme</a>
                 <a class="nav-link" href="#wsj-section">WSJ Tech</a>
-                <a class="nav-link" href="#analysis-section">Deep Analysis</a>
-                <a class="nav-link" href="#podcast-section">Podcast</a>
+                <a class="nav-link" href="/daily-curation/deep-analysis.html">Deep Analysis</a>
+                <a class="nav-link" href="/daily-curation/podcast-highlights.html">Podcast</a>
                 <a class="nav-link" href="/daily-curation/x-posts.html">X Posts</a>
             </div>
             <a href="/daily-curation/" class="home-icon">
@@ -285,7 +372,7 @@
             <div id="analysis-section" class="section-header" style="color: var(--analysis-accent);">
                 <i class="fas fa-feather-alt"></i>
                 <h2>Deep Analysis</h2>
-                <p class="section-desc">Thursday Intelligence v5.0</p>
+                <a href="/daily-curation/deep-analysis.html" class="link-btn section-view-all">View all &rarr;</a>
             </div>
             <div id="deep-analysis-container">
                 <div class="news-card" style="border-top: 6px solid var(--analysis-accent); margin-bottom: 40px;">
@@ -317,6 +404,7 @@
             <div id="podcast-section" class="section-header" style="color: var(--podcast-accent);">
                 <i class="fas fa-microphone-alt"></i>
                 <h2>Podcast Highlights</h2>
+                <a href="/daily-curation/podcast-highlights.html" class="link-btn section-view-all">View all &rarr;</a>
             </div>
             <div id="podcast-highlights-container"> 
                 <div class="news-card" style="border-top: 6px solid var(--podcast-accent); margin-bottom: 30px;">
@@ -355,7 +443,7 @@
     <section class="archive-footer">
         <div class="archive-box">
             <h3><i class="fas fa-folder-open"></i> 日報存檔</h3>
-            <ul id="daily-archive-list" class="archive-list">
+            <ul id="daily-archive-list" class="archive-list is-collapsed">
                         <li><a href="index.html">📄 2026-02-19 (今日)</a></li>
                         <li><a href="archive/2026-02-18.html">📄 2026-02-18</a></li>
                         <li><a href="archive/2026-02-17.html">📄 2026-02-17</a></li>
@@ -365,13 +453,7 @@
                         <li><a href="archive/2026-02-13.html">📄 2026-02-13</a></li>
                         <li><a href="archive/2026-02-12.html">📄 2026-02-12</a></li>
                     </ul>
-        </div>
-        <div class="archive-box">
-            <h3><i class="fas fa-microphone-alt"></i> PODCAST 存檔</h3>
-            <ul id="podcast-archive-list" class="archive-list"> 
-                <li><a href="https://www.dwarkesh.com/p/dario-amodei-2" target="_blank">🎙️ Dwarkesh Podcast: Dario Amodei — "We are near the end of the exponential"</a></li>
-                <li><a href="https://www.youtube.com/watch?v=vQwXgxJxwnw" target="_blank">🎙️ All-In Podcast: 趙長鵬 (CZ) 專訪 —— 牢獄、罰款與 Giggle Academy</a></li>
-            </ul>
+            <button class="archive-toggle" type="button" data-archive-toggle="daily-archive-list" aria-expanded="false">顯示更多存檔</button>
         </div>
     </section>
 
@@ -403,6 +485,21 @@
                 if (section) observer.observe(section);
             });
         }
+
+        document.querySelectorAll('[data-archive-toggle]').forEach(button => {
+            const list = document.getElementById(button.dataset.archiveToggle);
+            if (!list) return;
+            const items = list.querySelectorAll('li');
+            if (items.length <= 7) {
+                button.hidden = true;
+                return;
+            }
+            button.addEventListener('click', () => {
+                const expanded = !list.classList.toggle('is-collapsed');
+                button.setAttribute('aria-expanded', String(expanded));
+                button.textContent = expanded ? '收合較舊存檔' : '顯示更多存檔';
+            });
+        });
     </script>
     <footer class="copyright">
         <p>由 Doraemon-Mobby 🔔 為 Joyce 精心策展</p>

@@ -1,9 +1,39 @@
+import argparse
+import html
 import json
 import os
 import re
+import subprocess
 from datetime import datetime
 
-def render_to_html():
+
+def rebuild_podcast_highlights_page():
+    section_builder = os.path.join("scripts", "build_section_pages.py")
+    if not os.path.exists(section_builder):
+        return
+    result = subprocess.run(
+        ["python3", section_builder, "--only", "podcast"],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode == 0:
+        print(result.stdout.strip())
+    else:
+        print(f"⚠️ Podcast 分頁重建失敗：{result.stderr.strip() or result.stdout.strip()}")
+
+
+def teaser_text(value, limit=300):
+    text = re.sub(r"<br\s*/?>", " ", str(value or ""), flags=re.I)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:limit].rstrip() + ("..." if len(text) > limit else "")
+
+
+def render_to_html(section_only=False):
+    if section_only:
+        rebuild_podcast_highlights_page()
+        return
+
     json_path = "podcast_data.json"
     html_path = "index.html"
     archive_dir = "archives"
@@ -72,45 +102,37 @@ def render_to_html():
             pass # 稍後在渲染完後處理存檔
 
     # ==========================================
-    # 🎨 全量渲染：組裝所有卡片
+    # 🎨 首頁 Teaser 渲染：完整歷史內容交給 podcast-highlights.html
     # ==========================================
     total_html_builder = []
     
-    for idx, item in enumerate(items):
-        new_title = item.get("title", "無標題")
-        new_summary = item.get("summary", "無摘要內容")
-        chapters = item.get("chapters", [])
+    for item in items[:3]:
+        new_title = html.escape(str(item.get("title", "無標題")))
+        new_summary = html.escape(teaser_text(item.get("summary", "無摘要內容")))
         original_link = item.get("original_link", "")
+        show_name = html.escape(str(
+            item.get("show_name")
+            or item.get("podcast_show")
+            or item.get("channel")
+            or item.get("uploader")
+            or "Podcast"
+        ))
+        generated_at = html.escape(str(item.get("generated_at") or current_date or ""))
         
         card_builder = []
-        card_builder.append('<div class="podcast-highlight-card" style="font-family: sans-serif; background-color: #f9f9f9; padding: 25px; border-radius: 12px; border-left: 6px solid #4a154b; margin-bottom: 20px;">')
-        card_builder.append(f'  <h2 style="color: #4a154b; margin-top: 0;">{new_title}</h2>')
-        card_builder.append(f'  <p style="font-size: 1.1em; line-height: 1.6; color: #333; font-weight: 500;">{new_summary}</p>')
-        
-        if chapters:
-            # 使用索引確保 ID 唯一
-            content_id = f"podcast-chapters-content-{idx}"
-            card_builder.append(f'  <button onclick="var content = document.getElementById(\'{content_id}\'); if(content.style.display === \'none\'){{ content.style.display = \'block\'; this.innerText = \'收合全文 🔼\'; }} else {{ content.style.display = \'none\'; this.innerText = \'展開全文 👀\'; }}" style="background-color: #4a154b; color: white; border: none; padding: 10px 18px; border-radius: 6px; cursor: pointer; font-size: 1em; font-weight: bold; margin-top: 10px; transition: 0.3s;">展開全文 👀</button>')
-            card_builder.append(f'  <div id="{content_id}" style="display: none; margin-top: 25px; border-top: 1px solid #ddd; padding-top: 20px;">')
-            
-            for chapter in chapters:
-                ch_time = chapter.get("timestamp", "")
-                ch_title = chapter.get("title") or chapter.get("chapter_title") or "未命名章節"
-                ch_content = chapter.get("content", "")
-                ch_quote = chapter.get("quote", "")
-                
-                card_builder.append(f'    <div class="podcast-chapter" style="margin-bottom: 25px;">')
-                card_builder.append(f'      <h3 style="color: #2c3e50; font-size: 1.2em; margin-bottom: 10px;"><span style="color: #4a154b; background-color: #f0e6f2; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; margin-right: 8px;">⏱️ {ch_time}</span>{ch_title}</h3>')
-                card_builder.append(f'      <p style="line-height: 1.7; color: #444;">{ch_content}</p>')
-                if ch_quote:
-                    card_builder.append(f'      <blockquote style="background-color: #f3eaf5; border-left: 4px solid #8e44ad; padding: 12px 20px; margin: 15px 0; font-style: italic; color: #555;">「{ch_quote}」</blockquote>')
-                card_builder.append('    </div>')
-            card_builder.append('  </div>')
-        
+        card_builder.append('<article class="teaser-card podcast-highlight-card" style="--teaser-accent: var(--podcast-accent);">')
+        card_builder.append(f'  <span class="teaser-chip">{show_name}</span>')
+        card_builder.append(f'  <h3>{new_title}</h3>')
+        if generated_at:
+            card_builder.append(f'  <div class="teaser-date">{generated_at}</div>')
+        card_builder.append(f'  <p class="teaser-summary">{new_summary}</p>')
+        card_builder.append('  <div class="teaser-actions">')
         if original_link:
-            card_builder.append(f'  <a href="{original_link}" target="_blank" style="display: block; margin-top: 15px; color: #4a154b; font-weight: bold; text-decoration: none;">🎧 收聽原始節目 &rarr;</a>')
+            card_builder.append(f'    <a href="{html.escape(original_link)}" target="_blank" rel="noopener" class="link-btn" style="color: var(--podcast-accent);">Listen &rarr;</a>')
+        card_builder.append('    <a href="/daily-curation/podcast-highlights.html" class="link-btn" style="color: var(--podcast-accent);">Read history &rarr;</a>')
+        card_builder.append('  </div>')
         
-        card_builder.append('</div>')
+        card_builder.append('</article>')
         total_html_builder.append("\n".join(card_builder))
     
     # 加入隱藏的時間戳記，供跨日存檔時準確比對使用
@@ -145,17 +167,20 @@ def render_to_html():
             
             old_archive_path = os.path.join(archive_dir, f"podcast-{file_date}.html")
             if not os.path.exists(old_archive_path):
-                with open(old_archive_path, 'w', encoding='utf-8') as f:
-                    f.write(html_content)
-                print(f"📦 已備份舊內容 ({file_date}) 至：{old_archive_path}")
-                
-                # 更新存檔清單 (避免重複)
-                inventory_link = f'<li><a href="{old_archive_path}">🎙️ {old_title} ({file_date})</a></li>'
-                if old_archive_path not in html_content:
-                    inv_start = "<!-- PODCAST_INVENTORY_START -->"
-                    if inv_start in html_content:
-                        html_content = html_content.replace(inv_start, f"{inv_start}\n                        {inventory_link}")
-                        print(f"📝 已將 {file_date} 內容加入存檔目錄。")
+                try:
+                    with open(old_archive_path, 'w', encoding='utf-8') as f:
+                        f.write(html_content)
+                    print(f"📦 已備份舊內容 ({file_date}) 至：{old_archive_path}")
+                    
+                    # 更新存檔清單 (避免重複)
+                    inventory_link = f'<li><a href="{old_archive_path}">🎙️ {old_title} ({file_date})</a></li>'
+                    if old_archive_path not in html_content:
+                        inv_start = "<!-- PODCAST_INVENTORY_START -->"
+                        if inv_start in html_content:
+                            html_content = html_content.replace(inv_start, f"{inv_start}\n                        {inventory_link}")
+                            print(f"📝 已將 {file_date} 內容加入存檔目錄。")
+                except OSError as e:
+                    print(f"⚠️ Podcast 舊內容存檔略過：{old_archive_path} ({e})")
 
     # 執行全量替換
     pattern = re.compile(rf"({start_marker}).*?({end_marker})", re.DOTALL)
@@ -166,5 +191,16 @@ def render_to_html():
         
     print(f"✅ 成功渲染今日共 {len(items)} 篇 Podcast！")
 
+    rebuild_podcast_highlights_page()
+
 if __name__ == "__main__":
-    render_to_html()
+    parser = argparse.ArgumentParser(description="Render Daily Curation podcast cards.")
+    parser.add_argument(
+        "--podcast-highlights-only",
+        "--section-only",
+        dest="section_only",
+        action="store_true",
+        help="Only rebuild the standalone Podcast Highlights page and feed.",
+    )
+    args = parser.parse_args()
+    render_to_html(args.section_only)
