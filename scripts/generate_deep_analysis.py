@@ -328,7 +328,15 @@ def main():
         print(f"\n🎉 Processed {updates_processed} new deep analyses.")
         # Trigger render
         print("🎨 Triggering render_news.py...")
-        subprocess.run(["python3", "scripts/render_news.py"])
+        render_result = subprocess.run(["python3", "scripts/render_news.py"])
+        if render_result.returncode != 0:
+            print("⚠️ render_news.py failed; standalone section pages were not rebuilt.")
+            return
+
+        print("🧱 Rebuilding standalone section pages...")
+        section_result = subprocess.run(["python3", "scripts/build_section_pages.py"])
+        if section_result.returncode != 0:
+            print("⚠️ build_section_pages.py failed after deep analysis update.")
     else:
         print("\n✅ All sources up to date.")
 

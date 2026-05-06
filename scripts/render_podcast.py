@@ -29,6 +29,13 @@ def teaser_text(value, limit=300):
     return text[:limit].rstrip() + ("..." if len(text) > limit else "")
 
 
+def text_from_html(value):
+    text = re.sub(r"<br\s*/?>", " ", str(value or ""), flags=re.I)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return html.unescape(text)
+
+
 def render_to_html(section_only=False):
     if section_only:
         rebuild_podcast_highlights_page()
@@ -72,7 +79,7 @@ def render_to_html(section_only=False):
     # ==========================================
     # 透過正則抓取目前首頁上「第一個」Podcast 的標題與產生時間
     # 我們可以用來判斷首頁上的內容是否屬於「舊的一天」
-    old_title_match = re.search(r'<!-- PODCAST_HIGHLIGHTS_START -->.*?<h2[^>]*>(.*?)</h2>', html_content, re.DOTALL)
+    old_title_match = re.search(r'<!-- PODCAST_HIGHLIGHTS_START -->.*?<h[23][^>]*>(.*?)</h[23]>', html_content, re.DOTALL)
     
     # 嘗試找出首頁內容的日期（從存檔清單中推測，或是從 HTML 註解）
     # 為了簡單穩定，我們檢查：如果今天的第一個標題不在首頁上，且首頁上有內容，且日期不符，就存檔。
@@ -83,7 +90,7 @@ def render_to_html(section_only=False):
     
     # 邏輯：如果首頁上有舊內容，且該內容的標題不屬於今天的 items
     if old_title_match:
-        old_title = old_title_match.group(1).strip()
+        old_title = text_from_html(old_title_match.group(1))
         today_titles = [item['title'] for item in items]
         
         # 如果首頁上的標題不屬於今天，說明首頁還停留在「昨天」
@@ -153,7 +160,7 @@ def render_to_html(section_only=False):
     # 在更新前，處理「跨日存檔」
     # 如果 old_title 存在且不在今天的列表裡，備份 index.html 到昨天的存檔
     if old_title_match:
-        old_title = old_title_match.group(1).strip()
+        old_title = text_from_html(old_title_match.group(1))
         if old_title not in [item['title'] for item in items]:
             # 這說明首頁上是舊資料，我們需要把它存起來
             # 我們需要知道 old_title 是哪一天的，最準確的方法是尋找 Podcast 專用的日期標記
