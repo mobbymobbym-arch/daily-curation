@@ -1,2 +1,10 @@
 # Runtime logs are machine-local artifacts and should not block pulls/publishes.
 logs/
+
+# X watch runtime artifacts are generated locally. The published page is
+# x-posts.html; reports and preview files should not block normal git sync.
+reports/
+daily_curation_x_tab_preview.html
+config/*.local.json
+__pycache__/
+scripts/__pycache__/
