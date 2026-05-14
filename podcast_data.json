@@ -23,6 +23,38 @@
       "source_title": "Paul Graham, Founder of Y Combinator, Live from Stockholm",
       "original_link": "https://youtu.be/QHJkUw31YX8",
       "generated_at": "2026-05-14 16:11"
+    },
+    {
+      "title": "Invest Like the Best - Krishna Rao: The Business of AI at Anthropic",
+      "summary": "主持人 Patrick O'Shaughnessy 是深具洞察力的投資機構執行長；來賓 Krishna Rao 則是主導龐大算力配置的 Anthropic 財務長。本集探討在高度不確定性中，頂尖實驗室如何精準佈局算力資源。兩人深入剖析規模法則的延續、產品定價背後的傑文斯悖論，以及企業透明文化與 AI 安全承諾，全面揭示推動前沿人工智慧發展的深層商業與哲學邏輯。",
+      "chapters": [
+        {
+          "timestamp": "00:00 - 15:00",
+          "title": "算力作為畫布：高度不確定性下的資源配置策略",
+          "content": "這場重量級對話的開局，直接切入人工智慧產業最核心的硬核命題：算力的採購與配置。對於 Anthropic 這樣的頂尖前沿實驗室而言，算力並非單純的基礎設施，而是決定企業命脈的戰略資源。財務長 Krishna Rao 以極具詩意且精準的語言形容，算力就像是一塊巨大的畫布，所有令人驚嘆的模型與應用都必須在這塊畫布上構築。然而，這塊畫布的採購過程卻充滿極端不確定性。在科技迭代呈指數級爆發的當下，決策者必須在今天就為兩三年後才能交貨的硬體設備支付數十億美元，這種現象被稱為「不確定性之錐」。\n\n為解決這個巨大的商業挑戰，Anthropic 採取了一套由下而上的嚴謹預測機制，試圖在市場需求與維持前沿研發之間找到最佳平衡點。更重要的是，他們在算力部署上展現了極高的可替代性與彈性。不同於許多單一依賴特定硬體的企業，Anthropic 的技術架構橫跨了 AWS、Google 以及 Nvidia 等三大晶片平台。這種多樣化的配置不僅為了分散風險，更是為了極大化資源的利用效率。\n\n在實際操作中，他們將這三大平台的算力靈活運用於模型開發與終端服務。研發團隊甚至深入晶片底層架構開發專屬編譯器，力求榨取每一滴算力。Krishna 強調，能在不同世代與品牌的晶片間流暢切換並進行最佳化，是建立強大護城河的關鍵。這種極致的營運靈活性，不僅讓他們在高昂的硬體投資中獲得豐厚回報，更確保每次新模型發布時，都能以最合理的成本提供給全球企業。這種將技術深度與財務紀律結合的策略，為產業資源管理樹立了全新標竿。",
+          "quote": "The compute that we procure, it's the lifeblood of our business. It is the most important thing in the company, it's like the canvas on which everything else gets built."
+        },
+        {
+          "timestamp": "15:00 - 30:00",
+          "title": "規模法則與模型效率的指數級進化",
+          "content": "話題隨著算力的基礎建設，自然過渡到了驅動這波 AI 革命的底層邏輯——規模法則（Scaling Laws）。這項由 Anthropic 創辦團隊親自參與制定的理論，至今依然是整個產業前進的北極星。Krishna 指出，許多人對規模法則抱持懷疑，認為單純增加算力與數據遲早會遇到瓶頸。然而，Anthropic 內部的實際研究卻反覆證實，這項法則正以驚人的準確度持續兌現。只要持續投入更多的高品質資源，模型的智力水平就會穩定且可預測地向上攀升。\n\n這種指數級的成長軌跡，對習慣線性思考的人類來說往往難以適應。Krishna 坦言，即使身處產業中心的從業者，也必須不斷強迫自己打破線性思維框架。因為在指數級成長的世界裡，短短幾個月的進展，往往等同過去數年的累積。每一次新一代模型的問世，不僅代表著智力的躍升，更代表效率的倍數增長。這種提升意味著，過去必須仰賴最頂級模型才能完成的複雜任務，現在只需使用成本更低、速度更快的中階模型即可達成。\n\n更令人振奮的是「前沿智力回報」的概念。在企業市場中，模型智力的微小提升往往能解鎖呈指數級增長的商業價值。當模型跨越某個理解與推理的臨界點，它就不再只是聊天機器人，而是能深入企業工作流程解決高價值問題的代理人。為了持續推動智力邊界，Anthropic 團隊不僅專注擴大模型規模，更在每一次迭代間靈活部署架構創新，透過模型自行參與後續的開發與測試，形成一種遞迴式的自我優化，確保每一分投入的算力都能轉化為實實在在的效能躍進。",
+          "quote": "If you think about the return to being at the frontier, it's really high... that means that like a dollar of compute inside our organization goes further than I think it does anywhere else."
+        },
+        {
+          "timestamp": "30:00 - 45:00",
+          "title": "定價哲學與傑文斯悖論：解鎖無限的需求市場",
+          "content": "在探討完模型智力與底層效率的提升後，Krishna Rao 分享了這些技術突破如何轉化為真實世界的商業震撼，其中最引人入勝的便是 AI 領域的傑文斯悖論（Jevons Paradox）。傳統經濟學認為降低產品價格會導致整體營收下降；但在前沿 AI 市場，情況卻完全相反。當 Anthropic 透過技術優化大幅降低模型（例如 Opus 級別）的使用成本時，他們觀察到客戶的使用量出現了不成比例的爆炸性成長。這並非因為單一任務次數變多，而是因為價格下降解鎖了過去因成本過高而無法實現的新應用場景，進而將整體目標市場（TAM）徹底撐開。\n\n這樣的定價哲學與市場洞察，讓 Anthropic 在商業策略上顯得游刃有餘。他們不僅建立了一個強大的底層基礎設施平台，讓成千上萬的開發者與企業能建構專屬應用；同時也親自下場，開發直面消費者與企業端的產品。這種雙軌策略不僅能讓他們直接掌握終端使用者的真實需求，還能將這些寶貴的產品反饋迅速反哺到模型的底層研發中，形成完美的正向飛輪。\n\n為了證明這套技術的企業級價值，Anthropic 內部實踐了極致的「吃自己的狗糧」文化。Krishna 以自己掌管的財務部門為例，過去每個月的財務審查報告，需要整個團隊耗費數小時在龐雜的報表與數據中撈取資訊並撰寫總結。如今，他們將這些工作全面交給 Claude 處理。透過自建工具，Claude 能夠在短短三十分鐘內，自動梳理所有財務數據、生成精準分析報告，甚至主動標示出關鍵變動驅動因素。這種從繁瑣行政泥淖中解放的巨大生產力躍進，正是他們向全球企業客戶推廣時最有力的商業背書。",
+          "quote": "Changing pricing for Opus, you see this Jevons paradox... we lowered the price of it, but the consumption went up way, way more than what you would have expected."
+        },
+        {
+          "timestamp": "45:00 - 60:00",
+          "title": "企業文化、AI 安全與重塑人類未來的樂觀願景",
+          "content": "對話的最終章，深入探討了支撐 Anthropic 飛速成長的無形資產：獨特的企業文化與對未來的宏大願景。作為一家在短短數年內籌集了數百億美元的超級獨角獸，Anthropic 的內部運作卻出奇地平靜與透明。Krishna 將這種氛圍歸功於團隊的領導風格。在這裡，沒有大企業常見的政治角力與山頭主義，取而代之的是極致的理智誠實與公開對話。每隔兩週，執行長 Dario 都會親自面對全體員工，以毫無保留的態度回答來自各方的尖銳提問，這種極度透明的溝通機制，成功建立了一支高度互信且目標一致的菁英團隊。\n\n這種對誠實與透明的追求，直接反映在 Anthropic 最核心的企業基因——人工智慧安全上。Krishna 強調，投資於模型可解釋性與對齊科學，並非只是為了應付公關道德要求，它本質上就是一項極具前瞻性的商業戰略。對於《財富》500 強的頂尖企業客戶而言，他們最恐懼的就是不可控與不可預測的系統。Anthropic 透過將模型機制透明化（如同為 AI 進行核磁共振掃描），成功將抽象的安全概念轉化為最強大的產品競爭力與信任護城河。\n\n放眼未來，儘管社會上充斥著對 AI 失控的恐懼與末日論述，Krishna 卻抱持著無比的樂觀。他指出，真正的技術突破不會只停留在編寫程式碼或撰寫行銷文案，而是將深刻改變人類的物理世界。從生物科技的突破、創新藥物的研發，到整體醫療照護體系的全面升級，AI 有潛力解決過去被認為無解的科學難題。Anthropic 的終極目標，不僅是打造出世界上最聰明的機器，而是透過這些前沿智力，實實在在地提升全人類的健康水平與生活福祉。",
+          "quote": "We pioneered interpretability, which is think of it as like an MRI for the model to see inside the neural network how it works. We pioneered alignment science, which is you want the model to do what you tell it to do."
+        }
+      ],
+      "original_link": "https://podcasts.apple.com/tw/podcast/krishna-rao-anthropics-cfo-on-managing-compute-scaling/id1154105909?i=1000767545842&l=en-GB",
+      "generated_at": "2026-05-14 17:17"
     }
   ]
 }
