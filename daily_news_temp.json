@@ -2,14 +2,33 @@
   "fetch_date": "2026-05-14",
   "techmeme": [
     {
-      "title_en": "Cisco reports Q3 revenue up 12% YoY to $15.84B, vs. $15.56B est., forecasts Q4 revenue above est., and is cutting almost 4,000 jobs; CSCO jumps 17%+ after hours",
+      "title_en": "Cisco reports Q3 revenue up 12% YoY to $15.84B, vs. $15.56B est., raises its FY 2026 AI orders forecast, and is cutting ~4,000 jobs; CSCO jumps 19%+ after hours",
       "url": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html",
       "summary_en": "Cisco shares soared 17% in extended trading on Wednesday after the networking company issued results and guidance that topped Wall Street's projections.",
       "source": "CNBC",
       "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Cisco reports Q3 revenue up 12% YoY to $15.84B, vs. $15.56B est., forecasts Q4 revenue above est., and is cutting almost 4,000 jobs; CSCO jumps 17%+ after hours",
+      "title_zh": "Cisco 第三季營收年增 12% 至 158.4 億美元，優於預期的 155.6 億美元，並上調 2026 財年 AI 訂單預測，同時裁員約 4,000 人；股價盤後飆升逾 19%",
+      "summary_zh": "Cisco 週三盤後股價飆升 17%，主因是這家網路設備大廠公佈的財報與財測均優於華爾街預期。"
+    },
+    {
+      "title_en": "Cerebras priced its IPO at $185 per share, above the expected range of $150 to $160, raising at least $5.55B and valuing it at $56.4B fully diluted",
+      "url": "https://www.cnbc.com/2026/05/13/cerebras-prices-ipo-above-expected-range-wall-street-expects-ai-flood.html",
+      "summary_en": "Cerebras Systems, a maker of artificial intelligence chips, priced its IPO at $185 a share on Wednesday, above the expected range, according to a person with knowledge of the matter.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "AI 晶片公司 Cerebras 將 IPO 定價為每股 185 美元，高於預期的 150 至 160 美元區間，籌集至少 55.5 億美元，完全稀釋後估值達 564 億美元",
+      "summary_zh": "據知情人士透露，AI 晶片製造商 Cerebras Systems 週三將其 IPO 定價為每股 185 美元，高於原本預期的價格區間。"
+    },
+    {
+      "title_en": "Sources: Arm and its parent company SoftBank expressed preliminary interest in acquiring Cerebras weeks before its expected IPO; Cerebras rebuffed them",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/arm-softbank-said-to-have-tried-to-buy-cerebras-in-11th-hour",
+      "summary_en": "",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息來源：Arm 及其母公司軟銀在 Cerebras 預期 IPO 前數週曾表達初步收購意願，但遭 Cerebras 拒絕",
       "summary_zh": ""
     },
     {
@@ -19,97 +38,8 @@
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "LinkedIn says it has “implemented organizational changes”; source: LinkedIn plans to cut ~5% of its 17,500 full-time workers and focus on business growth areas",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Microsoft unveils MDASH, a security system that orchestrates 100+ AI agents to find vulnerabilities, and says it identified 16 previously unknown Windows flaws",
-      "url": "https://www.csoonline.com/article/4170785/microsofts-new-ai-system-finds-16-windows-flaws-including-four-critical-rces.html",
-      "summary_en": "The agentic tool, codenamed MDASH, will open to enterprise customers in private preview in June.",
-      "source": "CSO",
-      "media_source": "CSO",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Microsoft unveils MDASH, a security system that orchestrates 100+ AI agents to find vulnerabilities, and says it identified 16 previously unknown Windows flaws",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Source: Cerebras priced its IPO at $185 per share, above the expected range of $150 to $160, raising at least $5.55B and valuing it at $56.4B fully diluted",
-      "url": "https://www.cnbc.com/2026/05/13/cerebras-prices-ipo-above-expected-range-wall-street-expects-ai-flood.html",
-      "summary_en": "Cerebras Systems, a maker of artificial intelligence chips, priced its IPO at $185 a share on Wednesday, above the expected range …",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Source: Cerebras priced its IPO at $185 per share, above the expected range of $150 to $160, raising at least $5.55B and valuing it at $56.4B fully diluted",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Sources: Arm and its parent company SoftBank expressed preliminary interest in acquiring Cerebras weeks before its expected IPO; Cerebras rebuffed them",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-13/arm-softbank-said-to-have-tried-to-buy-cerebras-in-11th-hour",
-      "summary_en": "",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Sources: Arm and its parent company SoftBank expressed preliminary interest in acquiring Cerebras weeks before its expected IPO; Cerebras rebuffed them",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Instagram rolls out Instants, which lets users share ephemeral photos, as an in-app feature and as a standalone Android and iOS app in select countries",
-      "url": "https://9to5mac.com/2026/05/13/meta-launches-instants-a-new-iphone-app-and-instagram-feature-for-ephemeral-sharing/",
-      "summary_en": "Meta just launched a brand new iPhone app called Instants. Built around ephemeral photo sharing, the new social media app is also the latest Instagram feature.",
-      "source": "9to5Mac",
-      "media_source": "9to5Mac",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Instagram rolls out Instants, which lets users share ephemeral photos, as an in-app feature and as a standalone Android and iOS app in select countries",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Anthropic launches Claude for Small Business, featuring a host of automated services like bookkeeping functions, business insights, and tools for ad campaigns",
-      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
-      "summary_en": "Anthropic is looking to court smaller companies. To that end, the company announced Wednesday the launch of Claude for Small Business …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Anthropic launches Claude for Small Business, featuring a host of automated services like bookkeeping functions, business insights, and tools for ad campaigns",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Amazon is replacing its Rufus AI shopping assistant with Alexa for Shopping, which is powered by Alexa+, on Amazon.com and its app, for all customers in the US",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
-      "summary_en": "The company is giving its AI-powered assistant special shopping skills on its website and app.",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Amazon is replacing its Rufus AI shopping assistant with Alexa for Shopping, which is powered by Alexa+, on Amazon.com and its app, for all customers in the US",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Mythos Preview is the first AI model to complete both of AISI's cyber ranges, which measure models' cyberattack capabilities; GPT-5.5 solved only one of them",
-      "url": "https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing",
-      "summary_en": "In February 2026, we internally estimated that the length of cyber tasks AI models could complete had doubled every 4.7 months since late 2024 …",
-      "source": "AI Security Institute",
-      "media_source": "AI Security Institute",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Mythos Preview is the first AI model to complete both of AISI's cyber ranges, which measure models' cyberattack capabilities; GPT-5.5 solved only one of them",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Meta debuts Incognito Chat in WhatsApp and the Meta AI app, letting users talk to Meta AI without Meta being able to access the conversations",
-      "url": "https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/",
-      "summary_en": "The company says its new Incognito Chat allows you to use its AI chatbot without anyone else—including Meta—being able to access your conversations.",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Meta debuts Incognito Chat in WhatsApp and the Meta AI app, letting users talk to Meta AI without Meta being able to access the conversations",
-      "summary_zh": ""
+      "title_zh": "LinkedIn 表示已「執行組織調整」；消息指 LinkedIn 計劃裁減 17,500 名全職員工中的約 5%，並專注於業務增長領域",
+      "summary_zh": "兩位知情人士向路透社透露，LinkedIn 計劃於週三通知員工裁員消息，這顯示今年科技業的裁員潮正在擴大。"
     },
     {
       "title_en": "Anthropic unveils Claude Agent SDK credits for paid plans, which users can allocate for programmatic use of third-party agents like OpenClaw, starting June 15",
@@ -118,31 +48,68 @@
       "source": "VentureBeat",
       "media_source": "VentureBeat",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Anthropic unveils Claude Agent SDK credits for paid plans, which users can allocate for programmatic use of third-party agents like OpenClaw, starting June 15",
-      "summary_zh": ""
+      "title_zh": "Anthropic 為付費方案推出 Claude Agent SDK 額度，用戶自 6 月 15 日起可將其分配給 OpenClaw 等第三方 Agent 的程式化調用",
+      "summary_zh": "OpenClaw 粉絲的好消息：你現在可以再次使用 Claude AI 訂閱來驅動這款熱門的開源自主 AI Agent 架構了！"
     },
     {
-      "title_en": "Google says Chromebooks will get support through their “existing date commitment”, and “many” models are “eligible to transition” to the Googlebook experience",
-      "url": "https://9to5google.com/2026/05/12/googlebooks-have-a-premium-focus-some-chromebooks-can-be-upgraded/",
-      "summary_en": "During The Android Show earlier today, Google revealed its “Googlebook” …",
-      "source": "9to5Google",
-      "media_source": "9to5Google",
+      "title_en": "Mythos Preview is the first AI model to complete both of AISI's cyber ranges, which measure models' cyberattack capabilities; GPT-5.5 solved only one of them",
+      "url": "https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing",
+      "summary_en": "In February 2026, we internally estimated that the length of cyber tasks AI models could complete had doubled every 4.7 months since late 2024 …",
+      "source": "AI Security Institute",
+      "media_source": "AI Security Institute",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Google says Chromebooks will get support through their “existing date commitment”, and “many” models are “eligible to transition” to the Googlebook experience",
-      "summary_zh": ""
+      "title_zh": "Mythos Preview 成為首個完成 AISI 兩項網路攻擊能力測試（cyber ranges）的 AI 模型；GPT-5.5 僅完成其中一項",
+      "summary_zh": "在 2026 年 2 月，我們內部估計自 2024 年底以來，AI 模型能完成的網路任務長度大約每 4.7 個月就會翻倍……"
     },
     {
-      "title_en": "Anduril raised a $5B Series H led by Thrive and a16z at a $61B valuation, up from $30.5B in June 2025, taking its total funding to $6.82B, and could IPO in 2027",
-      "url": "https://www.nytimes.com/2026/05/13/technology/anduril-raises-5-billion.html",
-      "summary_en": "The start-up, which makes A.I.-backed weapons, was valued at $61 billion in the financing round, double what it was a year ago.",
-      "source": "New York Times",
-      "media_source": "New York Times",
+      "title_en": "Microsoft unveils MDASH, a security system that orchestrates 100+ AI agents to find vulnerabilities, and says it identified 16 previously unknown Windows flaws",
+      "url": "https://www.csoonline.com/article/4170785/microsofts-new-ai-system-finds-16-windows-flaws-including-four-critical-rces.html",
+      "summary_en": "The agentic tool, codenamed MDASH, will open to enterprise customers in private preview in June.",
+      "source": "CSO",
+      "media_source": "CSO",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Anduril raised a $5B Series H led by Thrive and a16z at a $61B valuation, up from $30.5B in June 2025, taking its total funding to $6.82B, and could IPO in 2027",
-      "summary_zh": ""
+      "title_zh": "微軟推出安全系統 MDASH，可調度 100 多個 AI Agent 來尋找漏洞，並稱已發現 16 個先前未知的 Windows 缺陷",
+      "summary_zh": "這款代號為 MDASH 的 Agent 工具將於 6 月向企業客戶開放私測。"
+    },
+    {
+      "title_en": "TikTok launches TikTok GO in the US for users to book hotels, attractions, and experiences directly in the app, partnering with Booking.com, Expedia, and others",
+      "url": "https://techcrunch.com/2026/05/12/tiktok-now-wants-to-be-the-place-you-book-the-trip-you-just-saw-on-tiktok/",
+      "summary_en": "TikTok announced on Tuesday that it's launching TikTok GO, a way for users to discover and book hotels, attractions, and experiences directly within its app.",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "TikTok 在美國推出 TikTok GO，讓用戶能直接在 App 內預訂飯店、景點和體驗行程，並與 Booking.com 和 Expedia 等平台合作",
+      "summary_zh": "TikTok 週二宣布推出 TikTok GO，讓用戶能直接在應用程式內探索並預訂飯店、景點和體驗活動。"
+    },
+    {
+      "title_en": "Anthropic launches Claude for Small Business, featuring a host of automated services like bookkeeping functions, business insights, and tools for ad campaigns",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "summary_en": "Anthropic is looking to court smaller companies. To that end, the company announced Wednesday the launch of Claude for Small Business …",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Anthropic 推出「Claude 小微企業版」，提供記帳功能、商業洞察及廣告投放工具等多項自動化服務",
+      "summary_zh": "Anthropic 正致力於爭取小型企業客戶。為此，該公司週三宣布推出 Claude for Small Business……"
+    },
+    {
+      "title_en": "Meta debuts Incognito Chat in WhatsApp and the Meta AI app, letting users talk to Meta AI without Meta being able to access the conversations",
+      "url": "https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/",
+      "summary_en": "The company says its new Incognito Chat allows you to use its AI chatbot without anyone else—including Meta—being able to access your conversations.",
+      "source": "Wired",
+      "media_source": "Wired",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Meta 在 WhatsApp 和 Meta AI 應用程式中推出「無痕聊天」功能，讓用戶與 Meta AI 對話時，連 Meta 也無法存取對話內容",
+      "summary_zh": "Meta 表示，新的無痕聊天功能讓你在使用 AI 聊天機器人時，包括 Meta 在內的任何人都無法存取你的對話。"
+    },
+    {
+      "title_en": "Instagram rolls out Instants, which lets users share ephemeral photos, as an in-app feature and as a standalone Android and iOS app in select countries",
+      "url": "https://9to5mac.com/2026/05/13/meta-launches-instants-a-new-iphone-app-and-instagram-feature-for-ephemeral-sharing/",
+      "summary_en": "Meta just launched a brand new iPhone app called Instants. Built around ephemeral photo sharing, the new social media app is also the latest Instagram feature.",
+      "source": "9to5Mac",
+      "media_source": "9to5Mac",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Instagram 推出 Instants 功能，主打分享即時動態照片，不僅作為 App 內功能，也在部分國家推出獨立的 Android 和 iOS 版 App",
+      "summary_zh": "Meta 剛推出一款名為 Instants 的全新 iPhone 應用程式。這款以即時照片分享為核心的新社群媒體 App 同時也是 Instagram 的最新功能。"
     },
     {
       "title_en": "Q&A with Anthropic CFO Krishna Rao on the “cone of uncertainty” in AI, allocating compute, returns to frontier intelligence, platform vs. application, and more",
@@ -151,53 +118,8 @@
       "source": "Invest Like The Best on YouTube",
       "media_source": "Invest Like The Best on YouTube",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Q&A with Anthropic CFO Krishna Rao on the “cone of uncertainty” in AI, allocating compute, returns to frontier intelligence, platform vs. application, and more",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Adaption, co-founded by ex-Cohere VP of AI research Sara Hooker, unveils AutoScientist, which can automate the research loop behind model training and alignment",
-      "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
-      "summary_en": "For years, AI researchers have anticipated the moment when AI systems will be able to improve themselves better than humans could.",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Adaption, co-founded by ex-Cohere VP of AI research Sara Hooker, unveils AutoScientist, which can automate the research loop behind model training and alignment",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Sources: Mistral has been developing a cybersecurity-focused AI model and has held discussions about it with European banks, which don't have access to Mythos",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-13/mistral-developing-new-ai-model-for-banks-lacking-mythos-access",
-      "summary_en": "French artificial intelligence startup Mistral AI is in discussions with European banks about deploying its answer to Anthropic PBC's Mythos …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Sources: Mistral has been developing a cybersecurity-focused AI model and has held discussions about it with European banks, which don't have access to Mythos",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "UK chip startup Fractile raised a $220M Series B led by Factorial Funds, Accel and Founders Fund to make specialized logic and memory chips for inference",
-      "url": "https://www.wsj.com/tech/ai/chips-startup-fractile-raises-220-million-to-speed-up-ai-queries-c8681944?st=H3drN4&reflink=desktopwebshare_permalink",
-      "summary_en": "Factorial Funds, Accel and Peter Thiel's Founders Fund invest in company — The U.K. chip startup Fractile said it has raised …",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "UK chip startup Fractile raised a $220M Series B led by Factorial Funds, Accel and Founders Fund to make specialized logic and memory chips for inference",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Nvidia says Jensen Huang has joined President Trump on his China trip; source: Trump called Huang to ask him to join after seeing media coverage of his absence",
-      "url": "https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html",
-      "summary_en": "BEIJING — Nvidia CEO Jensen Huang has joined U.S. President Donald Trump's trip to China, after initial indications the executive had not been invited.",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Nvidia says Jensen Huang has joined President Trump on his China trip; source: Trump called Huang to ask him to join after seeing media coverage of his absence",
-      "summary_zh": ""
+      "title_zh": "Anthropic 財務長 Krishna Rao 專訪：探討 AI 的「不確定性錐體」、算力分配、前沿智慧的回報、平台與應用之爭等議題",
+      "summary_zh": "在本集《Invest Like The Best》節目中，Patrick O'Shaughnessy 訪談了 Anthropic 財務長 Krishna Rao……"
     },
     {
       "title_en": "Sources: Microsoft is in discussions to acquire LLM developer Inception; SpaceX also courted Inception, which is looking for a price of over $1B",
@@ -206,97 +128,8 @@
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Sources: Microsoft is in discussions to acquire LLM developer Inception; SpaceX also courted Inception, which is looking for a price of over $1B",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Q&A with Alexandr Wang on rebuilding Meta's AI stack, Muse Spark, personal superintelligence, Meta acquiring Assured Robot Intelligence, Sam Altman, and more",
-      "url": "https://www.corememory.com/p/metas-ai-chief-alex-wang-muse-spark-ai-wars",
-      "summary_en": "Last June, Meta pried Alex Wang away from Scale AI, the company he co-founded and ran, in a deal valued at $14 billion.",
-      "source": "Core Memory",
-      "media_source": "Core Memory",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Q&A with Alexandr Wang on rebuilding Meta's AI stack, Muse Spark, personal superintelligence, Meta acquiring Assured Robot Intelligence, Sam Altman, and more",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Rivian CEO RJ Scaringe's Mind Robotics, which is building AI-powered robots for manufacturing tasks, raised $400M, source says at a $3.4B valuation",
-      "url": "https://www.wsj.com/business/autos/rivian-ceos-robotics-spinoff-raises-400-million-4c54a9a0?st=K7uGYq&reflink=desktopwebshare_permalink",
-      "summary_en": "Funding for AI-powered industrial robot project now exceeds $1 billion — Mind Robotics, the startup founded by Rivian Chief Executive RJ Scaringe …",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Rivian CEO RJ Scaringe's Mind Robotics, which is building AI-powered robots for manufacturing tasks, raised $400M, source says at a $3.4B valuation",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Trump Mobile says T1 Phone preorders will begin shipping to customers this week and that the first T1 phones were assembled in the US, after months of delays",
-      "url": "https://www.usatoday.com/story/tech/2026/05/12/trump-mobile-t1-phone-shipping/90046321007/",
-      "summary_en": "Trump Mobile phones are being shipped this week, the company exclusively confirmed to USA TODAY in an email May 11.",
-      "source": "USA Today",
-      "media_source": "USA Today",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Trump Mobile says T1 Phone preorders will begin shipping to customers this week and that the first T1 phones were assembled in the US, after months of delays",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Investor docs: Anthropic's revenue run rate is on track to hit $50B by the end of June; Ramp says more of its customers now use Anthropic than OpenAI, a first",
-      "url": "https://www.wsj.com/tech/ai/anthropic-was-behind-now-its-the-ai-booms-front-runner-5020f621?st=4wUrzX&reflink=desktopwebshare_permalink",
-      "summary_en": "After years as also-ran, startup pulls ahead in AI race after focusing on enterprise users and coding",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Investor docs: Anthropic's revenue run rate is on track to hit $50B by the end of June; Ramp says more of its customers now use Anthropic than OpenAI, a first",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "SoftBank reports Q4 net income up 3x to ~$11.6B, above ~$1.5B est., driven by a $25B+ gain in its OpenAI stake; its OpenAI investment will hit $64.6B by October",
-      "url": "https://www.ft.com/content/85b9fe04-0d70-482e-bd27-9c87c1ebfc01",
-      "summary_en": "Japanese group books net income of $11.6bn in fourth quarter, vastly ahead of analyst expectations",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "SoftBank reports Q4 net income up 3x to ~$11.6B, above ~$1.5B est., driven by a $25B+ gain in its OpenAI stake; its OpenAI investment will hit $64.6B by October",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Tencent reports Q1 revenue up 9% YoY to ~$28.9B, below ~$29.4B est., net income up 21% YoY to ~$8.5B, meeting est., and capex up 16% YoY, amid a costly AI pivot",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-13/tencent-revenue-miss-heightens-pressure-for-ai-payoff",
-      "summary_en": "Tencent Holdings Ltd. reported its slowest revenue growth in six quarters, underscoring the urgency around its costly AI pivot …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Tencent reports Q1 revenue up 9% YoY to ~$28.9B, below ~$29.4B est., net income up 21% YoY to ~$8.5B, meeting est., and capex up 16% YoY, amid a costly AI pivot",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Tencent says it plans to spend significantly more on AI infrastructure in H2 2026 as more China-designed AI chips become available “month by month”",
-      "url": "https://www.theinformation.com/briefings/tencent-says-chinas-ai-chip-crunch-easing-plans-spend",
-      "summary_en": "",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Tencent says it plans to spend significantly more on AI infrastructure in H2 2026 as more China-designed AI chips become available “month by month”",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Alibaba reports Q4 revenue up 3% YoY to ~$35.8B, below ~$36.3B est., and net income up 106% YoY to ~$3.7B in part due to investments, as it seeks to monetize AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-13/alibaba-revenue-misses-estimates-despite-ai-monetization-efforts",
-      "summary_en": "China's twin technology leaders reported revenue that fell short of estimates, signaling the challenges in translating higher AI spending into profits.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Alibaba reports Q4 revenue up 3% YoY to ~$35.8B, below ~$36.3B est., and net income up 106% YoY to ~$3.7B in part due to investments, as it seeks to monetize AI",
-      "summary_zh": ""
+      "title_zh": "消息來源：微軟正討論收購 LLM 開發商 Inception；SpaceX 也曾與之接觸，後者尋求超過 10 億美元的報價",
+      "summary_zh": "隨著微軟準備迎接一個獨立於其核心合作夥伴 OpenAI 之外的未來，這家軟體巨頭正積極尋求收購 AI 新創公司……"
     },
     {
       "title_en": "Netflix says its ad tier now has 250M monthly active viewers, up from 94M in 2025, and is expanding to 15 new countries, as it tests an ad personalization tool",
@@ -305,113 +138,230 @@
       "source": "The Verge",
       "media_source": "The Verge",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Netflix says its ad tier now has 250M monthly active viewers, up from 94M in 2025, and is expanding to 15 new countries, as it tests an ad personalization tool",
-      "summary_zh": ""
+      "title_zh": "Netflix 表示其廣告方案月活躍觀眾已達 2.5 億，高於 2025 年的 9,400 萬，並將擴展至 15 個新國家，同時測試廣告個人化工具",
+      "summary_zh": "該串流服務的廣告方案現在每月觸及 2.5 億名觀眾……這已是連續第二年實現成長。"
     },
     {
-      "title_en": "Analysts: China's AI hardware suppliers face capacity constraints and component shortages, including of optical and electronic chips, that could throttle growth",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/china-s-ai-suppliers-can-t-keep-up-as-component-shortages-bite",
-      "summary_en": "China's artificial intelligence hardware suppliers have a problem: keeping up with insatiable demand for their products.",
+      "title_en": "Amazon is replacing its Rufus AI shopping assistant with Alexa for Shopping, which is powered by Alexa+, on Amazon.com and its app, for all customers in the US",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
+      "summary_en": "The company is giving its AI-powered assistant special shopping skills on its website and app.",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "亞馬遜在美國官網及 App 將 Rufus AI 購物助手替換為基於 Alexa+ 的「Alexa for Shopping」",
+      "summary_zh": "亞馬遜正在其網站和應用程式中，為這款 AI 助手賦予專門的購物技能。"
+    },
+    {
+      "title_en": "Sources: Apollo Global, Morgan Stanley, and others are testing Grok internally as part of xAI's finance sector push, but financiers are rarely using it for work",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/musk-s-xai-races-to-get-wall-street-firms-to-use-grok-chatbot",
+      "summary_en": "Elon Musk's xAI has recruited multiple Wall Street firms with ties to the billionaire's business empire to test its Grok chatbot …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Analysts: China's AI hardware suppliers face capacity constraints and component shortages, including of optical and electronic chips, that could throttle growth",
-      "summary_zh": ""
+      "title_zh": "消息來源：阿波羅全球管理、摩根士丹利等機構正內部測試 Grok 內部，作為 xAI 進軍金融領域的一環，但金融家們鮮少將其用於工作",
+      "summary_zh": "伊隆·馬斯克的 xAI 已招募多家與其商業帝國有關聯的華爾街公司來測試 Grok 聊天機器人……"
     },
     {
-      "title_en": "Analysis: contract prices for NAND chips are up 600%+ since September 2025's end, while DRAM chip prices are up nearly 400%, and analysts expect more increases",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-13/deepening-memory-crunch-widens-gap-between-stock-winners-losers",
+      "title_en": "Adaption, co-founded by ex-Cohere VP of AI research Sara Hooker, unveils AutoScientist, which can automate the research loop behind model training and alignment",
+      "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
+      "summary_en": "For years, AI researchers have anticipated the moment when AI systems will be able to improve themselves better than humans could.",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "由前 Cohere AI 研究副總裁 Sara Hooker 共同創立的 Adaption 推出 AutoScientist，可自動化模型訓練與對齊背後的研究流程",
+      "summary_zh": "多年來，AI 研究人員一直期待著 AI 系統能夠比人類更好地自我提升的那一刻。"
+    },
+    {
+      "title_en": "Sources: Google plans to announce a new Gemini model at its I/O conference next week; the model will land roughly in the class of GPT-5.5, but short of Mythos",
+      "url": "https://sources.news/p/google-about-to-release-new-gemini",
+      "summary_en": "Sources say that Google plans to announce a new Gemini model at its annual I/O conference on Tuesday.",
+      "source": "Sources",
+      "media_source": "Sources",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息來源：Google 計劃在下週的 I/O 大會上發布新的 Gemini 模型；該模型等級約與 GPT-5.5 相當，但稍遜於 Mythos",
+      "summary_zh": "消息指 Google 計劃在週二舉行的年度 I/O 大會上發布一款新的 Gemini 模型。"
+    },
+    {
+      "title_en": "OpenEvidence, an AI-powered medical search tool, says it's used by two-thirds of US physicians, or ~650K doctors, and an additional 1.2M doctors internationally",
+      "url": "https://www.nbcnews.com/tech/tech-news/openevidence-ai-doctor-medical-physician-login-app-what-npi-uptodate-rcna341064",
+      "summary_en": "OpenEvidence, an AI-powered medical search tool, has become a fast friend to America's doctors and is now used by nearly two-thirds of physicians.",
+      "source": "NBC News",
+      "media_source": "NBC News",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "AI 驅動的醫學搜尋工具 OpenEvidence 表示，全美有三分之二的醫師（約 65 萬人）正在使用該工具，國際用戶則另有 120 萬名醫師",
+      "summary_zh": "AI 醫學搜尋工具 OpenEvidence 已成為美國醫生的好幫手，目前有近三分之二的醫生在使用它。"
+    },
+    {
+      "title_en": "OpenAI says it would support a global AI governance body that is led by the US and includes China as a member, similar to the International Atomic Energy Agency",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/openai-floats-idea-of-global-ai-governance-body-with-us-china",
+      "summary_en": "OpenAI would support the creation of a global governance body for artificial intelligence led by the US and including China as a member …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "OpenAI 表示支持成立由美國領導並包含中國在內的全球 AI 監管機構，類似於國際原子能總署 (IAEA)",
+      "summary_zh": "OpenAI 將支持建立一個由美國領導、中國參與的全球人工智慧治理機構……"
+    },
+    {
+      "title_en": "Google says Chromebooks will get support through their “existing date commitment”, and “many” models are “eligible to transition” to the Googlebook experience",
+      "url": "https://9to5google.com/2026/05/12/googlebooks-have-a-premium-focus-some-chromebooks-can-be-upgraded/",
+      "summary_en": "During The Android Show earlier today, Google revealed its “Googlebook” …",
+      "source": "9to5Google",
+      "media_source": "9to5Google",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Google 表示 Chromebook 將持續獲得支援至「既定日期」，且「許多」型號「符合轉換至」Googlebook 體驗的資格",
+      "summary_zh": "在稍早舉行的 The Android Show 中，Google 揭曉了其「Googlebook」..."
+    },
+    {
+      "title_en": "Sources: Mistral has been developing a cybersecurity-focused AI model and has held discussions about it with European banks, which don't have access to Mythos",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/mistral-developing-new-ai-model-for-banks-lacking-mythos-access",
+      "summary_en": "French artificial intelligence startup Mistral AI is in discussions with European banks about deploying its answer to Anthropic PBC's Mythos …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息人士：Mistral 持續開發專注於網路安全的 AI 模型，並已與無法使用 Mythos 的歐洲銀行進行討論",
+      "summary_zh": "法國 AI 新創公司 Mistral AI 正與歐洲銀行討論部署其競爭產品，以抗衡 Anthropic 的 Mythos..."
+    },
+    {
+      "title_en": "Musk v. Altman: Microsoft executive Michael Wetter testifies that Microsoft has spent $100B+ on OpenAI, including its investments and to build infrastructure",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/microsoft-spent-over-100-billion-on-openai-partnership-to-date",
+      "summary_en": "Microsoft Corp. has spent more than $100 billion on its partnership with OpenAI, a sum that underscores the significance …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "馬斯克對決奧特曼：微軟高層 Michael Wetter 作證指出，微軟已在 OpenAI 投入超過 1000 億美元，包含投資與基礎設施建設",
+      "summary_zh": "微軟公司在與 OpenAI 的合作夥伴關係上已花費超過 1000 億美元，此金額突顯了其重要性..."
+    },
+    {
+      "title_en": "UK chip startup Fractile raised a $220M Series B led by Factorial Funds, Accel and Founders Fund to make specialized logic and memory chips for inference",
+      "url": "https://www.wsj.com/tech/ai/chips-startup-fractile-raises-220-million-to-speed-up-ai-queries-c8681944?st=H3drN4&reflink=desktopwebshare_permalink",
+      "summary_en": "Factorial Funds, Accel and Peter Thiel's Founders Fund invest in company — The U.K. chip startup Fractile said it has raised …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "英國晶片新創 Fractile 完成 2.2 億美元 B 輪融資，由 Factorial Funds、Accel 和 Founders Fund 領投，旨在開發推論專用的邏輯與記憶體晶片",
+      "summary_zh": "Factorial Funds、Accel 和 Peter Thiel 的 Founders Fund 投資該公司 — 英國晶片新創 Fractile 表示已籌集..."
+    },
+    {
+      "title_en": "Rivian CEO RJ Scaringe's Mind Robotics, which is building AI-powered robots for manufacturing tasks, raised $400M, source says at a $3.4B valuation",
+      "url": "https://www.wsj.com/business/autos/rivian-ceos-robotics-spinoff-raises-400-million-4c54a9a0?st=K7uGYq&reflink=desktopwebshare_permalink",
+      "summary_en": "Funding for AI-powered industrial robot project now exceeds $1 billion — Mind Robotics, the startup founded by Rivian Chief Executive RJ Scaringe …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Rivian 執行長 RJ Scaringe 創立的 Mind Robotics 籌集 4 億美元，據悉估值達 34 億美元，該公司致力於開發 AI 驅動的製造業機器人",
+      "summary_zh": "AI 驅動工業機器人項目的融資現已超過 10 億美元 — 由 Rivian 執行長 RJ Scaringe 創立的新創公司 Mind Robotics..."
+    },
+    {
+      "title_en": "Q&A with Alexandr Wang on rebuilding Meta's AI stack, Muse Spark, personal superintelligence, Meta acquiring Assured Robot Intelligence, Sam Altman, and more",
+      "url": "https://www.corememory.com/p/metas-ai-chief-alex-wang-muse-spark-ai-wars",
+      "summary_en": "Last June, Meta pried Alex Wang away from Scale AI, the company he co-founded and ran, in a deal valued at $14 billion.",
+      "source": "Core Memory",
+      "media_source": "Core Memory",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Alexandr Wang 訪談：談 Meta AI 堆疊重建、Muse Spark、個人超智慧、Meta 收購 Assured Robot Intelligence 及 Sam Altman 等議題",
+      "summary_zh": "去年 6 月，Meta 以價值 140 億美元的交易，從 Alexandr Wang 共同創立並經營的 Scale AI 將其挖角。"
+    },
+    {
+      "title_en": "Nvidia says Jensen Huang has joined President Trump on his China trip; source: Trump called Huang to ask him to join after seeing media coverage of his absence",
+      "url": "https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html",
+      "summary_en": "BEIJING — Nvidia CEO Jensen Huang has joined U.S. President Donald Trump's trip to China, after initial indications the executive had not been invited.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "NVIDIA 表示黃仁勳已陪同川普總統訪問中國；消息稱川普在媒體報導黃仁勳缺席後親自致電邀請",
+      "summary_zh": "北京 — NVIDIA 執行長黃仁勳已加入美國總統川普的訪華行程，先前曾有跡象顯示該高層未受邀請。"
+    },
+    {
+      "title_en": "Tencent reports Q1 revenue up 9% YoY to ~$28.9B, below ~$29.4B est., net income up 21% YoY to ~$8.5B, meeting est., and capex up 16% YoY, amid a costly AI pivot",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/tencent-revenue-miss-heightens-pressure-for-ai-payoff",
+      "summary_en": "Tencent Holdings Ltd. reported its slowest revenue growth in six quarters, underscoring the urgency around its costly AI pivot …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "騰訊 Q1 營收年增 9% 達 289 億美元低於預期，淨利年增 21% 至 85 億美元符合預期，高昂的 AI 轉型推動資本支出增長 16%",
+      "summary_zh": "騰訊控股報告了六個季度以來最慢的營收增長，突顯了其高昂 AI 轉型的急迫性..."
+    },
+    {
+      "title_en": "Tencent says it plans to spend significantly more on AI infrastructure in H2 2026 as more China-designed AI chips become available “month by month”",
+      "url": "https://www.theinformation.com/briefings/tencent-says-chinas-ai-chip-crunch-easing-plans-spend",
       "summary_en": "",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "source": "The Information",
+      "media_source": "The Information",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Analysis: contract prices for NAND chips are up 600%+ since September 2025's end, while DRAM chip prices are up nearly 400%, and analysts expect more increases",
+      "title_zh": "騰訊表示計劃在 2026 下半年大幅增加 AI 基礎設施支出，主因中國設計的 AI 晶片供應逐月增加",
       "summary_zh": ""
     }
   ],
   "wsj": [
     {
+      "title_en": "Hedge Funds Are Making a Killing in the ‘Golden Age’ of AI Hardware",
+      "url": "https://www.wsj.com/finance/investing/hedge-funds-are-making-a-killing-in-the-golden-age-of-ai-hardware-3a8dc34a?mod=rss_Technology",
+      "summary_en": "Shares of makers of chips and related equipment delivered stock-picking funds such as Steve Cohen’s Point72 their best month in decades....",
+      "title_zh": "對沖基金在 AI 硬體「黃金時代」大獲全勝",
+      "summary_zh": "晶片及相關設備製造商的股價，為 Steve Cohen 的 Point72 等選股基金帶來了數十年來表現最佳的一個月..."
+    },
+    {
       "title_en": "The Tech Jobs That Are Safe From AI",
       "url": "https://www.wsj.com/tech/ai/the-tech-jobs-that-are-safe-from-ai-8d415383?mod=rss_Technology",
       "summary_en": "Tech industry layoffs keep coming but there’s still a market for higher-grade talent to harness AI agents....",
-      "_translation_skipped": true,
-      "title_zh": "The Tech Jobs That Are Safe From AI",
-      "summary_zh": ""
+      "title_zh": "那些不會被 AI 取代的科技業職位",
+      "summary_zh": "科技業裁員潮持續，但市場對能駕馭 AI 代理程式的高階人才仍有需求..."
     },
     {
       "title_en": "Chips Startup Fractile Raises $220 Million to Speed Up AI Queries",
       "url": "https://www.wsj.com/tech/ai/chips-startup-fractile-raises-220-million-to-speed-up-ai-queries-c8681944?mod=rss_Technology",
       "summary_en": "Factorial Funds, Accel and Peter Thiel’s Founders Fund invested in the company....",
-      "_translation_skipped": true,
-      "title_zh": "Chips Startup Fractile Raises $220 Million to Speed Up AI Queries",
-      "summary_zh": ""
+      "title_zh": "晶片新創 Fractile 融資 2.2 億美元，旨在加速 AI 查詢速度",
+      "summary_zh": "Factorial Funds、Accel 和 Peter Thiel 的 Founders Fund 均投資了該公司..."
     },
     {
       "title_en": "Anthropic Was Behind. Now It’s the AI Boom’s Front-Runner.",
       "url": "https://www.wsj.com/tech/ai/anthropic-was-behind-now-its-the-ai-booms-front-runner-5020f621?mod=rss_Technology",
       "summary_en": "After years as an also-ran, the startup has pulled ahead in the artificial-intelligence race after focusing on enterprise users and coding....",
-      "_translation_skipped": true,
-      "title_zh": "Anthropic Was Behind. Now It’s the AI Boom’s Front-Runner.",
-      "summary_zh": ""
+      "title_zh": "Anthropic 曾一度落後，如今已成為 AI 浪潮的領跑者",
+      "summary_zh": "在多年屈居二線後，這家新創公司因專注於企業用戶和程式碼開發，已在 AI 競賽中脫穎而出..."
     },
     {
       "title_en": "OpenAI CEO Sam Altman Defends His Leadership, Personal Investing at Trial",
       "url": "https://www.wsj.com/tech/ai/openai-ceo-sam-altman-takes-stand-in-elon-musk-megatrial-19bda33c?mod=rss_Technology",
       "summary_en": "The blockbuster court battle centers around Musk’s donations to AI lab when it was a nonprofit and its conversion to a for-profit company....",
-      "_translation_skipped": true,
-      "title_zh": "OpenAI CEO Sam Altman Defends His Leadership, Personal Investing at Trial",
-      "summary_zh": ""
+      "title_zh": "OpenAI 執行長 Sam Altman 在審判中為其領導能力與個人投資辯護",
+      "summary_zh": "這場引人注目的法庭大戰核心，在於馬斯克對當時身為非營利組織的 AI 實驗室的捐款，及其轉型為營利公司的過程..."
     },
     {
       "title_en": "Sam Altman’s Business Dealings Under GOP Scrutiny Ahead of OpenAI’s IPO",
       "url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d?mod=rss_Technology",
       "summary_en": "The Republican-led House Oversight Committee says it is investigating, and seven GOP state attorneys general are calling for SEC review after a WSJ article....",
-      "_translation_skipped": true,
-      "title_zh": "Sam Altman’s Business Dealings Under GOP Scrutiny Ahead of OpenAI’s IPO",
-      "summary_zh": ""
+      "title_zh": "在 OpenAI IPO 前夕，Sam Altman 的商業交易正遭受共和黨審查",
+      "summary_zh": "共和黨領導的眾議院監督委員會表示正在進行調查，而在《華爾街日報》報導後，七位共和黨州檢察長正呼籲 SEC 進行審查..."
     },
     {
-      "title_en": "SpaceX and Google Are in Talks to Launch Data Centers in Orbit",
-      "url": "https://www.wsj.com/tech/spacex-google-in-talks-to-explore-data-centers-in-orbit-7b7799e2?mod=rss_Technology",
-      "summary_en": "A deal between the two tech titans would give a boost to SpaceX’s business ahead of a historic public listing....",
-      "_translation_skipped": true,
-      "title_zh": "SpaceX and Google Are in Talks to Launch Data Centers in Orbit",
-      "summary_zh": ""
+      "title_en": "Cerebras Systems to Raise $5.55 Billion in Year’s Largest U.S. IPO So Far",
+      "url": "https://www.wsj.com/tech/cerebras-systems-to-raise-5-55-billion-in-years-largest-u-s-ipo-so-far-e29e9734?mod=rss_Technology",
+      "summary_en": "The company, which is backed by OpenAI’s Sam Altman, priced its upsized offering of 30 million shares at $185.00 a share....",
+      "title_zh": "Cerebras Systems 擬募資 55.5 億美元，為今年以來美國最大規模 IPO",
+      "summary_zh": "這家由 OpenAI 的 Sam Altman 支持的公司，將其擴大發行的 3000 萬股定價為每股 185 美元..."
     },
     {
       "title_en": "‘A’ Grades Are Suddenly Everywhere Since the Arrival of ChatGPT",
       "url": "https://www.wsj.com/us-news/education/a-grades-are-suddenly-everywhere-since-the-arrival-of-chatgpt-845baae7?mod=rss_Technology",
-      "summary_en": "AI is accelerating grade inflation, new research indicates, and making it harder for employers to assess new college graduates...",
-      "_translation_skipped": true,
-      "title_zh": "‘A’ Grades Are Suddenly Everywhere Since the Arrival of ChatGPT",
-      "summary_zh": ""
+      "summary_en": "AI is accelerating grade inflation, research indicates, and making it harder for employers to assess new college graduates....",
+      "title_zh": "ChatGPT 問世後，「A」等成績突然隨處可見",
+      "summary_zh": "研究顯示，AI 正加速成績通膨，使雇主更難評估新畢業的大學生..."
     },
     {
       "title_en": "Tech, Media & Telecom Roundup: Market Talk",
       "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-12312558?mod=rss_Technology",
       "summary_en": "Find insight on Deutsche Telekom, Nebius, Constellation Software and more in the latest Market Talks covering technology, media and telecom....",
-      "_translation_skipped": true,
-      "title_zh": "Tech, Media & Telecom Roundup: Market Talk",
-      "summary_zh": ""
+      "title_zh": "科技、媒體與電訊摘要：市場觀察",
+      "summary_zh": "在最新的市場觀察中獲取關於德國電信、Nebius、Constellation Software 等科技、媒體與電訊領域的見解..."
     },
     {
       "title_en": "Tencent’s Core Businesses Help Cushion Burden of Intensified AI Push",
       "url": "https://www.wsj.com/business/earnings/tencent-maintains-double-digit-profit-growth-amid-intensified-ai-investment-7847e010?mod=rss_Technology",
       "summary_en": "Tencent Holdings extended its streak of double-digit profit growth in the first quarter....",
-      "_translation_skipped": true,
-      "title_zh": "Tencent’s Core Businesses Help Cushion Burden of Intensified AI Push",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Walmart Lays Off or Relocates About 1,000 Corporate Workers",
-      "url": "https://www.wsj.com/business/retail/walmart-layoffs-relocates-technology-jobs-23bbf322?mod=rss_Technology",
-      "summary_en": "The retailer is cutting positions as it combines more of its global-tech and product teams....",
-      "_translation_skipped": true,
-      "title_zh": "Walmart Lays Off or Relocates About 1,000 Corporate Workers",
-      "summary_zh": ""
+      "title_zh": "騰訊核心業務協助緩衝強化 AI 佈局帶來的負擔",
+      "summary_zh": "騰訊控股在第一季度延續了其兩位數利潤增長的勢頭..."
     }
   ],
   "deep_analysis": {
@@ -480,62 +430,70 @@
       ]
     },
     "Culpium": {
-      "title": "CASCI Composite Shows AI Chip Strength as Mid-Stream Output Slows / CASCI 指數顯示 AI 晶片上游強勁，但中游產出開始放緩",
+      "title": "AI Flash Boys, Pulling Wool, and China's Fight to Catch the US / AI 閃電男孩、薅羊毛與中國追趕美國的 AI 戰役",
       "source": "Culpium",
-      "article_date": "2026-05-11",
-      "url": "https://www.culpium.com/p/casci-composite-shows-ai-chip-strength",
-      "analysis_zh": "本文來自資深科技產業分析師 Tim Culpan 所主理的《Culpium》。作者透過分析其獨家編製的「Culpium AI 供應鏈指數」（CASCI）於 2026 年 4 月的最新數據，精準點出一個反直覺的產業現象：儘管 AI 上游晶片與零組件動能依然強勁，但中下游供應鏈的擴張速度已經明顯放緩。作者以此推演，這可能是 AI 伺服器整體爆發性成長即將迎來喘息甚至停滯的早期訊號。\n\n### 全文大意摘要：\n這篇文章詳細分析了 2026 年 4 月份的 CASCI（Culpium AI Supply Chain Index）指數結構與表現。該綜合指數在 4 月達到了 137.8 點的歷史新高，較前月加速成長了 2.1 點，但其內部組成卻出現了顯著的兩極化發展。一方面，位處上游的半導體、材料與被動元件供應商的成長動能持續飆升，顯示 AI 伺服器的核心基礎零件仍有大量產品被持續推入供應鏈通道中。然而另一方面，位處中游的模組廠、機架與機構件、以及散熱系統製造商的擴張速度，卻滑落至 2025 年 4 月以來的最低點；下游負責系統整合與最終組裝的企業，其成長率也呈現持平，是數月來最平淡的表現。此外，負責建廠與設備供應的「產能」指標也出現了顯著弱化。整體而言，中下游與產能擴建的疲軟，為市場亮起了 AI 伺服器成長可能即將面臨暫停的黃燈。\n\n### 戰略背景與脈絡：\n要深刻理解這份指數報告的戰略意義，必須先釐清台灣在全球 AI 供應鏈中不可替代的「咽喉點（Chokepoint）」地位。CASCI 指數的核心編製基礎，是追蹤台灣 AI 運算供應鏈相關企業的營收表現。台灣企業不僅包辦了全球最頂尖的晶圓代工，更掌握了 AI 伺服器中游（如伺服器機殼、液冷與氣冷散熱模組）到下游（如廣達、緯創、鴻海等系統組裝廠）的絕大部分全球市佔率。在過去幾年 AI 基礎設施狂飆的週期中，華爾街與全球投資人往往只將目光鎖定在 Nvidia 等晶片設計巨頭的財報上；但實際上，一顆高算力的 GPU 必須搭配極致的散熱結構、特規的機架設計以及複雜的系統整合，才能真正在資料中心裡順利運轉。當供應鏈出現「上游過熱、中下游降溫」的不一致現象時，這往往不是單一節點的失誤，而是整體產業面臨物理建置瓶頸或長鞭效應（Bullwhip Effect）反噬的前兆。\n\n### 作者的核心推演與論點：\nTim Culpan 的推演邏輯建立在供應鏈不同節點之間的「傳導時間差」與「供需匹配度」之上。他敏銳地捕捉到一個核心矛盾：既然上游零件端依然呈現大規模的成長（意味著核心晶片與基板還在不斷出貨），為何直接負責將這些零件組裝成終端產品的中游機構件與下游整合商，其成長卻開始停滯？作者推論，這代表從上游推下來的產品，正在供應鏈的中段面臨消化不良。這可能是因為終端資料中心的建置進度落後，導致組裝廠暫時不需要拉進更多中游模組。作者進一步將目光放到「產能（Capacity）」這個反映長期資本支出趨勢的指標上。雖然建廠與設備入帳有其週期性，但產能供應商的顯著弱化，讓作者更有信心地推斷：製造商可能已經察覺到了終端拉貨的放緩，因此正在悄悄調整甚至延後其長期的產能擴張計畫。這兩者的結合，構成了「AI 伺服器成長將出現暫停」的核心論述。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n這項深度分析對整體科技市場與硬體技術發展路線具有深遠的警示意味。首先，在市場動態上，它打破了市場對 AI 基礎建設「直線型無限成長」的樂觀假設。如果下游組裝與中游散熱確實在放緩，未來幾個季度我們極可能會看到上游晶片端出現短期的庫存積壓。這意味著雲端巨頭（CSP）的資本支出轉換為實際算力的過程遇到了阻礙，這將促使投資人重新評估 AI 硬體公司的短期營收預期與估值。其次，從技術發展的角度來看，中游散熱與機架廠的成長放緩，強烈暗示了新一代高功耗 AI 晶片在實際導入資料中心時，正面臨嚴峻的物理限制。這包含了電力供應不足、液冷基礎設施建置難度過高、以及資料中心空間規劃的瓶頸。長遠來看，這將迫使整個 AI 產業鏈將研發重心從單純的「提升單晶片算力」，加速轉向「提升能源效率與基礎設施升級」。這也可能引發地緣政治層面對於能源調度與基礎電力設施建設的全新一輪競爭，因為未來誰能提供最穩定的大規模綠電與基礎設施，誰才能真正將 AI 晶片轉化為國家級的運算霸權。",
+      "article_date": "2026-05-13",
+      "url": "https://www.culpium.com/p/ai-flash-boys-pulling-wool-and-chinas",
+      "analysis_zh": "本文來自科技專欄 Culpium，探討在美國對中實施 AI 技術封鎖的現況下所衍生的地下算力套利產業。文章一針見血地點出，中國市場對 OpenAI 與 Anthropic 等頂尖美國模型的強勁需求，正驅動著「AI 閃電男孩（AI Flash Boys）」灰黑產的崛起，這也直接戳破了中國本土模型已完全追平美國的假象。\n\n### 全文大意摘要：\n\n本文揭露了在美國 AI 企業主動封鎖中國 API 存取權的背景下，中國內部如何催生出被稱為「中轉站（Transfer Stations）」的服務供應商。這些業者利用設置於新加坡、馬來西亞或美國的海外實體連線繞過企業防火牆，將頂尖的美國 AI 模型算力偷渡回中國市場，並支援支付寶、微信支付等當地慣用的電子系統結帳。這些中轉站不僅透過各類促銷方案、企業批量優惠來「薅羊毛」大幅壓低取得成本，甚至祭出快取蒸餾（Cache Distillation）與「偷換標頭（Header-swapping）」等欺詐手法，用便宜的中國模型偽裝成頂級美國模型來牟取暴利。這種套利行為的猖獗，證明了中國使用者與開發者在實務上依然高度依賴美國的先進技術。\n\n### 戰略背景與脈絡：\n\n自 2024 年以來，包含 OpenAI 與 Anthropic 等美國領頭羊，基於國家安全考量以及防止競爭對手進行「模型蒸餾（Model Distillation）」，陸續切斷了來自中國的 API 存取途徑。然而，這種單向的技術封鎖並未消滅市場需求，反而造就了嚴重的市場資訊與地理位置不對稱。正如傳統金融市場中，高頻交易員利用時間差與資訊落差進行無風險套利，AI 時代的「閃電男孩」則是利用地理封鎖與價格落差大賺一筆。值得注意的是，北京當局對這類「中轉站」採取了默許的態度，維持了一種「既不合法也不嚴打」的模糊地帶，這延續了中國在引進外國創新技術時一貫的實用主義作風。\n\n### 作者的核心推演與論點：\n\n作者推演指出，只要中美的 AI 模型能力依然存在實質差距（例如文中引述《紐約時報》報導，中國智庫甚至試圖向 Anthropic 索要未發布的強大模型 Mythos），且正常的獲取管道被阻斷，這個中轉站市場就會持續繁榮。作者進一步點出一個極具諷刺意味的發展：這場貓捉老鼠的遊戲，現在連美國內部的利益集團也想分一杯羹。包含孫宇晨（Justin Sun）投資的 B-AI，甚至是美國前總統川普家族旗下 World Liberty Financial 新推出的「World Router」，都在積極搶食這塊中轉大餅。這暗示了政治人物的公開制裁立場與私下商業利益可能完全脫鉤。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n\n在長期地緣政治博弈中，這種「封而不死」的現狀實際上符合中美雙方決策層目前的短期戰略利益。對川普政府等美方利益集團而言，維持表面上的制裁但放任灰色市場，既能對內展示抗中強硬姿態，又讓相關利益者能從中獲取龐大經濟利益；對北京當局來說，容忍中轉站能確保中國的科技與新創產業在本土 AI 模型真正成熟之前，不會在技術推進的關鍵期掉隊。然而，這對美國 AI 原廠的智財權保護及資安防護將構成嚴峻挑戰，未來中美圍繞著 AI 算力的交鋒，將從單純的官方政策制裁，演化成結合跨國洗錢、加密貨幣支付與資料造假的複雜地下經濟生態。",
       "insights": [
-        "市場往往過度關注上游 AI 晶片的出貨量，卻忽略了中游散熱與下游組裝放緩，這可能代表終端資料中心的基礎設施部署已經遭遇到物理空間或電力的硬性瓶頸。",
-        "當上游動能加速與中下游擴張創下一年新低同時發生時，這反映出供應鏈中段可能正在累積未消化的零組件庫存，打破了 AI 需求無極限的線性成長假設。",
-        "設備與廠房建設等『產能』指標的顯著弱化，暗示著代工製造商對於未來幾個季度的擴張計畫正轉趨保守，這可能是大型科技公司資本支出見頂的前期預警指標。"
+        "單向的 API 技術封鎖無法阻斷市場需求，反而催生出由政商利益集團把持的「算力走私」灰色產業，證明了目前中國本土 AI 模型仍難以實質取代美國頂尖模型。",
+        "中國政府對 AI 中轉站的默許是一種精算的實用主義戰略：既實質引進美國頂尖 AI 能力以維持研發動能，又無須合法化外國科技巨頭，且隨時保留了以監管名義掐斷存取的主動權。",
+        "川普家族企業等美國本土利益集團涉足 AI 中轉站業務，暗示未來的美國科技禁令可能走向「檯面制裁、私下套利」的雙軌制，而非絕對的實體與算力斷供。"
       ],
       "supplemental_sources": [
         {
-          "title": "Apple Mobile Processors Are Now Made in America. By TSMC",
-          "url": "https://www.culpium.com/p/apple-mobile-processors-are-now-made"
+          "title": "ChinaTalk: How to Buy Cheap Claude Tokens in China",
+          "url": "https://www.chinatalk.media/p/how-to-buy-cheap-claude-tokens-in"
         },
         {
-          "title": "Apple is Fighting for TSMC Capacity as Nvidia Takes Center Stage",
-          "url": "https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc"
+          "title": "The New York Times: China Asked Anthropic for Access to Powerful AI",
+          "url": "https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html?unlocked_article_code=1.h1A.RkHx.NmphJa27LItP&smid=nytcore-ios-share"
         },
         {
-          "title": "TSMC Arizona Outage Saw Fab Halt, Apple Wafers Scrapped",
-          "url": "https://www.culpium.com/p/tsmc-arizona-outage-saw-fab-halt"
+          "title": "Binance Square: Inside Justin Sun's Vision for AI on Blockchain",
+          "url": "https://www.binance.com/en/square/post/04-23-2026-inside-justin-sun-s-lawsuit-against-world-liberty-financial-and-his-vision-for-ai-on-blockchain-315669189954002"
+        },
+        {
+          "title": "Reuters: China's customs agents told Nvidia's H200 chips are not permitted",
+          "url": "https://www.reuters.com/world/china/chinas-customs-agents-told-nvidias-h200-chips-are-not-permitted-sources-say-2026-01-14"
+        },
+        {
+          "title": "Interconnected Capital (Kevin Xu's Observation on API Bans)",
+          "url": "https://x.com/kevinsxu/status/1805640636810326028?s=20"
         }
       ]
     },
     "SemiAnalysis": {
-      "title": "The EDA Primer: From RTL to Silicon / 電子設計自動化（EDA）基礎指南：從 RTL 到矽晶片",
+      "title": "Cerebras — Faster Tokens Please / Cerebras 的逆襲：AI 推論邁向「極速 Token」時代的戰略與隱患",
       "source": "SemiAnalysis",
-      "article_date": "2026-05-12",
-      "url": "https://newsletter.semianalysis.com/p/the-eda-primer-from-rtl-to-silicon",
-      "analysis_zh": "本文來自知名半導體產業分析機構 SemiAnalysis，由科技產業分析師 Gerald Wong、Dylan Patel 與 Sravan Kundojjala 共同撰寫。文章深度剖析了電子設計自動化（EDA）的基礎流程與戰略價值，點出在 AI 晶片需求爆發、電晶體密度急遽攀升的當下，EDA 工具如何成為彌合「晶片複雜度」與「工程師生產力」巨大落差的唯一解方，並詳細拆解了從硬體描述語言（RTL）到最終矽晶片產出的複雜工作流程。\n\n### 全文大意摘要：\n\n本文是一篇全面涵蓋現代晶片設計流程的基礎與實務指南。作者指出，隨著 AI 加速器等先進晶片設計日益複雜（例如 AMD MI455X 採用先進封裝技術且包含超過三千億個電晶體），加上硬體工程人才短缺與產品上市時間被嚴格壓縮的雙重壓力，晶片設計階段已成為產業最關鍵的瓶頸。文章追溯了 EDA 產業從 1970 年代人工手繪切割 Rubylith 遮罩，到如今由 Synopsys、Cadence、Siemens EDA（EDA 御三家）主導軟體驅動市場的演進史。接著，文章系統性地拆解了晶片設計的「瀑布式（Waterfall）」13 個階段流程，涵蓋從初期的架構規劃（Planning）、撰寫系統級描述語言（RTL Design）、佔據龐大資源的驗證（Verification）、凍結設計（RTL Freeze），再到依賴晶圓廠製程設計套件（PDK）與標準單元庫（Standard Cell Libraries）的物理設計（Physical Design）、簽核（Signoff）、最終的下線（Tapeout）與封裝測試。整篇文章清楚地展示了 EDA 工具如何將抽象的人類邏輯精準轉換為物理世界中可製造的矽晶片。\n\n### 戰略背景與脈絡：\n\n當前半導體產業正處於「算力爆炸」與「物理製造極限」相互碰撞的歷史節點。在戰略大背景上，AI 訓練與推理需求的急遽擴張，正推動先進邏輯晶片向 2 奈米以下節點及 3D 先進封裝邁進。然而，根據作者指出的驚人數據：晶片複雜度每年以 50% 的速度狂飆，但設計生產力的年增長率卻僅有 20%。這個日益擴大的「生產力鴻溝」意味著每一個新世代的晶片開發都需要指數級增長的人力與運算資源。更嚴峻的是社會結構因素：美國有三分之一的半導體從業人員年齡超過 55 歲，而多數年輕工程人才被高薪且工時彈性的軟體系統產業吸引，導致硬體工程師（特別是負責抓漏的驗證工程師）出現嚴重斷層。這使得頂尖晶片公司無法單靠「無限制增加人手」來解決設計挑戰，必須極度仰賴更強大的自動化工具與設計方法論。EDA 產業因此成為半導體供應鏈中最具槓桿效應、也是最不容忽視的軟體基礎設施。可以說，如果沒有 EDA 工具的突破，摩爾定律早在數十年前就已實質終結。\n\n### 作者的核心推演與論點：\n\n作者透過技術流程的詳細拆解，推導出三個支撐現代晶片產業運作的核心論點：\n\n第一，「驗證（Verification）」才是晶片設計真正的魔王關。作者指出，設計一顆晶片相對容易，但「證明它在所有潛在極端情境下都能正確運作」卻極度困難。由於在先進製程中，一次光罩重製（Respin）的成本高達數千萬美元並會導致長達數個月的延遲（意味著錯失幾十億美元的市場），因此驗證階段已吞噬高達 70% 的專案開發時間。工程師必須結合 UVM 隨機約束模擬（Simulation）與形式驗證（Formal Verification）來防堵任何致命的邏輯缺陷。\n\n第二，晶圓廠提供的製程設計套件（PDK）是維繫無晶圓廠（Fabless）與代工廠之間合作的「商業與技術契約」。PDK 將極度複雜的量子效應、材料科學與幾何限制，抽象化為 EDA 工具可讀懂的規則（如 SPICE 模型與設計規則 DRC）。更重要的是，PDK 存有嚴格的階級授權制度（Tier 1 到 Tier 4），頂級客戶如蘋果或輝達能提早數年取得 PDK 0.1 版本參與製程定義，而低階客戶只能被動接受最終版，這凸顯了晶片設計不僅是技術挑戰，更具有高度特權的商業壁壘。\n\n第三，晶片設計與物理製造的邊界正在模糊化。過去傳統「先設計、再丟給晶圓廠製造」的線性流程，已被「設計與技術協同最佳化（DTCO）」及「系統與技術協同最佳化（STCO）」取代。為了在摩爾定律放緩的現狀下繼續榨出效能、功耗與面積（PPA）紅利，頂尖晶片商必須在製程研發的第一天就深度介入佈局路由（Place and Route）的微調，而 EDA 工具提供的「左移（Shift Left）」一體化分析能力，是推動這種極致優化流程的關鍵引擎。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n\n在技術發展層面，EDA 工具的運算能力已直接決定了人類晶片效能的推進上限。隨著電晶體架構轉向環繞式閘極（GAA）、背後供電網（Backside Power Delivery）以及多晶片異質整合（Chiplet），設計空間的維度呈指數級增加。傳統的人工經驗法則已不敷使用，將 AI 模型導入設計空間探索（DSO），甚至最終實現「用 AI 加速器自動設計下一代 AI 加速器」，將是整個半導體產業無可避免的革命性技術路線。\n\n在市場結構層面，Synopsys、Cadence 與 Siemens EDA 形成的「御三家」寡占格局將持續異常穩固。EDA 軟體的轉換成本極高，它涵蓋了工程團隊數十年的機構知識、客製化腳本與開發習慣，且三巨頭與台積電、Intel 等晶圓代工廠的 PDK 達成深度綁定，這構築了幾乎難以被顛覆的護城河。隨著晶片設計門檻不斷被墊高，中小型晶片設計公司將越來越難以負擔從零開發的成本，必然更依賴這三家公司所提供的標準化 IP 與一體化設計流程。\n\n在地緣政治層面，EDA 軟體是西方掌控全球半導體供應鏈的最強大且最隱蔽的「咽喉點（Choke Point）」。由於最先進製程的 PDK 數據庫與尖端晶片佈局佈線的複雜演算法，皆牢牢掌握在美歐企業與頂尖晶圓廠手中，任何被切斷 EDA 工具合法授權的國家或企業，都將瞬間失去設計現代高階系統單晶片（SoC）的能力。即便開源 EDA 專案（如 SKY130）能在教育界與舊製程上發揮作用，但在攸關國力的 AI 與高效能運算（HPC）領域，擺脫現有 EDA 巨頭仍是遙不可及的任務。EDA 不僅僅是一套商業軟體，它已是大國科技戰略博弈中最底層的核子武器。",
+      "article_date": "2026-05-13",
+      "url": "https://newsletter.semianalysis.com/p/cerebras-faster-tokens-please",
+      "analysis_zh": "本文出自頂尖半導體與 AI 產業研究機構 SemiAnalysis，由 Dylan Patel 及其團隊撰寫。文章深入剖析了晶圓級晶片新創 Cerebras 的技術架構、優劣勢，以及其與 OpenAI 簽署高達 246 億美元巨額算力協議背後的商業邏輯與技術權衡。\n\n### 全文大意摘要：\n文章全面解析即將迎來 IPO 的 Cerebras 及其第三代晶圓級晶片（WSE-3）。過去幾年，以 GPU 為主的 HBM 架構憑藉高吞吐量統治了 AI 訓練與推論市場，Cerebras 專注於極限速度的 SRAM 架構一度被忽視。然而，隨著 Claude 等前沿模型推出「高速推論模式（Fast Mode）」，市場證明了當模型能力跨過一定門檻後，開發者願意為「極速 Token 生成」支付高昂溢價。這股對互動速度的強烈需求，促成了 OpenAI 與 Cerebras 簽下 750MW 的算力大單。文章不僅拆解了 CS-3 系統的硬體 BOM 成本、水冷散熱與供電設計，更犀利地指出其晶圓級架構在面對未來兆級參數模型與超長上下文（Context Window）時，將遭遇 SRAM 微縮停滯與對外網路 I/O 極低的致命物理天花板。\n\n### 戰略背景與脈絡：\n在 AI 算力基礎設施的演進中，Nvidia 透過 HBM 與 NVLink 組建的高頻寬網路選擇了「大巴車（Bus）」路線：犧牲單一用戶的極限延遲，追求批次處理（Batching）的最大吞吐量以極大化利潤。相對地，Cerebras 與 Groq 則選擇了「法拉利（Ferrari）」路線，利用全 SRAM 架構換取無與倫比的記憶體頻寬，專注於單一序列的極速推論。過去，這種架構因無法裝載大模型而不被主流青睞；但進入 2026 年，以代理工作流（Agentic Workflow）為主導的應用大爆發，極致的互動速度成為維持開發者「心流」的關鍵。當 OpenAI 推出 120B 參數的蒸餾模型「GPT-5.3-Codex-Spark」，並在 Cerebras 跑出每秒 2000 個 Token 的驚人速度時，這種「硬軟體協同設計（Hardware-Software Co-design）」正式確立了極速推論晶片在特定場景下的不可替代性。\n\n### 作者的核心推演與論點：\n作者從「算術強度（Arithmetic Intensity）」切入，推演出 Cerebras 必勝的數學基礎。WSE-3 擁有高達 44GB 的片上 SRAM，使其在處理低算術強度的推論解碼任務時，能釋放完整的 15.6 PFLOPS 算力，而同等任務下 Nvidia GPU 會因 HBM 頻寬不足而陷入運算閒置。然而，作者也殘酷揭露了 WSE-3 的結構性缺陷：為了維持晶圓級光刻的對齊與一致性，Cerebras 無法在晶片內部隨意插入高頻寬的 I/O 介面，導致一整塊晶圓的對外頻寬（僅 150 GB/s）遠遜於單張 GPU。此外，台積電 5 奈米以下的 SRAM 幾乎已停止微縮，這表示 Cerebras 未來增加記憶體容量的唯一解法就是犧牲運算面積。這意味著面對動輒百萬 Token 且高度依賴 KV Cache 的新一代模型，Cerebras 若要跨晶圓切分模型，極慢的 I/O 延遲將完全抵銷其引以為傲的運算速度。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n這場技術路線的交鋒將深刻重塑 AI 雲端服務的商業模式。Cerebras 與 OpenAI 的深度綁定（包含 10 億美元貸款、極具戰略意義的認股權證與保底算力採購），不僅是 Cerebras 衝刺 IPO 的最強底氣，更暗示 OpenAI 正積極打造擺脫 Nvidia 絕對控制的「備案」——透過蒸餾小模型搭配極速硬體，在程式碼生成與代理應用領域切出一塊高毛利的專屬市場。長期來看，這會促使 AI 模型部署走向「雙軌制」：複雜推理交給依賴 GPU 叢集的兆級前沿模型，高頻實時的代理互動則交給專門針對 SRAM 機器優化的中型模型。不過，Cerebras 在 SRAM 容量與網路頻寬上的困境也表明，若無法在光學 I/O 晶圓級混合鍵合（Hybrid Bonding）上取得突破，其極速神話可能將被困在中小型模型的舒適圈，難以真正撼動 GPU 泛用算力的霸主地位。",
       "insights": [
-        "晶片設計的最大挑戰並非架構創新，而是「證明架構不會出錯」；在一次失誤代價高達數千萬美元的壓力下，驗證階段吞噬了高達 70% 的專案資源，成為晶片開發真正的瓶頸。",
-        "晶圓代工廠提供的 PDK 本質上是高度階級化的商業屏障，它抽象化了物理製造的機密，同時也殘酷地決定了哪些 Tier 1 頂級客戶能提早數年取得決定性的市場競爭優勢。",
-        "晶片複雜度年增 50% 與設計生產力年增 20% 之間存在巨大的「生產力鴻溝」，這意味著導入 AI 進行佈局與協同最佳化（DTCO/STCO）已不是選項，而是半導體產業維持摩爾定律的唯一存活路徑。"
+        "市場需求的典範轉移：當 AI 模型智力跨越特定閾值後，開發者對『極速 Token』的付費意願遠高於對『邊際智力提升』的追求，直接催生了 SRAM 推論晶片的商業爆發。",
+        "算力擴展的結構性兩難：晶圓級晶片（WSE）成就了極高的內部通訊頻寬，但也因光刻對齊的物理限制，導致對外 I/O 頻寬極低，難以透過多晶片互聯高效處理超大模型與長上下文。",
+        "SRAM 微縮停滯的致命傷：在台積電 5 奈米以下，SRAM 幾乎已停止微縮，這讓高度依賴 SRAM 面積的 Cerebras 面臨嚴苛的零和博弈，未來極其仰賴晶圓級 3D 光學封裝等未成熟技術的突破。"
       ],
       "supplemental_sources": [
         {
-          "title": "What is Design Space Optimization (DSO) - Synopsys",
-          "url": "https://www.synopsys.com/glossary/what-is-design-space-optimization.html"
+          "title": "OpenAI: Introducing GPT-5.3-Codex-Spark",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark"
         },
         {
-          "title": "The Dark Side of the Semiconductor - SemiAnalysis",
-          "url": "https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor"
+          "title": "Claude Code is the Inflection Point",
+          "url": "https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point"
         },
         {
-          "title": "Advanced Packaging Part 1: Pad Limited - SemiAnalysis",
-          "url": "http://newsletter.semianalysis.com/p/advanced-packaging-part-1-pad-limited"
+          "title": "Nvidia: The Inference Kingdom Expands",
+          "url": "https://newsletter.semianalysis.com/p/nvidia-the-inference-kingdom-expands"
         },
         {
-          "title": "Next Gen Interconnects: Samsung Ruthenium (IEDM 2025) - SemiAnalysis",
-          "url": "https://newsletter.semianalysis.com/i/184077729/next-gen-interconnects-samsung-ruthenium"
+          "title": "SemiAnalysis Tokenomics Model",
+          "url": "https://semianalysis.com/tokenomics-model"
         },
         {
-          "title": "Wafer Space: Open-Source Custom Silicon",
-          "url": "https://wafer.space"
+          "title": "InferenceX Benchmark",
+          "url": "https://inferencex.semianalysis.com"
         }
       ]
     },
@@ -574,24 +532,36 @@
       ]
     },
     "a16z": {
-      "title": "\"No Man Left Behind\": American Technology Ships with Our Values / 「不拋棄任何一人」：美國科技承載著我們的價值觀",
+      "title": "Is Software Losing Its Head? / 軟體正在失去「大腦」（UI介面）嗎？AI 代理時代的系統護城河轉移",
       "source": "a16z",
-      "article_date": "2026-05-11",
-      "url": "https://www.a16z.news/p/no-man-left-behind-american-technology",
-      "analysis_zh": "本文來自美國頂尖創投 a16z（Andreessen Horowitz），未署名特定作者，代表了該機構在國防科技與國家戰略領域的核心觀點。文章直指，發展軍用 AI 與自主武器系統並非單純的軍備競賽，而是源自美國「不拋棄任何一人（no man left behind）」的深刻道德義務，呼籲美國必須在無人機的「品質」與「數量」上全面超越對手，以維持強大的戰略嚇阻力。\n\n### 全文大意摘要：\n文章探討了美國在自動化戰爭（autonomous warfare）時代的戰略與道德定位。傳統觀念常擔憂 AI 武器會降低戰爭門檻或消除殺戮的心理障礙，但 a16z 認為這是一種誤解。從歷史上看，軍事科技的發展軌跡就是不斷拉長「武器與目標之間的距離（standoff）」，從標槍、步槍、轟炸機到核武皆是如此，目的都是為了減少己方傷亡。在現代戰場中，無人機與自主系統不僅能執行精準打擊，更能負責傷患撤離與危險區偵察。作者強調，民主國家若有能力用機器代替士兵涉險卻選擇不用，就是違背了對國民的承諾。因此，美國必須重構國防採購體系，大量生產可消耗的自主武器，以確保在未來的衝突中擁有絕對優勢。\n\n### 戰略背景與脈絡：\n當前全球軍事科技正經歷典範轉移，俄烏戰爭已清楚展示了廉價、大量的無人機（如 FPV）如何徹底改變戰場規則，讓步兵單位能以極低成本取得精準打擊能力。然而，美國過去五十年的國防採購體系高度傾斜於「量少質精且昂貴」的大型載台（如 F-35 戰機），這在無人機飽和的現代戰場上面臨嚴峻挑戰。與此同時，中國正憑藉龐大的製造業基礎，展現出遠超北約總和的無人機產能。這篇文章正是站在這個歷史轉折點上，試圖為美國國防工業的轉型——從追求單一完美武器，轉向擁抱大量「可消耗（attritable）」的自主系統——提供強而有力的道德與戰略論述。\n\n### 作者的核心推演與論點：\n作者從三個層次進行推演。首先，駁斥「AI 會引發戰爭」的迷思：決定開戰的是政治領袖而非扣扳機的士兵，拉長交戰距離並不會改變高層的決策邏輯；相反地，擁有不對稱的壓倒性武力（如冷戰時期的核武）更能產生實質的和平嚇阻。其次，提出歷史對照：以 1945 年硫磺島戰役為例，當年美軍付出了 2.6 萬人傷亡的慘痛代價；若換作現代 AI 無人機蜂群，只需透過微型無人機深入地下隧道清剿，甚至完全不需要進行代價高昂的搶灘登陸。最後，點出美國目前的困境：美國在 AI 演算法、感測器融合等「品質」層面擁有絕對優勢，但在「數量（量產能力）」上卻大幅落後。美國必須將無人機視為「彈藥」而非「航母」來採購，才能補足產能短板。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n在技術與市場發展上，這預示了國防科技產業（Defense Tech）的巨大轉變。政府預算將逐漸從傳統軍工巨頭的昂貴載台，轉移至能快速迭代、具備強大軟體能力且能低成本量產的新創企業。在技術發展上，邊緣運算、感測器融合、無 GPS 環境下的自主導航，以及無人機蜂群的協同 AI，將成為未來十年的投資與研發核心。在地緣政治層面，這是一場針對印太地區（尤其是台海與南海）的直接警告：若中國在自主武器上取得壓倒性優勢，解放軍將能輕易癱瘓對手的指揮與後勤節點，甚至在不動用傳統兩棲登陸的情況下瓦解防禦意志。美國唯有建立強大的自主武器產能，將「透過實力維持和平（Peace through Strength）」落實於預算與生產線上，才能確保未來的國際規則不被專制政權改寫。",
+      "article_date": "2026-05-13",
+      "url": "https://www.a16z.news/p/is-software-losing-its-head",
+      "analysis_zh": "本篇深度分析源自頂尖創投 a16z 發布的專欄文章（內文鳴謝 @astrange 的共同推演）。文章以 SaaS 巨頭 Salesforce 近期開放 API 並推出「無頭（Headless）」產品的舉動為切入點，探討在 AI 代理（AI Agents）崛起的時代，當企業軟體不再依賴人類操作的 UI 介面時，企業級「紀錄系統（System of Record, SoR）」的商業護城河與戰略防禦力將發生何種根本性的板塊位移。\n\n### 全文大意摘要：\n傳統 SaaS 時代，企業軟體的價值與黏著度高度建立在人類對 UI 介面的依賴上。諸如 CRM 或 ERP 系統透過介面強迫員工輸入資料，進而形成企業內部無法輕易替換的肌肉記憶與標準作業流程（SOP）。然而，隨著具備強大推理能力的 AI 代理以及標準化工具介面（如 Model Context Protocol, MCP）的普及，代理程式可以直接透過 API 讀寫底層資料庫，完全繞過了 UI 介面層。Salesforce 意識到了這一點，開始將其 API 重新包裝為無頭產品，押注未來的軟體價值將存在於底層資料而非前端介面。本文深入剖析了在此技術轉變下，哪些過去的 SaaS 護城河將迅速瓦解，哪些會被保留，以及 AI 原生新創應該如何圍繞著「行動層」、「獨特數據生成」與「實體世界執行力」建立全新的戰略防禦優勢。\n\n### 戰略背景與脈絡：\n過去二十年，軟體即服務（SaaS）的商業模式奠基於「賣座位（Seats）」給終端使用者。在這套邏輯中，UI 不僅是功能的展示窗，更是強迫企業維持資料衛生（Data Hygiene）、建立跨部門共同語言（如 Leads, Opportunities）的管理工具。企業難以更換系統，往往是因為「員工已經習慣了這套介面」。然而，這種基於人類偏好與習慣的防禦機制正遭受毀滅性打擊。大語言模型（LLM）的推理能力躍升，加上 AI 呼叫外部工具的標準協議確立，讓軟體的無頭化（Headless）操作成為現實。更甚者，「能直接操作電腦的代理（Computer-using agents）」連 API 都不需要，就能直接穿透傳統介面執行跨系統任務。在這樣的背景下，企業買方如今面臨三種技術路線分歧：繼續沿用現有系統並外掛代理、完全自主開發資料庫與代理架構，或是直接購買專為代理時代設計的全新 AI 原生系統。這不僅是技術堆疊的單純替換，更是軟體產業定價權、商業模式與價值捕獲（Value Capture）節點的徹底重分配。\n\n### 作者的核心推演與論點：\n作者精準地解構了軟體護城河的變遷，將其劃分為「消退的舊優勢」、「留存的舊壁壘」與「全新的防禦支柱」。首先，基於人類操作的優勢（如高頻存取習慣、UI 介面黏著度）將迅速消退。但有三項舊有護城河依然堅固：第一是「未文件化的 SOP」，這包含了隱含的企業商業邏輯與簽核權限，是 AI 代理安全運作必備的上下文；第二是「跨系統連通性」，因為代理程式需要縫合跨越銷售、財務、客服的資料孤島；第三是「合規關鍵資料」，如 ERP 或薪資系統涉及嚴格的審計與法律責任，這種「信任架構」的轉移極度困難。\n\n針對未來的戰略佈局，作者提出 AI 時代系統防禦力的五大新支柱：\n一是「獨有數據的生成」，未來的防禦力不在於你能匯入多少資料，而是系統透過參與工作流，能產生多少獨特的行為回饋與代理執行軌跡（Data Exhaust）。\n二是「掌握行動層（Action Layer）」，系統必須形成從決策到執行的閉環，而不僅僅是作為儲存紀錄的觀測站。\n三是「實體世界的執行力」，當軟體的價值延伸至物流、現場服務、派遣或支付等無法被純程式碼完全取代的實體節點時，其護城河將無比深厚。\n四是「多方網路效應」，在代理時代，軟體若能成為買賣方、審計方等多個外部實體協作與信任機制的樞紐，將比單純的內部工具更難被拔除。\n五是「買方技術能力」，鎖定那些營運極度複雜但缺乏強大自建 IT 工程能力的傳統垂直產業（如製造業、營建業、現場服務），他們依然需要一體化的現成解決方案，而非自行拼湊開源代理架構。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n從技術與市場發展來看，企業軟體的底層本體論（Ontology）將迎來十年一遇的重構。過去圍繞著「商機」、「工單」或「候選人」所設計的關聯式資料庫，將逐步轉變為以「任務（Tasks）」、「意圖（Intents）」、「策略（Policies）」與「成果（Outcomes）」為核心的架構。權限管理也將從「人類職位角色」轉向對「代理程式邊界、例外處理與審計軌跡」的管控。\n\n在競爭動態上，市場將爆發一場激烈的「資料提取與防禦戰」。傳統軟體巨頭為了守住價值，勢必會透過調高 API 費率、限制存取權限來防堵資料外流；而新創企業則會利用更強大的 AI 代理與螢幕解析技術強行提取資料，降低系統轉換成本（前 80% 的系統重建將變得異常廉價）。然而，真正決定勝負的戰場將轉移至那無法被輕易複製的 20%：包括邊緣案例處理、跨組織信任網路，以及深入實體世界供應鏈的調度能力。從地緣政治與監管視角來看，當 AI 代理接管了越來越多的企業核心決策、財務流動與合規資料，各國政府對於企業級 AI 系統的資料落地、存取溯源與審計要求必將大幅攀升，這將進一步鞏固那些已經掌握「合規信任層」軟體公司的市場支配地位，並為企圖顛覆市場的 AI 新創設下極高的監管門檻。",
       "insights": [
-        "發展自主武器不僅是技術競賽，更是民主國家的道德義務：當機器能代替人類執行致命或危險任務時，拒絕使用機器等同於違背了保護士兵生命的社會契約。",
-        "決定戰爭爆發的門檻在於政治領袖的決策，而非第一線士兵開槍的心理壓力；因此，無人機與 AI 不會降低開戰門檻，反而能透過不對稱優勢產生強大的戰略嚇阻力。",
-        "美國國防採購體系必須進行根本性重構，將無人機等自主系統視為「消耗品（彈藥）」而非「耐久財（航母）」，以補足產能劣勢對抗中國製造業規模。"
+        "軟體介面（UI）過去是 SaaS 產品黏著度的核心，但在 AI Agent 時代，代理程式不需要介面，企業軟體的護城河將從「人類肌肉記憶」下移至資料與工作流邏輯，並上移至實體世界的執行力。",
+        "純粹被動儲存資料的「紀錄系統（SoR）」將失去防禦力，未來的競爭優勢在於能否「擁有行動層（Action Layer）」，形成從執行決策到產生獨特數據反饋的閉環。",
+        "當任何人都能輕易使用 AI 提取資料並建立專屬代理程式時，真正的商業壁壘反而建立在無法被輕易自動化的「多方網路效應」與牽涉「實體世界最後一哩路（如物流、現場服務）」的營運節點上。"
       ],
       "supplemental_sources": [
         {
-          "title": "S. L. A. Marshall",
-          "url": "https://en.wikipedia.org/wiki/S._L._A._Marshall"
+          "title": "Systems of Record",
+          "url": "https://www.arampell.org/2026/04/27/systems-of-record"
         },
         {
-          "title": "On Killing",
-          "url": "https://en.wikipedia.org/wiki/On_Killing"
+          "title": "Why the world still runs on SAP",
+          "url": "https://www.a16z.news/p/why-the-world-still-runs-on-sap"
+        },
+        {
+          "title": "The rise of computer use and agentic coworkers",
+          "url": "https://a16z.com/the-rise-of-computer-use-and-agentic-coworkers"
+        },
+        {
+          "title": "Come for the tool, stay for the network",
+          "url": "https://cdixon.org/2015/01/31/come-for-the-tool-stay-for-the-network"
+        },
+        {
+          "title": "Fruits of the walled garden",
+          "url": "https://a16z.com/fruits-of-the-walled-garden"
         }
       ]
     },
