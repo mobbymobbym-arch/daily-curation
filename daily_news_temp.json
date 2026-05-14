@@ -1,387 +1,417 @@
 {
-  "fetch_date": "2026-05-13",
+  "fetch_date": "2026-05-14",
   "techmeme": [
     {
-      "title_en": "Google has worked with Meta to improve Instagram on Android, adding Ultra HDR support and more, and with Apple to overhaul the iOS-to-Android transfer process",
-      "url": "https://www.zdnet.com/article/google-android-17-tempts-an-iphone-user/",
-      "summary_en": "ZDNET key takeaways — Google partnered with Meta and Apple to improve Android. — Adobe Premiere is launching on Android soon.",
-      "source": "ZDNET",
-      "media_source": "ZDNET",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 與 Meta 合作改進 Android 版 Instagram，新增 Ultra HDR 支援等功能；並與 Apple 合作徹底改革 iOS 到 Android 的移轉流程",
-      "summary_zh": "ZDNET 重點摘要：Google 與 Meta 和 Apple 合作改善 Android 體驗；Adobe Premiere 即將在 Android 上線。"
-    },
-    {
-      "title_en": "Google unveils Googlebook, its new laptop lineup featuring a unified OS merging ChromeOS and Android, with devices from Dell, HP, and others coming this fall",
-      "url": "https://www.zdnet.com/article/googlebook-news-premium-chromebook-for-android/",
-      "summary_en": "ZDNET's key takeaways — Googlebook is a new device line coming this fall. — It merges Android and ChromeOS for smoother phone-to-laptop use.",
-      "source": "ZDNET",
-      "media_source": "ZDNET",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 發表 Googlebook 全新筆電系列：搭載融合 ChromeOS 與 Android 的統一作業系統，Dell、HP 等品牌將於今年秋季推出",
-      "summary_zh": "ZDNET 重點摘要：Googlebook 是將於今年秋季推出的新裝置產品線，整合了 Android 與 ChromeOS，讓手機與筆電間的使用更順暢。"
-    },
-    {
-      "title_en": "Google unveils Gemini Intelligence, bundling existing and new Gemini features, including task automation across apps and letting users vibe-code Android widgets",
-      "url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-      "summary_en": "﻿We're one step closer to our phones just using themselves. … It is, once again, Gemini season.",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 發表 Gemini Intelligence：整合現有與全新的 Gemini 功能，包括跨應用程式任務自動化，並讓使用者能以 vibe-code 方式建立 Android 小工具",
-      "summary_zh": "我們離手機「自我運行」又更近了一步。Gemini 賽季再次來臨。"
-    },
-    {
-      "title_en": "Google DeepMind details a Gemini-powered mouse pointer that understands what it is pointing at, allowing users to perform tasks without using text-heavy prompts",
-      "url": "https://deepmind.google/blog/ai-pointer/",
-      "summary_en": "We are developing more seamless, intuitive ways to collaborate with AI — The mouse pointer has been a constant companion …",
-      "source": "Google DeepMind",
-      "media_source": "Google DeepMind",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google DeepMind 詳述由 Gemini 驅動的滑鼠游標：能理解所指內容，讓使用者無需使用繁重文字指令即可執行任務",
-      "summary_zh": "我們正在開發更無縫、更直覺的 AI 協作方式。滑鼠游標一直是我們不可或缺的夥伴。"
-    },
-    {
-      "title_en": "Google unveils a “full bleed” Android Auto design that fills unconventionally shaped screens like in the BMW Neue Klasse, plans to add YouTube video streaming",
-      "url": "https://www.theverge.com/tech/927759/android-auto-is-now-one-screen-size-fits-all",
-      "summary_en": "The phone projection system will now completely fill unconventionally shaped screens, in addition to a variety of other improvements.",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 發表 Android Auto「全螢幕」設計：可填滿如 BMW Neue Klasse 等特殊形狀螢幕，並計劃加入 YouTube 串流功能",
-      "summary_zh": "手機投影系統現在將能完全填滿特殊形狀的螢幕，此外還有一系列其他改進。"
-    },
-    {
-      "title_en": "Google launches Intrusion Logging, an Android feature developed in partnership with Amnesty International and others, on Android 16 Pixel devices for now",
-      "url": "https://cyberscoop.com/google-android-intrusion-logging-amnesty-spyware-detection/",
-      "summary_en": "",
-      "source": "CyberScoop",
-      "media_source": "CyberScoop",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 推出 Intrusion Logging 功能：與國際特赦組織等機構合作開發，首波支援搭載 Android 16 的 Pixel 裝置",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Musk v. Altman: Altman testified that in 2017 Musk demanded complete control of a proposed OpenAI for-profit arm, musing that he would pass it to his children",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/altman-testifies-about-hair-raising-ai-safety-chat-with-musk",
-      "summary_en": "OpenAI's Sam Altman testified that he was “extremely uncomfortable” with Elon Musk's insistence that he have complete control …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Musk 訴 Altman 案：Altman 出庭證實，Musk 曾在 2017 年要求完全控制擬議中的 OpenAI 營利部門，並考慮將其傳給子女",
-      "summary_zh": "OpenAI 執行長 Sam Altman 出庭證實，他對於 Elon Musk 堅持要求獲得完全控制權感到「極度不安」。"
-    },
-    {
-      "title_en": "Musk v. Altman: Altman faced an intense cross-examination from Musk's attorney, who asked “are you completely trustworthy?”; Altman replied “I believe so”",
-      "url": "https://www.businessinsider.com/sam-altman-faces-awkward-grilling-over-toxic-culture-of-lying-2026-5",
-      "summary_en": "",
-      "source": "Business Insider",
-      "media_source": "Business Insider",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Musk 訴 Altman 案：Altman 面對 Musk 律師的激烈交叉詰問，被問及「你完全值得信賴嗎？」；Altman 回答「我相信是的」",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Google announces Pause Point, an Android 17 feature that forces a mandatory 10-second pause before opening any app a user has labeled as a distraction",
-      "url": "https://techcrunch.com/2026/05/12/android-adds-a-feature-to-stop-you-from-doomscrolling/",
-      "summary_en": "An anti-doomscrolling feature is now built into Android. (Yes, things have gotten that bad.) — On Tuesday, Google announced Pause Point …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 宣布 Android 17 新功能 Pause Point：在開啟被標記為「分心來源」的應用程式前，強制暫停 10 秒",
-      "summary_zh": "Android 現在內建了「反無止盡滑動（anti-doomscrolling）」功能（是的，情況已經惡化到這種程度了）。Google 於週二宣布了 Pause Point 功能。"
-    },
-    {
-      "title_en": "Google unveils Android security features, including protection from spoofed banking calls, default theft protection, and biometric protection for Mark as lost",
-      "url": "https://www.androidauthority.com/android-security-features-2026-3665372/",
-      "summary_en": "",
-      "source": "Android Authority",
-      "media_source": "Android Authority",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 發表 Android 安全功能：包括防止詐騙銀行電話、預設防盜保護，以及「標記為遺失」的生物辨識保護",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "eBay rejects GameStop's $56B takeover offer, saying the unsolicited bid is “neither credible nor attractive”, in a letter from eBay Chairman Paul Pressler",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/ebay-rejects-gamestop-s-56-billion-takeover-as-not-credible",
-      "summary_en": "EBay Inc. rejected a $56 billion takeover offer from GameStop Corp. Chief Executive Officer Ryan Cohen …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "eBay 董事長 Paul Pressler 致函拒絕 GameStop 560 億美元的收購提議，稱此主動併購邀約「既不具公信力也無吸引力」",
-      "summary_zh": "eBay 公司拒絕了來自 GameStop 執行長 Ryan Cohen 提出的 560 億美元收購邀約。"
-    },
-    {
-      "title_en": "Sources: Jensen Huang was not invited to travel with President Trump on his China trip, a potential setback to Nvidia; Huang expressed his willingness to join",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/nvidia-s-ceo-to-miss-china-trip-after-year-of-travels-with-trump",
-      "summary_en": "The roster of business leaders invited to join President Donald Trump on his trip to China this week left off one notable …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：黃仁勳未受邀隨川普總統出訪中國，這對 NVIDIA 可能是個挫折；黃仁勳曾表達參與意願",
-      "summary_zh": "受邀隨川普總統本週出訪中國的商界領袖名單中，遺漏了一位顯赫的人物。"
-    },
-    {
-      "title_en": "Sources: Anthropic officials refused a Chinese think tank's request to change its stance and give Beijing access to Mythos at a meeting in Singapore in April",
-      "url": "https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html?unlocked_article_code=1.h1A.VGB6.iErPd2n97Zsu&smid=nytcore-ios-share",
-      "summary_en": "",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：Anthropic 高層在新加坡會議中，拒絕了中國智庫要求改變立場並讓北京存取 Mythos 的要求",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Sources: the Trump administration is quietly debating whether to ban Chinese cellular modules, as the US FCC takes measures to reduce Beijing's security threats",
-      "url": "https://www.ft.com/content/48f0cc68-dfae-48d7-8950-c8c72c2ebe93",
-      "summary_en": "",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：川普政府正秘密討論是否禁止中國行動通訊模組，美國 FCC 亦採取措施減少來自北京的安全威脅",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Instructure reaches a deal with the hackers who breached its Canvas edtech platform to return stolen data and destroy copies, without saying what it exchanged",
-      "url": "https://www.nytimes.com/2026/05/12/us/canvas-instructure-hackers-deal.html",
-      "summary_en": "Instructure, which provides Canvas software to thousands of schools and universities around the world, did not say what it had given …",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Instructure 與入侵其 Canvas 教育科技平台的駭客達成協議，駭客將歸還遭竊數據並銷毀副本，但公司未透露交換條件",
-      "summary_zh": "為全球數千所學校提供 Canvas 軟體的 Instructure 並未說明其向駭客提供了什麼。"
-    },
-    {
-      "title_en": "Isomorphic Labs, an AI-powered drug discovery spinoff from Google DeepMind, raised $2.1B led by Thrive, after raising $600M in its first round in March 2025",
-      "url": "https://www.reuters.com/legal/litigation/google-backed-isomorphic-raises-21-billion-scale-ai-driven-drug-discovery-2026-05-12/",
-      "summary_en": "Isomorphic Labs, an artificial intelligence-driven drug discovery company, said on Wednesday it has raised $2.1 billion …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Isomorphic Labs（Google DeepMind 的 AI 藥物開發分拆公司）由 Thrive 領投獲 21 億美元融資，此前曾於 2025 年 3 月首輪募資 6 億美元",
-      "summary_zh": "人工智慧驅動的藥物開發公司 Isomorphic Labs 週三表示，已籌集 21 億美元。"
-    },
-    {
-      "title_en": "Sources: Apple plans to make the Camera app fully customizable in iOS 27, along with noticeable design changes across Siri, Safari, Weather, and more",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/ios-27-apple-plans-customizable-iphone-camera-app-siri-overhaul?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODYxNTIwOSwiZXhwIjoxNzc5MjIwMDA5LCJhcnRpY2xlSWQiOiJURVFMOUtLSVVQV1kwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.2NjGYf03gaqLgZBIvSorTD1r0TwuOkLkHIJGEJgtJPs",
-      "summary_en": "Apple Inc. is planning to upgrade its Camera app, making the software fully customizable as part of a broader set of user interface changes coming in its next iPhone software update.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：Apple 計劃在 iOS 27 中讓相機 App 具備完全自訂功能，並對 Siri、Safari、天氣等應用進行顯著的設計調整",
-      "summary_zh": "Apple 公司正計劃升級其相機 App，使其具備完全自訂能力，作為下一代 iPhone 軟體更新中更廣泛使用者介面變更的一環。"
-    },
-    {
-      "title_en": "Anthropic names eight unauthorized secondary market sellers of its shares, including Hiive and Forge Global, warning that any share transactions there are void",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-warns-investors-to-avoid-certain-secondary-market-sellers",
-      "summary_en": "Anthropic PBC identified a number of secondary marketplaces as unauthorized sellers of the company's shares, telling investors that buying the stock won't work.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Anthropic 點名 Hiive 和 Forge Global 等八家未經授權的股票二級市場銷售商，警告任何在該處進行的股權交易均屬無效",
-      "summary_zh": "Anthropic PBC 指出多家二級市場平台為未經授權的股票銷售商，並告知投資者購買該股票將無效。"
-    },
-    {
-      "title_en": "Amazon launches Amazon Now, its 30-minute delivery service, in dozens of US cities including Atlanta, Dallas-Fort Worth, Philadelphia, and Seattle, after pilots",
-      "url": "https://techcrunch.com/2026/05/12/amazon-expands-30-minute-delivery-across-the-u-s/",
-      "summary_en": "Amazon deliveries keep getting faster. On Tuesday, the online retailer announced the launch of its 30-minute delivery option …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Amazon 在完成試點後，於亞特蘭大、達拉斯、費城及西雅圖等數十個美國城市推出 Amazon Now 30 分鐘送達服務",
-      "summary_zh": "Amazon 的物流速度持續提升。這家線上零售商週二宣布推出 30 分鐘送達選項。"
-    },
-    {
-      "title_en": "Microsoft says it is investigating a Mistral AI PyPI package v2.4.6 compromise; researchers say it is likely part of the Mini Shai-Hulud supply chain attack",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/compromised-mistral-ai-and-tanstack-packages-may-have-exposed-github-cloud-and-ci-cd-credentials-in-mini-shai-hulud-malware-infection-supply-chain-campaign-spreads-across-npm-and-ai-developer-ecosystems-like-wildfire",
-      "summary_en": "The malware reportedly refused to run on Russian-language systems but could execute a destructive payload under certain geographic conditions.",
-      "source": "Tom's Hardware",
-      "media_source": "Tom's Hardware",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Microsoft 表示正調查 Mistral AI PyPI 套件 v2.4.6 遭竄改事件；研究人員稱其疑似為 Mini Shai-Hulud 供應鏈攻擊的一部分",
-      "summary_zh": "據報導，該惡意軟體拒絕在俄語系統上執行，但在特定的地理條件下會執行具破壞性的負載。"
-    },
-    {
-      "title_en": "Sources: some Amazon employees are using in-house OpenClaw-like tool MeshClaw for unnecessary tasks to inflate AI token use after Amazon set weekly AI targets",
-      "url": "https://www.ft.com/content/8ee0d3ef-9548-422d-8ff1-ebd48ad4b2ca?accessToken=zwAAAZ4bNFlskdOO4NPvlUhCLdOP8evUitSyyg.MEUCIDcP--A8GiopLZDGrhYv7i_060JZ8QP_bvOsvL0MO4lQAiEA3KI6ZBlSylY1udiolQ40gySa8f7DVDU7MHPeAKfa9F0&sharetype=gift&token=4965c8a3-169e-4815-bd1b-16f5e9a22e70&syn-25a6b1a6=1",
-      "summary_en": "In-house MeshClaw tool enables employees to delegate jobs to AI agents and climb company's AI leaderboard",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：亞馬遜員工使用內部工具 MeshClaw 衝高 AI 使用量，以達成公司設定的每週 AI 目標",
-      "summary_zh": "亞馬遜內部工具 MeshClaw 讓員工能將工作委託給 AI 代理人，藉此在公司的 AI 排行榜上攀升，甚至被用於處理不必要的任務以美化數據。"
-    },
-    {
-      "title_en": "Foxconn says some of its North American factories suffered a cyberattack in recent days; ransomware group Nitrogen claims it stole 8TB of data",
-      "url": "https://www.wired.com/story/foxconn-ransomware-attack-shows-nothing-is-safe-forever/",
-      "summary_en": "Famous for helping build Apple's iPhones, Foxconn just suffered another cyberattack, highlighting the perils of warehousing some of the world's most valuable data.",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "鴻海（Foxconn）北美部分工廠遭受網路攻擊；勒索軟體組織 Nitrogen 聲稱竊取 8TB 數據",
-      "summary_zh": "以組裝 Apple iPhone 聞名的鴻海近日再次遭受網路攻擊，突顯了託管全球最有價值數據所面臨的資安風險。"
-    },
-    {
-      "title_en": "Sources: Anthropic is in talks to raise between $30B and $50B in a funding round that would value it at up to $950B",
-      "url": "https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html",
-      "summary_en": "The start-up, which recently released a powerful A.I. model called Mythos and is separately battling with the Pentagon, was previously valued at $380 billion.",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：Anthropic 正洽談籌集 300 億至 500 億美元資金，估值最高可達 9500 億美元",
-      "summary_zh": "這家 AI 新創公司近期剛發布強大的 Mythos 模型，且正與美國國防部角力，其先前估值為 3800 億美元。"
-    },
-    {
-      "title_en": "Source: Anthropic is in advanced talks to acquire New York-based Stainless, which helps developers generate SDKs from APIs, for at least $300M",
-      "url": "https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-openai-google",
-      "summary_en": "Anthropic is in advanced talks to acquire developer tools startup Stainless for at least $300 million, according to a person with knowledge of the deal.",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：Anthropic 進入進階談判階段，計畫以至少 3 億美元收購開發者工具新創公司 Stainless",
-      "summary_zh": "據知情人士透露，Anthropic 正與 Stainless 進行收購洽談，該公司主要協助開發者透過 API 自動生成 SDK。"
-    },
-    {
-      "title_en": "Google says it is hiring a team of “forward deployed engineers”, a source says in the hundreds, to help customers use its business-focused AI products",
-      "url": "https://www.theinformation.com/briefings/google-hire-hundreds-engineers-help-customers-adopt-ai",
-      "summary_en": "Google plans to hire hundreds of engineers to help customers start using its business-focused AI products, according to a person familiar with the situation.",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 計畫招募數百名「前線部署工程師」，協助企業客戶導入商務 AI 產品",
-      "summary_zh": "為了讓客戶順利使用其商務導向的 AI 產品，Google 擬聘僱數百名工程師提供直接支援。"
-    },
-    {
-      "title_en": "Spotify celebrates its 20th anniversary with a Wrapped-like experience that features “never-before-shared data” going back to when users first joined Spotify",
-      "url": "https://www.theverge.com/entertainment/928395/spotify-20th-anniversary-wrapped-recap",
-      "summary_en": "﻿The company will include ‘never-before-shared data’ as part of its 20th anniversary celebrations.",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Spotify 慶祝成立 20 週年，推出類似 Wrapped 的回顧體驗，首度揭露用戶加入以來的個人數據",
-      "summary_zh": "Spotify 在 20 週年慶祝活動中，將包含「從未分享過」的歷史數據，讓用戶回顧其長期的聽歌軌跡。"
-    },
-    {
-      "title_en": "Source: Microsoft Israel's GM leaves after an internal probe into alleged unethical use of Azure by Israel's MOD; Microsoft France will manage Microsoft Israel",
-      "url": "https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
-      "summary_en": "Alon Haimovich is leaving after an investigation into alleged unethical use of Azure by the Ministry of Defense, “Globes” has learned.",
-      "source": "Globes",
-      "media_source": "Globes",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：微軟以色列總經理在 Azure 涉嫌不當用途調查後離職；改由微軟法國管理",
-      "summary_zh": "在針對以色列國防部涉嫌不道德使用 Azure 雲端服務的內部調查後，總經理 Alon Haimovich 即將離職。"
-    },
-    {
-      "title_en": "Threads is testing a Meta AI integration similar to X's Grok, letting users mention Meta AI in a post or a reply to get more context, in five countries",
-      "url": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
-      "summary_en": "Threads is testing a Meta AI integration that works similarly to X's Grok. Users with a public account will be able to mention Meta AI in a post or a reply to get more context.",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Threads 於五國測試 Meta AI 整合功能，類似 X 的 Grok，允許用戶在貼文中標記 AI 以獲取資訊",
-      "summary_zh": "Threads 正在測試一項與 X 的 Grok 類似的 Meta AI 整合。擁有公開帳號的用戶可在貼文或回覆中標記 Meta AI 以取得更多背景資訊。"
-    },
-    {
-      "title_en": "Qualcomm closed down 11.46% on Tuesday as chip stocks pull back from record AI-driven rally; Intel closed down 6.82%, Sandisk dropped 6%, and Micron 3.61%",
-      "url": "https://www.cnbc.com/2026/05/12/qualcomm-chip-stocks-record-ai.html",
-      "summary_en": "Chip stocks dropped on Tuesday, pulling back from a massive rally that broadened the artificial intelligence trade beyond Nvidia and propelled the sector to new highs.",
+      "title_en": "Cisco reports Q3 revenue up 12% YoY to $15.84B, vs. $15.56B est., forecasts Q4 revenue above est., and is cutting almost 4,000 jobs; CSCO jumps 17%+ after hours",
+      "url": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html",
+      "summary_en": "Cisco shares soared 17% in extended trading on Wednesday after the networking company issued results and guidance that topped Wall Street's projections.",
       "source": "CNBC",
       "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "高通股價週二大跌 11.46%，晶片股從 AI 帶動的歷史高點回落；Intel、美光同步走跌",
-      "summary_zh": "晶片股在週二集體下挫，結束了先前由 AI 熱潮推動、讓 Nvidia 以外的半導體板塊也紛紛創下新高的漲勢。"
+      "_translation_skipped": true,
+      "title_zh": "Cisco reports Q3 revenue up 12% YoY to $15.84B, vs. $15.56B est., forecasts Q4 revenue above est., and is cutting almost 4,000 jobs; CSCO jumps 17%+ after hours",
+      "summary_zh": ""
     },
     {
-      "title_en": "Anthropic announces 12 Claude plugins for the legal sector, including a “commercial counsel” tool for reviewing vendor agreements and a bar exam study tool",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-expands-push-into-legal-industry-with-new-ai-tools",
-      "summary_en": "Anthropic PBC is taking steps to help legal professionals carry out more tasks using its Claude chatbot …",
+      "title_en": "LinkedIn says it has “implemented organizational changes”; source: LinkedIn plans to cut ~5% of its 17,500 full-time workers and focus on business growth areas",
+      "url": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/",
+      "summary_en": "LinkedIn planned to inform staff of layoffs on Wednesday, two people familiar with the matter told Reuters, in a widening of technology sector cuts this year.",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "LinkedIn says it has “implemented organizational changes”; source: LinkedIn plans to cut ~5% of its 17,500 full-time workers and focus on business growth areas",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Microsoft unveils MDASH, a security system that orchestrates 100+ AI agents to find vulnerabilities, and says it identified 16 previously unknown Windows flaws",
+      "url": "https://www.csoonline.com/article/4170785/microsofts-new-ai-system-finds-16-windows-flaws-including-four-critical-rces.html",
+      "summary_en": "The agentic tool, codenamed MDASH, will open to enterprise customers in private preview in June.",
+      "source": "CSO",
+      "media_source": "CSO",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Microsoft unveils MDASH, a security system that orchestrates 100+ AI agents to find vulnerabilities, and says it identified 16 previously unknown Windows flaws",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Source: Cerebras priced its IPO at $185 per share, above the expected range of $150 to $160, raising at least $5.55B and valuing it at $56.4B fully diluted",
+      "url": "https://www.cnbc.com/2026/05/13/cerebras-prices-ipo-above-expected-range-wall-street-expects-ai-flood.html",
+      "summary_en": "Cerebras Systems, a maker of artificial intelligence chips, priced its IPO at $185 a share on Wednesday, above the expected range …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Source: Cerebras priced its IPO at $185 per share, above the expected range of $150 to $160, raising at least $5.55B and valuing it at $56.4B fully diluted",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Sources: Arm and its parent company SoftBank expressed preliminary interest in acquiring Cerebras weeks before its expected IPO; Cerebras rebuffed them",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/arm-softbank-said-to-have-tried-to-buy-cerebras-in-11th-hour",
+      "summary_en": "",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Anthropic 為法律界推出 12 款 Claude 外掛程式，包含供應商協議審查工具與律師國考輔助工具",
-      "summary_zh": "Anthropic 採取具體行動協助法律專業人士，讓他們能利用 Claude 聊天機器人處理合約審查等更複雜的任務。"
+      "_translation_skipped": true,
+      "title_zh": "Sources: Arm and its parent company SoftBank expressed preliminary interest in acquiring Cerebras weeks before its expected IPO; Cerebras rebuffed them",
+      "summary_zh": ""
     },
     {
-      "title_en": "Princeton faculty votes to require proctoring in all in-person exams starting this summer, reversing an 1893 policy amid concerns about AI-fueled cheating",
-      "url": "https://www.wsj.com/us-news/education/princeton-cheating-ai-proctors-2a1cf62e?st=TNd4JW&reflink=desktopwebshare_permalink",
-      "summary_en": "The change reverses an honor-code policy dating back to 1893 — For more than a century, Princeton University prided itself …",
+      "title_en": "Instagram rolls out Instants, which lets users share ephemeral photos, as an in-app feature and as a standalone Android and iOS app in select countries",
+      "url": "https://9to5mac.com/2026/05/13/meta-launches-instants-a-new-iphone-app-and-instagram-feature-for-ephemeral-sharing/",
+      "summary_en": "Meta just launched a brand new iPhone app called Instants. Built around ephemeral photo sharing, the new social media app is also the latest Instagram feature.",
+      "source": "9to5Mac",
+      "media_source": "9to5Mac",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Instagram rolls out Instants, which lets users share ephemeral photos, as an in-app feature and as a standalone Android and iOS app in select countries",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Anthropic launches Claude for Small Business, featuring a host of automated services like bookkeeping functions, business insights, and tools for ad campaigns",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "summary_en": "Anthropic is looking to court smaller companies. To that end, the company announced Wednesday the launch of Claude for Small Business …",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Anthropic launches Claude for Small Business, featuring a host of automated services like bookkeeping functions, business insights, and tools for ad campaigns",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Amazon is replacing its Rufus AI shopping assistant with Alexa for Shopping, which is powered by Alexa+, on Amazon.com and its app, for all customers in the US",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
+      "summary_en": "The company is giving its AI-powered assistant special shopping skills on its website and app.",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Amazon is replacing its Rufus AI shopping assistant with Alexa for Shopping, which is powered by Alexa+, on Amazon.com and its app, for all customers in the US",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Mythos Preview is the first AI model to complete both of AISI's cyber ranges, which measure models' cyberattack capabilities; GPT-5.5 solved only one of them",
+      "url": "https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing",
+      "summary_en": "In February 2026, we internally estimated that the length of cyber tasks AI models could complete had doubled every 4.7 months since late 2024 …",
+      "source": "AI Security Institute",
+      "media_source": "AI Security Institute",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Mythos Preview is the first AI model to complete both of AISI's cyber ranges, which measure models' cyberattack capabilities; GPT-5.5 solved only one of them",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Meta debuts Incognito Chat in WhatsApp and the Meta AI app, letting users talk to Meta AI without Meta being able to access the conversations",
+      "url": "https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/",
+      "summary_en": "The company says its new Incognito Chat allows you to use its AI chatbot without anyone else—including Meta—being able to access your conversations.",
+      "source": "Wired",
+      "media_source": "Wired",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Meta debuts Incognito Chat in WhatsApp and the Meta AI app, letting users talk to Meta AI without Meta being able to access the conversations",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Anthropic unveils Claude Agent SDK credits for paid plans, which users can allocate for programmatic use of third-party agents like OpenClaw, starting June 15",
+      "url": "https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch",
+      "summary_en": "Good news, OpenClaw fans — you can once again use your Claude AI subscription to power the hit, open source, autonomous AI agentic harness!",
+      "source": "VentureBeat",
+      "media_source": "VentureBeat",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Anthropic unveils Claude Agent SDK credits for paid plans, which users can allocate for programmatic use of third-party agents like OpenClaw, starting June 15",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Google says Chromebooks will get support through their “existing date commitment”, and “many” models are “eligible to transition” to the Googlebook experience",
+      "url": "https://9to5google.com/2026/05/12/googlebooks-have-a-premium-focus-some-chromebooks-can-be-upgraded/",
+      "summary_en": "During The Android Show earlier today, Google revealed its “Googlebook” …",
+      "source": "9to5Google",
+      "media_source": "9to5Google",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Google says Chromebooks will get support through their “existing date commitment”, and “many” models are “eligible to transition” to the Googlebook experience",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Anduril raised a $5B Series H led by Thrive and a16z at a $61B valuation, up from $30.5B in June 2025, taking its total funding to $6.82B, and could IPO in 2027",
+      "url": "https://www.nytimes.com/2026/05/13/technology/anduril-raises-5-billion.html",
+      "summary_en": "The start-up, which makes A.I.-backed weapons, was valued at $61 billion in the financing round, double what it was a year ago.",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Anduril raised a $5B Series H led by Thrive and a16z at a $61B valuation, up from $30.5B in June 2025, taking its total funding to $6.82B, and could IPO in 2027",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Q&A with Anthropic CFO Krishna Rao on the “cone of uncertainty” in AI, allocating compute, returns to frontier intelligence, platform vs. application, and more",
+      "url": "https://www.youtube.com/watch?v=wEEZPpx8qow",
+      "summary_en": "In this episode of Invest Like The Best, Patrick O'Shaughnessy sits down with Anthropic CFO Krishna Rao …",
+      "source": "Invest Like The Best on YouTube",
+      "media_source": "Invest Like The Best on YouTube",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Q&A with Anthropic CFO Krishna Rao on the “cone of uncertainty” in AI, allocating compute, returns to frontier intelligence, platform vs. application, and more",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Adaption, co-founded by ex-Cohere VP of AI research Sara Hooker, unveils AutoScientist, which can automate the research loop behind model training and alignment",
+      "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
+      "summary_en": "For years, AI researchers have anticipated the moment when AI systems will be able to improve themselves better than humans could.",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Adaption, co-founded by ex-Cohere VP of AI research Sara Hooker, unveils AutoScientist, which can automate the research loop behind model training and alignment",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Sources: Mistral has been developing a cybersecurity-focused AI model and has held discussions about it with European banks, which don't have access to Mythos",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/mistral-developing-new-ai-model-for-banks-lacking-mythos-access",
+      "summary_en": "French artificial intelligence startup Mistral AI is in discussions with European banks about deploying its answer to Anthropic PBC's Mythos …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Sources: Mistral has been developing a cybersecurity-focused AI model and has held discussions about it with European banks, which don't have access to Mythos",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "UK chip startup Fractile raised a $220M Series B led by Factorial Funds, Accel and Founders Fund to make specialized logic and memory chips for inference",
+      "url": "https://www.wsj.com/tech/ai/chips-startup-fractile-raises-220-million-to-speed-up-ai-queries-c8681944?st=H3drN4&reflink=desktopwebshare_permalink",
+      "summary_en": "Factorial Funds, Accel and Peter Thiel's Founders Fund invest in company — The U.K. chip startup Fractile said it has raised …",
       "source": "Wall Street Journal",
       "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "普林斯頓大學投票通過今夏起所有實體考試須恢復監考，推翻自 1893 年起施行的榮譽規章",
-      "summary_zh": "由於對 AI 助長作弊的擔憂，普林斯頓大學決定結束長達一世紀、讓學生在無人監考下考試的傳統政策。"
+      "_translation_skipped": true,
+      "title_zh": "UK chip startup Fractile raised a $220M Series B led by Factorial Funds, Accel and Founders Fund to make specialized logic and memory chips for inference",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Nvidia says Jensen Huang has joined President Trump on his China trip; source: Trump called Huang to ask him to join after seeing media coverage of his absence",
+      "url": "https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html",
+      "summary_en": "BEIJING — Nvidia CEO Jensen Huang has joined U.S. President Donald Trump's trip to China, after initial indications the executive had not been invited.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Nvidia says Jensen Huang has joined President Trump on his China trip; source: Trump called Huang to ask him to join after seeing media coverage of his absence",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Sources: Microsoft is in discussions to acquire LLM developer Inception; SpaceX also courted Inception, which is looking for a price of over $1B",
+      "url": "https://www.reuters.com/world/microsoft-eyeing-startup-deals-life-after-openai-2026-05-13/",
+      "summary_en": "Microsoft (MSFT.O) is shopping for artificial-intelligence startups as the software company prepares for a future independent of its once-vital partner OpenAI …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Sources: Microsoft is in discussions to acquire LLM developer Inception; SpaceX also courted Inception, which is looking for a price of over $1B",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Q&A with Alexandr Wang on rebuilding Meta's AI stack, Muse Spark, personal superintelligence, Meta acquiring Assured Robot Intelligence, Sam Altman, and more",
+      "url": "https://www.corememory.com/p/metas-ai-chief-alex-wang-muse-spark-ai-wars",
+      "summary_en": "Last June, Meta pried Alex Wang away from Scale AI, the company he co-founded and ran, in a deal valued at $14 billion.",
+      "source": "Core Memory",
+      "media_source": "Core Memory",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Q&A with Alexandr Wang on rebuilding Meta's AI stack, Muse Spark, personal superintelligence, Meta acquiring Assured Robot Intelligence, Sam Altman, and more",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Rivian CEO RJ Scaringe's Mind Robotics, which is building AI-powered robots for manufacturing tasks, raised $400M, source says at a $3.4B valuation",
+      "url": "https://www.wsj.com/business/autos/rivian-ceos-robotics-spinoff-raises-400-million-4c54a9a0?st=K7uGYq&reflink=desktopwebshare_permalink",
+      "summary_en": "Funding for AI-powered industrial robot project now exceeds $1 billion — Mind Robotics, the startup founded by Rivian Chief Executive RJ Scaringe …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Rivian CEO RJ Scaringe's Mind Robotics, which is building AI-powered robots for manufacturing tasks, raised $400M, source says at a $3.4B valuation",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Trump Mobile says T1 Phone preorders will begin shipping to customers this week and that the first T1 phones were assembled in the US, after months of delays",
+      "url": "https://www.usatoday.com/story/tech/2026/05/12/trump-mobile-t1-phone-shipping/90046321007/",
+      "summary_en": "Trump Mobile phones are being shipped this week, the company exclusively confirmed to USA TODAY in an email May 11.",
+      "source": "USA Today",
+      "media_source": "USA Today",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Trump Mobile says T1 Phone preorders will begin shipping to customers this week and that the first T1 phones were assembled in the US, after months of delays",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Investor docs: Anthropic's revenue run rate is on track to hit $50B by the end of June; Ramp says more of its customers now use Anthropic than OpenAI, a first",
+      "url": "https://www.wsj.com/tech/ai/anthropic-was-behind-now-its-the-ai-booms-front-runner-5020f621?st=4wUrzX&reflink=desktopwebshare_permalink",
+      "summary_en": "After years as also-ran, startup pulls ahead in AI race after focusing on enterprise users and coding",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Investor docs: Anthropic's revenue run rate is on track to hit $50B by the end of June; Ramp says more of its customers now use Anthropic than OpenAI, a first",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "SoftBank reports Q4 net income up 3x to ~$11.6B, above ~$1.5B est., driven by a $25B+ gain in its OpenAI stake; its OpenAI investment will hit $64.6B by October",
+      "url": "https://www.ft.com/content/85b9fe04-0d70-482e-bd27-9c87c1ebfc01",
+      "summary_en": "Japanese group books net income of $11.6bn in fourth quarter, vastly ahead of analyst expectations",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "SoftBank reports Q4 net income up 3x to ~$11.6B, above ~$1.5B est., driven by a $25B+ gain in its OpenAI stake; its OpenAI investment will hit $64.6B by October",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Tencent reports Q1 revenue up 9% YoY to ~$28.9B, below ~$29.4B est., net income up 21% YoY to ~$8.5B, meeting est., and capex up 16% YoY, amid a costly AI pivot",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/tencent-revenue-miss-heightens-pressure-for-ai-payoff",
+      "summary_en": "Tencent Holdings Ltd. reported its slowest revenue growth in six quarters, underscoring the urgency around its costly AI pivot …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Tencent reports Q1 revenue up 9% YoY to ~$28.9B, below ~$29.4B est., net income up 21% YoY to ~$8.5B, meeting est., and capex up 16% YoY, amid a costly AI pivot",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Tencent says it plans to spend significantly more on AI infrastructure in H2 2026 as more China-designed AI chips become available “month by month”",
+      "url": "https://www.theinformation.com/briefings/tencent-says-chinas-ai-chip-crunch-easing-plans-spend",
+      "summary_en": "",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Tencent says it plans to spend significantly more on AI infrastructure in H2 2026 as more China-designed AI chips become available “month by month”",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Alibaba reports Q4 revenue up 3% YoY to ~$35.8B, below ~$36.3B est., and net income up 106% YoY to ~$3.7B in part due to investments, as it seeks to monetize AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/alibaba-revenue-misses-estimates-despite-ai-monetization-efforts",
+      "summary_en": "China's twin technology leaders reported revenue that fell short of estimates, signaling the challenges in translating higher AI spending into profits.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Alibaba reports Q4 revenue up 3% YoY to ~$35.8B, below ~$36.3B est., and net income up 106% YoY to ~$3.7B in part due to investments, as it seeks to monetize AI",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Netflix says its ad tier now has 250M monthly active viewers, up from 94M in 2025, and is expanding to 15 new countries, as it tests an ad personalization tool",
+      "url": "https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
+      "summary_en": "The streaming service's ad-supported tier now reaches 250 million viewers each month. … For the second year in a row …",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Netflix says its ad tier now has 250M monthly active viewers, up from 94M in 2025, and is expanding to 15 new countries, as it tests an ad personalization tool",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Analysts: China's AI hardware suppliers face capacity constraints and component shortages, including of optical and electronic chips, that could throttle growth",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/china-s-ai-suppliers-can-t-keep-up-as-component-shortages-bite",
+      "summary_en": "China's artificial intelligence hardware suppliers have a problem: keeping up with insatiable demand for their products.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Analysts: China's AI hardware suppliers face capacity constraints and component shortages, including of optical and electronic chips, that could throttle growth",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Analysis: contract prices for NAND chips are up 600%+ since September 2025's end, while DRAM chip prices are up nearly 400%, and analysts expect more increases",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/deepening-memory-crunch-widens-gap-between-stock-winners-losers",
+      "summary_en": "",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Analysis: contract prices for NAND chips are up 600%+ since September 2025's end, while DRAM chip prices are up nearly 400%, and analysts expect more increases",
+      "summary_zh": ""
     }
   ],
   "wsj": [
     {
+      "title_en": "The Tech Jobs That Are Safe From AI",
+      "url": "https://www.wsj.com/tech/ai/the-tech-jobs-that-are-safe-from-ai-8d415383?mod=rss_Technology",
+      "summary_en": "Tech industry layoffs keep coming but there’s still a market for higher-grade talent to harness AI agents....",
+      "_translation_skipped": true,
+      "title_zh": "The Tech Jobs That Are Safe From AI",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Chips Startup Fractile Raises $220 Million to Speed Up AI Queries",
+      "url": "https://www.wsj.com/tech/ai/chips-startup-fractile-raises-220-million-to-speed-up-ai-queries-c8681944?mod=rss_Technology",
+      "summary_en": "Factorial Funds, Accel and Peter Thiel’s Founders Fund invested in the company....",
+      "_translation_skipped": true,
+      "title_zh": "Chips Startup Fractile Raises $220 Million to Speed Up AI Queries",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Anthropic Was Behind. Now It’s the AI Boom’s Front-Runner.",
+      "url": "https://www.wsj.com/tech/ai/anthropic-was-behind-now-its-the-ai-booms-front-runner-5020f621?mod=rss_Technology",
+      "summary_en": "After years as an also-ran, the startup has pulled ahead in the artificial-intelligence race after focusing on enterprise users and coding....",
+      "_translation_skipped": true,
+      "title_zh": "Anthropic Was Behind. Now It’s the AI Boom’s Front-Runner.",
+      "summary_zh": ""
+    },
+    {
       "title_en": "OpenAI CEO Sam Altman Defends His Leadership, Personal Investing at Trial",
       "url": "https://www.wsj.com/tech/ai/openai-ceo-sam-altman-takes-stand-in-elon-musk-megatrial-19bda33c?mod=rss_Technology",
       "summary_en": "The blockbuster court battle centers around Musk’s donations to AI lab when it was a nonprofit and its conversion to a for-profit company....",
-      "title_zh": "OpenAI 執行長 Sam Altman 在法庭辯護，針對其領導地位與個人投資行為進行說明",
-      "summary_zh": "這場備受關注的法律戰圍繞著 Elon Musk 對 OpenAI（當時為非營利組織）的捐贈，以及其轉型為營利公司的爭議。"
-    },
-    {
-      "title_en": "Embattled Commissioner Makary to Leave FDA",
-      "url": "https://www.wsj.com/business/embattled-makary-to-leave-fda-17282d6e?mod=rss_Technology",
-      "summary_en": "Plus, Sam Altman testifies in Elon Musk’s OpenAI trial, and “Subway Takes” has what it takes....",
-      "title_zh": "陷入困境的 FDA 局長 Makary 即將離職",
-      "summary_zh": "此外，Sam Altman 在 Elon Musk 狀告 OpenAI 的審判中出庭作證，以及「Subway Takes」節目的最新動向。"
+      "_translation_skipped": true,
+      "title_zh": "OpenAI CEO Sam Altman Defends His Leadership, Personal Investing at Trial",
+      "summary_zh": ""
     },
     {
       "title_en": "Sam Altman’s Business Dealings Under GOP Scrutiny Ahead of OpenAI’s IPO",
       "url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d?mod=rss_Technology",
       "summary_en": "The Republican-led House Oversight Committee says it is investigating, and seven GOP state attorneys general are calling for SEC review after a WSJ article....",
-      "title_zh": "Sam Altman 的商業往來在 OpenAI IPO 前夕面臨共和黨國會議員的嚴格審查",
-      "summary_zh": "由共和黨領導的眾議院監督委員會表示正在進行調查，且在《華爾街日報》報導後，七位共和黨籍州檢察長要求 SEC 進行審核。"
+      "_translation_skipped": true,
+      "title_zh": "Sam Altman’s Business Dealings Under GOP Scrutiny Ahead of OpenAI’s IPO",
+      "summary_zh": ""
     },
     {
       "title_en": "SpaceX and Google Are in Talks to Launch Data Centers in Orbit",
       "url": "https://www.wsj.com/tech/spacex-google-in-talks-to-explore-data-centers-in-orbit-7b7799e2?mod=rss_Technology",
       "summary_en": "A deal between the two tech titans would give a boost to SpaceX’s business ahead of a historic public listing....",
-      "title_zh": "SpaceX 與 Google 正洽談在軌道上部署衛星資料中心",
-      "summary_zh": "這兩家科技巨頭的合作協議將在 SpaceX 進行具歷史意義的 IPO 上市前，為其業務注入強心針。"
+      "_translation_skipped": true,
+      "title_zh": "SpaceX and Google Are in Talks to Launch Data Centers in Orbit",
+      "summary_zh": ""
     },
     {
-      "title_en": "Nvidia Is Buying the Chip Supply Chain",
-      "url": "https://www.wsj.com/tech/nvidia-is-buying-the-chip-supply-chain-871db5e3?mod=rss_Technology",
-      "summary_en": "Plus, OpenAI’s employee payouts and tech’s growing unemployment....",
-      "title_zh": "Nvidia 正大舉收購晶片供應鏈",
-      "summary_zh": "本篇報導亦涵蓋 OpenAI 的員工分紅情況，以及科技業日益嚴重的失業問題。"
+      "title_en": "‘A’ Grades Are Suddenly Everywhere Since the Arrival of ChatGPT",
+      "url": "https://www.wsj.com/us-news/education/a-grades-are-suddenly-everywhere-since-the-arrival-of-chatgpt-845baae7?mod=rss_Technology",
+      "summary_en": "AI is accelerating grade inflation, new research indicates, and making it harder for employers to assess new college graduates...",
+      "_translation_skipped": true,
+      "title_zh": "‘A’ Grades Are Suddenly Everywhere Since the Arrival of ChatGPT",
+      "summary_zh": ""
     },
     {
-      "title_en": "Data Centers in Space: A Pipe Dream, or AI’s Next Big Thing?",
-      "url": "https://www.wsj.com/tech/ai/data-centers-in-space-a-pipe-dream-or-ais-next-big-thing-c13bb184?mod=rss_Technology",
-      "summary_en": "A big part of the challenge is producing and launching scores of the devices without breaking the bank....",
-      "title_zh": "太空資料中心：是南柯一夢，還是 AI 的下一個大趨勢？",
-      "summary_zh": "該領域面臨的一大挑戰在於如何在不耗盡預算的情況下，生產並發射大量相關設備。"
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-12312558?mod=rss_Technology",
+      "summary_en": "Find insight on Deutsche Telekom, Nebius, Constellation Software and more in the latest Market Talks covering technology, media and telecom....",
+      "_translation_skipped": true,
+      "title_zh": "Tech, Media & Telecom Roundup: Market Talk",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Tencent’s Core Businesses Help Cushion Burden of Intensified AI Push",
+      "url": "https://www.wsj.com/business/earnings/tencent-maintains-double-digit-profit-growth-amid-intensified-ai-investment-7847e010?mod=rss_Technology",
+      "summary_en": "Tencent Holdings extended its streak of double-digit profit growth in the first quarter....",
+      "_translation_skipped": true,
+      "title_zh": "Tencent’s Core Businesses Help Cushion Burden of Intensified AI Push",
+      "summary_zh": ""
     },
     {
       "title_en": "Walmart Lays Off or Relocates About 1,000 Corporate Workers",
       "url": "https://www.wsj.com/business/retail/walmart-layoffs-relocates-technology-jobs-23bbf322?mod=rss_Technology",
       "summary_en": "The retailer is cutting positions as it combines more of its global-tech and product teams....",
-      "title_zh": "沃爾瑪（Walmart）裁撤或搬遷約 1,000 名企業員工",
-      "summary_zh": "這家零售龍頭正在縮減職位，並致力於整合全球技術與產品團隊。"
-    },
-    {
-      "title_en": "SAP Launches Unified AI, Automation Suite",
-      "url": "https://www.wsj.com/tech/ai/sap-launches-unified-ai-automation-suite-b02ac784?mod=rss_Technology",
-      "summary_en": "SAP said it was rolling out a new software suite bringing its data, cloud, artificial intelligence and automation features under one roof as the German group seeks to stay on top of a technology that ...",
-      "title_zh": "SAP 推出統一的 AI 與自動化套件",
-      "summary_zh": "德國軟體龍頭 SAP 宣布推出全新軟體套件，將數據、雲端、AI 與自動化功能整合，以確保在競爭激烈的技術領域保持領先。"
-    },
-    {
-      "title_en": "China’s Kuaishou Plans Spinoff of AI Unit That Could Be Valued at $20 Billion",
-      "url": "https://www.wsj.com/tech/ai/chinas-kuaishou-plans-spinoff-of-ai-unit-that-could-be-valued-at-20-billion-4f5781be?mod=rss_Technology",
-      "summary_en": "The Chinese short-video company is in talks with prospective investors—including Tencent, a major shareholder of Kuaishou—to raise around $2 billion for its Kling unit....",
-      "title_zh": "中國快手計畫分拆估值達 200 億美元的 AI 部門",
-      "summary_zh": "快手正與包括大股東騰訊在內的潛在投資者洽談，計畫為其「可靈」（Kling）視訊生成 AI 部門籌集約 20 億美元資金。"
-    },
-    {
-      "title_en": "Elon Musk’s Grok Is Losing Ground in AI Race",
-      "url": "https://www.wsj.com/tech/ai/anthropic-spacex-ai-deal-elon-musk-f86ea369?mod=rss_Technology",
-      "summary_en": "Adoption by business and consumer users has slowed as parent SpaceX rents out spare computing capacity to rival Anthropic....",
-      "title_zh": "Elon Musk 的 Grok 在 AI 競賽中逐漸落後",
-      "summary_zh": "隨著母公司 SpaceX 將閒置的算力租借給競爭對手 Anthropic，企業與消費者的採用速度已有所放緩。"
+      "_translation_skipped": true,
+      "title_zh": "Walmart Lays Off or Relocates About 1,000 Corporate Workers",
+      "summary_zh": ""
     }
   ],
   "deep_analysis": {
