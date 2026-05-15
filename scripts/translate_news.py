@@ -6,10 +6,14 @@ import re
 from datetime import datetime
 import time
 
+from gemini_key_pool import GeminiKeyPool
+
 DAILY_NEWS_JSON = 'daily_news_temp.json'
 BATCH_TIMEOUT = 120
 MAX_RETRIES = 3
 TRANSLATION_BATCH_SIZE = 20
+TRANSLATION_MODEL = "gemini-3-flash-preview"
+GEMINI_KEYS = GeminiKeyPool()
 
 def translate_batch(batch_items, retry_count=0):
     """
@@ -20,7 +24,8 @@ def translate_batch(batch_items, retry_count=0):
     if not batch_items:
         return []
         
-    print(f"   ▶ Attempt {retry_count + 1}/{MAX_RETRIES} for batch of {len(batch_items)} items...")
+    max_attempts = GEMINI_KEYS.attempt_count_for_model(TRANSLATION_MODEL, MAX_RETRIES)
+    print(f"   ▶ Attempt {retry_count + 1}/{max_attempts} for batch of {len(batch_items)} items...")
     
     prompt = f"""
     You are an expert technology news translator and editor.
@@ -47,11 +52,10 @@ def translate_batch(batch_items, retry_count=0):
 
     proc = None
     try:
-        env = os.environ.copy()
-        env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
-        print(f"   🚀 啟動 Gemini CLI 進程...")
+        env, key_label = GEMINI_KEYS.env_for_attempt(TRANSLATION_MODEL, retry_count)
+        print(f"   🚀 啟動 Gemini CLI 進程... (key: {key_label})")
         proc = subprocess.Popen(
-            ["gemini", "-p", "Generate JSON only as instructed.", "--model", "gemini-3-flash-preview", "--output-format", "json"],
+            ["gemini", "-p", "Generate JSON only as instructed.", "--model", TRANSLATION_MODEL, "--output-format", "json"],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
@@ -106,7 +110,7 @@ def translate_batch(batch_items, retry_count=0):
             except Exception:
                 pass
                 
-    if retry_count < MAX_RETRIES - 1:
+    if retry_count < max_attempts - 1:
         print("   ⏳ Retrying in 5 seconds...")
         time.sleep(5)
         return translate_batch(batch_items, retry_count + 1)

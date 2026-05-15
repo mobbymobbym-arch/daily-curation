@@ -1,0 +1,19 @@
+{
+  "keys": [
+    {
+      "name": "default-1",
+      "scope": "default",
+      "api_key": "replace-with-default-gemini-api-key"
+    },
+    {
+      "name": "default-2",
+      "scope": "default",
+      "api_key": "replace-with-second-default-gemini-api-key"
+    },
+    {
+      "name": "pro-1",
+      "scope": "pro",
+      "api_key": "replace-with-pro-only-gemini-api-key"
+    }
+  ]
+}

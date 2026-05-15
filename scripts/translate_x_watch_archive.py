@@ -9,9 +9,13 @@ import subprocess
 import time
 from pathlib import Path
 
+from gemini_key_pool import GeminiKeyPool
+
 
 BATCH_TIMEOUT = 180
 MAX_RETRIES = 3
+TRANSLATION_MODEL = "gemini-3-flash-preview"
+GEMINI_KEYS = GeminiKeyPool()
 
 
 def load_json(path):
@@ -62,19 +66,19 @@ def build_missing_requests(archive, translations):
     return success_requests, failed_requests
 
 
-def gemini_json_request(prompt):
+def gemini_json_request(prompt, *, attempt_index=0):
     proc = None
-    env = os.environ.copy()
-    env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0"
+    env, key_label = GEMINI_KEYS.env_for_attempt(TRANSLATION_MODEL, attempt_index)
 
     try:
+        print(f"   🚀 Gemini X translation request (key: {key_label})")
         proc = subprocess.Popen(
             [
                 "gemini",
                 "-p",
                 "Generate JSON only as instructed.",
                 "--model",
-                "gemini-3-flash-preview",
+                TRANSLATION_MODEL,
                 "--output-format",
                 "json",
             ],
@@ -157,6 +161,7 @@ def normalize_batch_results(batch_items, raw_results, *, mode):
 def translate_batch(batch_items, *, mode, retry_count=0):
     if not batch_items:
         return []
+    max_attempts = GEMINI_KEYS.attempt_count_for_model(TRANSLATION_MODEL, MAX_RETRIES)
 
     if mode == "success":
         prompt = f"""
@@ -205,10 +210,10 @@ OUTPUT FORMAT:
 """
 
     try:
-        result = gemini_json_request(prompt)
+        result = gemini_json_request(prompt, attempt_index=retry_count)
         return normalize_batch_results(batch_items, result, mode=mode)
     except Exception:
-        if retry_count < MAX_RETRIES - 1:
+        if retry_count < max_attempts - 1:
             time.sleep(5)
             return translate_batch(batch_items, mode=mode, retry_count=retry_count + 1)
         raise

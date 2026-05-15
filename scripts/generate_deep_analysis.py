@@ -11,6 +11,8 @@ from datetime import datetime
 import xml.etree.ElementTree as ET
 import ssl
 
+from gemini_key_pool import GeminiKeyPool
+
 ssl._create_default_https_context = ssl._create_unverified_context
 
 SOURCES_FILE = 'deep_analysis_sources.json'
@@ -18,6 +20,7 @@ STATE_FILE = 'analysis_state.json'
 NEWS_JSON = 'daily_news_temp.json'
 PROMPT_FILE = 'deep_analysis_prompt.md'
 DEEP_ANALYSIS_MODEL = 'gemini-3-pro-preview'
+GEMINI_KEYS = GeminiKeyPool()
 
 def get_latest_rss_item(rss_url):
     """Fetch the latest item from an RSS feed."""
@@ -104,12 +107,12 @@ def analyze_with_ai(article_text, source_name="", source_url="", rss_title="", m
         + article_text
     )
 
-    for attempt in range(max_retries):
+    max_attempts = GEMINI_KEYS.attempt_count_for_model(DEEP_ANALYSIS_MODEL, max_retries)
+    for attempt in range(max_attempts):
         proc = None
         try:
-            env = os.environ.copy()
-            env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
-            print(f"   🚀 啟動 Gemini CLI 進程 (Attempt {attempt+1}/{max_retries})...")
+            env, key_label = GEMINI_KEYS.env_for_attempt(DEEP_ANALYSIS_MODEL, attempt)
+            print(f"   🚀 啟動 Gemini CLI 進程 (Attempt {attempt+1}/{max_attempts}, key: {key_label})...")
             proc = subprocess.Popen(
                 ["gemini", "-p", "Generate JSON only as instructed.", "--model", DEEP_ANALYSIS_MODEL, "--output-format", "json"],
                 stdin=subprocess.PIPE,
@@ -157,7 +160,7 @@ def analyze_with_ai(article_text, source_name="", source_url="", rss_title="", m
             except Exception:
                 pass
                 
-        if attempt < max_retries - 1:
+        if attempt < max_attempts - 1:
             print("   ⏳ Retrying in 5 seconds...")
             time.sleep(5)
             

@@ -5,6 +5,8 @@ logs/
 # x-posts.html; reports and preview files should not block normal git sync.
 reports/
 daily_curation_x_tab_preview.html
+
+# Machine-local secrets, including the shared Gemini API key pool.
 config/*.local.json
 __pycache__/
 scripts/__pycache__/

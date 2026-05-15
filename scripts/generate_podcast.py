@@ -21,6 +21,8 @@ import argparse
 import urllib.request
 from datetime import datetime
 
+from gemini_key_pool import GeminiKeyPool
+
 ssl._create_default_https_context = ssl._create_unverified_context
 
 # --- Configuration ---
@@ -28,30 +30,48 @@ YTDLP_PATH = "yt-dlp"
 JINA_PREFIX = "https://r.jina.ai/"
 PODCAST_JSON = "podcast_data.json"
 TEMP_DIR = "/tmp/podcast_workdir"
+GEMINI_AUDIO_MAX_MB = 19.0
+PODCAST_MODEL = "gemini-3.1-pro-preview"
+GEMINI_KEYS = GeminiKeyPool()
 
 # --- Podcast Analysis Prompt ---
-PODCAST_PROMPT = """你是一位頂尖的科技 Podcast 深度分析師與敘事型專欄作家。
-請仔細閱讀以下 Podcast 逐字稿/內容，並嚴格依照以下規則，產出 JSON 格式的深度摘要。
+PODCAST_PROMPT = """你是一位熟悉科技、創投與商業議題的台灣繁體中文 Podcast 編輯。
+請仔細閱讀以下 Podcast 逐字稿/內容，並嚴格依照以下規則，產出 JSON 格式的摘要。
 
 ## 寫作規範
-1. **開頭資訊**：主持人與來賓各用一句話介紹身份背景。
-2. **核心主題 (summary)**：50-100 字繁體中文深度主題摘要。
-3. **時空切割 (chapters)**：按時間軸，每 10-15 分鐘切割一個章節。
-4. **內容深度**：單一章節需達 500-700 字繁體中文。務必追求最高範圍。
-5. **報導風格**：使用流暢報導文學風格，禁止條列式。
-6. **細節引用**：每章節必須包含至少一處說話者的原話引用 (quote)。
+1. **開頭資訊**：在 summary 欄位開頭，分別各用一句話介紹這個節目/媒體，以及主持人與來賓的身份背景。
+2. **核心主題 summary**：接著用 100-200 字說清楚這集主要在談什麼，以及它為什麼重要？為什麼值得了解？
+3. **章節 chapters**：按時間軸，每 10-15 分鐘切成一個章節。
+4. **章節內容**：每章 500-700 字，重點是清楚交代脈絡、論點、例子與商業含義。適當進行分段。每章要製作一個小標題。
+5. **寫法**：使用段落式敘事，不要條列；語氣要像台灣讀者能夠順暢閱讀的商業科技分析。
+6. **引用 quote**：每章節必須包含至少一處說話者原話引用，quote 保留英文。
+
+## 語言與風格規範
+1. 全文必須使用台灣繁體中文與台灣常見用語。
+2. 文字風格要自然、清楚、克制，像台灣科技媒體或商業專欄的分析文章。
+3. 嚴禁中國大陸慣用語、官式宣傳語、過度宏大的科技媒體腔。
+4. 不要為了顯得「深度」而使用浮誇形容詞；重點是把脈絡、因果與商業意義講清楚。
+5. 可以有敘事感，但不要寫成史詩、宣傳稿、投資簡報或過度戲劇化的評論。
+
+## 用詞自我檢查
+請避免使用下列中國大陸科技媒體或官式宣傳腔常見詞彙，除非是原文直接引用或不可替代的專有名詞：
+揭示、前沿、戰略、深層、賦能、落地、布局、佈局、打造、生態、閉環、賽道、抓手、硬核、顛覆、穿透、底層邏輯、護城河、宏大敘事、藍圖、加持、引爆、重塑、賦予。
+
+若遇到類似概念，請優先改用台灣讀者更自然的說法：
+「揭示」改成「說明」、「點出」、「顯示」；「前沿」改成「最前線」、「最新」、「先進」；「戰略」改成「策略」、「長期規劃」、「資源配置」；「深層」改成「背後的」、「更深一層」；「打造」改成「建立」、「做出」、「發展」；「落地」改成「實際應用」、「導入」、「真的用起來」；「賦能」改成「幫助」、「讓……更容易」、「提升」。
 
 ## ⚠️ 輸出格式規範 (CRITICAL)
 你必須直接輸出合法的 JSON 物件。不要有多餘文字，也不要使用 ```json 標籤。
 
 {
-  "title": "Podcast 中英文標題",
-  "summary": "50-100字的繁中核心主題摘要",
+  "title": "Podcast 單集標題",
+  "show_name": "節目或媒體名稱",
+  "summary": "先用兩句話介紹節目/媒體與主持人/來賓，再用100-200字說明本集核心主題、重要性與值得了解的原因",
   "chapters": [
     {
       "timestamp": "00:00 - 15:00",
       "title": "章節標題",
-      "content": "500-700字的繁中章節深度敘事",
+      "content": "500-700字的台灣繁體中文章節內容，可用\\n\\n分段",
       "quote": "該章節中最精彩的一句原話引用（英文）"
     }
   ]
@@ -59,6 +79,34 @@ PODCAST_PROMPT = """你是一位頂尖的科技 Podcast 深度分析師與敘事
 
 ## 以下為 Podcast 逐字稿/內容：
 """
+
+TAIWAN_WORDING_REPLACEMENTS = [
+    ("底層邏輯", "背後脈絡"),
+    ("宏大敘事", "誇大的說法"),
+    ("打造成", "發展成"),
+    ("揭示", "說明"),
+    ("前沿", "最前線"),
+    ("戰略", "策略"),
+    ("深層", "更深一層"),
+    ("賦能", "幫助"),
+    ("落地", "實際應用"),
+    ("布局", "規劃"),
+    ("佈局", "規劃"),
+    ("打造", "建立"),
+    ("生態", "產業環境"),
+    ("閉環", "完整流程"),
+    ("賽道", "市場"),
+    ("抓手", "切入點"),
+    ("硬核", "高門檻"),
+    ("顛覆", "改變"),
+    ("穿透", "看清"),
+    ("護城河", "競爭優勢"),
+    ("藍圖", "規劃"),
+    ("加持", "幫助"),
+    ("引爆", "帶動"),
+    ("重塑", "改變"),
+    ("賦予", "帶來"),
+]
 
 
 def clean_url(url):
@@ -182,6 +230,13 @@ def download_and_transcribe_audio(url):
     print("   🎵 策略 B：嘗試下載音檔並分析...")
     ensure_temp_dir()
     audio_file = os.path.join(TEMP_DIR, "podcast_audio.mp3")
+
+    for filename in os.listdir(TEMP_DIR):
+        if filename.startswith("podcast_audio"):
+            try:
+                os.remove(os.path.join(TEMP_DIR, filename))
+            except OSError:
+                pass
     
     # Try yt-dlp for audio download (works with YouTube, Spotify embeds, etc.)
     cmd = [
@@ -233,105 +288,204 @@ def fetch_via_jina(url):
         return None
 
 
+def apply_taiwan_wording_guard(value, *, key=None, replacements=None):
+    """Replace common non-Taiwan tech-media phrasing in generated fields."""
+    if replacements is None:
+        replacements = set()
+
+    if isinstance(value, dict):
+        return {
+            item_key: apply_taiwan_wording_guard(
+                item_value,
+                key=item_key,
+                replacements=replacements,
+            )
+            for item_key, item_value in value.items()
+        }
+    if isinstance(value, list):
+        return [
+            apply_taiwan_wording_guard(item, key=key, replacements=replacements)
+            for item in value
+        ]
+    if isinstance(value, str) and key != "quote":
+        cleaned = value
+        for source, target in TAIWAN_WORDING_REPLACEMENTS:
+            if source in cleaned:
+                replacements.add(source)
+                cleaned = cleaned.replace(source, target)
+        return cleaned
+    return value
+
+
+def enforce_taiwan_wording(data):
+    replacements = set()
+    cleaned = apply_taiwan_wording_guard(data, replacements=replacements)
+    if replacements:
+        print(f"   🧹 已套用台灣用語清理：{', '.join(sorted(replacements))}")
+    return cleaned
+
+
+def prepare_audio_for_gemini(audio_path):
+    """Keep audio small enough for Gemini CLI @file ingestion."""
+    file_size_mb = os.path.getsize(audio_path) / (1024 * 1024)
+    if file_size_mb <= GEMINI_AUDIO_MAX_MB:
+        return audio_path
+
+    print(f"   🔧 音檔 {file_size_mb:.1f} MB 超過 Gemini CLI 限制，先壓縮成分析用音檔...")
+    compressed_path = os.path.join(TEMP_DIR, "podcast_audio_gemini.mp3")
+
+    for bitrate in ("32k", "24k", "16k"):
+        cmd = [
+            "ffmpeg",
+            "-y",
+            "-i", audio_path,
+            "-vn",
+            "-ac", "1",
+            "-ar", "16000",
+            "-b:a", bitrate,
+            compressed_path,
+        ]
+        try:
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                timeout=600,
+            )
+        except subprocess.TimeoutExpired:
+            print(f"   ⚠️ ffmpeg 壓縮逾時 ({bitrate})")
+            continue
+
+        if result.returncode != 0:
+            print(f"   ⚠️ ffmpeg 壓縮失敗 ({bitrate}): {result.stderr[:200]}")
+            continue
+
+        compressed_size_mb = os.path.getsize(compressed_path) / (1024 * 1024)
+        print(f"   ✅ 壓縮完成 ({bitrate}, {compressed_size_mb:.1f} MB)")
+        if compressed_size_mb <= GEMINI_AUDIO_MAX_MB:
+            return compressed_path
+
+        print("   ⚠️ 壓縮後仍超過限制，改用更低 bitrate 重試...")
+
+    print("   ❌ 無法將音檔壓到 Gemini CLI 可接受大小")
+    return None
+
+
 def analyze_with_gemini(text, is_audio_file=False):
     """Send text or audio to Gemini for chapter-style analysis."""
     print("   🧠 送入 Gemini 進行深度章節分析...")
-    
-    env = os.environ.copy()
-    env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
-    
+
     if is_audio_file:
-        # For audio files, pass the file path to gemini with instruction
-        audio_prompt = PODCAST_PROMPT + "\n\n[Audio file attached - please transcribe and analyze]"
+        audio_path = prepare_audio_for_gemini(text)
+        if not audio_path:
+            return None
+
+        audio_filename = os.path.basename(audio_path)
+        audio_dir = os.path.dirname(audio_path)
+        audio_prompt = (
+            PODCAST_PROMPT
+            + f"\n\n@{audio_filename}\n\n"
+            + "請先轉錄並理解這個音檔，再依照上方規範輸出合法 JSON。"
+        )
         cmd = [
             "gemini", "-p", audio_prompt,
-            "--model", "gemini-3.1-pro-preview",
+            "--model", PODCAST_MODEL,
             "--output-format", "json",
-            "-f", text  # text is actually the audio file path here
+            "--include-directories", audio_dir,
         ]
-        proc = subprocess.Popen(
-            cmd,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            env=env
-        )
+        stdin_payload = None
+        timeout_secs = 600
     else:
         full_prompt = PODCAST_PROMPT + "\n\n" + text[:150000]  # Cap at 150k chars
+        cmd = [
+            "gemini", "-p", "Generate JSON only as instructed.",
+            "--model", PODCAST_MODEL,
+            "--output-format", "json",
+        ]
+        stdin_payload = full_prompt
+        timeout_secs = 300
+
+    max_attempts = GEMINI_KEYS.attempt_count_for_model(PODCAST_MODEL, 3)
+    for attempt in range(max_attempts):
+        env, key_label = GEMINI_KEYS.env_for_attempt(PODCAST_MODEL, attempt)
+        print(f"   🚀 啟動 Gemini CLI 進程 (Attempt {attempt + 1}/{max_attempts}, key: {key_label})")
         proc = subprocess.Popen(
-            ["gemini", "-p", "Generate JSON only as instructed.",
-             "--model", "gemini-3.1-pro-preview",
-             "--output-format", "json"],
-            stdin=subprocess.PIPE,
+            cmd,
+            stdin=None if is_audio_file else subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            env=env
+            env=env,
         )
-    
-    try:
-        if is_audio_file:
-            stdout, stderr = proc.communicate(timeout=600)
-        else:
-            stdout, stderr = proc.communicate(input=full_prompt, timeout=300)
-        
-        if not stdout or not stdout.strip():
-            print(f"   ⚠️ Gemini 無輸出")
-            if stderr:
-                print(f"      stderr: {stderr[:200]}")
-            return None
-        
-        # Try to parse JSON from output
-        raw = stdout.strip()
-        
-        # Handle Gemini CLI's session envelope: {"session_id": ..., "response": "..."}
+
         try:
-            envelope = json.loads(raw)
-            if 'response' in envelope and isinstance(envelope['response'], str):
-                raw = envelope['response'].strip()
-        except (json.JSONDecodeError, TypeError):
-            pass
-        
-        # Try direct parse
-        try:
-            data = json.loads(raw)
-            if 'title' in data and 'chapters' in data:
-                print(f"   ✅ 分析成功！{len(data.get('chapters', []))} 個章節")
-                return data
-        except json.JSONDecodeError:
-            pass
-        
-        # Try extracting JSON from markdown code block
-        json_match = re.search(r'```(?:json)?\s*(\{[\s\S]*?\})\s*```', raw)
-        if json_match:
+            stdout, stderr = proc.communicate(input=stdin_payload, timeout=timeout_secs)
+
+            if not stdout or not stdout.strip():
+                print("   ⚠️ Gemini 無輸出")
+                if stderr:
+                    print(f"      stderr: {stderr[:200]}")
+                continue
+
+            # Try to parse JSON from output
+            raw = stdout.strip()
+
+            # Handle Gemini CLI's session envelope: {"session_id": ..., "response": "..."}
             try:
-                data = json.loads(json_match.group(1))
-                if 'title' in data:
+                envelope = json.loads(raw)
+                if 'response' in envelope and isinstance(envelope['response'], str):
+                    raw = envelope['response'].strip()
+            except (json.JSONDecodeError, TypeError):
+                pass
+
+            # Try direct parse
+            try:
+                data = json.loads(raw)
+                if 'title' in data and 'chapters' in data:
+                    data = enforce_taiwan_wording(data)
                     print(f"   ✅ 分析成功！{len(data.get('chapters', []))} 個章節")
                     return data
             except json.JSONDecodeError:
                 pass
-        
-        # Try finding first { to last }
-        first_brace = raw.find('{')
-        last_brace = raw.rfind('}')
-        if first_brace >= 0 and last_brace > first_brace:
-            try:
-                data = json.loads(raw[first_brace:last_brace + 1])
-                if 'title' in data:
-                    print(f"   ✅ 分析成功！{len(data.get('chapters', []))} 個章節")
-                    return data
-            except json.JSONDecodeError:
-                pass
-        
-        print(f"   ⚠️ 無法解析 Gemini 輸出的 JSON")
-        print(f"      前 300 字元: {raw[:300]}")
-        return None
-        
-    except subprocess.TimeoutExpired:
-        proc.kill()
-        print("   ⚠️ Gemini 分析逾時")
-        return None
+
+            # Try extracting JSON from markdown code block
+            json_match = re.search(r'```(?:json)?\s*(\{[\s\S]*?\})\s*```', raw)
+            if json_match:
+                try:
+                    data = json.loads(json_match.group(1))
+                    if 'title' in data:
+                        data = enforce_taiwan_wording(data)
+                        print(f"   ✅ 分析成功！{len(data.get('chapters', []))} 個章節")
+                        return data
+                except json.JSONDecodeError:
+                    pass
+
+            # Try finding first { to last }
+            first_brace = raw.find('{')
+            last_brace = raw.rfind('}')
+            if first_brace >= 0 and last_brace > first_brace:
+                try:
+                    data = json.loads(raw[first_brace:last_brace + 1])
+                    if 'title' in data:
+                        data = enforce_taiwan_wording(data)
+                        print(f"   ✅ 分析成功！{len(data.get('chapters', []))} 個章節")
+                        return data
+                except json.JSONDecodeError:
+                    pass
+
+            print("   ⚠️ 無法解析 Gemini 輸出的 JSON")
+            print(f"      前 300 字元: {raw[:300]}")
+
+        except subprocess.TimeoutExpired:
+            proc.kill()
+            print("   ⚠️ Gemini 分析逾時")
+
+        if attempt < max_attempts - 1:
+            print("   ⏳ 改用 key pool 下一把 key 重試...")
+
+    return None
 
 
 def cleanup():
@@ -385,6 +539,11 @@ def parse_args():
         action="store_true",
         help="Only rebuild podcast_highlights_feed.json and podcast-highlights.html; do not touch index.html or publish.",
     )
+    parser.add_argument(
+        "--replace-existing",
+        action="store_true",
+        help="Regenerate and replace the existing item for the same cleaned URL instead of appending a new card.",
+    )
     return parser.parse_args()
 
 
@@ -416,13 +575,26 @@ def main():
 
     # --- Phase 0: Check Cache ---
     all_data = load_podcast_data()
-    existing_item = next((item for item in all_data['items'] if item['original_link'] == url), None)
+    replacement_index = None
+    existing_item = None
+    for index, item in enumerate(all_data['items']):
+        if item.get('original_link') == url:
+            replacement_index = index
+            existing_item = item
+            break
     
     if existing_item:
-        print(f"   ✨ 網址已存在於今日清單中：{existing_item['title']}")
-        print("   ⏭️ 跳過 AI 分析，直接執行渲染流程。")
-        analysis = existing_item
+        if args.replace_existing:
+            print(f"   ♻️ 網址已存在於今日清單中，將重新生成並取代：{existing_item['title']}")
+            all_data['items'].pop(replacement_index)
+        else:
+            print(f"   ✨ 網址已存在於今日清單中：{existing_item['title']}")
+            print("   ⏭️ 跳過 AI 分析，直接執行渲染流程。")
+            analysis = existing_item
     else:
+        replacement_index = None
+
+    if not existing_item or args.replace_existing:
         # --- Phase 1: Acquire transcript ---
         print("📥 第一階段：素材獲取")
         
@@ -482,10 +654,14 @@ def main():
         analysis['original_link'] = url
         analysis['generated_at'] = datetime.now().strftime('%Y-%m-%d %H:%M')
         
-        # Add to collection
-        all_data['items'].append(analysis)
+        # Add to collection, preserving card order when replacing an existing item.
+        if replacement_index is None:
+            all_data['items'].append(analysis)
+        else:
+            all_data['items'].insert(min(replacement_index, len(all_data['items'])), analysis)
         save_podcast_data(all_data)
-        print(f"   ✅ 已將新單集「{analysis['title']}」加入今日清單 (目前共 {len(all_data['items'])} 篇)")
+        action = "取代" if replacement_index is not None else "加入"
+        print(f"   ✅ 已將單集「{analysis['title']}」{action}今日清單 (目前共 {len(all_data['items'])} 篇)")
     
     # --- Phase 3: Save and Render ---
     print()

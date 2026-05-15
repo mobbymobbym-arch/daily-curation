@@ -70,13 +70,7 @@ def load_workflow_secrets(path=WORKFLOW_SECRETS_CONFIG):
 
 def build_translate_env():
     env = dict(os.environ)
-    secrets = load_workflow_secrets()
-    fixed_gemini_api_key = (secrets.get("gemini_api_key") or "").strip()
-    if fixed_gemini_api_key:
-        env["GEMINI_API_KEY"] = fixed_gemini_api_key
-        env.pop("GOOGLE_API_KEY", None)
-        env.pop("GOOGLE_GENAI_USE_VERTEXAI", None)
-        env.pop("GOOGLE_GENAI_USE_GCA", None)
+    env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0"
     return env
 
 
