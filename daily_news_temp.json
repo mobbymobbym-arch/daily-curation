@@ -8,8 +8,9 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指出 OpenAI 考慮對 Apple 採取法律行動，因 ChatGPT 整合至 Siri 的營收預期大幅落後目標",
-      "summary_zh": "據知情人士透露，Apple 與 OpenAI 之間這段合作兩年的關係已出現緊張，原因是雙方的合作成果未達預期。"
+      "_translation_skipped": true,
+      "title_zh": "Sources: OpenAI is weighing legal action against Apple after expectations that ChatGPT's Siri integration would generate billions in revenue fell short",
+      "summary_zh": ""
     },
     {
       "title_en": "Cerebras shares closed up 68% at $311.07 in the company's Nasdaq debut after it raised $5.5B in the year's largest IPO, giving it a market value of $67B",
@@ -18,8 +19,9 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Cerebras 在 Nasdaq 首日掛牌股價收盤大漲 68%，這場年度最大 IPO 籌得 55 億美元，市值達 670 億美元",
-      "summary_zh": "晶片新創公司 Cerebras Systems Inc. 在首日交易中表現亮眼，其股價在募集了 55 億美元後大幅上漲。"
+      "_translation_skipped": true,
+      "title_zh": "Cerebras shares closed up 68% at $311.07 in the company's Nasdaq debut after it raised $5.5B in the year's largest IPO, giving it a market value of $67B",
+      "summary_zh": ""
     },
     {
       "title_en": "Cerebras co-founders CEO Andrew Feldman and CTO Sean Lie own stakes worth $3.2B and $1.7B, respectively, representing about 5.5% and 3% of the company",
@@ -28,8 +30,9 @@
       "source": "CNBC",
       "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Cerebras 共同創辦人 Andrew Feldman 與 Sean Lie 持股價值分別達 32 億與 17 億美元，約佔公司 5.5% 與 3%",
-      "summary_zh": "隨著 Cerebras 重磅上市，這家晶片製造商的市值直逼 1,000 億美元，讓科技億萬富翁俱樂部迎來了兩位新成員。"
+      "_translation_skipped": true,
+      "title_zh": "Cerebras co-founders CEO Andrew Feldman and CTO Sean Lie own stakes worth $3.2B and $1.7B, respectively, representing about 5.5% and 3% of the company",
+      "summary_zh": ""
     },
     {
       "title_en": "Musk v. Altman: in closing arguments, Musk's attorney doubled down on claims of Altman's untrustworthiness, while OpenAI's lawyer said Musk has no evidence",
@@ -38,17 +41,8 @@
       "source": "Associated Press",
       "media_source": "Associated Press",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "馬斯克 vs. 奧特曼：結案陳詞中，馬斯克律師堅稱奧特曼不可信，OpenAI 律師則反駁馬斯克毫無證據",
-      "summary_zh": "埃隆·馬斯克與 OpenAI 的律師週四進行了最後辯論，這場地標性審判的結果可能會形塑人工智慧（AI）的未來。"
-    },
-    {
-      "title_en": "Musk v. Altman filing: Sam Altman holds $2B+ in stakes in companies that have done business with OpenAI, including a $1.7B stake in fusion startup Helion Energy",
-      "url": "https://www.reuters.com/legal/government/openai-chief-altman-has-over-2-billion-stake-companies-that-dealt-with-openai-2026-05-13/",
-      "summary_en": "",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "馬斯克 vs. 奧特曼訴訟文件：Sam Altman 持有超過 20 億美元與 OpenAI 有業務往來的公司股份，包含 Helion Energy 的 17 億美元持股",
+      "_translation_skipped": true,
+      "title_zh": "Musk v. Altman: in closing arguments, Musk's attorney doubled down on claims of Altman's untrustworthiness, while OpenAI's lawyer said Musk has no evidence",
       "summary_zh": ""
     },
     {
@@ -58,8 +52,9 @@
       "source": "Wall Street Journal",
       "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "安全研究公司 Calif 表示利用 Mythos 構建 macOS 核心記憶體損毀漏洞，繞過 Apple 的記憶體完整性強制執行技術",
-      "summary_zh": "研究人員在 4 月的測試中發現了 macOS 的軟體問題，這是全球駭客公認最難攻破的目標之一。"
+      "_translation_skipped": true,
+      "title_zh": "Security research firm Calif says it used Mythos to help build a macOS kernel memory corruption exploit circumventing Apple's Memory Integrity Enforcement tech",
+      "summary_zh": ""
     },
     {
       "title_en": "OpenAI adds remote access to Codex in the ChatGPT mobile app, letting users control Codex sessions running on a connected computer directly from a phone",
@@ -68,8 +63,9 @@
       "source": "9to5Mac",
       "media_source": "9to5Mac",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "OpenAI 在 ChatGPT 行動 App 中加入 Codex 遠端存取功能，讓使用者能直接透過手機控制電腦上的 Codex 工作階段",
-      "summary_zh": "OpenAI 推出了與其 Codex 應用程式互動的新方式，透過 ChatGPT 行動 App 的更新，為使用者帶來了遠端存取的便利。"
+      "_translation_skipped": true,
+      "title_zh": "OpenAI adds remote access to Codex in the ChatGPT mobile app, letting users control Codex sessions running on a connected computer directly from a phone",
+      "summary_zh": ""
     },
     {
       "title_en": "Sources: Intel has begun testing production of “low-end/legacy iPhone, iPad, and Mac processors”; Apple thinks TSMC's resources will continue tilting toward AI",
@@ -78,8 +74,9 @@
       "source": "@mingchikuo",
       "media_source": "@mingchikuo",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指出 Intel 已開始測試生產「低階/舊款 iPhone、iPad 與 Mac 處理器」；Apple 認為台積電（TSMC）的資源將持續向 AI 傾斜",
-      "summary_zh": "Apple 已啟動在 Intel 的 18A-P 系列（採用 Foveros 封裝）生產低階/舊款 iPhone、iPad 與 Mac 處理器的計劃。"
+      "_translation_skipped": true,
+      "title_zh": "Sources: Intel has begun testing production of “low-end/legacy iPhone, iPad, and Mac processors”; Apple thinks TSMC's resources will continue tilting toward AI",
+      "summary_zh": ""
     },
     {
       "title_en": "Sources: Joshua Kushner's Thrive Capital told its stakeholders that it has invested ~$100M in Shopify, framed as a bet on how AI could lead to gains in commerce",
@@ -88,8 +85,9 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指出 Joshua Kushner 的 Thrive Capital 告訴股東，已向 Shopify 投資約 1 億美元，押注 AI 將帶動電商成長",
-      "summary_zh": "據知情人士透露，Thrive Capital 已入股 Shopify Inc.，這是該創投公司罕見對上市公司進行的投資。"
+      "_translation_skipped": true,
+      "title_zh": "Sources: Joshua Kushner's Thrive Capital told its stakeholders that it has invested ~$100M in Shopify, framed as a bet on how AI could lead to gains in commerce",
+      "summary_zh": ""
     },
     {
       "title_en": "Figma reports Q1 revenue up 46% YoY to $333.4M, vs. $313.2M est., and forecasts Q2 revenue above estimates, citing AI monetization; FIG jumps 8%+ after hours",
@@ -98,18 +96,9 @@
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Figma 第一季營收年增 46% 至 3.334 億美元，優於預期，並受 AI 變現推動調高展望；盤後股價大漲逾 8%",
-      "summary_zh": "Figma 週四調高了年度營收預測，主因是其人工智慧工具的使用率上升，成功將使用者轉化為付費客戶。"
-    },
-    {
-      "title_en": "Gallup: 71% of Americans oppose local AI data center construction, citing water and electricity issues, with opposition higher among Democrats than Republicans",
-      "url": "https://www.washingtonpost.com/nation/2026/05/13/7-10-americans-oppose-data-centers-being-built-their-communities/",
-      "summary_en": "The survey found that Republicans and Democrats are uncomfortable living near a data center, but opposition is especially intense among Democrats.",
-      "source": "Washington Post",
-      "media_source": "Washington Post",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Gallup 民調：71% 的美國人反對在當地建設 AI 資料中心，主因是水電資源問題，且民主黨人的反對比例高於共和黨人",
-      "summary_zh": "調查發現，共和黨人與民主黨人都不太願意住在資料中心附近，但民主黨人的反對情緒尤其強烈。"
+      "_translation_skipped": true,
+      "title_zh": "Figma reports Q1 revenue up 46% YoY to $333.4M, vs. $313.2M est., and forecasts Q2 revenue above estimates, citing AI monetization; FIG jumps 8%+ after hours",
+      "summary_zh": ""
     },
     {
       "title_en": "Gemini reports Q1 revenue up 42% YoY to $50.3M, vs. $47.9M est., announces a $100M capital injection from Winklevoss Capital Fund; GEMI jumps 22%+ after hours",
@@ -118,8 +107,20 @@
       "source": "CNBC",
       "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Gemini 第一季營收年增 42% 至 5,030 萬美元，並獲得 Winklevoss Capital 注入 1 億美元資金；盤後股價暴漲逾 22%",
-      "summary_zh": "由 Winklevoss 兄弟創立的加密貨幣交易所 Gemini，其股份在盤後交易中大幅飆升。"
+      "_translation_skipped": true,
+      "title_zh": "Gemini reports Q1 revenue up 42% YoY to $50.3M, vs. $47.9M est., announces a $100M capital injection from Winklevoss Capital Fund; GEMI jumps 22%+ after hours",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Gallup: 71% of Americans oppose local AI data center construction, citing water and electricity issues, with opposition higher among Democrats than Republicans",
+      "url": "https://www.washingtonpost.com/nation/2026/05/13/7-10-americans-oppose-data-centers-being-built-their-communities/",
+      "summary_en": "The survey found that Republicans and Democrats are uncomfortable living near a data center, but opposition is especially intense among Democrats.",
+      "source": "Washington Post",
+      "media_source": "Washington Post",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Gallup: 71% of Americans oppose local AI data center construction, citing water and electricity issues, with opposition higher among Democrats than Republicans",
+      "summary_zh": ""
     },
     {
       "title_en": "OpenAI says two employee devices were impacted via a supply chain attack on TanStack but no user data or production systems were compromised",
@@ -128,8 +129,9 @@
       "source": "TechCrunch",
       "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "OpenAI 表示兩名員工的裝置受到 TanStack 供應鏈攻擊影響，但強調沒有使用者數據或正式環境系統遭到入侵",
-      "summary_zh": "本週早些時候，駭客入侵了數十家公司使用的多個開源項目，並發布了旨在傳播惡意軟體的更新。"
+      "_translation_skipped": true,
+      "title_zh": "OpenAI says two employee devices were impacted via a supply chain attack on TanStack but no user data or production systems were compromised",
+      "summary_zh": ""
     },
     {
       "title_en": "Sources: 50+ researchers and engineers have left xAI since the SpaceX acquisition via layoffs, firings, and voluntary departures; many have joined Meta and TML",
@@ -138,8 +140,9 @@
       "source": "The Information",
       "media_source": "The Information",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指出自 SpaceX 收購後，已有 50 多名研究員與工程師離開 xAI，多數已加入 Meta 和 TML",
-      "summary_zh": "這被稱為「SpaceXAI 大逃亡」——超過 50 名負責開發 xAI Grok 模型的人員已經離職。"
+      "_translation_skipped": true,
+      "title_zh": "Sources: 50+ researchers and engineers have left xAI since the SpaceX acquisition via layoffs, firings, and voluntary departures; many have joined Meta and TML",
+      "summary_zh": ""
     },
     {
       "title_en": "The Senate Banking Committee advances the Clarity Act, which would make CFTC the primary regulator for most digital assets while SEC oversees digital securities",
@@ -148,8 +151,9 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "參議院銀行委員會推進《Clarity Act》，擬由 CFTC 監管多數數位資產，而 SEC 則負責監管數位證券",
-      "summary_zh": "在參議院銀行委員會推進這項具里程碑意義的美國數位資產市場結構法案後，比特幣價格突破了 80,000 美元。"
+      "_translation_skipped": true,
+      "title_zh": "The Senate Banking Committee advances the Clarity Act, which would make CFTC the primary regulator for most digital assets while SEC oversees digital securities",
+      "summary_zh": ""
     },
     {
       "title_en": "Anthropic and the Gates Foundation pledge $200M to use AI in health and education initiatives; the foundation signed a similar, $50M deal with OpenAI in January",
@@ -158,8 +162,9 @@
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Anthropic 與蓋茲基金會承諾投入 2 億美元將 AI 用於醫療與教育倡議；該基金會 1 月曾與 OpenAI 簽署類似協議",
-      "summary_zh": "Anthropic 與蓋茲基金會承諾捐助 2 億美元，以支持與人工智慧相關的公共利益項目。"
+      "_translation_skipped": true,
+      "title_zh": "Anthropic and the Gates Foundation pledge $200M to use AI in health and education initiatives; the foundation signed a similar, $50M deal with OpenAI in January",
+      "summary_zh": ""
     },
     {
       "title_en": "AT&T, T-Mobile, and Verizon sign an “agreement in principle” to form a joint venture that aims to end wireless dead zones in the US, without giving many details",
@@ -168,18 +173,9 @@
       "source": "The Verge",
       "media_source": "The Verge",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "AT&T、T-Mobile 與 Verizon 簽署「原則性協議」，擬成立合資公司以消除美國無線通訊死角",
-      "summary_zh": "一項擬議中的新合資案將整合頻譜資源，並提升衛星容量以改善收訊。"
-    },
-    {
-      "title_en": "Spotify says it will adopt Apple's HTTP Live Streaming tech later in 2026, helping Spotify creators distribute video podcast shows on Apple Podcasts and Spotify",
-      "url": "https://9to5mac.com/2026/05/14/spotify-adopting-apples-new-video-podcast-tech-for-easier-cross-platform-publishing/",
-      "summary_en": "Spotify is making two video podcast announcements today, including one related to Apple's big video podcast enhancement.",
-      "source": "9to5Mac",
-      "media_source": "9to5Mac",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Spotify 表示將於 2026 年採用 Apple 的 HLS 技術，協助創作者在 Apple Podcasts 與 Spotify 上分發影片 Podcast",
-      "summary_zh": "Spotify 今天發布了兩項關於影片 Podcast 的公告，其中一項與 Apple 的影片功能增強有關。"
+      "_translation_skipped": true,
+      "title_zh": "AT&T, T-Mobile, and Verizon sign an “agreement in principle” to form a joint venture that aims to end wireless dead zones in the US, without giving many details",
+      "summary_zh": ""
     },
     {
       "title_en": "UK-based Iceotope, which develops data center liquid cooling tech, raised a $26M Series B co-led by Two Seas Capital and Barclays Climate Ventures",
@@ -188,18 +184,9 @@
       "source": "SiliconANGLE",
       "media_source": "SiliconANGLE",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "總部位於英國、研發資料中心液冷技術的 Iceotope 獲得 2,600 萬美元 B 輪融資，由 Two Seas Capital 領投",
-      "summary_zh": "液冷系統新創公司 Iceotope Technologies Ltd. 表示，已完成 2,600 萬美元的 B 輪融資，致力於推動技術發展。"
-    },
-    {
-      "title_en": "Sources: Microsoft plans to remove most of its Claude Code licenses and push its developers toward GitHub Copilot CLI, after previously pushing Claude Code",
-      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "summary_en": "Thousands of Microsoft developers will use GitHub Copilot CLI instead — Microsoft first started opening up access to Claude Code in December …",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指出 Microsoft 計劃取消多數 Claude Code 授權，並將開發者推向 GitHub Copilot CLI",
-      "summary_zh": "數千名 Microsoft 開發者將改用 GitHub Copilot CLI，儘管 Microsoft 去年 12 月才剛開始開放 Claude Code 的存取。"
+      "_translation_skipped": true,
+      "title_zh": "UK-based Iceotope, which develops data center liquid cooling tech, raised a $26M Series B co-led by Two Seas Capital and Barclays Climate Ventures",
+      "summary_zh": ""
     },
     {
       "title_en": "In a policy paper, Anthropic urges the US and allies to enforce export controls, curb distillation attacks, and export US AI to hold the lead over China by 2028",
@@ -208,8 +195,20 @@
       "source": "Anthropic",
       "media_source": "Anthropic",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Anthropic 發布政策白皮書，敦促美國及其盟友加強出口管制並遏制蒸餾攻擊，以確保 2028 年前在 AI 領域領先中國",
-      "summary_zh": "我們發布了一份全新白皮書，闡述我們對美中 AI 競爭的觀點。"
+      "_translation_skipped": true,
+      "title_zh": "In a policy paper, Anthropic urges the US and allies to enforce export controls, curb distillation attacks, and export US AI to hold the lead over China by 2028",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Spotify says it will adopt Apple's HTTP Live Streaming tech later in 2026, helping Spotify creators distribute video podcast shows on Apple Podcasts and Spotify",
+      "url": "https://9to5mac.com/2026/05/14/spotify-adopting-apples-new-video-podcast-tech-for-easier-cross-platform-publishing/",
+      "summary_en": "Spotify is making two video podcast announcements today, including one related to Apple's big video podcast enhancement.",
+      "source": "9to5Mac",
+      "media_source": "9to5Mac",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Spotify says it will adopt Apple's HTTP Live Streaming tech later in 2026, helping Spotify creators distribute video podcast shows on Apple Podcasts and Spotify",
+      "summary_zh": ""
     },
     {
       "title_en": "California Gov. Gavin Newsom proposes a new 7.25% tax on web-based software sales, targeting $1.1B in state and local tax revenue in the upcoming budget year",
@@ -218,18 +217,20 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "加州州長 Gavin Newsom 提議對網頁版軟體銷售徵收 7.25% 的新稅，目標是在下一財政年度增加 11 億美元的州與地方稅收",
-      "summary_zh": "加州州長 Gavin Newsom 正提議對雲端軟體銷售徵收新稅，轉向科技產業尋求數十億美元的資金…"
+      "_translation_skipped": true,
+      "title_zh": "California Gov. Gavin Newsom proposes a new 7.25% tax on web-based software sales, targeting $1.1B in state and local tax revenue in the upcoming budget year",
+      "summary_zh": ""
     },
     {
-      "title_en": "As Meta prepares to lay off ~10% of its staff on May 20, sources say morale is low, and it moved 1,000+ engineers to an AI unit to build generative AI models",
-      "url": "https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/",
-      "summary_en": "Next week, Meta is cutting about 10 percent of its staff. WIRED spoke with more than a dozen current and former employees …",
-      "source": "Wired",
-      "media_source": "Wired",
+      "title_en": "Sources: Microsoft plans to remove most of its Claude Code licenses and push its developers toward GitHub Copilot CLI, after previously pushing Claude Code",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "summary_en": "Thousands of Microsoft developers will use GitHub Copilot CLI instead — Microsoft first started opening up access to Claude Code in December …",
+      "source": "The Verge",
+      "media_source": "The Verge",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Meta 準備於 5 月 20 日裁員約 10% 員工，消息人士稱內部士氣低落，公司已將超過 1,000 名工程師調往 AI 部門開發生成式 AI 模型",
-      "summary_zh": "Meta 下週將裁減約 10% 的員工。WIRED 採訪了十多位現任及前任員工…"
+      "_translation_skipped": true,
+      "title_zh": "Sources: Microsoft plans to remove most of its Claude Code licenses and push its developers toward GitHub Copilot CLI, after previously pushing Claude Code",
+      "summary_zh": ""
     },
     {
       "title_en": "Alphabet sold $3.6B of bonds in its debut yen-denominated bond sale, the largest by a non-Japanese company, as AI-driven capital spending accelerates",
@@ -238,8 +239,20 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Alphabet 在其首度發行的日圓債券中售出 36 億美元，創下非日本公司最大規模紀錄，主因 AI 驅動的資本支出加速",
-      "summary_zh": "Alphabet Inc. 在非日本公司歷來最大的日圓債券交易中售出了 5,765 億日圓（36 億美元）的債券，因為資助數據中心和 AI 基礎設施的競爭日益激烈。"
+      "_translation_skipped": true,
+      "title_zh": "Alphabet sold $3.6B of bonds in its debut yen-denominated bond sale, the largest by a non-Japanese company, as AI-driven capital spending accelerates",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Sources: xAI co-founder Igor Babuschkin plans to raise up to $1B at an up to $5B valuation for a new AI research startup, with General Catalyst possibly leading",
+      "url": "https://www.forbes.com/sites/rashishrivastava/2026/05/14/xai-cofounder-igor-babuschkin-in-talks-to-raise-up-to-1-billion-for-a-new-ai-startup/",
+      "summary_en": "He's the latest superstar AI researcher to take advantage of the wave of investment dollars going into so-called ‘neolabs,’ which have no product or revenue.",
+      "source": "Forbes",
+      "media_source": "Forbes",
+      "techmeme_source": "homepage_main_column",
+      "_translation_skipped": true,
+      "title_zh": "Sources: xAI co-founder Igor Babuschkin plans to raise up to $1B at an up to $5B valuation for a new AI research startup, with General Catalyst possibly leading",
+      "summary_zh": ""
     },
     {
       "title_en": "Sources: Anthropic has agreed to the terms of a $30B fundraising at a $900B valuation, with Sequoia, Dragoneer, Greenoaks, and Altimeter co-leading the round",
@@ -248,18 +261,20 @@
       "source": "Financial Times",
       "media_source": "Financial Times",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：Anthropic 已同意以 9,000 億美元估值融資 300 億美元，由 Sequoia、Dragoneer、Greenoaks 和 Altimeter 領投",
-      "summary_zh": "AI 實驗室已邀請 Dragoneer、Greenoaks、Sequoia Capital 和 Altimeter Capital 領投新一輪融資。"
+      "_translation_skipped": true,
+      "title_zh": "Sources: Anthropic has agreed to the terms of a $30B fundraising at a $900B valuation, with Sequoia, Dragoneer, Greenoaks, and Altimeter co-leading the round",
+      "summary_zh": ""
     },
     {
-      "title_en": "Sources: the US has cleared ~10 Chinese companies, including Alibaba, Tencent, ByteDance, and JD.com, to buy Nvidia H200 chips, but no deliveries have been made",
-      "url": "https://www.reuters.com/business/retail-consumer/us-clears-h200-chip-sales-10-china-firms-nvidia-ceo-looks-breakthrough-2026-05-14/",
-      "summary_en": "The U.S. has cleared around 10 Chinese firms to buy Nvidia's second-most powerful AI chip, the H200, but not a single delivery …",
-      "source": "Reuters",
-      "media_source": "Reuters",
+      "title_en": "As Meta prepares to lay off ~10% of its staff on May 20, sources say morale is low, and it moved 1,000+ engineers to an AI unit to build generative AI models",
+      "url": "https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/",
+      "summary_en": "Next week, Meta is cutting about 10 percent of its staff. WIRED spoke with more than a dozen current and former employees …",
+      "source": "Wired",
+      "media_source": "Wired",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：美國已批准阿里巴巴、騰訊、字節跳動與京東等約 10 家中國公司購買 Nvidia H200 晶片，但尚未交付",
-      "summary_zh": "美國已批准約 10 家中國企業購買 Nvidia 次強的 AI 晶片 H200，但目前連一通交付都尚未達成…"
+      "_translation_skipped": true,
+      "title_zh": "As Meta prepares to lay off ~10% of its staff on May 20, sources say morale is low, and it moved 1,000+ engineers to an AI unit to build generative AI models",
+      "summary_zh": ""
     }
   ],
   "wsj": [
@@ -267,71 +282,81 @@
       "title_en": "Lawyers Trade Barbs on Credibility of Elon Musk, Sam Altman in OpenAI Trial",
       "url": "https://www.wsj.com/tech/ai/elon-musk-v-sam-altman-trial-closing-arguments-07407c2f?mod=rss_Technology",
       "summary_en": "The world’s richest man testified that OpenAI allegedly “stole a charity” in its for-profit conversion, while Altman defended the change....",
-      "title_zh": "OpenAI 審判中律師針對 Elon Musk 與 Sam Altman 的誠信問題針鋒相對",
-      "summary_zh": "這位世界首富出庭作證稱 OpenAI 在轉型為營利組織的過程中涉嫌「偷竊慈善機構」，而 Altman 則為該變革辯護。"
+      "_translation_skipped": true,
+      "title_zh": "Lawyers Trade Barbs on Credibility of Elon Musk, Sam Altman in OpenAI Trial",
+      "summary_zh": ""
     },
     {
       "title_en": "Wall Street Hearts AI, as Blockbuster IPO Shows",
       "url": "https://www.wsj.com/tech/wall-street-hearts-ai-as-blockbuster-ipo-shows-697ee9fe?mod=rss_Technology",
       "summary_en": "Plus, Mythos helps crack Apple’s security, and 3,500 masochists walk 32 miles....",
-      "title_zh": "華爾街力挺 AI，重磅級 IPO 展現市場熱度",
-      "summary_zh": "此外，Mythos 協助破解 Apple 安全防護，以及 3,500 名挑戰者徒步走完 32 英里…"
+      "_translation_skipped": true,
+      "title_zh": "Wall Street Hearts AI, as Blockbuster IPO Shows",
+      "summary_zh": ""
     },
     {
       "title_en": "‘LifeHack’ Review: A High-Tech Heist",
       "url": "https://www.wsj.com/arts-culture/film/lifehack-review-a-high-tech-heist-4ed7c755?mod=rss_Technology",
       "summary_en": "A group of digital-savvy Gen-Zers try to pull off a crypto caper in the impressively entertaining feature debut from writer-director Ronan Corrigan....",
-      "title_zh": "《LifeHack》評論：一場高科技劫案",
-      "summary_zh": "一群精通數位的 Z 世代試圖在編劇兼導演 Ronan Corrigan 精彩且具娛樂性的處女作中策劃一場加密貨幣大劫案。"
+      "_translation_skipped": true,
+      "title_zh": "‘LifeHack’ Review: A High-Tech Heist",
+      "summary_zh": ""
     },
     {
       "title_en": "Apple’s Security Has Been Tough to Crack. Mythos Helped Find a Way In.",
       "url": "https://www.wsj.com/tech/ai/anthropic-mythos-apple-macos-bug-339da403?mod=rss_Technology",
       "summary_en": "During tests in April, researchers found software issues in MacOS, one of the world’s toughest targets for hackers....",
-      "title_zh": "Apple 安全防護曾難以逾越，Mythos 協助找到入侵途徑",
-      "summary_zh": "在 4 月的測試中，研究人員在 macOS 中發現了軟體問題，而該系統是全球駭客最難攻破的目標之一。"
+      "_translation_skipped": true,
+      "title_zh": "Apple’s Security Has Been Tough to Crack. Mythos Helped Find a Way In.",
+      "summary_zh": ""
     },
     {
       "title_en": "Graphon Says Its ‘Intelligence Layer’ Will Lighten the Load on AI Models",
       "url": "https://www.wsj.com/tech/ai/graphon-says-its-intelligence-layer-will-lighten-the-load-on-ai-models-63262706?mod=rss_Technology",
       "summary_en": "CEO Arbaaz Khan says the company’s approach analyzes the relationships between pieces of data more efficiently and cheaply than large language models do....",
-      "title_zh": "Graphon 表示其「智慧層」將減輕 AI 模型的運算負荷",
-      "summary_zh": "執行長 Arbaaz Khan 表示，公司的技術分析數據片段之間關係的效率與成本，均優於大型語言模型。"
+      "_translation_skipped": true,
+      "title_zh": "Graphon Says Its ‘Intelligence Layer’ Will Lighten the Load on AI Models",
+      "summary_zh": ""
     },
     {
       "title_en": "Hedge Funds Are Making a Killing in the ‘Golden Age’ of AI Hardware",
       "url": "https://www.wsj.com/finance/investing/hedge-funds-are-making-a-killing-in-the-golden-age-of-ai-hardware-3a8dc34a?mod=rss_Technology",
       "summary_en": "Shares of makers of chips and related equipment delivered stock-picking funds such as Steve Cohen’s Point72 their best month in decades....",
-      "title_zh": "避險基金在 AI 硬體「黃金時代」大獲全勝",
-      "summary_zh": "晶片及相關設備製造商的股價，讓 Steve Cohen 的 Point72 等選股基金創下數十年來表現最佳的月份。"
+      "_translation_skipped": true,
+      "title_zh": "Hedge Funds Are Making a Killing in the ‘Golden Age’ of AI Hardware",
+      "summary_zh": ""
     },
     {
       "title_en": "Tech, Media & Telecom Roundup: Market Talk",
       "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-b42c917d?mod=rss_Technology",
       "summary_en": "Find insight on Applied Materials, Versant Media, Anthropic and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "title_zh": "科技、媒體與電信彙報：市場談話",
-      "summary_zh": "在最新的科技、媒體和電信市場談話中，獲取有關 Applied Materials、Versant Media、Anthropic 等公司的洞察。"
+      "_translation_skipped": true,
+      "title_zh": "Tech, Media & Telecom Roundup: Market Talk",
+      "summary_zh": ""
     },
     {
       "title_en": "Cloud Company Akamai Hits Asia Revenue Milestone as It Ramps Up Investment, M&A",
       "url": "https://www.wsj.com/tech/ai/cloud-company-akamai-hits-asia-revenue-milestone-as-it-ramps-up-investment-m-a-4cc79b38?mod=rss_Technology",
       "summary_en": "Nasdaq-listed Akamai will increase spending on AI and cloud infrastructure in Asia, including on advanced chips, and deepen its partnership with Nvidia....",
-      "title_zh": "雲端公司 Akamai 擴大投資與併購，亞洲營收達成里程碑",
-      "summary_zh": "在納斯達克上市的 Akamai 將增加在亞洲 AI 與雲端基礎設施的支出，包括採購先進晶片，並加深與 Nvidia 的合作夥伴關係。"
+      "_translation_skipped": true,
+      "title_zh": "Cloud Company Akamai Hits Asia Revenue Milestone as It Ramps Up Investment, M&A",
+      "summary_zh": ""
     },
     {
       "title_en": "Foxconn Posts Strong Results on AI Hardware Sales",
       "url": "https://www.wsj.com/tech/foxconn-posts-strong-results-on-ai-hardware-sales-81f2ab18?mod=rss_Technology",
       "summary_en": "Foxconn Technology Group reported robust first-quarter revenue and profit as it ramped up production of server racks, other advanced equipment and consumer devices for the global artificial-intelligen...",
-      "title_zh": "鴻海因 AI 硬體銷售強勁繳出優異財報",
-      "summary_zh": "鴻海科技集團報告稱，隨著其伺服器機櫃、其他先進設備以及全球 AI 所需的消費性裝置產量增加，第一季營收與利潤表現強勁。"
+      "_translation_skipped": true,
+      "title_zh": "Foxconn Posts Strong Results on AI Hardware Sales",
+      "summary_zh": ""
     },
     {
       "title_en": "Peter Thiel-Backed Startup Bets Its AI Can Boost Hiring",
       "url": "https://www.wsj.com/tech/ai/peter-thiel-backed-startup-bets-its-ai-can-boost-hiring-074f65cd?mod=rss_Technology",
       "summary_en": "Artificial-intelligence coding startup Cognition is expanding across Asia, looking to plug a “software deficit” with an automation tool it bets can lead to more hiring, not less....",
-      "title_zh": "Peter Thiel 支持的初創公司賭注其 AI 能帶動招聘需求",
-      "summary_zh": "AI 編碼初創公司 Cognition 正在亞洲擴張，尋求透過自動化工具填補「軟體赤字」，並賭注這將導致更多的招聘，而非裁員。"
+      "_translation_skipped": true,
+      "title_zh": "Peter Thiel-Backed Startup Bets Its AI Can Boost Hiring",
+      "summary_zh": ""
     }
   ],
   "deep_analysis": {
