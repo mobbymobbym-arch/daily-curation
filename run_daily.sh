@@ -34,7 +34,7 @@ fi
 mkdir -p "$LOG_DIR"
 
 # 開始記錄
-exec >> >(tee -a "$LOG_FILE") 2>&1
+main() {
 echo "========================================"
 echo "⏰ Daily Curation 開始: $(date)"
 echo "========================================"
@@ -190,3 +190,7 @@ else
     echo "⚠️ Daily Curation 完成（部分步驟有警告: ${FAILED_STEPS}）: $(date)"
 fi
 echo "========================================"
+}
+
+main "$@" 2>&1 | tee -a "$LOG_FILE"
+exit "${PIPESTATUS[0]}"
