@@ -46,6 +46,34 @@ def clean_url(url):
         return html.unescape(url).strip().rstrip("/")
 
 
+def normalize_date(value):
+    text = str(value or "").strip()
+    match = re.search(r"(\d{4})[-/.年](\d{1,2})[-/.月](\d{1,2})", text)
+    if not match:
+        return ""
+    year, month, day = match.groups()
+    return f"{int(year):04d}-{int(month):02d}-{int(day):02d}"
+
+
+def deep_row_display_date(row):
+    return (
+        row.get("article_date")
+        or row.get("first_seen_date")
+        or row.get("latest_seen_date")
+        or ""
+    )
+
+
+def deep_sort_key(row):
+    return (
+        normalize_date(deep_row_display_date(row)),
+        normalize_date(row.get("latest_seen_date")),
+        normalize_date(row.get("first_seen_date")),
+        str(row.get("source") or ""),
+        str(row.get("title") or ""),
+    )
+
+
 def script_json(data):
     raw = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     return raw.replace("<", "\\u003c").replace("</", "<\\/")
@@ -241,7 +269,7 @@ def build_deep_feed():
             by_key[row["key"]] = row
 
     rows = list(by_key.values())
-    rows.sort(key=lambda item: (item.get("first_seen_date", ""), item.get("source", ""), item.get("title", "")), reverse=True)
+    rows.sort(key=deep_sort_key, reverse=True)
     for index, row in enumerate(rows, 1):
         row["id"] = f"analysis-{index}"
         row.pop("key", None)

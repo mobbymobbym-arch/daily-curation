@@ -72,6 +72,31 @@ def teaser_text(value, limit=280):
     return text[:limit].rstrip() + ('...' if len(text) > limit else '')
 
 
+def normalize_date(value):
+    text = str(value or '').strip()
+    match = re.search(r'(\d{4})[-/.年](\d{1,2})[-/.月](\d{1,2})', text)
+    if not match:
+        return ''
+    year, month, day = match.groups()
+    return f'{int(year):04d}-{int(month):02d}-{int(day):02d}'
+
+
+def analysis_sort_key(item):
+    display_date = (
+        item.get('article_date')
+        or item.get('first_seen_date')
+        or item.get('latest_seen_date')
+        or ''
+    )
+    return (
+        normalize_date(display_date),
+        normalize_date(item.get('latest_seen_date')),
+        normalize_date(item.get('first_seen_date')),
+        str(item.get('source') or item.get('source_key') or ''),
+        str(item.get('title') or item.get('title_zh') or ''),
+    )
+
+
 def render_deep_analysis(data):
     html = '''
             <!-- Deep Analysis Section -->
@@ -84,20 +109,14 @@ def render_deep_analysis(data):
     
     analysis_items = []
     if isinstance(data, dict):
-        priority_keys = ['Stratechery', 'Dwarkesh', 'stratechery', 'dwarkesh']
-        processed_keys = set()
-        for key in priority_keys:
-            if key in data and data[key]:
-                item = data[key]
-                item['source_key'] = key
-                analysis_items.append(item)
-                processed_keys.add(key)
         for key, content in data.items():
-            if key not in processed_keys and isinstance(content, dict):
+            if isinstance(content, dict):
                 # Check for analysis_zh or title to include newest format
                 if 'title' in content or 'title_zh' in content or 'analysis_zh' in content:
                     content['source_key'] = key
                     analysis_items.append(content)
+
+    analysis_items.sort(key=analysis_sort_key, reverse=True)
 
     for item in analysis_items[:3]:
         title = item.get('title') or item.get('title_zh') or 'Deep Analysis'
@@ -135,7 +154,7 @@ def main():
     wsj_html = render_wsj(wsj_data, fetch_date) 
     deep_analysis_html = render_deep_analysis(deep_analysis_data)
     
-    full_news_html = f"\n            <!-- DAILY_NEWS_START -->\n{techmeme_html}\n{wsj_html}\n{deep_analysis_html}\n            <!-- DAILY_NEWS_END -->"
+    full_news_html = f"            <!-- DAILY_NEWS_START -->\n{techmeme_html}\n{wsj_html}\n{deep_analysis_html}\n            <!-- DAILY_NEWS_END -->"
     
     with open(HTML_PATH, 'r', encoding='utf-8') as f:
         content = f.read()
