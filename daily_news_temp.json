@@ -1,35 +1,85 @@
 {
-  "fetch_date": "2026-05-17",
+  "fetch_date": "2026-05-18",
   "techmeme": [
     {
-      "title_en": "In an experiment that let Claude, ChatGPT, Gemini, and Grok run radio stations, Claude tried to incite a revolution and Gemini cheerfully detailed tragic events",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
-      "summary_en": "Claude tried to incite a revolution, Gemini cheerfully detailed horrific tragedies, and poor Grok was just confused.",
-      "source": "The Verge",
-      "media_source": "The Verge",
+      "title_en": "Sources: Apple's revamped Siri may launch in beta, and will have an option to auto-delete chats; Apple plans to add Suggested Genmoji to iOS 27 and iPadOS 27",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-17/ios-27-siri-app-to-have-auto-deleting-chats-siri-may-be-a-beta-genmoji-mp9udydr",
+      "summary_en": "Also: A Genmoji upgrade is coming in iOS 27. — Apple's Siri app in iOS 27 will include privacy features unique to the chatbot market.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "在一項讓 Claude、ChatGPT、Gemini 和 Grok 經營廣播電台的實驗中，Claude 試圖煽動革命，而 Gemini 則興高采烈地詳述悲慘事件",
-      "summary_zh": "Claude 嘗試煽動革命，Gemini 興高采烈地描述恐怖悲劇，而可憐的 Grok 則是一臉困惑。"
+      "title_zh": "消息指 Apple 重新設計的 Siri 可能以 Beta 版推出，並提供自動刪除對話選項；Apple 計劃在 iOS 27 與 iPadOS 27 加入「建議 Genmoji」功能",
+      "summary_zh": "此外，iOS 27 將迎來 Genmoji 升級。Apple 在 iOS 27 中的 Siri 應用程式將包含聊天機器人市場中獨有的隱私功能。"
     },
     {
-      "title_en": "SF vibes are frenetic over the huge divide in outcomes and career uncertainty for software engineers; over 5 years ~10K people in AI attained retirement wealth",
-      "url": "https://x.com/deedydas/status/2055491938464489888",
-      "summary_en": "The vibes in SF feel pretty frenetic right now. The divide in outcomes is the worst I've ever seen. Over the last 5yrs, a group of ~10k people - employees at Anthropic, OpenAI, xAI, Nvidia, Meta TBD, founders - have hit retirement wealth of well above $20M (back of the envelope",
-      "source": "@deedydas",
-      "media_source": "@deedydas",
+      "title_en": "Grafana says hackers have accessed its GitHub environment and demanded a ransom to prevent the release of its codebase; Grafana refused to pay",
+      "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "summary_en": "Grafana has disclosed that an “unauthorized party” obtained a token that granted them the ability to access the company's GitHub environment and download its codebase.",
+      "source": "The Hacker News",
+      "media_source": "The Hacker News",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "舊金山氛圍因軟體工程師極大的結果分歧與職涯不確定性而顯得焦躁；過去 5 年約有 1 萬名 AI 從業者達到退休等級的財富",
-      "summary_zh": "舊金山目前的氛圍相當焦躁。結果的分歧是我見過最嚴重的。在過去 5 年中，一組約 1 萬人的群體（包括 Anthropic、OpenAI、xAI、Nvidia、Meta 的員工與創辦人）已達到遠高於 2,000 萬美元的退休財富（初步估計）。"
+      "title_zh": "Grafana 表示駭客入侵其 GitHub 環境並勒索贖金以防止程式碼外洩；Grafana 拒絕支付",
+      "summary_zh": "Grafana 透露，一名「未經授權的第三方」取得了一個 Token，使其能夠訪問公司的 GitHub 環境並下載其程式碼。"
     },
     {
-      "title_en": "King's Cross, where Google's new UK HQ is due to open later this year, has become London's new tech, VC, and AI hub, attracting OpenAI, Anthropic, and others",
-      "url": "https://www.ft.com/content/d0a7927d-3072-4bd5-b816-662f726b3699",
-      "summary_en": "A formerly rundown area has become London's new global technology hub — Google's new UK headquarters in King's Cross …",
+      "title_en": "Analysis: mass adoption of smartphones and social media may be a primary driver of declining birthrates globally, in part by reducing in-person socializing",
+      "url": "https://www.ft.com/content/fba35eca-df3a-4ad6-b42d-eb08eb7c9ad3?accessToken=zwAAAZ4xN0_fkdP7o17K3zpK1tO0LesI63ya0w.MEUCIQDcH8bilMlGVJqgZstG35mMI2AG3WUTMRgHMxwbjHntngIgT1ShKwhwRQyJ-IkFBNjACw4OxvSSidscpqYR9_r2h2U&sharetype=gift&token=a750465d-0fdc-469e-b2da-45dd825dadfb&syn-25a6b1a6=1",
+      "summary_en": "The demographic landslide defining our era is gaining speed — and terrain. In more than two-thirds of the world's 195 countries …",
       "source": "Financial Times",
       "media_source": "Financial Times",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 英國新總部將於今年稍晚開幕的國王十字區 (King's Cross) 已成為倫敦新的科技、創投與 AI 中心，吸引了 OpenAI、Anthropic 等公司",
-      "summary_zh": "昔日的落後地區已轉變為倫敦全新的全球科技樞紐 —— 位於國王十字區的 Google 英國新總部..."
+      "title_zh": "分析：智慧型手機與社群媒體的普及可能是全球出生率下降的主因，部分原因在於減少了面對面的社交活動",
+      "summary_zh": "定義我們這個時代的人口劇變正在加速擴大。在全球 195 個國家中，超過三分之二的國家……"
+    },
+    {
+      "title_en": "Source: Shein is acquiring DTC clothing retailer Everlane, which focuses on sustainability and “radical transparency”, in a $100M deal",
+      "url": "https://puck.news/everlane-is-selling-out-to-shein/",
+      "summary_en": "The Millennial D.T.C. company built a global brand based on sustainability and radical transparency. Now, after a years-long slump …",
+      "source": "Puck",
+      "media_source": "Puck",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息人士：Shein 將以 1 億美元收購專注於永續發展與「極度透明」的 DTC 服飾零售商 Everlane",
+      "summary_zh": "這家深受千禧世代喜愛的 DTC 公司憑藉永續發展與極度透明建立了全球品牌。如今，在經歷了多年的低迷後……"
+    },
+    {
+      "title_en": "Analysis: 34 leading AI startups are generating ~$80B in annualized revenue, up 112% from six months ago, with Anthropic and OpenAI capturing 89% of the revenue",
+      "url": "https://www.theinformation.com/articles/anthropic-openais-share-ai-startup-revenues-rises-89",
+      "summary_en": "Anthropic and OpenAI are widening the revenue gap between themselves and the rest of the AI startup field.",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "分析：34 家領先的 AI 新創公司年化營收約達 800 億美元，較半年前增長 112%，其中 Anthropic 與 OpenAI 佔據 89% 的營收",
+      "summary_zh": "Anthropic 和 OpenAI 正在拉大與其他 AI 新創公司之間的營收差距。"
+    },
+    {
+      "title_en": "Developers say Chinese AI labs lead US rivals in video generation, as ByteDance and Kuaishou train models on vast short-form video libraries from their own apps",
+      "url": "https://giftarticle.ft.com/giftarticle/actions/redeem/a7db4a0f-cfc1-42a2-ad66-ad798a1f28a0",
+      "summary_en": "Chinese artificial intelligence groups have moved ahead of US rivals in video generation, a key battleground in generative AI …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "開發者表示中國 AI 實驗室在影片生成領域領先美國對手，字節跳動與快手利用自家 App 的龐大短影音庫訓練模型",
+      "summary_zh": "中國 AI 團隊在影片生成這一生成式 AI 的關鍵戰場上已超越美國競爭對手……"
+    },
+    {
+      "title_en": "A look at Apple's ongoing strategy to repurpose “binned” chips for cheaper devices; sources: Apple placed new A18 Pro orders for MacBook Neo amid its popularity",
+      "url": "https://www.wsj.com/tech/apple-is-making-hit-products-and-high-profits-from-imperfect-chips-d32c21d8",
+      "summary_en": "The company's popular, $599 Neo laptop is just one of dozens of Apple devices that use lower-performing processors",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "深度解析 Apple 將「降級晶片」重新用於平價裝置的持續策略；消息稱 Apple 因 MacBook Neo 熱銷追加 A18 Pro 訂單",
+      "summary_zh": "該公司售價 599 美元、廣受歡迎的 Neo 筆記型電腦，只是數十款使用性能較低處理器的 Apple 裝置之一。"
+    },
+    {
+      "title_en": "AI sales automation startup Monaco raised a $50M Series B led by Benchmark, bringing its total funding to $85M after raising a $25M Series A in February 2026",
+      "url": "https://www.businessinsider.com/jack-altman-talks-about-his-first-benchmark-deal-2026-5",
+      "summary_en": "Monaco, which came out of stealth earlier this year, is developing AI software to automate sales.",
+      "source": "Business Insider",
+      "media_source": "Business Insider",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "AI 銷售自動化新創公司 Monaco 完成 5,000 萬美元 B 輪融資，總資產達 8,500 萬美元",
+      "summary_zh": "Monaco 於今年早些時候結束隱身模式，目前正在開發用於自動化銷售的 AI 軟體。"
     },
     {
       "title_en": "Experts: Stuxnet-linked Fast16 malware, designed to subvert nuclear weapons testing simulations, was likely part of a campaign to slow Iran's nuclear ambitions",
@@ -38,180 +88,130 @@
       "source": "ZERO DAY",
       "media_source": "ZERO DAY",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "專家：與 Stuxnet 相關的 Fast16 惡意軟體旨在破壞核武器測試模擬，可能是減緩伊朗核野心行動的一部分",
-      "summary_zh": "Fast16 並非早於 Stuxnet，而是與其同時期出現。它的目的並非改變核武器，而是..."
+      "title_zh": "專家：與 Stuxnet 相關的 Fast16 惡意軟體旨在破壞核武測試模擬，可能是減緩伊朗核武野心行動的一部分",
+      "summary_zh": "Fast16 並非早於 Stuxnet，而是與其同時期出現。它的目的也不是為了改變核子武器……"
     },
     {
-      "title_en": "Vietnam's government, which once saw video games as a social risk, named gaming as one of its key cultural industries in 2025 and now promotes them at expos",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-15/why-vietnam-is-betting-on-video-games-to-grow-its-economy",
-      "summary_en": "Communist officials who long viewed video games as a social risk now see them as key to a knowledge-driven economy.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "Ciridae, which is developing AI to streamline back-office operations for real-economy businesses, raised a $20M seed led by Accel, with a16z participating",
+      "url": "https://fortune.com/2026/05/11/a16z-apple-alums-20m-ai-real-businesses/",
+      "summary_en": "AI is swiftly rewiring the way people work, but an outsize amount of this workplace revolution has so far been confined to Fortune 500-style companies.",
+      "source": "Fortune",
+      "media_source": "Fortune",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "曾視電動遊戲為社會風險的越南政府，將遊戲產業列為 2025 年關鍵文化產業之一，並開始在博覽會上推廣",
-      "summary_zh": "長期視電動遊戲為社會風險的共產黨官員，現在將其視為驅動知識經濟的關鍵。"
+      "title_zh": "致力於開發 AI 簡化實體經濟企業後勤運作的 Ciridae，完成由 Accel 領投的 2,000 萬美元種子輪融資",
+      "summary_zh": "AI 正在迅速重塑人們的工作方式，但到目前為止，這場職場革命絕大部分仍侷限在財富 500 強類型的公司中。"
     },
     {
-      "title_en": "Filings: in Q1, Trump traded $220M-$750M in NVDA, MSFT, AMZN, META, ORCL, and others; millions of dollars of NVDA were bought shortly before major news",
-      "url": "https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html",
-      "summary_en": "President Donald Trump reported thousands of financial transactions totaling hundreds of millions of dollars — including large purchases …",
-      "source": "CNBC",
-      "media_source": "CNBC",
+      "title_en": "New York City-based GovWell, which uses AI to streamline government processes like permitting and licensing, raised a $25M Series A led by Insight Partners",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/05/14/govwell-25m-government-permitting-tech",
+      "summary_en": "GovWell, a platform for permitting and licensing, raised a $25 million Series A led by Insight Partners, co-founders Ben Cohen and Troy LeCaire tell Axios Pro exclusively.",
+      "source": "Axios",
+      "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "文件顯示：川普在第一季交易了價值 2.2 億至 7.5 億美元的 NVDA、MSFT、AMZN、META、ORCL 等股票；在重大消息發布前不久購入了價值數百萬美元的 NVDA",
-      "summary_zh": "川普總統申報了數千筆金融交易，總額達數億美元，其中包括多筆大額買入..."
+      "title_zh": "總部位於紐約的 GovWell 利用 AI 簡化許可與執照等政府流程，完成由 Insight Partners 領投的 2,500 萬美元 A 輪融資",
+      "summary_zh": "GovWell 是一個許可與執照發放平台，其聯合創辦人 Ben Cohen 和 Troy LeCaire 向 Axios Pro 獨家透露，公司已完成由 Insight Partners 領投的 2,500 萬美元 A 輪融資。"
     },
     {
-      "title_en": "Nectar Social, which offers an agentic OS for marketers, raised a $30M Series A led by Menlo Ventures, with GV and True Ventures among investors",
-      "url": "https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/",
-      "summary_en": "AI-powered marketing platform Nectar Social announced Thursday that it raised a $30 million Series A round led by Menlo Ventures and its Anthology Fund …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "為行銷人員提供代理式作業系統 (Agentic OS) 的 Nectar Social，在由 Menlo Ventures 領投的 A 輪融資中籌集了 3,000 萬美元",
-      "summary_zh": "AI 驅動的行銷平台 Nectar Social 週四宣佈，已完成由 Menlo Ventures 及其 Anthology 基金領投的 3,000 萬美元 A 輪融資..."
-    },
-    {
-      "title_en": "Milan-based Webidoo, which develops an operational layer designed to help SMBs access AI tools, raised $25M led by IXC3 for North American expansion",
-      "url": "https://www.eu-startups.com/2026/05/italian-ai-company-webidoo-secures-e21-million-to-scale-smb-focused-automation-platform/",
-      "summary_en": "Milan-based Webidoo, the AI technology company focused on making advanced digital tools more accessible and viable for SMBs …",
-      "source": "EU-Startups",
-      "media_source": "EU-Startups",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "總部位於米蘭的 Webidoo 旨在協助中小企業 (SMB) 使用 AI 工具，在由 IXC3 領投的融資中籌集了 2,500 萬美元，用於北美擴張",
-      "summary_zh": "總部位於米蘭的 Webidoo 是一家 AI 科技公司，專注於讓先進的數位工具對中小企業而言更易於取得且更具可行性..."
-    },
-    {
-      "title_en": "OpenAI partners with Malta's AI for All initiative to give citizens a free year of ChatGPT Plus if they complete a University of Malta AI literacy course",
-      "url": "https://cointelegraph.com/news/openai-partners-with-malta-to-give-all-citizens-free-chatgpt-plus-access",
-      "summary_en": "Cointelegraph is committed to independent, transparent journalism. This news article is produced in accordance with Cointelegraph's Editorial Policy …",
-      "source": "Cointelegraph",
-      "media_source": "Cointelegraph",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "OpenAI 與馬爾他的「AI for All」計畫合作，只要公民完成馬爾他大學的 AI 素養課程，即可免費獲得一年 ChatGPT Plus",
-      "summary_zh": "Cointelegraph 致力於獨立、透明的報導。本新聞文章是根據 Cointelegraph 的編輯政策產出的..."
-    },
-    {
-      "title_en": "Hill County, which faced eight new data centers, passed what may be Texas' first county-wide ban on them, for one year; the state trails only VA in data centers",
-      "url": "https://www.politico.com/news/2026/05/16/texas-county-data-center-construction-ban-00922493",
-      "summary_en": "Opposition to data centers is spreading in regions led by both Democrats and Republicans, as politicians try to balance economic development …",
-      "source": "Politico",
-      "media_source": "Politico",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "面臨 8 座新數據中心進駐的希爾郡 (Hill County) 通過可能是德州首個全郡範圍的數據中心禁令，為期一年；該州數據中心數量僅次於維吉尼亞州",
-      "summary_zh": "對數據中心的對抗正在由民主黨與共和黨領導的地區蔓延，政治人物試圖在經濟發展之間取得平衡..."
-    },
-    {
-      "title_en": "ASML will partner with Tata Electronics to help it bring an $11B 300mm chip factory online in Gujarat, expanding India's ability to produce chips domestically",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/asml-partners-with-tata-electronics-to-advance-india-chip-plans",
-      "summary_en": "ASML Holding NV entered into a partnership agreement with Tata Electronics Private Limited aimed at ramping up India's goal …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "ASML 將與塔塔電子 (Tata Electronics) 合作，協助其在古吉拉特邦啟用一座價值 110 億美元的 300mm 晶片工廠，擴大印度本土生產晶片的能力",
-      "summary_zh": "ASML Holding NV 與塔塔電子私有有限公司 (Tata Electronics Private Limited) 達成合作協議，旨在推動印度實現其目標..."
-    },
-    {
-      "title_en": "US Bureau of Labor Statistics data: employment in 18 AI-exposed occupations fell 0.2% between May 2024 and May 2025, while the broader US labor market rose 0.8%",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODg3NTE0NiwiZXhwIjoxNzc5NDc5OTQ2LCJhcnRpY2xlSWQiOiJURjM2RUVLSkg2VjQwMCIsImJjb25uZWN0SWQiOiI2ODY0RjREM0JBOUI0NzRBQjVERkJDNTUyQjA0M0YxQyJ9.1DCoa3SC3yZuNpnOA4pOYdlejBQdR7aQk7CTiPajkeo",
-      "summary_en": "Several US occupations expected to be impacted by artificial intelligence saw heavy job losses for a second year in 2025 …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "美國勞工統計局數據：18 個易受 AI 影響的職業在 2024 年 5 月至 2025 年 5 月期間就業人數下降 0.2%，而整體美國勞動力市場則增長了 0.8%",
-      "summary_zh": "預計受人工智慧影響的數個美國職業，在 2025 年連續第二年出現嚴重的職位流失..."
-    },
-    {
-      "title_en": "Shenzhen-listed RoboTechnik, which claims to be the largest silicon photonics tool maker and whose stock is up 340% over the past year, files for a HK listing",
-      "url": "https://www.forbes.com/sites/zinnialee/2026/05/15/chinese-ai-optics-billionaire-eyes-dual-listing-in-hong-kong-after-340-stock-rally/",
-      "summary_en": "RoboTechnik Intelligent Technology's Shenzhen-listed shares soared 340% over the past year, propelling founder Dai Jun's net worth to $2.4 billion.",
+      "title_en": "A profile of SAS CEO Jim Goodnight, the 83-year-old who co-founded the 50-year-old analytics firm and holds a ~67% stake worth $13.3B, as AI tests SAS' strategy",
+      "url": "http://www.forbes.com/sites/phoebeliu/2026/05/15/billionaire-sas-jim-goodnight-built-an-analytics-profit-machine-ai-forcing-reinvention/",
+      "summary_en": "Unlike most of today's biggest AI companies, SAS—once America's largest privately held software company—has always operated slowly, steadily and profitably.",
       "source": "Forbes",
       "media_source": "Forbes",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "聲稱為最大矽光子工具製造商且過去一年股價上漲 340% 的深交所上市公司羅博特科 (RoboTechnik)，已申請在香港上市",
-      "summary_zh": "羅博特科智能科技 (RoboTechnik Intelligent Technology) 在深交所掛牌的股份在過去一年飆升了 340%，帶動創辦人戴軍的身價達到 24 億美元。"
+      "title_zh": "專訪 SAS 執行長 Jim Goodnight：這位 83 歲的創辦人持有這家 50 年數據分析公司 67% 股份，價值 133 億美元",
+      "summary_zh": "與當今大多數大型 AI 公司不同，SAS（曾是美國最大的私有軟體公司）一直以來都以緩慢、穩健且盈利的方式運作。"
     },
     {
-      "title_en": "South Korea's Hana Bank agrees to acquire a 6.55% stake in Dunamu, which runs South Korea's largest crypto exchange Upbit, for $672.5M from Kakao",
-      "url": "https://www.wsj.com/business/hana-bank-to-buy-670-million-stake-in-crypto-exchange-operator-dunamu-08f99cb5?st=gfvffj&reflink=desktopwebshare_permalink",
-      "summary_en": "The deal would make Hana Bank the fourth largest shareholder in Dunamu — Hana Bank will buy a roughly $670 million stake …",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
+      "title_en": "Publicis agrees to acquire LiveRamp, which allows companies to share and build new data sets and models that can power agentic frameworks, for $2.2B in cash",
+      "url": "https://www.adweek.com/agencies/publicis-to-acquire-liveramp-for-22-billion/",
+      "summary_en": "Publicis Groupe has agreed to acquire LiveRamp for $2.2 billion all-cash deal, the French holding company said Sunday.",
+      "source": "Adweek",
+      "media_source": "Adweek",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "南韓韓亞銀行 (Hana Bank) 同意以 6.725 億美元向 Kakao 收購營運南韓最大加密貨幣交易所 Upbit 的 Dunamu 公司 6.55% 股權",
-      "summary_zh": "此交易將使韓亞銀行成為 Dunamu 的第四大股東 —— 韓亞銀行將購買價值約 6.7 億美元的股份..."
+      "title_zh": "陽獅集團（Publicis）同意以 22 億美元現金收購 LiveRamp，後者協助企業共享並建立可驅動代理框架的數據集與模型",
+      "summary_zh": "法國控股公司陽獅集團（Publicis Groupe）週日表示，已同意以 22 億美元的全現金交易收購 LiveRamp。"
+    },
+    {
+      "title_en": "Sources: DayOne, the spinoff of China's largest data center operator GDS Holdings, plans dual IPO in Singapore and NY, seeking to raise $5B at a ~$20B valuation",
+      "url": "https://www.ft.com/content/602baf9f-9e66-428e-baec-6c2850d5fad5",
+      "summary_en": "Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "消息人士：中國最大數據中心營運商萬國數據（GDS）分拆出的 DayOne 計劃在新加坡與紐約雙重上市，尋求籌資 50 億美元",
+      "summary_zh": "請使用文章上方或側邊的分享按鈕所提供的分享工具。複製文章分享給他人……"
     }
   ],
   "wsj": [
     {
+      "title_en": "Apple Is Making Hit Products and High Profits From Imperfect Chips",
+      "url": "https://www.wsj.com/tech/apple-is-making-hit-products-and-high-profits-from-imperfect-chips-d32c21d8?mod=rss_Technology",
+      "summary_en": "The company’s popular, $599 Neo laptop is just one of dozens of Apple devices that use lower-performing processors....",
+      "title_zh": "Apple 如何利用「降級晶片」打造熱銷產品並獲取高額利潤",
+      "summary_zh": "該公司售價 599 美元、廣受歡迎的 Neo 筆記型電腦，只是數十款使用性能較低處理器的 Apple 裝置之一。"
+    },
+    {
+      "title_en": "Who Owns the Future of AI?",
+      "url": "https://www.wsj.com/tech/ai/who-owns-the-future-of-ai-05610081?mod=rss_Technology",
+      "summary_en": "Plus, what to look for in a used EV, Anthropic’s AI lead, the Cerebras IPO, the OpenAI lottery tickets and the most AI-proof jobs in tech....",
+      "title_zh": "誰將掌控 AI 的未來？",
+      "summary_zh": "此外，還包括二手電動車挑選指南、Anthropic 的 AI 負責人、Cerebras IPO、OpenAI 的「樂透彩票」，以及科技業中最具「AI 免疫力」的工作。"
+    },
+    {
+      "title_en": "How Amazon Went From an AI Also-Ran to a Real Contender",
+      "url": "https://www.wsj.com/tech/ai/how-amazon-went-from-an-ai-also-ran-to-a-real-contender-ed596336?mod=rss_Technology",
+      "summary_en": "The pieces are coming together for AWS’s AI strategy, thanks to $200 billion in spending, custom chips and savvy deals....",
+      "title_zh": "Amazon 如何從 AI 陪跑者變身為實力競爭者",
+      "summary_zh": "憑藉 2,000 億美元的支出、自研晶片和精明的交易，AWS 的 AI 戰略各項拼圖正逐漸到位。"
+    },
+    {
       "title_en": "AI Chip Mania Sows Seeds of Its Own Destruction",
       "url": "https://www.wsj.com/finance/stocks/ai-chip-mania-sows-seeds-of-its-own-destruction-203b6e3f?mod=rss_Technology",
       "summary_en": "Investors already factor in cyclicality in the chip industry. The bad news is that they’ve frequently gotten their assessments wrong....",
-      "title_zh": "AI 晶片熱潮正埋下自我毀滅的種子",
-      "summary_zh": "投資者已經考慮到晶片產業的週期性。壞消息是，他們經常判斷錯誤..."
+      "title_zh": "AI 晶片狂潮正在埋下自我毀滅的種子",
+      "summary_zh": "投資者已經將晶片行業的週期性考慮在內，但壞消息是，他們的評估往往是錯誤的。"
     },
     {
       "title_en": "How World’s Fairs Gave Americans a Glimpse of the Future",
       "url": "https://www.wsj.com/arts-culture/history/worlds-fair-history-us-9108c563?mod=rss_Technology",
       "summary_en": "Among the groundbreaking innovations unveiled at U.S.-hosted exhibitions were the telephone, Ferris wheel and electric lighting....",
-      "title_zh": "世界博覽會如何讓美國人窺見未來",
-      "summary_zh": "在美國主辦的展覽中揭曉的突破性創新包括電話、摩天輪和電力照明..."
+      "title_zh": "世界博覽會如何讓美國人一窺未來",
+      "summary_zh": "在美國舉辦的展覽會上揭曉的突破性創新中，包括了電話、摩天輪和電力照明。"
     },
     {
       "title_en": "The Messy Courtroom Drama Over AI’s Biggest Breakup",
       "url": "https://www.wsj.com/tech/the-messy-courtroom-drama-over-ais-biggest-breakup-6a35ee7d?mod=rss_Technology",
       "summary_en": "The legal showdown between Elon Musk and OpenAI exposed the personal and financial fault lines beneath Silicon Valley’s defining boom....",
-      "title_zh": "AI 領域最大分手案背後的混亂法庭大戲",
-      "summary_zh": "伊隆·馬斯克與 OpenAI 之間的法律對決，揭露了矽谷這場定義時代的繁榮背後的個人與財務裂痕..."
+      "title_zh": "AI 史上最大「分手案」背後的混亂法庭劇",
+      "summary_zh": "Elon Musk 與 OpenAI 之間的法律對決，揭示了矽谷這場定義時代的繁榮背後的個人與財務裂痕。"
     },
     {
       "title_en": "The JPMorgan Sexual-Assault Lawsuit Was Already Messy. AI Is Making It Worse.",
       "url": "https://www.wsj.com/tech/jpmorgan-sexual-assault-lawsuit-ai-deepfake-rana-hajdini-cb373d09?mod=rss_Technology",
       "summary_en": "First came the scandal. Then came the deepfakes....",
-      "title_zh": "摩根大通性侵訴訟案本已混亂，AI 讓情況雪上加霜",
-      "summary_zh": "先是醜聞，接著是深度偽造 (Deepfakes)..."
-    },
-    {
-      "title_en": "Bill Ackman’s Pershing Square Bets on Microsoft’s AI Ambitions With New Stake",
-      "url": "https://www.wsj.com/finance/investing/ackman-says-pershing-square-has-taken-new-stake-in-microsoft-b68120d9?mod=rss_Technology",
-      "summary_en": "The investor says the tech company is underpriced, and he will disclose the stake in regulatory filings later Friday....",
-      "title_zh": "Bill Ackman 的 Pershing Square 透過增持股份押注 Microsoft 的 AI 野心",
-      "summary_zh": "這位投資者表示，這家科技公司的價值被低估，他將在週五稍晚的監管文件中披露持股情況..."
-    },
-    {
-      "title_en": "SpaceX Is Aiming to Go Public on June 12 in What Stands to Be Biggest IPO Ever",
-      "url": "https://www.wsj.com/finance/spacex-is-aiming-to-go-public-on-june-12-in-what-stands-to-be-biggest-ipo-ever-2662311b?mod=rss_Technology",
-      "summary_en": "Elon Musk’s rocket company is expected to make its IPO paperwork public next week....",
-      "title_zh": "SpaceX 目標於 6 月 12 日上市，有望成為史上最大規模的 IPO",
-      "summary_zh": "伊隆·馬斯克的火箭公司預計將於下週公開其 IPO 申請文件..."
+      "title_zh": "摩根大通性侵訴訟案本已混亂，AI 的介入讓情況雪上加霜",
+      "summary_zh": "醜聞爆發在先，Deepfakes 緊隨其後...."
     },
     {
       "title_en": "What Will Travel Look Like in 20 Years?",
       "url": "https://www.wsj.com/tech/ai/what-will-travel-look-like-in-20-years-a94de338?mod=rss_Technology",
       "summary_en": "Plus, how tech giants are pushing to build data centers in space and why people are whispering at work....",
       "title_zh": "20 年後的旅行會是什麼樣子？",
-      "summary_zh": "此外，科技巨頭正推動在太空建置數據中心，以及為何辦公室員工開始流行低聲交談...."
+      "summary_zh": "此外，探討科技巨頭如何推動在太空建立數據中心，以及為何人們在辦公室裡低聲耳語...."
     },
     {
       "title_en": "Anthropic Raising $30 Billion More as AI Labs Absorb Majority of VC Funding",
       "url": "https://www.wsj.com/tech/ai/anthropic-raising-30-billion-more-as-ai-labs-absorb-majority-of-vc-funding-d26128d7?mod=rss_Technology",
       "summary_en": "The AI front-runner could raise even more as a tiny number of companies get an unprecedented share of investment this year....",
-      "title_zh": "Anthropic 擬再融資 300 億美元，AI 實驗室佔據絕大部分 VC 資金",
-      "summary_zh": "隨著極少數公司在今年獲得前所未有的投資佔比，這家 AI 領頭羊可能會募集更多資金...."
+      "title_zh": "Anthropic 擬再融資 300 億美元，AI 實驗室囊括創投市場多數資金",
+      "summary_zh": "隨著少數公司在今年獲得前所未有的投資佔比，這家 AI 領頭羊的募資金額可能還會更高...."
     },
     {
       "title_en": "Frictionless Security and Supersonic Flights: What Travel Might Look Like in 20 Years",
       "url": "https://www.wsj.com/lifestyle/travel/travel-tech-predictions-ai-space-hotels-4946aca4?mod=rss_Technology",
       "summary_en": "Among the other predictions: AI agents managing trips and ‘distributed airports’...",
-      "title_zh": "無感安檢與超音速飛行：20 年後的旅行願景",
-      "summary_zh": "其他預測還包括：由 AI Agents 管理行程以及「分散式機場」的概念..."
-    },
-    {
-      "title_en": "Companies Have a New AI Problem: Too Many Agents",
-      "url": "https://www.wsj.com/cio-journal/companies-have-a-new-ai-problem-too-many-agents-9539c4d6?mod=rss_Technology",
-      "summary_en": "As it gets easier to create artificial-intelligence agents with platforms like Anthropic’s Claude Cowork , some businesses are dealing with ‘AI agent sprawl.’...",
-      "title_zh": "企業面臨新的 AI 挑戰：Agent 數量過剩",
-      "summary_zh": "隨著透過 Anthropic 的 Claude Cowork 等平台創建 AI Agents 變得更加容易，部分企業正苦於應對「AI Agent 雜亂擴張 (Sprawl)」的問題...."
+      "title_zh": "無感安檢與超音速飛行：預見 20 年後的旅遊趨勢",
+      "summary_zh": "其他預測還包括：由 AI Agent 管理行程，以及「分散式機場」的概念..."
     }
   ],
   "deep_analysis": {
@@ -404,17 +404,38 @@
       ]
     },
     "Lenny's Newsletter": {
-      "title": "Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more / 社群智慧：篩選招聘中的 AI 生成廢話、語音轉錄工具 Wispr Flow 的替代方案，以及多智能體工作流與 MCP 架構之爭",
+      "title": "Why we’re at the beginning of the AI hardware boom / 為何我們正處於 AI 硬體爆發潮的起點",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-05-16",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop",
-      "analysis_zh": "本文出自知名產品經理與科技從業人員社群《Lenny's Newsletter》，由社群編輯 Kiyani 彙整。本期重點提煉了當前科技產業在導入 AI 工具時最迫切的實務痛點，核心主旨探討了企業如何在招聘環節防禦「AI 生成內容（AI slop）」的氾濫、評估語音轉文字工具的實用替代方案，以及在產品底層架構上，針對多智能體工作流（Multi-agent pipeline）與模型上下文協議（MCP）進行戰略路線的抉擇。\n\n### 全文大意摘要：\n這篇來自頂尖產品社群的討論精華，揭示了科技團隊在實際擁抱 AI 技術時面臨的「摩擦力」與架構轉型期陣痛。文章首先聚焦於人力資源與工程主管的共同焦慮：隨著生成式 AI 普及，求職市場充斥著由 AI 批量生成的履歷、求職信甚至技術面試解答（即所謂的 AI slop），導致傳統的招募篩選機制面臨失效，企業急需建立新的「高信號（High-signal）」篩選漏斗。其次，在個人與團隊的生產力工具端，語音輸入重新受到重視，社群針對知名工具 Wispr Flow 進行了替代方案的深度評測，尋求在隱私、延遲與跨平台整合上更具優勢的解決方案。最後，討論深入到 AI 產品的底層工程架構，開發者正處於一個關鍵十字路口：究竟該繼續採用複雜的「多智能體工作流（Multi-agent pipeline）」來拆解與路由任務，還是應該轉向擁抱新興的「模型上下文協議（Model Context Protocol, MCP）」，透過標準化接口讓單一強大模型直接存取外部工具與系統環境。這些實務探討，勾勒出了 2026 年 AI 基礎設施落地的真實樣貌。\n\n### 戰略背景與脈絡：\n當前科技產業正處於「生成式 AI 泡沫沉澱」與「實質生產力重塑」的交匯節點。在招聘場景中，求職者利用大語言模型優化履歷或自動投遞的邊際成本趨近於零，這引發了嚴重的「公地悲劇」——企業端（尤其是人資部門的 ATS 系統）面臨史無前例的資訊過載與品質劣化。過往依賴關鍵字匹配或初步書面審查的邏輯已被 AI 徹底顛覆。在生產力介面方面，隨著大模型推理能力的躍升，語音作為「高頻、低摩擦」的自然使用者介面（VUI）正迎來復興。從 OpenAI 的進階語音模式到蘋果的系統級整合，市場開始重新檢視語音轉文字（Speech-to-Text）工具的工作流價值，不再僅僅滿足於「轉錄準確率」，而是追求「意圖理解」與「作業系統級別的操作連動」。\n\n更深一層的戰略脈絡在於 AI 應用的後端架構演進。過去兩年，業界高度依賴如 LangChain、AutoGen 或 CrewAI 等框架所構建的 Multi-agent 系統，試圖透過多個「專精型小模型」相互對話來解決複雜問題。然而，Anthropic 等巨頭推動的 MCP（Model Context Protocol）標準橫空出世，試圖打破模型與外部數據源之間的孤島，建立類似於「AI 時代的 USB 介面標準」。這種從「複雜流程編排」到「標準化上下文注入」的典範轉移，正在重新定義 AI 軟體工程的最佳實踐。\n\n### 作者的核心推演與論點：\n儘管本篇內容為主理人與社群成員的集體智慧匯總，我們依然能從中提煉出高度一致的實務推演邏輯。首先，針對「AI 廢話（AI slop）」帶來的招聘污染，社群的核心論點是：傳統的防禦機制（如使用 AI 文本檢測器）已證明無效且極易產生「偽陽性」誤判。真正的戰略解法必須回歸「增加互動摩擦力」與「提高信號傳遞成本」。企業不應再依賴靜態文本，而應轉向動態的現場白板測驗、要求求職者錄製帶有個人脈絡的影片解說，或是透過深度的行為面試（Behavioral Interview）來驗證其真實的思考推導過程。\n\n在語音轉錄工具的討論中，論點指出「語音轉文字」本身已徹底商品化（Commoditized），依賴開源的 Whisper 模型即可達到極高水準。因此，像 Wispr Flow 這類工具或其替代方案，未來的核心護城河根本不在於語音識別技術本身，而在於「端到端的無縫體驗」——例如能否在本地端（Local-first）執行以保障企業數據隱私、能否根據游標所在的應用程式自動調整輸出格式（Context-awareness），以及能否將自然語言直接轉化為終端機指令或 API 呼叫。\n\n至於架構層面的 Multi-agent pipeline vs. MCP 之爭，社群論點傾向於一個務實的演進方向：隨著底層前沿模型（Frontier Models）的上下文視窗（Context Window）極速擴大與推理（Reasoning）能力增強，過去為了彌補模型能力不足而設計的繁雜 Multi-agent 流程，正逐漸成為維護上的負擔（累積誤差與狀態管理困難）。MCP 的出現提供了一種優雅的「基礎設施級」解法。透過標準化的 MCP 伺服器，單一強大模型便能直接、安全地存取本地檔案、GitHub 庫或內部資料庫。社群推演認為，對於大多數企業內部應用而言，「強大單體模型 + MCP 標準擴充」將會擊敗「脆弱的多智能體協作網路」，成為下一階段開發的主流配置。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n從就業市場與組織結構來看，「AI 履歷與 AI 面試」的軍備競賽將催生新一代的「信任驗證平台與協議」。那些能有效過濾 AI 雜訊、提供真實人才能力證明的 SaaS 平台將迎來巨大的市場紅利；同時，企業間的「人才密度差距」將被急遽拉大——無法及時升級招募漏斗、仍停留在舊版 ATS 系統的公司，將被無窮無盡的 AI 廢話淹沒，導致招募效率崩盤並錯失頂尖人才。\n\n在技術發展路徑上，MCP 與 Multi-agent 的板塊碰撞，將直接決定未來 AI 生態系的價值分配。如果 MCP 成功確立為產業通用標準，AI 應用的開發門檻將被史無前例地抹平，應用層（Application Layer）將變得極度扁平化。這意味著底層模型廠商（如 Anthropic、OpenAI）的話語權將進一步擴大，因為它們不僅掌握了智能，還透過協議標準掌控了「智能接觸物理與數據世界的介面」。相對地，那些純粹建立在「複雜 API 串接與工作流編排」上的 AI 中介軟體（Middleware）新創，其商業價值將面臨被底層標準直接榨乾（Hollowed out）的巨大風險。\n\n從更宏觀的產業格局來看，這標誌著 AI 正在從「重度客製化的系統整合時代」，走向「隨插即用的標準化基礎設施時代」。企業的競爭壁壘將不再是「誰能寫出最複雜的 Agent 提示詞」，而是回歸到最根本的商業邏輯：「誰擁有最獨特的高價值私有數據」，並能透過 MCP 等標準安全地將這些數據餵給 AI 模型，轉化為實際的決策優勢。",
+      "article_date": "2026-05-17",
+      "url": "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the",
+      "analysis_zh": "### 全文大意摘要：\n\n本文出自矽谷知名科技電子報與 Podcast 節目《Lenny's Newsletter》，本集訪談來賓為前 OpenAI 機器人與硬體團隊負責人 Caitlin Kalinowski。她在硬體工程領域擁有極致的實戰經歷，曾擔任 Meta AR/VR 硬體負責人（主導每一代 Quest、Rift 及最新 Orion 眼鏡的開發），並在 Apple 領導過 MacBook Air 與 Mac Pro 的技術設計。Kalinowski 在訪談中指出，世界正處於「AI 硬體爆發潮」的黎明期。她深入剖析了過去十年 VR 產業的發展軌跡，並提出極具前瞻性的警告：即將到來的記憶體供應鏈震盪將重創準備不足的硬體新創。此外，她揭示了為 VR 打造的底層感測與空間運算技術，如今是如何出人意料地成為現代自動化戰爭科技的基石；同時更直言不諱地點出，當前備受炒作的人形機器人其實仍大多停留在原型階段，距離真正的大規模量產部署還有極高的硬體門檻。透過比較 Steve Jobs、Mark Zuckerberg 與 Sam Altman 三位頂尖科技巨頭的領導哲學，Kalinowski 提供了一份從軟硬體整合到未來具身智能（Embodied AI）發展藍圖的戰略指南。\n\n### 戰略背景與脈絡：\n\n在過去幾年的科技週期中，人工智慧的突破主要集中在雲端與純軟體領域，特別是以大語言模型（LLMs）為首的生成式 AI。然而，隨著基礎模型在數位空間的推演能力逐漸逼近天花板，整個矽谷的戰略重心正快速向「實體世界（Physical World）」轉移。AI 實驗室逐漸意識到，要讓模型真正理解物理法則、執行複雜任務並創造更龐大的商業價值，必須為這些「大腦」打造具備感知與行動能力的「軀體」，這也是為何 OpenAI 等純軟體機構開始大舉跨足硬體與機器人領域的根本原因。\n\n然而，硬體的迭代邏輯與軟體截然不同。軟體可以透過幾次快速更新修復錯誤並擴展規模，但硬體開發受制於漫長的供應鏈週期、物理材料的限制、高昂的製造成本以及嚴苛的良率考驗。回顧過去十年的消費電子發展，從智慧型手機到 Meta 投入巨資的 AR/VR 頭戴裝置，雖然在一般消費者市場的普及速度偶有起伏，但卻在無意間為當前的 AI 硬體革命打下了堅實的基礎：微型化的高效能晶片、低延遲的空間感測器（Sensors）、高精密度的光學模組以及強大的邊緣運算能力，這些原本為娛樂和元宇宙準備的基礎設施，現在正成為 AI 跨入現實世界的最佳驅動引擎。在這樣的產業脈絡下，Kalinowski 的觀察不僅是技術層面的回顧，更是針對即將到來的「軟硬體大對撞」時期所提出的生存戰略。\n\n### 作者的核心推演與論點：\n\nKalinowski 的核心論點圍繞在硬體製造的殘酷現實與 AI 發展方向的交匯點上。首先，她針對全球供應鏈發出了強烈的「記憶體價格震盪（Memory price shock）」警告。隨著越來越多的 AI 模型被推向終端設備（Edge AI），不論是新一代的 AI PC、智慧眼鏡還是自主機器人，都需要極高頻寬且低功耗的本地端記憶體來處理龐大的參數。她指出，這將導致全球記憶體產能面臨前所未有的擠壓。Apple 或 Meta 這樣擁有龐大現金流的巨頭可以輕易包下產能，但資源匱乏的硬體新創若不現在就採取「提前採購（Pre-buy）」策略，未來兩到三年內將面臨有錢也買不到關鍵零組件、導致產品難產的致命危機。\n\n其次，她對 VR 產業的遺產提出了一個極具反共識的推演。雖然大眾可能認為 VR 的消費市場熱潮已退，但她指出，當初為解決 VR 暈眩與定位問題而發展出的技術——例如即時空間追蹤、SLAM（同時定位與地圖構建）和微型低功耗感測器——已經完美地被轉移到了國防與軍工領域。現代的無人機群、自動化國防武器系統（如 Palmer Luckey 創辦的 Anduril 所展示的軍事科技），其底層邏輯與感知系統，很大程度上是建立在這些源自遊戲與消費電子的技術紅利之上。VR 的「失敗」或「緩慢」，實際上是為現代戰爭科技鋪平了道路。\n\n在探討目前市場極度狂熱的「人形機器人（Humanoid robots）」時，Kalinowski 戳破了過度樂觀的泡沫。她直言目前展示的人形機器人大多只是「原型（Prototypes）」。AI 演算法的進步雖然神速，但真正卡住大眾化部署（Mass deployment）的瓶頸是物理硬體：包含高強度與高精度的致動器（Actuators）、足以支撐長時間高負載運算的電池能源轉換效率、邊緣運算的散熱問題，以及如何在極端多變的「非結構化環境（Unstructured environments）」中無損地收集高品質訓練數據。解決「大腦」是一回事，但要讓機器「軀體」在不確定性極高的真實世界中維持幾十萬小時的無故障運作，才是硬體工程真正的地獄。\n\n最後，她透過與三位時代巨擘的共事經驗來總結硬體創新的領導方法論：Steve Jobs 對於硬體細節近乎偏執的獨裁控制，造就了極致的產品體驗；Mark Zuckerberg 在面對元宇宙硬體挑戰時，願意投入十年以上的長線資源與極大的試錯耐心；而 Sam Altman 則展現了以驚人速度推動 AGI 願景的擴張力。她離開 OpenAI 的決定，或許也暗示了在追求純粹的軟體與 AGI 極速擴張的文化中，硬體與機器人所需的長週期、高成本研發哲學可能面臨著根本性的水土不服，因而需要獨立的發展空間與資本支持。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n\n在市場與技術路線方面，Kalinowski 的分析預示了科技產業即將迎來巨大的資本支出（CapEx）轉移。過去十年，創投與巨頭的資金集中於軟體服務與雲端資料中心；未來的超級週期，資本將大量湧入高階零組件供應鏈、精密機械製造、感測器封裝以及特用型邊緣運算晶片。這意味著傳統的硬體製造商與掌握關鍵材料技術的公司（如高階記憶體製造商）將獲得重新定價的機會，並在全球產業鏈中掌握極大的話語權。同時，人形機器人的商業化路線將被迫回歸現實，業界將放棄一步到位取代人類生活助手的幻想，轉而優先將機器人部署於倉儲、物流、高危險性工廠等「半結構化」的工業場景中進行長期壓力測試與資料累積。\n\n在地緣政治與國防安全層面，消費級硬體與軍事科技邊界的徹底模糊，將帶來深遠的影響。Kalinowski 點出的「VR 技術轉化為現代戰爭基礎」這一事實，證明了商用技術的軍民兩用（Dual-use）特性已達到前所未有的高度。未來，掌握最先進的空間運算、微型感測器與邊緣 AI 硬體的國家或企業，等同於掌握了下一代無人化、自動化非對稱作戰的核心武力。這將促使各國政府以「國家安全」為由，對高階感測器、馬達致動器、本地端記憶體與空間運算晶片實施更嚴格的出口管制與在地化生產要求。硬體供應鏈的「去風險化（De-risking）」將從半導體晶圓代工，全面延伸到機器人零組件與 AI 終端硬體的製造環節，形成多個壁壘分明的區域性硬體生態系。",
       "insights": [
-        "面對求職市場中氾濫的 AI 生成履歷（AI slop），防禦手段不應是引入更強的「AI 檢測工具」，而是刻意在招募漏斗中增加「互動摩擦力」與「高信號成本」任務，以驗證真實的邏輯推演能力。",
-        "語音轉文字技術已徹底商品化，未來語音工具的核心壁壘在於「工作流的極致無縫整合」與「基於上下文的意圖理解」，使其成為直接操控作業系統的高效介面。",
-        "模型上下文協議（MCP）的崛起正在顛覆複雜的多智能體（Multi-agent）架構；開發範式正從「串接多個弱模型」轉向「單一強模型搭配標準化數據接口」，這將大幅壓縮 AI 中介軟體的生存空間並改變價值分配。"
+        "消費級 VR 的最大戰略遺產並非元宇宙娛樂，而是其催生的高精度空間運算與微型感測技術，這些技術已意外成為推動現代自動化無人機與國防科技（如 Anduril）演進的核心基石。",
+        "AI 產業下一個致命瓶頸並非 GPU 算力，而是即將爆發的終端設備「記憶體危機」；向實體世界擴張的邊緣 AI 將抽乾市場產能，缺乏資本優勢的新創若不提前包下產能將面臨斷鏈風險。",
+        "當前的人形機器人熱潮掩蓋了硬體工程的殘酷現實：阻礙大規模部署的不再是 AI 模型的智商，而是致動器成本、能源轉換效率以及機器在非結構化環境下的物理耐用度極限。"
       ],
-      "supplemental_sources": []
+      "supplemental_sources": [
+        {
+          "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
+          "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom"
+        },
+        {
+          "title": "Orion glasses",
+          "url": "https://www.meta.com/emerging-tech/orion"
+        },
+        {
+          "title": "The Godmother of AI on jobs, robots, and why world models are next | Dr. Fei-Fei Li",
+          "url": "https://www.lennysnewsletter.com/p/the-godmother-of-ai"
+        },
+        {
+          "title": "Making Meta | Andrew ‘Boz’ Bosworth (CTO)",
+          "url": "https://www.lennysnewsletter.com/p/making-meta-andrew-boz-bosworth-cto"
+        },
+        {
+          "title": "Caitlin’s post on leaving OpenAI",
+          "url": "https://x.com/kalinowski007/status/2030320074121478618"
+        }
+      ]
     },
     "馬斯克帝國觀察": {
       "title": "【馬斯克帝國觀察】#65 星艦發射焦點、星盾國安化與軌道資料中心的戰略前瞻",
