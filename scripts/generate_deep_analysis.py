@@ -22,6 +22,32 @@ PROMPT_FILE = 'deep_analysis_prompt.md'
 DEEP_ANALYSIS_MODEL = 'gemini-3-pro-preview'
 GEMINI_KEYS = GeminiKeyPool()
 
+REQUIRED_ANALYSIS_HEADING_PREFIXES = [
+    "全文大意摘要",
+    "戰略背景與脈絡",
+    "作者的核心推演與論點",
+    "對整體市場、技術發展與地緣政治的長期影響",
+]
+
+
+def has_descriptive_analysis_headings(analysis_text):
+    """Ensure each required section heading includes a real descriptive subtitle."""
+    if not isinstance(analysis_text, str):
+        return False
+
+    for prefix in REQUIRED_ANALYSIS_HEADING_PREFIXES:
+        match = re.search(rf"^###\s*{re.escape(prefix)}：([^\n#]+)", analysis_text, re.MULTILINE)
+        if not match:
+            print(f"   ⚠️ Missing required analysis heading: {prefix}")
+            return False
+
+        subtitle = match.group(1).strip()
+        if subtitle in ("", "...", "……") or set(subtitle) <= {".", "…"}:
+            print(f"   ⚠️ Analysis heading lacks a descriptive subtitle: {prefix}")
+            return False
+
+    return True
+
 def get_latest_rss_item(rss_url):
     """Fetch the latest item from an RSS feed."""
     try:
@@ -140,7 +166,11 @@ def analyze_with_ai(article_text, source_name="", source_url="", rss_title="", m
             # Extract actual JSON from AI response
             match = re.search(r'\{.*\}', ai_output, re.DOTALL)
             if match:
-                return json.loads(match.group(0))
+                result = json.loads(match.group(0))
+                if not has_descriptive_analysis_headings(result.get("analysis_zh")):
+                    print("   ⚠️ Deep analysis headings are not descriptive enough.")
+                else:
+                    return result
             else:
                 print("   ⚠️ Failed to extract JSON from AI response:")
                 print(ai_output[:200] + "...")

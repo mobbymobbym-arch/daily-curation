@@ -79,6 +79,37 @@ def script_json(data):
     return raw.replace("<", "\\u003c").replace("</", "<\\/")
 
 
+def render_analysis_markdown_text(value):
+    """Render the small Markdown subset used by deep analysis content."""
+    parts = []
+    paragraph = []
+
+    def flush_paragraph():
+        if not paragraph:
+            return
+        body = "<br>".join(html.escape(line) for line in paragraph)
+        parts.append(f"<p>{body}</p>")
+        paragraph.clear()
+
+    for raw_line in str(value or "").splitlines():
+        line = raw_line.strip()
+        heading_match = re.match(r"^###\s+(.+?)\s*$", line)
+        if heading_match:
+            flush_paragraph()
+            heading = html.escape(heading_match.group(1).strip())
+            parts.append(f'<h4 class="analysis-subheading">{heading}</h4>')
+            continue
+
+        if not line:
+            flush_paragraph()
+            continue
+
+        paragraph.append(line)
+
+    flush_paragraph()
+    return "".join(parts)
+
+
 def extract_between(text, start_marker, end_marker):
     start = text.find(start_marker)
     if start < 0:
@@ -150,7 +181,7 @@ def parse_deep_cards_from_html(content, snapshot_date, source_file):
 
 def render_deep_content_from_json(item):
     raw_summary = item.get("analysis_zh") or item.get("summary_zh") or item.get("summary") or item.get("content") or ""
-    parts = [html.escape(str(raw_summary)).replace("\n", "<br><br>")]
+    parts = [render_analysis_markdown_text(raw_summary)]
 
     insights = item.get("insights", [])
     if insights and isinstance(insights, list):
@@ -726,6 +757,16 @@ def page_styles(accent, accent_dark):
         }}
         .content-shell.expanded::after {{ opacity: 0; }}
         .content-body {{ line-height: 1.82; color: var(--primary-text); overflow-wrap: anywhere; word-break: break-word; }}
+        .content-body p {{ margin: 0 0 1.05rem; }}
+        .content-body .analysis-subheading {{
+            margin: 1.35rem 0 0.58rem;
+            color: var(--accent-dark);
+            font-size: 1.02rem;
+            line-height: 1.45;
+            font-weight: 850;
+            letter-spacing: 0;
+        }}
+        .content-body .analysis-subheading:first-child {{ margin-top: 0; }}
         .content-body a {{ color: var(--accent-dark); text-decoration: none; font-weight: 750; }}
         .content-body a:hover {{ text-decoration: underline; }}
         .toggle-btn, .source-link, .load-more-btn {{
