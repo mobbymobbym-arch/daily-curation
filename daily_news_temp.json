@@ -208,9 +208,8 @@
       "source": "MacStories",
       "media_source": "MacStories",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Apple unveils Apple Intelligence-powered accessibility features, subtitles generated on device, a Vision Pro feature for controlling power wheelchairs, and more",
-      "summary_zh": ""
+      "title_zh": "Apple 揭曉由 Apple Intelligence 驅動的輔助功能，包含裝置端生成的字幕、Vision Pro 操控電動輪椅功能等",
+      "summary_zh": "正如預期這將成為 WWDC 2026 的核心主題，Apple 的輔助功能團隊揭曉了一系列令人印象深刻的功能，預計將於今年稍晚推出。"
     },
     {
       "title_en": "Threat actors published 600+ malicious versions to npm as part of the Shai-Hulud supply chain campaign; most of the affected packages are in the @antv ecosystem",
@@ -219,9 +218,8 @@
       "source": "BleepingComputer",
       "media_source": "BleepingComputer",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Threat actors published 600+ malicious versions to npm as part of the Shai-Hulud supply chain campaign; most of the affected packages are in the @antv ecosystem",
-      "summary_zh": ""
+      "title_zh": "威脅行為者在 Shai-Hulud 供應鏈攻擊中向 npm 發布了 600 多個惡意版本；多數受影響套件屬於 @antv 生態系統",
+      "summary_zh": "威脅行為者於今日早些時候向 Node Package Manager (npm) 索引發布了超過 600 個惡意套件，這是新的 Shai-Hulud 供應鏈攻擊行動的一環。"
     },
     {
       "title_en": "Epic says Fortnite has returned to Apple's App Store globally, after its US relaunch in 2025, signaling confidence in a favorable outcome in an ongoing lawsuit",
@@ -230,9 +228,8 @@
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Epic says Fortnite has returned to Apple's App Store globally, after its US relaunch in 2025, signaling confidence in a favorable outcome in an ongoing lawsuit",
-      "summary_zh": ""
+      "title_zh": "Epic 表示《要塞英雄》(Fortnite) 已在全球 Apple App Store 回歸，繼 2025 年在美國重新上架後，展現對訴訟結果的信心",
+      "summary_zh": "Epic Games 週二表示，其熱門射擊遊戲《要塞英雄》已重返全球 App Store，這家遊戲開發商藉此傳達對官司最終結果的信心。"
     },
     {
       "title_en": "Sources: SpaceX expects to proceed with its acquisition of Cursor 30 days after its public trading debut, which is expected to occur on June 12",
@@ -241,9 +238,8 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Sources: SpaceX expects to proceed with its acquisition of Cursor 30 days after its public trading debut, which is expected to occur on June 12",
-      "summary_zh": ""
+      "title_zh": "消息來源：SpaceX 預計在掛牌上市 30 天後繼續收購 Cursor，預計於 6 月 12 日公開交易",
+      "summary_zh": "SpaceX 預計在 Elon Musk 旗下的這家公司開始公開交易 30 天後，繼續執行對 AI 程式碼編寫新創公司 Cursor 的收購計畫。"
     },
     {
       "title_en": "Discord says voice and video calls outside of stage channels are now end-to-end encrypted by default, after launching its encryption protocol in September 2024",
@@ -252,9 +248,8 @@
       "source": "PC Gamer",
       "media_source": "PC Gamer",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Discord says voice and video calls outside of stage channels are now end-to-end encrypted by default, after launching its encryption protocol in September 2024",
-      "summary_zh": ""
+      "title_zh": "Discord 表示非舞臺頻道的語音和視訊通話現已預設支援端對端加密，此前於 2024 年 9 月推出了加密協定",
+      "summary_zh": "「這可能是網際網路上跨平台支援最廣泛的 E2EE 語音與視訊實作之一。」"
     },
     {
       "title_en": "Minnesota Gov. Tim Walz has signed the nation's first law banning prediction market sites from operating in the state; the CFTC has sued Minnesota in response",
@@ -263,9 +258,8 @@
       "source": "NPR",
       "media_source": "NPR",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Minnesota Gov. Tim Walz has signed the nation's first law banning prediction market sites from operating in the state; the CFTC has sued Minnesota in response",
-      "summary_zh": ""
+      "title_zh": "明尼蘇達州州長 Tim Walz 簽署全美首個禁止預測市場網站在該州運營的法律；商品期貨交易委員會 (CFTC) 隨即對明尼蘇達州提起訴訟",
+      "summary_zh": "明尼蘇達州州長 Tim Walz 簽署了全美第一項禁止預測市場網站在該州境內營運的法律..."
     },
     {
       "title_en": "Google announces updates to Flow and Flow Music: Gemini Omni support, mobile apps, the ability to create custom tools like a video resizer or shaders, and more",
@@ -274,9 +268,8 @@
       "source": "CNET",
       "media_source": "CNET",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Google announces updates to Flow and Flow Music: Gemini Omni support, mobile apps, the ability to create custom tools like a video resizer or shaders, and more",
-      "summary_zh": ""
+      "title_zh": "Google 宣佈 Flow 與 Flow Music 重大更新：支援 Gemini Omni、推出行動版 App，並可自訂影片調整器或著色器等工具",
+      "summary_zh": "Google Flow 系列產品獲得了 Agentic（代理化）功能更新、行動版 App 以及 Omni Flash 技術支援。"
     },
     {
       "title_en": "Sources: Apple Chief Hardware Officer Johny Srouji is reorganizing hardware development to integrate silicon teams with product creation and speed up their work",
@@ -285,9 +278,8 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Sources: Apple Chief Hardware Officer Johny Srouji is reorganizing hardware development to integrate silicon teams with product creation and speed up their work",
-      "summary_zh": ""
+      "title_zh": "消息人士：Apple 硬體主管 Johny Srouji 正在重組硬體開發架構，將晶片團隊與產品開發整合以加速研發",
+      "summary_zh": "Apple 硬體工程資深副總裁 Johny Srouji 正在重組硬體開發流程，並調整關鍵職能的監督權..."
     },
     {
       "title_en": "Microsoft unveils Intel-based business laptops: a 13\" Surface Pro for $1,950+, a 13.8\" or 15\" Surface Laptop for $1,950+, and a 13\" Surface Laptop for $1,300+",
@@ -296,9 +288,8 @@
       "source": "Microsoft Devices Blog",
       "media_source": "Microsoft Devices Blog",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Microsoft unveils Intel-based business laptops: a 13\" Surface Pro for $1,950+, a 13.8\" or 15\" Surface Laptop for $1,950+, and a 13\" Surface Laptop for $1,300+",
-      "summary_zh": ""
+      "title_zh": "微軟推出搭載 Intel 處理器的商務筆電：13 吋 Surface Pro、13.8 吋或 15 吋 Surface Laptop 售價 1,950 美元起",
+      "summary_zh": "我們合作的每一位 IT 領導者與夥伴都面臨著同樣的挑戰：AI 正在改變團隊的工作需求..."
     },
     {
       "title_en": "Sundar Pichai announced at Google I/O that Gemini 3.5 Pro will launch next month; attendees groaned at the model coming out later than they expected",
@@ -307,9 +298,8 @@
       "source": "Business Insider",
       "media_source": "Business Insider",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Sundar Pichai announced at Google I/O that Gemini 3.5 Pro will launch next month; attendees groaned at the model coming out later than they expected",
-      "summary_zh": ""
+      "title_zh": "Sundar Pichai 在 Google I/O 宣佈 Gemini 3.5 Pro 將於下個月推出；現場與會者因發佈時間晚於預期而發出感嘆",
+      "summary_zh": "Google 執行長 Sundar Pichai 宣佈 Gemini 3.5 Pro 將於下個月發佈。Google I/O 2026 的與會者對模型推出時間比預期晚感到失望。"
     },
     {
       "title_en": "Demis Hassabis says companies looking to replace developers with AI may be due to a “lack of imagination and a lack of understanding” of the future",
@@ -318,8 +308,7 @@
       "source": "Wired",
       "media_source": "Wired",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Demis Hassabis says companies looking to replace developers with AI may be due to a “lack of imagination and a lack of understanding” of the future",
+      "title_zh": "Demis Hassabis 表示，試圖以 AI 取代開發者的公司，可能是源於對未來的「缺乏想像力與理解」。",
       "summary_zh": ""
     },
     {
@@ -329,9 +318,8 @@
       "source": "New York Times",
       "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "OpenAI's win against Elon Musk leaves it free to continue its IPO plans, but it still faces many issues, like rising competition and dozens of other lawsuits",
-      "summary_zh": ""
+      "title_zh": "OpenAI 在對 Elon Musk 的訴訟中勝訴，掃清 IPO 障礙，但仍面臨競爭加劇與多項訴訟。",
+      "summary_zh": "陪審團駁回 Elon Musk 對 OpenAI 提出的 1,500 億美元訴訟，為其移除了一大障礙。然而，這家 ChatGPT 開發商仍面臨諸多難題。"
     },
     {
       "title_en": "Elon Musk's OpenAI loss is set to speed up the AI juggernaut amid rising opposition; the case offered a rare glimpse into tech's workings, ending with a whimper",
@@ -340,8 +328,7 @@
       "source": "New York Times",
       "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
-      "_translation_skipped": true,
-      "title_zh": "Elon Musk's OpenAI loss is set to speed up the AI juggernaut amid rising opposition; the case offered a rare glimpse into tech's workings, ending with a whimper",
+      "title_zh": "Elon Musk 敗訴將加速 OpenAI 擴張，儘管反對聲浪四起；此案揭露了科技業運作的罕見內幕，卻以草草收場。",
       "summary_zh": ""
     }
   ],
@@ -350,57 +337,50 @@
       "title_en": "The American Rebellion Against AI Is Gaining Steam",
       "url": "https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529?mod=rss_Technology",
       "summary_en": "Booed commencement speakers, blocked data centers, plummeting poll numbers: The fast-growing industry has a faster-growing crisis....",
-      "_translation_skipped": true,
-      "title_zh": "The American Rebellion Against AI Is Gaining Steam",
-      "summary_zh": ""
+      "title_zh": "美國對 AI 的抵制風潮正在升溫",
+      "summary_zh": "畢業典禮講者遭喝倒彩、資料中心擴張受阻、民調支持度重挫：這個快速成長的產業正面臨更劇烈的危機。"
     },
     {
       "title_en": "No More Tax Audits for Trump",
       "url": "https://www.wsj.com/tech/ai/no-more-tax-audits-for-trump-d4c961b8?mod=rss_Technology",
       "summary_en": "Plus, mediators see little progress in U.S.-Iran talks, and branded condos rock Miami....",
-      "_translation_skipped": true,
-      "title_zh": "No More Tax Audits for Trump",
-      "summary_zh": ""
+      "title_zh": "川普將不再面臨稅務稽核",
+      "summary_zh": "此外，調解人稱美伊談判進展甚微；品牌聯名公寓正席捲邁阿密。"
     },
     {
       "title_en": "Google Unveils New Gemini AI Agent for Personal Tasks",
       "url": "https://www.wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?mod=rss_Technology",
       "summary_en": "The tech firm highlights both Spark and Omni, a video-creation tool, at its annual developer conference....",
-      "_translation_skipped": true,
-      "title_zh": "Google Unveils New Gemini AI Agent for Personal Tasks",
-      "summary_zh": ""
+      "title_zh": "Google 發表全新 Gemini AI 代理，協助處理個人任務",
+      "summary_zh": "這家科技巨頭在年度開發者大會上重點介紹了 Spark 以及影片創作工具 Omni..."
     },
     {
       "title_en": "There’s a New Way to Create Google Docs With Your Voice. Watch Me Try It.",
       "url": "https://www.wsj.com/tech/personal-tech/google-docs-live-test-e4473e07?mod=rss_Technology",
       "summary_en": "An exclusive look at Docs Live, Google’s new speech-powered AI project manager and writing partner....",
-      "_translation_skipped": true,
-      "title_zh": "There’s a New Way to Create Google Docs With Your Voice. Watch Me Try It.",
-      "summary_zh": ""
+      "title_zh": "語音建立 Google Docs 全新體驗：帶您實測最新功能",
+      "summary_zh": "獨家深入了解 Docs Live，這是 Google 推出的全新語音驅動 AI 專案經理與寫作夥伴..."
     },
     {
       "title_en": "Yes, AI Can Make Mistakes. AI Can Find Them, Too.",
       "url": "https://www.wsj.com/tech/ai/ai-fact-checking-8fbfaa35?mod=rss_Technology",
       "summary_en": "Since chatbots hallucinate their own facts, it’s useful (and easy) to have a second, nitpicking AI that can audit the results for errors....",
-      "_translation_skipped": true,
-      "title_zh": "Yes, AI Can Make Mistakes. AI Can Find Them, Too.",
-      "summary_zh": ""
+      "title_zh": "沒錯，AI 會犯錯，但 AI 也能幫忙糾錯",
+      "summary_zh": "鑑於聊天機器人會產生幻覺（hallucinate），利用第二個「愛挑剔」的 AI 來審核結果並糾正錯誤，既實用又簡單..."
     },
     {
       "title_en": "The $50 Million Rocket Deal Fueled by Trump’s Hypersonic Dreams",
       "url": "https://www.wsj.com/tech/a-50-million-rocket-deal-fueled-by-trumps-hypersonic-dreams-4c14789e?mod=rss_Technology",
       "summary_en": "The deal reflects a wave of change reshaping the aerospace industry as the Pentagon and venture-capital firms warm to startups....",
-      "_translation_skipped": true,
-      "title_zh": "The $50 Million Rocket Deal Fueled by Trump’s Hypersonic Dreams",
-      "summary_zh": ""
+      "title_zh": "川普的高超音速夢想，促成 5,000 萬美元火箭交易案",
+      "summary_zh": "這筆交易反映了重塑航太產業的新浪潮，五角大廈與創投公司正逐漸對新創企業敞開雙臂..."
     },
     {
       "title_en": "Andrej Karpathy, Tesla Alum and OpenAI Co-Founder, Joins Anthropic",
       "url": "https://www.wsj.com/tech/ai/andrej-karpathy-tesla-alum-and-openai-co-founder-joins-anthropic-c665f51f?mod=rss_Technology",
       "summary_en": "Karpathy joined Anthropic’s pretraining team and will lead a new group focused on using Claude to accelerate pretraining research, according to the company....",
-      "_translation_skipped": true,
-      "title_zh": "Andrej Karpathy, Tesla Alum and OpenAI Co-Founder, Joins Anthropic",
-      "summary_zh": ""
+      "title_zh": "前 Tesla 大將與 OpenAI 共同創辦人 Andrej Karpathy 正式加入 Anthropic",
+      "summary_zh": "根據公司消息，Karpathy 已加入 Anthropic 的預訓練團隊，並將帶領新小組，致力於利用 Claude 加速預訓練研究..."
     },
     {
       "title_en": "Tech, Media & Telecom Roundup: Market Talk",
