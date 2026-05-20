@@ -11,7 +11,7 @@ from gemini_key_pool import GeminiKeyPool
 DAILY_NEWS_JSON = 'daily_news_temp.json'
 BATCH_TIMEOUT = 120
 MAX_RETRIES = 3
-TRANSLATION_BATCH_SIZE = 5
+TRANSLATION_BATCH_SIZE = 20
 TRANSLATION_MODEL = "gemini-3-flash-preview"
 GEMINI_KEYS = GeminiKeyPool()
 
