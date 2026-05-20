@@ -17,6 +17,7 @@ export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:/opt/homebrew/bin:/usr/l
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 export PYTHONUNBUFFERED=1
 export DAILY_CURATION_SAFE_PUBLISH=1
+TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS="${TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS:-120}"
 
 # 確認 timeout 指令可用（macOS 需透過 coreutils 的 gtimeout）
 TIMEOUT_CMD=""
@@ -70,6 +71,25 @@ find_conflict_markers() {
     done < <(git ls-files -co --exclude-standard)
 
     return $found
+}
+
+# Helper: 統計目前仍使用英文 fallback 的翻譯項目
+count_translation_skipped() {
+    python3 -c 'import json
+from pathlib import Path
+
+path = Path("daily_news_temp.json")
+if not path.exists():
+    print(0)
+else:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    print(sum(
+        1
+        for section in ("techmeme", "wsj")
+        for item in data.get(section, [])
+        if item.get("_translation_skipped")
+    ))
+' 2>/dev/null || echo 0
 }
 
 # Helper: 啟動排程前先同步最新 repo，避免用過時程式碼生產內容
@@ -149,6 +169,27 @@ else
     fi
     PIPELINE_OK=false
     FAILED_STEPS="${FAILED_STEPS}翻譯 "
+fi
+
+SKIPPED_TRANSLATIONS=$(count_translation_skipped)
+if [ "$SKIPPED_TRANSLATIONS" -gt 0 ] 2>/dev/null; then
+    echo ""
+    echo "🩹 偵測到 ${SKIPPED_TRANSLATIONS} 則翻譯使用英文 fallback"
+    echo "   ⏳ 等待 ${TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS}s 後，專門補跑 skipped items 一輪..."
+    sleep "$TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS"
+
+    if run_with_timeout 300 python3 scripts/translate_news.py; then
+        REMAINING_SKIPPED=$(count_translation_skipped)
+        if [ "$REMAINING_SKIPPED" -gt 0 ] 2>/dev/null; then
+            echo "   ⚠️ 補跑後仍有 ${REMAINING_SKIPPED} 則翻譯失敗，將使用英文原文 fallback 發布"
+        else
+            echo "   ✅ skipped items 補翻完成"
+        fi
+    else
+        EXIT_CODE=$?
+        REMAINING_SKIPPED=$(count_translation_skipped)
+        echo "   ⚠️ skipped items 補跑失敗 (exit code: $EXIT_CODE)，仍有 ${REMAINING_SKIPPED} 則將使用英文原文 fallback 發布"
+    fi
 fi
 
 # --- 步驟 4: 發布 ---
