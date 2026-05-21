@@ -1,407 +1,377 @@
 {
-  "fetch_date": "2026-05-20",
+  "fetch_date": "2026-05-21",
   "techmeme": [
     {
-      "title_en": "Google rolls out Gemini 3.5 Flash, its “strongest agentic and coding model yet”, for tackling long-horizon agentic tasks, in the Gemini app and Search's AI Mode",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-      "summary_en": "Gemini 3.5 is built to help you execute complex, agentic workflows. — Today, we're introducing Gemini 3.5 …",
-      "source": "The Keyword",
-      "media_source": "The Keyword",
+      "title_en": "SpaceX files publicly for its IPO, choosing Nasdaq to make its debut under the symbol SPCX; Elon Musk's shares give him 85.1% of the voting power in the company",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/musk-s-spacex-files-publicly-for-nasdaq-ipo-under-symbol-spcx",
+      "summary_en": "SpaceX Files for IPO on Nasdaq Under SPCX Symbol — Video Player is loading. — Unmute — Current Time 0:01 Loaded: 26.69% Playback Rate",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 推出 Gemini 3.5 Flash，號稱是迄今「最強大的 Agentic 與程式碼模型」，旨在處理 Gemini App 與 Google 搜尋 AI 模式中的長程 Agentic 任務",
-      "summary_zh": "Gemini 3.5 旨在協助執行複雜的 Agentic 工作流。今天我們正式推出 Gemini 3.5..."
+      "title_zh": "SpaceX 正式遞交 IPO 申請，預計以「SPCX」代碼登陸那斯達克；Elon Musk 擁有 85.1% 的公司投票權",
+      "summary_zh": "SpaceX 申請在那斯達克交易所上市，交易代碼預計為 SPCX。"
     },
     {
-      "title_en": "Google launches the Gemini Omni multimodal model, saying it can “create anything from any input”, starting with video generation, for Google AI subscribers",
-      "url": "https://venturebeat.com/ai/google-unveils-gemini-omni-any-to-any-ai-model-what-enterprises-should-know",
-      "summary_en": "Although it was already discovered by intrepid AI power users weeks ahead of the official unveiling today at Google's annual …",
-      "source": "VentureBeat",
-      "media_source": "VentureBeat",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 推出 Gemini Omni 多模態模型，強調能「從任何輸入創造任何內容」，首波針對 Google AI 訂閱者開放影片生成功能",
-      "summary_zh": "儘管在今日 Google 年度大會正式亮相前幾週，已被資深 AI 玩家發現..."
-    },
-    {
-      "title_en": "Google restructures its AI plans, introducing a $100/month AI Ultra plan for developers and cutting the top-tier Ultra subscription from $250 to $200/month",
-      "url": "https://www.zdnet.com/article/google-new-ai-plans-which-should-you-choose-2026/",
-      "summary_en": "ZDNET's key takeaways — Google has introduced a cheaper AI Ultra plan at $100 a month. — The full Ultra Plan is now $50 cheaper at $200 a month.",
-      "source": "ZDNET",
-      "media_source": "ZDNET",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 調整 AI 資費方案，為開發者推出每月 100 美元的 AI Ultra 方案，並將頂級 Ultra 訂閱費用從 250 美元降至 200 美元",
-      "summary_zh": "ZDNET 重點摘要：Google 推出更便宜的每月 100 美元 AI Ultra 方案。完整版 Ultra 方案降價 50 美元，目前為每月 200 美元。"
-    },
-    {
-      "title_en": "Google announces Gemini Spark, a “24/7 personal AI agent” that is powered by Gemini 3.5 and supports integrations with Google Workspace apps, including Gmail",
-      "url": "https://www.engadget.com/2176556/googles-gemini-spark-is-an-agentic-ai-assistant/",
-      "summary_en": "The AI agent is rolling out to testers this week. — Google has announced a “24/7 personal AI agent” …",
-      "source": "Engadget",
-      "media_source": "Engadget",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 發表 Gemini Spark，一款由 Gemini 3.5 驅動的「24/7 個人 AI 代理」，支援與 Gmail 等 Google Workspace 應用程式整合",
-      "summary_zh": "該 AI 代理本週將向測試者開放。Google 宣佈了一款「24/7 個人 AI 代理」..."
-    },
-    {
-      "title_en": "Sundar Pichai says Google is now processing 3.2 quadrillion tokens per month, up from 480T tokens per month a year ago and 9.7T tokens per month two years ago",
-      "url": "https://www.axios.com/2026/05/19/google-ai-youtube-gemini",
+      "title_en": "SpaceX S-1: Anthropic is paying SpaceX $1.25B/mo. until May 2029 under their compute deal; Anthropic says it's expanding the deal to include Colossus 2 capacity",
+      "url": "https://www.axios.com/2026/05/20/anthropic-spacex-compute",
       "summary_en": "",
       "source": "Axios",
       "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Sundar Pichai 表示 Google 目前每月處理 3.2 千兆 (quadrillion) 個 Token，高於一年前的 480 兆與兩年前的 9.7 兆",
+      "title_zh": "SpaceX S-1 文件顯示：Anthropic 根據運算協議，在 2029 年 5 月前每月支付 SpaceX 12.5 億美元；Anthropic 表示將擴大協議以包含 Colossus 2 產能",
       "summary_zh": ""
     },
     {
-      "title_en": "Google says it is expanding access to CodeMender, an “AI agent for code security” it debuted in October, by inviting select groups of experts to test the API",
-      "url": "https://www.theverge.com/tech/933921/google-wants-to-compete-with-anthropics-mythos",
+      "title_en": "Filing: SpaceX reports 2025 revenue of $18.7B, up 33% YoY, a $4.9B loss, vs. a $791M profit in 2024, and $20.7B in capital expenditures, up from $11.2B",
+      "url": "https://www.nytimes.com/2026/05/20/technology/elon-musk-spacex-ipo.html?unlocked_article_code=1.j1A.y4Gx.iIyF9EciU9p-&smid=bs-share",
       "summary_en": "",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 宣佈擴大 CodeMender 的存取權限，這是一款於 10 月首次亮相的「程式碼安全 AI 代理」，目前正邀請特定專家小組測試其 API",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "OpenAI adds support for Google's SynthID watermarks in AI images, and previews a public portal to let users verify if an image was generated by OpenAI's tools",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/933442/openai-synthid-content-credentials-c2pa-expansion",
-      "summary_en": "",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "OpenAI 在 AI 生成圖片中加入對 Google SynthID 水印的支援，並展示了一個公開門戶，讓使用者驗證圖片是否由 OpenAI 工具生成",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Google overhauls its search box, letting users ask longer queries, upload photos and videos, and use Gemini 3.5 Flash-powered agents to automate searches",
-      "url": "https://www.nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB&smid=url-share",
-      "summary_en": "Powered by a new Gemini A.I. model, the tech giant is overhauling its search box to answer longer queries, introducing a video-generation …",
       "source": "New York Times",
       "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 大改搜尋框，允許使用者輸入更長的查詢、上傳照片與影片，並運用由 Gemini 3.5 Flash 驅動的代理人自動執行搜尋",
-      "summary_zh": "在新型 Gemini AI 模型的支援下，這家科技巨頭正在革新其搜尋框以回答更長的查詢，並推出影片生成功能..."
-    },
-    {
-      "title_en": "Andrej Karpathy joins Anthropic to help launch a team focused on using Claude to accelerate pretraining research; he helped found OpenAI and worked at Tesla",
-      "url": "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude",
-      "summary_en": "Andrej Karpathy, one of the best-known AI researchers in the world and a founding member of OpenAI, announced Tuesday that he's joining rival AI lab Anthropic.",
-      "source": "Axios",
-      "media_source": "Axios",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Andrej Karpathy 加入 Anthropic 協助成立新團隊，專注於利用 Claude 加速預訓練研究；他曾是 OpenAI 創始成員並曾在 Tesla 任職",
-      "summary_zh": "全球知名 AI 研究員兼 OpenAI 創始成員 Andrej Karpathy 週二宣佈，他將加入競爭對手 AI 實驗室 Anthropic。"
-    },
-    {
-      "title_en": "Google unveils Universal Cart, a shopping assistant that works “across merchants”, built on the Universal Commerce Protocol, rolling out in the US today",
-      "url": "https://techcrunch.com/2026/05/19/googles-new-universal-cart-wants-to-follow-you-across-the-entire-internet/",
-      "summary_en": "At I/O on Tuesday, Google introduced Universal Cart, its so-called agentic hub for managing shopping in one place.",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 發表 Universal Cart 購物助手，基於 Universal Commerce 協議建構，可跨平台管理購物，今日起在美國推出",
-      "summary_zh": "在週二的 I/O 大會上，Google 推出了 Universal Cart，這是一個所謂的 Agentic 中心，用於在一處管理所有購物需求。"
-    },
-    {
-      "title_en": "Google unveils Pics, an AI image editor in Workspace that lets users edit specific elements and modify text, rolling out this summer to AI Pro and Ultra users",
-      "url": "https://www.engadget.com/2176578/googles-newest-app-is-an-ai-powered-image-editor/",
-      "summary_en": "",
-      "source": "Engadget",
-      "media_source": "Engadget",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 在 Workspace 中推出 AI 圖片編輯器 Pics，讓使用者能編輯特定元素並修改文字，預計今夏開放給 AI Pro 與 Ultra 使用者",
+      "title_zh": "文件顯示：SpaceX 報告 2025 年營收為 187 億美元（年增 33%），虧損 49 億美元，而 2024 年利潤為 7.91 億美元；資本支出達 207 億美元，高於先前的 112 億美元",
       "summary_zh": ""
     },
     {
-      "title_en": "Google updates Project Genie, its interactive world builder, with Street View integration, and expands access to the tool to AI Ultra subscribers globally",
-      "url": "https://www.engadget.com/2176797/project-genie-adds-google-street-view-integration-and-goes-live-for-global-ai-ultra-users/",
-      "summary_en": "",
-      "source": "Engadget",
-      "media_source": "Engadget",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 更新互動式世界構建工具 Project Genie，整合 Street View 街景服務，並將存取權限擴大至全球 AI Ultra 訂閱者",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Google unveils conversational features for Gmail, Docs, and Keep, letting users ask natural language questions, rolling out to AI Pro and Ultra subs this summer",
-      "url": "https://www.engadget.com/2176612/google-brings-more-conversational-features-to-gmail-docs-and-keep/",
-      "summary_en": "",
-      "source": "Engadget",
-      "media_source": "Engadget",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 為 Gmail、Docs 與 Keep 推出對話式功能，讓使用者能以自然語言提問，預計今夏向 AI Pro 與 Ultra 訂閱者開放",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Google's web-based AI Studio now lets users build native Android apps; Google says the apps are for personal use only for now and publishing is on the roadmap",
-      "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
-      "summary_en": "The AI coding boom is now coming directly for Android app development. On Tuesday, Google announced new native Android app creation capabilities …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 的網頁版 AI Studio 現在支援建構原生 Android App；Google 表示目前僅供個人使用，未來計劃支援發布至商店",
-      "summary_zh": "AI 程式碼開發熱潮正直接轉向 Android 應用開發。週二，Google 宣佈了全新的原生 Android App 創建功能..."
-    },
-    {
-      "title_en": "Google introduces Antigravity 2.0, featuring an updated desktop app that lets users orchestrate multiple agents, alongside an Antigravity CLI tool and SDK",
-      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/",
+      "title_en": "SpaceX S-1: xAI plans to buy another $2.8B worth of turbines for its data centers, including a $2B deal for mobile gas turbines, the type it's being sued over",
+      "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
       "summary_en": "",
       "source": "TechCrunch",
       "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 推出 Antigravity 2.0，包含可編排多個代理人的更新版桌面 App，以及 Antigravity CLI 工具與 SDK",
+      "title_zh": "SpaceX S-1 文件顯示：xAI 計劃為其數據中心增購價值 28 億美元的渦輪機，其中包括一項 20 億美元的移動式燃氣渦輪機合約，而該類型渦輪機目前正陷於訴訟中",
       "summary_zh": ""
     },
     {
-      "title_en": "Meta begins laying off 8,000 employees, or 10% of staff, in a push to become an AI-first company; another 7,000 workers will be reassigned to AI initiatives",
-      "url": "https://www.nytimes.com/2026/05/19/technology/meta-layoffs-ai.html?unlocked_article_code=1.jlA.92d3.nrahmSK9pdrR&smid=nytcore-ios-share",
-      "summary_en": "Meta told employees last month that it would carry out mass layoffs on May 20, as the Silicon Valley giant tries to transform into an A.I.-first company.",
-      "source": "New York Times",
-      "media_source": "New York Times",
+      "title_en": "SpaceX S-1: xAI had a $6.4B operating loss on $3.2B in revenue in 2025; Grok and X had 550M MAUs combined as of March 2026, and 117M used Grok's AI features",
+      "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+      "summary_en": "",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Meta 開始裁員 8,000 人（約 10% 員工），旨在轉型為 AI 優先公司；另有 7,000 名員工將被重新分配至 AI 相關計劃",
-      "summary_zh": "Meta 上個月告知員工將於 5 月 20 日進行大規模裁員，這家矽谷巨頭正試圖轉型為一家 AI 優先的公司。"
+      "title_zh": "SpaceX S-1 文件顯示：xAI 2025 年營收 32 億美元，營業虧損達 64 億美元；截至 2026 年 3 月，Grok 與 X 合計月活躍用戶數（MAU）達 5.5 億，其中 1.17 億人使用過 Grok 的 AI 功能",
+      "summary_zh": ""
     },
     {
-      "title_en": "Hands-on with Google and Samsung's Android XR smart glasses from Warby Parker and Gentle Monster, and with XReal's Project Aura, all set to arrive this fall",
-      "url": "https://www.wired.com/story/hands-on-with-all-of-google-new-upcoming-android-xr-smart-glasses/",
-      "summary_en": "Here's your first look at smart glasses coming from Warby Parker and Gentle Monster, powered by Google and Samsung's XR platform.",
-      "source": "Wired",
-      "media_source": "Wired",
+      "title_en": "Sources: OpenAI is preparing to file confidentially for an IPO as early as Friday; the company plans to be ready to go public as early as September",
+      "url": "https://www.wsj.com/tech/ai/openai-is-preparing-to-file-for-an-ipo-very-soon-0ec95af5?st=6pJKH3&reflink=article_copyURL_share",
+      "summary_en": "The artificial-intelligence giant is working with bankers at Goldman Sachs and Morgan Stanley — ChatGPT-maker OpenAI has been working …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "直擊 Google 與三星合作、由 Warby Parker 與 Gentle Monster 打造的 Android XR 智慧眼鏡，以及 XReal 的 Project Aura，預計今秋上市",
-      "summary_zh": "搶先看 Warby Parker 與 Gentle Monster 推出、由 Google 和三星 XR 平台驅動的智慧眼鏡。"
+      "title_zh": "消息來源：OpenAI 正準備最快於週五秘密遞交 IPO 申請；該公司計劃在 9 月前做好上市準備",
+      "summary_zh": "這家 AI 巨頭正與高盛和摩根士丹利的銀行家合作——ChatGPT 開發商 OpenAI 一直致力於推進上市流程。"
     },
     {
-      "title_en": "Google says the Gemini app has 900M+ MAUs across 230 countries, up from 400M at I/O 2025, and launches Neural Expressive, a new design language for Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
-      "summary_en": "Gemini is becoming a more helpful AI assistant, with an intuitive new UI, proactive daily briefs and Gemini Spark, an agent to help you get things done around the clock.",
-      "source": "The Keyword",
-      "media_source": "The Keyword",
+      "title_en": "Nvidia reports Q1 revenue up 85% YoY to $81.6B, Data Center revenue up 92% to $75.2B, and announces an $80B additional share repurchase authorization",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
+      "summary_en": "Record revenue of $81.6 billion, up 85% from a year ago — Record Data Center revenue of $75.2 billion, up 92% from a year ago",
+      "source": "Nvidia Newsroom",
+      "media_source": "Nvidia Newsroom",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 表示 Gemini App 在 230 個國家擁有超過 9 億月活躍使用者 (MAU)，高於 I/O 2025 的 4 億，並推出新設計語言 Neural Expressive",
-      "summary_zh": "Gemini 正成為更實用的 AI 助理，擁有直觀的新介面、主動式的每日簡報，以及能協助全天候處理事務的代理人 Gemini Spark。"
+      "title_zh": "NVIDIA 第一季營收年增 85% 達 816 億美元，數據中心營收年增 92% 達 752 億美元，並宣布加碼 800 億美元的股份回購授權",
+      "summary_zh": "營收創下 816 億美元的新紀錄，較去年同期增長 85%；數據中心營收達 752 億美元，年增 92%。"
     },
     {
-      "title_en": "Google adds a conversational search feature to YouTube and rolls out the new Gemini Omni model in YouTube Shorts Remix and the Create app",
-      "url": "https://www.androidcentral.com/apps-software/youtube/google-i-o-youtube-updates",
-      "summary_en": "Seriously, who is asking for all these tools? … What you need to know — Ask YouTube now supports conversational searches instead of relying only on simple keywords.",
-      "source": "Android Central",
-      "media_source": "Android Central",
+      "title_en": "Nvidia reports Q1 net income up 211% YoY to $58.3B, beating analyst estimates of $42.9B, and raises Q2 revenue forecast to $91B",
+      "url": "https://www.wsj.com/tech/ai/nvidia-nvda-1st-quarter-earnings-report-2026-stock-c2bb9c1c",
+      "summary_en": "",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 在 YouTube 加入對話式搜尋功能，並在 YouTube Shorts Remix 與 Create App 中導入新的 Gemini Omni 模型",
-      "summary_zh": "說真的，到底是誰在要求這些工具的？重點須知：YouTube 的「Ask YouTube」現在支援對話式搜尋，不再僅依賴簡單的關鍵字。"
+      "title_zh": "NVIDIA 第一季淨利年增 211% 達 583 億美元，優於分析師預期的 429 億美元，並將第二季營收預測上調至 910 億美元",
+      "summary_zh": ""
     },
     {
-      "title_en": "Plex says the price for the Lifetime tier of its Plex Pass plan will increase from $249.99 to $749.99 in July",
-      "url": "https://9to5mac.com/2026/05/19/plex-increasing-lifetime-plex-pass-cost-to-whopping-750/",
-      "summary_en": "Plex has announced a massive price increase for the Lifetime tier of its Plex Pass plan. Starting in July, Plex says that the Lifetime Plex Pass price will increase from $249.99 to a whopping $749.99.",
-      "source": "9to5Mac",
-      "media_source": "9to5Mac",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Plex 宣佈 Plex Pass 終身會員方案價格將於 7 月從 249.99 美元大漲至 749.99 美元",
-      "summary_zh": "Plex 宣佈其 Plex Pass 終身方案將大幅漲價。從 7 月開始，終身 Plex Pass 的價格將從 249.99 美元飆升至驚人的 749.99 美元。"
-    },
-    {
-      "title_en": "Apple unveils Apple Intelligence-powered accessibility features, subtitles generated on device, a Vision Pro feature for controlling power wheelchairs, and more",
-      "url": "https://www.macstories.net/news/apple-intelligence-infused-accessibility-features-promise-greater-flexibility-and-power/",
-      "summary_en": "In what I expect will be an overarching theme at WWDC 2026, Apple's Accessibility group took the wraps off an impressive collection of features coming later this year.",
-      "source": "MacStories",
-      "media_source": "MacStories",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Apple 揭曉由 Apple Intelligence 驅動的輔助功能，包含裝置端生成的字幕、Vision Pro 操控電動輪椅功能等",
-      "summary_zh": "正如預期這將成為 WWDC 2026 的核心主題，Apple 的輔助功能團隊揭曉了一系列令人印象深刻的功能，預計將於今年稍晚推出。"
-    },
-    {
-      "title_en": "Threat actors published 600+ malicious versions to npm as part of the Shai-Hulud supply chain campaign; most of the affected packages are in the @antv ecosystem",
-      "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
-      "summary_en": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chain campaign.",
+      "title_en": "GitHub confirms ~3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension; TeamPCP claims responsibility",
+      "url": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "summary_en": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension.",
       "source": "BleepingComputer",
       "media_source": "BleepingComputer",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "威脅行為者在 Shai-Hulud 供應鏈攻擊中向 npm 發布了 600 多個惡意版本；多數受影響套件屬於 @antv 生態系統",
-      "summary_zh": "威脅行為者於今日早些時候向 Node Package Manager (npm) 索引發布了超過 600 個惡意套件，這是新的 Shai-Hulud 供應鏈攻擊行動的一環。"
+      "title_zh": "GitHub 證實約 3,800 個內部儲存庫遭到入侵，主因是一名員工安裝了惡意的 VS Code 擴充功能；TeamPCP 聲稱對此負責",
+      "summary_zh": "GitHub 證實，因員工安裝惡意 VS Code 擴充功能，導致約 3,800 個內部儲存庫被非法存取。"
     },
     {
-      "title_en": "Epic says Fortnite has returned to Apple's App Store globally, after its US relaunch in 2025, signaling confidence in a favorable outcome in an ongoing lawsuit",
-      "url": "https://www.reuters.com/legal/litigation/epic-games-fortnite-returns-app-stores-worldwide-2026-05-19/",
-      "summary_en": "Epic Games said on Tuesday its popular shooter title “Fortnite” has returned to global App Stores, as the videogame maker signaled confidence …",
+      "title_en": "OpenAI says an internal general-purpose reasoning model has disproved the Erdős unit distance conjecture, a central problem in discrete geometry posed in 1946",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "summary_en": "Read the proof(opens in a new window)Read the companion remarks(opens in a new window) — Loading...",
+      "source": "OpenAI",
+      "media_source": "OpenAI",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "OpenAI 表示，其內部的通用推理模型已推翻了「艾狄胥單位距離猜想（Erdős unit distance conjecture）」，這是自 1946 年提出以來的離散幾何核心難題",
+      "summary_zh": "閱讀證明文件與相關評論。"
+    },
+    {
+      "title_en": "Internal memo: Intuit is laying off ~17% of its workforce, or ~3,000 employees worldwide, to streamline operations and sharpen its focus on key bets, like AI",
+      "url": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/",
+      "summary_en": "Intuit (INTU.O) is laying off about 17% of its workforce, or about 3,000 employees worldwide, to streamline operations and sharpen focus …",
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Epic 表示《要塞英雄》(Fortnite) 已在全球 Apple App Store 回歸，繼 2025 年在美國重新上架後，展現對訴訟結果的信心",
-      "summary_zh": "Epic Games 週二表示，其熱門射擊遊戲《要塞英雄》已重返全球 App Store，這家遊戲開發商藉此傳達對官司最終結果的信心。"
+      "title_zh": "內部備忘錄：Intuit 宣佈裁員約 17%（全球約 3,000 名員工），旨在簡化運營並集中資源投入 AI 等關鍵戰略領域",
+      "summary_zh": "Intuit (INTU.O) 將裁減全球約 17% 的人力，以精簡組織並強化對 AI 的投入。"
     },
     {
-      "title_en": "Sources: SpaceX expects to proceed with its acquisition of Cursor 30 days after its public trading debut, which is expected to occur on June 12",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/spacex-is-said-to-plan-to-buy-startup-cursor-30-days-after-ipo",
-      "summary_en": "SpaceX expects to proceed with its acquisition of artificial intelligence coding startup Cursor 30 days after Elon Musk's company begins trading publicly …",
+      "title_en": "Internal memo: Mark Zuckerberg told employees that he does not expect more company-wide layoffs this year",
+      "url": "https://www.reuters.com/world/meta-ceo-tells-employees-he-does-not-expect-more-company-wide-layoffs-this-year-2026-05-20/",
+      "summary_en": "Meta (META.O) CEO Mark Zuckerberg told employees in an internal memo on Wednesday that he does not expect more company-wide layoffs this year, according to a copy of the memo seen by Reuters.",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "內部備忘錄：Mark Zuckerberg 向員工表示，預計今年內不會再有全公司規模的裁員",
+      "summary_zh": "Meta (META.O) 執行長 Mark Zuckerberg 在週三的內部備忘錄中告訴員工，他預計今年不會再有進一步的裁員。"
+    },
+    {
+      "title_en": "Internal memo: Xbox hires game industry analyst Matthew Ball as chief strategy officer, and names Scott Van Vliet, who led Azure AI infrastructure, as Xbox CTO",
+      "url": "https://www.theverge.com/report/934687/xbox-matthew-ball-strategy-officer-hire?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkdHWWhBb1dCd2ciLCJwIjoiL3JlcG9ydC85MzQ2ODcveGJveC1tYXR0aGV3LWJhbGwtc3RyYXRlZ3ktb2ZmaWNlci1oaXJlIiwiZXhwIjoxNzc5NzI1MTk4LCJpYXQiOjE3NzkyOTMxOTh9.kSFVS3D-ZFX9QDJdw_kgkXPIZqarlNLRgdw-Fyb-kl0&utm_medium=gift-link",
+      "summary_en": "The second major Xbox leadership changes this month. … Microsoft has recruited game industry analyst Matthew Ball as Xbox chief strategy officer.",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "內部備忘錄：Xbox 聘請遊戲產業分析師 Matthew Ball 擔任策略長，並任命曾領導 Azure AI 基礎設施的 Scott Van Vliet 擔任 Xbox 技術長 (CTO)",
+      "summary_zh": "這是 Xbox 本月第二次重大領導層變動。微軟已延攬知名分析師 Matthew Ball 加入 Xbox 團隊。"
+    },
+    {
+      "title_en": "Airbnb says it is adding luggage storage, airport pickups, car rentals, grocery delivery, and thousands of boutique and independent hotels to its platform",
+      "url": "https://www.wsj.com/business/hospitality/how-airbnb-ceo-brian-chesky-learned-to-stop-hating-hotels-89f4a281",
+      "summary_en": "Platform ramps up hotel-booking options, car rentals and AI-enabled features, expecting World Cup to drive record use",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Airbnb 宣布將在平台上新增行李寄存、機場接送、租車、生鮮配送，以及數千家精品與獨立酒店服務",
+      "summary_zh": "Airbnb 強化酒店預訂、租車與 AI 功能，並看好世界盃將帶動創紀錄的使用率。"
+    },
+    {
+      "title_en": "Samsung Electronics and its South Korean labor union reach a preliminary pay deal; the union says it has suspended a general strike and put the deal to a vote",
+      "url": "https://www.reuters.com/business/world-at-work/samsung-elecs-south-korean-labour-union-vote-tentative-pay-plan-union-2026-05-20/",
+      "summary_en": "Samsung Electronics (005930.KS) and its South Korean labour union reached a preliminary pay deal on Wednesday …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "三星電子與其韓國工會達成初步薪資協議；工會表示已暫停總罷工並將協議交付投票",
+      "summary_zh": "三星電子與韓國勞工工會於週三達成初步薪資協議。"
+    },
+    {
+      "title_en": "Granta and the Commonwealth Foundation say they can't determine yet if AI was used to write a prize-winning short story after critics pointed to signs of AI use",
+      "url": "https://www.theguardian.com/books/2026/may/19/commonwealth-short-story-prize-winner-doubts-ai-artificial-intelligence",
+      "summary_en": "Granta publisher says ‘perhaps we never will know’ true authorship of work that won Commonwealth prize",
+      "source": "The Guardian",
+      "media_source": "The Guardian",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "《Granta》雜誌與大英國協基金會表示，在評論家質疑獲獎作品有 AI 痕跡後，目前尚無法斷定該小說是否由 AI 創作",
+      "summary_zh": "《Granta》發行商表示，對於這部獲得大英國協獎作品的真實作者身份，或許永遠無法得知真相。"
+    },
+    {
+      "title_en": "In disclosures to investors, Anthropic says it expects to generate $10.9B in revenue in Q2, vs. $4.8B in Q1, and turn a $559M operating profit, its first ever",
+      "url": "https://www.wsj.com/tech/ai/mind-blowing-growth-is-about-to-propel-anthropic-into-its-first-profitable-quarter-7edbf2f4?st=HwPZX6&reflink=desktopwebshare_permalink",
+      "summary_en": "The startup expects a 130% revenue surge to $10.9 billion in the June quarter and its first operating profit, defying skeptics of the AI boom",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Anthropic 向投資者披露，預計第二季營收將達 109 億美元（第一季為 48 億美元），並將首次實現 5.59 億美元的營業利潤",
+      "summary_zh": "這家新創公司預計 6 月當季營收將激增 130% 達 109 億美元，並首次轉虧為盈，反擊了對 AI 泡沫的質疑。"
+    },
+    {
+      "title_en": "Google says it is testing new ad formats in search results and AI Mode, including Conversational Discovery ads, Highlighted Answers, and AI-powered Shopping ads",
+      "url": "https://searchengineland.com/google-tests-new-conversational-ad-formats-in-ai-mode-and-search-478115",
+      "summary_en": "Google is introducing a new generation of Gemini-powered ad formats across AI Mode and Search designed to make ads feel more conversational …",
+      "source": "Search Engine Land",
+      "media_source": "Search Engine Land",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Google 表示正測試搜尋結果與 AI 模式中的新廣告格式，包括對話式探索廣告、重點解答及 AI 驅動的購物廣告",
+      "summary_zh": "Google 推出新一代 Gemini 驅動的廣告格式，旨在讓 AI 模式與搜尋中的廣告更具對話感。"
+    },
+    {
+      "title_en": "Ubisoft reports a record operating loss of $1.40B for the year to March and says sales in 2026-27 will fall by about 8% to 9%; UBI falls 6%+",
+      "url": "https://www.reuters.com/world/china/ubisoft-flags-more-losses-after-record-hit-2026-05-20/",
+      "summary_en": "French videogame publisher Ubisoft warned on Wednesday of another year of losses and lower sales after a record annual operating loss, deepening pressure on the company as it restructures.",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "Ubisoft 報告截至 3 月止年度營業虧損達創紀錄的 14 億美元，並預測 2026-27 年銷售額將下降約 8% 至 9%；股價跌幅超過 6%",
+      "summary_zh": "法國遊戲商 Ubisoft 在面臨創紀錄的年度虧損後發出警訊，隨著公司進行轉型，營收壓力持續增大。"
+    },
+    {
+      "title_en": "S. “Soma” Somasegar, who led Microsoft's Developer Division for 12 years as part of his 27-year tenure at the company before leaving in 2015, has died at age 59",
+      "url": "https://www.geekwire.com/2026/s-soma-somasegar-1966-2026-microsoft-and-madrona-leader-was-a-champion-of-developers-and-startups/",
+      "summary_en": "S. “Soma” Somasegar, a fixture in the Seattle tech community who led Microsoft's Developer Division as part …",
+      "source": "GeekWire",
+      "media_source": "GeekWire",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "曾任職微軟 27 年、並領導開發人員部門（Developer Division）長達 12 年的資深高層 S. “Soma” Somasegar 逝世，享年 59 歲",
+      "summary_zh": "S. “Soma” Somasegar 是西雅圖科技圈的代表人物，曾在微軟長期領導開發工具與技術團隊。"
+    },
+    {
+      "title_en": "Cloud provider Railway says Google Cloud suspended its account without cause, resulting in an outage; in 2024, GCP deleted an Australian pension fund's account",
+      "url": "https://www.theregister.com/off-prem/2026/05/20/google-cloud-suspended-major-customer-railwaycom-without-cause-causing-outage/5243111",
+      "summary_en": "PaaS platform Railway says Google temporarily suspended its account on Wednesday without cause, inducing a major outage.",
+      "source": "The Register",
+      "media_source": "The Register",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "雲端供應商 Railway 表示 Google Cloud 無故停權其帳號並導致服務中斷；2024 年 GCP 也曾刪除澳洲養老基金帳號",
+      "summary_zh": "PaaS 平台 Railway 表示 Google 週三在無預警且無理由的情況下暫時停權其帳號，引發重大服務中斷。"
+    },
+    {
+      "title_en": "OpenAI's Chris Lehane says he is pursuing “reverse federalism”, lobbying blue states to pass AI safety laws and create a de facto US standard, as DC dithers",
+      "url": "https://www.politico.com/news/2026/05/20/chatgpt-state-ai-fight-00928903",
+      "summary_en": "OpenAI's effort comes after nearly a year in which the tech lobby has pressured Congress to block states from passing AI laws …",
+      "source": "Politico",
+      "media_source": "Politico",
+      "techmeme_source": "homepage_main_column",
+      "title_zh": "OpenAI 的 Chris Lehane 表示他正推動「逆向聯邦主義」，遊說藍色州通過 AI 安全法，在華府猶豫不決之際建立事實上的美國標準",
+      "summary_zh": "OpenAI 的這項努力是在科技遊說團體向國會施壓近一年，要求阻止各州通過 AI 法律之後進行的。"
+    },
+    {
+      "title_en": "An interview with Match Group CEO Spencer Rascoff about plans for Tinder, including a redesign, AI features, live events, and group dating to win over Gen Z",
+      "url": "https://www.bloomberg.com/news/features/2026-05-20/tinder-launches-live-events-ai-features-and-group-dating-to-attract-gen-z",
+      "summary_en": "The dating app's turnaround bets on live events, group dating and an AI-heavy redesign. — At a pickleball venue near Santa Monica State beach …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "消息來源：SpaceX 預計在掛牌上市 30 天後繼續收購 Cursor，預計於 6 月 12 日公開交易",
-      "summary_zh": "SpaceX 預計在 Elon Musk 旗下的這家公司開始公開交易 30 天後，繼續執行對 AI 程式碼編寫新創公司 Cursor 的收購計畫。"
+      "title_zh": "Match Group 執行長 Spencer Rascoff 專訪：Tinder 的改造計畫，包括重新設計、AI 功能、現場活動和團體約會，以贏得 Z 世代",
+      "summary_zh": "這款約會 App 的轉機寄託於現場活動、團體約會和以 AI 為核心的重新設計。"
     },
     {
-      "title_en": "Discord says voice and video calls outside of stage channels are now end-to-end encrypted by default, after launching its encryption protocol in September 2024",
-      "url": "https://www.pcgamer.com/hardware/discord-just-got-the-privacy-feature-it-probably-should-have-had-for-years-introducing-end-to-end-encryption-for-very-nearly-every-voice-and-video-call/",
-      "summary_en": "“Likely one of the internet's most platform-diverse E2EE voice and video implementations.”",
-      "source": "PC Gamer",
-      "media_source": "PC Gamer",
+      "title_en": "Mercury, which provides banking services to startups, raised a $200M Series D led by TCV at a $5.2B valuation, up from $3.5B in March 2025",
+      "url": "https://www.cnbc.com/2026/05/20/fintech-mercury-valuation-fundraise-bank-charter.html",
+      "summary_en": "Mercury, a fintech firm that provides banking services to startups, has raised $200 million in funding at a $5.2 billion valuation, CNBC has learned exclusively.",
+      "source": "CNBC",
+      "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Discord 表示非舞臺頻道的語音和視訊通話現已預設支援端對端加密，此前於 2024 年 9 月推出了加密協定",
-      "summary_zh": "「這可能是網際網路上跨平台支援最廣泛的 E2EE 語音與視訊實作之一。」"
+      "title_zh": "為新創公司提供銀行服務的 Mercury 在 TCV 領投的 D 輪融資中籌集了 2 億美元，估值達 52 億美元，高於 2025 年 3 月的 35 億美元",
+      "summary_zh": "CNBC 獨家獲悉，為新創公司提供銀行服務的金融科技公司 Mercury 以 52 億美元的估值籌集了 2 億美元資金。"
     },
     {
-      "title_en": "Minnesota Gov. Tim Walz has signed the nation's first law banning prediction market sites from operating in the state; the CFTC has sued Minnesota in response",
-      "url": "https://www.npr.org/2026/05/19/nx-s1-5821265/minnesota-ban-prediction-markets",
-      "summary_en": "Minnesota Gov. Tim Walz has signed the nation's first law banning prediction market sites from operating in the state …",
-      "source": "NPR",
-      "media_source": "NPR",
+      "title_en": "Apple says the App Store prevented over $2.2B in potentially fraudulent transactions in 2025, rejected over 2M problematic app submissions, and more",
+      "url": "https://9to5mac.com/2026/05/20/apple-gives-update-on-the-app-store-and-its-key-protections/",
+      "summary_en": "Ahead of Apple's annual developer conference next month, Apple has shared an update on how the App Store serves users and developers alike with numerous protections.",
+      "source": "9to5Mac",
+      "media_source": "9to5Mac",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "明尼蘇達州州長 Tim Walz 簽署全美首個禁止預測市場網站在該州運營的法律；商品期貨交易委員會 (CFTC) 隨即對明尼蘇達州提起訴訟",
-      "summary_zh": "明尼蘇達州州長 Tim Walz 簽署了全美第一項禁止預測市場網站在該州境內營運的法律..."
+      "title_zh": "Apple 表示 App Store 在 2025 年阻止了超過 22 億美元的潛在詐騙交易，並拒絕了超過 200 萬件有問題的 App 提交申請",
+      "summary_zh": "在下個月的 Apple 年度開發者大會之前，Apple 分享了 App Store 如何透過多項保護措施為使用者和開發者提供服務的最新進展。"
     },
     {
-      "title_en": "Google announces updates to Flow and Flow Music: Gemini Omni support, mobile apps, the ability to create custom tools like a video resizer or shaders, and more",
-      "url": "https://www.cnet.com/tech/services-and-software/google-doubles-down-on-ai-content-creation-with-updates-coming-to-flow-and-flow-music/",
-      "summary_en": "Google Flow's family of products gets agentic updates, mobile apps and the Omni Flash treatment.",
-      "source": "CNET",
-      "media_source": "CNET",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Google 宣佈 Flow 與 Flow Music 重大更新：支援 Gemini Omni、推出行動版 App，並可自訂影片調整器或著色器等工具",
-      "summary_zh": "Google Flow 系列產品獲得了 Agentic（代理化）功能更新、行動版 App 以及 Omni Flash 技術支援。"
-    },
-    {
-      "title_en": "Sources: Apple Chief Hardware Officer Johny Srouji is reorganizing hardware development to integrate silicon teams with product creation and speed up their work",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/apple-s-new-hardware-chief-shakes-up-oversight-of-product-design",
-      "summary_en": "Apple Inc. Chief Hardware Officer Johny Srouji is reorganizing hardware development and shifting oversight of key functions …",
+      "title_en": "Alibaba's chipmaking unit T-Head unveils the Zhenwu M890 for AI training and inference, saying it is well-suited for agentic tasks, and plans annual upgrades",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/alibaba-unveils-new-ai-chip-for-training-and-inferencing",
+      "summary_en": "Alibaba Group Holding Ltd. added a new processor to its expanding AI technology stack, enhancing a push to cover every aspect of artificial intelligence development.",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "消息人士：Apple 硬體主管 Johny Srouji 正在重組硬體開發架構，將晶片團隊與產品開發整合以加速研發",
-      "summary_zh": "Apple 硬體工程資深副總裁 Johny Srouji 正在重組硬體開發流程，並調整關鍵職能的監督權..."
+      "title_zh": "阿里巴巴晶片部門平頭哥推出用於 AI 訓練和推理的鎮武 M890，表示其非常適合 Agent 任務，並計劃每年升級",
+      "summary_zh": "阿里巴巴集團在其不斷擴張的 AI 技術棧中增加了一款新處理器，強化了涵蓋 AI 開發各個方面的推動力。"
     },
     {
-      "title_en": "Microsoft unveils Intel-based business laptops: a 13\" Surface Pro for $1,950+, a 13.8\" or 15\" Surface Laptop for $1,950+, and a 13\" Surface Laptop for $1,300+",
-      "url": "https://blogs.windows.com/devices/2026/05/19/introducing-new-surface-devices-built-for-business-and-ai-acceleration/",
-      "summary_en": "Every IT leader and partner we work with is navigating the same challenges: AI is changing the demands of how teams work …",
-      "source": "Microsoft Devices Blog",
-      "media_source": "Microsoft Devices Blog",
+      "title_en": "Sam Altman says OpenAI offered to invest $2M in tokens in each startup in the current YC batch; a source says the offer is in exchange for equity via a SAFE",
+      "url": "https://www.theinformation.com/briefings/sam-altman-offers-yc-founders-2-million-openai-tokens-equity",
+      "summary_en": "OpenAI cofounder and CEO Sam Altman late Tuesday offered to invest $2 million in every startup currently in the Y Combinator startup …",
+      "source": "The Information",
+      "media_source": "The Information",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "微軟推出搭載 Intel 處理器的商務筆電：13 吋 Surface Pro、13.8 吋或 15 吋 Surface Laptop 售價 1,950 美元起",
-      "summary_zh": "我們合作的每一位 IT 領導者與夥伴都面臨著同樣的挑戰：AI 正在改變團隊的工作需求..."
+      "title_zh": "Sam Altman 表示 OpenAI 提議為當前 YC 梯次的每家新創公司投資 200 萬美元的代幣；消息人士稱該提議是以 SAFE 協議換取股權",
+      "summary_zh": "OpenAI 共同創辦人兼執行長 Sam Altman 週二晚間提議投資 200 萬美元給目前在 Y Combinator 的每家新創公司。"
     },
     {
-      "title_en": "Sundar Pichai announced at Google I/O that Gemini 3.5 Pro will launch next month; attendees groaned at the model coming out later than they expected",
-      "url": "https://www.businessinsider.com/google-io-2026-gemini-3-5-pro-2026-5",
-      "summary_en": "Google CEO Sundar Pichai announced that Gemini 3.5 Pro will launch next month. — Google I/O 2026 attendees groaned at the model coming out later than they'd expected.",
-      "source": "Business Insider",
-      "media_source": "Business Insider",
+      "title_en": "Exa, which offers a search engine that is designed for AI agents, raised $250M led by a16z at a $2.2B valuation, up from $700M in September 2025",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/andreessen-backed-ai-search-startup-exa-valued-at-2-2-billion",
+      "summary_en": "Exa Labs Inc., a San Francisco-based startup that wants to build a search engine tailor-made for the age of artificial intelligence …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Sundar Pichai 在 Google I/O 宣佈 Gemini 3.5 Pro 將於下個月推出；現場與會者因發佈時間晚於預期而發出感嘆",
-      "summary_zh": "Google 執行長 Sundar Pichai 宣佈 Gemini 3.5 Pro 將於下個月發佈。Google I/O 2026 的與會者對模型推出時間比預期晚感到失望。"
+      "title_zh": "為 AI Agent 提供搜尋引擎的 Exa 在 a16z 領投下籌集了 2.5 億美元，估值達 22 億美元，高於 2025 年 9 月的 7 億美元",
+      "summary_zh": "Exa Labs 是一家總部位於舊金山的新創公司，致力於打造專為人工智慧時代量身定制的搜尋引擎。"
     },
     {
-      "title_en": "Demis Hassabis says companies looking to replace developers with AI may be due to a “lack of imagination and a lack of understanding” of the future",
-      "url": "https://www.wired.com/story/demis-hassabis-ai-layoffs-deepmind-google-io/",
-      "summary_en": "",
-      "source": "Wired",
-      "media_source": "Wired",
+      "title_en": "An analysis based on OpenAI's and Anthropic's current valuations suggests ~$370B of philanthropic assets tied to the two AI companies could soon become liquid",
+      "url": "https://nanransohoff.substack.com/p/the-third-wave-of-american-philanthropy",
+      "summary_en": "AI is about to generate hundreds of billions in new philanthropic funding. We have a huge amount of work to do to make the most of it.",
+      "source": "Nan's Substack",
+      "media_source": "Nan's Substack",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Demis Hassabis 表示，試圖以 AI 取代開發者的公司，可能是源於對未來的「缺乏想像力與理解」。",
-      "summary_zh": ""
+      "title_zh": "一項基於 OpenAI 和 Anthropic 當前估值的分析顯示，與這兩家 AI 公司掛鉤的約 3,700 億美元慈善資產可能很快就會變現",
+      "summary_zh": "AI 即將產生數千億美元的新慈善資金。為了充分利用這些資金，我們還有大量工作要做。"
     },
     {
-      "title_en": "OpenAI's win against Elon Musk leaves it free to continue its IPO plans, but it still faces many issues, like rising competition and dozens of other lawsuits",
-      "url": "https://www.nytimes.com/2026/05/19/technology/openai-musk-legal-challenges.html",
-      "summary_en": "A jury's rejection of Elon Musk's $150 billion lawsuit against OpenAI was a major hurdle crossed. But the maker of ChatGPT faces a list of other problems.",
-      "source": "New York Times",
-      "media_source": "New York Times",
+      "title_en": "Kickstarter retracts its stricter rules on mature content after creator backlash, and says it adopted the tougher rules because of its payment processor Stripe",
+      "url": "https://www.engadget.com/2177414/kickstarter-mature-content-policy-stripe/",
+      "summary_en": "It explained that it created the new rules due to Stripe's policy. — Kickstarter has retracted the new set of rules around mature content …",
+      "source": "Engadget",
+      "media_source": "Engadget",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "OpenAI 在對 Elon Musk 的訴訟中勝訴，掃清 IPO 障礙，但仍面臨競爭加劇與多項訴訟。",
-      "summary_zh": "陪審團駁回 Elon Musk 對 OpenAI 提出的 1,500 億美元訴訟，為其移除了一大障礙。然而，這家 ChatGPT 開發商仍面臨諸多難題。"
-    },
-    {
-      "title_en": "Elon Musk's OpenAI loss is set to speed up the AI juggernaut amid rising opposition; the case offered a rare glimpse into tech's workings, ending with a whimper",
-      "url": "https://www.nytimes.com/2026/05/18/technology/elon-musk-openai-trial.html",
-      "summary_en": "",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Elon Musk 敗訴將加速 OpenAI 擴張，儘管反對聲浪四起；此案揭露了科技業運作的罕見內幕，卻以草草收場。",
-      "summary_zh": ""
+      "title_zh": "Kickstarter 在創作者反對後撤回了針對成人內容的更嚴格規則，並表示採用這些規則是因為其支付處理商 Stripe 的政策",
+      "summary_zh": "Kickstarter 解釋說，它是根據 Stripe 的政策制定了新規則。"
     }
   ],
   "wsj": [
     {
-      "title_en": "The American Rebellion Against AI Is Gaining Steam",
-      "url": "https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529?mod=rss_Technology",
-      "summary_en": "Booed commencement speakers, blocked data centers, plummeting poll numbers: The fast-growing industry has a faster-growing crisis....",
-      "title_zh": "美國對 AI 的抵制風潮正在升溫",
-      "summary_zh": "畢業典禮講者遭喝倒彩、資料中心擴張受阻、民調支持度重挫：這個快速成長的產業正面臨更劇烈的危機。"
+      "title_en": "The Secrets Revealed in SpaceX’s IPO Filing",
+      "url": "https://www.wsj.com/business/spacex-ipo-takeaways-cea33689?mod=rss_Technology",
+      "summary_en": "Documents related to SpaceX’s initial public offering show the company is unprofitable and CEO Elon Musk controls 85% of the vote....",
+      "title_zh": "SpaceX IPO 招股說明書揭露的秘密",
+      "summary_zh": "SpaceX 首次公開募股（IPO）的相關文件顯示，該公司目前尚未獲利，且執行長 Elon Musk 控制了 85% 的投票權。"
     },
     {
-      "title_en": "No More Tax Audits for Trump",
-      "url": "https://www.wsj.com/tech/ai/no-more-tax-audits-for-trump-d4c961b8?mod=rss_Technology",
-      "summary_en": "Plus, mediators see little progress in U.S.-Iran talks, and branded condos rock Miami....",
-      "title_zh": "川普將不再面臨稅務稽核",
-      "summary_zh": "此外，調解人稱美伊談判進展甚微；品牌聯名公寓正席捲邁阿密。"
+      "title_en": "Nvidia Rides Blistering Chip Sales to Another Record Quarter",
+      "url": "https://www.wsj.com/tech/ai/nvidia-nvda-1st-quarter-earnings-report-2026-stock-c2bb9c1c?mod=rss_Technology",
+      "summary_en": "The astronomical rise in AI agents and demand for data-center computing lift chip maker to $82 billion in first-quarter revenue....",
+      "title_zh": "Nvidia 憑藉強勁的晶片銷售再創單季營收紀錄",
+      "summary_zh": "AI Agent 的激增以及對數據中心運算的需求，推動這家晶片製造商第一季度營收達到 820 億美元。"
     },
     {
-      "title_en": "Google Unveils New Gemini AI Agent for Personal Tasks",
-      "url": "https://www.wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?mod=rss_Technology",
-      "summary_en": "The tech firm highlights both Spark and Omni, a video-creation tool, at its annual developer conference....",
-      "title_zh": "Google 發表全新 Gemini AI 代理，協助處理個人任務",
-      "summary_zh": "這家科技巨頭在年度開發者大會上重點介紹了 Spark 以及影片創作工具 Omni..."
+      "title_en": "SpaceX Fires Starting Gun on Its Blockbuster IPO",
+      "url": "https://www.wsj.com/finance/spacex-files-ipo-spcx-stock-2c52451d?mod=rss_Technology",
+      "summary_en": "The Elon Musk-led company filed an investor prospectus for a stock offering expected to raise potentially $80 billion or more as soon as mid-June....",
+      "title_zh": "SpaceX 啟動重磅 IPO",
+      "summary_zh": "Elon Musk 領導的公司提交了股票發行投資者招募說明書，預計最快於 6 月中旬籌集 800 億美元或更多資金。"
     },
     {
-      "title_en": "There’s a New Way to Create Google Docs With Your Voice. Watch Me Try It.",
-      "url": "https://www.wsj.com/tech/personal-tech/google-docs-live-test-e4473e07?mod=rss_Technology",
-      "summary_en": "An exclusive look at Docs Live, Google’s new speech-powered AI project manager and writing partner....",
-      "title_zh": "語音建立 Google Docs 全新體驗：帶您實測最新功能",
-      "summary_zh": "獨家深入了解 Docs Live，這是 Google 推出的全新語音驅動 AI 專案經理與寫作夥伴..."
+      "title_en": "Biotech Investors Are Tuning Out the MAHA Chaos",
+      "url": "https://www.wsj.com/tech/biotech/biotech-investors-are-tuning-out-the-maha-chaos-658b0480?mod=rss_Technology",
+      "summary_en": "The Food and Drug Administration is still in turmoil, but Wall Street no longer cares....",
+      "title_zh": "生技投資者正忽視 MAHA 的混亂",
+      "summary_zh": "美國 FDA 仍處於動盪中，但華爾街已不再在意。"
     },
     {
-      "title_en": "Yes, AI Can Make Mistakes. AI Can Find Them, Too.",
-      "url": "https://www.wsj.com/tech/ai/ai-fact-checking-8fbfaa35?mod=rss_Technology",
-      "summary_en": "Since chatbots hallucinate their own facts, it’s useful (and easy) to have a second, nitpicking AI that can audit the results for errors....",
-      "title_zh": "沒錯，AI 會犯錯，但 AI 也能幫忙糾錯",
-      "summary_zh": "鑑於聊天機器人會產生幻覺（hallucinate），利用第二個「愛挑剔」的 AI 來審核結果並糾正錯誤，既實用又簡單..."
+      "title_en": "Meta Begins Laying Off Thousands of Employees as It Transforms Around AI",
+      "url": "https://www.wsj.com/tech/ai/meta-begins-laying-off-thousands-of-employees-as-it-transforms-around-ai-3c31a9eb?mod=rss_Technology",
+      "summary_en": "The cuts of roughly 8,000 jobs, or 10% of staff, are meant to offset the cost of the company’s AI investments....",
+      "title_zh": "Meta 因應 AI 轉型開始裁員數千人",
+      "summary_zh": "裁減約 8,000 個職位（佔員工總數 10%），旨在抵銷公司在 AI 投資方面的成本。"
     },
     {
-      "title_en": "The $50 Million Rocket Deal Fueled by Trump’s Hypersonic Dreams",
-      "url": "https://www.wsj.com/tech/a-50-million-rocket-deal-fueled-by-trumps-hypersonic-dreams-4c14789e?mod=rss_Technology",
-      "summary_en": "The deal reflects a wave of change reshaping the aerospace industry as the Pentagon and venture-capital firms warm to startups....",
-      "title_zh": "川普的高超音速夢想，促成 5,000 萬美元火箭交易案",
-      "summary_zh": "這筆交易反映了重塑航太產業的新浪潮，五角大廈與創投公司正逐漸對新創企業敞開雙臂..."
+      "title_en": "Mind-Blowing Growth Is About to Propel Anthropic Into Its First Profitable Quarter",
+      "url": "https://www.wsj.com/tech/ai/mind-blowing-growth-is-about-to-propel-anthropic-into-its-first-profitable-quarter-7edbf2f4?mod=rss_Technology",
+      "summary_en": "The startup expects a 130% revenue surge to $10.9 billion in the June quarter and its first operating profit, defying skeptics of the AI boom....",
+      "title_zh": "驚人的增長將推動 Anthropic 迎來首個獲利季度",
+      "summary_zh": "這家新創公司預計 6 月季度營收將激增 130% 至 109 億美元，並實現首個營業利潤，反駁了對 AI 熱潮的質疑。"
     },
     {
-      "title_en": "Andrej Karpathy, Tesla Alum and OpenAI Co-Founder, Joins Anthropic",
-      "url": "https://www.wsj.com/tech/ai/andrej-karpathy-tesla-alum-and-openai-co-founder-joins-anthropic-c665f51f?mod=rss_Technology",
-      "summary_en": "Karpathy joined Anthropic’s pretraining team and will lead a new group focused on using Claude to accelerate pretraining research, according to the company....",
-      "title_zh": "前 Tesla 大將與 OpenAI 共同創辦人 Andrej Karpathy 正式加入 Anthropic",
-      "summary_zh": "根據公司消息，Karpathy 已加入 Anthropic 的預訓練團隊，並將帶領新小組，致力於利用 Claude 加速預訓練研究..."
+      "title_en": "This Cannes Film Cost $500,000 to Make. $400,000 Was AI Compute Costs.",
+      "url": "https://www.wsj.com/cio-journal/this-cannes-film-cost-500-000-to-make-400-000-was-ai-compute-costs-a823b08d?mod=rss_Technology",
+      "summary_en": "‘Hell Grind,’ a 95-minute fully AI-generated film, premieres this week at Cannes, where questions around the technology’s encroachment remain center-stage....",
+      "title_zh": "這部坎城影展電影的製作成本為 50 萬美元，其中 40 萬美元是 AI 算力成本",
+      "summary_zh": "全 AI 生成的 95 分鐘電影《Hell Grind》本週在坎城首映，關於技術侵佔的問題仍是關注焦點。"
     },
     {
       "title_en": "Tech, Media & Telecom Roundup: Market Talk",
-      "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-cf084917?mod=rss_Technology",
-      "summary_en": "Find insight on Google Search, Salesforce, Constellation Software and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "title_zh": "科技、媒體與電信回顧：市場探討",
-      "summary_zh": "在最新的科技、媒體與電信市場探討中，深入了解 Google Search、Salesforce、Constellation Software 等公司的產業見解。"
+      "url": "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-98552440?mod=rss_Technology",
+      "summary_en": "Find insight on Nvidia, Google, Telus and more in the latest Market Talks covering Technology, Media and Telecom....",
+      "title_zh": "科技、媒體與電信產業回顧：市場談話",
+      "summary_zh": "在最新一期的科技、媒體與電信「市場談話」中，獲取關於 Nvidia、Google、Telus 等公司的見解。"
     },
     {
-      "title_en": "Analog Devices to Buy Empower Semiconductor for $1.5 Billion",
-      "url": "https://www.wsj.com/business/deals/analog-devices-to-buy-empower-semiconductor-for-1-5-billion-bcbe4d3d?mod=rss_Technology",
-      "summary_en": "The deal will help Analog Devices expand its total addressable market in artificial-intelligence compute power delivery as demand from AI developers climbs, the semiconductor company said....",
-      "title_zh": "亞德諾半導體 (Analog Devices) 將以 15 億美元收購 Empower Semiconductor",
-      "summary_zh": "該半導體公司表示，隨著 AI 開發者需求的攀升，這項交易將有助於亞德諾半導體擴大其在 AI 運算電源傳輸領域的潛在市場規模。"
+      "title_en": "How Much Do You Know About Data Centers? Take Our Quiz",
+      "url": "https://www.wsj.com/tech/ai/data-centers-ai-quiz-4e8d8966?mod=rss_Technology",
+      "summary_en": "Where are data centers concentrated in the U.S.? How much water and electricity do they consume? It’s time to test your knowledge....",
+      "title_zh": "你對數據中心了解多少？參加我們的測驗",
+      "summary_zh": "美國的數據中心集中在哪裡？它們消耗多少水和電？是時候測試你的知識了。"
     },
     {
-      "title_en": "These Companies Say AI Is Reviving Entry-Level Jobs, Not Killing Them",
-      "url": "https://www.wsj.com/lifestyle/careers/ai-entry-level-jobs-graduates-595cee28?mod=rss_Technology",
-      "summary_en": "What companies expect their newest and youngest workers can do for them is evolving as fast as the technology itself, a new report shows....",
-      "title_zh": "這些公司表示 AI 正在復興初階職位，而非扼殺它們",
-      "summary_zh": "一份最新報告顯示，隨著技術本身的快速演進，企業對於最年輕的初階員工能為公司帶來的價值，其期望也在同步進化。"
+      "title_en": "OpenAI Is Preparing to File for an IPO Very Soon",
+      "url": "https://www.wsj.com/tech/ai/openai-ipo-filing-date-0ec95af5?mod=rss_Technology",
+      "summary_en": "The artificial-intelligence giant is working with bankers at Goldman Sachs and Morgan Stanley....",
+      "title_zh": "OpenAI 正準備在近期內申請 IPO",
+      "summary_zh": "這家 AI 巨頭正與高盛和摩根士丹利的銀行家合作。"
     }
   ],
   "deep_analysis": {
@@ -560,58 +530,58 @@
       ]
     },
     "a16z": {
-      "title": "Need Series C? Call a16z / 需要 C 輪融資？打給 a16z",
+      "title": "Exa is Building the Search Engine for the AI Era / Exa 正在為 AI 時代打造專屬搜尋引擎",
       "source": "a16z",
-      "article_date": "2026-05-19",
-      "url": "https://www.a16z.news/p/need-series-c-call-a16z",
-      "analysis_zh": "本文來自頂級創投機構 a16z 的官方專欄，作者以美國常見的「個人傷害律師」（Personal Injury Lawyer）廣告為巧妙隱喻，指出 AI 的真正爆發點未必是充滿理想主義的「創造者」，而是深諳獲客與零和博弈的實用主義者。\n\n### 全文大意摘要：\n文章打破了矽谷對 AI 使用者的浪漫幻想（例如：利用 AI 自己寫程式的藍領工人），轉而將目光投向街頭隨處可見的「個人傷害律師」廣告。標題「Need Series C? Call a16z」正是在致敬這類洗腦的律師廣告語。作者認為，這類律師的商業模式——大量獲取潛在客戶名單（Lead generation）、進行風險評估與核保（Underwriting）、追求極致的品牌記憶點（Recall）、以及基於結果的按件計酬（Contingency fees）——正是未來 AI 商業模式的完美預演。文章指出，當 AI 大幅降低了「爭端解決」與「獲取利益」的門檻，我們將面臨「傑文斯悖論」（Jevons Paradox）：法律訴訟或日常索賠的數量將沒有上限地暴增，並引發一場由 AI 武裝的消費者與大企業之間的軍備競賽。\n\n### 戰略背景與脈絡：\n在目前的 AI 發展浪潮中，矽谷與多數科技媒體的敘事往往聚焦於「創造力賦能」與「生產力提升」，並預設軟體即服務（SaaS）的訂閱制或按 token 計費是理所當然的商業模式。然而，這種視角忽略了真實世界中廣大普通消費者的核心痛點與真實動機。多數消費者並非天生的「建造者」，他們在生活中的高價值節點往往是「遇到麻煩」或「試圖挽回損失」（例如航班取消索賠、保險理賠爭議、稅務退還等）。在這些零和博弈的場景中，消費者需要的是能替他們打贏仗的自動化工具。與此同時，大型企業（如保險公司）早已使用複雜的後台系統（如 Colossus）來對付消費者。當 ChatGPT 等 AI 工具賦權給個人，這場長期不對稱的博弈正在被抹平。因此，觀察那些早已在非對稱資訊和高壓獲客環境中生存多年的行業，能為我們提供關於 AI 應用的最真實戰略藍圖。\n\n### 作者的核心推演與論點：\n作者的推演建立在四個極具反共識的核心論點上。首先，「名單獲取與風險核保」將成為 AI 時代的核心能力。AI 能輕易處理海量資訊，這使得使用者實質上轉變為「投資組合經理」。未來的競爭不在於誰能搜集資訊，而在於誰能像個人傷害律師一樣，快速篩選出有勝算的案子並精準下注。其次，獲客成本（CAC）的本質在於「記憶喚醒」（Recall），而非產品的客觀優勢。就像車禍發生時人們只會想起最洗腦的律師廣告語，未來當 AI 代理（Agents）在選擇調用哪個工具時，也極可能是基於「哪個工具最先被大型語言模型（LLM）喚醒」，這將顛覆現有基於功能比較的行銷邏輯。第三，按件計酬（Contingency fees）是更符合人性的商業模式。對於結果導向的任務，消費者更願意「成功後抽成」而非每月付訂閱費，這將催生大量依賴 AI 自動化執行任務並分享利潤的新型服務。最後，作者強調需求是沒有上限的。以巴西的司法體系為例，當索賠門檻極低時，消費者會為了一份遲到的外送將企業告上法庭，並催生出龐大的索賠次級市場。當 AI 讓處理糾紛的邊際成本趨近於零，這類「討回公道」的服務需求將迎來指數級增長。\n\n### 對整體市場、技術發展與地緣政治的長期影響：\n從市場結構來看，這篇文章預示了「AI 驅動的糾紛與索賠產業」將成為下一個龐大的增長引擎。企業將被迫升級其客服、法務與合規防禦系統（AI Goliath），以應對裝備了 AI 索賠代理的消費者（AI David），這種「矛與盾」的雙向對抗將大幅推動企業級和消費級 AI 應用的繁榮。在技術發展路徑上，這意味著未來的 AI 產品設計必須從「SaaS 訂閱思維」轉向「結果交付思維」。開發者必須優化自家的服務，使其能在 LLM 的「記憶喚醒」中佔據優勢，這必然會誕生全新的「大型語言模型最佳化（LLMO）」行銷學與競價機制。在社會與制度層面，當發起法律訴訟或日常索賠變得極度廉價且自動化，現有的司法體系與企業客服流程將面臨極大挑戰，甚至瀕臨癱瘓。社會可能需要引入快速處理機制，或發展出完全由 AI 仲裁的初級爭端解決平台。這不僅是技術的變革，更是商業合約與社會信任機制的徹底重構。尋找下一個偉大的 AI 企業，不該只局限於矽谷的駭客松，更應該去研究那些在街頭廣告招牌上最顯眼、最務實的實用主義者。",
+      "article_date": "2026-05-20",
+      "url": "https://www.a16z.news/p/exa-is-building-the-search-engine",
+      "analysis_zh": "本文來自 a16z 官方部落格（a16z.news），作者為搜尋引擎新創 Exa 的共同創辦人兼執行長 Will Bryk。文章正式宣佈了 Exa 獲得由 a16z 領投的 2.25 億美元 C 輪融資，估值達到 22 億美元，並指出隨著 AI 代理（AI Agents）即將成為網路搜尋的主力，市場需要一個完全捨棄人類關鍵字與 SEO 邏輯、專為 AI 原生打造的基礎設施級搜尋引擎。\n\n### 全文大意摘要：AI 代理需要專屬的底層資料獲取 API，而非傳統搜尋引擎的包裝器\nWill Bryk 闡述了 Exa 創立的核心願景：為 AI 時代重新建構搜尋基礎設施。他指出，傳統搜尋引擎是為人類透過短暫關鍵字、點擊連結與 SEO 排名所設計，完全無法應付 AI 代理需要長時間、高頻次、且深度理解的資料獲取需求。市場上多數「AI 搜尋」僅是套殼（Wrappers）傳統搜尋引擎，而 Exa 選擇走最難的路，從底層網路爬蟲、自研嵌入模型（Embedding models）到客製化向量資料庫全數重構，從而提供百毫秒級的極低延遲與高精準度。如今 Exa 已成為 Cursor、Cognition 等頂尖 AI 開發工具的首選，並獲得 a16z 的鉅額重金押注。\n\n### 戰略背景與脈絡：大模型智力過剩而外部資訊獲取成為新瓶頸，Agentic Search 賽道成形\n自生成式 AI 爆發以來，基礎模型（Foundation Models）的推理能力與智力水平經歷了幾何級數的增長，作者敏銳地指出：「AI 的瓶頸不再是智力，而是找到正確的資訊」。現階段 AI 產業面臨的重大挑戰已經移轉，模型本身再聰明，若無法即時、精準且低成本地取得高品質的外部世界資訊，其作為「代理（Agent）」的行動能力就會受限。與此同時，傳統由 Google 壟斷的搜尋架構，其商業模式與技術基礎建立在「人類注意力」與「廣告點擊」之上。這與無需點擊廣告、只追求純粹結構化知識的 AI 系統存在根本性的利益與架構衝突。隨著 AI 代理即將在今年內產生超越全人類的搜尋次數，一個全新的「代理搜尋（Agentic Search）」賽道正迎來爆發，這是一個可能在未來十年超越現今 Google 廣告營收規模的巨大藍海。\n\n### 作者的核心推演與論點：真正的 AI 搜尋護城河在於從頭建構索引與客製化向量資料庫\nWill Bryk 的核心論述在於「破舊立新」：他認為用舊時代的搜尋引擎 API 來驅動未來的 AI，注定是一條死胡同。他的推演邏輯非常清晰——人類搜尋依賴的是直覺與簡短的字詞，因此傳統引擎利用點擊率和 SEO 來優化排序；但 AI 會提出極度複雜、長篇幅的問題，且要求機器可讀的全面性資料。因此，真正的護城河不是在現有搜尋結果上加一層 LLM 摘要（這是目前多數 AI 搜尋競品的作法），而是必須自己維護數千億個網址的即時索引，並訓練專屬的檢索模型來處理複雜查詢。Exa 為了應對極高吞吐量需求，甚至自組 GPU 叢集並從 Meta、Yandex 乃至 Google 挖角頂尖人才來建構專為此場景設計的向量資料庫。這證明了基礎設施的重構難度極高，也正是 Exa 能夠在程式碼搜尋等垂直領域以驚人速度超越 Google 的關鍵原因。\n\n### 對整體市場、技術發展與地緣政治的長期影響：解構傳統廣告商業模式，開啟機器對機器（M2M）的無頭知識經濟時代\nExa 的崛起不僅是一家新創的成功，更是網路資訊分發模式發生典範轉移的強烈訊號。從長期市場結構來看，若到 2030 年「代理搜尋」的商業規模真的如作者預期超越如今的 Google 廣告業務，這意味著我們將進入一個「無頭網路（Headless Web）」時代：大多數網頁內容的消費者將不再是人類，而是機器。這將徹底瓦解過去二十年建立在 SEO 與網頁廣告之上的創作者經濟，迫使企業將重心轉向「AI 搜尋最佳化（AIO）」。在技術發展上，這宣告了「搜尋」將從一個終端消費者產品（B2C）轉變為純粹的雲端計算與開發者基礎設施（B2D/B2B）。而掌握最快、最準確的 AI 搜尋底層索引供應商，將成為下一代 AI 作業系統中不可或缺的「感知樞紐」，在未來的 AI 生態系與資料掌控權爭奪戰中佔據極具戰略威懾力的獨佔地位。",
       "insights": [
-        "AI 的終極消費者應用未必是提升創造力的生產力工具，而是協助普通人在『零和博弈』（如索賠、退費、法律糾紛）中獲勝的自動化武器。",
-        "未來的產品行銷將從『功能比較』轉向『LLM 記憶喚醒』（Recall），AI Agent 調用工具的邏輯將如同消費者在危急時優先想起洗腦廣告一樣非理性。",
-        "AI 帶來的成本下降將在法律與索賠領域觸發『傑文斯悖論』：當發起糾紛的邊際成本趨近於零，這類社會需求的總量將出現沒有上限的爆發性增長。"
+        "AI 模型的推理能力已不再是最大的瓶頸，高品質、可程式化且低延遲的外部資訊獲取，才是決定 AI 代理行動成敗的決定性因素。",
+        "套殼（Wrapper）式的 AI 搜尋是一條死胡同，唯有從底層網路爬蟲與向量資料庫重新建構，才能真正滿足機器非同步且龐大的檢索需求。",
+        "搜尋業務將面臨典範轉移，從過去依賴人類點擊與廣告的 B2C 模式，正式轉型為純粹的 B2B 基礎設施服務，這將顛覆既有的網路商業邏輯。"
       ],
       "supplemental_sources": [
         {
-          "title": "Welcome General (R) Bryan P. Fenton",
-          "url": "https://a16z.com/welcome-general-bryan-p-fenton"
+          "title": "Investing in Exa",
+          "url": "https://www.a16z.news/p/investing-in-exa"
         },
         {
-          "title": "David Haber on Substack",
-          "url": "https://open.substack.com/users/43151210-david-haber"
+          "title": "Will Bryk on X",
+          "url": "https://x.com/WilliamBryk"
         }
       ]
     },
     "Lenny's Newsletter": {
-      "title": "The Lenny and Friends Summit is back! / Lenny與他的朋友們：頂級產品高峰會回歸與創作者經濟的線下戰略",
+      "title": "What launched at Google I/O 2026 (30-minute day 1 recap) / Google I/O 2026 首日回顧：Gemini 3.5 與全新 AI 代理工具矩陣",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-05-19",
-      "url": "https://www.lennysnewsletter.com/p/the-lenny-and-friends-summit-is-back",
-      "analysis_zh": "本文來自科技圈最具影響力的產品管理社群《Lenny's Newsletter》，由知名創作者與產品專家 Lenny Rachitsky 撰寫。文章核心主旨是正式宣布第二屆「Lenny and Friends Summit」將於舊金山舉辦，並藉此揭示當前高階產品經理在面對 AI 典範轉移時，對於實體深度交流與重新定義角色的迫切需求。\n\n### 全文大意摘要：...\n\n作者 Lenny Rachitsky 正式宣布，繼兩年前首屆高峰會獲得超乎預期的熱烈迴響後，第二屆「Lenny and Friends Summit」將於 2026 年 9 月 10 日在美國科技重鎮舊金山重磅回歸。本次活動並非採取大眾售票模式，而是定位為全球頂級的產品經理與科技領袖盛會，採取嚴格的申請與審核制。活動主要鎖定具有決策權的資深專業人士，包括產品長（CPO）、副總裁、總監及資深 AI 領袖。高峰會的核心目標明確設定為三個維度：首先是幫助與會者深刻理解產品管理這個角色在未來的演進方向；其次是提供能夠在未來殘酷競爭中勝出、實際且可落地的技能；最後則是建立世界級領導者之間長期且深厚的連結。文章透過回顧過去參與者（包含多位 CPO 與新創創辦人）的高度評價，強調在當前高度數位化、非同步溝通與遠距工作盛行的科技環境下，實體面對面（IRL, In Real Life）交流所能創造的無可取代性與強大信任力量。同時，活動也承諾將提供更多實作工作坊與互動機會，致力於打造全球最優質的產品專業交流體驗。\n\n### 戰略背景與脈絡：...\n\n將這份看似單純的活動公告放入當前科技產業與創作者經濟的宏觀脈絡中，我們可以深刻觀察到兩股重要趨勢的歷史性交匯。首先，是人工智慧（特別是生成式 AI）對「產品經理（PM）」這個曾經被視為矽谷天之驕子職位的結構性衝擊。隨著 AI 越來越能夠自主承擔過去由 PM 負責的規格撰寫、基礎數據分析、A/B 測試追蹤甚至是介面原型設計，產品經理的核心價值正受到前所未有的挑戰。高階產品領袖正面臨集體的角色焦慮與轉型壓力，他們迫切需要一個安全、私密且高密度的場域來探討「PM 的下一步到底在哪裡」。其次，是創作者經濟（Creator Economy）商業模式的典範轉移。Lenny Rachitsky 已經在線上建立了極度龐大且高黏著度的訂閱制護城河，其版圖涵蓋了百萬訂閱級別的電子報、高居排行榜的 Podcast，甚至延展出了專屬的 AI 助理（Lennybot）。在此基礎上，舉辦高規格、審核制的實體高峰會，已經不再只是社群變現的進階手段，更是將單向的「內容影響力」昇華為多向的「生態系權力」。這標誌著頂級創作者正在實質上取代傳統的行業協會或大型商業媒體，成為定義產業標準、掌握話語權，並聚集頂尖菁英的全新節點。\n\n### 作者的核心推演與論點：...\n\n儘管這是一篇以促銷與宣布為主的活動發布文，但 Lenny 隱含的推演邏輯非常清晰且極具說服力：他認為在資訊爆炸的時代，「稀缺性」與「真實聯繫」才是當前科技高階人才最匱乏、也最願意付出高昂代價獲取的資源。首先，他精準推斷高階產品領袖（如 CPO 或 VP of Product）在日常高壓的工作環境中，往往處於孤立狀態，缺乏可以「坦誠相見（be real with）」、分享真實失敗經驗的同儕。因此，他刻意將活動規模保持在「小而美」，並透過嚴格的履歷與背景篩選機制，確保與會者的專業水平同質性與對話的絕對質量，這是一種「以排他性創造價值」的經典社群策略。其次，他將高峰會的議程主軸緊扣「未來的產品角色」與「具體應對技能」，這實際上是他對現有讀者痛點的深度洞察——產品經理不再只需要學習如何畫 Wireframe 或優化轉換率，而是需要重新定義在軟體被 AI 吞噬的時代，人類產品經理的戰略價值主張。最後，他透過展示往屆參與者的真實反饋（如「投資報酬率最高的社交活動」、「喚醒熱愛打造產品的初衷」），論證了這種高濃度線下互動不僅能帶來技術面的實用技能，更能提供情緒價值與職業認同感，這是一種完全無法被線上非同步課程或虛擬視訊會議所取代的體驗。\n\n### 對整體市場、技術發展與地緣政治的長期影響：...\n\n從長期市場結構與產業生態來看，這類由頂級個人創作者所驅動的菁英聚會，正在實質地重塑科技產業的知識流動路徑與高階人脈網絡。傳統的大型科技展會與萬人論壇（如 CES、Web Summit 等）正逐漸淪為大型企業公關宣傳與新創公司展示的「櫥窗」，而真正能夠推動產業典範轉移、定義下一代產品方法論，甚至是促成高階人才流動與併購交易的關鍵對話，正在快速轉向如 Lenny's Summit 這樣高度私密、聚焦且信任度極高的微型節點。在技術發展與實務層面，這群掌管全球頂尖科技公司產品路線圖的領袖們齊聚一堂，他們在會議桌與晚宴上所達成的非正式共識（例如：如何將大型語言模型無縫整合進企業級軟體的生命週期、如何重新設計基於 Agent 的人機互動介面），將直接且深遠地影響未來兩到三年全球軟體市場的演進方向與標準制定。最後，儘管這場聚會不直接牽涉傳統意義上的大國地緣政治，但這種將全球最頂尖的產品大腦與 AI 領袖再度高度集中於美國「舊金山（San Francisco）」的現象，具有強烈的象徵意義。它再次驗證了在 AI 浪潮的推動下，矽谷作為全球科技創新「大腦中樞」的磁吸效應正在急遽增強。在這個知識、資本與人脈高度密集的線下場域裡，新的創業題目、投資意向與戰略聯盟將悄悄完成配置，進一步拉大美國西岸與全球其他科技聚落在前沿技術影響力上的巨大資源差距。",
+      "article_date": "2026-05-20",
+      "url": "https://www.lennysnewsletter.com/p/what-launched-at-google-io-2026-30",
+      "analysis_zh": "本文來自《Lenny's Newsletter》的影音與文字回顧紀錄（由未具名講者或編輯部實測分享，文末附錄 Claire Vo 等社群資訊，暗示了業界專家的實測觀點）。作者在 Google I/O 2026 大會首日，透過 30 分鐘的即時測試與解析，全景式地審視了 Google 推出的最新 AI 基礎建設與應用，涵蓋 Gemini 3.5 模型家族、開發代理工具 Anti-Gravity 2.0，以及多項針對創意工作流的嶄新產品。文章的核心主旨指出：Google 正試圖透過極具野心的代理化工具（Agentic tools）與生態系深度整合，全面奪回在開發者與生產力市場的制高點，但其為人詬病的「發布卻無法使用」之工程交付落差，依然是其面臨的最大軟肋。\n\n### 全文大意摘要：Google 全面推進 AI 代理化與創意工具矩陣，但實用性仍受限於發布延遲與權限問題\n\n2026 年的 Google I/O 首日充滿了火力全開的產品更新。文章中，作者詳細整理並實測了六大核心發布亮點。首先是基礎模型的升級，Gemini 3.5 Flash 被推上火線，在運算速度與代理化寫程式任務（Agentic coding tasks）的基準測試中，直接與業界標竿的 Claude 及 GPT 家族進行正面對決。緊接著，在開發者工具生態方面，Google 推出了重大迭代的 Anti-Gravity 2.0，引入了專案管理、定時任務執行、子代理（Subagents）協作架構，以及更具特色的斜線指令（Slash commands）。此外，Google AI Studio 也迎來關鍵更新，透過與 Google Workspace 的深度整合，明確展現了 Google 企圖壟斷企業內部生產力應用程式開發的野心。\n\n在消費者與創作者端，除了 Gemini 迎來全新的介面改版，Google 更一口氣釋出了多款強大的創意生成工具，包含：專攻高階影片生成的 Omni 模型、主打電影級剪輯與「角色一致性（Character consistency）」的 Flow、支援串流式 UI 設計與內聯編輯（inline edits）的 Stitch，以及專為品牌識別與資產生成打造的 Pomelli。然而，在經歷一連串震撼的規格展示後，作者在即時測試環節中直接點出了 Google 當前的致命傷——新產品發布與實際可用時間存在嚴重的時間差（Launch-to-availability gap）。許多在大會上光鮮亮麗的特色產品，開發者在會後根本無法順利取得存取權或正常運行，這種「看得到吃不到」的窘境，大幅削弱了產品發表帶來的震撼力。\n\n### 戰略背景與脈絡：在 OpenAI 與 Anthropic 的激烈夾擊下，以 Workspace 深度整合與生態系作為最強防禦武器\n\n要理解 Google I/O 2026 這場大會的戰略意義，必須將其置於當前極度白熱化的生成式 AI 戰場中。步入 2026 年，大語言模型的競爭已經從單純的「參數量與邏輯跑分」，全面進化至「代理執行力（Agentic capability）」與「工作流整合（Workflow integration）」的深度對決。OpenAI 挾著巨大的 C 端流量與微軟的 B 端通路穩居龍頭，而 Anthropic 則憑藉 Claude 3.5 系列及其 Claude Code 在高階開發者社群中建立了極強的口碑與黏著度。Google 此刻面臨的，是來自兩強在消費者與開發者市場的雙重夾擊。\n\n在此背景下，Google 選擇的突圍之道與防禦策略，就是其難以被複製的「生態系護城河」。文章中特別強調 Google AI Studio 與 Workspace 的整合，這並非單純的 API 串接，而是 Google 意圖將全球數以億計的企業用戶，直接鎖在自己的基礎建設中。當企業能夠利用 Gemini 3.5 模型在 Workspace 內無縫建立專屬的內部生產力應用程式時，外部獨立 SaaS 工具的價值將大幅降低。這是一場「把 AI 產品化」與「把產品生態化」的交鋒，Google 試圖向市場證明：比起單打獨鬥的模型公司，擁有完整軟硬體與雲端辦公套件的 Google，才是企業導入 AI 代理最安全、最有效率的最終歸宿。\n\n### 作者的核心推演與論點：主動式 AI 交互介面的崛起，以及對 Google 產品交付能力的強烈質疑\n\n在實際測試與推演中，作者揭示了當前 AI 工具發展的一項重要分歧：人機互動模式的轉變。在評估 Anti-Gravity 2.0 時，作者特別將其與市場上的強勢競品 Codex 與 Claude Code 進行對比。其中最引人注目的，是 Google 推出了一個名為 `/grill-me`（嚴厲拷問我）的斜線指令。有別於 Claude Code 偏向溫和、引導式的澄清流程（clarification flow），`/grill-me` 展現了一種更具侵略性與挑戰性的反饋機制。作者認為，這種設計哲學反映了開發者對於 AI 代理的期望，正從單純的「程式碼生成器」，轉向能夠進行嚴格邏輯檢驗的「虛擬資深工程師（Senior Engineer）」。\n\n然而，儘管這套工具鏈的設計藍圖令人驚艷，作者卻在推演的最後階段提出了嚴厲的質疑與批評。作者指出，Google 似乎陷入了一種「為了大會造勢而發布未完成品」的危險循環。當開發者被激起高度興趣，準備將這些新工具（例如 Flow、Stitch 等充滿潛力的創意工具）導入自己的專案時，卻面臨系統出錯、權限卡關或功能根本未上線的窘境。作者的核心論點是：在 2026 年這個容錯率極低的競爭環境中，如果一家公司無法實現「發布即交付」，這些原本可以顛覆市場的技術，最終只會淪為消耗開發者信任的公關災難。對於急需證明自身 AI 落地能力的 Google 而言，這個「Launch-to-availability gap」的系統性問題，比任何模型基準測試落後都來得致命。\n\n### 對整體市場、技術發展與地緣政治的長期影響：超級工具鏈將重塑數位創作邊界，並引發軟體產業的板塊重組\n\n長期來看，Google 在 I/O 2026 所展示的技術藍圖，將對整個軟體產業與數位內容創作市場帶來毀滅性的重塑效應。首先，在技術發展層面，Anti-Gravity 2.0 的子代理（Subagents）架構結合 Gemini 3.5 Flash 的極速運算，意味著「複雜軟體工程自動化」的拐點已然到來。未來的開發者將不再是逐行編寫程式碼的工匠，而是指揮一整群專業 AI 子代理進行架構設計與模組整合的「指揮家」。這不僅將極大化軟體生產效率，更將顛覆傳統外包與初階工程師的勞動力結構。\n\n其次，對整體市場而言，Google 推出的創意工具矩陣（Omni、Flow、Stitch、Pomelli）展現了「一站式內容生成資產庫」的可怕威力。像 Flow 主打的「角色一致性」與 Stitch 的「串流式 UI 內聯編輯」，精準打中了過去 AI 圖像影片生成的最大痛點：無法作為一致性的商業資產重複利用。當企業與創作者能在 Google 生態內完成從品牌定位、UI 設計到電影級宣傳片剪輯的所有工作時，市場上大量主打單一點對點解決方案（Point Solutions）的獨立 AI SaaS 公司將面臨嚴峻的生存危機。\n\n最後，儘管 Google 當前面臨交付落差的挑戰，但一旦其整合完成，這種從底層算力、大模型到終端應用一體化的超級平台，將在全球科技競爭中發揮無可取代的優勢。在地緣政治與產業鏈重組的大背景下，擁有「自主模型能力+龐大 B2B 生態系統」的美國科技巨頭，將進一步拉大與其他競爭者的數位基礎建設落差，主導未來全球企業的運算與生產力標準。這也將迫使 OpenAI、微軟甚至蘋果等對手加速結盟，以對抗 Google 試圖透過 Workspace 與全端 AI 工具鍊建立的「數位封閉帝國」。",
       "insights": [
-        "頂級創作者的商業模式正從線上內容擴張，轉向「實體高價值節點」的經營，透過審核制的高峰會將粉絲影響力轉化為實質的產業生態話語權。",
-        "面對 AI 的典範轉移，高階產品經理的痛點已從單純的技能學習轉為「角色存續的戰略焦慮」，他們迫切需要高度私密信任的場域來凝聚共識。",
-        "大型科技展會的創新指引功能正在衰退，未來主導軟體開發標準與技術路線圖的關鍵對話，將日益集中於由意見領袖背書的微型菁英網絡中。"
+        "Google 的 Anti-Gravity 2.0 推出 `/grill-me` 等具侵略性的斜線指令，顯示 AI 開發工具的設計理念正從『被動引導』轉向『主動挑戰與邏輯拷問』，與 Claude Code 的溫和釐清模式形成強烈對比。",
+        "Google 試圖透過 Stitch 與 Flow 等工具解決 AI 內容生成的最大痛點——『資產一致性』；一旦 UI 串流編輯與角色一致性能在生態系中無縫運作，將對傳統單點 SaaS 解決方案造成毀滅性的板塊擠壓。",
+        "技術戰場的關鍵已從『模型跑分』轉移到『工程交付能力』；Google 嚴重的『發布與可用性落差（Launch-to-availability gap）』正在快速消耗開發者信任，成為其在 AI 代理落地競賽中最大的致命傷。"
       ],
       "supplemental_sources": [
         {
-          "title": "Lenny's Podcast",
-          "url": "https://www.lennysnewsletter.com/podcast"
+          "title": "Gemini 3.5 Flash",
+          "url": "https://deepmind.google/technologies/gemini"
         },
         {
-          "title": "Lennybot",
-          "url": "https://www.lennybot.com"
+          "title": "Antigravity",
+          "url": "https://antigravity.google"
         },
         {
-          "title": "How I AI",
-          "url": "https://www.youtube.com/@howiaipodcast"
+          "title": "Google Flow",
+          "url": "https://flow.google"
         },
         {
-          "title": "Lenny and Friends Summit",
-          "url": "https://www.lennyssummit.com"
+          "title": "Stitch",
+          "url": "https://stitch.withgoogle.com"
         },
         {
-          "title": "Lenny's PM/AI Courses",
-          "url": "https://maven.com/lenny"
+          "title": "Pomelli",
+          "url": "https://labs.google.com/pomelli/about"
         }
       ]
     },
