@@ -2,14 +2,15 @@
   "fetch_date": "2026-05-22",
   "techmeme": [
     {
-      "title_en": "The US Commerce Department plans to award $2B in grants to nine quantum computing companies and will take equity stakes; IBM is set to get $1B of the package",
-      "url": "https://www.wsj.com/tech/u-s-to-award-quantum-computing-firms-2-billion-and-take-equity-stakes-7382e6be?st=TLeAYk&reflink=desktopwebshare_permalink",
-      "summary_en": "Trump administration hopes to spur ‘a new era of American innovation,’ Commerce's Lutnick says — WASHINGTON—The Trump administration …",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
+      "title_en": "Spotify closes up 13% after announcing new features and 2030 guidance, forecasting a compound annual growth rate in the mid-teens and gross margins of 35%-40%",
+      "url": "https://www.cnbc.com/2026/05/21/spotify-spot-stock-guidance-investor-day-ai.html",
+      "summary_en": "Spotify shares jumped 15% on Thursday after the music streaming platform laid out guidance for 2030 and reached an artificial intelligence deal …",
+      "source": "CNBC",
+      "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "美國商務部計劃向九家量子運算公司提供 20 億美元資助並入股；IBM 將獲其中 10 億美元",
-      "summary_zh": "商務部長 Lutnick 表示，川普政府希望激發「美國創新的新時代」——華盛頓——川普政府……"
+      "techmeme_cluster_role": "main",
+      "title_zh": "Spotify 在公佈新功能與 2030 年展望後股價大漲 13%，預計年複合成長率將達 15% 左右，毛利率落在 35%-40%",
+      "summary_zh": "Spotify 股價在週四上漲了 15%，此前這家音樂串流平台提出了 2030 年展望，並達成了一項 AI 協議……"
     },
     {
       "title_en": "Spotify and UMG plan to let Premium users create AI covers and remixes using music from participating UMG artists as a paid add-on, without giving a launch date",
@@ -18,47 +19,52 @@
       "source": "Variety",
       "media_source": "Variety",
       "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
       "title_zh": "Spotify 與 UMG 計劃讓 Premium 用戶透過付費加購，使用參與項目的 UMG 藝人音樂創作 AI 翻唱與重混作品",
       "summary_zh": "Spotify 與環球音樂集團（UMG）宣佈了重大的錄製音樂與音樂發行授權協議……"
     },
     {
-      "title_en": "Spotify partners with Live Nation to launch Reserved, a new feature that sets aside tickets for the most dedicated fans, starting with Premium users in the US",
-      "url": "https://www.hollywoodreporter.com/music/music-industry-news/spotify-will-start-reserving-concert-tickets-for-superfans-1236603106/",
-      "summary_en": "The streaming service will use streams and shares to determine an artist's most dedicated fans and set aside pairs of tickets …",
-      "source": "The Hollywood Reporter",
-      "media_source": "The Hollywood Reporter",
+      "title_en": "The US Commerce Department plans to award $2B in grants to nine quantum computing companies and will take equity stakes; IBM is set to get $1B of the package",
+      "url": "https://www.wsj.com/tech/u-s-to-award-quantum-computing-firms-2-billion-and-take-equity-stakes-7382e6be?st=TLeAYk&reflink=desktopwebshare_permalink",
+      "summary_en": "Trump administration hopes to spur ‘a new era of American innovation,’ Commerce's Lutnick says — WASHINGTON—The Trump administration …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Spotify 與 Live Nation 合作推出「Reserved」功能，為最忠實的粉絲預留門票，首波鎖定美國 Premium 用戶",
-      "summary_zh": "該串流服務將根據串流播放量與分享次數來判斷藝人的忠實粉絲，並為其預留成對門票……"
+      "techmeme_cluster_role": "main",
+      "title_zh": "美國商務部計劃向九家量子運算公司提供 20 億美元資助並入股；IBM 將獲其中 10 億美元",
+      "summary_zh": "商務部長 Lutnick 表示，川普政府希望激發「美國創新的新時代」——華盛頓——川普政府……"
     },
     {
-      "title_en": "Spotify closes up 13% after announcing new features and 2030 guidance, forecasting a compound annual growth rate in the mid-teens and gross margins of 35%-40%",
-      "url": "https://www.cnbc.com/2026/05/21/spotify-spot-stock-guidance-investor-day-ai.html",
-      "summary_en": "Spotify shares jumped 15% on Thursday after the music streaming platform laid out guidance for 2030 and reached an artificial intelligence deal …",
+      "title_en": "Shares of quantum computing companies surged Thursday after the US government announced grants with equity stakes: D-Wave closed up 33%, Rigetti 30%, IBM 12%",
+      "url": "https://www.cnbc.com/2026/05/21/quantum-stocks--us-taking-equity-stakes.html",
+      "summary_en": "",
       "source": "CNBC",
       "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Spotify 在公佈新功能與 2030 年展望後股價大漲 13%，預計年複合成長率將達 15% 左右，毛利率落在 35%-40%",
-      "summary_zh": "Spotify 股價在週四上漲了 15%，此前這家音樂串流平台提出了 2030 年展望，並達成了一項 AI 協議……"
-    },
-    {
-      "title_en": "Spotify Labs launches Studio, a NotebookLM-like desktop app to generate private, AI-powered podcasts, in research preview across 20+ markets",
-      "url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/",
-      "summary_en": "",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Spotify Labs 推出 Studio，是一款類似 NotebookLM 的桌面應用程式，可在 20 多個市場進行研究預覽，生成私人的 AI 播客",
+      "techmeme_cluster_role": "related",
+      "title_zh": "美國政府宣布提供具股權性質的補助後，量子運算公司股價週四飆升：D-Wave 收盤大漲 33%，Rigetti 漲 30%，IBM 漲 12%",
       "summary_zh": ""
     },
     {
-      "title_en": "Spotify says it has 1M+ subscriptions to Audiobook+, which is on track for $100M in ARR, and unveils an ElevenLabs-powered audiobook self-publishing tool",
-      "url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
-      "summary_en": "",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
+      "title_en": "The White House postpones a planned Thursday ceremony for Trump to sign a new EO on AI and cybersecurity; Trump says “I didn't like certain aspects of it”",
+      "url": "https://www.axios.com/2026/05/21/white-house-postpones-ai-eo-signing",
+      "summary_en": "The White House has cancelled its planned ceremony for President Trump to sign a new executive order on AI and cybersecurity, per a note seen by Axios.",
+      "source": "Axios",
+      "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Spotify 表示 Audiobook+ 訂閱數已突破 100 萬，年度經常性收入 (ARR) 即將達到 1 億美元，並推出由 ElevenLabs 驅動的音訊書自出版工具",
+      "techmeme_cluster_role": "main",
+      "title_zh": "白宮推遲原定於週四舉行的川普簽署 AI 與網路安全新行政命令儀式；川普表示「我不喜歡其中的某些部分」",
+      "summary_zh": "根據 Axios 看到的記錄，白宮取消了原定由川普總統簽署 AI 與網路安全新行政命令的儀式。"
+    },
+    {
+      "title_en": "Sources: Trump delayed signing the AI EO because “he just hates regulation”; he spoke with Mark Zuckerberg, Elon Musk, and David Sacks just prior to the delay",
+      "url": "https://www.axios.com/2026/05/21/trump-ai-executive-order-postponed-why",
+      "summary_en": "",
+      "source": "Axios",
+      "media_source": "Axios",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "消息人士：川普因「討厭監管」推遲簽署 AI 行政命令；他在推遲前曾與 Mark Zuckerberg、Elon Musk 及 David Sacks 通話",
       "summary_zh": ""
     },
     {
@@ -68,38 +74,108 @@
       "source": "The Information",
       "media_source": "The Information",
       "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
       "title_zh": "消息人士：OpenAI 第一季營收約 57 億美元，比 Anthropic 多出約 10 億美元；其調整後營運利潤率為 -122%，ChatGPT 用戶成長停滯",
       "summary_zh": "OpenAI 在第一季創造了約 57 億美元的營收，比競爭對手 Anthropic 在同一時期的營收高出近 10 億美元……"
     },
     {
-      "title_en": "The White House postpones a planned Thursday ceremony for Trump to sign a new EO on AI and cybersecurity; Trump says “I didn't like certain aspects of it”",
-      "url": "https://www.axios.com/2026/05/21/white-house-postpones-ai-eo-signing",
-      "summary_en": "The White House has cancelled its planned ceremony for President Trump to sign a new executive order on AI and cybersecurity, per a note seen by Axios.",
-      "source": "Axios",
-      "media_source": "Axios",
+      "title_en": "Sources: Bungie plans a significant number of layoffs as it ends development on Destiny 2 and has no new project lined up for the game's development team",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/bungie-plans-layoffs-after-ending-destiny-2-development?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3OTQwNTI3OSwiZXhwIjoxNzgwMDEwMDc5LCJhcnRpY2xlSWQiOiJURkVUVjJLSUpIOTIwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.atbS1PFknTC7XBSdrUHEMV1jz4pw1lfmIX0rGjUFbRs",
+      "summary_en": "The Sony subsidiary will focus on ‘Marathon’ rather than jumping directly to ‘Destiny 3’ — Sony Group Corp.'s Bungie unit is planning …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "白宮推遲原定於週四舉行的川普簽署 AI 與網路安全新行政命令儀式；川普表示「我不喜歡其中的某些部分」",
-      "summary_zh": "根據 Axios 看到的記錄，白宮取消了原定由川普總統簽署 AI 與網路安全新行政命令的儀式。"
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息人士：Bungie 計劃大規模裁員，將停止《Destiny 2》開發且未替團隊安排新專案",
+      "summary_zh": "這家 Sony 旗下的子公司將專注於《Marathon》，而非直接進入《Destiny 3》的開發——Sony 集團旗下的 Bungie 部門正計劃..."
+    },
+    {
+      "title_en": "Zoom reports Q1 revenue up 5.5% YoY to $1.24B, vs. $1.22B est., AI Companion paid users up 184%, forecasts FY 2027 revenue above est.; ZM jumps 8%+ after hours",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/zoom-sales-forecast-tops-estimates-after-product-expansion",
+      "summary_en": "Zoom Communications Inc. projected stronger-than-anticipated sales growth, suggesting that customers are adopting its expanded suite of office products.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Zoom 第一季營收年增 5.5% 至 12.4 億美元優於預期，AI Companion 付費用戶成長 184%；ZM 盤後大漲逾 8%",
+      "summary_zh": "Zoom 預測銷售成長將強於預期，顯示客戶正積極採用其擴展後的辦公產品套件。"
+    },
+    {
+      "title_en": "Take-Two reports Q4 bookings flat YoY at $1.58B, forecasts FY 2027 bookings below est., reiterates GTA VI's November 19 launch date; TTWO jumps 6%+ after hours",
+      "url": "https://www.reuters.com/business/take-two-forecasts-annual-bookings-below-estimates-sticks-with-gta-vi-launch-2026-05-21/",
+      "summary_en": "Take-Two Interactive (TTWO.O) forecast annual bookings below Wall Street expectations on Thursday, but reiterated …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Take-Two 第四季度預訂量持平於 15.8 億美元，重申《GTA VI》將於 11 月 19 日上市；盤後股價大漲逾 6%",
+      "summary_zh": "雖然 Take-Two 預測年度預訂量低於市場預期，但確認了備受期待的大作《GTA VI》發售日期，提振了投資者信心。"
+    },
+    {
+      "title_en": "Gavin Newsom signs an EO mandating state agencies work with the AI industry and others to study subsidies for companies that don't replace workers with AI",
+      "url": "https://www.nytimes.com/2026/05/21/technology/newsom-ai-executive-order-california.html?unlocked_article_code=1.kFA.XMou.QGqvJ_mu9J58",
+      "summary_en": "Gov. Gavin Newsom issued an executive order to explore an overhaul of labor policies to deal with potential mass job displacement from artificial intelligence.",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "加州州長 Gavin Newsom 簽署行政命令，要求州政府機構與 AI 產業合作，研究對不以 AI 取代工人之公司的補貼政策",
+      "summary_zh": "州長 Gavin Newsom 發佈了一項行政命令，探討勞工政策的改革，以應對 AI 可能導致的大規模失業問題。"
+    },
+    {
+      "title_en": "Workday reports Q1 revenue up 13% YoY to $2.54B vs. $2.52B est., and lifts its full-year forecast, saying its AI strategy is working; WDAY jumps 9%+ after hours",
+      "url": "https://www.cnbc.com/2026/05/21/workday-wday-q1-earnings-report-2027.html",
+      "summary_en": "Workday shares surged as much as 14% in extended trading on Thursday after the finance and human resources software maker reported results …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Workday 第一季度營收成長 13% 至 25.4 億美元並調高全年預測，稱其 AI 策略卓有成效；盤後股價飆升 9%",
+      "summary_zh": "由於財會與人力資源軟體需求強勁，Workday 財報優於預期，顯示企業正積極導入其 AI 解決方案以提升效率。"
+    },
+    {
+      "title_en": "Socket: TeamPCP, the gang claiming GitHub's repositories breach, also executed 20 “waves” of supply chain attacks recently, compromising 500+ pieces of software",
+      "url": "https://www.wired.com/story/teampcp-software-supply-chain-attack-spree-github/",
+      "summary_en": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks that has impacted hundreds of organizations.",
+      "source": "Wired",
+      "media_source": "Wired",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Socket：聲稱入侵 GitHub 的團體 TeamPCP 最近發動 20 波供應鏈攻擊，受害軟體超過 500 個",
+      "summary_zh": "GitHub 只是 TeamPCP 的最新受害者，該團體發動的一連串軟體供應鏈攻擊已影響數百家組織。"
     },
     {
       "title_en": "GitHub links the breach of 3,800 internal repositories to the TanStack npm supply-chain attack, saying hackers used a malicious Nx Console VS Code extension",
       "url": "https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/",
-      "summary_en": "GitHub says the hackers who breached 3,800 internal repositories gained access via a malicious version of the Nx Console VS Code extension …",
+      "summary_en": "",
       "source": "BleepingComputer",
       "media_source": "BleepingComputer",
       "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
       "title_zh": "GitHub 將 3,800 個內部儲存庫遭入侵事件指向 TanStack npm 供應鏈攻擊，稱駭客使用了惡意的 Nx Console VS Code 擴充功能",
       "summary_zh": "GitHub 表示，入侵 3,800 個內部儲存庫的駭客是透過惡意版本的 Nx Console VS Code 擴充功能獲得存取權限……"
     },
     {
-      "title_en": "Apple plans to broadcast an MLS game on Saturday shot entirely on 15 iPhone 17 Pros, the first major live sports event to be captured using only smartphones",
-      "url": "https://variety.com/2026/digital/news/apple-mls-match-shot-entirely-on-iphone-first-time-1236755744/",
-      "summary_en": "Apple has frequently touted the use of professional-grade iPhones by filmmakers to make shorts, commercials and even feature-length movies.",
-      "source": "Variety",
-      "media_source": "Variety",
+      "title_en": "Adobe, Canva, and CapCut announce Gemini integrations to let users access the companies' image and video editing tools within the Gemini app",
+      "url": "https://www.pcmag.com/news/adobe-canva-capcut-are-coming-to-gemini-to-help-you-edit-ai-creations",
+      "summary_en": "Adobe, Canva, and CapCut all plan to connect to Gemini in the near future. Each aims to bring their editing capabilities directly to where people are making creative decisions with AI.",
+      "source": "PCMag",
+      "media_source": "PCMag",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Apple 計劃於週六直播一場完全由 15 支 iPhone 17 Pro 拍攝的 MLS 賽事，這是首場僅使用智慧型手機拍攝的大型體育賽事直播",
-      "summary_zh": "Apple 經常宣傳電影製作人使用專業級 iPhone 製作短片、廣告甚至長篇電影。"
+      "techmeme_cluster_role": "main",
+      "title_zh": "Adobe、Canva 與 CapCut 宣佈整合 Gemini，讓用戶能直接在 Gemini 應用程式中使用這些公司的圖像與影片編輯工具",
+      "summary_zh": "Adobe、Canva 與 CapCut 都計劃在近期與 Gemini 對接。各家公司都旨在將編輯功能直接帶到人們利用 AI 進行創意決策的場景中。"
+    },
+    {
+      "title_en": "Texas AG Ken Paxton sues Meta, accusing WhatsApp of marketing its services as secure but failing to “deliver on those promises” by accessing encrypted messages",
+      "url": "https://news.bloomberglaw.com/privacy-and-data-security/meta-whatsapp-sued-over-privacy-protections-by-texas",
+      "summary_en": "WhatsApp is able to access user's encrypted messages, Texas said in a lawsuit that accuses Meta founder Mark Zuckerberg …",
+      "source": "Bloomberg Law",
+      "media_source": "Bloomberg Law",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "德州檢察長起訴 Meta，指控 WhatsApp 宣稱安全卻能存取加密訊息，未能「履行承諾」",
+      "summary_zh": "德州在訴訟中指控 Meta 創辦人 Mark Zuckerberg，稱 WhatsApp 能夠存取使用者的加密訊息。"
     },
     {
       "title_en": "London Mayor Sadiq Khan blocks the Met police's £50M Palantir deal to automate intelligence analysis, citing a “clear and serious breach” of procurement rules",
@@ -108,6 +184,7 @@
       "source": "The Guardian",
       "media_source": "The Guardian",
       "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
       "title_zh": "倫敦市長 Sadiq Khan 阻止倫敦警察廳與 Palantir 價值 5,000 萬英鎊的情報分析自動化合約，理由是「明確且嚴重違反」採購規範",
       "summary_zh": "獨家報導：蘇格蘭場批評倫敦市長的決定令人遺憾，並警告這可能會衝擊警務工作。"
     },
@@ -118,48 +195,20 @@
       "source": "Decrypt",
       "media_source": "Decrypt",
       "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
       "title_zh": "加密貨幣交易所 Blockchain.com 秘密提交美國 IPO 申請；這家創立於 2011 年的英國公司估值曾達 140 億美元",
       "summary_zh": "老牌加密貨幣交易所 Blockchain.com 已秘密申請在美國市場掛牌上市。—— 簡訊"
     },
     {
-      "title_en": "Flipper unveils the Flipper One, a pocketable open Arm Linux computer with similar performance to a Raspberry Pi 5, and welcomes feedback to get it market-ready",
-      "url": "https://www.tomshardware.com/networking/flipper-one-computing-multitool-bristles-with-network-gpio-and-m-2-connectivity-new-keychain-device-is-also-a-fully-open-arm-linux-computer",
-      "summary_en": "But the devs admit there's still a lot of work to be done to get the Flipper One market-ready, and they are looking for contributors.",
-      "source": "Tom's Hardware",
-      "media_source": "Tom's Hardware",
+      "title_en": "Meta joins TikTok, Snap, and YouTube in settling with a Kentucky school district to avoid a trial over claims the platforms were designed to addict kids",
+      "url": "https://www.wsj.com/us-news/education/social-media-companies-settle-youth-harm-case-ahead-of-wave-of-trials-eeb9d94d?st=b4oM7v",
+      "summary_en": "Meta, TikTok, Snap and YouTube reached deal to avoid first of more than 1,200 consolidated lawsuits by school districts",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
-      "title_zh": "Flipper 推出 Flipper One，是一款口袋型開放式 Arm Linux 電腦，效能與 Raspberry Pi 5 相當，目前徵求意見以利市場化",
-      "summary_zh": "但開發者承認，要讓 Flipper One 準備好上市還有很多工作要做，他們正在尋找貢獻者。"
-    },
-    {
-      "title_en": "Gavin Newsom signs an EO mandating state agencies work with the AI industry and others to study subsidies for companies that don't replace workers with AI",
-      "url": "https://www.nytimes.com/2026/05/21/technology/newsom-ai-executive-order-california.html?unlocked_article_code=1.kFA.XMou.QGqvJ_mu9J58",
-      "summary_en": "Gov. Gavin Newsom issued an executive order to explore an overhaul of labor policies to deal with potential mass job displacement from artificial intelligence.",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "加州州長 Gavin Newsom 簽署行政命令，要求州政府機構與 AI 產業合作，研究對不以 AI 取代工人之公司的補貼政策",
-      "summary_zh": "州長 Gavin Newsom 發佈了一項行政命令，探討勞工政策的改革，以應對 AI 可能導致的大規模失業問題。"
-    },
-    {
-      "title_en": "Adobe, Canva, and CapCut announce Gemini integrations to let users access the companies' image and video editing tools within the Gemini app",
-      "url": "https://www.pcmag.com/news/adobe-canva-capcut-are-coming-to-gemini-to-help-you-edit-ai-creations",
-      "summary_en": "Adobe, Canva, and CapCut all plan to connect to Gemini in the near future. Each aims to bring their editing capabilities directly to where people are making creative decisions with AI.",
-      "source": "PCMag",
-      "media_source": "PCMag",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Adobe、Canva 與 CapCut 宣佈整合 Gemini，讓用戶能直接在 Gemini 應用程式中使用這些公司的圖像與影片編輯工具",
-      "summary_zh": "Adobe、Canva 與 CapCut 都計劃在近期與 Gemini 對接。各家公司都旨在將編輯功能直接帶到人們利用 AI 進行創意決策的場景中。"
-    },
-    {
-      "title_en": "Bluesky and Clemson University researchers detail a novel Russian influence campaign that hijacked influential Bluesky accounts to spread pro-Kremlin propaganda",
-      "url": "https://www.nytimes.com/2026/05/21/business/bluesky-russia-hacking-accounts.html?unlocked_article_code=1.kFA.Mf5v.2XWGYgIy3PJN&smid=nytcore-ios-share",
-      "summary_en": "The company said it was fighting Russian efforts to hijack real users' accounts to post fake content, an apparently novel tactic.",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Bluesky 與克萊門森大學研究人員揭露新型俄羅斯影響力行動，該行動盜用具影響力的 Bluesky 帳號來散布親克里姆林宮的宣傳",
-      "summary_zh": "該公司表示正在對抗俄羅斯盜用真實用戶帳號發佈虛假內容的行為，這似乎是一種新型戰術。"
+      "techmeme_cluster_role": "main",
+      "title_zh": "Meta 加入 TikTok、Snap 與 YouTube 的行列，與肯塔基州學區達成和解，以避免因平台設計導致兒童成癮的指控而受審",
+      "summary_zh": "Meta、TikTok、Snap 與 YouTube 達成協議，避免了由學區發起的 1,200 多起合併訴訟中的第一起。"
     },
     {
       "title_en": "Sources: Starbucks shut down an AI program for automating inventory counts, nine months after deploying it, after it frequently miscounted and mislabeled items",
@@ -168,6 +217,7 @@
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
       "title_zh": "消息人士：星巴克在部署九個月後關閉了用於自動化庫存清點的 AI 項目，因其頻繁出現誤算與標籤錯誤",
       "summary_zh": "星巴克 (SBUX.O) 本週終止了員工用於自動化某些庫存清點的 AI 項目……"
     },
@@ -178,108 +228,9 @@
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
       "title_zh": "Waymo 暫停高速公路行駛並暫緩亞特蘭大業務，因其正在更新軟體以提升在施工區與淹水路段的表現",
       "summary_zh": "Alphabet (GOOGL.O) 旗下的 Waymo 週四表示，已暫停其在美國高速公路上的自動駕駛計程車服務，並暫緩……"
-    },
-    {
-      "title_en": "Meta joins TikTok, Snap, and YouTube in settling with a Kentucky school district to avoid a trial over claims the platforms were designed to addict kids",
-      "url": "https://www.wsj.com/us-news/education/social-media-companies-settle-youth-harm-case-ahead-of-wave-of-trials-eeb9d94d?st=b4oM7v",
-      "summary_en": "Meta, TikTok, Snap and YouTube reached deal to avoid first of more than 1,200 consolidated lawsuits by school districts",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Meta 加入 TikTok、Snap 與 YouTube 的行列，與肯塔基州學區達成和解，以避免因平台設計導致兒童成癮的指控而受審",
-      "summary_zh": "Meta、TikTok、Snap 與 YouTube 達成協議，避免了由學區發起的 1,200 多起合併訴訟中的第一起。"
-    },
-    {
-      "title_en": "Ofcom says Meta, Snap, and Roblox have agreed to adopt stronger anti-grooming measures, while TikTok and YouTube “failed to commit to any significant changes”",
-      "url": "https://www.ofcom.org.uk/online-safety/protecting-children/tech-firms-commit-to-stronger-anti-grooming-measures-in-response-to-ofcom-demands",
-      "summary_en": "",
-      "source": "Ofcom",
-      "media_source": "Ofcom",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Ofcom 表示 Meta、Snap 與 Roblox 已同意採取更強力的反誘拐措施，而 TikTok 與 YouTube「未能承諾任何重大變革」",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Source: Cursor reached $3B in annualized revenue in late April and now has 3,000+ customers paying at least $100K each for its software on an annualized basis",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/cursor-hits-3-billion-annual-sales-rate-ahead-of-spacex-deal",
-      "summary_en": "Cursor's annualized revenue hit $3 billion in late April, according to a person familiar with the matter, indicating growing demand …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "消息指 Cursor 年化營收在 4 月底達到 30 億美元，現有超過 3,000 家客戶每年支付至少 10 萬美元",
-      "summary_zh": "據知情人士透露，程式碼編輯器 Cursor 的年化營收在 4 月底突破 30 億美元，顯示市場對 AI 開發工具的需求持續增長。"
-    },
-    {
-      "title_en": "Jeff Bezos dismisses AI job fears, defends billionaires against “vilification”, proposes eliminating income taxes for low earners, and praises President Trump",
-      "url": "https://www.cnbc.com/2026/05/20/jeff-bezos-taxes-ai-corporations-trump.html",
-      "summary_en": "VIDEO 54:38 — Watch CNBC's full interview with Amazon founder Jeff Bezos — Ultrabillionaire Jeff Bezos …",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "傑夫·貝佐斯談 AI 就業疑慮、為億萬富豪辯護，並提議取消低收入者所得稅及讚揚川普",
-      "summary_zh": "亞馬遜創辦人傑夫·貝佐斯在專訪中分享他對 AI 取代工作、財富分配及當前政治局勢的看法。"
-    },
-    {
-      "title_en": "Analysis: Samsung is set to distribute ~$26.6B to its 78,000 chip employees, or a ~$340K bonus to each, in early 2027 as part of a last-minute labor union deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/samsung-chip-workers-to-get-average-340-000-bonus-in-ai-boom",
-      "summary_en": "Samsung Electronics Co. could distribute about 40 trillion won ($26.6 billion) to chip employees as a bonus for this year …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "分析：三星將於 2027 年初向 7.8 萬名晶片部門員工發放約 266 億美元獎金，每人平均約 34 萬美元",
-      "summary_zh": "作為勞資協議的一部分，三星電子可能向晶片部門員工發放高達 40 兆韓元（約 266 億美元）的獎金，以獎勵今年的業績。"
-    },
-    {
-      "title_en": "Take-Two reports Q4 bookings flat YoY at $1.58B, forecasts FY 2027 bookings below est., reiterates GTA VI's November 19 launch date; TTWO jumps 6%+ after hours",
-      "url": "https://www.reuters.com/business/take-two-forecasts-annual-bookings-below-estimates-sticks-with-gta-vi-launch-2026-05-21/",
-      "summary_en": "Take-Two Interactive (TTWO.O) forecast annual bookings below Wall Street expectations on Thursday, but reiterated …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Take-Two 第四季度預訂量持平於 15.8 億美元，重申《GTA VI》將於 11 月 19 日上市；盤後股價大漲逾 6%",
-      "summary_zh": "雖然 Take-Two 預測年度預訂量低於市場預期，但確認了備受期待的大作《GTA VI》發售日期，提振了投資者信心。"
-    },
-    {
-      "title_en": "ElevenLabs, which aims to build an all-in-one AI voice app, licensed 200K human-voiced audiobooks from major publishers, available in ElevenReader for $11/mo.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-21/elevenlabs-an-ai-voice-startup-is-angling-to-disrupt-the-audiobooks-industry",
-      "summary_en": "ElevenLabs is taking on Spotify and Audible in a looming battle over becoming the go-to platform for audiobooks — Welcome back to Soundbite.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "ElevenLabs 致力於打造全方位 AI 語音 App，獲 20 萬本真人配音電子書授權，月費 11 美元",
-      "summary_zh": "ElevenLabs 正在挑戰 Spotify 與 Audible，試圖成為電子書的首選平台。其 ElevenReader 服務提供來自主要出版商的高品質音訊內容。"
-    },
-    {
-      "title_en": "Workday reports Q1 revenue up 13% YoY to $2.54B vs. $2.52B est., and lifts its full-year forecast, saying its AI strategy is working; WDAY jumps 9%+ after hours",
-      "url": "https://www.cnbc.com/2026/05/21/workday-wday-q1-earnings-report-2027.html",
-      "summary_en": "Workday shares surged as much as 14% in extended trading on Thursday after the finance and human resources software maker reported results …",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "Workday 第一季度營收成長 13% 至 25.4 億美元並調高全年預測，稱其 AI 策略卓有成效；盤後股價飆升 9%",
-      "summary_zh": "由於財會與人力資源軟體需求強勁，Workday 財報優於預期，顯示企業正積極導入其 AI 解決方案以提升效率。"
-    },
-    {
-      "title_en": "Modal Labs, which offers a serverless cloud platform to build AI apps and run AI inference, raised a $355M Series C at a $4.65B valuation, up from $1.1B in 2025",
-      "url": "https://www.reuters.com/business/modal-labs-valued-465-billion-ai-coding-takes-off-2026-05-21/",
-      "summary_en": "AI startup Modal raised $355 million in a new round of financing, valuing the company at $4.65 billion, CEO Erik Bernhardsson told Reuters.",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "提供 AI 應用開發與推理 Serverless 雲端平台的 Modal Labs 完成 3.55 億美元 C 輪融資，估值達 46.5 億美元",
-      "summary_zh": "AI 新創公司 Modal 在最新一輪融資中獲得 3.55 億美元，執行長表示公司估值較 2025 年的 11 億美元大幅增長。"
-    },
-    {
-      "title_en": "August Robotics, which makes autonomous robots for construction and industrial applications, raised $30M led by Big Pi Ventures",
-      "url": "https://siliconangle.com/2026/05/21/august-robotics-lands-30m-automate-precision-construction-robots/",
-      "summary_en": "August Robotics Ltd., a robotics automation company for construction and industrial applications, today announced it raised $30 million in new funding led by Big Pi Ventures.",
-      "source": "SiliconANGLE",
-      "media_source": "SiliconANGLE",
-      "techmeme_source": "homepage_main_column",
-      "title_zh": "專注於建築與工業應用的自動化機器人公司 August Robotics 完成 3,000 萬美元融資",
-      "summary_zh": "由 Big Pi Ventures 領投，August Robotics 獲得新資金以加速其自主機器人在建築與工業領域的自動化部署。"
     },
     {
       "title_en": "Source: smart ring maker Oura filed confidentially for a US IPO, set for later in 2026; SF- and Finland-based Oura had an $11B valuation in September 2025",
@@ -288,8 +239,42 @@
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
       "title_zh": "消息指智慧戒指製造商 Oura 已秘密提交美國 IPO 申請，預計於 2026 年底上市",
       "summary_zh": "總部位於舊金山與芬蘭的 Oura 準備進軍公開市場，該公司曾在 2025 年 9 月獲得 110 億美元的估值。"
+    },
+    {
+      "title_en": "Apple plans to broadcast an MLS game on Saturday shot entirely on 15 iPhone 17 Pros, the first major live sports event to be captured using only smartphones",
+      "url": "https://variety.com/2026/digital/news/apple-mls-match-shot-entirely-on-iphone-first-time-1236755744/",
+      "summary_en": "Apple has frequently touted the use of professional-grade iPhones by filmmakers to make shorts, commercials and even feature-length movies.",
+      "source": "Variety",
+      "media_source": "Variety",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Apple 計劃於週六直播一場完全由 15 支 iPhone 17 Pro 拍攝的 MLS 賽事，這是首場僅使用智慧型手機拍攝的大型體育賽事直播",
+      "summary_zh": "Apple 經常宣傳電影製作人使用專業級 iPhone 製作短片、廣告甚至長篇電影。"
+    },
+    {
+      "title_en": "Sources: Anthropic is in talks to rent servers powered by Microsoft-designed chips; source: Anthropic has steadily increased its Azure usage since November 2025",
+      "url": "https://www.theinformation.com/articles/anthropic-talks-use-microsofts-ai-chips",
+      "summary_en": "Anthropic is in talks to rent servers powered by Microsoft-designed AI server chips as it seeks more computing power …",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息人士：Anthropic 洽談租用微軟自研晶片伺服器；自 2025 年 11 月起穩定增加 Azure 使用量",
+      "summary_zh": "Anthropic 正在洽談租用由微軟設計的 AI 伺服器晶片驅動的伺服器，以尋求更強大的運算能力。"
+    },
+    {
+      "title_en": "Source: Cursor reached $3B in annualized revenue in late April and now has 3,000+ customers paying at least $100K each for its software on an annualized basis",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/cursor-hits-3-billion-annual-sales-rate-ahead-of-spacex-deal",
+      "summary_en": "Cursor's annualized revenue hit $3 billion in late April, according to a person familiar with the matter, indicating growing demand …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指 Cursor 年化營收在 4 月底達到 30 億美元，現有超過 3,000 家客戶每年支付至少 10 萬美元",
+      "summary_zh": "據知情人士透露，程式碼編輯器 Cursor 的年化營收在 4 月底突破 30 億美元，顯示市場對 AI 開發工具的需求持續增長。"
     }
   ],
   "wsj": [
