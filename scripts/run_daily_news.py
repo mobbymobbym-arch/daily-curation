@@ -20,9 +20,9 @@ TECHMEME_MAIN_COLUMN_ID = 'topcol1'
 TECHMEME_NEXT_COLUMN_ID = 'topcol23'
 TAG_RE = re.compile(r'<[^>]+>')
 TECHMEME_CITE_RE = re.compile(r'<CITE>(.*?)</CITE>', re.IGNORECASE | re.DOTALL)
-TECHMEME_ITEM_RE = re.compile(r'(?=<DIV\s+CLASS=["\']itc1["\'])', re.IGNORECASE)
 TECHMEME_II_RE = re.compile(r'<DIV\s+CLASS=["\']ii["\']\s*>(.*?)</DIV>', re.IGNORECASE | re.DOTALL)
 TECHMEME_ANCHOR_RE = re.compile(r'<A\b([^>]*)>(.*?)</A>', re.IGNORECASE | re.DOTALL)
+TECHMEME_DIV_TAG_RE = re.compile(r'</?DIV\b[^>]*>', re.IGNORECASE | re.DOTALL)
 
 def clean_text(text):
     """Collapse browser-style whitespace into a single readable string."""
@@ -49,6 +49,43 @@ def attrs_include_class(attrs, class_name):
     class_attr = get_attr(attrs, 'class')
     return class_name in class_attr.split()
 
+def tag_includes_class(tag, class_name):
+    return attrs_include_class(tag, class_name)
+
+def find_balanced_div_end(fragment, start_index):
+    depth = 0
+    for match in TECHMEME_DIV_TAG_RE.finditer(fragment, start_index):
+        tag = match.group(0)
+        if tag.startswith('</'):
+            depth -= 1
+            if depth == 0:
+                return match.end()
+        else:
+            depth += 1
+    return len(fragment)
+
+def iter_div_blocks_by_class(fragment, class_name):
+    pos = 0
+    while True:
+        start_match = None
+        for match in TECHMEME_DIV_TAG_RE.finditer(fragment, pos):
+            tag = match.group(0)
+            if tag.startswith('</') or not tag_includes_class(tag, class_name):
+                continue
+            start_match = match
+            break
+
+        if not start_match:
+            return
+
+        start = start_match.start()
+        end = find_balanced_div_end(fragment, start)
+        yield start, end, fragment[start:end]
+        pos = end
+
+def first_div_block_by_class(fragment, class_name):
+    return next(iter_div_blocks_by_class(fragment, class_name), None)
+
 def extract_techmeme_main_column_html(content):
     start_match = re.search(
         rf'<DIV\s+ID=["\']{TECHMEME_MAIN_COLUMN_ID}["\']\s*>',
@@ -64,58 +101,98 @@ def extract_techmeme_main_column_html(content):
         return ''
     return content[start_match.end():end_match.start()]
 
+def parse_techmeme_item_block(segment, cluster_role):
+    headline_container = TECHMEME_II_RE.search(segment)
+    if not headline_container:
+        return None
+
+    ii_html = headline_container.group(1)
+    headline = None
+    for anchor in TECHMEME_ANCHOR_RE.finditer(ii_html):
+        attrs = anchor.group(1)
+        if not attrs_include_class(attrs, 'ourh'):
+            continue
+        headline = {
+            'url': urllib.parse.urljoin(TECHMEME_HOME_URL, get_attr(attrs, 'href') or '#'),
+            'title_en': strip_html(anchor.group(2)),
+            'summary_en': strip_html(ii_html[anchor.end():]),
+        }
+        break
+
+    if not headline:
+        return None
+
+    source_html = segment[:headline_container.start()]
+    source_match = TECHMEME_CITE_RE.search(source_html)
+    source = parse_techmeme_source(strip_html(source_match.group(1))) if source_match else ''
+    summary = re.sub(r'^(?:[-–—]\s*)+', '', headline['summary_en']).strip()
+    title = headline['title_en']
+    url = headline['url']
+
+    if not (title and url and source):
+        return None
+
+    return {
+        'title_en': title,
+        'url': url,
+        'summary_en': summary,
+        'source': source,
+        'media_source': source,
+        'techmeme_source': 'homepage_main_column',
+        'techmeme_cluster_role': cluster_role,
+    }
+
+def parse_techmeme_cluster_blocks(cluster_html):
+    relitems_block = first_div_block_by_class(cluster_html, 'relitems')
+    relitems_start = relitems_block[0] if relitems_block else len(cluster_html)
+    main_area = cluster_html[:relitems_start]
+
+    item_blocks = []
+    main_block = first_div_block_by_class(main_area, 'itc1')
+    if main_block:
+        item_blocks.append((main_block[2], 'main'))
+
+    if relitems_block:
+        related_block = first_div_block_by_class(relitems_block[2], 'itc1')
+        if related_block:
+            item_blocks.append((related_block[2], 'related'))
+
+    return item_blocks
+
+def item_inside_ranges(start, ranges):
+    return any(range_start <= start < range_end for range_start, range_end in ranges)
+
 def parse_techmeme_main_column_items(content):
-    """Return standalone Techmeme Top News feed items from the homepage main column."""
+    """Return Techmeme main-column items, keeping only the first related item per cluster."""
     main_column_html = extract_techmeme_main_column_html(content)
     if not main_column_html:
         return []
 
+    candidates = []
+    cluster_ranges = []
+    for cluster_start, cluster_end, cluster_html in iter_div_blocks_by_class(main_column_html, 'clus'):
+        cluster_ranges.append((cluster_start, cluster_end))
+        for item_block, cluster_role in parse_techmeme_cluster_blocks(cluster_html):
+            candidates.append((cluster_start, item_block, cluster_role))
+
+    for item_start, _item_end, item_html in iter_div_blocks_by_class(main_column_html, 'itc1'):
+        if item_inside_ranges(item_start, cluster_ranges):
+            continue
+        candidates.append((item_start, item_html, 'main'))
+
     items = []
     seen = set()
-    for segment in TECHMEME_ITEM_RE.split(main_column_html):
-        if not segment.strip().startswith('<DIV'):
+    for _position, item_html, cluster_role in sorted(candidates, key=lambda row: row[0]):
+        item = parse_techmeme_item_block(item_html, cluster_role)
+        if not item:
             continue
 
-        headline_container = TECHMEME_II_RE.search(segment)
-        if not headline_container:
-            continue
-
-        ii_html = headline_container.group(1)
-        headline = None
-        for anchor in TECHMEME_ANCHOR_RE.finditer(ii_html):
-            attrs = anchor.group(1)
-            if not attrs_include_class(attrs, 'ourh'):
-                continue
-            headline = {
-                'url': urllib.parse.urljoin(TECHMEME_HOME_URL, get_attr(attrs, 'href') or '#'),
-                'title_en': strip_html(anchor.group(2)),
-                'summary_en': strip_html(ii_html[anchor.end():]),
-            }
-            break
-
-        if not headline:
-            continue
-
-        source_html = segment[:headline_container.start()]
-        source_match = TECHMEME_CITE_RE.search(source_html)
-        source = parse_techmeme_source(strip_html(source_match.group(1))) if source_match else ''
-        summary = re.sub(r'^(?:[-–—]\s*)+', '', headline['summary_en']).strip()
-        title = headline['title_en']
-        url = headline['url']
-        dedupe_key = (title, url)
-
-        if not (title and url and source) or dedupe_key in seen:
+        dedupe_key = (item['title_en'], item['url'])
+        if dedupe_key in seen:
             continue
 
         seen.add(dedupe_key)
-        items.append({
-            'title_en': title,
-            'url': url,
-            'summary_en': summary,
-            'source': source,
-            'media_source': source,
-            'techmeme_source': 'homepage_main_column',
-        })
+        items.append(item)
 
     return items
 
