@@ -262,6 +262,7 @@ def main():
         daily_data["deep_analysis"] = {}
 
     updates_processed = 0
+    deep_analysis_updates = []
 
     for source in sources_config['sources']:
         name = source['name']
@@ -339,6 +340,12 @@ def main():
             }
 
             daily_data["deep_analysis"][name] = content_to_save
+            deep_analysis_updates.append({
+                "source": final_source,
+                "title": final_title,
+                "article_date": content_to_save["article_date"],
+                "url": raw_link,
+            })
             
             # Update state with new dictionary format for robust caching
             state[name] = {
@@ -356,6 +363,10 @@ def main():
             print(f"   💾 Progress saved.")
         else:
             print("   ❌ AI failed to generate valid analysis format.")
+
+    daily_data["deep_analysis_updates"] = deep_analysis_updates
+    with open(NEWS_JSON, 'w', encoding='utf-8') as f:
+        json.dump(daily_data, f, ensure_ascii=False, indent=2)
 
     if updates_processed > 0:
         print(f"\n🎉 Processed {updates_processed} new deep analyses.")

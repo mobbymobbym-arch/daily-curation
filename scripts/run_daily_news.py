@@ -305,6 +305,8 @@ def update_news_headlines():
     else:
         daily_data = {"fetch_date": str(datetime.now().date())}
 
+    daily_data["deep_analysis_updates"] = []
+
     # 1. Techmeme
     print("   ▶ Fetching Techmeme homepage main column...")
     techmeme_items = fetch_techmeme_main_column_items()
