@@ -1,6 +1,61 @@
 {
-  "fetch_date": "2026-05-24",
+  "fetch_date": "2026-05-25",
   "techmeme": [
+    {
+      "title_en": "A deep dive into Apple Watch and Health efforts; sources: iOS 27 to get a revamped AirPods control panel and default support for AirPlay rivals like Google Cast",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-24/apple-watch-needs-shake-up-amid-whoop-oura-google-fitbit-air-airpods-ios-27-mpjuh7ln",
+      "summary_en": "Also: iOS 27 AirPods, Genmoji and AirPlay details. — Now over a decade old, the Apple Watch is in need of a shake-up as the health and fitness wearables market pivots.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "深入解析 Apple Watch 與健康佈局；消息指 iOS 27 將推出全新 AirPods 控制面板並原生支援 Google Cast",
+      "summary_zh": "此外還包含 iOS 27 的 AirPods、Genmoji 與 AirPlay 細節。面世已超過十年的 Apple Watch，隨著健康與健身穿戴裝置市場的轉型，正亟需一場變革。"
+    },
+    {
+      "title_en": "A look at the scourge of smartphone thefts in London, as victims describe receiving texts threatening them into unlinking Apple IDs from stolen iPhones",
+      "url": "https://www.nytimes.com/2026/05/23/world/europe/phone-theft-threats-london.html?unlocked_article_code=1.klA.oMPG.M4nxA06biS9H&smid=url-share",
+      "summary_en": "Tens of thousands of smartphones were reported stolen in the British capital in recent years. For some victims, losing their phone was only the beginning.",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "倫敦智慧型手機竊案猖獗，受害者遭恐嚇要求將 Apple ID 與失竊 iPhone 解除綁定",
+      "summary_zh": "倫敦近年來通報了數萬起手機竊案。對於部分受害者而言，失去手機僅僅是噩夢的開始。"
+    },
+    {
+      "title_en": "How the AI boom is transforming global M&A, now dominated by the AI-driven race to control the world's energy, fiber networks, and computing capacity",
+      "url": "https://giftarticle.ft.com/giftarticle/actions/redeem/8e044bee-edcb-4be7-b1d4-45b616af164a",
+      "summary_en": "Deals hit record highs, unloved companies turn sexy and PE finds a new gold mine. Up until this week, NextEra Energy …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "AI 浪潮重塑全球併購市場，能源、光纖網路與運算能力成兵家必爭之地",
+      "summary_zh": "併購交易創下歷史新高，原本冷門的公司重獲青睞，私募股權（PE）也發現了新的金礦。直到本週，NextEra Energy..."
+    },
+    {
+      "title_en": "Hands-on with a pre-release build of Google Docs Live, an AI-powered voice tool for drafting documents, rolling out this summer to AI Pro and Ultra subscribers",
+      "url": "https://www.wsj.com/tech/personal-tech/google-docs-live-test-e4473e07?st=ZSgpnS&reflink=desktopwebshare_permalink",
+      "summary_en": "An exclusive look at Docs Live, Google's new speech-powered AI project manager and writing partner — Microsoft Word brought word processing to the masses.",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "搶先體驗 Google Docs Live：AI 驅動的語音撰稿工具，將於今夏向 AI Pro 與 Ultra 訂閱者推出",
+      "summary_zh": "獨家預覽 Google 全新的語音 AI 專案管理與寫作夥伴 Docs Live。當年 Microsoft Word 將文字處理普及化，而現在 Docs Live 正試圖改變遊戲規則。"
+    },
+    {
+      "title_en": "Rising DRAM prices are driving “forced premiumization” in the smartphone market in India and Africa, as consumers in the sub-$200 segment risk being priced out",
+      "url": "https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone",
+      "summary_en": "The global memory crunch and the great repricing of consumer electronics — One of the most remarkable things …",
+      "source": "David Oks",
+      "media_source": "David Oks",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "DRAM 價格上漲迫使印度與非洲手機市場「高階化」，200 美元以下低價位段消費者恐無力負擔",
+      "summary_zh": "全球記憶體短缺與消費性電子產品的大調價——其中最引人注目的是..."
+    },
     {
       "title_en": "How Anthropic's ongoing discussions with the Vatican about ethics and AI led to Christopher Olah being invited to Pope Leo's unveiling of an encyclical on AI",
       "url": "https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai/",
@@ -9,96 +64,19 @@
       "media_source": "RNS",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Anthropic 與梵蒂岡持續探討 AI 倫理，Chris Olah 受邀出席教宗 AI 通諭發表",
-      "summary_zh": "教宗利奧十四世（Pope Leo XIV）預計於週一（5月27日）發布關於 AI 的新通諭，Anthropic 共同創辦人 Chris Olah 將陪同出席發表活動。"
+      "title_zh": "Anthropic 與梵蒂岡就 AI 倫理持續對話，共同創辦人 Christopher Olah 受邀出席教宗 AI 通諭發表",
+      "summary_zh": "教宗利奧十四世（Pope Leo XIV）關於 AI 的新通諭將於週一（5 月 27 日）發佈，Anthropic 共同創辦人 Chris Olah 將隨侍在側。"
     },
     {
-      "title_en": "For publishers, pirated audiobooks made with AI on YouTube are a growing issue: removal is cumbersome, and some are hiring tech companies to take them down",
-      "url": "https://www.nytimes.com/2026/05/21/books/audiobook-piracy-youtube.html?unlocked_article_code=1.kFA.qUyS.1r1NrWh-s6p6&smid=url-share",
-      "summary_en": "Illegal, synthetically narrated copies of “The Hunger Games,” hit self-help books and everything in between are increasingly common on the platform.",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "AI 製作的盜版有聲書在 YouTube 氾濫，出版社面臨下架難題",
-      "summary_zh": "透過 AI 合成語音朗讀的《飢餓遊戲》、暢銷成功學書籍等盜版內容在 YouTube 上日益增多，出版社移除手續繁瑣，部分公司甚至需聘請專門的科技公司協助處理。"
-    },
-    {
-      "title_en": "Dell says it has 5,000 clients for its AI Factory, a product line of servers with Nvidia chips, software, and services, including 1,000 new clients last quarter",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/dell-sells-1-000-ai-servers-with-nvidia-chips-in-current-quarter",
-      "summary_en": "Dell Technologies Inc. said it added 1,000 customers for a key AI product line in the past quarter as the company tries …",
+      "title_en": "DeepSeek says it will lower V4 Pro API prices by 75% to $0.435/1M input and $0.87/1M output tokens, making permanent the discount prices set to expire on May 31",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "summary_en": "DeepSeek said it will make permanent a steep discount on its flagship V4-Pro model, maintaining prices for developers at a quarter of their original level.",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Dell 宣布 AI Factory 客戶數達 5,000 家，上季新增千名客戶",
-      "summary_zh": "Dell 表示其搭載 Nvidia 晶片、軟體與服務的關鍵 AI 產品線「AI Factory」在過去一季新增了 1,000 名客戶，展現其在伺服器市場的強勁增長。"
-    },
-    {
-      "title_en": "Q&A with Sundar Pichai on Google Search's future, Google's place in the AI race, public skepticism of AI, TPUs, being “behind the frontier” in coding, more",
-      "url": "https://www.nytimes.com/2026/05/22/podcasts/sundar-pichai-understands-why-people-are-anxious-about-ai.html",
-      "summary_en": "After a busy Google I/O, the company's chief executive sits down with the hosts of “Hard Fork” …",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Sundar Pichai 談 Google 搜尋未來：直面 AI 競爭、TPU 與技術領先優勢",
-      "summary_zh": "在 Google I/O 大會落幕後，Google 執行長接受《Hard Fork》節目專訪，探討搜尋引擎的未來、大眾對 AI 的質疑，以及公司在程式碼能力上的進展。"
-    },
-    {
-      "title_en": "Jensen Huang urged Super Micro to tighten up compliance after Taiwan detained three people for allegedly trying to export servers with Nvidia chips to China",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-23/nvidia-ceo-urges-super-micro-to-tighten-up-amid-taiwan-crackdown",
-      "summary_en": "Nvidia Corp. Chief Executive Officer Jensen Huang urged Super Micro Computer Inc. to tighten up on compliance after Taiwan detained three people …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "黃仁勳敦促美超微加強法規遵循，因應台灣查獲非法向中國出口 Nvidia 伺服器案",
-      "summary_zh": "Nvidia 執行長黃仁勳要求美超微（Super Micro）收緊法規遵循程序，此前台灣檢調單位逮捕三名涉嫌試圖將搭載 Nvidia 晶片的伺服器非法出口至中國的人士。"
-    },
-    {
-      "title_en": "A profile of TP-Link, whose share of the US consumer router market grew from 10% to 60%+ between 2019 and 2025, as it seeks to rebut national security concerns",
-      "url": "https://www.thewirechina.com/2026/05/17/tp-links-american-dream/",
-      "summary_en": "When Jeffrey Chao was studying for his master's in computer science in the early 1990s, he would sometimes spend so many hours …",
-      "source": "The Wire China",
-      "media_source": "The Wire China",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "TP-Link 在美市佔率從 10% 飆升至 60% 以上，積極回應美國國安疑慮",
-      "summary_zh": "本篇報導回顧了 TP-Link 的崛起之路，其在美國家用路由器市場的佔有率在 2019 至 2025 年間大幅成長，目前正努力化解美方對其產品的安全擔憂。"
-    },
-    {
-      "title_en": "Anthropic says Claude Mythos Preview has been used to find more than 10,000 high- or critical-severity vulnerabilities since the launch of Project Glasswing",
-      "url": "https://www.anthropic.com/research/glasswing-initial-update",
-      "summary_en": "Last month, we launched Project Glasswing, our collaborative effort to secure the world's most critical software before increasingly capable AI models can be turned against it.",
-      "source": "Anthropic",
-      "media_source": "Anthropic",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Anthropic 利用 Claude Mythos 發現逾萬個系統漏洞，強化關鍵軟體安全",
-      "summary_zh": "Anthropic 表示其 Project Glasswing 計畫自啟動以來，已透過 Claude Mythos 預覽版模型發現超過 10,000 個高級或嚴重程度的漏洞，旨在 AI 被濫用前搶先修補。"
-    },
-    {
-      "title_en": "A look at a copy of the AI EO that President Trump was expected to sign on May 21; the unsigned EO emphasized that government AI reviews would be voluntary",
-      "url": "https://www.politico.com/news/2026/05/22/heres-a-draft-of-trumps-unsigned-ai-executive-order-00933411",
-      "summary_en": "The draft also includes language aimed at bad actors. It directs the attorney general to enforce the Computer Fraud and Abuse Act and …",
-      "source": "Politico",
-      "media_source": "Politico",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "川普原定簽署的 AI 行政命令草案曝光，強調政府審查應採自願制",
-      "summary_zh": "該未簽署的行政命令草案強調政府對 AI 的審查應為自願性質，並指示司法部執行《電腦犯罪與濫用法案》，以打擊不法份子。"
-    },
-    {
-      "title_en": "Delivery Hero says it received a takeover offer from Uber for €33 per share, a discount of 1.76% from Delivery Hero's close on Friday",
-      "url": "https://www.reuters.com/business/delivery-hero-confirms-takeover-offer-uber-2026-05-23/",
-      "summary_en": "German food delivery service Delivery Hero (DHER.DE) confirmed it had received a takeover offer from rival Uber (UBER.N) valuing the company at 33 euros …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Delivery Hero 證實收到 Uber 收購提議，開價每股 33 歐元",
-      "summary_zh": "德國外送平台 Delivery Hero 證實收到對手 Uber 的收購要約，收購價約為每股 33 歐元，較上週五收盤價略低 1.76%。"
+      "title_zh": "DeepSeek 宣布 V4 Pro API 降價 75%，輸入每百萬 token 僅 0.435 美元",
+      "summary_zh": "DeepSeek 表示將把旗艦 V4-Pro 模型的限時折扣轉為永久降價，讓開發者能以原價四分之一的價格使用其頂級模型。"
     },
     {
       "title_en": "Sources: the ECB warned EU finance ministers that proposals to issue more euro stablecoins could reduce bank lending and make controlling interest rates harder",
@@ -108,135 +86,146 @@
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "歐洲央行警告歐盟財長：過多歐元穩定幣可能影響銀行貸款與利率控制",
-      "summary_zh": "消息人士指出，歐洲央行警告各國財長，若發行過多歐元穩定幣，可能會削弱銀行放貸能力，並增加控制市場利率的難度。"
+      "title_zh": "消息指歐洲央行警告各國財長：增發歐元穩定幣可能減少銀行貸款並增加利率控制難度",
+      "summary_zh": "歐洲央行週五向歐盟各國財長發出警告，指出增發歐元穩定幣的提議可能對金融體系產生負面影響。"
     },
     {
-      "title_en": "Cloudflare CEO Matthew Prince says AI won't replace builders or sellers, but it will affect middle managers, operations jobs, and other “measuring” positions",
-      "url": "https://www.wsj.com/opinion/how-i-choose-which-cloudflare-employees-to-replace-with-ai-40a197e5?st=wfuf1k",
-      "summary_en": "The company has less need for middle managers, operations jobs and other ‘measuring’ positions.",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
+      "title_en": "Sources: Uber weighs a higher bid after it approached a major Delivery Hero shareholder with a €38-per-share bid, valuing the group at €11.5B+, but was rebuffed",
+      "url": "https://www.ft.com/content/04f5d191-f5d9-4221-bf62-c34c879ab81b",
+      "summary_en": "San Francisco based-group approached major shareholder in German food group — Uber's board met on Saturday …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Cloudflare 執行長：AI 不會取代工程師，但將衝擊中階管理與營運職位",
-      "summary_zh": "Matthew Prince 認為 AI 不會取代創造者或業務員，但會影響中階主管、營運管理及其他負責「評估與衡量」性質的工作崗位。"
+      "title_zh": "消息指 Uber 考慮加碼收購 Delivery Hero，先前 115 億歐元的收購提議遭拒",
+      "summary_zh": "總部位於舊金山的 Uber 接洽了這家德國外送龍頭的大股東，Uber 董事會並於週六召開會議討論後續行動。"
     },
     {
-      "title_en": "As the US House probes Airbnb's use of Chinese AI models, CEO Brian Chesky says the company is not sharing data with Chinese firms and uses open-source models",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-20/airbnb-s-chesky-says-us-misunderstanding-use-of-chinese-open-source-ai-models",
-      "summary_en": "Airbnb Inc. Chief Executive Officer Brian Chesky defended his company's use of Chinese artificial intelligence models …",
+      "title_en": "The ECB summons Eurozone banks to a meeting on Tuesday to discuss risks posed by the latest AI models and hopes US banks with Mythos access will share lessons",
+      "url": "https://www.ft.com/content/482c56aa-6d2b-4456-9d33-b42dc30788bd",
+      "summary_en": "Supervisor to stress seriousness of risks to financial system at hastily arranged meeting — The European Central Bank …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "歐洲央行召集歐元區銀行週二開會討論 AI 風險，盼借鏡美國銀行使用 Mythos 的經驗",
+      "summary_zh": "監管機構將在緊急安排的會議中強調 AI 對金融體系帶來的風險嚴重性。"
+    },
+    {
+      "title_en": "Tether buys out SoftBank's ~26% stake in bitcoin treasury company Twenty One Capital, taking Tether's stake to ~71%; SoftBank's stake was worth ~$679M",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/tether-buys-out-softbank-stake-in-bitcoin-treasury-firm",
+      "summary_en": "Tether has bought out SoftBank Group Inc.'s ownership in the digital-asset treasury company Twenty One Capital Inc. …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "因應美國眾議院調查，Airbnb 執行長澄清並未與中國企業共享 AI 數據",
-      "summary_zh": "Airbnb 執行長 Brian Chesky 為公司使用中國 AI 模型辯護，強調其使用的是開源模型，且絕未與中國公司分享任何數據。"
+      "title_zh": "Tether 收購軟銀持有的比特幣財庫公司 Twenty One Capital 約 26% 股權，持股比例增至 71%",
+      "summary_zh": "Tether 已收購軟銀集團（SoftBank Group Inc.）持有的數位資產財庫公司 Twenty One Capital Inc. 的所有股權。"
     },
     {
-      "title_en": "Samsung's bonus deal is fueling employee resentment over a 100x payout gap between memory division staff and those making smartphones, TVs, and home appliances",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-22/samsung-chip-workers-face-colleagues-resentment-over-bonus-deal",
-      "summary_en": "Samsung Electronics Co. staved off a potentially catastrophic strike this week, reaching a tentative deal with leaders …",
+      "title_en": "Moment, which develops AI tools for automating fixed-income and equities trading tech, raised a $78M Series C led by Index Ventures, with a16z participating",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/former-citadel-quants-raise-78-million-for-ai-fintech-moment",
+      "summary_en": "Moment, the financial-technology company founded by a cohort of former Citadel Securities quantitative traders and researchers …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "三星分紅協議引發內部怨言：記憶體與手機部門獎金差距高達百倍",
-      "summary_zh": "三星電子雖暫時化解罷工危機，但因記憶體部門與手機、家電部門員工間的高額分紅落差，引發基層員工強烈不滿。"
+      "title_zh": "開發 AI 交易自動化工具的 Moment 完成 7800 萬美元 C 輪融資，由 Index Ventures 領投",
+      "summary_zh": "金融科技公司 Moment 由一群前 Citadel Securities 的量化交易員與研究員創立，致力於自動化固定收益與股票交易技術。"
     },
     {
-      "title_en": "FOIA lawsuit documents show hackers who breached SolarWinds potentially had access to all “treasury.gov” email addresses from July 6, 2020 to October 12, 2020",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-05-20/russian-hackers-who-breached-solarwinds-had-deep-access-to-treasury-emails?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3OTUxNDkyNiwiZXhwIjoxNzgwMTE5NzI2LCJhcnRpY2xlSWQiOiJURkNNNFBLR0NUSVkwMCIsImJjb25uZWN0SWQiOiIwNEFGQkMxQkYyMTA0NUVEODg3MzQxQkQwQzIyNzRBMCJ9.p-TmauzJzzP2E-144as3CgJs_I3xyIL-Za-IOg3MWKs",
-      "summary_en": "New details about the 2020 incident. — Six years after hackers allegedly backed by Russia's intelligence services broke …",
+      "title_en": "For publishers, pirated audiobooks made with AI on YouTube are a growing issue: removal is cumbersome, and some are hiring tech companies to take them down",
+      "url": "https://www.nytimes.com/2026/05/21/books/audiobook-piracy-youtube.html?unlocked_article_code=1.kFA.qUyS.1r1NrWh-s6p6&smid=url-share",
+      "summary_en": "Illegal, synthetically narrated copies of “The Hunger Games,” hit self-help books and everything in between are increasingly common on the platform.",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "出版商面臨 YouTube 上 AI 生成盜版音訊書挑戰：檢舉流程繁瑣，被迫聘請科技公司協助打擊",
+      "summary_zh": "透過合成語音朗讀的《飢餓遊戲》、熱門成功學書籍等非法盜版副本在平台上日益普遍。"
+    },
+    {
+      "title_en": "Salesforce's promotional videos showcased Agentforce mock-ups and features that are not widely available, as CEO Marc Benioff defends forward-looking marketing",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/salesforce-touts-ai-promise-over-reality-in-saaspocalypse-fight?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3OTQ2MjE2OSwiZXhwIjoxNzgwMDY2OTY5LCJhcnRpY2xlSWQiOiJURVc3UjhLSkg2VjUwMCIsImJjb25uZWN0SWQiOiJEQ0FGMjNFM0YyMkE0Qzk5OTM0RUMyRDEwNkM0ODc0NyJ9.Lq_hNo42hnye49XlGwuvGNeC7NxfVuAV7Cg70R4_C_g",
+      "summary_en": "Patients at the University of Chicago Medicine featured in a promotional video seamlessly refill prescriptions …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "SolarWinds 駭客案新進展：駭客當年疑可存取所有美國財政部電郵地址",
-      "summary_zh": "根據資訊自由法（FOIA）訴訟文件顯示，在 2020 年發生的 SolarWinds 攻擊事件中，駭客可能在長達數月間掌握了所有 treasury.gov 網域的電郵存取權。"
-    },
-    {
-      "title_en": "The US NTSB suspends access to its civil transportation accidents database after people used AI to re-create voices of pilots killed in a 2025 UPS plane crash",
-      "url": "https://arstechnica.com/ai/2026/05/ai-users-re-create-dead-pilots-voices-from-crash-investigation-docs/",
-      "summary_en": "Pilots' voices from the last seconds of a fatal cargo plane crash have been re-created by Internet sleuths using software and AI tools.",
-      "source": "Ars Technica",
-      "media_source": "Ars Technica",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "網民利用 AI 模擬墜機飛行員語音，美國 NTSB 緊急限制事故資料庫存取",
-      "summary_zh": "在發生網路偵探利用 AI 工具重製 2025 年 UPS 墜機事故中遇難飛行員的最後錄音後，美國國家運輸安全委員會（NTSB）宣布暫停對民用運輸事故資料庫的公開存取。"
+      "title_zh": "Salesforce 推廣影片展示 Agentforce 尚未開放的功能，執行長 Marc Benioff 為前瞻性行銷辯護",
+      "summary_zh": "宣傳影片中芝加哥大學醫學中心的患者看似能無縫重新領藥，但這些功能尚未廣泛應用。"
     }
   ],
   "wsj": [
     {
+      "title_en": "Meet Mark Zuckerberg’s Right-Hand Man Who’s Unleashing AI at Meta",
+      "url": "https://www.wsj.com/tech/ai/meta-andrew-bosworth-ai-3df12d4f?mod=rss_Technology",
+      "summary_en": "Andrew Bosworth, Meta’s outspoken chief technology officer, has a new mission: transforming the company’s workforce using AI....",
+      "title_zh": "認識祖克柏的左右手：正在 Meta 全面推進 AI 的幕後推手",
+      "summary_zh": "Meta 語出驚人的技術長 Andrew Bosworth 擔負新使命：利用 AI 轉型公司員工的工作方式。"
+    },
+    {
+      "title_en": "How AI Talks People Out of Conspiracy Theories—and What We Can Learn From That",
+      "url": "https://www.wsj.com/tech/ai/ai-debunks-conspiracy-theories-92eff2c5?mod=rss_Technology",
+      "summary_en": "Research shows that the key is to clearly explain relevant facts. That isn’t always easy to do....",
+      "title_zh": "AI 如何勸人放棄陰謀論？以及我們可以從中學到什麼",
+      "summary_zh": "研究顯示關鍵在於清晰解釋相關事實，但這並非易事。"
+    },
+    {
+      "title_en": "Musk Dreams of Interplanetary Profit",
+      "url": "https://www.wsj.com/tech/ai/musk-dreams-of-interplanetary-profit-637e60f6?mod=rss_Technology",
+      "summary_en": "Plus, voice-powered writing in Google Docs, the coming “vibe slop” crisis, the rising AI backlash and Apple’s success with imperfect chips....",
+      "title_zh": "馬斯克的跨行星獲利之夢",
+      "summary_zh": "此外還包含 Google Docs 的語音寫作、即將到來的「氛圍廢文」（vibe slop）危機、AI 反對浪潮以及 Apple 在非完美晶片上的成功。"
+    },
+    {
+      "title_en": "SpaceX’s IPO Is a Bet Gravity Doesn’t Apply to Elon Musk",
+      "url": "https://www.wsj.com/tech/spacexs-ipo-is-a-bet-gravity-doesnt-apply-to-elon-musk-f798e814?mod=rss_Technology",
+      "summary_en": "To launch the biggest offering ever, the space baron is drawing on his real power: everyday investors....",
+      "title_zh": "SpaceX 的 IPO 是一場賭注，賭的是地心引力對馬斯克無效",
+      "summary_zh": "為了發起史上最大的上市案，這位太空大亨正動員他的真正力量：散戶投資者。"
+    },
+    {
       "title_en": "Venture Capitalist John Doerr Says AI Is the Biggest Tech ‘Tsunami’ Ever",
       "url": "https://www.wsj.com/tech/ai/john-doerr-ai-opinion-1d64ee60?mod=rss_Technology",
       "summary_en": "The well-known venture capitalist who bet on Google says that the AI revolution is, if anything, underhyped....",
-      "title_zh": "創投大佬 John Doerr：AI 是史上規模最大的科技「海嘯」",
-      "summary_zh": "曾投資 Google 的著名創投家 John Doerr 表示，AI 革命的影響力絕非言過其實，甚至可以說是被低估了。"
+      "title_zh": "創投大老 John Doerr：AI 是史上最大的科技「海嘯」",
+      "summary_zh": "曾看好 Google 的著名創投家表示，AI 革命的熱度甚至被低估了。"
     },
     {
       "title_en": "His Chatbot Nearly Ruined Him. To Recover, He Had to Destroy It.",
       "url": "https://www.wsj.com/tech/personal-tech/chatgpt-addiction-chatbots-recovery-7977308e?mod=rss_Technology",
       "summary_en": "Unrequited love drove a 57-year-old man to an AI. Delusions of grandeur followed....",
-      "title_zh": "虛擬戀情差點毀了他：男子深陷 AI 聊天機器人泥淖後的重生之路",
-      "summary_zh": "一名 57 歲男子因愛而不得轉向 AI 尋求慰藉，卻陷入偏執與幻覺，最終被迫徹底銷毀機器人以換回正常生活。"
+      "title_zh": "聊天機器人差點毀了他，為了康復他必須將其徹底摧毀",
+      "summary_zh": "單相思驅使一名 57 歲男子轉向 AI，隨之而來的是誇大妄想。"
     },
     {
       "title_en": "David Sacks’s 11th-Hour Plea Led to Trump’s Backtrack on AI Executive Order",
       "url": "https://www.wsj.com/politics/policy/david-sacks-trump-ai-executive-order-6019242d?mod=rss_Technology",
       "summary_en": "President Trump postponed signing an order on the dangers posed by artificial intelligence after an adviser warned that industry guardrails could slow down U.S. models in the race against tools from C...",
-      "title_zh": "創投家 David Sacks 最後一刻建言，促使川普暫緩簽署 AI 行政命令",
-      "summary_zh": "川普推遲簽署關於 AI 風險的行政命令，此前顧問警告，設置過多的產業規則可能會拖慢美國模型在與中國競爭中的步伐。"
-    },
-    {
-      "title_en": "SpaceX Launches 400-Foot-Tall Rocket That Will Help Define Its Future",
-      "url": "https://www.wsj.com/tech/spacex-launches-400-foot-rocket-that-will-help-define-its-future-e3cdcc2e?mod=rss_Technology",
-      "summary_en": "The company blasted off a new version of Starship, the vehicle Elon Musk is counting on for Starlink, AI satellites and more....",
-      "title_zh": "SpaceX 成功發射 400 英尺高巨型火箭，開啟 Starship 新紀元",
-      "summary_zh": "SpaceX 成功發射新版星艦（Starship），這款重型運載火箭將是馬斯克布建 Starlink、AI 衛星以及未來太空任務的關鍵。"
+      "title_zh": "David Sacks 在最後一刻的懇求促使川普撤回 AI 行政命令",
+      "summary_zh": "在顧問警告產業監管「護欄」可能會拖慢美國模型與中國競爭的速度後，川普總統推遲簽署了一項針對人工智慧風險的行政命令。"
     },
     {
       "title_en": "Execs Are Deploying Digital Twins to Do Their Work",
       "url": "https://www.wsj.com/tech/ai/execs-are-deploying-digital-twins-to-do-their-work-9547b375?mod=rss_Technology",
       "summary_en": "Plus, what it’s like to use an e-hiking exoskeleton and how ground drones are revolutionizing warfare....",
-      "title_zh": "企業高層正導入「數位孿生」協助辦公",
-      "summary_zh": "除了探討高管如何利用數位分身減輕工作量，本篇還介紹了登山用外骨骼設備以及地面無人機如何改變現代戰爭。"
-    },
-    {
-      "title_en": "How Supervoting Shares Tighten Musk’s Iron Grip on SpaceX",
-      "url": "https://www.wsj.com/business/how-spacexs-ipo-cements-elon-musks-grip-on-the-company-90ef1ddd?mod=rss_Technology",
-      "summary_en": "With supervoting shares and help from Texas state law, the CEO has worked to address governance issues he has faced at Tesla....",
-      "title_zh": "超級投票權如何加強馬斯克對 SpaceX 的鐵腕控制",
-      "summary_zh": "藉由超級投票權以及德州州法的協助，這位執行長正致力於解決他曾在 Tesla 面臨過的治理問題。"
-    },
-    {
-      "title_en": "A Hot IPO Lifts Geothermal Power Companies",
-      "url": "https://www.wsj.com/finance/stocks/a-hot-ipo-lifts-geothermal-power-companies-325a2ac0?mod=rss_Technology",
-      "summary_en": "The overlooked technology is getting a second life with high demand from the tech sector....",
-      "title_zh": "熱門 IPO 帶動地熱發電公司估值",
-      "summary_zh": "這項長期被忽視的技術因科技產業的高需求而獲得重生。"
+      "title_zh": "高階主管正部署「數位孿生」（Digital Twins）來代勞工作",
+      "summary_zh": "此外，本報導還探討了使用電子健行外骨骼的體驗，以及地面無人機如何正在徹底改變戰爭型態。"
     },
     {
       "title_en": "The AI Superstars Who Say a ‘Vibe Slop’ Crisis Is Coming",
       "url": "https://www.wsj.com/tech/ai/vibe-coding-slop-ai-tools-e6a99394?mod=rss_Technology",
       "summary_en": "A pair who helped launch the agentic-AI craze worry that their creations are pumping out bad—even dangerous—code....",
-      "title_zh": "AI 明星警告「Vibe Slop」危機即將來臨",
-      "summary_zh": "曾協助推動 Agentic AI 熱潮的兩位專家擔心，他們的創作正在產出低品質、甚至具危險性的程式碼。"
+      "title_zh": "AI 超級巨星警告：「Vibe Slop」危機即將來臨",
+      "summary_zh": "兩位協助推動代理式 AI（Agentic AI）熱潮的專家擔心，他們的創作正產出糟糕、甚至是危險的程式碼。"
     },
     {
       "title_en": "Trump Postpones AI Order Because of Concerns About Overregulation",
       "url": "https://www.wsj.com/tech/ai/trump-executive-order-ai-advanced-models-57bcc955?mod=rss_Technology",
       "summary_en": "The White House had been weighing more oversight over the fast-growing industry....",
-      "title_zh": "因擔憂過度監管，川普推遲 AI 行政命令",
-      "summary_zh": "白宮一直在衡量是否對這個快速成長的產業加強監管。"
-    },
-    {
-      "title_en": "California Governor Signs Order on AI Aimed at Helping Workers",
-      "url": "https://www.wsj.com/tech/ai/california-governor-signs-order-on-ai-aimed-at-helping-workers-64419014?mod=rss_Technology",
-      "summary_en": "Gavin Newsom’s move follows broadening signs of public discontent over AI’s impact on jobs....",
-      "title_zh": "加州州長簽署 AI 行政命令，旨在協助勞工",
-      "summary_zh": "隨著大眾對 AI 衝擊就業的擔憂日益增加，加州州長 Gavin Newsom 採取了這項行動。"
+      "title_zh": "由於擔憂過度監管，川普推遲簽署 AI 行政命令",
+      "summary_zh": "白宮此前一直在權衡是否要對這個快速發展的產業加強監管。"
     }
   ],
   "deep_analysis": {
@@ -425,17 +414,38 @@
       ]
     },
     "Lenny's Newsletter": {
-      "title": "🧠 Community Wisdom: Best AI cold outreach app, advice for college students interested in PM, the state of AI in design, the relevance of QA in 2026, and more / 社群智慧：最佳 AI 陌生開發應用、給大學生 PM 的建議、AI 在設計領域的現況與 2026 年 QA 的重要性",
+      "title": "The AI paradox: More automation, more humans, more work / AI 悖論：更多的自動化、更多的人類參與、更多的工作",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-05-23",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-best-ai-cold-outreach",
-      "analysis_zh": "本文摘自 Lenny's Newsletter 的社群智慧討論區（未署名編輯部彙整），彙集了第一線科技從業者當下最關注的實務痛點與職涯焦慮。文章核心透過聚焦 AI 陌生開發工具、PM 職涯建議、AI 設計現況以及 QA 角色存續，反映了 2026 年 AI 深度融入工作流程後，傳統科技職能正面臨的典範轉移與價值重塑。\n\n### 全文大意摘要：AI 工具深化應用與傳統科技職能的轉型焦慮\n\n本文整理自 Lenny's Newsletter 社群的精華討論，反映了 2026 年中產品經理與科技從業人員最關注的實務議題。探討範圍涵蓋最佳的 AI 陌生開發（cold outreach）工具、給予有志於 PM 領域的大學生的職涯建議、設計領域的 AI 發展現況，以及 2026 年品質保證（QA）角色的重要性與存續。這些主題共同勾勒出一個明顯的趨勢：AI 不再只是新奇玩具，而是已經深度介入並重塑了從開發、測試到行銷的每一個產品環節，迫使所有工作者重新審視自身的不可替代性。\n\n### 戰略背景與脈絡：生成式 AI 進入工作流程的深水區\n\n2026 年的科技產業已跨越了早期對生成式 AI 的盲目狂熱，進入了要求具體生產力回報的深水區。在這個背景下，無論是設計師的繪圖與原型生成、業務團隊的自動化陌生開發，還是工程團隊對軟體品質的檢驗，都面臨著自動化工具帶來的典範轉移。尤其是「2026 年 QA 的關聯性」與「AI 在設計領域的現況」這兩個議題，精準反映了企業在全面引進 AI 開發工具（如自動生成程式碼與 UI 介面）後，傳統的測試把關與設計流程所遭遇的劇烈衝擊，企業亟需在提升效率與維持品質間找到新的平衡點。\n\n### 作者的核心推演與論點：職能邊界的模糊化與跨域整合能力的崛起\n\n從 Lenny 社群的討論脈絡可以推演出一個核心論點：單一技能的傳統護城河正在快速消失。例如，當 AI 能處理大部分常規的陌生信件撰寫與初步的 UI/UX 生成時，從業人員的價值便從單純的「產出者」轉變為「審閱者與策略制定者」。對於有志成為 PM 的大學生而言，這意味著傳統的專案管理與文件撰寫技能已不足以應付未來的競爭；了解如何善用 AI 工具矩陣、具備跨越工程與商業的系統性思維，將成為下一代產品領導者的標準配備。同時，對於 QA 角色是否仍被需要的疑問，也暗示了在 AI 輔助編程的時代，雖然程式碼產出速度大幅提升，但架構層級的邏輯驗證與極端案例（edge case）把關，反而需要更高階的品管策略思維。\n\n### 對整體市場、技術發展與地緣政治的長期影響：軟體開發生命週期的全面重構\n\n長期而言，這些第一線的討論預示了軟體開發生命週期（SDLC）將迎來結構性的重構。當 AI 逐步接管了設計初稿、基礎程式碼撰寫與初步自動化測試後，軟體公司的組織編制將變得更加精簡，且可能朝向「啞鈴型」結構發展——兩端分別是極度了解商業邏輯與使用者心理的資深產品經理，以及能解決深層系統架構問題的高階工程師；而中間負責例行性執行的 QA 與初階設計師，則面臨被 AI 工具大幅替代或必須轉型向上的壓力。這不僅將改變科技巨頭與新創公司的招募與培訓策略，也會迫使全球高等教育體系重新思考，如何培養具備「AI 協作與全局思維」的新世代數位人才。",
+      "article_date": "2026-05-24",
+      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
+      "analysis_zh": "本篇文章來自知名科技報《Lenny's Newsletter》的最新 Podcast 訪談，受訪者為 Every 共同創辦人暨執行長 Dan Shipper。Every 是一間全體員工（包含編輯與營運）皆高度採用 AI 工作流的媒體與軟體公司。Dan Shipper 透過自身企業的「活體實驗室」經驗，提出對 AI 時代工作型態與軟體商業模式的十二項反共識預測，核心主旨點出一個「AI 悖論」：AI 不但沒有消滅工作，反而透過改變軟體經濟學與介面形態，帶來了更多的自動化、更多的人類參與，以及更多的工作機會。\n\n### 全文大意摘要：AI 將重塑軟體介面與商業模式，賦能而非取代人類\n文章透過 Dan Shipper 的第一手觀察，打破了「AI 將摧毀 SaaS 並引發失業潮」的普遍焦慮。他指出未來的軟體工作環境將深度整合至 Claude Code 或 Codex 等 AI 原生開發環境中，甚至每家公司都會在 Slack 內部部署一個所有員工日常對話的「超級代理（Super-agent）」。同時，他在職業發展上極度看好產品經理（PM）與全端設計師（Full-stack designers），並斷言「前置部署工程師（Forward deployed engineer）」將成為企業最不可或缺的全新核心角色。\n\n### 戰略背景與脈絡：SaaS 模式的獲利瓶頸與生成式 AI 的落地焦慮\n當前市場正處於對傳統 SaaS 商業模式感到悲觀的週期，許多投資人擔心生成式 AI 的出現會讓「軟體即服務」的護城河瓦解，甚至讓個人能輕易打造取代企業級應用的內部工具。同時，白領階級對於「AI 取代人類工作」的恐懼達到高點。Dan Shipper 的觀點正是在這個焦慮背景下，提出了一條截然不同的發展路徑：AI 不會摧毀 SaaS，而是會從根本上改變其底層的經濟學與互動介面。\n\n### 作者的核心推演與論點：使用者自帶 Token 的經濟學革命與介面演進\nShipper 最具顛覆性的推演在於「SaaS 經濟學的轉變」。他大膽預測使用者將在應用程式中「自帶 AI Token（Bring your own tokens）」，這實際上將運算成本轉嫁給了底層模型提供者或企業客戶，從而大幅提升 SaaS 公司的利潤率；這也是他逆勢看好 SaaS 股票的原因。在工具層面，他認為傳統的命令列介面（CLI）即將終結。他更直言「自動化是一個謊言（Automation is a lie）」，真正的未來不是全自動的無人機式運作，而是人類與 Agent 共同協作的混合型軟體生態。\n\n### 對整體市場、技術發展與地緣政治的長期影響：超級賦能個體的崛起與軟體架構的重新解構\n長期而言，這場變革將深刻改變企業的人才結構與軟體市場版圖。PM 與全端設計師將因為 AI 寫程式能力的普及而獲得「超級賦能」，能夠獨立推動並交付複雜的產品；而「前置部署工程師」的崛起，意味著企業的競爭優勢將轉向客製化與深入客戶現場的高端服務能力。當每一家企業都依賴 Slack 內的超級代理，且開發者與使用者的邊界在 Codex / Claude Code 等環境中逐漸模糊時，未來的 B2B 軟體將不再是單一功能的黑盒子，而是與人類、Agent 共同運行的開放式協作系統。",
       "insights": [
-        "AI 在產品開發流程中已從單純的「輔助工具」進化為「流程重塑者」，這迫使傳統 QA 與設計師必須將自身定位提升為「策略審查者」，否則將面臨邊緣化。",
-        "針對新世代產品經理（PM）的技能要求已經改變，懂得以 AI 自動化日常工作並具備跨領域系統性整合能力，已成為比單一專案管理技巧更關鍵的護城河。",
-        "2026 年科技從業者的焦慮核心不再是「AI 是否會取代我」，而是「如何在流程高度自動化的環境中定義人類獨特的附加價值」，這在 QA 存續與設計現況的討論中尤為明顯。"
+        "SaaS 經濟學將發生典範轉移：使用者「自帶 Token」進入應用程式，將大幅降低 SaaS 業者的推理運算成本並推升其利潤率，推翻了 AI 將摧毀傳統 SaaS 商業模式的市場共識。",
+        "「自動化是一個謊言」：未來的軟體設計並非追求完全無人干預的全自動化，而是建立「人類與 Agent 共同使用」的混合協作介面。",
+        "「前置部署工程師（Forward deployed engineer）」將成為 AI 時代最關鍵的職位：隨著寫程式的門檻降低，能夠深入客戶現場、結合商業邏輯與 AI 工具快速解決特定問題的工程師，其價值將遠超純粹的後端開發者。"
       ],
-      "supplemental_sources": []
+      "supplemental_sources": [
+        {
+          "title": "Inside Every: Dan Shipper",
+          "url": "https://www.lennysnewsletter.com/p/inside-every-dan-shipper"
+        },
+        {
+          "title": "Everyone should be using Claude Code more",
+          "url": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code"
+        },
+        {
+          "title": "The rise of Cursor: The $300M ARR AI tool",
+          "url": "https://www.lennysnewsletter.com/p/the-rise-of-cursor-michael-truell"
+        },
+        {
+          "title": "Claude Cowork",
+          "url": "https://claude.com/product/cowork"
+        },
+        {
+          "title": "ChatGPT Codex",
+          "url": "https://chatgpt.com/codex"
+        }
+      ]
     },
     "馬斯克帝國觀察": {
       "title": "Musk Empire Observer #67: SpaceX IPO, Anthropic Deal & The Scale of Innovation / 馬斯克帝國觀察 #67：SpaceX IPO、Anthropic 算力合約與量產創新的本質",
@@ -472,5 +482,13 @@
       ]
     }
   },
-  "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10"
+  "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
+  "deep_analysis_updates": [
+    {
+      "source": "Lenny's Newsletter",
+      "title": "The AI paradox: More automation, more humans, more work / AI 悖論：更多的自動化、更多的人類參與、更多的工作",
+      "article_date": "2026-05-24",
+      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper"
+    }
+  ]
 }
