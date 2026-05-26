@@ -208,39 +208,39 @@
     }
   },
   "Lenny's Newsletter": {
-    "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
-    "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
+    "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind",
+    "title": "🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026",
     "content": {
-      "title": "The AI paradox: More automation, more humans, more work / AI 悖論：更多的自動化、更多的人類參與、更多的工作",
+      "title": "🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026 / 🎙️ 我如何使用 AI：Claude Cowork 工程師的實際用法與 2026 Google I/O 發表會亮點",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-05-24",
-      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
-      "analysis_zh": "本篇文章來自知名科技報《Lenny's Newsletter》的最新 Podcast 訪談，受訪者為 Every 共同創辦人暨執行長 Dan Shipper。Every 是一間全體員工（包含編輯與營運）皆高度採用 AI 工作流的媒體與軟體公司。Dan Shipper 透過自身企業的「活體實驗室」經驗，提出對 AI 時代工作型態與軟體商業模式的十二項反共識預測，核心主旨點出一個「AI 悖論」：AI 不但沒有消滅工作，反而透過改變軟體經濟學與介面形態，帶來了更多的自動化、更多的人類參與，以及更多的工作機會。\n\n### 全文大意摘要：AI 將重塑軟體介面與商業模式，賦能而非取代人類\n文章透過 Dan Shipper 的第一手觀察，打破了「AI 將摧毀 SaaS 並引發失業潮」的普遍焦慮。他指出未來的軟體工作環境將深度整合至 Claude Code 或 Codex 等 AI 原生開發環境中，甚至每家公司都會在 Slack 內部部署一個所有員工日常對話的「超級代理（Super-agent）」。同時，他在職業發展上極度看好產品經理（PM）與全端設計師（Full-stack designers），並斷言「前置部署工程師（Forward deployed engineer）」將成為企業最不可或缺的全新核心角色。\n\n### 戰略背景與脈絡：SaaS 模式的獲利瓶頸與生成式 AI 的落地焦慮\n當前市場正處於對傳統 SaaS 商業模式感到悲觀的週期，許多投資人擔心生成式 AI 的出現會讓「軟體即服務」的護城河瓦解，甚至讓個人能輕易打造取代企業級應用的內部工具。同時，白領階級對於「AI 取代人類工作」的恐懼達到高點。Dan Shipper 的觀點正是在這個焦慮背景下，提出了一條截然不同的發展路徑：AI 不會摧毀 SaaS，而是會從根本上改變其底層的經濟學與互動介面。\n\n### 作者的核心推演與論點：使用者自帶 Token 的經濟學革命與介面演進\nShipper 最具顛覆性的推演在於「SaaS 經濟學的轉變」。他大膽預測使用者將在應用程式中「自帶 AI Token（Bring your own tokens）」，這實際上將運算成本轉嫁給了底層模型提供者或企業客戶，從而大幅提升 SaaS 公司的利潤率；這也是他逆勢看好 SaaS 股票的原因。在工具層面，他認為傳統的命令列介面（CLI）即將終結。他更直言「自動化是一個謊言（Automation is a lie）」，真正的未來不是全自動的無人機式運作，而是人類與 Agent 共同協作的混合型軟體生態。\n\n### 對整體市場、技術發展與地緣政治的長期影響：超級賦能個體的崛起與軟體架構的重新解構\n長期而言，這場變革將深刻改變企業的人才結構與軟體市場版圖。PM 與全端設計師將因為 AI 寫程式能力的普及而獲得「超級賦能」，能夠獨立推動並交付複雜的產品；而「前置部署工程師」的崛起，意味著企業的競爭優勢將轉向客製化與深入客戶現場的高端服務能力。當每一家企業都依賴 Slack 內的超級代理，且開發者與使用者的邊界在 Codex / Claude Code 等環境中逐漸模糊時，未來的 B2B 軟體將不再是單一功能的黑盒子，而是與人類、Agent 共同運行的開放式協作系統。",
+      "article_date": "2026-05-25",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind",
+      "analysis_zh": "### 全文大意摘要：Anthropic 工程師的 AI 實踐與 Google I/O 2026 發表會的現實落差\n\n這篇文章來自知名科技電子報《Lenny's Newsletter》的 Podcast 節目內容整理，節目分為兩部分：首先由主持人 Claire 訪談 Anthropic 的 Claude Cowork 兼 Claude Code 桌面版工程負責人 Felix Rieseberg，分享他如何在日常生活中將 AI 工作流程自動化；接著由 Claire 親自解析 2026 年 Google I/O 發表會的重點與實測結果。本文的核心主旨指出，AI 的採用障礙主要在於人類的心理認知而非技術能力；同時，Google 雖然在 Gemini 3.5 Flash 等開發工具與多模態模型上展現出強大火力，卻深陷「發表與可用性存在巨大落差」的泥沼中。\n\n### 戰略背景與脈絡：AI 工具從單點功能走向高度整合的生態系競爭\n\n在目前的 AI 產業競爭中，大型語言模型的能力已經逐漸收斂，競爭核心正式轉向「代理能力（Agentic）」與「工作流程的深度整合」。一方面，Anthropic 透過 Claude 推出 Live Artifacts 等動態功能，試圖將 AI 無縫嵌入使用者的個人數據流與日常生活中，打破人類認為「電腦做不到」的傳統框架；另一方面，Google 在 2026 年的 I/O 大會上，全面更新了開發者工具（Antigravity 2.0）與多模態影音生成模型（Omni 與 Flow），試圖利用其獨佔的 Workspace 生態系與跨模態優勢，從 OpenAI 與 Anthropic 手中奪回開發者與企業用戶的青睞。\n\n### 作者的核心推演與論點：改變人機協作思維與 Google 的追趕策略\n\n在第一部分的訪談中，受訪者 Felix 提出了一個極具啟發性的推演：阻礙 AI 普及的最大屏障不是技術，而是我們被傳統軟體限制住的「心理監獄」。他提倡「提升一個抽象層次（Go one abstraction layer up）」的思維，例如不要只讓 Claude 畫設計圖，而是讓它直接去讀取電子信箱裡的購買收據，自動生成 3D 傢俱清單。在第二部分，主持人 Claire 的分析則指出 Google 正在採取「用速度與生態系換取優勢」的策略。Gemini 3.5 Flash 在程式編寫基準測試上追平前沿模型，且速度快上四倍；而其 IDE 工具 Antigravity 2.0 雖然在功能上只是追趕 Claude Code 與 Codex 的步伐，但 Google 企圖透過原生 Workspace 整合與強大的多模態能力來建立護城河。然而，大會發表的多數功能無法在她的實測中順利運作，顯示 Google 仍苦於產品落地的執行力。\n\n### 對整體市場、技術發展與地緣政治的長期影響：多模態將成為護城河，但產品交付能力決定最終贏家\n\n長期來看，AI 助理將不再是單純的文字對話框，而是如同 Felix 所展示的，成為能夠即時串接個人與企業數據庫的「活態應用（Live Artifacts）」。對市場結構而言，Google 如果能成功修復並整合 Workspace 與 AI Studio，將在企業市場具備難以撼動的資料優勢；而其在多模態（尤其是文件轉影音、長影片生成）的領先，也為行銷與內容創作領域帶來巨大的生產力變革。然而，技術路線的競爭也揭示了一個冷酷的現實：如果科技巨頭持續發布「看得到卻吃不到」的期貨型產品（如本次 Google I/O 中諸多失效的新功能），開發者將會毫不猶豫地轉向能穩定交付實際工作價值的 Anthropic 等競爭對手。AI 產業的決戰點，已經從單純的模型跑分測試，轉移到誰能最快填平「模型發布」與「產品可用」之間的鴻溝。",
       "insights": [
-        "SaaS 經濟學將發生典範轉移：使用者「自帶 Token」進入應用程式，將大幅降低 SaaS 業者的推理運算成本並推升其利潤率，推翻了 AI 將摧毀傳統 SaaS 商業模式的市場共識。",
-        "「自動化是一個謊言」：未來的軟體設計並非追求完全無人干預的全自動化，而是建立「人類與 Agent 共同使用」的混合協作介面。",
-        "「前置部署工程師（Forward deployed engineer）」將成為 AI 時代最關鍵的職位：隨著寫程式的門檻降低，能夠深入客戶現場、結合商業邏輯與 AI 工具快速解決特定問題的工程師，其價值將遠超純粹的後端開發者。"
+        "人類對 AI 的最大限制是『心理監獄』：我們習慣於傳統軟體的極限，而未意識到只要『提升一個抽象層級』，將個人信箱或日常數據作為資料庫交給 AI 處理，就能解決大部分繁瑣的任務。",
+        "Google 在開發者工具上主要處於防守與追趕狀態：其新推出的 Antigravity 2.0 雖達到功能對齊，但真正可能改變戰局的是 Gemini 3.5 Flash 帶來的四倍速度優勢與強大的多模態整合能力。",
+        "『發表會期貨』正在消耗大廠的信任資本：Google I/O 2026 發表了眾多驚豔的應用，但實測中高比例的功能失效，凸顯了強大基礎模型與產品交付能力之間的巨大落差。"
       ],
       "supplemental_sources": [
         {
-          "title": "Inside Every: Dan Shipper",
-          "url": "https://www.lennysnewsletter.com/p/inside-every-dan-shipper"
+          "title": "Lenny's Newsletter: How I AI",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind"
         },
         {
-          "title": "Everyone should be using Claude Code more",
-          "url": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code"
+          "title": "YouTube Video 5",
+          "url": "https://www.youtube.com/watch?v=-tdNsYi8AXs"
         },
         {
-          "title": "The rise of Cursor: The $300M ARR AI tool",
-          "url": "https://www.lennysnewsletter.com/p/the-rise-of-cursor-michael-truell"
+          "title": "YouTube Video 6",
+          "url": "https://www.youtube.com/watch?v=S-T12Z-8Tbo"
         },
         {
-          "title": "Claude Cowork",
-          "url": "https://claude.com/product/cowork"
+          "title": "Magic Patterns",
+          "url": "https://magicpatterns.com/howiai"
         },
         {
-          "title": "ChatGPT Codex",
-          "url": "https://chatgpt.com/codex"
+          "title": "Guru",
+          "url": "https://www.getguru.com"
         }
       ]
     }
