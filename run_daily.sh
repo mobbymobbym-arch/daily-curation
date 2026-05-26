@@ -18,6 +18,8 @@ export NODE_TLS_REJECT_UNAUTHORIZED=0
 export PYTHONUNBUFFERED=1
 export DAILY_CURATION_SAFE_PUBLISH=1
 TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS="${TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS:-120}"
+TRANSLATION_STEP_TIMEOUT_SECONDS="${TRANSLATION_STEP_TIMEOUT_SECONDS:-900}"
+TRANSLATION_SKIPPED_RETRY_TIMEOUT_SECONDS="${TRANSLATION_SKIPPED_RETRY_TIMEOUT_SECONDS:-900}"
 
 # 確認 timeout 指令可用（macOS 需透過 coreutils 的 gtimeout）
 TIMEOUT_CMD=""
@@ -158,12 +160,12 @@ fi
 # --- 步驟 3: 翻譯新聞 ---
 echo ""
 echo "🈯️ 步驟 3/5: 翻譯新聞"
-if run_with_timeout 180 python3 scripts/translate_news.py; then
+if run_with_timeout "$TRANSLATION_STEP_TIMEOUT_SECONDS" python3 scripts/translate_news.py; then
     echo "   ✅ 翻譯完成"
 else
     EXIT_CODE=$?
     if [ $EXIT_CODE -eq 124 ]; then
-        echo "   ⚠️ 翻譯超時 (180s) — 繼續後續步驟（將以英文作為備援）"
+        echo "   ⚠️ 翻譯超時 (${TRANSLATION_STEP_TIMEOUT_SECONDS}s) — 繼續後續步驟（將以英文作為備援）"
     else
         echo "   ⚠️ 翻譯步驟有部分失敗 — 繼續後續步驟（將以英文作為備援）"
     fi
@@ -178,7 +180,7 @@ if [ "$SKIPPED_TRANSLATIONS" -gt 0 ] 2>/dev/null; then
     echo "   ⏳ 等待 ${TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS}s 後，專門補跑 skipped items 一輪..."
     sleep "$TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS"
 
-    if run_with_timeout 300 python3 scripts/translate_news.py; then
+    if run_with_timeout "$TRANSLATION_SKIPPED_RETRY_TIMEOUT_SECONDS" python3 scripts/translate_news.py; then
         REMAINING_SKIPPED=$(count_translation_skipped)
         if [ "$REMAINING_SKIPPED" -gt 0 ] 2>/dev/null; then
             echo "   ⚠️ 補跑後仍有 ${REMAINING_SKIPPED} 則翻譯失敗，將使用英文原文 fallback 發布"
