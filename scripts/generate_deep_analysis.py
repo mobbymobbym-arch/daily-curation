@@ -19,8 +19,12 @@ SOURCES_FILE = 'deep_analysis_sources.json'
 STATE_FILE = 'analysis_state.json'
 NEWS_JSON = 'daily_news_temp.json'
 PROMPT_FILE = 'deep_analysis_prompt.md'
-DEEP_ANALYSIS_MODEL = 'gemini-3-pro-preview'
+DEEP_ANALYSIS_MODEL = 'gemini-3-flash-preview'
 GEMINI_KEYS = GeminiKeyPool()
+AI_REQUEST_TIMEOUT_SECONDS = 120
+FORMAT_REPAIR_TIMEOUT_SECONDS = 120
+AI_RETRY_DELAY_SECONDS = 5
+FORMAT_REPAIR_MAX_RETRIES = 2
 
 REQUIRED_ANALYSIS_HEADING_PREFIXES = [
     "全文大意摘要",
@@ -47,6 +51,129 @@ def has_descriptive_analysis_headings(analysis_text):
             return False
 
     return True
+
+def extract_json_object_from_gemini_stdout(stdout):
+    """Extract the model's JSON object from Gemini CLI stdout."""
+    try:
+        cli_response = json.loads(stdout)
+        ai_output = cli_response.get("response", stdout)
+    except json.JSONDecodeError:
+        ai_output = stdout
+
+    match = re.search(r'\{.*\}', ai_output, re.DOTALL)
+    if not match:
+        return None, ai_output
+
+    return json.loads(match.group(0)), ai_output
+
+def cleanup_process(proc):
+    if not proc:
+        return
+    if proc.poll() is not None:
+        return
+
+    try:
+        os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+    except (ProcessLookupError, OSError):
+        proc.kill()
+    try:
+        proc.communicate(timeout=5)
+    except Exception:
+        pass
+
+def run_gemini_json_request(prompt, *, attempt_index, max_attempts, request_label, timeout_seconds=AI_REQUEST_TIMEOUT_SECONDS):
+    """Run a bounded Gemini JSON request and return a parsed object, or None."""
+    proc = None
+    try:
+        env, key_label = GEMINI_KEYS.env_for_attempt(DEEP_ANALYSIS_MODEL, attempt_index)
+        print(f"   🚀 {request_label} (Attempt {attempt_index + 1}/{max_attempts}, key: {key_label})...")
+        proc = subprocess.Popen(
+            ["gemini", "-p", "Generate JSON only as instructed.", "--model", DEEP_ANALYSIS_MODEL, "--output-format", "json"],
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            env=env,
+            start_new_session=True
+        )
+        print(f"   📡 已送出請求 (PID: {proc.pid})，等待回應 (上限 {timeout_seconds}s)...")
+        stdout, stderr = proc.communicate(input=prompt, timeout=timeout_seconds)
+        print(f"   📥 收到回應 ({len(stdout)} chars)，開始解析...")
+        if proc.returncode not in (0, None):
+            print(f"   ⚠️ Gemini CLI exited with code {proc.returncode}.")
+        if stderr.strip():
+            print(f"   ⚠️ Gemini CLI stderr: {stderr.strip()[:300]}")
+
+        result, ai_output = extract_json_object_from_gemini_stdout(stdout)
+        if result is None:
+            print("   ⚠️ Failed to extract JSON from AI response:")
+            print(ai_output[:200] + "...")
+            return None
+        return result
+    except subprocess.TimeoutExpired:
+        print("   ⚠️ AI request timed out — 終止進程組...")
+    except Exception as e:
+        print(f"   ⚠️ AI request failed: {e}")
+    finally:
+        cleanup_process(proc)
+
+    return None
+
+def repair_analysis_format(result, *, attempt_offset):
+    """Ask Gemini to repair only the JSON/heading format before giving up."""
+    if not isinstance(result, dict):
+        return None
+
+    print("   🩹 Deep analysis JSON parsed, but format validation failed; trying targeted repair...")
+    repair_prompt = f"""
+You are repairing a Daily Curation deep-analysis JSON object.
+
+Return one valid JSON object only. Do not add markdown fences or explanations.
+
+Repair goal:
+- Preserve the original meaning and factual claims.
+- Preserve title, source, article_date, insights, and supplemental_sources unless they are missing.
+- Rewrite analysis_zh only as needed so it contains exactly these four Markdown headings, each with a descriptive subtitle after the full-width colon:
+  1. ### 全文大意摘要：具體小標題
+  2. ### 戰略背景與脈絡：具體小標題
+  3. ### 作者的核心推演與論點：具體小標題
+  4. ### 對整體市場、技術發展與地緣政治的長期影響：具體小標題
+- Do not use empty subtitles, "...", or "……".
+- Keep Traditional Chinese.
+
+Current JSON:
+{json.dumps(result, ensure_ascii=False, indent=2)}
+"""
+
+    for repair_attempt in range(FORMAT_REPAIR_MAX_RETRIES):
+        attempt_index = attempt_offset + repair_attempt
+        repaired = run_gemini_json_request(
+            repair_prompt,
+            attempt_index=attempt_index,
+            max_attempts=attempt_offset + FORMAT_REPAIR_MAX_RETRIES,
+            request_label="修復深度分析格式",
+            timeout_seconds=FORMAT_REPAIR_TIMEOUT_SECONDS,
+        )
+        if not repaired:
+            if repair_attempt < FORMAT_REPAIR_MAX_RETRIES - 1:
+                print("   ⏳ Retrying format repair in 5 seconds...")
+                time.sleep(AI_RETRY_DELAY_SECONDS)
+            continue
+
+        candidate = dict(result)
+        candidate.update(repaired)
+        candidate.setdefault("supplemental_sources", [])
+        if has_descriptive_analysis_headings(candidate.get("analysis_zh")):
+            print("   ✅ Format repair successful.")
+            return candidate
+
+        print("   ⚠️ Repaired response still failed heading validation.")
+        if repair_attempt < FORMAT_REPAIR_MAX_RETRIES - 1:
+            print("   ⏳ Retrying format repair in 5 seconds...")
+            time.sleep(AI_RETRY_DELAY_SECONDS)
+
+    print("   ❌ Format repair exhausted; skipping this article for now.")
+    return None
 
 def get_latest_rss_item(rss_url):
     """Fetch the latest item from an RSS feed."""
@@ -111,7 +238,6 @@ def fetch_clean_article(url, max_retries=3):
 
 def analyze_with_ai(article_text, source_name="", source_url="", rss_title="", max_retries=2):
     """Call Gemini CLI to generate deep analysis JSON with retries."""
-    import time
     if not os.path.exists(PROMPT_FILE):
         print(f"   ⚠️ {PROMPT_FILE} not found.")
         return None
@@ -135,64 +261,26 @@ def analyze_with_ai(article_text, source_name="", source_url="", rss_title="", m
 
     max_attempts = GEMINI_KEYS.attempt_count_for_model(DEEP_ANALYSIS_MODEL, max_retries)
     for attempt in range(max_attempts):
-        proc = None
-        try:
-            env, key_label = GEMINI_KEYS.env_for_attempt(DEEP_ANALYSIS_MODEL, attempt)
-            print(f"   🚀 啟動 Gemini CLI 進程 (Attempt {attempt+1}/{max_attempts}, key: {key_label})...")
-            proc = subprocess.Popen(
-                ["gemini", "-p", "Generate JSON only as instructed.", "--model", DEEP_ANALYSIS_MODEL, "--output-format", "json"],
-                stdin=subprocess.PIPE,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                text=True,
-                env=env,
-                start_new_session=True
-            )
-            print(f"   📡 已送出請求 (PID: {proc.pid})，等待回應 (上限 120s)...")
-            stdout, stderr = proc.communicate(input=full_text, timeout=120)
-            print(f"   📥 收到回應 ({len(stdout)} chars)，開始解析...")
-            if proc.returncode not in (0, None):
-                print(f"   ⚠️ Gemini CLI exited with code {proc.returncode}.")
-            if stderr.strip():
-                print(f"   ⚠️ Gemini CLI stderr: {stderr.strip()[:300]}")
+        result = run_gemini_json_request(
+            full_text,
+            attempt_index=attempt,
+            max_attempts=max_attempts,
+            request_label="啟動 Gemini CLI 進程",
+            timeout_seconds=AI_REQUEST_TIMEOUT_SECONDS,
+        )
 
-            # Parse the JSON shell from gemini CLI
-            try:
-                cli_response = json.loads(stdout)
-                ai_output = cli_response.get("response", stdout)
-            except json.JSONDecodeError:
-                ai_output = stdout
-            
-            # Extract actual JSON from AI response
-            match = re.search(r'\{.*\}', ai_output, re.DOTALL)
-            if match:
-                result = json.loads(match.group(0))
-                if not has_descriptive_analysis_headings(result.get("analysis_zh")):
-                    print("   ⚠️ Deep analysis headings are not descriptive enough.")
-                else:
-                    return result
-            else:
-                print("   ⚠️ Failed to extract JSON from AI response:")
-                print(ai_output[:200] + "...")
-                
-        except subprocess.TimeoutExpired:
-            print("   ⚠️ AI Analysis timed out — 終止進程組...")
-        except Exception as e:
-            print(f"   ⚠️ AI Analysis failed: {e}")
-            
-        if proc:
-            try:
-                os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
-            except (ProcessLookupError, OSError):
-                proc.kill()
-            try:
-                proc.communicate(timeout=5)
-            except Exception:
-                pass
+        if result and has_descriptive_analysis_headings(result.get("analysis_zh")):
+            return result
+
+        if result:
+            print("   ⚠️ Deep analysis headings are not descriptive enough.")
+            repaired = repair_analysis_format(result, attempt_offset=max_attempts)
+            if repaired:
+                return repaired
                 
         if attempt < max_attempts - 1:
-            print("   ⏳ Retrying in 5 seconds...")
-            time.sleep(5)
+            print("   ⏳ Retrying full generation in 5 seconds...")
+            time.sleep(AI_RETRY_DELAY_SECONDS)
             
     print("   ❌ Exhausted all AI retries.")
     return None

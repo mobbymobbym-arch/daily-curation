@@ -31,7 +31,7 @@ JINA_PREFIX = "https://r.jina.ai/"
 PODCAST_JSON = "podcast_data.json"
 TEMP_DIR = "/tmp/podcast_workdir"
 GEMINI_AUDIO_MAX_MB = 19.0
-PODCAST_MODEL = "gemini-3.1-pro-preview"
+PODCAST_MODEL = "gemini-3-flash-preview"
 GEMINI_KEYS = GeminiKeyPool()
 
 # --- Podcast Analysis Prompt ---
