@@ -1,286 +1,407 @@
 {
-  "fetch_date": "2026-05-27",
+  "fetch_date": "2026-05-28",
   "techmeme": [
     {
-      "title_en": "Micron hit a $1T market value for the first time on Tuesday as shares jumped 19%, driven by demand for its memory chips in the AI race",
-      "url": "https://www.cnbc.com/2026/05/26/micron-stock-trillion-market-cap.html",
-      "summary_en": "Micron topped a $1 trillion market value for the first time on Tuesday as shares popped 19%, driven by insatiable artificial intelligence demand for its memory chips.",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "美光（Micron）週二市值首度突破 1 兆美元，股價大漲 19%，受惠於 AI 競賽對記憶體晶片的強勁需求",
-      "summary_zh": "在人工智慧對其記憶體晶片的無盡需求推動下，美光週二股價飆升 19%，市值首度站上 1 兆美元大關。"
-    },
-    {
-      "title_en": "Dropbox founder Drew Houston is stepping down as CEO after 19 years to become executive chairman, replaced by Ashraf Alkarmi, who is SVP and GM of Dropbox Core",
-      "url": "https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html",
-      "summary_en": "Drew Houston founded Dropbox nearly two decades ago out at age 24, eventually becoming a household name in Silicon Valley …",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Dropbox 創辦人 Drew Houston 將在擔任 CEO 19 年後卸任並轉任執行主席，由 Dropbox Core 原進階副總裁兼總經理 Ashraf Alkarmi 接任",
-      "summary_zh": "Drew Houston 在 24 歲時創立了 Dropbox，在近 20 年後，這家公司已成為矽谷家喻戶曉的名字……"
-    },
-    {
-      "title_en": "Sources: Qualcomm reached a deal with ByteDance to supply millions of ASICs for AI data centers to support AI agents in the Doubao chatbot; QCOM jumps 4.48%",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-26/qualcomm-strikes-ai-chip-deal-with-tiktok-owner-bytedance",
-      "summary_en": "Qualcomm Inc. reached a deal with TikTok owner ByteDance Ltd. to supply chips for artificial intelligence data centers …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：高通（Qualcomm）與字節跳動達成協議，將供應數百萬顆 ASIC 晶片用於 AI 數據中心，以支援「豆包」聊天機器人的 AI agent；高通股價上漲 4.48%",
-      "summary_zh": "高通公司與 TikTok 母公司字節跳動達成協議，將為其人工智慧數據中心供應晶片……"
-    },
-    {
-      "title_en": "American Airlines picks SpaceX's Starlink for in-flight Wi-Fi on more than 500 planes; SpaceX already has contracts with United Airlines, Southwest, and others",
-      "url": "https://www.cnbc.com/2026/05/26/american-airlines-spacex-starlink.html",
-      "summary_en": "American Airlines plans to outfit more than 500 of its narrow-body aircraft with Starlink, handing another win to Elon Musk's SpaceX unit …",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "美國航空選擇 SpaceX 的 Starlink 為超過 500 架飛機提供機上 Wi-Fi；SpaceX 已與聯合航空、西南航空等簽約",
-      "summary_zh": "美國航空計劃為其 500 多架窄體客機配備 Starlink，這為馬斯克旗下的 SpaceX 再次贏得一項勝利……"
-    },
-    {
-      "title_en": "Sources: Chinese government agencies begin imposing overseas travel restrictions on individuals involved in advanced AI work, including at Alibaba and DeepSeek",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3OTgwMDQwMCwiZXhwIjoxNzgwNDA1MjAwLCJhcnRpY2xlSWQiOiJURjBEMzhLSzNOWUEwMCIsImJjb25uZWN0SWQiOiJDODcyMDJCNUE5RkU0Q0NBOTBFMTgzMDUxNkYxNTlGRSJ9.HzM3tbnW8AlvQEje6EVlRrl7NLsqCcxkVWRx1-zpTqI",
-      "summary_en": "China is restricting overseas travel for top AI professionals in private firms such as Alibaba Group Holding Ltd. and DeepSeek …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：中國政府機構開始對從事先進 AI 研發的人員實施出境限制，對象包括阿里巴巴與 DeepSeek 等公司的員工",
-      "summary_zh": "中國正限制阿里巴巴和 DeepSeek 等私營企業頂尖 AI 專業人士的出境旅行……"
-    },
-    {
-      "title_en": "Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more",
-      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "summary_en": "Today, I'm talking with Google and Alphabet CEO Sundar Pichai, in a conversation we recorded just after the Google I/O developer conference.",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Sundar Pichai 專訪：討論透過搜尋變革重塑資訊生態系統、在所有產品中導入 AI agent、AI 何時會取代他擔任 CEO 等議題",
-      "summary_zh": "今天我將與 Google 及其母公司 Alphabet 的 CEO Sundar Pichai 對談，這段訪談紀錄於 Google I/O 開發者大會結束後不久。"
-    },
-    {
-      "title_en": "The Dutch government blocks the acquisition of authentication IT supplier Solvinity by US-based Kyndryl, citing “a possible risk to the public interest”",
-      "url": "https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/",
-      "summary_en": "BRUSSELS — The Dutch government is blocking a United States-based company's attempts to acquire a key online identification IT supplier.",
-      "source": "Politico",
-      "media_source": "Politico",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "荷蘭政府以「可能危害公共利益」為由，阻止美國 Kyndryl 收購身分認證 IT 供應商 Solvinity",
-      "summary_zh": "荷蘭政府正阻止一家總部位於美國的公司收購一家關鍵的線上身分識別 IT 供應商。"
-    },
-    {
-      "title_en": "Sources: SpaceX successfully lobbied the Pentagon to pay more for use of Starlink on LUCAS kamikaze drones amid increasing tensions over Starlink's pricing",
-      "url": "https://www.reuters.com/business/aerospace-defense/pentagon-spars-with-spacex-over-starlink-price-hike-during-iran-war-2026-05-26/",
-      "summary_en": "As U.S. kamikaze drones guided by Elon Musk's Starlink network began to make visible gains in the war against Iran …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：在 Starlink 定價爭議升溫之際，SpaceX 成功游說美國國防部，為 LUCAS 自殺式無人機使用 Starlink 支付更高費用",
-      "summary_zh": "隨著由馬斯克 Starlink 網路引導的美國自殺式無人機在對抗伊朗的戰爭中取得顯著進展……"
-    },
-    {
-      "title_en": "OpenAI hires ServiceNow CMO Colin Fleming as CMO for its business segment; he succeeds Kate Rouch, who stepped down earlier this year to focus on her health",
-      "url": "https://www.adweek.com/media/openai-hires-servicenow-cmo-colin-fleming-to-lead-business-marketing-push/",
-      "summary_en": "OpenAI has hired ServiceNow chief marketing officer Colin Fleming as CMO for its business unit, a move that signals the AI company …",
-      "source": "Adweek",
-      "media_source": "Adweek",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "OpenAI 聘請 ServiceNow 行銷長 Colin Fleming 擔任商務部門行銷長；接替今年早些時候因健康因素卸任的 Kate Rouch",
-      "summary_zh": "OpenAI 已聘請 ServiceNow 行銷長 Colin Fleming 擔任其商務部門行銷長，此舉顯示這家 AI 公司正強化其商業化佈局……"
-    },
-    {
-      "title_en": "Atlanta-based e-commerce logistics company Stord raised a $250M Series F led by Strike at a $3B valuation, up from $1.5B after a $200M Series E in May 2025",
-      "url": "https://techcrunch.com/2026/05/26/amazon-fulfillment-competitor-stord-raises-250m-at-3b-valuation/",
-      "summary_en": "E-commerce logistics company Stord has raised a $250 million round at a $3 billion valuation, it announced Tuesday.",
+      "title_en": "Meta rolls out Plus plans for Instagram, Facebook, and WhatsApp globally, will test $7.99/mo. and $19.99/mo. Meta AI plans, a $49.99/mo. creator plan, and more",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "summary_en": "Meta is doubling down on its subscription offerings. On Wednesday, the social networking giant announced it's now rolling …",
       "source": "TechCrunch",
       "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "亞特蘭大電商物流公司 Stord 完成由 Strike 領投的 2.5 億美元 F 輪融資，估值達 30 億美元，較 2025 年 5 月的 15 億美元翻倍",
-      "summary_zh": "電商物流公司 Stord 週二宣布，已以 30 億美元的估值籌集了 2.5 億美元的新一輪融資。"
+      "title_zh": "Meta 於全球推出 Instagram、Facebook 及 WhatsApp 的 Plus 訂閱方案，並測試每月 7.99 及 19.99 美元的 Meta AI 方案與 49.99 美元的創作者方案",
+      "summary_zh": "Meta 正加倍投入其訂閱服務。這家社群媒體巨頭於週三宣布，正於全球範圍內推廣更多訂閱選項，包含針對不同需求的 AI 與創作者專屬方案。"
     },
     {
-      "title_en": "Spain says it is blocking Polymarket and Kalshi as a precautionary measure while it probes possible gambling law violations over the next three to four months",
-      "url": "https://www.wsj.com/business/media/polymarket-kalshi-face-spanish-ban-43986e08?st=ZDStim&reflink=desktopwebshare_permalink",
-      "summary_en": "The government said companies seeking to provide clients with gambling services need a license",
+      "title_en": "Robinhood launches a feature to let users link AI agents, such as Claude or Cursor, to separate, dedicated investment accounts for trading stocks autonomously",
+      "url": "https://www.wsj.com/tech/ai/robinhood-lets-customers-use-ai-to-trade-stocks-make-credit-card-purchases-f28467ed?st=hSM5Yq&reflink=desktopwebshare_permalink",
+      "summary_en": "New feature links artificial-intelligence tools to investment and credit-card accounts — AI agents were already dispensing advice …",
       "source": "Wall Street Journal",
       "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "西班牙表示正預防性封鎖 Polymarket 和 Kalshi，同時在未來三到四個月內調查其是否違反賭博法",
-      "summary_zh": "政府表示，尋求向客戶提供賭博服務的公司需要獲得相關許可證。"
+      "title_zh": "Robinhood 推出新功能，允許用戶將 Claude 或 Cursor 等 AI 代理連結至獨立投資帳戶進行自動化股票交易",
+      "summary_zh": "新功能將 AI 工具與投資及信用卡帳戶連結。先前 AI 代理已具備提供建議的能力，現在則能進一步在專門的帳戶中自主執行交易。"
     },
     {
-      "title_en": "Sources: Bond Capital is leading a new investment for AI startup Suno, which would value it at ~$5B, up from $2.45B last fall; Suno is expected to raise $250M+",
-      "url": "https://www.axios.com/pro/all-deals/2026/05/26/suno-spotify-remix-bond-raise",
-      "summary_en": "Bond Capital is leading a new investment for AI music startup Suno, which would be valued at around $5 billion, Axios Pro has learned.",
+      "title_en": "Valve raises Steam Deck OLED prices due to “rising memory and storage costs”; the 512GB model is now $789, up from $549, and the 1TB model is $949, up from $649",
+      "url": "https://www.theverge.com/games/938340/valve-steam-deck-price-increase",
+      "summary_en": "The 1TB OLED model got a $300 price increase, and now costs $949. … Valve has significantly increased the price …",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "受記憶體與儲存成本上漲影響，Valve 調漲 Steam Deck OLED 售價：512GB 型號漲至 789 美元，1TB 型號漲至 949 美元",
+      "summary_zh": "Valve 大幅調漲了 Steam Deck OLED 的售價，其中 1TB 型號調漲了 300 美元至 949 美元，主要原因歸咎於零組件成本的攀升。"
+    },
+    {
+      "title_en": "YouTube makes its AI content labels more prominent on desktop and mobile, and will apply them automatically if it detects “significant photorealistic AI use”",
+      "url": "https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/",
+      "summary_en": "Is that YouTube video clip you're watching real or was it made with AI? — YouTube wants to make it easier for viewers …",
+      "source": "Variety",
+      "media_source": "Variety",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "YouTube 強化桌面與行動端的 AI 內容標籤，若偵測到「顯著擬真 AI 使用」將自動標註",
+      "summary_zh": "為了讓觀眾更容易辨別影片真偽，YouTube 提升了 AI 內容標籤的顯著度。當系統偵測到影片包含由 AI 生成的寫實影像時，將會自動套用標籤。"
+    },
+    {
+      "title_en": "Snowflake reports Q1 revenue up 33% YoY to $1.39B, vs. $1.32B est., and commits to spending $6B on AWS over five years; SNOW jumps 35%+ after hours",
+      "url": "https://www.cnbc.com/2026/05/27/snowflake-amazon-graviton-cloud-chips.html",
+      "summary_en": "Amazon said Wednesday that its cloud division has landed a $6 billion spending commitment from Snowflake, which includes the use …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Snowflake 第一季營收成長 33% 至 13.9 億美元優於預期，並承諾五年內在 AWS 投入 60 億美元；盤後股價大漲逾 35%",
+      "summary_zh": "Amazon 週三表示其雲端部門已獲得 Snowflake 為期五年的 60 億美元支出承諾。同時，Snowflake 優於預期的財報表現帶動其股價在盤後交易中瘋狂飆升。"
+    },
+    {
+      "title_en": "The UK's GCHQ head says the UK and allies have a “narrowing window” to counter cyber threats from China and Russia, as Russia intensifies “daily” hybrid warfare",
+      "url": "https://www.cnbc.com/2026/05/27/uk-spy-chief-gchq-russia-china-us-cyber-attack-security.html",
+      "summary_en": "Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "英國 GCHQ 首長警告：對抗中俄網路威脅的「窗口正縮小」，俄羅斯每日都在強化混合戰攻擊",
+      "summary_zh": "英國情報機構首長表示，面對中國與俄羅斯日益嚴峻的網路威脅，英國及其盟友採取行動的時間窗口正在縮減，俄羅斯的威脅已常態化。"
+    },
+    {
+      "title_en": "US prosecutors charge Google engineer Michele Spagnuolo with using inside information to make $1.2M on Polymarket bets about Google's Year in Search results",
+      "url": "https://abcnews.com/US/google-employee-charged-inside-information-make-1-million/story?id=133350018",
+      "summary_en": "Michele Spagnuolo allegedly placed bets on what users were searching for. — In this Dec. 19, 2023, file photo …",
+      "source": "ABC News",
+      "media_source": "ABC News",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Google 工程師 Michele Spagnuolo 被控利用內部資訊，在 Polymarket 預測 Google 年度搜尋結果中獲利 120 萬美元",
+      "summary_zh": "美國檢察官起訴 Google 工程師 Michele Spagnuolo，指控其利用職務之便取得內部數據，對用戶搜尋趨勢進行違規投注。"
+    },
+    {
+      "title_en": "Polymarket is making it harder to use VPNs to access its service, blocking some IPs and suspicious accounts, and is asking some customers to identify themselves",
+      "url": "https://www.theinformation.com/articles/polymarket-wants-traders-id-faces-sanctions-legal-risks",
+      "summary_en": "",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "Polymarket 加強限制 VPN 存取，封鎖部分 IP 與可疑帳戶，並要求特定用戶進行身份驗證",
+      "summary_zh": "預測市場平台 Polymarket 正採取更嚴格的合規措施，透過封鎖 VPN 與加強身份識別，以符合監管要求並打擊違規行為。"
+    },
+    {
+      "title_en": "Amazon says it is making the “architecture, starter code, and learnings” from Alexa for Shopping available to third-party retailers, starting with Kate Spade",
+      "url": "https://www.cnbc.com/2026/05/27/amazon-ai-shopping-alexa-kate-spade.html",
+      "summary_en": "Amazon has been using homegrown artificial intelligence technology to help users compare products and buy or reorder items on their behalf.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Amazon 將購物版 Alexa 的架構與原始碼開放給第三方零售商，首波合作夥伴包含 Kate Spade",
+      "summary_zh": "Amazon 宣布分享其內部開發的 AI 技術，協助第三方業者讓用戶能更輕鬆地比較產品，或代表用戶進行購買與重訂商品。"
+    },
+    {
+      "title_en": "OpenAI Foundation says it is committing an initial $250M for grants, partnerships, and direct work aimed at helping workers and economies navigate AI disruption",
+      "url": "https://www.reuters.com/business/openai-foundation-commits-250-million-help-workers-economies-navigate-ai-2026-05-27/",
+      "summary_en": "The non-profit that controls OpenAI will commit an initial $250 million for grants, partnerships and direct work aimed …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "OpenAI 基金會承諾首波撥款 2.5 億美元，用於資助、夥伴關係與計畫，協助勞工與經濟應對 AI 轉型衝擊",
+      "summary_zh": "控制 OpenAI 的非營利組織將投入 2.5 億美元，旨在透過各項專案協助社會應對 AI 技術帶來的勞動市場與經濟變革。"
+    },
+    {
+      "title_en": "AI coding startup Cognition AI raised more than $1B at a $26B valuation, and says its revenue run rate has increased to $492M from $37M in May 2025",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/ai-coding-startup-cognition-raises-1-billion-at-26-billion-value",
+      "summary_en": "Cognition AI Inc. has raised more than $1 billion in a new funding round at a $26 billion valuation, the latest sign of strong demand …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "AI 程式編碼新創 Cognition AI 以 260 億美元估值籌集逾 10 億美元，年營收預計從去年 5 月的 3700 萬美元飆升至 4.92 億美元",
+      "summary_zh": "Cognition AI 完成了新一輪融資，反映出市場對 AI 編碼工具的強勁需求，其營收增長速度極為驚人。"
+    },
+    {
+      "title_en": "Roku launches its first major homescreen overhaul in over a decade, including a large “marquee” ad spot to tout apps or shows, in a bid to drive more engagement",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/roku-changes-homescreen-overhaul-1236606121/",
+      "summary_en": "Don't worry, Roku City isn't going anywhere. In fact, it's going interactive. But there will be more personalization, and a more prominent ad unit too.",
+      "source": "The Hollywood Reporter",
+      "media_source": "The Hollywood Reporter",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Roku 推出十年來最大規模主畫面改版，新增大型「跑馬燈」廣告位以推廣應用程式與影集，旨在提升用戶參與度",
+      "summary_zh": "Roku 進行了重大的介面調整，除了加入更多個人化元素，也導入了更顯眼的廣告單位。受歡迎的 Roku City 也將加入更多互動功能。"
+    },
+    {
+      "title_en": "Starlette, an open-source Python framework underpinning FastAPI, has a vulnerability called BadHost that can allow hackers to bypass authorization",
+      "url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+      "summary_en": "Millions of AI agents and tools around the world have been imperiled by a critical vulnerability that can allow hackers to breach the servers running …",
+      "source": "Ars Technica",
+      "media_source": "Ars Technica",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "FastAPI 底層的開源 Python 框架 Starlette 存在「BadHost」漏洞，可能導致駭客繞過授權驗證",
+      "summary_zh": "全球數百萬個 AI 代理與工具面臨安全威脅。Starlette 框架中的關鍵漏洞可能允許駭客入侵運行相關服務的伺服器。"
+    },
+    {
+      "title_en": "Sources: Uber has increased its stake in Delivery Hero to ~37% by acquiring Aspex Management's 14.6% share at a €12B valuation, after a takeover offer last week",
+      "url": "https://www.ft.com/content/5d91a37f-cbaa-42ae-b5c5-69ec73b3c1f3",
+      "summary_en": "Share purchase from Aspex Management steps up US ride-hailing group's pursuit of German food delivery company",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指 Uber 斥資收購 Aspex Management 持有的 14.6% 股權，將 Delivery Hero 持股比例提升至約 37%",
+      "summary_zh": "Uber 持續擴大對德國外送巨頭 Delivery Hero 的控制權，此舉發生在該公司上週提出收購要約之後，交易估值約為 120 億歐元。"
+    },
+    {
+      "title_en": "Biohub, a Mark Zuckerberg- and Priscilla Chan-funded institute, releases “a world model of protein biology” to researchers for prediction, design, and discovery",
+      "url": "https://www.axios.com/2026/05/27/zuckerbergs-biohub-unveils-ai-world-model-of-proteins",
+      "summary_en": "Biohub, the Mark Zuckerberg and Priscilla Chan-funded institute, on Wednesday released what it says amounts to “a world model of protein biology.”",
       "source": "Axios",
       "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：Bond Capital 領投 AI 音樂新創 Suno 的新一輪投資，估值將達約 50 億美元，高於去年秋天的 24.5 億美元；Suno 預計募資逾 2.5 億美元",
-      "summary_zh": "據 Axios Pro 獲悉，Bond Capital 正領投 AI 音樂新創公司 Suno 的新一輪投資，其估值將達到約 50 億美元。"
+      "title_zh": "由 Mark Zuckerberg 與 Priscilla Chan 資助的 Biohub 研究中心，向研究人員釋出「蛋白質生物學世界模型」",
+      "summary_zh": "Biohub 研究中心於週三發布了一項重大成果，這套模型被譽為蛋白質生物學的世界模型，可應用於蛋白質的預測、設計與發現。"
     },
     {
-      "title_en": "Google Fitbit Air review: slim, comfortable, and stylish, robust tracking, seven-day battery life, and cheaper than Whoop, but can only be worn on the wrist",
-      "url": "https://www.theshortcut.com/p/fitbit-air-review",
-      "summary_en": "🏆 Rating: 4/5 — ✅ Pros — 📐 Slim design that fades into the background — ⌚️ Comfortable and stylish band options",
-      "source": "The Shortcut",
-      "media_source": "The Shortcut",
+      "title_en": "Amazon MGM Studios announces the GenAI Creators' Fund, greenlights three AI animated series for Prime Video, and launches an AI production platform with AWS",
+      "url": "https://variety.com/2026/tv/news/amazon-mgm-studios-genai-creators-fund-greenlights-series-1236759131/",
+      "summary_en": "Amazon MGM Studios is touting the power of AI to help create “cinematic” entertainment in a big new initiative …",
+      "source": "Variety",
+      "media_source": "Variety",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Google Fitbit Air 評測：輕薄、舒適且時尚，追蹤功能強大，具備 7 天續航力，比 Whoop 便宜但僅限佩戴於手腕",
-      "summary_zh": "🏆 評分：4/5 — ✅ 優點 — 📐 輕薄設計幾乎感覺不到佩戴 — ⌚️ 時尚且舒適的錶帶選擇"
+      "title_zh": "Amazon MGM Studios 成立 GenAI 創作者基金，並為 Prime Video 批准製作三部 AI 動畫影集，與 AWS 合作推出 AI 製作平台",
+      "summary_zh": "Amazon MGM Studios 正積極擁抱 AI 技術，旨在利用生成式 AI 創作具有「電影感」的娛樂內容，並為創作者提供新的製作工具。"
     },
     {
-      "title_en": "OpenRouter raised $113M led by CapitalG, a source says at a $1.3B valuation, and now processes 25T tokens across 400+ models weekly, up from 5T six months ago",
-      "url": "https://www.nytimes.com/2026/05/26/business/dealbook/openrouter-ai-models-fundraising.html",
-      "summary_en": "An investment arm of Alphabet is backing OpenRouter, which helps companies choose among hundreds of models for different software tasks.",
-      "source": "New York Times",
-      "media_source": "New York Times",
+      "title_en": "Jensen Huang says Nvidia spends $100B-$150B per year on its Taiwan supply chain, up from $10B-$15B in 2022-2023, and will boost its 1,000 staff there to 4,000",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-spending-up-to-150bn-a-year-on-taiwan-ai-suppliers-jensen-huang",
+      "summary_en": "TAIPEI — Nvidia is now spending up to $150 billion a year on its supply chain partners in Taiwan and plans to increase its headcount in the …",
+      "source": "Nikkei Asia",
+      "media_source": "Nikkei Asia",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：OpenRouter 在 CapitalG 領投下籌集 1.13 億美元，估值達 13 億美元；目前每週處理逾 400 個模型的 25 兆個 token，半年前僅 5 兆",
-      "summary_zh": "Alphabet 旗下的投資機構正注資 OpenRouter，該公司協助企業在數百個模型中為不同軟體任務選擇合適的方案。"
+      "title_zh": "黃仁勳表示 NVIDIA 每年在台灣供應鏈支出達 1,000 億至 1,500 億美元，並將台灣員工數從 1,000 人增加至 4,000 人",
+      "summary_zh": "NVIDIA 執行長黃仁勳在台北表示，該公司目前每年在台灣供應鏈夥伴的支出高達 1,500 億美元，遠高於 2022-2023 年的規模，並計劃大幅擴充在台團隊。"
     },
     {
-      "title_en": "Source: AI inference provider Baseten is in talks to raise $1B at a post-money valuation of $11B, up from $5B after its $300M Series E announced in January",
-      "url": "https://www.theinformation.com/articles/ai-inference-provider-baseten-talks-raise-1-billion-11-billion-valuation",
-      "summary_en": "AI startup Baseten has recently been in talks with investors to raise $1 billion at an $11 billion valuation including the money …",
-      "source": "The Information",
-      "media_source": "The Information",
+      "title_en": "Mark Zuckerberg tells shareholders that a Meta cloud computing business is “definitely on the table” if it overspends on data centers and has excess capacity",
+      "url": "https://www.cnbc.com/2026/05/27/mark-zuckerberg-says-meta-starting-cloud-business-on-the-table.html",
+      "summary_en": "Meta CEO Mark Zuckerberg said his company could enter the cloud computing market if it overspends on data centers and ends up with excess capacity.",
+      "source": "CNBC",
+      "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：AI 推論供應商 Baseten 正洽談以 110 億美元投後估值籌集 10 億美元，高於 1 月宣布 E 輪融資後的 50 億美元",
-      "summary_zh": "AI 新創公司 Baseten 最近一直在與投資者洽談，尋求以包含新資金在內的 110 億美元估值籌集 10 億美元……"
+      "title_zh": "Mark Zuckerberg 向股東表示，若資料中心建設產能過剩，Meta 「絕對考慮」進入雲端運算業務",
+      "summary_zh": "Meta 執行長 Mark Zuckerberg 表示，如果公司在資料中心上的過度投入導致剩餘產能，Meta 可能會選擇進入雲端運算市場與現有巨頭競爭。"
     },
     {
-      "title_en": "Nvidia officially retires its GeForce Control Panel app after 20 years, following the porting of all of its major features to the Nvidia app",
-      "url": "https://www.theverge.com/news/937221/nvidia-geforce-control-panel-app-retirement",
-      "summary_en": "Nvidia has now ported across all of the major Control Panel features to its Nvidia app. … Nvidia announced more than two years ago that it was working …",
-      "source": "The Verge",
-      "media_source": "The Verge",
+      "title_en": "Salesforce reports Q1 revenue up 13% YoY to $11.13B, vs. $11.05B est., Agentforce annual recurring revenue up 205% to $1.2B, and forecasts Q2 revenue below est.",
+      "url": "https://www.cnbc.com/2026/05/27/salesforce-crm-q1-earnings-report-2027.html",
+      "summary_en": "Salesforce reported stronger-than-expected quarterly results on Wednesday, but the cloud software vendor issued full-year guidance …",
+      "source": "CNBC",
+      "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Nvidia 正式讓服役 20 年的 GeForce 控制面板 App 退役，其主要功能已全數遷移至新的 Nvidia App",
-      "summary_zh": "Nvidia 目前已將所有主要的控制面板功能遷移至 Nvidia App。Nvidia 在兩年多前就宣布正在開發此應用程式……"
+      "title_zh": "Salesforce 第一季營收成長 13% 至 111.3 億美元，Agentforce ARR 飆升 205% 至 12 億美元，但第二季展望低於預期",
+      "summary_zh": "Salesforce 週三公布了優於預期的季度業績，特別是在 AI 代理服務 Agentforce 上表現強勁，但由於全年財測保守，引發市場疑慮。"
     },
     {
-      "title_en": "China executes a man called Xu Yao for killing Yoozoo Games founder Lin Qi in 2020; Lin reportedly sidelined Xu, who helped land the 3 Body Problem Netflix deal",
-      "url": "https://www.bbc.com/news/articles/cg5ppg50gplo",
-      "summary_en": "Shanghai First Intermediate People's Court — Chinese authorities have executed a man for murdering his associate, billionaire gaming tycoon Lin Qi.",
-      "source": "BBC",
-      "media_source": "BBC",
+      "title_en": "Illinois Legislature passes SB 315, a bill requiring annual independent third-party safety audits of leading AI companies; the bill heads to the governor's desk",
+      "url": "https://www.nbcnews.com/tech/tech-news/illinois-legislature-passes-historic-ai-bill-rcna347191",
+      "summary_en": "The measure, SB 315, goes beyond legislation from California and New York regulating America's largest AI companies.",
+      "source": "NBC News",
+      "media_source": "NBC News",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "中國處決殺害遊族網絡創辦人林奇的兇嫌許垚；據傳林奇曾排擠協助促成 Netflix《三體》合約的許垚",
-      "summary_zh": "上海市第一中級人民法院：中國當局已處決一名因謀殺其合夥人、億萬富豪遊戲大亨林奇的男子。"
+      "title_zh": "伊利諾州議會通過 SB 315 法案，要求領先的 AI 公司每年進行獨立第三方安全審計，法案已送交州長簽署",
+      "summary_zh": "這項名為 SB 315 的法案在監管力道上超越了加州與紐約州，將針對美國大型 AI 企業實施更嚴格的安全審核制度。"
     },
     {
-      "title_en": "Spotify launches a library of over 650 narrated long-form magazine articles in English for Premium users; free users can buy articles “individually for $1.99”",
-      "url": "https://www.theverge.com/entertainment/937126/spotify-long-form-magazine-article-narration-availability",
-      "summary_en": "﻿More than 650 long-form articles are available starting today as part of Spotify's audiobook library.",
-      "source": "The Verge",
-      "media_source": "The Verge",
+      "title_en": "OpenAI announces partnerships to combat election misinformation, offering cybersecurity products to state officials and backing legislation to curb deepfakes",
+      "url": "https://www.axios.com/2026/05/27/openai-cyber-misinformation-defenses-elections",
+      "summary_en": "OpenAI is announcing new partnerships to combat misinformation, offering its cybersecurity products to state officials …",
+      "source": "Axios",
+      "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Spotify 為 Premium 用戶推出超過 650 篇長篇雜誌文章的有聲版本；免費版用戶可以每篇 1.99 美元的價格購買",
-      "summary_zh": "即日起，超過 650 篇長篇報導將作為 Spotify 有聲書資料庫的一部分供用戶使用。"
+      "title_zh": "OpenAI 宣佈建立合作夥伴關係以打擊選舉誤導資訊，向州政府官員提供網路安全產品並支持遏制深偽 (Deepfakes) 的立法",
+      "summary_zh": "OpenAI 宣佈新的合作夥伴關係以應對誤導資訊，向州政府官員提供其網路安全產品..."
     },
     {
-      "title_en": "Human Archive, which trains robots using first-person video from 1,000+ camera-equipped caps worn by Indian home services workers, raised $8.2M from YC and more",
-      "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
-      "summary_en": "In the last few years, India's online food delivery market has grown significantly, with both Zomato and Swiggy going public …",
+      "title_en": "The US DOD announces a $9.7B five-year deal with Dell to provide Microsoft 365, advanced cloud subscriptions, and on-premises licensing to the US military",
+      "url": "https://www.cnbc.com/2026/05/27/dell-dod-pentagon-software-deal-digital-infrastructure-trump.html",
+      "summary_en": "The Department of Defense on Wednesday announced a five-year, roughly $9.7 billion deal with Dell to provide a suite of software to the U.S. military.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "美國國防部宣佈與 Dell 達成 97 億美元的五年協議，為美軍提供 Microsoft 365、高級雲端訂閱和地端授權",
+      "summary_zh": "美國國防部週三宣佈與 Dell 達成一項為期五年、價值約 97 億美元的交易，為美軍提供一系列軟體。"
+    },
+    {
+      "title_en": "President Trump says it is “critically important” that the CFTC keep exclusive authority to oversee prediction markets, as some states attempt to regulate them",
+      "url": "https://thehill.com/homenews/administration/5896316-trump-cftc-prediction-markets/",
+      "summary_en": "President Trump on Tuesday said it was “critically important” for the Commodity Futures Trading Commission (CFTC) …",
+      "source": "The Hill",
+      "media_source": "The Hill",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "川普總統表示 CFTC 保持監督預測市場的專屬權限「至關重要」，部分州正嘗試對其進行監管",
+      "summary_zh": "川普總統週二表示，商品期貨交易委員會 (CFTC) 擁有預測市場的專屬監督權「至關重要」..."
+    },
+    {
+      "title_en": "Opendoor co-Founder Eric Wu's NavigateAI, which is building an expert AI coach for construction workers, raised a $25M seed led by Elad Gil at a $225M valuation",
+      "url": "https://www.forbes.com/sites/annatong/2026/05/26/opendoor-co-founder-eric-wu-launches-ai-for-construction-venture/",
+      "summary_en": "After pioneering automated home buying, the serial real estate tech entrepreneur is shifting focus from buying physical assets to empowering the workers who build them.",
+      "source": "Forbes",
+      "media_source": "Forbes",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Opendoor 共同創辦人 Eric Wu 創立的 NavigateAI 獲得 2500 萬美元種子輪融資，由 Elad Gil 領投，估值達 2.25 億美元；該公司正為建築工人開發專家級 AI 教練",
+      "summary_zh": "在開創了自動化購屋模式後，這位連續房地產科技企業家正將焦點從購買實體資產轉向賦能建築工人。"
+    },
+    {
+      "title_en": "The EU proposes new satellite access rules to let non-European companies like SpaceX bid for the airwaves, while preserving 33%+ of licenses for local companies",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/eu-satellite-proposal-makes-limited-room-for-musk-s-starlink",
+      "summary_en": "The European Union proposed new rules for satellite access that will allow non-European firms, like Elon Musk's Starlink …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "歐盟提案新的衛星存取規則，允許 SpaceX 等非歐洲公司競標頻段，同時保留 33% 以上的執照給本土公司",
+      "summary_zh": "歐盟針對衛星存取提出了新規則，將允許非歐洲公司（如馬斯克的 Starlink）競標..."
+    },
+    {
+      "title_en": "NYC-based Pace, whose AI agents automate back-office operations for insurance companies, raised a $46M series B led by Thrive and Sequoia at a $375M valuation",
+      "url": "https://www.forbes.com/sites/annatong/2026/05/27/thrive-and-sequoia-back-pace-with-46-million-to-automate-insurances-back-office/",
+      "summary_en": "The startup says its AI agents can handle the dull work insurers have long shipped to offshore operators.",
+      "source": "Forbes",
+      "media_source": "Forbes",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "總部位於紐約的 Pace 獲得 4600 萬美元 B 輪融資，由 Thrive 和 Sequoia 領投，估值 3.75 億美元；其 AI 代理可自動化保險公司的後台業務",
+      "summary_zh": "該新創公司表示，其 AI 代理可以處理保險公司長期以來外包給海外營運商的乏味工作。"
+    },
+    {
+      "title_en": "ElevenLabs launches Music v2, which can switch genres mid-track and handle complex vocal compositions, built on licensed data and cleared for commercial use",
+      "url": "https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track/",
+      "summary_en": "Voice AI company ElevenLabs launched a new version of its music-generation model, called Music v2, that can switch genres mid-track.",
       "source": "TechCrunch",
       "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Human Archive 透過印度家政服務人員佩戴的千餘個鏡頭頭盔拍攝影片來訓練機器人，已從 YC 等機構籌得 820 萬美元",
-      "summary_zh": "過去幾年，印度的線上美食外送市場顯著增長，Zomato 和 Swiggy 都已相繼上市……"
+      "title_zh": "ElevenLabs 發表 Music v2，可在樂曲中途切換曲風並處理複雜的人聲創作，基於授權數據構建並可用於商業用途",
+      "summary_zh": "語音 AI 公司 ElevenLabs 發表了其音樂生成模型的新版本 Music v2，該模型可在樂曲中途切換曲風。"
+    },
+    {
+      "title_en": "Tensormesh, whose inference platform uses KV caching to reduce costs, raised a $20M seed extension, bringing its total funding to $24.5M",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/05/27/ai-inference-tensormesh-nvidia-amd",
+      "summary_en": "Inference optimization startup Tensormesh raised a $20 million seed extension, co-founder and CEO Junchen Jiang tells Axios Pro.",
+      "source": "Axios",
+      "media_source": "Axios",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "推論平台 Tensormesh 獲得 2000 萬美元種子輪擴展融資，總融資額達到 2450 萬美元；其平台利用 KV 快取降低成本",
+      "summary_zh": "推論優化新創公司 Tensormesh 獲得 2000 萬美元種子輪擴展融資，共同創辦人兼執行長 Junchen Jiang 告訴 Axios Pro。"
+    },
+    {
+      "title_en": "Datacurve releases the DeepSWE coding benchmark, a 113-task test across 91 open-source repositories: GPT-5.5 leads at 70%, GPT-5.4 got 56%, and Opus 4.7 got 54%",
+      "url": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+      "summary_en": "For months, the leading AI coding benchmarks have told enterprise buyers a comforting but misleading story: the top models are all roughly the same.",
+      "source": "VentureBeat",
+      "media_source": "VentureBeat",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Datacurve 發佈 DeepSWE 程式碼基準測試，涵蓋 91 個開源專案的 113 項任務：GPT-5.5 以 70% 領先，GPT-5.4 為 56%，Opus 4.7 為 54%",
+      "summary_zh": "幾個月來，領先的 AI 程式碼基準測試一直給企業買家一個安慰但具有誤導性的故事：頂級模型的表現大致相同。"
+    },
+    {
+      "title_en": "HP reports Q2 revenue up 9% YoY to $14.4B, vs. $14B est., Personal Systems revenue up 13% to $10.2B, and forecasts Q3 adjusted EPS above estimates",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/hp-gives-profit-outlook-that-tops-estimate-managing-chip-crunch",
+      "summary_en": "HP Inc. gave a profit forecast for the current quarter that signaled the company continues to contend with a dramatic increase in memory chip prices.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "HP 報告第二季營收年增 9% 至 144 億美元，高於預期的 140 億美元；個人系統營收增長 13% 至 102 億美元，預測第三季經調整後的 EPS 將高於預期",
+      "summary_zh": "HP 表示當前季度的獲利預測顯示，公司繼續應對記憶體晶片價格大幅上漲帶來的挑戰。"
     }
   ],
   "wsj": [
     {
+      "title_en": "Google Employee Charged With Insider Trading on Polymarket",
+      "url": "https://www.wsj.com/tech/google-employee-charged-with-insider-trading-on-polymarket-b6a3b60f?mod=rss_Technology",
+      "summary_en": "Federal prosecutors allege a software engineer made more than $1 million using nonpublic information to bet on who would be the most-searched people of 2025....",
+      "title_zh": "Google 員工被控在 Polymarket 進行內線交易",
+      "summary_zh": "聯邦檢察官指控一名軟體工程師利用非公開資訊對 2025 年誰將成為搜尋次數最多的人進行投注，獲利超過 100 萬美元..."
+    },
+    {
+      "title_en": "Amazon Strikes $6 Billion Deal With Snowflake for Agentic Computing Chips",
+      "url": "https://www.wsj.com/tech/amazon-strikes-6-billion-deal-with-snowflake-for-its-agentic-computing-chips-d04114d8?mod=rss_Technology",
+      "summary_en": "The cloud-storage company joins Apple and Meta as one of AWS’s largest customers for CPU-based computing. Snowflake shares soared 35% after the closing bell....",
+      "title_zh": "Amazon 與 Snowflake 達成 60 億美元協議，採用代理式運算晶片",
+      "summary_zh": "雲端儲存公司 Snowflake 加入 Apple 和 Meta，成為 AWS CPU 運算的最大客戶之一。Snowflake 股價在盤後飆升 35%..."
+    },
+    {
+      "title_en": "Trump’s Not Worried About How the Iran War Might Affect the Midterms",
+      "url": "https://www.wsj.com/business/trumps-not-worried-about-how-the-iran-war-might-affect-the-midterms-f61f39f4?mod=rss_Technology",
+      "summary_en": "Plus, the app for Trump accounts launches tomorrow, and beach houses get a dark, moody makeover...",
+      "title_zh": "川普不擔心伊朗戰爭可能對期中選舉造成的影響",
+      "summary_zh": "此外，川普帳號專屬 App 將於明天上線，海濱別墅也迎來了深色系改造..."
+    },
+    {
+      "title_en": "China Wants Its Companies to Embrace AI—Without Firing Workers",
+      "url": "https://www.wsj.com/tech/ai/china-wants-its-companies-to-embrace-aiwithout-firing-workers-c8fcafa6?mod=rss_Technology",
+      "summary_en": "As a backlash against AI builds in the U.S. and elsewhere, China is acting to stave off social and economic disruption....",
+      "title_zh": "中國希望企業擁抱 AI，但不要解僱員工",
+      "summary_zh": "隨著美國和其他地區對 AI 的反對聲浪日益高漲，中國正採取行動防止社會和經濟動盪..."
+    },
+    {
+      "title_en": "Robinhood Lets Customers Use AI to Trade Stocks, Make Credit-Card Purchases",
+      "url": "https://www.wsj.com/tech/ai/robinhood-lets-customers-use-ai-to-trade-stocks-make-credit-card-purchases-f28467ed?mod=rss_Technology",
+      "summary_en": "The brokerage’s new feature links artificial-intelligence tools to investment and credit-card accounts....",
+      "title_zh": "Robinhood 允許客戶使用 AI 進行股票交易及信用卡消費",
+      "summary_zh": "該券商的新功能將人工智慧工具與投資和信用卡帳戶連結..."
+    },
+    {
+      "title_en": "China Memory-Chip Maker CXMT Clears Shanghai Listing Review",
+      "url": "https://www.wsj.com/tech/china-memory-chip-maker-cxmt-clears-shanghai-listing-review-0fc8dae2?mod=rss_Technology",
+      "summary_en": "China’s securities regulator has cleared an approximately $4 billion share offering by a leading memory maker, bringing the highly anticipated listing a step closer following the company’s recent tech...",
+      "title_zh": "中國記憶體晶片大廠長鑫存儲 (CXMT) 通過上海上市審查",
+      "summary_zh": "中國證券監管機構已批准這家領先記憶體製造商約 40 億美元的股票發行，使其備受期待的上市計畫更進一步。"
+    },
+    {
+      "title_en": "SpaceX’s Rocket Monopoly Gives It an Edge Over OpenAI in the IPO Race",
+      "url": "https://www.wsj.com/tech/ai/spacexs-rocket-monopoly-gives-it-an-edge-over-openai-in-the-ipo-race-7d8fe513?mod=rss_Technology",
+      "summary_en": "The frontier development of artificial intelligence is crowded, while SpaceX has forged a market of one....",
+      "title_zh": "SpaceX 的火箭壟斷使其在 IPO 競賽中較 OpenAI 較具優勢",
+      "summary_zh": "人工智慧的前沿發展競爭激烈，而 SpaceX 則打造了一個獨佔市場..."
+    },
+    {
+      "title_en": "Capgemini Aims to Harness AI Surge in 2028 Strategic Plan",
+      "url": "https://www.wsj.com/tech/ai/capgemini-aims-to-harness-ai-surge-in-2028-strategic-plan-0e89643d?mod=rss_Technology",
+      "summary_en": "The group expects a compounded annual growth rate of 5.5% to 7.5% at constant currency and said agentic AI in particular will create significant growth opportunities...",
+      "title_zh": "Capgemini 旨在 2028 年策略計畫中掌握 AI 浪潮",
+      "summary_zh": "該集團預計固定匯率下的複合年增長率為 5.5% 至 7.5%，並表示代理式 AI (Agentic AI) 特別將創造重大增長機會..."
+    },
+    {
       "title_en": "SpaceX’s AI Pursuits Have Yet to Take Off",
       "url": "https://www.wsj.com/tech/ai/spacexs-ai-pursuits-have-yet-to-take-off-3c25e91e?mod=rss_Technology",
       "summary_en": "Plus, California studies AI job losses, Anthropic’s revenue soars and Nvidia plays the role of $5 trillion underdog....",
-      "title_zh": "SpaceX 的 AI 佈局尚未起飛",
-      "summary_zh": "此外：加州研究 AI 導致的失業問題、Anthropic 營收飆升，以及 Nvidia 扮演 5 兆美元的黑馬角色……"
-    },
-    {
-      "title_en": "What Readers Found When They Asked Their Chatbots About China",
-      "url": "https://www.wsj.com/world/china/what-readers-found-when-they-asked-their-chatbots-about-china-229e4203?mod=rss_Technology",
-      "summary_en": "Plus, a Hollywood screenwriter says historical disputes sank a U.S.-China film project....",
-      "title_zh": "當讀者詢問聊天機器人關於中國的問題時，他們發現了什麼",
-      "summary_zh": "此外，一位好萊塢編劇表示，歷史爭議導致一項美中電影合作計畫流產。"
-    },
-    {
-      "title_en": "The First Class of AI Natives Is Graduating. Offices Are Getting Ready.",
-      "url": "https://www.wsj.com/tech/ai/ai-natives-graduates-job-cuts-6bab8ac9?mod=rss_Technology",
-      "summary_en": "They face cuts to entry-level jobs. They’re also highly sought after for their AI skills....",
-      "title_zh": "第一批「AI 原住民」即將畢業，企業辦公室已做好準備",
-      "summary_zh": "他們面臨初階職位裁減的挑戰，但同時也因其 AI 技能而備受青睞。"
-    },
-    {
-      "title_en": "SpaceX’s IPO Is a Bet Gravity Doesn’t Apply to Elon Musk",
-      "url": "https://www.wsj.com/tech/spacexs-ipo-is-a-bet-gravity-doesnt-apply-to-elon-musk-f798e814?mod=rss_Technology",
-      "summary_en": "To launch the biggest offering ever, the space baron is drawing on his real power: everyday investors....",
-      "title_zh": "SpaceX 的 IPO 是一場賭注：萬有引力對 Elon Musk 並不適用",
-      "summary_zh": "為了發起史上規模最大的 IPO，這位太空巨頭正利用他真正的力量：散戶投資者。"
-    },
-    {
-      "title_en": "His Chatbot Nearly Ruined Him. To Recover, He Had to Destroy It.",
-      "url": "https://www.wsj.com/tech/personal-tech/chatgpt-addiction-chatbots-recovery-7977308e?mod=rss_Technology",
-      "summary_en": "Unrequited love drove a 57-year-old man to an AI. Delusions of grandeur followed....",
-      "title_zh": "聊天機器人差點毀了他：為了復原，他不得不親手摧毀它",
-      "summary_zh": "單相思驅使一名 57 歲男子轉向 AI，隨之而來的是誇大妄想。"
-    },
-    {
-      "title_en": "Venture Capitalist John Doerr Says AI Is the Biggest Tech ‘Tsunami’ Ever",
-      "url": "https://www.wsj.com/tech/ai/john-doerr-ai-opinion-1d64ee60?mod=rss_Technology",
-      "summary_en": "The well-known venture capitalist who bet on Google says that the AI revolution is, if anything, underhyped....",
-      "title_zh": "風險投資家 John Doerr 表示 AI 是史上最大的科技「海嘯」",
-      "summary_zh": "曾投資 Google 的著名風險投資家表示，AI 革命如果說有什麼不妥，那就是它的熱度被低估了。"
-    },
-    {
-      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
-      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-697757fc?mod=rss_Technology",
-      "summary_en": "Find insight on Salesforce, Snowflake, Spotify and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "title_zh": "科技、媒體與電信彙整：市場評論",
-      "summary_zh": "在最新的科技、媒體與電信市場評論中，獲取關於 Salesforce、Snowflake、Spotify 等公司的深入見解。"
+      "title_zh": "SpaceX 的 AI 追求尚未起飛",
+      "summary_zh": "此外，加州正在研究 AI 造成的失業問題，Anthropic 營收飆升，而 Nvidia 則扮演著 5 兆美元弱勢者的角色..."
     },
     {
       "title_en": "Four Big Takeaways From the FBI’s Report on Internet Crime",
       "url": "https://www.wsj.com/tech/cybersecurity/internet-crime-fbi-report-fd7c16e8?mod=rss_Technology",
       "summary_en": "First up: AI-related crimes have taken off, as cybercriminals find it makes their job much easier...",
       "title_zh": "FBI 網路犯罪報告的四大重點",
-      "summary_zh": "首先：隨著網路罪犯發現 AI 能讓他們的工作變得輕鬆許多，與 AI 相關的犯罪正迅速增加。"
-    },
-    {
-      "title_en": "Mistral AI Takes Aim at Legal Sector Through Expanded Harvey AI Partnership",
-      "url": "https://www.wsj.com/tech/ai/mistral-ai-takes-aim-at-legal-sector-through-expanded-harvey-ai-partnership-2a8dc703?mod=rss_Technology",
-      "summary_en": "The French AI company is bringing its models to the legal sector under a partnership with Harvey AI, taking aim at a lucrative industry where rivals like Anthropic are expanding aggressively....",
-      "title_zh": "Mistral AI 透過擴大與 Harvey AI 的合作，進軍法律領域",
-      "summary_zh": "這家法國 AI 公司正透過與 Harvey AI 的合作，將其模型引入法律部門，瞄準 Anthropic 等競爭對手正積極擴張的利潤豐厚行業。"
-    },
-    {
-      "title_en": "Your Chatbot Has a Long Memory. That Isn’t Always a Good Thing.",
-      "url": "https://www.wsj.com/tech/ai/ai-memory-cd1de7f4?mod=rss_Technology",
-      "summary_en": "It may keep offering you advice based on information that may be dated—or wasn’t even about you in the first place....",
-      "title_zh": "聊天機器人擁有長久的記憶，這並不總是件好事",
-      "summary_zh": "它可能會根據過時的資訊、或是根本與你無關的資訊持續提供建議。"
+      "summary_zh": "首先：與 AI 相關的犯罪已經起飛，網路犯罪分子發現 AI 讓他們的工作變得輕鬆許多..."
     }
   ],
   "deep_analysis": {
@@ -550,36 +671,5 @@
     }
   },
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
-  "deep_analysis_updates": [
-    {
-      "source": "SemiAnalysis",
-      "title": "Inside the 800VDC Revolution – Part 1 / 深入 800VDC 革命：AI 資料中心的電力基礎設施巨變",
-      "article_date": "2026-05-26",
-      "url": "https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part"
-    },
-    {
-      "source": "Big Technology",
-      "title": "The Pope Takes On AI / 教宗向AI宣戰：當宗教最高領袖介入科技倫理之爭",
-      "article_date": "2026-05-26",
-      "url": "https://www.bigtechnology.com/p/the-pope-takes-on-ai"
-    },
-    {
-      "source": "a16z",
-      "title": "Everything, Everywhere is Compliance / 萬物皆合規：AI 如何重塑被遺忘的萬億級市場",
-      "article_date": "2026-05-26",
-      "url": "https://www.a16z.news/p/everything-everywhere-is-compliance"
-    },
-    {
-      "source": "Lenny's Newsletter",
-      "title": "Essential books for product builders—part 1 / 產品建構者的必讀書單（第一部分）",
-      "article_date": "2026-05-26",
-      "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart"
-    },
-    {
-      "source": "馬斯克帝國觀察",
-      "title": "[Musk Empire Observation] #68 Starship V3 First Test a Huge Success + SpaceX Crushes Rivals in Comms and Space Race / 【馬斯克帝國觀察】#68 星艦 V3 首次測試大成功 + SpaceX 在通訊與太空競賽上壓制對手",
-      "article_date": "2026-05-26",
-      "url": "https://muskempire0628.substack.com/p/68-v3-spacex-20260526"
-    }
-  ]
+  "deep_analysis_updates": []
 }
