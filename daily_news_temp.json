@@ -1,49 +1,126 @@
 {
-  "fetch_date": "2026-05-30",
+  "fetch_date": "2026-05-31",
   "techmeme": [
     {
-      "title_en": "Microsoft faces backlash after a blog post implied criminal referral and legal action against security researcher Nightmare Eclipse over public bug disclosures",
-      "url": "https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/",
-      "summary_en": "After a security researcher published a series of unpatched bugs in Microsoft products, along with code to exploit them …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
+      "title_en": "A look at the nasty fight between Anthropic-backed super PAC Public First and OpenAI-backed Leading the Future to sway midterms, especially Democratic primaries",
+      "url": "https://www.nytimes.com/2026/05/30/us/politics/anthropic-openai-super-pacs-midterms.html?unlocked_article_code=1.mVA.tV8n.fkWBYEgzc5Lq&smid=url-share",
+      "summary_en": "One super PAC is allied with Anthropic. The other is tied to OpenAI. They're both spending millions to influence this year's elections.",
+      "source": "New York Times",
+      "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "微軟因暗示可能對揭露漏洞的安全研究員 Nightmare Eclipse 採取法律行動及刑事移送而面臨輿論反彈",
-      "summary_zh": "在一名安全研究員發布了微軟產品的一系列未修補漏洞以及攻擊程式碼後，微軟在一篇部落格文章中暗示可能採取法律手段..."
+      "title_zh": "Anthropic 與 OpenAI 支持的超級政治行動委員會（Super PAC）爆發激烈競爭，爭奪美國期中選舉（特別是民主黨初選）的影響力",
+      "summary_zh": "兩大人工智慧巨頭各擁陣營，一個 Super PAC 與 Anthropic 結盟，另一個則與 OpenAI 關係密切，雙方正投入數百萬美元試圖影響今年的選情。"
     },
     {
-      "title_en": "Coinbase and Kalshi introduce perpetual crypto futures, marking the first time the contracts will be available to US investors via domestic, regulated exchanges",
-      "url": "https://www.reuters.com/legal/government/coinbase-kalshi-bring-regulated-perpetual-crypto-futures-us-investors-2026-05-29/",
-      "summary_en": "Cryptocurrency exchange Coinbase (COIN.O) and prediction markets platform Kalshi said on Friday they are introducing perpetual crypto futures …",
-      "source": "Reuters",
-      "media_source": "Reuters",
+      "title_en": "SoftBank pledges to invest up to €75B in AI computing clusters in France, first leading a €45B investment to build 3.1GW of capacity by 2031 in Hauts-de-France",
+      "url": "https://www.ft.com/content/1022f9bd-5b6d-44a5-9303-c8b05b8c6463",
+      "summary_en": "Masayoshi Son places France at the centre of his global AI ambitions — SoftBank has pledged to invest up to €75bn …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Coinbase 與 Kalshi 推出永續加密貨幣期貨，為美國投資者首次可透過國內監管交易所交易此類合約",
-      "summary_zh": "加密貨幣交易所 Coinbase 與預測市場平台 Kalshi 週五表示，他們將推出永續加密貨幣期貨..."
+      "title_zh": "軟銀（SoftBank）承諾投資高達 750 億歐元於法國建設 AI 運算叢集，首波 450 億歐元計畫於 2031 年前達成 3.1GW 供電規模",
+      "summary_zh": "孫正義將法國置於其全球 AI 野心的核心，軟銀已承諾投入巨資於上法蘭西大區（Hauts-de-France）發展運算基礎設施。"
     },
     {
-      "title_en": "After hitting their annual AI budget in months or seeing their AI bills double or triple due to “tokenmaxxing”, some companies are rationing or tracking AI use",
-      "url": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a?st=oJgxgi&reflink=desktopwebshare_permalink",
-      "summary_en": "Executives are scrambling to track returns on AI investments as the bill for massive computing needs comes due",
+      "title_en": "China's tech boom is creating a new kind of tech tourism where visitors pay for curated robotaxi rides and tours of EV factories and AI and robotics companies",
+      "url": "https://restofworld.org/2026/china-ai-tourism/",
+      "summary_en": "Foreign visitors are flocking to China's factories and AI startups in search of the next technological breakthrough.",
+      "source": "Rest of World",
+      "media_source": "Rest of World",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "中國科技熱潮催生「科技旅遊」新趨勢：遊客付費體驗無人駕駛計程車（Robotaxi）及參觀電動車工廠、AI 與機器人公司",
+      "summary_zh": "外國遊客紛紛湧向中國的工廠與 AI 新創公司，尋找下一個技術突破的蹤跡。"
+    },
+    {
+      "title_en": "Anthropic cuts its list of unauthorized secondary market sellers from eight to four after the initial notice caused panic and pushback from investors",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-30/anthropic-cuts-unauthorized-platform-list-by-half-after-pushback",
+      "summary_en": "Anthropic PBC updated its warning about secondary markets for its shares, cutting the number of unauthorized platforms by half …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Anthropic 將未經授權的二級市場銷售平台名單從 8 家縮減至 4 家，此前警告曾引發投資者恐慌與反彈",
+      "summary_zh": "Anthropic PBC 更新了其股份二級市場交易的警告，將未經授權的平台數量減半，試圖穩定市場情緒。"
+    },
+    {
+      "title_en": "Antenna: bundles make up 33% of new major streaming service subscriptions in the US, and 28% of all subscriptions, up from just 10% of new subscriptions in 2024",
+      "url": "https://www.nytimes.com/2026/05/28/business/media/streaming-tv-hulu-disney-hbo.html?unlocked_article_code=1.mVA.eaY9.pJIPo5Jm9njv&smid=url-share",
+      "summary_en": "Warner Bros. and Disney have been fierce rivals for decades. But like other entertainment companies, they both struggled …",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Antenna 報告：串流服務組合包（Bundles）佔美國新訂閱用戶 33%，整體佔比達 28%，遠高於 2024 年的 10%",
+      "summary_zh": "儘管華納兄弟與迪士尼競爭數十年，但隨著串流產業面臨挑戰，各大娛樂巨頭正轉向綑綁策略以留住用戶。"
+    },
+    {
+      "title_en": "PitchBook: VC investment in global robotics and physical AI jumped to $26B in 2025 from $4.2B in 2019, and has already topped $23B as of May 20 this year",
+      "url": "https://www.wsj.com/tech/ai/venture-capital-turns-to-hardware-bets-as-ai-threatens-software-companies-29b8b5f3?st=Ah4HHm&reflink=desktopwebshare_permalink",
+      "summary_en": "Investors bet big on infrastructure and ‘physical AI,’ enticed by prospect of revenue opportunities",
       "source": "Wall Street Journal",
       "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "部分企業因「Token 濫用（tokenmaxxing）」導致 AI 預算數月內耗盡或帳單翻倍，開始實施 AI 用量配給或追蹤",
-      "summary_zh": "隨著龐大運算需求的帳單到期，高階主管們正爭相追蹤 AI 投資的回報。"
+      "title_zh": "PitchBook 數據：全球機器人與物理 AI（Physical AI）創投金額從 2019 年的 42 億美元飆升至 2025 年的 260 億美元",
+      "summary_zh": "看好潛在營收與獲利前景，投資者正重金押注基礎設施與「物理 AI」領域。"
     },
     {
-      "title_en": "What to expect at Computex 2026: AI chips, budget PCs competing with the MacBook Neo, Nvidia entering laptop SoC market with the rumored N1X chip, and more",
-      "url": "https://www.pcmag.com/news/computex-2026-preview-9-big-reveals-we-expect-at-asias-largest-tech-show",
-      "summary_en": "The theme for Computex 2026, according to organizer TAITRA, is “AI Together.” Sure, it sounds a little like a tech-industry group hug.",
-      "source": "PCMag",
-      "media_source": "PCMag",
+      "title_en": "Why “Dark Output”, the AI-generated economic value that is currently invisible to national statistics, may be one of the hardest measurement problems in history",
+      "url": "https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of",
+      "summary_en": "Why AI's increasing output is going to be one of the hardest economic measurement problems in history.",
+      "source": "SemiAnalysis",
+      "media_source": "SemiAnalysis",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Computex 2026 前瞻：AI 晶片、與 MacBook Neo 競爭的平價 PC、Nvidia 傳聞以 N1X 晶片進軍筆電 SoC 市場等",
-      "summary_zh": "根據主辦單位外貿協會（TAITRA）的說法，Computex 2026 的主題是「AI Together」。聽起來有點像科技產業的大抱抱。"
+      "title_zh": "為何「暗產出」（Dark Output）可能是史上最難的經濟測量難題：AI 生成的經濟價值目前在國家統計中仍是「隱形的」",
+      "summary_zh": "隨著 AI 產出日益增加，如何精確衡量其帶來的經濟效益，將成為經濟史上最具挑戰性的測量課題之一。"
+    },
+    {
+      "title_en": "How Schneider Electric is using AI in call centers and manufacturing to complement employees' work and boost productivity, rather than to replace them",
+      "url": "https://www.nytimes.com/2026/05/29/business/economy/ai-jobs-productivity.html?unlocked_article_code=1.mFA.I0yg.Kj0ziRl3nH0l",
+      "summary_en": "For many chief executives, success in adopting artificial intelligence is measured by the number of jobs they can eliminate.",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "施耐德電機（Schneider Electric）在客服中心與製造業導入 AI：旨在輔助員工工作並提升生產力，而非取代人力",
+      "summary_zh": "對於許多執行長而言，採用 AI 的成功往往取決於能精簡多少職位，但施耐德電機展現了如何利用 AI 強化員工效能。"
+    },
+    {
+      "title_en": "A profile of OpenAI President Greg Brockman, who is overseeing product in his new role and has become an important ambassador for AI to the Trump administration",
+      "url": "https://www.wsj.com/tech/openai-who-is-greg-brockman-e699816c?st=2GfSwd&reflink=desktopwebshare_permalink",
+      "summary_en": "After years in the shadow of better-known co-founders, Greg Brockman is stepping into the spotlight. He and his wife Anna are also Silicon Valley super-donors.",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "OpenAI 總裁 Greg Brockman 側寫：接掌產品開發新職，並成為與川普政府溝通 AI 政策的重要大使",
+      "summary_zh": "在知名度更高的共同創辦人背後多年後，Greg Brockman 正走向台前；他與妻子 Anna 也是矽谷知名的政治捐助者。"
+    },
+    {
+      "title_en": "Sources detail AI companies' engagement with US FERC as the energy regulator readies a June proposal to speed up data center connections to regional power grids",
+      "url": "https://www.politico.com/news/2026/05/29/how-big-tech-learned-to-speak-ferc-00939329",
+      "summary_en": "“The hyperscalers, when they do come speak to us, they don't speak FERC,” Swett said. “Their complaints about the utilities …",
+      "source": "Politico",
+      "media_source": "Politico",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指出 AI 公司正積極與美國聯邦能源監管委員會（FERC）溝通，監管機構擬於 6 月提案加速資料中心併網",
+      "summary_zh": "超大型雲端服務商（Hyperscalers）對電力公司的延誤感到不滿，正尋求 FERC 協助解決資料中心面臨的能源連接瓶頸。"
+    },
+    {
+      "title_en": "The DOD's $9.7B contract with Dell has raised eyebrows as a potential payback for Michael and Susan Dell's $6.25B donation to 25M US children's Trump Accounts",
+      "url": "https://www.cnbc.com/2026/05/28/michael-dell-trump-accounts-dod.html",
+      "summary_en": "Michael Dell bought into President Donald Trump's second term early. Now his hardware company, Dell Technologies …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "美國國防部與 Dell 簽訂 97 億美元合約引發關注，被質疑是對 Michael Dell 夫婦捐贈 62.5 億美元至川普相關帳戶的回報",
+      "summary_zh": "Michael Dell 很早就押注川普連任，如今他的公司 Dell Technologies 獲得了龐大的政府硬體採購合約。"
     },
     {
       "title_en": "Internal memo: Meta plans to start testing an AI pendant in 2027, release new AI glasses next month, start a “Wearables for Work” unit for enterprises, and more",
@@ -53,311 +130,102 @@
       "media_source": "The Information",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "內部備忘錄：Meta 計劃於 2027 年測試 AI 墜飾、下個月發布新款 AI 眼鏡，並成立企業用的「工作穿戴裝置」部門",
-      "summary_zh": "作為雄心勃勃的路線圖的一部分，Meta 計劃在未來一年內開始測試一款 AI 墜飾..."
+      "title_zh": "Meta 內部備忘錄流出：計畫於 2027 年測試 AI 吊墜、下月發表新款 AI 眼鏡，並成立企業專屬「穿戴式工作裝置」部門",
+      "summary_zh": "Meta Platforms 制定了雄心勃勃的藍圖，包括在未來一年內測試新款 AI 穿戴裝置，將 AI 融入日常穿戴。"
     },
     {
-      "title_en": "US Space Force says SpaceX won a $4.16B contract to build a space-based tracking network as part of President Trump's Golden Dome defensive shield",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-29/spacex-wins-4-billion-contract-for-us-golden-dome-satellites",
-      "summary_en": "SpaceX has won a contract for more than $4 billion to build satellites to track foreign aircraft and missiles as part of President Donald Trump's Golden Dome defensive shield.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "Memory chip makers are leveraging their newfound power to secure long-term agreements, a move set to reshape the industry's business model and stabilize prices",
+      "url": "https://www.wsj.com/tech/ai-has-made-memory-chips-more-valuable-than-oil-3b6976d8?st=8TUYVu&reflink=desktopwebshare_permalink",
+      "summary_en": "Micron, Samsung and SK Hynix are cheap despite their $1 trillion valuations if long-term contracts stabilize the sector",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "美國太空軍表示 SpaceX 贏得 41.6 億美元合約，為川普總統的「黃金穹頂」防禦盾牌建造太空追蹤網路",
-      "summary_zh": "SpaceX 贏得了一份價值超過 40 億美元的合約，將建造衛星來追蹤外國飛機與飛彈，作為川普總統「黃金穹頂（Golden Dome）」防禦盾牌的一部分。"
+      "title_zh": "記憶體晶片大廠運用談判優勢爭取長期供應協議，重塑產業商業模式並穩定市場價格",
+      "summary_zh": "若長期合約能穩定產業波動，儘管 Micron、Samsung 與 SK Hynix 合計市值達 1 兆美元，目前的估值仍具吸引力。"
     },
     {
-      "title_en": "Dell stock closed up 32.81%, its best day ever, after reporting its fastest pace of revenue growth for any period since returning to the public market in 2018",
-      "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
-      "summary_en": "Shares of Dell Technologies closed 32.76% higher on Friday, wrapping its best day ever after the company reported its fastest pace …",
-      "source": "CNBC",
-      "media_source": "CNBC",
+      "title_en": "BlackBerry's stock is up more than 160% over the past three months, as the company's QNX division positions its automotive software as an OS for robots",
+      "url": "https://sherwood.news/markets/blackberry-is-on-one-of-its-hottest-rallies-of-all-time/",
+      "summary_en": "History suggests that BlackBerry does extremely well when 1) it's considered to be pioneering a transformative technology, or 2) there's widespread retail enthusiasm for stocks.",
+      "source": "Sherwood News",
+      "media_source": "Sherwood News",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Dell 股價收盤大漲 32.81% 創史上最佳表現，先前公布自 2018 年重回公開市場以來最快的營收成長速度",
-      "summary_zh": "Dell 股價週五收盤上漲 32.76%，創下該公司有史以來表現最好的一天..."
-    },
-    {
-      "title_en": "Sources: Microsoft is working on an app that will include GitHub Copilot, Copilot chat, Copilot Cowork, and a new agentic workflow tool called Autopilot",
-      "url": "https://fortune.com/2026/05/29/microsoft-working-on-super-app/",
-      "summary_en": "Microsoft needs to solve a nagging problem: It has various Copilot AI assistants throughout its portfolio of products, irking customers who seek a single destination.",
-      "source": "Fortune",
-      "media_source": "Fortune",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息來源：微軟正在開發一款整合 GitHub Copilot、Copilot Chat、Copilot Cowork 及新代理解決方案 Autopilot 的應用程式",
-      "summary_zh": "微軟需要解決一個棘手的問題：其產品組合中有多種不同的 Copilot AI 助手，這讓尋求單一入口的客戶感到困擾。"
-    },
-    {
-      "title_en": "Microsoft overhauled Copilot's design in Microsoft 365 with a minimalist black-and-white, text-focused interface aimed at creating a more consistent experience",
-      "url": "https://www.engadget.com/2183246/microsoft-debuts-a-more-buttoned-up-look-for-copilot/",
-      "summary_en": "",
-      "source": "Engadget",
-      "media_source": "Engadget",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "微軟重新設計 Microsoft 365 中的 Copilot，採用極簡黑白、以文字為中心的介面，旨在打造更一致的體驗",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Picogrid, which is building a hardware and software integration layer for military systems, raised a $45M Series A led by Bessemer",
-      "url": "https://www.tectonicdefense.com/exclusive-picogrid-raises-45m-series-a/",
-      "summary_en": "Picogrid is proving that teamwork really does make the dream work. — This morning, the El Segundo-based hardware and software integration startup announced …",
-      "source": "Tectonic Defense",
-      "media_source": "Tectonic Defense",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "為軍事系統構建硬體與軟體整合層的 Picogrid，在 Bessemer 領投的 A 輪融資中籌集了 4,500 萬美元",
-      "summary_zh": "Picogrid 證明了團隊合作確實能讓夢想成真。這家總部位於埃爾塞貢多（El Segundo）的軟硬體整合新創公司今早宣布..."
-    },
-    {
-      "title_en": "SentinelOne's stock closes down 8% after the company announced plans to lay off 8% of its workforce and forecasted Q2 and FY revenue guidance below estimates",
-      "url": "https://www.cnbc.com/2026/05/29/sentinelone-s-stock-earnings-ai-layoffs.html",
-      "summary_en": "SentinelOne shares sank 8% as the cybersecurity company laid off 8% of its full-time workforce to focus on artificial intelligence and data investments.",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "SentinelOne 股價收盤下跌 8%，該公司宣布裁員 8% 並預測第二季及全年營收指引低於預期",
-      "summary_zh": "由於這家網路安全公司裁減了 8% 的全職員工以專注於 AI 和數據投資，SentinelOne 股價重挫 8%。"
-    },
-    {
-      "title_en": "Former Tesla data labelers say FSD relies on laborious mapping for hazards; crash data analysis shows Tesla exaggerates FSD's safety via flawed methodology",
-      "url": "https://www.reuters.com/investigations/why-teslas-ai-trainers-dont-trust-its-self-driving-tech-or-its-safety-stats-2026-05-28/",
-      "summary_en": "Tesla says its Full Self-Driving software is up to 10 times safer than human drivers. But the figures the company uses to support …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "前 Tesla 數據標註員表示 FSD 依賴繁瑣的危險路況標註；事故數據分析顯示 Tesla 以錯誤的方法誇大 FSD 安全性",
-      "summary_zh": "Tesla 宣稱其 Full Self-Driving 軟體的安全性是人類駕駛員的 10 倍，但該公司用來佐證的數據..."
-    },
-    {
-      "title_en": "Allegations that China is behind US data center protests draw criticism from allies of the AI industry, who say the industry and politicians are in denial",
-      "url": "https://www.washingtonpost.com/technology/2026/05/29/shark-tank-kevin-oleary-claims-china-stirred-data-center-protests/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzgwMDI3MjAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzgxNDA5NTk5LCJpYXQiOjE3ODAwMjcyMDAsImp0aSI6IjFmMzVmZDM3LTdmMWUtNDcyNS1iODFkLThlMjRkYTZiODI2YiIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjYvMDUvMjkvc2hhcmstdGFuay1rZXZpbi1vbGVhcnktY2xhaW1zLWNoaW5hLXN0aXJyZWQtZGF0YS1jZW50ZXItcHJvdGVzdHMvIn0.hzcsr0rPrUo34oZ584iwbXlyByyool96ig0YuBFo1_Q&itid=gfta",
-      "summary_en": "Claims that China and overseas propaganda drive Americans to rise up against data centers are based on scant evidence. — Summary",
-      "source": "Washington Post",
-      "media_source": "Washington Post",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "中國被指幕後指使美國數據中心抗議活動引發 AI 業界盟友批評，稱業界與政界正處於否認狀態",
-      "summary_zh": "關於中國與海外宣傳驅動美國人反對數據中心的說法缺乏證據。"
-    },
-    {
-      "title_en": "Xcena, whose MX1 chip performs data orchestration and KV cache management directly within memory modules, raised a $135M Series B at a $570M valuation",
-      "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
-      "summary_en": "Every time you ask ChatGPT a question, your request triggers a data relay race. Information leaves memory, passes through a CPU for preprocessing …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Xcena 完成 1.35 億美元 B 輪融資，其 MX1 晶片可在記憶體模組內直接進行數據協調與 KV 快取管理",
-      "summary_zh": "每當你向 ChatGPT 提問時，你的請求就會觸發一場數據接力賽。資訊離開記憶體，經過 CPU 進行預處理..."
-    },
-    {
-      "title_en": "Hands-on with Gemini Spark beta rolling out to AI Ultra subs: planned a birthday party from emails and calendar, but called a live-in boyfriend a “close friend”",
-      "url": "https://www.wired.com/story/google-gemini-spark-ai-agent-hands-on/",
-      "summary_en": "Google's new AI agent combed through my emails, documents, and calendar to plan a birthday party and still didn't clock the person most important to me.",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Gemini Spark Beta 版上手體驗：能從郵件與行事曆規劃生日派對，但將同居男友誤認為「親密朋友」",
-      "summary_zh": "Google 的新 AI 代理程式梳理了我的電子郵件、文件和行事曆來策劃生日派對，但卻仍未察覺對我最重要的人。"
-    },
-    {
-      "title_en": "OpenAI says it has briefed the White House on its new biodefense program, which uses GPT-Rosalind to help develop biodefense and pandemic preparedness tools",
-      "url": "https://www.axios.com/2026/05/29/openai-biodefense-program",
-      "summary_en": "OpenAI is launching a tool to help develop new biodefense and pandemic preparedness capabilities, according to an announcement shared first with Axios.",
-      "source": "Axios",
-      "media_source": "Axios",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "OpenAI 表示已向白宮匯報其新的生物防禦計畫，該計畫利用 GPT-Rosalind 協助開發生物防禦與流行病預備工具",
-      "summary_zh": "根據 OpenAI 與 Axios 分享的聲明，該公司正推出一項工具，旨在協助開發新的生物防禦與流行病應對能力。"
-    },
-    {
-      "title_en": "ElevenLabs launches Dubbing v2, which it says preserves the original speaker's emotion, tone, and pacing across 90+ languages while staying synced to content",
-      "url": "https://elevenlabs.io/blog/introducing-dubbing-v2",
-      "summary_en": "Today we're launching Dubbing v2, our revolutionary new AI dubbing model. — For the first time, the emotion and performance …",
-      "source": "ElevenLabs",
-      "media_source": "ElevenLabs",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "ElevenLabs 推出 Dubbing v2，宣稱可在 90 多種語言中保留原講者的情感、語氣與節奏，同時與內容同步",
-      "summary_zh": "我們今天推出了 Dubbing v2，這是我們革命性的全新 AI 配音模型。情感與表現力首次得以保留..."
-    },
-    {
-      "title_en": "Paxos says the US SEC has approved its registration as a clearing agency, allowing it to provide clearing and settlement services for eligible transactions",
-      "url": "https://www.theblock.co/post/402994/paxos-sec-registration",
-      "summary_en": "Quick Take — Paxos said its subsidiary, Paxos Securities Settlement Company (PSSC), has received registration as a clearing agency …",
-      "source": "The Block",
-      "media_source": "The Block",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Paxos 表示美國 SEC 已批准其註冊為結算機構，允許其為符合條件的交易提供清算與結算服務",
-      "summary_zh": "速覽：Paxos 表示其子公司 Paxos Securities Settlement Company (PSSC) 已獲得結算機構註冊..."
-    },
-    {
-      "title_en": "Sources: ByteDance has partnered with chipmaker InnoStar to develop an AI inference chip modeled after Groq's LPUs, which are built to run AI models at low cost",
-      "url": "https://www.theinformation.com/articles/chinas-bytedance-developing-new-ai-chips-like-nvidia-partner-groq",
-      "summary_en": "TikTok owner ByteDance is developing a new chip to run artificial intelligence models as part of an aggressive expansion of its homegrown AI infrastructure.",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息來源：字節跳動與晶片製造商芯投微（InnoStar）合作，開發模仿 Groq LPU 的 AI 推論晶片，旨在低成本運行 AI 模型",
-      "summary_zh": "TikTok 母公司字節跳動正在開發一款新的晶片來運行 AI 模型，這是其積極擴展自主研發 AI 基礎設施的一部分。"
-    },
-    {
-      "title_en": "AI startup Shift launches a free home cleaning service in NYC to record first-person video with a camera-equipped cap and use it to train robots",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
-      "summary_en": "﻿Shift says a ‘magic hat’ will record its cleaners working inside your home. … AI training startup Shift wants to clean your home for free.",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "AI 新創公司 Shift 在紐約推出免費居家清潔服務，利用配備攝影機的帽子記錄第一人稱視角影片以訓練機器人",
-      "summary_zh": "Shift 表示「魔法帽」將記錄清潔人員在您家中的工作情況。AI 訓練新創公司 Shift 希望免費為您打掃家裡。"
-    },
-    {
-      "title_en": "Lenovo's stock is up 105% in May, marking its biggest monthly gain since 1999, after earnings showed AI-related revenue helped offset rising memory costs",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-29/lenovo-doubles-in-best-month-since-1999-on-ai-fueled-rally",
-      "summary_en": "Lenovo Group Ltd. recorded its best month in more than a quarter-century, with the stock doubling in May as investor enthusiasm built around …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "聯想股價 5 月飆升 105%，創 1999 年以來最大單月漲幅，AI 相關營收成功抵銷記憶體成本上漲",
-      "summary_zh": "聯想集團（Lenovo Group Ltd.）創下超過四分之一個世紀以來的最佳單月表現，5 月份股價翻倍，主因是投資者對 AI 的熱情持續高漲..."
-    },
-    {
-      "title_en": "Samsung says it has started shipping its first 12-layer HBM4E samples to major clients; SK Hynix said in April that it aimed to ship HBM4E samples in H2 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/samsung-claims-lead-in-shipping-top-end-ai-memory-chip-samples",
-      "summary_en": "Samsung Electronics Co. has begun shipping samples of the industry's most advanced memory to customers, taking an early lead …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "三星宣佈已開始向主要客戶交付首批 12 層 HBM4E 樣本；SK 海力士先前表示目標於 2026 下半年出貨",
-      "summary_zh": "三星電子已開始向客戶交付業界最先進的記憶體樣本，在競爭中搶佔先機..."
-    },
-    {
-      "title_en": "Blue Origin's New Glenn rocket, which exploded during testing on Thursday, was set to ferry 48 Amazon Leo satellites on Monday; Amazon paid Blue Origin $2.7B",
-      "url": "https://www.ft.com/content/11b2eb12-6623-4624-83a6-5d25c905f3e6",
-      "summary_en": "Failure comes days before planned launch of internet satellites for Amazon",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "藍色起源（Blue Origin）New Glenn 火箭於週四測試中爆炸，原定週一載運 48 顆亞馬遜衛星；亞馬遜已支付 27 億美元",
-      "summary_zh": "在亞馬遜計畫發射網際網路衛星的前幾天，火箭測試傳出失敗消息。"
-    },
-    {
-      "title_en": "A BBC Question Time episode featured a panel with AI-generated historical figures like Churchill, intended to show AI images' “hyper-real and persuasive” nature",
-      "url": "https://www.independent.co.uk/bulletin/culture/ai-bbc-question-time-panel-b2985890.html",
-      "summary_en": "BBC Question Time aired a special episode on AI, featuring a panel composed of AI-generated historical figures.",
-      "source": "The Independent",
-      "media_source": "The Independent",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "BBC《Question Time》節目使用 AI 生成邱吉爾等歷史人物，旨在展示 AI 影像的「超現實與說服力」",
-      "summary_zh": "BBC《Question Time》播出一集 AI 特別節目，邀請由 AI 生成的歷史人物組成討論小組。"
-    },
-    {
-      "title_en": "Anthropic adds dynamic workflows to Claude Code, enabling hundreds of subagents to run in parallel for complex engineering tasks such as framework migrations",
-      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
-      "summary_en": "Early access users and teams inside Anthropic have been using dynamic workflows for a wide range of use cases, including:",
-      "source": "Claude",
-      "media_source": "Claude",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Anthropic 為 Claude Code 增加「動態工作流」，支援數百個子代理並行執行框架遷移等複雜工程任務",
-      "summary_zh": "Anthropic 內部團隊與早期測試用戶已開始將動態工作流應用於多種場景，包括："
-    },
-    {
-      "title_en": "Anthropic says it expects Mythos-class models to be available to all customers “in the coming weeks” following the development of stronger safeguards",
-      "url": "https://www.axios.com/2026/05/28/anthropic-opus-release-mythos",
-      "summary_en": "",
-      "source": "Axios",
-      "media_source": "Axios",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "Anthropic 表示在開發更強的安全防護措施後，預計將於「未來幾週內」向所有客戶開放 Mythos 級別模型",
-      "summary_zh": "Anthropic 預計在強化安全機制後，近期將全面推出其最強大的 Mythos 系列模型。"
+      "title_zh": "BlackBerry 股價三個月內大漲逾 160%，QNX 部門將其車用軟體重新定位為「機器人作業系統」",
+      "summary_zh": "歷史經驗顯示，當 BlackBerry 被視為技術轉型先驅，或是散戶對特定股票展現熱情時，其股價往往表現驚人。"
     }
   ],
   "wsj": [
     {
+      "title_en": "SoftBank to Plow $52 Billion Into French Data Centers",
+      "url": "https://www.wsj.com/tech/ai/softbank-to-plow-52-billion-into-french-data-centers-5268a1be?mod=rss_Technology",
+      "summary_en": "The Japanese company’s initial investment aims to deliver up to 3.1 gigawatts of computing capacity across France by 2031....",
+      "title_zh": "軟銀（SoftBank）計畫投入 520 億美元於法國建設資料中心",
+      "summary_zh": "這家日本公司的首波投資目標是在 2031 年前，為法國提供高達 3.1 GW 的運算能力。"
+    },
+    {
+      "title_en": "The Google Engineer Accused of Risking It All With an Insider Polymarket Bet",
+      "url": "https://www.wsj.com/tech/google-engineer-polymarket-bet-4d27b6b7?mod=rss_Technology",
+      "summary_en": "Michele Spagnuolo, the Google engineer accused of using company data to bet on Polymarket, had a long list of enviable accomplishments...",
+      "title_zh": "Google 工程師被控利用公司內部數據在 Polymarket 預測平台進行內線投注",
+      "summary_zh": "被指控的工程師 Michele Spagnuolo 曾擁有令人稱羨的成就，如今卻因涉嫌利用公司數據在 Polymarket 下注而面臨調查。"
+    },
+    {
+      "title_en": "Robotaxis Are Spreading Across the U.S.—and So Is the Backlash",
+      "url": "https://www.wsj.com/business/autos/robotaxis-are-spreading-across-the-u-s-and-so-is-the-backlash-a4272883?mod=rss_Technology",
+      "summary_en": "As autonomous taxi services scale beyond Silicon Valley, new problems abound for cities....",
+      "title_zh": "無人駕駛計程車（Robotaxi）席捲全美，但反對聲浪也隨之而來",
+      "summary_zh": "隨著自動駕駛服務擴展至矽谷以外，各地城市正湧現各種新問題與管理挑戰。"
+    },
+    {
+      "title_en": "A Famous Math Problem Stumped Humans for 80 Years. AI Just Cracked It.",
+      "url": "https://www.wsj.com/tech/ai/ai-math-solves-erdos-problem-openai-c4029e84?mod=rss_Technology",
+      "summary_en": "The math world is losing its mind over the new solution to an Erdős problem. This is what AI found, how we missed it—and why it matters....",
+      "title_zh": "困擾人類 80 年的著名數學難題，現已被 AI 破解",
+      "summary_zh": "數學界正為艾狄胥（Erdős）難題的新解法感到瘋狂。這是 AI 的發現過程、人類過去忽略的原因，以及其重要性。"
+    },
+    {
       "title_en": "The Billionaire Coding Genius Making the Tough Decisions at OpenAI",
       "url": "https://www.wsj.com/tech/openai-who-is-greg-brockman-e699816c?mod=rss_Technology",
-      "summary_en": "After years in the shadow of better-known co-founders, Greg Brockman is stepping into the spotlight. He and his wife Anna are also Silicon Valley super-donors....",
-      "title_zh": "OpenAI 幕後功臣：在關鍵時刻做出艱難決定的億萬程式天才",
-      "summary_zh": "在知名共同創辦人的光環下隱身多年後，Greg Brockman 正走向台前。他與妻子 Anna 也是矽谷知名的超級捐款人。"
+      "summary_en": "After years in the shadow of better-known co-founders, Greg Brockman is stepping into the spotlight. He and his wife, Anna, are also Silicon Valley superdonors....",
+      "title_zh": "OpenAI 的幕後推手：掌握關鍵決策的億萬富翁編碼天才 Greg Brockman",
+      "summary_zh": "在共同創辦人的光環背後隱身多年後，Greg Brockman 及其妻子 Anna 如今正成為矽谷與政治圈關注的焦點。"
     },
     {
       "title_en": "The First Class of AI Natives Is Graduating. Offices Are Getting Ready.",
       "url": "https://www.wsj.com/tech/ai/ai-natives-graduates-job-cuts-6bab8ac9?mod=rss_Technology",
       "summary_en": "They face cuts to entry-level jobs. They’re also highly sought after for their AI skills....",
-      "title_zh": "首批「AI 原生」畢業生即將步入職場，企業辦公室已做好準備",
-      "summary_zh": "雖然面臨初級職位縮減的威脅，但他們也因具備 AI 技能而受到市場熱烈追捧。"
+      "title_zh": "首批「AI 原生世代」畢業生步入職場，企業辦公室嚴陣以待",
+      "summary_zh": "雖然他們面臨初級職位減少的挑戰，但同時也因具備領先的 AI 技能而成為企業爭相招攬的對象。"
     },
     {
-      "title_en": "What the Tech Gods Should Learn from the Church",
+      "title_en": "What the Tech Gods Should Learn From the Church",
       "url": "https://www.wsj.com/tech/ai/church-pope-ai-belief-33d3c158?mod=rss_Technology",
       "summary_en": "In an age of artificial intelligence, which voice of authority carries more weight? A priest who’s advised the Vatican weighs in....",
-      "title_zh": "科技巨頭應該向教會學習什麼？",
-      "summary_zh": "在人工智慧時代，哪種權威聲音更具分量？一位擔任梵蒂岡顧問的牧師對此發表了看法。"
-    },
-    {
-      "title_en": "Putin’s $26 Billion Longevity Push",
-      "url": "https://www.wsj.com/tech/ai/putins-26-billion-longevity-push-cefe975d?mod=rss_Technology",
-      "summary_en": "Plus, why investors are betting on ‘physical AI’ and how China stuffed the Maextro S800 with gadgets....",
-      "title_zh": "普丁耗資 260 億美元推動長壽計畫",
-      "summary_zh": "此外，探討投資者為何看好「物理 AI」，以及中國如何讓尊界（Maextro）S800 塞滿科技配備。"
+      "title_zh": "科技巨頭應向教會學習什麼",
+      "summary_zh": "在 AI 時代，哪種權威聲音更具份量？一位曾擔任梵蒂岡顧問的牧師對此發表了看法。"
     },
     {
       "title_en": "Venture Capital Turns to Hardware Bets as AI Threatens Software Companies",
       "url": "https://www.wsj.com/tech/ai/venture-capital-turns-to-hardware-bets-as-ai-threatens-software-companies-29b8b5f3?mod=rss_Technology",
       "summary_en": "Investors are betting big on infrastructure and “physical AI,” enticed by the prospect of new revenue opportunities....",
-      "title_zh": "AI 威脅軟體公司生存，創投轉向硬體領域押注",
-      "summary_zh": "投資者看好新營收機會，正大舉押注基礎設施與「物理 AI」。"
-    },
-    {
-      "title_en": "Dell Stock Soars on Data-Center Revenue and Pentagon Deal",
-      "url": "https://www.wsj.com/tech/dell-stock-soars-on-data-center-revenue-and-pentagon-deal-6645700b?mod=rss_Technology",
-      "summary_en": "Shares in the computer hardware maker are up 150% since President Trump’s accounts purchased more than $1 million worth....",
-      "title_zh": "受惠於資料中心營收與五角大廈訂單，戴爾股價飆升",
-      "summary_zh": "自川普總統相關帳戶購入超過 100 萬美元股票後，這家電腦硬體商的股價已上漲 150%。"
+      "title_zh": "AI 威脅軟體公司，創投轉向硬體投資",
+      "summary_zh": "投資者正大舉押注基礎設施和「實體 AI」，被新營收機會的前景所吸引。"
     },
     {
       "title_en": "AI Has Made Memory Chips More Valuable Than Oil",
       "url": "https://www.wsj.com/tech/ai-has-made-memory-chips-more-valuable-than-oil-3b6976d8?mod=rss_Technology",
       "summary_en": "Micron, Samsung and SK Hynix are cheap despite their $1 trillion valuations if long-term contracts stabilize the sector....",
-      "title_zh": "AI 讓記憶體晶片變得比石油更珍貴",
-      "summary_zh": "儘管美光、三星與 SK 海力士市值已達兆元，但若長期合約能穩定產業，目前的估值仍算便宜。"
+      "title_zh": "AI 讓記憶體晶片比石油更值錢",
+      "summary_zh": "儘管市值合計達 1 兆美元，但若長期合約能穩定該產業，美光、三星和 SK 海力士的股價依然顯得便宜。"
     },
     {
       "title_en": "Corporate America Is Starting to Ration AI as Cost Skyrockets",
       "url": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a?mod=rss_Technology",
       "summary_en": "Executives are scrambling to track returns on AI investments as the bill for massive computing needs comes due....",
-      "title_zh": "成本急遽攀升，美國企業開始「配額式」配給 AI 資源",
-      "summary_zh": "隨著龐大運算需求的帳單到期，企業高管正忙於追蹤 AI 投資的回收成效。"
-    },
-    {
-      "title_en": "IBM, Red Hat Pledge $5 Billion for AI-Driven Open Source Security Initiative",
-      "url": "https://www.wsj.com/tech/ai/ibm-red-hat-pledge-5-billion-for-ai-driven-open-source-security-initiative-4f1e03a4?mod=rss_Technology",
-      "summary_en": "Under the new project, dubbed Project Lightwell, the companies said they will deploy a global force of 20,000 engineers, supported by advanced AI, to establish a trusted enterprise clearinghouse....",
-      "title_zh": "IBM 與 Red Hat 承諾投入 50 億美元，啟動 AI 驅動的開源安全倡議",
-      "summary_zh": "根據名為「Project Lightwell」的新計畫，兩家公司表示將部署 2 萬名工程師並輔以先進 AI，建立一個受信任的企業級情報中心。"
-    },
-    {
-      "title_en": "Anthropic Rockets to $965 Billion Valuation, Topping OpenAI in AI Showdown",
-      "url": "https://www.wsj.com/tech/ai/anthropic-valuation-openai-80bf2c0a?mod=rss_Technology",
-      "summary_en": "The company’s latest $65 billion fundraising round was led by Altimeter Capital, Dragoneer, Greenoaks and Sequoia Capital....",
-      "title_zh": "Anthropic 估值飆升至 9,650 億美元，在 AI 大戰中超越 OpenAI",
-      "summary_zh": "公司最新一輪 650 億美元融資由 Altimeter Capital、Dragoneer、Greenoaks 及 Sequoia Capital 領投。"
+      "title_zh": "隨成本飆升，美國企業界開始限額供應 AI",
+      "summary_zh": "隨著龐大運算需求的帳單接踵而至，企業高層正忙於追蹤 AI 投資的報酬率。"
     }
   ],
   "deep_analysis": {
@@ -534,32 +402,20 @@
       ]
     },
     "Lenny's Newsletter": {
-      "title": "Claude Opus 4.8 實測解析：邁向自主代理人的過渡期里程碑 / Claude Opus 4.8 is here. Is it as good as they say?",
+      "title": "Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, and more / 🧠 社群智慧：面試中的 AI 偵測、知識壟斷下的組織設計、產品更名時機及醫護轉職 PM 之路",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-05-28",
-      "url": "https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good",
-      "analysis_zh": "本文源自知名產品社群 Lenny's Newsletter 的影音專欄「How I AI」，由資深產品領導者兼 AI 專家 Claire Vo 主持。Claire 在 Anthropic 正式發佈 Claude Opus 4.8 之際，分享了她獲得早期存取權後的數小時深度實測心得。這篇文章並非單純的技術規格轉述，而是從產品開發者與 AI 工程應用的角度，對這款標榜為「代理人任務（Agentic tasks）優化」的頂尖模型進行了嚴謹的壓力測試與對比分析。\n\n### 全文大意摘要：從對話機器人進化為具備長程自主性的開發代理人\n\nClaire Vo 在文中開門見山地指出，Claude Opus 4.8 的核心定位在於「代理人能力的階躍式提升」。Anthropic 官方數據顯示，該模型在 SWE-bench Pro 的測試中達到了 69.2% 的高分，不僅領先其前代 4.7 版約 5 個百分點，更顯著超越了 GPT 5.5 與 Gemini 3.1。這款模型的設計重點在於更高的誠實度（Honesty）、更精準的指令遵循，以及在長程自動化任務（Long-horizon autonomy）中的耐力。然而，Claire 透過實際的編碼、設計與商業策略任務發現，儘管 Opus 4.8 在從零開始（Greenfield）的開發與單次生成（One-shot）功能上表現驚人，但在處理既有代碼庫的邊緣案例、以及決定性的「最後 10%」細節修整上，依然存在幻覺與邏輯斷裂的問題。此外，Anthropic 同步推出了動態工作流與平行子代理（Parallel subagents）功能，試圖從系統架構層面解決模型單點思考的侷限性。\n\n### 戰略背景與脈絡：在 LLM 性能高原期尋找「自主代理」的差異化破口\n\n2026 年的 AI 市場已進入高度競爭的飽和期，模型間的基準測試（Benchmarks）差距逐漸縮小，開發者更看重的是模型的實戰表現而非理論分數。Anthropic 選擇將 Opus 4.8 定位為「企業級代理人模型」，其戰略意圖非常明顯：在 OpenAI 持續優化邏輯推理、Google 強化生態系整合的同時，Anthropic 試圖壟斷「自主軟體工程」與「長程任務執行」的高端市場。這也解釋了為何 Opus 4.8 的報價維持在每百萬輸入 Token 5 美元、輸出 25 美元的高位——這是一份針對高價值自動化任務的報價，而非大眾化的聊天服務。Anthropic 的戰略邏輯在於，如果模型能節省工程師數小時的除錯與架構設計時間，其昂貴的 Token 成本在企業 ROI 計算中將變得微不足道。同時，這也反映了 AI 模型開發的一個新趨勢：從「通用智力」轉向「專業代理執行力」。\n\n### 作者的核心推演與論點：高分基準測試與真實工程痛點之間的斷裂感\n\nClaire Vo 透過多組對照實驗，推導出一個關鍵論點：基準測試的提升（從 4.7 到 4.8）在某些任務中具有強烈的體感進步，但在其他任務中卻可能出現退步。她在「從零建立原型工具」與「為孩子開發小遊戲」的測試中，對 Opus 4.8 的執行速度與初步準確度給予高度評價，認為其具備了更強的「雄心壯志」，能處理更複雜的起始架構。然而，在「現有代碼庫維護」測試中，Opus 4.8 卻在處理邊緣案例時產生了幻覺，這顯示出模型在處理高脈絡（High-context）但零碎的邏輯時，穩定性仍有待加強。最引人注目的推論是關於「商業策略與路線圖（Roadmap）」任務：Claire 發現 4.8 版雖然判斷力更銳利，但在處理數據密集型策略工作時，她反而更傾向於回頭使用 4.7 版。這暗示了 Opus 4.8 的優化路徑可能過於偏重「行動執行（Acting）」而略微犧牲了部分的「靜態分析（Analysis）」深度，產品經理在使用時必須根據任務屬性選擇合適的「工具」。\n\n### 對整體市場、技術發展與地緣政治的長期影響：定義 2026 年後的 AI 協作新常態\n\nOpus 4.8 的發佈預示著 AI 發展正式進入「代理人治理（Agent Governance）」時代。技術層面上，這代表開發流程將從「人機對話」轉向「人機監管」。當 Anthropic 引入「努力程度控制（Effort Control）」與平行代理架構時，它實際上是在重新定義軟體工程的組織形式：未來的工程師將更像是專案經理，負責設定目標與驗證結果，而中間的實作鏈條將由多個協作的 Opus 子代理完成。從市場角度看，這將迫使 GitHub Copilot 或 Cursor 等工具進行更激進的架構革新，以匹配底層模型的長程自主能力。長期而言，這類高性能模型的普及將極大化降低新創企業的技術門檻，導致「軟體過剩」的現象進一步加劇。在地緣政治與經濟層面，對於這類高成本、高算力需求的代理人模型，將使得 AI 的生產力優勢進一步向能負擔高昂 API 費用的發達市場與大型企業傾斜，技術鴻溝將從「能否使用 AI」轉向「能否負擔得起具備自主執行能力的頂級代理」。",
+      "article_date": "2026-05-30",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-catching-people",
+      "analysis_zh": "這篇文章源自全球知名的產品管理電子報《Lenny's Newsletter》，由社群編輯 Kiyani 彙整其付費會員專屬 Slack 社群中的精華討論。這類「社群智慧」（Community Wisdom）系列文章的價值，在於其不提供教科書式的理論，而是直接針對產品管理者（PM）與科技領袖在 2026 年面臨的最新實戰困境提出解決方案。本次討論的核心環繞在 AI 時代下的招聘誠信、組織內部的知識孤島危機、產品品牌重塑的決策時機，以及跨領域人才（如醫護人員）轉型健康科技 PM 的實踐路徑。\n\n### 全文大意摘要：集結產品社群實戰經驗解決當前 PM 核心痛點\n\n文章開宗明義地指出了現代產品團隊在管理與擴張過程中的四大挑戰。首先是在招募流程中，如何應對候選人利用 AI 工具「作弊」的問題，這已成為 2026 年人力資源管理的首要難題；其次是針對新創公司常見的「知識壟斷」現象，當組織核心邏輯僅存在於少數人腦中時，應如何透過組織設計進行權力下放；第三則是探討產品更名（Rename）的最佳時機點，這往往涉及品牌價值與用戶認知的拉鋸；最後則是職業轉型的具體案例，展示了具備深厚領域專業（Domain Expertise）的人才如何成功切入產品管理。整體而言，這是一份針對高階 PM 與創業者量身打造的行動指南。\n\n### 戰略背景與脈絡：AI 工具普及與跨領域專業轉型重塑 2026 年科技人才市場\n\n當前的科技產業正處於一個矛盾的轉折點：AI 工具的極度普及使得技術門檻降低，但卻大幅提升了判別「真實能力」的困難度。特別是在產品經理的面試中，AI 生成的標準答案讓傳統的案例分析（Case Study）與情境題逐漸失靈。與此同時，隨著健康科技（Health-tech）、金融科技等垂直領域的深化，市場對於單純的「通用型 PM」需求正在減弱，具備第一線專業背景（如文中所提的護理師）並掌握 PM 技能的「混血人才」反而成為稀缺資源。在組織層面，隨著技術迭代加快，如何解決「創始員工知識壟斷」的風險，已成為從 A 輪向 B 輪擴張時必須正面對決的生存課題。\n\n### 作者的核心推演與論點：從面試誠信到組織韌性，實戰智慧更重於標準框架\n\n社群成員的討論推導出一個重要結論：在 AI 輔助面試的威脅下，招聘方必須將重心轉移到「即時邏輯演繹」與「情感連結」。這意味著面試官需要設計更多具備高度不確定性、需要現場進行權衡（Trade-off）討論的題目，而非可預測的架構題。在組織設計上，論點強調了「結構化知識傳承」的重要性，認為不應只是簡單地要求老員工撰寫文件，而是要透過職責重新劃分（Org Redesign），強制性地將決策權碎片化，以避免單點崩潰風險。至於產品更名的邏輯，則從「解決問題」轉向「定義未來」，強調除非當前品牌名稱已限制了產品的擴張天花板，否則不應輕易動用品牌資本進行更名，體現了實戰派極其謹慎的戰略觀。\n\n### 對整體市場、技術發展與地緣政治的長期影響：領域專長將成為產品管理者的最終護城河\n\n從長遠來看，這類社群智慧的演進預示了產品管理角色的再專業化。隨著 AI 處理了大部分的日常行政與初階分析工作，PM 的價值將回歸到對「複雜系統」的理解與對「領域深度」的掌握。醫護人員轉職 PM 的成功案例，預示了未來科技產業將大規模吸收傳統產業的資深從業者，這將改變勞動力市場的流動結構。此外，企業對於 AI 工具在內部流程（如面試、訓練）的應用與防範，將演變成一場持續的技術攻防戰，推動招聘工具與企業內訓平台的全面革新。這不僅是管理技巧的提升，更是對數位時代「人才」定義的重新解構。",
       "insights": [
-        "「最後 10% 困境」依然是 AI 代理人的天花板：即便基準測試分數大幅提升，Opus 4.8 在既有代碼庫的邊緣案例處理上仍會產生幻覺，證明模型尚未完全具備「自我糾錯」的決定性邏輯。",
-        "模型版本進化不再是「全方位覆蓋」：實測顯示 4.8 在執行力與自主性上更強，但在數據密集型策略分析上，前代 4.7 仍保有其獨特優勢，開發者應建立「特定任務匹配特定版本」的思維。",
-        "AI 互動正規化從「提示工程」轉向「預算管理」：隨著「努力程度控制」功能的推出，未來用戶管理 AI 的核心技能將是分配「認知預算」與「運行時間」，而非單純的文字指令精煉。"
+        "在 AI 工具極度普及的 2026 年，面試官的價值在於測試候選人『放棄 AI』後的即時權衡能力，而非標準答案的產出品質。",
+        "組織內的『知識壟斷』不應被視為老員工的資產，而應被視為企業級的單點失效風險（Single Point of Failure），需透過權力碎片化的組織設計強制解套。",
+        "跨領域轉職（如醫護轉 PM）的成功關鍵不在於補足 PM 的標準框架，而在於如何將『一線實務痛點』轉化為產品需求的獨家洞察。"
       ],
       "supplemental_sources": [
         {
-          "title": "Claude Opus 4.8 System Card (Official PDF)",
-          "url": "https://cdn.sanity.io/files/4zrzovbb/website/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf"
-        },
-        {
-          "title": "Anthropic Official Announcement on X",
-          "url": "https://x.com/claudeai/status/2060042702150930686?s=20"
-        },
-        {
-          "title": "ChatPRD - Claire Vo's AI Tool",
-          "url": "https://www.chatprd.ai"
-        },
-        {
-          "title": "Claire Vo's Personal Website",
-          "url": "https://clairevo.com"
+          "title": "Lenny's Newsletter Community Wisdom Index",
+          "url": "https://www.lennysnewsletter.com/s/community-wisdom"
         }
       ]
     },
@@ -601,28 +457,10 @@
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
-      "source": "SemiAnalysis",
-      "title": "AI Dark Output: The Visible Cost of Invisible Output / AI 暗產出：隱形成本下的可視價值與統計盲區",
-      "article_date": "2026-05-29",
-      "url": "https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of"
-    },
-    {
-      "source": "Big Technology",
-      "title": "The Chatbots and Agents Are Going To Merge / 聊天機器人與 AI Agent 的融合：邁向通用「超級 App」的轉型路徑",
-      "article_date": "2026-05-29",
-      "url": "https://www.bigtechnology.com/p/the-chatbots-and-agents-are-going"
-    },
-    {
-      "source": "a16z",
-      "title": "Charts of the Week: Retail to the Moon / 本週圖表：零售投資狂潮與 AI 債務紀元",
-      "article_date": "2026-05-29",
-      "url": "https://www.a16z.news/p/charts-of-the-week-retail-to-the"
-    },
-    {
-      "source": "馬斯克帝國觀察",
-      "title": "【馬斯克帝國觀察】#69 為何 SpaceX 一定要併購特斯拉 + SpaceX 親自打造 AI 訓練系統",
-      "article_date": "2026-05-29",
-      "url": "https://muskempire0628.substack.com/p/69-spacex-spacex-ai-20260529"
+      "source": "Lenny's Newsletter",
+      "title": "Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, and more / 🧠 社群智慧：面試中的 AI 偵測、知識壟斷下的組織設計、產品更名時機及醫護轉職 PM 之路",
+      "article_date": "2026-05-30",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-catching-people"
     }
   ]
 }
