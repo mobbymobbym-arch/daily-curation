@@ -1,352 +1,451 @@
 {
-  "fetch_date": "2026-06-03",
+  "fetch_date": "2026-06-04",
   "techmeme": [
     {
-      "title_en": "Microsoft unveils Project Solara, an Android-based platform for agent-first devices, with concept hardware and pilots planned at Best Buy, Target, and others",
-      "url": "https://www.geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps/",
-      "summary_en": "[Editor's Note: Agents of Transformation is an independent GeekWire series, underwritten by Accenture, exploring the adoption and impact of AI and agents.",
-      "source": "GeekWire",
-      "media_source": "GeekWire",
+      "title_en": "Filing: SpaceX aims to raise $75B in its IPO, selling 555.6M shares at $135 each, which would value the company at almost $1.77T",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-03/spacex-seeks-75-billion-in-record-ipo-plan-to-fund-ai-launch?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDUyMDM2NiwiZXhwIjoxNzgxMTI1MTY2LCJhcnRpY2xlSWQiOiJURlJQOUlLR1pBTlAwMCIsImJjb25uZWN0SWQiOiI1QUY5RjI5QkFCREI0RERFQUIyRTcwNzU0RERFRTQwNSJ9.9RSxlfFaCkaiQa7CQmjMxwhnbwk_ASTQl1yV0TwFvHE",
+      "summary_en": "SpaceX is seeking to raise $75 billion in an initial public offering that would be the biggest of all time, as Elon Musk's rocket, satellite …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "微軟推出 Project Solara，一款基於 Android 的 Agent 優先裝置平台，並計劃與 Best Buy、Target 等通路合作推出概念硬體與試點計劃",
-      "summary_zh": "[編者註：Agents of Transformation 是 GeekWire 的獨立系列報導，由 Accenture 贊助，探討 AI 與 Agent 的採用及影響。]"
+      "title_zh": "文件顯示：SpaceX 計劃在 IPO 中籌集 750 億美元，以每股 135 美元價格出售 5.556 億股，這將使公司估值達到近 1.77 兆美元",
+      "summary_zh": "SpaceX 正尋求在首次公開發行（IPO）中籌集 750 億美元，這可能成為史上規模最大的 IPO。隨著 Elon Musk 的火箭與衛星事業持續擴張……"
     },
     {
-      "title_en": "Microsoft announces Scout, an always-on enterprise AI agent built on OpenClaw, appearing as a Microsoft Teams contact to automate tasks like scheduling and more",
-      "url": "https://www.wired.com/story/meet-microsoft-scout-your-ai-coworker-that-never-logs-off/",
-      "summary_en": "Microsoft's OpenClaw-style agent appears in Teams, just like a human colleague, and automates your dull office tasks.",
-      "source": "Wired",
-      "media_source": "Wired",
+      "title_en": "Analysis: 10 Trump officials, including special envoy Steve Witkoff, reported holding stakes in SpaceX or xAI collectively worth $9.9M+, ahead of SpaceX's IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-03/spacex-ipo-poised-to-enrich-trump-officials-who-hold-millions-in-stock?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDQ5NDEzMSwiZXhwIjoxNzgxMDk4OTMxLCJhcnRpY2xlSWQiOiJURUpTV0tLSzNOWTgwMCIsImJjb25uZWN0SWQiOiJDRDk4ODk0MTQwRUQ0OUI5ODlGMDg4NDk1QUY4QUFEOSJ9.UiFgLhjAvMpfFHWY9TjrGgi36Yo9hmTOhxZ9p49BxPk",
+      "summary_en": "SpaceX's initial public offering will likely make President Donald Trump's already wealthy administration even richer.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "related",
-      "title_zh": "微軟發表基於 OpenClaw 構建的全天候企業級 AI Agent「Scout」，將以 Microsoft Teams 聯絡人形式出現，協助排程等任務自動化",
-      "summary_zh": "微軟基於 OpenClaw 風格的 Agent 現身 Teams，就像真人同事一樣，能幫你處理枯燥的辦公室庶務。"
+      "title_zh": "分析：10 名川普政府官員（包括特使 Steve Witkoff）在 SpaceX 的 IPO 前，被報導共同持有價值超過 990 萬美元的 SpaceX 或 xAI 股份",
+      "summary_zh": "SpaceX 的 IPO 可能會讓川普總統本已富裕的政府團隊財富進一步增長。"
     },
     {
-      "title_en": "President Trump signs a scaled-back AI EO that seeks to address AI's cybersecurity threats; sources say it imposes less scrutiny on AI than the scrapped version",
-      "url": "https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389",
-      "summary_en": "President Donald Trump on Tuesday signed a scaled-back executive order that seeks to address the cybersecurity threats …",
+      "title_en": "Alphabet upsized its equity raise to $84.75B, including $35B in underwritten public offerings, up from a planned $30B; a source says it contacted ~75 investors",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-03-2026/card/exclusive-google-equity-raise-exceeds-expectations-hkhPF0iCfyux6qXhHfQ9",
+      "summary_en": "$35 billion — That's how much stock Google parent Alphabet ended up selling this week in underwritten public offerings …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Alphabet 將股權融資規模上調至 847.5 億美元，其中包括 350 億美元的包銷公開發行，高於原定的 300 億美元；消息稱已聯繫約 75 名投資者",
+      "summary_zh": "350 億美元 —— 這是 Google 母公司 Alphabet 本週在包銷公開發行中最終售出的股票總額……"
+    },
+    {
+      "title_en": "Nearly 40% of Alphabet's planned ~$85B in equity offerings for AI will go toward covering tax obligations tied to employee equity awards, amid the AI talent war",
+      "url": "https://www.theinformation.com/articles/alphabets-fine-print-reveals-hidden-cost-ai-talent-war",
+      "summary_en": "Alphabet's plan to sell $80 billion worth of shares, billed as a way to pay for AI infrastructure and compute, is surprising enough …",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "在 AI 人才爭奪戰中，Alphabet 計劃約 850 億美元的 AI 股權融資中，近 40% 將用於支付與員工股權激勵相關的稅收義務",
+      "summary_zh": "Alphabet 計劃出售價值 800 億美元的股份，對外宣稱是用於支付 AI 基礎設施和算力費用，但其實際用途令人驚訝……"
+    },
+    {
+      "title_en": "OpenAI diverges from Trump's AI EO in a new policy paper, proposing cyber risk evaluations for advanced AI systems be mandatory and led by CAISI, not the NSA",
+      "url": "https://www.politico.com/news/2026/06/03/openai-white-house-ai-safety-rules-00948478",
+      "summary_en": "OpenAI's new proposal comes as its CEO Sam Altman descends on Washington for a series of Wednesday meetings with White House officials …",
       "source": "Politico",
       "media_source": "Politico",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "川普總統簽署縮減版 AI 行政命令，旨在應對 AI 的資安威脅；消息指出此版本對 AI 的監管力道較原先廢除的版本輕",
-      "summary_zh": "美國總統唐納·川普於週二簽署了一項縮減版的行政命令，尋求解決資安威脅……"
+      "title_zh": "OpenAI 在新政策白皮書中與川普的 AI 行政命令分道揚鑣，提議對先進 AI 系統的網路風險評估應為強制性，並由 CAISI 主導而非 NSA",
+      "summary_zh": "OpenAI 提出這項新提案之際，其執行長 Sam Altman 正前往華盛頓，於週三與白宮官員進行一系列會議……"
     },
     {
-      "title_en": "Sources: after Trump nixed an AI EO on May 21, US officials navigated internal strife and chaotic talks; early AI model access was the most contentious issue",
-      "url": "https://www.wired.com/story/the-white-house-is-at-war-with-itself-over-ai-regulation/",
-      "summary_en": "",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "消息人士：川普於 5 月 21 日否決 AI 行政命令後，美方官員在內鬥與混亂談判中斡旋，其中「早期 AI 模型存取權」為最受爭議的焦點",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Microsoft announces seven AI models, including a reasoning one and an “ultra efficient” coding one fine-tuned for GitHub, for businesses and to lower its costs",
-      "url": "https://www.ft.com/content/e8b86648-61b3-4b48-8bd4-a50f03de92d8",
-      "summary_en": "Software giant's AI chief Mustafa Suleyman says focus is on developing products for business users",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "微軟發表 7 款 AI 模型，包含一款推理模型及專為 GitHub 優化的「超高效」編碼模型，旨在服務企業客戶並降低其成本",
-      "summary_zh": "軟體巨擘微軟的 AI 負責人 Mustafa Suleyman 表示，重點在於為商業用戶開發產品。"
-    },
-    {
-      "title_en": "Microsoft debuts MAI-Thinking-1, its first advanced reasoning AI model, trained “from the ground up on clean data, without distillation from third-party models”",
-      "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "summary_en": "MAI-Thinking-1 is one of seven new models announced at Build 2026. … Microsoft announced a bunch of new in-house AI models …",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "微軟發表首款進階推理 AI 模型 MAI-Thinking-1，強調以「乾淨數據從零訓練」，並未經第三方模型蒸餾",
-      "summary_zh": "MAI-Thinking-1 是 Build 2026 大會上發表的 7 款新模型之一。微軟發表了多款全新的自研 AI 模型……"
-    },
-    {
-      "title_en": "Anthropic says it will extend Project Glasswing to organizations in 15+ countries, sources say giving Mythos access to Five Eyes, NATO, Samsung, SK, and others",
-      "url": "https://www.ft.com/content/19ea9ed4-3dd0-43aa-9877-729d44e620e8",
-      "summary_en": "About 150 organisations will be given advanced cyber security model following requests from around the world",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Anthropic 宣佈將 Project Glasswing 擴展至超過 15 個國家的組織，消息稱將提供 Mythos 模型給五眼聯盟、北約及三星、SK 等企業使用",
-      "summary_zh": "因應全球需求，約 150 家組織將獲得這款先進的資安強化模型。"
-    },
-    {
-      "title_en": "Google adds a scam-detection feature, built on RCS, to Android 12 and later that verifies whether a call is coming from the caller's actual Android smartphone",
-      "url": "https://www.wired.com/story/android-is-fighting-phone-scams-with-a-new-feature-to-prove-whos-calling/",
-      "summary_en": "Available for Android 12 and later, the anti-scam feature is baked into Google Dialer, which sends a silent “confirmation signal” …",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Google 為 Android 12 及更新版本新增基於 RCS 的詐騙偵測功能，可驗證來電是否確實來自發話者的 Android 智慧型手機",
-      "summary_zh": "適用於 Android 12 及更新版本，此防詐騙功能內建於 Google Dialer 中，會發送靜默的「確認訊號」……"
-    },
-    {
-      "title_en": "An analysis of 600+ Elon Musk claims over 15 years finds he met deadlines 19% of the time; he achieved 75% of his 2015 goals on time, but under 50% of 2020 ones",
-      "url": "https://www.nytimes.com/interactive/2026/06/02/technology/elon-musk-promises-spacex-ipo.html?unlocked_article_code=1.nFA.5JbI.oCJGHUfbQ87h",
-      "summary_en": "next month By the end of this year another 9 months or so end of month in 3 weeks this year in 2026 in April in <5 years on Jan 17 …",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "針對 Elon Musk 15 年來超過 600 項聲明的分析顯示，其準時達成率僅 19%；他達成了 2015 年 75% 的目標，但 2020 年後的目標達成率不足 50%",
-      "summary_zh": "下個月、今年底、還有大約 9 個月、月底、3 週內、2026 年、4 月、5 年內、1 月 17 日……"
-    },
-    {
-      "title_en": "Microsoft unveils Majorana 2, a quantum chip that it developed using AI tools for materials science, and says it will have commercial quantum machines by 2029",
-      "url": "https://www.reuters.com/business/microsoft-reveals-new-quantum-chip-made-with-ai-says-it-will-have-systems-by-2026-06-02/",
-      "summary_en": "Microsoft (MSFT.O) on Tuesday unveiled a new quantum computing chip that it redesigned with the help of AI …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "微軟發表 Majorana 2 量子晶片，利用 AI 材料科學工具開發，並預計 2029 年前推出商用量子電腦",
-      "summary_zh": "微軟 (MSFT.O) 於週二發表了一款全新的量子運算晶片，該晶片是在 AI 的協助下重新設計而成……"
-    },
-    {
-      "title_en": "OpenAI unveils new Codex plugins for tasks related to public equity investment, banking and sales, and other roles, and plans to integrate Codex into ChatGPT",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-02/openai-plans-ai-tools-for-finance-legal-in-race-with-anthropic",
-      "summary_en": "OpenAI is expanding the functionality of its artificial intelligence coding agent for a number of professions beyond software engineering …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "OpenAI 發表新款 Codex 插件，涵蓋公開股權投資、銀行與銷售等職務，並計劃將 Codex 整合進 ChatGPT",
-      "summary_zh": "OpenAI 正在擴展其 AI 編碼 Agent 的功能，使其能服務軟體工程以外的多個專業領域……"
-    },
-    {
-      "title_en": "OpenAI releases a new knowledge work report: Codex now has 5M+ weekly active users, up 6x+ since February, and knowledge workers represent ~20% of Codex users",
-      "url": "https://openai.com/index/codex-for-knowledge-work",
-      "summary_en": "",
-      "source": "OpenAI",
-      "media_source": "OpenAI",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "OpenAI 發布知識工作報告：Codex 週活躍用戶已突破 500 萬，自 2 月以來增長逾 6 倍，知識工作者約佔 Codex 用戶的 20%",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Microsoft unveils a Surface RTX Spark Dev Box, featuring Nvidia's Arm-based RTX Spark, 128GB of unified memory, and a 100W thermal envelope, for local AI tasks",
-      "url": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
-      "summary_en": "The Surface RTX Spark Dev Box is designed for local-first AI development. … Microsoft only just announced a new Surface Laptop Ultra …",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "微軟發表 Surface RTX Spark Dev Box，搭載 Nvidia Arm 架構 RTX Spark 晶片與 128GB 統一記憶體，專為本機 AI 任務設計",
-      "summary_zh": "Surface RTX Spark Dev Box 專為「本機優先」的 AI 開發而設計。微軟才剛發表了新款 Surface Laptop Ultra……"
-    },
-    {
-      "title_en": "A live blog of Microsoft Build 2026, where the company launched seven AI models, developer tools for Windows, a GitHub Copilot app, Project Solara, and more",
-      "url": "https://www.engadget.com/2185601/microsoft-build-2026-live-blog-copilot-windows-news/",
-      "summary_en": "We're expecting the presentation to last two and a half hours and cover a lot of ground. — Developer conference season continues …",
-      "source": "Engadget",
-      "media_source": "Engadget",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Microsoft Build 2026 直擊：微軟發表 7 款 AI 模型、Windows 開發者工具、GitHub Copilot App 及 Project Solara 等重大更新",
-      "summary_zh": "預計演講將持續兩個半小時，內容涵蓋極廣。開發者大會季節持續進行中……"
-    },
-    {
-      "title_en": "A recording of the Microsoft Build 2026 keynote",
-      "url": "https://www.youtube.com/watch?v=FFMm454fxNA",
-      "summary_en": "",
-      "source": "YouTube",
-      "media_source": "YouTube",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "Microsoft Build 2026 主題演講錄影",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "The US sanctions Nobitex, Iran's largest crypto exchange, accusing it of helping Iran's government and blacklisted state institutions evade Western sanctions",
-      "url": "https://www.reuters.com/world/middle-east/us-sanctions-irans-largest-crypto-exchange-over-irgc-links-2026-06-02/",
-      "summary_en": "The United States announced sanctions on Iran's biggest cryptocurrency exchange on Tuesday, accusing it of enabling the Iranian government …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "美國制裁伊朗最大加密貨幣交易所 Nobitex，指控其協助伊朗政府及黑名單機構規避西方制裁",
-      "summary_zh": "美國週二宣布對伊朗最大的加密貨幣交易所實施制裁，指控其為伊朗政府提供便利……"
-    },
-    {
-      "title_en": "Sources: a Broadcom-backed portion of Apollo and Blackstone's $36B debt deal to buy TPUs for Anthropic to lease may yield ~5.75% vs. 8%-9% for a riskier portion",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-02/broadcom-backing-lowers-debt-costs-on-36-billion-anthropic-deal",
-      "summary_en": "Broadcom Inc.'s promise to backstop the largest portion of a record-setting microchip financing deal for Anthropic is keeping yields …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：由 Broadcom 擔保、Apollo 與 Blackstone 參與的 360 億美元債務協議，部分資金將用於 Anthropic 租賃 TPU，殖利率約 5.75%",
-      "summary_zh": "Broadcom 承諾為 Anthropic 這筆破紀錄的微晶片融資交易中最大份額提供擔保，此舉壓低了殖利率……"
-    },
-    {
-      "title_en": "Source: a CoreWeave-tied data center raised $900M via five-year junk bonds, priced at par to yield 7.5%, as the sector increasingly turns to high-yield bonds",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-02/coreweave-tied-data-center-raises-900-million-in-junk-bond-sale",
-      "summary_en": "",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "消息人士：CoreWeave 關聯數據中心透過發行 5 年期垃圾債券籌集 9 億美元，殖利率為 7.5%，反映該產業日益轉向高收益債券融資",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Amazon schedules Prime Day for June 23 to June 26, shifting the four-day sales event from July to avoid the end of the FIFA World Cup and US Independence Day",
-      "url": "https://www.reuters.com/business/retail-consumer/amazon-moves-prime-day-back-june-keeps-it-four-day-event-2026-06-02/",
-      "summary_en": "Amazon.com (AMZN.O) will host its annual Prime Day sales event from June 23 to June 26 after launching the event in July for the past five years …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Amazon 宣布 Prime Day 定於 6 月 23 日至 26 日，將活動從 7 月提前以避開世界盃決賽與美國獨立紀念日",
-      "summary_zh": "Amazon (AMZN.O) 將於 6 月 23 日至 26 日舉辦年度 Prime Day 促銷活動，過去五年該活動多在 7 月舉行……"
-    },
-    {
-      "title_en": "Email: the EU Parliament plans to replace Google with the French search engine Qwant as the default search tool on its computers, seeking digital sovereignty",
-      "url": "https://www.politico.eu/article/european-parliament-ditches-google-for-french-search-engine/",
-      "summary_en": "The switch lands as EU officials prepare a broader push to wean off US tech. — BRUSSELS — Move over, Google.",
+      "title_en": "The EU Commission unveils its tech sovereignty package, including the EU's Cloud and AI Development Act, in a bid to reduce its reliance on US tech companies",
+      "url": "https://www.politico.eu/article/eu-plots-long-game-against-us-digital-supremacy/",
+      "summary_en": "The European Commission's so-called tech sovereignty plan aims to boost domestic champions rather than shut out American competitors.",
       "source": "Politico",
       "media_source": "Politico",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "電子郵件顯示：歐洲議會計劃將電腦預設搜尋工具從 Google 更換為法國搜尋引擎 Qwant，旨在追求數位主權",
-      "summary_zh": "此轉變正值歐盟官員準備更大規模推動擺脫對美國科技依賴之際。布魯塞爾報導：Google 請讓位。"
+      "title_zh": "歐盟執委會揭曉「技術主權」方案，包含《歐盟雲端與 AI 發展法案》，旨在減少對美國科技公司的依賴",
+      "summary_zh": "歐盟執委會所謂的技術主權計劃，目標是扶植本土龍頭企業，而非單純將美國競爭對手拒之門外。"
     },
     {
-      "title_en": "Sixteen mathematicians publish the Leiden Declaration on AI and Mathematics to warn of potential threats to the field, such as around accuracy and reliability",
-      "url": "https://www.nytimes.com/2026/06/02/science/ai-mathematics-leiden-declaration.html?unlocked_article_code=1.nFA.v6n1.vQ52ZDoCvFBV&smid=url-share",
-      "summary_en": "A week after OpenAI made headlines with an A.I.-generated proof, a new “declaration” by 16 experts raises concerns that the technology threatens math as a discipline.",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "16 位數學家發表《萊頓 AI 與數學宣言》，警告 AI 可能對該領域的準確性與可靠性構成威脅",
-      "summary_zh": "在 OpenAI 因 AI 生成的數學證明引發關注的一週後，16 位專家發表新「宣言」，表達對該技術可能威脅數學學科完整性的擔憂。"
-    },
-    {
-      "title_en": "Uber limits all employees to $1,500 in monthly token spending per AI coding tool “to responsibly encourage agentic AI adoption and experimentation at scale”",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs",
-      "summary_en": "Uber Technologies Inc. has set usage caps on some artificial intelligence-powered tools used by its staff …",
+      "title_en": "The EU's Cloud and AI Development Act aims to triple data center capacity in five to seven years; the Chips Act 2.0 recommends allowing direct EU investments",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-03/europe-unveils-sweeping-tech-sovereignty-plan-to-boost-chips-ai",
+      "summary_en": "",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Uber 限制員工每項 AI 程式碼工具每月額度 1,500 美元，旨在「負責任地推動代理式 AI 的大規模採用與實驗」",
-      "summary_zh": "Uber Technologies 已針對其員工使用的部分 AI 驅動工具設定使用上限……"
+      "techmeme_cluster_role": "related",
+      "title_zh": "歐盟《雲端與 AI 發展法案》目標在五到七年內將數據中心容量翻三倍；《晶片法案 2.0》建議允許歐盟直接投資",
+      "summary_zh": ""
     },
     {
-      "title_en": "Marvell shares closed up 32.52% on Tuesday after Jensen Huang hailed the chipmaker as the “next trillion-dollar company” at Computex",
-      "url": "https://www.cnbc.com/2026/06/02/jensen-huang-nvidia-marvell-technology-trillion-dollar-ai.html",
-      "summary_en": "Nvidia's CEO Jensen Huang hailed Marvell Technology as the next trillion-dollar firm, sending its shares up 32% on Tuesday.",
-      "source": "CNBC",
-      "media_source": "CNBC",
+      "title_en": "Google introduces Gemma 4 12B, a unified, encoder-free open multimodal model that can run locally on devices with 16GB of VRAM or unified memory",
+      "url": "https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop",
+      "summary_en": "While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market.",
+      "source": "VentureBeat",
+      "media_source": "VentureBeat",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "黃仁勳於 Computex 稱讚 Marvell 為「下一家兆元級企業」後，該公司股價週二收盤大漲 32.52%",
-      "summary_zh": "NVIDIA 執行長黃仁勳稱讚 Marvell 為下一家市值兆元的公司，激勵其股價在週二飆升 32%。"
+      "title_zh": "Google 推出 Gemma 4 12B，這是一個統一、無編碼器的開源多模態模型，可直接在具有 16GB VRAM 或統一記憶體的設備上本地運行",
+      "summary_zh": "當許多 AI 開源模型提供商正在追求更大、更強大的模型時，Google 仍持續關注體積較小、適合本地運行的市場領域。"
     },
     {
-      "title_en": "Perplexity unveils a Computer feature that splits tasks across local models and cloud-based models, to keep private data on-device and maximize token efficiency",
-      "url": "https://9to5mac.com/2026/06/02/perplexity-computer-adding-ability-to-split-tasks-between-local-and-cloud-models/",
-      "summary_en": "Perplexity has announced a major new feature coming soon to Perplexity Computer: the ability to split tasks between local and cloud models.",
-      "source": "9to5Mac",
-      "media_source": "9to5Mac",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Perplexity 推出「Computer」新功能，可跨本地與雲端模型分配任務，確保私有數據不離端並極大化 Token 效率",
-      "summary_zh": "Perplexity 宣布 Perplexity Computer 即將推出重大功能：能在本地與雲端模型之間拆分任務。"
-    },
-    {
-      "title_en": "Meta is testing a Series feature, letting select creators make episodic Reels that are placed in a dedicated hub on their profile, using both old and new Reels",
-      "url": "https://techcrunch.com/2026/06/02/meta-tests-series-for-episodic-reels-on-instagram-and-facebook/",
-      "summary_en": "Meta is testing a new “Series” feature for Reels that's designed to make it easier to keep up with serialized content on Instagram and Facebook, the company told TechCrunch.",
+      "title_en": "Meta introduces Meta Business Agent, an AI agent that lets businesses on WhatsApp, Instagram, and Messenger answer customer questions, close sales, and more",
+      "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/",
+      "summary_en": "For years, WhatsApp has been a communication layer for businesses of all sizes around the world.",
       "source": "TechCrunch",
       "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Meta 測試「Series」功能，讓特定創作者在個人檔案專區展示章回式 Reels 短影音",
-      "summary_zh": "Meta 正為 Reels 測試新的「Series」功能，旨在讓用戶更輕鬆地追蹤 Instagram 和 Facebook 上的系列化內容。"
+      "title_zh": "Meta 推出 Meta Business Agent，這是一款 AI 代理，讓 WhatsApp、Instagram 和 Messenger 上的商家能回答客戶問題、完成銷售等",
+      "summary_zh": "多年來，WhatsApp 一直是全球各種規模企業的重要通訊層。"
+    },
+    {
+      "title_en": "In a report, UK lawmakers call on the government to end a £330M NHS deal with Palantir and disclose more details of a military contract with the company",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-02/palantir-s-330-million-nhs-deal-under-fire-from-uk-lawmakers",
+      "summary_en": "British members of parliament are calling on the government to end a major deal with Palantir Technologies Inc. and disclose …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "英國國會議員在報告中呼籲政府結束與 Palantir 價值 3.3 億英鎊的 NHS 合約，並披露更多與該公司軍事合約的細節",
+      "summary_zh": "英國國會議員呼籲政府終止與 Palantir Technologies Inc. 的重大交易，並要求公開更多資訊……"
+    },
+    {
+      "title_en": "Security firm Calif says it used OpenAI's Codex to discover HTTP/2 Bomb, a remote DoS exploit affecting web servers like Nginx, Apache HTTPD, and Microsoft IIS",
+      "url": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+      "summary_en": "Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX …",
+      "source": "The Hacker News",
+      "media_source": "The Hacker News",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "資安公司 Calif 表示使用 OpenAI 的 Codex 發現了 HTTP/2 Bomb，這是一種影響 Nginx、Apache HTTPD 和 Microsoft IIS 等網頁伺服器的遠端 DoS 漏洞",
+      "summary_zh": "資安研究人員發現了一種遠端拒絕服務（DoS）攻擊漏洞，會影響包括 NGINX 在內的主流網頁伺服器……"
+    },
+    {
+      "title_en": "The UK CMA says publishers in the country will be allowed to opt out of Google's AI Overviews search results, giving Google nine months to implement the changes",
+      "url": "https://www.bbc.com/news/articles/c775pp26yz5o",
+      "summary_en": "Online publishers can choose not to appear in the AI Overviews of Google search results n the UK, the Competition and Markets Authority (CMA) has announced.",
+      "source": "BBC",
+      "media_source": "BBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "英國 CMA 表示，該國發布商將被允許退出 Google 的 AI Overviews 搜尋結果，並給予 Google 九個月的時間來實施變更",
+      "summary_zh": "英國競爭與市場管理局（CMA）宣布，線上發布商可以選擇不出現在 Google 搜尋結果的 AI Overviews 中。"
+    },
+    {
+      "title_en": "Google says it is testing a new toggle inside its Search Console with some UK domain owners, letting them decide whether their sites appear in AI search results",
+      "url": "https://www.engadget.com/2186257/google-will-allow-websites-to-exclude-themselves-from-ai-search-results/",
+      "summary_en": "",
+      "source": "Engadget",
+      "media_source": "Engadget",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "Google 表示正在與部分英國網域所有者測試 Search Console 內的新切換開關，讓他們決定其網站是否出現在 AI 搜尋結果中",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Amazon announces new visual search features, including displaying AI-generated images of products within its app based on users' search queries",
+      "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
+      "summary_en": "In what may be one of the more questionable uses of AI to date, Amazon announced on Wednesday that it will display AI-generated images …",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Amazon 宣佈新的視覺搜尋功能，包括根據使用者的搜尋查詢在 App 中顯示 AI 生成的產品圖像",
+      "summary_zh": "這可能是目前對 AI 最具爭議的應用之一，Amazon 週三宣布將顯示由 AI 生成的產品圖像……"
+    },
+    {
+      "title_en": "GitLab cuts 350 staff, or ~14% of its workforce, pivoting “to be the trusted enterprise platform for software creation in the AI era”, and exits 22 countries",
+      "url": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813?st=EjHR3H&reflink=desktopwebshare_permalink",
+      "summary_en": "The company will also exit 22 countries, reducing its geographic footprint by about 37%",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "GitLab 裁員 350 人（約 14% 的員工），轉向「成為 AI 時代軟體創作的信任企業平台」，並退出 22 個國家",
+      "summary_zh": "該公司還將退出 22 個國家，使其地理據點減少約 37%。"
+    },
+    {
+      "title_en": "AI music startup Suno raised $400M led by Bond at a $5.4B valuation, up from $2.45B after raising $250M in November 2025, and passed 2M subscribers in February",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-03/ai-music-startup-suno-raises-capital-at-5-4-billion-valuation",
+      "summary_en": "Suno Inc., a startup that enables people to make music using artificial intelligence, has raised $400 million at a valuation of $5.4 billion.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "AI 音樂新創公司 Suno 完成 4 億美元融資，由 Bond 領投，估值達 54 億美元，較 2025 年 11 月融資時的 24.5 億美元大幅增長",
+      "summary_zh": "Suno Inc. 是一家讓使用者能利用人工智慧創作音樂的新創公司，已成功籌集 4 億美元，估值達到 54 億美元。"
+    },
+    {
+      "title_en": "Broadcom reports Q2 revenue up 48% YoY to $22.19B, vs. $22.27B est., and forecasts Q3 semiconductor revenue from AI below estimates; AVGO drops 12%+ after hours",
+      "url": "https://www.reuters.com/world/china/broadcom-forecasts-quarterly-revenue-above-estimates-2026-06-03/",
+      "summary_en": "Broadcom (AVGO.O) missed Wall Street expectations for second-quarter revenue on Wednesday, as increased competition …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "博通（Broadcom）報告第二季營收年增 48% 至 221.9 億美元，低於預期的 222.7 億美元，並預測第三季 AI 半導體營收低於預期；AVGO 盤後大跌 12% 以上",
+      "summary_zh": "博通週三公佈的第二季營收未達華爾街預期，原因是競爭日益激烈……"
+    },
+    {
+      "title_en": "CrowdStrike reports Q1 revenue up 26% YoY to $1.39B, vs. $1.36B est., and forecasts Q2 revenue of about $1.44B, vs. $1.43B est.; CRWD drops 9%+ after hours",
+      "url": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html",
+      "summary_en": "CrowdStrike narrowly beat Wall Street's fiscal first-quarter estimates after the bell on Wednesday, but shares slid 10% following the report.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "CrowdStrike 報告第一季營收年增 26% 至 13.9 億美元，高於預期的 13.6 億美元；預測第二季營收約 14.4 億美元，但 CRWD 盤後仍跌 9% 以上",
+      "summary_zh": "CrowdStrike 週三盤後公佈的會計年度第一季財報微幅超越華爾街預期，但股價在財報公佈後仍下跌了 10%。"
+    },
+    {
+      "title_en": "AI market research platform AlphaSense raised $350M from Vitruvian, Accenture, and others at a $7.5B valuation, up from $4B in 2024, ahead of a possible IPO",
+      "url": "https://www.wsj.com/business/entrepreneurship/market-research-firm-alphasense-clinches-7-5-billion-valuation-in-new-funding-round-bda34de4?st=ytruSy&reflink=desktopwebshare_permalink",
+      "summary_en": "Firm raises $350 million from investors including Accenture and JPMorgan's asset-management unit.",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "AI 市場研究平台 AlphaSense 從 Vitruvian、Accenture 等處籌集 3.5 億美元，估值達 75 億美元，準備可能進行 IPO",
+      "summary_zh": "該公司從包括 Accenture 和摩根資產管理在內的投資者手中籌集了 3.5 億美元。"
+    },
+    {
+      "title_en": "Google unveils five AI data center water commitments, including becoming water positive by 2030, local infrastructure investments, and transparency about usage",
+      "url": "https://www.theverge.com/policy/942296/google-water-commitments-data-centers",
+      "summary_en": "The company promises to replenish more water than it uses by 2030. … In the face of widespread backlash …",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Google 公佈五項 AI 數據中心用水承諾，包括 2030 年實現「水資源正向」（Water Positive）、投資在地基礎設施以及提高使用透明度",
+      "summary_zh": "該公司承諾到 2030 年補給的水量將超過其消耗量。面對廣泛的輿論壓力……"
+    },
+    {
+      "title_en": "The US and other Five Eyes nations warn that China is flooding online job platforms with fake profiles and offers targeting government and military personnel",
+      "url": "https://www.washingtonpost.com/world/2026/06/03/us-allies-say-china-is-using-job-platforms-target-security-personnel/",
+      "summary_en": "Nations in the Five Eyes intelligence partnership warned that fake profiles and job offers are targeting military officers, spies …",
+      "source": "Washington Post",
+      "media_source": "Washington Post",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "美國及其他五眼聯盟國家警告：中國正利用虛假個人資料與職缺滲透線上求職平台，鎖定政府及軍方人員",
+      "summary_zh": "五眼聯盟情報合作夥伴警告，虛假個人資料與招聘廣告正鎖定軍方官員、情報人員⋯"
+    },
+    {
+      "title_en": "Apple plans to open an Apple Developer Center in Berlin in 2026, its first center in Europe and fifth globally, offering in-person developer access and sessions",
+      "url": "https://www.forbes.com/sites/davidphelan/2026/06/03/apple-to-open-europes-first-developer-center-in-berlin-ahead-of-wwdc-2026/",
+      "summary_en": "In an announcement that is characteristically well-timed before the upcoming Worldwide Developers Conference which kicks off on Monday …",
+      "source": "Forbes",
+      "media_source": "Forbes",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Apple 計劃於 2026 年在柏林開設 Apple 開發者中心，為歐洲首座、全球第五座中心，提供實體開發者支援與課程",
+      "summary_zh": "趕在下週一即將開幕的全球開發者大會 (WWDC) 前夕，Apple 發布了這項極具時機點的公告⋯"
+    },
+    {
+      "title_en": "Sources: Lila Sciences, which uses AI tools to speed up the rate of scientific discovery, is in talks to raise a $2B Series B at an expected valuation of ~$8.5B",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-03/lila-sciences-said-in-talks-for-funds-at-8-5-billion-valuation",
+      "summary_en": "Artificial intelligence research startup Lila Sciences Inc. is in talks to raise about $2 billion at an expected valuation …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指出：利用 AI 工具加速科學發現的 Lila Sciences 正洽談 20 億美元 B 輪融資，估值預計達 85 億美元",
+      "summary_zh": "AI 研究新創公司 Lila Sciences Inc. 正洽談籌集約 20 億美元，預計估值將達⋯"
+    },
+    {
+      "title_en": "Internal documents: Meta is considering tiered pricing for “Hatch”, its planned OpenClaw-like AI agent tool, including a $200-per-month premium subscription",
+      "url": "https://www.theinformation.com/articles/meta-looks-charge-200-month-planned-hatch-ai-agent",
+      "summary_en": "Meta Platforms is considering charging up to $200 a month for its planned consumer version of the OpenClaw AI agent tool …",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "內部文件顯示：Meta 正考慮為其類 OpenClaw 的 AI 代理工具「Hatch」推行分級定價，包括每月 200 美元的進階訂閱方案",
+      "summary_zh": "Meta Platforms 正考慮針對計劃推出的消費者版 OpenClaw AI 代理工具收取每月高達 200 美元的費用⋯"
+    },
+    {
+      "title_en": "Apple says users in Texas must confirm they are 18 years or older or obtain parental consent to create an Apple Account starting June 4, after a court ruling",
+      "url": "https://www.macrumors.com/2026/06/03/apple-app-store-texas-sb-2420/",
+      "summary_en": "Apple today said App Store rules in Texas are changing due to the enforcement of SB 2420, a law that adds age assurance requirements for app marketplaces and developers.",
+      "source": "MacRumors",
+      "media_source": "MacRumors",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Apple 表示受法院判決影響，德州用戶自 6 月 4 日起建立 Apple 帳號須確認年滿 18 歲或取得家長同意",
+      "summary_zh": "Apple 今日表示，因應 SB 2420 法案的執行，德州的 App Store 規則正在變更。該法案對應用程式市場與開發者增加了年齡確認要求。"
+    },
+    {
+      "title_en": "Nvidia acquired Kumo, which sells predictive AI software to enterprises, a source says for $400M+; PitchBook: Kumo raised $37M at a $250M valuation in 2022",
+      "url": "https://www.theinformation.com/articles/nvidia-buys-enterprise-model-maker-kumo-ai-least-400-million",
+      "summary_en": "Nvidia has bought Kumo AI, a five-year-old startup that sells predictive AI software to enterprises, for more than $400 million, said a person with knowledge of the deal.",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Nvidia 據悉以超過 4 億美元收購企業預測 AI 軟體公司 Kumo；PitchBook 資料顯示其 2022 年估值為 2.5 億美元",
+      "summary_zh": "據知情人士透露，Nvidia 已斥資超過 4 億美元收購成立五年的企業預測 AI 軟體新創公司 Kumo AI。"
+    },
+    {
+      "title_en": "Sources: Benchmark raised $2B across two new funds, including a $1.25B fund for late-stage bets, its first growth fund after decades focusing on new startups",
+      "url": "https://www.wsj.com/finance/investing/silicon-valley-stalwart-benchmark-breaks-from-past-embraces-mature-startups-d69e2493",
+      "summary_en": "After a late-stage bet on Cerebras delivered big returns, Benchmark decided to raise its first-ever growth fund",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息人士：Benchmark 募集 20 億美元兩支新基金，含 12.5 億美元晚期投資基金，為其數十年來首支成長基金",
+      "summary_zh": "在對 Cerebras 的晚期投資獲得豐厚回報後，Benchmark 決定募集其史上第一支成長基金。"
+    },
+    {
+      "title_en": "Sources: DeepSeek is set to raise ~$7.4B in its first funding round from investors, including Tencent and CATL, at a valuation of between ~$52B and ~$59B",
+      "url": "https://www.reuters.com/business/retail-consumer/deepseek-slated-draw-7-billion-maiden-fundraising-sources-say-2026-06-03/",
+      "summary_en": "DeepSeek, China's best-known AI startup, is set to raise about 50 billion yuan ($7.4 billion) in its first funding round …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指中國 AI 新創 DeepSeek 擬首輪融資約 74 億美元，騰訊與寧德時代參投，估值最高達 590 億美元",
+      "summary_zh": "中國最知名的 AI 新創公司 DeepSeek 預計在首輪融資中籌集約 500 億人民幣（74 億美元）⋯"
+    },
+    {
+      "title_en": "Meta is alerting Instagram users whose accounts were taken over using Meta AI chatbot; some hackers claim to still be able to exploit Meta AI chatbot",
+      "url": "https://techcrunch.com/2026/06/03/instagram-is-alerting-users-who-were-targeted-by-hackers-during-ai-chatbot-attacks/",
+      "summary_en": "The widespread hacking campaign that relied on simply asking Meta AI's chatbot to take over a victim's Instagram account appears …",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Meta 警示 Instagram 用戶帳號遭利用 Meta AI 聊天機器人奪取；部分駭客聲稱仍能繞過限制進行漏洞攻擊",
+      "summary_zh": "這場廣泛的駭客攻擊活動似乎僅需向 Meta AI 聊天機器人下令即可奪取受害者的 Instagram 帳號⋯"
+    },
+    {
+      "title_en": "Meta is spinning off Supernatural into an independent company, Supernatural Health, after earlier saying the VR fitness game would stop getting new content",
+      "url": "https://www.theverge.com/news/941816/supernatural-health-meta-quest-vr?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IlhpRmdiRGZWWXQiLCJwIjoiL25ld3MvOTQxODE2L3N1cGVybmF0dXJhbC1oZWFsdGgtbWV0YS1xdWVzdC12ciIsImV4cCI6MTc4MDkzMDgzMywiaWF0IjoxNzgwNDk4ODMzfQ.zwkN_6H5o6vA_XE1Jow4dUEETYVvIu5t_62NpWtaBrk",
+      "summary_en": "The game is being spun out into an independent company called Supernatural Health. … A few months ago, Meta effectively handed Supernatural …",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Meta 將 VR 健身遊戲 Supernatural 拆分為獨立公司 Supernatural Health，此前曾表示該遊戲將停止更新內容",
+      "summary_zh": "該遊戲正被拆分為名為 Supernatural Health 的獨立公司。幾個月前，Meta 實際上已將 Supernatural 的經營權交出⋯"
+    },
+    {
+      "title_en": "Doc: Apple agreed in May to submit the financials of its India business to the country's antitrust body as part of an investigation over alleged market abuses",
+      "url": "https://www.reuters.com/world/india/apple-agrees-submit-india-financials-long-pending-antitrust-case-2026-06-03/",
+      "summary_en": "Apple has agreed to submit the financials of its India business to the country's antitrust body as part of an investigation …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "文件顯示：Apple 於 5 月同意向印度反壟斷機構提交印度業務財務數據，以配合針對其涉嫌市場濫用的調查",
+      "summary_zh": "作為調查的一環，Apple 已同意向印度的反壟斷機構提交其在印度業務的財務報表⋯"
+    },
+    {
+      "title_en": "Leading the Future, the pro-AI super PAC backed by Greg Brockman, appears to be linked to multiple sockpuppet accounts, including a purported anti-AI activist",
+      "url": "https://x.com/themidasproj/status/2062188060004241592",
+      "summary_en": "A Pro-AI Super PAC's Secret Meme Sockpuppets",
+      "source": "@themidasproj",
+      "media_source": "@themidasproj",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "由 Greg Brockman 支持的親 AI 超級政治行動委員會 Leading the Future 疑似與多個分身帳號有關，其中包含偽裝的反 AI 運動人士",
+      "summary_zh": "親 AI 超級政治行動委員會 (Super PAC) 的秘密迷因分身帳號。"
+    },
+    {
+      "title_en": "Boston-based software monitoring startup Coralogix raised a $200M Series F at a $1.6B post-money valuation, up from $1B+ after a $115M Series E in June 2025",
+      "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+      "summary_en": "Coralogix, a Boston-headquartered software monitoring startup founded in Israel, has raised $200 million in a new funding round …",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "波士頓軟體監控新創 Coralogix 完成 2 億美元 F 輪融資，投後估值達 16 億美元，較 2025 年 6 月大幅成長",
+      "summary_zh": "總部位於波士頓、創立於以色列的軟體監控新創公司 Coralogix 在新一輪融資中籌集了 2 億美元⋯"
+    },
+    {
+      "title_en": "Wordsmith, whose AI tools help in-house lawyers draft contracts, handle legal questions, and more, raised a $70M Series B, bringing its total funding to $100M",
+      "url": "https://www.businessinsider.com/wordsmith-ai-for-corporate-lawyers-70-million-series-b-2026-6",
+      "summary_en": "The biggest promise of artificial intelligence in law is not that lawyers will work faster. It's that companies will need fewer of them on the outside.",
+      "source": "Business Insider",
+      "media_source": "Business Insider",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "AI 法律工具新創 Wordsmith 完成 7,000 萬美元 B 輪融資，助企業內部律師撰寫合約及處理法律諮詢",
+      "summary_zh": "AI 在法律領域最大的承諾並非讓律師工作更快，而是讓公司減少對外部法律資源的依賴。"
     }
   ],
   "wsj": [
     {
-      "title_en": "$3.6 Million an Hour—and Other Ways to Measure Elon Musk’s Fortune",
-      "url": "https://www.wsj.com/tech/3-6-million-an-hourand-other-ways-to-measure-elon-musks-fortune-04e590a5?mod=rss_Technology",
-      "summary_en": "Millions of houses, thousands of jets, every NFL and NBA team: Imagine the things a trillionaire could buy....",
-      "title_zh": "每小時賺進 360 萬美元：衡量伊隆·馬斯克財富的其他方式",
-      "summary_zh": "數百萬棟房子、數千架噴射機、每一支 NFL 和 NBA 球隊：想像一下兆萬富翁能買下的東西……"
+      "title_en": "America’s Data-Center Build-Out Is Falling Way Behind Schedule",
+      "url": "https://www.wsj.com/tech/ai/americas-data-center-build-out-is-falling-way-behind-schedule-e408a9a8?mod=rss_Technology",
+      "summary_en": "Google, which is raising a fresh $85 billion, has a strategy for getting around the biggest bottleneck....",
+      "title_zh": "美國資料中心建設進度嚴重落後",
+      "summary_zh": "正在籌集 850 億美元資金的 Google，已有一套策略來突破目前最大的瓶頸⋯"
+    },
+    {
+      "title_en": "Mark Zuckerberg Wants Meta’s New AI Agents to Run Your Whole Business",
+      "url": "https://www.wsj.com/tech/mark-zuckerberg-wants-metas-new-ai-agents-to-run-your-whole-business-6e2100e2?mod=rss_Technology",
+      "summary_en": "The new agent is part of the company’s effort to broaden beyond its core consumer business as it spends aggressively on artificial intelligence....",
+      "title_zh": "Mark Zuckerberg 期望 Meta 的新 AI 代理能代勞營運您的整間公司",
+      "summary_zh": "新的代理工具是該公司擴展核心消費者業務以外努力的一環，目前 Meta 正大舉投資人工智慧。"
+    },
+    {
+      "title_en": "Market-Research Firm AlphaSense Clinches $7.5 Billion Valuation in New Funding Round",
+      "url": "https://www.wsj.com/business/entrepreneurship/market-research-firm-alphasense-clinches-7-5-billion-valuation-in-new-funding-round-bda34de4?mod=rss_Technology",
+      "summary_en": "Firm raises $350 million from investors including Accenture and JPMorgan’s asset-management unit....",
+      "title_zh": "市場研究公司 AlphaSense 在新一輪融資中獲 75 億美元估值",
+      "summary_zh": "該公司從包含埃森哲 (Accenture) 與摩根大通資產管理部門在內的投資者手中籌集了 3.5 億美元⋯"
     },
     {
       "title_en": "Trump Signs AI Executive Order to Increase Government Oversight",
       "url": "https://www.wsj.com/tech/ai/trump-signs-ai-executive-order-to-increase-government-oversight-e78fb21f?mod=rss_Technology",
       "summary_en": "The order is a slimmed-down version of the one Trump shelved last month and asks AI companies to give the administration access to powerful models 30 days before public release....",
-      "title_zh": "川普簽署 AI 行政命令以加強政府監管",
-      "summary_zh": "該命令是川普上月擱置版本的縮減版，要求 AI 公司在強大模型公開發布前 30 天，讓政府先行審閱。"
+      "title_zh": "川普簽署 AI 行政命令以強化政府監管",
+      "summary_zh": "該命令是川普上月擱置版本的精簡版，要求 AI 公司在公開發表強大模型的前 30 天，須先向政府提供存取權限⋯"
     },
     {
       "title_en": "How AI Could Improve Economic Policymaking",
       "url": "https://www.wsj.com/tech/ai/ai-economics-policy-03798f95?mod=rss_Technology",
       "summary_en": "With so much data at its fingertips, artificial intelligence will allow more-informed interest-rate decisions and better economic modeling....",
-      "title_zh": "AI 如何改善經濟政策制定",
-      "summary_zh": "憑藉龐大的數據掌握能力，AI 將能輔助更精準的利率決策並提供更佳的經濟建模。"
+      "title_zh": "AI 將如何改善經濟政策制定",
+      "summary_zh": "憑藉觸手可及的海量數據，人工智慧將使利率決策更具參考價值，並提供更佳的經濟建模⋯"
     },
     {
       "title_en": "Google Is Daring Rivals To Keep Up in AI Spending Race",
       "url": "https://www.wsj.com/tech/ai/google-is-daring-rivals-to-keep-up-in-ai-spending-race-9975c3c0?mod=rss_Technology",
       "summary_en": "Plus, Anthropic gets the IPO ball rolling and Nvidia makes a play for the PC market....",
-      "title_zh": "Google 挑戰競爭對手，在 AI 支出競賽中保持領先",
-      "summary_zh": "此外，Anthropic 啟動 IPO 程序，而 NVIDIA 則正進攻 PC 市場。"
+      "title_zh": "Google 大力投資 AI 挑戰對手跟進",
+      "summary_zh": "此外，Anthropic 正著手進行 IPO 流程，而 Nvidia 則準備進軍 PC 市場⋯"
     },
     {
-      "title_en": "China’s Chip Ambitions Run Into a Global Tech Wall",
-      "url": "https://www.wsj.com/world/china/chinas-chip-ambitions-run-into-a-global-tech-wall-669a1835?mod=rss_Technology",
-      "summary_en": "Plus, Huawei will likely trail rivals by six to eight years by 2031 despite its innovations....",
-      "title_zh": "中國的晶片雄心遭遇全球技術壁壘",
-      "summary_zh": "此外，儘管華為持續創新，但到 2031 年其技術可能仍落後競爭對手 6 到 8 年。"
+      "title_en": "Hasbro’s New AI Studio Looks to Bring Its Iconic Characters to Next-Generation Experiences",
+      "url": "https://www.wsj.com/tech/ai/hasbros-new-ai-studio-looks-to-bring-its-iconic-characters-to-next-generation-experiences-1cc098bc?mod=rss_Technology",
+      "summary_en": "Hasbro launched Sixth Wall, a new artificial-intelligence studio aiming to bring the toymaker’s cast of characters into the new technological era....",
+      "title_zh": "孩之寶成立全新 AI 工作室，旨在將經典角色帶入次世代體驗",
+      "summary_zh": "孩之寶推出了名為 Sixth Wall 的全新 AI 工作室，目標是將這家玩具大廠旗下的角色陣容帶入新的技術時代。"
     },
     {
-      "title_en": "Why ‘Nvidia Inside’ Can Work in the PC Market",
-      "url": "https://www.wsj.com/tech/why-nvidia-inside-can-work-in-the-pc-market-c5ab3111?mod=rss_Technology",
-      "summary_en": "The world’s only $5 trillion company can sell the concept that AI computing won’t be confined to data centers....",
-      "title_zh": "為何「Nvidia Inside」策略能在 PC 市場奏效",
-      "summary_zh": "這家全球唯一的 5 兆美元企業正推廣一種觀念：AI 運算將不侷限於數據中心。"
+      "title_en": "Anthropic Bulks Up Its Enterprise Partner Program Amid IPO Plans",
+      "url": "https://www.wsj.com/cio-journal/anthropic-bulks-up-its-enterprise-partner-program-amid-ipo-plans-560a9b82?mod=rss_Technology",
+      "summary_en": "AI giant is solidifying its Claude Partner Network to help demonstrate ‘durability of revenue’ as it nears going public....",
+      "title_zh": "Anthropic 衝刺 IPO 計畫，擴大企業合作夥伴計畫規模",
+      "summary_zh": "AI 巨頭 Anthropic 正在鞏固其 Claude 合作夥伴網絡，旨在臨近上市之際，向外界展示其營收的穩健性與持續力。"
     },
     {
-      "title_en": "Trump Administration Signals ‘Anti-Weaponization’ Fund About-Face",
-      "url": "https://www.wsj.com/business/media/trump-administration-signals-anti-weaponization-fund-about-face-f775f25c?mod=rss_Technology",
-      "summary_en": "Plus, Anthropic files to go public, and the new luxury amenity is longevity services....",
-      "title_zh": "川普政府暗示對「反武器化」基金的態度轉變",
-      "summary_zh": "此外，Anthropic 已申請上市，而長壽服務則成為新型的奢華配備。"
+      "title_en": "Baidu Sees AI, Chip Business Driving Healthy Revenue Growth",
+      "url": "https://www.wsj.com/tech/baidu-sees-healthy-ai-driven-revenue-growth-in-next-few-quarters-217fe57a?mod=rss_Technology",
+      "summary_en": "Baidu expects to list its chip unit in Hong Kong this year, and for artificial-intelligence income.to support healthy revenue growth over the next few quarters....",
+      "title_zh": "百度預期 AI 與晶片業務將驅動營收穩健成長",
+      "summary_zh": "百度預計今年將其晶片部門在香港上市，並看好 AI 收益將在未來幾個季度支撐健康的營收成長。"
     },
     {
-      "title_en": "Alphabet’s Mega Fundraising Shows the Value of Being a Public Company",
-      "url": "https://www.wsj.com/finance/stocks/alphabet-google-stock-fundraising-33aeaa9c?mod=rss_Technology",
-      "summary_en": "In AI, money talks. The ability to tap stock market capital is important again, after a quarter of a century of being all but irrelevant....",
-      "title_zh": "Alphabet 的巨額募資展現了上市公司身分的價值",
-      "summary_zh": "在 AI 領域，資金說了算。在近 25 年的邊緣化之後，利用股市資本的能力再次變得至關重要。"
-    },
-    {
-      "title_en": "Turncoat AI Agents Emerge as the New Inside Hackers",
-      "url": "https://www.wsj.com/pro/cybersecurity/turncoat-ai-agents-emerge-as-the-new-inside-hackers-b0021e11?mod=rss_Technology",
-      "summary_en": "The race to automate an ever wider range of workplace tasks is creating an army of inside would-be hackers, with cybercriminals hijacking companies’ internal AI agents to steal sensitive business data...",
-      "title_zh": "「變節」AI 代理成為新型內部駭客",
-      "summary_zh": "職場任務自動化的競賽正產生一群潛在的內部駭客，網路犯罪分子正劫持企業內部的 AI 代理來竊取敏感商業數據……"
-    },
-    {
-      "title_en": "Nvidia’s Huang Says Marvell May Join $1 Trillion Club",
-      "url": "https://www.wsj.com/tech/ai/nvidias-huang-says-marvell-may-join-1-trillion-club-bf018449?mod=rss_Technology",
-      "summary_en": "Jensen Huang says Marvell Technology could be the next chip firm to join the trillion-dollar club, predicting a surge in demand for AI hardware fueled by the emergence of autonomous models....",
-      "title_zh": "黃仁勳表示 Marvell 有望加入「兆元俱樂部」",
-      "summary_zh": "黃仁勳預測，隨著自主模型（autonomous models）的興起，AI 硬體需求將激增，Marvell 有望成為下一家進入兆元市值俱樂部的晶片公司。"
+      "title_en": "U.K. Regulator to Let Publishers Keep Content Out of Google Search’s AI Tool",
+      "url": "https://www.wsj.com/tech/u-k-regulator-to-let-publishers-keep-content-out-of-google-searchs-ai-tool-d341cf57?mod=rss_Technology",
+      "summary_en": "The move aims to give publishers control over how their content is used by AI and put them in a stronger position to negotiate with Google....",
+      "title_zh": "英國監管機構將允許出版商排除內容於 Google 搜尋 AI 工具之外",
+      "summary_zh": "此舉旨在讓出版商能主導其內容被 AI 使用的方式，並在與 Google 的談判中爭取更有利的地位。"
     }
   ],
   "deep_analysis": {
@@ -462,42 +561,5 @@
     }
   },
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
-  "deep_analysis_updates": [
-    {
-      "source": "Stratechery",
-      "title": "The Google Capital Company / Google 資本公司：從輕資產聚合者轉向重資本 AI 巨頭",
-      "article_date": "2026-06-02",
-      "url": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzMDM2OTMzLCJpYXQiOjE3ODA0NDQ5MzMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YTFlYzktMDcxYS03ZWYzLWEwMzctYTAxOThlZjlhOWE0IiwidXNlIjoiYWNjZXNzIn0.kuSSTkeRtWA5MxrBmp34_Kl7EdNwqfR8veThFLBwSFGvAT65DiSotUNkkUf5ByFODnVvLx32s0Rr_4m1Hkj9EiBd8Px4OYlvVCvzo1MXZil28OveAa9yaZ4IugxmytlyI8Ld_0T6tphLT4A47hNl-c5JcOZbB7tjMWct3rkqrFfmG889HqXIxLl5gAXAua6pTFzN3mVzKcB3s_-0urZBMgW8HdQmQCA9U12IHccXkkV_hNF44SczpOcB8dWeTmcekO0qRSePZPE3KpNSODWNwjvD-8Jp8lkihkHEv4q3bv8Mp_GbPMNWSCVG9fEXJsGbSFnOCFiCYT1UCmz0gCprOw&p=19180"
-    },
-    {
-      "source": "Culpium",
-      "title": "Intel is Struggling to Supply Laptop Chips Built Around its New 18A Node / Intel 18A 產能困局：先進製程筆電晶片供貨告急，技術重返巔峰之路仍受制於人",
-      "article_date": "2026-06-02",
-      "url": "https://www.culpium.com/p/intel-is-struggling-to-supply-laptop"
-    },
-    {
-      "source": "Big Technology",
-      "title": "The Token Reckoning is Here and It’s Not What You Think / 代幣帳單的審判日：AI 成本危機背後的效率真相",
-      "article_date": "2026-06-03",
-      "url": "https://www.bigtechnology.com/p/the-token-reckoning-is-here-and-its"
-    },
-    {
-      "source": "a16z",
-      "title": "Introducing Special / 揭秘 Special：延續 DOGE 精神，用 AI 垂直整合 10 兆美元的實體服務經濟",
-      "article_date": "2026-06-02",
-      "url": "https://www.a16z.news/p/introducing-special"
-    },
-    {
-      "source": "HackMD：停損王SLKing",
-      "title": "Cortical Labs：神經元在強化學習上的樣本效率，比 GPU 高出 5,000 倍",
-      "article_date": "2026-06-02",
-      "url": "https://hackmd.io/HJTFY3ilGg"
-    },
-    {
-      "source": "馬斯克帝國觀察",
-      "title": "【馬斯克帝國觀察】#70 特斯拉歐洲強勢反彈 + SpaceX 再拿太空軍 41.6 億美元大單",
-      "article_date": "2026-06-02",
-      "url": "https://muskempire0628.substack.com/p/70-spacex-416-20260602"
-    }
-  ]
+  "deep_analysis_updates": []
 }
