@@ -20,7 +20,7 @@ def render_techmeme(items, fetch_date):
             <!-- Techmeme Section -->
             <div id="techmeme-section" class="section-header" style="color: var(--techmeme-accent);">
                 <i class="fas fa-bolt"></i>
-                <h2><a href="https://www.techmeme.com/" style="color: inherit; text-decoration: none;">Techmeme Main Feed</a></h2>
+                <h2><a href="https://www.techmeme.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Techmeme Main Feed</a></h2>
                 <p class="section-desc"><i class="far fa-calendar-alt"></i> {fetch_date}</p>
             </div>
             <div id="techmeme-grid" class="news-grid">'''
@@ -44,7 +44,7 @@ def render_wsj(items, fetch_date):
             <!-- WSJ Section -->
             <div id="wsj-section" class="section-header" style="color: var(--wsj-accent);">
                 <i class="fas fa-newspaper"></i>
-                <h2><a href="https://www.wsj.com/tech?mod=nav_top_section" style="color: inherit; text-decoration: none;">WSJ Technology Top 10</a></h2>
+                <h2><a href="https://www.wsj.com/tech?mod=nav_top_section" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">WSJ Technology Top 10</a></h2>
                 <p class="section-desc"><i class="far fa-calendar-alt"></i> {fetch_date}</p>
             </div>
             <div id="wsj-grid" class="news-grid">'''
