@@ -1,308 +1,253 @@
 {
-  "fetch_date": "2026-06-06",
+  "fetch_date": "2026-06-07",
   "techmeme": [
     {
-      "title_en": "President Trump says he is weighing proposals for US government to hold equity stakes in leading AI labs, and will soon discuss the idea with their executives",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/us-exploring-government-partnerships-with-ai-firms-trump-says",
-      "summary_en": "President Donald Trump expressed interest in the US government holding equity stakes in leading artificial intelligence developers …",
+      "title_en": "Kalshi and Polymarket sponsored X posts promoting viral LA mayoral election fraud conspiracy theories; Kalshi says it asked its paid influencers to remove posts",
+      "url": "https://www.semafor.com/article/06/05/2026/kalshi-asks-paid-influencers-to-delete-posts-on-la-mayoral-election",
+      "summary_en": "THE SCOOP — Kalshi on Friday asked some of its paid political influencers to remove X posts that sowed doubt about the integrity …",
+      "source": "Semafor",
+      "media_source": "Semafor",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Kalshi 與 Polymarket 在 X 平台投放贊助貼文，散播洛杉磯市長選舉舞弊陰謀論；Kalshi 已要求合作網紅撤文",
+      "summary_zh": "獨家消息：Kalshi 週五要求部分受雇的政治網紅刪除在 X 平台上質疑選舉完整性的貼文。"
+    },
+    {
+      "title_en": "Raspberry Pi closed up 27%+ on June 5 after saying it expects adjusted EBITDA of at least $38M in H1, putting it on track to beat $42M est. for the full year",
+      "url": "https://www.ft.com/content/22c5c127-fbab-44eb-a982-a26b9a40eb5c",
+      "summary_en": "UK maker of tiny low-cost computers expects ‘robust demand’ to push unit sales above 4mn in first half",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Raspberry Pi 股價於 6 月 5 日大漲超過 27%，預計上半年調整後 EBITDA 至少達 3,800 萬美元，全年有望超越預期",
+      "summary_zh": "這家英國平價微型電腦製造商預計，在「強勁需求」推動下，上半年銷量將突破 400 萬台。"
+    },
+    {
+      "title_en": "Report: in May, supply of unsecured bonds from hyperscalers passed $155B, up over 45% from 2025's total issuance; some AI-infra bond sales are 4x oversubscribed",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-06/doubleline-oaktree-brace-for-potential-ai-pain-credit-weekly",
+      "summary_en": "Credit heavyweights like DoubleLine Capital LP and Oaktree Capital Management are buying debt now that can perform …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "川普表示正權衡讓美國政府持有領先 AI 實驗室股權的提議，近期將與高管進行討論",
-      "summary_zh": "美國總統唐納·川普對美國政府持有領先人工智慧開發商股權的想法表達了興趣..."
+      "title_zh": "報告：5 月超大規模業者無擔保債券發行量突破 1,550 億美元，較 2025 年總量增長逾 45%；部分 AI 基礎設施債券獲 4 倍超額認購",
+      "summary_zh": "DoubleLine Capital 與 Oaktree Capital Management 等信用評等巨頭正大舉買入這類具備表現潛力的債券。"
     },
     {
-      "title_en": "Sources: US officials discussed the US taking stakes in major AI companies after Sam Altman pitched the idea in 2025; Altman met Bernie Sanders on Wednesday",
-      "url": "https://www.wsj.com/tech/ai/u-s-officials-discuss-taking-financial-stakes-in-ai-industry-b654d41a?st=eWK7zU&reflink=desktopwebshare_permalink",
-      "summary_en": "The talks have been with artificial-intelligence leaders such as OpenAI CEO Sam Altman, who pitched the idea",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
+      "title_en": "Inside the Trump admin's push to integrate AI into the healthcare system, including an FDA regulatory fast track for digital health tech like AI chatbots",
+      "url": "https://wapo.st/4vwr1xb",
+      "summary_en": "The administration is laying the groundwork for chatbots that can diagnose illness and prescribe medicine, but physicians say AI can introduce more problems.",
+      "source": "Washington Post",
+      "media_source": "Washington Post",
       "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "消息人士：Sam Altman 於 2025 年提議後，美國官員討論了入股主要 AI 公司的可能性；Altman 週三會見了 Bernie Sanders",
-      "summary_zh": "相關討論對象包括 OpenAI 執行長 Sam Altman 等 AI 領袖，該構想最早由 Altman 提出。"
+      "techmeme_cluster_role": "main",
+      "title_zh": "直擊川普政府推動醫療體系導入 AI 的進展：FDA 為 AI 聊天機器人等數位健康技術建立監管快速通道",
+      "summary_zh": "政府正為具備診斷疾病與開立處方能力的聊天機器人鋪路，但醫師警告 AI 可能引發更多問題。"
+    },
+    {
+      "title_en": "Several UK police forces have been told to stop using AI to prepare court statements, citing concerns that inaccurate outputs could contaminate legal procedures",
+      "url": "https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241",
+      "summary_en": "Safeguards must be in place before forces automate justice tasks, says head of Police.AI — A number of UK police forces …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "英國多個警察單位被要求停止使用 AI 撰寫法庭陳述書，擔憂不準確的產出可能影響法律程序",
+      "summary_zh": "Police.AI 負責人表示，在警方將司法任務自動化之前，必須建立防護機制。目前已有數個英國警察單位接獲暫停指令。"
+    },
+    {
+      "title_en": "OpenAI rolls out Lockdown Mode, an optional security setting designed to offer users advanced protection from prompt injection attacks by limiting some features",
+      "url": "https://www.engadget.com/2188537/openai-rolls-out-a-lockdown-mode-for-extra-protection-against-prompt-injection-attacks/",
+      "summary_en": "The company says most users don't need to use the feature. — OpenAI has begun rolling out Lockdown Mode …",
+      "source": "Engadget",
+      "media_source": "Engadget",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "OpenAI 推出「封鎖模式」（Lockdown Mode）：可選的安全性設定，透過限制部分功能保護使用者免受提示注入攻擊",
+      "summary_zh": "OpenAI 表示多數使用者並不需要使用此功能，目前已開始向用戶推送封鎖模式。"
+    },
+    {
+      "title_en": "White House AI advisor Sriram Krishnan says he will leave his role at the end of June; sources: Krishnan plans to start a pro-Trump AI policy institution",
+      "url": "https://www.theinformation.com/articles/white-house-ai-policy-advisor-krishnan-leave-position",
+      "summary_en": "Sriram Krishnan, a top AI policy advisor in the Trump administration, plans to leave his position at the end of June …",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "白宮 AI 顧問 Sriram Krishnan 宣布 6 月底離職；消息指出他計劃創辦親川普的 AI 政策機構",
+      "summary_zh": "川普政府的高層 AI 政策顧問 Sriram Krishnan 計劃於 6 月底辭去職務。"
+    },
+    {
+      "title_en": "FOIA docs reveal Amazon's extensive control over delivery drivers it insists are not employees, in a case the NLRB sought to settle on terms favorable to Amazon",
+      "url": "https://www.bloomberg.com/news/features/2026-06-02/amazon-trump-settlement-win-showed-just-how-tough-delivery-drivers-have-it?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDM5NzYwNCwiZXhwIjoxNzgxMDAyNDA0LCJhcnRpY2xlSWQiOiJURzAxNDdLR1pBSkcwMCIsImJjb25uZWN0SWQiOiJDQThGQ0Y4NkY1QjY0ODlCODA4ODkwNTFBNjMxRERBRCJ9.Nsck2fZijofhPwaWJblBkI_9Kyt9lKg81iM3ebUKGB8",
+      "summary_en": "The feds were pushing a landmark case about Amazon's control of its contract drivers. Then the president put Amazon's former lawyer in charge.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "資訊公開文件揭露亞馬遜對外送司機的嚴密掌控，儘管其堅稱雙方非雇傭關係；NLRB 曾試圖以有利於亞馬遜的條款和解",
+      "summary_zh": "聯邦政府原本正推動一項關於亞馬遜掌控合約司機的指標性案件，但隨後總統任命亞馬遜的前律師接掌相關職務。"
+    },
+    {
+      "title_en": "Google Cloud says its SpaceX compute deal is a “short-term” agreement “to ensure we have bridge capacity to meet surging customer demand” for Gemini Enterprise",
+      "url": "https://www.nytimes.com/2026/06/05/technology/spacex-google-deal.html?unlocked_article_code=1.oFA.pwqq.wQrMgdMrNXmI&smid=url-share",
+      "summary_en": "Elon Musk's rocket company said Google would pay it $920 million a month, as it prepared for its initial public offering.",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Google Cloud 表示與 SpaceX 的運算協議為「短期」合約，旨在確保有足夠的過渡產能以滿足 Gemini Enterprise 的激增需求",
+      "summary_zh": "馬斯克的火箭公司在準備 IPO 之際，透露 Google 每月將支付 9.2 億美元。"
     },
     {
       "title_en": "Filing: Google has agreed to pay SpaceX $920M per month for access to Nvidia chips as part of a cloud-services deal that runs through mid-2029",
       "url": "https://www.bloomberg.com/news/articles/2026-06-05/google-buying-computing-from-spacex-in-920-million-a-month-deal?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDY4NjQ4NiwiZXhwIjoxNzgxMjkxMjg2LCJhcnRpY2xlSWQiOiJURzY5SjlLSkg2VjUwMCIsImJjb25uZWN0SWQiOiI2QjgzMTRBODVBRDE0RjM3OTQ2MzdBRjhGQ0ZBRTk5NSJ9.pytPWYxisNQczqZukBO6ST5XrntfAYOOi15DezFG3Dg",
-      "summary_en": "Alphabet Inc.'s Google has agreed to pay Elon Musk's SpaceX $920 million a month for computing power as part of a cloud services deal that runs through mid-2029 …",
+      "summary_en": "",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "文件顯示：作為 2029 年中期到期雲端服務協議的一部分，Google 已同意每月支付 SpaceX 9.2 億美元以獲取 Nvidia 晶片",
-      "summary_zh": "Alphabet 旗下的 Google 已同意每月支付 Elon Musk 的 SpaceX 9.2 億美元以換取算力，這是雙方雲端服務交易的一部分..."
+      "techmeme_cluster_role": "related",
+      "title_zh": "文件顯示：Google 同意每月支付 SpaceX 9.2 億美元以獲取 Nvidia 晶片使用權，合約將持續至 2029 年中",
+      "summary_zh": ""
     },
     {
-      "title_en": "Sources: Meta explores a stock offering to raise tens of billions to fund AI capital expenditures, following Google's record $85B share deal; META drops 5%+",
-      "url": "https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd",
-      "summary_en": "Facebook parent could sell tens of billions of dollars in new stock as it seeks to finance AI infrastructure",
+      "title_en": "Paris-listed Teleperformance, the world's largest customer service company, has become one of Europe's most shorted stocks, as hedge funds bet on AI disruption",
+      "url": "https://www.ft.com/content/0662341f-f14a-44dc-bc96-0c0008478ea9",
+      "summary_en": "Outsourcing companies hit as investors see ‘clean’ disruption risk — Hedge funds are betting against the shares and debt …",
       "source": "Financial Times",
       "media_source": "Financial Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：繼 Google 創紀錄的 850 億美元配股後，Meta 擬透過增發股票籌資數百億美元以支應 AI 資本支出；META 股價大跌逾 5%",
-      "summary_zh": "Facebook 母公司可能出售價值數百億美元的新股，旨在為其 AI 基礎設施建設融資。"
+      "title_zh": "全球最大客服公司 Teleperformance 成為歐洲被放空最嚴重的股票之一，對沖基金看好 AI 將顛覆外包產業",
+      "summary_zh": "隨著投資者預見顛覆性風險，外包公司受到衝擊，對沖基金正大舉放空其股票與債券。"
     },
     {
-      "title_en": "Sources: AI coding startup Lovable is in talks to raise funding at a $12B valuation, up from $6.6B in December 2025",
-      "url": "https://www.forbes.com/sites/rashishrivastava/2026/06/05/ai-coding-startup-lovable-in-talks-to-raise-funding-at-a-12-billion-valuation/",
-      "summary_en": "The less than two-year old startup crossed $400 million in annual recurring revenue earlier this year. The new fundraise would almost double its valuation.",
-      "source": "Forbes",
-      "media_source": "Forbes",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：AI 程式碼新創公司 Lovable 洽談以 120 億美元估值融資，遠高於 2025 年 12 月的 66 億美元",
-      "summary_zh": "這家成立不到兩年的新創公司今年早些時候的年度經常性收入（ARR）已突破 4 億美元。新一輪融資將使其估值接近翻倍。"
-    },
-    {
-      "title_en": "Bitcoin falls below $60K, its lowest level since October 2024, amid a record streak of bitcoin ETF outflows following Strategy's bitcoin sale",
-      "url": "https://www.cnbc.com/2026/06/05/bitcoin-dismal-week-price-below-all-time-high-crypto-investors.html",
-      "summary_en": "Bitcoin extended its losses on Friday, dropping to October 2024 lows to cap an already bruising week for crypto investors.",
+      "title_en": "Source: OpenAI and White House are discussing a government stake in the company, to seed something like the “Public Wealth Fund” that OpenAI outlined earlier",
+      "url": "https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html",
+      "summary_en": "OpenAI CEO Sam Altman and the White House are in ongoing talks about a possible government stake in the artificial intelligence company, CNBC confirmed on Friday.",
       "source": "CNBC",
       "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "比特幣跌破 6 萬美元關卡，創 2024 年 10 月以來新低，受 Strategy 拋售及比特幣 ETF 創紀錄流出影響",
-      "summary_zh": "比特幣週五跌幅擴大，觸及 2024 年 10 月低點，為加密貨幣投資者慘淡的一週劃下句點。"
+      "title_zh": "消息來源：OpenAI 正與白宮商討政府入股的可能性，以注資成立 OpenAI 先前構思的「公共財富基金」",
+      "summary_zh": "CNBC 週五證實，OpenAI 執行長 Sam Altman 正與白宮就政府入股這家人工智慧公司的可能性進行持續談判。"
     },
     {
-      "title_en": "US-traded chipmakers plunged on Friday, after Broadcom missed expectations; Nvidia fell 6.19%, Micron fell 13.25%, AMD fell 10.86%, and Broadcom 7.92%",
-      "url": "https://www.reuters.com/business/media-telecom/chip-selloff-erases-over-1-trillion-stock-market-value-2026-06-05/",
-      "summary_en": "U.S.-traded chipmakers plunged on Friday, losing over $1 trillion in market value, with deep losses in AI heavy hitters including Nvidia …",
+      "title_en": "President Trump says he is weighing proposals for US government to hold equity stakes in leading AI labs, and will soon discuss the idea with their executives",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/us-exploring-government-partnerships-with-ai-firms-trump-says",
+      "summary_en": "",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "川普總統表示正考慮讓美國政府入股領先的 AI 實驗室，並將於近期與相關高層討論此構想",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Sources: Uber has committed nearly $500M to self-driving startup Nuro, providing a crucial runway as Nuro works to prove its technology at commercial scale",
+      "url": "https://www.reuters.com/business/autos-transportation/ubers-commitment-self-driving-startup-nuro-is-close-500-mln-sources-say-2026-06-03/",
+      "summary_en": "Uber (UBER.N) has committed close to half a billion dollars in self-driving startup Nuro, two sources directly aware of the matter told Reuters …",
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "美股晶片股週五重挫，因 Broadcom 財報不如預期；Nvidia 下跌 6.19%，Micron 大跌 13.25%，AMD 跌 10.86%，Broadcom 跌 7.92%",
-      "summary_zh": "在美上市的晶片股週五崩盤，市值蒸發超過 1 兆美元，Nvidia 等 AI 龍頭股損失慘重。"
+      "title_zh": "消息指出：Uber 向自駕新創 Nuro 投入近 5 億美元，在 Nuro 致力證明其技術具備商業規模之際提供關鍵資金支持",
+      "summary_zh": "兩位知情人士告訴路透社，Uber 已承諾向自駕新創 Nuro 投資近 5 億美元。"
     },
     {
-      "title_en": "Trump signs a national security memorandum seeking to “accelerate the use of AI across intelligence and warfighting domains in line with American values”",
-      "url": "https://www.reuters.com/technology/us-says-it-will-speed-development-use-ai-national-security-2026-06-05/",
-      "summary_en": "The White House said on Friday it would accelerate the development and use of AI for national security applications …",
-      "source": "Reuters",
-      "media_source": "Reuters",
+      "title_en": "Kepple: seed-stage startup funding in Japan fell 42% YoY in 2025 to a 10-year low of $124M, as the Tokyo Stock Exchange moves to reduce small listings",
+      "url": "https://asia.nikkei.com/business/startups/seed-stage-startup-funding-in-japan-sinks-40-as-investors-grow-selective",
+      "summary_en": "TOKYO — Funding in Japan for the earliest-stage startups tumbled 42% last year to a 10-year low of 19.9 billion yen ($124 million) …",
+      "source": "Nikkei Asia",
+      "media_source": "Nikkei Asia",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "川普簽署國家安全備忘錄，旨在「根據美國價值觀，加速 AI 在情報與作戰領域的應用」",
-      "summary_zh": "白宮週五表示，將加速開發並將 AI 應用於國家安全領域..."
+      "title_zh": "Kepple 報告：2025 年日本種子輪新創融資年減 42% 至 1.24 億美元，創 10 年新低，受東京證交所收緊小型上市案影響",
+      "summary_zh": "東京消息：去年日本早期新創融資暴跌 42% 至 199 億日圓（約 1.24 億美元），為 10 年來最低水平。"
     },
     {
-      "title_en": "University of Cambridge researchers say they have developed the first vaccine with a key component entirely designed by AI and subsequently trialed it in humans",
-      "url": "https://www.bbc.com/news/articles/crrpggegwe0o",
-      "summary_en": "Artificial intelligence has been used to develop a “fundamentally new” type of vaccine that could protect against large swathes …",
-      "source": "BBC",
-      "media_source": "BBC",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "劍橋大學研究人員表示，他們開發出首款關鍵成分完全由 AI 設計的疫苗，並已進入人體試驗階段",
-      "summary_zh": "人工智慧已被用於開發一種「根本性全新」的疫苗，有望保護人類免受多種病毒侵害。"
-    },
-    {
-      "title_en": "Sources say xAI used Claude models for distillation and training, including using personal accounts and the intermediary service Blackbox AI after being cut off",
-      "url": "https://www.theinformation.com/articles/xai-went-chasing-anthropic-powering",
-      "summary_en": "SpaceX's AI lab has had a chaotic year so far, churning through leaders and staff before bringing in outside help in an effort to catch up to Anthropic in coding.",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士稱 xAI 曾使用 Claude 模型進行蒸餾與訓練，包括在被封鎖後透過個人帳號及第三方服務 Blackbox AI 獲取資料",
-      "summary_zh": "SpaceX 的 AI 實驗室今年經歷動盪，在高層與員工頻繁流動後，開始引進外部支援以追趕 Anthropic 的程式碼能力。"
-    },
-    {
-      "title_en": "What to expect at WWDC 2026: an overhauled Siri, a Siri app, a slew of new AI capabilities, OS updates focused on reliability and responsiveness, and more",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDY2Njc4NSwiZXhwIjoxNzgxMjcxNTg1LCJhcnRpY2xlSWQiOiJURzVKUVdSMjRVQTQwMCIsImJjb25uZWN0SWQiOiIwRDE5ODY5MzQ1M0Y0NUMzQkQyMjQzMUQ4NjAzMDU1QSJ9.OvUQKWv8xFTRoBseiidJH5sg89kOl1x7zo5bzzyIseM",
-      "summary_en": "The iPhone maker will attempt its artificial intelligence turnaround on Monday. — Apple Inc. will unveil a new artificial intelligence strategy …",
+      "title_en": "SoftBank's PayPay, Japan's dominant payments app, says it will take a 70.2% stake in T&D Financial Life Insurance for $840M, expected to close in October 2027",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/softbank-s-paypay-to-buy-t-d-s-life-insurer-for-840-million",
+      "summary_en": "SoftBank Group Corp.'s payments unit is buying the life insurance unit of T&D Holdings Inc. for ¥134.3 billion ($840 million) …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "WWDC 2026 前瞻：全新進化的 Siri、Siri 專屬 App、多項全新 AI 功能，以及專注於可靠性與反應速度的系統更新",
-      "summary_zh": "這家 iPhone 製造商將於週一嘗試其人工智慧翻身仗，Apple 將揭曉全新的 AI 策略..."
-    },
-    {
-      "title_en": "Sources and docs detail defense tech startup Shield AI's struggles to overcome years of technical hitches and safety concerns with its V-BAT autonomous drone",
-      "url": "https://www.reuters.com/business/finance/drone-crashes-severed-fingers-13-billion-silicon-valley-military-startup-2026-06-05/",
-      "summary_en": "A year ago, Ryan Tseng, the head of U.S. defense tech startup Shield AI, announced his company had turned a new page.",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士與文件詳述國防科技新創 Shield AI 遭遇的困境，其 V-BAT 自主無人機多年來難以克服技術問題與安全性疑慮",
-      "summary_zh": "一年前，美國國防科技新創 Shield AI 負責人 Ryan Tseng 曾宣布公司已翻開新篇章。"
-    },
-    {
-      "title_en": "Marvell and Flex, a contract manufacturer for electronics, will join the S&P 500; MRVL jumps 6%+ after hours after closing down 16.74% amid a broader sell-off",
-      "url": "https://www.cnbc.com/2026/06/05/marvell-technology-flex-sp-500-campbells-pool.html",
-      "summary_en": "Marvell Technology, which makes parts and products needed for the AI infrastructure boom, is joining the S&P 500",
-      "source": "CNBC",
-      "media_source": "CNBC",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Marvell 與電子代工大廠 Flex 將加入標普 500 指數；MRVL 股價在收跌 16.74% 後，盤後反彈逾 6%",
-      "summary_zh": "受益於 AI 基礎設施熱潮，生產相關零件與產品的 Marvell Technology 正式加入標普 500 指數。"
-    },
-    {
-      "title_en": "Sources: SpaceX prepares the largest retail allocation ever attempted in a megacap IPO, seeking to reserve as much as 25% of its $75B float for retail investors",
-      "url": "https://www.ft.com/content/3cf5aed7-1a57-44ad-b9bc-11c779a5d2de",
-      "summary_en": "Up to a quarter of the rocket builder's $75bn float will be set aside for individual investors",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：SpaceX 籌劃史上最大規模的散戶配股，擬在其 750 億美元的 IPO 募資額中保留高達 25% 給個人投資者",
-      "summary_zh": "這家火箭製造商 750 億美元募資規模中，有多達四分之一將預留給個人投資者。"
-    },
-    {
-      "title_en": "The largest US banks plan to launch a tokenized deposit network in 2027 to connect traditional payment rails with the infrastructure that digital assets run on",
-      "url": "https://www.wsj.com/finance/banking/jpmorgan-citi-and-big-banks-plan-new-tokenized-deposit-system-to-answer-crypto-6b2d696b",
-      "summary_en": "The new network could help banks contend with a wave of new competition from stablecoins and crypto firms",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "美國大型銀行計劃於 2027 年推出代幣化存款網絡，串連傳統支付與數位資產基礎設施",
-      "summary_zh": "新網絡可能有助於銀行應對來自穩定幣和加密貨幣公司的新一波競爭。"
-    },
-    {
-      "title_en": "In an internal message, Satya Nadella rebuked an internal memo that said Microsoft needs to “make people addicted” to its new AI agent product called Scout",
-      "url": "https://www.theinformation.com/briefings/exclusive-nadella-rebukes-microsoft-executives-plan-make-users-addicted-ai-agents",
-      "summary_en": "Microsoft CEO Satya Nadella on Thursday rebuked an internal memo that another company executive had written advocating to …",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Satya Nadella 在內部訊息中斥責一份備忘錄，該文件稱 Microsoft 需讓使用者對其新 AI 助理「Scout」產生依賴",
-      "summary_zh": "Microsoft 執行長 Satya Nadella 週四斥責了一份由另一位高層撰寫、主張讓使用者對產品「上癮」的內部備忘錄。"
-    },
-    {
-      "title_en": "Sources say a months-long dispute between the White House and Anthropic is showing signs of easing across the US government as the startup prepares for its IPO",
-      "url": "https://www.reuters.com/business/aerospace-defense/blacklisted-ai-company-anthropic-white-house-ease-tensions-ahead-ipo-sources-say-2026-06-05/",
-      "summary_en": "A months-long dispute between Trump administration officials and AI firm Anthropic is showing signs of easing across parts …",
-      "source": "Reuters",
-      "media_source": "Reuters",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士稱，隨著 Anthropic 準備 IPO，該公司與白宮之間長達數月的爭議在政府內部出現緩和跡象",
-      "summary_zh": "川普政府官員與 AI 公司 Anthropic 之間持續數月的糾紛，在政府各部門間已顯露出緩解跡象。"
-    },
-    {
-      "title_en": "Sources: Apollo and Blackstone finalized a $35B package for Anthropic to lease TPUs; Broadcom is backstopping payments on the debt's largest senior portions",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic",
-      "summary_en": "Apollo Global Management Inc. and Blackstone Inc. have finalized a $35 billion financing package for Anthropic PBC to expand its AI infrastructure …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：Apollo 與 Blackstone 敲定 350 億美元融資方案，供 Anthropic 租賃 TPU；Broadcom 提供高順位債務擔保",
-      "summary_zh": "Apollo 全球管理公司與 Blackstone 已敲定 350 億美元的融資方案，協助 Anthropic 擴展其 AI 基礎設施..."
-    },
-    {
-      "title_en": "Sources: Revolut is looking to run a secondary share sale that would value it at $115B, after receiving a UK bank license and applying for a charter in the US",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/revolut-weighs-secondary-share-sale-at-115-billion-valuation",
-      "summary_en": "Revolut Ltd. is looking to run a secondary share sale that would value the digital bank at $115 billion, on the heels of receiving …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：Revolut 獲得英國銀行執照並申請美國執照後，正尋求以 1150 億美元估值進行二次股份出售",
-      "summary_zh": "數位銀行 Revolut 在取得關鍵執照後，正尋求以 1150 億美元的估值進行二次股份轉讓。"
-    },
-    {
-      "title_en": "Blackstone-backed data center operator AirTrunk commits to investing $30B in India by 2030, with plans to develop 5GW of new data center capacity in the country",
-      "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
-      "summary_en": "Blackstone-backed data center operator AirTrunk said on Thursday it would invest $30 billion in India by 2030 …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Blackstone 支持的數據中心營運商 AirTrunk 承諾 2030 年前在印度投資 300 億美元，計劃開發 5GW 容量",
-      "summary_zh": "由 Blackstone 支持的數據中心營運商 AirTrunk 週四表示，將於 2030 年前在印度投資 300 億美元..."
-    },
-    {
-      "title_en": "Filing: Reid Hoffman, who has served on Microsoft's board since 2017, will not stand for re-election at the company's 2026 annual meeting",
-      "url": "https://www.geekwire.com/2026/linkedin-co-founder-reid-hoffman-to-leave-microsoft-board-after-nearly-a-decade/",
-      "summary_en": "Reid Hoffman, the LinkedIn co-founder who has served on Microsoft's board since 2017, will not stand for re-election at the company's 2026 annual meeting …",
-      "source": "GeekWire",
-      "media_source": "GeekWire",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "申報文件：自 2017 年起擔任微軟董事的 Reid Hoffman，將不參加公司 2026 年年度股東大會的連任選舉",
-      "summary_zh": "LinkedIn 共同創辦人 Reid Hoffman 自 2017 年起擔任微軟董事，他已決定不在公司 2026 年年度股東大會上尋求連任…"
+      "title_zh": "軟銀旗下支付巨頭 PayPay 將斥資 8.4 億美元收購 T&D 財務人壽保險 70.2% 股份，預計 2027 年 10 月完成交易",
+      "summary_zh": "軟銀集團旗下的支付部門正以 1,343 億日圓（約 8.4 億美元）收購 T&D 控股的人壽保險業務。"
     }
   ],
   "wsj": [
     {
-      "title_en": "Selloff in Chip Stocks Prompts Nasdaq Bloodbath",
-      "url": "https://www.wsj.com/tech/ai/selloff-in-chip-stocks-prompts-nasdaq-bloodbath-36fd8c52?mod=rss_Technology",
-      "summary_en": "Plus, Trump urges Bill Pulte to fire intel-community employees, and it’s Lloyd Blankfein’s eye for the banker guy....",
-      "title_zh": "晶片股拋售潮引發那斯達克血洗",
-      "summary_zh": "此外，川普敦促 Bill Pulte 開除情報界員工，以及 Lloyd Blankfein 對銀行家選才的獨到眼光。"
-    },
-    {
       "title_en": "Google to Pay SpaceX Nearly $1 Billion a Month in Cloud-Computing Deal",
       "url": "https://www.wsj.com/tech/google-to-pay-spacex-nearly-1-billion-a-month-in-cloud-computing-deal-788d8aaa?mod=rss_Technology",
       "summary_en": "The agreement gives SpaceX a new stream of revenue for its AI business ahead of its IPO....",
-      "title_zh": "Google 與 SpaceX 簽署雲端運算協議，每月支付金額近 10 億美元",
-      "summary_zh": "這項協議在 SpaceX IPO 之前，為其 AI 業務開拓了新的營收來源。"
+      "title_zh": "Google 將在雲端運算協議中每月支付 SpaceX 近 10 億美元",
+      "summary_zh": "此協議在 SpaceX 進行 IPO 前，為其 AI 業務帶來了全新的營收來源。"
     },
     {
       "title_en": "Estonia Is Fighting Brain Rot—With Free ChatGPT",
       "url": "https://www.wsj.com/tech/ai/estonia-is-fighting-brain-rotwith-free-chatgpt-8bc2806d?mod=rss_Technology",
       "summary_en": "Plus, the push to bypass Chinese rare earths and the scramble to ban personalized pricing....",
-      "title_zh": "愛沙尼亞試圖以免費的 ChatGPT 對抗「大腦退化」（Brain Rot）現象",
-      "summary_zh": "此外，還包括擺脫中國稀土的推動力，以及各界爭相禁止個人化定價的舉措。"
+      "title_zh": "愛沙尼亞利用免費 ChatGPT 對抗「抖音腦」(Brain Rot)",
+      "summary_zh": "此外，還包括擺脫中國稀土的努力，以及各界爭相禁止個人化定價的現狀。"
     },
     {
       "title_en": "Morgan Stanley Sees SpaceX’s Revenue Reaching $3.4 Trillion in 2040",
       "url": "https://www.wsj.com/finance/banking/morgan-stanley-sees-spacexs-revenue-reaching-3-4-trillion-in-2040-c8a7f431?mod=rss_Technology",
       "summary_en": "Projections banks shared with top investors show how they are selling the rocket maker’s $1.77 trillion valuation....",
-      "title_zh": "摩根士丹利預測 SpaceX 營收將在 2040 年達到 3.4 兆美元",
-      "summary_zh": "銀行向頂尖投資者分享的預測報告，揭示了他們如何推銷這家火箭製造商 1.77 兆美元的估值。"
-    },
-    {
-      "title_en": "There’s More to Space Stocks Than SpaceX",
-      "url": "https://www.wsj.com/finance/stocks/theres-more-to-space-stocks-than-spacex-282c71f2?mod=rss_Technology",
-      "summary_en": "Rocket Lab gives investors another way to play the space race....",
-      "title_zh": "太空概念股不只有 SpaceX",
-      "summary_zh": "Rocket Lab 為投資者提供了參與太空競賽的另一種選擇。"
+      "title_zh": "摩根士丹利預期 SpaceX 營收將在 2040 年達到 3.4 兆美元",
+      "summary_zh": "銀行與頂級投資者分享的預測顯示，他們正如何推銷這家估值達 1.77 兆美元的火箭製造商。"
     },
     {
       "title_en": "Meet the SpaceX Employees Who Are About to Make an Overnight Fortune",
       "url": "https://www.wsj.com/business/meet-the-spacex-employees-who-are-about-to-become-overnight-millionaires-1a1a1370?mod=rss_Technology",
       "summary_en": "Many current and former staffers have stakes valued at millions of dollars and will be able to tap them more easily after the rocket maker goes public....",
-      "title_zh": "直擊即將一夜致富的 SpaceX 員工",
-      "summary_zh": "許多現任及前任員工持有的股份價值達數百萬美元，在公司上市後，他們將能更輕易地將股份變現。"
+      "title_zh": "揭秘即將一夕致富的 SpaceX 員工",
+      "summary_zh": "許多現任與前任員工持有的股份價值達數百萬美元，在公司上市後，他們將能更輕易地將股權變現。"
     },
     {
       "title_en": "U.S. Officials Discuss Taking Financial Stakes in AI Industry",
       "url": "https://www.wsj.com/tech/ai/u-s-officials-discuss-taking-financial-stakes-in-ai-industry-b654d41a?mod=rss_Technology",
       "summary_en": "The talks have been with artificial-intelligence leaders such as OpenAI CEO Sam Altman, who pitched the idea....",
-      "title_zh": "美國官員討論政府入股 AI 產業的可能性",
-      "summary_zh": "相關討論已與 OpenAI 執行長 Sam Altman 等 AI 領袖展開，而這個構想正是由 Altman 所提出。"
+      "title_zh": "美國官員討論入股 AI 產業",
+      "summary_zh": "相關討論已與 OpenAI 執行長 Sam Altman 等人工智慧領域領導者展開，Altman 親自提出了這項入股構想。"
+    },
+    {
+      "title_en": "Real-Time Satellite Intelligence Is Making Ukraine’s Drone Strikes Deadlier Than Ever",
+      "url": "https://www.wsj.com/world/europe/real-time-satellite-intel-is-making-ukraines-drone-strikes-deadlier-than-ever-8c2c909c?mod=rss_Technology",
+      "summary_en": "Commercial satellite imagery, which is sent straight to soldiers’ phones, is speeding up the kill chain and causing new problems for Russian forces....",
+      "title_zh": "即時衛星情報使烏克蘭無人機攻擊更具殺傷力",
+      "summary_zh": "商業衛星影像直接傳送到士兵的手機中，加速了「殺傷鏈」（kill chain）的運作，並為俄羅斯軍隊帶來了新麻煩。"
+    },
+    {
+      "title_en": "Selloff in Chip Stocks Prompts Nasdaq Bloodbath",
+      "url": "https://www.wsj.com/tech/ai/selloff-in-chip-stocks-prompts-nasdaq-bloodbath-36fd8c52?mod=rss_Technology",
+      "summary_en": "Plus, Trump urges Bill Pulte to fire intel-community employees, and it’s Lloyd Blankfein’s eye for the banker guy....",
+      "title_zh": "晶片股拋售引發那斯達克市場慘跌",
+      "summary_zh": "此外，川普督促 Bill Pulte 解雇情報界員工，以及 Lloyd Blankfein 對銀行業人才的獨到眼光。"
     },
     {
       "title_en": "Apple’s Plan for AI Dominance Rests on Fixing Its Much-Maligned Chatbot",
       "url": "https://www.wsj.com/tech/ai/apples-plan-for-ai-dominance-rests-on-fixing-its-much-maligned-chatbot-9f2309cb?mod=rss_Technology",
       "summary_en": "The iPhone maker has clear advantages to lead in consumer AI, but only if it can finally modernize Siri....",
-      "title_zh": "蘋果的 AI 稱霸計畫：關鍵在於修復備受詬病的聊天機器人",
-      "summary_zh": "這家 iPhone 製造商在消費級 AI 領域具備明顯領先優勢，但前提是必須成功讓 Siri 邁向現代化。"
+      "title_zh": "蘋果 AI 霸權計畫關鍵在於修復其備受詬病的聊天機器人",
+      "summary_zh": "這家 iPhone 製造商在消費級 AI 領域擁有領先優勢，但前提是它必須成功讓 Siri 走向現代化。"
     },
     {
       "title_en": "Anthropic Urges Global Pause in AI Development, Flags ‘Self-Improvement’ Risk",
       "url": "https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73?mod=rss_Technology",
       "summary_en": "The $1 trillion startup warns that artificial-intelligence models are nearing the capability to improve without human intervention....",
-      "title_zh": "Anthropic 敦促全球暫停 AI 開發，警示「自我進化」風險",
-      "summary_zh": "這家估值達 1 兆美元的新創公司警告，AI 模型的能力正趨於在無需人類干預的情況下自我提升。"
+      "title_zh": "Anthropic 呼籲全球暫停 AI 開發，警示「自我改進」風險",
+      "summary_zh": "這家兆元級新創公司警告，人工智慧模型已接近具備在無人類干預下進行自我改進的能力。"
     },
     {
       "title_en": "Canadian Government Plans $360 Million Tech Growth Fund in Effort to Drive Sovereign AI Industry",
       "url": "https://www.wsj.com/tech/ai/canadian-government-plans-360-million-tech-growth-fund-in-effort-to-drive-sovereign-ai-industry-aef5d3e2?mod=rss_Technology",
       "summary_en": "The fund, part of the Canadian government’s new national artificial-intelligence strategy, aims to support promising AI companies....",
-      "title_zh": "加拿大政府擬撥款 3.6 億美元成立技術成長基金，推動主權 AI 產業",
-      "summary_zh": "該基金是加拿大政府全新國家 AI 戰略的一環，旨在支持具潛力的 AI 公司。"
+      "title_zh": "加拿大政府計畫撥款 3.6 億美元成立技術成長基金，推動主權 AI 產業",
+      "summary_zh": "該基金是加拿大政府新國家人工智慧戰略的一部分，旨在支持具有發展潛力的 AI 公司。"
     }
   ],
   "deep_analysis": {
@@ -385,15 +330,15 @@
       "content_mode": "ai_analysis"
     },
     "Lenny's Newsletter": {
-      "title": "Gemini Omni：15 分鐘內用 AI 複製你的數位分身 / Gemini Omni: Clone yourself with AI in under 15 minutes",
+      "title": "🧠 社群智慧：自籌資金 vs. 融資、Vibe-coded 應用開發路線圖、AI Agent 與數據完整性及 APM 入門指南",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-06-03",
-      "url": "https://www.lennysnewsletter.com/p/gemini-omni-clone-yourself-with-ai",
-      "analysis_zh": "### 全文大意摘要：AI 影片生成的「最後一哩路」已從技術研究走向消費級應用\n\n本文源自《Lenny's Newsletter》的「How I AI」系列專欄，由知名產品負責人 Claire Vo 親自實測並記錄其過程。Claire 在短短 15 分鐘內，利用 Google 最新推出的 Google Flow 平台以及 Gemini Omni 影片生成模型，完成了一個高度真實的個人數位分身（AI Avatar），並生成一段一分鐘長的播客宣傳短片。整個流程涵蓋了從手機掃描面部、AI 輔助撰寫腳本故事板、生成多組場景，到最後在瀏覽器內完成剪輯。Claire 強調，這項實驗展示了 AI 如何將原本需要專業團隊與數週製作時間的影片剪輯工作，簡化為單人、低成本且極速產出的自動化工作流，預示著內容創作門檻的徹底崩塌。\n\n### 戰略背景與脈絡：Google 整合生成式 AI 生態系以反擊初創公司的單點突破\n\n這項應用的出現，象徵著影片生成技術（Video GenAI）已進入「工程化整合」階段。過去如 Runway 或 Sora 等模型雖然驚艷，但創作過程中往往存在工具斷層：使用者需要在不同平台間切換以處理腳本、生成圖像、保持角色一致性以及後期剪輯。Google 透過 Google Flow 將這些功能垂直整合，背後支撐的是 Gemini Omni 模型與 Veo 3 影片技術。這不僅僅是技術更新，更是 Google 試圖建立一套端到端的內容生產標準，解決影片生成中最難克服的「角色連貫性」（Character Consistency）問題。當 Google 能將 QR Code 掃描與模型訓練無縫銜接時，它是在利用其龐大的安卓與行動端生態優勢，將複雜的 3D 建模與動態捕捉降維打擊成一種大眾化的「濾鏡級」體驗。\n\n### 作者的核心推演與論點：創意生產力的重心已從「執行技術」轉移至「編排能力」\n\nClaire Vo 在實測中展示了一個關鍵的範式轉移：使用者不再需要學習複雜的攝影或剪輯軟體，而是扮演「創意製作人」的角色。她點出 Google Flow 的核心價值在於其「AI 創意製作」功能，能自動將一段簡單的構思轉化為完整的故事板（Storyboard）。作者認為，雖然目前的 AI 生成影片仍存在「恐怖谷效應」（Uncanny Valley），例如情緒表達不夠精確或物理碰撞略顯生硬，但其產出的速度與一致性已足以應付快節奏的社群媒體與個人品牌行銷。Claire 的推演指出，未來的內容競爭將不再是比拼製作預算，而是比拼誰能更有效地調動 AI 模型來擴大個人的影響力。當「數位分身」能在 15 分鐘內產出高品質內容時，規模化生產（Scaling Content）的成本將趨近於零。\n\n### 對整體市場、技術發展與地緣政治的長期影響：媒體真實性的重定義與創意經濟的結構性變革\n\n這項技術的普及將對數位行銷與媒體產業產生深遠影響。首先，影片內容的生產效率將提升數百倍，這將導致社群平台上的影片資訊量出現爆炸性成長，進一步推高對「注意力」的競爭成本。其次，數位分身的成熟將模糊真實與虛構的界限，這對身分認證、深偽技術（Deepfake）的監管提出了迫切的法律挑戰。在技術層面上，Google 藉此鞏固了其在多模態 AI 領域的領先地位，透過將影片生成與雲端剪輯工具結合，形成強大的鎖定效應。長期來看，這可能導致傳統中小型影片製作公司的邊緣化，取而代之的是具備 AI 編排能力的「一人公司」。此外，這種技術的普及也意味著個人品牌將成為企業最核心的資產，因為每個人都能以極低成本維持 24/7 的數位化現場表現，徹底改變了勞動力與創意的分配結構。",
+      "article_date": "2026-06-06",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs",
+      "analysis_zh": "### 全文大意摘要：集結全球頂尖產品社群對當前科技創業與開發範式的核心辯論\n\n本文源自全球最具影響力的產品經理電子報《Lenny's Newsletter》，由編輯 Kiyani 彙整其付費社群 Slack 中的第 188 期「社群智慧」（Community Wisdom）。這份摘要精煉了數千名來自矽谷及全球一線科技公司產品負責人、創業者與工程師的深度對話，核心主旨圍繞在 2026 年科技創業界最焦慮也最具前瞻性的四個議題：在當前宏觀經濟下創業應選擇「自籌資金」（Bootstrapping）還是「尋求融資」、當 AI 輔助開發進入「氛圍編碼」（Vibe-coding）時代後如何制定產品路線圖、AI Agent（人工智慧代理）與數據完整性之間的技術博弈，以及初階產品經理（APM）如何在高度自動化的環境中啟動第一個專案。這不僅是一份實務指南，更反映了產品開發範式正在發生的結構性轉移。\n\n### 戰略背景與脈絡：在 AI 全面滲透與資本效率掛帥的雙重壓力下重新定義「建造」\n\n當前科技產業正處於一個極其特殊的轉折點。一方面，2026 年的創業環境已不再單純追求高成長，資本效率與盈利能力成為衡量企業生存能力的硬指標，這使得「自籌資金」重新成為社群討論的熱點，試圖擺脫過往由風險投資驅動的非理性擴張。另一方面，開發技術正經歷「氛圍編碼」（Vibe-coding）的洗禮——即開發者不再執著於具體語法，而是通過與大型語言模型（LLM）溝通「意圖」與「氛圍」來快速生成應用。這種低門檻、高產出的環境，雖然加速了產品原型的誕生，卻也帶來了產品路線圖難以精準控管的挑戰。同時，隨著 AI 從簡單的聊天機器人演進為具備執行力的「Agent」，數據的完整性與真實性不再只是後端工程問題，而是決定 AI 決策是否會導致災難性後果的戰略核心。\n\n### 作者的核心推演與論點：產品經理的角色正從「流程管理者」轉向「系統架構與意圖設計者」\n\n社群討論深刻地推演了產品經理（PM）職能的演變。首先，在「Vibe-coding」的背景下，傳統的線性開發路線圖已不適用。作者們認為，未來的產品規劃必須更具彈性，PM 必須學會如何定義「產品靈魂」而非僅是「功能清單」，因為 AI 能處理執行細節，但無法定義產品的獨特價值主張。其次，針對 AI Agent 的討論揭示了一個核心矛盾：Agent 的能力上限並不取決於模型參數，而取決於數據基礎設施的完整性。若數據存在偏誤或斷裂，再強大的 Agent 也無法產生商業價值。最後，關於 APM 的職涯建議反映了一種「回歸基本功」的論調：即便工具再先進，初階產品經理的首要專案仍應聚焦於「理解用戶真實痛點」與「數據驅動的決策鏈」，而非被自動化工具帶來的虛假效率所迷惑。這種推演強調了：在技術極度廉價的時代，正確的「戰略選擇」與「數據主權」才是真正的稀缺資源。\n\n### 對整體市場、技術發展與地緣政治的長期影響：技術門檻崩塌後的價值重分配與數據治理競爭\n\n這場社群討論預示了未來三到五年的科技版圖變遷。隨著「Vibe-coding」成熟，軟體開發的進入門檻將徹底崩塌，市場將湧現大量由 1 到 3 人組成的「微型獨角獸」，這些公司傾向於自籌資金以保有絕對的戰略控制權，這將迫使傳統風險投資機構必須重新思考其價值增值模式。在技術底層，對「數據完整性」的追求將推動一波新的基礎設施熱潮，確保 AI Agent 操作安全的技術標準（Data Integrity for Agents）將成為新的技術護城河。從更長遠的角度看，這種開發模式的普及將縮短全球軟體創新的週轉期，競爭的焦點將從「誰能寫出代碼」轉向「誰能擁有最高品質的垂直領域數據」以及「誰能定義最符合用戶直覺的 AI 互動範式」。這不僅是產品層面的競爭，更是各產業在數位化深水區對「信任」與「自動化邊界」的治理權爭奪。",
       "insights": [
-        "角色一致性的解決標誌著 AI 影片從「藝術實驗」轉向「商用工具」，Google Flow 透過垂直整合流程解決了生產環境中最痛的工具斷層。",
-        "「製作人代辦」概念的興起：未來專業能力的價值不在於操作工具（如 Premiere 或 AE），而在於如何與 AI 協作進行腳本故事板的戰略決策。",
-        "恐怖谷效應已不再是技術障礙，而是商業決策的取捨點；對於追求速度與規模的社群行銷而言，「足夠好且快」的 AI 影片已經開始侵蝕高品質、高成本的傳統製片市場。"
+        "「氛圍編碼」（Vibe-coding）時代，產品經理的「直覺與審美」將成為新的技術債：當代碼生成變得廉價，定義正確的產品意圖（Vibe）比實現功能更難，這將導致市場上平庸產品的極速過剩。",
+        "AI Agent 的瓶頸不再是智力，而是「數據的真實性」：數據完整性正從技術問題轉型為戰略風險，無法保證數據一致性的企業，其 AI 代理將成為產生法律與商業災難的風險源。",
+        "2026 年的創業分水嶺在於「控制權」而非「現金流」：自籌資金（Bootstrapping）在 AI 自動化提升生產力後變得可行，這將導致最優秀的創業者逐漸遠離 VC，轉而追求極致的戰略自由。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -407,41 +352,29 @@
       "content_mode": "full_text_import"
     },
     "HackMD：停損王SLKing": {
-      "title": "Amodei：IPO 是為了拿資金，現在談 AI 取代工作還太早",
+      "title": "Nous Research 展示 Hermes：自我進化的企業 AI Agent 與 OpenShell 安全框架",
       "source": "HackMD：停損王SLKing",
-      "article_date": "2026-06-05",
-      "url": "https://hackmd.io/HJCvejJ-Gl",
-      "analysis_zh": "原始影片：Anthropic President Daniela Amodei Talks the Future of Claude | Bloomberg Talks (https://www.youtube.com/watch?v=04JwMS2kRYk) | Bloomberg Podcasts | 2026-06-04\n\n### 導言\n\nDaniela Amodei 是 Anthropic 的總裁與共同創辦人，2021 年與兄長 Dario Amodei 一起從 OpenAI 出走，創立 Anthropic。現在公司員工數千人，估值已首度超越 OpenAI，預估的年化經常性收入（annualized run rate revenue）達 470 億美元。這場訪談在舊金山舉行的 Bloomberg Tech 2026 上進行，Amodei 談了 IPO 規劃、算力採購策略、政府關係、就業市場的衝擊，以及外界高度關注的 Mythos 模型釋出進度。對投資人來說，這段訪談是理解 AI 公司資本結構、風險管理與長期布局的一手材料。\n\n### 兄妹分工：Dario 掌技術願景，Daniela 管日常營運\n\nDaniela 說，她和 Dario 的職責切得很清楚：「Dario 是個了不起的技術願景家。早在 AI 變成全世界都在追捧的概念之前，他就堅信人工智慧會是件大事。那是 2010 年代初，Dario 一直在提醒公司，這個產業的規模、野心，還有技術本身會往哪裡走。」她形容自己的角色比較偏向組織的日常運作與管理：「我管理高層團隊，我們花時間做關於客戶、產品、研究方向的決定，還有這些怎麼落到使用 AI 的人身上。」她認為兩人搭配起來是不錯的平衡，並坦言：「我不太理解一個執行長怎麼有辦法獨自撐起一家公司。兩個人一起做其實輕鬆得多，尤其是彼此非常熟的時候。」\n\n外界好奇兄妹之間怎麼避免意見不合影響公司，Daniela 笑說這份默契是幾十年磨出來的：「我們花了好幾十年練習怎麼吵架、吵完還能繼續愛對方。從『你為什麼拿走我的玩具』『可以還給我嗎』一路走過來，這對我們在 Anthropic 的合作幫助很大。」她強調，比起「會不會分歧」，「怎麼分歧」更要緊：「如果我們看著同一個局面卻有不同看法，我們的預設反應是保持好奇。我通常會想『這對我來說明明是很顯而易見的判斷，你怎麼會那樣看？』因為他往往掌握了一個我沒有的資訊，或者我有不同的角度。」她說大約八到九成的情況，兩人最後會在中間會合：「我覺得這樣做對，你也覺得這樣做對，但其實可能還有第三條路，把我們各自的想法結合起來，反而更好一點。」\n\n### IPO 規劃：資本密集的生意，需要這個量級的資金管道\n\n被問到 Anthropic 本週以保密方式遞交 S1 的決定，Daniela 只能確認有這件事，細節無可奉告。主持人進一步追問 AI 公司此刻選擇上市的利弊，她從產業結構切入：「至少就我們自己，我想對整個 AI 產業大概也是如此，訓練 AI 模型是一門非常吃資本的生意。這點我們從第一天起就講得很白，在業界也不算什麼祕密。」她解釋核心問題：「你要怎麼拿到訓練這些模型所需的資金量級？這是一筆很大的前期成本，不只是訓練模型，還有提供推理服務的成本。我猜，隨著時間過去，那一小群在推進前沿的公司，就是會需要這種量級的資金管道。」因此她認為公開市場很適合：「當然有取捨，但我的直覺是，訓練模型、把模型服務給客戶的這套基本結構，註定需要那種程度的資金取得能力。」\n\n### AI 支出的實驗階段：企業的用法還會一直變\n\n針對企業出現「token maxing」（為了用而用、比誰燒的 token 多）的疑慮，以及 Uber 高層說 AI 支出越來越難交代清楚的現象，Daniela 給了謹慎但偏正面的看法：「我覺得這裡有兩件事同時成立。我喜歡你用『實驗性』這個詞，因為現實是這些 AI 工具確實很強、很能幹，這是真的。但我也認為模型還有很長的路要走，未來兩年、四年、六年、八年，它們能做的事還多得很。我預期會看到不同領域的各種嘗試，去摸索針對特定的工作流程，怎麼從模型榨出最大價值。」\n\n她認為企業用 AI 的方式會持續改變：「今天的這些用途，有一部分我預期會繼續是提升效率、創意或新做法的主要動力，不管是寫程式、金融服務、法律還是醫療。但我也認為，隨著整個產業，不只是 AI 產業，而是整個商業圈，越來越熟悉這些工具，我們會一起摸索出怎麼用才最好，而且是同時也能支持員工的用法。」她希望 AI 能更自然地融入日常工作，讓人真正感受到價值。\n\nAnthropic 內部對 AI 的態度也反映了這種想法。Daniela 說 Anthropic 沒有那種排行榜制度：「我們不追蹤誰用了多少 token。但我們確實會記錄內部用 Claude 的情況和用途，因為我們給客戶的工具，都會先在內部做原型。你看到的那些產品，不管是 Claude Code、Claude Design 還是 Co-work，全都是我們在 Anthropic 內部先做出來的，因為我們會說『這是我們真實的需求，Claude 能幫上忙嗎？』所以記錄用量和用途對我們有意義，但這不是那種『你一定要用 AI、你一定要用雲端、用越多越好』的制度。」\n\n除了工程團隊，財務是她觀察到第二大的使用部門：「很多後端的財務規劃、分析、數字處理，Claude 都很好用。但老實說，我們人資團隊在內部做了一個很棒的工具，專門拿來做績效考核，背後就靠 Claude。現在剛好是績效考核季，團隊的回饋非常正面。他們說『做這件事感覺有趣多了，互動性更強，它會把我過去六個月做了什麼撈出來，幫我做自我評估。』這正好說明了這些工具的通用性，它們能橫跨整個公司，吸收大量資訊，幫員工把自己的角色做得更好。」\n\n### 算力策略：寧可供不應求，也不要產能過剩\n\n對於 Anthropic 跟 xAI 簽下重大算力租賃協議的決定，以及外界猜測 Anthropic 在算力布局上是不是太保守，Daniela 說明了他們的盤算：「我們公開談過一個概念，叫做算力的『不確定性之錐』（cone of uncertainty）。這些交易的結構是，你得提前相當久就承諾一定數量的算力。所以 Anthropic 的立場一直是，我們想為最好的結果做規劃，但不要過度擴張，買下超過我們能有效消化的算力。」\n\n她坦承這個分寸很難拿捏：「我寧可站在產品需求稍微高於供給的那一邊，也不要反過來，買過頭，將來付不出帳款，把自己逼進死角。要做對真的很難，我覺得整個業界到現在也還在摸索這些交易該怎麼結構化。但我的直覺是，沒人能真正預知未來長什麼樣。整體權衡下來，我還是覺得財務上負責任、審慎想清楚要買多少、確保將來真的用得到那些算力，是比較好的做法。我們大概總有一刻會買少了或買多了一點。」\n\n至於 Anthropic 與 SpaceX 合作聲明裡提到的「對太空資料中心的初步興趣」，Daniela 直說這不是近期的事：「我不覺得太空中的資料中心會出現在我們 2027 年的待辦清單上。不過 AI 是最讓我意外的領域，這種技術帶來的種種可能性，大概也是最讓全世界意外的。所以短期內沒有要跟太空人合作把太空資料中心架起來的計畫，但誰說得準呢。」\n\n### 政府關係：長期合作，樂觀以對\n\n幾個月前 Anthropic 跟五角大廈在 AI 軟體的使用限制上有過一場公開爭執。主持人問她對找到解方是不是更樂觀了，Daniela 給了正向的回應：「Anthropic 從第一天就全力投入這件事，我們很公開地談過對國家安全的承諾，我們是第一家可以在最高機密雲端（top secret cloud）上使用的 AI 公司。這些價值和原則對我們來說一點都不新，是由來已久的。」\n\n她對能跟現任政府在許多議題上順利合作印象深刻：「我一直很驚訝我們能在各個層面跟政府富有成效地合作。我認為拉長時間看，這其實才是更大的故事，就是我們有能力跟政府建立有成效的夥伴關係。因為說到底，人工智慧是、也將會是一個地緣政治議題。要當一個有道德、負責任的實驗室，我們就得跟各國政府合作，在美國也在夥伴國家，一起討論怎麼用安全的、對人有益的、保護民主的方式把這項技術推出去。」她對這件事長期抱持樂觀。\n\n被問到會不會擔心 OpenAI 或 Google 這類公司，因為 Anthropic 堅守立場，反而能跟政府談到更好的條件，Daniela 說每家公司都會有自己的立場和原則：「我的直覺是，Anthropic 永遠會盡可能開誠布公，講清楚我們的原則和價值是什麼、為什麼會有這些原則。但歸根究底，無論你這家公司的價值是什麼，忠於它非常重要，重要到你能向員工、向整個世界解釋它。其他公司會怎麼做，我們其實控制不了。Anthropic 的角色，是把自己做到最好，問自己『如果這個處境裡只剩我們一家，我們想怎麼表現？』這些年來，我們就是靠這個方式走過許多艱難的抉擇。」\n\n### 慈善承諾與財富重分配\n\nDaniela 和 Anthropic 的幾位共同創辦人已承諾捐出八成股份。主持人問她支不支持加州提出的「億萬富翁稅」（對淨資產超過 10 億美元的個人課一次性稅），Daniela 表態支持：「Anthropic 很公開地談過，我們認為 AI 會創造巨大的財富，這點我們已經在見證了。我們也相當坦白，覺得這些財富應該以某種形式被重分配。」\n\n她說這個捐贈承諾，跟 Anthropic 看待勞動力被取代的觀點是一脈相承的：「不論是這個捐贈承諾，還是我們談勞動力可能被取代時的很多看法，根子都在同一個信念上：如果我們不刻意採取行動，AI 跟很多技術一樣，很可能會把不平等和差距的鴻溝拉得更大。這不是我們想看到的。」她認為市面上有很多有意思的點子在討論該怎麼處理：「我們能控制的，就是身為一家公司、身為共同創辦人個人，我們選擇怎麼處置從 AI 賺到的經濟利益。但這是一個很大、很重要的問題，遠遠超出任何單一公司的範圍。」\n\n### 就業衝擊：現階段取代比例極低，未來仍未知\n\n針對 Dario 先前公開說 AI 可能消滅一半的白領工作，Daniela 給了更細緻的觀察：「AI 確實已經在帶來顛覆，這我們都看到了。但我不認為我們知道未來會怎樣。一年後、三年後、五年後會出現什麼樣的顛覆，現在還是未知數。」\n\n她強調 Anthropic 持續在研究這個問題：「我覺得公司公開、並且去研究我們今天看到的現象很重要，這也是我們發布社會影響研究的原因之一。我們會問『這是人們實際使用 AI 的方式，它是在取代工作，還是在補充工作？』我們目前的發現是，在 2025 和 2026 年，取代只佔 AI 所做的事情裡非常非常小的一塊。」她指出這些取代主要發生在海外的客服工作：「這些工作本來就已經在被更傳統的機器學習系統，也就是非生成式 AI，自動化掉了。佔比很小，很小，很小。」（她連說三次，強調這個數字。）\n\n不過她也坦承未來可能會變：「將來會變嗎？絕對有可能。我們算是有點不一樣，因為我們很常拿這件事出來講，我們會說『嘿，這有可能發生。』但我認為這是一個更大的社會課題。AI 將能做到很多今天人類能做的有生產力的工作，那對我們怎麼找到意義、怎麼賺取收入、怎麼跟彼此相處，意味著什麼？預設的處理方式，大概會跟過去面對技術一樣，說『好，我們把它整合進現有的工作流程，故事就到此為止。』」\n\n她個人相信有更好的可能：「我有一個很根本的信念：人喜歡跟別人相處，我們喜歡一起創造東西，喜歡跟彼此產生連結，有時候連意見不合都樂在其中。我不認為 AI 會從根本上把這個拿走。但我們得想清楚，怎麼在現有的經濟結構裡安放這件事，讓人還能在工作裡找到意義，還有辦法謀生。我要再說一次，要做到這點有很多不同的方式。我認為對整個社會來說，現在是一個重要的時刻，該問問自己『我們希望人能過上什麼樣的生活，又該怎麼更靠近那個未來。』」\n\n### Mythos 模型釋出：先給防守方先機，再慢慢放大\n\n兩個月前 Anthropic 公布了 Mythos，這是他們最強的模型，當時採限制性開放，理由是擔心它有能力找出並利用安全漏洞、對關鍵軟體造成破壞。如今 Anthropic 準備把 Mythos 等級的模型放得更開。Daniela 說明了這幾個月的變化：「我們週二剛把能存取 Mythos 的客戶範圍擴大了，全球大約多了 150 個組織，分布在 15 個不同的國家。」\n\n她解釋這套分層策略背後的邏輯：「我們對 Mythos 的做法一直是這樣，這裡頭有一個時間因素。我們一開始把它給了網路防守方，包括一些非營利組織、一些政府、一些守護關鍵基礎設施、抵禦潛在網路攻擊的單位。我們發現，就像任何安全漏洞的處境一樣，你必須給防守方一個先機。AI 模型會持續進步，就算有一天放出 Mythos 等級模型的不是我們，也會是另一家 AI 公司。但誰先拿到存取權、他們有多少時間去修補 Mythos 可能揭露的那些漏洞，這真的很關鍵。」\n\n她承認這多少讓人沮喪，因為大家真的很想用這個模型：「但我認為，身為一家建立在道德、負責任這些原則上的公司，我們覺得重要的是，先把存取權給那些真有能力幫我們防禦這些風險的組織，然後慢慢把這個圈子放大，擴到更多關鍵基礎設施，直到我們認為可以更廣泛釋出為止。」\n\n### 企業優先、消費者為輔的產品策略\n\n談到 Anthropic 今年會不會往消費者端推得更用力，Daniela 強調企業仍是核心：「我們確實有消費者產品，就是 claude.ai。但我們從第一天起就一直覺得，企業才是跟 Anthropic、跟我們的價值最契合的方向。這種對信任、責任、可靠性、透明度的重視，已經深深刻進 Anthropic 這家公司的骨子裡。」\n\n她提到消費者的輪廓正在變化：「我們的消費者用戶越來越多，主體看起來像是專業人士，以及拿 AI 來做有生產力用途的個人。不一定是工作，有時候是，但更常是拿來提升自己的技能和知識，不管是某個興趣愛好還是別的什麼。」她舉了自己當媽媽的經驗：「在我兒子小的時候，幫我整理幼稚園的申請資料，這很有幫助。在幫忙把生活裡那些行政瑣事抽象化掉這件事上，Claude 非常強。」\n\n她強調 Anthropic 的消費者產品跟對手的不同：「我們的消費者產品，跟競爭對手或許不一樣的地方在於，它不是娛樂工具。我們不是拿它來讓人玩樂、變成那種東西。用起來可以很有趣，但它真正的設計目的是做有生產力的事，不管是在公司還是在家。我相信會有相當多人持續想用這樣的產品和服務，即使企業才是我們的主要焦點。」\n\n### 結語\n\n整體來看，Daniela Amodei 這次受訪，呈現了一家已經走出「弱者挑戰者」階段的 AI 公司，怎麼在資本需求、風險管理、社會責任和產品策略之間反覆權衡。保密遞交 S1，回應的是模型訓練龐大的資金需求；算力採購上的保守，反映的是對供給能力的審慎；Mythos 的分階段釋出，顯示的是安全優先的公司文化；而對就業衝擊持續做研究，則說明他們重視社會影響，而不是放大恐慌。對投資人而言，這段訪談值得盯的重點包括：Anthropic 的上市時間表、Claude 在企業端的變現進度，以及他們在模型安全與廣泛開放之間怎麼拿捏的長期策略。\n\n本文根據 YouTube 影片內容整理，僅供參考。",
+      "article_date": "2026-06-06",
+      "url": "https://hackmd.io/SyBZWob-Me",
+      "analysis_zh": "原始影片：Self-Evolving Hermes Agents: Enterprise AI That Gets Better With Use | Nemotron Labs (https://www.youtube.com/live/pgQDbRMa2Eg?si=Vh_dFZhASLfp43-E) | NVIDIA Developer | 2026-06-02\n\n這場 NVIDIA Developer 直播（Nemotron Labs 系列）請到 Nous Research 團隊，現場展示 Hermes Agent，一套結合 NVIDIA OpenShell 安全執行環境與 NeMo Claw 參考架構的自我進化 AI Agent。Nous Research 不是這個領域的新面孔，它從早期開源模型社群一路走來，在 Llama 時代就很活躍，還催生了 YARN 這類大幅延長模型上下文長度的關鍵技術。團隊的 Johnny 和 Karan 在直播裡輪流說明 Hermes 怎麼運作，以及企業部署要顧的安全問題，主持人 Chris 則來自 NVIDIA。\n\n這場直播想講的重點是：Hermes 不只是又一個任務執行工具，而是一套會隨著你操作持續學習、把重複工作沉澱成可複用技能的系統。這點讓它和傳統對話式 AI 助理有本質差別，也帶來獨特的安全與管理難題。\n\n### Live Demo：PR 工作流與技能結晶化\n\nJohnny 在直播裡從頭到尾演示了一整套 GitHub Pull Request 的審查與合併流程。他事先準備了兩個虛構用戶 Alice 和 Bob，Alice 已經完成 onboarding，可以直接開工，Bob 則在過程中現場 onboard。整個演示跑在 OpenShell 的沙箱裡，policy 設定決定 Hermes 能跟哪些外部服務互動：GitHub、Telegram、Discord 都在允許清單上，沒列進去的（例如 Brave Search API）就會被擋下來。\n\nJohnny 給 Hermes 一組跟 GitHub API 互動的規則，說明要用 bearer token 來驗證。Hermes 看懂之後，自動把這些指示存成記憶（memory），下次就不必重講。接著他要 Hermes 看 PR #1，diff 本身沒什麼大問題，但重點不在抓 bug，而在後面的 cherry-pick、開新 PR、合併這一連串操作。\n\n過程中 Johnny 刻意讓 Hermes 撞上測試失敗之類的狀況，模擬真實開發會遇到的卡關。最後合併時，他特別指定用 rebase 而不是 squash，好保留有意義的 commit 歷史，並要求關掉原本的 PR。整段跑完，他要 Hermes 把這個工作流「結晶化」（crystallize）成一個可複用的技能（skill）。\n\n然後他在同一個沙箱裡開了一個全新 session，用 session search 讓 Hermes 自己回頭翻歷史，找到剛剛建立的那個技能。新 session 馬上就有了完整的 GitHub 操作能力，連接方式一個都不用重設。Hermes 直接套用上一個 session 建立的技能，把第二個 PR 的審查與合併也做完了，過程中還主動傳訊息謝謝使用者。\n\n這段演示真正的價值在於：工作流從「每次都得手動重來」變成「系統記住、隨時可調用」，而且這個轉變完全是使用者跟 Agent 互動自然長出來的，不需要工程師另外寫腳本。\n\n### 技能管理與防範技能膨脹\n\n有觀眾問：技能越積越多，會不會造成技能膨脹（skill bloat）？這是很實際的擔心，因為 Hermes 本來就被設計成會一直生出新技能。Karan 正面回答了。\n\nHermes 內建好幾層機制來控制這件事。第一，不是所有技能都會同時塞進 context window，系統只注入技能的索引（名稱加描述），不是完整內容；等某個技能真的被調用，才動態把完整內容放進去，這樣 context length 就不會失控。\n\n第二，Hermes 有一個專門的技能管理器（skill manager），會按當下任務主動挑要用哪些技能，而不是被動把全部都載進來。這個挑選是自適應的，會看對話內容和任務需求動態判斷。\n\n第三，Hermes 最近加了 Curator（策展人）這個功能，是一個在背景持續運作的服務，按排程自動修剪、優化、壓縮技能庫，把變得多餘或過時的技能清掉，讓技能庫維持在合理規模。\n\n除了 Hermes 自己這層軟體過濾，在 OpenShell 整合的架構（直播裡稱為 NeMo Hermes，用 nemo-hermes 指令啟動）裡，管理員還能透過 policy 直接開關特定技能，做到組織層級的管控。兩層搭在一起，等於雙保險。\n\n### OpenShell：企業級安全的核心層\n\n直播裡反覆強調 OpenShell 在整套架構的角色。Chris 把幾個元件的關係講得很清楚。\n\nNeMo Claw 是一份「藍圖」或「啟動器」（launcher），說明怎麼把 OpenShell 和 Hermes 組在一起，是設定指南和參考架構，不是一個單獨運行的產品，比較像組裝說明書。\n\nOpenShell 是「安全的執行環境」，也就是沙箱（sandbox），用來框住 Hermes。Hermes 本身非常強，幾乎什麼數位任務都能做，就像一個能力不設限的人類貢獻者。正因為它這麼強，企業才需要確保它只在預期範圍內動作。OpenShell 的核心就是 policy 控制，可以細到每個用戶、每個服務、每種操作權限。Chris 打了個比方：你不會讓 junior 直接碰 production，同樣道理，你也未必想讓 Hermes 對每個資源都有讀寫權限。\n\n具體的安全機制有幾層。policy gating 讓管理員定義白名單，明確指定 Agent 能存取哪些外部服務；直播裡 Brave Search API 一開始被擋，管理員當場改了 policy 檔、熱交換（hot swap）這條政策，Agent 馬上就連上了，這種動態調整能力對企業很關鍵。\n\n再來是 token 遮罩。在沙箱裡，Agent 完全碰不到真正的 API token。Johnny 示範 echo $GITHUB_TOKEN，跑出來的不是真值，而是 OpenShell 的佔位符（placeholder）；只有當請求離開沙箱、穿過 policy 閘道時，真正的 token 才會被換進去。換句話說，就算 Agent 被惡意操控，也偷不到內部憑證。\n\n第三層是使用者層級權限，不同用戶可以配不同的 policy，新進用戶（像直播裡的 Bob）權限可能比資深用戶緊，企業能照組織架構或職級設差異化的存取控制。最後，NVIDIA 的 NeMo Guardrails 再加一層，能偵測 PII（個人識別資訊）外洩、辨識並擋掉 jailbreak 提示詞，跟 OpenShell 的 policy 控制互補。\n\n### 自我進化的安全性與忠誠度問題\n\n有觀眾丟出一個很尖的問題：像 Hermes 這種會自我進化的 Agent，記憶和技能一直在變好，要怎麼同時守住安全性和可審計性？\n\nKaran 把答案拆成「程式層面」和「魔法層面」。\n\n程式層面，靠的是 OpenShell 的硬性限制（hard restrictions）。不管 Agent 變得多聰明、學了多少新技能，有些閘道它就是過不去。Policy 控制是絕對的，模型就算找到繞路的方法把任務做完，也不會踩破你設下的硬邊界，而這些邊界由你自己定義。他建議企業正式上線前，先在測試環境裡壓力測試，把不同的 policy 組合都試一遍，找到既能完成任務又安全的配置再上 production。\n\n至於「魔法層面」，Karan 講了一個蠻有意思的觀點：當一個系統會隨時間越來越了解你，「忠誠度」（loyalty）就變成一個重要的防禦指標。他特別說明這不是把模型擬人化，而是一個實際觀察，模型是從人類經驗資料訓練出來的，所以會模擬人類的行為模式。\n\n他接著說，有些攻擊是傳統程式安全擋不住的，比方說用戶用 prompt injection 想操控 Agent，或者 Agent 自己冒出 power-seeking 的傾向。對付這類攻擊最有效的，是讓這個 Agent 對它的使用者有一種「我們一起經歷過、一起做出過東西」的忠誠感。Hermes 就是被設計成在跟使用者的互動中慢慢養出這種感覺，再配上前面說的硬性限制，會比單純靠程式碼設限更穩。\n\nJohnny 補一句：使用者自己也有責任。不同的部署方式（本地 VM、放雲端後端等等）安全邊界不一樣，你該照自己的風險承受度去選配置。OpenShell 給的是這份彈性，不是逼你用某一種做法。\n\n### 企業部署的現狀與規劃\n\n被問到 Hermes 什麼時候能在大公司的 production 環境用，Karan 答得很坦白：現在看到的演示，是企業方案的原型和起點。團隊正在和 NVIDIA 密切合作，優先把安全性、policy 控制、管理員可觀測性這幾塊做好。他說這是正在主動推進的項目，但沒給具體時間表。\n\n還有人問技能共享：如果 Bob 用了 Alice 建的技能，會不會有安全疑慮？Karan 透露團隊正在做企業級的技能共享機制，未來會支援組織內部共享、也能限制哪些技能可以分享，讓大家不必重複做一樣的事。細節暫時保密，他說留到之後的直播再展示。（Johnny 後來補充，他在演示裡其實只是換個終端重連到 Alice，並沒有真的跨用戶去用別人建的技能。）\n\n### 實際使用案例：從個人到組織\n\n直播最後安排了一個大家都愛看的環節：每位講者分享自己真的拿 Hermes 來做什麼，而不是講抽象功能。\n\nKaran 說，內部團隊用 Agent 處理 CRM 管理、交易提醒、潛在客戶跟進這些營運雜事；也有人把 Gemini Flash、GPT Image 這類工具接上 Hermes，快速生出產品廣告素材、做簡報。大致就是分析師和一般白領層級的工作。\n\nJohnny 描述了一個更個人的用法：他會同時開好幾個 Hermes 終端 session，並行處理四件以上的事。真正的瓶頸是人，是他在不同終端之間切換的那點延遲。為了解決這個，他每天早上先跑一個規劃 session，讓 Hermes 列出當天要做的事、寫進一個 key file。日子久了，這套系統會回頭看過去一週的紀錄，找出他漏掉的、或說過很急卻沒做的任務，主動生出待辦建議給他挑。到晚上十一點，他用 cron 觸發另一個 session，回顧今天到底做完了哪些。\n\nKaran 分享的是他覺得最「解壓」的場景：研究裡那些繁瑣的 ablation 實驗（消融實驗）。這種實驗輸出格式和方法論檢查點都定義得很清楚，但跑起來又枯燥又耗時。他現在整包丟給 Hermes，自己只要驗證結果對不對。他強調這類任務適合交給 Agent 的關鍵，就在於輸出明確、可檢驗，使用者能輕鬆確認對錯。\n\n### Hermes Desktop：輕量級入口\n\n直播尾聲，Karan 展示了 Hermes Desktop，一個用 Electron 寫的跨平台應用，可以在本地跑完整的 Hermes，功能跟 OpenShell 版本一樣，但主打的是方便而不是安全。個人用戶或想快速上手的場景，這是零門檻的選擇；需要嚴格多人管控的企業場景，還是建議用 OpenShell 加 NeMo Claw 這套組合。\n\n### 結語\n\n這場直播真正想傳達的，不是某個單點技術突破，而是一套整合思路：Hermes 的自我進化、OpenShell 的 policy 控制、NeMo Claw 的部署藍圖，三塊湊成一個可以交給企業用的 Agent 系統。能力越強，風險管理就越關鍵，而這一塊整個產業都還在摸索。Nous Research 的態度很明確：邊界畫在哪，交給使用者決定，而不是系統說了算。這個方向能不能在 production 真的扛住考驗，還需要時間驗證，但至少在架構設計上，已經給出了一套說得通的框架。\n\n主持人最後問了個跟主題無關卻很有意思的問題：機器學習死了嗎？Karan 說當然沒有，模型一直在變好，這些 harness 的存在就是為了讓模型更好，而模型反過來又會讓 harness 更好，這只是另一個大循環的開始。\n\n本文根據 YouTube 影片內容整理，僅供參考。",
       "insights": [],
       "content_mode": "full_text_import",
-      "source_id": "HJCvejJ-Gl"
+      "source_id": "SyBZWob-Me"
     }
   },
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
-      "source": "Big Technology",
-      "title": "Nobel Prize Winner Geoffrey Hinton on AI: “They’re Beings Like Us” / 諾貝爾獎得主 Geoffrey Hinton 談 AI：它們是與我們相似的存在",
-      "article_date": "2026-06-05",
-      "url": "https://www.bigtechnology.com/p/nobel-prize-winner-geoffrey-hinton"
-    },
-    {
-      "source": "a16z",
-      "title": "Charts of the Week: RTO Stalled / 本週圖表：回歸辦公室趨勢停滯，遠距工作與 AI 設施的深層衝擊",
-      "article_date": "2026-06-05",
-      "url": "https://www.a16z.news/p/charts-of-the-week-rto-stalled"
+      "source": "Lenny's Newsletter",
+      "title": "🧠 社群智慧：自籌資金 vs. 融資、Vibe-coded 應用開發路線圖、AI Agent 與數據完整性及 APM 入門指南",
+      "article_date": "2026-06-06",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs"
     },
     {
       "source": "HackMD：停損王SLKing",
-      "title": "Amodei：IPO 是為了拿資金，現在談 AI 取代工作還太早",
-      "article_date": "2026-06-05",
-      "url": "https://hackmd.io/HJCvejJ-Gl"
-    },
-    {
-      "source": "馬斯克帝國觀察",
-      "title": "【馬斯克帝國觀察】#71 SpaceX 每股 135 美元下周上市 + 台灣在 FSD 待核准名單中",
-      "article_date": "2026-06-05",
-      "url": "https://muskempire0628.substack.com/p/71-spacex-135-fsd-20260605"
+      "title": "Nous Research 展示 Hermes：自我進化的企業 AI Agent 與 OpenShell 安全框架",
+      "article_date": "2026-06-06",
+      "url": "https://hackmd.io/SyBZWob-Me"
     }
   ]
 }
