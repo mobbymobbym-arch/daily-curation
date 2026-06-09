@@ -1,231 +1,308 @@
 {
-  "fetch_date": "2026-06-08",
+  "fetch_date": "2026-06-09",
   "techmeme": [
     {
-      "title_en": "OpenAI plans to overhaul ChatGPT in the coming weeks, turning it into a superapp with coding tools and AI agents to serve as a gateway to higher-margin products",
-      "url": "https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9",
-      "summary_en": "$850bn start-up to recast hit chatbot as a route to higher-margin products before a potential IPO.",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
+      "title_en": "Apple overhauls Apple Intelligence, with a new architecture built on Apple Foundation Models developed with Google and adapted to run on device and on servers",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "summary_en": "Apple today announced a major overhaul of its Apple Intelligence platform, revealing a new architecture built on foundation models developed …",
+      "source": "MacRumors",
+      "media_source": "MacRumors",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "OpenAI 計劃在未來幾週內對 ChatGPT 進行重大改造，將其轉型為具備編程工具和 AI 代理（AI agents）的超級應用（superapp），作為通往高毛利產品的入口",
-      "summary_zh": "這家估值達 8,500 億美元的新創公司正準備在潛在的 IPO 之前，將這款熱門的聊天機器人重新定位，轉化為獲取更高毛利產品的渠道。"
+      "title_zh": "Apple 全面革新 Apple Intelligence：採用與 Google 共同開發的全新架構，支援裝置端與伺服器端運行",
+      "summary_zh": "Apple 今日宣佈重大革新 Apple Intelligence 平台，揭露基於與 Google 合作開發的基礎模型（Foundation Models）所建構的全新架構..."
     },
     {
-      "title_en": "Inside the early 2025 senior exec meeting where Apple admitted its AI failures; Tim Cook became intimately involved in Apple's AI roadmap around the same time",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDg0Mzg1OSwiZXhwIjoxNzgxNDQ4NjU5LCJhcnRpY2xlSWQiOiJURzlMSzFSMjRVOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.pkuIyevgCcNgp2oEfaVHxkQzVBFFckiWRHAq_fx6XjY",
-      "summary_en": "Also: What to expect at WWDC 2026. — A top secret meeting finally got Apple to take its AI crisis seriously.",
+      "title_en": "Apple announces Siri AI, with on-screen awareness, personal context understanding, a Dynamic Island-based interface, and more, along with a new Siri app",
+      "url": "https://9to5mac.com/2026/06/08/new-siri-whats-new/",
+      "summary_en": "At WWDC 2026, Apple is detailing its Apple Intelligence improvements, starting with its Google Gemini collaboration.",
+      "source": "9to5Mac",
+      "media_source": "9to5Mac",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "Apple 發表 Siri AI：具備螢幕感知與個人情境理解能力，並推出基於動態島的全新介面與 App",
+      "summary_zh": "在 WWDC 2026 上，Apple 詳細介紹了 Apple Intelligence 的改進，首先展示與 Google Gemini 的合作成果。"
+    },
+    {
+      "title_en": "OpenAI confidentially files for an IPO, says it has “not decided on timing yet”, as “there are things we want to do that are likely easier as a private company”",
+      "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html",
+      "summary_en": "OpenAI has confidentially filed for an IPO with the Securities and Exchange Commission …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "OpenAI 秘密遞交 IPO 申請，表示「尚未決定時機」，並稱部分目標在私有公司狀態下較易達成",
+      "summary_zh": "OpenAI 已向美國證券交易委員會（SEC）秘密遞交 IPO 申請..."
+    },
+    {
+      "title_en": "Apple announces new parental controls, letting kids ask to browse specific websites or contact specific people, adding automatic image filtering, and more",
+      "url": "https://www.engadget.com/2189728/apple-expands-parental-controls-to-include-automatic-image-filtering/",
+      "summary_en": "Kids can now ask to browse specific websites and contact specific people. — At WWDC 26, Apple announced changes to give parents more control over what their kids see and do.",
+      "source": "Engadget",
+      "media_source": "Engadget",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Apple 推出全新家長控制功能：允許孩童請求瀏覽特定網站或聯繫特定對象，並加入自動圖片過濾",
+      "summary_zh": "孩童現在可以請求瀏覽特定網站或聯繫特定對象。Apple 在 WWDC 26 宣佈多項改動，讓家長能更有效控管孩童的線上活動。"
+    },
+    {
+      "title_en": "Apple unveils iOS 27, iPadOS 27, watchOS 27, and visionOS 27, highlighting performance and design improvements, including smoother system animations",
+      "url": "https://www.theverge.com/tech/941202/apple-ios-27-wwdc-2026",
+      "summary_en": "",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "Apple 發表 iOS 27、iPadOS 27、watchOS 27 及 visionOS 27，強調效能提升與更流暢的系統動畫",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "A federal judge blocks President Trump's policy imposing a $100,000 fee for employer H-1B visa applications",
+      "url": "https://www.cnbc.com/2026/06/08/trump-h1b-visa-fee-blocks.html",
+      "summary_en": "A federal judge on Monday vacated President Donald Trump's policy imposing a $100,000 fee for employers' H-1B visa applications. — The visa payment policy violated …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "聯邦法官攔阻川普政府政策：原擬針對 H-1B 簽證雇主加收 10 萬美元費用",
+      "summary_zh": "一位聯邦法官於週一撤銷了川普總統要求雇主為 H-1B 簽證申請支付 10 萬美元費用的政策，認定該政策違規。"
+    },
+    {
+      "title_en": "FTX co-founder Sam Bankman-Fried formally applies for a presidential pardon; he was sentenced to 25 years in prison in 2024, following the FTX collapse",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-08/ftx-co-founder-bankman-fried-formally-applies-for-trump-pardon",
+      "summary_en": "FTX co-founder Sam Bankman-Fried formally applied for a presidential pardon, more than two years after he was convicted …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "揭秘 2025 年初 Apple 高層會議：蘋果坦承其在 AI 領域的失敗；與此同時，Tim Cook 開始深度參與 Apple 的 AI 發展藍圖",
-      "summary_zh": "此外：WWDC 2026 預測。一場絕密會議終於讓 Apple 開始嚴肅看待其 AI 危機。"
+      "title_zh": "FTX 共同創辦人 SBF 正式申請總統特赦；他因 FTX 崩潰於 2024 年被判處 25 年監禁",
+      "summary_zh": "FTX 共同創辦人 Sam Bankman-Fried 在定罪兩年多後，正式向總統提出特赦申請。"
     },
     {
-      "title_en": "KPMG survey: only 26% of companies have a comprehensive view of their AI costs, while 50% have some visibility and 22% have none or only see costs after billing",
-      "url": "https://www.wsj.com/cfo-journal/the-metric-cfos-struggle-to-track-ai-usage-3b30c10c?st=gU2ZbB&reflink=desktopwebshare_permalink",
-      "summary_en": "Only 26% of companies say they have a comprehensive view of their AI costs, according to a new survey",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
+      "title_en": "Google upgrades NotebookLM, which now runs on Gemini 3.5 and Antigravity, to deliver new agentic capabilities and more advanced reasoning for AI Ultra users",
+      "url": "https://techcrunch.com/2026/06/08/notebooklms-new-update-will-help-you-build-source-repository-from-chat/",
+      "summary_en": "Google on Monday announced an update to its NotebookLM research tool, which includes new features and the shift to Gemini 3.5 as the default model.",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "KPMG 調查：僅 26% 的企業能全面掌握其 AI 成本，50% 僅有部分透明度，22% 則完全無法掌握或僅在收到帳單後才知曉",
-      "summary_zh": "根據一項最新調查，僅有 26% 的公司表示他們對其 AI 成本有全面的瞭解。"
+      "title_zh": "Google 升級 NotebookLM：改用 Gemini 3.5 與 Antigravity，為 AI Ultra 用戶提供 Agent 能力與進階推理",
+      "summary_zh": "Google 週一宣佈更新其研究工具 NotebookLM，除了導入多項新功能，並將預設模型切換至 Gemini 3.5。"
     },
     {
-      "title_en": "As wealth managers confront an AI reckoning, the tech is, for now, easing their workloads by picking up routine tasks, freeing up more time to advise clients",
-      "url": "https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDcyNjY2MywiZXhwIjoxNzgxMzMxNDYzLCJhcnRpY2xlSWQiOiJURzVMVFdOM04wTDkwMCIsImJjb25uZWN0SWQiOiIwNEFGQkMxQkYyMTA0NUVEODg3MzQxQkQwQzIyNzRBMCJ9.OKvahChq9V_QV5StPtT33NRwUsoZcmSqbFYUiMb6H8Y",
-      "summary_en": "Wealth managers, who can make upwards of $500,000, are confronting a chatbot reckoning. — Down the Wealth Walkway on South Beach …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "隨著財富管理經理面臨 AI 的考驗，目前這項技術正透過接手常規任務來減輕他們的工作負擔，從而騰出更多時間為客戶提供諮詢",
-      "summary_zh": "年薪可能超過 50 萬美元的財富管理經理，正迎來聊天機器人的考驗。"
-    },
-    {
-      "title_en": "White House AI advisor Sriram Krishnan says he will leave his role at the end of June; sources: Krishnan plans to start a pro-Trump AI policy institution",
-      "url": "https://www.theinformation.com/articles/white-house-ai-policy-advisor-krishnan-leave-position",
-      "summary_en": "Sriram Krishnan, a top AI policy advisor in the Trump administration, plans to leave his position at the end of June …",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "白宮 AI 顧問 Sriram Krishnan 宣佈將於 6 月底離職；消息人士稱，Krishnan 計劃成立一個親川普的 AI 政策研究機構",
-      "summary_zh": "川普政府的高級 AI 政策顧問 Sriram Krishnan 計劃在 6 月底卸任。"
-    },
-    {
-      "title_en": "Q&A with Google DeepMind's Director of AGI Economics Alex Imas and Epoch AI's Phil Trammell on what remains scarce after AGI, redistributing AI wealth, and more",
-      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
-      "summary_en": "“One robot now turns into many robots next year, but the number of ballerinas is the same.” — Economics of AGI episode w Alex Imas and Phil Trammell.",
-      "source": "Dwarkesh Podcast",
-      "media_source": "Dwarkesh Podcast",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Google DeepMind AGI 經濟學總監 Alex Imas 與 Epoch AI 的 Phil Trammell 對談：探討 AGI 普及後依然稀缺的資源、AI 財富分配等議題",
-      "summary_zh": "「今年的一個機器人到明年會變成很多個，但芭蕾舞者的數量卻保持不變。」——與 Alex Imas 和 Phil Trammell 探討 AGI 經濟學。"
-    },
-    {
-      "title_en": "Memory chip vendors say CXMT's DDR5 prices match Samsung, SK Hynix, and Micron, and it has a supply advantage in client markets as it is not prioritizing HBM",
-      "url": "https://wccftech.com/cxmt-cheap-ddr5-is-a-myth-memory-vendors-tell-us-prices-match-samsung-sk-hynix-micron/",
-      "summary_en": "CXMT's DDR5 memory is apparently not as cheap to procure as reports claim, falling in the same range as DRAM from other manufacturers.",
-      "source": "Wccftech",
-      "media_source": "Wccftech",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "記憶體晶片廠商表示，長鑫存儲（CXMT）的 DDR5 價格與三星、SK 海力士和美光相當，且因其未優先發展 HBM，在消費市場具備供應優勢",
-      "summary_zh": "CXMT 的 DDR5 記憶體採購成本似乎不如報導所稱的低廉，其價格範圍與其他製造商的 DRAM 相當。"
-    },
-    {
-      "title_en": "French carriers Bouygues Telecom, Orange, and Free-iliad sign an MOU with Altice France to acquire SFR for €20.35B, including debt, expected to close in H2 2027",
-      "url": "https://www.reuters.com/business/media-telecom/bouygues-led-consortium-signs-2344-billion-deal-buy-sfr-altice-france-2026-06-06/",
-      "summary_en": "Bouygues Telecom (BOUY.PA), Orange (ORAN.PA) and Free-iliad Group said on Saturday they have signed a memorandum …",
+      "title_en": "Meta says it's filing a federal court contempt order against NSO for violating a permanent injunction that barred NSO from ever targeting WhatsApp and its users",
+      "url": "https://www.reuters.com/legal/litigation/meta-takes-legal-action-against-israeli-spyware-firm-nso-group-2026-06-08/",
+      "summary_en": "Meta (META.O) said on Monday it is filing a federal court contempt order against Israeli spyware firm NSO Group for violating …",
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "法國電信商 Bouygues Telecom、Orange 及 Free-iliad 與 Altice France 簽署備忘錄，將以 203.5 億歐元（含債務）收購 SFR，預計 2027 下半年完成",
-      "summary_zh": "Bouygues Telecom、Orange 和 Free-iliad 集團週六表示，他們已簽署了一份收購備忘錄……"
+      "title_zh": "Meta 向法院聲請 NSO 藐視法庭令，指控其違反禁止攻擊 WhatsApp 及其用戶的永久禁令",
+      "summary_zh": "Meta (META.O) 週一表示，正針對以色列間諜軟體公司 NSO Group 向聯邦法院聲請藐視法庭令。"
     },
     {
-      "title_en": "Report: in May, supply of unsecured bonds from hyperscalers hit $155B YTD, 45%+ more than 2025's total issuance; some AI-infra bond sales are 4x oversubscribed",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-06/doubleline-oaktree-brace-for-potential-ai-pain-credit-weekly",
-      "summary_en": "Credit heavyweights like DoubleLine Capital LP and Oaktree Capital Management are buying debt now that can perform …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "報告：5 月份超大型雲端供應商的無擔保債券發行量今年至今已達 1,550 億美元，較 2025 年全年增長 45% 以上；部分 AI 基礎設施債券超額認購達 4 倍",
-      "summary_zh": "DoubleLine Capital LP 和橡樹資本管理（Oaktree Capital Management）等信貸巨頭正趁勢買入表現強勁的債務。"
-    },
-    {
-      "title_en": "Industry data: India's six largest IT companies grew combined revenue from $95.9B in FY23 to $103.1B in FY26, while headcount remained broadly steady at ~1.9M",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/jobless-growth-in-it-revenue-grows-headcount-stagnates/articleshow/131512337.cms",
-      "summary_en": "India's top IT companies are achieving revenue growth with stable employee numbers. This trend highlights a shift towards automation and improved productivity.",
-      "source": "The Economic Times",
-      "media_source": "The Economic Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "行業數據：印度六大 IT 公司合併營收從 2023 財年的 959 億美元增長至 2026 財年的 1,031 億美元，而員工總數則大致穩定在 190 萬人",
-      "summary_zh": "印度頂尖 IT 公司在員工數量穩定的情況下實現了營收增長，這趨勢凸顯了向自動化和生產力提升的轉型。"
-    },
-    {
-      "title_en": "How LinkedIn is transforming into a “post-cringe” social network as it courts high-profile influencers, who are building audiences on corporate-friendly topics",
-      "url": "https://www.nytimes.com/2026/06/04/business/linkedin-social-media-influencers.html?unlocked_article_code=1.n1A.CB-z.d-b0OiKg5BM7&smid=url-share",
-      "summary_en": "Celebrities and paid influencers have transformed the career-focused platform, which for some users, has become a job unto itself.",
+      "title_en": "A study estimates the iPhone's diffusion explains 33%-52% of the decline in US births from 2007 to 2011, with the most pronounced effects among women aged 15-24",
+      "url": "https://www.nytimes.com/2026/06/08/us/iphone-birthrate-decline-studies.html?unlocked_article_code=1.olA.b7iV.NINJIvJR617P",
+      "summary_en": "Modern smartphones rolled out in 2007, the year that fertility rates began falling. Two studies say that is not a coincidence.",
       "source": "New York Times",
       "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "揭秘 LinkedIn 如何轉型為「去尷尬化」（post-cringe）的社群網絡：吸引知名影響者圍繞職場友好話題建立受眾",
-      "summary_zh": "名人和付費影響者改變了這個專注於職涯的平台，對某些用戶來說，經營 LinkedIn 本身已成為一項全職工作。"
+      "title_zh": "研究估計 iPhone 的普及解釋了 2007 至 2011 年美國出生率下降的 33%-52%，其中 15-24 歲女性影響最顯著",
+      "summary_zh": "現代智慧型手機於 2007 年推出，同年生育率開始下降。兩項研究指出這並非巧合。"
     },
     {
-      "title_en": "ASML CEO Christophe Fouquet applauds the EU's tech sovereignty plans but says substantial EU involvement in steering “strategic projects” is a cause for concern",
-      "url": "https://www.reuters.com/business/asml-ceo-says-eu-commission-should-not-try-direct-strategic-projects-2026-06-05/",
-      "summary_en": "The CEO of top European tech firm ASML (ASML.AS) on Friday welcomed most proposals made by the EU Commission this week …",
+      "title_en": "Sources: former OpenAI researcher Leopold Aschenbrenner's AI-focused hedge fund, Situational Awareness, has $20B+ AUM, after launching less than two years ago",
+      "url": "https://www.wsj.com/finance/stocks/the-24-year-old-ai-wiz-who-counts-jane-street-as-an-investor-1c30d751?st=B4Grft&reflink=desktopwebshare_permalink",
+      "summary_en": "Leopold Aschenbrenner has attracted a cult following online, with fans dissecting his every move",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指前 OpenAI 研究員 Leopold Aschenbrenner 的 AI 對沖基金 Situational Awareness 管理資產已超 200 億美元",
+      "summary_zh": "Leopold Aschenbrenner 在網路上吸引了大量追隨者，粉絲們正密切關注他的每一個動作。"
+    },
+    {
+      "title_en": "Analysis: Meta removed code for an unreleased face-recognition system in the Meta AI app for its smart glasses, following a report on the code's existence",
+      "url": "https://www.wired.com/story/meta-removes-face-recognition-code-meta-ai-app-smart-glasses/",
+      "summary_en": "The code WIRED identified is gone from the latest version of Meta AI, the companion app for the company's smart glasses.",
+      "source": "Wired",
+      "media_source": "Wired",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "分析：在媒體報導後，Meta 已從其智慧眼鏡 App 中移除尚未發表的臉部辨識系統程式碼",
+      "summary_zh": "WIRED 發現的相關程式碼已從 Meta AI（智慧眼鏡的配套 App）最新版本中移除。"
+    },
+    {
+      "title_en": "The US DOD designates some of China's biggest companies, including Alibaba, BYD, and Baidu, as entities that support the Chinese military",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-08/pentagon-accuses-alibaba-baidu-byd-of-aiding-china-s-military",
+      "summary_en": "The Pentagon identified some of China's biggest companies including Alibaba Group Holding Ltd., BYD Co. and Baidu Inc. as entities that support the Chinese military …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "美國國防部將阿里巴巴、比亞迪及百度等中國巨頭列為支援中國軍方的實體",
+      "summary_zh": "五角大廈點名阿里巴巴、比亞迪 (BYD) 及百度 (Baidu) 等中國龍頭企業為支援中國軍方的實體。"
+    },
+    {
+      "title_en": "Google lowers the price of its Google AI Plus plan to $4.99 per month, down from $7.99, and doubles the included storage to 400GB",
+      "url": "https://9to5google.com/2026/06/08/google-ai-plus-price-drop/",
+      "summary_en": "Google announced today that its AI Plus subscription is getting a price drop to $4.99 per month and now includes 400 GB of storage.",
+      "source": "9to5Google",
+      "media_source": "9to5Google",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Google 將 Google AI Plus 訂閱價格降至每月 4.99 美元，並將儲存空間翻倍至 400GB",
+      "summary_zh": "Google 今日宣佈 AI Plus 訂閱降價至每月 4.99 美元，且現在包含 400 GB 的儲存空間。"
+    },
+    {
+      "title_en": "Microsoft has shut down 70+ of its own repositories on GitHub after hackers pushed malware that would steal credentials from users of AI coding agents",
+      "url": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users/",
+      "summary_en": "Microsoft took the highly unusual step of shutting down more than 70 of its own GitHub repositories after hackers pushed malware …",
+      "source": "404 Media",
+      "media_source": "404 Media",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "微軟緊急關閉 GitHub 上 70 多個自家專案庫，因駭客植入鎖定 AI 程式碼編寫工具用戶的惡意軟體",
+      "summary_zh": "在駭客植入企圖竊取 AI 程式碼助手用戶憑據的惡意軟體後，微軟採取了極為罕見的舉措，關閉了超過 70 個自家的 GitHub 專案。"
+    },
+    {
+      "title_en": "Bending Spoons files for a US IPO, reporting a net income of $27.5M on revenue of $601M in Q1, vs. a net loss of $112.2M on revenue of $259M a year earlier",
+      "url": "https://www.reuters.com/legal/transactional/italys-bending-spoons-files-us-ipo-2026-06-08/",
+      "summary_en": "Vimeo parent Bending Spoons filed for a U.S. initial public offering on Monday, as a busy summer IPO window takes shape.",
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "ASML 執行長 Christophe Fouquet 讚賞歐盟的技術主權計劃，但表示歐盟大幅介入引導「戰略項目」的做法令人擔憂",
-      "summary_zh": "歐洲頂尖科技公司 ASML 的執行長週五對歐盟委員會本週提出的大部分建議表示歡迎……"
+      "title_zh": "Vimeo 母公司 Bending Spoons 申請赴美 IPO，第一季營收 6.01 億美元且淨利 2,750 萬美元，大幅優於去年同期",
+      "summary_zh": "隨著夏季 IPO 熱潮成形，Vimeo 母公司 Bending Spoons 於週一遞交了美國 IPO 申請。"
     },
     {
-      "title_en": "Several UK police forces have been told to stop using AI to prepare court statements, citing concerns that inaccurate outputs could contaminate legal procedures",
-      "url": "https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241",
-      "summary_en": "Safeguards must be in place before forces automate justice tasks, says head of Police.AI — A number of UK police forces …",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
+      "title_en": "Travis Kalanick, Mark Pincus, and other founders share their horror stories of pitching to VCs; Cloudflare CEO Matthew Prince publicly calls out Vinod Khosla",
+      "url": "https://techcrunch.com/2026/06/05/founders-share-vc-horror-stories-and-some-are-naming-names/",
+      "summary_en": "Asking venture capitalists for investment is a rite of passage for tech founders. This has led to another universal experience: the VC pitching horror story.",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "多家英國警察單位被要求停止使用 AI 準備法庭陳述書，理由是擔心不準確的輸出可能會污染法律程序",
-      "summary_zh": "警察局長表示，在警方將司法任務自動化之前，必須建立完善的保障機制。"
+      "title_zh": "Travis Kalanick 與 Mark Pincus 等創業者分享向 VC 募資的慘痛經驗；Cloudflare 執行長點名 Vinod Khosla",
+      "summary_zh": "向風險投資人 (VC) 募資是科技創業者的必經之路，這也造就了另一種普遍經驗：募資慘痛故事。"
     },
     {
-      "title_en": "Raspberry Pi closed up 27%+ on June 5 after saying it expects adjusted EBITDA of at least $38M in H1, putting it on track to beat $42M est. for the full year",
-      "url": "https://www.ft.com/content/22c5c127-fbab-44eb-a982-a26b9a40eb5c",
-      "summary_en": "UK maker of tiny low-cost computers expects ‘robust demand’ to push unit sales above 4mn in first half",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
+      "title_en": "Sources: Google placed an order with Intel to manufacture 3M+ TPUs in 2028; Nvidia is testing Intel tech for a processor and running 18A trials; INTC jumps 11%",
+      "url": "https://www.theinformation.com/articles/google-nvidia-consider-intel-backup-chip-manufacturer",
+      "summary_en": "TSMC's capacity struggles are turning into a boon for Intel. — As the Taiwanese chip making giant struggles to meet overwhelming demand …",
+      "source": "The Information",
+      "media_source": "The Information",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Raspberry Pi 於 6 月 5 日收盤大漲 27% 以上，此前該公司預計上半年經調整後的 EBITDA 至少達 3,800 萬美元，有望超越全年 4,200 萬美元的預期值",
-      "summary_zh": "這家英國微型平價電腦製造商預計，「強勁的需求」將推動上半年銷量突破 400 萬台。"
+      "title_zh": "消息：Google 向 Intel 下單於 2028 年代工 300 萬顆 TPU；Nvidia 亦在測試 Intel 技術與 18A 工藝；INTC 股價大漲 11%",
+      "summary_zh": "台積電的產能困境正成為 Intel 的轉機。隨著台灣晶片代工巨頭難以滿足排山倒海的需求，訂單開始流向 Intel。"
+    },
+    {
+      "title_en": "UK PM Keir Starmer says tech companies must introduce “device controls” that stop kids from sending and receiving nude images or face laws forcing them to do so",
+      "url": "https://www.reuters.com/business/media-telecom/big-tech-firms-must-stop-young-people-circulating-nude-images-says-uk-pm-starmer-2026-06-08/",
+      "summary_en": "Big tech firms operating in Britain must introduce safety measures on children's phones to prevent …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "英國首相施凱爾要求科技公司導入「裝置控制」以阻止孩童收發裸照，否則將立法強制執行",
+      "summary_zh": "英國政府要求在當地營運的大型科技公司必須在兒童手機中導入安全措施，以防止..."
+    },
+    {
+      "title_en": "Anthropic researchers say Mythos Preview can now turn publicly disclosed software vulnerabilities, or N-days, into working exploits in hours instead of weeks",
+      "url": "https://www.axios.com/2026/06/08/exclusive-anthropics-mythos-can-exploit-new-flaws-in-hours",
+      "summary_en": "Anthropic's Mythos Preview can now turn newly disclosed software vulnerabilities into working exploits in hours instead of weeks …",
+      "source": "Axios",
+      "media_source": "Axios",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Anthropic 研究人員稱 Mythos Preview 現可在數小時內將已公開的漏洞轉化為可運行的攻擊程式",
+      "summary_zh": "Anthropic 的 Mythos Preview 現在能將新披露的軟體漏洞，在數小時內（而非數週）轉化為可運行的漏洞利用程式 (Exploits)。"
+    },
+    {
+      "title_en": "Italy's competition authority says it has dropped its 2025 probe into Meta over allegations Meta abused its dominant position by installing Meta AI on WhatsApp",
+      "url": "https://www.reuters.com/business/italy-regulator-drops-investigation-into-metas-whatsapp-ai-bot-2026-06-08/",
+      "summary_en": "Italy's competition authority said on Monday it had dropped an investigation into Meta Platforms (META.O) over allegations …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "義大利競爭管理局終止對 Meta 的調查，原指控 Meta 在 WhatsApp 安裝 Meta AI 涉嫌濫用市場主導地位",
+      "summary_zh": "義大利競爭管理局週一表示，已停止針對 Meta Platforms (META.O) 的調查。該調查原先是因 Meta 被指控在 WhatsApp 中預裝 Meta AI 而涉嫌濫用其主導地位。"
     }
   ],
   "wsj": [
     {
-      "title_en": "Here’s How Long It Will Take for AI to Reach Its Potential",
-      "url": "https://www.wsj.com/tech/ai/ai-future-advancements-what-to-expect-a4fdba95?mod=rss_Technology",
-      "summary_en": "There are plenty of reasons to believe that artificial intelligence will be slower than its biggest boosters believe, but faster than the skeptics say....",
-      "title_zh": "AI 究竟需要多久才能發揮其真正潛力？",
-      "summary_zh": "許多理由顯示，人工智慧的發展速度會比其最狂熱的支持者預期的要慢，但會比懷疑論者所說的要快。"
+      "title_en": "OpenAI Files to Go Public in Test of Investor Appetite for Top AI Startups",
+      "url": "https://www.wsj.com/tech/ai/openai-kicks-off-ipo-process-in-test-of-investor-appetite-for-top-ai-labs-eb7bebe1?mod=rss_Technology",
+      "summary_en": "The ChatGPT maker confidentially filed for an offering, but said ‘it may be a while’ before it goes public...",
+      "title_zh": "OpenAI 遞交上市申請，測試投資者對頂尖 AI 新創公司的興趣",
+      "summary_zh": "ChatGPT 開發商已秘密提交 IPO 申請，但表示「可能還需要一段時間」才會正式上市。"
     },
     {
-      "title_en": "Google’s Unique Approach to Getting Data Centers Built",
-      "url": "https://www.wsj.com/tech/ai/googles-unique-approach-to-getting-data-centers-built-2cfae652?mod=rss_Technology",
-      "summary_en": "Plus, a DIY solar hack, a country fights teen brain rot with free ChatGPT and Apple’s plans for a Siri-led AI comeback....",
-      "title_zh": "Google 建造資料中心的獨特策略",
-      "summary_zh": "此外：DIY 太陽能技巧、某個國家利用免費的 ChatGPT 對抗青少年的「大腦腐蝕」（brain rot），以及 Apple 藉由 Siri 引領 AI 回歸的計劃。"
+      "title_en": "OpenAI Files for IPO",
+      "url": "https://www.wsj.com/tech/openai-files-for-ipo-824ecc5e?mod=rss_Technology",
+      "summary_en": "Plus, the Trump administration’s $100,000 H-1B visa fee is declared unlawful, and private racetracks zoom into view....",
+      "title_zh": "OpenAI 申請 IPO；此外川普政府 10 萬美元 H-1B 簽證費被判非法",
+      "summary_zh": "除了 OpenAI 申請上市，法院判決川普政府時期的 10 萬美元 H-1B 簽證費為非法；此外，私人賽車場也進入大眾視野。"
     },
     {
-      "title_en": "The Wearable Showdown: Oura Ring 5 vs. Fitbit Air vs. Whoop MG vs. Apple Watch",
-      "url": "https://www.wsj.com/tech/personal-tech/oura-ring-fitbit-air-whoop-apple-sleep-wearables-99783661?mod=rss_Technology",
-      "summary_en": "Our columnist tests out the latest fitness trackers for your wrist, finger and elsewhere, with a focus on sleep monitoring and heart-rate accuracy....",
-      "title_zh": "穿戴式設備大對決：Oura Ring 5 vs. Fitbit Air vs. Whoop MG vs. Apple Watch",
-      "summary_zh": "我們的專欄作家測試了適用於手腕、手指等部位的最新健身追蹤器，重點在於睡眠監測和心率準確度。"
+      "title_en": "Meta Launches ‘Workforce Academy’ to Train Workers to Build Data Centers",
+      "url": "https://www.wsj.com/tech/ai/meta-launches-workforce-academy-to-train-workers-to-build-data-centers-35470a80?mod=rss_Technology",
+      "summary_en": "The five-week program, which is free of charge and guarantees a job, follows a recent layoff of 8,000 employees....",
+      "title_zh": "Meta 推出「勞動力學院」培訓員工建設數據中心",
+      "summary_zh": "此為期五週的計畫完全免費並保證就業，在此之前 Meta 才剛裁減了 8,000 名員工。"
     },
     {
-      "title_en": "Google to Pay SpaceX Nearly $1 Billion a Month in Cloud-Computing Deal",
-      "url": "https://www.wsj.com/tech/google-to-pay-spacex-nearly-1-billion-a-month-in-cloud-computing-deal-788d8aaa?mod=rss_Technology",
-      "summary_en": "The agreement gives SpaceX a new stream of revenue for its AI business ahead of its IPO....",
-      "title_zh": "Google 將在雲端運算協議中每月向 SpaceX 支付近 10 億美元",
-      "summary_zh": "該協議為 SpaceX 的 AI 業務在 IPO 之前提供了新的收入來源。"
+      "title_en": "Apple Unveiled the New Siri AI. Here Are the Key Takeaways.",
+      "url": "https://www.wsj.com/tech/apple-wwdc-2026-annoucements-69c7948c?mod=rss_Technology",
+      "summary_en": "Apple showed off a new version of its Siri chatbot, technology developed with Google that the iPhone maker hopes will help power a comeback in AI....",
+      "title_zh": "Apple 發表全新 Siri AI：重點功能一次看",
+      "summary_zh": "Apple 展示了新版 Siri 聊天機器人，這項與 Google 合作開發的技術，是這家 iPhone 製造商希望在 AI 領域重返榮耀的核心。"
     },
     {
-      "title_en": "Estonia Is Fighting Brain Rot—With Free ChatGPT",
-      "url": "https://www.wsj.com/tech/ai/estonia-is-fighting-brain-rotwith-free-chatgpt-8bc2806d?mod=rss_Technology",
-      "summary_en": "Plus, the push to bypass Chinese rare earths and the scramble to ban personalized pricing....",
-      "title_zh": "愛沙尼亞正利用免費的 ChatGPT 對抗「大腦腐蝕」",
-      "summary_zh": "此外，還有繞過中國稀土的推動，以及全面禁止個人化定價的爭議。"
+      "title_en": "Democrats Unveil Flood of AI Proposals in Potential Challenge to Tech Giants",
+      "url": "https://www.wsj.com/tech/ai/democrats-unveil-flood-of-ai-proposals-in-potential-challenge-to-tech-giants-16819bfc?mod=rss_Technology",
+      "summary_en": "Sen. Adam Schiff and other lawmakers seek oversight of the Pentagon’s AI use....",
+      "title_zh": "民主黨提出大量 AI 監管提案，挑戰科技巨頭",
+      "summary_zh": "眾議員 Adam Schiff 與其他立法者尋求對五角大廈使用 AI 的情況進行監督。"
     },
     {
-      "title_en": "Morgan Stanley Sees SpaceX’s Revenue Reaching $3.4 Trillion in 2040",
-      "url": "https://www.wsj.com/finance/banking/morgan-stanley-sees-spacexs-revenue-reaching-3-4-trillion-in-2040-c8a7f431?mod=rss_Technology",
-      "summary_en": "Projections banks shared with top investors show how they are selling the rocket maker’s $1.77 trillion valuation....",
-      "title_zh": "摩根士丹利預測 SpaceX 到 2040 年營收將達 3.4 兆美元",
-      "summary_zh": "銀行分享給頂級投資者的預測報告顯示，他們是如何推銷這家火箭製造商 1.77 兆美元的估值。"
+      "title_en": "In a World Where Change Has Become the Norm, Which Companies Are Built to Last?",
+      "url": "https://www.wsj.com/economy/jobs/best-companies-future-2026-095764e4?mod=rss_Technology",
+      "summary_en": "The goal of our Best Companies for the Future list is to find companies that meet this unprecedented historical moment....",
+      "title_zh": "在變革成為常態的世界，哪些公司能基業長青？",
+      "summary_zh": "我們的「未來最佳公司」名單旨在找出能在這個史無前例的歷史時刻中脫穎而出的企業。"
     },
     {
-      "title_en": "Bring Your Own Power, Ireland Tells Tech Titans Hungry for Data Centers",
-      "url": "https://www.wsj.com/business/bring-your-own-power-ireland-tells-tech-titans-hungry-for-data-centers-ea750af8?mod=rss_Technology",
-      "summary_en": "The tiny nation is a test case for countries seeking AI investment without risking outages or higher bills for citizens....",
-      "title_zh": "愛爾蘭告知渴求資料中心的科技巨頭：請自備電力",
-      "summary_zh": "這個小國正成為各國在尋求 AI 投資的同時，如何避免斷電風險或推高民眾電費的試驗案例。"
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-24326580?mod=rss_Technology",
+      "summary_en": "Find insight on Apple, Kneat.com, Uber, Nvidia and more in the latest Market Talks covering Technology, Media and Telecom....",
+      "title_zh": "科技、媒體與電信彙報：市場商談",
+      "summary_zh": "在最新的科技、媒體與電信市場商談中，獲取關於 Apple、Kneat.com、Uber、Nvidia 等公司的見解。"
     },
     {
-      "title_en": "U.S. Officials Discuss Taking Financial Stakes in AI Industry",
-      "url": "https://www.wsj.com/tech/ai/u-s-officials-discuss-taking-financial-stakes-in-ai-industry-b654d41a?mod=rss_Technology",
-      "summary_en": "The talks have been with artificial-intelligence leaders such as OpenAI CEO Sam Altman, who pitched the idea....",
-      "title_zh": "美國官員討論入股 AI 產業",
-      "summary_zh": "相關討論已與 OpenAI 執行長 Sam Altman 等 AI 領導者進行，Sam Altman 親自提出了這個想法。"
+      "title_en": "The 24-Year-Old AI Wiz Who Counts Jane Street as an Investor",
+      "url": "https://www.wsj.com/finance/stocks/the-24-year-old-ai-wiz-who-counts-jane-street-as-an-investor-1c30d751?mod=rss_Technology",
+      "summary_en": "Leopold Aschenbrenner has attracted a cult following online, with fans dissecting his every move....",
+      "title_zh": "獲得 Jane Street 投資的 24 歲 AI 奇才",
+      "summary_zh": "Leopold Aschenbrenner 在網路上吸引了一群死忠追隨者，粉絲們正仔細分析他的一舉一動。"
     },
     {
-      "title_en": "Apple’s Plan for AI Dominance Rests on Fixing Its Much-Maligned Chatbot",
-      "url": "https://www.wsj.com/tech/ai/apples-plan-for-ai-dominance-rests-on-fixing-its-much-maligned-chatbot-9f2309cb?mod=rss_Technology",
-      "summary_en": "The iPhone maker has clear advantages to lead in consumer AI, but only if it can finally modernize Siri....",
-      "title_zh": "蘋果的 AI 霸權計畫取決於修復其飽受詬病的聊天機器人",
-      "summary_zh": "這家 iPhone 製造商在消費級 AI 領域擁有明顯優勢，但前提是必須成功讓 Siri 走向現代化。"
+      "title_en": "Amazon Enters Agreement With Corning for Optical Fiber for Data Centers",
+      "url": "https://www.wsj.com/tech/amazon-enters-agreement-with-corning-for-optical-fiber-for-data-centers-352c7fa7?mod=rss_Technology",
+      "summary_en": "Amazon.com said it entered a multibillion-dollar agreement with Corning to get optical fiber, cable and connectivity solutions to support its growing data center footprint....",
+      "title_zh": "亞馬遜與康寧達成協議，為數據中心採購光纖",
+      "summary_zh": "Amazon.com 表示已與康寧（Corning）簽署價值數十億美元的協議，採購光纖、電纜和連接解決方案，以支持其不斷擴大的數據中心版圖。"
     },
     {
-      "title_en": "Anthropic Urges Global Pause in AI Development, Flags ‘Self-Improvement’ Risk",
-      "url": "https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73?mod=rss_Technology",
-      "summary_en": "The $1 trillion startup warns that artificial-intelligence models are nearing the capability to improve without human intervention....",
-      "title_zh": "Anthropic 呼籲全球暫緩 AI 開發，警告「自我改進」風險",
-      "summary_zh": "這家估值達一兆美元的新創公司警告，AI 模型正接近無需人類干預即可自我改進的能力。"
+      "title_en": "Nvidia Strikes Deals With Korean Tech Titans for AI Infrastructure Buildout",
+      "url": "https://www.wsj.com/business/nvidia-strikes-ai-infrastructure-deals-with-south-korean-tech-firms-36117f39?mod=rss_Technology",
+      "summary_en": "Nvidia is teaming up with leading South Korean technology companies to build large-scale artificial-intelligence infrastructure in Asia, seeking to solidify its data-center footprint and expand its AI...",
+      "title_zh": "Nvidia 與韓國科技巨頭達成協議，共同建設 AI 基礎設施",
+      "summary_zh": "Nvidia 正與南韓領先的科技公司合作，在亞洲建設大規模 AI 基礎設施，旨在鞏固其數據中心地位並擴展 AI 業務。"
     }
   ],
   "deep_analysis": {
@@ -243,15 +320,15 @@
       "content_mode": "ai_analysis"
     },
     "Dwarkesh": {
-      "title": "Alex Imas and Phil Trammell – What remains scarce after AGI? / AGI 之後，什麼才是真正的稀缺？與 Alex Imas、Phil Trammell 探討 AI 時代的經濟學與分配正義",
+      "title": "The sample efficiency black hole / 樣本效率的黑洞：AI 發展的真實底層動力",
       "source": "Dwarkesh",
-      "article_date": "2026-06-04",
-      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
-      "analysis_zh": "### 全文大意摘要：重新定義豐饒時代的稀缺性與分配機制\n\n本篇文章源自知名科技播客 Dwarkesh Patel 對兩位重量級經濟學者的深度訪談：分別是 Google DeepMind AGI 經濟學總監、芝加哥大學教授 Alex Imas，以及 Epoch 經濟學負責人、史丹佛大學學者 Phil Trammell。訪談核心圍繞著一個最具挑戰性的命題：當通用人工智慧（AGI）實現全面自動化後，人類經濟的運作邏輯將如何演變？兩位專家深入探討了「勞動份額」（Labor Share）是否會歸零、哪些資源在 AGI 時代依然稀缺、以及在財富爆炸式增長的同時，我們應如何透過「全民基本資本」（Universal Basic Capital）或稅制改革來防止不平等失控。他們共同指出，未來的價值將從「生產效能」轉向「人類連結」，而國家競爭力的關鍵將在於是否能成功對接 AI 供應鏈的收益。\n\n### 戰略背景與脈絡：卡爾多事實的終結與後 AGI 經濟學的興起\n\n在過去兩百年的工業化歷史中，經濟學界存在一個著名的「卡爾多事實」（Kaldor Fact），即勞動份額始終穩定維持在國民所得的 60% 左右，儘管自動化技術不斷進步，人類依然能找到新的互補性工作。然而，AGI 的出現可能徹底打破這一均衡。與過往僅自動化特定任務的技術不同，AGI 具備端到端自動化整個生產鏈的能力，這意味著勞動力可能從生產要素轉變為一種「奢侈品」或「情感消費」。Alex Imas 強調，當前的經濟模型多半將需求視為外生變量，卻忽略了當物質生產邊際成本趨近於零時，人類心理對「同理心」與「真實互動」的本能偏好。這種從工業時代的「效率驅動」轉向後 AGI 時代的「關係驅動」，正是當前決策者與企業家必須理解的戰略轉折點。\n\n### 作者的核心推演與論點：從「關係型產業」到「資本份額極大化」的轉型\n\nAlex Imas 提出了一個極具洞見的觀點：未來最穩定的稀缺資源將是「關係型產業」（Relational Sector）。這類產業的價值核心不在於產出本身，而在於「人類參與」這個事實。即使機器能提供更完美的診斷，人類仍願意支付更高溢價給能提供情感支持的真人醫生。然而，Phil Trammell 提出了更深層的推演：如果未來的主導代理人（可能是長生不老的人類或具備目標函數的 AI）擁有不衰減的資本累積偏好（即「貪婪優化者」），他們會將所有收益重新投入計算資源或基礎設施建設（如戴森球），而非消費人類服務。在這種情況下，勞動份額將不可避免地崩潰，資本份額會趨近於 100%。他們進一步反駁了所謂的「混亂中期」（Messy Middle）需求崩潰論，認為只要生產力邊際成長高於自動化速度，經濟總量的大幅擴張將足以彌補分配不均帶來的政治壓力，關鍵在於如何將這些財富從科技龍頭引流至大眾。\n\n### 對整體市場、技術發展與地緣政治的長期影響：全球財富分配的新典範與國家級的「索引化」戰略\n\n長期來看，AGI 將推動地緣政治進入「索引競爭」時代。對於像印度、奈及利亞這類不在核心 AI 供應鏈上的中等收入國家，傳統的「重新職業訓練」可能已不足以對抗 AI 的碾壓。作者建議，國家戰略應從「輸出勞動力」轉向「持有資本」，透過主權財富基金大規模買入 AI 產業的指數（Indexing AGI），確保國民能分享到全球自動化紅利。此外，AGI 的演進路徑——是像「電力」那樣成為廣泛分配的公共財（開源模型驅動），還是像「社交媒體」那樣由少數平台壟斷租金——將決定未來百年的社會結構。如果 AGI 被商品化為電力般的基礎設施，全球將迎來廣泛的繁榮；反之，若增長收益被極少數私人實驗室捕獲，人類社會將面臨前所未有的分配挑戰，甚至需要建立跨國界的財富重新分配機制來維持地緣穩定。",
+      "article_date": "2026-06-08",
+      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole",
+      "analysis_zh": "### 全文大意摘要：AI 學習效率的停滯與數據規模的瘋狂擴張\n\n本文源自知名科技分析師 Dwarkesh Patel 的深度洞察。作者指出，儘管 AI 表現日益強大，但在「樣本效率」（掌握技能所需的數據量）上幾乎沒有顯著進步。目前的進展主要來自數據規模的極限擴張與算力提升，而非模型學習能力的本質飛躍。目前的 AI 被描述為一種由無數人類專家數據「補丁」拼接而成的怪物，依賴大規模合成數據與強化學習來掩蓋其與人類學習能力之間高達數百萬倍的效率差距。\n\n### 戰略背景與脈絡：數據標注產業的崛起與模型能力的同質化趨勢\n\n當前 AI 產業正處於轉折點。領先實驗室投入數百億美元於數據標注產業，僱用專家生產「黃金數據」以維持領先。然而，開源模型與封閉模型的差距已縮小至數月，證明競爭核心在於高品質數據的獲取與蒸餾，而非架構祕技。這種對高品質人類數據的病態依賴，暴露了現有技術發展底層結構的脆弱，模型需數萬倍於人類的數據量才能掌握簡單技能。\n\n### 作者的核心推演與論點：量級差距揭示現行架構與人類智能的本質不同\n\n作者從語言、物理操作、駕駛三個維度展示了樣本效率的鴻溝：人類僅需 2 億個標記即掌握語言，AI 需數十兆；人類數小時學會操控機器人，AI 需數百萬小時；青少年 20 小時學會開車，遠低於自動駕駛系統的數據需求。作者反駁了「進化預訓練」論點，指出人類基因組容量有限，進化的作用在於優化超參數而非累積數據。根據 Chinchilla 定律，即使參數無限增加，樣本效率提升也僅約 10 倍，遠不足以彌補百萬倍的差距，顯示 AI 與人類處於不同的學習曲線。\n\n### 對整體市場、技術發展與地緣政治的長期影響：暴力美學下的商業潛力與 AGI 的自動化門檻\n\n儘管效率低下，AI 的商業前景依然樂觀，因為「低效」可透過大規模並行與學習成本的無限攤銷來解決。這種「暴力美學」在自動化重複性白領工作上具備經濟可行性。然而，實現真正的通用人工智慧（AGI）需解決科學研究等「分佈外」問題，這要求 AI 必須先實現「研究自動化」以解決自身的樣本效率問題。在地緣政治上，算力（用於生成合成數據）與頂尖人類數據源的控制權，將比算法優化更具決定性影響。",
       "insights": [
-        "「關係型價值」是人類最後的防禦：稀缺性將從「能力」轉向「身份」。在 AGI 時代，產品的價值不再取決於品質，而取決於生產過程中是否有「人類靈魂」的參與，這將使心理諮商、藝術與高端服務業成為最後的勞動力避風港。",
-        "從「勞動報酬」轉向「資產回饋」的典範轉移：當 AI 能夠完全取代勞動力時，傳統的教育與技能培訓將失去意義。開發中國家最好的戰略不是建設數據中心，而是透過主權基金「索引化」全球 AI 供應鏈，將國家發展掛鉤於全球 AI 資本收益而非在地勞動力市場。",
-        "「貪婪優化者」將決定未來的資本 share：經濟的長期走向不取決於普通人的消費偏好，而取決於那些擁有最高再投資率的代理人（可能是極少數科技巨頭或 AI 本身）。若這些代理人的需求是無限的計算資源而非人類服務，勞動份額歸零將是必然的數學結果。"
+        "模型架構的祕密被高估，數據分佈才是競爭核心。開源模型能快速追趕前沿模型，主要是因為數據可以透過 API 蒸餾，而架構微調的貢獻遠低於預期。",
+        "參數擴張無法解決樣本效率問題。即使將模型參數增加到無限大，數據需求也只能降低約 10 倍，這暗示當前的 Transformer 架構在學習機制上與人類大腦存在根本性的代差。",
+        "AI 的商業價值來自於「學習成本的無限攤銷」而非「學習能力的優越」。即便訓練一個 AI 寫程式的效率比訓練人類低萬倍，只要它能被複製給全球用戶使用，其經濟效益依然能輕易覆蓋其驚人的算力與數據成本。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -341,18 +418,5 @@
     }
   },
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
-  "deep_analysis_updates": [
-    {
-      "source": "Lenny's Newsletter",
-      "title": "Tony Fadell 談 AI 時代的品味、判斷力與創造力：iPhone 之父的產品哲學 / Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
-      "article_date": "2026-06-07",
-      "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on"
-    },
-    {
-      "source": "HackMD：停損王SLKing",
-      "title": "NVIDIA RTX Spark：拆解 GB10 這顆 PC SoC 的核心與硬體",
-      "article_date": "2026-06-07",
-      "url": "https://hackmd.io/Bkj6hGXZze"
-    }
-  ]
+  "deep_analysis_updates": []
 }
