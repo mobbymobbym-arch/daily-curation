@@ -20,6 +20,9 @@ export DAILY_CURATION_SAFE_PUBLISH=1
 TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS="${TRANSLATION_SKIPPED_RETRY_DELAY_SECONDS:-120}"
 TRANSLATION_STEP_TIMEOUT_SECONDS="${TRANSLATION_STEP_TIMEOUT_SECONDS:-900}"
 TRANSLATION_SKIPPED_RETRY_TIMEOUT_SECONDS="${TRANSLATION_SKIPPED_RETRY_TIMEOUT_SECONDS:-900}"
+DEEP_ANALYSIS_STEP_TIMEOUT_SECONDS="${DEEP_ANALYSIS_STEP_TIMEOUT_SECONDS:-1800}"
+DEEP_ANALYSIS_TIMEOUT_RETRY_DELAY_SECONDS="${DEEP_ANALYSIS_TIMEOUT_RETRY_DELAY_SECONDS:-120}"
+DEEP_ANALYSIS_TIMEOUT_RETRY_SECONDS="${DEEP_ANALYSIS_TIMEOUT_RETRY_SECONDS:-1800}"
 
 # 確認 timeout 指令可用（macOS 需透過 coreutils 的 gtimeout）
 TIMEOUT_CMD=""
@@ -57,6 +60,13 @@ run_with_timeout() {
     else
         "$@"
     fi
+}
+
+# Helper: 深度分析本身已有 120s 的 per-request timeout；這裡只保留整段流程 guard。
+run_deep_analysis() {
+    local timeout_secs=$1
+    echo "   ⏱️ Deep Analysis stage guard: ${timeout_secs}s (Gemini/network per-request timeout remains 120s)"
+    run_with_timeout "$timeout_secs" python3 scripts/generate_deep_analysis.py
 }
 
 # Helper: 檢查工作目錄內是否殘留 Git 衝突標記
@@ -144,17 +154,32 @@ fi
 # --- 步驟 2: 深度分析 (提前執行，不依賴翻譯) ---
 echo ""
 echo "🧠 步驟 2/5: 深度分析 (7個 RSS 來源)"
-if run_with_timeout 600 python3 scripts/generate_deep_analysis.py; then
+if run_deep_analysis "$DEEP_ANALYSIS_STEP_TIMEOUT_SECONDS"; then
     echo "   ✅ 深度分析完成"
 else
     EXIT_CODE=$?
     if [ $EXIT_CODE -eq 124 ]; then
-        echo "   ⚠️ 深度分析超時 (600s) — 繼續後續步驟"
+        echo "   ⚠️ 深度分析超時 (${DEEP_ANALYSIS_STEP_TIMEOUT_SECONDS}s)"
+        echo "   ⏳ 等待 ${DEEP_ANALYSIS_TIMEOUT_RETRY_DELAY_SECONDS}s 後，補跑未完成來源一輪..."
+        sleep "$DEEP_ANALYSIS_TIMEOUT_RETRY_DELAY_SECONDS"
+
+        if run_deep_analysis "$DEEP_ANALYSIS_TIMEOUT_RETRY_SECONDS"; then
+            echo "   ✅ 深度分析補跑完成"
+        else
+            RETRY_EXIT_CODE=$?
+            if [ $RETRY_EXIT_CODE -eq 124 ]; then
+                echo "   ⚠️ 深度分析補跑仍超時 (${DEEP_ANALYSIS_TIMEOUT_RETRY_SECONDS}s) — 繼續後續步驟"
+            else
+                echo "   ⚠️ 深度分析補跑仍有部分失敗 — 繼續後續步驟"
+            fi
+            PIPELINE_OK=false
+            FAILED_STEPS="${FAILED_STEPS}深度分析 "
+        fi
     else
         echo "   ⚠️ 深度分析有部分失敗 — 繼續後續步驟"
+        PIPELINE_OK=false
+        FAILED_STEPS="${FAILED_STEPS}深度分析 "
     fi
-    PIPELINE_OK=false
-    FAILED_STEPS="${FAILED_STEPS}深度分析 "
 fi
 
 # --- 步驟 3: 翻譯新聞 ---
