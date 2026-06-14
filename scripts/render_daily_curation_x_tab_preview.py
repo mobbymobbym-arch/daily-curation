@@ -389,7 +389,7 @@ def build_html(rows, archive_generated_at):
             if (row.is_failed || !row.post_url) {{
                 return '<span class="link-btn link-btn-disabled">未還原網址</span>';
             }}
-            return `<a href="${{escapeHtml(row.post_url)}}" class="link-btn" style="color: ${{escapeHtml(row.accent)}};">Open on X &rarr;</a>`;
+            return `<a href="${{escapeHtml(row.post_url)}}" target="_blank" rel="noopener noreferrer" class="link-btn" style="color: ${{escapeHtml(row.accent)}};">Open on X &rarr;</a>`;
         }}
 
         function buildCardHtml(row) {{

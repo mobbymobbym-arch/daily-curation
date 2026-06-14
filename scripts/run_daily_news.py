@@ -393,11 +393,17 @@ def main():
 
         # 3. Render News
         print("\n🎨 Rendering Website...")
-        subprocess.run(["python3", "scripts/render_news.py"])
+        render_result = subprocess.run(["python3", "scripts/render_news.py"])
+        if render_result.returncode != 0:
+            print("🚫 Publish blocked: news render failed.")
+            sys.exit(render_result.returncode)
 
         # 4. Update Archives
         print("\n🗄️ Updating Archives...")
-        subprocess.run(["python3", "scripts/update_archives.py"])
+        archive_result = subprocess.run(["python3", "scripts/update_archives.py"])
+        if archive_result.returncode != 0:
+            print("🚫 Publish blocked: archive update failed.")
+            sys.exit(archive_result.returncode)
 
         # 5. Build evergreen section pages
         print("\n🧱 Building Section Pages...")
@@ -406,7 +412,14 @@ def main():
             print("🚫 Publish blocked: section pages failed to build.")
             sys.exit(section_result.returncode)
 
-        # 6. Publish (Git Push)
+        # 6. Validate external source links
+        print("\n🔗 Validating External Links...")
+        link_result = subprocess.run(["python3", "scripts/validate_external_links.py"])
+        if link_result.returncode != 0:
+            print("🚫 Publish blocked: external links must open in a new tab.")
+            sys.exit(link_result.returncode)
+
+        # 7. Publish (Git Push)
         print("\n🚀 Publishing to GitHub...")
         subprocess.run(["python3", "scripts/publish.py"])
         print("\n✨ All tasks completed successfully.")

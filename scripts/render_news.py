@@ -15,6 +15,11 @@ def load_data():
     with open(JSON_PATH, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+def external_link_attrs(url):
+    if re.match(r'^https?://', str(url or ''), flags=re.I):
+        return ' target="_blank" rel="noopener noreferrer"'
+    return ''
+
 def render_techmeme(items, fetch_date):
     html = f'''
             <!-- Techmeme Section -->
@@ -27,6 +32,7 @@ def render_techmeme(items, fetch_date):
     
     for item in items:
         source_name = item.get('source') or item.get('media_source') or 'Read Story'
+        url = item.get('url', '#')
         title_zh = item.get('title_zh') or ''
         title_en = item.get('title_en') or ''
         display_title = f"{title_zh}<br><small style='font-weight: normal; color: #666;'>{title_en}</small>" if title_zh else title_en
@@ -34,7 +40,7 @@ def render_techmeme(items, fetch_date):
         html += f'''
                 <div class="news-card" style="border-top: 6px solid var(--techmeme-accent);">
                     <div class="title-cn" style="font-weight: bold; margin-bottom: 8px; line-height: 1.4;">{display_title}</div>
-                    <a href="{item.get('url', '#')}" class="link-btn" style="color: var(--techmeme-accent);">{source_name} &rarr;</a>
+                    <a href="{url}"{external_link_attrs(url)} class="link-btn" style="color: var(--techmeme-accent);">{source_name} &rarr;</a>
                 </div>'''
     html += '</div>'
     return html
@@ -50,6 +56,7 @@ def render_wsj(items, fetch_date):
             <div id="wsj-grid" class="news-grid">'''
     
     for item in items:
+        url = item.get('url', '#')
         title_zh = item.get('title_zh') or ''
         title_en = item.get('title_en') or ''
         summary_zh = item.get('summary_zh') or ''
@@ -59,7 +66,7 @@ def render_wsj(items, fetch_date):
                 <div class="news-card" style="border-top: 6px solid var(--wsj-accent);">
                     <div class="title-cn" style="font-weight: bold; margin-bottom: 8px; line-height: 1.4;">{display_title}</div>
                     <div class="summary-cn" style="font-size: 0.95rem; line-height: 1.6; color: #444; margin-top: 10px;">{summary_zh}</div>
-                    <a href="{item.get('url', '#')}" class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
+                    <a href="{url}"{external_link_attrs(url)} class="link-btn" style="color: var(--wsj-accent);">WSJ &rarr;</a>
                 </div>'''
     html += '</div>'
     return html
@@ -134,7 +141,7 @@ def render_deep_analysis(data):
                     {date_html}
                     <p class="teaser-summary">{summary}</p>
                     <div class="teaser-actions">
-                        <a href="{url}" class="link-btn" style="color: var(--analysis-accent);">{source_name} &rarr;</a>
+                        <a href="{url}"{external_link_attrs(url)} class="link-btn" style="color: var(--analysis-accent);">{source_name} &rarr;</a>
                         <a href="/daily-curation/deep-analysis.html" class="link-btn" style="color: var(--analysis-accent);">Read history &rarr;</a>
                     </div>
                 </article>'''
