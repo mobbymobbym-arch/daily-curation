@@ -1,46 +1,38 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-15",
   "items": [
     {
-      "title": "Anthropic Claude Code 技術教學工作坊：從 Agentic 工作流到企業級開發實踐",
-      "show_name": "Anthropic Claude Code Workshop",
-      "summary": "本工作坊由 Anthropic 技術團隊成員、同時也是 Claude Code 核心創作者 Boris 親自主持，深入解析如何利用這款具備代理（Agentic）能力的命令行工具來改變軟體開發流程。Boris 擁有深厚的工程背景，他開發 Claude Code 的初衷是為了讓 AI 不僅僅是程式碼補全助手，更能成為獨立處理複雜任務的開發夥伴。\n\n本集的核心主題在於「開發範式的轉移」：從傳統的逐行代碼補全，轉向由 AI 代理自主進行全庫檢索、規劃、執行與驗證的工作流。這對現代工程團隊具有重大的商業價值，它不僅能將新進工程師的技術入職（Onboarding）時間從數週縮短至數天，更能透過與 Git、MCP 協議及 CLI 環境的深度整合，讓開發者從繁瑣的樣板程式與基礎除錯中解放，轉而專注於更高層次的架構設計與產品邏輯。這場 workshop 提供了一套清晰的實踐框架，讓讀者能直接將 AI 代理導入現有的 CI/CD 與開發環境中。",
+      "title": "賈伯斯的流亡歲月：NeXT 時期的失敗與性格改變",
+      "show_name": "Founders Podcast",
+      "summary": "本集節目出自《Founders》Podcast，由主持人 David Senra 製作，他長期鑽研全球頂尖創業家的生平傳記，旨在提取可重複使用的商業智慧。在這集內容中，Senra 深入導讀了關於賈伯斯於 1985 年被蘋果解雇後至 1997 年回歸前的「NeXT 時期」。這段長達十二年的時光通常被視為賈伯斯事業的流亡歲月，但主持人點出，正是這段充滿挫敗、錯誤決策與財富揮霍的磨練，讓賈伯斯從一個偏執且自傲的藝術家，蛻變為具備管理智慧、懂得實用主義並能以人才為本的領袖。這集內容的重要性在於，它揭開了賈伯斯如何從失敗中學會「出貨」與「權力平衡」，並建立了後來支撐蘋果復興的核心班底，是理解賈伯斯生命轉折點的最佳切入角度。",
       "chapters": [
         {
-          "timestamp": "00:00 - 06:00",
-          "title": "定義 Agentic 開發：Claude Code 的定位與環境初始化",
-          "content": "在工作坊的開頭，Boris 明確區分了 Claude Code 與前幾代 AI 編碼助手的不同。過去的工具如 GitHub Copilot 多半專注於「逐行補全」（Line-at-a-time），而 Claude Code 的核心是具備「代理能力」（Agentic）。這意味著它能理解複雜的任務指令，自主決定調用哪些工具，並能同時修改多個檔案、修復整個 Bug 或開發完整的 Feature，而不需要開發者手動搬運代碼。Claude Code 的另一個特點是它不綁定特定的 IDE，無論開發者慣用的是 VS Code、Xcode 還是 Vim，只要在終端機（Terminal）環境中即可運行，這對於需要在遠端 SSH 或 T-mux 環境中作業的資深工程師來說極具吸引力。\n\n在操作層面上，Boris 演示了極簡的安裝與設定流程。開發者只需具備 Node.js 環境，透過 npm 指令即可完成安裝。初始化後，他建議首要運行的指令是 `terminal-setup`，這能優化換行符號（Shift+Enter）的處理，避免指令誤觸發。此外，`theme` 指令可調整視覺風格，而 `install-github-app` 則是連結開發環境與雲端倉庫的關鍵，讓 Claude 能夠直接讀取 GitHub Issue 或 Pull Request。對於 Mac 用戶，Boris 分享了一個私房技巧：開啟系統內建的語音聽寫功能，透過兩次按鍵觸發語音輸入 Prompt，讓開發者能像與真實同事討論一樣與 Claude 溝通，這種「自然語言優先」的開發體驗能大幅提升思考與實作的銜接速度。\n\n從產品意義來看，這代表 AI 不再只是掛載在編輯器旁的小視窗，而是成為了終端機環境中一個強大的 Unix 效用程式（Utility）。這種設計讓 Claude Code 能無縫嵌入現有的 shell script 或開發管道中，而不必強迫開發者改變已經磨合多年的編輯工具鏈。",
-          "quote": "Claude code is not for completing a line at a time; it's fully agentic. It's meant for building features, writing entire functions, entire files, and fixing entire bugs at the same time."
+          "timestamp": "00:00 - 15:00",
+          "title": "NeXT 的起源與對完美的病態執著",
+          "content": "1985 年的夏天，賈伯斯經歷了人生中最劇烈的動盪，在被蘋果公司解職後，他與當時的女友蒂娜漫步於巴黎橋頭，內心充滿了挫敗感。蒂娜在信中曾提到，她當時多麼希望賈伯斯能歸於平淡，兩人在巴黎過上隱姓埋名的生活，每天只為對方準備簡單的晚餐。然而，賈伯斯的天性注定了他無法止步於此。他在同年九月創立了 NeXT，最初的定位非常宏大：要為高等教育市場建立一台極致完美的學術電腦，以此向蘋果復仇並證明自己的願景。\n\n為了這份理想，賈伯斯展現了近乎偏執的執著。他聘請了傳奇設計師 Paul Rand 並支付十萬美金只為設計一個商標。Rand 的強硬與賈伯斯的偏執不相上下，Rand 告訴他：「我不會給你選項，我會解決你的問題，而你會付我錢，不管你最後用不用。」賈伯斯竟然毫無怨言地接受了，這種對品牌象徵意義的極度渴求，後來在公司內部演變出一種度量衡單位：一個「毫微商標」（milli-logo）等於一百美金，反映了當時揮霍無度的資源配置方式。賈伯斯還堅持電腦必須是完美的正立方體，並為此開除了多位無法達成工藝要求的設計師。他甚至要求電路板的佈線也必須美觀，即便使用者根本看不到。這種對細節的極端追求，雖然建立了 NeXT 的高端品牌形象，卻也為日後的財務黑洞埋下伏筆。賈伯斯此時還沉浸在藝術家式的追求中，卻不知道他對完美的病態堅持，正是阻礙產品真的用起來的最大障礙。",
+          "quote": "Steve founded Apple not once, but twice, and the second time he was alone."
         },
         {
-          "timestamp": "06:00 - 12:00",
-          "title": "技術入職與全庫探索：如何透過 Q&A 快速掌握複雜架構",
-          "content": "對於新加入團隊的工程師，最大的痛點莫過於面對數百萬行、歷史悠久且缺乏文件紀錄的程式碼庫。Boris 指出，Anthropic 內部利用 Claude Code 將原本需要兩到三週的技術入職流程（Onboarding），縮減到了僅需兩到三天的時間。這歸功於 Claude Code 強大的全庫 Q&A 能力。不同於傳統的全文檢索，Claude 能夠理解代碼之間的調用關係、類別的實例化方式以及特定的業務邏輯路徑。當你詢問「這個類別是如何被使用的？」時，Claude 不會只給你搜尋結果，而是會透過實例來說明其在系統中的定位。\n\n另一個極具商業價值的應用是「Git 歷史溯源」。Claude Code 可以檢索 Git log，幫助開發者理解代碼演進的「為什麼」（Why），而非僅僅是「是什麼」（What）。例如，面對一個參數多達 15 個且命名奇特的函數，你可以直接詢問 Claude：「這個函數為什麼會變成這樣？是誰在哪個 Issue 中引入的？」Claude 會自動翻閱提交紀錄、連結相關的 GitHub Issue 並進行總結。這種能力將工程師從考古任務中解放，讓決策能基於完整的背景脈絡。Boris 特別強調，這一切操作都是「在地化」的，Claude Code 不會建立遠端索引資料庫，也不會在你的代碼上訓練模型，這對於對代碼隱私要求極高的企業客戶而言是至關重要的安全保證。\n\n此外，Boris 分享了一個他每週一必做的自動化流程：詢問 Claude「我這週提交了什麼？」（What did I ship this week?）。Claude 會掃描其提交紀錄並整理成簡潔的清單，讓他能直接複製到團隊的進度回報文件中。這顯示了 AI 代理在處理重複性行政庶務上的潛力，讓工程師能將精力保留在最具創造性的開發任務上。",
-          "quote": "At Anthropic, onboarding used to take about two or three weeks for technical hires; it's now about two or three days because you can just ask Claude code about the codebase."
+          "timestamp": "15:00 - 30:00",
+          "title": "英雄與混蛋：混亂的領導風格與財務黑洞",
+          "content": "隨著 NeXT 營運進入中期，賈伯斯的管理風格被內部員工形容為「英雄與混蛋的雲霄飛車」。他可以在前一秒將你的創意捧上天，下一秒卻在所有人面前把你批鬥得體無完膚。這種兩極化的領導方式，雖然強迫員工突破極限，但也造成了嚴重的人才流失。儘管如此，賈伯斯依然憑藉著強大的「現實扭曲力場」，說服了 Ross Perot 等大金主注資兩千萬美金。Perot 回憶，他在看到賈伯斯在電視紀錄片中指導團隊的樣子後，覺得他是一個真正的天才，即便當時連產品原型都還沒出來。\n\n然而，賈伯斯在資源配置上卻極其揮霍。他為總部添購了昂貴的設計師家具，甚至在電腦還沒賣出去前，就建立了一條高度自動化的法拉利等級生產線。他幻想客戶應該像購買頂級跑車一樣，飛到工廠親自迎接自己的電腦出廠。這種對優雅的執著，甚至延伸到他與廣告代理商的互動中。有一次在提案會議中，他因為覺得廣告公司的內容太無聊，直接要了一本電話簿並對著主管說：「這本電話簿讀起來都比你們講的廢話有趣。」Paul Rand 曾語重心長地提醒他：「在產品出來前，你自己就是產品，所以你最好對人客氣一點。」但當時的賈伯斯仍深陷於報復蘋果的情緒中，在媒體上大肆揮霍資金刊登廣告嘲諷前東家，卻忽略了公司每個月一百萬美金的驚人虧損。這種缺乏成本控制意識的行為，最終導致 NeXT 在硬體市場上徹底崩潰，將公司推向了破產邊緣。",
+          "quote": "If you're going to buy a great sports car, what's the best way to do it? You fly to Europe, go to the factory, and buy it there."
         },
         {
-          "timestamp": "12:00 - 18:00",
-          "title": "代理式開發工作流：從腦暴、規劃到自動化 PR 生成",
-          "content": "進入實作核心，Boris 展示了如何讓 Claude Code 從「被動回答」轉向「主動規劃」。他強烈建議在讓 Claude 動手寫程式之前，先要求它進行「腦力激盪」（Brainstorm）或「制定計畫」（Make a plan）。這個步驟非常關鍵，尤其是面對涉及數千行代碼的大型功能開發時。透過先輸出計畫並尋求工程師的確認（Approval），可以有效避免 AI 代理走向錯誤的實作路徑，確保最終產出的代碼符合預期的架構規範。一旦計畫確認，Claude 就能串接其內建的工具集（編輯檔案、執行 Bash 指令、搜尋文件）來完成任務。\n\n在 Git 工作流的自動化方面，Claude Code 展現了驚人的效率。Boris 使用了一個名為 `commit-push-pr` 的簡化指令（Incantation），Claude 會自動讀取代碼變動、撰寫符合專案風格的 Commit message、建立新分支並在 GitHub 上發起 PR。開發者完全不需要手動操作 git 指令，這不僅節省了時間，更保證了 Commit 訊息的品質與一致性。這背後的邏輯是 Claude 能夠自主分析 Git 歷史與提交範式，並模擬出最符合該專案慣例的輸出。\n\n針對 UI/UX 開發，工作坊介紹了「反饋循環」（Feedback Loop）的重要性。當 Claude 開發網頁功能時，開發者可以提供 Puppeteer 截圖工具或 iOS 模擬器工具。Claude 在寫完代碼後，可以自主運行截圖、檢查視覺效果、發現 Bug 並自我修正，直到達到完美為止。這種「自主測試並迭代」的能力，讓 Claude 從一個單純的代碼產生器，變成了一個具備自我品質管理（QA）意識的開發者夥伴。對於團隊來說，這意味著交付的代碼初稿就已經經過了初步的視覺與單元測試驗證。",
-          "quote": "The easiest way to get the result you want is ask it to think first. Brainstorm ideas, make a plan, run it by me, ask for approval before you write code."
+          "timestamp": "30:00 - 45:00",
+          "title": "從硬體挫敗中覺醒：NeXT 的軟體轉型與務實之路",
+          "content": "當 NeXT 的硬體銷售慘不忍睹，一年僅賣出兩百多台電腦時，賈伯斯終於被迫正視殘酷的現實。這段時間是他性格改變的關鍵期。Intel 共同創辦人 Andy Grove 在一次會議中點出了致命傷：「你們根本不知道自己在做什麼生意。」當時的 NeXT 內部甚至出現了「往北走」的笑話，嘲諷賈伯斯不斷開出空頭支票並開除主管。最具代表性的故事是「大戴夫與小戴夫」工程師，他們在賈伯斯的威逼利誘下完成了晶片修正，拿到兩萬五千美金的高額獎金後，卻選擇在領完錢的當天立刻辭職。這顯示出當時賈伯斯的領導風格已經讓最核心的人才感到心灰意冷。\n\n在經歷了財務崩潰的痛楚後，賈伯斯終於決定採取務實的轉向，裁撤了他最引以為傲的硬體部門，全面轉向軟體開發。這個決定雖然痛苦，卻開啟了 WebObjects 技術的黃金時代。這項技術讓開發者能以十倍速開發動態網頁，成功幫助 Michael Dell 等企業建立了早期的電商系統。賈伯斯在此過程中也學會了如何賦權，他開始減少對技術細節的微觀管理，轉而專注於建立長期的商業服務關係。他在 Pixar 的管理經驗也影響了他，讓他學會如何與 Ed Catmull 這種頂尖的人才進行基於事實的長期對話。NeXT 在 1994 年終於轉虧為盈，這標誌著賈伯斯從一個只會燒錢的藝術家，成長為一個懂得將科技轉化為實質利潤的領袖。他學會了在必要時燒掉後路，這份專注也成為他日後重返蘋果時最重要的資產。",
+          "quote": "The internet is going to be the most important technology transformation of the next 15 or 20 years. We're going to burn the boats."
         },
         {
-          "timestamp": "18:00 - 24:00",
-          "title": "進階擴充與脈絡管理：利用 MCP 協議與 Claude.md 建立規範",
-          "content": "隨著開發需求的複雜化，如何讓 Claude 理解團隊特有的工具與規範成為了重點。Boris 介紹了 MCP（Model Context Protocol）模型上下文協議的應用。開發者可以將團隊現有的客製化 Bash 工具或 API 服務連結到 Claude Code 中。例如，透過 MCP 連結 Puppeteer，Claude 就能具備「看見」網頁畫面的能力。這種可擴充性讓 Claude Code 能根據不同專案的需求，「借用」各種專業工具來執行任務。\n\n在「脈絡管理」方面，`Claude.md` 檔案是核心機制。這是一個存放在專案根目錄的 Markdown 文件，用來記錄專案特定的架構決策、風格指南或常用的測試指令。Claude 每次啟動時都會自動讀取此文件。Boris 建議將此文件納入版本控制（Source Control），讓全團隊能共享相同的開發慣例。除了專案級的配置，Claude 還支援層級式的脈絡管理：從企業級的全局策略（如禁止訪問某些 URL、自動核准特定測試指令）、到專案級的配置、再到個人用戶的偏好設置。這種精細的權限管理，讓企業能在保障安全與效率之間取得平衡。\n\n對於資深用戶，Boris 演示了如何透過 `memory` 指令管理這些脈絡檔案。開發者可以在對話中使用「#」號來標記需要被記住的訊息，或是透過 `control+R` 查看 Claude 目前所見的完整上下文窗口。這確保了 AI 代理在長時間、多輪次的開發對話中，始終能保持對系統架構的一致理解。這種「持久化記憶」與「結構化規範」的結合，解決了傳統 AI 助手容易在複雜對話中遺忘背景訊息的缺點，讓大規模代碼重構與功能開發變得更加可靠。",
-          "quote": "Claude.md is a special file name; put it in the project root and that will get automatically read into context at the start of every session."
-        },
-        {
-          "timestamp": "24:00 - 27:00",
-          "title": "開發者的未來：SDK、CLI 工具化與平行開發模式",
-          "content": "在工作坊的最後階段，Boris 探討了 Claude Code 在傳統開發環境之外的可能性。透過 Claude SDK（使用 `-p` 參數），Claude 可以被當作一個強大的 Unix 管道工具（Unix Utility）。你可以將 `git status` 的結果導流給 Claude，讓它分析狀態並直接輸出 JSON 格式的建議，再透過 `jq` 進行處理。這種「代碼即工具」的用法，讓 Claude 能被整合進 CI/CD 流水線、自動化事故應變（Incident Response）或複雜的大數據日誌分析流程中。\n\n對於追求極致效率的「力量用戶」（Power Users），Boris 分享了 Anthropic 內部工程師的進階玩法：同時開啟多個 T-mux 或 SSH 會話，在同一個倉庫的不同分支或不同模組中運行多個 Claude Code Session 進行平行作業。這種「平行開發模式」搭配 Git Worktree，可以讓一名工程師同時推動多個功能的開發。此外，Claude Code 具備多模態（Multimodal）能力，開發者可以直接將 UI 設計稿或截圖拖入終端機，Claude 就能解析圖片並將其轉化為對應的 Frontend 代碼。\n\n在問答環節中，Boris 解釋了為什麼選擇開發 CLI 而非 IDE 插件：因為終端機是所有開發工具的最大公約數，且目前的模型演進速度極快，CLI 能提供更高的靈活性與整合度。他預言，未來開發者可能會減少在傳統 IDE 中的時間，轉而更多地在更高層次的代理環境中協調任務。這場工作坊不僅提供了工具操作的實務指南，更勾勒出了一個「AI 與人類協同開發」的未來願景：人類負責架構決策與創意規劃，而 AI 代理則負責精準執行與自動驗證。",
-          "quote": "Think of it like a Unix utility; you give it a prompt, it gives you JSON, you can use this in any way—you can pipe into it, you can pipe out of it."
+          "timestamp": "45:00 - 54:00",
+          "title": "蛻變後的歸來：與蘋果的最後博弈與權力回歸",
+          "content": "1996 年，蘋果公司因產品線混亂且系統老舊而陷入垂死掙扎。此時的賈伯斯，已不再是那個 1985 年被驅逐時、滿身刺的年輕人。他敏銳地捕捉到蘋果急需新作業系統的機會，並在與 BeOS 競爭對手的演示對決中展現了極其精準的商業手腕。賈伯斯在演示時不再親自操作所有技術細節，而是將舞台讓給了專業的技術主管，自己則負責在高層面前描述未來的圖景。當演示螢幕上同時展示流暢的電影與精美的 3D 模型時，蘋果的工程師們意識到，這就是他們夢寐以求的未來。賈伯斯的表現極其優雅且流暢，與競爭對手的傲慢形成了鮮烈對比。\n\n最終，他在廚房裡僅用了五分鐘的時間，就與蘋果執行長 Gil Amelio 達成收購協議。儘管當時有人警告執行長：「一旦買下 NeXT，賈伯斯最終會奪走整家公司」，但 Amelio 卻天真地以為自己能駕馭賈伯斯。經歷了十二年流亡歲月的磨練，賈伯斯已經學會了如何建立一支效忠於他的核心班底。他帶著這群經歷過 NeXT 黑暗期洗禮的精銳回到蘋果，這群人隨後將成為開發 iMac、iPhone 等產品的中堅力量。賈伯斯的回歸不僅是個人的勝利，更是他性格改變後的必然結果：他在流亡中失去了財富，卻換來了真正領導一家偉大企業所需的智慧、克制與對人才的深刻尊重。當他再次踏入蘋果總部時，他已經準備好再次領導這個時代，這次他不僅是一個夢想家，更是一個懂得將夢想真的用起來的商業帝王。",
+          "quote": "If you buy NeXT, Steve will end up running the company."
         }
       ],
-      "original_link": "https://x.com/ai_rohitt/status/2063856804434694278/video/1",
-      "generated_at": "2026-06-08 17:09",
-      "supplemental_context": "Anthropic just showed a 27-minute workshop on how to actually do prompts for Claude. Taught by the people who built it. Free. No registration. No paywall.",
-      "analysis_instructions": "這集是 27 分鐘的 Anthropic / Claude Code 技術教學，請比平常格式更詳盡。章節請按時間軸每 5-7 分鐘切成一段，約 4-6 個章節；每章約 650-900 字。寫法要偏教學型整理，清楚保留操作步驟、prompt 設計方法、Claude Code 工作流、適用情境、工程團隊導入時的注意事項與商業/產品意義。不要只寫高層摘要，也不要過度戲劇化；重點是讓讀者讀完後能理解這場 workshop 實際教了什麼，以及可以如何套用到自己的開發流程。"
+      "original_link": "https://podcasts.apple.com/tw/podcast/420-steve-jobs-in-exile/id1141877104?i=1000771074198",
+      "generated_at": "2026-06-15 14:35"
     }
   ]
 }
