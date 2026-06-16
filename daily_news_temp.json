@@ -1,198 +1,363 @@
 {
-  "fetch_date": "2026-06-15",
+  "fetch_date": "2026-06-16",
   "techmeme": [
     {
-      "title_en": "Anthropic says it is disabling Fable 5 and Mythos 5 for all customers after the US government issued an export control order, citing national security concerns",
-      "url": "https://www.anthropic.com/news/fable-mythos-access",
-      "summary_en": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 …",
-      "source": "Anthropic",
-      "media_source": "Anthropic",
+      "title_en": "Sources say Anthropic struggles to speak the Trump administration's language; a White House official says it “screwed us” after failing to “honor” a cyber EO",
+      "url": "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos",
+      "summary_en": "Anthropic has once again found itself in the Trump administration's crosshairs over an inability to communicate effectively, sources tell Axios.",
+      "source": "Axios",
+      "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Anthropic 表示，在美國政府出於國家安全考量發布出口管制令後，將對所有客戶禁用 Fable 5 與 Mythos 5",
-      "summary_zh": "美國政府引用國家安全授權，發布了一項出口管制指令，要求暫停所有對 Fable 5 的存取權限……"
+      "title_zh": "消息人士稱 Anthropic 難以與川普政府溝通；白宮官員指其未遵守網路安全行政命令「耍了我們」",
+      "summary_zh": "據 Axios 報導，消息人士透露，Anthropic 因無法進行有效溝通，再次成為川普政府鎖定的目標。"
     },
     {
-      "title_en": "Sources: senior Anthropic technical staff are in DC to meet WH officials and try to fix the Mythos 5 dispute; both sides say they are eager to resolve the issue",
-      "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-      "summary_en": "Senior technical Anthropic staff are in Washington to meet with White House officials to try to fix a dispute that has taken …",
+      "title_en": "Letter: US cybersecurity leaders urge the White House to lift the ban on Anthropic's Mythos 5 and Fable 5, arguing the move hurts defenders more than attackers",
+      "url": "https://www.axios.com/2026/06/15/anthropic-fable-security-leaders-trump-admin",
+      "summary_en": "Prominent cybersecurity leaders — including CISOs, security researchers and executives at Adobe, Zoom and Sophos …",
       "source": "Axios",
       "media_source": "Axios",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "related",
-      "title_zh": "消息人士：Anthropic 資深技術團隊已前往華盛頓會晤白宮官員，試圖解決 Mythos 5 的爭議；雙方均表示渴望解決此問題",
-      "summary_zh": "Anthropic 的資深技術人員正在華盛頓與白宮官員會面，試圖修復一場已導致存取受限的爭議……"
+      "title_zh": "公開信：美國資安領袖敦促白宮解除 Anthropic Mythos 5 與 Fable 5 的禁令，認為此舉對防禦者的傷害大於攻擊者",
+      "summary_zh": "包括 Adobe、Zoom 和 Sophos 的 CISO（資訊安全長）、資安研究人員及高階主管在內的知名資安領袖表示……"
     },
     {
-      "title_en": "Siri AI is good enough to ease Apple's AI crisis; sources: the ability to tap third party AI models beyond OpenAI's is already active in internal iOS 27 builds",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-06-14/siri-ai-hands-on-review-ios-27-macos-27-details-iphone-fold-touch-macbook",
-      "summary_en": "The company prepares for the foldable iPhone and touch-screen MacBook. — Apple's new Siri AI, despite mainly delivering …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Siri AI 表現優異足以緩解 Apple 的 AI 危機；消息人士：在 iOS 27 內部版本中，已可使用 OpenAI 以外的第三方 AI 模型",
-      "summary_zh": "該公司正為折疊式 iPhone 和觸控式 MacBook 做準備。Apple 新的 Siri AI 儘管主要提供……"
-    },
-    {
-      "title_en": "Satya Nadella says companies must own their AI “learning loops” to compound human and token capital, or risk ceding all value to a handful of frontier models",
-      "url": "https://x.com/satyanadella/status/2066182223213293753",
-      "summary_en": "I've been thinking a lot about the future of the firm in an AI-driven economy. This transition is different than any previous platform shift.",
-      "source": "@satyanadella",
-      "media_source": "@satyanadella",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "Satya Nadella 表示：企業必須擁有自己的 AI「學習迴圈」以累積人力與 Token 資本，否則將面臨價值全被少數領先模型掠奪的風險",
-      "summary_zh": "「我一直在思考 AI 驅動經濟下的企業未來。這次轉型與以往任何平台轉移都不同。」"
-    },
-    {
-      "title_en": "Sources: UK plans to announce an “Australia plus” under-16 social media ban, including restrictions on chats with strangers on gaming apps and under-18 curfews",
-      "url": "https://www.theguardian.com/uk-news/2026/jun/14/starmer-to-announce-australia-plus-ban-on-social-media-for-under-16s",
-      "summary_en": "Sources say hardline measures will also prevent young users from being able to talk to strangers on gaming apps",
-      "source": "The Guardian",
-      "media_source": "The Guardian",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：英國計劃宣布「澳洲加強版」的 16 歲以下社群媒體禁令，包括限制在遊戲 App 中與陌生人聊天，以及 18 歲以下宵禁",
-      "summary_zh": "消息人士指出，強硬措施還將防止年輕用戶在遊戲 App 上與陌生人對話。"
-    },
-    {
-      "title_en": "A government crackdown on online casinos operating in the Isle of Man has led to a major tax revenue loss, accelerating the island's slide toward a fiscal cliff",
-      "url": "https://www.bloomberg.com/news/features/2026-06-11/how-the-isle-of-man-became-a-hub-for-online-gambling-international-scams?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MTQxMzExNCwiZXhwIjoxNzgyMDE3OTE0LCJhcnRpY2xlSWQiOiJUR0hKT0ZSMjRVQ0MwMCIsImJjb25uZWN0SWQiOiIwNEFGQkMxQkYyMTA0NUVEODg3MzQxQkQwQzIyNzRBMCJ9.dBggGZJhbgBl2bpCLYMFhambOfI4Uyevota6zjNp3aw",
-      "summary_en": "Online casinos were a big driver of the Isle of Man's economy. Lately, they've become a liability.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "政府對曼島線上賭場的打壓導致重大稅收損失，加速了該島滑向財政懸崖",
-      "summary_zh": "線上賭場曾是曼島經濟的主要驅動力，但最近已成為一項負擔。"
-    },
-    {
-      "title_en": "Chinese Tesla drivers are using tiny plastic heads to fool Tesla's distracted-driving controls, which appear unable to distinguish figurines from real people",
-      "url": "https://www.wired.com/story/chinese-drivers-are-using-tiny-plastic-heads-to-fool-teslas-autopilot-safeguards/",
-      "summary_en": "A cottage industry of celebrity figurines, blinking screens, and other DIY gadgets is helping drivers bypass Tesla's distracted-driving controls.",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "中國 Tesla 駕駛正使用微型塑膠頭像來矇騙 Tesla 的分心駕駛監測，該系統似乎無法區分模型與真人",
-      "summary_zh": "由名人小雕像、閃爍螢幕和其他 DIY 小裝置組成的家庭工業，正在幫助駕駛規避 Tesla 的分心駕駛控制系統。"
-    },
-    {
-      "title_en": "Sources: Frank founder Charlie Javice, sentenced in September 2025 to 85 months for defrauding JPMorgan Chase, has been seeking a presidential pardon from Trump",
-      "url": "https://www.wsj.com/finance/charlie-javice-has-been-seeking-a-pardon-from-trump-after-defrauding-jpmorgan-0b4e61db?st=6icr2K",
-      "summary_en": "The entrepreneur sold her startup Frank to the bank for $175 million and was sentenced in September to over seven years in prison for fraud",
+      "title_en": "Fox says it is acquiring Roku in its largest deal yet, valued at ~$25B, giving it access to 100M+ streaming households globally; FOX closes down 15.22%",
+      "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9?st=FjSwPa",
+      "summary_en": "Acquisition gives Fox access to more than 100 million streaming households — Fox said it is acquiring streaming company Roku in a deal worth around $22 billion, including debt.",
       "source": "Wall Street Journal",
       "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "消息人士：因詐騙摩根大通而在 2025 年 9 月被判刑 85 個月的 Frank 創辦人 Charlie Javice，正尋求川普的總統特赦",
-      "summary_zh": "這位企業家以 1.75 億美元將她的新創公司 Frank 賣給了銀行，並在 9 月因詐欺被判處超過 7 年徒刑。"
+      "title_zh": "福斯（Fox）宣佈以約 250 億美元收購 Roku，為其史上最大交易，將觸及全球逾 1 億串流家庭；福斯股價收盤大跌 15.22%",
+      "summary_zh": "此次收購讓福斯能觸及超過 1 億個串流收視家庭。福斯表示，將以包含債務在內約 220 億美元的價格收購串流公司 Roku。"
     },
     {
-      "title_en": "A profile of Kalshi COO Luana Lopes Lara, who has overseen a tremendous pace of growth over the past year as the company faces political and regulatory backlash",
-      "url": "https://www.bloomberg.com/news/features/2026-06-13/how-kalshi-s-lopes-lara-turned-kylie-jenner-gossip-into-billions",
-      "summary_en": "The firm's co-founder talks about the celebrity buzz that sparked her interest in prediction markets, the legal battles her firm faces and Jay-Z's advice.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "Fox says it obtained a $12B loan for the ~$22B Roku deal; existing Fox shareholders are expected to own ~73% of the combined company and Roku shareholders ~27%",
+      "url": "https://www.cnbc.com/2026/06/15/fox-to-buy-roku.html",
+      "summary_en": "Fox Corp. has reached an agreement to acquire Roku for roughly $22 billion, marking another chapter in media consolidation …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "福斯表示已為價值約 220 億美元的 Roku 收購案取得 120 億美元貸款；合併後原福斯股東預計持股 73%，Roku 股東持股 27%",
+      "summary_zh": "福斯公司已達成協議，將以約 220 億美元收購 Roku，標誌著媒體業整合的又一章節……"
+    },
+    {
+      "title_en": "SpaceX stock closed up 19.6% on Monday, its first full day of trading; Musk said it “might be able to reach” around $1T revenue in 2030, up from $18.7B in 2025",
+      "url": "https://www.cnbc.com/2026/06/15/spacex-stock-record-ipo-debut.html",
+      "summary_en": "SpaceX shares climbed 20% on Monday, the first full day of trading following a record-breaking debut last week on the Nasdaq.",
+      "source": "CNBC",
+      "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "Kalshi 營運長 Luana Lopes Lara 專訪：她在過去一年帶領公司飛速成長，同時面臨政治與監管的強力反彈",
-      "summary_zh": "這家公司的共同創辦人談到了引發她對預測市場興趣的名人熱潮、公司面臨的法律訴訟，以及 Jay-Z 給她的建議。"
+      "title_zh": "SpaceX 掛牌後首個完整交易日股價收盤大漲 19.6%；馬斯克稱 2030 年營收「可能達到」1 兆美元，遠高於 2025 年的 187 億美元",
+      "summary_zh": "SpaceX 在上週於那斯達克（Nasdaq）創紀錄首發後，週一迎來首個完整交易日，股價攀升了 20%。"
     },
     {
-      "title_en": "As the 2026 FIFA World Cup begins, there is still no clear replacement for “Sports Twitter”, which was a perfect second-screen experience during live events",
-      "url": "https://www.theverge.com/entertainment/947956/world-cup-2026-social-media?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImFKZTJRamhXYXgiLCJwIjoiL2VudGVydGFpbm1lbnQvOTQ3OTU2L3dvcmxkLWN1cC0yMDI2LXNvY2lhbC1tZWRpYSIsImV4cCI6MTc4MTc2Mzg3NSwiaWF0IjoxNzgxMzMxODc1fQ.tZYA84702nOCzin1_FBsHNv2ALNtK5aeD9dIV1ze5-o&utm_medium=gift-link",
-      "summary_en": "The current landscape of social media networks just isn't the same for big moments like this.",
-      "source": "The Verge",
-      "media_source": "The Verge",
+      "title_en": "SpaceX IPO raised a total of $85.7B as underwriters exercised their overallotment of shares, after raising an initial $75B on June 11",
+      "url": "https://www.cnbc.com/2026/06/15/spacex-ipo-spcx-greenshoe-overallotment.html",
+      "summary_en": "SpaceX underwriters have officially exercised their overallotment of shares in the historic initial public offering, bringing the total raised to $85.7 billion …",
+      "source": "CNBC",
+      "media_source": "CNBC",
       "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "title_zh": "隨著 2026 年 FIFA 世界盃開踢，目前仍沒有明確的「體育版 Twitter」替代品，後者在直播賽事期間曾是完美的第二螢幕體驗",
-      "summary_zh": "在面對這類重大時刻時，當前的社群媒體環境已不復當年。"
+      "techmeme_cluster_role": "related",
+      "title_zh": "承銷商行使超額配售權後，SpaceX IPO 總募資額達 857 億美元；此前於 6 月 11 日初步募資 750 億美元",
+      "summary_zh": "SpaceX 的承銷商已正式行使這場歷史性 IPO 中的超額配售權，使總募資金額達到 857 億美元……"
     },
     {
-      "title_en": "Since Russia ratcheted up control over the internet this year, some Russians are turning to solutions like using multiple phones and VPNs to evade restrictions",
-      "url": "https://www.reuters.com/world/europe/two-phones-an-app-how-russians-skirt-putins-digital-iron-curtain-2026-06-13/",
-      "summary_en": "In a quiet cafe popular for its free Wi-Fi and good coffee, a Russian interior designer logs onto a virtual private network …",
+      "title_en": "Keir Starmer says the UK will ban social media for under-16s in an “Australia-plus model” to “give kids their childhood back”, set to take effect in spring 2027",
+      "url": "https://www.reuters.com/business/media-telecom/britain-expected-set-out-under-16s-social-media-restrictions-2026-06-14/",
+      "summary_en": "British Prime Minister Keir Starmer said on Monday he would ban social media sites for under-16s …",
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "title_zh": "自俄羅斯今年加強網路管制以來，部分俄羅斯人正轉向使用多支手機與 VPN 等方案來規避限制",
-      "summary_zh": "在一家以免費 Wi-Fi 和優質咖啡聞名的安靜咖啡館裡，一名俄羅斯室內設計師正登入虛擬專用網路……"
+      "title_zh": "英國首相施凱爾宣佈將採取「澳洲升級版模式」禁止 16 歲以下青少年使用社群媒體，旨在「還給孩子童年」，預計 2027 年春季生效",
+      "summary_zh": "英國首相施凱爾週一表示，他將禁止 16 歲以下青少年使用社群媒體網站……"
+    },
+    {
+      "title_en": "The UK's social media ban will cover Snapchat, TikTok, YouTube, Instagram, Facebook, X, and more, and will require platforms to stop children from livestreaming",
+      "url": "https://www.bbc.com/news/articles/ceqdny4l3jdo",
+      "summary_en": "",
+      "source": "BBC",
+      "media_source": "BBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "英國社群媒體禁令將涵蓋 Snapchat、TikTok、YouTube、Instagram、Facebook 與 X 等平台，並要求禁止兒童進行直播",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Sources: several Xbox studios, including Hellblade maker Ninja Theory, are in talks with Microsoft to buy themselves back and go independent to avoid closure",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/studios-in-microsoft-s-xbox-division-brace-for-closures?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MTU1NDUzNiwiZXhwIjoxNzgyMTU5MzM2LCJhcnRpY2xlSWQiOiJUR09XOTRLSVAzTE0wMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.qu5M4E4sve-8r60rL_e-Xv-LrGJvIGgWiKLxMitTl5A",
+      "summary_en": "The studios, which include Compulsion Games and Double Fine, are in active negotiations with Xbox and may be given the chance to go independent.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指多家 Xbox 工作室（含《地獄之刃》開發商 Ninja Theory）正與微軟洽談贖身以恢復獨立地位，避免遭關閉命運",
+      "summary_zh": "包括 Compulsion Games 和 Double Fine 在內的工作室正與 Xbox 進行積極談判，並可能獲得獨立發展的機會。"
+    },
+    {
+      "title_en": "Source: Nvidia is seeking to raise $20B+ from its first corporate bond sale since 2021, marketed in seven tranches, with maturities spanning two to 30 years",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+      "summary_en": "Nvidia Looks to Raise $20 Billion in First Bond Sale Since 2021 — Video Player is loading. — Unmute — Current Time 0:00 Loaded: 64.53% Playback Rate",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息人士：NVIDIA 擬透過 2021 年以來首次公司債發行募資逾 200 億美元，分為七個批次，期限從 2 年到 30 年不等",
+      "summary_zh": "NVIDIA 尋求在 2021 年以來首次債券發行中募集 200 億美元。"
+    },
+    {
+      "title_en": "Google says a Chinese-linked hacking group targeted US and Canadian academic, medical, and military research institutions from September 2023 to November 2025",
+      "url": "https://www.reuters.com/legal/litigation/chinese-linked-hackers-targeted-uscanadian-research-facilities-year-google-says-2026-06-15/",
+      "summary_en": "A Chinese-linked hacking group spent more than a year secretly stealing data from U.S. and Canadian academic …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Google 指出與中國有關的駭客組織在 2023 年 9 月至 2025 年 11 月期間，鎖定美加學術、醫療與軍事研究機構發動攻擊",
+      "summary_zh": "一個與中國有關的駭客組織花費了一年多時間，秘密竊取美國和加拿大學術機構的數據……"
+    },
+    {
+      "title_en": "Salesforce agrees to acquire AI customer service platform Fin, formerly Intercom, for ~$3.6B, in a deal expected to close in Q4 of its 2027 fiscal year",
+      "url": "https://www.cnbc.com/2026/06/15/salesforce-ai-customer-service-fin-acquistion.html",
+      "summary_en": "Salesforce on Monday said it is buying AI customer service platform Fin for about $3.6 billion as businesses accelerate their agentic offerings for enterprises.",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Salesforce 同意以約 36 億美元收購 AI 客服平台 Fin（前身為 Intercom），預計於 2027 會計年度第四季完成交易",
+      "summary_zh": "Salesforce 週一表示，隨著企業加速為公司提供代理式服務（agentic offerings），該公司將以約 36 億美元收購 AI 客服平台 Fin。"
+    },
+    {
+      "title_en": "OpenRouter debuts Fusion, a tool for prompting multiple AI models in parallel, claiming it can achieve “Fable-level intelligence at half the price”",
+      "url": "https://openrouter.ai/blog/announcements/fusion-beats-frontier/",
+      "summary_en": "We've found that synthesizing the results of multiple models can significantly outperform what individual models are capable of.",
+      "source": "OpenRouter Blog",
+      "media_source": "OpenRouter Blog",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "OpenRouter 推出 Fusion 工具，可同時向多個 AI 模型下指令，宣稱能以一半的價格達到「Fable 等級的智慧」",
+      "summary_zh": "我們發現合成多個模型的結果，其表現能顯著優於單一模型的能力。"
+    },
+    {
+      "title_en": "Meta launches new AI features, including an “AI Mode” for search that uses Meta AI to surface answers pulled from public posts across Facebook",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+      "summary_en": "As Meta tries to catch up in the AI race and boost engagement with its AI bot, the company announced Monday that it's rolling …",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Meta 推出全新 AI 功能，包含搜尋專用的「AI 模式」，利用 Meta AI 從 Facebook 公開貼文中彙整答案",
+      "summary_zh": "隨著 Meta 試圖在 AI 競賽中迎頭趕上並提高其 AI 機器人的參與度，該公司週一宣佈正在推出相關功能……"
+    },
+    {
+      "title_en": "A US judge rejects Meta's bid to dismiss a lawsuit from Strike 3, which owns porn production companies, that alleges Meta torrented its videos for AI training",
+      "url": "https://torrentfreak.com/meta-must-face-adult-film-piracy-lawsuit-as-court-denies-dismissal/",
+      "summary_en": "To keep their piracy lawsuit alive, adult film producers Strike 3 Holdings and Counterlife Media don't have to prove Meta used their films for AI training.",
+      "source": "TorrentFreak",
+      "media_source": "TorrentFreak",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "美國法官駁回 Meta 的撤案申請；成人影片商 Strike 3 提告指控 Meta 透過 BitTorrent 下載其影片用於 AI 訓練",
+      "summary_zh": "為使這項盜版訴訟繼續進行，成人影片製作商 Strike 3 Holdings 和 Counterlife Media 無須證明 Meta 已將其電影用於 AI 訓練。"
+    },
+    {
+      "title_en": "Electronic Arts launches EA Advertising, letting brands integrate directly into gameplay through dynamic, real-time placements, including stadium signage",
+      "url": "https://www.cnbc.com/2026/06/15/electronic-arts-launches-a-new-way-to-advertise-directly-into-gameplay.html",
+      "summary_en": "Electronic Arts announced EA Advertising, a new way for brands to connect with fans through its portfolio of games …",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "美商藝電（EA）推出 EA Advertising，讓品牌透過動態即時投放直接融入遊戲，例如球場看板廣告",
+      "summary_zh": "美商藝電宣佈推出 EA Advertising，為品牌提供透過其遊戲陣容與粉絲聯繫的新方式……"
+    },
+    {
+      "title_en": "A US judge dismisses xAI's lawsuit alleging OpenAI stole trade secrets, saying xAI failed to show OpenAI induced a former xAI engineer to divulge trade secrets",
+      "url": "https://www.reuters.com/legal/litigation/openai-wins-dismissal-trade-secret-lawsuit-by-musks-xai-2026-06-15/",
+      "summary_en": "A federal judge on Monday dismissed a lawsuit by Elon Musk's artificial intelligence company xAI that accused rival Sam Altman's OpenAI …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "美國法官駁回 xAI 對 OpenAI 竊取商業機密的訴訟，指 xAI 未能證明 OpenAI 誘使前 xAI 工程師洩密",
+      "summary_zh": "一位聯邦法官週一駁回了馬斯克旗下 AI 公司 xAI 對競爭對手奧特曼（Sam Altman）之 OpenAI 的訴訟……"
+    },
+    {
+      "title_en": "Source: Qualcomm is in talks to buy AI chip designer Tenstorrent for $8B to $10B; Tenstorrent discussed raising $800M at a ~$3.2B valuation last year",
+      "url": "https://www.theinformation.com/articles/qualcomm-talks-buy-tenstorrent-expand-ai-chip-capabilities",
+      "summary_en": "Qualcomm has been in talks to buy Tenstorrent, a startup that designs chips for AI, according to a person with direct knowledge of the deal.",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息人士：高通（Qualcomm）正洽談以 80 億至 100 億美元收購 AI 晶片設計公司 Tenstorrent；該公司去年曾討論以 32 億美元估值募資",
+      "summary_zh": "據知情人士透露，高通一直在洽談收購設計 AI 晶片的初創公司 Tenstorrent。"
+    },
+    {
+      "title_en": "Sources: the US government plans to let the Federal Data Center Enhancement Act, which details standards for data center use and operations, expire in September",
+      "url": "https://www.wired.com/story/the-us-government-is-letting-a-key-data-center-regulation-expire/",
+      "summary_en": "The federal government is planning to let a rule regulating federal data center operations sunset in September with no replacement.",
+      "source": "Wired",
+      "media_source": "Wired",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指美國政府計畫讓《聯邦資料中心強化法案》於 9 月失效，該法規範了資料中心的使用與營運標準",
+      "summary_zh": "聯邦政府計畫讓一項監管聯邦資料中心運作的規範在 9 月屆滿，且目前尚無替代方案。"
+    },
+    {
+      "title_en": "Arcade, which helps companies manage which actions AI agents are authorized to take, raised a $60M Series A led by SYN Ventures, following a $12M seed in 2025",
+      "url": "https://www.wsj.com/cio-journal/arcade-dev-raises-60-million-to-secure-ai-agents-5d07eff4?st=at5seq&reflink=desktopwebshare_permalink",
+      "summary_en": "The startup aims to help companies manage the challenge of determining which actions AI agents are authorized to take",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "協助企業管理 AI 代理授權權限的 Arcade 獲得 6000 萬美元 A 輪融資，由 SYN Ventures 領投；該公司於 2025 年曾獲 1200 萬美元種子輪融資",
+      "summary_zh": "這家初創公司旨在幫助企業解決判定 AI 代理獲得哪些行動授權的挑戰。"
+    },
+    {
+      "title_en": "A profile of Cursor, including its hiring process and its testy relationship with Anthropic, which told Cursor that Claude Code was mainly a research effort",
+      "url": "https://www.businessinsider.com/cursor-ceo-michael-truell-spacex-elon-musk-anthropic-2026-6",
+      "summary_en": "How the world's hottest AI coding company hitched its fate to Elon Musk's rocket ship — I n 2019, Michael Truell, a shy …",
+      "source": "Business Insider",
+      "media_source": "Business Insider",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Cursor 專訪：揭秘其招募流程與 Anthropic 的緊張關係，後者稱 Claude Code 僅為研究計畫",
+      "summary_zh": "探討全球最熱門的 AI 程式碼公司如何將命運與馬斯克的火箭掛鉤 —— 2019 年，生性害羞的 Michael Truell..."
+    },
+    {
+      "title_en": "Radical Numerics, which is developing AI models that learn directly from biological data, raised a $50M seed led by Emergence Capital",
+      "url": "https://www.axios.com/pro/biotech-deals/2026/06/15/radical-numerics-seed-biological-ai-models",
+      "summary_en": "Radical Numerics, an AI research lab for biological data, raised a $50 million seed round, CEO Eric Nguyen tells Axios.",
+      "source": "Axios",
+      "media_source": "Axios",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Radical Numerics 獲 5,000 萬美元種子輪融資，開發直接從生物數據學習的 AI 模型",
+      "summary_zh": "生物數據 AI 研究實驗室 Radical Numerics 完成由 Emergence Capital 領投的 5,000 萬美元種子輪融資，執行長 Eric Nguyen 向 Axios 證實此消息。"
+    },
+    {
+      "title_en": "NewCore, which helps companies manage both human and AI agent identities in a single system, emerges from stealth with a $66M seed led by Cyberstarts",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+      "summary_en": "Cybersecurity startup NewCore emerged from stealth with $66 million in funding on Monday, aiming to solve a challenge it believes …",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "身份管理新創 NewCore 走出隱身模式，獲 6,600 萬美元種子輪融資，整合人類與 AI Agent 身份",
+      "summary_zh": "資安新創 NewCore 週一宣布獲得由 Cyberstarts 領投的 6,600 萬美元資金，旨在解決在單一系統中同時管理人類與 AI Agent 身份的挑戰。"
+    },
+    {
+      "title_en": "American Express agrees to acquire restaurant booking platform TheFork from Tripadvisor in an all-cash deal worth $700M; TRIP jumps 6%+",
+      "url": "https://www.reuters.com/legal/transactional/american-express-buy-tripadvisors-restaurant-booking-platform-thefork-700-2026-06-15/",
+      "summary_en": "American Express (AXP.N) will buy restaurant booking platform TheFork from Tripadvisor (TRIP.O) in an all-cash deal worth $700 million …",
+      "source": "Reuters",
+      "media_source": "Reuters",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "美國運通（American Express）同意以 7 億美元現金收購 Tripadvisor 旗下訂位平台 TheFork；TRIP 股價大漲逾 6%",
+      "summary_zh": "美國運通（AXP.N）將以 7 億美元全現金交易，從 Tripadvisor（TRIP.O）手中收購餐廳預訂平台 TheFork。"
+    },
+    {
+      "title_en": "Cybersecurity startup Chainguard, Cisco, Cloudflare, JPMorgan Chase, and others launch Athena, a coalition to secure open-source software using AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/chainguard-cyber-firms-use-ai-to-hunt-for-open-source-flaws",
+      "summary_en": "More than two dozen companies including JPMorgan Chase & Co. and an array of cybersecurity firms are collaborating to remedy software flaws spotted …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Chainguard、Cisco、Cloudflare 及 JPMorgan 等公司發起 Athena 聯盟，利用 AI 確保開源軟體安全",
+      "summary_zh": "包含摩根大通在內的二十多家公司與多家資安公司展開合作，致力於修復軟體中被發現的漏洞。"
+    },
+    {
+      "title_en": "President Trump says he warned Emmanuel Macron to drop France's 3% digital services tax on US tech giants, or face a 100% tariff on French champagnes and wines",
+      "url": "https://nypost.com/2026/06/15/business/trump-warns-france-in-exclusive-interview-with-the-post-kill-tech-tax-or-face-100-wine-tariffs/",
+      "summary_en": "See more of our coverage in your search results. — Add The New York Post on Google — President Trump warned that France …",
+      "source": "New York Post",
+      "media_source": "New York Post",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "川普總統警告馬克宏撤回法國對美國科技巨頭徵收的 3% 數位服務稅，否則法國香檳與葡萄酒將面臨 100% 關稅",
+      "summary_zh": "川普警告法國若不取消數位服務稅，將對其代表性產品課徵報復性關稅。更多詳細報導請見 Google 搜尋結果中的 The New York Post。"
     }
   ],
   "wsj": [
     {
+      "title_en": "Strait of Hormuz to Fully Open by Friday, Trump Says",
+      "url": "https://www.wsj.com/tech/strait-of-hormuz-to-fully-open-by-friday-trump-says-f785bdb1?mod=rss_Technology",
+      "summary_en": "Plus, oil prices fall, and Silicon Valley’s elite pretend to kill each other....",
+      "title_zh": "川普表示霍爾木茲海峽將於週五全面開放",
+      "summary_zh": "此外，原油價格下跌，矽谷精英們正流行玩一種互相「獵殺」的聚會遊戲。"
+    },
+    {
+      "title_en": "Judge Dismisses Elon Musk’s xAI Trade-Secret Lawsuit Against OpenAI",
+      "url": "https://www.wsj.com/tech/judge-dismisses-elon-musks-xai-trade-secret-lawsuit-against-openai-f637c52e?mod=rss_Technology",
+      "summary_en": "The suit alleged OpenAI poached an xAI engineer who worked on a company chatbot....",
+      "title_zh": "法官駁回馬斯克旗下 xAI 對 OpenAI 的商業機密侵權訴訟",
+      "summary_zh": "該訴訟指控 OpenAI 挖角了一名參與 xAI 聊天機器人開發的工程師。"
+    },
+    {
+      "title_en": "The Party Game Where Silicon Valley’s Elite Pretend to Kill Each Other",
+      "url": "https://www.wsj.com/tech/silicon-valley-mafia-founders-fund-b014f603?mod=rss_Technology",
+      "summary_en": "In a new series from Peter Thiel’s Founders Fund, the tech industry’s most powerful players gather around the Mafia table for an evening of deception....",
+      "title_zh": "矽谷精英聚會盛行「黑手黨」派對遊戲，在虛擬背叛中較勁",
+      "summary_zh": "在 Peter Thiel 旗下 Founders Fund 的新系列活動中，科技界最具影響力的人物聚集在「黑手黨」牌桌旁，享受一個充滿欺騙與策略的夜晚。"
+    },
+    {
+      "title_en": "How Millions of Digital Home Devices Are Secretly Powering Cyberattacks",
+      "url": "https://www.wsj.com/tech/cybersecurity/how-millions-of-digital-home-devices-are-secretly-powering-cyberattacks-8fd73584?mod=rss_Technology",
+      "summary_en": "Watch WSJ’s Jack Gillum investigate how questionable foreign companies turn cheap gadgets into tools for some of the most damaging cyberattacks on record....",
+      "title_zh": "數百萬台數位家庭裝置如何被秘密用於發動網路攻擊",
+      "summary_zh": "《華爾街日報》記者 Jack Gillum 調查可疑的外國公司如何將廉價裝置轉化為史上最具破壞性的網路攻擊工具。"
+    },
+    {
+      "title_en": "Anthropic Sued Over Limits on Its $200-a-Month AI Plans",
+      "url": "https://www.wsj.com/tech/ai/anthropic-sued-over-limits-on-its-200-a-month-ai-plans-e2a109e4?mod=rss_Technology",
+      "summary_en": "The lawsuit, which is seeking class-action status, alleges the company oversold usage allowances on its priciest Claude chatbot tiers....",
+      "title_zh": "Anthropic 因每月 200 美元 AI 方案之使用限制遭起訴",
+      "summary_zh": "這項尋求集體訴訟地位的案件指控該公司誇大宣傳了其最昂貴 Claude 聊天機器人層級的使用配額。"
+    },
+    {
       "title_en": "Anthropic Dispatches Staff to D.C., Racing to Resolve AI Export Restrictions",
       "url": "https://www.wsj.com/tech/ai/anthropic-dispatches-staff-to-d-c-racing-to-resolve-ai-export-restrictions-71303d42?mod=rss_Technology",
-      "summary_en": "Startup is seeking a deal to end export restrictions that led to shutdown of its most powerful AI models....",
-      "title_zh": "Anthropic 派遣團隊前往華盛頓，全力解決 AI 出口限制問題",
-      "summary_zh": "這家新創公司正尋求達成協議，以結束導致其最強大 AI 模型關閉的出口限制……"
+      "summary_en": "The startup is seeking a deal to end export restrictions that led to a shutdown of its most powerful AI models....",
+      "title_zh": "Anthropic 派遣人員前往華府，力求解決 AI 出口限制問題",
+      "summary_zh": "這家新創公司正尋求達成協議，以終止導致其最強大 AI 模型被迫下架的出口限制。"
     },
     {
-      "title_en": "Siri’s New Brain",
-      "url": "https://www.wsj.com/tech/siris-new-brain-eb28fe50?mod=rss_Technology",
-      "summary_en": "Plus, Anthropic’s Fable woes, Meta’s big teacher bonuses and the terrifying rise of deepfake porn....",
-      "title_zh": "Siri 的新大腦",
-      "summary_zh": "此外還有：Anthropic 的 Fable 難題、Meta 的巨額教師獎金，以及令人恐懼的 Deepfake 色情內容興起……"
+      "title_en": "Arcade.dev Raises $60 Million to Secure AI Agents",
+      "url": "https://www.wsj.com/cio-journal/arcade-dev-raises-60-million-to-secure-ai-agents-5d07eff4?mod=rss_Technology",
+      "summary_en": "The startup aims to help companies manage the challenge of determining which actions AI agents are authorized to take....",
+      "title_zh": "Arcade.dev 融資 6,000 萬美元以確保 AI Agent 安全",
+      "summary_zh": "該新創公司旨在協助企業管理 AI Agent 的授權行為，確定哪些操作是經過授權執行的。"
     },
     {
-      "title_en": "AI Supercharges Deepfake Nudes—Unleashing a New Form of Bullying Among Kids",
-      "url": "https://www.wsj.com/tech/ai-deepfake-nudes-bullying-school-d242b8d4?mod=rss_Technology",
-      "summary_en": "As ‘nudify’ tools proliferate online, parents and schools are struggling to protect young victims....",
-      "title_zh": "AI 助長 Deepfake 裸照：引發兒童間新型態的霸凌",
-      "summary_zh": "隨著「脫衣」工具在網路上擴散，家長和學校正努力保護年幼的受害者……"
+      "title_en": "Schneider Electric, Foxconn to Partner on AI Data Centers",
+      "url": "https://www.wsj.com/tech/schneider-electric-foxconn-to-partner-on-ai-data-centers-ca6ce28c?mod=rss_Technology",
+      "summary_en": "The collaboration seeks to help customers build and operate AI infrastructure with greater speed and efficiency, Schneider Electric said....",
+      "title_zh": "施耐德電機與鴻海（Foxconn）合作建置 AI 資料中心",
+      "summary_zh": "施耐德電機表示，此次合作旨在協助客戶以更高的速度與效率建置並營運 AI 基礎設施。"
     },
     {
-      "title_en": "Amazon CEO’s Talks With U.S. Officials Triggered Crackdown on Anthropic Models",
-      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?mod=rss_Technology",
-      "summary_en": "Information Andy Jassy shared with the Trump administration sparked an abrupt, sweeping move to halt foreign access to the company’s powerful AI tools....",
-      "title_zh": "Amazon 執行長與美國官員的談話觸發了對 Anthropic 模型的打壓",
-      "summary_zh": "Andy Jassy 與川普政府分享的資訊，引發了停止外國存取該公司強大 AI 工具的突發性且全面的行動……"
-    },
-    {
-      "title_en": "Inside the Room Where America’s Brightest Game Out How to Avoid an AI Apocalypse",
-      "url": "https://www.wsj.com/tech/ai/inside-the-room-where-americas-brightest-game-out-how-to-avoid-an-ai-apocalypse-9e5e8526?mod=rss_Technology",
-      "summary_en": "What happened when 40 leading minds huddled to envision U.S. society in 2030 and how artificial intelligence will shake up the economy and jobs....",
-      "title_zh": "直擊現場：美國頂尖人才如何兵棋推演以避免 AI 災難",
-      "summary_zh": "當 40 位頂尖專家聚在一起展望 2030 年的美國社會，以及 AI 將如何動搖經濟與就業市場時，發生了什麼……"
-    },
-    {
-      "title_en": "SpaceX’s Engineering Secret? A College Car-Racing Club",
-      "url": "https://www.wsj.com/tech/spacex-engineering-cornell-racing-team-de13905b?mod=rss_Technology",
-      "summary_en": "Leaders at the space and AI company share ties to a Cornell University team where they honed their engineering skills....",
-      "title_zh": "SpaceX 的工程秘密？一個大學賽車社團",
-      "summary_zh": "這家航太與 AI 公司的領導層都與康乃爾大學的一支團隊有關，他們在那裡磨練了工程技能……"
+      "title_en": "AI Deepfakes Are Getting Weirder and Harder to Spot in the Midterms",
+      "url": "https://www.wsj.com/politics/elections/ai-deepfakes-are-getting-weirder-and-harder-to-spot-in-the-midterms-88b4f7ad?mod=rss_Technology",
+      "summary_en": "A wave of fake videos and ads is fueling worries about misinformation....",
+      "title_zh": "AI 深偽（Deepfakes）在期中選舉中變得更怪異且更難辨識",
+      "summary_zh": "一波假影片與廣告正引發各界對錯誤資訊傳播與影響選情的擔憂。"
     },
     {
       "title_en": "Tech’s Next IPO Wave Promises a Charitable Windfall",
       "url": "https://www.wsj.com/finance/investing/techs-next-ipo-wave-promises-a-charitable-windfall-885a1e74?mod=rss_Technology",
       "summary_en": "The SpaceX IPO is the first in a string of AI public-market debuts that could deliver new riches to startup employees to donate to charity....",
-      "title_zh": "科技業下一波 IPO 浪潮有望帶來慈善捐贈潮",
-      "summary_zh": "SpaceX 的 IPO 是系列 AI 公司上市的開端，這可能讓新創員工獲得新財富並投入慈善事業……"
-    },
-    {
-      "title_en": "Backlash Is Growing Over Kevin O’Leary’s Data Center. He Is Blaming China.",
-      "url": "https://www.wsj.com/us-news/backlash-is-growing-over-kevin-olearys-data-center-he-is-blaming-china-d885f1b4?mod=rss_Technology",
-      "summary_en": "The “Shark Tank” panelist has criticized his detractors on TV and social media as tools of Beijing. Some locals in Utah say the tactic is backfiring....",
-      "title_zh": "Kevin O'Leary 的資料中心面臨日益增長的反彈，他將此歸咎於中國",
-      "summary_zh": "這名《創智贏家》評審在電視和社群媒體上抨擊反對者是北京的工具，但猶他州部分當地人表示，這種策略正適得其反……"
-    },
-    {
-      "title_en": "The Job That AI Was Supposed to Kill Needs More Humans Than Ever",
-      "url": "https://www.wsj.com/tech/ai/the-job-that-ai-was-supposed-to-kill-needs-more-humans-than-ever-0771e4cf?mod=rss_Technology",
-      "summary_en": "Court reporters outmatch the technology in skill, but their profession faces another crisis: a shortage of workers....",
-      "title_zh": "AI 本應取代的工作，現在比以往任何時候都更需要人力",
-      "summary_zh": "法庭速記員在技能上勝過技術，但該行業面臨另一場危機：人力短缺……"
-    },
-    {
-      "title_en": "Anthropic Halts Access to Top AI Models After U.S. Ban on Foreign Use",
-      "url": "https://www.wsj.com/tech/ai/anthropic-halts-access-to-top-ai-models-after-u-s-ban-on-foreign-use-a4bca2cc?mod=rss_Technology",
-      "summary_en": "All Fable 5 and Mythos 5 users have lost access after the Trump administration declared the models security risks....",
-      "title_zh": "Anthropic 因應美國禁止外國使用禁令，停止提供頂級 AI 模型存取",
-      "summary_zh": "在川普政府宣布這些模型具有安全風險後，所有 Fable 5 與 Mythos 5 的使用者已失去存取權限。"
+      "title_zh": "科技業下一波 IPO 熱潮可望帶來慈善捐贈紅利",
+      "summary_zh": "SpaceX 的 IPO 是系列 AI 相關上市案的首炮，可能為新創公司員工帶來新的財富，並轉化為慈善捐款。"
     }
   ],
   "deep_analysis": {
@@ -249,41 +414,41 @@
       "content_mode": "ai_analysis"
     },
     "BigTechnology": {
-      "title": "SpaceX 的瘋狂估值：是市場泡沫還是突破性創新的必要代價？ (SpaceX’s Valuation Is Crazy. Maybe That's A Feature?)",
+      "title": "Elon Musk Sold Investors The Future. Now SpaceX Has To Build It. / 伊隆·馬斯克向投資者售賣了未來，現在 SpaceX 必須將其實現",
       "source": "Big Technology",
-      "article_date": "2026-06-12",
-      "url": "https://www.bigtechnology.com/p/spacexs-valuation-is-crazy-maybe",
-      "analysis_zh": "### 全文大意摘要：SpaceX 兩兆美元市值挑戰傳統估值邏輯\n\n本文轉載自知名科技評論媒體《Big Technology》，由分析師 Alex Kantrowitz 撰寫。文章聚焦於埃隆·馬斯克（Elon Musk）旗下的航太巨頭 SpaceX 在今日正式 IPO 後，其市值飆升至驚人的 2.1 兆美元，成為史上最大規模的上市案。然而，這份輝煌背後卻隱藏著令人不安的財務數字：SpaceX 去年因投入 AI 基礎設施而虧損近 50 億美元，且核心的火箭發射業務至今仍未實現盈利。作者深入剖析了為何市場願意無視傳統估值邏輯，將這家本質上是「連網公司（Starlink）＋虧損火箭部門」的企業推上神壇，並提出這類「過度繁榮」或許是推動人類實現「不可能任務」的必要機制。\n\n### 戰略背景與脈絡：從全球通訊衛星轉向 AI 雲端基礎設施\n\nSpaceX 自 2002 年成立以來，一直被視為人類殖民火星的先鋒，但其商業模式的演進已逐漸從單純的衛星發射轉向全球連結。隨著 Starlink（星鏈）的成熟，SpaceX 實際上已轉型為一家通訊基礎設施公司。然而，最近一年內，該公司戰略性地將重心移往人工智慧（AI）。在 IPO 招股說明中，SpaceX 宣稱其潛在市場規模（TAM）高達 28.5 兆美元，其中 AI 雲端服務就佔了 26.5 兆美元，這是一個巨大的敘事轉向。在產業脈絡上，這反映了當前科技界對 AI 算力的極度飢渴，甚至連這家航太公司也開始出租其閒置運算能力給競爭對手（如 Google），試圖在 AI 戰場中佔據一席之地。這種戰略擴張雖然推高了成本，但也為其「兩兆美元」的估值提供了新的論點支撑。\n\n### 作者的核心推演與論點：非理性繁榮作為硬核科技研發的必要功能\n\n作者 Alex Kantrowitz 提出了一個極具反共識的觀點：SpaceX 這種看似「瘋狂」的估值並非系統的臭蟲（bug），而是一種功能（feature）。在傳統金融邏輯中，將巨額資金投入尚未獲利且極具風險的月球或火星計畫是極端低效的；但在「登月計畫（Moonshot）」的商業邏輯裡，期待完美的財務效率純屬幻想。作者認為，正是因為投資者願意忍受看似荒謬的估值與漫長的虧損，才能讓衛星網路、太空數據中心等高難度技術從想像變為現實。這種邏輯同樣適用於當前的 AI 投資熱潮：儘管未來必將出現資本支出的減記、價格戰與泡沫破裂，但如果沒有這種「過度興奮」的資本湧入，AI 的進步速度將遠不及今日。因此，估值的非理性本質上是為技術的跨越式突破提供了必要的財務容錯空間。\n\n### 對整體市場、技術發展與地緣政治的長期影響：太空數據中心趨勢與散戶投資者面臨的新興風險\n\nSpaceX 的上市模式揭示了公募市場的一個危險趨勢：零售投資者（散戶）在本次 IPO 中獲得了約 20% 的配額，遠高於傳統的 5-10%，這意味著普通投資者正承擔著過去僅由創投（VC）吸收的高風險。長期來看，這將導致公開市場與私募市場的界限模糊化，大型指數基金被迫持有這類高波動性、高敘事主導的「願景型」股票。在技術層面，這將加速低軌衛星與 AI 的深度融合，使太空成為下一代數據中心的戰場。地緣政治方面，SpaceX 作為擁有自主發射能力與全球通訊網絡的龐然大物，其資本實力的進一步擴張將使其在國家級通訊主權與太空資源爭奪中擁有更強的話語權，甚至可能在某些領域超越政府機構的影響力。然而，這種「以燃燒現金換取突破」的模式若最終無法轉化為穩定利潤，其連鎖反應將對全球金融體系與公眾對科技創新的信心造成巨大衝擊。",
+      "article_date": "2026-06-15",
+      "url": "https://www.bigtechnology.com/p/elon-musk-sold-investors-the-future",
+      "analysis_zh": "### 全文大意摘要：SpaceX 登頂全球前十大市值後的現實轉型考驗\n\n本文源自知名科技評論媒體 Big Technology，由 Alex Kantrowitz 撰述。文章核心探討了 SpaceX 在完成史詩級 IPO 後，首個交易日便衝破 2.4 兆美元市值、穩居全球前十大公司的壯舉。然而，這巨大的成功背後隱藏著嚴峻的挑戰：馬斯克已成功向投資者「售賣」了一個包含月球任務、企業級 AI 業務及軌道數據中心的宏大未來，現在 SpaceX 必須將這些願景轉化為具體的營收與獲利。目前該公司本質上仍是一家以衛星通訊（Starlink）為主，輔以火箭發射與 AI 插件的混合體，未來的維持力將取決於其能否在散戶參與度極高的波動市場中，實現其對「空間運算」與「邊緣 AI」的承諾。\n\n### 戰略背景與脈絡：AI 熱潮與新太空競賽的資本合流\n\nSpaceX 的上市並非單純的航太公司 IPO，而是新太空經濟（New Space）與生成式 AI 浪潮的戰略匯流。在當前的產業環境下，傳統的 AI 實驗室（如 OpenAI 與 Anthropic）正面臨巨大的資本支出壓力與上市變現的挑戰。馬斯克採取了極具戰略眼光的做法：將 xAI 併入 SpaceX 的架構內。這種結構不僅讓 SpaceX 轉型為一家提供「近地軌道運算基礎設施」的 Neocloud（新興雲端供應商），更讓投資者能透過單一窗口同時參與航太與 AI 兩大最前沿的技術投資。與此同時，競爭對手如貝佐斯的 Blue Origin 正因技術挫敗（New Glenn 火箭爆炸）處於動盪期，這進一步鞏固了 SpaceX 作為市場唯一具備規模化商業能力的霸主地位，但也使其必須獨自承擔定義產業經濟標準的責任。\n\n### 作者的核心推演與論點：xAI 財務透明化將成為 AI 產業的新標竿\n\n作者深入剖析了 SpaceX 招股說明書中揭露的驚人數據，這也是市場首次得以一窺頂級 AI 實驗室的真實財務現狀。作者指出，xAI 在 2025 年的資本支出高達 127 億美元，且營運虧損正以驚人的速度擴張（從 2025 年 Q1 的 9 億美元增至 2026 年 Q1 的 24.7 億美元）。作者的核心推演在於：SpaceX 現在成了 Anthropic 等競爭對手的「算力供應商」（每月 12.5 億美元的協議），但這種關係極其脆弱，因為合約具備 90 天短天期取消條款。更重要的是，馬斯克透過給予散戶高達 20% 的配售比例，將 SpaceX 打造為一檔「情緒驅動型股票」，其估值已不再僅由財務報表決定，更多是依賴於散戶對馬斯克個人願景的迷戀。作者認為，這種結構雖然賦予馬斯克絕對的控制權（82% 投票權），但也讓公司在面對 AI 泡沫疑慮時更顯脆弱。\n\n### 對整體市場、技術發展與地緣政治的長期影響：定義未來十年的主權運算與軌道基建\n\nSpaceX 的成功上市將產生深遠的連鎖反應。首先，它為即將到來的 OpenAI 與 Anthropic IPO 樹立了財務披露的基準，投資者將開始用 xAI 的數據來要求其他 AI 公司提供更透明的資本回收週期。其次，技術層面上，SpaceX 推動的「軌道數據中心」概念，若能成功執行，將徹底改變全球數據傳輸與主權雲端的邏輯，讓資料處理不再受限於地緣政治邊界。最後，市場結構將進一步兩極化：儘管 SpaceX 帶動了創投對航太領域的興趣，但資本將更集中於具備抗風險能力的巨頭，小型新創在缺乏基礎設施生態系支撐的情況下，生存空間將被進一步壓縮。SpaceX 已不再僅是一家搬運貨物的公司，它正試圖成為數位文明在地球軌道上的總承包商。",
       "insights": [
-        "「估值過高」可能是突破性技術的催化劑：在太空與 AI 等硬科技領域，市場的非理性繁榮提供了傳統融資難以供給的「容錯預算」，允許企業在找到盈利點前先完成基礎設施建設。",
-        "散戶成為「大國重器」的非典型創投：SpaceX 的 IPO 讓散戶持股比例翻倍，顯示出公眾對於「科技英雄主義」的信仰已轉化為具體的金融行為，但也讓普通人的退休金直接暴露在航太與 AI 的高風險之中。",
-        "AI 敘事已成為兆級市值的「保險單」：即便是一家以火箭起家的公司，也必須將 90% 以上的潛在市場定義為 AI 領域，才能維持其超越財務基本面的高估值，這反映出當前全球資本市場的單一焦慮與偏好。"
+        "將 xAI 納入 SpaceX 體系是一次教科書式的「願景捆綁」，利用航太業務的實體資產溢價來掩蓋 AI 研發階段的鉅額虧損，並成功將 SpaceX 從運輸業重新定義為軌道基礎設施商。",
+        "20% 的高額散戶配售比例是一把雙面刃，它建立了一個對抗機構做空的「狂熱粉絲護城河」，但也讓 2.4 兆美元的估值高度受限於散戶的情緒波動與對 AI 敘事的持久耐心。",
+        "SpaceX 與 Anthropic 達成的每月 12.5 億美元算力協議，標誌著「新興雲端（Neocloud）」模式的興起，這意味著未來的 AI 競爭力將取決於誰能掌握最底層、甚至是跨越地球大氣層的電力與冷卻資源。"
       ],
       "content_mode": "ai_analysis"
     },
     "a16z": {
-      "title": "Charts of the Week: Making the Stuff that Makes the Stuff / 本週圖表：製造「製造零件的機器」",
+      "title": "SpaceX & the Sentient Sun / SpaceX 與感知的太陽：重塑人類文明的跨星際戰略",
       "source": "a16z",
-      "article_date": "2026-06-12",
-      "url": "https://www.a16z.news/p/charts-of-the-week-making-the-stuff",
-      "analysis_zh": "這篇文章源自矽谷知名創投 Andreessen Horowitz (a16z) 的編輯團隊，透過一系列關鍵數據圖表，深度剖析了當前美國產業發展的四大核心趨勢：製造業回流的虛與實、酒精消費習慣的結構性轉變、搜尋引擎「零點擊」時代的加速到來，以及 AI 浪潮下 SaaS 軟體市場的劇烈分化。作者強調，雖然表面上美國正迎來再工業化的榮景，但底層數據卻揭示了資本投入不均與結構性瓶頸的隱憂。\n\n### 全文大意摘要：數據揭露美國產業復興與數位轉型中的結構性矛盾\n\n本文透過四個面向的數據對比，勾勒出 2026 年美國經濟的矛盾現狀。首先，製造業雖然出現復甦跡象，但資金高度集中於 AI 與半導體相關設施，而非廣泛的工業基礎。其次，酒精消費呈現「去酒精化」與「便利化」趨勢，傳統烈酒銷量下滑，取而代之的是非酒精飲品與罐裝調酒（RTD）。第三，在互聯網層面，AI 摘要的普及使「零點擊搜尋」比例飆升至近七成，徹底改寫了出版商與搜尋引擎的流量協議。最後，在資本市場，軟體企業（SaaS）正經歷一場由 AI 重新定義價值的「大分化」，資安與觀測工具成為避風港，而傳統應用軟體則面臨嚴苛的價值重估。\n\n### 戰略背景與脈絡：AI 驅動下的資源錯配與消費習慣的技術化變遷\n\n從戰略層面來看，美國正處於「美國活力」（American Dynamism）轉向實踐的關鍵期。政府透過《晶片法案》（CHIPS Act）與政策引導，試圖重塑本土供應鏈。然而，這種復興目前僅能稱為「小爆發」（Boom-let），而非全面的再工業化。主要原因在於美國長期以來「重軟輕硬」，資金流向了 IP、位元（Bits）與 AI 基礎設施，卻忽視了物理世界中的「原子」（Atoms）。與此同時，消費端也受到 AI 效率化的影響，無論是獲取資訊的模式轉向「即刻滿足」（零點擊），還是社交飲酒模式轉向更健康、更標準化的預調飲品，都反映出技術正深入滲透並重構傳統產業的運作脈絡。\n\n### 作者的核心推演與論點：真正的工業競爭力取決於「資本存量」的深度與廣度\n\n作者的核心推論在於，衡量再工業化是否成功的關鍵指標是「資本存量」（Capital Stock），即「製造機器的機器」與工廠建築。數據顯示，美國對工業零件的進口增長遠超過本土設備的投資。目前的投資激增幾乎完全由 AI 半導體建置驅動，對於核心工業機械（如渦輪機、HVAC 或基礎加工設備）的投資依然乏力。這意味著，如果沒有足夠的物理空間（結構）與生產設備（機器）來支持非 AI 產業，所謂的「回流」將只是依賴進口零件在本土組裝的假象。在軟體領域，作者進一步推導出市場的「分化論」：投資者不再盲目買入 SaaS，而是透過「AI 耐受度」進行篩選，資安與可觀測性工具因 AI 帶來的威脅增加而變得更有韌性，而無法證明 AI 能帶動業績實質增長的企業則被市場無情拋棄。\n\n### 對整體市場、技術發展與地緣政治的長期影響：後搜尋時代的流量危機與軟體估值的永久性重塑\n\n這份分析預示了幾個長期的結構性變化。第一，製造業的資金集中化可能導致美國在 AI 以外的基礎工業領域持續落後，地緣政治上的供應鏈韌性將面臨「點狀強化、面狀脆弱」的風險。第二，Google 的 AI 摘要正將搜尋引擎從「開放網絡的入口」轉變為「資訊終端」，這將引發內容出版商的大規模變革，未來「品牌直接流量」與「付費流量」的重要性將超越 SEO。第三，SaaS 市場的估值體系已被永久性改寫，軟體不再是通膨下的避險資產，而是必須展現出與 AI 深度整合且具備數據護城河的「戰略工具」，無法跨越這道門檻的企業將面臨長期的估值折價（SaaSpocalypse）。",
+      "article_date": "2026-06-15",
+      "url": "https://www.a16z.news/p/spacex-and-the-sentient-sun",
+      "analysis_zh": "### 全文大意摘要：橫跨太空、能源與 AI 的大一統文明願景\n\n本文由 a16z 的 Alex Danco 撰寫，作為其「未來輪廓」（Profiles of the Future）系列的首篇，深度剖析了 SpaceX 如何從一家火箭發射服務商，演變成一家旨在構建多行星文明並實現 post-scarcity（後稀缺）社會的跨產業巨頭。文章核心圍繞著伊隆·馬斯克（Elon Musk）所勾勒出的宏大藍圖：透過 SpaceX、xAI 與 Tesla 的深度整合，克服地球上的能源與土地限制，將 AI 運算中心推向軌道。文章詳細記錄了 SpaceX 在 2026 年初的戰略轉向——優先建設「月球城市」作為火星移民的演習場，並揭示了「軌道 AI 數據中心」將如何成為公司未來最大的經濟支柱，其最終目標是實現 Iain M. Banks 小說中《文化》（The Culture）系列所描繪的、由超級智慧與人類共生的烏托邦文明。\n\n### 戰略背景與脈絡：地球能源瓶頸與軌道運算主權的崛起\n\n當前 AI 發展的瓶頸已從晶片短缺轉向電力供應，而地球上的電網建設、土地徵收與環保審核嚴重滯後於 AI 算力的指數增長需求。在此背景下，SpaceX 與 xAI 的合併（2026年2月）具有劃時代意義。作者指出，太空數據中心擁有地球無法比擬的優勢：無大氣干擾、無晝夜循環、無季節變化的恆定太陽能，其發電效率是地面的 4 到 10 倍。SpaceX 透過 Starship V3 的超低成本發射能力（預計降至每公斤 100 美元），將「移動算力至能源所在地」從科幻變為經濟上可行的現實。這不僅是技術競爭，更是對未來數位主權與基礎能源分配權的重新定義：當地球陷入電力爭奪戰時，SpaceX 正在軌道上構建一個潛在發電量達「太瓦級」（Terawatt）的運算網絡，這相當於美國總用電量的兩倍。\n\n### 作者的核心推演與論點：從「笨蛋指數」到「演算法」的極致垂直整合\n\n作者精準捕捉了 SpaceX 成功的底層邏輯，即馬斯克著名的五步操作法「演算法」（The Algorithm）：質疑需求、刪除流程、簡化優化、加速循環、最後才是自動化。作者透過「笨蛋指數」（Idiot Index）——即零件總價與原材料成本的比值——解釋了 SpaceX 如何透過極度的垂直整合打破航太產業的暴利結構。文中舉例提到，傳統供應商報價 12 萬美元的致動器，SpaceX 以不到 4000 美元的成本自研成功。這種邏輯現已擴展到整個「馬斯克星座企業」：Tesla 提供晶片設計與 Optimus 機器人，xAI 提供 frontier model 與超算組裝速度，SpaceX 則提供運載與軌道能源。作者論證，這種跨公司的「硬體＋軟體＋能源」閉環，使其迭代速度比傳統巨頭快上數倍，如 xAI 僅用 4 個月就完成了傳統需 4 年才能建成的 supercomputer。\n\n### 對整體市場、技術發展與地緣政治的長期影響：多行星工業體系的成形與文明躍遷\n\n這場變革的長期影響將徹底重塑全球工業版圖。首先，Starship 的成熟標誌著「太空地理大發現」時代的來臨，月球將從科研站轉變為工業中心。作者推演，利用月球僅為地球六分之一的引力和無大氣特性，透過「質量投射器」（Mass Driver）發射月球製造的衛星，將使跨星際物流成本降至與地面貨運相當。這將催生「月球鋁業」或「月球工程機械」等全新產業。其次，在地緣政治上，SpaceX 控制了全球 80% 以上的發射載量與關鍵軌道頻寬，這使得單一私人企業擁有了超越多數國家的「星際投射力」。最後，文章預示了一個「感知的太陽」（Sentient Sun）時代，當 AI 算力規模達到太瓦級並與人類文明深度融合時，我們可能正處於從單一行星物種向星際文明飛躍的瓶頸期。SpaceX 的本質並非營利企業，而是一個以商業模式封裝的「文明延續計畫」，旨在確保即使地球面臨災難，人類意識的燈火也能在星際間繼續閃耀。",
       "insights": [
-        "美國再工業化存在嚴重失衡，資金高度集中於 AI 半導體設施，但「製造機器的機器」（核心工業設備）投資依然低迷，這可能導致再工業化流於表面，無法建立真正的產業自主。",
-        "「零點擊搜尋」比例攀升至 70%，標誌著以 SEO 為核心的互聯網流量分發邏輯已實質瓦解，AI 摘要正在剝奪內容製作者的變現機會，迫使出版商尋找全新的生存模式。",
-        "資本市場對軟體股已從「通殺」轉為「精選」，資安（Cyber）與觀測軟體因其在 AI 威脅環境下的剛需屬性，正享受與一般 SaaS 截然不同的溢價待遇。"
+        "AI 發展的最終約束力是物理（能源與土地），SpaceX 將運算中心送入軌道不僅是太空任務，更是解決地球 AI 算力通膨的最佳經濟方案。",
+        "SpaceX 的核心競爭力不在於火箭，而是在於一套能將「研發失敗」轉化為「高頻數據」的工程體系，這使其硬體迭代速度具備了軟體開發的靈活性。",
+        "月球戰略的調整顯示「工業化」已優先於「純殖民」：透過在月球建立 AI 硬體生產線來回饋地球需求，才是實現火星百萬人口城市的可持續財務路徑。"
       ],
       "content_mode": "ai_analysis"
     },
     "Lenny's Newsletter": {
-      "title": "The hidden pattern behind successful products | Mark Pincus (Founder of Zynga) / 成功產品背後的隱藏規律：Zynga 創辦人 Mark Pincus 的產品哲學",
+      "title": "🎙️ Claude Fable 5 深度實測與 Braintrust 的 AI 工程學：從「指令工程」轉向「評測驅動」的典範轉移 / 🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-06-14",
-      "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
-      "analysis_zh": "這篇文章源自知名產品與成長專欄《Lenny's Newsletter》，訪談了 Zynga 的創辦人 Mark Pincus。Mark Pincus 曾一手打造《Words With Friends》、《FarmVille》與《Zynga Poker》等現象級遊戲，在 Zynga 期間，他帶領團隊創造了八成的產品成功率，觸及全球超過十億玩家。文章核心主旨圍繞著 Pincus 即將出版的新書《Life at the Speed of Play》，系統化地拆解了他如何從高風險的消費級產品開發中，提煉出一套可複製的「Proven, Better, New」成功框架，挑戰了矽谷過度迷信「原始創新」的直覺。\n\n### 全文大意摘要：揭開 Zynga 成功背後的系統化產品開發框架\n\nMark Pincus 在訪談中詳細說明了他對於「成功」的定義與達成路徑。他認為，大多數產品經理失敗的原因在於過度追求完全的創新，卻忽略了市場早已驗證的使用者行為。他提出的核心策略是「Proven, Better, New」：首先複製已經被市場證明的行為（Proven），接著將其優化到讓使用者感到驚艷（Better），最後才加入一項獨特的新元素（New）。Pincus 同時分享了極具個人風格的管理金句，例如「在希望殺死你之前，先殺掉希望」（Kill hope before hope kills you），強調在產品開發中必須極度冷酷地執行數據驅動的決策，而非依賴對失敗計畫的盲目期待。此外，他對直覺與點子的區分也極具啟發性，認為創業者的直覺通常正確，但具體的執行點子卻往往錯誤，因此快速迭代與轉向才是生存之道。\n\n### 戰略背景與脈絡：在極高失敗率的消費級市場中以「規避風險」換取「規模化」\n\n從戰略背景來看，消費級產品（Consumer Apps）的開發環境在過去十年發生了劇烈變化，獲客成本攀升且使用者注意力極度碎片化。在這樣的高壓環境下，Zynga 能維持 80% 的高成功率，並非靠運氣，而是靠一套近乎科學的「風險管理」機制。Pincus 的背景深受早期網路遊戲與社群互動的影響，他觀察到人類的基礎娛樂需求（如競爭、合作、收集）是恆定不變的，因此「戰略背景」的核心不在於發明新的需求，而是在新的平台或媒介上，用更低摩擦、更具吸引力的方式重新包裝舊有的心理動機。這種「先求穩、再求勝」的脈絡，實際上是對矽谷「Move Fast and Break Things」精神的一種修正：快速行動是為了驗證「已被證明的事實」，而非無謂地打破規則。\n\n### 作者的核心推演與論點：產品成功的「95/75 法則」與極簡創新論\n\nPincus 的核心論點建立在一個深刻的觀察上：創業者對市場需求的「直覺」（Instincts）有 95% 的機率是正確的，因為那是對人類本能的觀察；但實踐這些直覺的具體「點子」（Ideas）卻有 75% 是錯誤的。基於此推論，他主張產品經理應該將野心「縮小」——越是不具野心的起步，往往能通往最有野心的結果。他的「Proven, Better, New」框架就是這種邏輯的體現。首先，「Proven」確保了產品具備基礎代謝率，解決的是「人們是否想要這個」的問題；「Better」則決定了留存率，必須做到 10 個人裡面有 10 個都說「非用不可」；最後的「New」才是品牌差異化的來源。他強調「殺掉希望」並非消極，而是為了把資源集中在最有潛力的種子上，避免被平庸的計畫拖垮，這是一種基於資源分配效率的冷酷理性。\n\n### 對整體市場、技術發展與地緣政治的長期影響：從「發明者文化」轉向「優化者文化」的權力轉移\n\n長期而言，Pincus 的理論預示了產品開發典範的轉移。隨著 AI 技術的成熟，開發一個功能或 App 的邊際成本將降至趨近於零，這意味著「點子」的價值將進一步稀釋。未來的市場競爭將不再是誰先想到一個新功能，而是誰能更精準地識別「已被證明的行為」，並利用技術實現「指數級的優化」。Pincus 的觀點暗示了未來的產品經理角色將更接近「實驗室化學家」而非「藝術家」，透過不斷地組合舊元素與新技術來產出化學反應。此外，他提到的「如何與 AI 共同育兒」反映了技術對人類社會結構的深層滲透，未來的領導者不僅需要具備產品邏輯，更需要理解在自動化時代，人類情感與本能（如遊戲中的社交需求）如何成為最後的防禦堡壘。這套框架不僅適用於遊戲，也為 SaaS、電商與所有依賴使用者黏著度的科技產業提供了長期生存的指引。",
+      "article_date": "2026-06-15",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and",
+      "analysis_zh": "這份分析報告源自知名科技與產品電子報《Lenny's Newsletter》，主要探討了 Anthropic 最新發布的旗艦模型 Claude Fable 5 的實測表現，以及 Braintrust 執行長 Ankur Goyal 關於如何建立 AI 原生研發工作流的深度見解。文章核心主旨在於指出，雖然新一代「Mythos 級」模型展現了前所未有的工程嚴謹性，但真正的開發變革來自於從單純的「下指令」轉向以「自動化評測（Evals）」為核心的系統工程範式。\n\n### 全文大意摘要：解構 Anthropic 最新旗艦模型與高效能 AI 研發工作流\n\n本文分為兩個部分。第一部分由 Claire 針對 Anthropic 第一款進入大眾市場的「Mythos 級」模型 Claude Fable 5 進行全方位測試。儘管 Fable 5 在 SWBench Pro 等基準測試中以 80% 的高分碾壓 GPT-4.5 與 Gemini 3.1 Pro，但在實際應用中卻展現出「資深工程師」般的雙面性：它極度嚴謹且具備卓越的視覺解析力（如 PDF 處理），但在文案撰寫、UI 設計以及 MVP 快速迭代上卻顯得過於保守且繁瑣。第二部分則邀請 Braintrust 創辦人 Ankur Goyal 討論 AI 工程化的現狀。Ankur 強調，當前的開發核心不應再是模型本身，而是如何建立能召喚真實數據、進行自動化評測並整合進 CI（持續整合）系統的閉環，將 AI 從一個「寫代碼工具」提升為「自動化研發平台」。\n\n### 戰略背景與脈絡：大語言模型進入「高成本、高可靠性」與「垂直分級」的新階段\n\n隨著 2026 年模型競爭進入白熱化，Anthropic 推出的 Fable 5 代表了「專家級模型」的商業化新標準。這款模型的定價（每百萬輸入 10 美元/輸出 50 美元）顯著高於過往，這反映出產業正逐漸接受「分級運算」策略：日常任務交給輕量的 Sonnet，而涉及深層技術推演、長路徑自動化（Long-horizon work）或複雜視覺任務時，才調用高昂的 Mythos 級資源。與此同時，軟體工程界正經歷一場「代理線（Agent Line）」的保衛戰，企業不再爭論 AI 是否能寫程式，而是開始量化哪些決策位於「代理線以下」，可以交由 AI 獨立完成。Braintrust 的經驗顯示，基礎設施的升級（如數據庫遷移測試）正因為 AI Agent 具備極高的「實驗嚴謹性」而變得成本極低。\n\n### 作者的核心推演與論點：評測即產品文件，將「品味」轉譯為可量化的軟體基礎設施\n\nAnkur Goyal 提出了一個極具破壞性的觀點：在 AI 時代，評測（Evals）就是現代的 PRD（產品需求文件）。傳統研發專注於「如何實現（How）」，而 AI 時代則應定義「何為成功（Success Criteria）」。他推論出，AI Agent 的真正價值在於它能消除人類工程師的「倦怠性忽略」。人類會因為疲累而略過繁瑣的基準測試，但 Agent 能不知疲倦地測試數千種優化方案，產出「實踐品質（Practical Quality）」更高的產出。此外，Ankur 分享了如何量化設計師的「品味（Taste）」：透過將專家的美學反饋編碼進評分函數，原本模糊的視覺標準變成了可擴展的自動化指標。他強調，面對模型失敗時，頂尖團隊的策略是「關閉對話、優化評測」，而不是試圖透過更多指令（Prompting）來威逼利誘 AI。\n\n### 對整體市場、技術發展與地緣政治的長期影響：軟體開發將從「建設」轉向「雕刻」，加速架構迭代週期\n\n長期來看，Fable 5 與評測驅動的開發法將徹底改變產品的生產方式，將其從「逐步建構」轉變為「負向雕刻」。由於 AI 生成程式碼極其快速，開發的瓶頸將轉向如何「剪掉」多餘功能以降低複雜度。對於市場而言，這意味著技術債的清理與架構遷移將變得常態化，企業的技術靈活性將成為核心競爭力。此外，Fable 5 引入的「Fallback（降級回退）」機制與針對網路安全、生物、化學的特定防護措施，預示著未來高端 AI 模型的可用性將與安全治理高度掛鉤。模型不再只是算力的產物，而是內嵌了嚴格法規與安全邊界的數位資產，這將對技術地緣政治中的模型監管與出口控制產生深遠影響。",
       "insights": [
-        "「Proven, Better, New」框架推翻了「創新必須從頭開始」的迷思：最成功的產品通常是將 90% 的已知行為做到極致，僅保留 10% 的獨特差異化。",
-        "「95/75 法則」點出了創業者最常見的盲點：過度堅持具體的「產品點子」，卻忽略了背後正確的「市場直覺」，導致在錯誤的路徑上過度消耗資源。",
-        "「殺掉希望」是一種高階的戰略紀律：在消費級產品中，對失敗功能的「希望」是獲利的殺手，唯有冷酷地承認失敗並快速轉向，才能維持組織的生存動能。"
+        "AI 時代的開發正規劃從「定義路徑」轉向「定義成功」：評測指標（Evals）正取代 PRD 成為產品開發的唯一核心與真實來源。",
+        "實踐品質（Practical Quality）優於理論品質：AI Agent 的勝出點不在於天才般的靈光一閃，而在於它能不知疲倦地執行人類工程師因枯燥而略過的數千次基準測試與驗證。",
+        "面對 AI 失效的正確反應是「優化評測指標」而非「改寫指令（Prompting）」：若無法量化成功，再好的指令也無法讓系統持續進步，建立 CI 級別的反饋閉環才是真正的競爭壁壘。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -297,35 +462,41 @@
       "content_mode": "full_text_import"
     },
     "HackMD：停損王SLKing": {
-      "title": "選擇權基礎入門：合約結構、買賣權差異與 Greeks 導讀",
+      "title": "Chanos：SpaceX IPO 是「希望與夢想」，AI 資本支出正為自己的崩潰播種",
       "source": "HackMD：停損王SLKing",
-      "article_date": "2026-06-14",
-      "url": "https://hackmd.io/rJjvBBhZfg",
-      "analysis_zh": "原始影片：Options Strategies Virtual Workshop | Options Basics + Greeks | 6-8-26 (https://www.youtube.com/watch?v=It-MV1nVP88) | Trader Talks: Schwab Coaching Webcasts | 2026-06-11\n\n### 導言\n\n這場由 Schwab 旗下 Trader Talks 頻道於 2026 年 6 月 8 日主辦的「Options Strategies Virtual Workshop」是為期四個晚上的選擇權系列講座的第一夜。兩位主講人分別是 Schwab 的資深教練 Scott Durfey 與 Ray Kimbrell。Kimbrell 自 2004 年起在 Schwab 負責活動策劃與教學，涵蓋股票、技術分析到進階選擇權等課程，更早之前曾在美國海軍陸戰隊服役 10 年。Durfey 自 2006 年起從事教學工作，同時也為 Schwab Network 撰稿。這場工作坊定位為完全入門導向，目標受眾是對選擇權「經驗自評 1 到 10 分，低於 5 分」的初學者。\n\n本篇文章整理第一夜前半段的核心內容：選擇權合約的基本結構、Call 與 Put 的差異、Long 與 Short 對應的權利與義務，以及實際透過 thinkorswim 平台下單的示範。後半段由 Kimbrell 主講的 Greeks（Delta、Theta 等）與選擇權定價邏輯，將在後續文章接續整理。\n\n### 為什麼要交易選擇權\n\nDurfey 在開場就把選擇權的用途歸納成三類，貫穿整晚的教學：\n\n「一個是創造收益（generate income），另一個是對選擇權標的走勢進行投機（speculate），第三個是對持有的標的提供下檔保護（hedge）。」\n\n這三個目的決定了交易者後續會採取的策略方向：想賺權利金的人會站在賣方，想押方向的人會站在買方，已經持有現股想避險的人則會買入保護性 Put。Durfey 也提醒，大家通常把注意力放在「如何進場」，卻常忽略「如何出場」，而出場跟進場一樣重要，這是整晚會反覆強調的重點。\n\n### 選擇權是什麼：合約、標的與乘數\n\nDurfey 對選擇權的定義非常具體：\n\n「這些合約綁定一個標的（underlying instrument），它們是衍生品（derivative），價值來自別的東西，本身沒有有機的價值。」\n\n具體來說，當你買進一個選擇權合約，你買到的是「在到期日之前，以某個特定價格（執行價, strike price）買入或賣出特定數量標的股票的權利」。這裡有幾個關鍵參數必須牢記：\n\n1. 標的（Underlying）：選擇權的價值來源，可以是個股或 ETF。\n2. 執行價（Strike Price）：合約事先約定的價格，是觸發事件的價位。\n3. 到期日（Expiration Date）：與股票不同，每一張選擇權合約都有到期日，這是選擇權最根本的時間限制。\n4. 保費（Premium）：買方付出的價格。\n5. 合約乘數（Multiplier）：標準合約控制 100 股。\n\nDurfey 用一個具體的數字例子說明乘數的影響：\n\n「如果保費是 1.20 美元，那是每股的價格。一張合約是 1.20 乘以 100 等於 120 美元。這一點一定要搞清楚。」\n\n這個 100 股的乘數是後續計算損益、判斷避險需求（例如 500 股現股要買幾張 Put）的基礎。\n\n### Call 與 Put：方向對應的權利\n\n選擇權分為 Call 與 Put 兩種。Durfey 用了一個電話的比喻來幫助學員記憶：\n\n「如果你有一支電話，有人打來（call），你會接起來，把電話接上去。Call 就是在標的價格上漲時增值；Put 則是在價格下跌時增值。Call 往上，Put 往下，Call 漲，Put 跌。」\n\n更精確地說：\n\n- Call（買權）：買方擁有在到期日前以執行價買入標的的權利。當標的上漲時，Call 的價值增加，買方偏多（bullish）。\n- Put（賣權）：買方擁有在到期日前以執行價賣出標的的權利。當標的下跌時，Put 的價值增加，買方偏空（bearish）。\n\nDurfey 特別強調「Long 與 Short」這個用語的精確定義，避免初學者混淆方向：\n\n「Long 一個選擇權意思就是我買進了它，與我看多或看空無關，就是買進。如果我 Long Call，我就是買方，有權以執行價買入標的。如果我 Long Put，我就是買進賣出的權利，看空。Short 則代表我是賣方，承擔義務。」\n\n換言之，Long Call 的偏見是看漲，Long Put 的偏見是看跌，Short Call 的偏見是看跌，Short Put 的偏見是看漲。買方擁有「權利」（right），賣方承擔「義務」（obligation），這組對應關係是後續所有選擇權策略的基石。\n\n### 內含價值與時間價值：看懂選擇權鏈的顏色\n\n在進入實際下單示範之前，Durfey 與 Kimbrell 先解釋了選擇權鏈上常見的兩種顏色標記。Kimbrell 說明：\n\n「Call 側的紫色區塊是價內（in the money），有內含價值（intrinsic value）。黑色區塊是價外（out of the money），沒有內含價值，只有時間價值。」\n\n以 Harley-Davidson 為例，當時股價 24.91 美元：\n\n- 價內 Call（Intrinsic Value）：股價 24.91 減去執行價。例如 20 美元的 Call，內含價值就是 4.91 美元。\n- 價外 Call：執行價高於股價的部分（例如 25、26 美元），沒有內含價值，僅有時間價值（time value）與波動率等其他因素構成的價值。\n\nKimbrell 強調，作為選擇權買方，理想狀況是到期時合約處於價內、有內含價值，但這不表示必須持有到到期：\n\n「很多人忘記一件事，雖然你買的是 74 天後到期的選擇權，不代表你一定要持有 74 天。標的照你預期的方向走，你就可以提前出場獲利了結。」\n\n### 到期日的選擇：沒有標準答案\n\n對於「應該買多遠到期日的選擇權」，兩位講者坦承沒有唯一答案。Durfey 先給了一個經驗法則：\n\n「有些交易者會看 30 到 70 天之間。」\n\nKimbrell 則給出更寬的範圍：\n\n「20 天、50 天、150 天都有，重點是給合約足夠的時間去實現你預期的方向。」\n\n兩人示範時各自選了不同的到期日：American Airlines 的 Call 選了 39 天後到期（7 月 17 日），Harley-Davidson 的 Call 則選了 74 天後到期（8 月 21 日）。Durfey 點出這個差異的意義：\n\n「你會發現對『應該買多遠』這個問題，沒有一致的絕對答案。重點是給自己足夠的時間讓選擇權有發揮空間。」\n\n### 實際下單示範一：American Airlines Call\n\nKimbrell 首先從技術分析角度切入 American Airlines（AAL）：\n\n「從圖表可以看到，這檔股票目前處於中期上升趨勢，從支撐位反彈。如果你在四月底上過我們的技術分析課，你會說這看起來像是多頭反彈（bullish bounce），也可能是一根 kahold（收盤突破低點當日高點的型態）。」\n\nDurfey 接著在 thinkorswim 平台上把 AAL 的圖表與交易頁面連結起來，這樣切換時標的不會跑掉。\n\n關於執行價的選擇，Durfey 解釋了價平（at the money）的概念：\n\n「價平是數學上最接近目前股價的執行價。許多交易者買進選擇權時會看價平或價內一到二檔。」\n\n他最終選了 13 美元的 Call，限價 1.36 美元，買進 1 張。Durfey 也提醒了實際操作上的風險：\n\n「我今天就犯了這個錯，沒有看清楚委託單，結果成交了 5 張而不是 1 張。所以下單前一定要把委託單唸出來確認。」\n\n### 實際下單示範二：Harley-Davidson Call\n\n第二個示範標的是 Harley-Davidson（HOG），Durfey 先說明技術面上的理由：\n\n「它一直在沿著這個趨勢走，從支撐位反彈。圖表右側又出現了一個 kahold 型態。所以從技術分析角度，可能繼續走高，這時 Call 可能是合理的選擇。」\n\n這次他選了較長的到期日：8 月 21 日，距今 74 天。執行價 24 美元，限價 2.80 美元，買進 5 張，總成本 1,400 美元。\n\nDurfey 特別強調了這個交易的最大獲利與最大虧損：\n\n「這張合約的最大獲利理論上是無限的，這對交易者來說很吸引人，但不要被這個數字沖昏頭，那是所有 Call 都有的特性。最大虧損則是 1,400 美元，也就是你付出的全部保費。這是有限的下檔風險。」\n\n這個對照是選擇權相對於直接買進股票的核心差異之一：買方最多賠掉保費，但理論上可以享受無限上檔。\n\n### 實際下單示範三：Nvidia Put 作為避險工具\n\nDurfey 用他示範帳戶中持有的 500 股 Nvidia 為例，示範如何用 Put 進行避險。\n\n他的提問是：如果你持有 Nvidia 但不想賣出，同時又預期短期內可能下跌，這時候 Put 就可以派上用場。\n\n「如果我預期 Nvidia 會跌但不想賣股票，我能透過持有 Put 從下檔中獲利嗎？Put 在股價下跌時增值，我可能可以抵銷一些持股的損失。這就是避險（hedge）。」\n\n在 thinkorswim 上，他選擇 8 月 21 日到期的 210 美元 Put，該執行價有 1.89 美元的內含價值，限價 15.55 美元，買進 5 張（對應 500 股）。每張合約成本 1,555 美元，五張合計 7,775 美元。\n\nDurfey 解釋為什麼有人願意花這個錢：\n\n「很多人不想賣掉自己持有很久的股票，避險讓你保留持股的同時對下檔提供保護。當然，這個保護是有成本的，就是你付出的保費。」\n\n這個示範完整呈現了選擇權三大用途中的「避險」場景：持有現股、買進 Put、用保費換取下檔保護。\n\n### 結語前的過渡\n\n以上是 Scott Durfey 主講的選擇權基礎概念與下單示範，從合約結構、Call/Put 差異、Long/Short 對應的權利義務，到內含價值/時間價值、到期日選擇，以及三個實際交易案例。接下來課程進入 Ray Kimbrell 主講的 Greeks（Delta、Theta、Vega、Gamma 等）以及選擇權定價模型，這部分將在後續文章中整理。\n\n### Long Call 與 Long Put 的基本運作\n\nRay Kimbrell 在進入 Greeks 之前，先帶大家複習 long call 和 long put 的基本機制。他說：\n\n「你不需要持有股票就能買 call 或買 put。你只是在交易一個合約。這就是它的本質，一個合約。你買進一個合約，賦予你買進股票的權利，如果你想買的話。但你不必真的買進股票。如果合約價值上升，你可以把合約賣回市場，賺取中間的價差，這就是你獲利的方式。」\n\n「反過來說，買 put 的時候，假設你付了某個價格買進。股價下跌，put 的價值就會上升，這就是 put 的運作方式。舉例來說，如果你用 50 美元的履約價買進一個 put，股價跌到 40 美元，那個 put 大約增加 10 美元，扣掉時間價值遞減等等因素，但可以說它增加了 10 美元。這時候你就可以賣出那個 put，實現獲利。」\n\n他特別強調，買方不一定要持有合約到期，只要在到期前或到期當合約有價值時賣出，就能鎖定利潤。\n\n### Delta 的兩個意義：敏感度與機率\n\nRay 指出，Delta 其實有兩層含義。第一層是 Delta 衡量選擇權對標的股價變動 1 美元的敏感度：\n\n「Delta 衡量的是選擇權對標的價格變動 1 美元的敏感度。當股價交易在 120 美元時，接近這個價格的 at-the-money 履約價，Delta 通常就在 50 左右，大約 55 到 49，可能稍微低一點，但就在中間位置。」\n\n他用具體數字說明：「假設 Delta 是 55，權利金是 4.15 美元，股價從 65 美元漲到 66 美元，現在我的權利金變成 4.70 美元。怎麼算出來的呢？4.15 加上 Delta，股價漲了 1 美元，現在是 4.70。所以你的選擇權增值了，權利金上升了。」\n\n第二層含義，Delta 可以用來估算選擇權到期時處於價內的機率：\n\n「Delta 也可以作為估算成功機率的好代理指標，也就是你的選擇權到期時是否處於價內的機率。假設 Delta 是 40，代表你大約有 40% 的機率到期時該選擇權有價值或處於價內。如果是 1 美分的 Delta，那大約只有 1% 的機率到期時有價值。如果是 0.89 的 Delta，則有 89% 的機率到期時有價值。」\n\n### Delta 作為價內機率的實務應用\n\nRay 帶大家在 thinkorswim 平台上打開 Nike 的選擇權鏈，用實際數據展示 Delta 與機率的對應關係。他以看多 Nike 為例：\n\n「假設你想買進 Nike，覺得它會上漲。你想買 40 美元的履約價，目前股價是 43.23 美元，距離到期還有 39 天。它有 69% 的機率到期時處於價內，或在到期前達到價內。」\n\n「但如果你不想花那麼多錢，不想付 3.45 美元的高額權利金。記得 Scott 教過的，一口合約是 100 股，所以那是 345 美元。假設你只想付 18 美分，那你到期時可能獲利的機率是多少？5%。所以這就是一個平衡的取捨。」\n\n他還提到一句交易員之間流傳的話：「如果你總是交易價外選擇權，你很快就會 out of money（沒錢了）。」Ray 解釋這不是說不能交易價外選擇權，而是機率可能沒那麼好。\n\n關於 put 的 Delta，他特別說明：「你在 put 的 Delta 上會看到負號。這沒關係，那個負號只是一個標記。如果你到監控頁面看到 Delta 是負的，那只代表它是 put，就是這樣。」\n\n### Gamma：Delta 的生成器，越接近到期影響越大\n\nRay 用一句話記住 Gamma 的本質：「Gamma 是 Delta 的生成器。Gamma 衡量的是標的每變動 1 美元時，Delta 可能改變多少。所以 Gamma 基本上就是 Delta 的 Delta。」\n\n他指出 Gamma 的特性：在 at-the-money 時最高，離 at-the-money 越遠（無論是更價內或更價外）則越低，但越接近到期日，Gamma 值會急速放大。\n\n「有些人可能聽過零 DTE 選擇權，也就是 zero days to expiration。當你在零 DTE 的時候，Gamma 是那個會要你命的東西，因為它會生成大量的 Delta，或者從你身上拿走大量 Delta。Gamma 你必須站在交易的正確一邊。如果你買了一個 call，快到到期了，標的開始往反方向走，Gamma 會讓你的權利金損失得比你預期的快得多。反過來說，如果方向對了，它也會讓你的權利金快速增加。」\n\n他用同一檔 Nike 對比不同到期日的 Gamma 數值：39 天到期時 at-the-money 的 Gamma 大約是 5；切到更接近到期的合約，Gamma 跳升到 10，再到 10 天到期會更高。越接近到期，Gamma 越高，影響越大。Ray 引用同事 Ben Watson 的說法：「Gamma 會逮到你，不管哪個方向。」\n\n他也回答了觀眾的疑問：為什麼不把選擇權抱到到期就好？「其中一個原因就是 Gamma。因為當你接近到期的時候，只要價格稍微往反方向跑，就會嚴重傷害你的權利金，你可能不想讓自己處於那種狀況。」\n\n### Theta：時間價值的耗損，買方的天敵、賣方的朋友\n\nRay 說，在市場上很少有什麼事情是確定的，但 Theta 是其中之一：\n\n「Theta 你永遠可以信賴它會從你的權利金中拿走價值，這不是很棒的消息嗎？之所以說很棒，是因為你知道它一定會發生。每天你的選擇權都會損失價值。也就是說，作為選擇權的賣方，Theta 是你的朋友；作為選擇權的買方，Theta 是你的敵人，因為它正在拿走你 long option 的價值，但對 short option 卻有幫助。」\n\n他解釋賣方的邏輯：「如果你賣了一個選擇權，收到 2 美元的權利金，Theta 每天都在拿走價值。如果股價從頭到尾都沒變，到期時選擇權變成廢紙，你很開心，因為你一開始就已經把那筆權利金收進來了。這就是為什麼很多人喜歡做選擇權賣方，或者後來會轉向這個方向。」\n\n### Theta 的冰塊融化比喻：買遠賣近的時間框架選擇\n\nRay 用一張圖解釋 Theta 在不同時間點的衰減速度，把到期日畫成底下的火，上面放一塊大冰塊：\n\n「底下的火代表到期日，我們在這裡。當你是上方一塊大冰塊，隨著時間往下走、接近到期日，冰塊會越來越小，因為它融化得越來越快。但當它還在遠方時，融化的速度沒那麼快。這就是時間價值遞減的運作方式，離到期越遠，消耗越慢。」\n\n因此他給出買賣雙方的時間框架建議：\n\n「作為買方，你可能適合在比較遠的、比較平緩的時間區段，大概 50 到 150 天後到期。作為賣方，你通常適合在靠近到期的這一段，也許 10 到 50 天。因為越接近到期，時間價值遞減的速度越快。」\n\n他用實際數據驗證：Nike 10 天到期的 Theta 是 4 美分。再切到 Las Vegas Sands，39 天到期是 3 美分，往近端走變成 4 美分、6 美分，4 天到期則跳到 11 到 12 美分。越接近到期，每天耗損的時間價值越多。\n\n### Vega：波動率對選擇權價格的影響\n\nRay 說：「Vega 不是 Scott 大學時開的那輛古怪小車。」接著進入正題：\n\n「Vega 衡量的是選擇權對標的資產波動率變化的敏感度。也就是說，股價的變動程度。有一個東西會讓價格劇烈波動，就是新聞公佈，特別是財報。你每次看到財報公佈前後，波動率都會瘋狂飆升。」\n\n關於買賣時機的判斷，他說：\n\n「如果波動率很高，而且還在上升，這時候買好嗎？還是波動率低的時候買比較好？給你一個提示，通常波動率低的時候買比較好。因為波動率低時你的選擇權價格比較便宜，然後當波動率上升，你的權利金就會增加。如果你是賣方，你會希望在波動率高時 sell to open，然後等它下降，因為你希望選擇權價格變便宜。」\n\n他也提到 Vega 與時間的關係：「一般來說，離到期越遠，Vega 越高；越接近到期，Vega 越低。」\n\n### 隱含波動率與 IV Percentile 的判讀方式\n\nRay 教大家怎麼判斷目前的波動率是偏高還是偏低。他先打開 Nike 的隱含波動率：\n\n「隱含波動率大約 38%。但這代表什麼？是高還是低？到你的圖表頁籤，選 Studies，搜尋 IMP，也就是 implied volatility，雙擊加入圖表。你可以看到大約 38%，大約在它整體波動率範圍的中間位置。」\n\n他接著打開選擇權統計區塊，介紹 IV Percentile 的用法：\n\n「目前的 IV Percentile 是 43 百分位。想像你的小孩拿成績單回來說他在 43 百分位，你會開心嗎？不會吧，他落在比較低的區段。這就是判斷的方法。」\n\n他再用 AMAT（應用材料）做對比：「AMAT 的隱含波動率是 67%，但 IV Percentile 是 96%，幾乎在最高點。你覺得它還有很大的上漲空間還是下跌空間？通常會下跌，因為它已經在頂端了。」\n\n### 四大 Greeks 的綜合決策框架\n\nRay 在結尾把四個 Greeks 串起來，給出買方和賣方各自的決策清單：\n\n「買進選擇權的時候，要考慮：股票預期會走多遠？我有多少時間讓它走完？波動率是否對我有利？是從低點往上升嗎？我有計畫嗎？我的進場和出場點在哪裡？」\n\n「賣方也是一樣的問題：股票預期會走多遠？我認為需要多久才會到那裡？波動率在哪個位置？我的計畫是什麼？」\n\n他提醒觀眾，Trader Talks 頁面上有大量關於 Greeks 的進階教學影片，包括 Ben Watson 和其他講師的內容，建議大家回去複習。Scott Durfey 在最後也補充：\n\n「這些工具，不只 Gamma，所有這些工具都是。其實有人問，那其他的 Greeks 呢？還有一個 Rho，跟利率有關，是 Black-Scholes 模型的一部分。但這四個就是主要影響選擇權定價的 Greeks。」\n\n「Greeks 可以是交易選擇權時極有幫助的工具，特別是新手，建議回去複習教材和錄影，把剛才講的內容再消化一次。」\n\nRay 做最後總結時再次強調：「Greeks 的目的就是讓你不再只是憑感覺猜，而是在選履約價、選到期日、判斷波動率時有具體的依據。」\n\n本文根據 YouTube 影片內容整理，僅供參考。",
+      "article_date": "2026-06-16",
+      "url": "https://hackmd.io/H1CD_h6-Gx",
+      "analysis_zh": "原始影片：\"This Is Bigger Than the Dot-Com Bubble\": Jim Chanos's Brutal Warning Before the SpaceX IPO (https://youtu.be/MYm33zOpT0g?si=RkpladQCcykDdODK) | iConnections | 2026-06-11\n\n### 導言\n\nJim Chanos 是華爾街最資深、最受敬重的純放空（short-only）基金經理人之一。他在 1985 年創立放空基金 Kynikos Associates，後來以在 Enron 於 2001 年崩盤前精準看空而聞名，目前經營 Chanos & Company。2026 年 6 月，他在 iConnections 主辦的 Global Alts 論壇上接受 Bloomberg 記者 Natalia Kniazhevich 專訪，正值 SpaceX 即將以接近 2 兆美元估值掛牌之際。Chanos 對這樁史上最大規模 IPO 的評價是：這是一檔「希望與夢想型 IPO（hopes and dreams IPO）」，定價大約是營收的 90 倍。他更進一步指出，當前的 AI 基礎設施狂熱與 1999 年網路泡沫高度相似，而龐大的資本支出（CapEx）正在為自己的終結播種。\n\n### SpaceX IPO 本質是「希望與夢想型」定價\n\nChanos 在訪談一開頭就定調：SpaceX 將以 750 億美元募資金額、接近 2 兆美元估值掛牌，但 2026 年營收僅 190 億美元，自由現金流為負。他說：\n\n「我們要做的是一筆 750 億美元的 IPO，估值接近 2 兆美元，但這家公司營收只有 190 億美元，自由現金流為負。這真的是一檔希望與夢想型 IPO。」\n\nBloomberg 報導這樁交易獲得 4 倍超額認購，Chanos 認為這正是市場亢奮的訊號。他判斷這家公司「按任何合理的五年假設，都不值 1.75 兆美元」，目前的估值建立在太空與 AI 兩大想像空間之上。\n\n被問到是否會放空 SpaceX，Chanos 表示要等掛牌後再決定，但 Tesla 已提供了 CEO 溢價的定價範本：\n\n「Tesla 目前大約是以營收的 14 倍交易，這是基於機器人與全自駕軟體等承諾。如果當作車廠看，股價應該是 30 或 40 美元，而不是 400 美元。SpaceX 卻以大約 90 倍營收定價，跟 10 到 15 倍營收完全是兩回事。」\n\n### 「太空的 TAM 是無限的」：火星殖民敘事的估值風險\n\nChanos 批評太空題材的估值邏輯：\n\n「太空的可觸及市場（TAM）是無限的，對吧？所以你可以編織任何故事。火星殖民地、月球工廠、太空資料中心，來合理化估值。但牛市給承諾加上溢價，熊市給現實打折扣。現在顯然是前者，不是後者。」\n\n至於合理估值應該是多少，他認為單看 Starlink 行動業務（最近一季成長已放緩），可以撐起「幾千億美元」，但剩下的 1.5 兆美元溢價，難以用現有業務模型解釋。\n\n### 太空資料中心：物理上或許可能，商業上不可行\n\n對於 Elon Musk 提出的太空資料中心願景，Chanos 從基礎商業邏輯提出質疑：\n\n「太空資料中心聽起來很棒，物理上或許理論可行，但問題是你得大幅降低發射成本。首先得解決輻射散熱，這意味著散熱器要做得像太空站一樣巨大，遠超過太空船本體。更重要的是需要冗餘，因為資料中心本來就是高度資本密集、設備經常損壞的生意，空調、連接什麼的都會壞。如果這種事發生在太空資料中心的關鍵節點，你需要另一艘太空船來備援，因為你不能像在地球上一樣，派個技師帶著零件上去修。」\n\n「而且發射成本還遠遠不夠低到讓這些東西有經濟效益。說到底，這一切所依賴的 Starship 火箭，飛了 12 次都還沒進入軌道。所以這些敘事很多都是多年以後的事，希望一切順利。但問題是你現在就在為這些敘事買單了。」\n\n### CoreWeave 與 neocloud：披著科技外衣的設備租賃公司\n\nChanos 對資料中心板塊的看空立場可以追溯到 2022 年。他指出，傳統資料中心是「很糟糕的生意」，長期從業者的稅前資本回報率只有中低個位數字，而新建的資料中心業者中，許多是前比特幣礦工。至於 CoreWeave 這類 neocloud，狀況更差：\n\n「對 CoreWeave 這類 neocloud 來說，情況更糟，因為說穿了就是設備租賃公司。他們向 Nvidia 買晶片，然後轉租給 hyperscaler 或 Anthropic、OpenAI 這類純 AI 軟體公司。他們的賭注押在折舊與能否從供應商拿到晶片上。」\n\n他提出一個放空邏輯的核心原則：\n\n「任何在這條供應鏈中只是中間商的，例如資料中心商或設備租賃公司，估值永遠不應該高於控制其供應來源的晶片公司，例如台積電（TSMC）、Nvidia、AMD 等。他們完全是價格接受者，是中間人。」\n\n### 2026 年 6 月的市場輪動：AI 下跌、防禦股上漲\n\nChanos 管理一個由 40 檔放空標的組成的模型投資組合，並用不同指數做避險。他觀察到 6 月的市場走勢是 4 到 5 月的鏡像翻版：\n\n「6 月以來發生的事，某種程度上是 4 到 5 月的倒帶。4 到 5 月傷到我們放空部位的 AI 概念股、資料中心、新雲，6 月反而下跌，對放空開始有貢獻。而我們放空的防禦性類股，例如消費與醫療保健，反而在這次下跌中上漲。對我這個觀察市場 40 多年的人來說，這看起來就是一個輪動，資金從前幾個月的熱門板塊流出，流入被忽略的板塊。」\n\n### 華爾街的印刷機重啟，2026 年發行量將打破歷史紀錄\n\n對於市場後市，Chanos 不願預測方向，但他對一個結構性訊號提出警告：\n\n「2026 年與過去幾年最大的不同是，自 2021 年以來，我們首次見到大量股票發行。華爾街也有印刷機，不只是聯準會，只是有時需要幾年才能運轉起來。現在這台印刷機正在大量印股票。在現在的價格水準下，買盤遇到了賣盤，新供給湧入，這通常不是好訊號。」\n\n他認為這波發行潮的規模將超越歷史：\n\n「上一波這種光景是 2021 年 GameStop 事件後。2021 年 2 月有一段時間，我們每晚在做 30 億美元的 SPAC，相當於全美儲蓄率。那是個警訊，大多數股票在 2021 年上半年見頂，然後跌到 2022 年。現在我們看到的發行潮，SpaceX、一些其他 IPO，加上 Google 等公司幾乎每晚宣佈的增資，我認為我們會打破所有股票發行紀錄，超過 1999 年、超過 2000 年，當然也超過 2021 年。」\n\n### 與網路泡沫的異同：CapEx 推升獲利，並種下崩盤種子\n\nChanos 認為這次泡沫比 1999 年更大。他指出，1998 到 2000 年間，企業 IT 與電信建設熱潮推升了標普 500 獲利；當前 AI 與資料中心建設的效果如出一轍：\n\n「1998 年中到 2000 年中，標普 500 獲利成長 30%，大約年增 15%。然後 2000 年中到 2001 年中，遭遇一場輕度衰退，標普 500 獲利暴跌 40%，訂單被取消，人們發現不需要 1 萬台路由器，只需要 2,000 台。」\n\n他解釋 CapEx 為何會在短期內刺激利潤：\n\n「如果你向我買設備，在 1999 年是 PC、路由器、網路設備，今天是晶片與資料中心，那對我的財報來說是營收與利潤，對你的財報來說是資本支出，按 5 年或 10 年分攤折舊。所以 CapEx 熱潮對企業獲利、尤其是標普 500 獲利，刺激效果驚人，因為對 Nvidia 等供應商和建商來說直接落到利潤線，但對買方來說是逐年攤提。同一塊美元，創造了一次性的供應商利潤，卻被買方分多年承擔。」\n\n他進一步指出，這個機制正在為自己的終結播種：\n\n「科技業的表現當然比大盤更好，但它在某個時間點上種下了自我毀滅的種子，因為你得維持越來越高的資本支出，而那會愈來愈困難。」\n\n### 「網路流量每三個月翻倍」：當年的謊言與今天的「無限算力需求」\n\nChanos 講了一個網路泡沫時期的故事：MCI WorldCom 曾宣揚「網路流量每三個月翻倍」的說法，成為企業 IT 部門擴充容量的聖經。但後來貝爾實驗室一位數學家的研究顯示，實際上是大約一年翻倍。\n\n「那是 100% 的成長，仍然很可觀，但一年是 2 倍和 16 倍的差別。2000 年初大家意識到這件事，訂單就全面取消。」\n\n他認為當前有類似的信仰：\n\n「現在有個類似的信念，就是對算力的無限需求，無論產出多少晶片，都會有需求把它們用於 LLM 訓練或推論。這件事會不會成真，我們等著看。技術突破可能會改變經濟模型，我們不知道。但現在市場正在把這些五到十年的預期資本化。」\n\n### 替代能源與核能股：被 AI 電力敘事推上天的估值\n\nChanos 指出，替代能源與小型模組化反應器（SMR）類股已經被 AI 電力需求的故事炒到荒謬的估值：\n\n「你會看到一堆公司，原本業務平淡甚至糟糕，現在以 50、60、70 倍本益比、30、40 倍 EBITDA 交易，因為人們相信我們要把地熱接到資料中心，或是需要比預期更多的高價太陽能。所以所有替代能源股，加上整個小型核能股族群，市場把它們當成解答。」\n\n他對此的判斷是：\n\n「我個人的看法是，在美國我們其實不缺電力。我知道這似乎與主流相反，但我們有充足的天然氣和其他能源。缺的反而是渦輪機、許可程序，以及把天然氣變成電力的瓶頸，而這些會在 2 到 3 年內解決。如果資料中心和 AI 真的像大家說的那麼大，電力不會是瓶頸，而這些以瘋狂估值交易的所謂第三或第四順位的替代電力供應商，終究會回來。」\n\n他還順帶拆解了太空資料中心解決電力問題的說法：\n\n「電力成本約佔資料中心營收的 5% 到 7%，就算以現在的利率水準計算也很低。這算不上什麼能改變局面的關鍵。所以我們為什麼需要太空資料中心？不知道，這是個賣股票的好題材。」\n\n### 放空者的職業困境：負向強化與 AI 工具的限制\n\nChanos 談到放空這一行的人才挑戰：\n\n「做多股票時，你處在一個非常舒適的溫室裡，大家都在告訴你你是對的，股票很便宜。賣方分析師把 CEO 推上 CNBC，釋放併購傳聞。但做為放空者，你不斷處在負向強化的環境裡，每個人都在告訴你錯了。不是每個人在這種環境下都能在產出和情緒上表現良好。」\n\n他提到 Chanos & Company 正在協助客戶建立訓練計畫，「培養分析師的暗黑技藝」。至於 AI 工具，他認為有用但有限制：\n\n「AI 是一個工具，仍然需要被檢查。它的好處是能快速、有格式地編譯數據。但在放空這一端，最終還是需要對輸出做判斷：商業模式是否可持續？是否有舞弊可能？有哪些外部競爭威脅是 AI 沒抓到的？因為 AI 畢竟是演算法，它會去抓取它認為『對這些事實的正確看法』，從全球資訊裡篩選。它很擅長以更快、更有格式的方式蒐集事實，但在對事實發表意見時，它在我們這邊還是會大量產生幻覺。」\n\n### Andrew Left 案對主動放空者的衝擊\n\n在被問到對 Citron Research 創辦人 Andrew Left 被起訴一案的看法時，Chanos 表示：\n\n「我們的看法是，政府採取了一個新穎的立場：如果你持有放空部位一段合理的時間，而不是公開報告後當天就回補，這是可以接受的。但這個案子的其他事實，例如未揭露的第三方等，對辯方不利。」\n\n他提出一個值得上訴法院思考的法律問題：\n\n「如果我發布報告時股價 100 美元，我基於事實和我的判斷說這檔股票值 50 美元。如果那天股價交易在 45 美元，我去回補放空部位會不會有問題？這就是這個案子裡的法律概念。政府可能會說這是操縱，因為你立即行動了。但如果你只是公開表達對一檔股票的觀點，難道就應該在很短時間內被限制交易？這可能會被上訴法院用不同眼光看待。」\n\n本文根據 YouTube 影片內容整理，僅供參考。",
       "insights": [],
       "content_mode": "full_text_import",
-      "source_id": "rJjvBBhZfg"
+      "source_id": "H1CD_h6-Gx"
     }
   },
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
-      "source": "SemiAnalysis",
-      "title": "中芯國際 N+3 製程深度拆解：麒麟 9030 展現的技術突破與極限 / Is SMIC N+3’s Metal Pitch Smaller than Intel 18A’s?",
-      "article_date": "2026-06-14",
-      "url": "https://newsletter.semianalysis.com/p/steel-smic-n3-teardown"
+      "source": "Big Technology",
+      "title": "Elon Musk Sold Investors The Future. Now SpaceX Has To Build It. / 伊隆·馬斯克向投資者售賣了未來，現在 SpaceX 必須將其實現",
+      "article_date": "2026-06-15",
+      "url": "https://www.bigtechnology.com/p/elon-musk-sold-investors-the-future"
+    },
+    {
+      "source": "a16z",
+      "title": "SpaceX & the Sentient Sun / SpaceX 與感知的太陽：重塑人類文明的跨星際戰略",
+      "article_date": "2026-06-15",
+      "url": "https://www.a16z.news/p/spacex-and-the-sentient-sun"
     },
     {
       "source": "Lenny's Newsletter",
-      "title": "The hidden pattern behind successful products | Mark Pincus (Founder of Zynga) / 成功產品背後的隱藏規律：Zynga 創辦人 Mark Pincus 的產品哲學",
-      "article_date": "2026-06-14",
-      "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful"
+      "title": "🎙️ Claude Fable 5 深度實測與 Braintrust 的 AI 工程學：從「指令工程」轉向「評測驅動」的典範轉移 / 🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software",
+      "article_date": "2026-06-15",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and"
     },
     {
       "source": "HackMD：停損王SLKing",
-      "title": "選擇權基礎入門：合約結構、買賣權差異與 Greeks 導讀",
-      "article_date": "2026-06-14",
-      "url": "https://hackmd.io/rJjvBBhZfg"
+      "title": "Chanos：SpaceX IPO 是「希望與夢想」，AI 資本支出正為自己的崩潰播種",
+      "article_date": "2026-06-16",
+      "url": "https://hackmd.io/H1CD_h6-Gx"
     }
   ]
 }
