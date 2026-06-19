@@ -41,6 +41,14 @@ function subtitleText(item) {
   return item.summary_zh || item.summary_en || item.en || "";
 }
 
+function imageText(item) {
+  return item.image_url || item.thumbnail_url || item.thumbnail || item.image || "";
+}
+
+function imageCreditText(item) {
+  return item.image_credit || "";
+}
+
 function dateText(value) {
   return escapeHtml(String(value || "").replace("T", " ").trim());
 }
@@ -107,13 +115,19 @@ function sectionHeading({ id, icon, title, date, edit = false, count = "" }) {
 function featuredCard(item, slotId) {
   const url = item.url || "#";
   const source = item.source || item.media_source || (slotId === "feat-wsj" ? "Wall Street Journal" : "Source");
+  const title = titleText(item);
   const subtitle = subtitleText(item);
+  const image = imageText(item);
+  const imageCredit = imageCreditText(item);
   const imageSlot = HEADLINE_IMAGE_SLOTS[slotId] || slotId;
+  const imageFallback = "this.closest('.featured-media').classList.add('image-failed');this.remove();";
   return `
     <article class="featured-card">
-      <div class="featured-media">
+      <div class="featured-media${image ? " has-image" : ""}">
         <span class="feature-badge">頭條</span>
-        <!-- HEADLINE_IMAGE_SLOT ${imageSlot}: future automation should replace this placeholder with the fetched lead image. -->
+        <!-- HEADLINE_IMAGE_SLOT ${imageSlot}: populated from item.image_url when available. -->
+        ${image ? `<img class="featured-image" src="${escapeHtml(image)}" alt="${escapeHtml(item.image_alt || title)}" loading="lazy" referrerpolicy="no-referrer" onerror="${imageFallback}">` : ""}
+        ${imageCredit ? `<div class="image-credit">${escapeHtml(imageCredit)}</div>` : ""}
         <div class="placeholder-mark" data-slot="${slotId}" data-image-slot="${imageSlot}" data-image-role="homepage-lead-image">
           <div><i class="far fa-image" aria-hidden="true"></i><span>拖入頭條配圖</span><br><small>or browse files</small></div>
         </div>
@@ -121,7 +135,7 @@ function featuredCard(item, slotId) {
       <div class="featured-copy">
         <div class="source-label">${escapeHtml(source)}</div>
         <a href="${escapeHtml(url)}"${externalAttrs(url)} style="text-decoration:none;">
-          <h3 class="featured-title">${escapeHtml(titleText(item))}</h3>
+          <h3 class="featured-title">${escapeHtml(title)}</h3>
         </a>
         ${subtitle ? `<div class="featured-subtitle">${escapeHtml(subtitle)}</div>` : ""}
         <a class="pill pill-news" href="${escapeHtml(url)}"${externalAttrs(url)}>閱讀全文 &rarr;</a>

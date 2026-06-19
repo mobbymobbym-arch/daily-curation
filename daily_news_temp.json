@@ -10,7 +10,11 @@
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
       "title_zh": "Noam Shazeer 離開 Google 加入 OpenAI 擔任架構研究負責人；他曾在 2024 年 Character.AI 的 27 億美元交易中重返 Google 擔任 Gemini 共同負責人",
-      "summary_zh": "OpenAI 週三向員工表示，推動生成式 AI 熱潮的關鍵研究員、前 Google DeepMind 成員 Noam Shazeer 正式加入該公司。"
+      "summary_zh": "OpenAI 週三向員工表示，推動生成式 AI 熱潮的關鍵研究員、前 Google DeepMind 成員 Noam Shazeer 正式加入該公司。",
+      "image_url": "https://www.techmeme.com/260617/i52.jpg",
+      "image_source": "techmeme_story_block_recovered",
+      "image_credit": "Techmeme",
+      "image_alt": "Noam Shazeer leaves Google to join OpenAI as lead for architecture research; he rejoined Google as a Gemini co-lead in 2024 during the $2.7B Character.AI deal"
     },
     {
       "title_en": "Former Trump AI adviser Dean Ball is joining OpenAI to lead a new team called Strategic Futures, focused on frontier AI policy and internal governance",
@@ -327,7 +331,11 @@
       "url": "https://www.wsj.com/tech/why-apples-war-chest-cant-win-the-memory-war-cb997d02?mod=rss_Technology",
       "summary_en": "The iPhone maker’s clout as a buyer has taken a major hit from the AI boom....",
       "title_zh": "為何 Apple 的龐大資金池也無法贏得這場記憶體戰爭",
-      "summary_zh": "這家 iPhone 製造商作為買家的影響力在 AI 浪潮的衝擊下受到了重大打擊。"
+      "summary_zh": "這家 iPhone 製造商作為買家的影響力在 AI 浪潮的衝擊下受到了重大打擊。",
+      "image_url": "https://images.wsj.net/im-57868128",
+      "image_source": "rss_media_content",
+      "image_credit": "Bebeto Matthews/Associated Press",
+      "image_alt": "Why Apple’s War Chest Can’t Win the Memory War"
     },
     {
       "title_en": "States Are Betting That AI Can Solve the Prison Recidivism Crisis",
