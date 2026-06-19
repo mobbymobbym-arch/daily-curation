@@ -598,32 +598,12 @@ button { font: inherit; }
 }
 .featured-media.has-image.image-failed::after,
 .featured-media.has-image.image-contain::after,
-.featured-media.has-image.image-too-small::after,
-.featured-media.has-image.image-thumbnail::after {
+.featured-media.has-image.image-too-small::after {
   display: none;
 }
 .featured-media.has-image.image-too-small {
   background: var(--chip);
   border-right: 1px dashed rgba(22, 32, 26, .18);
-}
-.featured-media.image-thumbnail {
-  display: grid;
-  place-items: center;
-  background: #10251d;
-  border-right: 0;
-  isolation: isolate;
-}
-.featured-media.image-thumbnail::before {
-  content: "";
-  position: absolute;
-  inset: -18px;
-  z-index: 0;
-  background-image: var(--thumb-image);
-  background-size: cover;
-  background-position: center;
-  filter: blur(14px);
-  opacity: .44;
-  transform: scale(1.08);
 }
 .featured-image {
   position: absolute;
@@ -640,18 +620,6 @@ button { font: inherit; }
 .featured-media.image-cover .featured-image {
   object-fit: cover;
   object-position: center top;
-}
-.featured-media.image-thumbnail .featured-image {
-  position: relative;
-  inset: auto;
-  z-index: 1;
-  width: min(58%, 250px);
-  height: auto;
-  max-height: 68%;
-  object-fit: contain;
-  border-radius: 8px;
-  border: 1px solid rgba(246, 248, 237, .22);
-  box-shadow: 0 18px 42px rgba(0, 0, 0, .28);
 }
 .featured-media.image-too-small .featured-image,
 .featured-media.image-too-small .image-credit {
@@ -1166,6 +1134,13 @@ const HEADLINE_IMAGE_SLOTS = {
   "feat-wsj": "homepage-featured-wsj",
 };
 
+const HEADLINE_FALLBACK_IMAGES = {
+  "feat-techmeme": {
+    url: "assets/images/fallback-techmeme-headline.png",
+    alt: "Techmeme live technology news fallback graphic",
+  },
+};
+
 function titleText(item) {
   return item.title_zh || item.title_en || item.cn || "Untitled";
 }
@@ -1183,7 +1158,7 @@ function imageCreditText(item) {
   return imageInfo(item).credit;
 }
 
-function imageInfo(item) {
+function imageInfo(item, slotId = "") {
   const heroImage = item.image_url || item.hero_image_url || item.image || "";
   if (heroImage) {
     return {
@@ -1194,12 +1169,12 @@ function imageInfo(item) {
     };
   }
 
-  const thumbnail = item.thumbnail_url || item.thumbnail || "";
+  const fallback = HEADLINE_FALLBACK_IMAGES[slotId];
   return {
-    url: thumbnail,
-    kind: thumbnail ? "thumbnail" : "",
-    alt: item.thumbnail_alt || "",
-    credit: item.thumbnail_credit || item.image_credit || "",
+    url: fallback?.url || "",
+    kind: fallback ? "fallback" : "",
+    alt: fallback?.alt || "",
+    credit: "",
   };
 }
 
@@ -1211,12 +1186,6 @@ function hideFeaturedImage(image, className) {
   if (!media) return;
   media.classList.add(className);
   image.remove();
-}
-
-function setThumbnailBackdrop(media, image) {
-  const rawUrl = String(image.currentSrc || image.src || "");
-  const escapedUrl = rawUrl.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
-  media.style.setProperty("--thumb-image", `url("${escapedUrl}")`);
 }
 
 function evaluateFeaturedImage(image) {
@@ -1231,11 +1200,6 @@ function evaluateFeaturedImage(image) {
   }
 
   if (width < HERO_MIN_IMAGE_WIDTH || height < HERO_MIN_IMAGE_HEIGHT) {
-    if (image.dataset.imageKind === "thumbnail") {
-      setThumbnailBackdrop(media, image);
-      media.classList.add("image-thumbnail");
-      return;
-    }
     hideFeaturedImage(image, "image-too-small");
     return;
   }
@@ -1324,14 +1288,14 @@ function featuredCard(item, slotId) {
   const source = item.source || item.media_source || (slotId === "feat-wsj" ? "Wall Street Journal" : "Source");
   const title = titleText(item);
   const subtitle = subtitleText(item);
-  const image = imageInfo(item);
+  const image = imageInfo(item, slotId);
   const imageSlot = HEADLINE_IMAGE_SLOTS[slotId] || slotId;
   return `
     <article class="featured-card">
       <div class="featured-media${image.url ? " has-image" : ""}">
         <span class="feature-badge">頭條</span>
         <!-- HEADLINE_IMAGE_SLOT ${imageSlot}: populated from item.image_url when available. -->
-        ${image.url ? `<img class="featured-image" src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || title)}" loading="lazy" referrerpolicy="no-referrer" data-image-kind="${escapeHtml(image.kind)}">` : ""}
+        ${image.url ? `<img class="featured-image" src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || title)}" loading="lazy" referrerpolicy="no-referrer">` : ""}
         ${image.credit ? `<div class="image-credit">${escapeHtml(image.credit)}</div>` : ""}
         <div class="placeholder-mark" data-slot="${slotId}" data-image-slot="${imageSlot}" data-image-role="homepage-lead-image">
           <div><i class="far fa-image" aria-hidden="true"></i><span>拖入頭條配圖</span><br><small>or browse files</small></div>

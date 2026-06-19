@@ -138,6 +138,8 @@ def daily_content_paths():
     ]
     optional_paths = [
         Path("analysis_state.json"),
+        Path("assets") / "images" / "fallback-techmeme-headline.png",
+        Path("assets") / "images" / "fallback-wsj-headline.png",
     ]
 
     missing = [str(path) for path in required_paths if not path.exists()]
