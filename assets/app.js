@@ -42,11 +42,53 @@ function subtitleText(item) {
 }
 
 function imageText(item) {
-  return item.image_url || item.thumbnail_url || item.thumbnail || item.image || "";
+  return item.image_url || item.hero_image_url || item.image || "";
 }
 
 function imageCreditText(item) {
   return item.image_credit || "";
+}
+
+const HERO_MIN_IMAGE_WIDTH = 420;
+const HERO_MIN_IMAGE_HEIGHT = 180;
+
+function hideFeaturedImage(image, className) {
+  const media = image.closest(".featured-media");
+  if (!media) return;
+  media.classList.add(className);
+  image.remove();
+}
+
+function evaluateFeaturedImage(image) {
+  const media = image.closest(".featured-media");
+  if (!media) return;
+
+  const width = image.naturalWidth || 0;
+  const height = image.naturalHeight || 0;
+  if (!width || !height) {
+    hideFeaturedImage(image, "image-failed");
+    return;
+  }
+
+  if (width < HERO_MIN_IMAGE_WIDTH || height < HERO_MIN_IMAGE_HEIGHT) {
+    hideFeaturedImage(image, "image-too-small");
+    return;
+  }
+
+  const mediaRatio = media.clientWidth && media.clientHeight ? media.clientWidth / media.clientHeight : 0;
+  const imageRatio = width / height;
+  media.classList.add(mediaRatio && imageRatio < mediaRatio * 0.86 ? "image-contain" : "image-cover");
+}
+
+function setupFeaturedImages(root = document) {
+  root.querySelectorAll(".featured-image").forEach((image) => {
+    image.addEventListener("load", () => evaluateFeaturedImage(image), { once: true });
+    image.addEventListener("error", () => hideFeaturedImage(image, "image-failed"), { once: true });
+    if (image.complete) {
+      if (image.naturalWidth) evaluateFeaturedImage(image);
+      else hideFeaturedImage(image, "image-failed");
+    }
+  });
 }
 
 function dateText(value) {
@@ -120,13 +162,12 @@ function featuredCard(item, slotId) {
   const image = imageText(item);
   const imageCredit = imageCreditText(item);
   const imageSlot = HEADLINE_IMAGE_SLOTS[slotId] || slotId;
-  const imageFallback = "this.closest('.featured-media').classList.add('image-failed');this.remove();";
   return `
     <article class="featured-card">
       <div class="featured-media${image ? " has-image" : ""}">
         <span class="feature-badge">頭條</span>
         <!-- HEADLINE_IMAGE_SLOT ${imageSlot}: populated from item.image_url when available. -->
-        ${image ? `<img class="featured-image" src="${escapeHtml(image)}" alt="${escapeHtml(item.image_alt || title)}" loading="lazy" referrerpolicy="no-referrer" onerror="${imageFallback}">` : ""}
+        ${image ? `<img class="featured-image" src="${escapeHtml(image)}" alt="${escapeHtml(item.image_alt || title)}" loading="lazy" referrerpolicy="no-referrer">` : ""}
         ${imageCredit ? `<div class="image-credit">${escapeHtml(imageCredit)}</div>` : ""}
         <div class="placeholder-mark" data-slot="${slotId}" data-image-slot="${imageSlot}" data-image-role="homepage-lead-image">
           <div><i class="far fa-image" aria-hidden="true"></i><span>拖入頭條配圖</span><br><small>or browse files</small></div>
@@ -213,6 +254,7 @@ function renderHome() {
     ${sectionHeading({ id: "podcast-section", icon: "fa-microphone-alt", title: "Podcast Highlights", edit: true, count: (newsData.podcast?.[0]?.date || "").slice(0, 10) })}
     <div class="teaser-grid">${(newsData.podcast || []).map((row) => homeTeaser(row, "podcast")).join("")}</div>
   `;
+  setupFeaturedImages(app);
   document.body.insertAdjacentHTML("beforeend", renderArchives() + '<footer class="site-footer"><p>由 Doraemon-Mobby 為 Joyce 精心策展</p></footer>');
   setupHomeSpy();
 }
