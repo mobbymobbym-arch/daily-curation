@@ -22,6 +22,21 @@ def rebuild_podcast_highlights_page():
         print(f"⚠️ Podcast 分頁重建失敗：{result.stderr.strip() or result.stdout.strip()}")
 
 
+def rebuild_v7_site():
+    site_builder = os.path.join("scripts", "build_site_v7.py")
+    if not os.path.exists(site_builder):
+        return
+    result = subprocess.run(
+        ["python3", site_builder],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode == 0:
+        print(result.stdout.strip())
+    else:
+        print(f"⚠️ v7 站台重建失敗：{result.stderr.strip() or result.stdout.strip()}")
+
+
 def teaser_text(value, limit=300):
     text = re.sub(r"<br\s*/?>", " ", str(value or ""), flags=re.I)
     text = re.sub(r"<[^>]+>", "", text)
@@ -39,6 +54,7 @@ def text_from_html(value):
 def render_to_html(section_only=False):
     if section_only:
         rebuild_podcast_highlights_page()
+        rebuild_v7_site()
         return
 
     json_path = "podcast_data.json"
@@ -173,7 +189,9 @@ def render_to_html(section_only=False):
                 file_date = date_match.group(1) if date_match else "legacy"
             
             old_archive_path = os.path.join(archive_dir, f"podcast-{file_date}.html")
-            if not os.path.exists(old_archive_path):
+            if file_date == current_date:
+                print(f"ℹ️ 偵測到同日 Podcast 內容替換，略過舊版存檔 ({file_date})。")
+            elif not os.path.exists(old_archive_path):
                 try:
                     with open(old_archive_path, 'w', encoding='utf-8') as f:
                         f.write(html_content)
@@ -199,6 +217,7 @@ def render_to_html(section_only=False):
     print(f"✅ 成功渲染今日共 {len(items)} 篇 Podcast！")
 
     rebuild_podcast_highlights_page()
+    rebuild_v7_site()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Render Daily Curation podcast cards.")

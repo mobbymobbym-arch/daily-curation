@@ -329,6 +329,7 @@ def check_translation_quality():
     """
     Guardrail: Verify that the temporary JSON contains Chinese translations for all titles.
     Items tagged with '_translation_skipped: true' are allowed through (they have an English fallback).
+    Publishing is blocked only when every fetched headline fell back to English.
     """
     if not os.path.exists(DAILY_NEWS_JSON):
         print("❌ No data file found to check.")
@@ -343,9 +344,11 @@ def check_translation_quality():
         return any('\u4e00' <= char <= '\u9fff' for char in str(text))
 
     skipped_count = 0
+    total_count = 0
 
     # Check Techmeme
     for item in data.get('techmeme', []):
+        total_count += 1
         if item.get('_translation_skipped'):
             skipped_count += 1
             continue  # Allow items that were explicitly skipped (they have English fallback)
@@ -355,13 +358,18 @@ def check_translation_quality():
             
     # Check WSJ
     for item in data.get('wsj', []):
+        total_count += 1
         if item.get('_translation_skipped'):
             skipped_count += 1
             continue
         if not has_chinese(item.get('title_zh')):
             print(f"❌ Missing or invalid Chinese translation for WSJ: {item.get('title_en')}")
             return False
-            
+
+    if total_count > 0 and skipped_count >= total_count:
+        print(f"❌ Translation quality check failed: all {total_count} item(s) used English fallback.")
+        return False
+
     if skipped_count > 0:
         print(f"✅ Quality check passed ({skipped_count} item(s) using English fallback). Proceeding to publish.")
     else:
@@ -412,14 +420,21 @@ def main():
             print("🚫 Publish blocked: section pages failed to build.")
             sys.exit(section_result.returncode)
 
-        # 6. Validate external source links
+        # 6. Build the v7 production site shell from the freshly generated feeds.
+        print("\n💚 Building v7 Site...")
+        v7_result = subprocess.run(["python3", "scripts/build_site_v7.py"])
+        if v7_result.returncode != 0:
+            print("🚫 Publish blocked: v7 site failed to build.")
+            sys.exit(v7_result.returncode)
+
+        # 7. Validate external source links
         print("\n🔗 Validating External Links...")
         link_result = subprocess.run(["python3", "scripts/validate_external_links.py"])
         if link_result.returncode != 0:
             print("🚫 Publish blocked: external links must open in a new tab.")
             sys.exit(link_result.returncode)
 
-        # 7. Publish (Git Push)
+        # 8. Publish (Git Push)
         print("\n🚀 Publishing to GitHub...")
         subprocess.run(["python3", "scripts/publish.py"])
         print("\n✨ All tasks completed successfully.")

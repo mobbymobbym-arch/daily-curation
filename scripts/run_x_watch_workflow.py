@@ -28,7 +28,13 @@ DECODE_CACHE_PATH = REPORTS_DIR / "x_watch_decode_cache.json"
 ARCHIVE_PATH = REPORTS_DIR / "x_watch_archive_latest.json"
 SITE_X_POSTS_PATH = Path.home() / "daily-curation" / "x-posts.html"
 SITE_REPO_PATH = SITE_X_POSTS_PATH.parent
-SITE_X_POSTS_RELATIVE_PATH = SITE_X_POSTS_PATH.name
+SITE_V7_BUILD_SCRIPT = SITE_REPO_PATH / "scripts" / "build_site_v7.py"
+SITE_X_POSTS_RELATIVE_PATHS = {
+    SITE_X_POSTS_PATH.name,
+    "assets/app.js",
+    "assets/styles.css",
+    "data/x-posts.js",
+}
 SITE_PUBLISH_URL = "https://mobbymobbym-arch.github.io/daily-curation/x-posts.html"
 
 
@@ -653,12 +659,12 @@ def inspect_site_worktree():
     x_posts_changes = [
         line
         for line in changes
-        if porcelain_path(line) == SITE_X_POSTS_RELATIVE_PATH
+        if porcelain_path(line) in SITE_X_POSTS_RELATIVE_PATHS
     ]
     unrelated_changes = [
         line
         for line in changes
-        if porcelain_path(line) != SITE_X_POSTS_RELATIVE_PATH
+        if porcelain_path(line) not in SITE_X_POSTS_RELATIVE_PATHS
     ]
     return {
         "changes": changes,
@@ -765,7 +771,8 @@ def publish_site_x_posts(workflow):
             "behind": behind,
         }
 
-    add = run_site_git(["add", SITE_X_POSTS_RELATIVE_PATH])
+    publish_paths = sorted(SITE_X_POSTS_RELATIVE_PATHS)
+    add = run_site_git(["add", "--", *publish_paths])
     if add.returncode != 0:
         return {
             **base,
@@ -773,7 +780,7 @@ def publish_site_x_posts(workflow):
             **completed_process_details(add),
         }
 
-    commit = run_site_git(["commit", "-m", commit_message, "--", SITE_X_POSTS_RELATIVE_PATH])
+    commit = run_site_git(["commit", "-m", commit_message, "--", *publish_paths])
     if commit.returncode != 0:
         return {
             **base,
@@ -924,15 +931,31 @@ def sync_preview_to_daily_curation_site(workflow):
         worktree = None
         pre_publish = None
 
-    try:
-        shutil.copyfile(PREVIEW_PATH, SITE_X_POSTS_PATH)
-    except OSError as exc:
-        return {
-            "status": "failed_copy",
-            "path": str(SITE_X_POSTS_PATH),
-            "published_url": SITE_PUBLISH_URL,
-            "error": str(exc),
-        }
+    if SITE_V7_BUILD_SCRIPT.exists():
+        build = subprocess.run(
+            [sys.executable, str(SITE_V7_BUILD_SCRIPT)],
+            cwd=str(SITE_REPO_PATH),
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if build.returncode != 0:
+            return {
+                "status": "failed_v7_build",
+                "path": str(SITE_X_POSTS_PATH),
+                "published_url": SITE_PUBLISH_URL,
+                **completed_process_details(build),
+            }
+    else:
+        try:
+            shutil.copyfile(PREVIEW_PATH, SITE_X_POSTS_PATH)
+        except OSError as exc:
+            return {
+                "status": "failed_copy",
+                "path": str(SITE_X_POSTS_PATH),
+                "published_url": SITE_PUBLISH_URL,
+                "error": str(exc),
+            }
 
     publish_result = publish_site_x_posts(workflow)
     return include_ignored_unrelated_changes({
