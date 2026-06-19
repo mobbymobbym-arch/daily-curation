@@ -91,6 +91,16 @@ def set_image_fields(item, image_url, image_source, image_credit='', image_alt='
     item['image_alt'] = image_alt or item.get('title_en') or ''
     return item
 
+def set_thumbnail_fields(item, image_url, image_source, image_credit='', image_alt=''):
+    if not image_url:
+        return item
+    item['thumbnail_url'] = image_url
+    item['thumbnail_source'] = image_source
+    if image_credit:
+        item['thumbnail_credit'] = image_credit
+    item['thumbnail_alt'] = image_alt or item.get('title_en') or ''
+    return item
+
 def tag_includes_class(tag, class_name):
     return attrs_include_class(tag, class_name)
 
@@ -184,7 +194,7 @@ def parse_techmeme_item_block(segment, cluster_role):
         'techmeme_source': 'homepage_main_column',
         'techmeme_cluster_role': cluster_role,
     }
-    return set_image_fields(item, image_url, 'techmeme_story_block', image_credit='Techmeme')
+    return set_thumbnail_fields(item, image_url, 'techmeme_story_block', image_credit='Techmeme')
 
 def parse_techmeme_cluster_blocks(cluster_html):
     relitems_block = first_div_block_by_class(cluster_html, 'relitems')
@@ -312,8 +322,7 @@ def ensure_lead_image(items, source_name, lookup=None):
 
     normalized_url = normalize_match_url(lead.get('url'))
     if lookup and normalized_url in lookup:
-        set_image_fields(lead, lookup[normalized_url], f'{source_name}_rss_fallback')
-        return
+        set_thumbnail_fields(lead, lookup[normalized_url], f'{source_name}_rss_thumbnail')
 
     meta_image = extract_article_meta_image(lead.get('url') or '')
     if meta_image:
@@ -330,7 +339,16 @@ def copy_image_fields(target, source):
     if source.get('image_url') and target.pop('image_missing_reason', None) is not None:
         changed = True
 
-    for field in ('image_url', 'image_source', 'image_credit', 'image_alt'):
+    for field in (
+        'image_url',
+        'image_source',
+        'image_credit',
+        'image_alt',
+        'thumbnail_url',
+        'thumbnail_source',
+        'thumbnail_credit',
+        'thumbnail_alt',
+    ):
         value = source.get(field)
         if value and target.get(field) != value:
             target[field] = value
