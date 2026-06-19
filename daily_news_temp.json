@@ -14,7 +14,10 @@
       "thumbnail_url": "https://www.techmeme.com/260617/i52.jpg",
       "thumbnail_source": "techmeme_story_block_recovered",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Noam Shazeer leaves Google to join OpenAI as lead for architecture research; he rejoined Google as a Gemini co-lead in 2024 during the $2.7B Character.AI deal"
+      "thumbnail_alt": "Noam Shazeer leaves Google to join OpenAI as lead for architecture research; he rejoined Google as a Gemini co-lead in 2024 during the $2.7B Character.AI deal",
+      "image_url": "https://tii.imgix.net/production/articles/17310/956741ac-47d9-4903-b6ef-d3d274bac8d3.jpeg?fm=jpg&auto=compress&w=1200&frame=0",
+      "image_source": "article_meta_fallback",
+      "image_alt": "Noam Shazeer leaves Google to join OpenAI as lead for architecture research; he rejoined Google as a Gemini co-lead in 2024 during the $2.7B Character.AI deal"
     },
     {
       "title_en": "Former Trump AI adviser Dean Ball is joining OpenAI to lead a new team called Strategic Futures, focused on frontier AI policy and internal governance",
