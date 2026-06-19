@@ -578,11 +578,40 @@ button { font: inherit; }
   min-height: 260px;
   background: var(--chip);
   border-right: 1px dashed rgba(22, 32, 26, .18);
+  overflow: hidden;
+}
+.featured-media.has-image {
+  background: #12231b;
+  border-right: 0;
+}
+.featured-media.has-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(0,0,0,.24), rgba(0,0,0,.08) 46%, rgba(0,0,0,.44));
+}
+.featured-media.has-image.image-failed {
+  background: var(--chip);
+  border-right: 1px dashed rgba(22, 32, 26, .18);
+}
+.featured-media.has-image.image-failed::after {
+  display: none;
+}
+.featured-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .feature-badge {
   position: absolute;
   top: 16px;
   left: 16px;
+  z-index: 2;
   background: var(--news);
   color: #fff;
   border-radius: 999px;
@@ -590,6 +619,22 @@ button { font: inherit; }
   font-size: .72rem;
   font-weight: 700;
   letter-spacing: .6px;
+}
+.image-credit {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  z-index: 2;
+  max-width: calc(100% - 24px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 999px;
+  padding: 5px 10px;
+  background: rgba(14, 20, 16, .68);
+  color: rgba(255,255,255,.84);
+  font-size: .68rem;
+  font-weight: 600;
 }
 .placeholder-mark {
   min-height: 260px;
@@ -599,6 +644,12 @@ button { font: inherit; }
   text-align: center;
   color: var(--muted);
   font-size: .84rem;
+}
+.featured-media.has-image .placeholder-mark {
+  display: none;
+}
+.featured-media.has-image.image-failed .placeholder-mark {
+  display: grid;
 }
 .placeholder-mark i {
   display: block;
@@ -1071,6 +1122,14 @@ function subtitleText(item) {
   return item.summary_zh || item.summary_en || item.en || "";
 }
 
+function imageText(item) {
+  return item.image_url || item.thumbnail_url || item.thumbnail || item.image || "";
+}
+
+function imageCreditText(item) {
+  return item.image_credit || "";
+}
+
 function dateText(value) {
   return escapeHtml(String(value || "").replace("T", " ").trim());
 }
@@ -1137,13 +1196,19 @@ function sectionHeading({ id, icon, title, date, edit = false, count = "" }) {
 function featuredCard(item, slotId) {
   const url = item.url || "#";
   const source = item.source || item.media_source || (slotId === "feat-wsj" ? "Wall Street Journal" : "Source");
+  const title = titleText(item);
   const subtitle = subtitleText(item);
+  const image = imageText(item);
+  const imageCredit = imageCreditText(item);
   const imageSlot = HEADLINE_IMAGE_SLOTS[slotId] || slotId;
+  const imageFallback = "this.closest('.featured-media').classList.add('image-failed');this.remove();";
   return `
     <article class="featured-card">
-      <div class="featured-media">
+      <div class="featured-media${image ? " has-image" : ""}">
         <span class="feature-badge">頭條</span>
-        <!-- HEADLINE_IMAGE_SLOT ${imageSlot}: future automation should replace this placeholder with the fetched lead image. -->
+        <!-- HEADLINE_IMAGE_SLOT ${imageSlot}: populated from item.image_url when available. -->
+        ${image ? `<img class="featured-image" src="${escapeHtml(image)}" alt="${escapeHtml(item.image_alt || title)}" loading="lazy" referrerpolicy="no-referrer" onerror="${imageFallback}">` : ""}
+        ${imageCredit ? `<div class="image-credit">${escapeHtml(imageCredit)}</div>` : ""}
         <div class="placeholder-mark" data-slot="${slotId}" data-image-slot="${imageSlot}" data-image-role="homepage-lead-image">
           <div><i class="far fa-image" aria-hidden="true"></i><span>拖入頭條配圖</span><br><small>or browse files</small></div>
         </div>
@@ -1151,7 +1216,7 @@ function featuredCard(item, slotId) {
       <div class="featured-copy">
         <div class="source-label">${escapeHtml(source)}</div>
         <a href="${escapeHtml(url)}"${externalAttrs(url)} style="text-decoration:none;">
-          <h3 class="featured-title">${escapeHtml(titleText(item))}</h3>
+          <h3 class="featured-title">${escapeHtml(title)}</h3>
         </a>
         ${subtitle ? `<div class="featured-subtitle">${escapeHtml(subtitle)}</div>` : ""}
         <a class="pill pill-news" href="${escapeHtml(url)}"${externalAttrs(url)}>閱讀全文 &rarr;</a>
