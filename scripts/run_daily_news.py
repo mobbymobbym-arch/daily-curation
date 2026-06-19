@@ -252,14 +252,53 @@ def parse_techmeme_main_column_items(content):
 
 def fetch_url_content(url):
     """Simple fetcher with User-Agent and timeout."""
+    headers = {
+        'User-Agent': (
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+            'AppleWebKit/537.36 (KHTML, like Gecko) '
+            'Chrome/124.0 Safari/537.36'
+        ),
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9,zh-TW;q=0.8',
+        'Cache-Control': 'no-cache',
+    }
     try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as response:
             return response.read().decode('utf-8', errors='ignore')
     except Exception as e:
-        print(f"⚠️ Fetch failed for {url}: {e}")
-        return ""
+        print(f"⚠️ urllib fetch failed for {url}: {e}")
+
+    try:
+        result = subprocess.run(
+            [
+                'curl',
+                '-L',
+                '-sS',
+                '--compressed',
+                '--max-time',
+                '20',
+                '-A',
+                headers['User-Agent'],
+                '-H',
+                f"Accept: {headers['Accept']}",
+                '-H',
+                f"Accept-Language: {headers['Accept-Language']}",
+                '-H',
+                f"Cache-Control: {headers['Cache-Control']}",
+                url,
+            ],
+            capture_output=True,
+            text=True,
+            timeout=25,
+        )
+        if result.returncode == 0 and result.stdout:
+            return result.stdout
+        error = (result.stderr or '').strip()
+        print(f"⚠️ curl fetch failed for {url}: {error or f'exit {result.returncode}'}")
+    except Exception as e:
+        print(f"⚠️ curl fetch failed for {url}: {e}")
+    return ""
 
 def extract_article_meta_image(url):
     """Last-resort image fallback from og:image/twitter:image metadata."""
