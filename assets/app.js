@@ -6,6 +6,7 @@ import { xRows } from "../data/x-posts.js";
 const page = document.body.dataset.page || "home";
 const app = document.getElementById("app");
 const pageState = { visible: 12, xVisible: 40, expanded: {}, archiveOpen: false };
+const basePath = document.body.dataset.basePath || "";
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -18,6 +19,12 @@ function escapeHtml(value) {
 
 function externalAttrs(url) {
   return /^https?:\/\//i.test(String(url || "")) ? ' target="_blank" rel="noopener noreferrer"' : "";
+}
+
+function siteUrl(path) {
+  const value = String(path || "");
+  if (!value || value.startsWith("#") || /^(?:[a-z][a-z0-9+.-]*:|\/)/i.test(value)) return value;
+  return `${basePath}${value}`;
 }
 
 function openIcon() {
@@ -34,7 +41,7 @@ const HEADLINE_IMAGE_SLOTS = {
 
 const HEADLINE_FALLBACK_IMAGES = {
   "feat-techmeme": {
-    url: "assets/images/fallback-techmeme-headline.png",
+    url: siteUrl("assets/images/fallback-techmeme-headline.png"),
     alt: "Techmeme live technology news fallback graphic",
   },
 };
@@ -137,10 +144,10 @@ function renderNav(active) {
         <div class="nav-links">
           ${items.map((item) => {
             const on = item.key === active;
-            return `<a class="nav-pill${on ? " is-active" : ""}" href="${item.href}"${on ? ' aria-current="page"' : ""}>${item.label}</a>`;
+            return `<a class="nav-pill${on ? " is-active" : ""}" href="${siteUrl(item.href)}"${on ? ' aria-current="page"' : ""}>${item.label}</a>`;
           }).join("")}
         </div>
-        <a class="home-orb" href="index.html" aria-label="回到策展首頁" title="首頁"><i class="fas fa-home" aria-hidden="true"></i></a>
+        <a class="home-orb" href="${siteUrl("index.html")}" aria-label="回到策展首頁" title="首頁"><i class="fas fa-home" aria-hidden="true"></i></a>
       </div>
     </nav>
   `;
@@ -230,7 +237,7 @@ function homeTeaser(row, kind) {
   const date = isPodcast ? row.date : row.article_date || row.first_seen_date || row.latest_seen_date || "";
   const href = isPodcast ? row.original_link : row.url;
   const hrefLabel = isPodcast ? "Listen" : chip;
-  const historyHref = isPodcast ? "podcast-highlights.html" : "deep-analysis.html";
+  const historyHref = siteUrl(isPodcast ? "podcast-highlights.html" : "deep-analysis.html");
   return `
     <article class="feed-card home-teaser">
       <span class="chip">${escapeHtml(chip)}</span>
