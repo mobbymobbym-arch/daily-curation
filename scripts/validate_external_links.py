@@ -16,6 +16,7 @@ ANCHOR_RE = re.compile(r"<a\b[^>]*>", re.I)
 HREF_RE = re.compile(r'\bhref=(["\'])(.*?)\1', re.I | re.S)
 TARGET_RE = re.compile(r'\btarget=(["\'])_blank\1', re.I)
 REL_RE = re.compile(r'\brel=(["\'])(.*?)\1', re.I | re.S)
+SCRIPT_RE = re.compile(r"<script\b[\s\S]*?</script>", re.I)
 
 
 def current_archive_file():
@@ -46,9 +47,13 @@ def rel_is_safe(anchor):
     return "noopener" in values or "noreferrer" in values
 
 
+def strip_script_blocks(content):
+    return SCRIPT_RE.sub(lambda match: "\n" * match.group(0).count("\n"), content)
+
+
 def validate_file(path):
     failures = []
-    content = path.read_text(encoding="utf-8", errors="ignore")
+    content = strip_script_blocks(path.read_text(encoding="utf-8", errors="ignore"))
     for line_no, line in enumerate(content.splitlines(), 1):
         for anchor in ANCHOR_RE.findall(line):
             href_match = HREF_RE.search(anchor)

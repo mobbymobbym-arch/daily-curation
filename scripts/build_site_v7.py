@@ -79,13 +79,17 @@ def write_file(path: Path, content: str) -> None:
     print(f"Wrote {label}")
 
 
-def archive_rows() -> list[dict[str, str]]:
+def archive_rows(include_date: str = "") -> list[dict[str, str]]:
     archive_dir = SOURCE_ROOT / "archives"
     rows: list[dict[str, str]] = []
+    seen_dates: set[str] = set()
     if not archive_dir.exists():
-        return rows
-    for path in archive_dir.glob("*.html"):
-        if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.html", path.name):
+        archive_dir = OUT_DIR / "archives"
+    if archive_dir.exists():
+        for path in archive_dir.glob("*.html"):
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}\.html", path.name):
+                continue
+            seen_dates.add(path.stem)
             rows.append(
                 {
                     "date": path.stem,
@@ -93,6 +97,14 @@ def archive_rows() -> list[dict[str, str]]:
                     "href": f"https://mobbymobbym-arch.github.io/daily-curation/archives/{path.name}",
                 }
             )
+    if include_date and re.fullmatch(r"\d{4}-\d{2}-\d{2}", include_date) and include_date not in seen_dates:
+        rows.append(
+            {
+                "date": include_date,
+                "label": include_date,
+                "href": f"https://mobbymobbym-arch.github.io/daily-curation/archives/{include_date}.html",
+            }
+        )
     rows.sort(key=lambda item: item["date"], reverse=True)
     return rows
 
@@ -271,13 +283,14 @@ def load_x_posts() -> list[dict[str, Any]]:
 
 def load_news_data(deep_rows: list[dict[str, Any]], podcast_rows: list[dict[str, Any]]) -> dict[str, Any]:
     data = read_json(SOURCE_ROOT / "daily_news_temp.json")
+    fetch_date = data.get("fetch_date") or ""
     return {
-        "date": data.get("fetch_date") or "",
+        "date": fetch_date,
         "techmeme": data.get("techmeme") or [],
         "wsj": data.get("wsj") or [],
         "analysis": deep_rows[:3],
         "podcast": podcast_rows[:2],
-        "archives": archive_rows(),
+        "archives": archive_rows(fetch_date),
     }
 
 
@@ -1108,6 +1121,7 @@ import { xRows } from "../data/x-posts.js";
 const page = document.body.dataset.page || "home";
 const app = document.getElementById("app");
 const pageState = { visible: 12, xVisible: 40, expanded: {}, archiveOpen: false };
+const basePath = document.body.dataset.basePath || "";
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -1120,6 +1134,12 @@ function escapeHtml(value) {
 
 function externalAttrs(url) {
   return /^https?:\/\//i.test(String(url || "")) ? ' target="_blank" rel="noopener noreferrer"' : "";
+}
+
+function siteUrl(path) {
+  const value = String(path || "");
+  if (!value || value.startsWith("#") || /^(?:[a-z][a-z0-9+.-]*:|\/)/i.test(value)) return value;
+  return `${basePath}${value}`;
 }
 
 function openIcon() {
@@ -1136,7 +1156,7 @@ const HEADLINE_IMAGE_SLOTS = {
 
 const HEADLINE_FALLBACK_IMAGES = {
   "feat-techmeme": {
-    url: "assets/images/fallback-techmeme-headline.png",
+    url: siteUrl("assets/images/fallback-techmeme-headline.png"),
     alt: "Techmeme live technology news fallback graphic",
   },
 };
@@ -1239,10 +1259,10 @@ function renderNav(active) {
         <div class="nav-links">
           ${items.map((item) => {
             const on = item.key === active;
-            return `<a class="nav-pill${on ? " is-active" : ""}" href="${item.href}"${on ? ' aria-current="page"' : ""}>${item.label}</a>`;
+            return `<a class="nav-pill${on ? " is-active" : ""}" href="${siteUrl(item.href)}"${on ? ' aria-current="page"' : ""}>${item.label}</a>`;
           }).join("")}
         </div>
-        <a class="home-orb" href="index.html" aria-label="回到策展首頁" title="首頁"><i class="fas fa-home" aria-hidden="true"></i></a>
+        <a class="home-orb" href="${siteUrl("index.html")}" aria-label="回到策展首頁" title="首頁"><i class="fas fa-home" aria-hidden="true"></i></a>
       </div>
     </nav>
   `;
@@ -1332,7 +1352,7 @@ function homeTeaser(row, kind) {
   const date = isPodcast ? row.date : row.article_date || row.first_seen_date || row.latest_seen_date || "";
   const href = isPodcast ? row.original_link : row.url;
   const hrefLabel = isPodcast ? "Listen" : chip;
-  const historyHref = isPodcast ? "podcast-highlights.html" : "deep-analysis.html";
+  const historyHref = siteUrl(isPodcast ? "podcast-highlights.html" : "deep-analysis.html");
   return `
     <article class="feed-card home-teaser">
       <span class="chip">${escapeHtml(chip)}</span>
@@ -1532,6 +1552,45 @@ def page_html(title: str, page: str, description: str) -> str:
 """
 
 
+def archive_app_js(news_data: dict[str, Any], deep_rows: list[dict[str, Any]], podcast_rows: list[dict[str, Any]], x_rows: list[dict[str, Any]]) -> str:
+    app_without_imports = re.sub(r"^import .+;\n", "", APP_JS, flags=re.M)
+    return "\n".join(
+        [
+            f"const newsData = {module_json(news_data)};",
+            f"const deepRows = {module_json(deep_rows)};",
+            f"const podcastRows = {module_json(podcast_rows)};",
+            f"const xRows = {module_json(x_rows)};",
+            app_without_imports,
+        ]
+    )
+
+
+def archive_page_html(news_data: dict[str, Any], deep_rows: list[dict[str, Any]], podcast_rows: list[dict[str, Any]], x_rows: list[dict[str, Any]]) -> str:
+    date_label = str(news_data.get("date") or "Daily Archive")
+    inline_app = archive_app_js(news_data, deep_rows, podcast_rows, x_rows)
+    return f"""<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{html.escape(date_label)} | Joyce's Daily Archive</title>
+  <meta name="description" content="Joyce's Daily archive snapshot for {html.escape(date_label)}.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500;1,6..96,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Schibsted+Grotesk:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body data-page="home" data-base-path="../">
+  <main id="app"></main>
+  <script type="module">
+{inline_app}
+  </script>
+</body>
+</html>
+"""
+
+
 def build() -> None:
     deep_rows = load_deep_rows()
     podcast_rows = load_podcast_rows()
@@ -1548,6 +1607,11 @@ def build() -> None:
     write_file(OUT_DIR / "deep-analysis.html", page_html("Deep Analysis", "deep", "Deep Analysis archive."))
     write_file(OUT_DIR / "podcast-highlights.html", page_html("Podcast Highlights", "podcast", "Podcast Highlights archive."))
     write_file(OUT_DIR / "x-posts.html", page_html("X Posts", "x", "Translated public X posts."))
+    if news_data.get("date"):
+        write_file(
+            OUT_DIR / "archives" / f"{news_data['date']}.html",
+            archive_page_html(news_data, deep_rows, podcast_rows, x_rows),
+        )
     print(
         "Site complete: "
         f"{len(news_data['techmeme'])} Techmeme, "

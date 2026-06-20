@@ -208,17 +208,17 @@ def publish_to_github():
 
     # 0. 先檢查工作目錄內是否殘留 Git 衝突標記
     if abort_if_conflicted():
-        return
+        return False
     
     # 1. 先同步遠端進度 (防呆：避免分支衝突)
     print("🔄 正在同步遠端最新進度...")
     if not run_command("git pull --rebase --autostash origin main"):
         print("❌ 同步遠端失敗，已中止發布，避免將錯誤內容推上線。")
-        return
+        return False
 
     # 2. 再檢查一次，防止 pull / autostash 後留下衝突標記
     if abort_if_conflicted():
-        return
+        return False
         
     # 3. 將修改過的檔案加入暫存區 (打包)
     print("📦 正在打包變更檔案...")
@@ -226,7 +226,7 @@ def publish_to_github():
         if has_staged_changes():
             print("❌ 安全發布偵測到已經暫存的其他變更，為避免混入日報發布已中止。")
             print("💡 請先確認那些變更是否也要發布，再重新執行。")
-            return
+            return False
 
         publish_kind = os.environ.get(SAFE_PUBLISH_KIND_ENV, "daily").strip().lower()
         if publish_kind == "podcast":
@@ -236,17 +236,17 @@ def publish_to_github():
             publish_paths = daily_content_paths()
             publish_label = "日報"
         if not publish_paths:
-            return
+            return False
 
         print(f"   使用{publish_label}安全發布，只打包以下產物：")
         for path in publish_paths:
             print(f"   - {path}")
 
         if not run_command_args(["git", "add", "--", *publish_paths]):
-            return
+            return False
     else:
         if not run_command("git add -A"):
-            return
+            return False
         
     # 4. 建立 Commit 訊息 (加上當下時間，讓歷史紀錄清楚明白)
     # 使用台灣時間 (UTC+8) 邏輯或是本地系統時間
@@ -255,7 +255,7 @@ def publish_to_github():
     
     print(f"📝 正在寫入發布日誌: {commit_msg}")
     if not run_command(f'git commit -m "{commit_msg}"'):
-        return
+        return False
         
     # 5. 推送到 GitHub (正式上線)
     import time
@@ -272,7 +272,7 @@ def publish_to_github():
             
     if not push_success:
         print("❌ 經過 3 次嘗試，Git 推送仍然失敗。請檢查網路狀態或 GitHub 權限。")
-        return
+        return False
         
     print("=======================================================")
     print("🎉 發布大成功！")
@@ -280,6 +280,7 @@ def publish_to_github():
     print("💡 溫馨提醒：GitHub Pages 通常需要 1 到 3 分鐘的時間來刷新快取，")
     print("如果立刻點開沒看到變化，請喝口水、重新整理一下頁面就會出現了！")
     print("=======================================================")
+    return True
 
 if __name__ == "__main__":
-    publish_to_github()
+    sys.exit(0 if publish_to_github() else 1)
