@@ -1159,6 +1159,10 @@ const HEADLINE_FALLBACK_IMAGES = {
     url: siteUrl("assets/images/fallback-techmeme-headline.png"),
     alt: "Techmeme live technology news fallback graphic",
   },
+  "feat-wsj": {
+    url: siteUrl("assets/images/fallback-wsj-headline.png"),
+    alt: "WSJ technology news fallback graphic",
+  },
 };
 
 function titleText(item) {
@@ -1179,6 +1183,7 @@ function imageCreditText(item) {
 }
 
 function imageInfo(item, slotId = "") {
+  const fallback = HEADLINE_FALLBACK_IMAGES[slotId];
   const heroImage = item.image_url || item.hero_image_url || item.image || "";
   if (heroImage) {
     return {
@@ -1186,22 +1191,37 @@ function imageInfo(item, slotId = "") {
       kind: "hero",
       alt: item.image_alt || "",
       credit: item.image_credit || "",
+      fallbackUrl: fallback?.url || "",
+      fallbackAlt: fallback?.alt || "",
     };
   }
 
-  const fallback = HEADLINE_FALLBACK_IMAGES[slotId];
   return {
     url: fallback?.url || "",
     kind: fallback ? "fallback" : "",
     alt: fallback?.alt || "",
     credit: "",
+    fallbackUrl: "",
+    fallbackAlt: "",
   };
 }
 
 const HERO_MIN_IMAGE_WIDTH = 420;
 const HERO_MIN_IMAGE_HEIGHT = 180;
 
+function useFallbackFeaturedImage(image) {
+  const media = image.closest(".featured-media");
+  if (!media || image.dataset.usingFallback === "1" || !image.dataset.fallbackSrc) return false;
+  image.dataset.usingFallback = "1";
+  image.src = image.dataset.fallbackSrc;
+  image.alt = image.dataset.fallbackAlt || image.alt;
+  media.classList.remove("image-failed", "image-too-small", "image-contain", "image-cover");
+  media.classList.add("has-image");
+  return true;
+}
+
 function hideFeaturedImage(image, className) {
+  if (useFallbackFeaturedImage(image)) return;
   const media = image.closest(".featured-media");
   if (!media) return;
   media.classList.add(className);
@@ -1231,8 +1251,8 @@ function evaluateFeaturedImage(image) {
 
 function setupFeaturedImages(root = document) {
   root.querySelectorAll(".featured-image").forEach((image) => {
-    image.addEventListener("load", () => evaluateFeaturedImage(image), { once: true });
-    image.addEventListener("error", () => hideFeaturedImage(image, "image-failed"), { once: true });
+    image.addEventListener("load", () => evaluateFeaturedImage(image));
+    image.addEventListener("error", () => hideFeaturedImage(image, "image-failed"));
     if (image.complete) {
       if (image.naturalWidth) evaluateFeaturedImage(image);
       else hideFeaturedImage(image, "image-failed");
@@ -1310,12 +1330,15 @@ function featuredCard(item, slotId) {
   const subtitle = subtitleText(item);
   const image = imageInfo(item, slotId);
   const imageSlot = HEADLINE_IMAGE_SLOTS[slotId] || slotId;
+  const fallbackAttrs = image.fallbackUrl
+    ? ` data-fallback-src="${escapeHtml(image.fallbackUrl)}" data-fallback-alt="${escapeHtml(image.fallbackAlt || image.alt || title)}"`
+    : "";
   return `
     <article class="featured-card">
       <div class="featured-media${image.url ? " has-image" : ""}">
         <span class="feature-badge">頭條</span>
         <!-- HEADLINE_IMAGE_SLOT ${imageSlot}: populated from item.image_url when available. -->
-        ${image.url ? `<img class="featured-image" src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || title)}" loading="lazy" referrerpolicy="no-referrer">` : ""}
+        ${image.url ? `<img class="featured-image" src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || title)}" loading="lazy" referrerpolicy="no-referrer"${fallbackAttrs}>` : ""}
         ${image.credit ? `<div class="image-credit">${escapeHtml(image.credit)}</div>` : ""}
         <div class="placeholder-mark" data-slot="${slotId}" data-image-slot="${imageSlot}" data-image-role="homepage-lead-image">
           <div><i class="far fa-image" aria-hidden="true"></i><span>拖入頭條配圖</span><br><small>or browse files</small></div>
