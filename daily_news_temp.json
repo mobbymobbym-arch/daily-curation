@@ -1,38 +1,36 @@
 {
-  "fetch_date": "2026-06-21",
+  "fetch_date": "2026-06-22",
   "techmeme": [
     {
-      "title_en": "Claude Guillemot, co-founder of Ubisoft and chairman of gaming hardware company Guillemot Corporation, died at 69 after a plane crash in France",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
-      "summary_en": "Claude Guillemot, who co-founded French video-game publisher Ubisoft Entertainment SA with his brothers in 1986, has died, according to the company.",
+      "title_en": "Investigation: Polymarket is paying creators to make deceptive videos about winning bets, targeting users in the US, where its primary crypto platform is banned",
+      "url": "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=oE9Lbv&reflink=desktopwebshare_permalink",
+      "summary_en": "The prediction market has flooded social media with deceptive videos by paid creators, according to a Wall Street Journal investigation",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260621/i3.jpg",
+      "thumbnail_source": "techmeme_rss_thumbnail",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Investigation: Polymarket is paying creators to make deceptive videos about winning bets, targeting users in the US, where its primary crypto platform is banned",
+      "image_missing_reason": "no_source_image_found",
+      "title_zh": "調查：Polymarket 支付創作者製作誤導性影片以吸引美國用戶，其主平台在美國仍遭禁用",
+      "summary_zh": "根據《華爾街日報》調查，預測市場平台 Polymarket 透過支付創作者，在社群媒體上散布大量關於贏得賭注的誤導性影片。"
+    },
+    {
+      "title_en": "Sources: John Ternus gets ready to put his firm imprint on Apple's industrial design team, which has lost a true seat at Apple's exec table over the past decade",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-21/apple-s-new-ceo-ternus-needs-to-shake-up-design-apple-s-2027-iphone-road-map-mqnust26?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MjA1MDU1NywiZXhwIjoxNzgyNjU1MzU3LCJhcnRpY2xlSWQiOiJUR1pJVzFLR0lGUTAwMCIsImJjb25uZWN0SWQiOiJBMDdGRjZGMzlBOTY0NzREOTNBQkFGRjUyQjBBQTE2NiJ9.ory3lhU6gHF0NeBy190qe1-3KNhKZ9Sazoy-AVnNRcw",
+      "summary_en": "Also: The 2027 iPhone and AirPods plans. — The No. 1 priority for new Apple CEO John Ternus should be revamping …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260620/i8.jpg",
-      "thumbnail_source": "techmeme_rss_thumbnail",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Claude Guillemot, co-founder of Ubisoft and chairman of gaming hardware company Guillemot Corporation, died at 69 after a plane crash in France",
-      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJzudhxWGoSE/v1/1200x800.jpg",
-      "image_source": "article_meta_fallback",
-      "image_alt": "Claude Guillemot, co-founder of Ubisoft and chairman of gaming hardware company Guillemot Corporation, died at 69 after a plane crash in France",
-      "title_zh": "Ubisoft 共同創辦人、Guillemot Corporation 主席 Claude Guillemot 於法國墜機身亡，享壽 69 歲",
-      "summary_zh": "Ubisoft 證實，於 1986 年與兄弟共同創立這家法國遊戲發行商的 Claude Guillemot 已不幸逝世。"
-    },
-    {
-      "title_en": "Granta says it will stop publishing short story contest winners or join publishing partnerships it doesn't control after AI use allegations against a winner",
-      "url": "https://www.theguardian.com/books/2026/jun/20/granta-magazine-commonwealth-short-story-prize-ai",
-      "summary_en": "Literary magazine will no longer engage in ‘external publishing partnerships’ after Commonwealth prize furore",
-      "source": "The Guardian",
-      "media_source": "The Guardian",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260620/i9.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260621/i5.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Granta says it will stop publishing short story contest winners or join publishing partnerships it doesn't control after AI use allegations against a winner",
-      "title_zh": "文學雜誌 Granta 捲入 AI 作品獲獎爭議，將停止發布短篇小說比賽獲獎名單或參與無法主導的出版合作",
-      "summary_zh": "受 Commonwealth 獎項風波影響，文學雜誌 Granta 將不再參與「外部出版合作」。"
+      "thumbnail_alt": "Sources: John Ternus gets ready to put his firm imprint on Apple's industrial design team, which has lost a true seat at Apple's exec table over the past decade",
+      "title_zh": "消息人士：John Ternus 準備在 Apple 工業設計團隊留下個人印記，該團隊過去十年在決策層地位下滑",
+      "summary_zh": "報導同時揭露了 2027 年 iPhone 與 AirPods 的計畫。Apple 新任 CEO John Ternus 的首要任務應是重振團隊影響力。"
     },
     {
       "title_en": "A speculative scenario titled “Europe 2031” projects economic and political instability in the EU if it fails to keep pace with the US and China in the AI race",
@@ -46,23 +44,68 @@
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
       "thumbnail_alt": "A speculative scenario titled “Europe 2031” projects economic and political instability in the EU if it fails to keep pace with the US and China in the AI race",
-      "title_zh": "「歐洲 2031」情境預測：若歐盟在 AI 競賽中落後美中，恐面臨經濟與政治動盪",
-      "summary_zh": "這項推測性的思維實驗警告，若歐洲在 AI 發展落後於美國，可能會付出沉重代價。"
+      "title_zh": "「歐洲 2031」模擬情境：若在 AI 競賽落後美中，歐盟恐面臨經濟與政治動盪",
+      "summary_zh": "一項推測性的思想實驗警告，如果歐洲大陸在 AI 領域持續落後於美國，可能會付出沉重的代價。"
     },
     {
-      "title_en": "An interview with Smartbird CEO Nadia Carlsten about the shoe company Allbirds becoming an AI infrastructure company, plans to deploy compute clusters, and more",
-      "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
-      "summary_en": "When Allbirds pivoted to AI in April, it felt like a joke from “Silicon Valley” breaking free of the TV: The direct …",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
+      "title_en": "Claude Guillemot, co-founder of Ubisoft and chairman of gaming hardware company Guillemot Corporation, died at 69 after a plane crash in France",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
+      "summary_en": "Claude Guillemot, who co-founded French video-game publisher Ubisoft Entertainment SA with his brothers in 1986, has died, according to the company.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260620/i7.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260620/i8.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "An interview with Smartbird CEO Nadia Carlsten about the shoe company Allbirds becoming an AI infrastructure company, plans to deploy compute clusters, and more",
-      "title_zh": "專訪 Smartbird CEO：Allbirds 轉型為 AI 基礎設施公司的內幕，並計畫部署運算集群",
-      "summary_zh": "當 Allbirds 在 4 月轉向 AI 領域時，感覺就像是影集《矽谷群瞎傳》（Silicon Valley）的情節成真。"
+      "thumbnail_alt": "Claude Guillemot, co-founder of Ubisoft and chairman of gaming hardware company Guillemot Corporation, died at 69 after a plane crash in France",
+      "title_zh": "Ubisoft 共同創辦人暨 Guillemot Corporation 董事長 Claude Guillemot 於法國墜機逝世，享壽 69 歲",
+      "summary_zh": "Ubisoft 表示，於 1986 年與兄弟共同創立這家法國遊戲發行巨擘的 Claude Guillemot 已不幸過世。"
+    },
+    {
+      "title_en": "Brazil takes its National Civil Defense warning platform offline after suspected hackers send an unauthorized alert to mobile phones in several states",
+      "url": "https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam",
+      "summary_en": "An unauthorized alert bearing a mysterious message that was sent to cell phones in several states across Brazil on Saturday morning …",
+      "source": "CNN",
+      "media_source": "CNN",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260621/i1.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Brazil takes its National Civil Defense warning platform offline after suspected hackers send an unauthorized alert to mobile phones in several states",
+      "title_zh": "疑似遭駭客入侵發送未授權警報，巴西國家民防預警平台緊急下線",
+      "summary_zh": "週六上午，巴西多個州的民眾手機收到了帶有神祕訊息的未授權警報，導致官方預警平台暫停運作。"
+    },
+    {
+      "title_en": "Sources: Anduril has begun exploring the possibility of establishing operations in Israel and is in talks to recruit a local manager",
+      "url": "https://www.calcalistech.com/ctechnews/article/hj75fpszgl",
+      "summary_en": "Palmer Luckey's $61 billion startup considers local operations, partnerships, and investments in Israeli startups. — Anduril, the world's largest …",
+      "source": "CTech",
+      "media_source": "CTech",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260621/i6.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: Anduril has begun exploring the possibility of establishing operations in Israel and is in talks to recruit a local manager",
+      "title_zh": "消息人士：國防科技公司 Anduril 考慮進軍以色列，正洽談招募當地經理人",
+      "summary_zh": "Palmer Luckey 創辦、估值 610 億美元的新創公司 Anduril，正研議在以色列設立營運據點、建立合作夥伴關係，並投資當地新創。"
+    },
+    {
+      "title_en": "A look at Jane Street's push to supercharge trading with AI and become a major AI investor; it invested $1B in CoreWeave in April and has a stake in Anthropic",
+      "url": "https://www.wsj.com/tech/ai/jane-street-ai-wall-street-bdfcc81a?st=U3xpiF&reflink=desktopwebshare_permalink",
+      "summary_en": "The firm has surged from a handful of staffers to 3,500 with plans to recruit more than 500 employees this year.",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260620/i13.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "A look at Jane Street's push to supercharge trading with AI and become a major AI investor; it invested $1B in CoreWeave in April and has a stake in Anthropic",
+      "title_zh": "解析 Jane Street 如何利用 AI 強化交易並成為主要投資者；4 月曾向 CoreWeave 投資 10 億美元",
+      "summary_zh": "該公司規模已從少數員工激增至 3,500 人，並計畫今年再招募 500 多名員工，目前也持有 Anthropic 的股份。"
     },
     {
       "title_en": "Q&A with Signal's Meredith Whittaker on why online child safety efforts risk mass surveillance, leaving the markets that demand weakening of encryption, more",
@@ -76,90 +119,83 @@
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
       "thumbnail_alt": "Q&A with Signal's Meredith Whittaker on why online child safety efforts risk mass surveillance, leaving the markets that demand weakening of encryption, more",
-      "title_zh": "Signal 總裁 Meredith Whittaker 訪談：為何線上兒童安全法案恐導致大規模監控，以及不惜撤出要求弱化加密的市場",
-      "summary_zh": "Meredith Whittaker 長期以來一直主張，隱私是自由社會的先決條件。"
+      "title_zh": "專訪 Signal 總裁 Meredith Whittaker：為何網路兒童安全計畫可能演變成大規模監控與削弱加密",
+      "summary_zh": "Meredith Whittaker 多年來一直主張，隱私是自由社會的必要前提。"
     },
     {
-      "title_en": "The departure of John Jumper, a key member of Google's AI coding development team, further strains Google's efforts to compete with Anthropic and OpenAI",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic",
-      "summary_en": "Google DeepMind Vice President John Jumper, who won the 2024 Nobel Prize in chemistry for his work on artificial intelligence, is leaving the company to join Anthropic PBC.",
+      "title_en": "SF-based Humble Robotics, which is developing an electric, self-driving cabless freight truck with 200 miles range and 55 mph max speed, raised $24M",
+      "url": "https://www.latimes.com/business/story/2026-06-21/this-startup-wants-to-bring-driverless-freight-trucks-to-californias-roads-but-drivers-are-pushing-back",
+      "summary_en": "7 min Click here to listen to this article — San Francisco startup Humble Robotics has raised $24 million to build an electric …",
+      "source": "Los Angeles Times",
+      "media_source": "Los Angeles Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260621/i8.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "SF-based Humble Robotics, which is developing an electric, self-driving cabless freight truck with 200 miles range and 55 mph max speed, raised $24M",
+      "title_zh": "舊金山新創 Humble Robotics 募資 2400 萬美元，開發續航 200 英里的電動自動駕駛無車頭貨車",
+      "summary_zh": "這家總部位於舊金山的新創公司獲得了 2400 萬美元資金，致力於打造新型態的電動貨運設備。"
+    },
+    {
+      "title_en": "Sources: Virgin Media O2 and VodafoneThree have deployed tech to disable phones stolen from their stores, after phone makers resisted broader antitheft measures",
+      "url": "https://www.ft.com/content/786de887-a970-4b43-9de1-670c57ab0923",
+      "summary_en": "Virgin Media O2 and VodafoneThree's move comes after Apple and Samsung resisted calls to adopt broader measures",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260621/i7.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: Virgin Media O2 and VodafoneThree have deployed tech to disable phones stolen from their stores, after phone makers resisted broader antitheft measures",
+      "title_zh": "消息人士：電信商 Virgin Media O2 與 VodafoneThree 部署新技術，可遠端停用門市失竊手機",
+      "summary_zh": "在 Apple 與 Samsung 拒絕採納更廣泛的防盜措施後，這兩家電信商決定自行採取行動應對手機失竊問題。"
+    },
+    {
+      "title_en": "As Europe falls behind the US and China in consumer AI, its engineering companies and AI startups are turning to industrial AI applications to boost efficiency",
+      "url": "https://www.bloomberg.com/news/features/2026-06-18/ai-for-industries-europe-s-mistral-siemens-schneider-lead-tech-vanguard",
+      "summary_en": "Pressure to become more efficient has Europe racing to bring artificial intelligence to the shop floor.",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260619/i20.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260621/i9.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "The departure of John Jumper, a key member of Google's AI coding development team, further strains Google's efforts to compete with Anthropic and OpenAI",
-      "title_zh": "Google DeepMind 副總裁 John Jumper 離職並加入 Anthropic，重創 Google 在 AI 領域與 OpenAI 競爭的努力",
-      "summary_zh": "曾因 AI 研究獲得 2024 年諾貝爾化學獎的 Google DeepMind 副總裁 John Jumper 宣布離職，轉投競爭對手 Anthropic。"
+      "thumbnail_alt": "As Europe falls behind the US and China in consumer AI, its engineering companies and AI startups are turning to industrial AI applications to boost efficiency",
+      "title_zh": "歐洲在消費型 AI 領域落後美中，轉向工業 AI 應用以提升工程與新創效率",
+      "summary_zh": "在提升效率的壓力下，歐洲正加速將人工智慧導入工廠端，尋求在工業領域的技術突破。"
     },
     {
-      "title_en": "John Jumper, who won the Nobel Prize “for protein structure prediction”, says he is leaving Google DeepMind after nearly nine years to join Anthropic",
-      "url": "https://x.com/johnjumpersci/status/2068001285173834106",
-      "summary_en": "",
-      "source": "@johnjumpersci",
-      "media_source": "@johnjumpersci",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "諾貝爾獎得主 John Jumper 宣布離開效力 9 年的 Google DeepMind，轉而加入 AI 新創 Anthropic",
-      "summary_zh": "John Jumper 曾因「蛋白質結構預測」獲得諾貝爾獎，他證實將離開 Google DeepMind。"
-    },
-    {
-      "title_en": "How success of AI-related companies in South Korea, Taiwan, and Japan is driving stock gains, bigger bonuses, and a retail investing frenzy in Asian markets",
-      "url": "https://www.wsj.com/world/asia/stock-market-ai-chips-taiwan-korea-01b7d385?st=5KAQSi&reflink=desktopwebshare_permalink",
-      "summary_en": "Global success of AI-related companies in South Korea, Taiwan and Japan stokes market fever — Na Se-bin has lost all sense of the value of money.",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
+      "title_en": "SoftBank says it is struggling to find startups in Latin America ready for major investments and has completed only two new deals over the past two years",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-16/softbank-scales-back-latin-america-tech-bets-as-venture-capital-boom-fades",
+      "summary_en": "SoftBank Group Corp. is struggling to find startups in Latin America ready for major investments, underscoring how sharply the tech boom …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260620/i10.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260621/i4.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "How success of AI-related companies in South Korea, Taiwan, and Japan is driving stock gains, bigger bonuses, and a retail investing frenzy in Asian markets",
-      "title_zh": "日韓台 AI 相關企業獲利亮眼，推動股市大漲、獎金攀升與散戶投資熱潮",
-      "summary_zh": "南韓、台灣與日本 AI 企業的全球成功引發市場狂熱，甚至讓散戶投資人對金錢價值產生了錯覺。"
+      "thumbnail_alt": "SoftBank says it is struggling to find startups in Latin America ready for major investments and has completed only two new deals over the past two years",
+      "title_zh": "軟銀表示在拉丁美洲難以尋獲具規模的投資對象，過去兩年僅完成兩筆新交易",
+      "summary_zh": "軟銀集團難以在拉美找到準備好接受大規模投資的新創公司，突顯了當地的科技榮景已大幅降溫。"
     },
     {
-      "title_en": "A look at Russia's push to develop homegrown AI talent, as the country is hampered by scarce access to AI hardware and a brain drain of top technical talent",
-      "url": "https://time.com/article/2026/06/18/russia-ai-putin-chip-us-china/",
-      "summary_en": "Nikita Ostrovsky … In early April, on a stage in the southwestern outskirts of Moscow, a moderator at Russia's annual Data …",
-      "source": "Time",
-      "media_source": "Time",
+      "title_en": "Granta says it will stop publishing short story contest winners or join publishing partnerships it doesn't control after AI use allegations against a winner",
+      "url": "https://www.theguardian.com/books/2026/jun/20/granta-magazine-commonwealth-short-story-prize-ai",
+      "summary_en": "Literary magazine will no longer engage in ‘external publishing partnerships’ after Commonwealth prize furore",
+      "source": "The Guardian",
+      "media_source": "The Guardian",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260620/i6.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260620/i9.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "A look at Russia's push to develop homegrown AI talent, as the country is hampered by scarce access to AI hardware and a brain drain of top technical talent",
-      "title_zh": "俄羅斯積極培育本土 AI 人才，但面臨硬體資源匱乏與頂尖技術人才外流的雙重打擊",
-      "summary_zh": "儘管俄羅斯在莫斯科舉辦年度數據大會展示決心，但缺乏 AI 硬體與人才流失仍是重大阻礙。"
-    },
-    {
-      "title_en": "Sources: Bain Capital stands to make $15B+ in profits on its 2018 Kioxia buyout, a ~20x return, as Kioxia's stock has surged 5,000%+ since its December 2024 IPO",
-      "url": "https://www.ft.com/content/22bc5436-d5a1-4d03-b8c0-5840f1e3a515",
-      "summary_en": "Bain Capital stands to pocket profits of $15bn on 2018 buyout of Kioxia, the former Toshiba Memory",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260620/i1.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Bain Capital stands to make $15B+ in profits on its 2018 Kioxia buyout, a ~20x return, as Kioxia's stock has surged 5,000%+ since its December 2024 IPO",
-      "title_zh": "消息指出：貝恩資本（Bain Capital）在 Kioxia 收購案中獲利超過 150 億美元，投資回報率達 20 倍",
-      "summary_zh": "隨著 Kioxia（前身為東芝記憶體）股價自 2024 年上市後飆升，貝恩資本有望在 2018 年的收購案中大賺 150 億美元。"
-    },
-    {
-      "title_en": "Sources: the UK government is expected to consult as early as this month on rules to make public service news more prominent on social media and video platforms",
-      "url": "https://www.ft.com/content/7f147e35-d2ca-48fe-a886-95721002ce3c",
-      "summary_en": "",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "消息稱：英國政府最快本月就社交媒體與影音平台應優先展示公共服務新聞的規定進行諮詢",
-      "summary_zh": "英國政府預計將研擬規則，讓公共服務新聞在主流數位平台上更具能見度。"
+      "thumbnail_alt": "Granta says it will stop publishing short story contest winners or join publishing partnerships it doesn't control after AI use allegations against a winner",
+      "title_zh": "文學雜誌《Granta》因獲獎者涉嫌使用 AI，將停止公布短篇小說競賽結果並暫停外部出版合作",
+      "summary_zh": "在「大英國協短篇小說獎」引發 AI 爭議後，該雜誌宣布將不再參與無法掌握主導權的外部出版夥伴關係。"
     },
     {
       "title_en": "A look at “humanizer” and “autotyper” apps that help students evade AI-detection software by slowly auto-typing essays and making AI text sound less robotic",
@@ -173,71 +209,44 @@
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
       "thumbnail_alt": "A look at “humanizer” and “autotyper” apps that help students evade AI-detection software by slowly auto-typing essays and making AI text sound less robotic",
-      "title_zh": "解析「擬人化」與「自動打字」App：幫助學生規避 AI 檢測系統，讓 AI 生成內容更自然",
-      "summary_zh": "大科技公司與新創正利用社交媒體推廣新工具，協助學生規避老師與 AI 偵測器的檢查。"
-    },
-    {
-      "title_en": "Paris-based Kyber, which develops a low-latency remote device control SDK and is founded by VLC lead developer Jean-Baptiste Kempf, raised $5M led by Lightspeed",
-      "url": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
-      "summary_en": "You've probably used VLC Media Player, the free video player with the orange traffic-cone icon — it's been downloaded more than 6 billion times.",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260620/i2.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Paris-based Kyber, which develops a low-latency remote device control SDK and is founded by VLC lead developer Jean-Baptiste Kempf, raised $5M led by Lightspeed",
-      "title_zh": "遠端裝置控制 SDK 開發商 Kyber 獲 500 萬美元融資，由 Lightspeed 領投，創辦人為 VLC 核心開發者",
-      "summary_zh": "Kyber 由 VLC 播放器首席開發者創辦，專注於開發低延遲遠端控制技術。"
-    },
-    {
-      "title_en": "Sources: PC makers, including HP, are in talks with their supply-chain partners about using CXMT's memory chips in products bound for Asia as DRAM prices soar",
-      "url": "https://www.wsj.com/tech/why-the-memory-crunch-is-almost-impossible-to-solve-4023cb40?st=dpnVA3&reflink=desktopwebshare_permalink",
-      "summary_en": "Prices soar because capacity isn't growing quickly, while China option is limited by national-security concerns",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260620/i3.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: PC makers, including HP, are in talks with their supply-chain partners about using CXMT's memory chips in products bound for Asia as DRAM prices soar",
-      "title_zh": "供應鏈消息：受 DRAM 價格飆升影響，HP 等 PC 廠商考慮在亞洲市場產品中使用長鑫存儲（CXMT）晶片",
-      "summary_zh": "由於產能增長緩慢導致價格暴漲，PC 製造商正與供應鏈洽談使用中國晶片的可能性，但仍受國安因素考量。"
-    },
-    {
-      "title_en": "Trump says he saw Anthropic last week as a national security threat, but signals relations have since improved because Dario Amodei was “nice” and “smart” at G7",
-      "url": "https://www.axios.com/2026/06/19/trump-anthropic-national-security-the-axios-show",
-      "summary_en": "President Trump reached the point last week of viewing Anthropic as a national security threat …",
-      "source": "Axios",
-      "media_source": "Axios",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260619/i18.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Trump says he saw Anthropic last week as a national security threat, but signals relations have since improved because Dario Amodei was “nice” and “smart” at G7",
-      "title_zh": "川普稱上週曾視 Anthropic 為國安威脅，但在 G7 高峰會後因其 CEO 的表現而改觀",
-      "summary_zh": "川普總統上週一度將 Anthropic 視為國家安全威脅，但隨後表示關係已改善，並稱讚其執行長「聰明且友善」。"
-    },
-    {
-      "title_en": "Nothing co-founder Akis Evangelidis says the phonemaker won't launch a new phone this year in its budget-focused CMF Phone series due to surging memory prices",
-      "url": "https://9to5google.com/2026/06/19/nothing-cmf-phone-ram-costs/",
-      "summary_en": "Nothing's CMF Phone series has released two models thus far and, at least for now, won't be getting a third …",
-      "source": "9to5Google",
-      "media_source": "9to5Google",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260619/i24.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Nothing co-founder Akis Evangelidis says the phonemaker won't launch a new phone this year in its budget-focused CMF Phone series due to surging memory prices",
-      "title_zh": "Nothing 共同創辦人證實，受記憶體價格上漲影響，今年將不會推出 CMF Phone 系列新機",
-      "summary_zh": "Nothing 旗下的平價品牌 CMF Phone 目前已推出兩款產品，但共同創辦人表示，暫時不會有第三款。"
+      "title_zh": "「擬人化」與「自動打字」App 興起：協助學生躲避 AI 檢測軟體，讓生成文字更自然",
+      "summary_zh": "科技大廠與新創公司正利用社群媒體宣傳新工具，讓學生能以此欺騙老師與 AI 檢測器。"
     }
   ],
   "wsj": [
+    {
+      "title_en": "What AI Can’t—or Shouldn’t—Do for You",
+      "url": "https://www.wsj.com/tech/ai/when-ai-more-harm-than-good-519a83e7?mod=rss_Technology",
+      "summary_en": "As companies move quickly to adapt artificial intelligence, there are some areas where it may do more harm than good....",
+      "image_url": "https://images.wsj.net/im-04248056",
+      "image_source": "rss_media_content",
+      "image_credit": "Gregori Saavedra for WSJ",
+      "image_alt": "What AI Can’t—or Shouldn’t—Do for You",
+      "title_zh": "AI 無法（或不應）為你代勞的事",
+      "summary_zh": "隨著企業快速導入 AI，專家指出在某些領域使用 AI 可能弊大於利。"
+    },
+    {
+      "title_en": "Apple’s Price Hike",
+      "url": "https://www.wsj.com/tech/apples-price-hike-886e9491?mod=rss_Technology",
+      "summary_en": "Plus, the hacker sent to calm the U.S. government’s nerves about AI, the surprising benefits of 3-D-printed batteries,  Elon’s $86 billion war chest and more....",
+      "image_url": "https://images.wsj.net/im-39176645",
+      "image_source": "rss_media_content",
+      "image_credit": "Justin Sullivan/Getty Images",
+      "image_alt": "Apple’s Price Hike",
+      "title_zh": "Apple 漲價潮來襲",
+      "summary_zh": "此外還有協助美國政府應對 AI 疑慮的駭客、3D 列印電池的意外效益，以及 Elon Musk 的 860 億美元銀彈等報導。"
+    },
+    {
+      "title_en": "The Smart Way to Shop for Used Phones and Other Gadgets",
+      "url": "https://www.wsj.com/tech/personal-tech/refurbished-electronics-used-phones-bd35320a?mod=rss_Technology",
+      "summary_en": "With prices of new tech on the rise, the refurbished market never looked so good....",
+      "image_url": "https://images.wsj.net/im-75417831",
+      "image_source": "rss_media_content",
+      "image_credit": "Elisa Schu/picture alliance/Getty Images",
+      "image_alt": "The Smart Way to Shop for Used Phones and Other Gadgets",
+      "title_zh": "選購二手手機與各類 3C 裝置的聰明策略",
+      "summary_zh": "隨著新科技產品價格攀升，整新品（Refurbished）市場顯得比以往更具吸引力。"
+    },
     {
       "title_en": "The Memory-Chip Crisis Is Here—and You’re Footing the Bill",
       "url": "https://www.wsj.com/tech/personal-tech/memory-chip-crisis-consumer-electronics-d24cdddf?mod=rss_Technology",
@@ -246,8 +255,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Brian Kaiser/Bloomberg News",
       "image_alt": "The Memory-Chip Crisis Is Here—and You’re Footing the Bill",
-      "title_zh": "記憶體晶片危機來襲：價格全面飆漲，消費者成為最終買單者",
-      "summary_zh": "智慧型手機、遊戲機、筆記型電腦等電子產品價格正持續上漲。"
+      "title_zh": "記憶體晶片危機降臨：消費者將面臨漲價壓力",
+      "summary_zh": "智慧型手機、遊戲機與筆記型電腦等電子產品的價格正全面上漲。"
     },
     {
       "title_en": "The Market’s AI Fanfare Is Running Into a Harsh Political Reality",
@@ -257,8 +266,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Jason Henry for WSJ",
       "image_alt": "The Market’s AI Fanfare Is Running Into a Harsh Political Reality",
-      "title_zh": "市場 AI 熱潮正面臨殘酷的政治現實：Anthropic 的 IPO 前景恐取決於選票而非投資人",
-      "summary_zh": "Anthropic 對於重磅上市的期望，可能與選民的決定及政治局勢息息相關。"
+      "title_zh": "市場的 AI 熱潮正撞上冷酷的政治現實",
+      "summary_zh": "Anthropic 對大規模 IPO 的期待，可能不僅取決於投資者，更取決於選票箱的結果。"
     },
     {
       "title_en": "Why Apple Enjoys Peerless iPhone Pricing Power",
@@ -268,8 +277,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Sarah Yenesel/EPA/Shutterstock",
       "image_alt": "Why Apple Enjoys Peerless iPhone Pricing Power",
-      "title_zh": "為何蘋果（Apple）擁有無可匹敵的 iPhone 定價權？",
-      "summary_zh": "蘋果計劃進一步調升價格，看準其富裕的用戶群願意為裝置支付 1,000 美元以上的溢價。"
+      "title_zh": "為什麼 Apple 擁有無人能及的 iPhone 定價權",
+      "summary_zh": "儘管計畫漲價，Apple 仍看好其富裕的用戶群有能力支付 1,000 美元以上的裝置費用。"
     },
     {
       "title_en": "Secretive Wall Street Powerhouse Jane Street Seizes the AI Spotlight",
@@ -279,8 +288,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Timothy Mulcare",
       "image_alt": "Secretive Wall Street Powerhouse Jane Street Seizes the AI Spotlight",
-      "title_zh": "神祕的華爾街巨頭 Jane Street 搶佔 AI 聚光燈，計畫大規模擴張",
-      "summary_zh": "這家金融巨頭已從少數員工擴張至 3,500 人，並計畫在今年額外招聘超過 500 名員工。"
+      "title_zh": "神祕華爾街巨頭 Jane Street 躍升 AI 焦點",
+      "summary_zh": "該公司規模已從少數員工激增至 3,500 人，並計劃今年再招募超過 500 名員工...."
     },
     {
       "title_en": "Why the Memory Crunch Is Almost Impossible to Solve",
@@ -290,19 +299,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Kim Hong-Ji/Reuters",
       "image_alt": "Why the Memory Crunch Is Almost Impossible to Solve",
-      "title_zh": "為什麼記憶體荒幾乎無解？",
-      "summary_zh": "隨著晶片產能短缺以及國安疑慮限制對中國採購，消費性科技產業正承受極大壓力。"
-    },
-    {
-      "title_en": "The Secret Revolution in Battery Technology: 3-D Printing",
-      "url": "https://www.wsj.com/tech/battery-technology-3d-printing-c319ca9a?mod=rss_Technology",
-      "summary_en": "Startups are attempting to put energy storage anywhere and everywhere....",
-      "image_url": "https://images.wsj.net/im-67393907",
-      "image_source": "rss_media_content",
-      "image_credit": "ESTRELLA/The University of Texas at El Paso",
-      "image_alt": "The Secret Revolution in Battery Technology: 3-D Printing",
-      "title_zh": "電池技術的秘密革命：3D 列印",
-      "summary_zh": "新創公司正嘗試將儲能技術應用在各個角落，實現無處不在的電力存儲。"
+      "title_zh": "為什麼記憶體荒幾乎無解",
+      "summary_zh": "隨著晶片產能不足以及國家安全疑慮限制從中國採購，消費性科技產業正遭受擠壓...."
     },
     {
       "title_en": "AI Warfare Is at the Point of No Return. What Now?",
@@ -312,8 +310,8 @@
       "image_source": "rss_media_content",
       "image_credit": "WSJ",
       "image_alt": "AI Warfare Is at the Point of No Return. What Now?",
-      "title_zh": "AI 戰爭已到不歸路，接下來該如何應對？",
-      "summary_zh": "在新的行政命令、與 Anthropic 的衝突以及高科技戰爭的壓力下，美國正陷入一場全球難以掌控的 AI 軍備競賽。"
+      "title_zh": "AI 戰爭已到不歸路，接下來該怎麼辦？",
+      "summary_zh": "在新的行政命令、與 Anthropic 的衝突以及高科技戰爭之間，美國正跌入一場全球難以掌控的 AI 軍備競賽...."
     },
     {
       "title_en": "Google Is Using Nvidia’s Playbook to Build a Rival AI Chip Business",
@@ -323,30 +321,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Karl Mondon/Agence France-Presse/Getty Images",
       "image_alt": "Google Is Using Nvidia’s Playbook to Build a Rival AI Chip Business",
-      "title_zh": "Google 效法 Nvidia 策略，打造競爭對手 AI 晶片業務",
-      "summary_zh": "身為全球市值第二大公司，Google 正動用其龐大資金為自家晶片爭取資料中心客戶，借鑒產業龍頭的成功模式。"
-    },
-    {
-      "title_en": "States Are Betting That AI Can Solve the Prison Recidivism Crisis",
-      "url": "https://www.wsj.com/tech/ai/recidivism-prisons-ai-recidiviz-5be3fbe6?mod=rss_Technology",
-      "summary_en": "With many former inmates returning to prison within three years, corrections departments are ditching paper files for digital dashboards....",
-      "image_url": "https://images.wsj.net/im-80843285",
-      "image_source": "rss_media_content",
-      "image_credit": "Dave Cole/WSJ, iStock (2)",
-      "image_alt": "States Are Betting That AI Can Solve the Prison Recidivism Crisis",
-      "title_zh": "美國各州寄望 AI 能解決監獄再犯危機",
-      "summary_zh": "鑑於許多更生人在三年內再次入獄，矯治部門正捨棄傳統紙本檔案，轉向使用數位化管理儀表板。"
-    },
-    {
-      "title_en": "This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It",
-      "url": "https://www.wsj.com/health/healthcare/ai-doctors-utah-374653c8?mod=rss_Technology",
-      "summary_en": "Utah’s pilot program to have artificial-intelligence chatbots refill prescriptions has angered doctors who worry it isn’t safe....",
-      "image_url": "https://images.wsj.net/im-77988541",
-      "image_source": "rss_media_content",
-      "image_credit": "Daisy Korpics/WSJ, iStock",
-      "image_alt": "This State Is Testing Out AI Doctors—and Actual Doctors Aren’t Happy About It",
-      "title_zh": "該州正測試 AI 醫生——引發執業醫師強烈不滿",
-      "summary_zh": "猶他州一項由 AI 聊天機器人處理續藥處方箋的試點計畫，激怒了擔心醫療安全的醫師。"
+      "title_zh": "Google 正沿用 Nvidia 的策略打造競爭對手的 AI 晶片業務",
+      "summary_zh": "身為全球市值第二大的公司，Google 正動用其雄厚財力為其晶片爭取數據中心客戶，以此借鑒龍頭廠商的成功經驗...."
     }
   ],
   "deep_analysis": {
@@ -429,15 +405,15 @@
       "content_mode": "ai_analysis"
     },
     "Lenny's Newsletter": {
-      "title": "社群智慧：非全職 CPO 薪酬、電子簽名工具與 Claude Code 團隊協作實務",
+      "title": "Fiona Fung 訪談：如何打造全球最「AI 化」的工程團隊",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-06-20",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation",
-      "analysis_zh": "這篇分析整理自 Lenny's Newsletter 最新的社群精華「Community Wisdom 190」，由社群編輯 Kiyani 彙整。該系列一向以集結全球頂尖產品經理、創業者與技術領導者的實戰經驗著稱，本週重點聚焦在「非全職高階主管（Fractional Leadership）」的薪酬結構、SaaS 產品中的「幽靈用戶」心理，以及如何在團隊中有效共用 AI 開發工具（Claude Code）的脈絡。\n\n### 全文大意摘要：產品管理與營運效能的實戰經驗彙編\n\n這份社群智慧報主要處理了當前產品圈最關注的幾個實務議題：首先是在初創企業中愈發流行的「非全職 CPO（Fractional CPO）」職位，社群成員討論了這類顧問式高階職位在薪資與股權上的合理配置；其次探討了 SaaS 領域的一個核心痛點——為什麼有些用戶願意付費卻從不登入使用，這背後涉及了用戶心理與產品價值的錯配；最後，報中也分享了針對 Anthropic 推出的 AI 開發工具 Claude Code，團隊該如何共享上下文環境以提升開發效率，並列舉了多款高性價比的電子簽名工具，為資源有限的團隊提供決策參考。\n\n### 戰略背景與脈絡：人才彈性化與 AI 介入開發流程的新常態\n\n這份討論反映了 2026 年科技產業的兩個重要背景。第一是「人才供應結構」的改變，在經濟不確定性與遠端協作成熟的環境下，企業不再執著於招募全職高階主管，而是傾向以「非全職」模式聘請資深人才來協助定調產品戰略，這導致了市場對這類角色的薪酬定價產生了迫切的需求。第二是「AI 協作的深化」，當開發團隊開始大規模採用 Claude Code 等 CLI 工具時，挑戰已不再是 AI 能不能寫程式，而是多個開發者之間如何同步 AI 的「上下文記憶」，避免重複解釋背景資訊，這代表 AI 工具正從個人生產力轉向團隊生產力階段。\n\n### 作者的核心推論與觀點：實務操作中的權衡與工具選擇邏輯\n\n針對非全職 CPO 的報酬，社群成員的共識傾向於「基本時薪/月薪加績效獎金」的組合，而非傳統全職的複雜股權架構，這樣能確保初創公司在控制成本的同時獲得高品質的決策指導。在討論「付費卻不使用」的現象時，觀點指出這通常源於「購買時的理想自我」與「日常操作的摩擦力」之間的矛盾，這類用戶雖然短期內貢獻了營收（LTV），但長期而言是極高的流失風險（Churn Risk），產品經理必須主動介入解決「啟動門檻」而非僅僅關注註冊率。\n\n此外，對於 Claude Code 的團隊共享問題，社群中提出的解決方案更強調「上下文工程」的標準化。透過建立共用的設定檔或環境變數，讓團隊成員在切換開發任務時能無縫承接 AI 的理解狀態。這顯示出目前的技術領導者已意識到，AI 協作的瓶頸往往在於人類如何傳遞背景資訊，而非 AI 本身的邏輯運算能力。最後，針對電子簽名工具的選擇，討論中強調了「去壟斷化」的趨勢，當 DocuSign 等主流工具價格攀升，市場上出現大量免費或低成本的 API 串接選擇，這反映出基礎辦公工具已完全進入「紅海商品化」階段。\n\n### 對市場、技術與政策環境的長期影響：高階人才市場與 AI 工具鏈的版塊挪移\n\n長期來看，非全職高階職位的普及將會重塑「職業發展」的定義。資深產品經理不再只有「升職」或「創業」兩條路，而是可以同時為多家公司提供戰略服務，這將加速產業經驗的流動，但也可能導致初創企業在執行層面的碎片化。在技術面上，Claude Code 等工具的實踐分享，暗示了未來軟體工程將會出現專門的「AI 脈絡管理員」角色或工具，用以維護團隊與 AI 之間的知識傳承。\n\n從商業模式的角度觀察，對「幽靈付費用戶」的深入探討，可能會促使 SaaS 廠商從「訂閱制」轉向更精確的「耗用制（Usage-based）」或「成果導向（Outcome-based）」定價。當市場越來越透明，僅靠用戶「忘記取消訂閱」來維持營收的模式將難以長久。至於電子簽名等工具的商品化，也代表基礎企業軟體（Horizontal SaaS）的價格競爭將進入白熱化，未來的產品溢價必須建立在更深層的業務邏輯整合，而非單純的功能提供。",
+      "article_date": "2026-06-21",
+      "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
+      "analysis_zh": "這篇深度訪談來自知名的科技電子報 Lenny's Newsletter，受訪者是 Anthropic 的工程主管 Fiona Fung。她目前負責帶領 Claude Code 與 Cowork 團隊，在加入 Anthropic 之前，她在 Microsoft 與 Meta 擁有超過 25 年的深厚資歷，曾參與 Visual Studio 與 TypeScript 的開發。訪談的核心在於探討 AI 如何徹底改變軟體工程師的工作模式，以及 Anthropic 如何讓團隊的程式碼產出量達到過去的 8 倍。\n\n### 全文大意摘要：AI 驅動的軟體工程革命與產能飛躍\n\nFiona Fung 詳細說明了 Anthropic 內部如何建立一套「AI 原生」的工程團隊文化。她指出，目前的 Anthropic 工程師平均每季產出的程式碼量，是 2021 到 2025 年期間的 8 倍。這不只是開發速度變快，而是從程式碼撰寫、測試到管理流程的全面重構。訪談涵蓋了 AI 轉型下的新職能、管理自動化的實踐，以及目前 AI 技術尚未解決的最核心挑戰，如上下文切換與推理穩定性等問題。\n\n### 戰略背景與脈絡：從傳統開發模式轉向 AI 原生的軟體工業\n\nFiona Fung 的職業生涯經歷了從 Microsoft 時代的傳統 IDE，到現在 AI 自動編程的質變。在過去幾十年，軟體工程的產能提升往往依賴於更好的程式語言或編譯工具，但成長曲線相對平緩。然而，Anthropic 的數據顯示，當團隊深度整合 AI（即所謂的 AI-pilled）後，產能出現了非線性的爆發。這背後的產業背景是 AI 已經從單純的代碼補完工具，演進到能夠理解專案全貌並執行複雜任務的「虛擬成員」。這迫使軟體公司必須重新思考開發流程，否則將在效率競爭中迅速落後。\n\n### 作者的核心推論與觀點：經理人的角色將轉變為系統編排者\n\nFiona 認為 AI 時代的工程管理不再是追著工程師問進度，而是要建立一套能與 AI 協作的「例行程序」（routines）。她分享自己如何利用 Claude 來處理日常管理任務，例如摘要會議、過濾重要資訊與追蹤技術決策。她提出一個關鍵觀點：當程式碼撰寫不再是瓶頸時，工程師的核心價值將轉向「架構設計」與「問題定義」。然而，她也冷靜地指出，目前 AI 最大的痛點在於處理複雜任務時的「上下文切換」成本，以及人類大腦如何適應被 AI 大幅加速後的資訊流與決策節奏。\n\n### 對市場、技術與政策環境的長期影響：軟體開發將從勞力密集轉為策略密集\n\n這種 8 倍產能的提升將對全球軟體產業產生深遠影響。首先，軟體開發的進入門檻會進一步降低，但對高階架構師的需求會變得極度迫切，因為系統的複雜度將隨著產出量增加而呈幾何級數成長。其次，企業的團隊編制可能會變得更小、更精悍，一個具備 AI 協作能力的工程師能抵過過去一個小組。長期來看，這會改變科技公司的成本結構，原本昂貴的人力研發支出將部分轉向算力成本，而競爭的核心將在於誰能更精準地利用 AI 快速驗證商業假設，而非只是「把東西做出來」。",
       "insights": [
-        "非全職 CPO 的興起象徵著「經驗即服務（Experience as a Service）」的成熟，企業更看重資深人士的決策框架而非全天候的出席紀錄。",
-        "付費卻不使用的用戶是產品的「定時炸彈」，這類用戶往往是因為在入職導覽（Onboarding）階段未被成功引導至「Aha Moment」，即便付費也無法產生長期忠誠度。",
-        "AI 工具如 Claude Code 的競爭力正從「程式碼生成質量」轉移到「上下文共用的便捷性」，能在團隊內部無縫流轉 AI 背景資訊的公司將獲得顯著的開發速度優勢。"
+        "8 倍的程式碼產能增長顯示，軟體開發的瓶頸已從「寫程式」轉移到「需求定義」與「架構審查」，企業必須重新評估工程人才的技能組成。",
+        "AI「例行程序」能將管理層從瑣碎的行政與進度追蹤中解放，讓經理人有更多時間進行高階戰略對齊與人才輔導。",
+        "「上下文切換」是目前 AI 協作中最難攻克的門檻，這顯示未來成功的 AI 工具必須能更無縫地管理不同任務間的邏輯關聯，而非只是執行單一指令。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -451,47 +427,29 @@
       "content_mode": "full_text_import"
     },
     "HackMD：停損王SLKing": {
-      "title": "Dwarkesh Patel：AI 進步的核心驅動力是資料，不是演算法",
+      "title": "蔡崇信：AI 的 TAM 是 50 兆美元，全棧佈局是阿里巴巴的核心戰略",
       "source": "HackMD：停損王SLKing",
-      "article_date": "2026-06-20",
-      "url": "https://hackmd.io/rypt5YmfGx",
-      "analysis_zh": "原始影片：The data black hole at the center of AI (https://youtu.be/4pG3SJQPAwk?si=zWqixSWWs9TA6jPO) | Dwarkesh Patel | 2026-06-19\n\n### 導言\n\nDwarkesh Patel 是知名的 AI 領域 Podcast 主持人與獨立研究者，長年與 AI 研究者、實驗室負責人深度對談。這部影片的內容對應他的同名部落格文章〈The data black hole at the center of AI〉，核心論點是：外界對 AI 能力的驚嘆，往往忽略了模型背後「資料黑洞」的規模。AI 真正的進步引擎不是演算法突破，而是資料規模的擴張與品質的提升，這對 AI 研究的投資與策略判斷有直接意涵。\n\n### 智慧的本質：樣本效率是核心問題\n\nPatel 開宗明義定義智慧：「其中一個定義是樣本效率，也就是說，你在一個特定領域需要多少資料才能流暢且勝任地運作？」\n\n他說：「過去幾年訓練樣本效率這件事的進步其實沒那麼大，反而更像是把資料分佈大幅拓寬和改善了。AI 變強的主要方式，一直都是加入更多、更好的資料，並擴大運算規模去處理那些資料。」\n\n### RL 是一種合成資料生成機制\n\nPatel 解釋強化學習（RL）在這套體系中扮演的角色：「你可以把 RL 想成一種合成資料生成：投入大量運算對上一個驗證器（verifier），或如果你有 LLM 當評審的話就是評分量表（rubric），目的是先找出哪些才是好資料。然後你訓練模型去預測這些正確的輸出軌跡，方法跟訓練模型預測網路文字的下一個 token 差不多。」\n\n但這個過程有個關鍵前提：「模型必須至少對正確解法有一些先驗機率能預期到，這就是為什麼你在每個想要模型勝任的領域和技能上，都需要海量的人類專家示範軌跡。」\n\n### 人類專家資料的規模與產業現實\n\nPatel 用 Mercor 和 Surge 等資料標註平台上的職缺描述，說明這份工作的精細程度遠超外界想像。「有 Word 專家的職缺，工作內容是把舊文件轉成漂亮的 Word 檔；有法律專家要寫逼真的 M&A 盡職調查報告或證券申報文件；也有管理顧問要寫範本型的市場研究報告。」\n\n他不只強調資料的領域特定性，更強調規模：「每一項技能至少需要數百名人類專家，負責生成範例、撰寫評分量表、解釋他們的思維鏈。」「這就是為什麼生產這些專家標註的資料產業，以及讓這些技能得以凝聚的 RL 環境，現在每年有數十億美元營收，很快會達到數百億美元。」\n\nPatel 用一個比喻說明資料需求有多荒謬：「想像一下，如果你要花幾十年的課程、幾百位教授同時教、加上幾百萬個練習題，才能學會怎麼把 Word 檔案修漂亮。光是在任務數量上的差距其實還低估了鴻溝，因為模型還得反覆磨這些更大量的任務，而且每個都更難。」他進一步解釋：「一個人類學生可能對同一個教科書題目練一兩次，但用 GRPO 的時候，這些模型每個任務要生成數百到數千條軌跡，否則解不了信用分配問題。」\n\n他用一句話總結對這些模型的正確理解方式：「把這些模型想成一個學會了你看到的所有技能的人類是不對的。更準確的比喻是，它像是一個科學怪人，由十億個精心構造的範例嫁接縫合而成。」\n\n### 開源模型能快速追上的原因：資料是真正驅動力\n\nEpoch AI 最近報告指出，開源模型落後最前沿模型約四個月。Patel 認為這反而印證了他的論點：「開源和過去的落後者相對容易在幾個月內追上最前沿，我覺得原因是資料才是真正的進步驅動力。而資料可以輕易地從公開 API 蒸餾出來，但超參數、訓練技巧和架構優化沒辦法這樣做。如果是後者在驅動大部分進步，追趕會比我們觀察到的難得多。」\n\n### 人類與 AI 的資料量對比：百萬倍差距\n\n在進入具體數字前，Patel 先把核心比喻講清楚：「我們很容易忘記這些模型訓練用的資料量有多大，比我們人類一生看到的多出多少。我們把這些 AI 看成一片閃爍著能力光芒的星系，但在它的正中心，肉眼看不見、把所有星座維繫在一起的，是一個大到無法想像的資料黑洞。」\n\n接著他用三組對比說明樣本效率差距之大。第一組是語言資料量：「一個人平均每小時看到的口語和文字，假設慷慨一點算 2,000 字好了，那從出生到成年，總共約 2 億個 token。相比之下，這些最前沿模型訓練用了幾十到幾百兆個 token，差距將近百萬倍。」\n\n第二組是機器人遙操作：「如果你想，你可以學會在幾小時內遙操作任何一個人形機器人或機械手臂。如果我們能讓 AI 學得一樣快，機器人學會是一個數十兆美元的產業，到處都有 Unitree G1 機器人在做事。但我們做不到這件事，是因為我們的 AI 學得比人類沒效率得多，就算我們蒐集了幾百萬小時的示範資料，這對讓它們執行複雜、開放式任務來說還是不夠。」\n\n第三組是自動駕駛：「一個青少年大概練 20 小時就會開車了。就算把他 16 年來建立世界理解和物理直覺的過程都算進去，所需的資料還是比 Waymo 和 Tesla 訓練自駕車模型少了三到四個數量級。」\n\n### 第一個反駁：演化已經預訓練了我們\n\nPatel 預先處理三個常見質疑。第一個是 Andrej Karpathy 在訪談中提過的演化預訓練論點：「很多人會說，人類幾十億年的演化基本上是在預訓練我們，所以拿人類一生看到的資料量去跟從零開始的 LLM 比較不公平。」\n\n他的回應是：「我們的基因組只有 3 GB，其中只有 1 到 2% 是蛋白質編碼區，根本沒有足夠的空間去存演化『預訓練』出來的神經網路參數。比較恰當的類比是，演化找到了對的超參數和對的損失函數，而在我們一生之中，大腦的連結組（connectome）仍然是從零開始建構的，也就是類比神經網路權重和參數的那個東西。」\n\n退一步說：「就算你接受這個比較，說模型預訓練用的幾十兆 token 只是為了追上演化，那也無法解釋為什麼你想給這些模型新增任何一項邊際能力，都還是需要這麼多資料。一旦你受完教育，你學新程式語言不需要一百個不同的教授來教你。但這些 AI，就算預訓練完，要學下一個新技能、下一個再下一個新技能，都還需要海量資料。」\n\n### 第二個反駁：人類的多模態感官資料被忽略了\n\n第二個質疑是感官資料沒算進去：「我們沒有把多模態資料算進來。如果把從出生到成年的所有感官資訊都加進去，應該有幾百億到幾千億個 token 的資料。」\n\nPatel 的反駁：「盲人或聾人切斷了部分感官輸入，卻仍然擁有通用智慧。這件事讓我覺得，這些幾十億個感官 token 並不是讓人類變聰明的關鍵。事實上，用手語和閱讀溝通而不靠聽覺的聾人，他們攝取的語言 token 可能遠少於我們前面估的 2 億，這代表前面算出來百萬倍的差距可能還低估了。」\n\n### 第三個反駁：只要模型再大一點就能達到人類的樣本效率\n\n第三個質疑是擴展規模論：「我們有 scaling laws 啊，模型越大不是越有效率嗎？人類大腦約有 100 兆個突觸，現在最前沿模型才約 5 兆參數，所以只要把模型再做大一兩個數量級，不就能達到人類級別的樣本效率了嗎？」\n\nPatel 從 scaling law 方程式的結構本身反駁：「如果你看 scaling law 方程式的寫法，參數項和資料項是獨立地加到 loss 上的。假設你有一個模型，compute-optimal 訓練好了，你說：『我要高樣本效率，盡量少用資料，必要時我塞多少參數都行。』照 Chinchilla 論文裡的常數，就算你把參數量增加到無窮大，要把資料量維持在同樣的 loss，也只會減少十倍。但人類比這些模型有效率幾千到幾百萬倍，所以光靠擴大現有模型的規模，根本補不上這個差距，這確實暗示人類走的是一條完全不同的 scaling 曲線。」\n\n### 為什麼樣本效率重要：白領自動化的邏輯\n\nPatel 回到核心問題：「撇開這些 nerd 對比，我們為什麼要在意樣本效率？這對實驗室達成兩大目標，也就是自動化白領工作和自動化 AI 研究本身，是必須的嗎？」\n\n他先處理白領自動化這條線：「實驗室對白領工作的賭注是，軟體工程師、分析師、會計師需要做的常見任務是共通的，因此你可以很輕易地把這些任務納入訓練分佈。如果你看這些實驗室近幾個月的營收曲線，這確實顯示把這類常見任務納入分佈，帶來了巨大價值，就算我們沒辦法複製讓人類學習那麼有效率的那些東西。」\n\n他接著點出 AI 的關鍵優勢：「訓練 AI 做這類任務可能比訓練人類還沒效率，但那又怎樣？人類的壽命根本無法承受模型所經歷的那種訓練量和訓練廣度。如果你這個人類有個怪毛病，得讀完 GitHub 上所有公開的程式庫才能當稱職的軟體工程師，那訓練你根本劃不來，你教育階段的初期就在領社會福利了，就算你訓練完，一次也只能做一個專案。但 AI 可以用幾十億瓦的訓練算力一次猛灌學會這些技能，而且學會的東西可以在幾十億次使用中分攤成本。所以就算訓練過程荒謬地沒效率，我們還是賺翻了。」\n\n但他對軟體工程這門職業持保留態度：「白領工作中到底有多少是需要超出分佈的推理，這個問題對不同工作有不同的答案。有些工作機械又可預測，我們在現代 AI 之前就已經自動化掉了，例如銀行櫃員或旅行社。但有些工作需要每天處理遠離資料分佈的問題。我覺得軟體工程可能是後者。AI 據說會先拿下這個職業，但我敢打賭，到了 2028 年人類軟體工程師的整體需求會比現在還多，很大程度上是因為 AI 的互補性投入。」\n\n### AI 研究的自動化：智慧爆炸的想像\n\n針對後一類工作，Patel 指出實驗室的策略是「先自動化 AI 研究，再讓自動化的 AI 研究者解決樣本效率問題。」他提出一個更深層的問題：「沒有達到人類級樣本效率的 AI，能不能自己解決剩下的研究難題，達到人類般的智慧和學習？」\n\n他預告這會是下一篇長文的重點，但先點出一個他認為目前討論的盲點：「我覺得現在大家談智慧爆炸的方式很粗糙，不是有人直接否認 AI 能加速 AI 進步這件事，就是假設會有某種神從另一端蹦出來。大家沒有仔細去想，如果有一段時期 AI 進步速度比平常快得多，但這件事是疊加在 LLM 和 LLM 那種特定智慧形式上會長什麼樣子。」\n\n### 結語\n\nPatel 在影片中建立的論點是：AI 能力的光環背後，是一個規模遠超人類終身經驗的「資料黑洞」，而樣本效率仍是當前 LLM 架構的根本瓶頸。對投資人而言，這意味著資料標註、RL 環境建置等「AI 工業化」的環節，將持續是支撐前沿模型能力的關鍵基礎設施，其市場規模也將隨模型迭代繼續擴大。\n\n本文根據 YouTube 影片內容整理，僅供參考。",
+      "article_date": "2026-06-21",
+      "url": "https://hackmd.io/HkH-x5rffe",
+      "analysis_zh": "原始影片：Joe Tsai on the Future of AI (https://youtu.be/15lA766Jy4c) | Alibaba Group | 2026-06-19\n\n### 導言\n\n蔡崇信（Joe Tsai）是阿里巴巴的共同創辦人暨現任董事長，1999 年與馬雲一同在杭州創立公司，從 B2B 電商到淘寶、從雲端運算到 AI，阿里每一次轉型他都在場。在 2026 年 6 月的 VivaTech 大會上，他與法國《Les Echos》的 Christophe Jakubyszyn 對談，談的是阿里巴巴在 AI 時代的定位、Qwen 開源模型的策略意義，以及 AI 將如何重塑全球生產力。\n\n這場對談的投資意涵很直接。阿里巴巴把 AI 的總可達市場（TAM）定為 50 兆美元，相當於全球 GDP 的一半，並用電商業務每年 250 億美元的自由現金流來支撐 AI 投資。蔡崇信也明確表態，開源模型是切入歐洲市場、避開美中地緣政治風險的關鍵。\n\n### 阿里巴巴的歷史與電商基本盤\n\n對談一開始，Christophe 問起阿里巴巴的演變，蔡崇信從 1999 年講起。\n\n他說：「阿里巴巴 1999 年起步時是一個 B2B 交易市場。當時的商業模式很簡單，我們把中國的小型製造商和貿易公司放到網路上，讓他們批發銷售到全世界。那正好趕上中國進入 WTO 的前夜，出口業務即將起飛。後來我們進入消費者 B2C 業務，推出了淘寶，今天它是中國最大的消費電商平台。」\n\n談到規模，他說：「我們服務 8.2 億中國消費者。順帶一提，這個平台每年幫助歐洲企業和品牌向中國消費者銷售 300 億歐元的商品。」\n\n阿里早在 17 年前就開始投資雲端技術，蔡崇信說這是出於必要：「我們從電商業務每天要管理大量資料和交易，如果繼續依賴別人的資料庫和儲存技術，最後會把所有利潤都付給技術供應商。於是我們開始開發自己的專有技術來管理這些資料，雲端業務就是這樣誕生的。我們是先吃自己的狗糧，自己用過之後，才把這個服務拿出來提供給第三方客戶。」\n\n電商仍是阿里的根基。蔡崇信表示，電商業務佔營收的 80% 以上，而這正是 AI 投資的資金來源：「阿里巴巴是少數擁有核心電商業務的公司之一，我們的電商業務每年產生 250 億美元的自由現金流，可以用來支撐 AI 投資。所以我們其實是市面上處境最好的公司之一。」\n\n### AI 的 TAM 與生產力信仰\n\n被問到 AI 是否真的能帶來生產力提升時，蔡崇信先承認現狀：「很多企業 CEO 會告訴你，他們的工程師燒了很多 token，成本一直漲。我覺得我們正處於真正生產力收益的臨界點。現在很多人還在實驗階段。我們在自己公司裡也看到，有些工程師是超級用戶，會用程式設計工具，他們不只做自己領域內的工作，還拿去做別的實驗，因為你給工程師玩具，他們一定會玩個不停，而且他們沒意識到其實是公司在付錢。」\n\n他隨後把問題拉到宏觀層面，給出了一個極大的數字：\n\n他說：「如果今天你問我 AI 市場有多大、需求如何、總可達市場是多少，我會告訴你，它比任何公司的 IT 預算都大得多，也比軟體市場大得多。因為 AI 是什麼？AI 是生產人類智能和人類生產力的單位。你看全球 GDP，100 多兆美元，其中至少一半，大約 50 兆美元，來自於人的生產力和人的智能。那就是 AI 的 TAM，這就是我們 all in AI 的原因。」\n\n他用一個很個人的類比來總結這個信念：「這有點像宗教。我不打算說服你們所有人這件事一定會發生，但我們相信它會發生。」\n\n### 全棧佈局戰略\n\nChristophe 接著問阿里在 AI 價值鏈的哪一層佈局最深，蔡崇信給出橫跨四層的答案：\n\n他說：「我們至少涉足 AI 的四個層次。最底層我們不做能源，在中國，能源其實效率很高、成本很低，中國政府過去 15 年投入建設國家電網，讓能源的生產和輸送對所有用戶都非常高效。但從底層往上，我們涉足晶片、雲端基礎設施，還有模型。我們的 Qwen 模型是全球最受歡迎的開源模型之一。然後在應用層，我們有電商生態系、線上購物、生鮮外送、旅遊、地圖等等，都可以在其中注入 AI 為用戶提供服務。」\n\n他特別強調全棧的戰略意義：\n\n他說：「我們認為全棧佈局帶來巨大好處，因為沒有人能告訴你價值最終會落在哪一層。是晶片？雲端？還是模型？現在模型公司和純模型公司很熱，似乎在吸收大量價值，但長期來看未必如此。所以，採取涉足全棧的整合式佈局對我們來說非常有意義，這是我們的核心戰略。」\n\n### 基礎建設投資與產能問題\n\n被問到美國超大規模雲端業者每年超過 8,000 億美元的資本支出是否會造成泡沫時，蔡崇信先承認數字確實驚人：\n\n他說：「美國四大或五大超大規模雲端業者合計將投資超過 8,000 億美元的資本支出，明年會超過一兆美元。這種資本支出的規模確實很嚇人。人們自然會問是否會有產能過剩。」\n\n但他隨即把這個擔憂放進 50 兆美元的 TAM 框架裡：\n\n他說：「但就像我說的，我們要攻克的是 50 兆美元的總可達市場，所以我們保持樂觀。在中國的脈絡下，我們在基礎設施和 AI 供應鏈上的投資其實是嚴重不足的，所以中國所有公司其實都應該加大投資。顯然我們的投資規模比不上美國超大規模業者，但仍然非常可觀。」\n\nChristophe 追問為什麼不投入更多，他回到現金流的現實約束：「有時候你會被資本限制，被你產生的自由現金流限制。幸運的是，阿里巴巴是少數擁有核心電商業務的公司之一。」\n\n### 開源模型與歐洲主權\n\n對談的後半段，蔡崇信用大量篇幅談開源模型的戰略意義，尤其是對歐洲客戶的價值。他先做了一個謙遜的開場：\n\n他說：「我覺得 Maurice 把開源運動的功勞歸到我頭上太客氣了，這完全不是事實。我會說，阿里巴巴的同事們過去幾年一直在推動開源運動，把前沿模型推向開源，取得了很高的成功，我們會繼續做下去。」\n\n接著他談到歐洲市場的核心關切，主權（sovereignty）。他在歐洲待了幾週，與企業 CEO 和科學家交流，發現主權是熱門關鍵字，但「如果你問 10 個歐洲人主權是什麼，你會得到 12 種答案」。他認為主權歸根究柢是兩件事：\n\n他說：「一是技術獨立。大家都很擔心 kill switch，依賴其他國家的技術，他們可能會關掉開關。我們最近幾天剛剛看到一個非常鮮活的例子。二是資料隱私。人們希望能夠使用 AI、使用技術，用屬於自己的專有資料，在自己的環境裡運作，築起防火牆保護自己的資料。我認為開源同時解決了這兩個問題，因為它基本上是一個免費的軟體，你可以下載到自己的資料中心。你可以把我們的開源 Qwen 模型下載到自己的筆電，這完全獨立於原始開發者。」\n\n他補充開源對企業的實際操作意義：\n\n他說：「你可以拿著開源模型，用自己的資料進一步訓練、微調、做 post-training，把所有資料完全保留在自己的防火牆內。我認為這是歐洲企業需要認識到的一個非常重要的一點：開源是實現一定程度主權的途徑之一，我不是說它是萬靈丹。今天開源運動其實是由中國公司在推動的。所有美國玩家都是閉源的，他們希望你透過 API 使用他們的模型，你根本不知道你的資料去了哪裡。當你在跟聊天機器人對話時，你所有最私密的問題和告解都進入了某個資料池，被用來進一步訓練他們的模型。你完全不知道那些資料去了哪裡。」\n\nChristophe 追問：歐洲怎麼能信任中國，萬一中國有一天也切斷存取怎麼辦？蔡崇信的回答很直接：\n\n他說：「你不能信任。簡短的回答是，你不能依賴第三方政府保證他們不會做出對你不利的事。但問題是，現在你所有的雞蛋都在同一個籃子裡，為什麼不找第二個籃子？把雞蛋放在兩個籃子裡。雖然歐洲長期可能會發展出自己的籃子，但至少現在你有兩個籃子可以放雞蛋。」\n\n### 與歐洲企業的合作案例\n\n蔡崇信隨後列舉了阿里雲與德國製造業的合作：\n\n他說：「這些德國製造業企業非常出色。他們都是阿里雲在中國業務的客戶。我們在設計、測試、品質管控等製造環節跟他們合作。我們認為這在未來會是非常有趣的細分市場，因為今天 AI 的應用大多在消費者端，比如 ChatGPT，或者專注於程式設計和知識工作者的 Claude。但在未來，這些製造業企業會擁有非常寶貴的、屬於自己的製造過程資料，這些資料品質非常高，可以用來訓練自己的模型，改善製造流程。這就是我們跟這些公司採取的路徑。」\n\n他補充更多案例：「你提到了 BMW、Siemens，我們也跟 Bosch 合作。上週我出席了 Bosch Connect World Conference，我們跟他們合作是因為他們用 AI 來開發輔助駕駛和自動駕駛，這需要大量的運算資源。」\n\nChristophe 問到最近美國禁止 Anthropic 某個模型的事件是否對阿里來說是機會。蔡崇信的回答分為兩種商業模式：\n\n他說：「一種方式是企業直接拿我們的開源模型，部署到自己的基礎設施，如果他們有自己的資料中心的話。我們的基礎設施是和模型一起開發的，所以我們其實擁有最高效的基礎設施之一來幫助人們訓練模型。如果他們用我們的開源模型，也可以向我們買運算資源。所以模型和基礎設施之間是共生的關係。另一種方式是，現在出現了一些推論平台，提供多種模型供選擇，你不必只用一個，也可以用別人的。它們也可以存取閉源模型，只要模型開發者和推論平台之間有協議，在私有環境中開放權重。用戶就可以到這些推論平台上使用模型。」\n\n### AI Agent 與未來生活\n\n對談最後談到 AI Agent 對人類生活的影響。蔡崇信講了一個當天早上在阿里巴巴巴黎辦公室裡發生的故事：\n\n他說：「今天我跟我們阿里巴巴巴黎辦公室的同事聊天，我們剛搬進一棟漂亮大樓的辦公室，大概在二樓或三樓。我望向窗外，有一間咖啡館。人們坐在咖啡館戶外區，因為天氣很好，玩得很開心。我指著他們跟同事說，這就是 AI 的未來。你可能覺得他們在喝咖啡、享受時光，什麼都沒做、沒有生產力，但事實是他們部署了 Agent 在幫他們工作。所以當你睡覺的時候，你的 Agent 還在為你工作。想想 24 小時全年無休的生產力收益。」\n\n他進一步延伸這個願景：\n\n他說：「我認為 AI 絕對會釋放人們的時間，讓人們享受生活、陪伴家人、做更多娛樂。這就是我非常看好現場娛樂的原因。當人們在辦公室待的時間減少了，他們想去哪裡？他們不想只是待在家裡，他們想去聽演唱會，想去看足球賽，想去看籃球賽。」\n\nChristophe 說這對法國人是好消息，因為他們本來就想少工作。蔡崇信回應：「很多人現在正專注在世界盃上。中國工程師會工作很多時間，即使有 Agent、有 AI。但我覺得我們大多數人都希望能享受一點生活，能有更多時間陪家人。」\n\n### 結語\n\n蔡崇信在這場對談中給出了一個很清晰的阿里巴巴 AI 戰略框架：用電商業務每年 250 億美元的自由現金流支撐 AI 投資，覆蓋晶片、雲端、模型、應用四個層次，以全棧佈局對沖價值集中風險。開源模型則是切入歐洲市場、化解主權疑慮的途徑，目標對標的是全球 50 兆美元的生產力市場。\n\n本文根據 YouTube 影片內容整理，僅供參考。",
       "insights": [],
       "content_mode": "full_text_import",
-      "source_id": "rypt5YmfGx"
+      "source_id": "HkH-x5rffe"
     }
   },
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
       "source": "Lenny's Newsletter",
-      "title": "社群智慧：非全職 CPO 薪酬、電子簽名工具與 Claude Code 團隊協作實務",
-      "article_date": "2026-06-20",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation"
-    },
-    {
-      "source": "a16z",
-      "title": "a16z 第二屆新媒體研究員名單出爐：創投巨頭如何透過數位創作者重塑產業論述",
-      "article_date": "2026-06-19",
-      "url": "https://www.a16z.news/p/meet-the-second-cohort-of-a16z-new"
-    },
-    {
-      "source": "Dwarkesh",
-      "title": "AI 核心的數據黑洞：為什麼模型效率遠低於人類，但這可能無傷大雅？ / The data black hole at the center of AI",
-      "article_date": "2026-06-19",
-      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2"
-    },
-    {
-      "source": "Big Technology",
-      "title": "Greg Brockman 談 OpenAI 的勝選藍圖：規模與算力才是決定勝負的終極要素 / Greg Brockman On OpenAI’s Plan To Win: Compute Rules All",
-      "article_date": "2026-06-19",
-      "url": "https://www.bigtechnology.com/p/greg-brockman-on-openais-plan-to"
-    },
-    {
-      "source": "SemiAnalysis",
-      "title": "別再說 2026 年美國資料中心產能會砍半：SemiAnalysis 揭開「幽靈專案」與數據誤區",
+      "title": "Fiona Fung 訪談：如何打造全球最「AI 化」的工程團隊",
       "article_date": "2026-06-21",
-      "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter"
+      "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering"
+    },
+    {
+      "source": "HackMD：停損王SLKing",
+      "title": "蔡崇信：AI 的 TAM 是 50 兆美元，全棧佈局是阿里巴巴的核心戰略",
+      "article_date": "2026-06-21",
+      "url": "https://hackmd.io/HkH-x5rffe"
     }
   ]
 }
