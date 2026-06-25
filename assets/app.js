@@ -325,14 +325,15 @@ function renderArticleCard(row, kind) {
   const label = isPodcast ? "Listen" : "Original";
   const summary = isPodcast
     ? `<div class="article-body">${row.summary_html || escapeHtml(row.preview || "")}</div>`
-    : `<p class="card-summary">${escapeHtml(row.preview || "")}</p>`;
+    : expanded ? "" : `<p class="card-summary">${escapeHtml(row.preview || "")}</p>`;
   const body = isPodcast ? row.details_html : row.content_html;
+  const bodyStyle = summary ? "margin-top:14px; padding-top:14px; border-top:1px dashed var(--line);" : "margin-top:12px;";
   return `
     <article class="feed-card">
       <div class="card-meta"><span class="chip">${escapeHtml(chip)}</span><span class="card-date">${dateText(date)}</span></div>
       <h3>${escapeHtml(row.title)}</h3>
       ${summary}
-      ${expanded && hasDetails ? `<div class="article-body" style="margin-top:14px; padding-top:14px; border-top:1px dashed var(--line);">${body || ""}</div>` : ""}
+      ${expanded && hasDetails ? `<div class="article-body" style="${bodyStyle}">${body || ""}</div>` : ""}
       <div class="card-actions">
         ${hasDetails ? `<button class="pill pill-soft" type="button" data-toggle="${escapeHtml(row.id)}">${expanded ? (isPodcast ? "收合內容" : "收合全文") : "展開全文"}</button>` : "<span></span>"}
         ${url ? `<a class="pill" href="${escapeHtml(url)}"${externalAttrs(url)}>${label} &rarr;</a>` : ""}
