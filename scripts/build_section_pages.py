@@ -29,6 +29,18 @@ def strip_tags(value):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def remove_supplemental_sources_html(value):
+    text = value or ""
+    text = re.sub(
+        r'(?:<br\s*/?>\s*)*<strong>\s*補充來源[:：]\s*</strong>\s*<br\s*/?>[\s\S]*$',
+        '',
+        text,
+        flags=re.I,
+    )
+    text = re.sub(r'(?:<br\s*/?>\s*)*補充來源[:：][\s\S]*$', '', text, flags=re.I)
+    return text.strip()
+
+
 def clean_url(url):
     if not url:
         return ""
@@ -120,7 +132,126 @@ def extract_between(text, start_marker, end_marker):
     return text[start:end]
 
 
+def extract_inline_json_const(content, const_name):
+    match = re.search(rf"\bconst\s+{re.escape(const_name)}\s*=\s*", content)
+    if not match:
+        return None
+
+    try:
+        value, _end = json.JSONDecoder().raw_decode(content[match.end():])
+        return value
+    except json.JSONDecodeError:
+        return None
+
+
+def deep_feed_row_from_item(item, snapshot_date, source_file):
+    if not isinstance(item, dict):
+        return None
+
+    source = str(item.get("source") or "Deep Analysis").strip() or "Deep Analysis"
+    title = str(item.get("title") or item.get("title_zh") or "").strip()
+    content_html = remove_supplemental_sources_html(str(item.get("content_html") or ""))
+    if not content_html:
+        raw_text = (
+            item.get("analysis_zh")
+            or item.get("summary_zh")
+            or item.get("summary")
+            or item.get("content")
+            or item.get("preview")
+            or ""
+        )
+        content_html = render_analysis_markdown_text(raw_text)
+
+    if not title or not content_html:
+        return None
+
+    url = str(item.get("url") or item.get("clean_url") or item.get("link") or "#").strip()
+    key_url = clean_url(url)
+    key = key_url if key_url and key_url != "#" else f"{source}|{title}"
+    article_date = str(
+        item.get("article_date")
+        or item.get("date")
+        or item.get("first_seen_date")
+        or snapshot_date
+    ).strip()
+    first_seen_date = str(item.get("first_seen_date") or snapshot_date).strip()
+    latest_seen_date = str(item.get("latest_seen_date") or snapshot_date).strip()
+
+    return {
+        "key": key,
+        "source": source,
+        "title": title,
+        "url": url,
+        "clean_url": key_url,
+        "article_date": article_date,
+        "first_seen_date": first_seen_date,
+        "latest_seen_date": latest_seen_date,
+        "source_file": source_file,
+        "content_html": content_html,
+        "preview": str(item.get("preview") or strip_tags(content_html)[:260]),
+    }
+
+
+def parse_inline_deep_rows_from_html(content, snapshot_date, source_file):
+    deep_rows = extract_inline_json_const(content, "deepRows")
+    if not isinstance(deep_rows, list):
+        return []
+
+    rows = []
+    for item in deep_rows:
+        row = deep_feed_row_from_item(item, snapshot_date, source_file)
+        if row:
+            rows.append(row)
+    return rows
+
+
+def parse_teaser_deep_cards_from_html(content, snapshot_date, source_file):
+    block = extract_between(content, '<div id="deep-analysis-container"', "<!-- DAILY_NEWS_END -->")
+    if not block:
+        return []
+
+    rows = []
+    for match in re.finditer(r'<article\s+class="teaser-card[^"]*"[^>]*>([\s\S]*?)</article>', block):
+        card = match.group(1)
+        source_match = re.search(r'<span\s+class="teaser-chip"[^>]*>([\s\S]*?)</span>', card)
+        title_match = re.search(r"<h3[^>]*>([\s\S]*?)</h3>", card)
+        date_match = re.search(r'<div\s+class="teaser-date"[^>]*>([\s\S]*?)</div>', card)
+        summary_match = re.search(r'<p\s+class="teaser-summary"[^>]*>([\s\S]*?)</p>', card)
+        links = re.findall(r'<a\s+href="([^"]+)"', card)
+        url = next((html.unescape(link) for link in links if "deep-analysis.html" not in link), "#")
+
+        if not title_match or not summary_match:
+            continue
+
+        summary_text = strip_tags(summary_match.group(1))
+        rows.append(
+            {
+                "source": strip_tags(source_match.group(1)) if source_match else "Deep Analysis",
+                "title": strip_tags(title_match.group(1)),
+                "url": url,
+                "article_date": strip_tags(date_match.group(1)) if date_match else snapshot_date,
+                "content_html": render_analysis_markdown_text(summary_text) or f"<p>{html.escape(summary_text)}</p>",
+                "preview": summary_text[:260],
+            }
+        )
+
+    output = []
+    for item in rows:
+        row = deep_feed_row_from_item(item, snapshot_date, source_file)
+        if row:
+            output.append(row)
+    return output
+
+
 def parse_deep_cards_from_html(content, snapshot_date, source_file):
+    inline_rows = parse_inline_deep_rows_from_html(content, snapshot_date, source_file)
+    if inline_rows:
+        return inline_rows
+
+    teaser_rows = parse_teaser_deep_cards_from_html(content, snapshot_date, source_file)
+    if teaser_rows:
+        return teaser_rows
+
     block = extract_between(content, '<div id="deep-analysis-container">', "<!-- DAILY_NEWS_END -->")
     if not block:
         return []
@@ -154,7 +285,7 @@ def parse_deep_cards_from_html(content, snapshot_date, source_file):
 
         source = strip_tags(source_match.group(1)) if source_match else "Deep Analysis"
         title = strip_tags(title_match.group(1))
-        content_html = content_match.group(1).strip()
+        content_html = remove_supplemental_sources_html(content_match.group(1).strip())
         url = html.unescape(link_match.group(1).strip()) if link_match else "#"
         article_date = strip_tags(date_match.group(1)) if date_match else ""
 
@@ -194,17 +325,7 @@ def render_deep_content_from_json(item):
             else:
                 parts.append(f"{index}. {html.escape(str(insight))}<br>")
 
-    supplemental_sources = item.get("supplemental_sources", [])
-    if supplemental_sources and isinstance(supplemental_sources, list):
-        parts.append("<br><br><strong>補充來源：</strong><br>")
-        for source in supplemental_sources[:5]:
-            if not isinstance(source, dict):
-                continue
-            source_title = html.escape(str(source.get("title") or source.get("url") or "Source"))
-            source_url = html.escape(str(source.get("url") or "#"))
-            parts.append(f'<a href="{source_url}" style="color: var(--accent); text-decoration: none;">{source_title}</a><br>')
-
-    return "".join(parts)
+    return remove_supplemental_sources_html("".join(parts))
 
 
 def deep_rows_from_current_json():
@@ -300,6 +421,9 @@ def build_deep_feed():
             by_key[row["key"]] = row
 
     rows = list(by_key.values())
+    for row in rows:
+        row["content_html"] = remove_supplemental_sources_html(row.get("content_html", ""))
+        row["preview"] = strip_tags(row["content_html"])[:260]
     rows.sort(key=deep_sort_key, reverse=True)
     for index, row in enumerate(rows, 1):
         row["id"] = f"analysis-{index}"
