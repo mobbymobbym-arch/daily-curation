@@ -209,7 +209,7 @@ function sectionHeading({ id, icon, title, date, edit = false, count = "" }) {
 }
 
 function featuredCard(item, slotId) {
-  const url = item.url || "#";
+  const url = item.url || "";
   const source = item.source || item.media_source || (slotId === "feat-wsj" ? "Wall Street Journal" : "Source");
   const title = titleText(item);
   const subtitle = subtitleText(item);
@@ -231,26 +231,25 @@ function featuredCard(item, slotId) {
       </div>
       <div class="featured-copy">
         <div class="source-label">${escapeHtml(source)}</div>
-        <a href="${escapeHtml(url)}"${externalAttrs(url)} style="text-decoration:none;">
-          <h3 class="featured-title">${escapeHtml(title)}</h3>
-        </a>
+        <h3 class="featured-title">${escapeHtml(title)}</h3>
         ${subtitle ? `<div class="featured-subtitle">${escapeHtml(subtitle)}</div>` : ""}
-        <a class="pill pill-news" href="${escapeHtml(url)}"${externalAttrs(url)}>閱讀全文 &rarr;</a>
+        ${url ? `<a class="pill pill-news" href="${escapeHtml(url)}"${externalAttrs(url)}>閱讀全文 &rarr;</a>` : ""}
       </div>
     </article>
   `;
 }
 
 function newsRow(item, fallbackSource) {
-  const url = item.url || "#";
+  const url = item.url || "";
   const source = item.source || item.media_source || fallbackSource;
+  const title = titleText(item);
   const subtitle = subtitleText(item);
   return `
-    <a class="news-row" href="${escapeHtml(url)}"${externalAttrs(url)}>
-      <div class="news-title">${escapeHtml(titleText(item))}</div>
+    <article class="news-row">
+      <div class="news-title">${escapeHtml(title)}</div>
       ${subtitle ? `<div class="news-subtitle">${escapeHtml(subtitle)}</div>` : ""}
-      <div class="news-source">${escapeHtml(source)} &rarr;</div>
-    </a>
+      ${url ? `<a class="news-source" href="${escapeHtml(url)}"${externalAttrs(url)} aria-label="閱讀原文：${escapeHtml(title)}">${escapeHtml(source)} &rarr;</a>` : `<span class="news-source">${escapeHtml(source)}</span>`}
+    </article>
   `;
 }
 
