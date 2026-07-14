@@ -1,206 +1,282 @@
 {
-  "fetch_date": "2026-07-13",
+  "fetch_date": "2026-07-14",
   "techmeme": [
     {
-      "title_en": "Sources: Apple is already taping out M7 with major NPU upgrades, and plans M7 Ultra with 1.5TB RAM, and M8, for 2028; new Pencils are coming with a new iPad Pro",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4Mzg2NDg2MCwiZXhwIjoxNzg0NDY5NjYwLCJhcnRpY2xlSWQiOiJUSTJFVzFSMjRVOEswMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.LmDKjc0-G7tr6h_QbzZjQYn9JFi0Y00z32A0FipaEio",
-      "summary_en": "Also: New Apple Pencils are coming. — Apple's new Mac chip road map represents the company's latest move to rebuild …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260712/i6.jpg",
-      "thumbnail_source": "techmeme_rss_thumbnail",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Apple is already taping out M7 with major NPU upgrades, and plans M7 Ultra with 1.5TB RAM, and M8, for 2028; new Pencils are coming with a new iPad Pro",
-      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ipgZEQYo1qNg/v6/1200x800.jpg",
-      "image_source": "article_meta_fallback",
-      "image_alt": "Sources: Apple is already taping out M7 with major NPU upgrades, and plans M7 Ultra with 1.5TB RAM, and M8, for 2028; new Pencils are coming with a new iPad Pro",
-      "title_zh": "消息指 Apple 已展開 M7 晶片設計定案，強化 NPU 並計畫 2028 年推出 1.5TB RAM 的 M7 Ultra 與 M8；新 iPad Pro 將搭配新款 Apple Pencil",
-      "summary_zh": "此外，新款 Apple Pencil 也即將登場。Apple 新的 Mac 晶片路線圖展現了該公司重塑產品競爭力的最新舉措。"
-    },
-    {
-      "title_en": "Apple's OpenAI lawsuit follows months of simmering tensions and highlights OpenAI's hardware chief Tang Tan's strained relationship with former boss John Ternus",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4Mzc3OTcwMCwiZXhwIjoxNzg0Mzg0NTAwLCJhcnRpY2xlSWQiOiJUSFpEVUhLR0lGUEMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.lF9LVTMyaJOToYhpwph5JjsSJEjdBGXLbenBKQdpHhc&leadSource=uverify%20wall",
-      "summary_en": "When iPhone engineer Chang Liu quit for a job at OpenAI's nascent hardware division, Apple Inc. says he left with more than just years of experience.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260711/i8.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Apple's OpenAI lawsuit follows months of simmering tensions and highlights OpenAI's hardware chief Tang Tan's strained relationship with former boss John Ternus",
-      "title_zh": "Apple 起訴 OpenAI 源於數月緊張關係，並揭露 OpenAI 硬體負責人 Tang Tan 與前主管 John Ternus 的僵化關係",
-      "summary_zh": "當 iPhone 工程師 Chang Liu 離職轉投 OpenAI 剛起步的硬體部門時，Apple 指控他帶走的遠不止是多年的工作經驗。"
-    },
-    {
-      "title_en": "Apple's lawsuit could sidetrack OpenAI's hardware aspirations for years, or possibly forever, as the startup gets into yet another controversy and messy divorce",
-      "url": "https://spyglass.org/apple-vs-openai/",
-      "summary_en": "If their lawsuit is successful, that ChatGPT device may be no more... We all know the old saying “don't poke the bear.”",
-      "source": "Spyglass",
-      "media_source": "Spyglass",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "thumbnail_url": "https://www.techmeme.com/260711/i9.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Apple's lawsuit could sidetrack OpenAI's hardware aspirations for years, or possibly forever, as the startup gets into yet another controversy and messy divorce",
-      "title_zh": "Apple 的訴訟可能使 OpenAI 的硬體雄心受阻多年甚至化為泡影，這家新創公司再次陷入爭議與混亂的決裂中",
-      "summary_zh": "如果 Apple 贏得訴訟，傳聞中的 ChatGPT 裝置可能不復存在。正如俗話所說，「別去捅馬蜂窩」。"
-    },
-    {
-      "title_en": "Anthropic says it is extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate limits 50% higher, through July 19",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-extends-fable-5-access-through-july-19/articleshow/132350610.cms",
-      "summary_en": "In a post on X, the company said, “We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate limits 50% higher, through July 19.”",
-      "source": "The Economic Times",
-      "media_source": "The Economic Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260712/i7.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Anthropic says it is extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate limits 50% higher, through July 19",
-      "title_zh": "Anthropic 宣佈延長所有付費方案對 Claude Fable 5 的存取權限，並將 Claude Code 每週限制放寬 50% 至 7 月 19 日",
-      "summary_zh": "該公司在 X 上發文表示：「我們將延長所有付費方案對 Claude Fable 5 的存取，並在 7 月 19 日前維持 Claude Code 每週使用限額調升 50% 的措施。」"
-    },
-    {
-      "title_en": "Current AI market dynamics point to frontier models becoming commodity infrastructure as the token crunch eases, with value shifting to products built on top",
-      "url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
-      "summary_en": "There are only two things you can say with certainty about token prices: we're in a supply crunch, and this is unstable.",
-      "source": "Benedict Evans",
-      "media_source": "Benedict Evans",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "thumbnail_url": "https://www.techmeme.com/260711/i11.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Current AI market dynamics point to frontier models becoming commodity infrastructure as the token crunch eases, with value shifting to products built on top",
-      "title_zh": "當前 AI 市場動態顯示隨著 Token 短缺緩解，領先模型將成為通用基礎設施，價值重心正轉向基於模型構建的產品",
-      "summary_zh": "關於 Token 價格，目前唯一能確定的兩件事是：我們正處於供應短缺，且目前的狀態極不穩定。"
-    },
-    {
-      "title_en": "Users of AI coding tools are flooding open-source projects with low-quality contributions, overwhelming maintainers and potentially eroding community engagement",
-      "url": "https://www.ft.com/content/cec8df9e-b43b-4cd1-8feb-c07e804e8d33?accessToken=zwAAAZ9XKQLHkdPOyN-etDtM0dOP68B-gE6NMw.MEQCIClSxQjA7qwfamJM3iLH4j-rlasK9sjSSj4OtZn9GVPLAiBLT9Ceq27vzkIkGAwkMH44T6kW1X00tJgr8Uu-UwkPFQ&sharetype=gift&token=c60089a9-f0c5-4ab4-b947-0e79dd8a3108&syn-25a6b1a6=1",
-      "summary_en": "Our obsession with AI code-writing tools is overwhelming the web's unsung human caretakers. If you are reading the digital version …",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260712/i5.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Users of AI coding tools are flooding open-source projects with low-quality contributions, overwhelming maintainers and potentially eroding community engagement",
-      "title_zh": "AI 程式碼工具使用者向開源專案投放大量低質量貢獻，令維護者不堪重負，並可能侵蝕社群參與度",
-      "summary_zh": "我們對 AI 程式碼撰寫工具的迷戀，正讓網路上那些默默奉獻的維護者感到吃不消。"
-    },
-    {
-      "title_en": "A look at the growing anti-AI movement in the Bay Area, as the disappearance of Sam Kirchner, co-founder of a hard-line activist group, has the movement on edge",
-      "url": "https://www.wsj.com/tech/ai/anti-ai-activists-disappearance-sam-kirchner-6872879f?st=GXNtMb",
-      "summary_en": "The resistance to artificial intelligence is growing over fears about human extinction—but one activist's disappearance has the movement on edge",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260712/i4.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "A look at the growing anti-AI movement in the Bay Area, as the disappearance of Sam Kirchner, co-founder of a hard-line activist group, has the movement on edge",
-      "title_zh": "灣區反 AI 運動日益高漲，強硬派活動組織共同創辦人 Sam Kirchner 的失蹤令該運動陷入緊繃",
-      "summary_zh": "出於對人類滅絕的恐懼，對人工智慧的抵制情緒持續升溫，但一名活動人士的失蹤讓整個運動充滿了不安。"
-    },
-    {
-      "title_en": "Meta says it will discontinue a feature that allowed users to generate images in Meta AI using public Instagram accounts, following days of criticism",
-      "url": "https://variety.com/2026/biz/news/meta-suspends-ai-image-instagram-feature-backlash-1236806989/",
-      "summary_en": "Meta said it will discontinue an AI feature that allowed users to generate images using public Instagram accounts following days of criticism …",
-      "source": "Variety",
-      "media_source": "Variety",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260710/i35.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Meta says it will discontinue a feature that allowed users to generate images in Meta AI using public Instagram accounts, following days of criticism",
-      "title_zh": "遭數日批評後，Meta 宣佈將停止允許使用者利用公開 Instagram 帳號在 Meta AI 中生成圖片的功能",
-      "summary_zh": "經過幾天的批評後，Meta 表示將停用一項讓使用者能利用 Instagram 公開帳號資料生成 AI 圖片的功能。"
-    },
-    {
-      "title_en": "Sources: Cursor is building a general-purpose AI agent codenamed Sand, aimed at non-developers, that handles emails, texts, and documents to rival Claude Cowork",
-      "url": "https://www.theinformation.com/articles/cursor-developing-ai-agent-compete-claude-cowork",
-      "summary_en": "Cursor is developing a general-purpose AI agent meant to compete with popular tools like Anthropic's Claude Cowork …",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260712/i9.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Cursor is building a general-purpose AI agent codenamed Sand, aimed at non-developers, that handles emails, texts, and documents to rival Claude Cowork",
-      "title_zh": "消息指出 Cursor 正開發代號為「Sand」的通用 AI Agent，針對非開發者設計，可處理電子郵件與文檔以對抗 Claude Cowork",
-      "summary_zh": "Cursor 正在研發一款通用型 AI Agent，旨在與 Anthropic 的 Claude Cowork 等熱門工具展開競爭。"
-    },
-    {
-      "title_en": "Phia, a shopping app co-founded by Phoebe Gates that has raised $43.5M, appears to be using fake clicks or “cookie stuffing” to claim affiliate commissions",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/gates-heir-s-shopping-app-took-credit-for-sales-it-didn-t-drive?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MzY2MjI2OSwiZXhwIjoxNzg0MjY3MDY5LCJhcnRpY2xlSWQiOiJUSFhBSVBSMjRVOEMwMCIsImJjb25uZWN0SWQiOiIzMkI3NjREMjRGNDQ0OTEyQjE0Mzc1OTA4ODY4N0FFNiJ9.kKi5LhNr3z3HHirWd4XkVWwtkiY3e5a9j7-X1YROTjk&leadSource=uverify%20wall",
-      "summary_en": "Phia, an advertising startup co-founded by Phoebe Gates, daughter of billionaire Microsoft Corp. co-founder Bill Gates …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260710/i17.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Phia, a shopping app co-founded by Phoebe Gates that has raised $43.5M, appears to be using fake clicks or “cookie stuffing” to claim affiliate commissions",
-      "title_zh": "由 Phoebe Gates 共同創辦並融資 4350 萬美元的購物 App「Phia」，疑利用虛假點擊或「Cookie 填充」詐領佣金",
-      "summary_zh": "由微軟共同創辦人比爾·蓋茲之女 Phoebe Gates 共同創立的廣告新創公司 Phia，似乎正利用不當手段獲取分潤。"
-    },
-    {
-      "title_en": "Psychologist Peter Gray argues that school stress, not smartphone use, is the main driver of the teen mental health crisis, challenging Jonathan Haidt's thesis",
-      "url": "https://www.theatlantic.com/technology/2026/07/phones-haidt-play-gray/687846/?gift=NBdGSmKfDQzLc1B6N1F-gZWfgmC0LBdSSsf8j0CnBOQ&utm_source=copy-link&utm_medium=social&utm_campaign=share",
-      "summary_en": "When the 82-year-old psychologist Peter Gray describes the way he grew up, he punctuates the anecdotes by saying that modern parents …",
-      "source": "The Atlantic",
-      "media_source": "The Atlantic",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260711/i10.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Psychologist Peter Gray argues that school stress, not smartphone use, is the main driver of the teen mental health crisis, challenging Jonathan Haidt's thesis",
-      "title_zh": "心理學家 Peter Gray 認為校園壓力而非智慧型手機才是青少年心理健康危機的主因，挑戰 Jonathan Haidt 的論點",
-      "summary_zh": "82 歲的心理學家 Peter Gray 在描述自己的成長過程時，指出校園壓力對現代青少年的影響更為巨大。"
-    },
-    {
-      "title_en": "EU Justice Commissioner Michael McGrath says the EC is set to propose new digital rules by year-end aimed at protecting consumers from online spending traps",
-      "url": "https://www.ft.com/content/25640be5-a5bd-4548-81f9-bd0e16f87f35",
-      "summary_en": "Justice commissioner Michael McGrath says Brussels seeks to strengthen social media safeguards — Brussels is preparing …",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260712/i1.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "EU Justice Commissioner Michael McGrath says the EC is set to propose new digital rules by year-end aimed at protecting consumers from online spending traps",
-      "title_zh": "歐盟司法執委 Michael McGrath 表示執委會將於年底前提議數位新法，旨在保護消費者免受線上消費陷阱侵害",
-      "summary_zh": "司法執委 Michael McGrath 表示布魯塞爾正尋求強化社交媒體的安全保障，防止消費者陷入網路消費陷阱。"
-    },
-    {
-      "title_en": "How members of the extremist group Boko Haram are using AI chatbots to design explosives, fix or upgrade weapons, and brainstorm attack ideas",
-      "url": "https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html?unlocked_article_code=1.wlA.zOjJ._h4F-7KJwp3D&smid=url-share",
-      "summary_en": "A.I. chatbots are not just a propaganda tool for violent extremists but are aiding in bomb construction and attack planning, new research finds.",
+      "title_en": "Nearly 200 economists, including 15 Nobel laureates and Anthropic's Jack Clark, sign a letter titled We Must Act Now, warning of rapid AI-led job displacement",
+      "url": "https://www.nytimes.com/2026/07/13/business/economists-ai-threat-jobs.html?unlocked_article_code=1.xVA.8iwD.8XPZrSpF01m9&smid=bs-share",
+      "summary_en": "Nearly 200 economists signed a letter calling for policymakers to do more to understand and respond to potential A.I. disruptions.",
       "source": "New York Times",
       "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260711/i5.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260713/i17.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "How members of the extremist group Boko Haram are using AI chatbots to design explosives, fix or upgrade weapons, and brainstorm attack ideas",
-      "title_zh": "極端組織「博科聖地」如何利用 AI 聊天機器人設計炸藥、修復武器並策劃攻擊行動",
-      "summary_zh": "最新研究發現，AI 聊天機器人不僅是暴力極端份子的宣傳工具，還能協助製造炸彈與策劃襲擊。"
+      "thumbnail_alt": "Nearly 200 economists, including 15 Nobel laureates and Anthropic's Jack Clark, sign a letter titled We Must Act Now, warning of rapid AI-led job displacement",
+      "image_missing_reason": "no_source_image_found",
+      "title_zh": "近 200 名經濟學家（含 15 位諾貝爾獎得主及 Anthropic 的 Jack Clark）簽署《我們必須立即行動》公開信，警告 AI 可能導致快速的失業潮",
+      "summary_zh": "近 200 名經濟學家聯名簽署公開信，呼籲決策者採取更多行動，以理解並應對 AI 可能帶來的衝擊。"
+    },
+    {
+      "title_en": "Microsoft announces a Windows 11 search overhaul that prioritizes local results, removes promotional web content, and more, rolling out to Windows Insiders",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-announces-major-windows-11-search-overhaul-that-prioritizes-clearer-local-results-and-removes-ads",
+      "summary_en": "Windows 11's search user experience is getting a big update, with Microsoft moving to prioritize local results, remove promotional content, and much more.",
+      "source": "Windows Central",
+      "media_source": "Windows Central",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i30.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Microsoft announces a Windows 11 search overhaul that prioritizes local results, removes promotional web content, and more, rolling out to Windows Insiders",
+      "title_zh": "微軟宣布 Windows 11 搜尋功能大改版：優先顯示本機結果並移除推廣網頁內容，現已向 Windows Insiders 推送",
+      "summary_zh": "Windows 11 的搜尋使用者體驗迎來重大更新，微軟將優先提供本機搜尋結果、移除推廣內容，並加入多項改進。"
+    },
+    {
+      "title_en": "Global smartphone shipments fell 11% YoY in Q2 to the lowest Q2 levels since 2013 amid the DRAM and NAND shortage; Samsung returns to #1 with a 24% market share",
+      "url": "https://counterpointresearch.com/en/insights/global-smartphone-shipments-q2-2026",
+      "summary_en": "Global smartphone shipments fell 11% YoY in Q2 2026 reaching the lowest second-quarter levels since 2013 as the DRAM and NAND shortage intensified.",
+      "source": "Counterpoint Research",
+      "media_source": "Counterpoint Research",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i23.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Global smartphone shipments fell 11% YoY in Q2 to the lowest Q2 levels since 2013 amid the DRAM and NAND shortage; Samsung returns to #1 with a 24% market share",
+      "title_zh": "受 DRAM 與 NAND 短缺影響，第二季全球智慧型手機出貨量年減 11% 創 2013 年以來新低；三星以 24% 市佔率重奪第一",
+      "summary_zh": "由於 DRAM 與 NAND 短缺情形加劇，2026 年第二季全球智慧型手機出貨量較去年同期下降 11%，跌至 2013 年以來最低的第二季水準。"
+    },
+    {
+      "title_en": "Meta says it will spend an extra $40B on its nearly 4,000-acre data center campus in Louisiana, aiming for 5GW+ of compute, pushing its total spend beyond $250B",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-13/meta-s-louisiana-data-center-to-surpass-250-billion-price-tag",
+      "summary_en": "Meta Platforms Inc. has committed to spending an additional $40 billion on its sprawling data center campus in Louisiana …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i15.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Meta says it will spend an extra $40B on its nearly 4,000-acre data center campus in Louisiana, aiming for 5GW+ of compute, pushing its total spend beyond $250B",
+      "title_zh": "Meta 宣佈加碼 400 億美元擴建路易斯安那州近 4,000 英畝的資料中心園區，目標算力突破 5GW+，總支出將超過 2,500 億美元",
+      "summary_zh": "Meta Platforms Inc. 已承諾在其位於路易斯安那州龐大的資料中心園區追加 400 億美元投資。"
+    },
+    {
+      "title_en": "Source: OpenAI still believes it is on track to unveil its first device in 2026 and release it in 2027; Apple's lawsuit may complicate hiring and supply chains",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-13/how-apple-s-lawsuit-threatens-to-disrupt-openai-s-bid-to-rival-the-iphone?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4Mzk0NjE5MywiZXhwIjoxNzg0NTUwOTkzLCJhcnRpY2xlSWQiOiJUSTE2U1lLSkg2VjUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.fNQ1FpHOxKa7NVvdeMc03rbciA2oUUUr44IGDEY3ZTA",
+      "summary_en": "Apple Inc.'s lawsuit accusing OpenAI of systematically stealing its intellectual property threatens to disrupt …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i20.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Source: OpenAI still believes it is on track to unveil its first device in 2026 and release it in 2027; Apple's lawsuit may complicate hiring and supply chains",
+      "title_zh": "消息人士：OpenAI 仍預計於 2026 年發表並於 2027 年推出首款硬體裝置；蘋果的訴訟恐增加招聘與供應鏈難度",
+      "summary_zh": "蘋果公司控告 OpenAI 有系統地竊取其智慧財產權，此舉威脅將干擾 OpenAI 的發展進程。"
+    },
+    {
+      "title_en": "The EU blacklists Russian intelligence group members it says were responsible for spying on and hacking targets across the EU and Ukraine from as early as 2010",
+      "url": "https://www.politico.eu/article/eu-sanctions-russian-cyber-spies-for-years-long-hacking/",
+      "summary_en": "Moscow's Federal Security Service is behind the cyber espionage and sabotage campaigns, EU says.",
+      "source": "Politico",
+      "media_source": "Politico",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i14.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "The EU blacklists Russian intelligence group members it says were responsible for spying on and hacking targets across the EU and Ukraine from as early as 2010",
+      "title_zh": "歐盟將俄羅斯情報組織成員列入黑名單，指其自 2010 年起即負責對歐盟及烏克蘭目標進行間諜活動與駭客攻擊",
+      "summary_zh": "歐盟表示，莫斯科聯邦安全局（FSB）是這些網路間諜活動與破壞行動的幕後黑手。"
+    },
+    {
+      "title_en": "European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a “social media start date for minors” with “gradual access”",
+      "url": "https://www.ft.com/content/b3d94d79-e045-40bd-a1f3-4df0c365ce9a",
+      "summary_en": "Brussels will propose gradual access for different ages in response to concerns over child safety online",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "歐盟執委會主席馮德萊恩表示，歐盟預計在夏季過後提議制定「未成年人社群媒體起始年齡」，實施「逐步開放存取」",
+      "summary_zh": "針對大眾對兒童網路安全的擔憂，布魯塞爾當局將針對不同年齡層提出逐步開放存取的提案。"
+    },
+    {
+      "title_en": "Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the public debut of the new Siri AI",
+      "url": "https://www.engadget.com/2214198/public-betas-for-ios-27-macos-27-and-more-apple-platforms-are-now-available/",
+      "summary_en": "Try the new Siri AI and system-wide performance improvements. — Adventurous early adopters, your moment has arrived …",
+      "source": "Engadget",
+      "media_source": "Engadget",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i31.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the public debut of the new Siri AI",
+      "title_zh": "蘋果發佈 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 與 tvOS 27 首個公開測試版，全新 Siri AI 正式亮相",
+      "summary_zh": "喜愛冒險的早期採用者現在可以搶先體驗全新的 Siri AI 與系統全面的效能提升。"
+    },
+    {
+      "title_en": "Sources: Trump admin and industry groups have discussed streamlining releases of US open models of equal or lesser capability than leading Chinese open models",
+      "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/07/13/ai-tech-brief-exclusive-an-open-source-framework/",
+      "summary_en": "Plus, data centers could end up consuming less energy than we expect. — Not a subscriber? Sign up here to get this newsletter in your inbox.",
+      "source": "Washington Post",
+      "media_source": "Washington Post",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i32.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: Trump admin and industry groups have discussed streamlining releases of US open models of equal or lesser capability than leading Chinese open models",
+      "title_zh": "消息人士：川普政府與產業團體討論簡化美國開源模型的發佈流程，以應對能力相當或較弱的中國開源模型競爭",
+      "summary_zh": "此外，資料中心的能源消耗最終可能低於我們的預期。"
+    },
+    {
+      "title_en": "Sources: US officials estimate unauthorized distillation costs US AI labs up to $6B/year; US AI labs told the White House it could become an existential threat",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-13/anthropic-openai-warnings-prompt-distillation-debate-in-dc",
+      "summary_en": "",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "消息人士：美國官員估計未經授權的「蒸餾」（Distillation）行為每年造成美國 AI 實驗室高達 60 億美元損失；實驗室警告白宮這已構成生存威脅",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Intel plans to invest €5B to expand chip manufacturing at its Leixlip facility in Ireland; in 2025, Intel canceled a planned €30B factory in Magdeburg, Germany",
+      "url": "https://www.ft.com/content/8bcc19e1-2101-444c-bd2e-3a4b113becec",
+      "summary_en": "Move strengthens Dublin's role in Europe's bid to secure advanced semiconductor manufacturing",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i18.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Intel plans to invest €5B to expand chip manufacturing at its Leixlip facility in Ireland; in 2025, Intel canceled a planned €30B factory in Magdeburg, Germany",
+      "title_zh": "英特爾計劃投資 50 億歐元擴建愛爾蘭 Leixlip 廠的晶片製造能力；此前於 2025 年取消了德國馬德堡 300 億歐元的建廠計劃",
+      "summary_zh": "此舉強化了都柏林在歐洲爭取先進半導體製造地位中的關鍵角色。"
+    },
+    {
+      "title_en": "Q&A with Xinzhou Wu, head of automotive at Nvidia, on Nvidia's chips and AI models for autonomous driving, lidar's usefulness for Level 4 autonomy, and more",
+      "url": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
+      "summary_en": "Xinzhou Wu on autonomy, Chinese cars, and if we really need lidar — Today, I'm talking with Xinzhou Wu, who is the head of automotive at Nvidia.",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i29.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Q&A with Xinzhou Wu, head of automotive at Nvidia, on Nvidia's chips and AI models for autonomous driving, lidar's usefulness for Level 4 autonomy, and more",
+      "title_zh": "Nvidia 汽車部門主管吳新宙訪談：深入探討自動駕駛晶片與 AI 模型、Lidar 在 Level 4 自動駕駛中的重要性等議題",
+      "summary_zh": "吳新宙分享關於自動駕駛、中國汽車市場，以及我們是否真的需要 Lidar 的看法。"
+    },
+    {
+      "title_en": "A coalition of 12 states led by California files an antitrust lawsuit to block Paramount's WBD merger, alleging it lessens competition in three markets",
+      "url": "https://variety.com/2026/film/news/paramount-warner-bros-merger-states-lawsuit-1236806824/",
+      "summary_en": "A coalition of 12 states filed an antitrust lawsuit on Monday to block the merger of Paramount Skydance and Warner Bros. …",
+      "source": "Variety",
+      "media_source": "Variety",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i27.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "A coalition of 12 states led by California files an antitrust lawsuit to block Paramount's WBD merger, alleging it lessens competition in three markets",
+      "title_zh": "以加州為首的 12 州聯盟提起反壟斷訴訟，試圖阻止派拉蒙（Paramount）與華納兄弟探索（WBD）的合併案，指控其削弱三個市場的競爭",
+      "summary_zh": "由 12 個州組成的聯盟於週一提起反壟斷訴訟，旨在阻止派拉蒙與華納兄弟探索的合併。"
+    },
+    {
+      "title_en": "Anthropic hires Tom Blomfield, a Monzo co-founder and one of the biggest names in UK tech, to join its compute team; he is taking a leave of absence from YC",
+      "url": "https://www.businessinsider.com/anthropic-hires-monzo-cofounder-tom-blomfield-ai-compute-y-combinator-2026-7",
+      "summary_en": "The AI talent wars aren't letting up — and neither is Anthropic's big-name hiring spree. — The AI startup has hired Tom Blomfield …",
+      "source": "Business Insider",
+      "media_source": "Business Insider",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i19.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Anthropic hires Tom Blomfield, a Monzo co-founder and one of the biggest names in UK tech, to join its compute team; he is taking a leave of absence from YC",
+      "title_zh": "Anthropic 挖角英國科技巨擘、Monzo 共同創辦人 Tom Blomfield 加入算力團隊；他將從 YC 留職停薪",
+      "summary_zh": "AI 人才爭奪戰並未平息，Anthropic 持續大動作招攬名師，成功延攬了 Tom Blomfield 加入團隊。"
+    },
+    {
+      "title_en": "Munich-based defense tech startup Helsing raised a $1.8B Series E from Dragoneer, Iconiq, and others at an $18B valuation; Germany made €493M in orders in 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-13/drone-startup-helsing-raises-at-18-billion-with-goldman-backing",
+      "summary_en": "Helsing has raised a financing round at a valuation of $18 billion from investors including the growth equity arm …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i6.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Munich-based defense tech startup Helsing raised a $1.8B Series E from Dragoneer, Iconiq, and others at an $18B valuation; Germany made €493M in orders in 2026",
+      "title_zh": "總部位於慕尼黑的國防科技新創 Helsing 完成 18 億美元 E 輪融資，估值達 180 億美元；德國政府 2026 年已下達 4.93 億歐元訂單",
+      "summary_zh": "Helsing 以 180 億美元的估值完成了新一輪融資，投資者包含成長型股權投資機構等。"
+    },
+    {
+      "title_en": "Sources: Nous Research, the startup behind Hermes, an open-source agent and OpenClaw rival, is raising $75M+ at a $1.5B valuation led by Robot Ventures",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "summary_en": "Nous Research, the startup behind the open-source Hermes agent, is finalizing a new round of funding led by Robot Ventures …",
+      "source": "TechCrunch",
+      "media_source": "TechCrunch",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i33.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: Nous Research, the startup behind Hermes, an open-source agent and OpenClaw rival, is raising $75M+ at a $1.5B valuation led by Robot Ventures",
+      "title_zh": "消息人士：開源 Agent「Hermes」背後的新創公司 Nous Research 正以 15 億美元估值籌集 7,500 萬美元以上資金",
+      "summary_zh": "開源 Hermes Agent 的開發商 Nous Research 正敲定由 Robot Ventures 領投的新一輪融資。"
+    },
+    {
+      "title_en": "London-based Valarian, which allows companies to use US cloud providers for AI workloads but retain control of their data, raised a $50M Series A led by NEA",
+      "url": "https://fortune.com/2026/07/13/ai-sovereignty-cloud-valarian-50-million-nea-palantir-europe-microsoft-aws-google-defense/",
+      "summary_en": "Max Buchan started advocating for infrastructure sovereignty when, as he puts it, “globalization and Davos were still cool.”",
+      "source": "Fortune",
+      "media_source": "Fortune",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i26.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "London-based Valarian, which allows companies to use US cloud providers for AI workloads but retain control of their data, raised a $50M Series A led by NEA",
+      "title_zh": "倫敦新創 Valarian 獲 5,000 萬美元 A 輪融資，協助企業在利用美國雲端服務處理 AI 工作負載時仍能保有數據控制權",
+      "summary_zh": "創辦人 Max Buchan 在全球化仍被視為顯學時，便開始倡導基礎設施主權的重要性。"
+    },
+    {
+      "title_en": "Sources: Shein is targeting a $40B+ valuation after winning Beijing's approval for a Hong Kong IPO, set for as early as Q3; Shein canceled its US IPO in 2024",
+      "url": "https://www.wsj.com/business/retail/shein-targets-over-40-billion-valuation-after-china-nod-for-ipo-6f414bbb?st=8VLyuT&reflink=desktopwebshare_permalink",
+      "summary_en": "The fast-fashion retailer could list in Hong Kong as early as the third quarter of this year — Fast-fashion retailer Shein …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260713/i9.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: Shein is targeting a $40B+ valuation after winning Beijing's approval for a Hong Kong IPO, set for as early as Q3; Shein canceled its US IPO in 2024",
+      "title_zh": "消息人士：希音（Shein）在獲得北京批准赴港上市後，目標估值逾 400 億美元，最快於第三季掛牌；該公司曾於 2024 年取消赴美 IPO",
+      "summary_zh": "這家快時尚零售商最快可能在今年第三季於香港掛牌上市。"
     }
   ],
   "wsj": [
+    {
+      "title_en": "Using the Wrong USB-C Charger? That Cheap Cable Can Fry Your Phone",
+      "url": "https://www.wsj.com/tech/personal-tech/usb-c-cable-phone-charger-problems-c8beedec?mod=rss_Technology",
+      "summary_en": "Choosing safe, high-quality charging accessories can extend the lifespan of your devices and save you big money on repairs....",
+      "image_url": "https://images.wsj.net/im-73806067",
+      "image_source": "rss_media_content",
+      "image_credit": "ELENA SCOTTI/WSJ; ISTOCK; SHUTTERSTOCK",
+      "image_alt": "Using the Wrong USB-C Charger? That Cheap Cable Can Fry Your Phone",
+      "title_zh": "用錯 USB-C 充電器？劣質線材可能會燒毀你的手機",
+      "summary_zh": "選擇安全且高品質的充電配件，能延長裝置壽命，並為你省下大筆維修費用。"
+    },
     {
       "title_en": "Apple’s ‘Thermonuclear’ Response to the OpenAI Threat",
       "url": "https://www.wsj.com/tech/ai/apples-thermonuclear-response-to-the-openai-threat-8d51c814?mod=rss_Technology",
@@ -209,8 +285,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Carlos Barria/Reuters",
       "image_alt": "Apple’s ‘Thermonuclear’ Response to the OpenAI Threat",
-      "title_zh": "Apple 對 OpenAI 威脅祭出「毀滅級」法律反擊",
-      "summary_zh": "在 Tim Cook 領導下，Apple 對 OpenAI 的起訴沿用了熟悉的策略，押注訴訟能拖延對手顛覆 iPhone 時代的腳步。"
+      "title_zh": "蘋果對 OpenAI 威脅祭出「毀滅性」反擊",
+      "summary_zh": "在提姆·庫克帶領下，蘋果對 OpenAI 提起的訴訟延續了其一貫策略，賭注於透過法律訴訟來推遲對手顛覆 iPhone 時代的進程。"
     },
     {
       "title_en": "Intel’s Insiders",
@@ -220,8 +296,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Vernon Yuen/Nexpher Images/ZUMA Press",
       "image_alt": "Intel’s Insiders",
-      "title_zh": "Intel 內部透視",
-      "summary_zh": "此外還包括：保護地球免受太陽風暴影響的計畫、今年的 iPhone 選購指南、AI 建議如何損害進食障礙治療等內容。"
+      "title_zh": "Intel 內部消息",
+      "summary_zh": "此外，還包括保護地球免受太陽風暴影響的計畫、今年如何選購 iPhone、AI 建議如何損害飲食失調治療等內容。"
     },
     {
       "title_en": "Pricier iPhones Are Coming. What—and When—Should You Buy?",
@@ -231,8 +307,8 @@
       "image_source": "rss_media_content",
       "image_credit": "ELENA SCOTTI/WSJ; ISTOCK; APPLE",
       "image_alt": "Pricier iPhones Are Coming. What—and When—Should You Buy?",
-      "title_zh": "更昂貴的 iPhone 即將到來：該買哪一款？何時入手最合適？",
-      "summary_zh": "「不買季節」已到來，但全球記憶體晶片短缺讓 Apple 秋季硬體產品線的預期變得更加複雜。"
+      "title_zh": "更貴的 iPhone 即將到來：該買哪一款？什麼時候買？",
+      "summary_zh": "「不要購買」的季節已經到來，但全球記憶體晶片短缺讓 Apple 秋季硬體發表會的預期變得更加複雜。"
     },
     {
       "title_en": "Can AI Make Better Drugs? Not on Wall Street’s Timeline",
@@ -242,8 +318,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Getty Images",
       "image_alt": "Can AI Make Better Drugs? Not on Wall Street’s Timeline",
-      "title_zh": "AI 能研發出更好的藥物嗎？華爾街對此等不及了",
-      "summary_zh": "該技術已進入藥物實驗室，但投資者是否應該為此買單？"
+      "title_zh": "AI 能研發出更好的藥物嗎？恐怕趕不上華爾街的時間表",
+      "summary_zh": "這項技術已進入製藥實驗室，但投資者是否應該為此買單？"
     },
     {
       "title_en": "The Hard-Line Activists Ramping Up for the War With AI",
@@ -253,19 +329,19 @@
       "image_source": "rss_media_content",
       "image_credit": "Manuel Orbegozo/Reuters",
       "image_alt": "The Hard-Line Activists Ramping Up for the War With AI",
-      "title_zh": "強硬派活動人士正加緊準備與 AI 的「戰爭」",
-      "summary_zh": "對人工智慧的抵制正在升溫，但一名活動人士的失蹤讓整個運動陷入不安。"
+      "title_zh": "強硬派活動家正加緊準備對抗 AI 的戰爭",
+      "summary_zh": "對人工智慧的抵制正在增長，儘管一名活動家的失蹤讓整個運動陷入不安。"
     },
     {
-      "title_en": "How AI Advice Is Undermining Eating-Disorder Therapy",
-      "url": "https://www.wsj.com/tech/ai/chatbot-advice-eating-disorder-therapy-5fe601fd?mod=rss_Technology",
-      "summary_en": "Even a chatbot trained on nutrition and fitness research that dispenses reasonable-sounding guidance can become a deadly influence....",
-      "image_url": "https://images.wsj.net/im-53321190",
+      "title_en": "Why AI Might Actually Help Solve the Next Labor Crisis",
+      "url": "https://www.wsj.com/economy/jobs/the-next-labor-crisis-may-be-too-few-workers-could-ai-help-pick-up-the-slack-c4618711?mod=rss_Technology",
+      "summary_en": "New economic research might be pointing toward a shift in thinking about what AI means for the job market....",
+      "image_url": "https://images.wsj.net/im-28652599",
       "image_source": "rss_media_content",
-      "image_credit": "VIRGINIA GABRIELLI FOR WSJ",
-      "image_alt": "How AI Advice Is Undermining Eating-Disorder Therapy",
-      "title_zh": "AI 建議如何破壞進食障礙的治療",
-      "summary_zh": "即便是受過營養與健身研究訓練、給出聽起來合理建議的聊天機器人，也可能產生致命的負面影響。"
+      "image_credit": "Uncredited",
+      "image_alt": "Why AI Might Actually Help Solve the Next Labor Crisis",
+      "title_zh": "為什麼 AI 實際上可能有助於解決下一次勞動力危機",
+      "summary_zh": "新的經濟研究可能指向關於 AI 對就業市場意義的思維轉變。"
     },
     {
       "title_en": "Can a Prettier Data Center Curb the Community Backlash?",
@@ -275,8 +351,19 @@
       "image_source": "rss_media_content",
       "image_credit": "Gensler",
       "image_alt": "Can a Prettier Data Center Curb the Community Backlash?",
-      "title_zh": "更具美感的數據中心能減輕社群抵制嗎？",
-      "summary_zh": "建築師計畫將數據中心設計得像科技園區或美術館，而非單調的方盒，以期安撫當地的反對聲浪。"
+      "title_zh": "更美觀的數據中心能平息社區的抵制嗎？",
+      "summary_zh": "建築師計畫將數據中心設計得像科技園區或美術館，而非單調的盒子，以試圖緩解地方的反對。"
+    },
+    {
+      "title_en": "How AI Advice Is Undermining Eating-Disorder Therapy",
+      "url": "https://www.wsj.com/tech/ai/chatbot-advice-eating-disorder-therapy-5fe601fd?mod=rss_Technology",
+      "summary_en": "Even a chatbot trained on nutrition and fitness research that dispenses reasonable-sounding guidance can become a deadly influence....",
+      "image_url": "https://images.wsj.net/im-53321190",
+      "image_source": "rss_media_content",
+      "image_credit": "VIRGINIA GABRIELLI FOR WSJ",
+      "image_alt": "How AI Advice Is Undermining Eating-Disorder Therapy",
+      "title_zh": "AI 建議如何損害飲食失調治療",
+      "summary_zh": "即使是接受過營養與健身研究訓練、能提供聽起來合理的建議的聊天機器人，也可能成為致命的影響。"
     },
     {
       "title_en": "Alex Karp Is Saying What Every Angry CEO Is Thinking About AI",
@@ -286,30 +373,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Fabrice Coffrini/Agence France-Presse/Getty Images",
       "image_alt": "Alex Karp Is Saying What Every Angry CEO Is Thinking About AI",
-      "title_zh": "Alex Karp 說出了每位「憤怒執行長」對 AI 的真實想法",
-      "summary_zh": "Palantir 執行長點出了美國企業界對於 AI 新創勢力日益壯大的集體焦慮。"
-    },
-    {
-      "title_en": "Apple Sues OpenAI, Alleging It Stole Trade Secrets",
-      "url": "https://www.wsj.com/tech/apple-openai-lawsuit-f86bd58c?mod=rss_Technology",
-      "summary_en": "Former Apple employees took confidential information to OpenAI to advance the AI company’s device efforts, Apple claims....",
-      "image_url": "https://images.wsj.net/im-42369779",
-      "image_source": "rss_media_content",
-      "image_credit": "Richard Drew/Associated Press",
-      "image_alt": "Apple Sues OpenAI, Alleging It Stole Trade Secrets",
-      "title_zh": "蘋果控告 OpenAI 竊取商業機密",
-      "summary_zh": "蘋果指控前員工攜帶機密資訊至 OpenAI，協助該 AI 公司推進其硬體裝置的研發計畫。"
-    },
-    {
-      "title_en": "Record Companies Push to Label AI Songs on Streaming Platforms",
-      "url": "https://www.wsj.com/tech/ai/record-companies-push-to-label-ai-songs-on-streaming-platforms-103aa392?mod=rss_Technology",
-      "summary_en": "An RIAA-led coalition of groups representing music labels and artists says fans want transparency....",
-      "image_url": "https://images.wsj.net/im-38953430",
-      "image_source": "rss_media_content",
-      "image_credit": "Robert F. Bukaty/Associated Press",
-      "image_alt": "Record Companies Push to Label AI Songs on Streaming Platforms",
-      "title_zh": "唱片公司力促串流平台應標註 AI 生成歌曲",
-      "summary_zh": "由 RIAA 領銜的唱片標籤與藝術家聯盟表示，為回應樂迷對透明度的追求，應明確標示 AI 創作的作品。"
+      "title_zh": "Alex Karp 說出了每位憤怒的 CEO 對 AI 的心聲",
+      "summary_zh": "Palantir 的 CEO 觸發了美國企業界對於 AI 新秀實力日益增長的焦慮。"
     }
   ],
   "deep_analysis": {
@@ -340,15 +405,15 @@
       "content_mode": "ai_analysis"
     },
     "Culpium": {
-      "title": "SK Hynix 美股 IPO 沒告訴你的事：HBM 的高槓桿風險與製造重心錯位",
+      "title": "AI Server Makers are Under Strain, CASCI Data Shows / CASCI 數據警示：AI 伺服器組裝端成長放緩，供應鏈出現「上熱下冷」脫鉤跡象",
       "source": "Culpium",
-      "article_date": "2026-07-08",
-      "url": "https://www.culpium.com/p/what-sk-hynixs-ipo-prospectus-doesnt",
-      "analysis_zh": "### 全文大意摘要：揭開 SK Hynix 美股上市背後的營收風險、製造布局失衡與未揭露的工安事故\n\n這篇文章由資深科技評論員從台北發出，深入分析了全球高頻寬記憶體（HBM）領導者 SK Hynix 即將在美國 Nasdaq 進行存託憑證（ADR）掛牌的隱憂。SK Hynix 計畫藉此籌資約 280 億美元，成為美國投資人參與 AI 浪潮最直接的標的，畢竟它與產品線廣泛的三星不同，是一家純粹的記憶體公司。然而，作者透過深入挖掘未見於招股書的數據發現，這家公司在光鮮亮麗的 AI 成長背後，隱藏著獲利結構過於集中、美韓製造配置極度失衡，以及在中國市場的沈重法律義務與工安紀錄缺漏等問題。\n\n### 戰略背景與脈絡：記憶體龍頭趁 AI 浪潮進軍美股，卻面臨產品組合過度集中的隱憂\n\n自 ChatGPT 引發 AI 算力軍備競賽以來，SK Hynix 憑藉著在 HBM 領域的研發先見之明，成為輝達（Nvidia）最重要的供應鏈夥伴。HBM 這種透過先進封裝堆疊 DRAM 的技術，不僅開發門檻高，單價更是標準 DDR 記憶體的 5 倍。在過去幾年記憶體產業的衰退與復甦週期中，SK Hynix 雖然在整體出貨量的複合年均成長率（CAGR）僅約 11%，落後於三星，但它在利潤豐厚的高階產品上取得絕對優勢。然而，這種優勢也讓公司營運與 AI 基礎設施投資景氣高度綁定，形成一種「成也 AI，敗也 AI」的戰略格局。\n\n### 作者的核心推論與觀點：揭露 HBM 高單價帶來的營收槓桿，以及美韓生產布局的巨大鴻溝\n\n作者提出一個非常關鍵且反直覺的數據：去年 HBM 僅佔 SK Hynix DRAM 出貨量的 8%，卻貢獻了高達 40% 的營收。這種極高的價格溢價意味著強大的「營收槓桿」，也就是說，每賣出 1 位元的 HBM，其產生的收入相當於 5 位元的標準記憶體。這在市場擴張期是極大的利多，但作者警告，一旦 AI 晶片需求放緩，1 位元 HBM 需求的下滑也會造成相當於失去 5 位元標準記憶體訂單的衝擊，這讓 SK Hynix 比三星或美光更脆弱、更容易受到 AI 景氣波動的傷害。\n\n此外，作者指出 SK Hynix 的製造重心與市場分布存在嚴重錯位。美國雖然是其最大營收來源（佔去年營收 69%），但該公司在美國的資產比例卻不到 1%。儘管公司宣布將在印地安那州投資 39 億美元建立封裝廠，但這與其在韓國本土計畫投入的 1.1 兆韓元（約 7,100 億美元）擴張計畫相比簡直是九牛一毛。與此同時，該公司約有四分之一的員工位於中國，且受限於當初收購 Intel 快閃記憶體事業的承諾，必須在中國維持低價供應，這些地緣政治風險與製造結構的僵固性，在招股書中都沒有得到充分的呈現。\n\n### 對市場、技術與政策環境的長期影響：AI 需求一旦波動將引發劇烈震盪，且地緣政治下的生產配置仍是長期難題\n\n從長遠來看，SK Hynix 的美股上市雖然提供了投資人一個「純粹的 AI 選項」，但也將這家公司的財務表現置於高風險的顯微鏡下。如果 AI 伺服器的投資報酬率不如預期，導致科技巨頭縮減預算，SK Hynix 的營收回檔速度將會是產業中最劇烈的。在技術面，SK Hynix 對先進封裝與 HBM 的賭注雖然現在看起來回報豐厚，但製造重心依然鎖定在亞太地區（特別是南韓與中國），這與美國政府推動的半導體在地製造政策完全背道而馳。\n\n最後，作者提到的近期工安事故，包括上個月發生的工廠火災導致有毒氟氣洩漏，以及一名勞工死於職業病的爭議，這些事件未被列入招股書，反映出在極速擴增產能以應付 AI 需求時，公司內部的管理與治理可能存在破綻。對於長期投資者而言，這些隱而不宣的負債與營運槓桿，才是評估這家 AI 獲利王時最需要關注的變數。",
+      "article_date": "2026-07-13",
+      "url": "https://www.culpium.com/p/ai-server-makers-are-under-strain",
+      "analysis_zh": "### 全文大意摘要：AI 伺服器供應鏈出現「上熱下冷」的脫鉤警訊\n\n這篇由科技產業分析機構 Culpium 發表的最新報告指出，根據其追蹤台灣 AI 運算供應鏈的獨家指數 CASCI（Culpium AI Supply Chain Index）顯示，儘管 2026 年 6 月份的指數來到 140.9 點，且已連續十個月呈現成長，但供應鏈內部正首度出現顯著的「脫鉤」現象。簡單來說，上游的晶片製造與零組件生產依然熱火朝天，成長力道強勁，但位於最末端的 AI 伺服器組裝環節卻出現增速明顯放緩的趨勢。作者明確警告，晶片賣得好並不等同於下游終端產品能順利消化這些零組件，如果伺服器代工廠無法跟上上游的供應速度，產業可能即將面臨庫存堆積的風險。\n\n### 戰略背景與脈絡：從半導體榮景看台灣在全球 AI 硬體製造的核心地位\n\n要理解這份報告的份量，必須先看到台灣在全球 AI 供應鏈中無可取代的地位。CASCI 指數之所以受到市場高度關注，是因為它直接追蹤了台灣供應鏈公司的營收數據，而台灣企業幾乎包辦了全球 AI 伺服器從上游晶片設計、中游零組件到下游組裝的所有關鍵環節。這份報告雖然因為強烈颱風掃過台灣而延遲發布，但也側面提醒了全球投資人，這條支撐全球 AI 算力的供應鏈在面對氣候與地理風險時的韌性極為關鍵。\n\n目前的時空背景是 AI 熱潮已持續一年多，市場對於台積電（TSMC）等晶片製造商的驚人成長早已習以為常。台積電 6 月營收以美元計價成長達 58%，這不僅僅是單一公司的成功，更反映了整個半導體與主動、被動元件產業鏈都在加速趕工。然而，這種繁榮是否能持續傳導至終端，正是目前產業最擔心的問題。當所有人都盯著輝達（Nvidia）的晶片出貨量時，這份數據卻把目光轉向了負責把這些晶片塞進機櫃、裝上冷卻系統並送到資料中心的組裝廠身上。\n\n### 作者的核心推論與觀點：組裝端增速放緩暗示下游需求消化能力面臨考驗\n\n作者的核心論點在於：供應鏈的成長慣性正從均衡發展轉向不對稱的壓力測試。數據顯示，上游晶片端與零組件端（尤其是與 PCB、伺服器機架相關的金屬機構件）正經歷史無前例的增長動能。相比之下，負責最終組裝代工（Assembly）的環節卻面臨至少半年以來最弱的成長幅度，且已經連續兩個月出現增速下滑。如果這種趨勢持續下去，組裝端的成長表現可能會跌至一年來的最低點。\n\n值得注意的是，作者分析了代工廠獲利結構的改變。許多伺服器代工廠開始轉向「代工不代料」的加工模式（Consignment model），也就是由客戶自行採購昂貴的晶片與零件再交給廠端組裝，這確實會讓代工廠的營收數字（Top-line）看起來比較難看，並影響毛利表現。但 Culpium 的分析強調，這種模式轉變只能解釋部分原因，無法掩蓋末端製造動能確實正在轉弱的事實。此外，工廠建設與設備安裝速度在 6 月也出現回落，顯示產業可能正進入一個觀望期，或是從瘋狂擴張產能轉向消化現有設備的階段。\n\n### 對市場、技術與政策環境的長期影響：資本支出預算的停看聽將決定 AI 庫存週期的走向\n\n這份數據對市場釋出了一個非常具體的觀察指標：接下來幾個季度，全球科技巨頭（如 CSP 雲端服務供應商）對於資本支出（Capex）的指引調整將變得至關重要。如果主要客戶開始暫緩原本連番上修的支出計畫，而上游晶片製造端仍持續高速產出，供應鏈很快就會感受到庫存週轉的壓力。這可能會導致原本供不應求的 AI 伺服器市場，迅速轉向庫存去化的調整階段。\n\n在技術與營運層面上，這也暗示了伺服器設計的複雜度（如散熱系統的整合、大型機架的組裝難度）可能正在減緩交付速度。雖然中游機構件如機殼與機架的成長依然強勁，但冷卻系統與相關零組件的成長卻相對溫和。這種微小的差異可能顯示出不同組件之間的產能協調仍存在瓶頸。對於台灣的科技產業而言，這是一個從「追求成長」轉向「庫存管理」與「成本控管」的預警信號。投資人與決策者不應只沈浸在台積電帶來的半導體榮景中，而必須更細緻地觀察終端組裝端的消化率，以判斷這波 AI 硬體循環是否已接近短期的頂峰。",
       "insights": [
-        "HBM 的營收槓桿是雙面刃：雖然目前以 8% 的出貨量貢獻 40% 的營收，但這也意味著若 AI 需求出現微幅修正，其營收下滑的速度將比競爭對手快上 5 倍。",
-        "「營收在美、資產在韓」的極端脫鉤：SK Hynix 近七成收入來自美國，但近 99% 的生產設備與資產仍留在海外，且未來八年九成以上的投資都鎖定南韓，這可能引發美國政策面的隱形壓力。",
-        "招股書之外的治理風險：文章揭露了未見於美股上市文件的近期有毒氣體洩漏與職業病致死案，顯示在高強度擴產壓力下，公司的工安管理與資訊揭露透明度存在瑕疵。"
+        "晶片供應與伺服器交付的「脫鉤」初現：台積電的驚人成長已無法自動轉化為終端伺服器產出的等比例增長，供應鏈末端（組裝層）已連續兩個月增速放緩。",
+        "庫存警鐘正在敲響：上游晶片與中游機構件（機架、PCB）仍高速生產，若組裝端消化不掉這些組件，接下來可能面臨嚴重的庫存積壓，並導致原本過熱的市場迅速冷卻。",
+        "營運模式隱藏營收風險：大型伺服器買家轉向「代工不代料」模式，雖然降低了代工廠的財務壓力，但也削弱了代工廠在供應鏈中的定價權，導致其營收與產量趨勢出現偏離。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -366,41 +431,41 @@
       "content_mode": "ai_analysis"
     },
     "BigTechnology": {
-      "title": "OpenAI 推出 ChatGPT 超級 App：整合自動化代理與工作模式的戰略佈局 / OpenAI's Plans For Its New ChatGPT Superapp",
+      "title": "Apple 罕見對 OpenAI 提起訴訟：控告硬體機密遭竊，這場法律戰真能阻擋 AI 硬體浪潮？ / Apple’s lawsuit against OpenAI makes serious claims. Will they matter?",
       "source": "Big Technology",
-      "article_date": "2026-07-10",
-      "url": "https://www.bigtechnology.com/p/openais-plans-for-its-new-chatgpt",
-      "analysis_zh": "### 全文大意摘要：OpenAI 將 ChatGPT 轉化為能全面接管電腦任務的超級應用程式\n\n本週 OpenAI 正式發表了籌備已久的「超級 App」（Superapp），將 ChatGPT 的對話能力、程式碼編寫（Codex）以及網頁瀏覽功能整合進單一應用。這款新工具不僅能回答問題，更具備接管使用者電腦與瀏覽器的能力。Big Technology 作者 Alex Kantrowitz 專訪了 OpenAI 負責 Codex 與 ChatGPT App 的負責人 Andrew Ambrosino。Ambrosino 表示，這款 App 的目標是實現「任何你在電腦上能做的事，都能透過這個 App 完成」，包含剪輯影片、製作簡報、編寫生產級程式碼，甚至直接操作網頁進行預訂。\n\n### 戰略背景與脈絡：從單純的聊天機器人向「AI 作業系統」的角色轉型\n\n在 2026 年的 AI 競爭版圖中，產業核心已從「模型參數」轉向「代理執行力」（Agency）。Anthropic 稍早推出的 Claude Code 與 Cowork 模式已在技術圈建立口碑，迫使 OpenAI 必須整合其分散的產品線。過去 OpenAI 的功能散落在不同的外掛或網頁介面，而此次超級 App 的推出，代表 OpenAI 正試圖在行動端與桌面端建立一個統一的入口。這不只是介面的更新，而是將 AI 定位為使用者與電腦硬體、軟體之間的中介層，試圖重新定義人類操作電腦的方式。\n\n### 作者的核心推論與觀點：以程式碼為底層邏輯，並透過授權模式解決 AI 拒絕執行的痛點\n\nAmbrosino 在訪談中指出一個關鍵技術觀察：無論是針對技術人員的 Codex 模式，還是針對一般大眾的 ChatGPT Work 模式，「程式碼」都是最核心的底層基礎。這顯示 OpenAI 認為「能寫程式」是 AI 執行所有電腦任務的先決條件。作者進一步分析，OpenAI 正在嘗試解決 AI 代理最令使用者沮喪的問題——因為安全限制而過度拒絕執行任務。新產品採取了「授權請求」而非「直接封鎖」的策略，例如涉及刷卡或隱私行為時，系統會請求使用者確認，而非直接說「我不被允許執行此操作」。此外，OpenAI 在隱私上也採取了更謹慎的「記憶選擇權」，除非使用者主動要求，否則系統不會預設存取過去的歷史紀錄來自動決策。\n\n### 對市場、技術與政策環境的長期影響：單一入口代理將對傳統垂直領域 SaaS 工具產生強大威脅\n\n這款超級 App 的出現，象徵著「萬能代理」時代的來臨，這將對市場上的專業工具產生擠壓效應。當一個 AI 應用程式就能處理 Word 文件、Excel 試算表、剪輯影片並自動在網路上處理庶務，使用者開啟特定專業軟體的頻率將大幅下降。長期來看，這將推動電腦互動邏輯的根本變革，讓「自然語言指令」正式取代傳統的「圖形介面點擊」。雖然 Anthropic 在產品概念上領先一步，但 OpenAI 展現了對於「後發優勢」的自信，認為觀察對手的錯誤並進行更完美的執行才是制勝點。這種競爭格局將加速 AI 代理在辦公自動化領域的全面滲透，並促使監管機構重新審視 AI 接管個人電腦行為後的資安與權限責任邊界。",
+      "article_date": "2026-07-13",
+      "url": "https://www.bigtechnology.com/p/apples-lawsuit-against-openai-makes",
+      "analysis_zh": "### 全文大意摘要：Apple 指控 OpenAI 系統性竊密以加速硬體開發\n\n根據科技媒體 Big Technology 報導，Apple 於上週五採取了極為罕見的行動，正式起訴 AI 巨頭 OpenAI 及其兩名前員工，指控其涉及竊取商業機密。這起訴訟的核心在於 Apple 認為 OpenAI 為了加速其硬體業務的發展，不惜採取「搭便車」的方式，直接挪用 Apple 數十年來的研發成果。被告名單中包含 OpenAI 現任硬體長、曾在 Apple 服務 24 年並主導 iPhone 與 Apple Watch 設計的 Tang Tan，以及另一名被指控在離職後仍非法下載電路板製造與測試文件的工程師 Chang Liu。Apple 在訴狀中明確表示，OpenAI 並未進行正當的研發投資，而是透過不當手段獲取技術。雖然 OpenAI 回應對他司機密「沒興趣」，且執行長 Sam Altman 在社群平台上向 Apple 示好，稱其為「S 級公司」，但這場科技巨頭間的法律對決顯然已經箭在弦上。\n\n### 戰略背景與脈絡：從軟體競爭延伸至硬體版圖的防禦策略\n\nApple 過去很少主動提告，除非對手是像 Samsung 或 Qualcomm 這類已經在市場上大量銷售競爭產品的公司；這次對象換成尚未推出實體產品的 OpenAI，顯示出 Apple 對 AI 硬體戰場的高度戒心。在過去幾年，AI 競賽主要聚焦在模型規模與運算能力，但隨著 OpenAI 積極招攬超過 400 名 Apple 前員工，並由 Jony Ive 與 Sam Altman 合作傳聞不斷，AI 的「實體化」已成為下一個關鍵賽道。這起訴訟與 2017 年 Uber 與 Waymo 的自駕技術糾紛，以及 2022 年 Apple 起訴晶片設計公司 Rivos 的案例有高度相似之處，反映出在尖端技術轉型期，頂尖人才流動背後所隱含的智慧財產權爭議。對 Apple 來說，硬體設計、供應鏈關係與製造工藝是其最核心的護城河，面對 OpenAI 試圖打破軟硬體界線的挑戰，這不只是單純的員工離職爭議，更是為了保衛下一代終端設備的主導權。\n\n### 作者的核心推論與觀點：法律訴訟難以逆轉已經產生的技術移轉\n\n作者 Alex Kantrowitz 提出了一個關鍵的質疑：法律手段是否真的能產生實質效用？即便法庭最終判決 Apple 勝訴，那些已經進入 OpenAI 工程師腦中的技術知識、開發邏輯與架構判斷，很難透過禁令完全「抹除」或逆轉。雖然 Apple 要求禁制令、陪審團審判以及透過證據開示程序（Discovery）來揭露更大規模的盜竊行為，但除非法院下達極為嚴厲的停止令，否則 OpenAI 的開發進度恐怕難以被法律程序實質拖慢。作者類比了過去針對 OpenAI 軟體業務（如版權爭議）的法律攻擊，結果並未阻礙其模型迭代。同樣地，在硬體領域，OpenAI 透過挖角獲取的「產業經驗值」已經轉化為產品原型。此外，訴狀中提到 OpenAI 甚至誤導 Apple 的合作供應商為其代工，並聲稱已獲得 Apple 授權，這種行為顯示 OpenAI 為了縮短硬體開發週期，正在利用 Apple 建立的成熟供應體系，這對 Apple 的商業模式構成了直接威脅。\n\n### 對市場、技術與政策環境的長期影響：硬體競爭門檻與 AI 產業的效率轉向\n\n這場法律戰將迫使矽谷重新檢視人才流動與競業禁止條款的邊界。對於市場而言，這釋放了一個明確信號：AI 領域的競爭重心正從純雲端服務轉向實體終端，未來的 AI 硬體將不只是現有設備的附屬品，而是需要全新硬體架構支撐的新物種。此外，文章也提到 OpenAI 最新發布的 GPT-5.6 系列模型（Sol、Terra、Luna）以及 Meta 的 Muse Spark 1.1，這些動作顯示出產業正從「追逐強大模型」轉向「追求成本效率」。隨著企業對 AI 投資報酬率（ROI）的要求日益嚴苛，如何讓 AI 運作得更便宜、更有效率，已成為科技公司競爭的新主軸。這意味著未來的競爭將不只是技術力的比拼，更是關於供應鏈成本控管、硬體整合效率以及商業化能力的綜合賽跑。Apple 的起訴或許會讓 OpenAI 在硬體供應鏈的佈局面臨法律障礙，但整體而言，這場爭議反而證實了「AI 專屬硬體」就是下一個科技業的黃金十年所在。",
       "insights": [
-        "「程式碼」已成為 AI 執行所有電腦任務的通用語言，這代表模型編碼能力的提升將直接轉換為文書、影音等多領域的自動化生產力。",
-        "AI 行為準則正從「靜態功能限制」轉向「動態授權模式」，透過讓使用者授予權限來克服 AI 因安全考量而無法執行特定操作（如刷卡訂票）的難題。",
-        "OpenAI 採取「第二順位進場」策略，觀察 Anthropic 的產品弱點後再推出整合度更高的超級 App，顯示其目前的戰略重心已從模型創新轉向極致的產品執行力。"
+        "Apple 罕見對「尚未推出產品」的對手提告，顯示 OpenAI 在硬體領域的佈局已觸及 Apple 核心防禦線，反映出 AI 硬體化不再只是傳聞，而是現實的商業威脅。",
+        "「人才即機密」的矛盾：OpenAI 雇用了超過 400 名 Apple 前員工，顯示在 AI 時代，硬體開發的核心競爭力高度集中在少數具備大規模製造經驗的頂尖工程師手中，而非僅是專利文件。",
+        "AI 產業正從「軍備競賽」轉型為「效率與成本之戰」，如 GPT-5.6 家族的推出顯示，降低企業使用成本、提高運算效率，比單純追求模型規模更能決定現階段的市場勝負。"
       ],
       "content_mode": "ai_analysis"
     },
     "a16z": {
-      "title": "America: The Next 250 Years / 美國：邁向下一個 250 年的強韌動能",
+      "title": "The Most Human Technology Ever Made / 最具人性溫度的科技：AI 如何解放人類的創作本能",
       "source": "a16z",
-      "article_date": "2026-07-03",
-      "url": "https://www.a16z.news/p/america-250",
-      "analysis_zh": "### 全文大意摘要：重新點燃「美國動能」以確保自由世界的技術領先\n\na16z 合夥人 David Ulevitch 趁著美國 250 週年國慶之際，重新梳理了該機構核心投資策略「美國動能」（American Dynamism）的階段性成果與未來展望。文章明確指出，矽谷過去數十年與華盛頓之間的寒蟬效應正在消散，面對中國在關鍵技術領域的強勢追趕，美國必須重新擁抱「建造者」文化。這不僅是關於國防科技的升級，更是一場涵蓋能源、製造業與供應鏈近岸化的全面實力競賽。a16z 認為，唯有透過科技創新的加速，將矽谷的資本與效率帶進國防與基礎建設，才能確保美國在下一個 250 年繼續維持全球領導地位。\n\n### 戰略背景與脈絡：在技術流失與地緣政治緊張下的產業覺醒\n\n這場「美國動能」運動的興起，背景源於美國對自身工業能力流失的深刻焦慮。David Ulevitch 引用數據警示，美國過去曾在 64 項關鍵技術中領先 60 項，但如今中國已在 57 項領域佔據第一，而美國僅剩 7 項。長期以來，過度外包、監管停滯以及資本過度集中於純軟體與廣告平台，削弱了美國的實體工業基礎。\n\n然而，隨著烏俄戰爭爆發、對華關係緊張，以及供應鏈韌性成為國家安全的核心，市場環境發生了質變。過去被視為冷門、難啃的「硬科技」（Hard Tech）如電池、電機、採礦與國防設備，正重新成為資本與人才的交匯點。矽谷正從單純的數位娛樂轉向更具使命感的領域，試圖彌合過去幾十年來工業能力的空缺。\n\n### 作者的核心推論與觀點：新創公司正以十倍速打破傳統國防產業的效率天花板\n\n文章中最重要的推論在於：新一代科技公司已經證明，他們能夠以遠超傳統國防巨頭（Legacy Primes）的速度交付成果。過去大型國防承包商通常需要近 30 年才能達成一項價值 1 億美元的計畫里程碑，而第一代硬科技新創（如 SpaceX、Palantir）縮短到了 15 年。現在，像 Anduril 或 Saronic 這樣的新公司，憑藉 AI 與自主技術，在不到 3 年內就能拿下政府的正式採購計畫。\n\n這種效率的跨越，來自於人才流向的結構性改變。作者觀察到，新創公司正成為一種人才培育管道，吸引了大量來自 SpaceX、Tesla 的頂尖工程師，甚至是具備實戰經驗的退伍軍人。這些「新一代建造者」將工程專業與國家使命感結合，不再只是開發 App，而是致力於解決能確保國家正常運作的基礎設施問題。這種「技術＋任務」的雙重驅動，正是打破官僚體制停滯、推動產業轉型的關鍵動力。\n\n### 對市場、技術與政策環境的長期影響：製造業回流與中產階級職位的社會重塑\n\n從長遠來看，這波投資浪潮將對美國的經濟結構與社會韌性產生深遠影響。這不只是技術競賽，更是一場關於「誰能定義未來標準」的生存戰。David Ulevitch 強調，科技決定了誰能控制供應鏈並確保繁榮，如果自由是世界的作業系統，那麼美國就必須像維護生命一樣去資助這些技術。\n\n在社會層面，製造業的回流正在打破「精英學位」的職場神話。透過在俄亥俄州或路易斯安那州建立超大規模工廠，科技公司正在為不具備精英大學學位的藍領勞工提供具尊嚴且高薪的職位。這意味著科技資本的流向正在從沿海城市擴散到美國腹地，重新建立社會共識。隨著政策制定者與投資者之間的橋樑日益穩固，未來我們將看到更多親創新的政策出現，這將促使全球供應鏈進一步向友岸與近岸靠攏。",
+      "article_date": "2026-07-13",
+      "url": "https://www.a16z.news/p/the-most-human-technology-ever-made",
+      "analysis_zh": "### 全文大意摘要：AI 不只是省時的工具，更是擴張人類自我的「畫筆」\n\n這篇由知名創投 a16z 刊出的文章重新定義了人工智慧（AI）的角色。作者指出，過去一百年的科技發展主軸是「讓我們做得更少，卻擁有更多」，也就是追求效率與消費。然而，AI 卻屬於另一類科技，它更像是畫筆或印刷機，其核心價值不在於幫人類省下多少時間，而在於賦予每個人「創作」與「表達」的能力。文章強調，人類在動手做的過程中會感到更快樂，而 AI 正好大幅降低了實踐創意的門檻，讓執行不再是瓶頸，個人的獨特性反而成為價值的核心。\n\n### 戰略背景與脈絡：從追求效率的「節省時間」轉向追求意義的「投入時間」\n\n在過去幾年的 AI 討論中，產業界大多聚焦於生產力的提升，例如寫一封郵件可以省下幾分鐘、或是自動化報表能縮減多少人力成本。這種論述將 AI 視為一種「節省時間」的工具，符合過去一世紀以來科技服務消費者的邏輯。但在 a16z 的觀察中，這種效率至上的思維忽略了人類最深層的需求：人們其實並非總是想省時間，更多時候是想把時間「花在有意義的事情上」。\n\n當前的科技環境正面臨一個轉折點。社群媒體的演算法雖然讓我們能隨時消費資訊，卻也製造了大量的「垃圾內容」（Slop），因為每個人都在被動消費而非主動創造。作者認為，AI 的出現正好是這種現象的解藥，因為它讓「動手做」變得前所未有的簡單，從一個想解決家中電路問題的電工，到想寫出一套管理工具的管道工，AI 正在打破傳統上只有工程師或專業人士才能「建造」東西的壟斷。這與早期 YouTube 讓影片創作普及化的過程非常相似，軟體開發即將迎來同樣的普及化浪潮。\n\n### 作者的核心推論與觀點：當執行的門檻消失，決定價值的將是「你有什麼想說的話」\n\n文章提出了一個深刻的觀察：在人類歷史的大部分時間裡，要把想法變成現實，最大的瓶頸往往不在於創意本身，而在於「磨練」的過程，包括學習複雜技能、籌集資金、組建團隊以及獲得許可。因為執行的成本極高，大部分人的好點子最終都胎死腹中。然而，AI 正在瓦解這個「執行的瓶頸」，讓實踐成本崩跌。當撰寫程式碼、設計介面或分析數據不再需要數年的專業培訓時，真正決定一個產品或公司成敗的，就不再是技術實力，而是創作者的觀點與靈魂。\n\n作者進一步推論，AI 對工作的影響並非讓人類變得懶散或被取代，反而會引發「個人主義的規模化」。AI 會幫我們吸收掉工作中那些無聊、官僚、重複的「稅收」（例如無止盡的會議或行政庶務），讓工作重新回到「玩樂」與「熱情」的本質。從目前的觀察來看，那些重度使用 AI 的人並沒有因此工作得更少，反而因為能親手實現腦中的構思而變得更加投入，甚至在深夜兩點還會興奮地傳簡訊向朋友展示新作品。這種從「觀察者」轉變為「實踐者」的心理轉變，才是 AI 最強大的力量。\n\n### 對市場、技術與政策環境的長期影響：軟體開發將徹底普及化，並重塑工作的定義\n\n從長遠來看，AI 將導致「軟體無處不在」的現象，且這些軟體大部分將由原本不具備工程背景的人所創造。這對傳統的創投模式與企業軟體市場將產生巨大衝擊。當一個水電工只需花一個下午就能用 AI 工具開發出原本需要幾萬美金諮詢費才能解決的系統時，市場對標準化軟體的需求可能會下降，取而代之的是高度客製化、由使用者自行定義的工具。這種「玩具化」的趨勢看似不正式，但正如 a16z 過往提出的論點，下一件大趨勢往往最初看起來都像個玩具。\n\n在政策與社會層面，這也挑戰了「AI 會創造永久底層階級」的悲觀敘事。文章認為，AI 不會讓少數幾家大公司壟斷一切，反而會讓每個人的「特殊性」與「怪癖」成為最有競爭力的資產。未來的經濟體系可能不再是由少數菁英領導大眾，而是每個人都能在自己的領域中透過 AI 成為微型生產者。工作與娛樂的邊界將變得模糊，突破性的創意將不再來自戰略規劃書，而是來自無數個因為好玩而踏入的「支線任務」與「週末專案」。這種高度分眾、高度個人化的經濟樣態，將重新定義我們對工作價值與成就感的認知。",
       "insights": [
-        "國防採購的效率革命：新創公司進入 1 億美元計畫的速度從 30 年縮短至 3 年內，顯示 AI 與自動化技術已徹底重塑傳統重工業的商業模型與生存法則。",
-        "技術領先地位的攻守易位：美國在 64 項關鍵技術中已失去 57 項的領先權給中國，這使得「美國動能」不再只是投資口號，而是攸關國家安全與供應鏈韌性的生存戰。",
-        "重新定義高薪工作的門檻：透過先進製造業的回流，科技業正試圖打破「精英學位」作為進入中產階級唯一路徑的現狀，顯示科技資本正轉向尋求能穩定社會結構的實體基礎建設。"
+        "AI 的最大價值不在於「省下時間」增加效率，而在於降低「執行門檻」，讓更多人願意為了興趣與問題解決而「投入時間」進行創作。",
+        "當技術實作成本崩跌，軟體開發將如同 YouTube 時代的影音創作一樣普及，未來最有價值的將不是技術能力，而是創作者是否具備獨特的觀點與說法。",
+        "AI 正透過減少行政庶務等「工作稅收」，讓專業工作回歸到類似「玩樂」的純粹創作狀態，這反而會促使人們更積極地投入工作，而非走向懶散。"
       ],
       "content_mode": "ai_analysis"
     },
     "Lenny's Newsletter": {
-      "title": "2026 年科技從業者對 AI 的真實心聲：分裂的職場、攀升的倦怠與四大心理原型 / How tech workers actually feel about AI in 2026",
+      "title": "如何使用 AI：GPT-5.6 實測、24/7 本地 AI 陣列，以及代理框架（Agent Harness）建置指南",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-07-12",
-      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
-      "analysis_zh": "### 全文大意摘要：AI 浪潮下的科技職場大調查，揭示從業者心理的高度分化\n\n這份報告由資深研究專家 Noam Segal 與 Lenny Rachitsky 合作完成，是針對 2026 年科技工作者進行的第二屆年度 AI 情感調查。這項量化研究收集了來自產品、工程、設計、研究、行銷、數據與銷售等數千名從業者的回饋，深入探討 AI 如何影響工作滿意度、職業生涯與心理健康。調查結果顯示，AI 的普及並沒有帶來普遍的繁榮，反而讓科技職場分裂成極端不同的兩個陣營：一方在技術紅利中成長，另一方則感到地位動搖且無所適從。\n\n### 戰略背景與脈絡：AI 從「技術導入期」進入「心理重塑期」，職場緊張感不減反增\n\n隨著 AI 技術在 2026 年已從單純的實驗性工具轉變為產業的常態配置，科技產業正經歷一場深層的結構性轉變。過去一年中，科技業的倦怠感（Burnout）大幅攀升了 11 個百分點，這反映出 AI 雖然提升了生產效率，但並未緩解員工的工作壓力，反而可能因為「追求極致速度」的文化（Velocity over everything）而加劇了心理負荷。這份調查發生的背景，正是市場在 AI 熱潮過後開始面對真實的人道與組織挑戰，當技術問題逐漸解決，如何管理「人」的焦慮與轉型成為企業的新難題。\n\n### 作者的核心推論與觀點：科技從業者的心理狀態正根據對 AI 的適應力重組為四大類型\n\nNoam Segal 根據調查數據提出了四大情感原型，用來定義當前的科技工作者：這包括充滿動能的「積極者」（The Energized）、對 AI 應用感到掙扎的「矛盾者」（The Conflicted）、找不到自身定位的「迷航者」（The Disoriented），以及對變革感到憤怒的「憤世者」（The Resentful）。這種分類說明了技術變革對人的影響並非線性，而是會根據個人的職位與適應能力產生劇烈的心理斷層。\n\n作者特別指出，目前科技業最大的恐懼並非「被 AI 取代工作」，而是一種更深層的職業危機感。此外，調查數據顯示，目前幾乎沒有科技從業者會推薦新人進入這個產業，這是一個極其嚴峻的訊號，顯示職場環境的惡化已影響到產業的長期吸引力。在這種背景下，管理者的角色變得前所未有地重要，他們是影響員工心理福祉的最關鍵變因，也是企業能否在 AI 時代留住核心人才的最後防線。\n\n### 對市場、技術與政策環境的長期影響：人才紅利的消失與管理模式的根本轉型\n\n這份調查預示了科技產業未來幾年的幾個關鍵走向。首先，人才管線（Pipeline）可能面臨挑戰，當現有從業者對職涯前景感到悲觀且不願推薦產業時，頂尖人才的流入將會放緩。其次，企業的競爭力將不再僅取決於導入了多少 AI 工具，而在於如何透過管理手段化解員工的負面情緒與倦怠感；那些能幫助員工從「迷航」或「憤世」轉化為「積極」的企業，將在人才爭奪戰中勝出。\n\n從更宏觀的角度看，AI 的普及正迫使我們重新定義「科技工作」的本質。如果 AI 能處理大部分的執行層面，那麼人類工作者的價值將更集中於需要判斷力、情感連結與戰略引導的專業服務。企業若持續忽視激增的倦怠感，最終可能面臨大規模的專業人才流失，這將抵消技術帶來的生產力增幅。未來的政策與公司規範，勢必需要針對 AI 輔助下的「工作強度」與「心理邊界」重新進行社會契約的修訂。",
+      "article_date": "2026-07-13",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo",
+      "analysis_zh": "### 全文大意摘要：從通用對話轉向高度客製化的自動化生產線\n\n這篇來自《Lenny's Newsletter》的深度訪談，由 ChatPRD 創辦人 Claire 與開發者 Alex Finn 共同探討 2026 年當前最前線的 AI 實作邏輯。文章核心主旨在於：AI 的競爭已經從「誰的模型最強」轉向「誰能建構更好的自動化流程（Loops）」。全文涵蓋三大領域：第一，Claire 定義了「代理框架（Harness）」的概念，說明如何透過程式碼鎖定 AI 行為以執行特定工程任務；第二，Alex 分享了建置「本地 AI 陣列」的經濟邏輯，強調「無限推理」如何改變軟體生產的成本結構；第三，針對 OpenAI 最新推出的 GPT-5.6 Sol 進行實測，分析其在實際產品開發中為何優於 Fable 等其他模型。\n\n### 戰略背景與脈絡：AI 應用正從「通用對話」進入「專業分工」的混合架構\n\n目前的 AI 產業環境正處於一個關鍵轉折點：單純在網頁介面輸入指令（Prompting）已不足以支撐專業需求。隨著 Claude Code 與 Cursor 等工具的普及，開發者開始意識到「通用型代理」在處理複雜、重複性高的任務時（如 Sentry 錯誤排除或大規模代碼掃描）仍顯得力不從心。在此背景下，業界出現了兩種顯著趨勢：一是「封裝化（Harnessing）」，即開發者不再直接呼叫模型，而是自行撰寫輕量化的框架來限制、引導 AI 的行為；二是「本地化（Local AI）」，為了規避高昂的 API 費用，專業開發者開始回歸本地硬體（如 Mac Studio 與 NVIDIA GPU），建構 24/7 運作的自動化生產工廠。\n\n### 作者的核心推論與觀點：限制 AI 的自由度反而能產出更高質量的成果\n\nClaire 與 Alex 的核心論點不約而同地指向：最強大的模型不代表最實用的結果，關鍵在於「流程設計（Loop Design）」。Claire 提出的「代理框架（Harness）」理論認為，當一個工作流程包含「確定性步驟」與「非確定性判斷」時，就應該撰寫專屬框架。例如在處理 Bug 診斷時，不應讓 AI 漫無目的地搜尋，而是透過自訂的轉接器（Adapter）餵入精確數據。她強調，與其給 AI 一個開放式對話框，不如給它一個限制重重的「儀表板」，這能大幅提升產出的穩定性與一致性。此外，針對 GPT-5.6 Sol 的實測也支持這一點：雖然其他模型在理論數據上可能更聰明，但 Sol 在「產品品味（Taste）」與「實際可部署性」上勝出，因為它產出的 Prototype 更具美感且更符合人類溝通直覺。\n\n### 對市場、技術與政策環境的長期影響：軟體工廠的去中心化與混合計算模式的崛起\n\n這種「本地運算＋專業框架」的模式，預示了軟體開發與維運（DevOps）的長期變革。首先，市場將看到更多「一人公司」或極小團隊，透過本地 AI 陣列進行 24/7 的安全性掃描與代碼審查，這種「無限推理」的模式讓以往極度昂貴的品管流程變得近乎零成本。其次，技術路線將走向「混合智慧（Hybrid Intelligence）」：使用廉價的本地模型（如 Qwen 或 GLM）擔任開發代表（BDR）處理大量低階工作，僅在需要關鍵決策時才由昂貴的雲端旗艦模型（如 GPT-5.6 或 Claude Fable）擔任結案者（Closer）。這種策略不僅優化了成本，也降低了企業對特定雲端廠商的依賴，形成了一種具有競爭門檻的私人技術資產（Proprietary Loops）。",
       "insights": [
-        "AI 對職場的影響不是取代，而是「文化撕裂」：適應力強與弱的員工正分化為截然不同的心理原型，這會導致團隊協作與組織文化的崩解。",
-        "「AI 提升效率」與「員工倦怠感」呈現同步成長的弔詭現象：這暗示技術帶來的多餘頻寬並未回饋給員工休憩，而是被企業轉化為更激進的產出目標與競爭門檻。",
-        "管理者成為 AI 時代最重要的「韌性槓桿」：在技術變動極快的 2026 年，技術主管的價值將從「程式碼審閱」轉向「心理與職涯輔導」，成為企業抵抗人才流失的核心。"
+        "「本地 AI」的核心價值不在於投資報酬率（ROI），而在於「無限推理」帶來的行為變革：當運算不再按次計費，開發者才能實施 24/7 的連續掃描與監控，這在雲端 API 架構下極度昂貴且不可行。",
+        "「代理框架（Harness）」是軟體工程與 AI 的過渡帶：透過代碼鎖定權限與流程，將 AI 從不穩定的對話者轉化為可靠的工業零件，解決了通用型 Agent 容易偏離主題的問題。",
+        "「模型品味」正在成為核心競爭力：GPT-5.6 Sol 的勝出顯示模型在視覺層次感、配色與溝通語氣上的「人性化表現」，比單純的邏輯推理能力更能決定它是否能被用於實際產品交付。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -414,14 +479,14 @@
       "content_mode": "full_text_import"
     },
     "HackMD：停損王SLKing": {
-      "title": "俄羅斯戰時經濟見底：能源超級大國開始進口汽油、變賣黃金",
+      "title": "AI 把科技業切成兩半：50/50 的職場心理實況（codex）",
       "source": "HackMD：停損王SLKing",
-      "article_date": "2026-07-12",
-      "url": "https://hackmd.io/rkjpbsxEGl",
-      "analysis_zh": "原始影片：Is Russia Actually Losing? (https://www.youtube.com/watch?v=cRiOkQ1ngAM) | Patrick Boyle | 2026-07-11\n\n### 導言\n\nPatrick Boyle 是 YouTube 上以嚴謹財經分析著稱的頻道主持人，擅長用數據拆解地緣政治敘事。在這部影片中，他整理了 2026 年俄烏戰爭的經濟與軍事數據，指出俄羅斯正面臨一場沒有戲劇性崩塌、但正在結構性耗竭的困境。\n\n核心問題是：一個靠石油出口維生的「能源超級大國」，為何開始排隊加油、從印度緊急進口汽油、變賣國家黃金？Boyle 用財政赤字、央行利率、國家財富基金餘額這幾組數字，勾勒出俄羅斯戰時經濟的真實樣貌。\n\n### 烏克蘭無人機重創俄羅斯煉油產能\n\n2026 年 7 月初，俄羅斯副總理 Alexander Novak 透過視訊向普丁報告，立即禁止柴油出口，禁令實施至 7 月 31 日，並宣佈將從海外（包括印度）進口精煉燃料。Boyle 指出：「從地質上來說，俄羅斯基本上就是石油組成的，還把自己行銷成能源超級大國」，這件事因此格外尷尬。\n\n克里姆林宮對外一直堅稱俄羅斯運轉起來仍有充裕的韌性餘裕，Novak 卻得親口宣佈這道禁令。Boyle 把這一幕比作 2003 年的「巴格達鮑勃」（Baghdad Bob）：伊拉克戰爭開打時，資訊部長 Muhammad Saeed al-Sahaf 站在鏡頭前咬定美軍根本不在巴格達附近，身後的坦克卻正在實況畫面裡輾過。俄羅斯國家電視台如今組裝出自己的版本：螢幕上，部隊沿著前線自信推進；螢幕外，莫斯科與全國約半數地區的駕駛人，正為一天限量配給的燃料排上好幾個鐘頭的隊。Boyle 說：「只要你待在家裡看電視，就會相信一切安好。」而這種對表象的管理，一路管到了最高層；後面那場勝利日閱兵，正是同一套邏輯的延伸。\n\n供應短缺的根源是烏克蘭把戰爭重心從頓巴斯的壕溝戰轉向俄羅斯的煉油廠。烏克蘭無人機深入俄羅斯領土 1,400 公里，已摧毀該國約三分之一的煉油產能，烏克蘭總參謀部聲稱實際數字接近 43%，獨立能源分析師的估計則接近三分之一。Boyle 說：\n\n「無論哪個數字，都足以讓一個靠出口石油為生的國家，在自己的加油站前面排隊限購。」\n\n### 克里米亞：觀光客聽不見警報的戰時狀態\n\n煉油廠並非唯一目標。烏克蘭把攻勢延伸到克里米亞（2014 年被兼併，直到最近還是俄羅斯人度假、假裝戰爭不存在的地方）。經過數週對變電站、油庫、補給克里米亞渡輪的無人機攻擊後，俄羅斯當局宣佈無限期緊急狀態，全面停止民間汽油銷售，城市陷入黑暗。\n\n警報器反而被關掉了。一位當地高階官員解釋，如果警報持續響起，一天會響 22 小時，居民根本無法睡覺。居民懷疑真正的原因更單純：警報聲對觀光季不利。雅爾達的海灘仍然擠滿人，幾公里外機動防空部隊正對著屋頂上的無人機開機槍。半島其他地方的旅客則塞在車陣裡，試圖從烏克蘭刻意保留的一座橋撤離。Boyle 引用一項分析指出：「基輔是故意保留最後那座橋，把它當成出口。」\n\n### 防空資源被迫在莫斯科與煉油廠之間分配\n\n無人機衝擊波擴及克里米亞之外。為了反制無人機，俄羅斯各地區現在動輒關閉行動網路與行動上網，但這同時也關掉了刷卡機與 ATM。三個地區之外的無人機警報，可能讓你連一杯咖啡都買不了。\n\n因為防空系統不足以同時覆蓋所有目標，莫斯科被迫選擇保護什麼。社群媒體流傳的照片顯示，俄軍用直升機把 Pantsir 防空系統吊掛到莫斯科公寓大樓的屋頂，為了做這件事，得從其他地點抽調掩護。\n\n同樣的窘境，五月的勝利日閱兵早已寫在臉上。今年紅場閱兵近二十年來第一次沒有任何重型軍事裝備，沒有坦克、沒有飛彈發射車，只有士兵列隊和一次戰機飛越。原因很簡單：當對手的無人機打得到莫斯科，把戰略裝備緩緩開過開闊廣場並不明智，而就在同一週，烏克蘭的無人機還飛越了首都上空。為了辦成這場閱兵，普丁替自己弄到一張保證：澤倫斯基頒佈正式命令，宣佈閱兵期間紅場不列入烏克蘭打擊範圍，甚至公佈了確切座標，交換條件是雙方各釋放一千名戰俘。Boyle 說：「這個為了重振俄羅斯偉大而發動戰爭的人，是靠著敵人的書面許可，才辦成他的偉大閱兵。」\n\nBoyle 指出，這正是閱兵典禮試圖掩蓋的事：\n\n「一個入侵鄰國來投射國力的國家，現在連在被佔領土上的供電都無法可靠維持，還得在自家首都和自家煉油廠之間分配防空資源。」\n\n### 俄軍傷亡規模：超過二戰以來美軍全部戰爭合計的四倍\n\nCSIS 估算俄羅斯戰場傷亡（死亡、受傷、失蹤）從 2022 年 2 月到 2026 年 6 月累計約 144 萬人，其中死亡人數多達 45 萬。Boyle 對照美國數字：\n\n「俄羅斯在烏克蘭損失的軍人數量，比美國自 1945 年以來所有戰爭加起來還多，而且多出四倍。」\n\n克里姆林宮原本以為這場戰爭能在長週末結束，結果它已經比第一次世界大戰持續更久，而且看不到盡頭。\n\n### 西方對俄羅斯的誤讀：Tucker Carlson 的莫斯科超市\n\n多年來，部分西方評論者傾向把俄羅斯描繪成一個高度團結的傳統主義天堂。最高調的例子是 Tucker Carlson 2024 年赴莫斯科「朝聖」專訪普丁。Carlson 搭了地鐵、欣賞了火車站的裝潢、走進一家高檔超市，一週伙食費結帳 104 美元，遠低於他與團隊在美國估的 400 美元。他自稱這趟讓他「徹底激進化」，轉而反對美國的領導階層。\n\nBoyle 把這段「超市外交」放進歷史脈絡：1989 年 Boris Yeltsin 訪問休士頓一家超市，被布丁杯貨架和完全沒有排隊的景象震驚，回去後參與拆解了蘇聯。35 年後一個美國人走進俄羅斯超市，得出完全相反的反應。\n\n進步有時雙向進行，只要你只看旗艦店。當時就有不少人指出，用外交部隔壁一家超市判斷一國的總體經濟健康，本身就有點荒謬。保守派作家 Jonah Goldberg 批評整段影片「蠢得驚人」，並指出俄羅斯的人均財富大約只有美國的五分之一，連美國最貧窮的地區都明顯比俄羅斯富裕。Boyle 補充具體數字：俄羅斯人均 GDP 約 1.3 至 1.5 萬美元，美國則超過 8 萬美元。當然，俄羅斯的麵包會便宜一點。\n\n「基督教傳統價值」論述同樣站不住腳。調查顯示宗教在俄羅斯人生活中扮演重要角色的比例約 15%，明顯低於美國，而不是更高。\n\nBoyle 順帶提到 Carlson 自稱 2023 年在床上遭惡魔襲擊，身上出現四道爪痕。他沒有立刻公開，直到 2024 年底的紀錄片訪談才說出來。對此，Boyle 引用普丁自傳裡一段童年故事：普丁在聖彼得堡的公寓走廊用棍子追打一隻大老鼠，老鼠走投無路反撲撲向他。換句話說，普丁本人就是對俄羅斯室內大型侵略性老鼠有第一手經驗的國家元首。Boyle 結論：對那隻攻擊 Carlson 的恐怖實體，最簡潔的解釋是老鼠，符合奧卡姆剃刀。\n\n### 俄羅斯官方經濟數據終於自打嘴巴\n\n如果去年聽信克里姆林宮的啦啦隊，你會以為俄羅斯找到了違反金融重力定律的後門：他們宣稱經濟正在蓬勃發展。但今年，連俄羅斯政府的官方試算表都不同意這套說法。\n\n基爾世界經濟研究所（Kiel Institute）2026 年 6 月報告指出，俄羅斯經濟在第一季萎縮 0.3%，儘管政府大幅增加支出。莫斯科已將 2026 年自身成長預測下修至 0.4%。Boyle 強調：「這不是排版錯誤。千分之四。」這個數字來自一個過去四年把制裁描述成「基本上只是裝飾品」的政府。\n\n經濟學家 Torbjorn Becker 把這種狀態描述為「兩軌經濟」：俄羅斯央行為了壓制通膨將利率維持在 14% 以上，政府另一手卻把盧布持續灌入國防。這在宏觀經濟上等於「煞車踩死、卻同時把油門踩到底」：引擎在咆哮、民間經濟被借款成本掐住喉嚨、車卻沒跑得更快。\n\n### 結構性耗竭：緩衝墊幾乎見底\n\n俄羅斯沒有戲劇性崩潰，也沒有人能排出確切日期。基爾研究所用的詞是「結構性耗竭」（structural exhaustion），意思就是「靠著最後一口氣在跑」。\n\n俄羅斯在戰前有真正的雨天基金：多年來克里姆林宮把多餘的油氣收入灌入國家財富基金，正是為了應付這種衝擊。入侵戰爭開始時，該基金流動資產佔 GDP 6.5%，到 2026 年 4 月只剩 1.8%。緩衝幾乎用盡。\n\n沒有這些儲蓄後，政府燒錢的速度幾乎沒有操作空間。2026 年前三個月，俄羅斯預算赤字達 4.6 兆盧布，全年官方目標是 3.8 兆。Boyle 寫道：「他們 90 天就用光了 12 個月的信用額度。」小豬撲滿空了、官方預算提前失守，他們怎麼維持戰車工廠運作？答案是把成本搬上檯面之下。\n\n### 金融工程：銀行體系被徵用來掩蓋赤字\n\n經濟學家 Matthew Klein 引用 Craig Kennedy 的研究，整理出基本算術：軍費上升、油氣收入下降，缺口總要有人補。所以缺口從每個地方來：加稅、削減支出、增加借款，以及持續出售外匯存底，包括國家黃金。一個能源超級大國，正在賣黃金來支付燃料帳單。\n\n更結構性的做法是動員銀行體系：戰爭開始後，企業債務急速膨脹，主要由國家控制的銀行奉命對軍需相關企業大量放款。\n\n### 銀行體系被國家徵用，從後門替企業補貼\n\n俄羅斯之所以能在帳面上維持運作，關鍵在於克里姆林宮實際上徵用了整個銀行體系，透過後門完成預算無法公開做的事：讓企業欠稅欠費，由國家放水不催。講者打了一個比方：「這就像房東讓一間快倒的店家永遠不付租金，然後店家拿那筆沒付出去的錢宣佈今年是史上最佳業績。帳面上跑得動一段時間，但總有一天得有人掏出真鈔，否則整棟樓會塌。」帳單已經到了。逾期企業債務急速攀升，企業債務中有相當比例被標記為問題貸款。越來越多俄羅斯大型企業每年的利息支出已經超過整年 EBITDA，代表這些公司在還沒被課稅、還沒提折舊之前的純營運層級就在流血。「這時候你盯著看的東西很難再叫做公司。」講者說，「它只是一張組織架構圖，底下壓著一張別人遲早要付的帳單。」\n\n### 中國取代歐洲，但這不是結盟而是單邊剝削\n\n對莫斯科雪上加霜的是，最終壓垮這個結構的衝擊不是從西方來的，而是從最重要的盟友來的。入侵前幾天，普丁與習近平簽署聯合聲明，宣佈「無上限夥伴關係」。但經濟學家 Alicia García Herrero 表示，一旦翻開實際貿易數據，這絕對不是對等的聯盟，而是日益傾斜的安排，俄羅斯落在吃虧的那一端。中國目前佔俄羅斯對外貿易約 35%，戰前只有 16%。歐洲市場關閉後，俄羅斯成了被困住的供應商，海量原物料只有一個買家有規模地吃下。北京深知這張槓桿有多大。\n\n「西伯利亞力量二號」天然氣管線正是這張槓桿的即時演練。普丁五月專程飛到北京想敲定合約，帶回家的超過 40 份簽署文件涵蓋貿易、核安全等議題，但管線連提都沒提。中國樂得讓俄羅斯坐在那裡，繼續擠壓條件。俄羅斯在賣價上被砍，買價上則對中國全面依賴。講者指出，雖然克里姆林宮喜歡談「進口替代」，但海關數據說的是另一個故事：俄羅斯多半隻是把對歐洲的依賴換成對中國的依賴。軍工複合體現在嚴重依賴中國提供大部分關鍵雙用途科技、電子元件、CNC 工具機，這些東西名字無聊，卻是戰時經濟真正能運轉的關鍵。\n\n經濟學家 Constantine Urgarov 翻過俄羅斯海關紀錄後發現，2021 年進入俄羅斯的多數晶片是 Intel、AMD 等美國公司製造。今天，同樣的西方品牌仍佔俄羅斯晶片進口絕大多數，唯一改變的只是紙本作業：這些晶片現在大多先過境中國。北京沒有取代西方科技，只是在徵過路費。一般消費品方面，連過路都省了，Electrolux、Indesit 等西方品牌幾乎從俄羅斯貨架上消失，全面由中國製產品取代。「中國沒有給俄羅斯無上限的友誼。」講者總結，「它給的是一個非常有耐心的房東。」\n\n### 歐洲重整軍備，國防類股卻反向下跌\n\n俄羅斯在燒人燒錢打消耗戰的同時，把經濟典當給了北京。歐洲各國首都開始警覺（制裁其實比想像中漏得更嚴重，中國樂於讓俄羅斯戰機繼續運轉以換取折價石油），同時也擔心沒有美國奧援打一場陸戰。隨著中東衝突拖延、華府注意力被牽制，歐洲各國首都做出了過去難以想像的事：打開荷包。德國總理梅爾茨（Friedrich Merz）一舉推翻數十年的財政紀律，承諾在 2030 年前借款超過 8,000 億歐元重建軍隊與基礎建設，目標是在 2029 年把國防支出拉到 GDP 的 3.5%，而 2023 年這個數字還只有約 1.5%。照理說，地球上最富有的國家同時重整軍備，國防類股應該一飛沖天。現實是：2026 年 3 月，NYSE Arca 國防指數跌了近 8%，同期 S&P 500 只跌約 5%。歐洲宣告冷戰以來最大軍備擴張的那個月，國防板塊竟然跑輸大盤。\n\n講者整理了幾個分析師的解釋。其一，戰爭溢價早被股價反映，指數在 2020 到 2025 年間漲了超過 150%，「戰爭還沒人宣佈，股價就先漲完了」。其二，現代國防製造有很長的生產週期，「你不能下季就把愛國者飛彈的產量翻倍」。但還有更進一步的原因：歐洲開出的支票不全都寄到美國。歐洲開始擔心過度依賴美國技術會出事：如果華府把盟國關係當交易，那把整個國防體系蓋在美國高科技戰機與武器上，看起來越來越不像夥伴關係，反而像一張隨時會被取消通知就斷訊的訂閱方案。歐洲官員開始公開談論所謂的「美國關閉開關」（American kill switch）：美國政府可能在某次外交政策爭議中限制軟體更新或零組件供應，把一支空軍變成停機坪上昂貴的收藏品。\n\n更深的疑慮是，NATO 的整個作戰教條可能已經過時。NATO 規劃仍圍繞 1990 年代波斯灣戰爭那種壓倒性昂貴常規兵力模型。在烏克蘭，俄羅斯造價上億美元的武器系統被樹叢裡拿著平板飛的廉價無人機打成廢鐵。歐洲軍隊沒有能力像五角大廈那樣投射壓倒性火力，基準戰略必須長得不太一樣。一位英國高階官員告訴金融時報：「歐洲不會試圖在戰車數量上跟俄羅斯對齊，而是會製造兩難、設置障礙，打造一種刺蝟式防禦。」目標不是正面接戰，而是讓領土過度分散、過度扎手、過度昂貴到沒人想吞下去。\n\n### 烏克蘭的低成本戰法與歐洲的算計\n\n為了達到這點，歐洲想複製烏克蘭的敏捷低成本製造。烏克蘭從餐巾紙上的草圖到實戰測試通過的 Flamingo 巡弋飛彈只花不到九個月，單枚造價約 50 萬美元，大約是美製戰斧巡弋飛彈的五分之一價格，射程卻是兩倍。德國國防企業 Diehl（Diehl Defence）已開始洽談在德國本土生產，而不是等多年才拿到一款更貴且華府尚未同意出售的美國替代品。\n\n這帶出一個歐洲各國財政單位開始大聲問的問題：烏克蘭和伊朗各自證明瞭，大量廉價可消耗系統足以遲滯、拖垮、甚至羞辱一支遠比它們富裕精密的軍隊。一架 10 萬美元無人機在地面上摧毀一架 5,000 萬美元戰機，這不是一場公平的仗，講者說，「而且本來就不是設計成公平的仗」。那歐洲到底需不需要整支昂貴的美製戰機機隊？還是說，這裡面有很大一部分支出本質上不是威懾，而是付給華府的安全保護費？沒人在 NATO 峰會上會這樣措辭，但數字已經在替他們說話了。\n\n俄羅斯核武在每一件真正出錯的事情上完全派不上用場，講者說，「你不能用核彈解決無人機短缺」。另一個被俄羅斯威脅論掩蓋的安靜事實：俄羅斯花了天文數字在軍隊上，連烏克蘭都打不下。歐洲整體國防支出已經超過俄羅斯，而且更富有、人口更多、科技位階更高。「那支被說成幾週內就能打到英吉利海峽的軍隊，已經花了四年連邊境兩小時車程內的城鎮都拿不下來。」講者引用 CSIS 的測量，俄軍推進速度大約每天 70 公尺。歐洲重整軍備的理由確實成立，但「恐慌式」的論述預設了一個被吹得無堅不摧的俄羅斯，而過去四年並沒有真的兌現這個形象。\n\n這個反諷很難忽略：美國國防體系花了幾十年訓誡歐洲要多花錢在自身軍備上，歐洲終於開始了，卻是刻意設計成一支不靠美國武器的部隊、蓋在不位於美國本土的工廠上。\n\n### 普丁的困局與五種黯淡結局\n\n部分外交評論家持續樂觀，認為整件事可以靠一次性的行政交易收尾，邏輯通常建立在一個心理學框架，也就是「困獸普丁理論」。喜歡這個理論的外交官常援引普丁走廊裡那隻老鼠的故事，結論是「絕對不能逼俄羅斯，否則那隻被逼到角落的老鼠，這個核子超強國，會做出激烈的事」。問題在於，引用這個故事的人似乎忘了它怎麼收尾：故事裡老鼠沒有談判，普丁也沒有贏。老鼠反咬一口，普丁跑掉了。普丁本人尤其應該記得這個故事，因為發動全面入侵的是他。他把烏克蘭逼到角落，等它投降，結果烏克蘭反過來撲了過來。四年後，被逼到牆角的是普丁，打著一場正在穩定拆解他自己經濟的消耗戰，找不到一個他願意在電視上解釋的退場方式。一旦弄清楚誰才是真正被困住的那一方，烏克蘭不願簽和平協議就顯得合理得多。「不是烏克蘭人對和平沒興趣，而是他們學到跟莫斯科簽的協議撐不到下一次俄羅斯攻勢就會失效。」\n\n1994 年烏克蘭簽了布達佩斯備忘錄，把當時世界第三大核武庫交出去，換取美國、英國、俄羅斯的明文安全保證。2014 年俄羅斯併吞克里米亞並在頓巴斯開戰，停火八年讓它重整軍備，2022 年入侵的其餘部分就來了。從基輔視角看，跟莫斯科的協議不是和平條約，是中場休息。這讓歐洲處於一個奇特位置：《經濟學人》近期評論，NATO 同時處於史上最佳與最差的狀態：在擴張、在重整軍備、預算比過去任何時候都充裕，同時又被美國可能抽身的現實掏空。在這種環境下，歐洲規劃者意識到，他們對烏克蘭的需要，恐怕跟烏克蘭對他們的需要一樣多。如果計畫是用分散式刺蝟防禦來嚇阻俄羅斯，讓烏克蘭淪陷就等於交出整道防線裡最有實戰經驗的那一段。這也讓外界期待已久的和平峰會實質上胎死腹中。即便普丁明天想要外交退場，歐洲手上幾乎沒什麼籌碼可談：不能交出烏克蘭領土，而《經濟學人》指出，它現實上能端出最強的誘因也只是「未來稍微寬鬆一點的制裁」。這不是一場打了四年、數十萬人傷亡、國家主權基金被掏空之後，能帶回家給國內選民的勝利。\n\n俄羅斯富豪 Andrei Melnichenko（現居《富比士》俄國富豪榜第八）近期在《經濟學人》撰文條列出實際選項，回歸強權地位顯然不在其中。他勾勒五種情境，多數陰暗：國家崩潰、變成被圍困的北韓式堡壘經濟、倒退回西方邊陲淪為窮親戚、或被吸進中國軌道當原物料供應商和戰略緩衝區。「這人不是異議人士。」講者提醒，「他旗下工廠生產的氨會走進軍火裡。」正因如此，他所能勾勒的最佳情境依然黯淡，這件事才格外震撼。而這個判斷上下階層一致，正是基爾研究所經濟學家所說的「結構性耗竭」。費奧多西亞一名導遊被《經濟學人》問到她想要什麼，答案換了個說法：「沒有什麼宏大抱負，沒有人試著把事情變好，只要太陽照常升起、夏天遊客回來就好。」試算表和海灘得出同一個結論。\n\n普丁當初開戰的公開理由是把 NATO 推回去、確保俄羅斯作為一個強勢獨立大國的位置。四年後，歐洲正在跑冷戰以來最大規模的軍事擴張，俄羅斯經濟則被縮減成一個對北京輸出廉價燃料的供應商。「你靠著把民用部門拆來造戰車跟砲彈，可以讓戰時經濟看起來健康一段不可思議的時間，」講者總結，「但當雨天基金歸零、唯一還願意買的大客戶也在壓你的價差，你就不再是一個獨立帝國了，你是一家子公司。」\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
+      "article_date": "2026-07-13",
+      "url": "https://hackmd.io/SkTlXQf4fe",
+      "analysis_zh": "### 全文內容",
       "insights": [],
       "content_mode": "full_text_import",
-      "source_id": "rkjpbsxEGl"
+      "source_id": "SkTlXQf4fe"
     },
     "backfill::a16z::p_nasas_artemis_ii_mission": {
       "title": "NASA’s Artemis II Mission / NASA 阿提米絲 2 號任務：重返月球的關鍵里程碑與太空產業新局",
@@ -470,16 +535,34 @@
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
+      "source": "Culpium",
+      "title": "AI Server Makers are Under Strain, CASCI Data Shows / CASCI 數據警示：AI 伺服器組裝端成長放緩，供應鏈出現「上熱下冷」脫鉤跡象",
+      "article_date": "2026-07-13",
+      "url": "https://www.culpium.com/p/ai-server-makers-are-under-strain"
+    },
+    {
+      "source": "Big Technology",
+      "title": "Apple 罕見對 OpenAI 提起訴訟：控告硬體機密遭竊，這場法律戰真能阻擋 AI 硬體浪潮？ / Apple’s lawsuit against OpenAI makes serious claims. Will they matter?",
+      "article_date": "2026-07-13",
+      "url": "https://www.bigtechnology.com/p/apples-lawsuit-against-openai-makes"
+    },
+    {
+      "source": "a16z",
+      "title": "The Most Human Technology Ever Made / 最具人性溫度的科技：AI 如何解放人類的創作本能",
+      "article_date": "2026-07-13",
+      "url": "https://www.a16z.news/p/the-most-human-technology-ever-made"
+    },
+    {
       "source": "Lenny's Newsletter",
-      "title": "2026 年科技從業者對 AI 的真實心聲：分裂的職場、攀升的倦怠與四大心理原型 / How tech workers actually feel about AI in 2026",
-      "article_date": "2026-07-12",
-      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about"
+      "title": "如何使用 AI：GPT-5.6 實測、24/7 本地 AI 陣列，以及代理框架（Agent Harness）建置指南",
+      "article_date": "2026-07-13",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo"
     },
     {
       "source": "HackMD：停損王SLKing",
-      "title": "俄羅斯戰時經濟見底：能源超級大國開始進口汽油、變賣黃金",
-      "article_date": "2026-07-12",
-      "url": "https://hackmd.io/rkjpbsxEGl"
+      "title": "AI 把科技業切成兩半：50/50 的職場心理實況（codex）",
+      "article_date": "2026-07-13",
+      "url": "https://hackmd.io/SkTlXQf4fe"
     }
   ]
 }
