@@ -1,219 +1,235 @@
 {
-  "fetch_date": "2026-09-07",
+  "fetch_date": "2026-09-08",
   "techmeme": [
     {
-      "title_en": "Tim Cook's pay package indicates he will remain very active at Apple; sources: Apple's plans to squeeze more App Store profits prompted Phil Schiller to leave",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-09-06/apple-s-new-ceo-like-cook-pay-package-shows-he-s-going-nowhere-sept-9-event-mtpvpcj1?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODcwNTgwOCwiZXhwIjoxNzg5MzEwNjA4LCJhcnRpY2xlSWQiOiJUS1k0ODFLR0NURlEwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPVLP03ZWjEbH48efjq8Q7n0_vk4t7OynYeaUbOfYzU",
-      "summary_en": "Also: The latest on Apple's big Sept. 9 event. — The early signs out of Cupertino are that Tim Cook will still loom large at Apple.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "The attacker who withdrew ~4,000 BTC from Blockstream's Liquid Network federation wallet returns 3,400 BTC after Blockstream said its bridge nodes were patched",
+      "url": "https://www.theblock.co/news/defi/2026-09-07-liquid-network-attacker-says-they-will-return-most-of-4000-btc-after-bug-fix-413673",
+      "summary_en": "The attacker who withdrew roughly 4,000 BTC from a Liquid Federation wallet has returned 3,400 BTC after Blockstream said its bridge nodes had been patched.",
+      "source": "The Block",
+      "media_source": "The Block",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260906/i5.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260907/i18.jpg",
       "thumbnail_source": "techmeme_rss_thumbnail",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Tim Cook's pay package indicates he will remain very active at Apple; sources: Apple's plans to squeeze more App Store profits prompted Phil Schiller to leave",
-      "image_missing_reason": "no_source_image_found",
-      "title_zh": "Tim Cook 的薪酬方案顯示其將繼續主導 Apple；消息人士：Apple 榨取更多 App Store 利潤的計劃促使 Phil Schiller 離職",
-      "summary_zh": "此外：Apple 9 月 9 日重大發表會的最新消息。來自 Cupertino 的早期跡象顯示，Tim Cook 仍將在 Apple 發揮巨大影響力。"
+      "thumbnail_alt": "The attacker who withdrew ~4,000 BTC from Blockstream's Liquid Network federation wallet returns 3,400 BTC after Blockstream said its bridge nodes were patched",
+      "image_url": "https://www.tbstat.com/wp/uploads/2024/07/20240710_Cypherpunks_News_1-1200x675.jpg",
+      "image_source": "article_meta_fallback",
+      "image_alt": "The attacker who withdrew ~4,000 BTC from Blockstream's Liquid Network federation wallet returns 3,400 BTC after Blockstream said its bridge nodes were patched",
+      "title_zh": "從 Blockstream 的 Liquid Network 聯網錢包盜取約 4,000 枚 BTC 的攻擊者，在 Blockstream 宣布橋接節點修復後，已歸還 3,400 枚 BTC",
+      "summary_zh": "盜取 Liquid Federation 錢包約 4,000 枚 BTC 的攻擊者，在 Blockstream 表示橋接節點已完成修復後，歸還了其中的 3,400 枚 BTC。"
     },
     {
-      "title_en": "OpenAI Chief Scientist Jakub Pachocki says no lab has solved alignment enough to keep scaling at maximum speed, and hopes voluntary slowdowns become commonplace",
-      "url": "https://openai.com/index/an-alien-mind/",
-      "summary_en": "Author: Jakub Pachocki, Chief Scientist at OpenAI — In mid-2023, within the “RLSlow” research project …",
-      "source": "OpenAI",
-      "media_source": "OpenAI",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260906/i8.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "OpenAI Chief Scientist Jakub Pachocki says no lab has solved alignment enough to keep scaling at maximum speed, and hopes voluntary slowdowns become commonplace",
-      "title_zh": "OpenAI 首席科學家 Jakub Pachocki 表示尚無實驗室能完全解決對齊問題以維持最快擴張速度，並希望自發性放緩研發能成為常態",
-      "summary_zh": "作者：OpenAI 首席科學家 Jakub Pachocki。2023 年中，在「RLSlow」研究專案中..."
-    },
-    {
-      "title_en": "OpenAI says it hit its “automated research intern” goal, its researchers now use 3.1 agent-workdays per human workday, and top users spend $7,000+/day on tokens",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "summary_en": "For AGI to benefit all of humanity, we believe it must be democratically governed.",
-      "source": "OpenAI",
-      "media_source": "OpenAI",
+      "title_en": "Blockstream's Liquid Network halts new transactions after “purported white-hat hackers” withdrew ~4,000 of the 4,200 bitcoin held in its federation wallet",
+      "url": "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
+      "summary_en": "worth millions of dollars were withdrawn from a settlement network used by cryptocurrency exchanges …",
+      "source": "CoinDesk",
+      "media_source": "CoinDesk",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "related",
-      "thumbnail_url": "https://www.techmeme.com/260906/i6.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260907/i1.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "OpenAI says it hit its “automated research intern” goal, its researchers now use 3.1 agent-workdays per human workday, and top users spend $7,000+/day on tokens",
-      "title_zh": "OpenAI 稱已達成「自動化研究實習生」目標，研究員每人天平均使用 3.1 個 Agent 工作天，頂級用戶每日 Token 花費超過 7,000 美元",
-      "summary_zh": "為了讓 AGI 惠及全人類，我們認為必須實施民主化治理。"
+      "thumbnail_alt": "Blockstream's Liquid Network halts new transactions after “purported white-hat hackers” withdrew ~4,000 of the 4,200 bitcoin held in its federation wallet",
+      "title_zh": "在「自稱白帽駭客」從其聯網錢包中提取 4,200 枚比特幣中的約 4,000 枚後，Blockstream 的 Liquid Network 暫停了新交易",
+      "summary_zh": "價值數百萬美元的資產從加密貨幣交易所使用的結算網絡中被提走。"
     },
     {
-      "title_en": "In response to the “wiki incident”, OpenAI says it is working on a framework for reporting misalignment incidents during training, evaluation, and deployment",
-      "url": "https://x.com/openai/status/2096133504417616165",
-      "summary_en": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it's past time for us …",
-      "source": "@openai",
-      "media_source": "@openai",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260905/i7.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "In response to the “wiki incident”, OpenAI says it is working on a framework for reporting misalignment incidents during training, evaluation, and deployment",
-      "title_zh": "針對「維基事件」，OpenAI 表示正在制定框架，用於通報訓練、評估與部署過程中的失控（Misalignment）事件",
-      "summary_zh": "關於我們的 Agent 寫入多個網站的「維基事件」，我們的看法是：現在正是時候..."
-    },
-    {
-      "title_en": "Anthropomorphic portrayals of AI models as rogue agents can obscure the responsibility that companies like OpenAI have for incidents like the Hugging Face hack",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImxNVkduekN0UEwiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk4NzU2Ni9haS1jaXZpbGl6YXRpb25zLW9wZWFpLWh1Z2dpbmctZmFjZS1oYWNrIiwiZXhwIjoxNzg5MDc0MDgyLCJpYXQiOjE3ODg2NDIwODJ9._GD0-z2_6opkJ5Pc_13QW__SsLN2b-ZJEYJUZA-KdGQ&utm_medium=gift-link",
-      "summary_en": "The internet fights over anthropomorphism around the Hugging Face hack. … Depending on who you ask, developer platform Hugging Face …",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "thumbnail_url": "https://www.techmeme.com/260905/i9.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Anthropomorphic portrayals of AI models as rogue agents can obscure the responsibility that companies like OpenAI have for incidents like the Hugging Face hack",
-      "title_zh": "將 AI 模型擬人化為「叛逆 Agent」可能會掩蓋 OpenAI 等公司在 Hugging Face 遭駭事件中應負的責任",
-      "summary_zh": "網路正針對 Hugging Face 遭駭事件引發的擬人化議題展開爭論。視詢問對象而定，開發者平台 Hugging Face..."
-    },
-    {
-      "title_en": "Sources: Travis Kalanick's Atoms is developing robotaxi tech and hired Anthony Levandowski after acquiring his company Pronto; Uber has invested $100M in Atoms",
-      "url": "https://www.ft.com/content/8a708224-3a37-4d23-9f5c-158a73216018",
-      "summary_en": "Atoms gears up for hiring spree and could link with Uber, the company he was ousted from almost a decade ago",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260906/i2.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Travis Kalanick's Atoms is developing robotaxi tech and hired Anthony Levandowski after acquiring his company Pronto; Uber has invested $100M in Atoms",
-      "title_zh": "消息人士：Travis Kalanick 創立的 Atoms 正在研發自駕計程車技術，並在收購 Pronto 後聘請了 Anthony Levandowski；Uber 已向 Atoms 投資 1 億美元",
-      "summary_zh": "Atoms 正準備大規模招聘，並可能與 Kalanick 十年前被趕出的 Uber 重新建立聯繫。"
-    },
-    {
-      "title_en": "Analysis: since October, Anthropic has entered into agreements for at least 14.8 GW of compute capacity and may spend as much as $517B over the next decade",
-      "url": "https://www.theinformation.com/articles/anthropic-clinched-517-billion-compute-deals-11-months",
-      "summary_en": "Anthropic in the last year has scrambled to line up cloud computing deals with SpaceX, Google and others to meet the skyrocketing demand …",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260906/i7.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Analysis: since October, Anthropic has entered into agreements for at least 14.8 GW of compute capacity and may spend as much as $517B over the next decade",
-      "title_zh": "分析：自 10 月以來，Anthropic 已簽署至少 14.8 GW 算力協議，未來十年支出可能高達 5,170 億美元",
-      "summary_zh": "Anthropic 在過去一年中急於與 SpaceX、Google 等公司達成雲端運算協議，以滿足飆升的需求..."
-    },
-    {
-      "title_en": "Trump admin launches arcade.gov with a deportation-themed Snake game clone and a Tetris-like game; Tetris says it takes “copyright infringement very seriously”",
-      "url": "https://abcnews.com/Politics/white-house-launches-arcade-computer-game-lets-players/story?id=136214362",
-      "summary_en": "In “Build the Wall,” players aim to “protect the border” from zombies. — Isabella Murray, Nicholas Kerr, and Michelle Stoddart",
-      "source": "ABC News",
-      "media_source": "ABC News",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260905/i12.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Trump admin launches arcade.gov with a deportation-themed Snake game clone and a Tetris-like game; Tetris says it takes “copyright infringement very seriously”",
-      "title_zh": "川普政府推出 arcade.gov，包含以驅逐出境為主題的《貪食蛇》仿作及類《俄羅斯方塊》遊戲；《俄羅斯方塊》官方表示「非常重視版權侵權」",
-      "summary_zh": "在《築牆》遊戲中，玩家的目標是「保護邊境」免受殭屍侵害。—— Isabella Murray、Nicholas Kerr 與 Michelle Stoddart。"
-    },
-    {
-      "title_en": "Trump officials say Judeo-Christian principles inform AI policy, with some optimistic about AI and others seeing parallels to biblical end-times prophecies",
-      "url": "https://www.wsj.com/tech/ai/vance-called-ai-satanic-he-struck-a-chord-among-christian-republicans-dcc34048?st=DEHJjr&reflink=desktopwebshare_permalink",
-      "summary_en": "Trump administration officials are wrestling with the spiritual consequences of AI as the president embraces it as an economic engine",
+      "title_en": "Hunter Biden teases a $LAPTOP memecoin launch on September 9; sources: it will launch on Base, and some tokens will be sent to wallets that lost money on $TRUMP",
+      "url": "https://www.wsj.com/finance/currencies/hunter-biden-and-his-laptop-enter-the-cryptosphere-with-new-meme-coin-4d46fc9c?st=rBFEhm&reflink=desktopwebshare_permalink",
+      "summary_en": "The personal computer that launched a thousand memes will debut this week as a digital token",
       "source": "Wall Street Journal",
       "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260906/i3.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260907/i19.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Trump officials say Judeo-Christian principles inform AI policy, with some optimistic about AI and others seeing parallels to biblical end-times prophecies",
-      "title_zh": "川普政府官員表示猶太-基督教原則影響了 AI 政策，部分人對 AI 樂觀，另一部分人則認為其與聖經末世預言相似",
-      "summary_zh": "隨著總統將 AI 視為經濟引擎，川普政府官員正努力應對 AI 帶來的精神影響。"
+      "thumbnail_alt": "Hunter Biden teases a $LAPTOP memecoin launch on September 9; sources: it will launch on Base, and some tokens will be sent to wallets that lost money on $TRUMP",
+      "title_zh": "杭特·拜登暗示將於 9 月 9 日發行 $LAPTOP 迷因幣；消息指出：該幣將在 Base 鏈上發行，部分代幣將發放給在 $TRUMP 賠錢的錢包",
+      "summary_zh": "那台引發無數迷因的筆記型電腦本週將以數位代幣的形式正式亮相。"
     },
     {
-      "title_en": "How AI gutted Kenya's essay-writing industry, which at its peak paid 40,000+ people in Nairobi to do overseas students' homework, leaving few paths back to work",
-      "url": "https://www.nytimes.com/2026/09/05/technology/kenya-college-essays-ai.html?unlocked_article_code=1.-1A.dcLn.JHW0dAE69g6h&smid=url-share",
-      "summary_en": "Thousands of Kenyans made a living writing essays for overseas students. With A.I., the work has dried up, a warning for online gig work that has been a global lifeline.",
+      "title_en": "Huawei unveils the Mate XT 2, a trifold phone powered by the Kirin 9050 Pro, an in-house designed chipset that it says is entirely free from US restrictions",
+      "url": "https://asia.nikkei.com/business/electronics/huawei-unveils-first-triple-fold-phone-with-us-free-core-chips",
+      "summary_en": "TAIPEI — China's Huawei Technologies has unveiled its first triple-folding smartphone powered by chips that it says are free …",
+      "source": "Nikkei Asia",
+      "media_source": "Nikkei Asia",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260907/i6.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Huawei unveils the Mate XT 2, a trifold phone powered by the Kirin 9050 Pro, an in-house designed chipset that it says is entirely free from US restrictions",
+      "title_zh": "華為發表 Mate XT 2 三折疊手機，搭載自主研發的麒麟 9050 Pro 晶片，宣稱完全不受美國禁令限制",
+      "summary_zh": "台北報導 — 中國華為技術發表了其首款三折疊智慧型手機，搭載的晶片據稱不受限制……"
+    },
+    {
+      "title_en": "Insilico, which uses AI to accelerate drug discovery, says early data shows rentosertib, a drug whose structure was generated with AI's help, could slow aging",
+      "url": "https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html?unlocked_article_code=1._VA.KrR_.DUftfq15OzTx&smid=bs-share",
+      "summary_en": "Artificial intelligence was used to help develop a drug candidate, rentosertib, for a rare lung condition.",
       "source": "New York Times",
       "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260906/i4.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260907/i9.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "How AI gutted Kenya's essay-writing industry, which at its peak paid 40,000+ people in Nairobi to do overseas students' homework, leaving few paths back to work",
-      "title_zh": "AI 如何重創肯亞的論文代寫產業：全盛時期曾有逾 4 萬人在奈洛比為外國學生代寫作業，如今面臨失業困境",
-      "summary_zh": "成千上萬的肯亞人曾靠幫外國學生寫論文維生。隨著 AI 出現，這類工作已枯竭，這對曾作為全球救命稻草的線上零工經濟敲響了警鐘。"
+      "thumbnail_alt": "Insilico, which uses AI to accelerate drug discovery, says early data shows rentosertib, a drug whose structure was generated with AI's help, could slow aging",
+      "title_zh": "利用 AI 加速藥物開發的 Insilico 表示，初步數據顯示，經由 AI 協助生成的藥物 rentosertib 可能具有延緩衰老的作用",
+      "summary_zh": "AI 被用於協助開發一種針對罕見肺部疾病的候選藥物 rentosertib。"
     },
     {
-      "title_en": "The Seattle Times and Newsday sue OpenAI and Microsoft, alleging the companies trained AI on their journalism; Microsoft and OpenAI are funders of Seattle Times",
-      "url": "https://www.geekwire.com/2026/seattle-times-sues-microsoft-and-openai-alleging-they-trained-their-ai-on-its-journalism/",
-      "summary_en": "Microsoft was sued Friday by the parent company of its hometown daily newspaper, The Seattle Times Co., which joined with Newsday …",
-      "source": "GeekWire",
-      "media_source": "GeekWire",
+      "title_en": "Matt Clifford steps down as the chair of the UK government's science and tech research unit after joining Anthropic, following conflict of interest concerns",
+      "url": "https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns",
+      "summary_en": "Matt Clifford forced to stand down amid disquiet from senior MPs over his new full-time job at AI company",
+      "source": "The Guardian",
+      "media_source": "The Guardian",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260905/i13.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260907/i14.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "The Seattle Times and Newsday sue OpenAI and Microsoft, alleging the companies trained AI on their journalism; Microsoft and OpenAI are funders of Seattle Times",
-      "title_zh": "《西雅圖時報》與《新聞日報》起訴 OpenAI 與 Microsoft，指控其使用其新聞內容訓練 AI；後兩者曾是《西雅圖時報》的資助者",
-      "summary_zh": "Microsoft 週五遭到其總部所在地日報的母公司《西雅圖時報》公司起訴，該公司並與《新聞日報》聯合..."
+      "thumbnail_alt": "Matt Clifford steps down as the chair of the UK government's science and tech research unit after joining Anthropic, following conflict of interest concerns",
+      "title_zh": "在加入 Anthropic 引發利益衝突疑慮後，Matt Clifford 辭去英國政府科學與技術研究單位主席一職",
+      "summary_zh": "由於資深國會議員對其在 AI 公司的新全職工作感到不安，Matt Clifford 被迫離職。"
     },
     {
-      "title_en": "Sources: UBS requires AI skills when hiring junior investment bankers, making it one of the first major financial institutions to explicitly require AI literacy",
-      "url": "https://www.ft.com/content/76b370ff-b5f6-4e22-aa30-da08b1abb8f8",
-      "summary_en": "Graduates and interns hoping to join Swiss bank must show they can use the technology to improve outcomes and efficiency",
+      "title_en": "Astra working with Blender via computer use feels like magic, showing computer use could be the fourth demand wave after chatbots, reasoning, and agentic coding",
+      "url": "https://taekim.substack.com/p/gpt-6-astra-and-the-fourth-exponential",
+      "summary_en": "AI computer tool use is a big deal. — A reminder that I'm on vacation this week, but the flood of impressions people …",
+      "source": "Key Context",
+      "media_source": "Key Context",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260907/i17.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Astra working with Blender via computer use feels like magic, showing computer use could be the fourth demand wave after chatbots, reasoning, and agentic coding",
+      "title_zh": "Astra 透過電腦操作功能協作 Blender 讓人感覺像魔法，顯示「電腦操作」（Computer Use）可能是繼聊天機器人、推理和代理編碼後的第四波需求浪潮",
+      "summary_zh": "AI 電腦工具的使用是一件大事。提醒一下，雖然我這週在度假，但人們紛至沓來的感觸……"
+    },
+    {
+      "title_en": "Google DeepMind published a paper on how 100 agents tasked with solving math problems learned to cheat and how some agents tried to counter the cheaters",
+      "url": "https://importai.substack.com/p/import-ai-472-deepminds-cheating",
+      "summary_en": "Plus, a machine hermeneutics story — Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers.",
+      "source": "Import AI",
+      "media_source": "Import AI",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "Google DeepMind 發表論文，探討 100 個負責解決數學問題的代理如何學會作弊，以及部分代理如何試圖對抗作弊者",
+      "summary_zh": "此外還有關於機器詮釋學的故事 — 歡迎來到 Import AI，這是一份關於 AI 研究的電子報。"
+    },
+    {
+      "title_en": "Robinhood secures its first IPO underwriting role, in Oura's IPO, which could give it more influence over how many shares are allocated to its customers",
+      "url": "https://www.wsj.com/finance/robinhood-wins-a-new-role-in-the-oura-ipo-underwriter-9a76c632",
+      "summary_en": "Playing an official part in the IPO process could give Robinhood more influence over the number of shares allocated to its customers",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260907/i20.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Robinhood secures its first IPO underwriting role, in Oura's IPO, which could give it more influence over how many shares are allocated to its customers",
+      "title_zh": "Robinhood 獲得 Oura 的首個 IPO 承銷角色，這可能使其在分配給客戶的股份數量上擁有更多影響力",
+      "summary_zh": "在 IPO 流程中擔任官方角色，可能讓 Robinhood 對分配給其客戶的股票數量有更大的主導權。"
+    },
+    {
+      "title_en": "Belgian prosecutors say they arrested a Belgian-Chinese man in May on suspicion of stealing secrets from bankrupt gallium nitride semiconductor maker Belgan",
+      "url": "https://www.ft.com/content/356cf253-7711-4a89-8139-5b0152824975",
+      "summary_en": "Prosecutors in Belgium cite ‘indications’ suspect took role at tech company in China months after joining now-defunct semiconductor maker Belgan",
       "source": "Financial Times",
       "media_source": "Financial Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260906/i9.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260907/i15.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: UBS requires AI skills when hiring junior investment bankers, making it one of the first major financial institutions to explicitly require AI literacy",
-      "title_zh": "消息人士：瑞銀（UBS）招募初級投資銀行家時要求具備 AI 技能，成為首批明確要求 AI 素養的大型金融機構之一",
-      "summary_zh": "欲加入這家瑞士銀行的畢業生與實習生，必須證明其能利用該技術提升成果與效率。"
+      "thumbnail_alt": "Belgian prosecutors say they arrested a Belgian-Chinese man in May on suspicion of stealing secrets from bankrupt gallium nitride semiconductor maker Belgan",
+      "title_zh": "比利時檢察官表示，5 月逮捕了一名比利時籍華人，涉嫌從已破產的氮化鎵半導體製造商 Belgan 竊取機密",
+      "summary_zh": "比利時檢察官指出，有跡象顯示嫌犯在加入現已倒閉的半導體製造商 Belgan 幾個月後，就在中國的一家科技公司任職。"
     },
     {
-      "title_en": "OpenAI quietly updates its evaluation metrics for GPT-6 Astra, making changes that appear to favor Astra and continuing to revise other metrics after launch",
-      "url": "https://fortune.com/2026/09/04/openai-quietly-boosts-some-of-astras-evaluation-metrics-amid-rare-delay-in-publication-of-the-modeblog-post-announcement/",
-      "summary_en": "OpenAI has changed several evaluation benchmarks for its GPT-6 Astra model since first publishing a blog post announcement mid-afternoon on Sept. 3.",
-      "source": "Fortune",
-      "media_source": "Fortune",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260906/i1.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "OpenAI quietly updates its evaluation metrics for GPT-6 Astra, making changes that appear to favor Astra and continuing to revise other metrics after launch",
-      "title_zh": "OpenAI 悄悄更新 GPT-6 Astra 的評估指標，相關調整似乎對 Astra 有利，且在發表後持續修改其他指標",
-      "summary_zh": "自 9 月 3 日下午發布部落格公告以來，OpenAI 已多次更改 GPT-6 Astra 模型的評估基準。"
-    },
-    {
-      "title_en": "As researchers begin applying AI to understand animal communication, bioethicists warn it could give humans new ways to manipulate, exploit, and harm animals",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-04/ai-s-next-ethical-dilemma-should-humans-talk-to-animals?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODU5MTI2NiwiZXhwIjoxNzg5MTk2MDY2LCJhcnRpY2xlSWQiOiJUS1RTTzBSMjRVODYwMCIsImJjb25uZWN0SWQiOiIwNEFGQkMxQkYyMTA0NUVEODg3MzQxQkQwQzIyNzRBMCJ9.hjuVWuvnk50kQIpiRPsoTF4ZBtQlEN-J_CO18jEmzX4",
-      "summary_en": "AI could transform our understanding of other species. It also risks giving humans powerful new ways to manipulate, exploit and harm them.",
+      "title_en": "Sources: ByteDance founder Zhang Yiming is overseeing the development of an AI model for real-time spatial video, which could launch as soon as next month",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/bytedance-founder-joins-ai-elite-in-race-to-perfect-world-models",
+      "summary_en": "ByteDance Ltd. is readying an AI model geared for real-time spatial video generation, taking on Meta Platforms Inc. and Alphabet Inc …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260905/i14.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260907/i11.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "As researchers begin applying AI to understand animal communication, bioethicists warn it could give humans new ways to manipulate, exploit, and harm animals",
-      "title_zh": "隨著研究人員開始利用 AI 理解動物溝通，生命倫理學家警告這可能讓人類擁有操縱、剝削及傷害動物的新手段",
-      "summary_zh": "AI 可能徹底改變我們對其他物種的理解，但也存在讓人類獲得強大新手段來操縱、剝削與傷害牠們的風險。"
+      "thumbnail_alt": "Sources: ByteDance founder Zhang Yiming is overseeing the development of an AI model for real-time spatial video, which could launch as soon as next month",
+      "title_zh": "消息指出：字節跳動創辦人張一鳴正親自監督一款即時空間影片 AI 模型的開發，最快可能於下個月發表",
+      "summary_zh": "字節跳動正準備推出一款用於即時空間影片生成的 AI 模型，旨在與 Meta 和 Alphabet 競爭。"
+    },
+    {
+      "title_en": "The US raises censorship concerns over the UK's proposals to force tech platforms to put “trustworthy” news providers at the top of social and video feeds",
+      "url": "https://pressgazette.co.uk/news/us-issues-censorship-warning-over-uk-plan-to-boost-public-service-news-on-social-media/",
+      "summary_en": "News Media Association warns forcing prominence for ‘trustworthy’ news could end up harming sector.",
+      "source": "Press Gazette",
+      "media_source": "Press Gazette",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260907/i12.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "The US raises censorship concerns over the UK's proposals to force tech platforms to put “trustworthy” news providers at the top of social and video feeds",
+      "title_zh": "美國對英國提議強制科技平台將「值得信賴」的新聞提供者置於社群和影片動態頂部的做法，表示審查制度方面的疑慮",
+      "summary_zh": "新聞媒體協會警告，強制提高「值得信賴」新聞的顯著度，最終可能會損害該產業。"
+    },
+    {
+      "title_en": "Sources: London-based UForce, which makes unmanned vehicles for air, land, and sea, is seeking about $500M led by Valor Equity at a ~$5B valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/dronemaker-uforce-in-talks-for-around-5-billion-value-in-valor-equity-led-raise",
+      "summary_en": "UForce, a London-based drone startup, is in discussions to raise new financing at a valuation of about $5 billion, according to people familiar with the matter.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "消息指出：總部位於倫敦的無人機載具公司 UForce（開發涵蓋海陸空領域）正尋求由 Valor Equity 領投的 5 億美元融資，估值約 50 億美元",
+      "summary_zh": "據知情人士透露，倫敦無人機新創公司 UForce 正討論以約 50 億美元的估值進行新一輪融資。"
+    },
+    {
+      "title_en": "Shein lost about $5B in market value since its IPO, dropping to ~$21B, as it finished one of the worst opening weeks after a major Hong Kong listing",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/shein-s-value-down-5-billion-among-hk-s-worst-post-ipo-weeks",
+      "summary_en": "Shein Global Holdings Ltd. has lost about $5 billion in market value since its initial public offering as it finished one of the worst opening weeks …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260907/i7.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Shein lost about $5B in market value since its IPO, dropping to ~$21B, as it finished one of the worst opening weeks after a major Hong Kong listing",
+      "title_zh": "Shein 自 IPO 以來市值蒸發約 50 億美元，降至約 210 億美元，創下香港大型上市公司表現最差的開盤首週之一",
+      "summary_zh": "Shein 全球控股有限公司自首次公開募股以來，市值已縮水約 50 億美元，經歷了最慘烈的上市首週。"
     }
   ],
   "wsj": [
+    {
+      "title_en": "Belgium’s Arrest of Alleged Chinese Chip-Tech Thief Fuels European Fear of Beijing",
+      "url": "https://www.wsj.com/world/china/belgiums-arrest-of-chinese-alleged-chip-tech-thief-fuels-european-fear-of-beijing-5824008f?mod=rss_Technology",
+      "summary_en": "Prosecutors suspect the man, detained while leaving for Beijing in May, was siphoning secrets to a Chinese company....",
+      "image_url": "https://images.wsj.net/im-01115148",
+      "image_source": "rss_media_content",
+      "image_credit": "Eric Lalmand/Zuma Press",
+      "image_alt": "Belgium’s Arrest of Alleged Chinese Chip-Tech Thief Fuels European Fear of Beijing",
+      "title_zh": "比利時逮捕涉嫌竊取晶片技術的華人，加深歐洲對北京的恐懼",
+      "summary_zh": "檢察官懷疑這名於 5 月前往北京途中被扣留的男子，正將機密轉移給一家中國公司。"
+    },
+    {
+      "title_en": "CXMT Highlights Smartphone, AI Advances as Market Share Climbs",
+      "url": "https://www.wsj.com/tech/cxmt-highlights-smartphone-ai-advances-as-market-share-climbs-1d777648?mod=rss_Technology",
+      "summary_en": "The Chinese memory-chip maker sought to reassure investors that it is gaining ground in higher-end memory markets, citing advances in smartphone and artificial-intelligence technologies....",
+      "image_url": "https://images.wsj.net/im-28693819",
+      "image_source": "rss_media_content",
+      "image_credit": "Maxim Shemetov/Reuters",
+      "image_alt": "CXMT Highlights Smartphone, AI Advances as Market Share Climbs",
+      "title_zh": "隨著市佔率上升，長鑫存儲（CXMT）強調在智慧型手機與 AI 領域的進展",
+      "summary_zh": "這家中國記憶體晶體製造商試圖向投資者保證，其在高端記憶體市場正取得進展，並列舉了智慧型手機和 AI 技術的提升。"
+    },
     {
       "title_en": "Upset About Data Centers? Big Tech and Trump Think You’re a Socialist Dupe",
       "url": "https://www.wsj.com/tech/ai/upset-about-data-centers-big-tech-and-trump-think-youre-a-socialist-dupe-1bb0ee55?mod=rss_Technology",
@@ -222,8 +238,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Sarah Rice/Bloomberg News",
       "image_alt": "Upset About Data Centers? Big Tech and Trump Think You’re a Socialist Dupe",
-      "title_zh": "對資料中心感到不滿？科技巨頭與川普認為你只是個被社會主義愚弄的人",
-      "summary_zh": "中國被指責在美國境內煽動反對人工智慧的基層反抗..."
+      "title_zh": "對數據中心感到不滿？大型科技公司與川普認為你被社會主義者利用了",
+      "summary_zh": "中國被指責煽動美國民間對人工智慧的抵制情緒。"
     },
     {
       "title_en": "Who’s Boring Now?",
@@ -234,7 +250,7 @@
       "image_credit": "Jordan Vonderhaar/Bloomberg News",
       "image_alt": "Who’s Boring Now?",
       "title_zh": "現在誰才是無聊的人？",
-      "summary_zh": "此外：家庭群組中的性勒索、該信任哪款穿戴裝置的睡眠數據、Apple 帝國易主等消息..."
+      "summary_zh": "此外還包括家庭群組中的性勒索、該信任哪些穿戴式裝置的睡眠數據、蘋果帝國易主等精彩內容。"
     },
     {
       "title_en": "America’s Own Banks Are a Weak Link in the Campaign to Cut Off Iran",
@@ -244,8 +260,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Morteza Nikoubazl/NurPhoto via Getty Images",
       "image_alt": "America’s Own Banks Are a Weak Link in the Campaign to Cut Off Iran",
-      "title_zh": "美國本土銀行成為切斷伊朗資金鏈行動中的薄弱環節",
-      "summary_zh": "此外：烏克蘭考慮將色情產業合法化以籌措戰費，汽車製造商增加燃油引擎以提升電動車續航里程..."
+      "title_zh": "美國自身的銀行成為切斷伊朗資金行動中的脆弱環節",
+      "summary_zh": "此外，烏克蘭正考慮將色情業合法化以充實戰爭經費，而汽車製造商正在增加汽油引擎以提升電動車續航里程。"
     },
     {
       "title_en": "He’s Letting AI Agents Invest His Money. They Even Have Names.",
@@ -255,30 +271,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Emil Lendof/WSJ, iStock",
       "image_alt": "He’s Letting AI Agents Invest His Money. They Even Have Names.",
-      "title_zh": "他讓 AI Agent 幫他投資理財，甚至還給它們取了名字",
-      "summary_zh": "美國人正透過「Vibe-coding」編寫交易演算法，並將股票投資組合交給 AI Agent。歡迎來到機器人散戶的世界..."
-    },
-    {
-      "title_en": "Elon Musk’s Inner Circle Is Pouring Cash Into Making Psychedelics Mainstream",
-      "url": "https://www.wsj.com/health/healthcare/elon-musks-inner-circle-is-pouring-cash-into-making-psychedelics-mainstream-98ea1b57?mod=rss_Technology",
-      "summary_en": "SpaceX and Tesla directors are backing academic research and a commercial venture seeking approval for MDMA-assisted therapy....",
-      "image_url": "https://images.wsj.net/im-88157393",
-      "image_source": "rss_media_content",
-      "image_credit": "Getty Images/Image Source",
-      "image_alt": "Elon Musk’s Inner Circle Is Pouring Cash Into Making Psychedelics Mainstream",
-      "title_zh": "Elon Musk 的核心圈正投入大量資金推動致幻劑主流化",
-      "summary_zh": "SpaceX 與 Tesla 的董事們正支持學術研究和一項商業計畫，尋求 MDMA 輔助療法的批准..."
-    },
-    {
-      "title_en": "Sextortion Has Entered the Family Group Chat",
-      "url": "https://www.wsj.com/tech/personal-tech/sextortion-scams-family-group-chats-537e8369?mod=rss_Technology",
-      "summary_en": "Added to a text thread from an unknown number, these family members were surprised with pornography featuring a relative....",
-      "image_url": "https://images.wsj.net/im-17778153",
-      "image_source": "rss_media_content",
-      "image_credit": "Clayton Steward",
-      "image_alt": "Sextortion Has Entered the Family Group Chat",
-      "title_zh": "性勒索滲入家庭群組",
-      "summary_zh": "這些家族成員被拉入一個來自陌生號碼的簡訊串，驚訝地發現裡面有親戚的色情影像..."
+      "title_zh": "他讓 AI 代理幫他投資，甚至還給它們起了名字",
+      "summary_zh": "美國人正嘗試編寫交易演算法並將股票投資組合交給 AI 代理。歡迎來到機器人散戶投資者的世界。"
     },
     {
       "title_en": "Vance Called AI Satanic. He Struck a Chord Among Christian Republicans.",
@@ -288,8 +282,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Alexandra Citrin-Safadi/WSJ",
       "image_alt": "Vance Called AI Satanic. He Struck a Chord Among Christian Republicans.",
-      "title_zh": "范斯稱 AI 為「撒旦之物」，在共和黨基督徒中引起共鳴",
-      "summary_zh": "隨著總統將 AI 視為經濟引擎，川普政府官員正努力應對 AI 帶來的精神與宗教層面的影響。"
+      "title_zh": "范斯稱 AI 為「屬撒旦的」，在共和黨基督徒中引發廣泛共鳴",
+      "summary_zh": "當總統將 AI 視為推動經濟的引擎時，川普政府官員正深陷於 AI 可能帶來的精神與宗教後果的掙扎之中。"
     },
     {
       "title_en": "Computer Makers Are Selling Fewer PCs at Higher Prices. So Far, It’s Working",
@@ -299,8 +293,8 @@
       "image_source": "rss_media_content",
       "image_credit": "ANDREW KELLY/REUTERS",
       "image_alt": "Computer Makers Are Selling Fewer PCs at Higher Prices. So Far, It’s Working",
-      "title_zh": "電腦製造商銷售 PC 數量減少但價格提高，目前策略奏效",
-      "summary_zh": "此趨勢是由於 AI 基礎設施的大規模建設導致記憶體晶片短缺及成本飆升所推動。"
+      "title_zh": "電腦大廠 PC 銷量下滑但單價上升：目前看來成效顯著",
+      "summary_zh": "由於人工智慧基礎設施的大規模擴張，導致記憶體晶片短缺且成本飆升，進而推動了這一市場趨勢。"
     },
     {
       "title_en": "The 33-Year-Old AI Hotshot Taking Silicon Valley Swagger Back to Beijing",
@@ -310,8 +304,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Xu Kangping/Avalon/ZUMA PRESS",
       "image_alt": "The 33-Year-Old AI Hotshot Taking Silicon Valley Swagger Back to Beijing",
-      "title_zh": "33 歲 AI 奇才將矽谷式的自信帶回北京",
-      "summary_zh": "楊植麟決定不在美國發展，而是創立了月之暗面 (Moonshot AI)，其開源權重模型正撼動全球市場。"
+      "title_zh": "33 歲 AI 奇才帶著矽谷的自信銳氣重返北京",
+      "summary_zh": "楊植麟選擇不留在美國發展，而是回國創立了 Moonshot AI（月之暗面），其開源權重模型（open-weight model）正震撼全球市場。"
     },
     {
       "title_en": "Can a $499 AI Toothbrush Finally Make You Forget About Flossing?",
@@ -321,8 +315,8 @@
       "image_source": "rss_media_content",
       "image_credit": "DYSON",
       "image_alt": "Can a $499 AI Toothbrush Finally Make You Forget About Flossing?",
-      "title_zh": "售價 499 美元的 AI 牙刷真的能讓你從此不再需要牙線嗎？",
-      "summary_zh": "此外，本篇也探討急診室設計如何挽救生命、為何 Apple 的新任執行長必須具備創新能力，以及數據中心熱潮背後的新型建築技術。"
+      "title_zh": "這款 499 美元的 AI 牙刷真的能讓你從此不需要牙線嗎？",
+      "summary_zh": "此外還有：急診室設計如何拯救生命、為何 Apple 新任執行長必須具備創新能力，以及數據中心建設潮背後的新型建築技術。"
     }
   ],
   "deep_analysis": {
@@ -366,15 +360,15 @@
       "content_mode": "ai_analysis"
     },
     "SemiAnalysis": {
-      "title": "韓國兆級主權 AI 投資：輝達成為贏家，海力士卻可能吃虧",
+      "title": "TPU Inference Externalization Full Steam Ahead - InferenceX / TPU 推論外部化全面加速：Google 能否撼動 NVIDIA 的推論霸權？",
       "source": "SemiAnalysis",
-      "article_date": "2026-09-01",
-      "url": "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
-      "analysis_zh": "### 全文大意摘要：韓國斥資兆元推動主權 AI 以擺脫對美依賴，輝達則成為幕後最大贏家\n\n這篇來自知名分析機構 SemiAnalysis 的文章深入探討了南韓政府規模宏大的「主權 AI」計畫。韓國政府意識到全球企業與政府對美國 Anthropic 與 OpenAI 等頂尖模型的依賴已成為戰略風險，因此啟動了名為「獨立 AI 基礎模型」的專案。該專案透過淘汰賽機制，選拔本土開發團隊，並投入高達 9,190 億美元的資金開發電力設施與資料中心。然而作者指出，儘管這項計畫打著「科技自立」的旗號，最終真正的獲益者卻是供應硬體的輝達（Nvidia），而身為核心供應鏈的韓國記憶體大廠海力士（SK Hynix）與三星，反而可能在與輝達的策略談判中失去優勢。\n\n### 戰略背景與脈絡：美國 frontier models 的出口管制風險迫使各國轉向技術自給\n\n目前的全球趨勢顯示，各界對美國頂尖 AI 模型的依賴正日益加深，但這些模型的使用權完全掌握在美國政府與少數實驗室手中。隨著資安事件與監管壓力增加，美國政府多次干預模型出口（如 Fable 5 曾被暫時禁運），未來頂尖模型可能不再提供 API 服務，或只開放受限版本。南韓作為全球科技供應鏈重鎮，向來有高度的技術自立傳統。面對這種地緣政治風險，韓國政府決定不再僅靠外部模型，而是要擁有能在本土硬體上運行、完全自主掌控的 AI 基礎設施。\n\n南韓的這項投資不只是軟體開發，更是一場大規模的基礎設施競賽。總統李在明將 AI 硬體建設視為類似 1990 年代寬頻網路建設的指標性政績，計畫到 2035 年前建設總電力規模達 18.4GW 的資料中心。這種政策環境為韓國本土企業如 SK 集團與 Naver 提供了極佳的擴張機會，但也暴露了韓國在 AI 加速器設計上仍落後於輝達與 AMD 的致命弱點。\n\n### 作者的核心推論與觀點：小微新創在技術上輾壓大財閥，卻因政治因素被制度性排除\n\n文章最令人玩味的發現是，在韓國政府舉辦的 AI 淘汰賽中，技術實力最強的竟然不是資源豐沛的大財閥（Chaebols），而是小微新創。一家不到 30 人的新創公司 Motif Technologies，僅靠著 1,700 萬美元的募資與不到 800 片 B200 晶片，就在預訓練基準測試中擊敗了 LG、SKT 等巨頭，甚至超越了美國最強的開源模型。這證明了只要具備極高專注度，訓練出頂尖開源模型的成本（約 1,500 萬美元）其實遠低於市場普遍想像，這對任何想要發展主權 AI 的國家來說都是個重要啟發。\n\n然而，作者對韓國的評分制度提出了嚴厲批評。Motif 雖然在技術指標排名第一，卻在「專家審查」與「使用者測試」等黑箱標準下被淘汰，這反映出大型組織在政治遊說與生態圈影響力上的優勢。更諷刺的是，Motif 被淘汰的原因之一竟是評審擔心其技術會因外國投資而流向海外。作者警告，如果韓國政府繼續這種優先保護大財閥而犧牲頂尖天才的做法，最終只會逼迫像 Motif 這樣具備國際競爭力的技術團隊遷往海外，導致主權 AI 的目標與現實背道而馳。\n\n### 對市場、技術與政策環境的長期影響：輝達成功藉由「主權 AI」分化客戶並壓低記憶體成本\n\n輝達執行長黃仁勳近期積極倡導開源與主權 AI，這背後隱藏著深刻的商業邏輯。輝達目前面臨客戶過度集中的風險，如果全球 AI 市場只剩下少數幾家超大型實驗室或雲端巨頭，輝達的議價權將會受損。因此，輝達需要「主權 AI」來讓各國政府成為新的大客戶，藉此分散客戶組成。對於輝達來說，模型的開源化（Commoditize your complements）能讓 AI 應用變得便宜且普及，進而推升對其硬體 GPU 的無限需求。\n\n更關鍵的長期影響在於記憶體供應鏈。輝達正利用其在 GPU 分配上的壟斷地位，與三星、海力士達成深度的策略合作，甚至以此為籌碼換取更有利的 HBM 記憶體定價與產量保證。這意味著雖然韓國投入了天文數字般的資金建設 AI，但利潤最後可能大量流向輝達。對於海力士與三星的股東而言，這種為了換取「主權 AI 發展權」而與輝達簽下的長期供應協議，雖然保障了出貨，卻可能以犧牲長期毛利為代價，形成了「硬體自給、利潤外流」的弔詭局面。",
+      "article_date": "2026-09-07",
+      "url": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
+      "analysis_zh": "### 全文大意摘要：Google TPU 正式走出深宮並展現強大的成本競爭力\n\nSemiAnalysis 揭露了 Google TPUv7（代號 Ironwood）在第三方推論平台 InferenceX 上的首波測試結果，顯示其在 FP8 推論的性價比（效能/成本）比 NVIDIA B200 高出 50%。這篇文章指出 Google 正採取前所未有的積極姿態，將原本僅供內部使用的 TPU 推論能力「外部化」，不僅開放給 Anthropic 等大客戶採購與租賃，更徹底重構了軟體架構。透過轉向原生的 TorchTPU 棧，Google 讓 TPU 變成 PyTorch 生態系統中的一等公民，大幅降低了外部開發者使用 vLLM 或 SGLang 等主流推論引擎的門檻。\n\n### 戰略背景與脈絡：從祕密武器轉變為開放競爭的商用晶片\n\n過去十多年，TPU 一直是 Google 搜尋、廣告與 YouTube 背後的的神祕功臣，但外界始終難以評估其離開 Google 環境後的真實表現。隨著 AI 運算成本成為企業沉重負擔，Google 決定改變戰略，將 TPU 從單純的內部加速器轉變為雲端甚至硬體銷售產品。這不僅是為了分散研發成本，更是為了挑戰 NVIDIA 在推論市場的霸權。目前 Anthropic 已成為 TPU 的最大使用者，預計到 2029 年其使用量將超過 Google 自家的 DeepMind。這反映出在 AI 模型進入大規模推論部署的階段，市場對「低成本、高效能」硬體的需求已遠高於對單一供應商的忠誠度。\n\n### 作者的核心推論與觀點：軟體棧的轉型是決定 TPU 外部化成敗的關鍵\n\n作者認為 Google 在硬體性能上已經證明了實力，但真正的轉捩點在於軟體棧的典範轉移。Google 放棄了過去繁瑣的轉譯層（TorchAX），改推原生的 TorchTPU，這讓開發者能像操作 GPU 一樣在 TPU 上執行 PyTorch。此外，Google 透過「硬體協同設計」解決了 TPU 過去的硬體短板，例如利用 SparseCore 處理資料搬移，讓 TensorCore 專注於矩陣運算，顯著提升了 MoE 模型（如 Qwen 或 DeepSeek）的執行效率。作者強調，Google 與 AMD 最大的不同在於其深厚的軟體工程文化，這讓 TPU 的外部化軟體能以極快速度趨於成熟，未來甚至可能達到與 NVIDIA 相當的「Day-0」（模型發表即支援）支援度。\n\n### 對市場、技術與政策環境的長期影響：推論市場將進入性價比驅動的多元供應時代\n\n長期來看，TPU 的外部化將打破 CUDA 的長期壟斷，讓 AI 服務供應商擁有真實的替代方案。特別是在進入「代理人 AI」（Agentic AI）時代後，長文本處理、KV-cache 卸載與預填充解耦（PD Disaggregation）技術將成為核心競爭力，而 Google 正在將這些服事 Gemini 的內部黑科技公開化。TPUv8 家族將進一步區分訓練用（8t）與推論用（8i）晶片，其中 8i 導入的 Boardfly 拓撲結構能顯著降低網路延遲，這對於需要快速反應的智慧代理應用至關重要。這場競爭將迫使 NVIDIA 必須在價格與 TCO（總持有成本）上做出回應，最終受益的將是整個 AI 應用產業鏈。",
       "insights": [
-        "訓練頂尖開源模型的硬體成本門檻已大幅下降（如 Motif 僅花 1,500 萬美元），這意味著「主權 AI」對中型國家而言在經濟上是完全可行的，真正的門檻在於人才選拔而非資金。",
-        "輝達支持開源 AI 並非出於公益，而是為了執行「將補完品商品化」的策略，透過消滅軟體層的護城河，來確保硬體價值最大化，並防止自己被少數 AI 巨頭勒索。",
-        "主權 AI 計畫若由官僚體系與大財閥主導，極易出現「技術平庸化」風險。南韓排除最強技術新創 Motif 的案例，揭示了政治審查與對外資的恐懼如何傷害本國的技術競爭力。"
+        "TPU 的競爭優勢不再僅限於 Google 內部，第三方測試證明其 FP8 推論性價比領先 NVIDIA B200 達 50%，這將吸引更多像 Anthropic 這樣的大型模型廠商轉向 TPU 陣營。",
+        "軟體策略從「轉譯層」轉為「原生 PyTorch 支持」（TorchTPU），象徵著 TPU 門檻的徹底消失，主流推論框架 vLLM 與 SGLang 的原生整合將讓 TPU 進入主流開發者的視線。",
+        "Google 針對 Agentic AI 的需求，將其內部高度優化的「KV-cache 卸載」與「預填充解耦」技術外傳，這顯示未來 AI 硬體的競爭焦點將從單純的算力轉向複雜任務的系統調度效率。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -405,15 +399,15 @@
       "content_mode": "ai_analysis"
     },
     "Lenny's Newsletter": {
-      "title": "Why companies are becoming a series of loops / AI 時代的新商業邏輯：企業如何轉向「循環架構」與發現護城河",
+      "title": "GPT-6 Astra 實測、Stripe AI 策略與 Agent 棧大換血 / GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-09-06",
-      "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
-      "analysis_zh": "### 全文大意摘要：AI 驅動下企業正從靜態產品轉向動態循環架構\n\n這篇文章是由知名產品社群專家 Lenny Rachitsky 採訪 Andreessen Horowitz (a16z) 合夥人 Anish Acharya 的精華記錄。Anish Acharya 曾是多次成功的創業家，並在 Google 與 Credit Karma 擔任高階產品職位，他在訪談中提出一個核心觀點：在 2026 年的 AI 浪潮下，成功的企業不再是打造一個「完成」的產品，而是建立一系列持續運作、自我強化的「循環」（loops）。他認為 AI 正在徹底改變產品開發、公司治理以及護城河的定義，未來的競爭優勢將不再於誰擁有最強的模型，而是在於誰能成為出色的「模型侍酒師」（model sommelier），並透過強大的分銷能力發現隱藏的護城河。\n\n### 戰略背景與脈絡：當 AI 模型趨於商品化，價值鏈正向分銷與應用層移動\n\n目前的科技環境已經過了單純比拼模型參數的階段。隨著各種開源與商業模型（如 Claude Code, GPT 系列, Qwen 等）的激增，基礎設施層的進入門檻正在降低，這使得單純依靠「技術領先」來維持競爭優勢變得越來越困難。Anish 指出，過去軟體業習慣於「線性」的思考方式，即開發產品、銷售給客戶、獲取收入。但在 AI 時代，數據的反饋速度與產品自我迭代的能力大幅提升，這迫使企業必須重新思考產品架構。若不能將產品設計成能持續學習、根據用戶行為自我優化的循環體系，很快就會被更能適應變化的對手取代。\n\n### 作者的核心推論與觀點：護城河是「發現」出來的，而非一開始就能精準設計\n\nAnish 提出一個反直覺的觀點：護城河通常不是在創業的第一天就「設計」出來的，而是在產品運行過程中「發現」的。他認為創業家往往過度執著於技術壁壘，但真正的護城河通常來自於分銷路徑的獨特性或用戶數據形成的網路效應。他強調「分銷」（Distribution）在 AI 時代的重要性不減反增，因為當開發成本大幅下降、產品同質化提高時，誰能掌握最有效的用戶接觸點，誰就能贏得比賽。此外，他提出了「模型侍酒師」的概念，認為未來的產品經理或工程師不需要自己練就最強的模型，而是要具備敏銳的洞察力，知道在什麼場景下、針對什麼問題，該挑選、組合哪些模型來達成最佳效果。\n\n### 對市場、技術與政策環境的長期影響：產品研發將轉向情緒導向與情緒價值的循環\n\n在消費端市場，Anish 認為最大的機會點在於能提供「情緒價值」的循環產品。他舉例說明，「/loop, make me happier」這種能持續根據用戶心情、生活狀態進行互動並改善生活品質的 AI 服務，將成為未來消費者的核心需求。這代表軟體的功能將從單純的「工具性」轉向「陪伴性」與「教練化」。對於開發者與公司來說，這意味著組織結構必須調整，以支持這種快速、小步快跑的循環實驗。長遠來看，這會導致勞動力市場的結構性轉變，我們將看到更多「策展型」的工程師，他們不再從零開始寫每一行程式碼，而是利用 AI 作為「巫師」般的工具，進行高階的邏輯編織與系統整合。",
+      "article_date": "2026-09-07",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
+      "analysis_zh": "### 全文大意摘要：AI 代理人從技術實驗走向企業與個人生產力的核心基礎\n\n這篇由 Lenny's Newsletter 出版的深度專題，透過個人創業者 Claire 與 Stripe 工程經理 Sharadh Krishnamurthy 的實戰視角，探討了 AI 代理人（Agents）在 2026 年的演進現狀。內容聚焦在三大核心：Claire 為何放棄自建的 OpenClaw 轉向更簡單穩定的 Grok Bot 平台、Stripe 如何在極短時間內建立起萬人使用的內部 AI 平台 Kai，以及 GPT-6 Astra 在自動操作電腦與硬體開發上的突破性表現。文章傳達了一個核心訊息：AI 的競爭重點已從單純的模型效能，轉移到使用者體驗、基礎設施的穩定性，以及複雜的企業治理架構。\n\n### 戰略背景與脈絡：從「模型迷思」轉向「應用落地與治理基礎」的產業轉向\n\n當前 AI 產業正處於從「展示酷炫功能」到「成為基礎建設」的過渡期。在個人層面，即使是技術高手也開始疲於維護複雜的開源 Agent 框架，轉而追求能可靠運作的產品化平台，這顯示「穩定性」與「跨帳戶整合能力」正成為 Agent 平台的關鍵護城河。在企業層面，Stripe 的案例顯示，將 AI 導入大型組織的挑戰不在於模型本身，而在於如何與既有的複雜權限、異質資料與資安架構串接。同時，GPT-6 Astra 的出現，讓「電腦自動操作」（Computer Use）技術終於達到足以導航複雜視覺介面的精度，這正在重新定義軟體開發與人機互動的邊界。\n\n### 作者的核心推論與觀點：使用者體驗與既有基礎設施決定了 AI 的價值上限\n\n文章提出多個關鍵判斷：首先，Agent 的設計應遵循「徵才模式」，給予明確的姓名與職責，而非開發全能型的通用機器人。Claire 指出，Grok Bot 贏在能整合多個收件匣與工作空間，這種「跨邊界」的處理能力是目前多數平台的痛點。其次，Stripe 的經驗推翻了「AI 能解決一切」的幻想，Sharadh 認為 Agent 會放大公司既有系統的所有弱點，若沒有紮實的資料目錄與開發者基礎設施，再強的模型也無法發揮作用。最後，GPT-6 Astra 的實測顯示，當 AI 能夠像人一樣操作滑鼠與鍵盤時，過去因為缺乏 API 或文件而無法自動化的硬體與軟體，現在都變成了可開發的對象。\n\n### 對市場、技術與政策環境的長期影響：介面設計的回歸與開發門檻的徹底崩塌\n\n長期來看，GPT-6 Astra 的成功意味著「無介面（No UI）」的趨勢可能被翻轉，既然 AI 能精準操作 UI，產品團隊就不必為了 AI 存取而強行將產品 API 化，按鈕與視覺化控制項將持續存在。其次，企業競爭力的關鍵將在於「技能庫（Skills）」的累積與治理能力，能夠將成功對話轉化為可重用、可審計的資產，將是未來企業自動化的核心。最後，隨著開發個人專屬軟體與硬體控制工具的門檻大幅降低（例如一鍵生成 3D 遊戲或逆向工程硬體），市場將出現大量「深具個人特色」的小眾軟體，傳統軟體開發團隊的規模與角色將面臨重新定義。",
       "insights": [
-        "護城河是「發現」而非「設計」的：企業不應在初期過度執著於建構壁壘，而應在快速實驗中識別出哪種分銷管道或用戶習慣能產生最強的黏性。",
-        "「模型侍酒師」成為核心競爭力：在模型層趨於商品化的時代，開發者的價值在於知道如何精確挑選、配對並編織不同的 AI 模型，以解決特定情境下的複雜問題。",
-        "從靜態工具轉向情緒循環：未來的頂尖消費性產品不再只是解決任務的工貝，而是能根據用戶情緒狀態進行反饋與強化的循環系統，將「快樂」與「幸福感」轉化為可持續的產品指標。"
+        "Agent 平台的競爭核心正在從「智慧程度」轉向「使用者體驗（UX）」與「跨帳戶整合力」，即使是頂尖技術者也傾向選擇更簡單、穩定的商用產品而非自建框架。",
+        "企業導入 AI 的真正瓶頸是治理（Governance）而非模型效能，好的 AI 基礎設施應該要能隱藏組織的複雜度，讓員工無需選擇模型或處理權限即可直接使用。",
+        "GPT-6 Astra 證實了「電腦操作技術」已臻成熟，這讓缺乏 API 的遺留系統與硬體設備也能被輕易自動化，極大提升了個人開發者的技術野心與專案範疇。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -427,14 +421,14 @@
       "content_mode": "full_text_import"
     },
     "HackMD：停損王SLKing": {
-      "title": "便宜不是機會，是一道還沒解開的問題：先問「為什麼便宜還被放著」",
+      "title": "自由現金流變成三倍，股價卻比十五個月前還低：Uber 到底被市場算錯了什麼",
       "source": "HackMD：停損王SLKing",
-      "article_date": "2026-09-06",
-      "url": "https://hackmd.io/B1ii_Hcdfe",
-      "analysis_zh": "原始影片：「高成長・高配当なのに割安」は罠か・お宝か？放置されるワケを正しく見抜こう（足立 武志） (https://www.youtube.com/watch?v=AlW3u323ixo) | トウシル [楽天証券] | 2026-09-05\n\n2026 年 6 月，日經平均突破 7 萬円。回頭看 2025 年 4 月川普關稅衝擊時，指數還在 4 萬円左右，一年多就拉開了巨大的距離。\n\n但足立武志認為，多數個人投資人對這段漲幅沒有太強的實感。2026 年 4 月以後，推動日經平均上漲的主要是對指數影響度很高的半導體相關股，權重前十大的個股合計影響力已接近日經平均的 50%。其他大量個股有些沒漲，有些甚至下跌，而這些股票又恰好是許多散戶平常持有的標的。\n\n於是出現一個很奇怪的畫面：指數一路創高，市場裡卻同時躺著一批營收、獲利持續成長，本益比只有 10 倍上下甚至個位數，股息殖利率還超過 4% 的股票。\n\n成長股通常可以拿到數十倍本益比。當一家公司仍在成長，評價卻低成這樣，很容易讓人產生一個念頭：便宜，買。\n\n足立認為，這正是初學者到中級投資人最常掉進去的陷阱。\n\n### 「為什麼便宜還被放著？」\n\n他的思考起點只有一句話：\n\n「便宜一定有理由。」\n\n本益比個位數、殖利率超過 4%，這種便宜連一般投資人都看得出來，法人和外資當然也知道。如果它真的具有明顯而且沒有其他問題的低估空間，專業資金理應早就進場。\n\n因此，他看到這類股票時，會先問：\n\n「為什麼便宜卻還被就這樣放著？」\n\n確實存在少數股票只是沒受到市場關注，因此真的很便宜。便宜的東西長期維持便宜，也並非完全不可能。足立認為這種情況的機率相當低。\n\n更常見的情況，是目前財報看起來很好，但專業投資人對未來的獲利與配息沒有那麼有信心。\n\n公司今年可能還在成長，明年、後年能不能繼續成長，市場已經先打了折扣。\n\n### 本益比低，可能反映市場對未來的懷疑\n\n足立用不動產業來說明這種評價方式。\n\n不動產公司的業績高度受到市場環境影響。2008 年雷曼衝擊期間，他親眼看到上市不動產公司一家接一家倒閉，其中有些公司前一年狀況還非常好，一次市場衝擊就讓獲利急速惡化。\n\n現在的不動產公司做財測時，也不可能先假設明年會再發生一次雷曼等級的衝擊。下一次衝擊什麼時候來，本來就沒有人知道，所以財測自然建立在目前狀況繼續延伸的基礎上。\n\n帳面看起來可以很漂亮，市場仍會考慮另一件事：如果房地產市場反轉，這些預測還剩多少可信度？\n\n「這是股票市場的基本原則：未來不透明等於投資風險高。」\n\n基金經理人的選擇也受到這個邏輯影響。\n\n假設一家公司未來每年獲利穩定成長 10%，產業又不太受到景氣影響；另一家公司有機會成長 20%，但高度依賴市場環境，實現的確定度比較低。專業投資人通常會偏向前者。\n\n因此，有些公司明明還在高成長，本益比卻很低。市場懷疑的可能是這段成長能維持多久。\n\n### 風險高，仍然可能帶來很高的報酬\n\n這裡很容易走到另一個極端，看到未來不透明就全部避開。足立特別保留了另一種可能性。\n\n高風險代表虧損機率高於其他股票，不代表一定會虧。\n\n如果市場擔心的事情最後沒有發生，投資人承擔的不確定性反而可能換來很高的報酬。近幾年的半導體股就出現過大量這種案例，數年內漲 10 倍、20 倍，有些甚至達到 50 倍或接近 100 倍。\n\n所以足立並不主張避開所有未來不透明的公司。他關心的是如何在承擔這種風險時，保留上漲空間，同時限制判斷錯誤造成的損失。\n\n他用一檔假想股票來說明。\n\n假設一家公司營收與獲利每年成長 20% 到 30%，預估 EPS 為 500 円，每股配息 20 円，股價 4000 円。\n\n它的股息殖利率只有 0.5%，本益比卻只有 8 倍。\n\n對一家公司仍以 20% 到 30% 的速度成長來說，8 倍本益比非常低。市場之所以只願意給這個價格，很可能就在懷疑這段高速成長能不能持續。\n\n但假設幾年後 EPS 從 500 円增加到 1000 円，即使本益比仍然只有 8 倍，股價也會來到 8000 円。\n\n評價完全沒有提升，單靠獲利成長，股價就可以翻倍。\n\n### 更大的報酬，來自獲利成長加上市場重新評價\n\n還有另一條路。\n\n如果公司後來持續證明自己的成長能力，市場可能開始認為 8 倍本益比實在太低，願意把評價提高到 20 倍。\n\n同樣以 EPS 1000 円計算，20 倍本益比就是 2 萬円。相較目前 4000 円，股價來到 5 倍。\n\n足立認為，商社股就曾走過類似過程。\n\n5 年前、10 年前，商社股本益比只有 6、7 倍很常見。隨著業績持續成長，市場也逐漸提高願意給它們的評價，如今本益比大約來到 15 倍左右，各家公司仍有差異。\n\n獲利本身成長，再疊加本益比重新評價，幾年內就可能讓股價增加好幾倍，其中也有股票走到 10 倍。\n\n這也是低評價成長股最誘人的地方。\n\n同一套條件下，也可能出現完全不同的結果。市場原先擔心的業績惡化真的發生，低本益比最後被證明並沒有低估，股價隨之大跌。\n\n### 看起來便宜的股票，大致有三種\n\n足立把這些股票整理成三類。\n\n第一類，真的只是沒受到市場注意，因此被低估。這類股票存在，但他認為數量很少。\n\n第二類，公司目前業績很好，只因未來成長的確定度比其他公司低，所以市場給予較低評價。後來如果業績真的持續成長，市場又重新提高本益比，股價可能出現很大的漲幅。過去的商社股就是其中一種案例。\n\n第三類，目前的本益比與殖利率看起來確實便宜，但專業投資人已經認為未來業績惡化的機率很高，因此股價始終漲不動。足立認為這種情況也相當多。\n\n麻煩在於，一般投資人很難事先準確判斷眼前這家公司究竟屬於哪一類。\n\n所以他的處理方式，是另外建立一套進出規則。\n\n### 分不出是哪一種，就看股價趨勢\n\n足立會先把低評價的成長股挑出來，但不會看到便宜就立刻買進。\n\n他的規則很簡單。\n\n股價跌破移動平均線時不買。\n\n即使業績很好、本益比很低、殖利率很高，只要股價持續走弱，他就先假設市場裡存在自己還不知道的問題。賣方力量仍然占上風，沒有必要急著進場。\n\n等到股價重新站上移動平均線，他才開始買進。\n\n買進之後，只要股價維持在移動平均線上方就繼續持有；一旦再次跌破，就賣掉。\n\n這套規則沒有解決「公司到底值多少」的問題，也沒有讓投資人突然擁有比法人更多的資訊。它處理的是另一件事：當你無法判斷這家公司究竟屬於三種情況中的哪一種時，要怎麼控制自己判斷錯誤的代價。\n\n### 看起來便宜的成長股，買進持有的風險很高\n\n足立因此對這類股票採用單純的買進持有策略相當謹慎。\n\n眼前的低本益比究竟代表真正低估，還是市場已經提前反映未來惡化，一般投資人並不知道。如果只因為看起來便宜就買進，接著一路抱著，等到業績惡化正式浮上檯面，持股很容易變成長期套牢。\n\n反過來，如果碰到的是幾年前的商社股，業績持續成長，市場又逐步提高評價，過早賣掉同樣會錯失很大的報酬。\n\n這也是他使用移動平均線的原因。\n\n上漲趨勢仍在，就繼續持有，保留吃到大行情的機會；跌破移動平均線，就撤退，避免一次錯誤演變成大幅虧損。\n\n足立最後留下的判斷很簡單。\n\n看到低本益比、高殖利率的股票，先別急著把「便宜」當成答案。\n\n先問一句：\n\n「為什麼便宜還被放著？」\n\n真的低估有可能。市場過度擔心、最後迎來獲利成長與重新評價，也有可能。市場提前看見業績惡化，同樣可能。\n\n散戶最難的地方就在這裡。\n\n既然很難事先分清楚，就必須有一套方法，讓看對時可以繼續賺，看錯時不至於付出太大的代價。\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
+      "article_date": "2026-09-07",
+      "url": "https://hackmd.io/B1ybMFoOzl",
+      "analysis_zh": "原始影片：Uber Stock: Just Keeps Getting Cheaper (https://www.youtube.com/watch?v=fmDrC9dZJ44) | The Intrinsic Value Podcast | 2026-09-06\n\nShawn O'Malley 與 Daniel Mahncke 十五個月前第一次在節目上提出 Uber，現在回頭看，公司幾乎每一項營運數字都比當時更好，股價卻比十五個月前還低。\n\n過去三年，Uber 的自由現金流變成三倍，一年來到大約 100 億美元。另一邊，Waymo 最近以 1,260 億美元的估值募資，估值幾乎已經追上整個 Uber，營收卻只有 Uber 的零頭，而且還沒賺錢。\n\n市場願意給 Waymo 這麼高的價格，同時壓低 Uber 的估值，反映的其實是：自動駕駛會改寫叫車產業，而 Uber 未必站在贏的那一邊。\n\nShawn：「要嘛是市場把我們持有的最好生意之一定價定錯了，要嘛是機器人真的要來收拾我們最大的持股了。」\n\n### Uber 已經不是十五個月前那家公司\n\nUber 的核心模式沒有改變。它在大約 70 個國家聚合叫車、外送與其他在地服務的供給和需求，平台上大約有 2 億名每月使用者，過去一年產生超過 1,900 億美元的 gross bookings。\n\nUber 本身不需要擁有大量車輛，也不需要把多數司機放進自己的資產負債表。這也是這門生意過去幾年最重要的變化來源。\n\n2020 年，Uber 的營業利潤率還是負 43%。今天已經來到正 12%，不到六年改善了 55 個百分點。\n\nDaniel 回頭看十五個月前的模型，也承認自己低估了 Uber 的利潤率空間。當時單季營業利潤率大約只有 6%，一年後已經翻倍。\n\nShawn 依然認為 Uber 很難做到 Microsoft 那種 40% 的利潤率，因為每增加一趟車，依然伴隨司機、保險等增量成本。但 Uber 的規模、廣告、會員制、交叉銷售，以及未來混合 AV 車隊，都還能繼續把利潤率往上推。\n\n其中最直接的一塊是廣告。\n\n幾年前幾乎不存在的 Uber 廣告業務，現在年化收入已經超過 20 億美元，年增超過 50%。廣告可以出現在 app、搜尋結果、地圖與行程頁面裡，對 Uber 來說又接近純利。\n\n保險也從過去幾年的逆風開始轉向。\n\n疫情後美國車價與車險成本大漲，Uber 把大部分成本轉嫁到票價，結果美國叫車業務的需求跟著放慢。管理層後來把這段經驗形容成一場意外的價格彈性 AB 測試，美國就是實驗組。\n\nDaniel 對這個說法有保留：「這件事也許有點太重要，不該被拿來做 AB 測試。」\n\n今年 Uber 與保險業者續約的漲幅已經降到低個位數，又從州級保險改革省下數億美元。公司開始把節省重新反映在價格上，美國業務也跟著加速。\n\n如果未來 AV、無人機和外送機器人在 Uber 網路中的占比提高，保險成本佔營收的比例還可能繼續下降。\n\n### 5,000 萬個 Uber One 會員，比訂閱收入本身重要得多\n\nUber One 現在有大約 5,000 萬名會員，比十五個月前多了 1,400 萬人。\n\n單看每月訂閱費，這對一家約 1,500 億美元的公司並沒有多大意義。Uber One 的價值在於改變使用者行為。\n\n會員現在已經帶動 Uber 大約一半的總訂單金額，在外送裡的占比更高。而 Uber 自己觀察到，同時使用多種產品的客戶，消費是單一產品用戶的三倍以上。\n\n所以 Uber 近年的擴張看起來很雜，Uber Eats 從餐廳一路延伸到雜貨、化妝品與零售，還加入飯店和停車，其實都指向同一件事：讓既有客戶有更多理由打開 Uber，再從叫車導向外送、從外送導向其他服務。\n\n這也是 Uber 在已經非常普及之後，仍然能維持高成長的一條路。\n\n### 市場在交易的還是 Waymo\n\n這些營運改善都沒有解除市場最大的疑慮。\n\nWaymo 目前已經累積超過 1 億英里的完全自駕里程，2025 年完成 1,500 萬趟付費行程，現在每週大約 50 萬趟，還準備進入超過 20 個新城市。\n\n七月底，Waymo 通知 Uber，準備結束 Austin 和 Atlanta 的獨家合作，未來會在當地推自己的 app。Uber 股價隨後跌到 52 週新低。\n\nDaniel 認為這件事不該淡化。如果 Waymo 長期把自己的車隊撤出 Uber app，對 Uber 毫無疑問是一個挫折。\n\n叫車業幾乎沒有品牌忠誠度，這件事乍看對 Uber 不利，Shawn 卻認為也可能成為 Uber 的優勢。\n\n消費者多半只在乎價格與等待時間。當市場上只有一兩家 AV 公司時，Waymo 本身可以成為品牌。但如果未來有十家甚至更多 AV 車隊，使用者很可能不再在乎車子來自 Waymo、Nuro 或其他公司，只想叫到最快、最便宜的那台車。\n\nUber 想守住的位置，就是這個需求聚合層。\n\n### 固定車隊最大的麻煩，是一天裡的需求差四倍\n\nShawn 十五個月前看多 Uber 時，最核心的論點就是供給彈性。\n\nUber 的人類司機可以隨需求即時上線與離線，AV 車隊則是一批固定資產。\n\n一天之內，叫車需求的尖峰與離峰大約可以差到 4 比 1。按照尖峰需求準備車輛，離峰時就會有大量車子閒置；按照離峰需求準備，尖峰時又會叫不到車。\n\nUber 可以用數百萬名人類司機吸收這種波動。\n\nAustin 已經提供了一個例子。Uber 的資料顯示，接入 Uber 網路的 Waymo 車輛，比 99% 的人類司機都更忙。Shawn 認為這恰好說明需求聚合的價值，車隊接上 Uber 後，更容易維持高使用率。\n\n這也是混合網路的邏輯。AV 可以吃掉穩定、密集、容易自動化的需求，人類司機則補上尖峰與複雜區域。\n\n但這個論點有一個很大的漏洞。\n\nWaymo 不一定需要追求效率，也不一定急著賺錢。\n\n它剛募到 160 億美元，背後還有 Alphabet。只要 Alphabet 願意承受，Waymo 完全可以讓車隊維持多年糟糕的使用率，用補貼去換規模。\n\nUber 自己當年就是這樣長大的。\n\nShawn 認為這種補貼戰不太可能直接殺死 Uber，但會嚴重拖累股東報酬。\n\n「一場補貼戰對誰都不好，除了消費者。消費者會從便宜的車資裡得到好處，但對我們這些股東來說，那會是一幅慘澹的畫面。」\n\n### 「地表最強的自駕公司看過 Uber 的一切，然後說不用了」\n\nDaniel 對 Uber 最難消除的疑慮也在這裡。\n\nGoogle 已經在 Waymo 上投入幾十億美元，很難想像它最終的目標，只是成為 Uber 網路裡十幾家 AV 供應商之一。\n\n而且至少在 Austin 和 Atlanta，Waymo 已經看過 Uber 能提供的 2 億名用戶、需求聚合與更高車隊使用率，最後仍然決定建立自己的 app。\n\nDaniel 說：「如果我要當空方，我會說，這不就是市場的全部重點嗎？如果技術領先者都不需要 Uber，那自動駕駛最後的贏家，不管是 Waymo 還是任何其他公司，為什麼還會需要 Uber？」\n\n這也是 Uber 目前估值折價最難回答的一題。\n\n### 但今天的 AV，規模仍然非常小\n\nShawn 的反駁先從比例開始。\n\nWaymo 每週大約 50 萬趟，Uber 每天大約 4,000 萬趟。\n\n整個全球自駕產業一年大約 5,000 萬趟，Uber 光是一年的新增行程就大約有 30 億趟。今天 AV 大約只占全球共乘行程的千分之一。\n\nUber 財務長甚至表示，未來五年 AV 對 Uber 的量體「相對而言無足輕重」。\n\nShawn 也把 Uber 的獲利進一步拆開。\n\nMobility 大約占 Uber 營業利益的 60%，美國大約又占 Mobility 的 60%。再往下看，目前最可能大規模部署 robotaxi 的美國前 20 大城市，大約占美國 Mobility 獲利的四分之一。\n\n算下來，近期到中期真正直接暴露在 robotaxi 競爭下的 Uber 獲利，大約只有 9%。\n\n就算把郊區也算進去，大約是 18%。\n\n這不代表終值風險不存在，只代表今天市場為了這個風險，正在對整家公司重新定價。\n\n而 Waymo 已經進入的市場，也沒有出現 Uber 被迅速取代的跡象。\n\nAustin 和 Atlanta 是 Waymo 的旗艦市場，同時也是 Uber 在美國成長最快的市場之一。舊金山是 Waymo 最成熟的市場，Waymo 已經拿到大約 15% 到 20% 的載客份額，但 Uber 在當地的行程成長在 2025 年反而加速。\n\nShawn 的解釋是 robotaxi 正在把整塊市場做大。原本自己開車或搭大眾運輸的人，開始轉向共乘。\n\n目前共乘只占美國每年大約 3 兆英里駕駛里程的不到 1%。如果自動駕駛把每英里的成本繼續往下拉，市場還有很大的擴張空間。\n\n### Uber 的反擊，是讓 Waymo 面對更多 Waymo\n\nUber 過去一年最積極做的事，就是增加 AV 供應商。\n\n一年前大約有 14 個自駕合作夥伴，現在已經超過 20 個。\n\nNuro 和 Lucid 的計畫至少包括 3 萬 5,000 輛搭載 Nuro 系統的 Lucid Gravity SUV。Rivian 則規劃從 2028 年開始導入 1 萬輛 R2 robotaxi，並有機會在 2031 年前擴到 5 萬輛、25 個城市。Uber 還會依技術里程碑對 Rivian 投資最多 12.5 億美元。\n\nWeRide 已經在杜拜與阿布達比透過 Uber 營運完全無人駕駛服務，Baidu 的 Apollo Go 也準備進入杜拜。其他合作還包括 Pony.ai、Zoox 等公司。\n\nUber 同時取得多家 AV 業者的股權。\n\nDaniel 聽完形容：「那聽起來有點像我們在 AI 那邊看到的循環融資，只是規模小很多。」\n\nUber 的想法很簡單。只要市場上出現足夠多 AV 供應商，Waymo 的議價能力就會下降，Uber 則更有機會留在中立的需求聚合層。\n\nNvidia 甚至提出一個更激進的版本：自動駕駛軟體未來可能變成任何車廠都能授權的商品層。\n\n如果最後真的走到那裡，Waymo 今天的技術領先就不一定能永久轉化成平台壟斷。\n\nTesla 則是另一個風險。它有自己的製造能力，理論上可以用大量低成本 Cybercab 灌進市場，前提是純鏡頭方案最後真的能做到真正的自動駕駛。\n\n所以 Uber 面對的局面已經很難簡化成 Uber 對 Waymo。美國有 Waymo、Tesla、Zoox、Nuro、Rivian 和 Nvidia，中國還有 Baidu、Pony.ai、WeRide。\n\nUber 的策略，是盡可能站到每一邊。\n\n### 這個策略也讓 Uber 開始變重\n\nAV 策略目前還有另一個問題。\n\nUber 原本最好的一點，就是車不在自己的資產負債表上。\n\n公司希望未來 AV 生態系可以分成不同層級：Uber 經營消費者市集，AV 公司提供軟體，車廠負責製造，Hertz 這類公司負責場站、充電與維修，再由退休基金、REIT 或其他金融機構提供資產融資。\n\n這樣 Uber 仍然可以維持輕資產。\n\n但 Daniel 指出，這個第二階段目前還沒有真正出現。\n\nUber 已經開始簽承購協議、投資車隊營運商、Rivian 和 Nuro，也實際承諾投入 AV 建設。全部加起來，大約已有 100 億美元的相關承諾。\n\n現階段 Uber 的資本密集度正在提高。\n\n這不一定推翻整套策略，但輕資產的金融化版本還需要時間證明。\n\n### Delivery Hero 讓 Uber 一次多出 24 個完整市場\n\nUber 同時還準備完成公司史上最大的一筆收購。\n\n公司先悄悄累積 Delivery Hero 大約 25% 的股份，之後提出正式收購要約，對 Delivery Hero 的估值約 148 億美元。扣掉 Uber 已經持有的股份，交易金額約 137 億美元。\n\n這筆交易完成後，Uber 同時經營叫車與外送的市場，會從 34 個增加到 58 個，並帶進大約 5,000 萬名新消費者。\n\n這對 Uber 很重要，因為它過去幾年的成長很大一部分來自交叉銷售。讓叫車客戶開始點 Uber Eats，再讓外送客戶使用 Mobility，取得成本都比重新找一個新客戶低得多。\n\nDelivery Hero 本身還提供另一個改善空間。\n\n它的廣告變現大約占 GMV 的 3%，高於 Uber。如果 Uber 能在一個交易後 gross bookings 超過 1,000 億美元的外送事業上，把廣告滲透率往 Delivery Hero 的水準拉，四到五年內可能帶來數十億美元的高利潤率增量營收。\n\n技術成本也有整合空間。Uber 可以用同一套全球後端去承接 Delivery Hero 原本分散的技術支出。\n\n這筆收購同時讓 Uber 的地理結構更分散。假設 Waymo 或 Tesla 未來真的壓縮美國叫車業務，Uber 會有一塊更大的國際外送與在地商務業務，而 AV 在這些市場的普及速度預期更慢。\n\nShawn 對外送之外的雜貨業務則沒那麼樂觀。\n\nWalmart、Target 這些大型零售商有足夠資源自己建立外送，也有很強的誘因把客戶關係留在自己手上。Uber 目前已經把 Kroger 大約 2,700 家門市接入 Uber Eats，實際發展比這個疑慮樂觀，但長期仍然要觀察大型零售商願意把多少客戶關係交給平台。\n\n### 一邊投資，一邊把回購額度拉到 200 億美元\n\n十五個月前，市場還有人批評 Uber 花 70 億美元回購股票，認為公司應該把資本留給成長。\n\n現在董事會已經把回購授權提高到 200 億美元。\n\n同一段期間，Uber 還在投資 AV、入股合作夥伴、擴張零售與外送、準備收購 Delivery Hero，資產負債表也沒有因此明顯膨脹。\n\n原因很單純，Uber 的獲利能力提高得比原本預期更快。\n\n這也是 Shawn 和 Daniel 願意繼續持有的主要理由。今天的 Uber 不只比十五個月前更便宜，能產生的現金也更多。\n\n### 市場也可能是對的\n\nShawn 在收尾時沒有把市場的折價全部當成錯誤。\n\n「市場可以看著一門生意一季一季客觀地變好，同時決定為它付更少的錢。」\n\n很多時候，市場這樣做有充分理由。當前獲利可以變好，長期成長仍可能放慢；今天的競爭優勢，也可能被新技術侵蝕。\n\nUber 現在就是這種情況。\n\n多方看到的是 100 億美元自由現金流、持續擴張的利潤率、5,000 萬 Uber One 會員、廣告、交叉銷售、Delivery Hero，以及超過 20 家 AV 夥伴。\n\n空方看到的則是 Waymo。\n\n一家背後站著 Alphabet、可以多年不在乎車隊使用率與獲利的公司，正在證明它可以自己擁有客戶，而且已經開始在部分市場離開 Uber。\n\nDaniel 最後仍然比十五個月前更偏多，原因也和一開始不同。\n\n如果未來只有 Waymo 一家 AV 能做到全球規模，Uber 的位置確實很危險。但現在看起來，Waymo 同時還得和 Tesla、Nvidia、中國 AV 業者以及一長串車廠和自駕公司競爭。\n\n「如果 Waymo 沒辦法在其中任何一家擴張之前達到全球規模，那這些市場就會是 Uber 的。」\n\nWaymo 已經取得很大的進展，技術本身也足夠驚人。但要真正摧毀 Uber，它可能需要的遠不只是成為最好的自駕公司。\n\n它得在全球範圍內，把其他 AV 供應商和 Uber 這個需求聚合層一起壓下去。\n\nShawn 和 Daniel 現在押的，就是它做不到這件事。\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
       "insights": [],
       "content_mode": "full_text_import",
-      "source_id": "B1ii_Hcdfe"
+      "source_id": "B1ybMFoOzl"
     },
     "backfill::a16z::p_nasas_artemis_ii_mission": {
       "title": "NASA’s Artemis II Mission / NASA 阿提米絲 2 號任務：重返月球的關鍵里程碑與太空產業新局",
@@ -483,22 +477,22 @@
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
-      "source": "Culpium",
-      "title": "Tech The Money: Nvidia’s New Friends Are Old Friends / 科技金融：輝達的新盟友，其實都是老朋友",
-      "article_date": "2026-09-06",
-      "url": "https://www.culpium.com/p/tech-the-money-nvidias-new-friends"
+      "source": "SemiAnalysis",
+      "title": "TPU Inference Externalization Full Steam Ahead - InferenceX / TPU 推論外部化全面加速：Google 能否撼動 NVIDIA 的推論霸權？",
+      "article_date": "2026-09-07",
+      "url": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam"
     },
     {
       "source": "Lenny's Newsletter",
-      "title": "Why companies are becoming a series of loops / AI 時代的新商業邏輯：企業如何轉向「循環架構」與發現護城河",
-      "article_date": "2026-09-06",
-      "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series"
+      "title": "GPT-6 Astra 實測、Stripe AI 策略與 Agent 棧大換血 / GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw",
+      "article_date": "2026-09-07",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger"
     },
     {
       "source": "HackMD：停損王SLKing",
-      "title": "便宜不是機會，是一道還沒解開的問題：先問「為什麼便宜還被放著」",
-      "article_date": "2026-09-06",
-      "url": "https://hackmd.io/B1ii_Hcdfe"
+      "title": "自由現金流變成三倍，股價卻比十五個月前還低：Uber 到底被市場算錯了什麼",
+      "article_date": "2026-09-07",
+      "url": "https://hackmd.io/B1ybMFoOzl"
     }
   ]
 }
