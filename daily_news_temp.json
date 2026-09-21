@@ -1,5 +1,5 @@
 {
-  "fetch_date": "2026-09-20",
+  "fetch_date": "2026-09-21",
   "techmeme": [
     {
       "title_en": "Trump says he will appoint an AI czar and form an “AI Force”, in a Truth Social post that rejects AI safety concerns as a “hoax”",
@@ -10,57 +10,147 @@
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
       "thumbnail_url": "https://www.techmeme.com/260919/i11.jpg",
-      "thumbnail_source": "techmeme_rss_thumbnail",
+      "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
       "thumbnail_alt": "Trump says he will appoint an AI czar and form an “AI Force”, in a Truth Social post that rejects AI safety concerns as a “hoax”",
       "image_missing_reason": "no_source_image_found",
-      "title_zh": "川普表示將任命 AI 沙皇並成立「AI 部隊」，在 Truth Social 貼文中稱 AI 安全疑慮為「騙局」",
-      "summary_zh": "川普總統表示他將任命一名人工智慧（AI）沙皇，並持續推動科技公司競相加速開發，儘管外界對安全性的擔憂日益增加。"
+      "title_zh": "川普表示將任命 AI 沙皇並組建「AI 部隊」，在 Truth Social 發文中稱 AI 安全疑慮為「騙局」",
+      "summary_zh": "川普總統表示他將任命一位人工智慧沙皇，並持續推動科技公司加速開發，儘管外界對安全性的擔憂日益增加。"
     },
     {
-      "title_en": "Google says it didn't consider Gemini's hacks worthy of disclosure because Gemini acted “appropriately” and stopped after determining it hacked real companies",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
-      "summary_en": "Google says that breaking containment and targeting real companies doesn't constitute ‘misalignment.’",
-      "source": "The Verge",
-      "media_source": "The Verge",
+      "title_en": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev matches GPT-5.6 and Sonnet 5 workflow evals",
+      "url": "https://www.forbes.com/sites/josipamajic/2026/09/19/jev-cuts-ai-decision-costs-100x-and-vercel-cloudflare-rushed-to-add-it/",
+      "summary_en": "Most of what an AI agent asks a frontier model to do is not writing. It is choosing. Which tool to call next, whether to retry, whether a command is safe to run.",
+      "source": "Forbes",
+      "media_source": "Forbes",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260919/i9.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260920/i9.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Google says it didn't consider Gemini's hacks worthy of disclosure because Gemini acted “appropriately” and stopped after determining it hacked real companies",
-      "title_zh": "Google 表示不認為 Gemini 的駭入行為值得披露，稱其表現「適當」且在確認駭入真實公司後已停止",
-      "summary_zh": "Google 表示，突破封閉環境並針對真實公司進行攻擊並不構成「模型對齊失當（misalignment）」。"
+      "thumbnail_alt": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev matches GPT-5.6 and Sonnet 5 workflow evals",
+      "title_zh": "Vercel、Cloudflare 等公司迅速引進 Jev，因其顯著提升 AI 工具選擇速度並降低成本；TypeSafe：Jev 在工作流評估中表現媲美 GPT-5.6 與 Sonnet 5",
+      "summary_zh": "AI 代理要求前沿模型執行的任務大部分並非寫作，而是選擇：下一個該調用哪個工具、是否重試，以及指令是否安全。"
     },
     {
-      "title_en": "Gemini hacked three companies in May during a test by Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic, and Meta",
-      "url": "https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2?st=ZQ2NY6&reflink=desktopwebshare_permalink",
-      "summary_en": "The episode resembled similar hacks by other AI models, but Google said it didn't consider it an instance of model misalignment",
+      "title_en": "A closer look at the upcoming Siri AI-powered home hub, a key pillar of Apple's strategy for the home; sources: Apple started cutting Fitness+ staff",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4OTkxMzEyOCwiZXhwIjoxNzkwNTE3OTI4LCJhcnRpY2xlSWQiOiJUTE8xSzFOM04wOTMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.bwDgdcsumu74i6R9UysnUwPKIWKcRVlLuyNpT_Z2_J0",
+      "summary_en": "Also: What happened with the iPhone Duo Pencil and layoffs at Fitness+. — Apple's new “intelligent personal hub” strategy is about much more than the iPhone.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260920/i8.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "A closer look at the upcoming Siri AI-powered home hub, a key pillar of Apple's strategy for the home; sources: Apple started cutting Fitness+ staff",
+      "title_zh": "深入解析即將推出的 Siri AI 驅動家庭樞紐，此為 Apple 家庭戰略關鍵支柱；消息指出 Apple 開始裁減 Fitness+ 員工",
+      "summary_zh": "此外：iPhone Duo Pencil 的後續與 Fitness+ 的裁員消息。Apple 全新的「智慧個人樞紐」戰略影響範圍將遠超 iPhone。"
+    },
+    {
+      "title_en": "Sources: Polymarket CEO Shayne Coplan dismissed concerns after fraudsters tried to launder $10M+ from stolen cards to clean accounts via its wagers in February",
+      "url": "https://www.wsj.com/business/polymarkets-fraud-regulators-coplan-5f418ab0?st=MJjszi&reflink=desktopwebshare_permalink",
+      "summary_en": "CEO Shayne Coplan brushed off concerns about scheme involving stolen debit cards; now the prediction market is bolstering executive ranks as it eyes IPO",
       "source": "Wall Street Journal",
       "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "thumbnail_url": "https://www.techmeme.com/260918/i31.jpg",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260920/i2.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Gemini hacked three companies in May during a test by Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic, and Meta",
-      "title_zh": "Gemini 在 5 月由 Irregular 進行的測試中駭入了三家公司，該機構也參與了 OpenAI、Anthropic 與 Meta 披露的類似事件",
-      "summary_zh": "該事件與其他 AI 模型的類似駭入情況雷同，但 Google 表示並不認為這是模型對齊失當的案例。"
+      "thumbnail_alt": "Sources: Polymarket CEO Shayne Coplan dismissed concerns after fraudsters tried to launder $10M+ from stolen cards to clean accounts via its wagers in February",
+      "title_zh": "消息來源：Polymarket 執行長 Shayne Coplan 曾對詐騙者試圖透過賭注將逾千萬美元贓款洗入乾淨帳戶的疑慮不以為然",
+      "summary_zh": "執行長 Shayne Coplan 對涉及盜刷金融卡的計畫一笑置之；如今這家預測市場平台正擴充高層陣容，為 IPO 做準備。"
     },
     {
-      "title_en": "Former DraftKings employees detail how it uses ML to target likely losers with promotions, while efforts to flag problem gamblers were shelved or squashed",
-      "url": "https://www.nytimes.com/2026/09/19/business/draftkings-ai.html?unlocked_article_code=1.CVE.9v0l.IfNa4oho1eM4&smid=bs-share",
-      "summary_en": "About a year into his job as a data analyst at DraftKings, Jayden Butts received a new assignment.",
+      "title_en": "California Gov. Gavin Newsom signs a law that will penalize influencers who do not properly disclose paid political content, with fines of up to $5K per post",
+      "url": "https://www.nytimes.com/2026/09/19/business/media/california-political-ads-influencers-law.html?unlocked_article_code=1.CVE.Deu4.e3uZQO5XHVDZ&smid=bs-share",
+      "summary_en": "Under a new law, creators could face fines of $5,000 per post if they don't disclose that they were paid to make political content.",
       "source": "New York Times",
       "media_source": "New York Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260919/i10.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260919/i13.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Former DraftKings employees detail how it uses ML to target likely losers with promotions, while efforts to flag problem gamblers were shelved or squashed",
-      "title_zh": "DraftKings 前員工揭露公司如何利用 ML 針對潛在輸家投放促銷，而識別問題賭徒的努力則被擱置或打壓",
-      "summary_zh": "在 DraftKings 擔任數據分析師約一年後，Jayden Butts 收到了一項新任務。"
+      "thumbnail_alt": "California Gov. Gavin Newsom signs a law that will penalize influencers who do not properly disclose paid political content, with fines of up to $5K per post",
+      "title_zh": "加州州長 Gavin Newsom 簽署法律，將處罰未妥善披露付費政治內容的網紅，每篇貼文最高罰款 5000 美元",
+      "summary_zh": "根據新法律，創作者若未揭露其製作的政治內容為付費合作，可能面臨每篇貼文 5000 美元的罰款。"
+    },
+    {
+      "title_en": "Alibaba releases Qwen-Image-2.1, a 7B open-weight model it says outperforms most closed-source models, with native transparency and up to ten reference images",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "summary_en": "· QwenTeam丨Translations:.体中文 — We are excited to open-source Qwen-Image-2.1 …",
+      "source": "Qwen",
+      "media_source": "Qwen",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260920/i13.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Alibaba releases Qwen-Image-2.1, a 7B open-weight model it says outperforms most closed-source models, with native transparency and up to ten reference images",
+      "title_zh": "阿里巴巴發布 Qwen-Image-2.1，這款 7B 開放權重模型號稱超越多數閉源模型，支援原生透明度與多達十張參考圖",
+      "summary_zh": "Qwen 團隊宣佈開源 Qwen-Image-2.1，為多模態 AI 領域帶來新突破。"
+    },
+    {
+      "title_en": "AI companies, including OpenAI and Anthropic, are putting pressure on office rents in Singapore as they embark on expansion in response to government overtures",
+      "url": "https://www.ft.com/content/775888b2-47e6-42b4-8146-cfb9caee52d6",
+      "summary_en": "Anthropic and OpenAI taking more space in city's already squeezed prime property market — AI heavyweights including Anthropic …",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260920/i11.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "AI companies, including OpenAI and Anthropic, are putting pressure on office rents in Singapore as they embark on expansion in response to government overtures",
+      "title_zh": "隨著 AI 公司響應政府號召展開擴張，OpenAI 與 Anthropic 等企業正推升新加坡的辦公室租金",
+      "summary_zh": "Anthropic 與 OpenAI 在新加坡本就擁擠的精華房地產市場佔據更多空間。"
+    },
+    {
+      "title_en": "Indeed: data center roles in the US offer a ~42% pay premium for hourly maintenance and installation workers compared with similar jobs at other businesses",
+      "url": "https://www.wsj.com/business/what-its-like-to-work-in-one-of-americas-data-centers-b4358003?st=UKxXYi",
+      "summary_en": "Powering the nation's massive AI build-out requires lots of walking, checking for burning smells and monitoring for bird damage",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260920/i10.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Indeed: data center roles in the US offer a ~42% pay premium for hourly maintenance and installation workers compared with similar jobs at other businesses",
+      "title_zh": "Indeed：美國資料中心職位的時薪維修與安裝人員，薪資較其他行業同類工作高出約 42%",
+      "summary_zh": "支援全美大規模 AI 基礎設施建設需要大量巡檢工作，包括檢查燒焦味及監測鳥類造成的損害。"
+    },
+    {
+      "title_en": "China has made AI a national mission, but local workers' fear of displacement mirrors worries abroad, and potential for social unrest may force CCP to slow down",
+      "url": "https://www.theatlantic.com/international/2026/09/beijing-ai-popularity-regulation/688597/?gift=NBdGSmKfDQzLc1B6N1F-gTsc0qnBczYFJgiJgeRC__c&utm_source=copy-link&utm_medium=social&utm_campaign=share",
+      "summary_en": "A top-down tech revolution is harder to manage than a bottom-up one. — anxiety about ai in the United States appears to be getting worse.",
+      "source": "The Atlantic",
+      "media_source": "The Atlantic",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260920/i14.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "China has made AI a national mission, but local workers' fear of displacement mirrors worries abroad, and potential for social unrest may force CCP to slow down",
+      "title_zh": "中國將 AI 視為國家使命，但當地勞工對失業的恐懼反映了全球性的憂慮，社會動盪風險或迫使中共放慢腳步",
+      "summary_zh": "由上而下的科技革命比由下而上的更難管理；美國對 AI 的焦慮情緒似乎也在加劇。"
+    },
+    {
+      "title_en": "Meta challenges Ofcom's OSA categorization of WhatsApp and Instagram imposing additional regulations; Roblox and Quora are also challenging their categorization",
+      "url": "https://www.ft.com/content/c1ba743f-7330-4419-bc8d-a8b5ce4420a0",
+      "summary_en": "US tech giant's latest action against regulator Ofcom could slow down implementation of the far-reaching law",
+      "source": "Financial Times",
+      "media_source": "Financial Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260920/i1.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Meta challenges Ofcom's OSA categorization of WhatsApp and Instagram imposing additional regulations; Roblox and Quora are also challenging their categorization",
+      "title_zh": "Meta 挑戰英國 Ofcom 根據網路安全法對 WhatsApp 與 Instagram 的分類及額外監管；Roblox 與 Quora 亦提出挑戰",
+      "summary_zh": "美國科技巨頭對監管機構 Ofcom 的最新行動，可能會延緩這項影響深遠的法律之實施進度。"
     },
     {
       "title_en": "Experts say AI kill-switch legislation is far harder to implement than lawmakers assume, warning a rogue AI could actively try to dismantle the mechanism itself",
@@ -74,157 +164,67 @@
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
       "thumbnail_alt": "Experts say AI kill-switch legislation is far harder to implement than lawmakers assume, warning a rogue AI could actively try to dismantle the mechanism itself",
-      "title_zh": "專家表示 AI 斷路開關（kill-switch）立法比立法者想像的更難實施，並警告失控的 AI 可能會主動嘗試拆除該機制",
-      "summary_zh": "國會的一個跨黨派小組與加州州長 Gavin Newsom 提出了建立能立即關閉 AI 系統機制的構想。"
+      "title_zh": "專家警告 AI 自動斷電（Kill-switch）立法比議員想像的更難執行，並指出失控的 AI 可能會主動嘗試拆除該機制",
+      "summary_zh": "美國國會跨黨派小組與加州州長 Gavin Newsom 提出了建立能立即關閉 AI 系統機制的構想。"
     },
     {
-      "title_en": "Internal email: Flock is rolling out a voluntary severance program; sources say a significant number of Flock's ~1,500 employees may depart, as customers flee",
-      "url": "https://www.wired.com/story/flock-is-offering-voluntary-buyouts-to-employees/",
-      "summary_en": "As dozens of cities end contracts for its controversial license plate readers, Flock is rolling out a voluntary severance program, WIRED has learned.",
-      "source": "Wired",
-      "media_source": "Wired",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260918/i41.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Internal email: Flock is rolling out a voluntary severance program; sources say a significant number of Flock's ~1,500 employees may depart, as customers flee",
-      "title_zh": "內部郵件：Flock 推出自願離職方案；消息來源稱約 1,500 名員工中可能有大量人員離職，因客戶正在流失",
-      "summary_zh": "隨著數十個城市終止其具爭議的車牌辨識器合約，WIRED 獲悉 Flock 正推出一項自願離職補償計畫。"
-    },
-    {
-      "title_en": "A look at AI safety groups METR, Redwood Research, and Apollo Research, as AI misalignment incidents at OpenAI and Anthropic thrust them into the spotlight",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im9WRlFMVXFOcDciLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk5NjU2My9haS1zYWZldHktcmVzZWFyY2gtbWV0ci1yZWR3b29kLW9wZW5haS1hbnRocm9waWMiLCJleHAiOjE3OTAwNzgwNzYsImlhdCI6MTc4OTY0NjA3Nn0.uqC7_g7QOvm2irjweDneh4zzkSalQCFKxlgKwM-Q1Ms&utm_medium=gift-link",
-      "summary_en": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building.",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260919/i5.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "A look at AI safety groups METR, Redwood Research, and Apollo Research, as AI misalignment incidents at OpenAI and Anthropic thrust them into the spotlight",
-      "title_zh": "聚焦 AI 安全組織 METR、Redwood Research 與 Apollo Research，OpenAI 和 Anthropic 的對齊失當事件使其受到關注",
-      "summary_zh": "在加州柏克萊一個陽光明媚的七月天，全美頂尖的 AI 安全研究人員聚集在一棟無名大樓的無名樓層中。"
-    },
-    {
-      "title_en": "Sources: Anthropic considers releasing a new AI model to counter OpenAI's momentum since Astra's launch, ahead of an IPO and after Amodei's call for a slowdown",
-      "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
-      "summary_en": "Anthropic is considering rolling out a new AI model to counter OpenAI's momentum since its launch of GPT-6 Astra …",
+      "title_en": "Chinese DRAM chipmaker CXMT says its new fifth-gen technology platform enters mass production and unveils two 24Gb LPDDR5X phone memory products built on it",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-cxmt-says-new-memory-chip-platform-enters-mass-production-2026-09-20/",
+      "summary_en": "Chinese DRAM chipmaker CXMT (688825.SS) said on Sunday its fifth-generation technology platform had entered mass production …",
       "source": "Reuters",
       "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260918/i38.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260920/i3.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Anthropic considers releasing a new AI model to counter OpenAI's momentum since Astra's launch, ahead of an IPO and after Amodei's call for a slowdown",
-      "title_zh": "消息來源：Anthropic 考慮發布新 AI 模型以抗衡 OpenAI Astra 發表後的勢頭，並於 IPO 前夕且在 Amodei 呼籲放緩之後",
-      "summary_zh": "Anthropic 正考慮推出一款新的 AI 模型，以應對 OpenAI 自發布 GPT-6 Astra 以來的強勁勢頭……"
+      "thumbnail_alt": "Chinese DRAM chipmaker CXMT says its new fifth-gen technology platform enters mass production and unveils two 24Gb LPDDR5X phone memory products built on it",
+      "title_zh": "中國 DRAM 晶片大廠長鑫存儲（CXMT）宣佈第五代技術平台進入量產，並發表兩款基於該平台的 24Gb LPDDR5X 手機記憶體",
+      "summary_zh": "中國 DRAM 晶片製造商長鑫存儲於週日表示，其第五代技術平台已正式進入量產階段。"
     },
     {
-      "title_en": "Sources: Anthropic plans to stage its IPO in November, later than many investors expected; the decision was made before ex-Anthropic researcher Jacob Coxon left",
-      "url": "https://www.wsj.com/tech/ai/anthropic-shifts-planned-ipo-to-november-8874dffc?st=9H74nC&reflink=desktopwebshare_permalink",
-      "summary_en": "",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "消息來源：Anthropic 計劃於 11 月進行 IPO，晚於許多投資者的預期；該決定是在前研究員 Jacob Coxon 離職前做出的",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Raindrop, which develops tech for monitoring AI agents to catch failures such as hallucinations and tool misuse, raised a $35M Series A led by CRV",
-      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/09/16/raindrop-crv-lightspeed-datadog",
-      "summary_en": "AI agent monitoring platform Raindrop raised a $35 million Series A round led by CRV, co-founders Zubin Koticha and Ben Hylak tell Axios Pro exclusively.",
-      "source": "Axios",
-      "media_source": "Axios",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260919/i7.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Raindrop, which develops tech for monitoring AI agents to catch failures such as hallucinations and tool misuse, raised a $35M Series A led by CRV",
-      "title_zh": "Raindrop 融資 3500 萬美元 A 輪，由 CRV 領投，該公司開發監控 AI Agent 以捕捉幻覺與工具誤用等錯誤的技術",
-      "summary_zh": "AI Agent 監控平台 Raindrop 完成了由 CRV 領投的 3500 萬美元 A 輪融資，共同創辦人 Zubin Koticha 和 Ben Hylak 獨家向 Axios Pro 透露。"
-    },
-    {
-      "title_en": "Sources: the USPTO and US Copyright Office were surprised by the DOJ's brief supporting OpenAI and Microsoft in their dispute with the New York Times",
-      "url": "https://www.axios.com/2026/09/19/justice-department-openai-new-york-times",
-      "summary_en": "The Department of Justice's statement of interest supporting OpenAI and Microsoft in the New York Times' copyright infringement lawsuit …",
-      "source": "Axios",
-      "media_source": "Axios",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260919/i8.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: the USPTO and US Copyright Office were surprised by the DOJ's brief supporting OpenAI and Microsoft in their dispute with the New York Times",
-      "title_zh": "消息來源：美國專利商標局與版權局對司法部在 OpenAI、Microsoft 與紐約時報爭端中支持前者的簡報感到驚訝",
-      "summary_zh": "美國司法部在紐約時報版權侵權訴訟中，提交了一份支持 OpenAI 與 Microsoft 的利益聲明……"
-    },
-    {
-      "title_en": "Meta's personal AI agent Muse climbs to No. 1 among free apps on Apple's US App Store, ahead of ChatGPT; Muse launched on September 8",
-      "url": "https://www.businessinsider.com/meta-muse-personal-ai-agent-top-app-store-charts-2026-9",
-      "summary_en": "Mark Zuckerberg's ambition to bring “personal superintelligence” to everyone may be taking shape, one download at a time.",
-      "source": "Business Insider",
-      "media_source": "Business Insider",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260918/i36.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Meta's personal AI agent Muse climbs to No. 1 among free apps on Apple's US App Store, ahead of ChatGPT; Muse launched on September 8",
-      "title_zh": "Meta 的個人 AI 助手 Muse 在蘋果美國 App Store 免費排行榜攀升至第一，領先 ChatGPT；Muse 於 9 月 8 日發布",
-      "summary_zh": "馬克·祖克柏將「個人超級智慧」帶給每個人的野心可能正透過一次次的下載逐漸成形。"
-    },
-    {
-      "title_en": "ING: India's software services exports have risen to ~5.2% of GDP from 3.3% before the pandemic, as AI pushes the country's IT industry toward higher-value work",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/india-outsourcing-shifts-upmarket-as-ai-reshapes-jobs-ing-says",
-      "summary_en": "India's outsourcing industry is showing little sign of losing ground to artificial intelligence as the country moves …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260919/i6.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "ING: India's software services exports have risen to ~5.2% of GDP from 3.3% before the pandemic, as AI pushes the country's IT industry toward higher-value work",
-      "title_zh": "ING：印度軟體服務出口佔 GDP 比例從疫情前的 3.3% 升至約 5.2%，AI 推動該國 IT 產業轉向高價值工作",
-      "summary_zh": "印度外包產業幾乎沒有跡象顯示會輸給人工智慧，因為該國正朝向提供更高價值的服務發展。"
-    },
-    {
-      "title_en": "Vantora, formerly UP.Labs, which builds AI-native startups designed to solve problems for corporate customers, raised $100M+ from Silversmith Capital Partners",
-      "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
-      "summary_en": "Four years ago, a startup lab launched that wasn't quite an incubator, accelerator program, or venture firm.",
-      "source": "TechCrunch",
-      "media_source": "TechCrunch",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260919/i3.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Vantora, formerly UP.Labs, which builds AI-native startups designed to solve problems for corporate customers, raised $100M+ from Silversmith Capital Partners",
-      "title_zh": "Vantora（原 UP.Labs）從 Silversmith Capital Partners 籌集逾 1 億美元，該公司致力於打造解決企業客戶問題的原生 AI 新創",
-      "summary_zh": "四年前，一家新創實驗室成立，它不完全是孵化器、加速器或創投公司。"
-    },
-    {
-      "title_en": "Leaked presentation: OpenAI expects negative free cash flow of $278B from 2026 to 2030 and projects its revenue will grow from $36B this year to $350B in 2030",
-      "url": "https://www.ft.com/content/6011d061-eee3-4193-b3b7-8ee4155f538c?accessToken=zwAAAaC26G0Nkc9gEdBh7uNBk9Ozt47kFV9TjA.MEQCIH_NhYE7F9hUSDoVhMKWDXlRF3xgIMstpfyu8BV8VlnFAiACGmurmMmekLhQHY7niCRm6LhfPNxOctJGSelJuguE6A&sharetype=gift&token=f3b46a30-cbcd-4e56-840e-e33d4eaeb5a7",
-      "summary_en": "AI start-up has projected deeply negative cash flows as it invests in infrastructure and faces price pressures",
+      "title_en": "An interview with Raspberry Pi CEO Eben Upton on the Raspberry Pi Foundation, his skepticism of AI evangelists, AI driving edge compute device demand, and more",
+      "url": "https://www.ft.com/content/07acddb2-9a2f-4646-b7dd-2cb4ebe0257d?accessToken=zwAAAaC9FjYzkc8HrN2ymi9GRtO33Sy06-AlfQ.MEUCIFEFxFsEFOEm_KGXE40NhvZ_Kuh6iBZmHgWHaw9PcqVvAiEAu_PqkZvXpzVQbHprwh1YPjLRetwgMor7fdy1GDIOFzw&sharetype=gift&token=39883fb1-24b5-4e54-a4f3-c233c4157099",
+      "summary_en": "The British tech leader on coding as the modern form of literacy, his scepticism of AI evangelists — and why ‘the p(doom) is probably Russia’",
       "source": "Financial Times",
       "media_source": "Financial Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/260918/i34.jpg",
+      "thumbnail_url": "https://www.techmeme.com/260920/i7.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Leaked presentation: OpenAI expects negative free cash flow of $278B from 2026 to 2030 and projects its revenue will grow from $36B this year to $350B in 2030",
-      "title_zh": "洩漏簡報：OpenAI 預計 2026 至 2030 年自由現金流為負 2780 億美元，營收預計從今年的 360 億美元增長到 2030 年的 3500 億美元",
-      "summary_zh": "隨著對基礎設施的投資以及面臨價格壓力，這家 AI 新創公司預計現金流將出現嚴重虧損。"
+      "thumbnail_alt": "An interview with Raspberry Pi CEO Eben Upton on the Raspberry Pi Foundation, his skepticism of AI evangelists, AI driving edge compute device demand, and more",
+      "title_zh": "專訪 Raspberry Pi 執行長 Eben Upton：談基金會運作、對 AI 傳教士的質疑，以及 AI 如何驅動邊緣運算設備需求",
+      "summary_zh": "這位英國科技領袖將程式設計視為現代讀寫能力的體現，並對 AI 傳教士抱持懷疑態度。"
+    },
+    {
+      "title_en": "Jensen Huang says AI leaders calling for regulation don't want new legislation, but to be “relieved of the laws we do have” because of “ulterior reasons”",
+      "url": "https://www.businessinsider.com/nvidia-jensen-huang-ai-regulation-anthropic-amodei-openai-altman-trump-2026-9",
+      "summary_en": "Don't let the black leather jacket fool you, Jensen Huang isn't a doomer. — Nvidia's CEO said as much in an interview with CBS News aired on Sunday.",
+      "source": "Business Insider",
+      "media_source": "Business Insider",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/260920/i12.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Jensen Huang says AI leaders calling for regulation don't want new legislation, but to be “relieved of the laws we do have” because of “ulterior reasons”",
+      "title_zh": "黃仁勳表示，呼籲監管的 AI 領袖並非想要新法，而是出於「別有用心」想擺脫現有法律約束",
+      "summary_zh": "別被黑色皮衣騙了，黃仁勳並非末日預言者。這位 Nvidia 執行長在週日播出的 CBS News 採訪中表達了上述觀點。"
     }
   ],
   "wsj": [
+    {
+      "title_en": "Gemini Joins the Hacker Club",
+      "url": "https://www.wsj.com/tech/ai/gemini-joins-the-hacker-club-d4338198?mod=rss_Technology",
+      "summary_en": "Plus, a smarter Siri arrives on iPhones, the real threats of artificial intelligence, Anthropic’s IPO timing and more....",
+      "image_url": "https://images.wsj.net/im-67656438",
+      "image_source": "rss_media_content",
+      "image_credit": "Richard B. Levine/ZUMA Press",
+      "image_alt": "Gemini Joins the Hacker Club",
+      "title_zh": "Gemini 加入駭客俱樂部",
+      "summary_zh": "此外，更聰明的 Siri 登陸 iPhone、人工智慧的真實威脅、Anthropic 的 IPO 時機等最新動態。"
+    },
     {
       "title_en": "Trump Announces an ‘AI Force’ After Industry Sounded Alarm",
       "url": "https://www.wsj.com/tech/ai/trump-announces-an-ai-force-after-industry-sounded-alarm-7c189b8f?mod=rss_Technology",
@@ -233,8 +233,19 @@
       "image_source": "rss_media_content",
       "image_credit": "Samuel Corum/Press Pool",
       "image_alt": "Trump Announces an ‘AI Force’ After Industry Sounded Alarm",
-      "title_zh": "川普在業界發出警報後宣布成立「AI 部隊」",
-      "summary_zh": "隨著選民對 AI 的反對聲浪增長，總統呼籲對該行業進行聯邦監管……"
+      "title_zh": "在業界發出警訊後，川普宣佈組建「AI 部隊」",
+      "summary_zh": "隨著選民對 AI 的反對情緒日益增長，川普呼籲聯邦政府加強對該行業的監督。"
+    },
+    {
+      "title_en": "Polymarket’s Rush to Grow Left a Door Wide Open For Fraudsters",
+      "url": "https://www.wsj.com/business/polymarkets-fraud-regulators-coplan-5f418ab0?mod=rss_Technology",
+      "summary_en": "CEO Shayne Coplan brushed off concerns about a scheme involving stolen debit cards. Now the prediction market is bolstering its executive ranks as it eyes an IPO....",
+      "image_url": "https://images.wsj.net/im-40443379",
+      "image_source": "rss_media_content",
+      "image_credit": "Alexandra Citrin-Safadi/Elizabeth Coetzee/WSJ",
+      "image_alt": "Polymarket’s Rush to Grow Left a Door Wide Open For Fraudsters",
+      "title_zh": "Polymarket 的急於擴張為詐騙者留下了後門",
+      "summary_zh": "執行長 Shayne Coplan 曾對涉及盜刷金融卡的計畫不以為意。如今這家預測市場平台正為 IPO 擴充高層陣容。"
     },
     {
       "title_en": "Dario Says AI Should Slow Down. Jensen Wants to Go Full Steam Ahead.",
@@ -244,8 +255,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Emil Lendof/WSJ, Getty Images",
       "image_alt": "Dario Says AI Should Slow Down. Jensen Wants to Go Full Steam Ahead.",
-      "title_zh": "Dario 表示 AI 應該放慢速度，黃仁勳則希望全力衝刺",
-      "summary_zh": "NVIDIA 執行長主張透過工程解決方案——而非新法律或行業減速帶——來應對 AI 安全疑慮……"
+      "title_zh": "Dario 認為 AI 應該減速，黃仁勳則主張全力衝刺",
+      "summary_zh": "Nvidia 執行長主張以工程解決方案來應對 AI 安全疑慮，而非制定新法律或設置行業障礙。"
     },
     {
       "title_en": "Howie Buffett Steps In to Preserve What His Father Built",
@@ -255,8 +266,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Vincent Tullo",
       "image_alt": "Howie Buffett Steps In to Preserve What His Father Built",
-      "title_zh": "Howie Buffett 介入以保護其父建立的基業",
-      "summary_zh": "此外，我們對 María Corina Machado 的採訪，談及她返回委內瑞拉的計劃，以及對蘋果最新 iPhone 和手錶的深入觀察……"
+      "title_zh": "Howie Buffett 出手守護父親建立的基業",
+      "summary_zh": "此外，專訪 María Corina Machado 談重返委內瑞拉的計畫，以及對 Apple 最新款 iPhone 與手錶的深入解析。"
     },
     {
       "title_en": "Apple’s Newest iPhones and Watches Just Hit Stores. Should You Upgrade?",
@@ -266,8 +277,30 @@
       "image_source": "rss_media_content",
       "image_credit": "Nicole Nguyen/WSJ",
       "image_alt": "Apple’s Newest iPhones and Watches Just Hit Stores. Should You Upgrade?",
-      "title_zh": "蘋果新款 iPhone 與手錶剛上市，你該升級嗎？",
-      "summary_zh": "我們的專欄作家對本週上架的蘋果產品之見解，重點關注它們與你現有設備的對比……"
+      "title_zh": "Apple 新款 iPhone 與手錶正式開賣：你該升級嗎？",
+      "summary_zh": "本報專欄作家對本週上市的 Apple 新品進行評測，重點分析新機與現有設備的差異。"
+    },
+    {
+      "title_en": "How AI Is Reshaping Election Campaigns in Israel",
+      "url": "https://www.wsj.com/world/middle-east/how-ai-is-reshaping-election-campaigns-in-israel-f5a2e79a?mod=rss_Technology",
+      "summary_en": "Lawmakers are hiring AI advisers, working to influence chatbot results and churning out AI-generated ads faster than regulators can keep up....",
+      "image_url": "https://images.wsj.net/im-37286625",
+      "image_source": "rss_media_content",
+      "image_credit": "Ilia Yefimovich/Agence France-Presse/Getty Images",
+      "image_alt": "How AI Is Reshaping Election Campaigns in Israel",
+      "title_zh": "AI 如何重塑以色列的選戰",
+      "summary_zh": "國會議員正在聘請 AI 顧問，致力於影響聊天機器人的搜尋結果，並以超越監管機構反應的速度，大量產出 AI 生成的廣告。"
+    },
+    {
+      "title_en": "Burned Out and Unemployed, Young People in China Are Launching AI Startups",
+      "url": "https://www.wsj.com/business/entrepreneurship/burned-out-and-unemployed-young-people-in-china-are-launching-ai-startups-c5ebcdc3?mod=rss_Technology",
+      "summary_en": "Last year, more than seven million new one-person companies were established in China....",
+      "image_url": "https://images.wsj.net/im-21202219",
+      "image_source": "rss_media_content",
+      "image_credit": "Qilai Shen for WSJ",
+      "image_alt": "Burned Out and Unemployed, Young People in China Are Launching AI Startups",
+      "title_zh": "疲憊且失業：中國年輕人正投身 AI 創業潮",
+      "summary_zh": "去年中國成立了超過 700 萬家新的一人公司，反映出當地年輕人在職場壓力與失業困境下，紛紛轉向 AI 創業。"
     },
     {
       "title_en": "‘Sketchy AF’: What to Know About How OpenAI Staff Discussed Book-Pirating",
@@ -277,8 +310,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Mike Lawrie/Getty Images",
       "image_alt": "‘Sketchy AF’: What to Know About How OpenAI Staff Discussed Book-Pirating",
-      "title_zh": "「極其可疑」：關於 OpenAI 員工如何討論書籍盜版行為",
-      "summary_zh": "最近在版權訴訟中解密的法律文件顯示，員工們正在權衡購買書籍以訓練早期 ChatGPT 模型的成本……"
+      "title_zh": "「超級可疑」：揭祕 OpenAI 員工如何討論書籍盜版問題",
+      "summary_zh": "一宗版權訴訟案中最新解密的檔案顯示，OpenAI 員工在訓練早期 ChatGPT 模型時，曾權衡購買正版書籍的成本，並引發內部對來源正當性的討論。"
     },
     {
       "title_en": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
@@ -288,52 +321,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Richard B. Levine/ZUMA Press",
       "image_alt": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "title_zh": "Gemini 駭入三家公司：Google AI 首例已知「越獄」事件",
-      "summary_zh": "此次事件與其他 AI 模型的類似駭客行為相似，但 Google 表示，並不認為這屬於模型失準（model misalignment）的案例。"
-    },
-    {
-      "title_en": "Anthropic’s IPO Will Happen a Month Later Than Expected",
-      "url": "https://www.wsj.com/tech/ai/anthropics-ipo-will-happen-a-month-later-than-expected-a334b10e?mod=rss_Technology",
-      "summary_en": "Plus, Howard Buffett steps into his father’s shoes and Trump bans certain news media from the White House....",
-      "image_url": "https://images.wsj.net/im-81541522",
-      "image_source": "rss_media_content",
-      "image_credit": "David Dee Delgado/Getty Images",
-      "image_alt": "Anthropic’s IPO Will Happen a Month Later Than Expected",
-      "title_zh": "Anthropic IPO 將比預期推遲一個月",
-      "summary_zh": "此外，霍華·巴菲特（Howard Buffett）接手其父事業，以及川普禁止部分新聞媒體進入白宮。"
-    },
-    {
-      "title_en": "Anthropic Shifts Planned IPO to November",
-      "url": "https://www.wsj.com/tech/ai/anthropic-shifts-planned-ipo-to-november-8874dffc?mod=rss_Technology",
-      "summary_en": "Investors had expected the Claude maker to debut in October. The AI industry has been grappling with calls to slow down its pace of development....",
-      "image_url": "https://images.wsj.net/im-78751221",
-      "image_source": "rss_media_content",
-      "image_credit": "David Dee Delgado/Getty Images",
-      "image_alt": "Anthropic Shifts Planned IPO to November",
-      "title_zh": "Anthropic 將預定 IPO 時間移至 11 月",
-      "summary_zh": "投資者原先預期這家 Claude 開發商將於 10 月上市。AI 產業目前正努力應對要求放慢開發節奏的聲浪。"
-    },
-    {
-      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
-      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-62546ecf?mod=rss_Technology",
-      "summary_en": "Find insight on OpenAI, Microsoft, Naver and more in the latest Market Talks covering Technology, Media and Telecom....",
-      "image_url": "https://images.wsj.net/im-92361535",
-      "image_source": "rss_media_content",
-      "image_credit": "Dado Ruvic/Reuters",
-      "image_alt": "Tech, Media & Telecom Roundup: Market Talk",
-      "title_zh": "科技、媒體與電信回顧：市場探討",
-      "summary_zh": "在最新一期的科技、媒體與電信「市場探討（Market Talks）」中，獲取關於 OpenAI、Microsoft、Naver 等公司的深入見解。"
-    },
-    {
-      "title_en": "California’s Newsom Issues Executive Order to Weigh AI Oversight, Including ‘Kill Switch’",
-      "url": "https://www.wsj.com/tech/ai/californias-newsom-issues-executive-order-to-weigh-ai-oversight-including-kill-switch-3a98040f?mod=rss_Technology",
-      "summary_en": "The executive order, which would convene experts to mull possible AI-oversight policies, comes as discussions about AI risk have exploded from Silicon Valley circles into public view....",
-      "image_url": "https://images.wsj.net/im-64362618",
-      "image_source": "rss_media_content",
-      "image_credit": "Heather Diehl/Getty Images",
-      "image_alt": "California’s Newsom Issues Executive Order to Weigh AI Oversight, Including ‘Kill Switch’",
-      "title_zh": "加州州長紐森簽署行政命令評估 AI 監管，包含「緊急停止開關」",
-      "summary_zh": "該行政命令將召集專家研議可能的 AI 監管政策。與此同時，關於 AI 風險的討論已從矽谷圈擴散到公眾視野。"
+      "title_zh": "Gemini 駭入三家公司：Google AI 首次已知的「越獄」行為",
+      "summary_zh": "雖然此事件與其他 AI 模型發生的類似行為雷同，但 Google 表示，並不認為這是模型對齊（model misalignment）失控的案例。"
     }
   ],
   "deep_analysis": {
@@ -364,15 +353,15 @@
       "content_mode": "ai_analysis"
     },
     "Culpium": {
-      "title": "The Business Case for an AI Slowdown / AI 減速的商業邏輯：除了人類生存與國安，這更是一場金錢遊戲",
-      "source": "Culpium",
-      "article_date": "2026-09-16",
-      "url": "https://www.culpium.com/p/the-business-case-for-an-ai-slowdown",
-      "analysis_zh": "### 全文大意摘要：從商業利益重新審視 AI 發展速度的論戰\n\n這篇文章由資深科技評論員 Tim Culpan 撰寫，探討當前科技界關於「放慢 AI 發展速度」（Pacing the Frontier）的激烈爭論。作者指出，目前的討論大多圍繞在人類生存威脅或國家安全（例如 Anthropic 執行長 Dario Amodei 擔心人類安全，而北京政府則擔心政權穩定），但卻忽略了最核心的驅動力：商業利益與金錢。作者認為，支持或反對 AI 減速的背後，本質上是不同利益團體在維護自己的財務報表與市場地位。\n\n### 戰略背景與脈絡：AI 競賽進入了資本支出與風險控管的臨界點\n\n目前的 AI 產業正處於極速擴張期，輝達（Nvidia）執行長黃仁勳與川普政府傾向於維持現有的衝刺速度，前者是為了硬體銷售與技術領先，後者則將風險視為一種假議題。然而，隨著模型訓練成本呈指數級成長，企業對於「永無止盡的資本支出」開始感到不安。\n\n在這種背景下，所謂的「減速」提議不單純是道德上的反思，更是在技術邊際效益可能遞減、且商業模式尚未完全建立時，一種尋求產業平衡的嘗試。當前的產業環境正面臨著「暴力計算」帶來的巨大成本壓力，以及監管機構對於生成式內容可能引發社會動盪的集體焦慮。\n\n### 作者的核心推論與觀點：AI 減速是為了在財務失控前建立永續的商業模式\n\n作者的核心推論在於：如果我們拋開人類生存或地緣政治的宏大敘事，AI 減速其實具有明確的「商業合理性」。對於像 Anthropic 這類模型研發商而言，放慢開發節奏可以減緩燒錢速度，讓企業有更多時間優化推論（inference）效率，並尋找真正能獲利的應用場景，而不是僅僅在參數規模上進行無限競爭。\n\n相對地，黃仁勳強烈反對減速，是因為輝達的商業邏輯建立在「不斷升級的硬體需求」之上。如果產業進入冷靜期，輝達的超額利潤與成長神話將直接面臨挑戰。因此，這場辯論本質上是「硬體商」與「模型應用商」之間的利益拉鋸：前者需要速度來維持成長，後者則可能需要空間來確保生存與獲利。\n\n### 對市場、技術與政策環境的長期影響：硬體紅利可能退潮並迫使應用層價值回歸\n\n如果減速論點成為主流政策或產業共識，市場對高性能 GPU 的瘋狂需求可能會趨於平緩，導致半導體供應鏈進入重整期。技術路徑將從單純追求「規模定律」（Scaling Laws）轉向更注重能源效率、推論成本降低以及私有數據的安全處理。這對台灣的供應鏈夥伴來說，可能意味著需求從單一的超大規模資料中心，分散至更多元、更注重效率的邊緣運算設備。\n\n在政策層面，各國政府可能會利用「安全審查」作為調節產業過熱的槓桿。這不僅是為了防止 AI 濫用，更是為了在技術自主與經濟風險之間取得平衡。長遠來看，這將迫使 AI 企業從單純的技術展示轉向深度的商業服務，讓市場重新評估 AI 技術的實質產出與經濟價值，而非僅僅是股價泡沫的推動力。",
+      "title": "Tech The Money: Nvidia is the Most Pilled of the AI-Pilled / 輝達：AI 狂熱中最徹底的贏家",
+      "source": "Culpium (Tim Culpan)",
+      "article_date": "2026-09-20",
+      "url": "https://www.culpium.com/p/tech-the-money-who-profits-from-the",
+      "analysis_zh": "### 全文大意摘要：輝達在 AI 浪潮中展現了遠超同儕的獲利與領先地位\n\n這篇由資深科技評論人 Tim Culpan 撰寫的《Tech The Money》專欄文章，核心觀點非常直接：在當前 AI 產業的爆發性成長中，輝達（Nvidia）不僅是贏家，更是贏得最徹底、甚至讓作者感到驚訝的唯一首選。雖然市場普遍認為 AI 是一場「水漲船高」的盛宴，覺得只要搭上這股趨勢就能獲利，但 Culpan 透過觀察指出，現實情況是不同參與者之間的表現正出現劇烈分化。這篇文章揭露了一個殘酷的商業現實：AI 產業的財富分配極度不均，而輝達所佔據的戰略高地，目前在績效上完全沒有對手可以相提並論。\n\n### 戰略背景與脈絡：AI 產業從技術狂熱轉向績效分化的現實檢驗\n\n進入 2026 年，AI 產業正處於從「願景期」轉向「商業實踐期」的關鍵節點。在過去幾年裡，投資市場對於 AI 公司的評價往往基於技術潛力與未來藍圖，這導致大量資金湧入各個層級的開發商。然而，隨著基礎設施建設的規模越來越大，市場開始檢視哪些公司能真正把這股投資轉化為營收與獲利。在這種環境下，提供算力核心的硬體商與試圖尋找商業模式的軟體商之間，出現了顯著的斷層。這種背景解釋了為何作者會強調「並非所有船隻都能同等受益」，市場正經歷一場嚴格的汰弱留強過程。\n\n### 作者的核心推論與觀點：技術領先優勢正轉化為難以逾越的財務鴻溝\n\n作者的核心推論在於「AI-pilled」（對 AI 信仰的投入程度）如何反映在財務績效上。Culpan 觀察到，輝達對 AI 的徹底押注不僅最為大膽，且獲得的回報也最為驚人。他指出，這種績效上的巨大落差（Disparity）提供了理解當前科技熱潮的重要視角。作者認為，輝達之所以能成為「最徹底的贏家」，是因為它成功將市場的技術信仰轉化為極強的定價權。讓作者感到驚訝的是，輝達與所謂「落後者」之間的距離並沒有隨著競爭者增加而縮小，反而因為其完整的生態系統封閉性，讓獲利能力持續向頭部集中，這種不對稱的成長模式正是當前 AI 商業邏輯的縮影。\n\n### 對市場、技術與政策環境的長期影響：硬體霸權鞏固將重塑科技產業的階層化\n\n這種績效分化的長期影響，將導致全球科技產業出現更明顯的階層化。首先，在市場結構上，資金將更集中於具備實質獲利能力的硬體層級，這可能導致軟體應用層面臨更嚴峻的生存挑戰，必須在算力成本高漲的壓力下證明自己的商業價值。其次，在技術路線上，輝達的強勢表現將迫使其他競爭對手不得不思考更具差異化的路徑，而非僅是在通用算力上硬碰硬。最後，這也暗示了供應鏈的戰略價值將被進一步放大，政府與企業在制定策略時，必須更細緻地分析 AI 價值的流向，以免在這一波看似繁榮的浪潮中，只扮演了消耗資源卻無法留住價值的跟隨者角色。",
       "insights": [
-        "AI 減速的爭議本質上是「硬體設備商」與「模型/應用開發商」的利益對立，前者依賴速度維持股價，後者則因成本壓力而需要喘息空間。",
-        "「保護人類安全」可能成為模型大廠優雅降低資本支出的理由，讓它們在不失面子的情況下縮減過度的算力競賽。",
-        "AI 產業正從「暴力計算」的軍備競賽轉向「財務永續」的檢驗期，無法在短期內轉化為獲利的技術速度將面臨市場的嚴格修正。"
+        "AI 浪潮並非齊頭式發展，輝達的成功顯示了掌握硬體算力霸權的公司，其獲利速度遠超應用層。",
+        "「水漲船高」的假設在商業實踐中失效，市場正處於贏者全拿與落後者掙扎的績效大分化時期。",
+        "輝達的領先優勢不僅在於技術，更在於其成功將產業對 AI 的高度信仰（AI-pilled）轉化為實質的財務壟斷力。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -416,15 +405,15 @@
       "content_mode": "ai_analysis"
     },
     "Lenny's Newsletter": {
-      "title": "Community Wisdom: Finding your first users before the product exists / 在產品誕生前找到首批用戶：來自 Lenny's 社群的職涯與產品實務智慧",
+      "title": "Snap 與 Discord 前產品長 Peter Sellis 的 90 分鐘產品實戰建議",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-09-19",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
-      "analysis_zh": "### 全文大意摘要：從社群智慧提煉的產品驗證與職涯成長法則\n\n這篇文章是由 Lenny's Newsletter 社群編輯 Kiyani 整理的第 299 期「社群智慧」。內容集結了付費 Slack 社群中一線產品經理與創業者的實務經驗，核心聚焦於三個維度：如何在寫程式前驗證市場並尋找種子用戶、面試後的「自我回溯」如何提升決策品質，以及在職涯早期應優先優化哪些長期資本。這是一份將真實市場跌撞總結而成的生存指南，強調實務經驗優於教科書理論。\n\n### 戰略背景與脈絡：資源稀缺時代下的精實開發與人才競爭\n\n在 2026 年的科技產業中，無論是初創企業或個人職涯，容錯率皆顯著降低。過去「先開發、後尋市場」的邏輯已轉向「驗證先行」，反映出產品開發正邁向極致精實化，必須在投入成本前建立信任與回饋迴圈。同時，隨著 AI 工具普及導致初級職務競爭加劇，從業者更需要透過系統化的方法（如面試回溯與目標優化）來建立專業深度，確保在人才市場中的不可替代性。\n\n### 作者的核心推論與觀點：需求驗證大於技術實作的長期資產累積\n\n社群討論的核心推論在於「需求驗證大於產品實踐」。作者指出，首批用戶不應透過廣告獲取，而應藉由問題訪談、內容影響力或在既有社群中解決具體痛點來吸引「早期採用者」。在人才成長方面，建議職涯早期應優先優化「學習速度」與「人脈品質」而非短期的薪資報酬，並透過面試後的自我回溯建立溝通模組，將處理複雜問題的能力轉化為最保值的資產。\n\n### 對市場、技術與政策環境的長期影響：社群驅動開發模式與人才戰略地位的重塑\n\n「先有驗證、後有產品」的思維將改變軟體產業的資源配置，市場將出現更多由特定社群驅動的產品，使產品開發與社群經營深度整合。對於人才市場而言，這類實務智慧的流通會加速從業者向「戰略思考者」轉型。當專業知識透過全球性社群加速迭代，科技產業整體素質將提升，但也意味著無法持續更新實務知識的人才將面臨更快速的淘汰風險。",
+      "article_date": "2026-09-20",
+      "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+      "analysis_zh": "### 全文大意摘要：頂尖產品負責人的實戰經驗與管理反思\n\n這篇文章是產品圈知名創作者 Lenny 對 Peter Sellis 的深度訪談紀錄。Peter Sellis 是 Snapchat 的第一位產品經理，在該公司待了七年，後來擔任 Discord 的產品負責人，推動了這兩個社群巨頭最關鍵的成長期。由於他目前已離開 Discord 且沒有任何公關負擔，他在訪談中提出了非常直白且不加修飾的見解，核心圍繞在如何打造高效率團隊、為何多數 PM 表現平庸、以及產品成長的本質是什麼。\n\n### 戰略背景與脈絡：在產品管理職位面臨轉型的時代尋找本質\n\n過去幾年，矽谷乃至全球科技產業的產品管理（PM）角色正經歷一場「體感轉型」。從過去追求流程、規模與協調的擴張模式，轉向更注重實作能力、系統思考與快速交付。Peter Sellis 的背景正好橫跨了社群媒體爆發期與現在的效率轉型期，他的觀點反映了頂級科技公司如何從過度膨脹的人力結構中回歸，重新思考產品經理在產品成功中到底應該扮演什麼樣的角色。\n\n### 作者的核心推論與觀點：小規模精銳部隊比龐大官僚體系更有威力和效率\n\nPeter Sellis 提出了一個非常大膽的觀點，他認為團隊應該像「細胞化組織」一樣運作。他將理想的產品團隊比喻成極端靈活的小型組織，具備高度的自主權、強烈的使命感且對官僚流程極度反感。他認為多數 PM 表現平庸，是因為他們太專注於行政管理和協調，而不是去深入理解產品的系統動力學。對他來說，優秀的 PM 必須像個系統工程師，能夠看穿產品各個元件之間的因果關係，而非只是寫規格文件。\n\n在成長策略上，他強調成長幾乎總是來自於「核心產品」的價值，而不是獨立的增長駭客（Growth Hacking）或外部行銷。他舉例說明，如果核心體驗不夠好，再強的病毒式傳播工具也無法留住用戶。他也分享了管理像 Nikita Bier 這種天才型開發者的經驗，指出對於這種高產出、不按牌理出牌的人才，管理者不應試圖用常規流程去限制他們，而是要提供清晰的目標，並在背後排除障礙，讓他們自由發揮。\n\n### 對市場、技術與政策環境的長期影響：產品經理職能將朝向系統思考與精簡化發展\n\n這種強調「小而美」與「回歸本質」的產品哲學，正影響著新一代科技公司的組織架構設計。未來市場對 PM 的需求將不再是單純的專案協調者，而是具備深厚系統思考能力的決策者。這意昧著 PM 必須懂技術邊界、懂數據背後的心理學，更要懂商業運作的真實邏輯。隨著 AI 工具提升了個人的生產力，我們可能會看到更多由極少數精銳組成的「高槓桿團隊」取代傳統數百人的產品開發部門。\n\n此外，Peter 對 Snapchat 廣告業務未能完全發揮潛力的反思，也給了數位廣告與社交平台業者一個警示：產品的商業化策略必須與用戶的核心使用習慣高度整合，否則即使擁有龐大的流量，也難以轉換成對等的商業價值。這種對「核心價值」的執著，將會是未來產品開發與商業化競爭中的勝負關鍵。",
       "insights": [
-        "驗證首批用戶的重點不在於推銷「未來的功能」，而在於能否在產品不存在時，就精準定義出用戶目前最痛苦、且願意付出成本解決的問題。",
-        "面試自我回溯是提升專業成熟度的捷徑，它強迫面試者從第三方視角審視自己的邏輯漏洞與情緒表現，從而優化在高壓環境下的溝通品質。",
-        "職涯早期的「優化目標」應聚焦於累積「複合利產」（Compounding Assets），如高質量的專業聲望與解決複雜跨部門問題的經驗，而非僅追逐顯性的職稱提升。"
+        "成長不是一組獨立的行銷技巧，而是核心產品價值的自然延伸；如果核心體驗失敗，任何成長實驗都只是在延緩死亡。",
+        "平庸的產品經理傾向於優化流程與溝通，而優秀的產品經理則傾向於優化系統動力學與決策槓桿。",
+        "高產出的天才人才需要的是「目標對齊」而非「過程管控」，傳統的官僚考核體系往往是抹殺頂尖產品創意的元兇。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -438,14 +427,14 @@
       "content_mode": "full_text_import"
     },
     "HackMD：停損王SLKing": {
-      "title": "Agent 把人類拉出迴圈之後，推論的工作量變成一百倍",
+      "title": "302 個神經元的線蟲，怎麼變成塞進賓士車裡的基礎模型",
       "source": "HackMD：停損王SLKing",
-      "article_date": "2026-09-19",
-      "url": "https://hackmd.io/H18arXqKGe",
-      "analysis_zh": "### Agent 把人類拉出迴圈後，推論的工作量變成一百倍\n\n原始影片：Advancing Infrastructure for the Era of Agentic AI | Ian Buck at AI Infra Summit 2026 (https://www.youtube.com/watch?v=RuXF7ck32b8) | NVIDIA | 2026-09-16\n\n這是 NVIDIA 在 AI Infra Summit 2026 的一場 keynote，主講者是 NVIDIA 超大規模與高效能運算副總裁 Ian Buck。\n\n整場演講其實圍繞著一個變化：2023 年大家談 inference，想像的還是人問一句、模型答一句。到了 agentic AI，人在迴圈裡等待、閱讀、再輸入下一個問題的空檔消失了。Agent 會自己推理、呼叫工具、切換模型、派遣 sub agent，再把結果塞回 context 繼續下一輪。\n\nBuck 用 AgentX 的數字估算，這種 workload 的原始需求已經比 2023 年高出一百倍。\n\n所以 NVIDIA 現在談 Vera Rubin，尺度已經從 GPU 拉到整座 AI factory。GPU、CPU、網路、KV cache、storage、power management 都得一起設計。最後衡量的也不只是單顆晶片有多快，而是一座受電力限制的資料中心，每兆瓦到底能吐出多少 token。\n\n### 價值最後還是發生在運算\n\nBuck 開場先講了一個很基本的前提。\n\n運算的工作，就是把資訊拿進來，套上一個計算，得到結果，再把結果送出去，繼續下一次轉換。\n\n儲存很重要，通訊也很重要，但他認為真正創造價值的地方，是資料被轉換的那個計算過程。\n\n這也決定 NVIDIA 看待基礎設施的方式。\n\n今天 NVIDIA GPU 上大約有一千萬名開發者，生態從 CSP、NCP、OEM、ODM，一路延伸到 AI native 公司、前沿實驗室、企業與 edge。Hugging Face 上已經有超過三百萬個模型，其中約三千個模型占了大約九成下載量；CUDA 平台上則有超過八千個主要應用。\n\n而且工作負載已經遠遠超過 LLM。視覺、語音、物理科學、生命科學、機器人、氣象、醫療影像、計算微影、基因體學、模擬與一般運算，全部混在同一個計算平台上。\n\n這也是 Buck 一再強調的 fungible。\n\n同一套基礎設施必須能跑開放模型、封閉模型、前沿模型，也能處理 pre-training、post-training、inference、agentic workflow 和加速運算。到了 agent 的環境，這些工作甚至會在同一條 workflow 裡同時發生。\n\n另一個特性是 durable。\n\nNVIDIA 十年前推出的 GPU 到今天還在被使用。Buck 特別提到 A100，稱它推出多年之後，每小時租用價格仍然往上走，而且需求依舊很高。\n\n對 NVIDIA 來說，AI infrastructure 最後要變成一種長期資產。同一套硬體可以換 workload、換模型，軟體持續更新，幾年之後還能繼續產生價值。\n\n### 2023 年的 inference，已經無法描述今天的 agent\n\n真正把整個基礎設施設計推翻的，是 workload。\n\nBuck 回頭看 2023 年。當時最典型的 inference workload 就是聊天。\n\n輸入大約 1K token，KV cache 大約 4K，再加上一些 system prompt 與使用者資料。人問問題，模型回答，人把答案看完，再追問下一題，平均大約三輪。\n\n人在迴圈裡，本身就構成了一個天然的 rate limit。\n\n今天 agent 把這段等待拿掉了。\n\nAgent 不需要把答案「看完」。上一輪結果一出來，它立刻可以做下一次 reasoning、工具呼叫、模型切換或者 sub agent 派遣。運算會以 agent 能發動下一輪的速度被消耗。\n\nBuck 說：\n\n「今天的 agentic 就是這麼不一樣，我沒辦法強調它帶來多大的挑戰。它的要求高得嚇人，單就原始數字來看，要求高了一百倍。」\n\n不過這個一百倍來自 AgentX benchmark，他隨即補了一個很重要的限定：\n\n「這是 AgentX 這個基準來的。我不會說它能代表所有人。」\n\n但往下看 workload 的組成，變化確實非常大。\n\nAgentX 的平均 input sequence length 已經來到 142,000 token，而且實際系統不能只針對這個數字最佳化。1K、10K、100K、142K、200K 以上的 context 都會出現，每一種 sequence length 背後又對應另一組 kernel 最佳化與調參問題。\n\nKV cache 也一路膨脹。\n\n模型已經可以支援到一百萬 token。Agent 不斷跑新的 round，context 持續累積，最後這些 KV cache 必須在整座資料中心裡被保存、移動與管理。\n\nRound 數也跟著爆炸。\n\n以前系統設計者可以預期，使用者會花一點時間閱讀答案。現在 agent 直接把這段人類延遲刪掉，上一輪才剛完成，下一輪立刻開始。\n\n更麻煩的是，AgentX 其實仍然算簡單。\n\n這個 benchmark 大約只有四個 sub agent。Buck 說，他們看到的商用服務已經有上千個 agent，需要做智慧路由，動態決定下一輪要找哪一個模型、哪一個 sub agent、哪一個工具，而且 KV cache 還得跨這些工作保存下來。\n\n到了這裡，inference 已經不像「模型吃 token，再吐 token」。\n\n底下還有 orchestration CPU，管理 Kubernetes container；有 context model 處理資料；有 reasoning model；有模型負責選擇 sub agent；還有實際執行工具的 CPU、GPU、模擬與加速運算。\n\n另外還得有一批 CPU 負責安全與治理。\n\nBuck 說，他們不希望 agent 幻覺、做錯事、浪費時間，或者白白燒掉 token 收入。\n\n整個系統的工作狀態最後都得活在 context 裡。\n\n### Vera Rubin 其實是一整條 agent workflow\n\n所以 Buck 在介紹 Vera Rubin 時，幾乎沒有把焦點停在單顆 GPU 上。\n\n底座是 Vera Rubin NVL72。上面再接 Groq 3 LPX，處理那些希望把使用者端 token 速度推到極端的工作負載。\n\nCPU 也成了重要角色。\n\nAgent 每一輪 reasoning 之間，還得執行工具、編譯程式碼、建立 sandbox、操作 git、查資料庫、跑安全檢查。CPU 一旦慢下來，GPU 再快也只能等。\n\n再來是 KV cache。\n\n大量 context 需要被存放、索引、向量搜尋、治理，還要在系統裡快速搬動。這一層 NVIDIA 用 BlueField 與 DSX，把 smart storage 也拉進整套設計。\n\n最後還有網路。\n\n現在的模型已經大到很難只放在單一 GPU 裡，而且 disaggregated inference 越來越普遍。Prefill 和 decode 分開，KV cache 又得在不同計算資源之間移動，要維持 token rate 和 throughput，scale-up interconnect 就變成整個系統的一部分。\n\n這就是 NVIDIA 所謂的 full stack co-design。\n\n真正要跑的是整條 agent workflow。\n\n### 衡量 AI factory，開始要看每兆瓦能生多少 token\n\nBuck 接著拿出 SemiAnalysis 剛發表的 agentic benchmark。\n\n從 Grace Blackwell 升到 Vera Rubin，再把整套系統的 CPU、GPU、網路、軟體與 co-design 算進去，他說 Vera Rubin 在這組 agentic workload 上可以做到 30 倍的 AI factory throughput。\n\n某些情況甚至能到 60 倍。\n\n但這個 60 倍有明確條件，要看比較的是哪一條線，以及 Pareto curve 上的哪一段，不能直接當成所有 workload 的固定提升。\n\n更值得注意的是 NVIDIA 選的縱軸。\n\n他們看的不是絕對 token 數，而是每兆瓦的總 token throughput。\n\n因為 AI data center 最後受限的往往是兆瓦數。當資料中心只有這麼多電可以用，真正決定 AI factory 產能的，是每一兆瓦能產生多少 token。\n\n這個數字往上，代表同一座資料中心可以處理更多 inference，也代表能支撐更多 token 收入。\n\n另一條軸則是使用者看到的 token speed。\n\nBuck 以 DeepSeek v4 為例，認為這種模型最好能維持每秒一百個 token 以上，讓 reasoning 能快速完成。如果 agent 本身又位於即時商業分析之類工作的 critical path，速度還會繼續往上要求。\n\n所以 NVIDIA 又加上 Groq。\n\nBuck 說，Vera Rubin 本身可以把速度推到每秒數百 token，Groq 則要把這個數字帶到每秒數千 token。他公布的新數字裡，在 100K 的大 context 下，Gemma 4 可以做到每秒 3,400 個 token。\n\nContext 越長，每產生一個新 token 都要處理更多歷史內容，計算壓力會往上走，但偏偏 agentic workload 最需要的就是長 context。\n\n### Token 要變便宜，NVIDIA 最想做的還是把整台機器跑快\n\n除了 throughput，Buck 也談 token 成本。\n\n他的判斷是，降低每百萬 token 成本最有效的手段，往往不是單獨去壓某一顆零件的價格，而是提高整個系統的效能。\n\n如果只把 GPU 晶片做便宜，或者改用比較便宜的網路，影響的只是整座資料中心成本中的一部分。\n\n假設整個 node、rack 的效能提高十倍、三十倍，資料中心在相同時間與固定資本設備下可以生產更多 token，成本結構就會跟著改變。\n\n不過 Buck 也沒有把「效能至上」講成無限上綱。\n\n「我們得看比例。我們得提升效能，但也要看成本。我們確實有在做。不過真正讓 token 變便宜最好的方法，其實是把效能做上去。」\n\n這個取捨也解釋了後面的 Vera CPU。\n\n### 雲端 CPU 過去追求的是每核心多少錢，agent 開始重新在乎延遲\n\nAgentic AI 讓 NVIDIA 重新思考 CPU。\n\n過去雲端 CPU 的演化，有很長一段時間都被 dollar per core 驅動。\n\n早期 CPU 核心少，但單執行緒很快。後來雲端開始追求在同一台機器裡塞進更多核心，因為 Web hosting、database 與大量企業 workload 更關心「一個核心多少錢」。\n\n於是核心數一路增加，單執行緒效能的重要性下降，只要不要明顯變慢就行。\n\nAgent workload 把需求拉回另一個方向。\n\n工具呼叫就在 reasoning loop 的 critical path 上。如果 CPU 慢，agent 就得等。Token latency 直接受到影響。\n\n所以 Vera 沒有追求把核心數做到最大。\n\n它使用 NVIDIA 自己設計的 Olympus core，在所有核心滿載時維持高 throughput，同時保住單執行緒效能。\n\nBuck 說：\n\n「核心數沒有其他雲端 CPU 那麼多，但我們不想犧牲那個時間、那個 token 延遲。」\n\n架構上 Vera 甚至沒有採 chiplet，而是一顆大型 monolithic compute die，讓核心能以較低延遲存取記憶體。\n\nLPDDR memory subsystem 也沿著同一方向設計。Buck 宣稱其 memory latency 比其他方案低 40%，因為 CPU workload 經常被記憶體延遲卡住。\n\n這顆 CPU 的目標很明確：agent 需要叫工具時，不要讓 CPU 成為下一輪 reasoning 的等待時間。\n\n### Terminal Bench：工具呼叫速度快 60%\n\nNVIDIA 接著引用 Signal65 的測試。\n\nSignal65 把 Terminal Bench 裡 CPU 端的 agentic workload 獨立拿出來，總共有超過 80 種測試。\n\n結果是 Vera CPU 整體做到 1.6 倍效能，也就是 agent 完成工具呼叫的速度快約 60%。\n\n部分 workload 可以到兩倍，例如程式碼編譯、git 操作與程式碼驗證。Coding agent 的解題時間因此可以縮短接近一半。\n\nBuck 也舉了 Perplexity Space。\n\n對短任務來說，使用者感受到的延遲經常被 sandbox 建立時間主導。把 workload 搬到 Vera 後，他說 Perplexity 看到大約 1.5 倍改善。\n\n任務跑得越久，CPU 本身執行工具的速度開始占更大的比重，改善幅度大約落在 1.5 倍到兩倍。\n\n另一個例子是 ClickHouse。\n\n這套即時分析資料庫常被前沿實驗室用在 data lake、安全、治理與事件追蹤。Buck 表示 ClickHouse 跑了自己的公開 benchmark，Vera 在測試裡排到最前面。\n\n這些例子其實都指向同一件事：Agent 的 latency 已經不能只看模型。\n\n模型中間那些 CPU 工作，開始直接決定整個 agent 有多快。\n\n### NVLink 接下來要接的不只有 NVIDIA GPU\n\n網路這一側，Buck 把重點放在 NVLink Fusion。\n\nNVIDIA 自己的觀察是，從沒有 NVLink，到 8-way NVLink，再到完整 NVL72，整條 Pareto curve 都會往外推。\n\n所以他們準備把這套 scale-up infrastructure 開放給其他 XPU。\n\n「NVIDIA 是一家網路公司，而我們要把這件事開放給所有人。」\n\n晶片公司可以設計自己的 accelerator，再透過 NVIDIA 提供的 chiplet、IP、HBM 技術、switch tray 與軟體接入 NVLink 生態。\n\nBuck 提到兩個早期合作方向。\n\n第一個是 Matrix，正在為下一代 Raptor XPU 使用 NVLink Fusion，把自己的 XPU 接上 Vera 與 NVLink switch tray。\n\n另一個是 Amazon 與 Annapurna Labs。\n\n雙方已經宣布下一代 training 產品會利用 NVLink Fusion 做 scale-up，另外也會合作 NVHBM。\n\nNVIDIA 把自訂 SerDes 放進 HBM base die，讓 XPU 可以直接連接。Buck 宣稱，這樣能把 HBM logic、memory management 與 SerDes 搬到底層，在 XPU 上空出多達 30% 到 40% 的運算空間，同時提高頻寬、降低延遲。\n\n### 電力已經固定，接下來要想辦法把更多 GPU 塞進去\n\n演講最後，Buck 把尺度從晶片、機櫃一路拉到整座資料中心。\n\nAI factory 的現實限制是電力。\n\n一座資料中心拿到多少兆瓦，通常早就定了。問題變成，在這份已經佈建好的電力裡，到底可以放多少 GPU。\n\n過去最簡單的算法，是拿每個 rack 的最大功耗，直接去除資料中心總功率。\n\n但 workload 不會永遠跑在最大功耗。\n\nBuck 以早期 DeepSeek workload 為例，GPU 功耗可以在 600W 到 1,900W 之間變動。不同模型、不同時間、不同 rack，實際 power profile 都不一樣。\n\n如果資料中心全部按照峰值功耗設計，大量時間其實會留下沒有被使用的 power headroom。\n\n所以有些業者已經開始做 oversubscription。\n\n他們不再按照 max power 配機櫃，而是在 Pareto curve 上挑一個效率比較好的點，例如 max Q，多塞大約 20% 的 rack，讓整座資料中心可以放進更多 GPU。\n\nBuck 特別說，這個做法並不是 NVIDIA 發明的，市場上已經有人這麼做。\n\n代價也很清楚。\n\n「有些工作負載會被稍微壓到，或者說我們沒有完全把它的能力發揮出來。」\n\n也就是說，oversubscription 增加的是整座資料中心的總運算量，不代表每一個 workload 都可以隨時跑到自己的最高功耗。\n\nNVIDIA 做的 MaxLPS，是把這種管理自動化。\n\n軟體會動態追蹤每一個 rack 的功耗，隨 workload 上下調整，同時確保整座資料中心不超過總 power limit。\n\n這套能力一路做到 Vera、Rubin、switch 與 firmware 層，再跟 data center management system 協調。\n\nBuck 給出的數字是，同樣的供電下，MaxLPS 可以讓 Vera Rubin 多部署超過 40% 的運算。\n\n以一座吉瓦級資料中心為例，他宣稱可以部署到 5,600 個 rack，把總產出提高到每秒 12 億 token，而且仍然待在原本已經佈建的電力範圍內。\n\nLambda 的早期測試裡，B200 大約可以增加 25% 的可用運算，Vera Rubin 則可以超過 40%。\n\n「我們身處在一個電力受限的世界。」\n\n所以到了 AI factory 的尺度，效能最佳化已經一路從 CUDA kernel 延伸到電力調度。\n\n### 一年一代，下一站 Vera Rubin Ultra\n\n這也讓 Buck 最後對「平台」下了一個更大的定義。\n\n它要 fungible，可以在不同模型、不同 workload 之間切換；要 durable，一套 infrastructure 可以服務很多年；同時又得把 GPU、CPU、network、storage、software、rack，甚至整座資料中心的 power management 一起管理。\n\n因為 AI factory 最後看的，是投入同樣一兆瓦之後，能產生多少有效運算、多少 token，以及多少收入。\n\nNVIDIA 也把硬體 roadmap 拉到一年一代。\n\n現在是 Vera Rubin，下一代會是 Vera Rubin Ultra，再往後是 Feynman 與 Feynman Ultra。\n\nBuck 在演講最後給的承諾是：\n\n「你可以相信 NVIDIA 會維持在年度節奏上，我們會持續致力於推進 AI token factory，在資料中心的尺度上推進 inference 與 agent。」\n\n如果把這場 keynote 壓成一句話，大概就是：agent 把人類從迴圈裡拿掉之後，AI infrastructure 的瓶頸也一路從 GPU 擴張到 CPU、context、network、storage 和 power。\n\n以前最佳化一顆晶片就有用。\n\n現在得最佳化一整座工廠。\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
+      "article_date": "2026-09-20",
+      "url": "https://hackmd.io/rkIOUOoYzx",
+      "analysis_zh": "原始影片：A Worm With 302 Neurons Inspired Their Architecture - Ramin Hasani, Liquid AI (https://www.youtube.com/watch?v=V_9TCu_21SE) | Latent Space | 2026-09-18\n\nLiquid AI 執行長 Ramin Hasani 在這集節目裡，把一件聽起來很像公關故事的事情講成了一條完整的技術路線。\n\nLiquid 的研究真的從一條 2 公釐長、只有 302 個神經元的線蟲開始。研究團隊最早想把腦科學的靈感帶回機器學習，後來卻發現人腦神經元會 spike，複雜到很難直接建模。線蟲 C. elegans 的神經元不 spike，訊號是連續的，又能用微分方程描述，因此成了他們研究連續時間神經網路的起點。\n\n十二年後，Liquid 已經不再執著於複製線蟲。他們做出一套神經架構搜尋系統，把卷積、attention、state space model、液態神經網路等不同算子放在同一個搜尋空間裡，再依照 CPU、GPU、NPU 等不同硬體，自動找出品質、記憶體、延遲和運算速度之間最適合的組合。\n\n這條路最後形成 Liquid Foundation Models，LFM。\n\n現在其中一個模型只有大約 600MB，今年準備部署到北美的 Mercedes-Benz 車款裡。Shopify 的 Shop app 每月也已有超過十億次請求經過 LFM。\n\n但 Ramin 談得更長遠。他認為今天企業 AI 約九成的市場仍圍繞推論代幣，下一階段會往「客製化代幣」走。企業需要的會逐漸從呼叫一個現成模型，變成持續訓練、調整和更新自己的模型。\n\n因為在他看來，「靜態的 eval 會過期」。\n\n### 為什麼是線蟲，而不是人腦\n\nLiquid 的故事大約從十二年前開始。\n\n當時 Ramin 和現在的技術長還在維也納科技大學，希望研究怎麼把大腦裡的連續時間運算帶進機器學習。他們先研究神經元之間如何交換訊息，發現其中可以用相當簡單的一階微分方程描述。\n\n麻煩很快出現。\n\n人腦的神經元會 spike，而且人類到現在對大腦到底怎麼完成計算仍理解有限。於是團隊退到更簡單的模式生物，最後選上 C. elegans。\n\n這條線蟲全身只有 302 個神經細胞，身長約 2 公釐。Ramin 說，他們真正看中的特性是這些神經元不 spike，神經科學稱為 electrotonic behavior。\n\n這讓研究團隊可以把線蟲神經系統建成連續時間、而且可微分的系統，直接在上面做 back propagation。\n\n線蟲也提供了一個讓 Ramin 很著迷的效率樣本。302 個神經元可以控制 95 個肌肉細胞。他形容，以 2016、2017 年當時的機器人技術來看，「牠用 302 個神經元就能控制 95 個肌肉細胞，控制得比我們這顆星球上任何機器人系統都好。」\n\n他還提到，人類與線蟲大約在六億年前走上不同演化分支，兩者基因體有 78% 相似度，C. elegans 的研究至今也已促成四座諾貝爾獎。\n\n研究團隊後來直接找來研究這些神經元的神經科學家合作。\n\n### Liquid 這個名字，來自可微分的非線性\n\n他們接下來做的事情，是把兩個線蟲神經元交換資訊的方式數學化。\n\n這套工作後來成為 liquid time constant neural networks，也就是早期的 liquid neural networks。\n\nRamin 解釋，Liquid 這個名字指的是系統的彈性。這些模型在前向傳遞時由微分方程控制，具有高度非線性，同時又可以微分，因此能反向傳播。加上多重回饋結構，它們可以從資料中學出很強的表徵。\n\n團隊很快又發現另一個特性：模型可以非常小。\n\n幾十到幾百個神經元，就足以控制一個機器人。\n\n這對機器人特別重要，因為機器人通常沒有資料中心等級的算力。Ramin 說，怎麼把更多智慧塞進最小的計算單元，從那時起就一直是他們的研究主題。\n\n2017 年之後，團隊進入 MIT，開始把這套連續時間動力系統放進汽車、無人機和其他載具，序列建模也逐漸成為主要研究領域。\n\n同一時期，其他學術團隊也開始研究 neural ODE、state space model 等類似方向。背後共享的一個想法是，傳統 RNN 可以看成一步一步更新的離散動力系統，連續時間模型則能把事件之間經過多少時間本身也納入計算。\n\n對持續演化的序列資料來說，這增加了一個可以適應的維度。\n\n### 規模化，把遞迴真正的成本算了出來\n\n到了 2020 年前後，整個 AI 研究圈開始把問題推向 scalability。\n\nLiquid 原本在機器人與分布外泛化上得到的結果很好，也證明很小的模型可以完成複雜控制。但當團隊想從機器人訊號往音訊、視覺和文字走，原本架構的限制立刻浮現。\n\n非線性遞迴運算很難規模化。\n\nRamin 說：「遞迴神經網路的主要阻礙一直是序列運算。當這些遞迴算子是非線性的時候，要把它們平行化真的很難，尤其是在 GPU 上。」\n\n這也是他對 Transformer 評價很高的地方。\n\nTransformer 的架構偏置很少，大量工作最後可以落成矩陣乘法，非常符合 GPU 擅長的平行運算。Ramin 把這稱為 hardware lottery，Transformer 剛好遇上了一套極度適合自己的硬體基礎設施。\n\n「這就是 Transformer 架構在規模上、在解鎖通用行為上的美。」\n\n遞迴架構仍有一個很誘人的優勢。\n\nAttention 面對愈長的輸入，計算量可能快速增加；遞迴系統理論上可以把增長壓到次二次甚至接近線性。\n\n但 Ramin 隨即加了一個很重要的限定：「這些演算法更有效率，但這只是理論上的。」\n\n如果序列運算無法平行化，再漂亮的理論複雜度也很難真正利用現有硬體規模化。\n\n### SSM 解決了計算，卻犧牲了表達力\n\n其中一條解法，是把原本的非線性動力系統線性化。\n\n當非線性被拿掉，就可以使用線性代數的技巧進行平行計算。Ramin 把 state space model 描述成某種 RNN 的線性版本。\n\n這也是 SSM 受到重視的原因。除了 attention 之外，系統還可以使用 parallel scan 等方法做平行運算。\n\n代價也跟著出現。\n\n「電腦科學裡沒有免費的午餐。」\n\nRamin 說，當複雜的動力系統被線性化，模型也失去了一部分表達能力。Liquid 後來發現，把 SSM 用在語言任務時，模型對長脈絡依賴的學習仍然困難。\n\n它的計算很有效率，表達效率卻比較弱。\n\n他的結論很直接：「這些神經網路的表達能力總是不如 Transformer。」\n\n這也讓 Liquid 最後沒有把公司押在任何一種替代架構上。\n\n### 不賭單一架構：讓系統自己找\n\nLiquid 成立時做了一個重要決定。\n\n他們把液態神經網路、SSM、卷積網路以及其他團隊發明的替代架構放在一起，不先決定哪一種才是答案。\n\nRamin 形容，他們想把「替代架構的復仇者聯盟」集合到同一個地方。\n\nLiquid 團隊裡有來自 Stanford、MIT 等研究機構的人，也包含 Hyena、state space model 與 liquid neural network 等不同技術背景。團隊建立一個 meta AI 系統，讓它直接在一組操作空間裡搜尋。\n\n輸入部署環境，例如 GPU 或 NPU，再讓系統決定該用哪些算子、怎麼組合。\n\n搜尋同時最佳化四件事。\n\n第一，模型品質不能比純 Transformer 差，包括推理、語言理解、知識等大約上百項準則。\n\n第二，記憶體消耗要盡可能小。\n\n第三，延遲要盡可能低。\n\n第四，運算速度要盡可能高。\n\n這套方法後來被寫成一篇叫 STAR 的論文。Ramin 把那個 meta 演算法描述成一種遞迴自我改進系統。\n\n大約三年半前，Liquid 開始讓它針對指定晶片搜尋不同混合架構，最後得到的計算圖，就逐漸演變成後來幾代 LFM。\n\n### LFM 的三代長相\n\n第一代 LFM 很像一個混合實驗場。\n\n裡面有卷積、有 attention，也有源自液態神經網路的成分。\n\n到了 LFM2，目標變得具體很多：讓模型在 CPU 上跑得特別好。\n\n搜尋最後得到的架構大約有 80% 是 double gated 1D convolution，另外約 20% 是 group query attention。\n\nRamin 認為這使 LFM2 成為一個非常簡單、速度快，而且能在 CPU 上維持高品質的基礎模型。\n\n架構搜尋的另一個特性，是新的研究成果可以持續被塞回搜尋空間。只要出現新的算子或新的架構構件，Liquid 就可以把它加入 meta AI，再針對新的硬體重新搜尋。\n\n因此不同部署環境，最後可能產生完全不同的混合架構。\n\n目前 Liquid 已經把 scaling law 從數千萬參數一路做到 700 億參數。公開釋出的 LFM 則介於 1 億到 240 億參數，其中較大的模型採用 mixture of experts。\n\n目前看到的是 LFM2 和 LFM 2.5。下一代 LFM3 會繼續調整架構，希望增加品質與穩定性，也讓延遲更容易控制。\n\n這裡開始看得出 Liquid 和許多基礎模型公司的差異。\n\n他們關心的問題一直都有一個實體限制：最後這個模型到底要跑在哪一顆晶片上？\n\n### 把智慧帶到資料中心外面\n\nLiquid 商業化的主軸，也沿著這條線展開。\n\nRamin 說，他們想做的是把智慧帶出資料中心，因此合作對象很自然地落到車廠、機器人公司、筆電製造商與手機公司。\n\n其中一個合作夥伴是 AMD。\n\n他估計全球一年大約有 3 億到 4 億台筆電，其中大概 1 億台可能採用 AMD。Liquid 正在把 LFM 直接放進這些電腦，希望讓更多智慧在本地完成。\n\n本地模型可以先扮演隱私過濾器。例如資料要送進 ChatGPT 或 coding agent 之前，先由裝置上的小模型處理敏感資訊。\n\n另一種形式則是直接成為裝置上的 agent。它可以讀取筆電裡的本地資料、完成分析，而且具備離線與 air-gapped 的能力。\n\n距離那個狀態還有很長一段路。\n\nRamin 估計，目前像 Apple Intelligence、Galaxy AI 這類混合式架構，大約 90% 的呼叫仍會送到雲端，只有 10% 留在裝置上。他認為原因很簡單：裝置模型的能力和可靠性都還不夠。\n\n但手機公司很有動機改變這個比例。\n\n最現實的原因是成本。\n\n如果要替數億支手機，甚至數十億使用者免費提供 AI，而每一次推論都得回到雲端處理，成本會非常高。工作負載移到使用者手上的裝置之後，等於直接改善服務商的毛利結構。\n\n只是 Ramin 很快又提醒，生產級裝置 AI 的難度遠高於下載一個開源模型跑 benchmark。\n\n裝置有熱控問題；模型進入長脈絡後，行為可能改變；可靠性要求也完全不同。\n\nLiquid 過去兩年半已經跑過多輪 production cycle。Ramin 的結論是：「生產等級的 AI 遠遠不只是在裝置上跑幾個品質 benchmark。」\n\n### 賓士車裡的 600MB\n\nMercedes-Benz 是目前最具體的案例之一。\n\nLiquid 為 Mercedes 做的是車內智慧。使用者在車內對著 Hey Mercedes 說話，背後由直接跑在車內的基礎模型處理。\n\n這是一套多模型系統，可以連攝影機、處理語音來回，也有文字模型提供推理能力。\n\n模型本身大約只有 600MB。\n\nRamin 強調，小到這個程度的重要性，在於它可以直接放進大量汽車裡，而且後續還能透過 OTA 更新。\n\n他表示，Mercedes 第一批部署會在今年發生，涵蓋北美的第三代 Mercedes-Benz 車款，模型跑在成本大約 100 美元的晶片上。\n\n對 Liquid 來說，這就是早期線蟲研究一路延伸到今天最具體的結果。\n\n當年他們研究的是怎麼用幾十、幾百個神經元控制機器人；現在追求的仍是同一件事：在極小的計算預算裡裝進足夠多的智慧。\n\n### Shopify：每月超過十億次請求\n\nShopify 是另一種部署環境。\n\n它不屬於裝置端，但同樣非常在乎延遲和品質。\n\nLiquid 的模型已經在 Shopify 的私有環境裡服務多個產品。其中一個例子是 Shop app 的文字搜尋。使用者輸入搜尋內容後，部分請求會直接進入 LFM。\n\nRamin 表示，光是 Shop app，目前每個月經過 LFM 的請求就已經超過十億次。\n\nLiquid 公開模型的累積下載量則已經超過 4,000 萬次，目前每週大約增加 150 萬次。\n\n公開模型介於 1 億到 240 億參數，較大的版本採 mixture of experts。他們同時也在加入多模態能力，讓模型可以接受音訊、視覺和文字輸入，輸出則包含音訊和文字。\n\n### 機器人：Liquid 刻意停了幾年\n\n有趣的是，Liquid 最早從機器人研究出發，成立公司之後卻刻意把機器人放慢。\n\n他們其實一直有做相關實驗。\n\n視覺語言模型可以讓機器人看見環境，再依照影像決定動作，也可以拿來監控工廠。Liquid 和 AMD 曾一起展示機器人 demo，也與模組化工業機器人公司合作，用視覺語言模型完成指令跟隨和動作控制。\n\n他們主要看的也是工業機器人，沒有把焦點放在人形機器人。\n\n但 Ramin 說，公司從第一天就刻意對這個市場按下暫停鍵。\n\n原因是 go-to-market 太慢。\n\n生產級機器人會進入大量驗證、確效和法規工作。Liquid 的創辦團隊本來就是機器人背景，因此很清楚要把一個機器人垂直市場真正產品化，需要付出多少時間。\n\n所以公司先蓋水平的智慧層，跟 OEM 合作，把模型做成熟，再回頭處理動作世界。\n\nRamin 現在認為時間點開始改變了。\n\nLFM 已經成熟許多，Liquid 對資料、後訓練與客製化流程也有更高掌控度，因此機器人重新成為可以認真投入的垂直領域。\n\n### 世界模型到底有多少只是行銷\n\n主持人在這裡追問了一個現在經常被模糊處理的問題。\n\n機器人的 world model、action model，真的需要完全不同的模型嗎？還是很多差異只是行銷包裝？\n\nRamin 的回答，是把 AI 創新拆成三層。\n\n第一層是模型架構。\n\n第二層是學習演算法。\n\n第三層是資料處理機制。\n\nLiquid 長期聚焦的是第一層，研究不同模型架構怎麼提高效率、怎麼成為更好的通用運算架構。\n\nWorld modeling 在他的分類裡主要落在第二層。\n\n同一個模型架構，可以用自迴歸目標訓練，可以用 diffusion，也可以放進 world modeling 的訓練流程。世界模型的任務，是在內部建立某種世界表徵，讓模型從那個表徵學到物理環境的結構。\n\n因此 LFM 本身也可以拿去做 world modeling。\n\n但不同訓練演算法抽出的東西並不相同。\n\nRamin 認為，world modeling 從物理世界學到的基本構件，跟 next-token prediction 學到的東西不同。Next-token prediction 當然可能包含物理知識，只是它形成物理理解的方式和人類不同。\n\n至於什麼演算法最後會帶來「機器人的 ChatGPT 時刻」，Ramin沒有給答案。\n\n他說，這仍然是演算法層的一個「非常大的問號」。\n\n### 收錢的方式：服務費在前，授權在後\n\nLiquid 現在的商業模式帶有很明顯的 design partner 色彩。\n\n早期合作時，公司會派 applied ML 團隊跟客戶一起工作，而且這段開發階段本身就收費。\n\n方案完成並部署之後，再轉成按年、按裝置收取授權費。\n\n這個模式的經濟性，要靠垂直市場內的重複使用逐漸改善。\n\n例如 Mercedes-Benz 成為 design partner 之後，Liquid 已經把汽車所需要的方案做出第一版。下一家汽車客戶進來時，需要重新提供的服務量就會下降，逐漸變成部署已經存在的方案。\n\nLiquid 接下來想把這件事再往前推一步。\n\n他們正在 beta 測試一個自助式模型開發平台，希望把 Liquid 從零建立模型、客製化、部署到生產環境的能力交給企業。\n\n### 下一波是「客製化代幣」\n\nRamin 對企業 AI 市場有一個很明確的判斷。\n\n他估計，目前約 90% 的市場仍然圍繞推論代幣。\n\n前沿模型實驗室和 Fireworks 這類推論服務商，大多數收入模型都是托管模型，再依照推論使用量收費。\n\n他認為下一波價值會往 customization token 移動。\n\n理由之一是市場上已經有大量品質不錯的開源基座模型。企業接下來更可能需要的是針對自己的資料、任務和硬體，持續調整模型。\n\n而他所謂的客製化，範圍遠比 fine-tuning 大。\n\n從預訓練、中訓練、後訓練、資料生成，到 RL，都算在裡面。\n\n如果再把 agent 放進這套流程，讓 agent 自動修改模型、重新評測、再根據結果繼續調整，就會形成一個遞迴迴圈。\n\nLiquid 想做的平台，就是讓客戶用這種方式建立自己的 LFM，而且在模型進入生產環境之後繼續更新。\n\n### Leap，以及企業為什麼已經累了\n\n目前開發者能直接使用的工具是 Leap。\n\nLeap 比較像一組工具和函式庫。開發者可以微調 Liquid 模型，再匯出成 GGUF 等推論就緒格式，直接部署到 llama.cpp 一類的裝置端環境。\n\nLiquid 正在做的新平台，可以理解成把這些工具進一步自動化，讓 agent 也能呼叫它們。\n\nRamin 認為市場已經有這個需求，因為企業「現在是累的」。\n\n他表示，Liquid 到目前為止接觸過大約 200 家 Fortune 500 企業。許多成熟企業已經試過自己建立 applied ML 團隊、下載開源模型，甚至從零做自己的模型。\n\n大量專案最後仍然回到雲端方案。\n\n依照 Ramin 的觀察，企業自己做的東西大約有 80% 到不了真正的生產等級。\n\n另一邊則是開發者對 AI 的需求爆炸。\n\n每個人都在 vibe code，大量 token 被消耗在程式開發上。但 Ramin 認為，如果真正往成熟組織裡追蹤這些 repository 最後創造多少價值，「90% 的這些 token 是沒用的 token。」\n\n所以 Liquid 想做的也不是另一個新的網頁 UI。\n\n它希望直接進入企業既有的 agentic harness。企業把 Liquid 的工具交給自己慣用的 coding agent，讓 agent 帶著開發者完成模型開發、建構與部署。\n\n目前 human in the loop 仍然很重要。\n\n平台雖然可以開成全自動模式，一鍵讓系統自己跑完整個流程，但 Ramin自己承認，最後得到的模型品質會低於有人持續參與的流程。\n\n### 「如果我的 eval 夠好，為什麼要管過程？」\n\n主持人直接挑戰了這個說法。\n\n如果 eval 已經設計得夠好，為什麼還需要人在過程裡？系統應該可以自己做研究、自己找到方法，只要最後通過評測就好。\n\nRamin 同意第一次部署可以這麼做。\n\n真正的麻煩發生在模型上線以後。\n\n新的資料會進來，新的使用者請求會進來，整個資料分布可能改變。原本設計好的 eval，也可能逐漸跟真實需求脫節。\n\n「你的 eval 會過期。靜態的 eval 會過期。」\n\n所以他認為生產系統需要持續演化。\n\n第一次部署時使用固定 eval 沒問題；進到真實環境後，評測準則本身也必須隨著資料和需求改變。\n\n這也是 Liquid 所謂持續學習更接近的樣子。\n\n它不只是在既有模型上做一次後訓練，而是把架構、資料、訓練與部署整個模型生命週期放進同一個迴圈裡。\n\n### 架構搜尋是硬體感知的，所以晶片廠最有興趣\n\n這套架構搜尋對晶片公司尤其有吸引力。\n\nRamin 舉 Qualcomm 為例。如果晶片廠正在設計下一代 NPU，它可以直接把硬體特性放進搜尋迴圈，再找出最適合那顆晶片的模型計算圖。\n\n甚至已經有公司把神經網路權重直接蝕刻進晶片。\n\n所以 Liquid 很重視和矽晶片公司的關係。\n\n「我們的架構搜尋是硬體感知的。」\n\n晶片公司可以把現在甚至下一代硬體丟進系統裡，再根據品質、記憶體、延遲與速度等準則，尋找最佳架構。\n\nRamin 把這種趨勢進一步延伸到所謂 sovereign AI。\n\n企業會逐漸擁有自己的模型開發與部署能力，接著才可能走到每一個人都能擁有自己的個人智慧。\n\n### 規模越大，架構反而越簡單\n\n多年架構搜尋也讓 Liquid 得到一些反直覺的研究結果。\n\n最明顯的一條是：模型越大，架構偏置通常要越少。\n\nLiquid 會對每個候選架構跑 scaling law，增加資料量、增加模型尺寸，再觀察不同架構往上放大之後的訓練表現。\n\nRamin 說，如果目標是大規模通用智慧，模型應該逐漸「去偏置」。\n\nLFM2 就是一個例子。它沒有很多複雜的 gated delta net 結構，主要只是很簡單的 1D convolution，再搭配 attention。\n\nTransformer 本身也有類似特徵。Attention 的結構相對簡單，也因此非常容易規模化。\n\n模型尺寸愈大，Liquid 的搜尋結果反而愈傾向拿掉額外迴圈和複雜機制。\n\n小模型則完全相反。\n\n當模型被限制在例如 8GB 記憶體裡，沒有辦法靠尺寸解決問題，就可以在架構上加入更多回饋迴圈、更複雜的 gating 和結構性偏置。\n\n這些偏置可以提高小模型的表達能力。\n\n所以 Ramin 的經驗是，大規模時要簡化，小規模時反而可以增加結構。\n\n### 音訊適合 SSM，文字沒有那麼適合\n\n第二個架構搜尋得到的結果，跟資料模態有關。\n\nRamin 說，連續時間系統和 SSM 在音訊上非常有效，在文字上表現卻差很多。\n\n語音本身就是連續時間訊號，也是一條時間序列，因此 RNN、SSM 和其他連續時間動力系統的 inductive bias 很符合資料本身。\n\n尤其在 200 億參數以下的區間，他認為遞迴結構仍然很有競爭力。\n\n文字的情況不同。\n\n語言需要處理很長距離的依賴，SSM 線性化後失去的表達能力在這裡就會變得明顯。\n\n這也是 Liquid 不認為任何單一替代架構能全面取代 Transformer 的原因。\n\nLayer looping 也是類似問題。\n\nRamin 認為 looping 本身就是一種偏置。在小模型上可以有幫助，模型愈大之後，額外偏置帶來的收益開始下降，而且還得替這些序列操作重新建立硬體基礎設施。\n\n現有 GPU 已經被高度最佳化成平行矩陣乘法機器。\n\n如果演算法偏離這個方向，就得開始支付 hardware lottery 的另一面。\n\n### 如果換掉計算介質：光子學和量子\n\n因此 Ramin 對光子運算特別感興趣。\n\n今天非線性遞迴最大的限制之一，是序列計算無法像矩陣乘法那樣大規模平行化。\n\n但如果計算介質本身改變，限制也可能跟著改變。\n\n他的想像是，如果光子學可以讓序列通訊和計算接近光速，原本難以接受的序列操作可能突然變得便宜。\n\n那時候研究者就有機會重新把更複雜的非線性算子帶回大型架構。\n\nRamin 認為，下一代模型架構最後很可能會受到「智慧寄宿在哪一種基材上」影響。\n\n目前 AI 住在矽和 GPU 裡，因此整個研究方向自然偏向 GPU 擅長的平行矩陣運算。換了基材，可能就會打開完全不同的演算法空間。\n\n量子運算部分，他保守很多。\n\n他認為量子最可能大幅改變的領域是搜尋。\n\n現在大規模模型幾乎把最佳化交給 gradient descent，本質上也是因為沒有更好的方法在龐大參數空間裡搜尋。如果未來量子運算能改變平行搜尋能力，最佳化方法可能跟著改變。\n\n但他也明確說，目前談這件事還太早。\n\n2017 年他在 NeurIPS 看 IBM 展示量子電腦時，曾直接問 IBM 的人什麼時候一般人真的能使用，對方給他的答案是 2035。\n\nRamin 說：「我覺得現在還太早，講什麼都太早。」\n\n### 如果連續時間還不夠，下一個問題是適應性\n\n談到 Liquid 未來真正想解的架構問題，Ramin 把焦點放在 adaptive intelligence。\n\n今天模型在推論時，基本上只做 forward pass。\n\n但如果模型在使用過程中，也可以即時改變自己呢？\n\n一個常見回答是 in-context learning 已經提供某種測試時學習。模型讀進更多 context 之後，內部計算可能近似某種學習演算法。\n\nRamin 認為還不夠。\n\n他更感興趣的是某種可以把 forward pass 和 backward pass 同時結合的架構，讓模型在運作過程裡真正適應。\n\n他也特別標明一件還沒有證實的消息：他「聽說」SSI 正在做某些和早期 liquid neural network 想法很接近的架構。\n\n至於 Anthropic、OpenAI 等基礎模型實驗室，他認為可以合理假設這些公司都已經有大型團隊研究替代架構。\n\n原因很簡單。\n\n模型可以靠 speculative decoding、量化、kernel 最佳化等方式繼續榨出效率，但如果想解鎖新的能力，最後可能仍需要更根本的架構或 meta algorithm。\n\n### 從單一模型走到「認知架構」\n\nRamin 最後把問題再往上一層推。\n\n今天的 coding workflow 已經開始出現 orchestrator 加上多個 agents。\n\n如果把系統的基本運算單元從「神經元」往上提升，它也可以是一個 LFM、一個小模型，甚至一個完整 agent。\n\n再把這些單元組合起來，就會形成一個「系統的系統」。\n\n他把這類東西稱為 cognitive architecture。\n\n多個 agent 可以互相協作，每個 agent 甚至可能把重新訓練模型當成自己工作流程的一部分。\n\n主持人因此把 Liquid 的方向概括成一句話：真正需要適應環境的可能已經不只是 LFM，而是包含 Leap 和整個模型開發工具鏈的系統。\n\nRamin 同意這個說法。\n\n### 研究議程：多模態、可靠性、效率與 DNA\n\nLiquid 現在的研究議程大致有幾條。\n\n第一是大規模多模態，希望把更多資料模態一起訓練，同時延長推理時間。\n\n第二是可靠性。\n\n如果 AI 要成為真正能在裝置端運作的助理，模型必須在更長時間、更複雜環境裡維持可靠行為。\n\n第三是效率。\n\nLiquid 有專門的效率團隊，從 kernel、推論、基礎設施一路做到更快的 RL infrastructure，希望把預訓練到模型進入生產環境的整個流程一起最佳化。\n\n另外一條比較少被討論的是生物資料。\n\nLiquid 正在研究 DNA foundation model。\n\nDNA 的詞彙表只有四個字母，序列卻可以極長。對一個長期研究動力系統、長序列建模與效率的團隊來說，這種資料型態自然會進入研究範圍。\n\n### 多模態也有很清楚的能力邊界\n\n主持人特別追問，這些小型 LFM 能不能連高品質圖像、音訊和影片都生成。\n\nRamin 在這裡沒有把能力講大。\n\n7B 等級的模型不可能直接產生真正高品質、高擬真的影片。\n\nWorld modeling 能做的，是改善模型內部的世界表徵。\n\n如果把小型 LFM 放進 world modeling 的訓練流程，它可能學到更好的物理結構，對影片理解或機器人的實體環境判斷有幫助。\n\n但這種理解不代表模型就能輸出高擬真的影片。\n\nRamin 認為，多模態基礎模型到現在仍是一個非常開放的研究題目。真正高度多模態的系統其實還很少。\n\n### Mojo、llama.cpp，以及「生態系永遠會贏」\n\n談到部署工具時，主持人也問了 Modular 和 Mojo。\n\nLiquid 自己需要寫很多 custom kernel，又曾經從 JAX 轉到 PyTorch，看起來理論上很適合 Mojo。\n\nRamin 對 Modular 的底層工程評價很高，但 Liquid 的原則是盡量不要重新發明已經存在的輪子。\n\n他舉 llama.cpp 為例。\n\n很多公司都試著重新做一個跨硬體的裝置端推論層，或者在 llama.cpp 外面再包一層。但依照 Liquid 的測試，只要沒有深度綁定某一套硬體生態系，這些通用替代方案往往跑得比原生 llama.cpp 差。\n\n原因很現實。\n\n真正高效的 kernel 最後還是需要針對 AMD、Qualcomm 或其他特定硬體做客製化。\n\nRamin 認為 Mojo 被整合進 Qualcomm 生態之後，反而可能得到更大的成功空間。\n\nLiquid 自己則會盡量守在原生語言與原生平台，離硬體越近越好。\n\n他的結論帶了一點殘酷：\n\n「生態系永遠會贏。這對新進者不公平。」\n\n但他也說，創業時反而應該挑難題。\n\n簡單的問題很快就會被其他人解掉，真正困難的問題才值得長期投入。\n\n### Attention is all you need 嗎\n\n節目最後，主持人提到 Transformer 即將滿十年，問了那個最直接的問題。\n\nAttention is all you need 嗎？\n\nRamin 的答案是，Attention 絕對還會存在很久。\n\n它會是未來架構的重要元件之一。\n\n但只有 attention 還不夠。\n\n他認為下一代智慧還會加入硬體感知、具身，以及適應性。\n\n具身也不只存在於實體機器人。虛擬 agent 同樣需要理解自己所在的虛擬環境，知道工具、狀態與環境之間怎麼互動。\n\n再往上一層則是適應性智慧。\n\n主持人最後問他，這裡說的適應性究竟是 routing，還是其他東西。\n\nRamin 的回答很簡單：\n\n「適應性我指的是那種可以一直演化的系統，持續學習，持續改善的系統。」\n\n從十二年前研究一條只有 302 個神經元的線蟲，到今天把 600MB 的模型塞進汽車，Liquid 的研究方向其實一直繞著同一個問題。\n\n在有限的計算裡，智慧究竟可以被壓到多小、做得多有效率，又能不能在進入真實世界之後繼續改變自己。\n\nTransformer 把 AI 帶進規模化的時代。Liquid 現在押的下一個問題，是當模型開始離開資料中心、進到汽車、筆電、手機和機器人之後，架構會不會再一次被硬體、環境和持續學習重新塑形。\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
       "insights": [],
       "content_mode": "full_text_import",
-      "source_id": "H18arXqKGe"
+      "source_id": "rkIOUOoYzx"
     },
     "backfill::a16z::p_nasas_artemis_ii_mission": {
       "title": "NASA’s Artemis II Mission / NASA 阿提米絲 2 號任務：重返月球的關鍵里程碑與太空產業新局",
@@ -494,16 +483,22 @@
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
+      "source": "Culpium (Tim Culpan)",
+      "title": "Tech The Money: Nvidia is the Most Pilled of the AI-Pilled / 輝達：AI 狂熱中最徹底的贏家",
+      "article_date": "2026-09-20",
+      "url": "https://www.culpium.com/p/tech-the-money-who-profits-from-the"
+    },
+    {
       "source": "Lenny's Newsletter",
-      "title": "Community Wisdom: Finding your first users before the product exists / 在產品誕生前找到首批用戶：來自 Lenny's 社群的職涯與產品實務智慧",
-      "article_date": "2026-09-19",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first"
+      "title": "Snap 與 Discord 前產品長 Peter Sellis 的 90 分鐘產品實戰建議",
+      "article_date": "2026-09-20",
+      "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product"
     },
     {
       "source": "HackMD：停損王SLKing",
-      "title": "Agent 把人類拉出迴圈之後，推論的工作量變成一百倍",
-      "article_date": "2026-09-19",
-      "url": "https://hackmd.io/H18arXqKGe"
+      "title": "302 個神經元的線蟲，怎麼變成塞進賓士車裡的基礎模型",
+      "article_date": "2026-09-20",
+      "url": "https://hackmd.io/rkIOUOoYzx"
     }
   ]
 }
