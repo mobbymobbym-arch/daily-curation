@@ -1,219 +1,338 @@
 {
-  "fetch_date": "2026-10-12",
+  "fetch_date": "2026-10-13",
   "techmeme": [
     {
-      "title_en": "A look at Apple's smart home strategy, centered on a HomeView display hub, with a new HomePod mini, Apple TV, and second-party accessories from LG and Schneider",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-11/apple-smart-home-launch-oct-13-plans-homeview-has-mid-november-release?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTcyNzI2MCwiZXhwIjoxNzkyMzMyMDYwLCJhcnRpY2xlSWQiOiJUTVFYSzJOM04wOFowMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.E6mgNQtIHgnFxRiqVKKqNT7CE2st-g896cIaaDBzKVs",
-      "summary_en": "Fresh details on Apple's HomeView, HomePod mini and new Apple TV, including release dates, colors, chips and features.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "summary_en": "Fourteen months ago, we began a ground-up overhaul of our artificial intelligence efforts. In that time, we've gone from rebuilding our stack from first principles to pushing the frontier.",
+      "source": "Meta AI Research",
+      "media_source": "Meta AI Research",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i7.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261012/i31.jpg",
       "thumbnail_source": "techmeme_rss_thumbnail",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "A look at Apple's smart home strategy, centered on a HomeView display hub, with a new HomePod mini, Apple TV, and second-party accessories from LG and Schneider",
-      "image_missing_reason": "no_source_image_found",
-      "title_zh": "深入分析 Apple 的智慧家庭策略：以 HomeView 顯示樞紐為核心，並推出全新 HomePod mini、Apple TV，以及來自 LG 與 Schneider 的第三方配件",
-      "summary_zh": "關於 Apple HomeView、HomePod mini 與新款 Apple TV 的最新細節，包含發布日期、配色、晶片規格與功能特性。"
+      "thumbnail_alt": "Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks",
+      "image_url": "https://research.meta.ai/articles/introducing-muse-wonder/social/muse-wonder-social-v1.webp",
+      "image_source": "article_meta_fallback",
+      "image_alt": "Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks",
+      "title_zh": "Meta 推出 Muse Wonder 與 Muse Wonder Full，稱其在個人及專業代理任務中展現頂尖效能",
+      "summary_zh": "14 個月前，我們開始對人工智慧工作進行徹底翻修。這段時間內，我們從基礎重新建構技術堆疊，並不斷推動技術前沿。"
     },
     {
-      "title_en": "Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users report banking and taxi app outages",
-      "url": "https://www.kyivpost.com/post/86708",
-      "summary_en": "A Ukrainian drone strike targeted a major Yandex data center in the Russian city of Vladimir early Sunday morning, Oct. 11 …",
-      "source": "Kyiv Post",
-      "media_source": "Kyiv Post",
+      "title_en": "Muse Wonder Full (max) outperforms Fable 5.1 (max) on Artificial Analysis' Intelligence Index, matches Sonnet 5.5 (max), and is just shy of Opus 5.5 (max)",
+      "url": "https://x.com/artificialanlys/status/2109697083519447118",
+      "summary_en": "",
+      "source": "@artificialanlys",
+      "media_source": "@artificialanlys",
       "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i8.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users report banking and taxi app outages",
-      "title_zh": "Yandex 表示無人機攻擊導致第三座數據中心關閉，影響 Yandex Cloud、YandexGPT 等 80 多項服務；用戶通報銀行與叫車 App 斷線",
-      "summary_zh": "烏克蘭無人機於 10 月 11 日週日清晨襲擊了俄羅斯佛拉迪米爾市的一座 Yandex 大型數據中心 …"
+      "techmeme_cluster_role": "related",
+      "title_zh": "Muse Wonder Full (max) 在 Artificial Analysis 的智慧指數上超越 Fable 5.1 (max)，與 Sonnet 5.5 (max) 並駕齊驅，僅略遜於 Opus 5.5 (max)",
+      "summary_zh": ""
     },
     {
-      "title_en": "How Musk and Benioff pledged to rename SpaceXAI and AIForce, while Nadella and Nvidia adopted “super intelligence”, as Silicon Valley falls in line with Trump",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
-      "summary_en": "Musk, Benioff, Huang, and now Nadella have all capitulated to Trump's ‘super intelligence’ rebrand.",
+      "title_en": "Microsoft unveils its third-gen in-house AI chip, the Maia 300, built on TSMC's N2P process node and aimed at serving as its “primary AI inference system”",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImhuOHhJWE1DRnQiLCJwIjoiL25ld3MvMTAwOTQ2NS9taWNyb3NvZnQtbWFpYS0zMDAtY2hpcC1pbXByb3ZlbWVudHMtcm9sbG91dCIsImV4cCI6MTc5MjI0OTI3MCwiaWF0IjoxNzkxODE3MjcwfQ.i9L0gEtKZ0hTFs7qN6PA6RQy74E-sUQ_GKvVv5h7JJY&utm_medium=gift-link",
+      "summary_en": "The new Maia 300 chip will start rolling out to production AI workloads in 2027.",
       "source": "The Verge",
       "media_source": "The Verge",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i10.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261012/i21.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "How Musk and Benioff pledged to rename SpaceXAI and AIForce, while Nadella and Nvidia adopted “super intelligence”, as Silicon Valley falls in line with Trump",
-      "title_zh": "隨著矽谷向川普靠攏，馬斯克與 Benioff 承諾將公司更名為 SpaceXAI 與 AIForce，而 Nadella 與 Nvidia 則採用「超智慧」（super intelligence）一詞",
-      "summary_zh": "馬斯克、Benioff、黃仁勳以及現在的 Nadella，都已屈從於川普提出的「超智慧」品牌重塑。"
+      "thumbnail_alt": "Microsoft unveils its third-gen in-house AI chip, the Maia 300, built on TSMC's N2P process node and aimed at serving as its “primary AI inference system”",
+      "title_zh": "微軟發表第三代自研 AI 晶片 Maia 300，採用台積電 N2P 製程，旨在作為其「主要 AI 推理系統」",
+      "summary_zh": "新的 Maia 300 晶片將於 2027 年開始投入生產環境的 AI 工作負載。"
     },
     {
-      "title_en": "“Super Intelligence systems” are black boxes that shouldn't be trusted by companies, and strong deterministic systems are needed around their deployment",
-      "url": "https://x.com/satyanadella/status/2108931348857827686",
-      "summary_en": "As traditional software systems were being deployed across the economy over the last few decades, we had the tools …",
-      "source": "@satyanadella",
-      "media_source": "@satyanadella",
+      "title_en": "Microsoft says Maia 300 racks will hold 96 chips and use ~167 kW of power and plans to roll out “multi-gigawatt deployments” of the chip starting next year",
+      "url": "https://www.reuters.com/business/microsoft-plans-huge-deployment-its-own-ai-chips-with-an-eye-saving-costs-2026-10-12/",
+      "summary_en": "",
+      "source": "Reuters",
+      "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261010/i18.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "“Super Intelligence systems” are black boxes that shouldn't be trusted by companies, and strong deterministic systems are needed around their deployment",
-      "title_zh": "「超智慧系統」是不應被企業信任的黑盒子，其部署需要強大的確定性系統輔助",
-      "summary_zh": "過去幾十年傳統軟體系統在經濟各領域普及時，我們擁有對應的工具；但目前的 AI 部署則缺乏透明度。"
+      "techmeme_cluster_role": "related",
+      "title_zh": "微軟表示 Maia 300 機架可容納 96 顆晶片，耗電約 167 kW，並計劃明年起展開「數十億瓦規模」的部署",
+      "summary_zh": ""
     },
     {
-      "title_en": "Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well",
-      "url": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
-      "summary_en": "Call of Duty: Black Ops, Halo: CE, Grand Theft Auto: Vice City, Skate 3 and many more titles have been decompiled and ported to web browsers overnight",
-      "source": "Kotaku",
-      "media_source": "Kotaku",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261010/i17.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well",
-      "title_zh": "受 Claude Opus 5.5 驅動，數百款舊遊戲在近幾週被反編譯並移植到瀏覽器運行；《俠盜獵車手：罪惡城市》與《最後一戰》運行良好",
-      "summary_zh": "《決勝時刻：黑色行動》、《最後一戰：戰鬥進化》、《俠盜獵車手：罪惡城市》與《極限滑板 3》等多款作品在一夜之間被反編譯並移植到網頁瀏覽器。"
-    },
-    {
-      "title_en": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "summary_en": "Donald Trump's administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261010/i16.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny",
-      "title_zh": "消息人士：Nvidia 正洽談收購或加大投資美國開放權重 AI 新創 Reflection AI；該交易可能為人才併購（acquihire）以規避反壟斷審查",
-      "summary_zh": "川普政府希望該公司能與 DeepSeek 等廉價中國替代方案競爭。"
-    },
-    {
-      "title_en": "Sources: Amazon is in talks to buy AI startup Decart in a deal that could value it at ~$7B; Anthropic had decided against acquiring Decart for ~$6B in September",
-      "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad",
-      "summary_en": "San Francisco company's software makes it easier for developers to switch between different AI chips",
-      "source": "Wall Street Journal",
-      "media_source": "Wall Street Journal",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i11.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Amazon is in talks to buy AI startup Decart in a deal that could value it at ~$7B; Anthropic had decided against acquiring Decart for ~$6B in September",
-      "title_zh": "消息人士：Amazon 洽談以約 70 億美元收購 AI 新創 Decart；Anthropic 曾在 9 月放棄以 60 億美元收購該公司",
-      "summary_zh": "這家舊金山公司的軟體讓開發者能更輕鬆地在不同的 AI 晶片之間切換。"
-    },
-    {
-      "title_en": "A look at the economics of Anthropic's data center leases as analysts estimate a 245 MW site could yield ~$1.3B/mo; sources say it signed a cloud deal with IREN",
-      "url": "https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint",
-      "summary_en": "Why is Anthropic driving its partners to speed up the $530 billion of data center leasing deals it has signed?",
-      "source": "The Information",
-      "media_source": "The Information",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i9.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "A look at the economics of Anthropic's data center leases as analysts estimate a 245 MW site could yield ~$1.3B/mo; sources say it signed a cloud deal with IREN",
-      "title_zh": "分析 Anthropic 數據中心租賃的經濟效益：分析師估計 245 MW 站點月收益可達 13 億美元；消息稱其已與 IREN 簽署雲端協議",
-      "summary_zh": "為何 Anthropic 促使合作夥伴加快推進已簽署的 5,300 億美元數據中心租賃協議？"
-    },
-    {
-      "title_en": "Q&A with Palantir CTO Shyam Sankar on the Iran school strike and AI targeting, the DOD dropping Anthropic, AI liability, effective altruism, and more",
-      "url": "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/",
-      "summary_en": "The following is the full transcript of the interview with Shyam Sankar, chief technology officer of Palantir, a portion of which aired on …",
-      "source": "CBS News",
-      "media_source": "CBS News",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i12.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Q&A with Palantir CTO Shyam Sankar on the Iran school strike and AI targeting, the DOD dropping Anthropic, AI liability, effective altruism, and more",
-      "title_zh": "Palantir 技術長 Shyam Sankar 專訪：談論伊朗學校襲擊與 AI 目標鎖定、美國國防部棄用 Anthropic、AI 責任制及有效利他主義等議題",
-      "summary_zh": "以下是 Palantir 技術長 Shyam Sankar 的完整採訪逐字稿，部分內容已於先前播出。"
-    },
-    {
-      "title_en": "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes",
-      "url": "https://www.ft.com/content/e5fd2655-f95f-4183-9dd9-b3c1ebe67a6b",
-      "summary_en": "‘Physical AI’ developers are putting cameras in homes, offices and factories to fill a gap in the training material of robotics",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i6.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes",
-      "title_zh": "PitchBook：機器人與物理 AI 公司今年至今已募資約 480 億美元，透過人員在工廠、辦公室與家中完成任務來收集訓練數據",
-      "summary_zh": "「物理 AI」開發者正將攝影機部署在住宅、辦公室和工廠，以填補機器人訓練材料中的空白。"
-    },
-    {
-      "title_en": "Cloudflare acquires Deno, co-founded by Node.js creator Ryan Dahl, which had developed an open-source alternative to Cloudflare Workers and had raised $26M",
-      "url": "https://thenewstack.io/cloudflare-acquires-deno-ryan-dahl/",
-      "summary_en": "Cloudflare is buying the startup co-founded by Node.js creator Ryan Dahl, a longtime competitor that recently built its own open-source version …",
-      "source": "The New Stack",
-      "media_source": "The New Stack",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261010/i2.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Cloudflare acquires Deno, co-founded by Node.js creator Ryan Dahl, which had developed an open-source alternative to Cloudflare Workers and had raised $26M",
-      "title_zh": "Cloudflare 收購由 Node.js 創始人 Ryan Dahl 共同創立的 Deno；Deno 曾開發 Cloudflare Workers 的開源替代方案並募資 2,600 萬美元",
-      "summary_zh": "Cloudflare 正在收購由 Node.js 創始人 Ryan Dahl 共同創立的新創公司，該公司是其長期的競爭對手，近期還構建了自己的開源版本。"
-    },
-    {
-      "title_en": "Microsoft unveils Microsoft-Decision-1, a fast decision-scoring model trained on Qwen3.5-9B, and says it will soon rebase it on MAI, OpenAI, and other models",
-      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
-      "summary_en": "Decision models are quickly emerging as an important new category in AI. Unlike LLMs, which are designed to generate text …",
-      "source": "Command Line",
-      "media_source": "Command Line",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i2.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Microsoft unveils Microsoft-Decision-1, a fast decision-scoring model trained on Qwen3.5-9B, and says it will soon rebase it on MAI, OpenAI, and other models",
-      "title_zh": "微軟發表以 Qwen3.5-9B 訓練的快速決策評分模型 Microsoft-Decision-1，並表示近期將改用 MAI、OpenAI 等模型作為基礎",
-      "summary_zh": "決策模型正迅速成為 AI 的重要新類別。與旨在生成文本的 LLM 不同，這類模型專注於評估結果。"
-    },
-    {
-      "title_en": "A look at Beijing-based Neolix, which operates the world's largest robovan fleet at 27K, as Shenzhen tests nighttime parcel deliveries by driverless vehicles",
-      "url": "https://www.bloomberg.com/news/features/2026-10-08/china-s-delivery-robots-are-learning-to-tackle-the-night-shift?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTUxNTE0MiwiZXhwIjoxNzkyMTE5OTQyLCJhcnRpY2xlSWQiOiJUTU0yS0ZWVFRDWlYwMCIsImJjb25uZWN0SWQiOiJDNTc5RDIwMDZBQjQ0RjRDODkwMTU0M0U0ODMxNkJCNiJ9.b_-nqESa5G-X0MQKjbOdPR74AFxrdzrmpQ8ohKhMqic",
-      "summary_en": "Autonomous vehicle companies believe there's a huge market opportunity in delivering after dark, if the technical challenges can be overcome.",
+      "title_en": "Cyberattacks on Sunday night targeted Danfoss-managed refrigeration systems across hundreds of French supermarkets, heating them to 50°C for roughly six hours",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/french-supermarket-refrigeration-sites-hit-by-cyberattacks",
+      "summary_en": "Hundreds of supermarkets in France were hit by cyberattacks on Sunday night that disabled refrigeration systems and forced stores …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i5.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261012/i27.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "A look at Beijing-based Neolix, which operates the world's largest robovan fleet at 27K, as Shenzhen tests nighttime parcel deliveries by driverless vehicles",
-      "title_zh": "北京新石器（Neolix）營運全球最大的無人配送車隊（2.7 萬輛），深圳正測試無人駕駛車輛進行夜間包裹派送",
-      "summary_zh": "自動駕駛公司相信，如果能克服技術挑戰，深夜配送市場將隱藏著巨大的商機。"
+      "thumbnail_alt": "Cyberattacks on Sunday night targeted Danfoss-managed refrigeration systems across hundreds of French supermarkets, heating them to 50°C for roughly six hours",
+      "title_zh": "週日晚間的網路攻擊針對法國數百家超市由 Danfoss 管理的冷藏系統，使其升溫至 50°C 持續約六小時",
+      "summary_zh": "法國數百家超市在週日晚間遭受網路攻擊，導致冷藏系統停擺，迫使商店……"
     },
     {
-      "title_en": "General Medicine, an online storefront for medical care founded by PillPack founders TJ Parker and Elliot Cohen, raised a $120M Series B led by a16z",
-      "url": "https://www.fiercehealthcare.com/health-tech/general-medicine-banks-120m-backed-a16z-eli-lilly-and-mercy-health",
-      "summary_en": "General Medicine Andreessen Horowitz Mercy Health Eli Lilly — Artificial intelligence is making healthcare advice easier to access …",
-      "source": "Fierce Healthcare",
-      "media_source": "Fierce Healthcare",
+      "title_en": "Google unveils the $180 Fitbit Edge, featuring an oval, 1.34\" display and shipping October 27, replacing the Fitbit Charge 6 and discontinuing the Charge line",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/google-debuts-180-fitbit-edge-tracker-replacing-the-fitbit-charge-6",
+      "summary_en": "The Edge, which replaces the Fitbit Charge 6, offers consumers another vehicle for trying out the recently revamped Google Health app.",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261011/i1.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261012/i20.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "General Medicine, an online storefront for medical care founded by PillPack founders TJ Parker and Elliot Cohen, raised a $120M Series B led by a16z",
-      "title_zh": "由 PillPack 創辦人創立的線上醫療平台 General Medicine 完成由 a16z 領投的 1.2 億美元 B 輪融資",
-      "summary_zh": "a16z、Mercy Health 與 Eli Lilly 參與投資 —— AI 正使獲取醫療建議變得更加容易。"
+      "thumbnail_alt": "Google unveils the $180 Fitbit Edge, featuring an oval, 1.34\" display and shipping October 27, replacing the Fitbit Charge 6 and discontinuing the Charge line",
+      "title_zh": "Google 發表售價 180 美元的 Fitbit Edge，配備 1.34 吋橢圓螢幕，將於 10 月 27 日出貨，取代並停產 Charge 系列",
+      "summary_zh": "Edge 取代了 Fitbit Charge 6，為消費者提供了另一個體驗近期改版之 Google Health 應用程式的管道。"
+    },
+    {
+      "title_en": "Google says Health Guardian is launching later in October on the Fitbit Air and Edge for Google Health Premium users, and expands automatic activity tracking",
+      "url": "https://www.engadget.com/2283270/google-brings-health-guardian-to-the-fitbit-air-and-edge-and-expands-automatic-activity-tracking/",
+      "summary_en": "",
+      "source": "Engadget",
+      "media_source": "Engadget",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "Google 表示 Health Guardian 將於 10 月底在 Fitbit Air 與 Edge 上線，供 Google Health Premium 用戶使用，並擴展自動活動追蹤功能",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an “AI first” production model with “no more hand-written code”",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTgyOTQ5NCwiZXhwIjoxNzkyNDM0Mjk0LCJhcnRpY2xlSWQiOiJUTVQ0SDVSS1YyVEQwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.rC824FbXuutjticK4TKijZtWW-ewDWvg6AIoVnPo5IA",
+      "summary_en": "The company told the team behind the upcoming shooter that it will now be an ‘AI first’ production",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i39.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an “AI first” production model with “no more hand-written code”",
+      "title_zh": "消息人士：Epic 延後即將推出之遊戲的發行，指示開發者採用「AI 優先」生產模式，「不再手寫程式碼」",
+      "summary_zh": "公司告訴這款即將推出的射擊遊戲團隊，該作現在將轉為「AI 優先」生產模式。"
+    },
+    {
+      "title_en": "Elon Musk contributed $276M+ since July to Republican entities, including $158M to the Senate Leadership Fund; sources: he is taking a more hands-off approach",
+      "url": "https://www.nytimes.com/2026/10/12/us/politics/elon-musk-midterms.html?unlocked_article_code=1.IFE.aLC7.pvHMc8gKt-Fv&smid=nytcore-ios-share",
+      "summary_en": "The world's richest person has quietly become by far the biggest known midterm donor, trying to save Republicans' Senate majority …",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i19.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Elon Musk contributed $276M+ since July to Republican entities, including $158M to the Senate Leadership Fund; sources: he is taking a more hands-off approach",
+      "title_zh": "Elon Musk 自 7 月以來向共和黨實體捐款超過 2.76 億美元，包括向參議院領導基金捐贈 1.58 億美元；消息稱其採取更不干預的做法",
+      "summary_zh": "這位世界首富已悄然成為目前已知最大的期中選舉捐助者，試圖保住共和黨在參議院的多數席位……"
+    },
+    {
+      "title_en": "Sources: Bumble is in advanced talks to be taken private at a ~$1B valuation by Ithaca Holdings, founded recently by two Silicon Valley execs; BMBL jumps 49.61%",
+      "url": "https://www.wsj.com/business/deals/dating-app-bumble-in-advanced-talks-to-go-private-at-1-billion-valuation-fcc8c6ef",
+      "summary_en": "Founder Whitney Wolfe Herd expected to stay involved with company as part of deal — Bumble , the dating app founded by Whitney Wolfe Herd …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i37.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: Bumble is in advanced talks to be taken private at a ~$1B valuation by Ithaca Holdings, founded recently by two Silicon Valley execs; BMBL jumps 49.61%",
+      "title_zh": "消息人士：Bumble 正進行深入談判，擬由兩位矽谷高層新創的 Ithaca Holdings 以約 10 億美元估值私有化；BMBL 股價大漲 49.61%",
+      "summary_zh": "創辦人 Whitney Wolfe Herd 預計將作為交易的一部分繼續參與公司運作——Bumble 是由 Whitney Wolfe Herd 創辦的交友應用程式……"
+    },
+    {
+      "title_en": "X has refound its footing under Elon Musk, as it continues to host more interesting discussions on AI and other fun and smart topics than rival platforms",
+      "url": "https://daringfireball.net/2026/10/x_once_again_marks_the_spot",
+      "summary_en": "Upon taking the CEO helm last month, John Ternus began tweeting on X. He tweeted “hello”, posted an iPhone event eve teaser …",
+      "source": "Daring Fireball",
+      "media_source": "Daring Fireball",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "X 在 Elon Musk 領導下重拾腳步，在 AI 及其他趣味智慧話題的討論熱度持續超越競爭平台",
+      "summary_zh": "上個月接任執行長後，John Ternus 開始在 X 上發推。他發了聲「哈囉」，並發布了 iPhone 發表會前夕的預告……"
+    },
+    {
+      "title_en": "Broadcom CEO Hock Tan criticizes speculative AI investing, comparing uninformed investors to casino gamblers and questioning the long-term economics of AI labs",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/broadcom-ceo-likens-many-ai-investors-to-casino-gamblers",
+      "summary_en": "The AI boom has attracted investors whose strategies resemble those of gamblers, Broadcom Inc. Chief Executive Officer Hock Tan said …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i16.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Broadcom CEO Hock Tan criticizes speculative AI investing, comparing uninformed investors to casino gamblers and questioning the long-term economics of AI labs",
+      "title_zh": "博通 (Broadcom) 執行長陳福陽批評投機性 AI 投資，將不明就裡的投資者比作賭場賭客，並質疑 AI 實驗室的長期經濟效益",
+      "summary_zh": "博通執行長陳福陽表示，AI 熱潮吸引了策略類似賭徒的投資者……"
+    },
+    {
+      "title_en": "Speaking in Singapore, Broadcom CEO Hock Tan and Intel CEO Lip-Bu Tan warn that access to capital and rising borrowing costs could become AI's main bottleneck",
+      "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+      "summary_en": "",
+      "source": "CNBC",
+      "media_source": "CNBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "title_zh": "博通執行長陳福陽與 Intel 執行長陳立武在新加坡發表講話，警告資金獲取與上升的借貸成本可能成為 AI 發展的主要瓶頸",
+      "summary_zh": ""
+    },
+    {
+      "title_en": "Googlebooks hands-on: a rocky start, with severe connectivity, file-sharing, and software stability issues; core productivity software lacks full desktop parity",
+      "url": "https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing",
+      "summary_en": "As an Android devotee, I want to love Googlebooks — but they don't make it easy. … My first week with the new Android-powered laptops …",
+      "source": "The Verge",
+      "media_source": "The Verge",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i26.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Googlebooks hands-on: a rocky start, with severe connectivity, file-sharing, and software stability issues; core productivity software lacks full desktop parity",
+      "title_zh": "Googlebooks 實測：出師不利，面臨嚴重的連線、檔案共享及軟體穩定性問題；核心生產力軟體功能未達桌面等級",
+      "summary_zh": "身為 Android 愛好者，我想愛上 Googlebooks——但它們讓這件事變得很難。……我使用這款搭載 Android 系統筆電的第一週……"
+    },
+    {
+      "title_en": "Anthropic researchers say small AI models may be months away from being able to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "summary_en": "Our experiments suggest that small AI models may be months away from being capable enough to self-replicate on commercial IoT devices …",
+      "source": "Anthropic",
+      "media_source": "Anthropic",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i40.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Anthropic researchers say small AI models may be months away from being able to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes",
+      "title_zh": "Anthropic 研究人員表示，小型 AI 模型可能在幾個月內就能在智慧烤箱、白牌 Android 電視盒等 IoT 設備上自我複製",
+      "summary_zh": "我們的實驗表明，小型 AI 模型可能在幾個月後就具備足夠的能力在商用 IoT 設備上自我複製……"
+    },
+    {
+      "title_en": "Microsoft President Brad Smith calls for global safety regulations for AI, arguing that milk and washing machines currently face more stringent safety standards",
+      "url": "https://www.bbc.com/news/articles/c6rmy7zmvx3lo",
+      "summary_en": "Milk and washing machines are currently more regulated than AI, the president of Microsoft has said.",
+      "source": "BBC",
+      "media_source": "BBC",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i14.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Microsoft President Brad Smith calls for global safety regulations for AI, arguing that milk and washing machines currently face more stringent safety standards",
+      "title_zh": "微軟總裁 Brad Smith 呼籲對 AI 進行全球安全監管，稱目前牛奶和洗衣機面臨的安全標準更為嚴格",
+      "summary_zh": "微軟總裁表示，目前對牛奶和洗衣機的監管比對 AI 的監管還要多。"
+    },
+    {
+      "title_en": "Sources: the US restores the UK AISI's access to the latest US models for safety testing, after ordering OpenAI and Anthropic to stop sharing models last month",
+      "url": "https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/",
+      "summary_en": "US had blocked regulators from reviewing frontier models from Anthropic, OpenAI and Google DeepMind",
+      "source": "Telegraph",
+      "media_source": "Telegraph",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i4.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: the US restores the UK AISI's access to the latest US models for safety testing, after ordering OpenAI and Anthropic to stop sharing models last month",
+      "title_zh": "消息人士：美國在上個月要求 OpenAI 與 Anthropic 停止分享模型後，現已恢復英國 AISI 獲取最新美國模型進行安全測試的權限",
+      "summary_zh": "美國曾封鎖監管機構審查 Anthropic、OpenAI 及 Google DeepMind 前沿模型的權限。"
+    },
+    {
+      "title_en": "Quantum computing company IonQ agrees to buy Elisity, which helps stop cyberattacks and ransomware from spreading, in an all-stock deal valued at up to $1.3B",
+      "url": "https://www.wsj.com/business/deals/quantum-computing-company-ionq-to-buy-cybersecurity-firm-for-up-to-1-3-billion-65af65bd?st=uPLJKd&reflink=desktopwebshare_permalink",
+      "summary_en": "Privately held Elisity stops cyber attackers and ransomware from spreading across organizations",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i15.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Quantum computing company IonQ agrees to buy Elisity, which helps stop cyberattacks and ransomware from spreading, in an all-stock deal valued at up to $1.3B",
+      "title_zh": "量子運算公司 IonQ 同意以高達 13 億美元的全股票交易收購 Elisity，該公司致力於防止網路攻擊與勒索軟體擴散",
+      "summary_zh": "私有公司 Elisity 負責防止網路攻擊者與勒索軟體在組織間擴散。"
+    },
+    {
+      "title_en": "A profile of Microsoft EVP of Copilot Charles Lamanna, a potential Satya Nadella successor; a source says Microsoft is on track to pay Anthropic $2B+ per year",
+      "url": "https://www.theinformation.com/articles/microsofts-new-office-chief-fixed-copilot-won-nadella",
+      "summary_en": "In the summer of 2025, Microsoft was fielding customer complaints that its AI assistant, Copilot, was buggy and not good enough at automating work in Excel or PowerPoint.",
+      "source": "The Information",
+      "media_source": "The Information",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i23.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "A profile of Microsoft EVP of Copilot Charles Lamanna, a potential Satya Nadella successor; a source says Microsoft is on track to pay Anthropic $2B+ per year",
+      "title_zh": "微軟 Copilot 執行副總裁 Charles Lamanna 人物誌，其為 Satya Nadella 的潛在繼任者；消息稱微軟每年預計向 Anthropic 支付超過 20 億美元",
+      "summary_zh": "2025 年夏天，微軟正處理客戶對其 AI 助手 Copilot 的投訴，稱其存在錯誤且在 Excel 或 PowerPoint 的自動化工作表現不佳。"
+    },
+    {
+      "title_en": "Analysis: constructing and equipping a 1GW AI data center in Abilene, Texas, could cost ~$30B, including $17B on chips, $3B on power, and $2.4B on construction",
+      "url": "https://www.bloomberg.com/features/2026-ai-data-center-build-costs/?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTgyMTYzNywiZXhwIjoxNzkyNDI2NDM3LCJhcnRpY2xlSWQiOiJUTVNJSUVLSUpIQTgwMCIsImJjb25uZWN0SWQiOiIzQjk1QzU5QzVEM0M0RjcwQkNFQUQ2NDZDRUE1QkFCOSJ9.VxLn0QarUOI8aJCg9j_vuwwoYDDMJ4T9QNJhEPxnwmc",
+      "summary_en": "Roughly $750 billion. That's how much Meta Platforms Inc., Amazon.com Inc., Microsoft Corp. and Google owner Alphabet Inc …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i24.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Analysis: constructing and equipping a 1GW AI data center in Abilene, Texas, could cost ~$30B, including $17B on chips, $3B on power, and $2.4B on construction",
+      "title_zh": "分析：在德州阿比林建設並裝備一座 1GW AI 資料中心可能耗資約 300 億美元，包含 170 億美元晶片、30 億美元電力及 24 億美元施工費用",
+      "summary_zh": "大約 7,500 億美元。這是 Meta、亞馬遜、微軟及 Google 母公司 Alphabet 的總投入規模……"
+    },
+    {
+      "title_en": "Global smartphone shipments fell 20% YoY in Q3 to a 14-year low amid memory shortages; Apple's share crossed 20% for the first time in any Q3, reaching 22%",
+      "url": "https://counterpointresearch.com/en/insights/global-smartphone-shipments-hit-a-new-low-with-20-percent-yoy-decline-lowest-in-14-years",
+      "summary_en": "The global smartphone market declined 20% YoY in Q3 2026, reaching its lowest Q3 level in 14 years, as continued memory shortages constrained supply for most OEMs.",
+      "source": "Counterpoint Research",
+      "media_source": "Counterpoint Research",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "title_zh": "第三季全球智慧型手機出貨量年減 20% 創 14 年新低，受記憶體短缺影響；Apple 市佔率首度在第三季突破 20%，達到 22%",
+      "summary_zh": "2026 年第三季全球智慧型手機市場年減 20%，創下 14 年來同季最低紀錄，主因是持續的記憶體短缺限制了大多數 OEM 廠商的供應。"
+    },
+    {
+      "title_en": "Digital infrastructure company SWI raised €800M to upgrade its data centers, including some from Genesis Digital, a bitcoin miner snarled in FTX's bankruptcy",
+      "url": "https://www.wsj.com/finance/currencies/ftxs-old-bitcoin-mining-assets-are-now-part-of-the-ai-boom-76fe9037?st=2ucRuF&reflink=desktopwebshare_permalink",
+      "summary_en": "Data-center company sees potential in what has been described as one of Sam Bankman-Fried's ‘most reckless investments’",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261012/i11.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Digital infrastructure company SWI raised €800M to upgrade its data centers, including some from Genesis Digital, a bitcoin miner snarled in FTX's bankruptcy",
+      "title_zh": "數位基礎設施公司 SWI 募資 8 億歐元升級資料中心，包含收購受 FTX 破產波及的比特幣礦商 Genesis Digital 部分資產",
+      "summary_zh": "資料中心公司從被譽為 Sam Bankman-Fried「最魯莽投資」之一的資產中看見潛力。"
     }
   ],
   "wsj": [
+    {
+      "title_en": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
+      "url": "https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4?mod=rss_Technology",
+      "summary_en": "The new model, called Muse Wonder, arrives as global downloads of the company’s personal-assistant agent have slowed....",
+      "image_url": "https://images.wsj.net/im-60013381",
+      "image_source": "rss_media_content",
+      "image_alt": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
+      "title_zh": "Meta 稱新款 AI 模型達頂尖水準，將提升 Muse 代理人的智慧化表現",
+      "summary_zh": "這款名為 Muse Wonder 的新模型問世之際，正值該公司個人助理代理人的全球下載量放緩。"
+    },
+    {
+      "title_en": "AI Fuels M&A Machine",
+      "url": "https://www.wsj.com/cio-journal/ai-fuels-m-a-machine-282e1e04?mod=rss_Technology",
+      "summary_en": "Plus, the enterprise search for AI-fueled productivity continues...",
+      "image_url": "https://images.wsj.net/im-73625851",
+      "image_source": "rss_media_content",
+      "image_credit": "Dado Ruvic/Reuters",
+      "image_alt": "AI Fuels M&A Machine",
+      "title_zh": "AI 驅動企業併購浪潮",
+      "summary_zh": "此外，企業對於利用 AI 提升生產力的探索仍持續進行。"
+    },
     {
       "title_en": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion",
       "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad?mod=rss_Technology",
@@ -222,7 +341,7 @@
       "image_source": "rss_media_content",
       "image_credit": "Bridget Bennett/Bloomberg News",
       "image_alt": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion",
-      "title_zh": "Amazon 洽談以約 70 億美元收購 AI 新創 Decart",
+      "title_zh": "亞馬遜傳正洽談以約 70 億美元收購 AI 新創 Decart",
       "summary_zh": "這家舊金山公司的軟體讓開發者能更輕鬆地在不同的 AI 晶片之間切換。"
     },
     {
@@ -234,7 +353,7 @@
       "image_credit": "Terms & Conditions for WSJ, Getty Images",
       "image_alt": "The Compute Gold Rush",
       "title_zh": "算力淘金熱",
-      "summary_zh": "此外還包含：可監測血壓的穿戴裝置、致力於扭轉 Anthropic「覺醒」形象的共同創始人，以及個人 AI 代理脫稿演出的應對方案等。"
+      "summary_zh": "此外還包括追蹤血壓的穿戴裝置、對抗 Anthropic「覺醒」名聲的共同創辦人，以及個人 AI 代理人脫稿演出時的情況等。"
     },
     {
       "title_en": "AI Has a God Problem Stretching From the Vatican to the Baptist Pulpit",
@@ -244,8 +363,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Alexandra Citrin-Safadi/WSJ",
       "image_alt": "AI Has a God Problem Stretching From the Vatican to the Baptist Pulpit",
-      "title_zh": "AI 引起宗教爭議：從梵蒂岡到浸信會講壇的「上帝問題」",
-      "summary_zh": "宗教領袖紛紛表達看法，為技術開發者創造了新的政治風險。"
+      "title_zh": "AI 面臨宗教倫理挑戰，波及梵蒂岡與浸信會講壇",
+      "summary_zh": "宗教領袖紛紛表達看法，為技術開發者帶來了新的政治風險。"
     },
     {
       "title_en": "How to Keep Your Webcam Safe From Prying Eyes",
@@ -255,19 +374,19 @@
       "image_source": "rss_media_content",
       "image_credit": "Audrey Valbuena/WSJ; Adobe Stock",
       "image_alt": "How to Keep Your Webcam Safe From Prying Eyes",
-      "title_zh": "如何保護你的網路攝影機免受窺探",
-      "summary_zh": "弱密碼、過時軟體和不安全的 Wi-Fi 可能會讓陌生人存取你的居家監控畫面。"
+      "title_zh": "如何保護視訊鏡頭免受窺探",
+      "summary_zh": "弱密碼、過時的軟體和不佳的 Wi-Fi 安全性都可能讓陌生人進入你的家用攝影機。"
     },
     {
-      "title_en": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
-      "url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e?mod=rss_Technology",
-      "summary_en": "A desert trial exposed equipment limitations and institutional hurdles in the Army’s push to modernize and keep pace with an AI-savvy adversary....",
-      "image_url": "https://images.wsj.net/im-69150847",
+      "title_en": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-af51bae6?mod=rss_Technology",
+      "summary_en": "Find insight on Meta, IonQ, T-Mobile and more in the latest Market Talks covering technology, media and telecom....",
+      "image_url": "https://images.wsj.net/im-62208381",
       "image_source": "rss_media_content",
-      "image_credit": "Ethan Swope",
-      "image_alt": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
-      "title_zh": "美國陸軍沙漠技術測試顯示 AI 戰爭之路依舊漫長",
-      "summary_zh": "一場沙漠試驗揭示了陸軍在現代化進程中，為了跟上精通 AI 的對手所面臨的設備限制與制度障礙。"
+      "image_credit": "Tingshu Wang/Reuters",
+      "image_alt": "Tech, Media & Telecom Roundup: Market Talk",
+      "title_zh": "科技、媒體與電信產業回顧：市場探討",
+      "summary_zh": "在最新的科技、媒體與電信市場探討中，深入了解 Meta、IonQ、T-Mobile 等公司的見解。"
     },
     {
       "title_en": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
@@ -277,8 +396,8 @@
       "image_source": "rss_media_content",
       "image_credit": "JASON SCHNEIDER FOR WSJ",
       "image_alt": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
-      "title_zh": "OpenAI 在防止 AI 驅動的 ChatGPT 幻覺方面取得進展",
-      "summary_zh": "心理健康專家就這款熱門聊天機器人如何提出更好的問題，以及如何區分危機與其他心理狀況提供建議。"
+      "title_zh": "OpenAI 在防止 ChatGPT 的 AI 幻覺方面取得進展",
+      "summary_zh": "心理健康專家針對這款熱門聊天機器人如何提出更好的問題，並區分危機與其他狀況提供了建議。"
     },
     {
       "title_en": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip",
@@ -288,8 +407,8 @@
       "image_source": "rss_media_content",
       "image_credit": "David Paul Morris/Bloomberg News",
       "image_alt": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip",
-      "title_zh": "Anthropic AI 模型失控，提交虛假未解謀殺案舉報",
-      "summary_zh": "這家 AI 巨頭在其模型提交虛假資訊兩個月後，向費城警方發出了警報。"
+      "title_zh": "Anthropic AI 模型失控，提交虛假的未破謀殺案線索",
+      "summary_zh": "在模型提交錯誤資訊兩個月後，這家 AI 巨頭向費城警方發出了警示。"
     },
     {
       "title_en": "The Desperate Hunt for AI Computing Power Is Upending Silicon Valley",
@@ -300,29 +419,7 @@
       "image_credit": "Terms & Conditions for WSJ, Getty Images",
       "image_alt": "The Desperate Hunt for AI Computing Power Is Upending Silicon Valley",
       "title_zh": "對 AI 算力的迫切需求正顛覆矽谷",
-      "summary_zh": "死對頭正結成聯盟，高管們不得不親自干預，以爭奪推動 AI 熱潮所需的資源。"
-    },
-    {
-      "title_en": "The Other Anthropic Founder Trying to Fix the Company’s ‘Woke’ Reputation",
-      "url": "https://www.wsj.com/tech/ai/tom-brown-athropic-669005ad?mod=rss_Technology",
-      "summary_en": "Tom Brown is leveraging his Republican ties and business savvy to win over Washington and secure the computing power Anthropic needs....",
-      "image_url": "https://images.wsj.net/im-56078428",
-      "image_source": "rss_media_content",
-      "image_credit": "ZUMAPRESS.com",
-      "image_alt": "The Other Anthropic Founder Trying to Fix the Company’s ‘Woke’ Reputation",
-      "title_zh": "另一位 Anthropic 創辦人正試圖修復公司的「覺醒」名聲",
-      "summary_zh": "Tom Brown 正利用其共和黨關係和商業手腕來爭取華盛頓的支持，並確保 Anthropic 所需的算力。"
-    },
-    {
-      "title_en": "Extreme Weather Is Everywhere Now—How to Prepare Your Home",
-      "url": "https://www.wsj.com/tech/ai/extreme-weather-is-everywhere-nowhow-to-prepare-your-home-f5abcc52?mod=rss_Technology",
-      "summary_en": "Plus, how AI could help short-staffed fire departments, the silent electronic battleground shaping warfare, and the startup trying to double the world’s compute....",
-      "image_url": "https://images.wsj.net/im-35764097",
-      "image_source": "rss_media_content",
-      "image_credit": "Sam Gulliver for WSJ",
-      "image_alt": "Extreme Weather Is Everywhere Now—How to Prepare Your Home",
-      "title_zh": "極端天氣現已無處不在——如何為家園做好準備",
-      "summary_zh": "此外，還介紹了 AI 如何幫助人手不足的消防部門、塑造戰爭的無聲電子戰場，以及一家試圖將全球算力翻倍的新創公司。"
+      "summary_zh": "競爭對手正結成聯盟，高層們不得不親自介入，以爭奪推動 AI 熱潮所需的資源。"
     }
   ],
   "deep_analysis": {
@@ -353,15 +450,15 @@
       "content_mode": "ai_analysis"
     },
     "Culpium": {
-      "title": "台積電、德州與超大型晶圓廠的競合：魏哲家的承諾與 Intel 的追趕 (Inside TSMC, Texas, and the Terafab Tango)",
+      "title": "CASCI 2026年9月報告：Culpium 亞洲供應鏈指數的初步觀察",
       "source": "Culpium",
-      "article_date": "2026-10-11",
-      "url": "https://www.culpium.com/p/inside-tsmc-texas-and-the-terafab",
-      "analysis_zh": "### 全文大意摘要：台積電董事長魏哲家以「保證供貨」策略鞏固客戶信心，應對美、德擴張挑戰\n\n這篇由資深科技評論人 Tim Culpan 撰寫的深度觀察，揭露了台積電董事長魏哲家兩年前與重要客戶之間一段耐人尋味的對話。當時，全球供應鏈正面臨前所未有的不確定性，客戶極度擔憂未來可能陷入「無晶片可用」的困境。魏哲家以極具台積電風格的強悍態度回應：只要願意付錢，台積電就能保證供貨。這番話不僅是商業承諾，更揭示了台積電在全球擴張過程中，如何利用其強大的執行力與規模經濟，在美國與 Intel 展開一場關於「產能確定性」的博弈，並透過 Terafab（超大型晶圓廠）的運作邏輯維繫其全球龍頭地位。\n\n### 戰略背景與脈絡：地緣政治與產能安全性驅動的半導體版圖重構\n\n過去幾年，半導體產業的競爭軸線已經從單純的製程技術領先，轉向了「產能安全性」與「供應鏈韌性」的角力。在美國晶片法案與地緣政治的推力下，台積電被迫踏出熟悉的台灣基地，前往亞利桑那州甚至可能是德州建立先進製程據點。這不僅僅是地理上的位移，更是商業模式的巨大挑戰。\n\n在海外建廠成本高昂、文化衝突不斷的背景下，台積電面臨著一方面要維持毛利率，另一方面要應對 Intel 在後方虎視眈眈、試圖奪回代工主導權的雙重壓力。在此脈絡下，魏哲家所強調的「供貨保證」不再只是合約條款，而是台積電在混亂局勢中賦予客戶的核心價值。對於像 Apple 或 Nvidia 這樣的頂尖客戶來說，比起政治性的承諾，他們更在乎的是在需求爆發時，是否有一家公司能以穩定的良率和絕對的產能撐起整個生態系。\n\n### 作者的核心推論與觀點：魏哲家的「付錢就有貨」論述揭示了台積電對產能定價權的絕對自信\n\n作者指出，魏哲家對客戶的回答看似直白、甚至帶點傲慢，但其背後隱含了台積電最核心的競爭優勢：透過 Terafab 體系建立的規模經濟與定價權。這句話的核心意義在於，台積電有信心整合其全球資源，只要商業條件（價格）談妥，就能排除任何地緣政治或技術障礙來交付產品。這種「執行力的餘裕」是目前競爭對手 Intel 最缺乏的特質。\n\n相較於 Intel 還在為製程節點的推進與良率穩定性苦苦掙扎，台積電展現的是一種「只要承諾，就能做到」的確定性。這種確定性讓頂級客戶敢於簽下長期訂單，進而支撐起台積電在美國建廠的高昂成本。作者認為，這場「Terafab 探戈」的勝負關鍵不在於誰先宣稱達成了某個技術指標，而在於誰能讓客戶在下單時感到真正的安心。台積電正在將這種「安心感」商品化，並轉化為實質的市場份額與溢價。\n\n### 對市場、技術與政策環境的長期影響：半導體代工轉向以「韌性與產能規模」為主的全球基礎設施競賽\n\n長期來看，台積電的這種策略將加劇半導體代工產業的「大者恆大」趨勢。儘管各國政府力推供應鏈分散化，但最尖端的產能與技術最終仍會流向最具執行效率與資源整合能力的公司。這對 Intel 來說是極大的警訊：如果台積電能在美國本土成功複製其台灣的供貨穩定性，那麼 Intel 僅憑「美國製造」的政治正確性，將難以在商業市場上說服一線大廠轉單。\n\n此外，這也代表未來先進製程的競爭將演變成一場包含水、電、土地、勞動力與物流整合的全球基礎設施競賽。所謂的「Terafab」管理能力將成為衡量半導體公司競爭力的關鍵指標。這種競爭模式會導致半導體開發的成本門檻進一步墊高，中小型業者可能更難以在先進製程領域立足，最終市場將由少數幾家能玩得起這種「產能金錢遊戲」的巨頭所主宰。",
+      "article_date": "2026-10-12",
+      "url": "https://www.culpium.com/p/casci-september-2026-culpium-executive",
+      "analysis_zh": "### 全文大意摘要：亞洲科技供應鏈年度旺季的關鍵動能盤點\n\n這篇文章源自資深科技分析師 Tim Culpan 在其專欄《Culpium》發布的最新通知，宣布 2026 年 9 月份的 CASCI（Culpan 亞洲供應鏈指數）複合報告已正式上線。這份報告屬於針對付費訂閱用戶（Executive 方案）提供的深度分析，其核心目的在於透過彙整亞洲主要電子代工廠、半導體供應商及零組件廠商的月營收表現，量化全球科技產業在第三季末的拉貨強度。雖然原文作為導流訊息並未公開具體的指數數值，但它標誌著市場進入了驗證「AI 硬體需求」與「傳統電子旺季」是否達標的關鍵結算期。\n\n### 戰略背景與脈絡：衡量全球電子產業健康度的領先指標\n\nCASCI 指數之所以在科技商業圈具有高度權威，是因為它主要基於台灣與亞洲供應鏈企業（如台積電、鴻海、聯發科等）透明度極高的月營收數據。9 月份通常是全球電子產業最關鍵的時點，因為這涵蓋了蘋果新機發表後的全球首波拉貨高峰，以及各大品牌為年底聖誕購物季所做的庫存準備。在 2026 年的背景下，市場正處於 AI 伺服器需求持續高漲、但消費性電子產品（如手機與筆電）復甦動能尚不穩定的交會點，因此 9 月份的營收總結對於判斷 Q4 的產業走勢具有決定性意義。\n\n### 作者的核心推論與觀點：從月營收複合增長判斷產業週期位階\n\n雖然詳細數據受限於付費牆，但從 Tim Culpan 過往的分析邏輯可以推論，這份報告的核心觀察點在於 2026 年 9 月的營收增長是否能「優於季節性常態」。作者通常會將當前的複合營收與過去五年的歷史平均曲線進行對比，藉此判斷當前的增長是由於 AI 基礎建設帶來的結構性轉變，還是僅僅是傳統的季節性補貨。此外，作者可能在報告中探討了供應鏈端的產能利用率，特別是在 2nm 或 3nm 等先進製程產能滿載的情況下，二線零組件廠商是否也同步受惠，這將直接反映出科技產業復甦的寬度與深度。\n\n### 對市場、技術與政策環境的長期影響：決定 2026 年底投資信心與資源配置的基準\n\nCASCI 9 月報告的結論將直接影響全球投資者對於科技股估值的判斷，特別是在 AI 概念股是否已經過度反應的爭論中，這份實證數據提供了最直接的參考依據。如果報告顯示 9 月動能強勁，將進一步支撐半導體業擴張產能的長期計畫，並可能推動更多資金流向亞洲供應鏈。反之，若指數顯示旺季效應不如預期，則可能引發市場對於消費性電子需求疲軟的憂慮，進而導致供應鏈內部的庫存調整壓力再次上升。從長期來看，這種基於營收的實體指標，也是觀察全球地緣政治環境下，供應鏈遷移是否對生產效率造成實質影響的重要數據基礎。",
       "insights": [
-        "台積電董事長魏哲家將晶圓代工的競爭本質，從「技術規格」轉向「商業執行力的絕對保證」；這種以價格換取供貨確定性的邏輯，正是台積電在海外高成本環境下維持毛利的戰略核心。",
-        "「Terafab（超大型晶圓廠）」的競爭核心不在於廠房大小，而在於背後整套供應鏈的信任體系；台積電在美國的勝負手，取決於能否複製那種「只要客戶付費，產能就精準到位」的確定性，而非僅是技術領先。",
-        "Intel 在這場競爭中最大的障礙並非技術節點的數字，而是如何像台積電一樣建立起客戶對其「產能韌性」與「商業承諾履行力」的長期信心，這是政治口號無法取代的商業實力。"
+        "CASCI 報告是科技產業 9 月營收的「第一手體檢」，其複合數據將直接證實 AI 手機與 AI PC 的換機潮是否真的在 2026 年秋季發生。",
+        "9 月份的表現是判斷全球科技產業能否順利從「AI 基礎設施建設期」轉向「終端設備拉貨期」的關鍵轉折點。",
+        "雖然具體數值被鎖在付費牆後，但該報告的發布提示投資者應立即比對亞洲各大代工龍頭剛剛結算的營收年增率，這對 Q4 投資佈局具有最高的前瞻意義。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -379,41 +476,41 @@
       "content_mode": "ai_analysis"
     },
     "BigTechnology": {
-      "title": "Anthropic IPO 前夕關鍵數據：Claude 如何在 ChatGPT 領地搶下版圖",
-      "source": "Big Technology",
-      "article_date": "2026-10-05",
-      "url": "https://www.bigtechnology.com/p/the-key-anthropic-numbers-you-need",
-      "analysis_zh": "### 全文大意摘要：Anthropic 靠著高黏著度在 AI 市場發起超車攻勢\n\n這篇文章由 Big Technology 作者 Alex Kantrowitz 撰寫，引用了第三方數據分析公司 Similarweb 與 Apptopia 的多項關鍵指標，深度解析 AI 獨角獸 Anthropic 在掛牌上市（IPO）前的競爭戰鬥力。數據顯示，Anthropic 旗下的 Claude 不僅在流量與下載量上大幅成長，更直接威脅到龍頭 ChatGPT 的地位。最核心的觀察在於，Claude 的用戶使用時長已超越所有競爭對手，且在企業端的採用率正呈現爆發式成長，顯示其產品在高品質與高專業度需求中，已經建立起強大的競爭優勢。\n\n### 戰略背景與脈絡：AI 助理市場正在進入「單一選擇」的零和遊戲\n\n目前的 AI 助理市場正處於高度競爭狀態，根據 Apptopia 的數據，超過 80% 的用戶在日常生活中只會選擇「一個」最慣用的聊天機器人。這代表市場並非無限制擴張，而是一場殘酷的存量爭奪戰。過去一年，ChatGPT 雖然仍是領頭羊，但其每日活躍用戶（DAU）的市佔率已從年初的 41.8% 下滑至 9 月的 30.7%。這空出來的份額很大一部分被 Anthropic 填補，Claude 的 DAU 市佔率在同期從 1.4% 暴增至 14.9%，這反映出市場正從「嚐鮮期」轉向「品牌選擇期」，用戶開始根據產出品質與穩定性挑選真正長久使用的工具。\n\n### 作者的核心推論與觀點：高品質用戶正在轉移，Claude 的「黏著度」是最強武器\n\n作者透過數據指出，Claude 目前展現出極強的「吸力」。當用戶同時安裝 ChatGPT 與 Claude 時，他們在 ChatGPT 上花費的時間會平均減少 13.5%，這證明兩者具備高度替代性，且 Claude 在體驗上能贏得更多時間。數據更顯示，Claude 用戶平均每天使用時間長達 27 分鐘，不僅高於 ChatGPT 的 23.1 分鐘，也領先於馬斯克的 Grok。這種高參與度通常意味著用戶在處理更複雜、更具生產力的任務，而非單純的休閒閒聊。此外，代表企業採用的 SSO 登入流量自 3 月以來成長了四倍，這對 Anthropic 的營收轉正與 IPO 估值至關重要，顯示其商業化路徑已從個人端成功跨足到含金量更高的企業市場。\n\n### 對市場、技術與政策環境的長期影響：領先優勢正在稀釋，多強鼎立的局面已成定局\n\n這份數據顯示 AI 產業的權力結構正在劇烈鬆動。雖然 OpenAI 擁有品牌先發優勢，但 Anthropic 證明了「技術差異化」與「更細緻的對齊策略」能夠轉化為實質的市佔率。長期來看，這會促使各大廠更專注於提升特定場景（如撰寫程式、專業分析）的用戶留存率，而非單純追求用戶總數。對於即將 IPO 的 Anthropic 而言，如何在下載量增長放緩（9 月已出現下滑）的同時，維持住這群高黏著度的專業用戶，並將其轉化為可持續的訂閱營收，將是資本市場評斷其價值的關鍵。市場正逐漸告別 OpenAI 一枝獨秀的時代，進入由少數幾家頂尖業者瓜分的成熟競爭格局。",
+      "title": "Can AI Keep Growing Exponentially? SemiAnalysis Makes the Case / AI 基礎設施建設是否被低估？SemiAnalysis 認為投資數字其實還太小",
+      "source": "BigTechnology",
+      "article_date": "2026-10-12",
+      "url": "https://www.bigtechnology.com/p/can-ai-keep-growing-exponentially",
+      "analysis_zh": "### 全文大意摘要：AI 運算軍備競賽規模可能遠超外界想像\n\n這篇文章整理自 Big Technology Podcast 與知名半導體分析機構 SemiAnalysis 的深度對談。SemiAnalysis 創辦人 Dylan Patel 與技術專家 Jordan Nanos 指出，目前市場流傳關於 AI 基礎設施投資的數據（約佔 GDP 的 3.6%）其實還低估了現實情況。儘管面臨電力、資金與設備供應的限制，全球對運算能力的需求依然遠高於供給。作者認為，AI 的獲利能力不應僅從現有的訂閱服務或 API 計費模式來衡量，而應擴大到藥物研發、晶片設計等更深層的經濟價值創造。這場對談也探討了 Nvidia 的融資策略、GPU 雲端供應商的效能評比，以及為何頂尖實驗室未來可能會將最強的模型留作私用，而非公開提供。\n\n### 戰略背景與脈絡：AI 建設規模正超越歷史上的鐵路大擴張\n\n目前市場對於 AI 投資是否過熱存在高度分歧。根據網路上流傳的一份對比數據，AI 基礎設施的建設支出約佔年度 GDP 的 3.6%，高於歷史上鐵路黃金時期的 2.2%。這引起了許多關於「AI 泡沫」的質疑，認為這麼龐大的投入難以在短期內回收。然而 SemiAnalysis 的觀點正好相反，他們認為由於 AI 的運算力將直接轉化為生產力，目前的建設規模不僅尚未到頂，甚至因為零件與營建鏈的瓶頸而被動地「被壓抑」了。也就是說，如果有更多晶片與電力，市場會投入更多資金，因為運算資源已成為各國與各大企業最核心的戰略資產。\n\n### 作者的核心推論與觀點：AI 的回報不應侷限於軟體訂閱費用\n\nDylan Patel 與 Jordan Nanos 指出，目前分析師多半陷入了「想像力不足」的陷阱。多數人只會計算有多少人用 ChatGPT 或 Claude 的付費方案，卻忽略了 AI 對於提升高價值產業效率的潛力。例如在半導體產業，AI 已經開始參與晶片設計，這不僅能大幅縮短研發週期，還能優化製程效能，這背後隱藏的價值是數十億美元級別的，而非僅是每個月幾十美元的訂閱費。他們提出一個關鍵觀點：經濟價值的核心正在從「勞動力」轉移到「運算資本」。這意味著企業未來的獲利關鍵，在於手中掌握了多少可以進行自動化判斷與創造的運算力，而非單純雇傭了多少員工。\n\n### 對市場、技術與政策環境的長期影響：運算力霸權與安全性隱憂將重塑產業結構\n\n從長遠來看，這場軍備競賽將導致市場出現明顯的「運算力階級制度」。Nvidia 不僅在硬體上領先，更透過複雜的融資與供應鏈操作鎖定客戶。同時，這場擴張也暴露了嚴重的安全性漏洞。SemiAnalysis 在調查中發現，現有的 GPU 叢集基礎設施在安全性上極其脆弱，這對於未來將核心研發資料交給 AI 處理的企業來說是巨大的隱憂。此外，隨著模型開發成本攀升，領先的實驗室（如 Google DeepMind）可能會傾向不對外釋出最強大的模型，而是將其封裝在內部的服務中，以確保領先優勢。這將導致 AI 市場從「開放競爭」轉向「封閉的巨頭博弈」，對中小企業的創新門檻將會進一步拉高。",
       "insights": [
-        "AI 市場的競爭正演變為「時間爭奪戰」：當用戶開始使用 Claude，其在 ChatGPT 的停留時間會直接下降 13.5%，顯示兩者是零和競爭而非互補。",
-        "Claude 用戶平均每日使用 27 分鐘，排名產業第一，這暗示其模型在處理複雜、專業的生產力任務上，比其他聊天機器人更有優勢。",
-        "雖然 Claude 下載量在 9 月出現回落，但企業端 SSO 流量成長 4 倍，顯示 Anthropic 的商業化戰術已成功轉向更高利潤、更穩定的 B2B 市場。"
+        "AI 基礎設施的投資規模已經超過了工業革命時期的鐵路建設，且因供應鏈瓶頸，目前看到的數字其實是被動低估的結果。",
+        "AI 的商業模式正從「SaaS 訂閱制」轉向「資本替代勞務」，未來企業獲利將來自於利用運算力取代高階知識性工作，而不僅僅是提供軟體工具。",
+        "領先的 AI 實驗室未來可能停止發布最先進的模型，將其視為內部機密的生產力武器，這將徹底改變目前開源與商業模型共存的競爭格局。"
       ],
       "content_mode": "ai_analysis"
     },
     "a16z": {
-      "title": "This Week in Charts: 預測市場是否有政治偏誤？與 SaaS 估值邏輯的轉向",
+      "title": "Welcome Col. Jeffrey Glover and Greg Barbaccia / a16z 延攬公眾安全與聯邦資訊高層：強化「美國活力」投資布局的戰略意義",
       "source": "a16z",
-      "article_date": "2026-10-09",
-      "url": "https://www.a16z.news/p/this-week-in-charts-are-prediction",
-      "analysis_zh": "### 全文大意摘要：數據顯示預測市場的客觀性與科技估值邏輯的典範轉移\n\n這篇由 a16z 編輯部發布的圖表週報，核心在於透過數據檢視當前科技與商業環境的幾個關鍵變遷。首先，文章藉由巴西大選的案例，引用經濟學研究指出預測市場（如 Kalshi）在預測選舉結果上不僅比傳統金融市場更敏銳，且在統計上幾乎沒有政黨、性別或種族偏誤。接著，報告轉向 SaaS 產業，指出過去被奉為圭臬的「40 法則」（Rule of 40）正在失效，投資人目前的偏好已從「獲利」轉向「成長」。最後，報告分析了 AI 投資的結構，顯示目前的獲利預期正集中在硬體與能源等「原子」層面，而軟體層面則面臨成長停滯的壓力，且 AI 對就業的衝擊已率先在客服中心顯現。\n\n### 戰略背景與脈絡：從軟體溢價轉向 AI 基礎設施的實體軍備競賽\n\n目前的市場處於一個非常特殊的時期。在後零利率時代（post-ZIRP），許多科技公司為了生存將重心從追求擴張轉向追求獲利，導致許多 SaaS 公司的「40 法則」分數看似提升（因為利潤增加），但其估值倍數（Multiples）卻反向下跌。這顯示市場情緒已經發生質變，單純的「效率」已不足以支撐高估值。與此同時，AI 浪潮帶動了前所未見的基礎設施支出。這場競賽目前仍停留在建置期，資金大規模流向半導體、資料中心與能源供應。這種「重視原子（Atoms）更甚於位元（Bits）」的傾向，反映了市場正在重新評估 AI 軟體何時能帶來真正的營收爆發，而在這之前，硬體供應商才是最穩定的受益者。\n\n### 作者的核心推論與觀點：成長性已取代獲利平衡成為軟體估值的唯一推動力\n\n作者提出了一個引人深思的觀察：雖然 SaaS 公司的「Rule of X」（成長加利潤的總得分）持續上升，但這主要是由利潤貢獻，而非營收成長。分析顯示，市場對「營收成長」的溢價遠高於對「獲利能力」的認可。即使一家公司的 Rule of 40 表現優異，只要它的成長率低於 20%，估值倍數通常就只能維持在 5 到 10 倍的低檔；唯有具備強大成長動能（如資安或觀測軟體）的公司，才能獲得市場的青睞。這意味著投資人已經看膩了「縮減開支帶來的獲利」，他們正在尋找的是 AI 驅動下的下一波指數型成長，如果軟體公司無法證明 AI 能帶來新客戶或新需求，市場就不會給予高評價。\n\n### 對市場、技術與政策環境的長期影響：客服就業市場的結構性萎縮與軟體業的證明責任\n\n長期來看，這份報告釋出了兩個重要的警訊。第一是就業市場的局部崩潰：全球客服中心的僱用人數已出現斷崖式下跌，且這種現象不分貧富國家。這證實了 AI 對於重複性高、規則明確的白領工作具有極強的替代性，且這種趨勢已經發生。第二是軟體產業面臨的「證明責任」：分析師對 2027 年的獲利預期高度集中在硬體與能源，對軟體業的樂觀度僅微幅上升。如果 AI 的紅利無法從基礎設施層順利傳導至應用層，軟體業可能會面臨長期的估值修正。最後，預測市場的準確性與無偏誤特性，可能會使其在未來的地緣政治與經濟決策中扮演更重要的角色，成為比傳統民調或名嘴評論更具參考價值的工具。",
+      "article_date": "2026-10-12",
+      "url": "https://www.a16z.news/p/welcome-col-jeffrey-glover-and-greg",
+      "analysis_zh": "### 全文大意摘要：創投巨頭 a16z 招攬政府與國安高層，為「美國活力」策略補齊最後一塊拼圖\n\n這篇由知名創投 Andreessen Horowitz（a16z）發布的官方聲明，宣布聘請亞利桑那州公共安全部總監 Jeffrey Glover 上校（Col. Jeffrey Glover）以及前美國聯邦政府資訊長（Federal CIO）Greg Barbaccia 擔任顧問。這兩位重量級人物將加入 a16z 的「美國活力」（American Dynamism）與成長投資團隊，協助新創公司解決打入公共部門、國防與資安市場時最難跨越的體制門檻。a16z 明確指出，資助新創公司不只需要資金，更需要具備深厚體制經驗的領導者，才能將尖端技術轉化為具體的國家實力。\n\n### 戰略背景與脈絡：矽谷與華府的合流，從單純投資轉向國家基礎設施現代化\n\n長期以來，矽谷新創與美國政府機構（如軍隊、警察、聯邦政府）之間存在著巨大的鴻溝，無論是文化差異還是繁瑣的採購流程，都讓新興技術難以進入公部門。a16z 幾年前推出的「美國活力」策略，正是希望打破這個僵局，將資本引導至國防、能源、公共安全與政府效率等領域。這次延攬的兩位顧問分別代表了兩個關鍵領域：Glover 上校掌握著地方治安與緊急應變的實務需求，而 Barbaccia 則精通聯邦級的資安架構與數位轉型邏輯。這顯示頂尖創投正積極在「權力中心」建立橋樑，讓新創技術能更精準地對準政策方向。\n\n### 作者的核心推論與觀點：理解機構運作邏輯，是新創公司能否在公部門勝出的關鍵\n\n a16z 認為，現代化國家機構的成敗取決於是否能整合新技術，但變革往往在官僚體系中停滯。Glover 上校在公共安全領導領域擁有超過二十年的經驗，曾擔任全美黑人執法官員協會（NOBLE）主席，他能指導創辦人理解警政體系的運作模式，確保新科技是在「負責任」且「建立社區信任」的前提下推動。而 Barbaccia 的背景更為特殊，他不僅曾在 Palantir 負責情報與調查，更擔任過聯邦資訊長，他能以「操作者、執行者與客戶」的多重身分，告訴新創公司如何在嚴格的聯邦監管與資安標準下，成功推動數位轉型與產品商業化。\n\n### 對市場、技術與政策環境的長期影響：國防與治安科技將從非主流轉向創投競爭的核心\n\n這次的人事任命顯示，公共安全與政府科技（GovTech）已不再是冷門賽道，而是具備巨大商機與戰略價值的投資熱點。未來幾年，我們將看到更多具備政府背景的資深官員進入創投界，這將改變現有政府採購的生態，迫使傳統的大型承包商必須與更有活力的矽谷新創直接競爭。長期來看，這會加速美國政府在人工智慧、資安與無人系統等領域的採用速度。對於台灣的供應鏈與資安新創而言，這也釋出一個信號：若想打入美國公部門市場，透過這類具備強大政策引導能力的創投體系，將是比傳統管道更有效的路徑。",
       "insights": [
-        "預測市場展現了驚人的「政治中立」特性，研究顯示其預測結果不受參與者的政黨、性別或種族偏見影響，是比傳統管道更純粹的資訊處理機制。",
-        "「40 法則」已不再是軟體業的萬靈丹，投資人正處於「證明給我看」的模式，對於透過犧牲成長換取獲利的行為，市場會以壓縮估值倍數作為懲罰。",
-        "AI 的財富效應目前呈現嚴重的「硬體偏斜」，分析師預期利潤將持續流向能源與半導體（實體世界），而軟體業（數位世界）若無法展現加速成長，將難以在這一波浪潮中分到紅利。"
+        "創投的角色正在從「純資金提供者」轉型為「產業與政府的中介者」，具備政府高階官員身分的顧問成為頂尖 VC 的標配。",
+        "公共安全（Public Safety）已成為國防科技之外另一個高門檻、高成長的細分賽道，這對 AI 影像辨識與通訊新創是重要機會。",
+        "新創要打入政府標案，產品力只是基本，如何符合聯邦資安標準（如 FedRAMP）並理解官僚體系的決策模式，才是存活的關鍵。"
       ],
       "content_mode": "ai_analysis"
     },
     "Lenny's Newsletter": {
-      "title": "為什麼現代企業需要像實驗室團隊一樣思考與運作：Google Labs 負責人 Josh Woodward 的實戰心得 / Why every company now needs to think and operate like a lab team",
+      "title": "How Meta designed Muse with Alex Cornell / Meta 內部如何設計 AI 代理程式 Muse",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-10-11",
-      "url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
-      "analysis_zh": "### 全文大意摘要：AI 時代的產品開發需要從長期規劃轉向動態實驗\n\n這場訪談由知名產品電子報 Lenny's Newsletter 主持，訪問對象是 Google Labs 負責人 Josh Woodward。他在 Google 服務超過 17 年，目前領導開發 Gemini App、AI Studio 以及 NotebookLM（現更名為 Gemini Notebook）等指標性 AI 產品。Josh 在對話中傳達了一個核心訊息：在 AI 技術幾乎每週都在進化的環境下，企業不能再沿用過去 SaaS 時代那種長週期、先做詳盡市場調查再動工的開發模式。Google Labs 目前運行的多個專案都是在高頻率測試的環境下孵化，他主張不論企業規模大小，都必須建立一套「實驗室」式的運作體制。這套體制要求組織具備捕捉技術邊界微小變動的能力，並透過快速的原型建構與殘酷的淘汰機制，在充滿不確定的市場中尋找真正的商業機會。\n\n### 戰略背景與脈絡：底層模型能力的快速演進，讓傳統產品開發路徑徹底失效\n\n過去十幾年的軟體開發邏輯建立在穩定的網路設施與成熟的開發框架上，產品經理可以制定半年的開發藍圖，並預測市場反應。然而，大語言模型（LLM）的出現讓「技術可行性」變成了動態變數。每一款新模型的推出，都可能讓上個月還難以跨越的技術門檻瞬間消失，或是讓辛苦開發的功能直接被系統內建。Google 重新定義 Labs 的角色，將其從邊緣的創新部門推向 Gemini 生態的核心，正是為了在大型官僚體系中，找回像新創公司般的靈活度。這反映了所有企業正面臨的共同挑戰：當產品的「地基」每週都在移動時，如何在底層技術基礎不斷變動的沙地上，蓋出真正穩健且具備商業價值的建築。\n\n### 作者的核心推論與觀點：鎖定「即將成真」的技術點，並建立勇於殺死點子的文化\n\nJosh 提出了一個非常關鍵的產品思維框架，稱為「即將成真」（Almost Possible）。他認為最有價值的 AI 創新往往不在於解決一個抽象的長久痛點，而在於對技術邊界的精準嗅覺。具體來說，就是去觀察那些「上週還做不到，但這週因為模型的脈絡長度增加、延遲降低或推理能力提升，而突然變得可行」的事情。NotebookLM 的成功正是因為捕捉到了模型處理超長文本能力的轉折點。此外，他強調管理實驗室團隊最難、也最重要的一環是「決定何時收手」。在實驗室文化中，無法在短時間內獲得用戶強烈共鳴的點子就應該被果斷捨棄。這種「殺死點子」的能力確保了企業能把有限的運算資源與工程人力，集中在那些最具爆發潛力的專案上。\n\n### 對市場、技術與政策環境的長期影響：企業競爭力將從「產品定義」轉向「技術捕捉」與「原型建構」\n\n從長遠來看，這種實驗室化的運作模式將深刻改變企業的人才需求與組織架構。雖然市場預測 AI 可能會導致職能模糊，但 Josh 觀察到，核心的產品、工程與設計角色依然重要，只是每個角色都必須更靠近「建構者」的身分。產品經理不再只是寫文件，而要能直接與模型對話並調整提示詞；工程師則要更理解用戶體驗的細微差別。對於企業而言，競爭優勢將不再僅僅來自於擁有多強大的模型，而是在於是否具備高效的內部機制，能將模型最新的能力快速整合進具體的工作流中。未來，企業內部將不再區分「研發」與「產品」，兩者的邊界會高度重合。這種文化轉型將考驗管理者的決策速度與對失敗的容忍度，無法建立實驗室思維的企業，很可能會在不斷加速的 AI 競賽中失去判斷方向的能力。",
+      "article_date": "2026-10-12",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "analysis_zh": "### 全文大意摘要：重新定義人類與 AI 代理程式的互動設計典範\n\n這篇訪談來自 Lenny’s Newsletter 的 AI 專題系列，邀請到 Meta 的設計總監 Alex Cornell，分享他帶領開發 AI 代理程式「Muse」的實戰經驗。Alex 指出，當前的 AI 介面大多仍停留在「與軟體互動」的舊框架中，而 Muse 的核心目標是創造一種更像「與人對話」的體驗。透過移除傳統的訊息氣泡、將代理程式置於螢幕頂部，以及利用「漸進式揭露」原則來平衡專業與入門用戶的需求，Meta 試圖解決生成式 UI 在一致性與個人化之間的矛盾。此外，Alex 還展示了如何將被遺忘的 Instagram 收藏數據轉化為實用的購物型錄，揭示了個人數據在消費端 AI 應用中的巨大潛力。\n\n### 戰略背景與脈絡：當 AI 從「工具」轉向「關係」帶來的介面挑戰\n\n在過去幾年的 AI 浪潮中，多數產品都採用了類似 ChatGPT 的聊天列表模式，這雖然容易上手，卻限制了代理程式作為長期夥伴的可能性。Meta 的 Muse 在這個背景下誕生，它試圖挑戰「一問一答」的短暫互動，轉向一種更持久、具備上下文連貫性的關係。目前的市場趨勢正從簡單的 LLM 呼叫轉向更複雜的 Agentic（代理型）架構，這意味著系統不再只是回覆文字，而是會執行任務、調用數據並進行多步驟推理。這對 UI/UX 設計師提出了全新挑戰：如何在不讓用戶感到混亂的前提下，展示這些複雜的幕後邏輯，同時維持介面的美感與穩定性。\n\n### 作者的核心推論與觀點：設計非決定性系統需要從「控制像素」轉向「調整行為」\n\nAlex Cornell 提出了一個極具啟發性的觀點：在 AI 時代，設計師必須接受無法精確控制像素輸出的現實。傳統設計追求每一位用戶看到的介面都一模一樣，但在 Muse 的邏輯中，系統會根據用戶的需求生成動態介面。他認為，生成式 UI 的關鍵在於「結構固定、內容動態」，例如 Muse 的頭像、資訊卡片框架是預先設計好的，但卡片內的內容和狀態圖示則由 AI 決定，這能確保用戶在感受到「生命力」的同時，不會因為介面變動過大而感到迷失。\n\n另一個關鍵洞察是關於「思維鏈（Chain of Thought）」的展示。Alex 坦言，現今許多產品展示 AI 的推理過程，往往是為了掩蓋模型運算過慢的延遲補償（latency workaround），而非真正的功能需求。如果 AI 足夠快，用戶其實更希望直接看到結果，而不是看著它「表演」思考。最後，他強調「漸進式揭露」的重要性：一般的用戶只需看到結果（例如一個表情符號代表進度），而對細節有要求的工程師則可以層層展開查看原始日誌。這種層級式的透明度，是讓 AI 產品既易用又可靠的關鍵。\n\n### 對市場、技術與政策環境的長期影響：個人歷史數據將成為 AI 代理程式最深厚的護城河\n\n這場對話暗示了消費端 AI 的下一個主戰場：數據的重新活化與應用。Alex 將多年的 Instagram 收藏（Saved Posts）餵給 Muse，讓 AI 將這些混亂的圖片轉化為結構化的購物型錄。這代表 Meta 擁有其他對手難以企及的優勢——用戶長年累積的社交行為數據。未來，AI 的勝負可能不在於誰的模型參數更多，而在於誰能更好地「喚醒」用戶沉睡的數據，將其轉化為實際的產出。這也將迫使設計專業發生質變，設計師的角色將更像是「行為編導」，而非單純的視覺創作者，他們需要學習如何透過精準的引導，讓不具備確定性的 AI 產出真正符合人類預期的價值。",
       "insights": [
-        "AI 時代的創新不再源於解決老問題，而是捕捉「即將成真」（Almost Possible）的技術邊界，即那些上週還做不到但這週因為模型升級而可行的細分領域。",
-        "判斷 AI 產品 PMF 的關鍵指標是「靈魂留存」（Retention in Spirit）：即使產品原型還很粗糙，核心用戶是否仍因為它解決了前所未有的問題，而展現出極高的黏性與期待。",
-        "產品開發最大的風險不是點子失敗，而是把寶貴的運算與人力資源浪費在平庸的點子上；因此，建立一套機制來「殘酷且快速地殺死不夠好的專案」是維持組織創新的核心。"
+        "「思維鏈」的視覺呈現往往是為了掩蓋延遲，而非核心需求；當 AI 速度足夠快時，隱藏推理過程反而能提供更乾淨、更像人類的互動感。",
+        "漸進式揭露（Progressive Disclosure）是解決 AI 黑盒問題的最佳策略：用表情符號滿足普通用戶，用工作清單滿足進階用戶，用原始日誌滿足工程師。",
+        "社交媒體上的「收藏」或「點讚」紀錄是極度被低估的 AI 燃料，能將長期靜止的數據轉化為極度個人化的動態型錄或決策助手。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -427,14 +524,14 @@
       "content_mode": "full_text_import"
     },
     "HackMD：停損王SLKing": {
-      "title": "每個人都以為自己救得了 Warner，David Ellison 目前只拿得出砍成本",
+      "title": "全產業都在追 coding 的時候，Meta 把賭注押在替人辦事的代理上",
       "source": "HackMD：停損王SLKing",
-      "article_date": "2026-10-11",
-      "url": "https://hackmd.io/H1MKAKdjMx",
-      "analysis_zh": "### Warner Bros. 又換老闆了：800 億美元的債，還是沒人說得出成長計畫\n\n原始影片：Why does everyone think they can fix Warner Bros.? (https://www.youtube.com/watch?v=rmdMbp8jCCw) | Decoder with Nilay Patel | 2026-10-10\n\nWarner Bros. 大概是好萊塢最難經營的資產之一。\n\nAOL 買過，失敗了。AT&T 買過，也失敗了。Discovery 接手後同樣沒能扭轉局面，唯一的成功，就是把這些資產轉賣給下一個買家。\n\n這次輪到 David Ellison。\n\n他是 Oracle 執行長 Larry Ellison 的兒子，也是電影製作公司 Skydance 的老闆。錄音當天，Paramount 與 Warner Bros. Discovery 的合併正式完成，新公司就叫 Skydance。\n\nThe Verge 總編輯 Nilay Patel 邀請 Business Insider 首席特派記者、Channels 主持人 Peter Kafka，討論這筆交易的前景。\n\n問題很簡單：過去幾任老闆都失敗了，David Ellison 憑什麼認為自己能成功？\n\nPeter 給出的第一個理由是錢。\n\nLarry Ellison 是世界第八富有的人。雖然 Skydance 名義上是上市公司，實際控制權卻掌握在 Ellison 父子手中。David 今年才 43 歲，背後有父親數百億美元的財富支援，不必像一般上市公司執行長那樣，時時擔心股東的壓力。\n\n不過，股權方面的自由，解決不了債務問題。\n\nPeter 還認為，Warner 過去的失敗紀錄，對 Ellison 這種人可能反而是一種吸引力。\n\n「我想這也許正是吸引他這種人的地方：別人都很笨，我是那個會想出辦法的聰明人。」\n\n問題是，直到交易完成，他們仍然看不出 Ellison 究竟想出了什麼辦法。\n\n### 沒有新營收計畫，只有 60 億美元的成本削減\n\n回顧 Warner 歷任買家的策略，Nilay 發現大家的想法都差不多。\n\n先取得 Warner 的經典電影、影集與品牌，再接上某種新通路，最後設法砍掉好萊塢昂貴的製作成本。\n\nAT&T 當年就是典型案例。\n\n它原本宣稱，要透過自家手機發行 Warner 的內容，把行動通訊、影音與廣告整合起來。Peter 認為這個構想從一開始就沒什麼道理，真正的盤算其實很簡單。\n\nNetflix 的估值很高，AT&T 卻只是一家股價平淡的電信公司。管理層希望透過收購 Warner，改變華爾街對自己的評價。\n\n「如果我們擁有一個 Netflix 會怎樣？華爾街一定會突然把我們當成高飛的科技公司來獎賞。」\n\n結果華爾街完全不買帳。\n\n幾年後，AT&T 就決定退出，原本那些關於行動通訊、廣告與精準投放的承諾，也沒有任何下文。\n\nNilay 當年曾報導 AT&T 收購 Warner 的反壟斷訴訟。他記得上訴法院的意見書，直接把這筆交易稱為「vision deal」，意思是這是一筆建立在未來願景上的交易。\n\n當時他看到這個說法，心裡只覺得大事不妙。\n\n如今輪到 Skydance，問題依然沒有改變：新的營收要從哪裡來？\n\nPeter 的回答相當直接。\n\n「沒有新營收的計畫，至少現在沒有宣布任何計畫。現在就是縮編、砍成本。」\n\nSkydance 承諾，合併後三年內要省下 60 億美元，並宣稱大部分節省不會來自裁員。\n\nPeter 對此相當懷疑。他認為，其中很大一部分終究會來自裁員。\n\n兩家公司過去已經裁過好幾輪，可能沒有多少人可以繼續砍。但合併兩個串流事業、兩個電影片廠，仍然有機會省下一筆錢。例如出售不動產、精簡高階主管，以及整合重複的業務。\n\n成本確實還有下降空間，成長卻沒有明確方向。\n\n而 Skydance 又是一家非成長不可的公司。\n\n除了股東的期待，還有 David Ellison 本人的自尊。更重要的是，這次交易背負了高達 800 億美元的債務。\n\n這個數字尤其值得注意，因為 Ellison 之所以有機會買到 Warner，正是上一任經營者被債務拖垮的結果。\n\nWarner Bros. Discovery 當初背負的債務，大約是 430 億到 500 億美元，取決於採用哪種算法。\n\n前任執行長 David Zaslav 整個任期都在向華爾街保證要降低負債。他確實還掉了一部分，卻始終無法讓投資人相信公司有能力恢復成長。\n\n股價一度跌到 7 美元左右，市場幾乎已經放棄這家公司。\n\n沒想到 Ellison 出現了，最後以好幾倍的價格買下這些資產。Zaslav 如今認為自己成功替公司賣到了好價錢。\n\nPeter 則轉述前一天有人告訴他的另一種看法：\n\n「就是有一隻獨角獸自己冒出來，讓他從自己闖出的困境裡脫身。」\n\n現在 Ellison 接下了更大的債務。如果未來有一天，他也覺得負擔太重、不想繼續經營，Peter 不知道下一隻願意接手的獨角獸會是誰。\n\n### Oracle 是最大的靠山，也是一個巨大的問號\n\n這筆交易還有一個特殊之處：Ellison 家族的財富與 AI 產業高度綁定。\n\nNilay 指出，這次收購的財務結構相當複雜。除了龐大的債務，FCC 還必須豁免外資持股上限，因為約 49% 的資金來自波灣地區。\n\n更讓他困惑的是 Oracle。\n\n在 AI 產業前景仍有高度不確定性的情況下，為什麼 Ellison 家族願意拿相當於 AI 股票的資產，支持一家傳統媒體公司？\n\nNilay 也提到 Oracle 股價受到一些懲罰。不過 Peter 並不確定，這究竟是不是收購 Warner 造成的。\n\nLarry Ellison 一年前的身價大約是現在的兩倍，但當時可能只是 AI 熱潮帶來的異常高點。即使財富大幅縮水，他仍然是世界第八富有的人。\n\n真正值得擔心的是，這些資產彼此牽連得太深。\n\nLarry 的財富主要來自 Oracle。他向 Oracle 借錢，同時承諾必要時提供 400 億到 500 億美元，為這筆媒體收購提供擔保。\n\n而 Oracle 新的成長計畫，又幾乎完全押在 OpenAI 身上。\n\nLarry Ellison 已經 82 歲，現在決定把公司未來押注在 AI，尤其是 OpenAI；另一方面，又要提供資金，幫兒子建立一個龐大的媒體帝國。\n\nPeter 無法斷言這套財務安排會出問題，但他認為，其中存在明顯的不確定性。\n\n更弔詭的是，Ellison 家族押注的 AI，可能正在侵蝕另一邊媒體事業的價值。\n\nNilay 最近一直在觀察 Instagram 對 AI 侵權內容的容忍程度。\n\n他發現平台上充斥各種深偽影片，甚至看到 Heath Ledger 飾演的小丑 Joker，和 Christian Bale 飾演的 Batman，一起出現在 Justin Bieber 的音樂影片裡。\n\n看完一支，演算法接著又推薦大量類似內容。\n\n在 Nilay 看來，AI 正在大幅降低盜用影視 IP 的成本。Warner 過去花數十年建立的角色、故事與品牌，如今可能被任何人拿去製作新內容。\n\n如果人人都能輕易使用 Batman，Warner 究竟還能從 Batman 身上賺到多少錢？\n\nPeter 認為版權確實是問題，但還有一個更根本的威脅：注意力。\n\nSkydance 背負 800 億美元債務，建立在昂貴的電影、影集與娛樂內容之上。\n\n然而，現在任何人都能做出一支影片，在 TikTok 或 Instagram 上搶走觀眾幾秒鐘的注意力。\n\n這些內容可以很粗糙，也可能涉及侵權，但它們的數量幾乎沒有上限。\n\n對年輕觀眾而言，看大量有趣的短影片，可能比坐下來看一部正版 Batman 電影更有吸引力。\n\nPeter 認為，這是 Skydance 的存亡問題，也是所有傳統媒體公司共同面臨的問題。\n\nNilay 則進一步指出 Ellison 家族面臨的矛盾：\n\n「如果 OpenAI 成功到足以讓 Ellison 家族保住財富，那他們就是從鋪天蓋地的 IP 盜竊中大賺一筆，而且會有一個產品能隨時替任何人零成本做出一部電影，讓 Warner 實際上變得毫無用處。」\n\n這是 Nilay 對 AI 發展方向的假設，也是他始終想不通的地方。\n\nPeter 同意這裡存在根本性的衝突。\n\nWarner 的價值建立在龐大的片庫，以及持續製作新內容的能力。未來這兩種資產的價值都可能大幅下降。\n\n但他也提出一個反例。\n\n音樂產業遭受盜版侵害幾十年，後來卻出現 Spotify 這種模式，讓過去一年可能只買兩張 CD 的消費者，願意每年花 120 美元聽音樂。\n\n影視產業也許能找到類似的出路，只是目前還沒有人知道答案。\n\n### 加州政府讓步了，債權人可不會這麼好說話\n\n完成收購後，Skydance 還必須履行一系列承諾。\n\n最引人注意的是加州反壟斷訴訟的和解條件。\n\n公司同意每年推出 30 部電影，每少一部，就必須支付 3,000 萬美元，存入由工會管理的健康保險與退休基金。\n\n兩年後，電影數量還要提高到每年 32 部。如果未能達成條件，公司甚至必須出售持有的約 49% Miramax 股權。\n\nNilay 對此相當懷疑。\n\n兩家公司現在的電影產量沒有這麼多，整體票房市場也沒有快速成長。既然公司需要降低成本、償還債務，為什麼還要承諾製作更多電影？\n\nPeter 的看法稍微樂觀一些。\n\n首先，兩個片廠原本規劃的電影產量，加起來就已經接近 30 部。\n\n其次，這個數字其實是 Ellison 過去幾個月反覆宣傳的承諾，並非加州政府臨時增加的要求。\n\n還有一些執行空間。\n\n例如，和解條件究竟如何定義一部電影？Peter 記得條款只要求其中一部分電影必須在戲院上映，其餘作品未必需要。\n\n公司最後會怎麼履行承諾還不知道，但 Peter 不認為這會成為短期內最大的障礙。\n\n他真正擔心的是債務。\n\n「我不認為限制他們的會是監管。限制他們的會是數學和債。」\n\nNilay 認為，自己問的恰好也是數學問題。市場未必有能力消化每年 30 到 32 部電影，如果這些作品無法帶來足夠票房，對還債又有什麼幫助？\n\nPeter 則認為，Ellison 已經充分證明自己有能力與監管機關打交道。\n\n不論加州、其他國家，或川普政府時期的聯邦監管機關，他都設法取得了想要的結果。\n\n加州的和解就是最典型的例子。\n\n加州檢察總長原本堅持，這筆交易必須接受結構性的補救措施，單靠企業承諾改變行為並不足夠。\n\n然而，當 Ellison 開始威脅要把業務搬離加州，甚至搬往田納西州 Nashville，州政府的態度就改變了。\n\nPeter 指出，最後的和解條件，幾乎都是 Ellison 原本就在公開承諾的事情。加州政府先前堅持的要求沒有得到滿足，檢察總長卻仍然得在記者會上宣稱這是一筆好交易。\n\n他把整件事比喻成美國職業運動球隊向地方政府要求新球場的老劇本。\n\n「你不幫我蓋新球場、不給我幾十億翻新球場，我就搬走。」\n\n球隊有時確實會搬走。例如 Minnesota North Stars 最後變成 Dallas Stars，讓明尼蘇達失去冰球隊好幾年。\n\n但多數時候，球隊最後會留下來，同時拿到想要的補助。\n\nEllison 過去兩年一直強調自己在好萊塢長大、熱愛電影，也熱愛洛杉磯。談判到了最後幾個月，說法卻變成可能搬離加州。\n\n等和解一到手，他又開始表達對洛杉磯的熱愛。\n\nPeter 懷疑，Ellison 團隊從一開始就打算採取任何有助於完成交易的說法。現在交易完成，當初的威脅很快就會被遺忘。\n\n他甚至覺得，Ellison 可能真的算準了大家的反應。\n\n相較之下，另一個曾經被認為可能影響交易的問題，Peter 反而不擔心。\n\nCBS 與 NFL 的轉播合約包含控制權變更條款。Nilay 指出，NFL 理論上可以藉此要求更高的轉播費，甚至找 Amazon、Apple、Google 等公司競標。\n\n但 Peter 認為 CBS 絕對會支付必要的代價，因為 NFL 轉播對 CBS 的生存至關重要。\n\nNFL 雖然喜歡串流平台提供的收入，也同樣重視無線電視的全國觸及率。\n\n如果 NFL 真的全面離開無線電視，Peter 認為甚至可能引發美國全國性的政治危機，讓民主黨與共和黨罕見地站在同一邊。\n\n因此，他不相信 NFL 會輕易放棄無線電視，也不認為 CBS 會放棄 NFL。\n\n### 新任共同執行長，就是來替 Ellison 砍人的\n\n既然成長計畫還沒出現，Skydance 現階段最具體的工作就是削減成本。\n\n負責執行這件事的人，很可能是新任共同執行長 Ynon Kreiz。\n\nPeter 最近才替 Kreiz 寫過人物側寫。他認識 Kreiz 已經很多年，最早可以追溯到 YouTube 多頻道聯播網興起的年代。\n\n當時 Kreiz 經營 Maker Studios，後來把公司賣給 Disney。那筆交易曾被視為 Disney 進軍數位媒體的重要一步，最後卻以失敗收場。\n\nPeter 說，Maker 原本是一家管理混亂的公司，Kreiz 被找來，就是要讓公司恢復秩序，再把它賣掉。\n\n這很符合他後來的職業生涯。\n\nKreiz 曾經營 Endemol，也與 Saban 共事。之後他進入 Mattel，成功推動與 Margot Robbie 的合作，促成大賣的 Barbie 電影。\n\n電影本身並非由他製作，但促成合作的功勞可以算在他身上。\n\n他還有另一項紀錄：接掌 Mattel 後，很快就裁掉 22% 的員工。\n\nPeter 認為，這才是 Skydance 找他來的主要原因。\n\n好萊塢有很多高階主管擅長和明星吃飯、建立人脈，Kreiz 的工作顯然不在這裡。\n\n他要負責整頓公司、精簡組織，設法找出承諾中的 60 億美元綜效。\n\nPeter 對 Kreiz 的評價相當微妙。他覺得 Kreiz 的情緒智商沒有特別高，也有人形容 Kreiz 個性強硬，但熟悉之後其實像一隻泰迪熊。\n\nPeter 猜測，那些被他裁掉的員工恐怕不會同意後面這個評價。\n\n更有意思的是他的職稱。\n\nKreiz 被任命為共同執行長，但 David Ellison 的職稱依然是執行長。這個安排讓兩人的權力關係從一開始就很清楚。\n\n何況公司實際上是 Ellison 父子的。\n\nPeter 推測，Ellison 希望自己仍然可以在 Polo Lounge 等好萊塢社交場所與明星吃飯。如果有人抱怨電影被取消、團隊被裁撤，他就可以把問題交給 Kreiz。\n\n至於 Kreiz 為什麼願意接受這個安排？\n\nPeter 認為有三個原因。\n\n首先，共同執行長的頭銜，讓他不至於看起來像從 Mattel 執行長的位置降級。\n\n其次，全球能讓他管理的巨型媒體集團屈指可數，經營 Skydance 本身就是一個難得的機會。\n\n最後，公司今年將支付他 5,000 萬美元。\n\nPeter 認為，這應該足以彌補頭銜上的一些委屈。大家也都明白，Kreiz 實際上扮演的角色更接近營運長。\n\n這也反映 David Ellison 自己的角色正在改變。\n\nNilay 開玩笑說，Skydance 之所以存在，說穿了就是一個人想和 Tom Cruise 混在一起，於是打造一家公司，讓自己可以跟 Tom Cruise 合作。\n\nPeter 願意給 Ellison 多一點肯定。\n\n他認為 Ellison 過去最重要的成就，確實是與 Tom Cruise 建立關係，並成功參與 Mission Impossible、Top Gun 等電影生意。\n\n但這畢竟是製片人的工作。\n\n「當製片其實不做什麼事，就是把東西包裝起來，而他做到了 Tom Cruise 的生意。那是他以前的工作。現在他換了一份工作。」\n\n以前只要能把明星、導演與資金湊在一起，就有機會做出賣座電影。\n\n現在 Ellison 必須經營整個媒體集團，還要處理 800 億美元的債務。\n\n### 串流選 HBO，新聞部門暫時不動\n\n接下來，Skydance 還需要決定哪些團隊留下，哪些部門整併。\n\nPeter 認為，串流業務的方向已經逐漸清楚。\n\n一年前，Ellison 找來 Cindy Holland 經營串流。Holland 曾在十多年前推動 Netflix 進軍原創內容，具有豐富經驗。\n\n但現在 Ellison 買下了 HBO。\n\nHBO 的負責人過去一年已經多次表達，不願意與 Holland 共同管理業務，也不願意向她報告。\n\nPeter 不認為雙方有什麼私人恩怨。對 HBO 負責人來說，他已經在管理一個成功的品牌，沒有理由突然把權力分給別人。\n\n因此，Peter 判斷 Ellison 最後很可能選擇 HBO 這一邊。\n\n短期內，消費者仍然會看到 Paramount、Warner Bros.、HBO 等熟悉的品牌。Peter 預期，未來串流服務可能逐步整合，甚至合成一個大型平台，HBO 則可能繼續提供獨立訂閱。\n\n不過，這不會立刻發生。Skydance 仍有龐大的有線電視業務，品牌與服務也存在短期限制。\n\nPeter 還對新公司的名稱開了個玩笑。\n\nParamount 與 Warner Bros. 都是歷史悠久、全球知名的名字，結果 Ellison 偏偏選擇一個大多數消費者沒聽過的 Skydance。\n\n電影部門也可能出現大幅調整。\n\nWarner Bros. 的片廠團隊一年前還備受好萊塢肯定，今年卻推出 Tom Cruise 票房表現極差的 Digger，情況急轉直下。\n\nPeter 預期 Ellison 會帶進自己的人馬。他認為 Ellison 的品味更偏向 Mission Impossible 這類商業大片，不太可能繼續支持 Paul Thomas Anderson 再拍一部 One Battle After Another。\n\n新聞業務則更加敏感。\n\nCNN 與 CBS News 的整併構想已經討論多年，但 Peter 認為 Skydance 暫時不會這麼做，因為涉及太多政治問題。\n\n他提出一個自己也強調純屬猜測的可能性：Ellison 當初找 Bari Weiss 經營 CBS News 時，也許曾經承諾未來讓她管理 CNN。\n\n但 CBS News 過去一年風波不斷，現在貿然合併兩個新聞部門，恐怕會引發更大的爭議。\n\n因此，Peter 猜測 CNN 現任負責人 Mark Thompson 可能繼續留任。\n\n只是就算編輯權仍由 Thompson 掌握，他也很難避開成本削減。\n\nPeter 預期 Kreiz 可能要求 CNN 再砍掉 10% 或 20% 的成本。\n\n因為無論哪個部門，最後都得面對同一個問題：公司需要還債。\n\n### Bari Weiss 的爭議，背後還有媒體信任危機\n\nNilay 對 CBS News 的情況尤其不滿。\n\n他概括 Bari Weiss 接掌 CBS News 時的主要論點：美國人不再信任新聞，是因為新聞報導不夠公平，所以她希望增加對保守派更友善的內容。\n\n這同時也符合 Ellison 團隊與川普政府打交道的需要。川普不喜歡 CBS 的報導，新的管理層便承諾改變。\n\n但 Nilay 認為，結果並沒有改善新聞信任。\n\nCBS News 的收視大幅下滑，Weiss 也成為爭議中心，甚至有人認為她應該被開除。\n\nPeter 卻不認為她會離開。\n\n他認為 David Ellison 本身沒有很強烈的政治立場，父親 Larry 可能也沒有。\n\nVanity Fair 記者 Tom Dotan 最近曾撰寫 Larry Ellison 的人物側寫，探討他建立媒體帝國、投資 TikTok，背後是否存在某種政治目的。\n\nPeter 轉述那篇報導的結論，認為 Ellison 家族沒有太明確的政治意識形態，但有一件事情非常在乎：以色列。\n\nBari Weiss 同樣高度關注以色列議題。\n\nPeter 因此認為，Ellison 父子不太可能輕易與 Weiss 切割。\n\n他也承認 CBS News 的經營情況很糟，Weiss 可能讓問題變得更嚴重。但新聞業本身已經經歷長期衰退，他無法確定 Weiss 真的比近年其他管理者差多少。\n\nEllison 父子或許不喜歡她帶來的負面新聞，卻未必在意到需要把她換掉。\n\nNilay 則舉了另一個例子。\n\n他在 TikTok 上看到 CBS News 或 60 Minutes 的影片時，經常發現留言都在責怪 Bari Weiss，甚至有人直接表示不再信任這個新聞品牌。\n\nPeter 認為，新聞部門主管本來就不應該成為一般觀眾熟悉的人物。\n\n但 Nilay 覺得，真正值得研究的是新聞信任如何被破壞。\n\n他把話題轉向 TikTok。\n\nTikTok 曾被視為美國國家安全威脅，國會通過禁令，拜登政府支持立法，卻把實際執行留給川普政府。\n\nNilay 根據自己看過的報導推測，當時國會議員在閉門簡報中接觸到的重要內容，可能與 TikTok 上親巴勒斯坦、反以色列的影片有關。\n\n中國因素對部分議員確實重要，但 Nilay 質疑，國會通過法律後，為什麼又沒有認真執行？\n\n最後的結果，是讓 Ellison 家族取得 TikTok 的所有權利益。\n\n而 Ellison 家族又高度關注以色列問題。\n\nNilay 表示，他看不出這種所有權變化，對使用者如何看待加薩戰爭產生了什麼實質影響。\n\n他也承認，原因可能有很多。也許使用者早就對以色列的行動感到不滿，也許 Ellison 家族根本沒有試圖干預。\n\n他真正想指出的是，社群平台已經成為影響公眾理解新聞的重要力量。\n\n傳統新聞媒體當然會犯錯，政治人物也長期攻擊新聞媒體的公正性。對話中還提到，共和黨過去四十年持續強調媒體存在偏見，這種訊息不斷重複，也會影響大眾信任。\n\n但 Nilay 認為，今天社群平台上還有另一種機制，正在加速侵蝕新聞的可信度。\n\n「每支影片都以『這是他們沒告訴你的』開場。那才是真正讓信任下降的機制。」\n\n接著，這些網紅往往只是把紐約時報已經報導過的新聞重新念給觀眾聽。\n\n### Ellison 同時投資了媒體業最大的兩個敵人\n\n這也帶出整筆收購最有意思的矛盾。\n\nNilay 認為，對 Skydance 現在掌握的媒體資產而言，最大的兩個長期威脅就是 AI 和社群平台。\n\n偏偏這兩個領域，又是 Ellison 家族另外兩項重要投資。\n\nOracle 押注 OpenAI，Ellison 家族也投資 TikTok。\n\n如果把這些資產放在一起，有沒有可能形成一套完整的策略？\n\n例如，用 AI 降低製作成本，再透過 TikTok 推廣電影，把流量導向串流服務或戲院。\n\nPeter 對此相當懷疑。\n\n他回憶 Ellison 當初收購 Paramount 時，一直強調自己不只是電影製片，還有科技背景，甚至宣稱曾接受 Steve Jobs 指導。\n\nPeter 直接否認了後面這項說法。\n\n當時他們提出的科技轉型計畫，大致是把系統搬上雲端，導入 Oracle 的技術，整合後台服務。\n\n也許能省下 1,000 萬、2,000 萬，甚至 1 億美元。\n\n但 Peter 認為，這些終究只是成本削減，而且讓父親控制的公司成為上市媒體集團的供應商，本身也存在值得質疑的關係人交易問題。\n\n至今仍然沒有跡象顯示，Ellison 想出更有野心的成長策略。\n\nTikTok 也未必能提供預期中的協同效益。\n\n雖然 Ellison 家族與 TikTok 有所有權關係，平台的實際經營仍由 ByteDance 負責。\n\nPeter 不認為 ByteDance 會因為 Larry Ellison 的存在，就主動改變經營方式。\n\n他甚至不確定 Ellison 家族究竟能在多大程度上干預 TikTok 的演算法。\n\n整個平台的控制權與運作機制，對外界而言仍然像一個黑盒子。\n\n因此，他不認為 Skydance 與 TikTok 會因為這筆交易而突然緊密整合。\n\n### 好萊塢最大的問題，是永遠學不會平台的生意\n\n傳統媒體公司一直羨慕 YouTube、TikTok、Instagram 這些平台。\n\n原因很直接：內容成本。\n\n傳統片廠必須支付明星、編劇、導演、攝影團隊，投入大量資本製作內容。\n\n社群平台則可以讓使用者自己提供影片。\n\nNilay 一度說 YouTube 幾乎不需要支付內容成本，Peter 隨即糾正：YouTube 其實是這些平台中付得最多的，分潤比例達到 55%。\n\n相較之下，他指出其他社群平台甚至可能完全不支付內容費用。\n\n不過，即使 YouTube 提供分潤，一般創作者實際拿到的金額也未必可觀。\n\n傳統媒體公司自然想模仿這種模式。\n\nDisney 曾經透露，考慮在 Disney+ 放入創作者影片。\n\nNilay 也提出一個看似簡單的構想：讓 HBO Max 在正式影集旁邊，直接顯示 TikTok 上與這部作品有關的評論影片。\n\n這樣既有高品質的專業內容，又能取得大量低成本的使用者內容。\n\n他也承認，實際執行可能遠比想像中困難。\n\nPeter 認為，傳統媒體公司經常一窩蜂追逐同一個方向，現在大家都想加入垂直短影片。\n\n問題在於，觀眾喜歡的不只是短影片格式，更是取之不盡的免費內容。\n\nParamount、Disney、Peacock 仍然花大錢購買或製作內容，也非常重視自己的品牌。\n\n它們很難放棄這套商業模式，變成一個誰都可以上傳任何東西的平台。\n\nPeter 認為，這是傳統媒體公司最難解決的困境。\n\n市場上最有影響力的影音業者逐漸平台化，傳統片廠卻不知道自己該不該跟進。\n\n如果跟進，就得與 YouTube、TikTok 競爭免費內容與流量。\n\n如果不跟進，就必須繼續依靠高品質內容與品牌價值，吸引消費者付費。\n\nNetflix 似乎正在往更平台化的方向走，Peter 預期其他媒體公司也會宣稱自己要成為平台，但他並不看好它們能夠成功。\n\nNilay 則認為，平台掌握流量的優勢非常實際。\n\n例如 Meta 可以在自家社群平台上，大力推廣自己的 AI agent。OpenAI 推廣新產品時，卻還需要向 Meta 購買廣告。\n\n如果 Skydance 每年要推出 30 部電影，還得想辦法吸引年輕觀眾走進戲院，TikTok 的流量自然會非常有價值。\n\nPeter 接著用美國的微短劇市場，說明流量平台究竟有多大的優勢。\n\n微短劇公司彼此競爭，投入資金拍攝大量短劇，再花錢買廣告吸引用戶。\n\n最後最穩定賺錢的，卻是 Meta。\n\n因為 Meta 根本不需要製作微短劇。\n\n它只要提供廣告平台，向這些公司收取行銷費用。\n\n更妙的是，微短劇公司還會把自己的影片當成廣告，上傳到 Meta 的平台。\n\nMeta 一方面收取廣告費，另一方面又得到大量免費、能吸引用戶的內容。\n\nPeter 認為，這正好解釋了傳統媒體公司的處境。\n\n它們持續投入資本製作內容，真正掌握流量與分配權的平台，卻可能比內容製作者賺得更輕鬆。\n\n### Netflix 放棄 Warner，會不會才是真正的贏家？\n\n談到最後，Nilay 提出一個陰謀論。\n\nWarner Bros. Discovery 原本曾考慮把公司拆成兩部分，將有線電視網出售，並讓其他買家取得更有價值的娛樂資產。\n\nNetflix 曾積極競標，一度成為宣布的得標者。\n\nPeter 補充，Netflix 在去年 12 月勝出，今年 2 月退出，得標的狀態只維持了幾個月。\n\n最後是 Ellison 利用自己在監管上的優勢，完成這筆收購。\n\nNilay 開始懷疑，Netflix 是否從一開始就知道這筆交易很難成功。\n\n它也許只是參與競標，把價格一路推高，讓最後的買家背負難以承受的債務。\n\n等幾年後 Skydance 被 800 億美元的債拖垮，Netflix 就能用更低的價格，重新買下自己真正想要的資產。\n\nPeter 不接受這套陰謀論。\n\n他認為，Netflix 當初是真心想買 Warner。\n\n但華爾街非常反對，不斷向 Netflix 管理層表達，不希望公司花 800 億美元做這筆交易。\n\n監管機關也可能帶來很大的麻煩。\n\n最後 Netflix 管理層接受了這些意見，決定退出。\n\nPeter 看過 Netflix 高層公開談論這件事，感覺他們對失去 Warner 仍然相當不甘心。\n\n在他看來，這是一場認真參與、最後失敗的競標，沒有什麼精心設計的多維棋局。\n\n不過，Netflix 確實可以從 Skydance 接下來的整頓中獲得一些好處。\n\n當 Kreiz 開始裁員、取消電影與影集計畫，被放棄的導演、製作人與高階主管，自然會尋找其他出路。\n\nNetflix 與其他公司就可以趁機延攬人才。\n\n這種事情在好萊塢非常普遍。2022 年 Netflix 自己削減內容支出時，其他媒體公司也曾用相同方式挖角它的人。\n\nPeter 還認為，競標失敗後的 Netflix，可能反而會重新振作。\n\n「我覺得一個憤怒、積極的 Netflix，可能是好萊塢現在能遇到的最好的事，因為它原本正走向自己的垂直影片垃圾大會。」\n\n他擔心 Netflix 正在失去過去最重要的優勢：專注。\n\nNetflix 過去幾十年的成功，建立在一次只做好一件事情。\n\n早期專心郵寄 DVD，後來全力投入串流服務。\n\n它曾經不做廣告、不碰運動轉播，也不發展其他複雜業務。\n\n現在卻開始經營廣告、運動、遊戲、podcast，甚至可能整合更多不同類型的電視內容。\n\nPeter 認為，Netflix 也許已經碰到原本商業模式的成長極限，因此必須尋找新的方向。\n\n但業務增加得越多，維持每一項業務的品質就越困難。\n\n失去 Warner 的交易，也許能讓 Netflix 重新思考自己究竟擅長什麼。\n\n### 45 分鐘過去了，還是沒有人知道新營收在哪裡\n\n訪談接近尾聲時，Nilay 回到最開始的問題。\n\n聊了大約 45 分鐘，他仍然不知道 David Ellison 打算怎麼讓 Skydance 比去年多賺一塊錢。\n\nPeter 說，當晚 Skydance 即將召開合併後的第一場記者會。\n\n也許管理層會提出令人信服的成長計畫，也許隔天重新錄一次節目，大家還是回答不了這個問題。\n\n目前比較確定的事情，只有公司必須削減成本、降低負債，以及整頓原本各自經營的媒體資產。\n\n而負責執行這些工作的人，很可能就是 Ynon Kreiz。\n\nPeter 預期，Kreiz 不會是一個經常出現在鎂光燈下的人物，但好萊塢有很多人終究會記住他的名字。\n\n因為這個產業向來喜歡替自己的問題找一個人負責。\n\n某家公司經營失敗，大家會怪罪前任管理層，期待新老闆來拯救公司。\n\n等新老闆上任幾個月，發現情況沒有改善，原本被視為救星的人，又會成為大家責怪的對象。\n\nPeter 猜測，Skydance 很可能也會經歷這個過程。\n\n如今 Ellison 已經拿到了 Paramount、Warner Bros.、HBO、CNN、CBS 等珍貴資產，還有父親的財富支援，以及相對有利的監管環境。\n\n收購本身已經完成，接下來的問題也越來越單純。\n\n省下 60 億美元，可以讓公司的財務報表好看一些。\n\n但背負 800 億美元債務的 Skydance，終究還是得回答同一個問題：\n\n除了砍成本，它究竟打算靠什麼成長？\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
+      "article_date": "2026-10-12",
+      "url": "https://hackmd.io/Sy75Z-cizl",
+      "analysis_zh": "原始影片：Creating Muse: The Fastest-Growing AI Product Since ChatGPT | Alexandr Wang, Meta (https://www.youtube.com/watch?v=S6l3aRsecuE) | David Senra | 2026-10-11\n\n2026 年初，AI 產業的注意力幾乎全在寫程式上。\n\nAnthropic 的 Opus 與 Claude 在 coding 領域遙遙領先，後來又推出 Mythos。Meta 首席 AI 長 Alexandr Wang（以下簡稱 Alex）形容，那是「Anthropic 開始接管整個產業」的時刻，令人相當不安。\n\n當時業界幾乎形成共識：coding agent 是最重要的 AI 產品，甚至可能是進階 AI 唯一值得投入的方向。整個產業都被這股力量推著走，爭相與 Anthropic 競爭。\n\nMeta 卻選擇了另一條路。\n\nAlex 相信，Meta 最有機會勝出的領域，是能替一般人處理生活大小事的個人 AI 代理。從第一個原型到正式上線，團隊花了七個月，把這個構想變成 Muse。\n\n這段過程牽涉三件事：Meta 為什麼選擇個人代理、如何把不可靠的 AI 變成消費產品，以及 Mark Zuckerberg 如何讓一支不到兩百人的團隊，在一家大型科技公司裡完成這件事。\n\n### 起點是一份備忘錄，和一個會盯著你喝水的代理\n\n故事要從 2025 年 6 月說起。\n\nMeta Superintelligence Labs（MSL）成立時，Zuckerberg 發表了一份名為 Personal Super Intelligence 的備忘錄。Alex、Nat Friedman 等人都參與了討論與撰寫。\n\n他們想解決的問題很直接：如何打造足夠強大的 AI，真正改善每個人的生活？\n\n當時已經有了個人超級智慧的初步構想，但距離實際產品還很遙遠。2025 年夏天，AI 代理甚至還沒有以任何有意義的形式真正出現。\n\n團隊於是先投入模型開發。前沿模型從資料準備、預訓練到後訓練，整個流程往往需要好幾個月。\n\n轉折出現在 2026 年初。\n\nOpus 4.5 讓許多人第一次清楚看見 AI 代理可能的未來，Alex 的團隊也不例外。同一時間，OpenClaw 開始爆紅。\n\nNat Friedman 是 MSL 第一個使用 OpenClaw 的人。\n\nAlex 形容：「他的經驗，我會形容介於恐怖和狂喜之間。」\n\nNat 幾乎毫無保留地信任自己的代理。他曾在 Stripe Sessions 的訪談中分享一個故事：他希望自己多喝水，於是告訴 OpenClaw 這件事。結果代理開始透過家裡的監視畫面觀察他有沒有喝水，每次看到他喝水，還會出聲稱讚。\n\n這只是 Nat 經歷的眾多瘋狂故事之一。\n\n他告訴 Alex，這項技術真的有東西。\n\nAlex 非常重視 Nat 的判斷。Nat 是 Stripe 最早的客戶之一，很早就投入開源開發工具，也參與打造 GitHub Copilot。過去幾次技術浪潮，他都很早就看出潛力。\n\n於是 Alex 也開始密集使用 OpenClaw。有好幾個星期，兩人只要有空，就會跟自己的代理說話。\n\nAlex 裝好 OpenClaw 後，最早嘗試的功能之一，是 Nat 寫的一段心理分析提示詞。\n\n當時 Nat 就在旁邊，叫他試試看。這段提示詞會讓代理進行一連串深層心理探問，而且一波比一波深入。\n\n代理還能讀取 Alex 的電子郵件、照片，並自行搜尋其他資料，把不同線索拼湊在一起。\n\n整個過程讓他感到極度脆弱。\n\n「大概等於三年的心理治療，全部壓縮在那一刻。」\n\n這段經驗讓他相信，當一個人真正信任 AI 代理，願意讓它進入自己的生活，它能做到的事情遠比一般聊天機器人多得多。\n\n### 二月，他在備忘錄裡稱它為「最終的消費者產品」\n\n到了 2026 年 2 月，Alex 和 Nat 都認為，他們碰到了一個非常特別的機會。\n\n兩人分別寫下備忘錄，透過 Meta 董事會向上傳遞。\n\nAlex 在備忘錄裡提出，在很多方面，超級代理可能就是「最終的消費者產品」。\n\n他的意思是，如果 AI 有能力理解一個人的生活、記住他的需求，還能代替他完成各種任務，那麼消費者 AI 的發展就有了一個相當清楚的終點。\n\nNat 則寫了兩份備忘錄，其中一份叫做「Trust Is a Must」。\n\n信任後來成為 Muse 最重要的產品原則之一。\n\n接著，團隊只花了一到兩週就做出第一個原型，並拿給董事會看。\n\n令人意外的是，最終 Muse 的許多產品決策，在第一版原型裡就已經出現。甚至連後來成為吉祥物的 Jolly，也在第一次會議中現身。\n\n當然，當時還沒有所有功能與介面，但產品的大致輪廓已經成形。\n\nZuckerberg 也開始親自體驗。\n\n依 Alex 轉述，Mark 曾讓代理處理家務、跟孩子一起使用，甚至把自己的 MMA 綜合格鬥訓練影片交給代理分析，請它提出改進建議。\n\nMeta 的高階主管會議還因此出現一個有趣的環節：大家輪流分享最近跟 AI 代理發生了什麼瘋狂的事。\n\n整個團隊都感受到這項技術的潛力，也親身經歷它令人興奮與不安的一面。\n\n### 原型只要兩週，可靠要七個月\n\nMuse 最困難的部分，從原型完成後才真正開始。\n\nAlex 說，早期原型偶爾會展現近乎魔法的能力，讓人驚訝得說不出話；但大多數時候，它根本不能正常工作，問題一大堆。\n\n從 2 月到七個月後正式上線，團隊的主要工作，就是把這個充滿可能性、卻經常故障的原型，打磨成高度可靠的消費產品。\n\n過程漫長，而且痛苦。\n\nOpenClaw 的發展讓 Alex 更加確信這一點。\n\n在他的觀察裡，OpenClaw 的熱潮曾經衝上高峰，後來又逐漸退去。許多使用者都經歷過令人驚豔的時刻，但大部分時間，產品仍然不太好用。\n\n一個只有少數技術愛好者願意忍受的產品，很難直接交到數十億消費者手上。\n\n主持人因此問了一個尖銳的問題：為什麼 Meta 能解決這些問題，OpenClaw 的開發者卻做不到？\n\nAlex 首先強調，他非常尊敬 OpenClaw 的作者 Peter Steinberger，以及所有參與貢獻的人。Peter 是真正具有遠見的開發者。\n\n至於 Muse，Alex 認為差別出在那些非常不光鮮的工作。\n\n團隊必須反覆修改模型，調整模型與產品之間的每個細節，讓整個體驗逐漸穩定。\n\nMeta 甚至把模型開發路線圖重新調整，將個人代理列為最重要的方向之一。\n\n對 Alex 來說，這是 Meta 必須投入的苦工。\n\n如果要讓數十億人使用，產品就得有能力讓絕大多數人獲得良好體驗。偶爾出現一次神奇的成功，遠遠不夠。\n\n### 為什麼是 Meta：人想做的事，本來就在它的產品裡\n\nMeta 為什麼要投入個人代理？\n\n這個判斷其實比 Muse 更早。\n\nAlex 說，在 Scale 與 Meta 的交易發生之前，他就曾經跟 Zuckerberg 討論過一個想法：\n\n假設未來真的出現 AGI、ASI，Meta 可能會是一家非常特別的公司。\n\n原因來自他對人類生活的觀察。\n\n每個人每天都有兩種事情要做：一種是自己想做的事，另一種是不得不做的事。\n\n如果 AGI 足夠強大，未來那些不得不做的事情，大部分都能交給 AI。人類便有機會把更多時間花在自己真正想做的事情上。\n\n而 Meta 旗下的產品，恰好都與這些事情有關。\n\n人們使用 Instagram、Facebook、WhatsApp，是為了與朋友家人聯繫、探索自己的興趣、關注喜歡的人，或者參與自己在乎的社群。\n\nMeta 的核心業務，一直圍繞著這些人性需求。\n\n因此 Alex 相信，從長期來看，Meta 有機會成為 AI 時代最大的贏家之一。\n\n從產品傳承來看，Meta 擅長連結人與人，幫助使用者發現自己的興趣；從商業規模來看，Meta 每天有 35 億人使用旗下應用程式。\n\n對這樣一家公司而言，消費者 AI 是非常自然的發展方向。\n\n主持人將他的想法濃縮成一句話：跳過工作與 coding，把焦點放在人本身。\n\nAlex 完全同意。\n\n他認為個人代理、個人 AI、消費者 AI，才是 Meta 最有機會創造獨特價值的地方。\n\n這也解釋了為什麼當其他實驗室爭相投入 coding agent 時，Meta 願意把大量資源押在個人超級智慧上。\n\n### 一百多項行為，全部轉綠才上線\n\n方向確定後，團隊開始把「好用的個人代理」拆解成具體能力。\n\nAlex 說，他們建立了一張試算表，列出理想的個人代理需要具備的一百多項行為與能力。\n\n他在訪談中一度說成數百甚至上千項，隨後自行更正為一百多項。\n\n每一項能力都有對應的評測。\n\n團隊持續訓練模型，定期檢查哪些能力表現不佳，再針對弱點進行改進。\n\n從使用者的角度看，這些細節可能很瑣碎。但對代理產品來說，模型能不能正確理解需求、可靠地完成任務、適時回報進度，或者在需要使用者決定時主動詢問，都會影響整個體驗。\n\nAlex 說，這套工作方式很符合 Meta 的文化。\n\n過去在消費網路產品時代，Meta 擅長衡量並優化轉換率、推薦率、註冊流程等細節。\n\n一旦知道該衡量什麼，公司就能動員非常優秀的人才，持續把數字往好的方向推進。\n\n到了 Muse，這套能力被用在模型本身。\n\n但團隊仍然需要回答一個問題：怎麼知道產品已經準備好上線？\n\nAlex 說，判斷分成兩個部分。\n\n第一部分是數字。\n\n他們為試算表上的每一項能力設定兩個門檻：低於什麼程度就不能上線，以及高於什麼程度才算表現良好。\n\n很多模型版本的結果都是八十項通過、二十項沒過。\n\n即使大部分能力已經達標，團隊仍然不願意推出。\n\n直到一個特別訓練過的模型版本 Muse Spark 1.3，第一次讓所有檢查項目都轉成綠色。\n\n第二部分是實際體驗。\n\n當團隊真正使用這個版本時，能明顯感覺到它比之前測試過的模型好得多。\n\n數字和使用體驗終於一致，Muse 才跨過上線門檻。\n\n### 一個站在刀鋒上的產品\n\nAlex 認為，個人代理是一種風險極高的產品。\n\n「個人代理是那種站在刀鋒上的產品類別：如果它能穩定交付這些神奇體驗，它有機會成為史上最偉大的消費產品之一。」\n\n然而，AI 模型具有非確定性，同樣的任務未必每次都會得到相同結果，代理也可能在執行過程中故障。\n\n「人只要有過不可靠的體驗，就會覺得它是垃圾。」\n\n主持人追問，有沒有具體的流失數據？例如使用者經歷九次良好體驗、兩次糟糕體驗，就決定離開。\n\nAlex 沒有提供數字。\n\n但他指出，2026 年初出現的許多代理產品，幾乎所有使用者最後都流失了。依他的判斷，主要原因就是產品不可靠。\n\nMuse 因此進行大量使用者測試。\n\n團隊一輪又一輪找來全新的使用者，讓他們從下載開始體驗，觀察整個流程哪裡會出問題。\n\n這裡還有一個容易被技術圈忽略的難題。\n\n對開發者來說，AI 代理早已不是新鮮事。許多人早就在下載、使用各種代理工具。\n\n但對多數消費者而言，過去接觸的 AI 主要是聊天機器人。現在突然出現一個可以替自己執行任務的產品，光是理解這項能力，就需要適當的引導。\n\n因此 Muse 除了改善模型，也得仔細設計使用者第一次接觸代理的過程。\n\n團隊持續對不同模型版本進行 A/B 測試，發現產品體驗對模型品質非常敏感。\n\n代理能不能完成任務、能否清楚回報進度、何時應該向使用者確認，都會直接反映在使用者體驗上。\n\n### 七個月的耐心\n\n這段漫長的開發過程，也讓 Alex 特別感謝 Zuckerberg。\n\n主持人在訪談中提到 Colossus 上 Jeremy Stern 撰寫的一篇 Zuckerberg 人物側寫。\n\n文章長達一萬五千字。Alex 坦承自己看到了，但實在太長，還沒讀完。\n\n主持人轉述，Zuckerberg 曾談到自己與 Elon Musk、Sam Altman 的不同。\n\n他認為自己的技能並不性感，卻很擅長建立團隊，並在很長的時間裡持續改進產品。\n\n他也擁有一項重要優勢：不必擔心失去公司控制權，也不需要不斷向外募資，所以能夠長期投入同一件事情。\n\nAlex 認為這個描述很準確。\n\n七個月在傳統軟體開發裡未必算長，但在當時快速變化的 AI 產業，已經是非常漫長的一段時間。\n\n他把很大的功勞歸給 Mark 的耐心、克制，以及對整個開發過程的信任。\n\n尤其當時外界的壓力非常大。\n\n從 2 月到 9 月，Zuckerberg 在財報會議上其實不斷暗示 Meta 正在打造個人代理，並沒有刻意隱藏方向。\n\n然而華爾街的主流敘事仍然是：Meta 花了這麼多錢投入 AI，到底能不能做出像樣的成果？\n\n主持人補充，外界一再質疑 Zuckerberg 沒有能力贏下 AI 競賽。\n\n但他在人物側寫中讀到一段有趣的描述。\n\n一位曾經替 Zuckerberg 工作、後來加入競爭對手的研究員說，自己不想與 Meta 競爭，因為 Mark 就像一個永遠不會停止的終結者。\n\n那篇文章還提到，Zuckerberg 永遠不滿意產品的現狀。他對方向有強烈控制慾，卻不會粗魯地對待團隊，也非常重視團隊之間的凝聚力。\n\n對 Alex 來說，Muse 能在七個月裡完成，很大一部分正是因為 Zuckerberg 願意給這支團隊時間。\n\n### 不到兩百人，只有一個觀點\n\nMuse 另一個特別之處，是開發團隊的規模。\n\n模型加上產品，總共不到兩百人。\n\n在一般新創公司，這可能已經是相當大的組織；但對 Meta 這種規模的公司而言，人數非常少。\n\nAlex 說，整個高階主管團隊都知道，Muse 很可能是 Meta 當年最重要的產品之一。\n\n然而大家仍然克制住擴編的衝動，讓它維持在一個小而專注的團隊裡。\n\n理由是：\n\n「我們知道它是一件單一的藝術品。」\n\nAlex 對大型組織開發產品有一個批評。\n\n當太多人參與決策，每個人都會有自己想放進產品的功能、理念或目標。\n\n最後產品變成各種意見的拼裝品，看起來像科學怪人。\n\n他形容那是一種 PM 地獄。\n\n「每個 PM 都有一樣想塞進產品裡的東西，最後全部攪在一起，幾乎變成一杯果昔。」\n\n使用者其實能感覺到差別。\n\n當一個產品由許多人各自推動不同方向，最後硬湊在一起，使用體驗往往會缺乏一致性。\n\nMuse 因此需要一個非常鮮明的觀點，讓整個產品都朝同一個方向發展。\n\n主持人提到，錄音當天剛好是 Steve Jobs 逝世十五週年。\n\n他長期研究 Jobs 與 Apple，在自己的 Founders 節目裡做過十五到二十集相關內容。\n\nJobs 最著名的能力之一，就是把個人對產品的品味與判斷，完整反映在 Apple 最後推出的東西上。\n\n那麼 Muse 的這個人是誰？\n\nAlex 給出的答案是 Nat Friedman。\n\n他認為，Muse 最終呈現的品味、感受力與產品觀點，很大程度都來自 Nat。\n\n如果 Muse 有一個貫穿整個產品的單一觀點，那就是 Nat 的觀點。\n\n### 「數百萬」使用者，和一個停不下來的 X 帳號\n\nMuse 上線後，成長速度相當快。\n\n主持人問 Alex，目前到底有多少人在用 Muse？\n\nAlex 只願意透露公司公開說過的數字：「數百萬」。\n\n他曾經轉推其他人製作的成長圖表，暗示 Muse 可能是史上成長最快的消費者 AI 應用程式，但沒有提供可以核實的確切使用者人數。\n\n主持人忍不住開玩笑：「數百萬」也可能是幾億，只是把前面幾個字省略了。\n\nMuse 上線後還出現另一個現象。\n\nAlex 的 X 帳號突然開始瘋狂發布迷因，發文頻率和風格都跟以前很不一樣。\n\n主持人說，他那些熟悉網路迷因文化的朋友，甚至懷疑 Alex 背後有一百個 Muse 在替他製作迷因。\n\nAlex 澄清，每一則推文都是自己寫的。\n\n他形容，那段時間有時連開會都很難專心，因為腦中突然冒出一個好笑的點子，就會忍不住想發出去。\n\n有次跟同事吃晚餐，吃到一半想到一則迷因，當場就發了。\n\n那種感覺讓他想起以前當工程師修 bug 的時候，突然找到解法，知道這次一定會成功。\n\n不過，這場迷因攻勢背後有明確的產品目標。\n\n第一，是讓 Muse 在大量 AI 新產品中脫穎而出。\n\n團隊曾經為此開過大型會議。\n\nAI 產業每天都有新模型、新創公司、新功能推出，一般人很容易對這些消息麻木。\n\nMeta 擁有龐大的分發能力，可以讓很多人知道 Muse 的存在，但要讓產品真正進入流行文化，還得找到其他方法。\n\n第二個目標，是讓 Meta 重新變酷。\n\nAlex 認為 Instagram、Facebook 都是非常了不起的文化產品，但 Meta 這家公司已經有一陣子不太酷了。\n\n他希望透過 Muse，讓 Meta 重新變得有趣、好笑，而且值得關注。\n\n一開始，他主要轉推使用者分享的有趣案例，一天可能轉推幾十則。\n\n發得多了，他發現有些根本沒想太多、隨手丟出去的貼文，反而獲得驚人的反應。\n\n有時候發完幾個小時沒看手機，回來才發現貼文已經爆紅。\n\n這讓他想起網路文化的一項特性：\n\n「網路獎勵冒險，獎勵驚喜，獎勵人們意料之外的東西。」\n\n於是他開始放開手腳。\n\nNat 後來在許多會議上開玩笑：\n\n「我以為我們會學到很多關於 Muse 使用者、大家怎麼用 Muse 的事，結果我們只學到很多關於 Alex 腦袋的事。」\n\n迷因到底有沒有帶動 Muse 成長？\n\nAlex 認為有，但也坦承團隊沒有追蹤這件事，實際效果很難判斷。\n\n主持人則說，自己身邊確實有許多人因為這些討論而下載、使用 Muse。\n\n### 廣告只要讓人看到它能替你做什麼\n\n談到產品成長，Alex 認為第一步是讓使用者盡快體驗到令人驚豔的時刻。\n\n對從未使用過 AI 代理的人來說，光是看到 AI 真正替自己完成一件事情，往往就足以感到震撼。\n\n因此團隊除了設法讓新使用者盡快碰到這些時刻，也積極放大使用者分享的成功故事。\n\nMuse 確實投放了一些廣告，但早期很大一部分的宣傳，來自 Alex 在 X 上大量轉推、引用使用者案例。\n\n主持人對此提出一段批評。\n\n他一直不理解 Anthropic 與 OpenAI 的廣告為什麼做得那麼差。\n\n在他看來，Anthropic 的戶外廣告花了很多篇幅介紹自己；OpenAI 的廣告則只出現商標，以及兩個坐在桌前的人，觀眾很難直接看懂產品能做什麼。\n\n他的疑問是，這些公司明明擁有數百萬個使用案例，為什麼不直接展示產品替人解決了什麼問題？\n\nAlex 認為，這正是做 Muse 時反覆思考的一個問題：\n\n人們為什麼要在乎？\n\n他說，世界上大多數人根本不在乎 OpenAI、Anthropic 或 Meta，也不在乎這些公司正在進行什麼研究。\n\n人們在乎的是自己的生活，以及這些產品能替自己做什麼。\n\n主持人把這個觀點連到一本經典廣告書《Scientific Advertising》。\n\n這本書由 Claude Hopkins 在二十世紀初寫成。主持人認為，它表面談廣告，實際上談的是幾乎不會改變的人性。\n\n消費者關心的始終是自己能得到什麼好處。\n\n後來許多大型廣告公司的經營方式，也受到這套觀念影響。\n\n### 一個拿著公事包的小傢伙\n\nMuse 在行銷上還有一項意外的優勢：Jolly。\n\nAlex 回憶，有一天開車上班途中，他生成了一張 Jolly 拿著公事包的圖片，配上星期一上班的迷因。\n\n那可能是他好一陣子以來最滿意的推文之一。\n\n從那時開始，他發現這個小傢伙幾乎可以放進任何情境裡。\n\nJolly 讓他有機會嘗試一種帶點辛辣、令人意外的產品行銷方式。他不確定過去是否有人這樣做過，但至少自己想不起來。\n\n這種迷因能讓平常不關注 AI 的人產生好奇。\n\nJolly 還帶來另一個意料之外的好處：讓 Muse 的截圖具有辨識度。\n\n主持人分享了一個親身經驗。\n\n他下載 Muse 後，發現產品介面其實很開放，主要就是一個文字輸入框，也沒有花太多篇幅告訴使用者可以做什麼。\n\n真正讓他想使用 Muse 的，是一位朋友傳來的幾張截圖。\n\n那位朋友經營一家千億美元的公司。有次他把身分證件忘在 Flexjet 的飛機上，便直接交代 Muse：\n\n自己完全不想參與處理過程，只告訴代理證件在哪裡、自己在哪裡，要求它想辦法把證件送回來。\n\nMuse 接著安排快遞取回證件，並設法通過辦公室保全，把證件送上樓。\n\n主持人認為，這三、四張截圖就是最好的產品廣告。\n\nAlex 很認同。\n\n他認為現代消費產品的行銷，很大程度靠截圖在群組、社群和網路上流傳。\n\n因此產品本身必須具備一項能力：光看截圖，就能讓人理解它做了什麼。\n\nMuse 的截圖裡恰好有 Jolly，別人一眼就能認出產品。\n\n有趣的是，這項行銷優勢並非團隊刻意設計。\n\n### 從一件小事開始的信任\n\n但吸引使用者下載，只是開始。\n\n真正的挑戰是讓人願意持續使用，而且逐漸把更重要的事情交給代理。\n\nAlex 把這個過程形容成一場信任倒（trust fall）。\n\n剛開始，你對 AI 還沒有多少信心，但有點好奇，於是交給它一件小事。\n\n它完成了。\n\n你感到驚訝，於是再給它稍微複雜一點的任務。\n\n它又完成了。\n\n隨著每一次成功，你開始願意交出更多控制權，最後甚至把生活中很重要的事情交給它處理。\n\nAlex 認為，真正喜歡 Muse 的使用者，大多經歷過這種逐漸建立信任的過程。\n\n當然，也有一些人從一開始就非常大膽。\n\n他曾跟一些大學生聊天，發現有人直接錄下很長的語音備忘錄，把腦袋裡所有事情、煩惱與想法全部交給 AI，再相信它能整理出清楚的計畫。\n\n對 Alex 來說，個人代理的留存核心就在這裡。\n\n使用者必須經歷一連串成功，才會逐漸相信自己可以把更大的任務交給代理。\n\n因此模型的可靠性與產品成長，其實是連在一起的。\n\n### 童年夢想的成年生活\n\nAlex 自己使用 Muse 的方式，主要是設定大量工作流程，把它當成第二個大腦。\n\n他認為工作時應該把注意力放在人與人的互動上，因此希望 AI 幫忙處理其他事情。\n\n主持人提到 Alex 曾寫過一篇短文，當時已經累積約 550 萬次觀看。\n\n文中描述了一個未來：每個人都擁有一個自己之外的第二個心智。\n\nAlex 認為，當人類擁有愈來愈強大的 AI，我們與 AI 之間會建立什麼關係，是非常值得思考的哲學問題。\n\n有些人想像的未來，是 AI 的能力遠遠凌駕人類，人只能按照 AI 的意志行動。\n\n但 Alex 相信，個人代理可能帶來另一種關係。\n\n人類始終有自己的慾望、興趣和夢想，而個人代理能成為實現這些目標的工具。\n\n當一個人的願望更容易實現，他便有機會產生更大的願望。\n\nAlex 提到 Bezos 曾在股東信裡寫過，消費者總是會對既有選擇感到一種「美好的不滿足」。\n\n他認為，人與 AI 的關係可能也會呈現類似的循環：人們不斷想要更多，AI 則持續提高實現願望的能力。\n\n他也承認，AI 未來還會參與更多科學發現，進入經濟活動的各個角落。這些都是可能的發展模式。\n\n但他最看好的長期產品形態，仍然是每個人都有一個支持自己、協助實現願望的個人代理。\n\n他用一句話概括自己的願景：\n\n「我認為 Muse 能給每個人他們童年時夢想的那種成年生活。」\n\nAlex 說，小時候，每個人都有過很大的夢想。\n\n我們可能想成為太空人、拯救地球，或者改變世界。\n\n但長大以後，念完書、進入職場，工作了一段時間，許多人的希望與雄心逐漸被消耗殆盡。\n\n主持人形容得更激烈：那股生命力被打掉了。\n\nAlex 接著說，成年人可能沒有意識到，我們有多大程度已經變成了殭屍。\n\n失去的東西，是對生活的掌控能力，以及繼續追求更大目標的雄心。\n\n他認為 AI 的一項重要承諾，就是讓人可以把童年時的雄心一路延續下去。\n\n先有一個大夢想，利用 AI 實現它，再開始追求更大的夢想。\n\n整個人生的能動性，就像搭著手扶梯一樣持續上升。\n\n主持人想到前面那段令人不安的心理分析經驗，提出另一種可能：如果 AI 能幫助一個人建立自信，讓他真正相信世界可以被改變呢？\n\nAlex 認為，頂尖創業者早就在經歷這種循環。\n\nElon Musk、Mark Zuckerberg 都曾經設下巨大的目標，完成後又提出更大的目標，甚至花上十年繼續追求。\n\n這些創業者對世界的想像，不斷隨著成功而擴張。\n\nAlex 希望未來每個人都有機會經歷這種過程。\n\n他覺得最可惜的地方，是許多人原本有自己的理想，進入企業職場後慢慢放棄。等到某天想重新追夢，可能已經背負家庭、工作與其他承諾，很難再改變生活。\n\n如果數十億人都能得到充沛智慧的支持，每個人都有能力實現自己的想法，世界可能會變得非常瘋狂，也非常有趣。\n\n不同地方會出現各種意想不到的創造，文化和藝術可能變得更加多元。\n\nAlex 說，自己想像的畫面，有點像《Rick and Morty》裡的跨次元電視。\n\n只是那些千奇百怪的世界，可能真的在人類社會裡出現。\n\n### 一通「有空通個電話嗎」\n\nMuse 的故事講完，主持人把話題帶回 Alex 為什麼會加入 Meta。\n\n一切從 Zuckerberg 傳來的一則訊息開始。\n\nAlex 記得內容大概是：「嘿，你有空通個電話嗎？」\n\n兩人其實早就認識。\n\nAlex 在創辦 Scale 大約一年後，就認識了 Meta 的長期高階主管、現任資料長 Alex Schultz。\n\n大約在 2021 或 2022 年，Schultz 介紹他認識 Zuckerberg，因為 Zuckerberg 當時已經對 AI 越來越感興趣，而 Scale 正好在這個領域做了許多事情。\n\nAlex 記得，光是從介紹到真正排上第一次會面，就花了將近一年。\n\n他因此很早就見識到 Zuckerberg 驚人的優先順序管理能力。\n\nMark 同時要處理大量事情，又希望兼顧家庭生活，所以必須非常清楚哪些事情值得投入時間。\n\n後來兩人偶爾會在 WhatsApp 上交流。\n\nAlex 有時以創辦人的身分向 Zuckerberg 請教，對方經常回覆非常長、思考又相當嚴謹的訊息。\n\n他一開始不明白 Zuckerberg 哪來的時間，後來才發現，Mark 寫訊息的速度極快，能在短時間內打出內容完整的長篇回覆。\n\nMeta 本來就是 Scale 的重要客戶。\n\n在那通改變職涯的電話之前，兩人大概每六個月會聊一次。\n\n真正的轉折發生在 Llama 4 之後。\n\nAlex 說，Llama 4 的表現沒有走在 Meta 原本期待的軌道上，對公司內部來說是一次失望。\n\n而 AI 對 Meta 未來的重要性，卻變得越來越明顯。\n\nZuckerberg 開始向 Alex 徵詢意見：如果是你，會怎麼調整 Meta 的 AI 策略？應該優先做什麼？\n\n一開始，兩人都不知道最後會談成什麼。\n\n主持人提到，他私下聽說 Zuckerberg 身邊有一群世界級創業者，經常向他們請教，也會主動分享自己正在面對的問題。\n\nAlex 認為，對一個已經取得巨大成就的人來說，仍然願意不斷向別人學習，是一種非常難得的特質。\n\n更驚人的是整件事的速度。\n\n從 Zuckerberg 第一次聯絡，到雙方宣布交易，總共只有五、六週。\n\n主持人拿另一件事比較：依他的說法，Groq 創辦人 Jonathan Ross 與 Nvidia 那筆 200 億美元交易，從 Jensen Huang 第一通電話到資金入帳，也只花了三週。\n\n他認為，這些頂尖創業者一旦看準方向，決策速度往往快得驚人。\n\n### 產業邏輯說不通，Mark 要的是人才\n\nAlex 當時針對 Meta 的 AI 策略提出許多建議。\n\n與此同時，另一段對話也逐漸浮現：也許雙方可以找到合作的方式。\n\nAlex 起初覺得這個想法很不合理。\n\n主持人笑說，當一個大型科技公司的創辦人開始說「我們應該想辦法合作」，通常就代表對方想買下你的公司。\n\n但 Alex 當時沒有往這個方向想。\n\n因為從產業邏輯來看，Meta 收購 Scale 並不自然。\n\nMeta 過去最具代表性的收購，是 Instagram 和 WhatsApp。這兩家公司都有清楚的消費產品邏輯，能直接融入 Meta 的業務。\n\nScale 卻是一家高度依賴企業與政府客戶的公司，業務模式與 Meta 完全不同。\n\n除非 Meta 想大舉進軍企業和政府市場，否則很難找到合理的收購理由。\n\nAlex 後來才理解，Zuckerberg 最迫切的需求，是讓 Llama 與整個 AI 計畫重新上軌道。\n\n主持人直接說出了答案：Mark 想要的是人才。\n\nAlex 同意。\n\n雙方的談判一開始相當模糊，直到討論進入實際交易金額，他才真正意識到事情可能成真。\n\n最後的交易架構也很特殊。\n\nMeta 投資 Scale，取得 49% 股權。Scale 繼續獨立營運，Alex 和少數同事則加入 Meta。\n\nAlex 認為這是一筆三贏的交易。\n\nScale 的股東得到良好的交易條件，公司也能繼續發展；他自己則得到帶領 Meta AI 計畫的機會。\n\n他也相信 Scale 最好的日子仍然在未來。\n\n### 放下做了九年的孩子\n\n即使交易條件很好，Alex 仍然經歷了一段艱難的情緒掙扎。\n\n他花了好幾週反覆思考：這件事真的會發生嗎？這個決定合理嗎？自己真的願意離開 Scale 嗎？\n\n他與公司內部的人、投資人討論了很多次。\n\n對他來說，Scale 是自己一手養大的孩子。\n\n他經營了九年。主持人提醒他，當時他甚至還不到三十歲，等於人生有三分之一的時間都投入了這家公司。\n\nAlex 提到 Paul Graham 曾經談過，如果把公司視為畢生志業，做事的態度就會完全不同。\n\n他一直都是用這種心態經營 Scale。\n\n所以離開的決定遠比外界想像中困難。\n\n最後讓他下定決心的，是兩個因素。\n\n第一，交易對各方都有好處。\n\n第二，他看見了 Meta AI 計畫巨大的改善空間。\n\n他坦白說：\n\n「Meta 在 AI 上，很多方面看起來確實像受損品，大概也不是做 AI 最吸引人的地方。」\n\n但這種局面反而激起了他的創業者本能。\n\n因為有太多事情需要重建，他反而有機會從頭建立一套新的原則、文化和組織。\n\n這也是他願意離開 Scale 的重要原因。\n\n### 小、扁平、極強的團隊\n\nAlex 加入 Meta 後，最堅持的一個原則，就是建立小而強的技術團隊。\n\n他相信，一支人數不多、人才密度極高、技術能力強、組織非常扁平的團隊，可以在短時間內做出驚人的成果。\n\n他認為 Elon Musk 過去多次證明過這件事。\n\n在他與 Zuckerberg 早期的討論裡，這個想法反覆出現，逐漸成為重建 MSL 的重要原則。\n\n主持人問，當時是不是已經決定，要把原有組織推倒，換一批更強的人重新開始？\n\nAlex 說，整個方向是在討論中逐漸形成的。\n\n但最後確實確立了幾項原則：團隊要小、結構要扁平、技術能力要強，而且必須有極高的人才密度。\n\n主持人對 Zuckerberg 的行事風格另有一番觀察。\n\n他提到一本 1957 年出版的《The Mind of Napoleon》，書中整理了大量拿破崙本人的話。\n\n他之所以注意到這本書，是因為 Sam Altman 曾在 Tyler Cowen 的訪談中推薦。\n\n拿破崙有個反覆出現的觀念：猶豫是致命的。\n\n但在採取行動之前，他又會從各個角度反覆研究，確保自己充分理解問題。\n\n主持人認為 Zuckerberg 的決策方式有點類似。\n\n事前思考很多，一旦決定方向，就敢投入大量資源。\n\nAlex 則提出更直接的看法：\n\n「我覺得他真的內化了一件事：失敗不重要，重要的是贏的時候贏多大。」\n\n這讓 Zuckerberg 很願意承擔風險。\n\n主持人也引用 Zuckerberg 曾經說過的觀念：當世界持續改變，最大的風險就是完全不冒險。\n\nAlex 認為，這套思維深刻影響了 Meta 的公司文化。\n\n他說，在某些平行世界裡，Meta 可能已經變得很像 Google，規模龐大、運作緩慢，而且更加官僚。\n\n但 Zuckerberg 讓公司始終保持變動，願意承擔重大風險，也願意重新調整方向。\n\n### 從什麼都管的創辦人，到教練\n\nAlex 說，自己在 Scale 和 Meta 的管理方式，有很大的不同。\n\n在 Scale，他深信一個原則：好的創辦人應該有能力做公司裡的每一份工作。\n\n因此他對公司幾乎每件事情都有強烈意見。\n\n從產品到營運，許多細節都反映他的個人判斷。\n\nScale 很大程度就是他個人觀點與努力的產物。\n\n但這種管理方式有代價。\n\n當公司越來越大，所有事情都要經過創辦人，創辦人就會成為瓶頸。\n\nAlex 認為，第一次創業時，這套做法仍然很有價值，甚至可能提高成功機率。\n\n但到了 Meta，情況完全不同。\n\n他必須在極短的時間裡完成大量工作，根本沒有辦法親自參與每個細節。\n\n他也坦承，自己既不是 AI 研究員，也不是產品設計師，而這些專業能力又直接決定整個實驗室能否成功。\n\n因此他把第一要務放在招募頂尖人才，並替他們建立能夠發揮能力的環境。\n\nMSL 當時有幾項獨特的招募優勢。\n\n首先，這是一個能夠從零開始建立 AI 實驗室的機會，而且目標非常鮮明：打造個人超級智慧。\n\nAlex 相信，許多投入 AI 研究的人，最後都希望這項技術能對一般人有意義。\n\n他舉例，大家都希望自己做的東西，未來能真正幫助自己的父母、祖父母，以及世界上其他人。\n\n其次，MSL 背後有 Meta 的資源。\n\n團隊不必像新創公司那樣，經常受到算力、基礎設施或產品分發能力的限制。\n\n研究員既能使用大型科技公司的資源，又有機會在一個剛成立的實驗室裡留下自己的印記。\n\n主持人提出另一個觀察。\n\nZuckerberg 願意花看似瘋狂的薪酬，聘請少數最頂尖的人才，再利用這些人才吸引其他優秀研究員加入。\n\n但 Alex 認為，外界可能低估了這些人才原本的薪酬。\n\nOpenAI 和 Anthropic 的估值都已大幅上升，早期員工與研究員手中的股權也可能價值驚人。\n\n因此對許多被挖角的人來說，留在原公司和加入 Meta，薪酬條件其實大致相當。\n\nMeta 真正有吸引力的地方，還包括研究方向、資源，以及從零建立團隊的機會。\n\nAlex 說，他現在更像是一名教練。\n\n他要做的事情包括設定北極星，也就是個人超級智慧、贏下消費者 AI，以及打造能真正幫助每個人的產品。\n\n接著找出特別有才華的人，給他們資源、空間和適當的環境。\n\n在 Scale，他是作者，公司的各種決策都帶著他的個人觀點。\n\n到了 Meta，他必須讓其他人的才能充分展現。\n\n他認為大型公司經常犯一個錯誤：公司裡明明有傑出的人才，卻沒有給他們足夠的權力和空間。\n\n最後這些人只好離開，去規模更小的公司做自己真正想做的事。\n\n主持人補充，Bezos 也經常談到類似的問題：優秀人才如果無法動手建造東西，就會選擇離開。\n\nAlex 認為，AI 研究尤其需要重視這件事。\n\n因為研究的本質，就是探索尚未知道的事情。\n\n即使模型能力已經非常強大，人類對模型的能力上限仍然缺乏完整理解。\n\n研究員必須不斷提出假設、進行實驗、犯錯，再從結果中找出新的方向。\n\n這種工作很難透過高度標準化的營運流程管理。\n\nAlex 再次提到 Nat Friedman。\n\nNat 對 Muse 的貢獻，很大一部分來自他獨特的產品觀點與品味。\n\n如果組織沒有給他足夠的發揮空間，Muse 可能就無法呈現現在的樣貌。\n\n研究員也是如此。\n\n他們提出的大部分想法最後可能都不會成功，但少數真正成功的研究，價值足以抵過其他所有失敗。\n\n### 挖鑽石，還是蓋摩天樓\n\nAlex 用一個很有意思的比喻，區分兩種截然不同的工作。\n\n一種叫做挖鑽石。\n\n另一種叫做蓋摩天樓。\n\n差別在於成果的報酬分布。\n\n有些領域具有極端的冪次分布。\n\n你投入大量資源、嘗試許多不同方向，其中大部分可能沒有成果，但只要找到少數真正成功的機會，價值可能超過其他所有成果加總的一百萬倍。\n\n創投就是典型的挖鑽石產業。\n\n投資人必須辨認出最特別的創業者與想法，再投入資源支持他們。\n\n主持人聽到這裡，開玩笑說，要挖鑽石其實很簡單，去 Alex 十九歲的生日派對就好。\n\nAlex 接著分享了當年的故事。\n\n那時他剛進 MIT，生日在一月，寒假正在一家名為 HRT 的自營交易公司實習。\n\n生日派對大約來了十到十二個人，大多是哈佛或 MIT 的學生。\n\n這群人從小就透過數學、科學、程式競賽互相認識。\n\n後來，其中幾個人創辦了非常成功的公司。\n\nJeffrey Yan 創辦 Hyperliquid，Scott Wu 創辦 Cognition，Jesse Zhang 創辦 Decagon。\n\n另外還有一位後來成為 Anthropic 的優秀研究員。\n\nAlex 說，他們當年都是非常有天分的年輕人。看著一起參加競賽的朋友陸續做出驚人成績，感覺很不真實。\n\nHRT 本身也是一個極端例子。\n\nAlex 提到，依他的印象，HRT 曾在創紀錄的一期創造約 110 億美元營收、80 億美元獲利，而公司員工不到一千人。\n\n他最近還跟 HRT 創辦人聊過。對方提到公司開始做一些私募投資，Alex 直接建議：\n\n把那些實習生全部投資一遍就好，每個人都給種子輪資金。\n\n這正是挖鑽石的邏輯。\n\n但蓋摩天樓的工作完全不同。\n\nAlex 認為，資料標註、資料服務，以及 Amazon Prime 的配送系統，都比較接近蓋摩天樓。\n\n這些業務的報酬通常更接近線性。\n\n你需要建立可靠的流程，持續提高效率。\n\n今天改善 2%，明天再改善 1%，接著又找到可以提高 0.5% 的地方。\n\n每個環節都要反覆優化，長期累積成競爭優勢。\n\n這種工作非常重視營運紀律、流程管理與細節。\n\n挖鑽石則需要完全不同的管理方式。\n\n你要鼓勵團隊嘗試各種瘋狂的點子，接受大部分實驗可能失敗，再集中資源培育少數展現潛力的方向。\n\nAlex 說，自己在 Scale 主要做的是蓋摩天樓。\n\n到了 Meta，他開始挖鑽石。\n\n這是兩種完全不同的工作模式，也需要兩套不同的管理哲學。\n\n### 兩百多個直屬部屬，因為他們不需要經理\n\n訪談最後，主持人問了一個令人驚訝的問題。\n\n他聽說 Alex 有大約一百個直屬部屬，是真的嗎？\n\nAlex 回答，應該超過兩百個。\n\n主持人追問，為什麼要把組織設計成這樣？\n\nAlex 說，MSL 重建時最重要的目標之一，就是建立一個人才密度極高、以技術為核心的環境。\n\n他希望這裡能讓頂尖研究員做出一生中最重要的工作。\n\n因此，組織必須盡可能扁平。\n\nMSL 裡有一個叫做 TBD 的研究團隊。\n\n這個團隊的研究員，在組織架構上全部直接向 Alex 報告。\n\n這是一種刻意的設計，也是一項宣示：團隊要盡量排除官僚制度。\n\n因為這些人早已在過去的職涯證明自己的能力，Alex 不認為自己需要事事監督。\n\n不過，組織扁平不代表沒有技術領導。\n\nMSL 仍然採用 pod 結構，把研究員分成不同小組。\n\n每個 pod 都有技術負責人，負責重要的技術決策。\n\n在研究方向上，團隊也經常透過群體討論、辯論來形成共識。\n\nAlex 認為，當你找來一群極其優秀、每個人都有深厚研究能力的人，就應該讓他們充分交換意見，再找出最有希望的方向。\n\n他也很清楚，兩百多個直屬部屬不可能用傳統方式管理。\n\n「如果我說自己是兩百多人最好的經理，那是騙人的。但重點有一部分就在這裡：他們不需要經理，他們需要一個很棒的環境⋯⋯他們只需要空間去發揮。」\n\n主持人聽完後，重新形容 Alex 在 Meta 的角色。\n\n與其說他是一位教練，或許更接近一個負責營造良好環境的人。\n\n讓頂尖人才聚在一起，給他們資源、方向與自由，然後讓他們做出最好的工作。\n\nAlex 同意。\n\n從 Scale 到 Meta，他最大的轉變也就在這裡。\n\n過去九年，他習慣親自決定一家公司的許多細節，靠著持續改善營運流程，把 Scale 一步步建立起來。\n\n現在，他必須學會讓其他人主導研究，容許大量失敗，並相信少數突破就可能創造巨大的價值。\n\n而 Muse 的開發，恰好呈現了這套管理哲學。\n\n一支不到兩百人的模型與產品團隊，圍繞著 Nat Friedman 的產品觀點，在 Zuckerberg 的支持下，用七個月反覆打磨一個早期經常出錯的原型。\n\nAlex 相信，個人代理最終可能改變數十億人的生活。\n\n但要走到那一步，還有大量研究、產品和可靠性問題必須解決。\n\n至於他的工作，就是讓那些最有能力解決問題的人，有足夠的空間繼續挖鑽石。\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
       "insights": [],
       "content_mode": "full_text_import",
-      "source_id": "H1MKAKdjMx"
+      "source_id": "Sy75Z-cizl"
     },
     "backfill::a16z::p_nasas_artemis_ii_mission": {
       "title": "NASA’s Artemis II Mission / NASA 阿提米絲 2 號任務：重返月球的關鍵里程碑與太空產業新局",
@@ -483,40 +580,34 @@
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
-      "source": "Stratechery",
-      "title": "2026.41: It’s Not You, It’s Me / Apple 與用戶的漸行漸遠：AI 時代的封閉與整合之爭",
-      "article_date": "2026-10-09",
-      "url": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk0MzU1MzY5LCJpYXQiOjE3OTE3NjMzNjksImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YTFlYzktMDcxYS03ZWYzLWEwMzctYTAxOThlZjlhOWE0IiwidXNlIjoiYWNjZXNzIn0.MQ4Vbj7CDK9JtS60v6T-qsmut0FYkn86-28dQAM2b2YIBBhlOxpZH6GN__w3PFe8vhrMXwBFtz5KPrJ5IFgH9-LfKVheZosoxOnulUpz2iHvse_3D1rPtmCOON6QD0Tmy5tQ43BtIA4tpbjHdH22KnUm6WFWbr6FlPf8YDZ6bC3YKh-6XzxKqoN2ajwOdqloq1BFZl8Gb_Y1X3aneMJxzmLFUOl-l067GucgyDPbzHO2_MEqQgwTnopY34GlAgfxUuX8sfrCOthUzyuRmhjdQ9iK3YEfPB8gYY-InITPln00whtcz9TMKud7IRr5BIz5TIpzW7OPDtTRwBQFOn-F9w&p=20267"
+      "source": "Culpium",
+      "title": "CASCI 2026年9月報告：Culpium 亞洲供應鏈指數的初步觀察",
+      "article_date": "2026-10-12",
+      "url": "https://www.culpium.com/p/casci-september-2026-culpium-executive"
     },
     {
-      "source": "Culpium",
-      "title": "台積電、德州與超大型晶圓廠的競合：魏哲家的承諾與 Intel 的追趕 (Inside TSMC, Texas, and the Terafab Tango)",
-      "article_date": "2026-10-11",
-      "url": "https://www.culpium.com/p/inside-tsmc-texas-and-the-terafab"
+      "source": "BigTechnology",
+      "title": "Can AI Keep Growing Exponentially? SemiAnalysis Makes the Case / AI 基礎設施建設是否被低估？SemiAnalysis 認為投資數字其實還太小",
+      "article_date": "2026-10-12",
+      "url": "https://www.bigtechnology.com/p/can-ai-keep-growing-exponentially"
     },
     {
       "source": "a16z",
-      "title": "This Week in Charts: 預測市場是否有政治偏誤？與 SaaS 估值邏輯的轉向",
-      "article_date": "2026-10-09",
-      "url": "https://www.a16z.news/p/this-week-in-charts-are-prediction"
+      "title": "Welcome Col. Jeffrey Glover and Greg Barbaccia / a16z 延攬公眾安全與聯邦資訊高層：強化「美國活力」投資布局的戰略意義",
+      "article_date": "2026-10-12",
+      "url": "https://www.a16z.news/p/welcome-col-jeffrey-glover-and-greg"
     },
     {
       "source": "Lenny's Newsletter",
-      "title": "為什麼現代企業需要像實驗室團隊一樣思考與運作：Google Labs 負責人 Josh Woodward 的實戰心得 / Why every company now needs to think and operate like a lab team",
-      "article_date": "2026-10-11",
-      "url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think"
+      "title": "How Meta designed Muse with Alex Cornell / Meta 內部如何設計 AI 代理程式 Muse",
+      "article_date": "2026-10-12",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with"
     },
     {
       "source": "HackMD：停損王SLKing",
-      "title": "每個人都以為自己救得了 Warner，David Ellison 目前只拿得出砍成本",
-      "article_date": "2026-10-11",
-      "url": "https://hackmd.io/H1MKAKdjMx"
-    },
-    {
-      "source": "馬斯克帝國觀察",
-      "title": "【馬斯克帝國週報】#107 不會讓台積電蓋 Terafab + 德國可能先放行 FSD",
-      "article_date": "2026-10-09",
-      "url": "https://muskempire0628.substack.com/p/107-terafab-fsd-20261009"
+      "title": "全產業都在追 coding 的時候，Meta 把賭注押在替人辦事的代理上",
+      "article_date": "2026-10-12",
+      "url": "https://hackmd.io/Sy75Z-cizl"
     }
   ]
 }
