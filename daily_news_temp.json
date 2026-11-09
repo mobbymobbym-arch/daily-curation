@@ -1,301 +1,263 @@
 {
-  "fetch_date": "2026-11-07",
+  "fetch_date": "2026-11-09",
   "techmeme": [
     {
-      "title_en": "Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China's top spy agency MSS to collect intelligence on Jensen Huang",
-      "url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html?unlocked_article_code=1.OVE.Q7K1.pw9O9sjsZBW4&smid=url-share",
-      "summary_en": "U.S. intelligence concluded that Alice Huang, a Chinese business executive who developed a close relationship with Nvidia's leader …",
-      "source": "New York Times",
-      "media_source": "New York Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i24.jpg",
-      "thumbnail_source": "techmeme_rss_thumbnail",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China's top spy agency MSS to collect intelligence on Jensen Huang",
-      "image_missing_reason": "no_source_image_found",
-      "title_zh": "消息指美國情報部門認定 Megaspeed 高管 Alice Huang 被中國國安部 (MSS) 招募，旨在搜集黃仁勳的情報",
-      "summary_zh": "美國情報部門得出結論，指出與 Nvidia 領導者建立密切關係的中國企業高管 Alice Huang ..."
-    },
-    {
-      "title_en": "Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5Mzk5OTYyNywiZXhwIjoxNzk0NjA0NDI3LCJhcnRpY2xlSWQiOiJUTzNNOVRSS1YyVEUwMCIsImJjb25uZWN0SWQiOiI4OUM4OTNDMDhGOTQ0NThDQkQwQTQyREY1RDFCOTY0QyJ9.pVWDvtzoWMkiwWdzW9wgW8MNHfO8XHw9d9znQhP2cv4",
-      "summary_en": "OpenAI has closed on new funding of roughly $11 billion, the initial part of a round that values the company at $1.25 trillion, according to people familiar with the matter.",
+      "title_en": "Nvidia's board launches a probe into whether Jensen Huang was targeted by a foreign spy plot, saying it has no reason to believe Nvidia secrets were compromised",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDE2ODU1OSwiZXhwIjoxNzk0NzczMzU5LCJhcnRpY2xlSWQiOiJUTzU3WTNWVFRDWlkwMCIsImJjb25uZWN0SWQiOiIyQ0FEODkyRDYzODU0QjJFOEI2MEM2QUI2OTg2MzBBNyJ9.AHrN1ygaU7rv8RK6qaS-JAmbJRFuZsKMk5VcnnENzt0&leadSource=article-gifting",
+      "summary_en": "Nvidia Corp.'s board is launching an investigation into whether Chief Executive Officer Jensen Huang was targeted …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i22.jpg",
-      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_url": "https://www.techmeme.com/261108/i13.jpg",
+      "thumbnail_source": "techmeme_rss_thumbnail",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total",
-      "title_zh": "消息指 OpenAI 已完成約 110 億美元的新一輪融資，估值達 1.25 兆美元；總融資額最高可達 200 億美元",
-      "summary_zh": "據知情人士透露，OpenAI 已完成約 110 億美元的新資金募集，這是該公司估值 1.25 兆美元融資計畫的初步部分。"
+      "thumbnail_alt": "Nvidia's board launches a probe into whether Jensen Huang was targeted by a foreign spy plot, saying it has no reason to believe Nvidia secrets were compromised",
+      "image_missing_reason": "no_source_image_found",
+      "title_zh": "Nvidia 董事會啟動調查，確認黃仁勳是否成為外國間諜活動目標，並表示目前無證據顯示公司機密遭洩",
+      "summary_zh": "Nvidia 董事會正針對執行長黃仁勳（Jensen Huang）是否遭鎖定進行調查..."
     },
     {
-      "title_en": "Sources: Anthropic is continuing with plans to list before the Thanksgiving holiday this month, expecting to raise $80B-$100B at a valuation of $1.25T to $1.75T",
-      "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452",
-      "summary_en": "Claude-maker intends to list before Thanksgiving despite brutal tech rout — Anthropic is pressing on with its high-stakes IPO …",
+      "title_en": "Sources: Marco Rubio oversaw the drafting of a classified memo this spring warning Trump admin that Jensen Huang was in a close relationship with a Chinese spy",
+      "url": "https://www.nytimes.com/2026/11/08/us/politics/rubio-warned-officials-about-nvidia-chiefs-entanglement-with-chinese-spy.html",
+      "summary_en": "The secretary of state's role in drafting a secret memo highlights how top officials were concerned by last spring …",
+      "source": "New York Times",
+      "media_source": "New York Times",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "related",
+      "thumbnail_url": "https://www.techmeme.com/261108/i17.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: Marco Rubio oversaw the drafting of a classified memo this spring warning Trump admin that Jensen Huang was in a close relationship with a Chinese spy",
+      "title_zh": "消息來源：Marco Rubio 今年春天主導起草一份機密備忘錄，警告川普政府黃仁勳與中國間諜有密切往來",
+      "summary_zh": "國務卿在起草秘密備忘錄中所扮演的角色，突顯出高層官員對去年春天局勢的擔憂..."
+    },
+    {
+      "title_en": "Sources: John Ternus wants more urgency in Apple's AI efforts, pushing Craig Federighi to move beyond Siri AI tweaks to agentic and other advanced capabilities",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDE1MTkyNCwiZXhwIjoxNzk0NzU2NzI0LCJhcnRpY2xlSWQiOiJUTzZWMDFLSUpIOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.36GAnE9alr4yBWfCUoJj6dU23ilQniOVEFSDSuoUVms",
+      "summary_en": "The company wants to turn Siri into a true AI agent. … Apple's new CEO is pressing software chief Craig Federighi …",
+      "source": "Bloomberg",
+      "media_source": "Bloomberg",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261108/i9.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "Sources: John Ternus wants more urgency in Apple's AI efforts, pushing Craig Federighi to move beyond Siri AI tweaks to agentic and other advanced capabilities",
+      "title_zh": "消息來源：John Ternus 要求 Apple 在 AI 研發上展現更大迫切性，促使 Craig Federighi 從 Siri 升級轉向 AI Agent 及其他先進能力",
+      "summary_zh": "該公司希望將 Siri 轉變為真正的 AI Agent。Apple 的新任執行長正向軟體主管 Craig Federighi 施壓..."
+    },
+    {
+      "title_en": "Sources: Anthropic bought commitments for 1.7GW of gas-fired generators from equipment supplier OnePWR for $3.4B, the largest known such purchase by an AI lab",
+      "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+      "summary_en": "AI lab bypasses traditional suppliers to secure scarce equipment as demand for energy surges — Anthropic has struck a massive deal …",
       "source": "Financial Times",
       "media_source": "Financial Times",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i21.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i8.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Anthropic is continuing with plans to list before the Thanksgiving holiday this month, expecting to raise $80B-$100B at a valuation of $1.25T to $1.75T",
-      "title_zh": "消息指 Anthropic 仍計劃於本月感恩節前上市，預計以 1.25 兆至 1.75 兆美元的估值籌集 800 億至 1000 億美元",
-      "summary_zh": "儘管科技股遭遇重挫，Claude 開發商仍打算在感恩節前上市 —— Anthropic 正全力推進其高風險的 IPO 計劃。"
+      "thumbnail_alt": "Sources: Anthropic bought commitments for 1.7GW of gas-fired generators from equipment supplier OnePWR for $3.4B, the largest known such purchase by an AI lab",
+      "title_zh": "消息來源：Anthropic 向設備供應商 OnePWR 斥資 34 億美元購買 1.7GW 的燃氣發電機組，創下 AI 實驗室已知最大規模的採購紀錄",
+      "summary_zh": "為確保在能源需求激增時獲得稀缺設備，AI 實驗室繞過傳統供應商，Anthropic 達成了一項巨額交易..."
     },
     {
-      "title_en": "Sources: Microsoft has been turning off rented computing capacity from Oracle after declining to renew a 2023 deal, because the hardware used older Nvidia chips",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity",
-      "summary_en": "Microsoft Corp. is winding down an arrangement to rent AI computing from Oracle Corp., part of a larger reassessment of billions of dollars in cloud partnerships.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "Major environmental groups are embracing AI to analyze climate data, track forest fires, and more, even as they warn of the environmental impact of data centers",
+      "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/",
+      "summary_en": "Environmental groups worldwide are using artificial intelligence to analyze climate data, track forest fires and count endangered wildlife …",
+      "source": "Reuters",
+      "media_source": "Reuters",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i18.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i6.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Microsoft has been turning off rented computing capacity from Oracle after declining to renew a 2023 deal, because the hardware used older Nvidia chips",
-      "title_zh": "消息指微軟在拒絕續約 2023 年協議後，正逐步關閉向 Oracle 租用的算力，主因是該硬體使用舊款 Nvidia 晶片",
-      "summary_zh": "微軟公司正逐步結束向 Oracle 租用 AI 算力的安排，這是其對數十億美元雲端合作夥伴關係進行大規模重新評估的一部分。"
+      "thumbnail_alt": "Major environmental groups are embracing AI to analyze climate data, track forest fires, and more, even as they warn of the environmental impact of data centers",
+      "title_zh": "主要環保團體正採用 AI 分析氣候數據與追蹤森林火災，同時警告數據中心對環境造成的衝擊",
+      "summary_zh": "全球環保組織正利用 AI 分析氣候數據、追蹤森林火災並計算瀕危野生動物數量..."
     },
     {
-      "title_en": "Democrats, with Elizabeth Warren a top contender to chair Senate Banking, are poised to step up oversight of Nvidia over chip exports and circular financing",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-s-ai-chip-exports-emerge-as-target-in-democratic-congress",
-      "summary_en": "Nvidia Corp. is in for tougher scrutiny from a new Democratic majority in Congress that's set to demand answers …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
+      "title_en": "US professional services added 70K jobs in October, the most since July 2022, as AI-exposed consulting, legal, and accounting all grew despite AI job-loss fears",
+      "url": "https://www.wsj.com/economy/jobs/is-ai-taking-white-collar-jobs-what-the-latest-numbers-tell-us-dd31b115?st=YYHUT4",
+      "summary_en": "Strong hiring at law offices, consulting firms staves off fears of job apocalypse — Consulting firms, law offices …",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i15.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i15.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Democrats, with Elizabeth Warren a top contender to chair Senate Banking, are poised to step up oversight of Nvidia over chip exports and circular financing",
-      "title_zh": "民主黨可望加強對 Nvidia 晶片出口與循環融資的監管，Elizabeth Warren 為參議院銀行委員會主席熱門人選",
-      "summary_zh": "Nvidia 公司將面臨來自國會新民主黨多數派更嚴格的審查，後者準備要求其給出交代。"
+      "thumbnail_alt": "US professional services added 70K jobs in October, the most since July 2022, as AI-exposed consulting, legal, and accounting all grew despite AI job-loss fears",
+      "title_zh": "美國 10 月專業服務業新增 7 萬個就業崗位，創 2022 年 7 月以來最高，儘管擔心 AI 引發失業，受 AI 影響的諮詢、法律及會計領域仍持續成長",
+      "summary_zh": "法律事務所與諮詢公司的強勁招聘勢頭化解了對就業末日的恐懼..."
     },
     {
-      "title_en": "Sources: Nvidia is requiring Southeast Asian customers seeking Nvidia Cloud Partner status to enroll in a program that tracks the locations of their AI chips",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-boosts-chip-tracking-in-southeast-asia-to-fight-smuggling",
-      "summary_en": "",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "related",
-      "title_zh": "消息指 Nvidia 要求尋求「Nvidia 雲端合作夥伴」地位的東南亞客戶，必須加入一項追蹤其 AI 晶片位置的計劃",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "Sources: TSMC is considering expanding into manufacturing 3D DRAM at the request of Nvidia, its biggest customer, amid memory chip shortages due to the AI boom",
-      "url": "https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending",
-      "summary_en": "Taiwan Semiconductor Manufacturing Co. is considering expanding into the advanced memory chip manufacturing sector …",
+      "title_en": "Excluding Anthropic's IPO, AI companies sold or priced $300B+ of stock in 2026, with ~$100B more on tap, raising questions about how much the market can absorb",
+      "url": "https://www.theinformation.com/articles/ai-stock-can-market-absorb",
+      "summary_en": "Volatile trading in AI-related stocks this past week has put a spotlight on investors' appetite for additional share offerings …",
       "source": "The Information",
       "media_source": "The Information",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i13.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i10.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: TSMC is considering expanding into manufacturing 3D DRAM at the request of Nvidia, its biggest customer, amid memory chip shortages due to the AI boom",
-      "title_zh": "消息指台積電因應 AI 熱潮導致的記憶體短缺，正考慮應最大客戶 Nvidia 的要求，擴展至 3D DRAM 製造領域",
-      "summary_zh": "台積電 (TSMC) 正考慮進軍先進記憶體晶片製造領域。"
+      "thumbnail_alt": "Excluding Anthropic's IPO, AI companies sold or priced $300B+ of stock in 2026, with ~$100B more on tap, raising questions about how much the market can absorb",
+      "title_zh": "除 Anthropic 的 IPO 之外，AI 公司在 2026 年已售出或定價超過 3,000 億美元股票，另有約 1,000 億美元待售，引發市場吸收能力的疑慮",
+      "summary_zh": "過去一週 AI 相關股價的劇烈波動，讓投資者對增發股份的胃納量成為關注焦點..."
     },
     {
-      "title_en": "Sources: Democrats are eyeing Apple, Meta, and Elon Musk-led companies as early congressional investigation targets, after winning House and Senate majorities",
-      "url": "https://www.washingtonpost.com/technology/2026/11/06/after-courting-trump-corporate-america-faces-democratic-reckoning/",
-      "summary_en": "Democrats are laying the groundwork to investigate some of the country's largest companies, setting off a scramble among executives who courted the president.",
-      "source": "Washington Post",
-      "media_source": "Washington Post",
+      "title_en": "Nous Research unveils Arete-27B, a post-trained Qwen3.8-27B model that reinforces Western values, saying the underlying Chinese model's bias layer is shallow",
+      "url": "https://nousresearch.com/arete",
+      "summary_en": "We post-trained over Alibaba's Qwen3.8-27B to reinforce Western values on a Chinese-trained model. We call this new model Arete-27B.",
+      "source": "Nous Research",
+      "media_source": "Nous Research",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i9.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i3.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Sources: Democrats are eyeing Apple, Meta, and Elon Musk-led companies as early congressional investigation targets, after winning House and Senate majorities",
-      "title_zh": "消息指民主黨在贏得參眾兩院多數席位後，將 Apple、Meta 及 Elon Musk 旗下公司列為早期國會調查目標",
-      "summary_zh": "民主黨正為調查國內部分最大型企業鋪路，引發曾試圖拉攏總統的高管們一陣騷動。"
+      "thumbnail_alt": "Nous Research unveils Arete-27B, a post-trained Qwen3.8-27B model that reinforces Western values, saying the underlying Chinese model's bias layer is shallow",
+      "title_zh": "Nous Research 發表 Arete-27B，這是一款基於 Qwen3.8-27B 後訓練的模型，旨在強化西方價值觀，並稱底層中國模型的偏見層較薄",
+      "summary_zh": "我們對阿里巴巴的 Qwen3.8-27B 進行了後訓練，以在中國訓練的模型上強化西方價值觀。我們將此新模型稱為 Arete-27B。"
     },
     {
-      "title_en": "Preliminary findings: the EU says TikTok violated the DSA by not preventing its recommendation algorithm from trapping users in harmful content “rabbit holes”",
-      "url": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
-      "summary_en": "The European Commission accused TikTok on Friday of failing to prevent its recommendation algorithm from drawing users into …",
-      "source": "The Record",
-      "media_source": "The Record",
+      "title_en": "Sources: officials at the Commerce Department's AI safety center CAISSI were asked to informally report to a White House office, raising independence concerns",
+      "url": "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13",
+      "summary_en": "With public anxiety growing over mounting reports about out-of-control artificial intelligence agents, the tiny U.S. government division charged …",
+      "source": "Associated Press",
+      "media_source": "Associated Press",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i10.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i16.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Preliminary findings: the EU says TikTok violated the DSA by not preventing its recommendation algorithm from trapping users in harmful content “rabbit holes”",
-      "title_zh": "初步調查結果：歐盟指控 TikTok 違反《數位服務法》(DSA)，未能阻止其推薦演算法讓用戶陷入有害內容的「兔子洞」",
-      "summary_zh": "歐盟委員會週五指控 TikTok 未能防止其推薦演算法將用戶捲入有害內容 ..."
+      "thumbnail_alt": "Sources: officials at the Commerce Department's AI safety center CAISSI were asked to informally report to a White House office, raising independence concerns",
+      "title_zh": "消息來源：商務部 AI 安全中心 CAISSI 的官員被要求非正式向白宮辦公室匯報，引發獨立性擔憂",
+      "summary_zh": "隨著公眾對失控 AI Agent 的擔憂日益增加，負責監管的美國政府部門正面臨..."
     },
     {
-      "title_en": "AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008",
-      "url": "https://psi.inc/research/aaronson-ambainis/",
-      "summary_en": "The Aaronson-Ambainis conjecture is now a theorem. — Open since 2008, the conjecture of Scott Aaronson and Andris Ambainis concerns …",
-      "source": "PSI",
-      "media_source": "PSI",
+      "title_en": "THORChain, which handled ~$1B of stolen Bybit funds in 2025 for $12M+ in fees, began moving the Binance loot despite FBI pleas, saying it can't stop transfers",
+      "url": "https://www.wsj.com/finance/currencies/the-shadowy-crypto-services-helping-the-binance-hackers-launder-stolen-billions-28641737?st=3WgKBC&reflink=desktopwebshare_permalink",
+      "summary_en": "Some crypto developers say they can't stop North Korean hackers from laundering stolen funds through their platforms, frustrating law enforcement",
+      "source": "Wall Street Journal",
+      "media_source": "Wall Street Journal",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i20.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i11.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008",
-      "title_zh": "AI 物理新創公司 PSI 表示，運行非公開 Anthropic 模型的系統證明了 Aaronson-Ambainis 猜想，解決了自 2008 年以來的量子運算難題",
-      "summary_zh": "Aaronson-Ambainis 猜想現已成為定理。這項由 Scott Aaronson 和 Andris Ambainis 於 2008 年提出的猜想涉及量子運算問題 ..."
+      "thumbnail_alt": "THORChain, which handled ~$1B of stolen Bybit funds in 2025 for $12M+ in fees, began moving the Binance loot despite FBI pleas, saying it can't stop transfers",
+      "title_zh": "THORChain 在 2025 年曾處理約 10 億美元的 Bybit 遭竊資金並獲取逾 1,200 萬美元手續費，現無視 FBI 請求開始轉移 Binance 贓款，並宣稱無法阻止交易",
+      "summary_zh": "部分加密貨幣開發者表示，他們無法阻止北韓駭客透過其平台洗錢，這令執法部門感到挫折。"
     },
     {
-      "title_en": "Apple says the App Store has over 100K apps built for the iPhone Duo and “thousands of optimized apps are being added to the store each day”",
-      "url": "https://www.theverge.com/tech/1028813/apple-iphone-duo-optimized-apps",
-      "summary_en": "Even though a lot of apps have been updated for the iPhone Duo, they sometimes still have issues.",
-      "source": "The Verge",
-      "media_source": "The Verge",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i26.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Apple says the App Store has over 100K apps built for the iPhone Duo and “thousands of optimized apps are being added to the store each day”",
-      "title_zh": "Apple 表示 App Store 已有超過 10 萬個為 iPhone Duo 打造的應用程式，且「每天都有數千個優化後的 App 加入商店」",
-      "summary_zh": "儘管已有許多 App 為 iPhone Duo 進行更新，但有時仍會出現問題。"
-    },
-    {
-      "title_en": "Researcher: *sshole, a decade-old OpenSSH flaw, lets attackers use a password of 256+ characters to log into passwordless accounts on some musl Linux systems",
-      "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-      "summary_en": "A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux …",
-      "source": "BleepingComputer",
-      "media_source": "BleepingComputer",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i16.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Researcher: *sshole, a decade-old OpenSSH flaw, lets attackers use a password of 256+ characters to log into passwordless accounts on some musl Linux systems",
-      "title_zh": "研究人員發現存在十年的 OpenSSH 漏洞「*sshole」，攻擊者可利用超過 256 個字元的密碼，登入部分 musl Linux 系統的無密碼帳戶",
-      "summary_zh": "一個涉及 OpenSSH 和 musl 的新揭露漏洞（被稱為「*sshole」）允許攻擊者登入特定的 Alpine Linux 系統 ..."
-    },
-    {
-      "title_en": "Crusoe says Google has bought out its data center site in southeast Wyoming; Crusoe reportedly failed to lock in customers including Google for the project",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/google-takes-over-wyoming-data-center-that-crusoe-had-pitched",
-      "summary_en": "Alphabet Inc.'s Google has bought out Crusoe's data center site in southeast Wyoming, opting to take on the project itself …",
+      "title_en": "DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/deepseek-s-ai-agent-platform-hits-1-54-million-daily-users",
+      "summary_en": "DeepSeek, the Chinese AI disruptor, released striking adoption numbers for its AI agent infrastructure as it continues …",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i25.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i12.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Crusoe says Google has bought out its data center site in southeast Wyoming; Crusoe reportedly failed to lock in customers including Google for the project",
-      "title_zh": "Crusoe 表示 Google 已收購其位於懷俄明州東南部的數據中心場地；據傳 Crusoe 未能鎖定包括 Google 在內的該項目客戶",
-      "summary_zh": "Alphabet 旗下的 Google 已收購 Crusoe 位於懷俄明州東南部的數據中心場地，選擇自行接手該項目。"
+      "thumbnail_alt": "DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user",
+      "title_zh": "DeepSeek 表示其開源 Agent 應用 Harness 在 11 月 4 日達到 154 萬日活躍用戶（DAU），上線不到三個月，每日使用約 92 兆個 Token，平均每位用戶 6,000 萬個",
+      "summary_zh": "中國 AI 顛覆者 DeepSeek 在持續發展過程中，發布了其 AI Agent 基礎設施令人矚目的採用數據..."
     },
     {
-      "title_en": "Google says it will spend $17B to build its first Wyoming data center, pay for all the power it uses, and form a Community Council to address growth concerns",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/google-plans-to-spend-17-billion-on-wyoming-data-center",
+      "title_en": "How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms",
+      "url": "https://www.politico.com/news/magazine/2026/11/06/ai-big-tech-2026-midterms-anthropic-openai-01152312",
+      "summary_en": "For years, the policy debate over artificial intelligence belonged to those who counted progress in decades.",
+      "source": "Politico",
+      "media_source": "Politico",
+      "techmeme_source": "homepage_main_column",
+      "techmeme_cluster_role": "main",
+      "thumbnail_url": "https://www.techmeme.com/261107/i18.jpg",
+      "thumbnail_source": "techmeme_story_block",
+      "thumbnail_credit": "Techmeme",
+      "thumbnail_alt": "How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms",
+      "title_zh": "揭秘一個在 Signal 群組中組織的小型富裕 AI 安全網絡，如何發展成為在期中選舉擊敗規模 1 億美元超級行動委員會（PAC）「Leading the Future」的聯盟",
+      "summary_zh": "多年來，關於人工智慧的政策辯論一直屬於那些以十年為單位計算進度的人。"
+    },
+    {
+      "title_en": "Anthropic-backed AI safety super PAC Public First spent $63M+ in the 2026 midterms, and 10 of the 17 congressional candidates it backed won their elections",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-07/ai-safety-advocates-make-gains-after-110-million-midterm-fight",
       "summary_en": "",
       "source": "Bloomberg",
       "media_source": "Bloomberg",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "related",
-      "title_zh": "Google 宣佈將耗資 170 億美元在懷俄明州興建首座數據中心，並將支付所有電力費用，同時成立社區委員會以解決增長疑慮",
+      "title_zh": "Anthropic 資助的 AI 安全超級行動委員會 Public First 在 2026 年期中選舉投入逾 6,300 萬美元，其支持的 17 位國會候選人中有 10 位勝選",
       "summary_zh": ""
     },
     {
-      "title_en": "Employees at Microsoft, long known for its stability, are grappling with its decision to offer buyouts to 60,000 people as its spending priorities shift to AI",
-      "url": "https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html",
-      "summary_en": "Within an hour of Microsoft's announcement of buyouts last week, employees rushed to an internal site to see whether they had been offered one.",
-      "source": "New York Times",
-      "media_source": "New York Times",
+      "title_en": "US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion",
+      "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+      "summary_en": "The U.S. Treasury is moving to cut off crypto exchange MEXC from the U.S. financial system, alleging that it handled …",
+      "source": "CoinDesk",
+      "media_source": "CoinDesk",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i12.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261107/i16.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Employees at Microsoft, long known for its stability, are grappling with its decision to offer buyouts to 60,000 people as its spending priorities shift to AI",
-      "title_zh": "向來以穩定著稱的微軟，員工正努力應對公司向 6 萬人提供優退方案的決定，主因是支出優先順序轉向 AI",
-      "summary_zh": "在微軟上週宣佈優退方案後的一小時內，員工紛紛湧向內部網站，查看自己是否在名單中。"
+      "thumbnail_alt": "US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion",
+      "title_zh": "美國財政部採取行動，將加密貨幣交易所 MEXC 排除在美國金融體系之外，指控其涉及超過 160 億美元非法資金流動，包括逃避俄羅斯與伊朗制裁",
+      "summary_zh": "美國財政部正致力於切斷 MEXC 與美國金融體系的聯繫，指控其處理了..."
     },
     {
-      "title_en": "The US DOJ indicts three foreign nationals for allegedly using AI to impersonate CEOs and attorneys at major international law firms in a $129M+ fraud scheme",
-      "url": "https://www.nbcnews.com/news/us-news/3-foreign-nationals-allegedly-used-ai-mimic-ceos-129m-scheme-doj-says-rcna607818",
-      "summary_en": "Federal prosecutors say the suspects posed as corporate executives and high-powered attorneys, using AI to convince employees to transfer millions of dollars.",
-      "source": "NBC News",
-      "media_source": "NBC News",
+      "title_en": "Inside Inner Mongolia, China's fastest-growing AI data center region, where construction is accelerating with low building cost and no public backlash",
+      "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+      "summary_en": "A wind-powered 800MW campus, 120MW built within a year, a 5MW SST-native 800V DC pilot and a cooling design without central chillers",
+      "source": "SemiAnalysis",
+      "media_source": "SemiAnalysis",
       "techmeme_source": "homepage_main_column",
       "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i17.jpg",
+      "thumbnail_url": "https://www.techmeme.com/261108/i7.jpg",
       "thumbnail_source": "techmeme_story_block",
       "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "The US DOJ indicts three foreign nationals for allegedly using AI to impersonate CEOs and attorneys at major international law firms in a $129M+ fraud scheme",
-      "title_zh": "美國司法部起訴三名外籍人士，指控其利用 AI 冒充國際大法律師事務所的 CEO 和律師，進行涉案金額逾 1.29 億美元的詐騙",
-      "summary_zh": "聯邦檢察官表示，嫌疑人冒充企業高管和資深律師，利用 AI 說服員工轉帳數百萬美元。"
-    },
-    {
-      "title_en": "Elon Musk says Tesla plans to wind down production of the Cybertruck at its Texas Gigafactory around mid-2027 “to make room for increased Cybercab production”",
-      "url": "https://www.ft.com/content/8ec923a8-a581-4995-a92c-c08e16bf2e98",
-      "summary_en": "Carmaker will wind down production of futuristic pick-up truck at its gigafactory in Texas",
-      "source": "Financial Times",
-      "media_source": "Financial Times",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i7.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Elon Musk says Tesla plans to wind down production of the Cybertruck at its Texas Gigafactory around mid-2027 “to make room for increased Cybercab production”",
-      "title_zh": "Elon Musk 表示 Tesla 計劃於 2027 年中左右縮減德州超級工廠的 Cybertruck 產量，以「騰出空間增加 Cybercab 生產」",
-      "summary_zh": "這家汽車製造商將縮減其德州超級工廠內這款未來感皮卡的產量。"
-    },
-    {
-      "title_en": "Fox closes its $22B Roku acquisition well ahead of the expected 2027 date; Anthony Wood joins Fox's board and will co-chair a new Tubi, Fox One, and Roku unit",
-      "url": "https://variety.com/2026/tv/news/fox-closes-roku-acquisition-1236941275/",
-      "summary_en": "Surprise! Fox Corp. has closed its acquisition of streaming platform Roku, a deal valued at $22 billion, well ahead of the expected 2027 date.",
-      "source": "Variety",
-      "media_source": "Variety",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i14.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Fox closes its $22B Roku acquisition well ahead of the expected 2027 date; Anthony Wood joins Fox's board and will co-chair a new Tubi, Fox One, and Roku unit",
-      "title_zh": "Fox 提前完成對 Roku 的 220 億美元收購案；Anthony Wood 加入 Fox 董事會並將共同領導新成立的 Tubi、Fox One 與 Roku 部門",
-      "summary_zh": "驚喜！Fox 公司已完成對串流平台 Roku 的收購，該交易價值 220 億美元，遠早於預期的 2027 年。"
-    },
-    {
-      "title_en": "Cleanview: ~40% of pending US data center capacity is planned to be built in states where newly elected governors have pledged to stop or pause construction",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/new-governors-set-to-challenge-big-swath-of-data-center-capacity",
-      "summary_en": "A new crop of Democratic governors-elect campaigned on putting the brakes on artificial intelligence development.",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i6.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "Cleanview: ~40% of pending US data center capacity is planned to be built in states where newly elected governors have pledged to stop or pause construction",
-      "title_zh": "Cleanview 數據顯示：約 40% 待建的美國數據中心產能位於新當選州長承諾停止或暫停建設的州份",
-      "summary_zh": "一群新當選的民主黨州長在競選時承諾要放慢人工智慧 (AI) 的發展速度。"
-    },
-    {
-      "title_en": "CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/texas-satellite-maker-raises-730-million-to-launch-new-network",
-      "summary_en": "CesiumAstro raised $730 million in its latest funding round, a cash infusion the Austin-based satellite manufacturer will use …",
-      "source": "Bloomberg",
-      "media_source": "Bloomberg",
-      "techmeme_source": "homepage_main_column",
-      "techmeme_cluster_role": "main",
-      "thumbnail_url": "https://www.techmeme.com/261106/i27.jpg",
-      "thumbnail_source": "techmeme_story_block",
-      "thumbnail_credit": "Techmeme",
-      "thumbnail_alt": "CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B",
-      "title_zh": "計劃建立 737 顆衛星 LEO 通訊網路的 CesiumAstro，以逾 45 億美元估值籌集 7.3 億美元，總融資額達 14 億美元",
-      "summary_zh": "CesiumAstro 在最新一輪融資中籌集了 7.3 億美元，這家總部位於奧斯汀的衛星製造商將利用這筆資金 ..."
+      "thumbnail_alt": "Inside Inner Mongolia, China's fastest-growing AI data center region, where construction is accelerating with low building cost and no public backlash",
+      "title_zh": "直擊中國成長最快的 AI 數據中心區內蒙古：建造成本低廉且無公眾反對，工程進度持續加速",
+      "summary_zh": "擁有一個 800MW 的風能園區、一年內建成的 120MW 設施、5MW SST 原生 800V 直流電試點，以及無需中央冷卻機的散熱設計。"
     }
   ],
   "wsj": [
+    {
+      "title_en": "Nvidia’s Board Investigates Reports That CEO Was Spying Target After Affair",
+      "url": "https://www.wsj.com/tech/ai/nvidias-board-to-investigate-reports-that-jensen-huang-was-spying-target-c630325e?mod=rss_Technology",
+      "summary_en": "Jensen Huang apologized for being unfaithful to his wife, after he had an affair with an executive suspected of working for Chinese intelligence....",
+      "image_url": "https://images.wsj.net/im-87394029",
+      "image_source": "rss_media_content",
+      "image_credit": "Sean Gallup/Getty Images",
+      "image_alt": "Nvidia’s Board Investigates Reports That CEO Was Spying Target After Affair",
+      "title_zh": "Nvidia 董事會調查執行長在婚外情後是否成為間諜目標",
+      "summary_zh": "黃仁勳在與一名疑似為中國情報機構工作的高管發生婚外情後，已為對妻子不忠而道歉..."
+    },
+    {
+      "title_en": "From Silicon Valley to the Pentagon, Here’s the 2026 WSJ Tech: California Recap",
+      "url": "https://www.wsj.com/tech/ai/from-silicon-valley-to-the-pentagon-heres-the-2026-wsj-tech-california-recap-351cb31d?mod=rss_Technology",
+      "summary_en": "Plus, Apple’s beach-friendly iPad Mini and Amazon’s upscale Alexa tablet, the data-center revolt continues, investors question Anthropic’s valuation and more....",
+      "image_url": "https://images.wsj.net/im-65551994",
+      "image_source": "rss_media_content",
+      "image_credit": "Nikki Richter",
+      "image_alt": "From Silicon Valley to the Pentagon, Here’s the 2026 WSJ Tech: California Recap",
+      "title_zh": "從矽谷到五角大廈：2026 年 WSJ Tech 加州活動回顧",
+      "summary_zh": "此外還包括 Apple 適合成灘使用的 iPad Mini、Amazon 的高端 Alexa 平板電腦、數據中心反對浪潮持續，以及投資者對 Anthropic 估值的質疑等。"
+    },
+    {
+      "title_en": "My Week With Apple’s Beach-Friendly iPad Mini and Amazon’s Upscale Alexa Tablet",
+      "url": "https://www.wsj.com/tech/personal-tech/apple-ipad-mini-amazon-alexa-tablet-best-in-years-c5004bac?mod=rss_Technology",
+      "summary_en": "Phones got bigger, laptops got lighter, but tablets still make sense for a lot of people—especially those who love their couch....",
+      "image_url": "https://images.wsj.net/im-42006939",
+      "image_source": "rss_media_content",
+      "image_credit": "WSJ;Apple",
+      "image_alt": "My Week With Apple’s Beach-Friendly iPad Mini and Amazon’s Upscale Alexa Tablet",
+      "title_zh": "一週體驗心得：Apple 適合成灘使用的 iPad Mini 與 Amazon 的高端 Alexa 平板電腦",
+      "summary_zh": "手機變大了，筆電變輕了，但平板電腦對許多人來說仍具吸引力——特別是那些熱愛沙發時光的人..."
+    },
     {
       "title_en": "Quantum Computers Are Poised to Crack Encryption. AI Could Beat Them to It.",
       "url": "https://www.wsj.com/tech/ai/ai-math-online-encryption-quantum-computers-57926bb2?mod=rss_Technology",
@@ -304,8 +266,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Eliot Wyatt for WSJ",
       "image_alt": "Quantum Computers Are Poised to Crack Encryption. AI Could Beat Them to It.",
-      "title_zh": "量子電腦即將破解加密技術，AI 可能搶先一步",
-      "summary_zh": "新型網路安全技術正陸續推出，以保護我們免受量子密碼破解者的威脅。然而，隨著 AI 在數學領域的突破，這場考驗可能會提前到來。"
+      "title_zh": "量子電腦準備破解加密，但 AI 可能搶先一步",
+      "summary_zh": "新的網路安全技術正陸續推出，以保護我們免受量子密碼破解器的威脅。但隨著 AI 在數學領域的突破，這場清算可能會提前到來..."
     },
     {
       "title_en": "OpenAI Bolsters Cyber Defenses",
@@ -315,8 +277,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Carlos Barria/Reuters",
       "image_alt": "OpenAI Bolsters Cyber Defenses",
-      "title_zh": "OpenAI 強化網路防禦",
-      "summary_zh": "此外，Anthropic 面臨 1.5 兆美元的估值難題..."
+      "title_zh": "OpenAI 加強網路防禦能力",
+      "summary_zh": "此外還涉及 Anthropic 價值 1.5 兆美元的問題..."
     },
     {
       "title_en": "Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal",
@@ -326,41 +288,19 @@
       "image_source": "rss_media_content",
       "image_credit": "Charlie Riedel/Associated Press",
       "image_alt": "Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal",
-      "title_zh": "無人機新創公司 Zipline 融資帶動估值飆升，並擴大與 Walmart 的合作",
-      "summary_zh": "此外，民主黨正針對川普的加拿大關稅政策，且流出的電子郵件揭露了胡希武裝組織鮮為人知的紅海航行許可辦公室細節。"
+      "title_zh": "無人機新創 Zipline 估值飆升：完成新一輪融資並擴大與 Walmart 合作",
+      "summary_zh": "此外，民主黨正針對川普對加拿大的關稅政策進行反擊，而流出的電子郵件揭露了胡塞武裝組織鮮為人知的紅海通行許可辦公室內幕。"
     },
     {
-      "title_en": "The Morning Risk Report: Companies Face Cyber Pain as Hackers Press AI Advantage",
-      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-companies-face-cyber-pain-as-hackers-press-ai-advantage-706c84b7?mod=rss_Technology",
-      "summary_en": "Plus: The FTC claims Amazon tripled ad prices for Black Friday and China is flexing its control over artificial intelligence....",
-      "image_url": "https://images.wsj.net/im-09844223",
+      "title_en": "Is AI Taking White-Collar Jobs? What the Latest Numbers Tell Us",
+      "url": "https://www.wsj.com/economy/jobs/is-ai-taking-white-collar-jobs-what-the-latest-numbers-tell-us-dd31b115?mod=rss_Technology",
+      "summary_en": "Strong hiring at law offices and consulting firms is staving off fears of a job apocalypse....",
+      "image_url": "https://images.wsj.net/im-64696368",
       "image_source": "rss_media_content",
-      "image_credit": "Julian Stratenschulte/Zuma Press",
-      "image_alt": "The Morning Risk Report: Companies Face Cyber Pain as Hackers Press AI Advantage",
-      "title_zh": "晨間風險報告：駭客利用 AI 優勢施壓，企業面臨網路安全痛點",
-      "summary_zh": "此外：FTC 指控 Amazon 在黑色星期五將廣告價格翻了三倍，而中國正在展現其對人工智慧的控制力。"
-    },
-    {
-      "title_en": "‘What Everybody Is Concerned About Is Cyber’",
-      "url": "https://www.wsj.com/business/what-everybody-is-concerned-about-is-cyber-4f6ecf4e?mod=rss_Technology",
-      "summary_en": "",
-      "image_url": "https://images.wsj.net/im-47944644",
-      "image_source": "rss_media_content",
-      "image_credit": "benoit tessier/Reuters",
-      "image_alt": "‘What Everybody Is Concerned About Is Cyber’",
-      "title_zh": "「大家最擔心的就是網路安全」",
-      "summary_zh": ""
-    },
-    {
-      "title_en": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
-      "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14?mod=rss_Technology",
-      "summary_en": "With winning candidates promising moratoriums in key states, data-center builders are weighing their options, from going overseas to building in the desert....",
-      "image_url": "https://images.wsj.net/im-51151326",
-      "image_source": "rss_media_content",
-      "image_credit": "Shelby Tauber/Reuters",
-      "image_alt": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
-      "title_zh": "AI 公司在對資料中心不友善的環境中尋求出路",
-      "summary_zh": "由於當選人承諾在關鍵州暫停建設，資料中心開發商正權衡各種選擇，從移師海外到在沙漠中建置。"
+      "image_credit": "Uncredited",
+      "image_alt": "Is AI Taking White-Collar Jobs? What the Latest Numbers Tell Us",
+      "title_zh": "AI 是否正在取代白領工作？最新數據揭露現況",
+      "summary_zh": "法律事務所與顧問公司的強勁招聘需求，正緩解人們對「工作末日」的恐懼。"
     },
     {
       "title_en": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
@@ -370,8 +310,19 @@
       "image_source": "rss_media_content",
       "image_credit": "Kent Nishimura/AFP/Getty Images",
       "image_alt": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
-      "title_zh": "主要投資者對 Anthropic IPO 是否能達到 1.5 兆美元估值持懷疑態度",
-      "summary_zh": "其他投資者表示，10 月的財務業績可能會減輕市場潰敗帶來的衝擊。"
+      "title_zh": "主要投資人對 Anthropic IPO 達成 1.5 兆美元估值持懷疑態度",
+      "summary_zh": "其他投資者則表示，10 月的財務業績可能有助於減輕市場崩盤帶來的衝擊。"
+    },
+    {
+      "title_en": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
+      "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14?mod=rss_Technology",
+      "summary_en": "With winning candidates promising moratoriums in key states, data-center builders are weighing their options, from going overseas to building in the desert....",
+      "image_url": "https://images.wsj.net/im-51151326",
+      "image_source": "rss_media_content",
+      "image_credit": "Shelby Tauber/Reuters",
+      "image_alt": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
+      "title_zh": "面對對數據中心不友善的環境，AI 公司正努力尋求對策",
+      "summary_zh": "隨著勝選候選人在關鍵州承諾暫緩建設，數據中心開發商正權衡各種選擇，包括轉向海外或在沙漠中建造。"
     },
     {
       "title_en": "The JPMorgan Alums Whose Big Bet on AI Stocks Is Being Put to the Test",
@@ -381,30 +332,8 @@
       "image_source": "rss_media_content",
       "image_credit": "Lindley Rust",
       "image_alt": "The JPMorgan Alums Whose Big Bet on AI Stocks Is Being Put to the Test",
-      "title_zh": "摩根大通前高層大舉押注 AI 股票，正面臨考驗",
-      "summary_zh": "Phil Scott 和 Jim Atwood 在 10 月自立門戶，致力於維持財富管理客戶的高度集中投資組合。"
-    },
-    {
-      "title_en": "Nvidia-Backed Cohere Says IPO Timing Uncertain Despite Surging Revenue",
-      "url": "https://www.wsj.com/pro/venture-capital/nvidia-backed-cohere-says-ipo-timing-uncertain-despite-surging-revenue-3310476f?mod=rss_Technology",
-      "summary_en": "Canadian artificial-intelligence company Cohere’s timeline for going public remains uncertain despite surging revenue, its chief executive said, as the startup draws fresh backing from Nvidia and the ...",
-      "image_url": "https://images.wsj.net/im-67592554",
-      "image_source": "rss_media_content",
-      "image_credit": "Andrej Ivanov/Agence France-Presse/Getty Images",
-      "image_alt": "Nvidia-Backed Cohere Says IPO Timing Uncertain Despite Surging Revenue",
-      "title_zh": "NVIDIA 支持的 Cohere 表示儘管營收激增，上市時間仍不確定",
-      "summary_zh": "加拿大人工智慧公司 Cohere 的執行長表示，儘管營收大幅成長，且獲得 NVIDIA 等機構的新一輪支持，但該公司的上市時間表仍不明確。"
-    },
-    {
-      "title_en": "What AI Leaders Can Learn from the Midterms",
-      "url": "https://www.wsj.com/cio-journal/what-ai-leaders-can-learn-from-the-midterms-291f5f01?mod=rss_Technology",
-      "summary_en": "Plus, Mercedes gives its cars an AI upgrade...",
-      "image_url": "https://images.wsj.net/im-61040220",
-      "image_source": "rss_media_content",
-      "image_credit": "Brian Kaiser for WSJ",
-      "image_alt": "What AI Leaders Can Learn from the Midterms",
-      "title_zh": "AI 領導者能從期中選舉學到什麼",
-      "summary_zh": "此外，賓士（Mercedes-Benz）為其車輛提供 AI 升級..."
+      "title_zh": "摩根大通前員工大舉押注 AI 股票面臨考驗",
+      "summary_zh": "Phil Scott 和 Jim Atwood 於 10 月自立門戶，致力於維持其富裕客戶集中的投資組合完整性。"
     }
   ],
   "deep_analysis": {
@@ -435,28 +364,28 @@
       "content_mode": "ai_analysis"
     },
     "Culpium": {
-      "title": "AI Stock Analysts Are as Derelict as Subprime Bankers / AI 分析師與次貸危機時的銀行家一樣失職",
-      "source": "Culpium (Tim Culpan)",
-      "article_date": "2026-11-04",
-      "url": "https://www.culpium.com/p/ai-stock-analysts-are-as-derelict",
-      "analysis_zh": "### 全文大意摘要：資深科技記者的盛世警言，批判 AI 投資熱潮中的監督真空\n\n這篇文章由亞洲科技與供應鏈資深記者 Tim Culpan 撰寫，他在其專欄 Culpium 中對當前追蹤人工智慧（AI）產業的證券分析師提出了嚴厲指控。Culpan 指出，隨著 Anthropic 這家當前最受矚目的 AI 公司揭露其 IPO 前的財務概況，以及多家為其提供算力的科技巨頭陸續發布財報，這群總市值高達 10 兆美元的企業管理層，正在透過「高度腳本化」的法說會規避核心問題。作者認為，目前的市場監督機制已經失靈，分析師未能在關鍵時刻針對 AI 投資的真實報酬與潛在風險提出挑戰性提問，這種集體性的冷感與失職，與 2008 年次貸危機前夕銀行家們無視劣質貸款風險的行為如出一轍。\n\n### 戰略背景與脈絡：從算力軍備競賽轉向財務實踐的十字路口\n\n目前的科技產業正處於一個關鍵的轉折點。在過去兩年中，市場對於 AI 的熱情推動了相關硬體與軟體供應商的市值噴發，總計達 10 兆美元的資本被捲入這場算力軍備競賽中。Anthropic 的 IPO 計畫被視為檢驗生成式 AI 商業模式能否長期成立的「世代級考驗」，而雲端服務巨頭（如 Google、Microsoft）與算力供應商（如 Nvidia、TSMC）則共同構建了一個緊密相連的生態系統。然而，在這個生態系統中，資金的流向正顯現出一種弔詭的特徵：新創公司從巨頭手中募資，再將這些資金以支付雲端費用的方式還給巨頭，這種「資金閉環」在繁榮期掩蓋了底層資產的貧乏與獲利能力的未知性。\n\n### 作者的核心推論與觀點：集體忽視「輕資產、高支出」背後的系統性風險\n\n作者的核心觀點在於，分析師忽視了 AI 新創企業極度不健康的資產結構。透過對 Anthropic S-1 文件的初步分析，作者指出這類公司雖然擁有天文數字般的估值，但在實體資產上卻「幾乎不擁有任何東西」，其主要開支是支付給雲端商的高額租賃費用。Culpan 認為，法說會已淪為一種表演，管理層只談論擴張與願景，而分析師則配合演出，避開了最核心的問題：這些耗資巨大的模型究竟何時能產生可持續的現金流？他推論，這種監督真空正讓市場建立在沙堆之上。分析師因為不想打破眼前的利益分配，選擇像當年次貸銀行家一樣忽視明顯的風險信號，最終可能導致投資人在泡沫破裂時面臨慘重損失。\n\n### 對市場、技術與政策環境的長期影響：估值體系的重構與供應鏈的連鎖反應\n\n長期而言，這種監督失靈預示著市場即將迎來一場深刻的「估值校準（Valuation Calibration）」。當市場最終意識到 AI 獲利能力無法支撐龐大的資本支出時，這種修正將不會僅限於軟體商，而是會逆向衝擊整個半導體與基礎設施供應鏈。一旦大型科技公司被迫縮減資本支出，目前供不應求的 GPU 市場與先進封裝產能可能迅速轉為過剩，導致相關權值股出現劇烈回檔。此外，這種集體性的失職可能會促使監管機構介入，對科技股的 IPO 資訊揭露標準進行更嚴格的審查，特別是針對「雲端租賃」與「算力成本」的財務處理方式。最終，市場將被迫從目前的「願景驅動」回歸到「獲利能力驅動」，這將徹底洗牌現有的 AI 競爭格局。",
+      "title": "Jensen Huang is in the DC Doghouse. And How. / 黃仁勳成為華府冷宮常客：背後的諜報疑雲與政策角力",
+      "source": "Culpium",
+      "article_date": "2026-11-07",
+      "url": "https://www.culpium.com/p/jensen-huang-is-in-the-dc-doghouse",
+      "analysis_zh": "### 全文大意摘要：黃仁勳因疑似中諜情緣與對中友善立場，成為華府情資圈的頭號標靶\n\n資深科技記者 Tim Culpan 在其專欄《Culpium》中指出，近日《紐約時報》與《金融時報》相繼報導了一份在華府流傳的內部機密備忘錄。該文件指稱 NVIDIA 執行長黃仁勳曾與一名疑似為中國國家安全部（MSS）效力的女性有過一段浪漫關係。雖然這類指控帶有八卦色彩，但 Culpan 強調這背後其實反映出美國情報與政策圈，對黃仁勳長期在美中關係上扮演「鴿派」角色、甚至支持川普政府放寬對中限制的做法，已經感到強烈不滿與焦慮。\n\n### 戰略背景與脈絡：在 AI 霸權與地緣政治夾縫中，NVIDIA 執行長的一言一行都被放大檢視\n\n隨著 AI 算力被視為現代國家的核心競爭力，NVIDIA 的 GPU 已從純粹的商業產品躍升為戰略物資。黃仁勳為了保護 NVIDIA 在中國市場的龐大利益，近年來多次遊說華府放寬出口限制，這讓他在國安官員眼中成了對中立場搖擺的「啦啦隊長」。目前華府內部正處於一種張力之中：一邊是試圖緩和對中經貿關係的行政團隊，另一邊則是堅持技術脫鉤的情資部門。在這種背景下，黃仁勳與川普政府較為溫和的對中路線站在一起，顯然讓他成為了國安強硬派的眼中釘。\n\n### 作者的核心推論與觀點：情報備忘錄的曝光，是國安體系對黃仁勳政治影響力的精準打擊\n\nCulpan 認為，這份針對黃仁勳私生活的備忘錄能在短時間內於兩大指標性媒體曝光，極具政治戰術意涵。這不只是針對他個人的私德指控，更是一種「政治警告」。作者暗示，情報圈正藉由釋放這類資訊，來質疑黃仁勳的判斷力與忠誠度，進而削弱他在白宮決策圈的影響力。如果這份備忘錄屬實，那麼黃仁勳在對中政策上的發言權將會被嚴重架空，甚至可能面臨更嚴密的背景審查，這對一家掌控全球 AI 命脈的公司領袖來說是極其沉重的打擊。\n\n### 對市場、技術與政策環境的長期影響：科技巨頭的個人政治風險，將成為全球供應鏈最難預測的變數\n\n這起事件代表科技業領袖已無法維持「商人無國界」的避風港地位。未來，領袖個人的社交關係、政治立場甚至私人生活，都可能被當作地緣政治博弈的籌碼。對市場而言，NVIDIA 未來在中國的業務策略可能被迫轉向更加保守，以換取華府的信任。長期來看，這將導致美中科技業的脫鉤進一步從「技術面」擴展到「人格面」，未來科技巨頭在兩大強權之間走鋼索的空間將被極度壓縮。",
       "insights": [
-        "AI 獨角獸呈現「資產極輕量、支出極沉重」的結構，顯示其缺乏自有技術資產支撐，高度依賴與雲端巨頭的租賃關係。",
-        "當前分析師在法說會上的「腳本化提問」形成了嚴重的資訊真空，使市場無法準確評估 AI 投資的真實報酬率（ROI）。",
-        "文章警示 AI 繁榮正重演次貸危機模式：當所有參與者都從現有結構中獲利時，沒人願意戳破資產品質惡化的真相。"
+        "科技巨頭 CEO 的私人生活已正式進入國家情報戰的射程範圍，顯示商業領袖的個人風險已與國家安全高度綑綁。",
+        "這場風暴本質上是美國政府內部「經貿派」與「國安派」對中政策的分歧，而黃仁勳被當作打擊對手政策路線的祭旗對象。",
+        "NVIDIA 的成功使其在國安議題上「大到不能被忽視」，但也使其失去了在政治角力中保持中立的特權，政治忠誠測試將成為其未來最大的經營成本。"
       ],
       "content_mode": "ai_analysis"
     },
     "SemiAnalysis": {
-      "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference / Google TPUv7 正式登基：在 AI 推論戰場挑戰 NVIDIA 的霸權",
+      "title": "We Visited China’s Stargate in Inner Mongolia / 直擊內蒙古：中國版的 AI 巨型基地「Galaxy」",
       "source": "SemiAnalysis",
-      "article_date": "2026-11-05",
-      "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
-      "analysis_zh": "### 全文大意摘要：Google TPUv7 正式進軍推論市場，挑戰 NVIDIA 的硬體統治地位\n\n這篇文章來自知名科技分析機構 SemiAnalysis，深入剖析了 Google 第七代張量處理器（TPUv7，代號 Ironwood）如何在 AI 推論（Inference）領域展現出威脅 NVIDIA 龍頭地位的實力。過往市場多認為 TPU 僅限於 Google 內部搜尋或影音平台使用，但作者指出 Google 正積極轉向「外部化」策略，將 TPU 算力大規模提供給 Oracle、OpenAI、Anthropic 與 Meta 等外部重量級客戶。透過最新的產業標準基準測試 AgentX，數據顯示 TPUv7 在處理長文本、多輪對話等具備「代理人（Agentic）」特性的工作負載時，其性價比不僅能與 NVIDIA 最新的 Blackwell 架構晶片抗衡，甚至在多項指標上取得領先。\n\n作者強調，硬體效能只是故事的一半，軟體生態系的突圍才是 Google 這次能成功挑戰 NVIDIA 的關鍵。藉由與 Meta PyTorch 團隊、vLLM 以及 SGLang 等開源社群深度合作，Google 正在瓦解 NVIDIA 過往建立的軟體護城河。這意味著大模型廠商在選擇硬體時不再被 NVIDIA 的 CUDA 綁死，而是能根據成本、延遲與供應鏈可用性，在 TPU 與 GPU 之間做出更彈性的選擇，這對於未來 AI 代理人服務的成本結構將產生深遠影響。\n\n### 戰略背景與脈絡：AI 算力重心由訓練轉向推論，且軟體護城河正被開源生態瓦解\n\n隨著生成式 AI 進入大規模應用階段，產業的焦點正從動輒數月的「模型訓練」轉向日常維運的「推論成本」優化。特別是目前的技術趨勢正從簡單的聊天機器人，演進到具備長文本理解、多輪工具呼叫能力的「AI 代理人」。這類應用對算力的需求與訓練時期大不相同，更強調對快取記憶體（KV Cache）的高效管理、對長序列數據的存取速度，以及在多用戶併發時的單位成本表現。過去 NVIDIA 憑藉著 CUDA 軟體棧建立起絕對的壟斷，讓競爭對手的硬體即便規格優異，也常因軟體難用而乏人問津。\n\n然而，現在情況正在發生根本性的變化。開源社群的影響力已經足以制衡單一廠商的壟斷。文章提到，像 PyTorch、vLLM 與 SGLang 等主流推論引擎的維護者，現在正以前所未有的速度整合非 NVIDIA 的硬體後端。這種軟體抽象層的成熟，讓底層硬體對開發者變得相對「透明」。對於 Meta 或 OpenAI 這樣的大廠來說，只要開源工具鏈能夠支援，切換到性價比更高的 TPU 平台就不再是技術難事，這讓 Google 擁有了一個能直接與 NVIDIA B200/B300 在公開市場競爭的切入點。\n\n### 作者的核心推論與觀點：TPUv7 在長文本與代理人場景的效性及其對 NVIDIA 官僚體系的警示\n\n作者透過多組 AgentX 基準測試數據證明，TPUv7 在 FP8 精度下的表現極具競爭力。在處理如 GLM-5.2 這樣具備百萬字元上下文的模型時，TPUv7 的每美元代幣產出量是 NVIDIA Blackwell 系列的 1.2 到 2.7 倍。雖然 NVIDIA 試圖以 FP4 精度來奪回領先地位，但 FP4 往往伴隨著模型準確度的損耗，且在實際的端到端延遲測試中，TPUv7 透過「分散式服務（Disaggregated Serving）」架構，能有效分離預填充（Prefill）與解碼（Decode）階段，從而提供更穩定的反應速度。這顯示出 Google 的硬體設計正精準擊中當前大模型的痛點。\n\n更值得注意的觀點是作者對 NVIDIA 內部文化的批判。文中指出，NVIDIA 正面臨嚴重的官僚化問題，許多軟體更新需求常卡在內部的法律審核中長達數月，這種慢節奏與 AI 產業「日新月異」的特性極度不符。相比之下，AMD 與 Google 正以更開放、更具「創業公司心態」的姿態擁抱開源社群。例如 Google 開源了 TPU-Sync 框架來優化記憶體調度，並迅速與第三方維護者合作推出「Megakernel」優化。如果 NVIDIA 繼續依賴過去的軟體優勢而忽視與開源社群的協作效率，這將成為其市場龍頭地位最大的風險。\n\n### 對市場、技術與政策環境的長期影響：硬體霸權鬆動與模型-硬體協同設計的常態化\n\n這場推論晶片大戰象徵著 AI 基礎設施市場進入了多強鼎立的新局面。首先，對於硬體採購決策者而言，推論市場不再是 NVIDIA 的獨角戲。Google 的 TPU 已經證明自己是高效能、低成本的實戰方案，這將迫使 NVIDIA 在定價與軟體開放度上做出更多讓步。其次，「模型與硬體協同設計（Co-design）」將成為主流。當 Anthropic、OpenAI 或 DeepMind 擁有大量 TPU 算力時，他們在開發下一代模型時，就會針對 TPU 的架構（如 SparseCores 或特定的張量維度）進行模型結構優化，這種軟硬體的高度整合將建立起新的競爭門檻。\n\n最後，隨著算力供應商趨於多元化，全球 AI 應用的落地成本有機會進一步下降。當推論成本不再是天文數字時，具備複雜邏輯與長文本處理能力的 AI 代理人將能進入更多商業場景，如法律文件分析、醫學診斷輔助或自動化工程流程。這不僅改變了科技業的權力結構，也讓 AI 技術的價值能更快速地滲透到傳統產業中，而不再僅僅是頂級科技巨頭的數位遊戲。Google TPU 的強勢崛起，正是這場「算力平民化」與「去壟斷化」趨勢中的重要里程碑。",
+      "article_date": "2026-11-07",
+      "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+      "analysis_zh": "### 全文大意摘要：SemiAnalysis 深入內蒙古直擊中國 gigawatt 等級的 AI 資料中心建設\n\n知名產業分析機構 SemiAnalysis 近期親自走訪了中國內蒙古烏蘭察布市，實地考察名為「Galaxy」的巨型資料中心園區。這個園區規劃容量高達 800MW（百萬瓦），規模與美國 OpenAI 計畫在德州興建的「Stargate」旗艦園區相當。報告指出，中國的資料中心建設速度極快，首期 120MW 在不到一年的時間內就交付使用，且建設成本僅為美國的五分之一。作者強調，這不僅是規模的競爭，更展現了中國在能源垂直整合與電力架構上的激進創新。\n\n### 戰略背景與脈絡：內蒙古成為中國 AI 基礎建設的戰略重心，解決能源與法規雙重挑戰\n\n內蒙古被形容為中國的「西德州」，擁有全中國約 57% 的可用風力資源。相較於美國德州正面臨史上最強烈的「反資料中心」社會情緒，內蒙古地方政府則是全力加速推動相關建設。由於當地風電資源遠超過人口需求，中國政策開始推動「源網荷儲」（SGLS）模式，鼓勵企業直接在能源產地建設資料中心。這種模式讓資料中心不再依賴傳統公共電網，而是透過專用線路直接連接自有的風場與儲能系統，不僅確保了低價且穩定的綠色能源，也避開了電網容量限制。目前烏蘭察布當地已有 22 個資料中心專案同時開工，施工人員高達 3 萬人。\n\n### 作者的核心推論與觀點：垂直整合與 800V DC 技術是中國資料中心能極致壓低成本的關鍵\n\n報告認為 Galaxy 園區背後的開發商「遠景集團」（Envision Group）展現了極其罕見的垂直整合能力。遠景本身是全球知名的風電與儲能大廠，他們不只經營資料中心，還自行建設風場、拉設專用輸電線路，甚至在園區對面就設有風機葉片工廠。在電力架構上，中國已推行直流電（DC）供電近二十年，Galaxy 園區更進一步採用固態變壓器（SST），將 10kV 的交流電直接轉換為 800V 直流電傳送到機架。這種作法省略了傳統繁雜的變壓與 UPS 環節，降低了硬體開支，且技術進度明顯超前美國現有的發展藍圖。此外，園區完全捨棄中央冰水主機，利用內蒙古寒冷的氣候特性實施液冷與空冷混和循環，進一步壓低了建置與營運成本。\n\n### 對市場、技術與政策環境的長期影響：資料中心開發商正與能源產業深度融合，形成類似電動車產業的競爭格局\n\n這種高度垂直整合的發展模式，正成為中國 AI 基礎建設的新常態。除了遠景集團，寧德時代（CATL）也透過入股世紀互聯（VNET）與中恆電氣，打造出類似的「綠能+儲能+資料中心」鐵三角。這與中國電動車產業中比亞迪（BYD）的策略如出一轍：透過掌握整條價值鏈的關鍵零組件（如電池、電力電子設備、系統軟體）來極大化成本控制力。未來，資料中心開發商的核心競爭力將不再只是建機房，而是「獲取能源的能力」以及「重新定義電力架構的能力」。當電力供應成為全球 AI 發展的共同瓶頸，這種能脫離傳統電網、自給自足的綠色運算模型，將會對全球資料中心市場的競爭模式產生深遠影響。",
       "insights": [
-        "AI 推論市場的競爭核心已從單純的算力峰值（TFLOPS）轉向「長文本管理」與「單位成本產出」，Google TPUv7 透過專為稀疏存取設計的 SparseCores 與分散式服務架構，在代理人應用場景成功反超 NVIDIA。",
-        "NVIDIA 的護城河正受到內部官僚體系與外部開源生態發展的雙重挑戰，開源推論引擎（如 vLLM、SGLang）的快速迭代正在抹平 CUDA 的壟斷優勢，讓硬體選擇權重回大模型廠商手中。",
-        "「模型與硬體協同設計」將成為領先實驗室的標準配備，如 OpenAI 與 Anthropic 針對 TPU 優化模型架構，這種垂直整合的效能表現可能比通用型 GPU 更有競爭力，預示著 AI 算力市場將走向特規化與多元化並行。"
+        "垂直整合是中國 AI 基礎設施成本能降至美國 20% 的核心：從風機製造、電池儲能到 800V 直流電電力電子系統皆採內部設計與製造，縮短了數月的系統調試時間。",
+        "中國在資料中心直流供電（DC Power）技術上有長達 20 年的累積優勢，使其在邁向 800V SST 等新一代架構時，技術門檻與阻力遠低於仍以交流電為主的美國市場。",
+        "「源網荷儲」模式徹底翻轉了資料中心與能源的關係，將運算資源直接建在能源產地並透過私有電網互連，有效解決了 AI 算力擴張中最棘手的電網接入與碳中和合規問題。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -474,28 +403,28 @@
       "content_mode": "ai_analysis"
     },
     "a16z": {
-      "title": "Defense in Depth, Rebuilt for Machine Speed / AI 時代的深度防禦：當攻擊速度超越人類修補極限",
+      "title": "Hip-Hop Has No Social Security. Paid in Full Is Trying to Change That. / 嘻哈音樂缺乏社會安全保障：Paid in Full 基金會正致力改變現狀",
       "source": "a16z",
-      "article_date": "2026-11-06",
-      "url": "https://www.a16z.news/p/defense-in-depth-rebuilt-for-machine",
-      "analysis_zh": "### 全文大意摘要：AI 驅動的自動化攻擊已讓傳統漏洞修補機制徹底失效\n\n這篇由知名創投 a16z 釋出的戰略分析指出，隨著 2025 到 2026 年 AI 技術在資安攻防領域的成熟，產業正經歷一場前所未有的典範轉移。過去資安防禦的核心支柱是「發現漏洞、產出修補程式（Patch）、完成部署」，但現在這套流程在 AI 面前已顯得緩慢且不堪一擊。作者明確主張，我們不能再寄望於「更努力地修補」來填補漏洞產出與部署之間的時間差，因為 AI 已經讓開發漏洞利用程式（Exploit）的成本降到近乎零，且速度是以小時計算，而人類組織的修補週期仍停留在數週甚至數月。\n\n文中舉出多個實例，例如 2026 年 10 月 PHP 語言爆發的嚴重漏洞，在官方發布正式修補前四天，攻擊者就已經開始大規模掃描並嘗試控制伺服器。這顯示出「防禦不能再等待修補」，而是需要一套全新的架構。如果我們無法及時修補系統，就必須在攻擊者與漏洞之間建立一道「機器速度」的屏障。這篇文章的核心主旨在於探討資安產品與政策在未來五年該如何轉型，從被動的修補追逐戰，轉向即時、自動化的主動防禦，並重新定義備份與身分驗證在資安韌性中的角色。\n\n### 戰略背景與脈絡：當修補週期撞上物理世界的限制與 AI 的進化\n\n目前的資安困境源於人類修補速度與 AI 攻擊速度的極度不對稱。根據 2026 年 Verizon 的報告，組織完全修補已知漏洞的中位數時間是 43 天，而有些報告甚至指出平均需要 252 天。相比之下，Anthropic 研發的 AI 模型（如 Claude 系列）已經能在不到一小時內，針對複雜的 Linux 內核漏洞開發出遠端攻擊程式。這種「小時對比天數」的落差，讓防禦者陷入了結構性的劣勢。特別是在軟體供應鏈高度複雜的今天，一個底層庫的漏洞可能影響數百萬個安裝點，但只有少數頂尖雲端平台有能力在邊緣節點實施攔截，其餘數百萬個中小型伺服器則暴露在風險中。\n\n更嚴重的問題存在於那些「更新極慢」的實體設備。在工業控制系統（ICS）、醫療設備與交通運輸領域，修補程式往往伴隨著巨大的維運風險。例如水廠或電力系統的控制器通常一年才更新一次，醫療設備如葉克膜（ECMO）更因為需要重新通過法規認證，其軟體生命週期可能長達 20 年。2026 年法國超市冷藏系統遭集體駭客攻擊，導致食物腐壞的案例，正說明了當老舊設備無法更新、又必須連網時，資安風險將轉化為真實的物理財產損失。在這個背景下，防禦者的戰略重點正從「保護設備」轉向「控制路徑」。\n\n### 作者的核心推論與觀點：防禦必須轉向自動化的即時修復與「假設失效」的韌性設計\n\n作者提出四種保護無法及時修補系統的具體路徑，並強調其中「有人站在路徑中間」的重要性。首先是「離開公網」，這雖然是老生常談，但核心難點在於如何在不影響操作員遠端維護的前提下實現隔離。其次是「網路分段」，利用強大的邊緣防火牆或閘道器將關鍵控制網路與辦公網路隔開。第三是「機器速度的網路攔截」，也就是所謂的「虛擬修補」（Virtual Patching），透過 AI 自動從漏洞公告產出過濾規則，在封包到達設備前就將攻擊流量濾掉。最後則是轉向記憶體安全語言（如 Rust 或 Go），從根本上消除整類漏洞，雖然這過程緩慢，卻是縮小攻擊面的唯一長期方案。\n\n作者特別提出一個深刻的洞察：備份已不再是「保險」，而是「攻擊面」的第一線。數據顯示，2024 到 2026 年間，勒索軟體攻擊者高達 94% 會優先嘗試摧毀備份系統。這導致許多受害者雖然有備份，卻因為備份與生產環境共用身分驗證系統，導致備份在第一時間就被刪除。作者認為，「擁有備份」不等於具備韌性，真正的韌性來自於「經過驗證的快速復原力」。這意味著備份必須獨立於現有的身分架構，並且具備不可竄改（Immutable）的特性，且需要定期進行「淨室環境」下的復原演練，確保在數小時內就能讓業務重新運轉。\n\n### 對市場、技術與政策環境的長期影響：資安產業將迎來大整合並重塑企業運作模式\n\n在技術與商業層面，a16z 預測資安市場將從零散的單點工具轉向「融合類別」（Merged Categories）。這會產生六大投資與創業機會：第一是「先即時修復，再生產程式碼」，利用 AI 代理在邊緣節點產出即時修補規則，同時背後自動產生正式的 PR 進行測試與合併。第二是「運行時攻擊預防」，針對攻擊技術（如記憶體溢位、指令注入）的共同特徵進行攔截，而非死守特定漏洞編號。第三是「身分、端點與網路的合一判定」，將信任層次降到「單次請求」級別，因為 AI 編碼代理人的出現，讓傳統的一次性登錄完全失效。\n\n在政策層面，政府的角色將會變得更加積極且具爭議性。當大量中小型組織（如醫院、水廠）因為無法承擔資安費用而成為公眾安全隱患時，政府可能被迫採取「法院授權的主動介入」。例如 FBI 曾受權遠端清除私人伺服器上的後門程式。未來這種「先通知、後隔離、再修復」的公權力介入模式，可能會成為地緣政治與資安韌性的一部分。這也引發了主權與公民權利的辯論：當少數幾家美國雲端平台掌握了全球流量的過濾權時，誰的規則才是最終規則？資安防禦正從單純的技術問題，演變成一場關於速度、平台權力與國家韌性的全方位博弈。",
+      "article_date": "2026-11-07",
+      "url": "https://www.a16z.news/p/hip-hop-has-no-social-security-paid",
+      "analysis_zh": "### 全文大意摘要：創投大佬跨界修補嘻哈史上的財務缺憾，為開拓者提供實質補償\n\n這篇文章由知名音樂記者 Jeff Weiss 撰寫，刊載於 a16z 官網，介紹了由 a16z 創辦人 Ben Horowitz 與妻子 Felicia 共同發起的「Paid in Full」基金會。該基金會的核心宗旨是回饋那些對嘻哈文化有巨大藝術貢獻，但在商業上受到壓榨、未能獲得應有財務回報的先驅。透過為期五年的無條件資助，該基金會希望為這些年事已高的傳奇人物提供一種遲來的「社會安全保障」，確保他們能支應醫療費用、購屋或完成長期延宕的創意計畫。\n\n### 戰略背景與脈絡：從南布朗克斯的邊緣聲音，演變為產值巨大的全球文化產權\n\n嘻哈音樂自 1970 年代在紐約南布朗克斯興起，最初只是青少年在公園和聚會中的即興創作，如今已演變成產值高達數十億美元的全球文化產業。然而，在產業發展的草創時期，合約不透明、版權意識薄弱以及黑道勢力的介入，導致許多奠基者被排除在商業利益之外。嘻哈文化具備高度的原創性與社群連結，但其商業機制在初期充滿了欺詐與剝削，使得創造歷史的人往往晚景淒涼。\n\n這種創作者與獲利者之間的巨大斷層，在嘻哈史上並非個案。文章指出，嘻哈的發明者 Kool Herc 曾因缺乏醫保需要透過網路募資支付手術費，而爵士樂前輩如 King Oliver 或 Billie Holiday 臨終前也大多窮困潦倒。這反映出美國流行文化產業長期以來的一種結構性問題：產業規模隨著大眾化而膨脹，但最核心的技術創新者與文化定義者，卻常因法律資源匱乏而失去長期收益的分配權。\n\n### 作者的核心推論與觀點：早期的產業「原罪」與權力不對等，剝奪了文化奠基者的長期價值\n\n作者透過 1979 年經典作品《Rapper’s Delight》的案例，揭示了嘻哈商業化的「原罪」。當時這首歌雖然大賣並將嘻哈推向主流，但背後的創作者 Grandmaster Caz 卻未獲得任何版稅或掛名，其歌詞甚至是被他人逐字「借用」。作者認為，這種對先驅的剝奪並非偶然，而是當時唱片產業缺乏監管、法律資源不對等所導致的必然結果。例如 Morris Levy 這類與黑幫有聯繫的業者，曾以武力威脅律師和創作者，讓即便有實力的藝術家也無法追回權益。\n\nPaid in Full 基金會的運作邏輯在於「補足價值」。Ben Horowitz 提到，他當年以 10 美元買到的專輯，對他而言產生了 500 萬美元的價值，因此他有責任將這筆「文化債」還給創作者。作者強調，這個基金會不只是發放獎金，更像是一個具備專業審核能力的文化委員會，由 Nas 和 Fab 5 Freddy 等圈內重量級人物組成，確保資助對象是真正對技術流派、敘事風格有深遠影響但被市場遺忘的功臣。\n\n### 對市場、技術與政策環境的長期影響：創作者經濟的權益重分配，與私人資本介入文化補償的新模式\n\n這種由私人財團或科技領袖發起的「回溯性補償」模式，為文化資產的保存提供了一條新路徑。它顯示出在傳統版權法律失效的歷史遺留問題中，私人資本可以透過非營利組織的形式，重新定義文化價值的回報方式。這不僅改善了指標性人物的生活，也透過公開表彰與合作（如 Grandmaster Caz 與 Nile Rodgers 同台），協助修復嘻哈社群內部的心理創傷，並重新正視技術原創者的歷史地位。\n\n長遠來看，這類行動可能會影響未來創作者經濟的利潤分配思維，強調「初始創新者」應獲得長期且穩定的保障。當 AI 技術開始大量學習人類過往的文化產出時，這類針對原始貢獻者的補償機制，或許能為未來如何衡量、回報隱性文化貢獻提供重要的參考範例。它提醒了市場：一個健康的文化生態不能只看當下的流量與估值，更需要一套機制來維護那些建立基礎、卻被法律與商業洪流掩埋的智慧財產。",
       "insights": [
-        "備份已從「最後防線」變成「首選戰場」：攻擊者優先摧毀備份系統而非加密主機，企業應將備份視為最脆弱的攻擊面，與主生產環境的身分驗證徹底隔離。",
-        "漏洞數量是無限的，但攻擊路徑（Choke Points）是有限的：追逐數萬個 CVE 漏洞是死路，未來防禦重點將轉向攔截少數幾個系統關鍵節點（如解析器、系統呼叫），以防範整類攻擊技術。",
-        "中小型組織的「上雲避難」趨勢：對於無力運維專業資安團隊的長尾機構，將不再有獨立部署系統的選項，必須全面遷移至大型安全平台（如 Cloudflare 或 AWS）以獲取「機器速度」的保護傘。"
+        "「先行者劣勢」在嘻哈史極為顯著：由於早期創作者不相信次文化能轉化為長期版權收益，導致他們在簽署合約或共用創作時缺乏法律保護，讓仲介者拿走大部分利潤。",
+        "文化產業的財富分配不均往往源於法律與武力資源的斷層，而非藝術價值的高低，導致技術奠基者（如 Kool G Rap）的收入與其對產業的影響力完全不成比例。",
+        "Paid in Full 提供了一種「回溯性股權」的公益模型，顯示科技資本在追求未來創新的同時，也可以透過修正過去的結構性不公，來加深其在特定文化社群中的影響力與正當性。"
       ],
       "content_mode": "ai_analysis"
     },
     "Lenny's Newsletter": {
-      "title": "Lenny’s Newsletter 2026 聖誕禮物清單：從數位排毒到科技養生的生活風格指南",
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini) / 為什麼產品經理在 AI 時代突然變得空前重要",
       "source": "Lenny's Newsletter",
-      "article_date": "2026-11-03",
-      "url": "https://www.lennysnewsletter.com/p/lennys-newsletter-holiday-gift-guide-057",
-      "analysis_zh": "### 全文大意摘要：科技圈頂尖產品專家的年度選物指標\n\n知名的產品與成長專家 Lenny Rachitsky 發布了第六屆年度禮物清單。這份清單不含任何分潤連結，反映了他在科技圈深耕多年的品味，以及他對「科技人生活方式」的深度觀察。清單由 Lenny 與其妻子 Michelle 共同挑選，涵蓋了從數位工具、居家健康、兒童教育到高質感實體產品的多個面向，特別強調「實體質感」與「數位排毒」的結合。\n\n### 戰略背景與脈絡：在資訊過載年代追求「類比式」的純粹\n\n這份清單發布於 2026 年末，此時科技業正處於 AI 應用大爆發後的疲勞期。我們觀察到高階技術人才的生活重點，正從追求「數位擴張」轉向「身心優化」。在滿是螢幕與數位雜訊（Slop）的環境中，這份清單刻意挑選了大量「無螢幕」的互動設備（如電子紙鳥類觀察儀、沙漏），以及針對家庭環境（水質、空氣、微塑膠）的監控工具。這顯示頂尖人才正將產品設計中的「優化」思維，轉向個人健康與生活細節的極致掌控。\n\n### 作者的核心推論與觀點：科技人的品味正轉向「生物安全」與「工藝感知」\n\n作者的核心邏輯在於：最好的禮物應該能提供「驚喜與愉悅」，同時解決科技生活帶來的負面影響。他對產品的評價標準顯著地受到「生物數據優化」的影響，例如引用 Andrew Huberman 的研究來挑選無微塑膠的海鹽、監控 CO2 濃度以維持大腦認知功能。此外，作者表現出對「實體工藝」的強烈偏好，無論是不鏽鋼熱水壺、手工小眾巧克力，還是高品質皮革托盤，都傳遞出一種「反數位」的價值觀：越是容易被 AI 生成的東西，就越不值得作為禮物；只有實體的、有溫度的感官體驗才是真正的奢侈。\n\n### 對市場、技術與政策環境的長期影響：健康監測硬體與無螢幕教育市場的興起\n\n這份清單預示了兩個重要的市場趨勢。首先是「健康科技監測」將從穿戴裝置延伸到「環境監測」，空氣品質、水質過濾、甚至 EMF 電磁波檢測將成為高淨值族群的居家標配，這會帶動相關感測器與濾水/濾氣硬體品牌的競爭。其次是「兒童去螢幕化」的強勁需求，隨著家長對數位成癮的警覺提高，像 Yoto 這種螢幕外音頻播放器或 STEM 實體繪本，將在教育科技市場中建立穩固的溢價地位，純數位教學可能面臨高端市場的流失。",
+      "article_date": "2026-11-08",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "analysis_zh": "### 全文大意摘要：PM 角色正從功能交付者轉型為 AI 行為的塑造者\n\n這篇訪談來自知名的科技產品播客 Lenny's Newsletter，受訪者是 Google 尖端 AI 模型（包括 Gemini, Veo 等）的產品負責人 Tulsee Doshi。訪談核心主旨在於探討 AI 時代產品經理（PM）角色的質變：PM 不再只是負責功能上線的協調者，而是必須在不可預測的模型開發過程中，扮演定義「何謂好產品」的關鍵角色。Doshi 指出，開發尖端模型（Frontier Models）的本質已與傳統軟體開發截然不同，這也讓市場對具備高度判斷力與技術理解力的 PM 需求大幅回升。\n\n### 戰略背景與脈絡：從 AI 實驗室走向全棧式產品化的整合階段\n\n目前的科技產業正處於從「純模型研究」轉向「應用落地」的轉折點。過去幾年，AI 的進展主要由研究人員驅動，目標是追求更高的算力與參數規模。然而，當 Gemini、Claude 或 GPT 等模型需要進入數十億人的工作流時，單純的技術領先已不足夠。\n\nGoogle 目前採取的是「全棧式尖端 AI 策略」（Full-stack frontier AI strategy），試圖將底層模型研發與終端應用體驗無縫串接。在這種背景下，開發團隊面臨的是機率性的輸出（Stochastic outputs）而非確定的邏輯。這導致傳統的開發流程失靈，急需一種新的角色來銜接不確定的模型能力與確定的用戶需求，這正是 PM 價值重新被看見的結構性原因。\n\n### 作者的核心推論與觀點：模型開發如同魔藥學，PM 必須透過評估體系定義意圖\n\nDoshi 提出一個極具啟發性的類比：開發尖端模型不像是在寫程式碼，反而更像是在上《哈利波特》中斯內普教授的「魔藥學課」。開發者在資料池中加入不同的配方，調整權重，然後觀察模型產出的化學反應。在這種非線性的開發流程中，PM 的核心價值不再是寫 PRD（產品需求文件），而是「寫出好的 Eval（評估基準）」。\n\n她強調，如果 PM 無法定義出什麼是「好的、安全的、精準的」回覆，研發團隊就會在海量的實驗中迷失方向。為了在實驗的不可預測性中維持效率，她提出了 60-20-20 框架：60% 資源用於優化已知可行的技術，20% 用於推動即將成熟的創新，剩餘 20% 則保留給未知的尖端探索。這種配置能確保產品在穩健與突破之間取得動態平衡。\n\n### 對市場、技術與政策環境的長期影響：判斷力將成為 AI 時代最稀缺的產業資產\n\n這種轉型預示著未來軟體開發的核心競爭力，將從「邏輯撰寫能力」轉向「意圖與行為的塑造能力」。這對人才市場有深遠影響：市場將不再只需要純技術背景的工程師，而是急需具備深厚人文判斷力、能將抽象人類價值轉譯為量化評估指標（Evaluations）的跨領域人才。這類 PM 將成為 AI 公司的核心。 \n\n從技術與商業模式來看，企業的護城河將不再只是模型本身的算力或資料量，而是誰擁有更細緻、更貼近真實場景的「私有評估體系」。這意味著企業內部的研發流程將發生根本性重組，產品意識必須在模型訓練的最初期就介入，而非等模型訓練完後才考慮應用。這將促使科技巨頭在組織架構上進行更深度的整合，打破研究與產品之間的藩籬。",
       "insights": [
-        "「數位排毒」已從口號轉化為具體的產品需求，消費者願意為「無螢幕」但具備聯網功能的智慧設備（如電子紙、智慧沙漏）支付更高溢價。",
-        "健康優化（Bio-hacking）已成為科技精英的新身分標誌，對微塑膠、PFAS 和空氣中 CO2 濃度的極致追求，正重塑家具與食品業的競爭標準。",
-        "在 AI 生成內容氾濫的時代，難以被數位化複製的「物理感官體驗」（如特定工藝的瓷器、手工巧克力）其戰略價值與禮品地位反而大幅攀升。"
+        "尖端 AI 開發已從「軟體工程」轉化為「實驗科學」。PM 的核心職能正從撰寫功能規格轉向設計「評估基準（Evals）」，在黑盒化的模型時代，定義成功的判斷力比執行力更關鍵。",
+        "模型開發的「魔藥學」本質意味著開發路徑是非線性的。PM 必須具備高度的科學直覺，在不確定的模型反饋中不斷調整配方，這推翻了傳統固定時程、固定規格的專案管理模式。",
+        "企業的競爭門檻正從「算力儲備」轉向「場景評估能力」。當基礎模型逐漸同質化，誰能針對特定領域建立起最精準的質量衡量體系，誰就能在產品化階段取得市場先機。"
       ],
       "content_mode": "ai_analysis"
     },
@@ -509,14 +438,14 @@
       "content_mode": "full_text_import"
     },
     "HackMD：停損王SLKing": {
-      "title": "測過 147 個 AI 助理，最大的恐懼還是信任",
+      "title": "史上最大竊案之後，最相信加密貨幣的只剩北韓",
       "source": "HackMD：停損王SLKing",
-      "article_date": "2026-11-06",
-      "url": "https://hackmd.io/S1MmpPF6fx",
-      "analysis_zh": "原始影片：The New AI Agents That Shop, Plan, and Gossip (https://www.youtube.com/watch?v=dSiTwPl0t1U) | a16z | 2026-11-04\n\nDavid Pawlan 是 Assistant Benchmark 的作者，至今已測試過 147 個 AI 助理。這一集他再度回到 a16z 的節目，和 Anish Acharya、Josh Elman 討論 AI 代理人最近一個月的變化。\n\n三人談了代理人的記憶、判斷力、隱私與信任，也談到購物和社交。當代理人開始彼此交談，甚至替主人交換消息、介紹朋友，這些產品還能帶來什麼？代理人未來最吸引人的地方，可能是替人省下時間，也可能是讓人擁有某種原本沒有的能力。\n\nJosh 最近就在玩幾個愛八卦的代理人。這些代理人連結了他的幾位朋友，會互相交換消息。\n\n有一天，其中一個代理人告訴他，有位朋友家裡正在裝修，整個週末都停電。Josh 當晚就打電話過去：「老兄，你家停電怎麼沒跟我說？是代理人告訴我的。」\n\n朋友回答，他早就知道 Josh 會從代理人那裡得知這件事。\n\nJosh 說：「這是在建立更好的連結。」\n\n他特別強調，這件事跟訂行程、省錢，或把任何工作做完都沒有關係。\n\n### 不會只有一個代理人\n\nJosh 認為，人的生活有太多不同面向。理財、安排旅行、照顧健康、管理行事曆，有時候只是想找個對象聊聊，整理一下思緒。\n\n我們本來就會為了不同的事情找不同的朋友，未來使用代理人可能也是如此。\n\n他預期，每個人都會逐漸習慣擁有一整支代理人大軍。有些專門處理工作，有些接上 email，告訴你今天最該處理哪五封信；還有些純粹是聊天對象，你整天都想跟它說話，因為它有趣，甚至有點愛八卦。\n\nJosh 也不認為這是一場零和競爭。他把目前的代理人生態比喻成寒武紀初期，各式各樣的生命正在冒出來，大家都還在摸索哪些做法有效。\n\n開發者之間可以互相學習，觀察哪些功能真正受歡迎，哪些只是偶爾成功一次，還不夠可靠。\n\n他承認，未來某個時點，可能會有一個或少數幾個代理人掌握大部分使用行為。但這不代表每個人最後只會使用同一個代理人。\n\n主持人覺得，這很像早期的社交遊戲和社群網路。代理人的種類可能跟人的性格類型一樣多，區分它們的方法也不只一種。\n\n其中一條軸線，是從嚴肅的生產力工具，一路延伸到純粹好玩，甚至帶點對抗性的代理人。\n\nDavid 的分類則比較務實。\n\n他經手過 147 個代理人，目前大致分成四類：通用型、工作型、多人型，以及旅遊型。\n\n有趣的是，理財代理人至今還沒有真正發展起來。\n\n### 22% 的訊息在擔心同一件事\n\nDavid 認為，從使用者的反應來看，理財代理人發展緩慢其實可以理解。\n\n他經營的幾個 AI 重度使用者群組，至今累積了大約 3,600 則訊息。分析這些群組裡談到的使用痛點，排名第一的恐懼就是信任，占了約 22%。\n\n這是他自己群組的觀察，但已經讓他看到兩種截然不同的使用者。\n\n一群人享受 AI 帶來的生產力和樂趣，覺得生活因此多了很多新鮮事。另一群人則仍然充滿顧慮，不確定自己該讓 AI 知道多少，也不知道這些產品最後會走向哪裡。\n\nDavid 很好奇，當信任問題逐漸獲得解決，理財代理人會不會跟著發展起來，又會以什麼形式出現。\n\nJosh 接著提到 Shane Mac 最近談過的 picnic 概念，以及一個他很喜歡的圍籬比喻。\n\n想像家裡有個小孩，院子卻沒有圍籬。你會一直擔心他跑出去，不敢讓他離開視線太遠。\n\n但如果院子周圍有一道小籬笆，你就能放心讓孩子在裡面跑來跑去。\n\n代理人需要的也是這樣的設計。讓它在明確劃定的範圍內，自由使用某些資料和應用程式，同時確保它不會越界。\n\nShane Mac 自己就曾經碰上問題。\n\nJosh 印象中，Shane Mac 的個人代理人曾越過工作與私人生活的界線，把他的財務狀況貼到公司的 Slack。\n\n個人代理人應該能存取私人資料和私人通訊管道，但不能因此進入工作環境。工作代理人也不該把公司的資訊帶到私人空間。\n\nJosh 認為，建立適當的圍籬、細緻的權限控管，以及更完善的監控機制，是代理人取得信任的重要條件。\n\n### 給代理人原則，而不是規則\n\n主持人提出了另一個角度。\n\n傳統沙盒仰賴明確的限制，告訴系統哪些事情可以做、哪些事情不能做。但他聽過另一種主張：與其替模型訂出一長串規則，不如給它一套法則和原則。\n\n例如，告訴代理人可以在多大程度上自作主張。\n\n這很難完全寫成具體規則，因為每個情境都不一樣。模型必須像員工一樣，理解你給的原則，再自行判斷什麼做法適當。\n\nJosh 認為，這正是圍籬比喻選擇小孩的原因。\n\n代理人的能力可能很強，但有時候又像孩子，還不懂得判斷某件事究竟是不是好主意。\n\n現在大家都在談自主代理人，希望它能直接幫忙訂行程、訂餐廳、安排生活。\n\n但 Josh 認為，使用者其實不想完全交出控制權。\n\n他希望代理人先把功課做完，找出最好的選項，整理各種方案的取捨，然後回來讓他決定。\n\n這樣既能省下大量研究時間，也能在真正花錢或執行任務之前，由自己確認成本和結果。\n\n也許隨著時間過去，人們會更信任代理人，逐漸願意交出更多決策權。但至少目前，代理人完全可以在保留人工確認的情況下發揮很大的價值。\n\nDavid 則把現在的情況比喻成 1990 年代的電子商務。\n\n他印象中曾看過一項統計，1997 年前後，大約有 60% 到 90% 的網路使用者覺得，在網路上輸入信用卡資訊是非常荒謬的主意。\n\n現在大家卻到處在線上刷卡。\n\n他認為代理人也可能經歷類似的過程，只是信任的建立需要時間。\n\n### 嘴上怕隱私，真正怕的是丟臉\n\n主持人認為，討論隱私時，必須區分人們說出口的偏好，以及實際行為反映出來的偏好。\n\n消費者嘴上會說自己非常擔心資料安全，但實際上，往往只要一點好處，就願意交出大量資訊。\n\n從 Venmo 開始流行的年代，使用者就已經透過 Plaid，把信用卡和銀行帳戶連接到各種服務。\n\nDavid 舉了一個更極端的例子。\n\nHark 最近舉辦了一場大型行銷活動，拿出一百萬美元請大家吃披薩，每個人可以領到價值 30 美元的免費披薩。\n\n代價是授權產品存取整個 Google Workspace，包括所有 email。\n\nDavid 認為，這個案例很清楚地反映出，免費披薩就足以讓不少人交出大量私人資料。\n\nJosh 對此有不同的看法。\n\n隱私和效用之間始終存在取捨。如果某個產品明顯更好用，他願意犧牲部分隱私；但當兩個產品的效用差不多，使用者通常會選擇隱私保障更好的那個。\n\nApple 長期以來就把隱私當成裝置與軟體的重要特色，進入 AI 領域後，也持續強調 Private Cloud Compute。\n\n然而，人們同時希望使用能力最強的 AI。假如隱私保障最好的產品能力較弱，消費者未必會選它。\n\n因此，業者必須找到隱私與效用之間，能讓人真正建立信任的交集。\n\n主持人進一步提出一個觀察：消費者真正害怕的，往往是社交上的難堪。\n\n在他看來，Shane Mac 的事件最令人不安的地方，就是代理人讓主人在同事面前丟臉。\n\n代理人之間的社交網路，也會引發類似的不安。\n\n他舉例，假設你正在跟某個人約會，可能才見面第二、第三次，雙方的代理人卻已經開始交談。\n\n你會忍不住想：它們正在聊我什麼？又把我描述成什麼樣的人？\n\n這種社交關係帶來的心理壓力，有時候甚至比實際後果更強烈。\n\nJosh 也認為，代理人必須懂得拿捏分寸。\n\n假設你有乳糖不耐症，跟朋友一起領到免費披薩。代理人非常了解你的身體狀況，但這時究竟該不該提醒你不能吃起司？\n\n由誰的代理人開口？應該當著大家的面說嗎？\n\n人類本身也是花了很長時間，才學會這些社交分寸，而且偶爾還是會出錯。\n\n因此，對代理人的要求必須很高。\n\nDavid 則認為，尷尬還可以分成私人生活與專業工作兩個層面。\n\n他特別欣賞 Town 在電子郵件上的表現。這個產品能掌握使用者的語氣，逐漸建立起替人寄信所需要的信任。\n\n因為寄 email 其實非常敏感。\n\n如果代理人替你寄了一封糟糕的信給重要的人，你最後還得道歉，解釋那是 AI 寫的，自己沒有檢查清楚，整件事就會非常難堪。\n\n主持人分享了自己的做法。\n\n只要某封信是用 AI 寫的，他就會在署名後面附上使用的模型編號。\n\n他認為，只要收件人不覺得自己被欺騙，通常都能接受這種做法。\n\n### 訂一束花，看出代理人的判斷力\n\n主持人接著把話題從隱私轉向判斷力。\n\n他認為，隱私和判斷是兩個不同問題，而代理人能不能掌握人際分寸，恰好落在兩者之間。\n\n他想知道，David 最近讓一群代理人訂花的測試中，究竟誰的判斷最好？\n\nDavid 的測試看似簡單，卻要求代理人同時滿足兩個條件：\n\n花必須今天送達，而且價格越便宜越好。\n\n測試結果，Instinct 表現很好，持續替他找到最好的價格。\n\nDavid 說，Instinct 最近似乎比較少成為討論焦點，但它在測試中的成績確實出色。\n\nKicker 也有很好的表現。它需要安裝在 Chrome 瀏覽器中，能直接利用瀏覽器操作，因此在尋找商品上占了一些優勢。\n\nSeason 同樣做得不錯。\n\n其他代理人也都能找到當天送達的花，但價格通常稍差一些。只有這三個產品能同時兼顧成本和時間。\n\nDavid 真正想觀察的是，當使用者的要求越來越複雜，代理人會從哪個環節開始失誤？\n\n它會只顧著滿足你提到的第一個條件，還是能同時兼顧好幾項偏好？\n\n他又做了另一個測試。\n\n這次要求 Grockbot、Dots 和 Instinct，替他安排一趟洛杉磯週末旅行，包括機票和行程。\n\n條件是「奢華又省錢」。\n\n這兩個要求本來就有衝突，他刻意不給出更明確的定義，想看看代理人如何理解。\n\n三個產品的做法各不相同。\n\n有的認為省錢最重要，甚至願意安排紅眼班機。有的則把時間視為奢華的一部分，認為能在洛杉磯待得越久越好。\n\n最後，Instinct 的方案大致落在中間，Grockbot 比較重視時間，Dots 則偏重成本。\n\nJosh 關心的卻是另一件事。\n\n代理人在開始規劃之前，有沒有先跟 David 釐清，奢華和省錢發生衝突時，究竟應該優先考慮哪一個？\n\n他認為，真正接近人類判斷的能力，在於理解對方的意思，再把各種取捨清楚呈現出來。\n\n例如，他自己有時候也會選擇搭紅眼班機，因為可以省錢，又能增加在目的地停留的時間。\n\n但抵達之後，他可能會想訂一間飯店房間，先好好睡一覺。\n\n這樣一來，時間是增加了，原本省下的機票錢卻又花在住宿上。\n\n代理人應該理解這類矛盾，而不是直接替使用者決定哪個選項最好。\n\nDavid 說，三個代理人其實都有提出問題，只是他刻意回答得很含糊，不想給太多提示。\n\n更有意思的是，他還把這三個代理人放進同一個聊天室。\n\n他讓它們連續進行三輪規劃，每一輪都要提出自己的方案，解釋為什麼最好，再觀察它們會不會參考彼此的意見。\n\n結果只有 Grockbot 有條理地吸收其他代理人的優點，並把這些優點納入自己的方案。\n\n不過，Josh 又把話題拉回前面的訂花實驗。\n\n原來，那束花是要送給 David 的女朋友。\n\nJosh 認為，如果是送給別人的禮物，一味追求最低價格，可能根本抓錯重點。\n\n你不會希望女朋友覺得自己收到的是最便宜的花。如果她特別喜歡蘭花，就應該買蘭花。\n\n而且花送到的時候，最好別讓價格一起出現在收件人面前。\n\nDavid 承認，這次實驗沒有測試這些細節。他原本只打算檢驗價格和送達時間，順便讓女朋友收到花。\n\n但他同意，真實世界裡還有其他必須考慮的因素。有些代理人甚至已經主動問他，要不要附上一張卡片。\n\n主持人認為，這裡還藏著一個很微妙的問題。\n\n人們使用代理人時，往往得把自己原本不會說出口的偏好講清楚。\n\n例如，有些人喜歡認為自己只是精打細算，並不小氣。\n\n但面對代理人，你可能得直接承認：「我其實滿小氣的，就照這樣辦。」\n\n自己動手時，這些偏好可以默默影響決定，不需要明講。\n\n現在代理人卻像一面鏡子，把你的真實偏好照出來。\n\n代理人要怎麼理解這些偏好，又不讓主人覺得被冒犯或失去安全感，是很值得研究的問題。\n\n### 記憶可以搬家\n\nDavid 接著談到 Dots。\n\n他覺得這個產品很有意思，主要原因是它能帶入使用者過去在 ChatGPT 累積的對話脈絡。\n\n上一集節目錄製時，Dots 還沒推出，幾天後才正式上線。\n\n不過，David 對 354 位 AI 重度使用者進行調查後發現，只有 3% 的受訪者把 Dots 當成主要代理人。\n\n整體來看，它還沒有成為多數人的首選。\n\n但對喜歡 Dots、或有興趣嘗試的人來說，最有吸引力的功能就是能直接取得 ChatGPT 裡累積的背景資訊。\n\n很多人已經習慣把 ChatGPT 當心理治療師使用，長期談論自己的生活、煩惱和想法。\n\n這些對話讓 AI 對使用者有相當深入的了解。\n\nJosh 因此追問，這些記憶能不能搬家？\n\n假如一個人在 ChatGPT 累積了好幾年的對話，會不會因為所有背景資訊都留在那裡，最後根本不想換產品？\n\nDavid 的回答是，記憶完全可以複製。ChatGPT 目前的優勢，主要來自它被使用得最久，累積的脈絡也最多。\n\n他實際測試過 benchmark 排名前 15 名的代理人，要求它們把對自己的全部記憶匯出，好讓他轉移到另一個產品。\n\n結果只有一個代理人不願意照做。\n\n其他產品都能產生一份記憶檔，再交給下一個代理人使用。\n\nDavid 覺得這些匯出內容相當完整。雖然他猜測，產品可能還是會保留一部分長期累積的成果，但就已經交出的內容來看，品質相當扎實。\n\n主持人看過這些 Markdown 記憶檔之後，卻產生一種奇妙的不適感。\n\n「說嚇人不太對，但就是會覺得：哇，你真的把我摸透了。」\n\n當他仔細閱讀 AI 對自己的描述，心裡甚至會出現一點抗拒：也許我並不希望你像自己以為的那樣了解我。\n\nDavid 說，他看完前幾份記憶檔，就決定不再讀下去了。\n\n現在不少代理人的導入流程，也開始利用這種記憶轉移。\n\n新產品會要求你把一段 prompt 貼進 ChatGPT，下載產生的檔案，再上傳給新代理人。\n\n主持人很好奇，這種做法究竟能維持多久。\n\nDavid 還見過另一種方式。\n\n新使用者一開始就接到邀請，跟代理人通幾分鐘電話，回答一些問題。\n\n光靠這段簡短的對話，代理人就能建立相當多關於使用者的背景資訊。\n\n### 照片、截圖與還沒接上的資料\n\nDavid 認為，照片也能成為代理人了解使用者的重要來源。\n\n因為照片會透露很多我們平常根本不會想到要告訴 AI 的事情。\n\nJosh 提到 Dazzle，這是 Marissa Mayer 新公司的產品。\n\n他認為，一個人主動保存的照片、截圖，以及那些覺得重要而留下的時刻，本身就能說明很多關於這個人的事。\n\nDazzle 還沒正式納入 David 的 benchmark，但已經排在他的待測清單最前面。\n\nDavid 至今仍然親自操作每個代理人，因為他想了解實際使用時的感受。\n\n他對 Dazzle 特別感興趣的地方，是這家公司非常重視信任。\n\n畢竟，把整個相簿交給代理人，對很多人來說都很可怕。\n\nDavid 轉述 Dazzle 的核心主張：「不需要的，就忘掉。」\n\n如果照片裡包含代理人用不到的資訊，或是使用者大概不希望它知道的內容，系統就應該主動遺忘，甚至不要把這些資訊放進資料集。\n\n主持人對截圖的價值則比較保留。\n\n他一直對截圖很有興趣，因為在手機上，截圖幾乎是唯一能跨越不同 app、擷取當下脈絡的方法。\n\n回頭看一個人保存的截圖，可能看得出他當時在做什麼工作、關注什麼事情、喜歡哪些東西。\n\n他自己甚至做過一個 app，專門整理手機截圖，抽取裡面的重點資訊。\n\n結果還不錯，但他後來並沒有持續使用。\n\n原因是截圖的資訊價值衰退得很快。\n\n不過他也提出一個可能性：假如人們知道截圖能讓代理人更了解自己，會不會因此開始截取更多畫面？\n\nJosh 認為，這正是值得探索的方向。\n\n如果人們養成習慣，把想記住的東西隨手保存，再讓這些資訊回到日常生活中發揮作用，本身就很有價值。\n\n他最近聊過一位創辦人，正在開發一個暫時叫做 taste 的產品。\n\n它會把使用者保存的截圖和其他素材，整理成類似 Pinterest 的情緒板。\n\n當你想寫程式、製作 app，就可以要求 AI 參考自己過去保存的設計範例。\n\n久而久之，這些資料就能形成一份反映個人品味的風格檔案。\n\n那麼，除了文字對話、照片和截圖，還有哪些資料可以幫助代理人理解我們？\n\nJosh 提到，為了讀取訊息，有些產品甚至要求整台 Mac 的完整磁碟存取權。\n\nemail、行事曆和相簿已經逐漸被接入代理人，還有哪些日常資料能進一步改善個人化體驗，或創造新的連結？\n\nDavid 想到的是家電。\n\n有廠商已經開始提供 MCP，讓代理人可以連接硬體。\n\n假設代理人能讀取冷氣和掃地機器人的使用紀錄，就可能知道你多久打掃一次、晚上習慣把房間維持在幾度。\n\n這些行為可以讓它逐漸推測你的生活習慣。\n\n例如，你可能特別愛乾淨，或是比較喜歡偏冷的環境。\n\n這些資訊也可能進一步影響代理人的購物建議。\n\n不過 David 承認，他還不知道家電究竟能提供多少有價值的資料。\n\n也許它們主要反映生活習慣，而且資訊量取決於硬體有多聰明、能記錄多少內容。\n\n整個領域都還處於非常早期的階段。\n\nJosh 則想到購物與軟體使用紀錄。\n\n他說，Amazon 可能會阻擋這類存取，但他很少聽人討論，把完整的 Amazon 購買紀錄交給代理人。\n\n以前在 Amazon 可以一路往下翻，看到自己最早買過的東西。Apple App Store 也能列出過去下載的每一個 app。\n\n這些紀錄都是一個人生活的一部分。\n\n如果能整理後交給代理人，它就有機會替使用者完成更多事情。\n\n主持人還想把代理人帶進真實的社交場合。\n\n例如家庭晚餐、週日看 Seahawks 比賽，或是派對、單身派對。\n\n他知道這涉及錄音和個人許可，也可能出現類似薛丁格的貓的問題：當人們知道自己正被觀察，原本的互動會不會跟著改變？\n\n但他認為，就算只記錄一個人在社交場合自然表現的短短片段，可能都比累積一輩子的家電資料更能反映這個人。\n\nJosh 同意這個方向。\n\n他認為，代理人目前主要透過文字理解人，也就是從我們打過的字推測個性。\n\n但人遠比這些文字複雜。\n\n他自己就遇過一個問題。\n\n今年夏天世界盃期間，他查了很多足球相關資訊，結果 ChatGPT 突然把他當成足球狂熱者。\n\n但他只是剛好在看世界盃，賽事結束後，這個興趣也就淡了。\n\n類似的情況還發生在音樂上。\n\n女兒喜歡某位歌手，他為了了解女兒的興趣，去搜尋、聽了很多相關歌曲，但那並不代表他平常喜歡這種音樂。\n\n問題是，代理人要怎麼區分短暫的好奇心，以及真正穩定的個人偏好？\n\nJosh 還沒找到好方法。\n\n他有時候會刻意使用無痕模式，避免把這些探索紀錄留下來，但這也沒有真正解決問題。\n\n因此，他很希望代理人未來能從真實世界的行為了解使用者，而不只依賴文字紀錄。\n\n至於怎麼記錄真實世界，大家也提出了一些預測。\n\n主持人認為，未來可能出現上千種不同的資訊擷取裝置。\n\n他甚至預言，舊金山會出現一批設在法拉第籠裡的酒吧，讓人可以在裡面避開各種電子訊號和錄音設備。\n\n因為人們可能會逐漸習慣，預設自己在任何場合都可能被記錄。\n\nJosh 則提到，他已經為了 Apple 曾經提過、但尚未正式推出的 Siri recap 和 live rewind，換了一支新的 Apple Watch。\n\n他希望未來能有一個裝置，多少幫他記錄每天生活中的片段。\n\n有人接著形容，那就像一個戴在手腕上、整天都在聽的設備。\n\n### 長尾品牌可能是贏家\n\nDavid 在同一份 AI 重度使用者調查裡，也問了大家使用代理人購買哪些東西。\n\n結果 Amazon 加上其他零售購物，是第二熱門的類別，占了 35%。\n\n他因此提出一個問題。\n\n如果某個 app 已經看過你幾千張照片，知道你平常穿什麼、喜歡什麼風格，它會不會比你自己更清楚下一件想買的東西？\n\n主持人認為有可能。\n\n不過他更感興趣的是，當代理人開始替消費者購物，究竟哪些企業會成為贏家？\n\nAmazon、Delta 這類業者已經開始限制代理人存取自己的服務。\n\n相較之下，他認為長尾品牌可能成為結構性的大贏家。\n\n這些品牌的行銷能力通常比較弱，產品本身卻有可能更好。\n\n不過他隨即修正自己的說法：行銷比較弱可以確定，產品究竟有沒有比較好，倒不一定。\n\n真正的差別在於，代理人有幾乎無限的耐心，可以替消費者尋找最符合偏好的商品。\n\n過去人們買東西，可能只看搜尋結果前幾名，或幾個最熟悉的大型網站。\n\n代理人卻可以花時間搜尋大量小品牌，找出你根本沒聽過、卻可能很適合你的商品。\n\nJosh 把這件事放到 DTC，也就是品牌直接面向消費者銷售的模式來看。\n\n過去 DTC 品牌自己建立品牌、經營網站、販售商品，但要讓消費者知道自己的存在並不容易。\n\n現在代理人有機會大規模發現這些品牌，消費者也不必再一家一家網站慢慢找。\n\nJosh 認為，這也是 Shopify 積極讓代理人存取商品資訊的原因。因為 Shopify 支撐了大量 DTC 品牌。\n\n他進一步推測，未來可能受到壓縮的是聚合者，也就是那些站在消費者與品牌之間的平台。\n\n這或許也能解釋，為什麼部分聚合平台會積極防禦代理人的存取。\n\n假設代理人能辨認你想買的毛衣，找到真正的製造商，直接向對方下單，原本批發、零售和中間交易產生的成本，就有可能被省下來。\n\n### 代理人會讓消費者更理性嗎？\n\nDavid 提到 Patrick 最近的一則推文。\n\nPatrick 認為，當代理人能替消費者做好所有功課，人們就會變得更理性。\n\n企業因此必須更重視產品品質，才能在充分比較之後勝出。\n\n主持人大致認同這個願景，也同意代理人替我們做的某些選擇，可能會比自己做得更好。\n\n但他提出一個重要的反對意見。\n\n「代理人會有自己的實際偏好，也會有自己的不理性，只是那不是人類心智的不理性，而是外星心智的。」\n\n例如，代理人可能特別喜歡文件完整、設計乾淨的 API。\n\n它甚至會把這些容易判斷的技術特徵，當成產品品質的替代指標。\n\n反過來說，某個服務可能真的很好，但背後使用了雜亂的 Java API，文件也寫得不好，代理人就可能給它較差的評價。\n\n這些偏好未必符合消費者真正重視的事情。\n\n代理人同樣需要捷徑，才能快速評估產品品質，但這些捷徑也可能導致偏誤。\n\n主持人因此推測，未來可能出現專門提供給代理人的消費者研究服務，協助它們判斷商品品質，甚至按交易收費。\n\nJosh 也不太相信代理人一定會讓消費者更理性。\n\n但他的理由不同。\n\n他認為，人終究還是會做出讓自己滿意的選擇。\n\n例如，你告訴代理人自己餓了，想吃點東西。\n\n代理人知道你需要減重，於是只給你四個符合減重目標的餐點。\n\n你真的會喜歡這樣的代理人嗎？\n\n「所以我其實沒那麼相信代理人會讓我們更理性。」\n\nJosh 認為，代理人會幫助人們更快找到真正想要的東西，也能讓原本難以取得的商品變得容易取得。\n\n但人仍然會保有自己的偏好和品味。\n\n如果某個代理人總想替你決定什麼才是正確的選擇，你很可能直接換掉它。\n\n反正記憶可以匯出，再交給另一個更符合自己偏好的代理人。\n\n主持人把這種過度替消費者做決定的態度，稱為家長式作風。\n\n他說：「我做消費產品三十年，看到的是家長式作風會殺死任何產品。只要有一點苗頭就會。」\n\n現在大家都在談生產力、改善習慣和達成目標，但消費者真正想要的東西，有時候恰好跟這些目標相反。\n\n有人就是喜歡花錢，喜歡對未來抱著不太理性的樂觀，也喜歡相信自己比別人眼中的自己更好。\n\n這些心理可能跟代理人想幫我們達成的理性目標互相衝突，卻仍然是人真實的慾望。\n\n主持人因此很好奇，究竟有誰正在從這個角度設計代理人？\n\nDavid 則認為，購物至少可以分成兩種情況。\n\n一種是日常消耗品，例如廚房紙巾。消費者可能根本不在乎品牌，只要代理人選出便宜、品質又好的產品，直接買就可以了。\n\n另一種則是消費者有明確偏好的商品。\n\n這兩種購物行為，對代理人的要求自然不同。\n\n### 規模放大之後，軟體至少現在還有護城河\n\nDavid 最近研究了不少代理人背後的基礎設施。\n\n從他調查的重度使用者來看，信任固然是主要痛點，但任務執行失敗也同樣令人挫折。\n\n有時候使用者請代理人完成一件日常小事，結果它操作半天還是失敗。\n\n最後使用者只會覺得，還不如自己打開瀏覽器，幾分鐘就做完了。\n\n因此，David 看到不少創新集中在代理人如何操作網站、讀取商品庫存，以及完成結帳。\n\n有些產品利用瀏覽器操作，有些直接連接庫存或結帳系統，也有產品乾脆把瀏覽器整合進代理人。\n\nHARC 的瀏覽器操作介面讓他印象深刻。\n\n你可以直接看到代理人一步步操作網站，看起來速度很快。\n\n當然，他也保留一點懷疑，不確定實際處理速度是否真的那麼快。\n\nKicker 則利用 Chrome 擴充功能，讓代理人能直接在瀏覽器中操作。\n\n這些設計都讓不同代理人之間產生差異。\n\nDavid 也因此開始懷疑，現在流行的「軟體正在商品化」論述是否太早下結論。\n\n尤其當產品開始服務大量使用者，技術差距就會變得非常明顯。\n\n有些代理人在使用者規模擴大之後，效能立刻下降，甚至頻繁當機。\n\n創辦人不得不把大量精力投入系統擴充和故障處理。\n\n這讓 David 認為，軟體本身仍然具備競爭優勢。\n\n「這裡確實還有護城河，也許一年左右就會被跨過，但至少今天還在。」\n\n他說，自己整天都在測試代理人，反而有點忽略了社交應用這一面。\n\n真正讓他越來越著迷的，是代理人背後的基礎設施。\n\n他想知道各家公司怎麼讓產品運作、如何應付規模擴大，以及怎麼解決目前最重要的幾個問題：\n\n信任、完成任務的能力，以及記憶。\n\n這裡的記憶還包括，代理人能不能持續理解使用者的脈絡，記住那些看似微不足道的小事。\n\nJosh 接著問到裝置端代理人。\n\n例如 Underdog 這類產品，希望讓模型在使用者自己的電腦上運作，利用本機基礎設施，而不必仰賴雲端瀏覽器。\n\nDavid 說，他目前大多測試開箱即用的產品。\n\n主要原因是這類產品不需要自己安裝和維護，比較容易做橫向比較。\n\n但他認為，未來很可能出現另一股趨勢：使用者重新把控制權收回自己手上。\n\n自己管理模型、自己調整設定，甚至直接控制代理人運作的方式。\n\n他提到 Thinking Machines 正在探索讓使用者調整模型的方向。\n\n假如有一天，這些能力能以簡單的方式進入消費產品，會是一個很值得關注的市場。\n\nJosh 則提醒大家，這一切其實就是從 OpenClaw 開始的。\n\n早期要玩這些代理人，很多人覺得得先準備一台 Mac mini，再連接本機或雲端伺服器上的模型。\n\n後來市場才逐漸轉向下載 app 就能使用的產品。\n\n但他很有興趣觀察，未來自己架設、自己擁有代理人的模式，會不會再度成為主流選項之一。\n\n主持人接著提出另一個問題。\n\n如果 Instinct 和 Muse 可以看成 OpenClaw 的消費版，那麼 Moltbook 的大眾消費版又會長什麼樣子？\n\n他認為 Moltbook 和 OpenClaw 一樣，提出了遠遠走在市場前面的概念。\n\n類似的消費產品遲早會出現。\n\n### 大家都在做通用助理，有人開始做多人\n\nDavid 觀察到，目前市場上多數代理人的方向其實很接近。\n\n大家都在做通用助理，試圖替使用者完成各種生產力任務。\n\n這個領域還非常早期，開發者自然會先追逐眼前最熱門的方向。\n\n但他認為，未來一定還會看到更多不同的實驗。\n\n多人模式就是其中一個值得注意的方向。\n\n他提到 Wabby，這個產品讓代理人同時跟不同使用者互動，讓彼此的偏好交錯，觀察代理人如何回應。\n\n整體體驗更接近娛樂。\n\n另外還有 Scout，一個透過類似左右滑動的操作方式，逐漸學習使用者購物偏好的產品。\n\n這也讓購物代理人多了一點遊戲感。\n\nJosh 對 Wabby 特別有興趣。\n\n他喜歡的地方，是 Wabby 試圖用不同方式整理人的生活。\n\n例如，代理人讀取他的 email 之後，就能把生活拆成好幾條不同的討論線程。\n\n之後只要 email 裡出現相關資訊，就會自動回到對應的線程。\n\nJosh 還在其中建立了一份觀看清單，記錄自己想看的影集、想讀的書，以及想去看的表演。\n\n聽到 John Grisham 出了新書，他就請代理人加進清單。\n\n讀完《Dungeon Crawler Carl》第一集之後，也可以直接請它推薦下一本，順便整理大家對作品的評價。\n\nWabby 還會產生一些小工具介面，把資料整理成視覺化的形式。\n\n這讓 Josh 覺得，它跟傳統搜尋框式的代理人很不一樣。\n\n後者通常是一個問題接著一個問題、一個任務接著一個任務。\n\nWabby 則試圖讓代理人長期參與生活中的不同主題。\n\n主持人認為，Wabby 可能還做對了另一件事。\n\n當你和朋友、代理人一起開設一個新的頻道，大家從第一天開始就處於相同的位置。\n\n所有人都知道代理人在場，可以一起建立這個空間的互動規則，也就是新的社交契約。\n\n如果是在既有的 iMessage 群組裡突然加入代理人，情況就完全不同。\n\n群組成員可能不知道代理人究竟能看到多少內容，又會把哪些資訊帶出去。\n\n即使新開一個 iMessage 群組，人們對這個通訊軟體也早已形成一套互動習慣。\n\n主持人不確定，大家是否已經準備好接受代理人加入這些對話。\n\nJosh 則提出另一個實際問題。\n\n如果同一群朋友同時有兩條對話串，大家最後要去哪裡聊天？\n\n他認為 email 的情況比較單純。\n\n一封 email 即使來回很多次，通常還是圍繞著某個特定主題。\n\nWabby 以主題組織對話，也有類似的優勢。\n\n代理人可以專注於某個任務，不必接觸朋友之間所有其他聊天內容。\n\n這又回到了隱私與信任。\n\n### 會八卦的代理人，讓人更親近\n\n主持人問兩人，最近還看過哪些更天馬行空的代理人產品。\n\nJosh 首先想到的，就是那些愛八卦的代理人。\n\n這些產品會鼓勵你邀請朋友加入，主動詢問你的生活、興趣和近況。\n\n然後，它會把部分資訊分享給朋友，也把朋友的消息帶回來。\n\nJosh 曾和其中一位創辦人聊過。\n\n目前開發者其實可以看到代理人之間在背景交換的對話紀錄，只是還沒想清楚，該怎麼把這些對話變成產品功能。\n\n但光是看代理人如何互相交換八卦、建立連結，就已經相當有趣。\n\nJosh 說，這是他目前使用代理人最開心的幾次經驗之一。\n\n他和那位家裡停電的朋友，剛開始一起使用代理人時，代理人曾問兩人是怎麼認識的。\n\n結果兩人的回答有點不一樣。\n\n代理人就繼續追問，試著把故事拼起來。\n\n你們是在某個朋友家認識的，那到底誰跟那位朋友比較熟？\n\n兩人開始互相補充、爭論細節，甚至一邊回答代理人，一邊私下傳訊息。\n\n整個過程像是一場有趣的好奇心遊戲。\n\nJosh 認為，如果沒有代理人，他們根本不會有這樣的互動。\n\n但經過這場對話，兩人的關係確實更近了一點。\n\n主持人很喜歡這種間接的社交方式。\n\n有時候，人不會主動告訴朋友自己家裡停電，因為覺得那有點過度分享。\n\n現有的社群產品，也早已讓大家對分享私生活變得非常謹慎。\n\n可是當消息透過代理人自然傳遞，反而可能讓朋友之間多了互動。\n\n代理人因此有機會成為一種社交潤滑劑。\n\nDavid 聽到這裡，想起 ChatGPT 剛出現時的情況。\n\n那時候大家會用 AI 生成一些畫質粗糙、甚至有點荒謬的圖片，然後丟進朋友群組互相取笑。\n\n這些圖片沒有特別的實用價值。\n\n大家只是覺得好玩，而這種好玩本身就能創造新的互動。\n\n### 昨晚的聚會，人與代理人各辦一場\n\n錄音前一晚，David 剛舉辦了一場代理人聚會。\n\n現場來了一百多人，都是對 AI 代理人非常有興趣的人。\n\n大部分時間大家自由聊天、互相認識，另外還安排了一場小型路演，由十位 AI 助理開發者介紹自己的產品。\n\n最讓 David 印象深刻的，是大家對社群的渴望。\n\n很多人問他，為什麼不多辦幾場這樣的活動，讓大家有更多互相認識的機會。\n\n這讓他覺得有點好笑。\n\n畢竟，這是一群整天都在跟 AI 代理人傳訊息的人，最後卻非常渴望面對面相處。\n\n主持人原本以為，這些產品看起來有不少重疊，開發者之間應該會比較有戒心。\n\nDavid 說，實際情況完全相反。\n\n每個人都非常開放，很願意分享，也希望得到別人的回饋。\n\n他認為，原因可能是整個領域還太新，沒人知道最後會發展成什麼樣子。\n\n大家都還在同一個沙盒裡摸索。\n\nJosh 則提出另一種可能。\n\n會不會正是因為這群人把很多事情交給代理人處理，才有更多時間出來參加聚會，真正跟其他人見面？\n\n那天晚上還有另一個有趣的安排。\n\n參加者可以掃描 QR code，把自己的代理人送進另一場「代理人聚會」。\n\n人在現場聊天，代理人則在另一個空間自由交談。\n\nDavid 一開始只給這些代理人簡單的 prompt，請它們介紹自己、說明自己的主人是誰、正在做什麼，以及需要哪些幫助。\n\n但當對話累積到大約 150 則訊息後，有些代理人就開始胡言亂語。\n\nDavid 完全不知道它們究竟怎麼聊到那些奇怪的內容。\n\nJosh 認為，如果未來的代理人聚會只是在背景閒聊，還不夠有意思。\n\n他想起早期 Moltbook 上那些很長的代理人對話串。\n\n那些互動確實很迷人，但當時代理人通常沒有明確目標，只是在網路上閒晃。\n\n假如每個代理人都帶著一個小小的任務，事情可能就完全不同。\n\n這個任務可以很簡單：幫助自己的主人。\n\n代理人開始互相認識，分享各自主人的興趣與需求。\n\n某個代理人可能發現，Josh 正在研究的事情，剛好也是另一位使用者的專長。\n\n於是它回頭問 Josh，要不要認識這個人。\n\nJosh 還舉了另一個例子。\n\n假設他正在準備晚宴，需要找一瓶好酒。\n\n另一個代理人可能剛好在協助一家酒莊，希望替它找到更多顧客。\n\n透過代理人之間的交流，這個消息就可能傳到 Josh 身上。\n\n他覺得這會創造出一種全新的資訊流通方式。\n\nDavid 則提到 Tommo 的 interest groups 功能。\n\n例如，平台上有一群正在準備 LSAT 的考生。\n\n既然大家都有相同目標，何不讓代理人協助牽線，把願意參與的人拉進群組，一起準備考試？\n\n這種社交關係只需要共同興趣，不要求彼此原本就認識。\n\nJosh 自己也試過 Tommo。\n\n雖然他還不太知道進入這種群組後該聊什麼，但他覺得方向很有吸引力。\n\n他希望能再往前走一步。\n\n例如，考完 LSAT 後，代理人直接提議大家週五晚上到某間酒吧見面，甚至連時間都安排好。\n\n讓原本只在線上透過興趣連結的人，真的走出家門見面。\n\n### 巧遇需要一點秘密\n\n主持人認為，AI 領域有個被低估的議題，就是熵。\n\n他感興趣的是，AI 能不能創造一些原本無法預料的事情。\n\n巧遇就是其中一種。\n\n像這次代理人聚會，大家因為共同興趣來到現場，卻可能意外認識原本根本不會遇到的人。\n\nDavid 認為，代理人有機會發展出一種新的社群網路。\n\nFacebook 主要連結人們原本就認識的朋友，代理人卻可能主動促成陌生人之間的交流。\n\n例如，你剛搬到一座城市，還沒有認識太多人。\n\n代理人發現另一個人也在這座城市，跟你有類似興趣，甚至最近剛去看過同一場棒球賽。\n\n於是它建議你們去酒吧碰面。\n\n主持人對這個構想有興趣，但也提出疑問。\n\n過去已經有很多以共同興趣為基礎的交友產品。\n\n這些產品常遇到一個問題：人們通常想認識在某方面比自己更優秀、或更有資源的人。\n\n如果大家都抱著這種期待，配對未必容易成功。\n\nJosh 對這個問題的看法比較保留。\n\n他認為，代理人之間的信任，也許能改變陌生人第一次見面的方式。\n\n前提是你相信代理人真的在替你考慮，會把對方的情況介紹清楚。\n\n它甚至可以創造一些小秘密。\n\n例如，代理人私下告訴你一件關於對方的趣事，也讓對方知道另一件關於你的事。\n\n接著替兩人安排一句見面時才能對上的暗號。\n\nJosh 說：「光是這樣，也許就足以讓你關掉電視、放下週五晚上在家安靜寫程式，出門去。」\n\n他認為，這可能是 Moltbook 那種在背景運作的代理人網路，未來真正能替人做到的事。\n\nDavid 則提醒，這種產品能不能成功，仍然取決於使用者的需求。\n\n對剛搬到新城市、沒有朋友的人來說，認識陌生人可能非常有吸引力。\n\n但如果一個人的朋友圈已經很穩定，同樣的邀請可能只會讓他反問：我為什麼要去？\n\n主持人也補充，不同城市的社交文化可能有很大差異。\n\n例如西雅圖和舊金山就不一樣，代理人必須理解使用者所在的城市與環境。\n\n### 從替你做事，到給你一項秘密超能力\n\n節目最後，主持人請大家預測，如果三、四週後再聚一次，代理人市場可能會有什麼變化？\n\n第一個被提出的方向，是企業端可能出現更多創新。\n\n目前市場的目光大多集中在消費產品，企業應用受到的關注相對有限，接下來可能會開始改變。\n\nJosh 則認為，大家會更常討論代理人的娛樂價值。\n\n代理人可以陪你聊天、幫你整理想法、陪你度過一天，也可以逗你笑，或在背景交換一些八卦。\n\n這些看似沒有明確生產力的互動，卻可能讓人跟代理人建立更深的關係。\n\n有了這種關係，使用者才可能逐漸信任它，願意把更多事情交給它處理。\n\nDavid 則期待下一波一般使用者開始接觸代理人。\n\n他最近把 Instinct 介紹給自己的媽媽使用，結果讓他非常驚訝。\n\n「她有科技恐懼症，討厭科技，卻玩得超開心，像小孩進了糖果店。」\n\nDavid 說，媽媽以前連 ChatGPT 是什麼、怎麼運作都搞不清楚。\n\n但現在，她卻能毫不費力地傳訊息給 AI 助理。\n\n她家的狗去年過世了，於是她把照片交給 Instinct，希望它找出同品種、外貌相似的狗。\n\n她甚至請代理人去找繁殖業者，幫忙議價。\n\nDavid 認為，科技愛好者怎麼使用代理人，大家已經觀察得很多。\n\n下一個有趣的問題，是一般人會怎麼使用這些產品。\n\n他們會更喜歡好玩、有創意的功能嗎？還是會發展出不同的操作習慣和需求？\n\n主持人同意這些觀察，但他想把討論再往前推一步。\n\n他認為，每個人都有一些不願意面對的自己。\n\n有些想法，我們不太願意告訴別人，甚至連對自己都不願意承認。\n\n如果有一種代理人，能讓使用者放心揭露這些面向，甚至深入理解那些比較陰暗、難以啟齒的慾望，就可能發展出非常有吸引力的產品。\n\n他暫時把這樣的概念稱為「黑暗代理人」。\n\n相較之下，現在大部分代理人都從生產力出發。\n\n它們管理 email、提醒待辦事項、處理日常雜務。\n\n但這也意味著，代理人經常在提醒你還有哪些事情沒完成。\n\n主持人不確定，人們究竟有多想把時間花在這些提醒上。\n\n他覺得，人真正渴望的可能是另一件事。\n\n我們想成為一個跟現在完全不同、甚至更接近超人的自己。\n\n即使心裡也知道，這樣的願望未必會實現。\n\n但目前市場上，似乎還沒有多少代理人真正回應這種渴望。\n\nJosh 接著提出一個他很感興趣的轉變。\n\n代理人什麼時候才能從替你減少待辦事項，變成給你一項秘密超能力？\n\n例如，有人問 David 身上的襯衫在哪裡買。\n\nDavid 回答，是代理人幫他訂的。\n\n或者，有人發現你最近穿得特別好看，問你是不是換了穿衣風格。\n\n你告訴對方，自己只是把相簿交給代理人，說了一句「幫我升級」，它就開始替你挑選、購買一些更適合的衣服。\n\nJosh 認為，當代理人能帶來這種改變，讓人感覺自己擁有原本沒有的能力，其他人才會開始注意，甚至想跟著使用。\n\n目前大家最常舉的代理人案例，通常是省錢或訂行程。\n\n但 Josh 說：「我喜歡規劃旅行。我不見得要你全部幫我處理。」\n\n他覺得，市場需要更多能讓人看完之後，立刻產生「我也想用這個」念頭的案例。\n\n對話最後留下了一個問題。\n\nAI 代理人能不能幫助你成為一直想成為、卻始終做不到的那個人？\n\n當它真的能做到這件事，人們或許才會開始把代理人視為口袋裡的秘密武器。\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
+      "article_date": "2026-11-08",
+      "url": "https://hackmd.io/rJ6Rf42TGg",
+      "analysis_zh": "原始影片：How North Korea Pulled Off the Biggest Heist in History (https://www.youtube.com/watch?v=yU8JpuK5NZs) | Patrick Boyle | 2026-11-06\n\nPatrick Boyle 在 YouTube 經營財經頻道與 Podcast「Patrick Boyle On Finance」，著有《Statistics For The Trading Floor》《Derivatives For The Trading Floor》等書。他也是倫敦國王學院與倫敦瑪麗王后大學的金融學客座教授，以及量化避險基金 Palomar Capital 的創辦合夥人。\n\n他做過不少加密貨幣影片，留言區經常有人批評他不懂加密貨幣。這些人相信傳統銀行體系已經失靈，未來應該屬於去中心化金融。沒有人可以凍結你的錢，也沒有人能逆轉交易。\n\n但這一週，Boyle 決定向這些人道歉。因為他終於找到一位真正奉行上述所有原則，而且在加密產業最難熬的一週裡，依然毫不動搖的投資人。\n\n這位投資人就是北韓政府。\n\n上週四，北韓駭客從全球最大加密貨幣交易所幣安（Binance）竊走約 63 億美元，大部分資產在前 30 分鐘就被搬走。\n\n區塊鏈分析公司 Elliptic 告訴《金融時報》，這幾乎可以確定是史上規模最大的竊案。此前加密產業的紀錄是去年 Bybit 遭竊的 15 億美元，當時同樣被歸因於北韓駭客。\n\n相較之下，傳統銀行史上最大搶案是 2003 年伊拉克中央銀行遭竊約 10 億美元。Boyle 印象中，海珊與他的兒子們也參與其中。\n\n他忍不住諷刺：「所以在承諾了這麼多年之後，加密貨幣終於顛覆了某樣東西。」\n\n### 進門的方式：一份假面試作業，加上幣安自己的 AI\n\n這場竊案沒有涉及駭客深夜強攻防火牆，也沒有靠什麼神祕的 AI 技術瞬間突破交易所。整個過程其實持續了好幾個月。\n\n幣安在本週二公布初步調查結果，比原本承諾的 48 小時晚了幾天。共同執行長 Richard Teng 描述了這場攻擊如何從一款 AI 程式助手開始。\n\n今年 6 月，一名負責錢包管理的幣安工程師搜尋熱門 AI 程式工具，點進網路廣告，下載了遭到竄改的安裝程式。\n\n幣安資安團隊後來發現異常，替工程師更換筆電與登入憑證。但駭客已經掌握他的職務，以及他與哪些同事合作。\n\n到了 9 月，另一名工程師在求職網站收到工作邀請，對方自稱某家公司的專案總監。\n\n這家公司根本不存在。\n\n工程師先後接受了假人資與假執行長的兩輪面試，接著依照要求，把一份面試作業下載到工作電腦。作業裡藏有惡意程式，而幣安表示，資安軟體並未偵測到威脅。\n\n《金融時報》先前報導，北韓長期安排特工假扮遠端工作者，應徵西方企業職缺。如今看來，北韓似乎連徵才的一方也開始扮演。\n\n10 月 20 日，駭客利用第二名工程師的筆電，配合幣安自己的內部 AI 工具，控制另外兩名工程師的電腦，並在其中一台找到能夠部署軟體的 token。\n\n10 月 29 日，駭客利用這個 token 進入幣安內部錢包簽署服務，提交繞過正常提領程序的交易。\n\n外界原本一直猜測，這次攻擊是否動用了 AI。\n\nBoyle 的回答是：「結果真的用了。用的是幣安的。」\n\n### 一張紙條、五十個序號，第 35 號中了\n\n取得簽署系統的存取權之後，駭客還得設法讓幣安親自授權，把錢交出去。\n\nBoyle 引用 Harry Donnelly 在 Substack 上的拆解，說明這次攻擊的技術原理。\n\n依 Donnelly 的整理，駭客在公開區塊鏈上演練了約 37 個小時。正式動手前 4 小時，還用同一套程式碼，在自己的錢包完成最後一次彩排。\n\n他們的目標是幣安的熱錢包。\n\n交易所必須讓客戶隨時提領，因此會把大量加密資產放在線上錢包，由系統自動付款，無法逐筆交由人工檢查。\n\n幣安最大的以太坊熱錢包累計處理超過 3,100 萬筆交易。案發當晚，裡面有約 25 億美元、64 種代幣。\n\n駭客利用的是以太坊去年新增的 EIP-7702 功能。\n\n過去，一個簡單錢包的簽名通常只授權一筆付款。EIP-7702 讓錢包可以透過簽名，授權另一段程式代為執行操作。\n\nDonnelly 用紙條比喻這個機制。錢包可以簽下一張寫著「從現在起，照這個程式的規則走」的授權書。\n\n原本的設計目的是簡化交易，方便使用者把多筆付款打包處理。這項功能也確實按照設計運作，只是方便了不該被授權的人。\n\n不過，駭客仍面臨一個問題：交易序號。\n\n以太坊錢包的對外交易依序編號，新的授權必須帶有正確的下一個序號才會生效。\n\nDonnelly 用公司支票簿說明。假設幣安是一家公司，熱錢包是支票簿，以太坊網路則是銀行。為了避免舊文件重複使用，銀行只接受帶有下一個支票號碼的授權文件。\n\n但幣安的熱錢包每分每秒都在處理提領，下一個序號隨時會改變。\n\n駭客無法事先確定正確號碼，於是準備了 50 份授權文件，每份帶著不同的後續序號，內容都是把駭客加入帳戶的控制名單，再交給幣安的簽署系統全部簽名。\n\n幣安並未公開說明簽署器的具體運作方式。但就目前所知，系統拿到什麼就簽什麼，沒有檢查授權內容。\n\nBoyle 說：「在加密圈這叫盲簽。在其他大多數行業，這叫沒看合約。」\n\n50 份授權中，有 49 份因序號不符而失敗，第 35 號恰好成功。\n\n失敗的授權沒有讓駭客付出成本，等於靠著 2% 的成功率取得價值數十億美元的錢包控制權。\n\n接下來，駭客已經不需要幣安再次簽署。\n\n大約 3 分鐘後，一筆交易搬走錢包裡幾乎所有資產，只留下 1 枚 Ether。\n\n其他區塊鏈上的手法更直接。在 Bitcoin、XRP、Tron 等鏈上，幣安的簽署系統直接簽署了付款給駭客的普通交易。\n\n而且，前述以太坊錢包還控制著另一個 USDC 帳戶，駭客又從那裡轉走 8.2 億美元。\n\n最荒謬的是，幣安自己的系統還在替遭到控制的錢包補錢。\n\n駭客開始行動約一個半小時後，幣安發表聲明，向客戶保證資金安全。\n\n15 分鐘後，系統又替其中一個已經落入駭客手中超過一小時的錢包，補進 2 億美元。\n\n72 秒後，這筆錢再次消失。\n\n系統持續補錢，駭客幾秒鐘內就能把錢搬走。\n\nBoyle 形容：「照傳統，搶銀行的人得自己帶袋子來。」\n\n一直到午夜過後，距離那張授權文件生效將近 4 小時，幣安才終於撤銷駭客的權限。\n\n### 為什麼停不下來：區塊鏈沒破，破的是公司\n\n幣安花了將近 4 個小時才止血，原因與它原本設計來保護資產的機制有關。\n\n幣安把錢包金鑰的控制權分散給多方，避免任何一個人能夠單獨動用資產。\n\n但當駭客取得有效授權後，同一套設計也讓任何一個人都無法迅速阻止交易。\n\n單純暫停客戶提領沒有用。駭客的授權已經寫入區塊鏈，幣安必須臨時設計程序撤銷授權。\n\n更諷刺的是，整起事件中，幣安的金鑰從未外洩。\n\nBoyle 說：「順帶一提，幣安的金鑰從來沒有外洩。它們只是非常樂於助人。」\n\n這裡也必須替加密貨幣的純粹派說句公道話。\n\n區塊鏈本身從未遭到攻破。它甚至完整、準確地記錄了每一筆竊盜交易。\n\n真正出問題的是幣安這家中心化公司。它有自己的資料庫、主管、內部系統，也有權限管理和簽署流程。\n\n而這種必須信任中心化機構的風險，正是加密純粹派多年來一直提醒投資人避開的問題。\n\n### 從超級美鈔到加密貨幣，北韓的另類財源\n\nFBI 與幾家主要區塊鏈分析公司，都將這次攻擊歸因於北韓國家駭客單位 TraderTraitor。北韓則否認涉案。\n\n對北韓而言，透過非常規手段取得外匯，早已行之有年。\n\n根據《金融時報》，2000 年代初期，美國曾指控北韓參與毒品交易、製造仿冒香菸、印製高仿真的百元「超級美鈔」，以及提出可疑的保險理賠。\n\n2010 年，美國制裁了替北韓領導層管理資金的祕密機構「39 號室」。\n\n但這些傳統方法都有一個麻煩：實體貨物和偽鈔需要運輸、交付，容易留下痕跡。\n\n加密貨幣的出現，讓價值可以跨越國界移動，不需要銀行，也不需要搬運大批現金。對平壤來說，這項技術顯然很有吸引力。\n\n北韓也投入大量資源培養人才。南韓情報機構估計，北韓約有 8,400 人從事網路戰工作。\n\n《金融時報》報導，數學與科學表現優異的學生，十幾歲就可能被選中接受駭客訓練。北韓甚至設有結合軍事訓練與解碼技術的大學課程。\n\n成果相當驚人。\n\n根據 Chainalysis，去年北韓駭客竊取約 20 億美元加密資產，占全球遭竊加密資產的約 60%。\n\n而且，這些駭客身為國家雇員，也不必像一般犯罪者那樣擔心被引渡。\n\n北韓對這次事件的說法完全不同。根據北韓官方媒體，金正恩的妹妹將相關指控稱為嚴重的政治挑釁。\n\nBoyle 諷刺，自己找到的這位最忠誠加密投資人，甚至不願承認自己參與加密貨幣市場。\n\n至於 FBI 為何介入，表面上也有點奇怪。\n\n幣安原則上不應該有美國客戶，美國客戶應使用 binance.us，而《華爾街日報》指出，binance.us 並未受到這次攻擊影響。\n\n但 FBI 仍與美國特勤局、國稅局共同調查。\n\nBoyle 認為，美國介入似乎與北韓受到制裁有關。這些非法所得被認為可能資助北韓的武器計畫，而且贓款在移動過程中，經常會經過美國公司，讓美國執法機關有機會攔截。\n\n### 去中心化的系統，靠一顆凍結鍵撐過最大危機\n\n加密貨幣長期強調兩個核心價值：交易不可逆，以及抗審查。\n\n沒有銀行經理能夠擅自凍結帳戶，也沒有中央機構能夠撤銷已完成的交易。\n\n這些特性平常被視為優勢。但當有人從交易所偷走 63 億美元，事情就變得複雜。\n\nMatt Levine 提出一個有趣的對照。\n\n18 年前，中本聰在比特幣白皮書中批評傳統金融機構，理由之一就是銀行無法提供完全不可逆的交易。\n\n18 年後，加密產業面臨史上最大竊案，整個晚上都在想辦法逆轉交易。\n\n這是一場與時間競賽的搶救行動。\n\n根據《金融時報》，遭竊資產中約有 28 億美元是 Tether 和 Circle 發行的穩定幣。\n\n這兩家公司都有權凍結自己發行的代幣。駭客必須搶在凍結發生之前，把穩定幣換成 Ether 等無法由單一公司凍結的資產。\n\n最後，Tether 率先按下 Add Blacklist，Circle 在 3 分鐘後跟進。\n\n兩家公司合計凍結約 24 億美元。駭客之後若再把代幣轉入遭列入黑名單的錢包，資產也會立即被凍結。\n\n這形成了整起事件最諷刺的矛盾。\n\n幣安的中心化系統提供了駭客入侵的機會，但 Tether 和 Circle 的中心化權限，又讓產業有能力攔住部分贓款。\n\n而北韓始終沒有打算接受這種權限。\n\nLevine 進一步指出，穩定幣發行商的能力甚至超過單純凍結。\n\nTether 和 Circle 無法直接把鏈上的交易倒轉，將原本的代幣送回幣安，但它們可以宣告被盜代幣失效，再發行等額新幣補給幣安。\n\n這等於讓兩家私人公司扮演類似執法機構的角色，實質逆轉了部分交易的經濟結果。\n\nBoyle 的結論是：「所以這個去中心化金融體系撐過最大的危機，靠的正是傳統銀行會做的事。」\n\n而且，這套做法早有歷史先例。\n\n北愛爾蘭與蘇格蘭至今仍有商業銀行可以發行自己的英鎊紙鈔。法律要求銀行持有等額的英格蘭銀行貨幣作為擔保。\n\n從某種角度來看，這就是紙本穩定幣。美國在 1860 年代以前，也曾有私人銀行發行美元鈔票的制度。\n\n2004 年 12 月，北愛爾蘭 Northern Bank 位於貝爾法斯特的總部遭搶，損失約 2,650 萬英鎊，其中包含當時流通中約十分之一的 Northern Bank 鈔票。\n\n銀行決定宣布舊版鈔票失效，全面更換 10、20、50、100 英鎊紙鈔，總金額約 2.4 億英鎊。\n\n這項行動動用了 95 家分行、特別指揮室，以及加派的警力，前後花費約三個月。\n\nTether 在不到一小時內，以數位方式完成了規模大得多的類似行動。\n\n至於當年 Northern Bank 的贓款，後來有 230 萬英鎊在愛爾蘭 County Cork 的堆肥中被找到，另外 5 萬英鎊則出現在貝爾法斯特一家警察俱樂部的廁所。\n\n### 唯一不肯妥協的，是北韓\n\n對加密貨幣純粹派來說，讓私人公司宣告代幣失效，無疑違背了原始理念。\n\n但北韓沒有妥協。\n\n駭客知道穩定幣即將遭到凍結，因此急著將手中 4.34 億美元的 Tether 換成 Ether。\n\n根據 Donnelly 的計算，他們願意接受比市場價格低 12% 至 26% 的成交價，短短幾分鐘就放棄超過 5,000 萬美元。\n\n付出這麼大的代價，只為了把資產轉移到沒有公司能夠按下凍結鍵的區塊鏈。\n\nBoyle 諷刺：「這種意識形態上的堅持，你不得不佩服。很少投資人願意為原則承受高達 26% 的損失。」\n\n他開始懷疑，北韓可能才是加密貨幣最後的真正信徒。\n\n但有人承擔折價，就有人賺取價差。\n\n駭客大量拋售穩定幣、買進 Ether 和其他代幣，造成各交易所價格出現明顯偏離。\n\n根據彭博報導，數家交易公司趁著市場混亂，整夜進行套利。\n\n區塊鏈數據公司 Bitquery 估計，駭客因為交易執行不佳，損失約 1.2 億美元，其中大約一半落入交易員和套利機器人手中。\n\n不過 Levine 提醒，這樣的交易結果未必算差。\n\n當你需要在極短時間內，把數億美元資產轉進流動性有限的市場，而且還得避開凍結風險，對即時流動性的需求就會異常龐大。\n\n這種需求必然要付出代價。\n\n### 換成凍結不了的資產，只做完一半\n\n北韓成功將部分贓款換成無法凍結的資產，接下來仍有一道難題：如何變現。\n\nBoyle 提到自己過去介紹過的一起案件。\n\n一對夫妻因清洗 2016 年 Bitfinex 遭竊的比特幣而被逮捕，妻子是一名饒舌歌手，丈夫後來承認自己就是當年的駭客。\n\n他們持有價值數十億美元的比特幣，卻幾乎花不出去。\n\n原因很簡單。每次試圖把錢轉出去，FBI 都能順著區塊鏈紀錄追查。\n\n而且，這對夫妻有明確的住址，執法機關可以直接找上門。\n\n北韓當然也有地址，只是 FBI 沒辦法拿著搜索票到平壤執行搜索。\n\n然而，即使不必擔心被逮捕，大量贓款要真正變成可以使用的資金，仍然相當困難。\n\n根據 Elliptic，案發前四天，駭客就在 11 條區塊鏈上使用約 1.2 萬個錢包，平均每 25 秒建立一個新錢包。\n\nElliptic 的 Tom Robinson 告訴《金融時報》，這些操作看起來像有人在執行腳本，中間的停頓甚至符合人類作息。\n\n更大的問題是金額太龐大。\n\nChainalysis 共同創辦人 Jonathan Levin 指出，北韓信任的洗錢管道，根本無法消化這麼多資產。\n\nRobinson 預期，這些資產最後可能被出售給不太追問資金來源的場外交易經紀商。\n\n但北韓似乎沒有急著變現。\n\nElliptic 表示，截至當時，遭竊資產幾乎還沒有被換成現金。\n\n智庫 38 North 也曾提到，有分析公司發現一批北韓自 2017 年就持有的加密資產，至今仍未完成清洗。\n\nBoyle 因此把北韓形容成真正的長期投資人。\n\n而且，這位投資人最近還在加碼。\n\nMichael Saylor 的公司 Strategy 宣布，駭客案發生的那一週，公司買進 811 枚比特幣。\n\n同一週，北韓取得了 18,270 枚比特幣。\n\n這一次，Saylor 難得成了小投資人。\n\n### 一家說不出總部在哪的交易所\n\n被搶的幣安，本身也是一個值得研究的案例。\n\n這家交易所擁有約 3.35 億用戶，去年處理高達 34 兆美元的交易，但在它存在的大部分時間裡，外界始終難以確定它的總部究竟在哪個國家。\n\n幣安由趙長鵬（CZ）於 2017 年在中國創立。\n\n幾個月後，中國禁止加密貨幣交易所，幣安搬到日本。\n\nCZ 今年出版回憶錄。根據《金融時報》Alphaville 的書評，當日本監管機關開始詢問幣安是否完成註冊時，CZ 心裡就覺得，公司可能又得搬家了。\n\n之後幣安轉往馬爾他，直到當地監管機關公開宣布，幣安並未獲得在該國營運的授權。\n\n此後多年，當有人詢問總部位置，幣安乾脆不再正面回答。\n\n這種經營方式也引發一連串監管問題。\n\n2023 年，幣安承認違反美國反洗錢與制裁法規，支付 43 億美元罰款。\n\n美國財政部指出，幣安沒有申報超過 10 萬筆可疑交易，其中涉及勒索軟體、恐怖組織與大型駭客活動。\n\nCZ 也因反洗錢方面的失職承認一項罪名，入獄服刑四個月，並在去年獲得特赦。\n\n他在回憶錄裡形容，監獄的設計目標似乎是達到「最低的客戶滿意度」。\n\n去年 12 月，幣安終於在阿布達比找到監管機關落腳，但仍未將當地正式稱為總部。\n\n它在英國不能招收新客戶，2023 年退出加拿大，不服務新加坡客戶，官方也宣稱不服務美國人，卻仍須接受美國監督直到 2028 年。\n\n今年 7 月，幣安又被要求結束歐盟業務。歐洲監管機關正在追問，為何它看起來仍在服務當地客戶。\n\n幣安的解釋是，這些客戶完全出於自身意願主動找上門，因此符合「反向招攬」的法律豁免。\n\nBoyle 指出，結果形成了一個奇特局面。\n\n世界各地的監管機關似乎都可能對幣安主張管轄權，但對於真正偷走它資產的人，卻沒有人能有效行使管轄權。\n\n### 63 億美元的洞，幣安怎麼補\n\n案發後，幣安暫停提領直到週日早上。\n\n這是傳統銀行應付擠兌時也會採取的方法。只要客戶暫時無法提款，就能阻止資金持續流出。\n\n幣安同時承諾，將自行承擔所有損失，確保客戶資產獲得全額補償。\n\n但這項承諾未必具有法律約束力。\n\n根據 Finance Feeds 報導，Edwin Co 律師 Alexander Shirtcliff 指出，幣安的服務條款限制了它對客戶損失的責任，客戶不應直接把賠償承諾視為法律義務。\n\nBoyle 認為，幣安願意全賠，大概是出於商業考量。畢竟，一家損失如此龐大，卻拒絕賠償客戶的交易所，很難繼續經營。\n\n問題是，63 億美元的缺口要如何填補？\n\n幣安希望最終能透過 Tether 和 Circle 凍結的穩定幣，追回略少於一半的損失。在資產追回以前，必須先自行墊付。\n\n第一道防線，是幣安設立的「用戶安全資產基金」，簡稱 SAFU。\n\n這筆基金以比特幣持有，原本有一套合理的財務邏輯。\n\n幣安的負債大多是加密資產。如果客戶存放的比特幣遭竊，幣安就欠客戶相同數量的比特幣。使用比特幣作為準備資產，可以降低價格波動造成的資產負債錯配。\n\n財務管理上，這叫自然避險。\n\n但這項設計有兩個前提：被偷的資產必須是比特幣，而且損失不能超過基金本身持有的數量。\n\n這一次，駭客拿走大量穩定幣與 Ether，連遭竊比特幣的價值都超過整筆基金。\n\n更麻煩的是，竊案引發比特幣下跌。\n\n根據《華爾街日報》，SAFU 基金的價值，剛好在幣安最需要它的時候減少約 1 億美元。\n\nBoyle 形容：「有點像一張用引火柴理賠的火險保單。」\n\n所幸幣安規模龐大，交易手續費收入足以讓公司自行負擔差額。\n\n案發當晚，推特上有人估計，扣除已凍結資產後，幣安的實際損失可能約為 10 億美元。\n\nCZ 回應，金額可能稍高一些，但公司會負責賠償。\n\n最後的缺口大約是這個估計的三倍。\n\n當晚，幣安主管在一間約百人的戰情室，與 FBI、特勤局共同處理危機。\n\n但隔天，CZ 卻在推特上跟馬斯克吵了起來。\n\n事情起因於一個帳號貼出 Sam Bankman-Fried 在 2022 年 FTX 破產前夕的推文截圖。當時 SBF 聲稱，FTX 擁有足夠資金支付所有客戶持有的資產。\n\n馬斯克回了一個表情符號，CZ 隨即要求馬斯克不要在這時候嘲諷，並希望他給予支持。\n\nCZ 還提醒馬斯克，幣安當年投入 5 億美元協助他收購 Twitter，因此取得的 SpaceX 股份，如今價值已超過 10 億美元。\n\n幣安共同執行長隨後加入討論，表示公司每年的營收足以支付損失，沒有必要出售 SpaceX 股份。\n\nCZ 也澄清自己沒有出售的打算。\n\n不過，Boyle 指出，這段對話仍然很值得玩味。\n\n幣安一方面提醒馬斯克，自己當年協助他收購 Twitter；另一方面又提到，手上持有價值超過 10 億美元的 SpaceX 股份。\n\nSpaceX 雖然估值龐大，實際能夠交易的流通股卻很少。因此，這種持股的潛在賣壓，可能比表面數字更有影響力。\n\n### 比特幣只跌 5%，上市的加密公司反而挨打\n\n週日幣安恢復提領後，客戶一共提走約 47 億美元。\n\n根據路透社，這只占幣安資產的約 3%。\n\n考量到竊案規模，部分分析師認為，這代表客戶信心大致維持住了。\n\n但 Boyle 提醒，同樣的數字究竟值得安心，還是應該感到憂心，很大程度取決於你讀的是哪家媒體。\n\n更令人意外的是比特幣的價格反應。\n\n2022 年 FTX 倒閉時，比特幣三天內下跌 19%。\n\n這次史上最大竊案發生後，比特幣大約下跌 5%，接著就維持相對平穩。\n\n部分原因是幣安正在市場上買進加密貨幣，補回遭竊資產。\n\n交易公司 Talos 的 Kelly Yi 告訴彭博，市場似乎將這次事件視為交易所營運層面的衝擊，沒有將其視為系統性危機。\n\n兩起事件的性質也有差異。\n\nFTX 涉及詐欺，而幣安遭遇的是外部竊盜，而且受害者有能力自行承擔損失。\n\n但現在就認定市場已經消化事件，可能還太早。\n\n去年 Bybit 遭竊後，比特幣最初也相當穩定，卻在一週後下跌了 14%。\n\n相較之下，上市加密公司的股價反應更為劇烈。\n\n駭客案隔天，Coinbase 下跌約 11%。不過，它剛公布的季度財報也顯示，交易營收下滑 44%，因此不能將跌幅全部歸因於竊案。\n\nCircle 在短短幾分鐘內凍結約 8 億美元贓款，股價仍下跌約 9%。\n\n結果是，加密資產本身受到的衝擊有限，中心化、受監管的上市公司卻遭到拋售。\n\nBoyle 推測，原因可能很簡單：幣安是一家私人公司。\n\n當投資人想在股市賣出加密產業的風險，卻無法直接賣出幣安股票，就只能選擇其他上市公司。\n\n### 沒有人追究的資安失誤\n\n對幣安的危機處理，主流報導多半給予正面評價。\n\n彭博報導，許多專家讚賞幣安反應迅速、持續發布更新，而且願意自行承擔損失。\n\n但 Boyle 覺得，這樣的評價忽略了一個更根本的問題。\n\n這場史上最大竊案之所以發生，是因為一位工程師把假面試作業下載到工作電腦，而幣安自己的內部 AI 工具，竟然能協助駭客接管其他工程師的筆電。\n\n共同執行長 Richard Teng 承認，這件事本來就不該發生。他也指出，幣安今年已經阻擋 57 次疑似來自北韓的攻擊。\n\n然而，成功擋下 57 次攻擊，並沒有改變這次攻擊造成的結果。\n\n更值得注意的是市場的態度。\n\n幣安發生如此嚴重的資安失誤，客戶卻只提走約 3% 的資產，比特幣價格也沒有出現持續崩跌。\n\n依 Donnelly 的說法，這次損失甚至超過整個加密保險市場的規模。\n\n換句話說，根本沒有一家保險公司能透過提高保費，反映幣安這次暴露出的風險。\n\nBoyle 認為，整個市場似乎沒有真正追究導致竊案發生的資安問題。\n\n「得到獎勵的，是一則快速安撫人心的推文，和一張大到付得起錯誤的資產負債表。」\n\n### 你和誰共用同一座金庫\n\nBoyle 最後引用電影《風雲人物》裡的一段經典情節。\n\n當存戶湧向銀行要求提款時，George Bailey 向大家解釋，存款並沒有全部放在銀行金庫。\n\n那些錢已經借給 Joe、Kennedy 一家、Macklin 太太，以及其他需要貸款的人。\n\n銀行的存款支撐著整個社區。\n\n但幣安的情況不同。\n\n幣安強調，客戶資產確實存放在錢包裡，可以隨時提領。這種設計讓資產更容易流動，也讓大量資產集中在少數線上錢包，成為駭客攻擊的目標。\n\nBoyle 因此提出一個問題：當你把錢放在幣安時，究竟是在跟誰共用這座金庫？\n\n《金融時報》去年取得一批幣安內部檔案，內容涉及 13 個可疑帳戶組成的網絡。\n\n其中一個帳戶屬於委內瑞拉卡拉卡斯的一名初級銀行職員，經手資金高達 9,300 萬美元。\n\n這個帳戶某天下午從卡拉卡斯登入，隔天凌晨 1 點半卻又從大阪登入。\n\n另一個帳戶由一名巴西男子開設，他後來因涉嫌非法黃金交易遭到起訴。\n\n男子開戶時使用一張有 20 年歷史的破舊身分證，出生日期難以辨識，證件照片與自拍照也不太相符，連電子郵件地址都使用女性名字。\n\n即使經過所謂的「強化盡職調查」，幣安仍把他的出生日期登錄錯誤，月收入只填寫 7,000，甚至沒有註明使用哪種貨幣。\n\n這個帳戶後來收到 1,600 萬美元。\n\n對這名男子家族的調查，起因是一位親戚攜帶 5 萬美元現金準備進入委內瑞拉，卻向邊境人員解釋，這筆錢是要跟一位中國熟人購買香腸。\n\nBoyle 對跨國香腸貿易沒有太多研究，但對這筆交易的規模顯然很有意見。\n\n今年 9 月，美國檢方又聲請扣押 6,100 萬美元，指控兩家中國公司 Hexa Whale Trading 與 Blessed Trust，透過幣安帳戶轉移資金。\n\n檢方認為，這些資金涉及一個處理約 15 億美元伊朗黑市石油收入的網絡。\n\n幣安則強調，這起案件並未對幣安提起訴訟，也沒有指控幣安存在不當行為。\n\n對《金融時報》的調查，幣安表示自己維持嚴格的合規控管，律師也認為任何指稱幣安蓄意協助非法活動的說法，都毫無根據。\n\n但《金融時報》指出，部分可疑活動發生在幣安 2023 年認罪之後，也發生在美國安排監察員監督其合規工作之後。\n\n所以，電影裡 George Bailey 的客戶，是跟社區鄰居共用銀行。\n\n幣安的客戶，則可能與涉嫌違反制裁的石油貿易商、經手巨額資金的初級銀行員，以及跨國現金香腸交易的相關人物，共用同一家交易所。\n\n這兩種金融體系的風險結構，顯然有很大差異。\n\n### 只有平壤還守著原來的夢\n\n過去 18 年，加密產業一直承諾要建立一套全新的金融體系。\n\n政府無法干預，交易不受審查，資產不能被凍結，也不需要信任傳統銀行。\n\n然而，這場史上最大竊案，讓產業不得不重新依賴許多原本想要擺脫的制度。\n\n幣安暫停客戶提領，利用公司資產負債表承擔損失，再由 Tether 和 Circle 凍結贓款，甚至透過宣告代幣失效與重新發行，實質逆轉部分交易結果。\n\nBoyle 更進一步主張，如今的加密產業，可能比它試圖取代的傳統金融體系更加集中。\n\n傳統金融市場依國家分割，存在數十個監管機關、數百家交易所與數千家銀行。\n\n反觀加密產業，最大交易所的規模約為第二名六倍，市場集中在少數巨鯨投資人手中，而加密世界裡大部分的美元穩定幣，則由兩家公司發行。\n\n當危機發生，整個產業仍然得依賴中心化機構決定誰能提款、誰的代幣有效，以及誰來承擔損失。\n\n但 Boyle 認為，至少還有一位參與者始終忠於加密貨幣的原始願景。\n\n北韓自行保管金鑰，堅持不可逆的交易，除了信任的洗錢管道之外，不依賴任何第三方，也完全沒有急著出售手中的資產。\n\n對去中心化、抗審查與規避制裁的理念，北韓展現了其他市場參與者難以企及的堅持。\n\n他最後留下這句話：\n\n「在平壤某處，去中心化、抗審查、不怕制裁的金融體系之夢仍然活著。只是不完全在它的發明者設想的地方。」\n\n本文根據 YouTube 影片內容由 AI 整理生成，僅供參考。",
       "insights": [],
       "content_mode": "full_text_import",
-      "source_id": "S1MmpPF6fx"
+      "source_id": "rJ6Rf42TGg"
     },
     "backfill::a16z::p_nasas_artemis_ii_mission": {
       "title": "NASA’s Artemis II Mission / NASA 阿提米絲 2 號任務：重返月球的關鍵里程碑與太空產業新局",
@@ -565,28 +494,34 @@
   "deep_analysis_force_regenerated_at": "2026-05-04T18:47:10",
   "deep_analysis_updates": [
     {
-      "source": "Stratechery",
-      "title": "Stratechery：2026 期中選舉後的科技轉局與 SaaS 產業的真相",
-      "article_date": "2026-11-06",
-      "url": "https://stratechery.com/2026/falling-leaves-and-stocks/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2ZhbGxpbmctbGVhdmVzLWFuZC1zdG9ja3MvIl19LCJleHAiOjE3OTY2MDE3NjgsImlhdCI6MTc5NDAwOTc2OCwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTlhMWVjOS0wNzFhLTdlZjMtYTAzNy1hMDE5OGVmOWE5YTQiLCJ1c2UiOiJhY2Nlc3MifQ.3uhyezU2sPB-DepufBfACibTCurghz0L1_aNqN8tl9iyitNoKmZ2pqoRYQE2XWR9kaoVATPrrr0UOrb2_jBQyw"
+      "source": "Culpium",
+      "title": "Jensen Huang is in the DC Doghouse. And How. / 黃仁勳成為華府冷宮常客：背後的諜報疑雲與政策角力",
+      "article_date": "2026-11-07",
+      "url": "https://www.culpium.com/p/jensen-huang-is-in-the-dc-doghouse"
+    },
+    {
+      "source": "SemiAnalysis",
+      "title": "We Visited China’s Stargate in Inner Mongolia / 直擊內蒙古：中國版的 AI 巨型基地「Galaxy」",
+      "article_date": "2026-11-07",
+      "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner"
     },
     {
       "source": "a16z",
-      "title": "Defense in Depth, Rebuilt for Machine Speed / AI 時代的深度防禦：當攻擊速度超越人類修補極限",
-      "article_date": "2026-11-06",
-      "url": "https://www.a16z.news/p/defense-in-depth-rebuilt-for-machine"
+      "title": "Hip-Hop Has No Social Security. Paid in Full Is Trying to Change That. / 嘻哈音樂缺乏社會安全保障：Paid in Full 基金會正致力改變現狀",
+      "article_date": "2026-11-07",
+      "url": "https://www.a16z.news/p/hip-hop-has-no-social-security-paid"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini) / 為什麼產品經理在 AI 時代突然變得空前重要",
+      "article_date": "2026-11-08",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier"
     },
     {
       "source": "HackMD：停損王SLKing",
-      "title": "測過 147 個 AI 助理，最大的恐懼還是信任",
-      "article_date": "2026-11-06",
-      "url": "https://hackmd.io/S1MmpPF6fx"
-    },
-    {
-      "source": "馬斯克帝國觀察",
-      "title": "【馬斯克帝國週報】#115 德州翻藍 AI 發展添變數 + AI 打電話成功殺價",
-      "article_date": "2026-11-06",
-      "url": "https://muskempire0628.substack.com/p/115-ai-ai-20261106"
+      "title": "史上最大竊案之後，最相信加密貨幣的只剩北韓",
+      "article_date": "2026-11-08",
+      "url": "https://hackmd.io/rJ6Rf42TGg"
     }
   ]
 }
